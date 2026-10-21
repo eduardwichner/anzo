@@ -1,0 +1,36 @@
+id: fr-b1-t06
+kind: dialogue
+title: { nl: Een kamer huren, en: "Renting a room" }
+topic: Le logement (un étudiant visite une chambre à louer)
+level: B1
+speakers: { A: { name: Madame Martin }, B: { name: Antoine } }
+turns:
+  - { id: fr-b1-t06-s01, speaker: A, target: "Bonjour, vous êtes Antoine ? Entrez, je vais vous montrer la chambre.", native: { nl: "Goedendag, bent u Antoine? Kom binnen, ik zal u de kamer laten zien.", en: "Hello, are you Antoine? Come in, I'll show you the room." } }
+  - { id: fr-b1-t06-s02, speaker: B, target: "Merci, madame. Elle est très claire ! Et le bâtiment semble tranquille.", native: { nl: "Dank u, mevrouw. Hij is heel licht! En het gebouw lijkt rustig.", en: "Thank you. It's very bright! And the building seems quiet." } }
+  - { id: fr-b1-t06-s03, speaker: A, target: "Oui, les autres habitants sont des personnes âgées. Moi, j'y habite depuis vingt ans, et il n'y a jamais de bruit après dix heures.", native: { nl: "Ja, de andere bewoners zijn oudere mensen. Ik woon er al twintig jaar, en er is nooit lawaai na tien uur.", en: "Yes, the other residents are elderly people. I've lived here for twenty years, and there's never any noise after ten o'clock." } }
+  - { id: fr-b1-t06-s04, speaker: B, target: "Parfait, j'ai besoin de calme pour étudier. Le loyer, c'est combien ?", native: { nl: "Perfect, ik heb rust nodig om te studeren. Hoeveel is de huur?", en: "Perfect, I need peace and quiet to study. How much is the rent?" } }
+  - { id: fr-b1-t06-s05, speaker: A, target: "400 euros par mois, avec le chauffage.", native: { nl: "400 euro per maand, verwarming inbegrepen.", en: "400 euros a month, including heating." } }
+  - { id: fr-b1-t06-s06, speaker: B, target: "Et la cuisine ? Elle est équipée ?", native: { nl: "En de keuken? Is die uitgerust?", en: "And the kitchen? Is it equipped?" } }
+  - { id: fr-b1-t06-s07, speaker: A, target: "Oui, il y a un frigo, un four et un lave-vaisselle. La machine à laver est à la cave.", native: { nl: "Ja, er is een koelkast, een oven en een vaatwasser. De wasmachine staat in de kelder.", en: "Yes, there's a fridge, an oven and a dishwasher. The washing machine is in the cellar." } }
+  - { id: fr-b1-t06-s08, speaker: B, target: "Très bien. Est-ce que je peux mettre un deuxième fauteuil ici ?", native: { nl: "Heel goed. Mag ik hier een tweede fauteuil neerzetten?", en: "Very good. Can I put a second armchair here?" } }
+  - { id: fr-b1-t06-s09, speaker: A, target: "Bien sûr, vous pouvez aménager la chambre comme vous voulez. Mais je vous demande de faire le ménage chaque semaine.", native: { nl: "Natuurlijk, u mag de kamer inrichten zoals u wilt. Maar ik vraag u wel om elke week schoon te maken.", en: "Of course, you can arrange the room as you like. But I do ask you to clean it every week." } }
+  - { id: fr-b1-t06-s10, speaker: B, target: "Pas de problème. Je ne suis pas désordonné, je vous le promets !", native: { nl: "Geen probleem. Ik ben niet slordig, dat beloof ik u!", en: "No problem. I'm not untidy, I promise you!" } }
+  - { id: fr-b1-t06-s11, speaker: A, target: "Alors, si la chambre vous plaît, vous pouvez revenir lundi avec vos parents.", native: { nl: "Als de kamer u bevalt, kunt u maandag met uw ouders terugkomen.", en: "So, if you like the room, you can come back on Monday with your parents." } }
+  - { id: fr-b1-t06-s12, speaker: B, target: "Elle me plaît beaucoup. À lundi, madame, et merci !", native: { nl: "Hij bevalt me heel goed. Tot maandag, mevrouw, en bedankt!", en: "I like it very much. See you on Monday, and thank you!" } }
+items: [fr.batiment, fr.tranquille, fr.habitant, fr.bruit, fr.loyer, fr.chauffage, fr.equiper, fr.lave-vaisselle, fr.machine-a-laver, fr.fauteuil, fr.amenager, fr.menage, fr.desordonne, fr.age-adj, fr.sembler, fr.promettre, fr.probleme]
+questions:
+  - { id: fr-b1-t06-q1, type: mc, question: "Pourquoi Antoine aime-t-il le bâtiment ?", options: ["Parce qu'il est calme.", "Parce qu'il est neuf.", "Parce qu'il est près de l'université."], correct: 0 }
+  - { id: fr-b1-t06-q2, type: true_false_notgiven, statement: "Le chauffage n'est pas compris dans le loyer.", answer: false }
+  - { id: fr-b1-t06-q3, type: true_false_notgiven, statement: "Le soir, il y a souvent du bruit dans le bâtiment.", answer: false }
+  - { id: fr-b1-t06-q4, type: true_false_notgiven, statement: "La machine à laver n'est pas dans la cuisine.", answer: true }
+  - { id: fr-b1-t06-q5, type: mc, question: "Qu'est-ce que Madame Martin demande à Antoine ?", options: ["De faire le ménage chaque semaine.", "De ne pas mettre de fauteuil.", "De payer le loyer tout de suite."], correct: 0 }
+listeningQuestions:
+  - { id: fr-b1-t06-l1, type: mc, question: "Combien coûte la chambre par mois ?", options: ["400 euros.", "300 euros.", "500 euros."], correct: 0 }
+  - { id: fr-b1-t06-l2, type: true_false_notgiven, statement: "Antoine va revenir lundi.", answer: true }
+cloze:
+  - { sentence: fr-b1-t06-s02, word: semble, kind: finite_verb, hint: { nl: "sembler (présent)", en: "sembler (present)" } }
+  - { sentence: fr-b1-t06-s03, word: sont, kind: finite_verb, hint: { nl: "être (présent)", en: "être (present)" } }
+  - { sentence: fr-b1-t06-s07, word: est, kind: finite_verb, hint: { nl: "être (présent)", en: "être (present)" } }
+  - { sentence: fr-b1-t06-s09, word: demande, kind: finite_verb, hint: { nl: "demander (présent)", en: "demander (present)" } }
+  - { sentence: fr-b1-t06-s11, word: pouvez, kind: finite_verb, hint: { nl: "pouvoir (présent)", en: "pouvoir (present)" } }
+orderable: true

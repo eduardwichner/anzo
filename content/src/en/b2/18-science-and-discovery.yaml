@@ -1,0 +1,68 @@
+id: en-b2-u18
+title: { nl: Wetenschap en ontdekkingen }
+icon: science
+topic: How science works (hypothesis, experiment, analysis), medicine and the body, space; the future in the past (was going to, would, was about to)
+vocabulary:
+  - { target: hypothesis, native: { nl: hypothese }, pos: noun, noBlank: true }
+  - { target: theory, native: { nl: theorie }, pos: noun, noBlank: true }
+  - { target: proof, native: { nl: "bewijs (dat iets waar is)" }, pos: noun, avoid: [en.evidence], noBlank: true }
+  - { target: analyse, native: { nl: analyseren }, pos: verb }
+  - { target: analysis, native: { nl: "(de) analyse" }, pos: noun }
+  - { target: sample, native: { nl: "staal, monster" }, pos: noun }
+  - { target: observation, native: { nl: "waarneming, observatie" }, pos: noun }
+  - { target: precise, native: { nl: "nauwkeurig, precies" }, pos: adjective, avoid: [en.accurate] }
+  - { target: findings, native: { nl: "bevindingen, resultaten" }, pos: noun }
+  - { target: journal, native: { nl: "(vak)tijdschrift" }, pos: noun }
+  - { target: chemical, native: { nl: "chemische stof" }, pos: noun }
+  - { target: substance, native: { nl: stof }, pos: noun }
+  - { target: cell, native: { nl: cel }, pos: noun }
+  - { target: gene, native: { nl: gen }, pos: noun }
+  - { target: evolution, native: { nl: evolutie }, pos: noun, noBlank: true }
+  - { target: telescope, native: { nl: telescoop }, pos: noun, noBlank: true }
+  - { target: galaxy, native: { nl: "sterrenstelsel" }, pos: noun }
+  - { target: gravity, native: { nl: zwaartekracht }, pos: noun }
+  - { target: orbit, native: { nl: "baan (rond een planeet)" }, pos: noun }
+  - { target: satellite, native: { nl: satelliet }, pos: noun, noBlank: true }
+  - { target: launch, native: { nl: "lanceren" }, pos: verb }
+  - { target: mission, native: { nl: missie }, pos: noun, noBlank: true }
+  - { target: oxygen, native: { nl: zuurstof }, pos: noun }
+  - { target: microscope, native: { nl: microscoop }, pos: noun, noBlank: true }
+  - { target: bacteria, native: { nl: bacteriën }, pos: noun }
+  - { target: vaccine, native: { nl: vaccin }, pos: noun, noBlank: true }
+  - { target: phenomenon, native: { nl: "verschijnsel, fenomeen" }, pos: noun }
+sentences:
+  - { id: s01, target: "The students tested their hypothesis with a simple experiment.", native: { nl: "De leerlingen testten hun hypothese met een eenvoudig experiment." }, items: [en.hypothesis] }
+  - { id: s02, target: "Darwin's theory changed the way we see nature.", native: { nl: "De theorie van Darwin veranderde de manier waarop we naar de natuur kijken." }, items: [en.theory] }
+  - { id: s03, target: "There is no proof that the drink makes you more intelligent.", native: { nl: "Er is geen bewijs dat het drankje je intelligenter maakt." }, items: [en.proof], form: { word: proof, stem: prove } }
+  - { id: s04, target: "A computer analyses the data in a few seconds.", native: { nl: "Een computer analyseert de gegevens in een paar seconden." }, items: [en.analyse] }
+  - { id: s05, target: "The analysis of the results took several months.", native: { nl: "De analyse van de resultaten duurde verschillende maanden." }, items: [en.analysis], form: { word: analysis, stem: analyse } }
+  - { id: s06, target: "The nurse took a blood sample.", native: { nl: "De verpleegkundige nam een bloedstaal." }, items: [en.sample] }
+  - { id: s07, target: "Careful observation is the beginning of all science.", native: { nl: "Zorgvuldige waarneming is het begin van elke wetenschap." }, items: [en.observation], form: { word: observation, stem: observe } }
+  - { id: s08, target: "For this experiment you have to be very precise.", native: { nl: "Voor dit experiment moet je heel nauwkeurig zijn." }, items: [en.precise] }
+  - { id: s09, target: "The scientists published their findings last week.", native: { nl: "De wetenschappers publiceerden vorige week hun bevindingen." }, items: [en.findings], acceptAlso: ["Last week the scientists published their findings."] }
+  - { id: s10, target: "The article appeared in a famous science journal.", native: { nl: "Het artikel verscheen in een bekend wetenschappelijk tijdschrift." }, items: [en.journal] }
+  - { id: s11, target: "Some chemicals in cleaning products can be dangerous.", native: { nl: "Sommige chemische stoffen in schoonmaakproducten kunnen gevaarlijk zijn." }, items: [en.chemical] }
+  - { id: s12, target: "Water is a substance that can be a liquid, a gas or ice.", native: { nl: "Water is een stof die vloeibaar, gasvormig of ijs kan zijn." }, items: [en.substance] }
+  - { id: s13, target: "The human body is made up of a huge number of cells.", native: { nl: "Het menselijk lichaam bestaat uit een enorm aantal cellen." }, items: [en.cell] }
+  - { id: s14, target: "The colour of your eyes depends on your genes.", native: { nl: "De kleur van je ogen hangt af van je genen." }, items: [en.gene] }
+  - { id: s15, target: "Evolution explains how species change over millions of years.", native: { nl: "Evolutie verklaart hoe soorten over miljoenen jaren veranderen." }, items: [en.evolution] }
+  - { id: s16, target: "With a telescope you can see the mountains on the moon.", native: { nl: "Met een telescoop kun je de bergen op de maan zien." }, items: [en.telescope], acceptAlso: ["You can see the mountains on the moon with a telescope."] }
+  - { id: s17, target: "Our galaxy contains more stars than anyone can count.", native: { nl: "Ons sterrenstelsel bevat meer sterren dan iemand kan tellen." }, items: [en.galaxy] }
+  - { id: s18, target: "Gravity keeps our feet on the ground.", native: { nl: "De zwaartekracht houdt onze voeten op de grond." }, items: [en.gravity] }
+  - { id: s19, target: "The moon is in orbit around the earth.", native: { nl: "De maan draait in een baan rond de aarde." }, items: [en.orbit] }
+  - { id: s20, target: "Satellites help us to forecast the weather.", native: { nl: "Satellieten helpen ons het weer te voorspellen." }, items: [en.satellite] }
+  - { id: s21, target: "The rocket will be launched next month.", native: { nl: "De raket wordt volgende maand gelanceerd." }, items: [en.launch] }
+  - { id: s22, target: "The aim of the mission is to find water on Mars.", native: { nl: "Het doel van de missie is water op Mars vinden." }, items: [en.mission] }
+  - { id: s23, target: "Plants produce oxygen during the day.", native: { nl: "Planten maken overdag zuurstof aan." }, items: [en.oxygen], acceptAlso: ["During the day plants produce oxygen."] }
+  - { id: s24, target: "Under the microscope you can see the bacteria moving.", native: { nl: "Onder de microscoop kun je de bacteriën zien bewegen." }, items: [en.microscope, en.bacteria] }
+  - { id: s25, target: "A new vaccine can take years to develop.", native: { nl: "Het kan jaren duren om een nieuw vaccin te ontwikkelen." }, items: [en.vaccine] }
+  - { id: s26, target: "The northern lights are a natural phenomenon.", native: { nl: "Het noorderlicht is een natuurverschijnsel." }, items: [en.phenomenon] }
+  - { id: s27, target: "The scientists were going to publish their findings, but they found a mistake.", native: { nl: "De wetenschappers zouden hun bevindingen publiceren, maar ze vonden een fout." }, items: [en.findings], build: true }
+  - { id: s28, target: "Nobody knew then that the discovery would change medicine.", native: { nl: "Niemand wist toen dat de ontdekking de geneeskunde zou veranderen." }, items: [en.observation], build: true }
+  - { id: s29, target: "The rocket was about to leave when the mission was cancelled.", native: { nl: "De raket stond op het punt te vertrekken toen de missie werd geannuleerd." }, items: [en.mission], build: true }
+  - { id: s30, target: "She analysed hundreds of samples for her research.", native: { nl: "Ze analyseerde honderden stalen voor haar onderzoek." }, items: [en.sample], finite: { word: analysed, hint: { nl: "analyse (verleden tijd)" } } }
+transforms:
+  - { id: x01, from: "We planned to visit the museum, but it was closed.", key: going, gapped: "We ___ the museum, but it was closed.", answers: ["were going to visit", "were going to go to"], items: [en.mission] }
+  - { id: x02, from: "The rocket was going to leave in a few seconds.", key: about, gapped: "The rocket ___ leave.", answers: ["was about to", "was just about to"], items: [en.launch] }
+  - { id: x03, from: "Scientists are studying the results carefully.", key: analysing, gapped: "Scientists ___ carefully.", answers: ["are analysing the results"], items: [en.analyse] }
+texts: [en-b2-t18]

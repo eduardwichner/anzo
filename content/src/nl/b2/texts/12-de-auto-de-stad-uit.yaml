@@ -1,0 +1,47 @@
+id: nl-b2-t12
+kind: dialogue
+title: { en: Cars out of the city? }
+topic: Mobility (a debate on local radio between a city councillor and a shop owner)
+level: B2
+speakers: { A: { name: Marc }, B: { name: Femke } }
+turns:
+  - { id: nl-b2-t12-s01, speaker: A, target: "Vanaf volgend jaar wil de stad de auto uit het centrum halen. Alleen bewoners, bussen en leveringen mogen er nog rijden.", native: { en: "From next year the city wants to take cars out of the centre. Only residents, buses and deliveries will still be allowed to drive there." } }
+  - { id: nl-b2-t12-s02, speaker: B, target: "En wat doet u dan met de mensen van buiten de stad? Mijn klanten komen bijna allemaal met de auto.", native: { en: "And what do you do about the people from outside the city, then? Nearly all my customers come by car." } }
+  - { id: nl-b2-t12-s03, speaker: A, target: "Die kunnen aan de rand van de stad parkeren. Van daaruit rijdt er elke vijf minuten een gratis bus naar het centrum.", native: { en: "They can park on the edge of the city. From there a free bus runs to the centre every five minutes." } }
+  - { id: nl-b2-t12-s04, speaker: B, target: "Elke vijf minuten, dat belooft de stad altijd. Maar ik zie nu al bussen die een kwartier te laat zijn.", native: { en: "Every five minutes, the city always promises that. But I already see buses that are a quarter of an hour late." } }
+  - { id: nl-b2-t12-s05, speaker: A, target: "Daarom leggen we ook een eigen busbaan aan. Dan hoeft de bus niet meer in de file te staan.", native: { en: "That's why we are also building a dedicated bus lane. Then the bus won't have to sit in traffic any more." } }
+  - { id: nl-b2-t12-s06, speaker: B, target: "Dat klinkt mooi. Maar een oudere klant met zware boodschappen gaat echt geen bus nemen.", native: { en: "That sounds nice. But an older customer with heavy shopping really isn't going to take a bus." } }
+  - { id: nl-b2-t12-s07, speaker: A, target: "Voor wie slecht te been is, komen er extra parkeerplaatsen vlak bij de winkelstraten.", native: { en: "For people who have trouble walking there will be extra parking spaces right next to the shopping streets." } }
+  - { id: nl-b2-t12-s08, speaker: B, target: "Toch ben ik bang dat de mensen gewoon naar het grote winkelcentrum buiten de stad zullen gaan.", native: { en: "Still, I'm afraid people will simply go to the big shopping centre outside the city." } }
+  - { id: nl-b2-t12-s09, speaker: A, target: "In andere steden zien we het omgekeerde. Waar minder auto's rijden, komen meer mensen te voet of met de fiets winkelen.", native: { en: "In other cities we see the opposite. Where fewer cars drive, more people come shopping on foot or by bike." } }
+  - { id: nl-b2-t12-s10, speaker: B, target: "Misschien in de zomer. Maar wie fietst er in november in de regen naar de bakker?", native: { en: "Maybe in summer. But who cycles to the baker's in the rain in November?" } }
+  - { id: nl-b2-t12-s11, speaker: A, target: "Meer mensen dan u denkt. En vergeet de luchtvervuiling niet: in sommige straten is het fijnstof gevaarlijk voor kinderen.", native: { en: "More people than you think. And don't forget air pollution: in some streets the fine dust is dangerous for children." } }
+  - { id: nl-b2-t12-s12, speaker: B, target: "Dat begrijp ik. Ik weiger ook niet om te helpen. Ik vraag u alleen om de winkeliers niet te vergeten.", native: { en: "I understand that. And I'm not refusing to help. I only ask you not to forget the shopkeepers." } }
+  - { id: nl-b2-t12-s13, speaker: A, target: "Dat is terecht. Daarom organiseren we volgende maand een overleg met alle handelaars.", native: { en: "That's fair. That's why we're organising a meeting with all the traders next month." } }
+  - { id: nl-b2-t12-s14, speaker: B, target: "Goed. Dan probeer ik er te zijn, maar ik verwacht wel dat u echt luistert.", native: { en: "Good. Then I'll try to be there, but I do expect you to really listen." } }
+  - { id: nl-b2-t12-s15, speaker: A, target: "Dat beloof ik. Het plan is nog niet klaar, en we willen het samen met de mensen uit de stad maken.", native: { en: "I promise. The plan isn't finished yet, and we want to make it together with the people of the city." } }
+  - { id: nl-b2-t12-s16, speaker: B, target: "Dan zie ik u daar. En ik kom met de fiets, beloofd.", native: { en: "Then I'll see you there. And I'll come by bike, promise." } }
+glossary:
+  - { word: leveringen, native: { en: "deliveries (de levering)" } }
+  - { word: rand, native: { en: "edge, outskirts" } }
+  - { word: busbaan, native: { en: bus lane } }
+  - { word: te been, native: { en: "(slecht te been zijn: to have trouble walking)" } }
+  - { word: omgekeerde, native: { en: "the opposite, the reverse" } }
+  - { word: winkeliers, native: { en: "shopkeepers (de winkelier)" } }
+  - { word: handelaars, native: { en: "traders, shopkeepers (de handelaar)" } }
+items: [nl.parkeerplaats, nl.aanleggen, nl.luchtvervuiling, nl.fijnstof, nl.alternatief, nl.vervoer]
+questions:
+  - { id: nl-b2-t12-q1, type: summary, options: ["Marc legt het plan uit om de auto uit het centrum te halen; Femke is bezorgd over haar klanten, maar wil helpen.", "Marc legt het plan uit om de auto uit het centrum te halen; Femke vindt het plan slecht en weigert om te helpen.", "Femke wil een nieuw winkelcentrum buiten de stad openen."], correct: 0 }
+  - { id: nl-b2-t12-q2, type: mc, question: "Hoe komen mensen van buiten de stad volgens Marc naar het centrum?", options: ["Ze parkeren aan de rand en nemen een gratis bus.", "Ze mogen met de auto tot in het centrum rijden.", "Ze nemen de trein."], correct: 0 }
+  - { id: nl-b2-t12-q3, type: true_false_notgiven, statement: "Femke heeft een winkel met kleren in het centrum.", answer: not_given }
+  - { id: nl-b2-t12-q4, type: true_false_notgiven, statement: "Femke weigert om naar het overleg te komen.", answer: false }
+  - { id: nl-b2-t12-q5, type: true_false_notgiven, statement: "Volgens Femke zijn sommige bussen nu al een kwartier te laat.", answer: true }
+listeningQuestions:
+  - { id: nl-b2-t12-l1, type: complete, statement: "Volgende maand is er een overleg met alle ___.", answers: [handelaars] }
+  - { id: nl-b2-t12-l2, type: mc, question: "Hoe komt de eigenaar van de winkel naar het overleg?", options: ["Met de fiets.", "Met de auto.", "Met de bus."], correct: 0 }
+openCloze:
+  - { sentence: nl-b2-t12-s05, word: te }
+  - { sentence: nl-b2-t12-s08, word: zullen, acceptAlso: [willen] }
+  - { sentence: nl-b2-t12-s12, word: om }
+  - { sentence: nl-b2-t12-s11, word: dan }
+orderable: false

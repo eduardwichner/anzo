@@ -1,0 +1,43 @@
+id: fr-a2-u03
+title: { nl: Op reis, en: "Travelling" }
+icon: travel
+topic: Le voyage; les vacances
+vocabulary:
+  - { target: le voyage, native: { nl: de reis, en: "journey, trip" }, pos: noun, gender: m }
+  - { target: voyager, native: { nl: reizen, en: "to travel" }, pos: verb }
+  - { target: la valise, native: { nl: de koffer, en: "suitcase" }, pos: noun, gender: f }
+  - { target: les bagages, native: { nl: de bagage, en: "luggage" }, pos: noun, gender: m }
+  - { target: le sac à dos, native: { nl: de rugzak, en: "rucksack" }, pos: noun, gender: m }
+  - { target: la tente, native: { nl: de tent, en: "tent" }, pos: noun, gender: f }
+  - { target: le camping, native: { nl: de camping, en: "campsite" }, pos: noun, gender: m }
+  - { target: "l'hôtel", native: { nl: het hotel, en: "hotel" }, pos: noun, gender: m }
+  - { target: le billet, native: { nl: het kaartje (voor de trein of het vliegtuig), en: "ticket (for a train or a plane)" }, pos: noun, gender: m }
+  - { target: le ticket, native: { nl: het kaartje (voor de bus of de metro), en: "ticket (for a bus or the metro)" }, pos: noun, gender: m, avoid: [fr.billet] }
+  - { target: le passeport, native: { nl: het paspoort, en: "passport" }, pos: noun, gender: m }
+  - { target: le plan, native: { nl: de plattegrond, en: "map (of a town)" }, pos: noun, gender: m }
+  - { target: le souvenir, native: { nl: "het souvenir, de herinnering", en: "souvenir, memory" }, pos: noun, gender: m }
+  - { target: "l'aéroport", native: { nl: het vliegveld, en: "airport" }, pos: noun, gender: m }
+  - { target: "l'arrivée", native: { nl: de aankomst, en: "arrival" }, pos: noun, gender: f }
+  - { target: la carte postale, native: { nl: de ansichtkaart, en: "postcard" }, pos: noun, gender: f }
+sentences:
+  - { id: s01, target: "Le voyage en train est très long.", native: { nl: "De treinreis is heel lang.", en: "The train journey is very long." }, items: [fr.voyage] }
+  - { id: s02, target: "Mon papa voyage beaucoup pour son travail.", native: { nl: "Mijn papa reist veel voor zijn werk.", en: "My dad travels a lot for his work." }, items: [fr.voyager] }
+  - { id: s03, target: "Nous voyagerons toute la journée.", native: { nl: "We reizen de hele dag.", en: "We'll travel all day." }, items: [fr.voyager] }
+  - { id: s04, target: "Mets un pull chaud dans ta valise.", native: { nl: "Doe een warme trui in je koffer.", en: "Put a warm jumper in your suitcase." }, items: [fr.valise] }
+  - { id: s05, target: "Mes bagages sont très lourds.", native: { nl: "Mijn bagage is heel zwaar.", en: "My luggage is very heavy." }, items: [fr.bagages] }
+  - { id: s06, target: "Mettez un sandwich dans votre sac à dos !", native: { nl: "Doe een broodje in jullie rugzak!", en: "Everyone, put a sandwich in your rucksack!" }, items: [fr.sac-a-dos] }
+  - { id: s07, target: "Nous avons dormi sous la tente.", native: { nl: "We hebben in de tent geslapen.", en: "We slept in the tent." }, items: [fr.tente] }
+  - { id: s08, target: "Cet été, nous allons au camping.", native: { nl: "Deze zomer gaan we naar de camping.", en: "This summer we're going to a campsite." }, items: [fr.camping] }
+  - { id: s09, target: "Notre hôtel est près de la plage.", native: { nl: "Ons hotel ligt dicht bij het strand.", en: "Our hotel is near the beach." }, items: [fr.hotel] }
+  - { id: s10, target: "Papa a acheté les billets de train.", native: { nl: "Papa heeft de treinkaartjes gekocht.", en: "Dad bought the train tickets." }, items: [fr.billet] }
+  - { id: s11, target: "Un ticket de métro, s'il vous plaît.", native: { nl: "Een metrokaartje, alstublieft.", en: "A metro ticket, please." }, items: [fr.ticket] }
+  - { id: s12, target: "N'oublie pas ton passeport !", native: { nl: "Vergeet je paspoort niet!", en: "Don't forget your passport!" }, items: [fr.passeport] }
+  - { id: s13, target: "Regarde le plan de la ville.", native: { nl: "Kijk op de plattegrond van de stad.", en: "Look at the map of the town." }, items: [fr.plan] }
+  - { id: s14, target: "J'ai acheté un souvenir pour ma grand-mère.", native: { nl: "Ik heb een souvenir voor mijn oma gekocht.", en: "I bought a souvenir for my grandmother." }, items: [fr.souvenir] }
+  - { id: s15, target: "L'avion arrive à l'aéroport à midi.", native: { nl: "Het vliegtuig komt om twaalf uur aan op het vliegveld.", en: "The plane arrives at the airport at midday." }, items: [fr.aeroport] }
+  - { id: s16, target: "À l'arrivée, nous avons mangé une glace.", native: { nl: "Bij aankomst hebben we een ijsje gegeten.", en: "On arrival, we had an ice cream." }, items: [fr.arrivee] }
+  - { id: s17, target: "J'écris une carte postale à mes amis.", native: { nl: "Ik schrijf een ansichtkaart aan mijn vrienden.", en: "I'm writing a postcard to my friends." }, items: [fr.carte-postale] }
+lessons:
+  - { id: l01, title: { nl: Koffer pakken, en: "Packing a suitcase" }, vocab: [fr.voyage, fr.voyager, fr.valise, fr.bagages, fr.sac-a-dos, fr.passeport] }
+  - { id: l02, title: { nl: Op vakantie, en: "On holiday" }, vocab: [fr.tente, fr.camping, fr.hotel, fr.plan, fr.souvenir, fr.carte-postale] }
+  - { id: l03, title: { nl: Naar het vliegveld, en: "Off to the airport" }, vocab: [fr.billet, fr.ticket, fr.aeroport, fr.arrivee] }

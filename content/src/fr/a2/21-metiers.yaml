@@ -1,0 +1,38 @@
+id: fr-a2-u21
+title: { nl: Beroepen en familie, en: "Jobs and family" }
+icon: work
+topic: Les métiers; la famille
+vocabulary:
+  - { target: "l'acteur", native: { nl: de acteur, en: "actor" }, pos: noun, gender: m }
+  - { target: "l'artiste", native: { nl: de kunstenaar, en: "artist" }, pos: noun, gender: m }
+  - { target: le coiffeur, native: { nl: de kapper, en: "hairdresser" }, pos: noun, gender: m }
+  - { target: "l'employé", native: { nl: de medewerker, en: "employee, member of staff" }, pos: noun, gender: m }
+  - { target: "l'ingénieur", native: { nl: de ingenieur, en: "engineer" }, pos: noun, gender: m }
+  - { target: le journaliste, native: { nl: de journalist, en: "journalist" }, pos: noun, gender: m }
+  - { target: le mécanicien, native: { nl: de monteur, en: "mechanic" }, pos: noun, gender: m }
+  - { target: le photographe, native: { nl: de fotograaf, en: "photographer" }, pos: noun, gender: m }
+  - { target: le pilote, native: { nl: de piloot, en: "pilot" }, pos: noun, gender: m }
+  - { target: le roi, native: { nl: de koning, en: "king" }, pos: noun, gender: m }
+  - { target: la reine, native: { nl: de koningin, en: "queen" }, pos: noun, gender: f }
+  - { target: le mari, native: { nl: de echtgenoot, en: "husband" }, pos: noun, gender: m }
+  - { target: le fils, native: { nl: de zoon, en: "son" }, pos: noun, gender: m }
+  - { target: le jumeau, native: { nl: de tweelingbroer, en: "twin brother, twin" }, pos: noun, gender: m }
+  - { target: marié, native: { nl: getrouwd, en: "married" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Mon acteur préféré joue dans ce film.", native: { nl: "Mijn lievelingsacteur speelt in deze film.", en: "My favourite actor is in this film." }, items: [fr.acteur] }
+  - { id: s02, target: "L'artiste peint un grand tableau.", native: { nl: "De kunstenaar schildert een groot schilderij.", en: "The artist is painting a big picture." }, items: [fr.artiste] }
+  - { id: s03, target: "Je vais chez le coiffeur samedi.", native: { nl: "Ik ga zaterdag naar de kapper.", en: "I'm going to the hairdresser's on Saturday." }, items: [fr.coiffeur], acceptAlso: ["Je vais samedi chez le coiffeur."] }
+  - { id: s04, target: "L'employé de la bibliothèque m'aide à choisir un livre.", native: { nl: "De medewerker van de bibliotheek helpt me een boek kiezen.", en: "A member of staff at the library is helping me choose a book." }, items: [fr.employe] }
+  - { id: s05, target: "Ma tante est ingénieur.", native: { nl: "Mijn tante is ingenieur.", en: "My aunt is an engineer." }, items: [fr.ingenieur] }
+  - { id: s06, target: "La journaliste écrit un article.", native: { nl: "De journaliste schrijft een artikel.", en: "The journalist is writing an article." }, items: [fr.journaliste] }
+  - { id: s07, target: "Le mécanicien a réparé la voiture.", native: { nl: "De monteur heeft de auto gerepareerd.", en: "The mechanic repaired the car." }, items: [fr.mecanicien] }
+  - { id: s08, target: "Le photographe prend une photo de la classe.", native: { nl: "De fotograaf maakt een klassenfoto.", en: "The photographer is taking a photo of the class." }, items: [fr.photographe] }
+  - { id: s09, target: "Le pilote est dans l'avion.", native: { nl: "De piloot zit in het vliegtuig.", en: "The pilot is on the plane." }, items: [fr.pilote] }
+  - { id: s10, target: "Le roi et la reine habitent dans un château.", native: { nl: "De koning en de koningin wonen in een kasteel.", en: "The king and queen live in a castle." }, items: [fr.roi, fr.reine] }
+  - { id: s11, target: "Le mari de ma tante s'appelle Hugo.", native: { nl: "De man van mijn tante heet Hugo.", en: "My aunt's husband is called Hugo." }, items: [fr.mari] }
+  - { id: s12, target: "Le fils du voisin a cinq ans.", native: { nl: "De zoon van de buurman is vijf jaar.", en: "The neighbour's son is five years old." }, items: [fr.fils] }
+  - { id: s13, target: "Max est mon jumeau.", native: { nl: "Max is mijn tweelingbroer.", en: "Max is my twin brother." }, items: [fr.jumeau] }
+  - { id: s14, target: "Mes parents sont mariés.", native: { nl: "Mijn ouders zijn getrouwd.", en: "My parents are married." }, items: [fr.marie] }
+lessons:
+  - { id: l01, title: { nl: Acteur en kunstenaar, en: "Actors and artists" }, vocab: [fr.acteur, fr.artiste, fr.coiffeur, fr.employe, fr.ingenieur, fr.journaliste, fr.mecanicien, fr.photographe] }
+  - { id: l02, title: { nl: Koning en koningin, en: "King and queen" }, vocab: [fr.pilote, fr.roi, fr.reine, fr.mari, fr.fils, fr.jumeau, fr.marie] }

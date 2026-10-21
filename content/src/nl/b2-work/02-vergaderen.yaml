@@ -1,0 +1,57 @@
+id: nl-b2-work-u02
+title: { en: Meetings }
+icon: chat
+topic: The agenda, chairing and minutes, proposals and votes, follow-up; reporting what was said and decided (Ze stelde voor dat …, Er werd beslist om …)
+vocabulary:
+  - { target: het agendapunt, native: { en: "agenda item, item on the agenda" }, pos: noun, plural: agendapunten }
+  - { target: de notulen, native: { en: minutes (of a meeting) }, pos: noun, plural: "-" }
+  - { target: notuleren, native: { en: "to take the minutes" }, pos: verb }
+  - { target: voorzitten, native: { en: "to chair" }, pos: verb }
+  - { target: overleggen, native: { en: "to consult, to confer, to discuss" }, pos: verb }
+  - { target: het werkoverleg, native: { en: "team meeting, work meeting" }, pos: noun, plural: "-" }
+  - { target: presenteren, native: { en: to present }, pos: verb }
+  - { target: de presentatie, native: { en: presentation }, pos: noun, plural: presentaties }
+  - { target: het actiepunt, native: { en: "action point" }, pos: noun, plural: actiepunten }
+  - { target: de stemming, native: { en: "vote; mood" }, pos: noun, plural: stemmingen }
+  - { target: unaniem, native: { en: unanimous }, pos: adjective }
+  - { target: het verloop, native: { en: "course, progress (how something goes)" }, pos: noun, plural: "-" }
+  - { target: de aanwezigheid, native: { en: "presence, attendance" }, pos: noun, plural: "-" }
+  - { target: de verontschuldiging, native: { en: "apology (een verontschuldiging: apologies for absence)" }, pos: noun, plural: verontschuldigingen }
+  - { target: de deelname, native: { en: participation }, pos: noun, plural: "-" }
+  - { target: benadrukken, native: { en: "to stress, to emphasise" }, pos: verb }
+  - { target: meedelen, native: { en: "to inform, to announce" }, pos: verb }
+  - { target: de mededeling, native: { en: "announcement, notice" }, pos: noun, plural: mededelingen }
+  - { target: intern, native: { en: internal }, pos: adjective }
+  - { target: extern, native: { en: external }, pos: adjective }
+sentences:
+  - { id: s01, target: "Het eerste agendapunt is de planning voor december.", native: { en: "The first item on the agenda is the schedule for December." }, items: [nl.agendapunt] }
+  - { id: s02, target: "De notulen van de vorige vergadering zijn goedgekeurd.", native: { en: "The minutes of the last meeting have been approved." }, items: [nl.notulen] }
+  - { id: s03, target: "Wie notuleert er vandaag?", native: { en: "Who is taking the minutes today?" }, items: [nl.notuleren] }
+  - { id: s04, target: "De directeur zit de vergadering voor.", native: { en: "The director is chairing the meeting." }, items: [nl.voorzitten] }
+  - { id: s05, target: "Ik moet eerst met mijn collega's overleggen.", native: { en: "I have to consult my colleagues first." }, items: [nl.overleggen], acceptAlso: ["Eerst moet ik met mijn collega's overleggen.", "Ik moet eerst overleggen met mijn collega's."] }
+  - { id: s06, target: "Het werkoverleg is elke maandag om negen uur.", native: { en: "The team meeting is every Monday at nine." }, items: [nl.werkoverleg], acceptAlso: ["Elke maandag om negen uur is het werkoverleg.", "Elke maandag is het werkoverleg om negen uur."] }
+  - { id: s07, target: "Ze presenteert de cijfers van de laatste drie maanden.", native: { en: "She is presenting the figures for the last three months." }, items: [nl.presenteren] }
+  - { id: s08, target: "Na de presentatie was er tijd voor vragen.", native: { en: "After the presentation there was time for questions." }, items: [nl.presentatie] }
+  - { id: s09, target: "Bij elk actiepunt staat wie het doet en tegen wanneer.", native: { en: "Each action point says who will do it and by when." }, items: [nl.actiepunt] }
+  - { id: s10, target: "Het voorstel werd na een stemming goedgekeurd.", native: { en: "The proposal was approved after a vote." }, items: [nl.stemming] }
+  - { id: s11, target: "De beslissing was unaniem.", native: { en: "The decision was unanimous." }, items: [nl.unaniem] }
+  - { id: s12, target: "Ben je tevreden over het verloop van het project?", native: { en: "Are you satisfied with how the project is going?" }, items: [nl.verloop], acceptAlso: ["Ben je over het verloop van het project tevreden?"] }
+  - { id: s13, target: "Uw aanwezigheid op de vergadering is belangrijk.", native: { en: "Your presence at the meeting is important." }, items: [nl.aanwezigheid], form: { word: aanwezigheid, stem: aanwezig } }
+  - { id: s14, target: "Twee collega's hebben een verontschuldiging gestuurd.", native: { en: "Two colleagues have sent their apologies." }, items: [nl.verontschuldiging] }
+  - { id: s15, target: "De deelname aan de opleiding is gratis.", native: { en: "Participation in the training course is free." }, items: [nl.deelname], form: { word: deelname, stem: deelnemen } }
+  - { id: s16, target: "De voorzitter benadrukte dat de deadline niet kan veranderen.", native: { en: "The chair stressed that the deadline cannot change." }, items: [nl.benadrukken] }
+  - { id: s17, target: "De directie deelde mee dat er een nieuwe collega komt.", native: { en: "The management announced that a new colleague is coming." }, items: [nl.meedelen] }
+  - { id: s18, target: "Er hangt een mededeling aan de deur van de vergaderzaal.", native: { en: "There is a notice on the door of the meeting room." }, items: [nl.mededeling] }
+  - { id: s19, target: "Deze informatie is alleen voor intern gebruik.", native: { en: "This information is for internal use only." }, items: [nl.intern] }
+  - { id: s20, target: "Voor dat project werken we met een extern bedrijf.", native: { en: "For that project we work with an external company." }, items: [nl.extern] }
+  - { id: s21, target: "Ze stelde voor dat we de stemming uitstellen.", native: { en: "She suggested that we postpone the vote." }, items: [nl.stemming], build: true, acceptAlso: ["Dat we de stemming uitstellen, stelde ze voor."] }
+  - { id: s22, target: "Er werd beslist om de notulen elke week naar iedereen te sturen.", native: { en: "It was decided to send the minutes to everyone every week." }, items: [nl.notulen] }
+  - { id: s23, target: "Hij vroeg of iemand nog een agendapunt had.", native: { en: "He asked whether anyone had another item for the agenda." }, items: [nl.agendapunt], finite: { word: vroeg, hint: { en: "vragen (past)" } } }
+  - { id: s24, target: "Volgens de notulen zou de presentatie vandaag klaar zijn.", native: { en: "According to the minutes the presentation would be ready today." }, items: [nl.presentatie] }
+  - { id: s25, target: "Het verloop van de vergadering was rustig.", native: { en: "The meeting went smoothly." }, items: [nl.verloop] }
+  - { id: s26, target: "Iedereen was aanwezig, alleen Tom niet.", native: { en: "Everyone was present, except Tom." }, items: [nl.aanwezigheid] }
+transforms:
+  - { id: x01, from: "Iedereen stemde voor het voorstel.", key: unaniem, gapped: "Het voorstel werd ___.", answers: ["unaniem goedgekeurd", "unaniem aangenomen"], items: [nl.unaniem] }
+  - { id: x02, from: "\"Laten we eerst met het team overleggen\", zei ze.", key: voor, gapped: "Ze stelde ___ met het team te overleggen.", answers: ["voor om eerst", "voor eerst"], items: [nl.overleggen] }
+  - { id: x03, from: "Wie leidt de vergadering vandaag?", key: zit, gapped: "Wie ___ voor?", answers: ["zit de vergadering vandaag", "zit vandaag de vergadering"], items: [nl.voorzitten] }
+texts: [nl-b2-work-t02]

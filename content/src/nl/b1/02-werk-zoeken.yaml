@@ -1,0 +1,91 @@
+id: nl-b1-u02
+title: { en: Looking for work }
+icon: work
+topic: Job adverts, profiles and conditions; relative clauses with die and dat
+vocabulary:
+  - { target: de kandidaat, native: { en: candidate }, pos: noun, plural: kandidaten }
+  - { target: de functie, native: { en: "position, post (a job)" }, pos: noun, plural: functies }
+  - { target: de motivatie, native: { en: motivation }, pos: noun, plural: "-" }
+  - { target: de vaardigheid, native: { en: skill }, pos: noun, plural: vaardigheden }
+  - { target: de eis, native: { en: requirement }, pos: noun, plural: eisen, avoid: [nl.voorwaarde] }
+  - { target: het profiel, native: { en: profile }, pos: noun, plural: profielen }
+  - { target: het aanbod, native: { en: "offer (what is offered)" }, pos: noun, plural: "-" }
+  - { target: de voorwaarde, native: { en: condition }, pos: noun, plural: voorwaarden }
+  - { target: de sector, native: { en: sector }, pos: noun, plural: sectoren }
+  - { target: de afdeling, native: { en: department }, pos: noun, plural: afdelingen }
+  - { target: flexibel, native: { en: flexible }, pos: adjective }
+  - { target: zelfstandig, native: { en: "independent, on your own" }, pos: adjective }
+  - { target: de stage, native: { en: "work placement, internship" }, pos: noun, plural: stages }
+  - { target: de uitkering, native: { en: "benefit (unemployment, sickness …)" }, pos: noun, plural: uitkeringen }
+  - { target: beschikken, native: { en: "to have, to possess (+ over)" }, pos: verb }
+  - { target: voldoen, native: { en: "to meet, to satisfy (+ aan: requirements)" }, pos: verb }
+  - { target: vereisen, native: { en: to require }, pos: verb }
+  - { target: aanbieden, native: { en: to offer }, pos: verb }
+  - { target: tijdelijk, native: { en: temporary }, pos: adjective, avoid: [nl.vast] }
+  - { target: vast, native: { en: "permanent, fixed" }, pos: adjective }
+  - { target: de kennis, native: { en: knowledge }, pos: noun, plural: "-" }
+  - { target: het rijbewijs, native: { en: driving licence }, pos: noun, plural: rijbewijzen }
+  - { target: de verantwoordelijkheid, native: { en: responsibility }, pos: noun, plural: verantwoordelijkheden }
+  - { target: bereid, native: { en: willing }, pos: adjective }
+  - { target: beschikbaar, native: { en: available }, pos: adjective }
+  - { target: onmiddellijk, native: { en: "immediately, immediate" }, pos: adverb }
+  - { target: aanvragen, native: { en: "to apply for, to request" }, pos: verb }
+  - { target: de uitdaging, native: { en: challenge }, pos: noun, plural: uitdagingen }
+  - { target: begeleiden, native: { en: "to guide, to supervise" }, pos: verb }
+  - { target: de vrachtwagen, native: { en: lorry }, pos: noun, plural: vrachtwagens }
+  - { target: de reactie, native: { en: "reply, response" }, pos: noun, plural: reacties }
+  - { target: reageren, native: { en: "to respond, to react" }, pos: verb }
+  - { target: geïnteresseerd, native: { en: interested }, pos: adjective }
+  - { target: zoals, native: { en: "such as, like" }, pos: conjunction }
+  - { target: sommige, native: { en: some }, pos: determiner }
+  - { target: het gesprek, native: { en: "conversation, interview" }, pos: noun, plural: gesprekken }
+  - { target: de medewerker, native: { en: "employee, member of staff" }, pos: noun, plural: medewerkers }
+  - { target: zelf, native: { en: "-self (myself, yourself …)" }, pos: adverb }
+  - { target: ander, native: { en: other }, pos: adjective }
+  - { id: nl.heel-whole, target: heel, native: { en: "whole, entire (as in: the whole day)" }, pos: adjective }
+  - { target: wel, native: { en: "(stressing a positive: I do, it is)" }, pos: adverb }
+  - { target: inderdaad, native: { en: indeed }, pos: adverb }
+sentences:
+  - { id: s01, target: "We zoeken een kandidaat die zelfstandig kan werken.", native: { en: "We're looking for a candidate who can work on their own." }, items: [nl.kandidaat, nl.zelfstandig], acceptAlso: ["We zoeken een kandidaat die zelfstandig werken kan."] }
+  - { id: s02, target: "Welke functie hebt u nu?", native: { en: "What position do you have now?" }, items: [nl.functie] }
+  - { id: s03, target: "Mijn motivatie is groot: ik wil graag iets nieuws leren.", native: { en: "I'm very motivated: I'd really like to learn something new." }, items: [nl.motivatie] }
+  - { id: s04, target: "Welke vaardigheden hebt u in uw vorige job geleerd?", native: { en: "What skills did you learn in your previous job?" }, items: [nl.vaardigheid] }
+  - { id: s05, target: "De eisen voor deze functie zijn niet zo hoog.", native: { en: "The requirements for this position aren't very high." }, items: [nl.eis, nl.functie] }
+  - { id: s06, target: "Uw profiel past goed bij deze vacature.", native: { en: "Your profile is a good fit for this vacancy." }, items: [nl.profiel] }
+  - { id: s07, target: "Ons aanbod is een vast contract en een goed loon.", native: { en: "Our offer is a permanent contract and good pay." }, items: [nl.aanbod, nl.vast] }
+  - { id: s08, target: "U moet aan alle voorwaarden voldoen.", native: { en: "You have to meet all the conditions." }, items: [nl.voorwaarde, nl.voldoen] }
+  - { id: s09, target: "In welke sector wilt u werken?", native: { en: "Which sector would you like to work in?" }, items: [nl.sector] }
+  - { id: s10, target: "Op welke afdeling werkt u?", native: { en: "Which department do you work in?" }, items: [nl.afdeling] }
+  - { id: s11, target: "Je moet flexibel zijn, want de uren veranderen vaak.", native: { en: "You need to be flexible, because the hours change often." }, items: [nl.flexibel] }
+  - { id: s12, target: "Na een maand kon ze al zelfstandig werken.", native: { en: "After a month she could already work on her own." }, items: [nl.zelfstandig], acceptAlso: ["Ze kon na een maand al zelfstandig werken."], finite: { word: kon, hint: { en: "kunnen (past)" } } }
+  - { id: s13, target: "Ik heb drie maanden stage gelopen in een ziekenhuis.", native: { en: "I did a three-month work placement in a hospital." }, items: [nl.stage] }
+  - { id: s14, target: "Hij krijgt een uitkering omdat hij zijn job verloren heeft.", native: { en: "He receives benefit because he has lost his job." }, items: [nl.uitkering], acceptAlso: ["Omdat hij zijn job verloren heeft, krijgt hij een uitkering."] }
+  - { id: s15, target: "Beschikt u over een rijbewijs?", native: { en: "Do you have a driving licence?" }, items: [nl.beschikken, nl.rijbewijs] }
+  - { id: s16, target: "Wie aan het profiel voldoet, wordt uitgenodigd voor een gesprek.", native: { en: "Anyone who fits the profile will be invited for an interview." }, items: [nl.voldoen, nl.profiel, nl.gesprek], finite: { word: wordt, hint: { en: "worden (present)" } } }
+  - { id: s17, target: "Deze job vereist veel kennis van computers.", native: { en: "This job requires a lot of computer knowledge." }, items: [nl.vereisen, nl.kennis] }
+  - { id: s18, target: "Het bedrijf biedt een opleiding aan.", native: { en: "The company offers training." }, items: [nl.aanbieden] }
+  - { id: s19, target: "Het is een tijdelijk contract van zes maanden.", native: { en: "It's a temporary six-month contract." }, items: [nl.tijdelijk] }
+  - { id: s20, target: "Na een jaar kreeg ik een vast contract.", native: { en: "After a year I got a permanent contract." }, items: [nl.vast], acceptAlso: ["Ik kreeg na een jaar een vast contract."], finite: { word: kreeg, hint: { en: "krijgen (past)" } } }
+  - { id: s21, target: "Kennis van het Frans is belangrijk voor deze functie.", native: { en: "Knowledge of French is important for this position." }, items: [nl.kennis, nl.functie], acceptAlso: ["Voor deze functie is kennis van het Frans belangrijk."] }
+  - { id: s22, target: "Voor deze job heb je een rijbewijs nodig om met een vrachtwagen te rijden.", native: { en: "For this job you need a licence to drive a lorry." }, items: [nl.rijbewijs, nl.vrachtwagen] }
+  - { id: s23, target: "In deze functie hebt u veel verantwoordelijkheid.", native: { en: "In this position you have a lot of responsibility." }, items: [nl.verantwoordelijkheid, nl.functie], acceptAlso: ["U hebt in deze functie veel verantwoordelijkheid."] }
+  - { id: s24, target: "Ik ben bereid om in het weekend te werken.", native: { en: "I'm willing to work at the weekend." }, items: [nl.bereid] }
+  - { id: s25, target: "Bent u onmiddellijk beschikbaar?", native: { en: "Are you available immediately?" }, items: [nl.onmiddellijk, nl.beschikbaar] }
+  - { id: s26, target: "Waar kan ik een uitkering aanvragen?", native: { en: "Where can I apply for benefit?" }, items: [nl.aanvragen, nl.uitkering] }
+  - { id: s27, target: "Werken met klanten is een nieuwe uitdaging voor mij.", native: { en: "Working with customers is a new challenge for me." }, items: [nl.uitdaging] }
+  - { id: s28, target: "Een ervaren collega zal je de eerste weken begeleiden.", native: { en: "An experienced colleague will supervise you for the first few weeks." }, items: [nl.begeleiden], acceptAlso: ["De eerste weken zal een ervaren collega je begeleiden."] }
+  - { id: s29, target: "Hij rijdt elke dag met de vrachtwagen naar Antwerpen.", native: { en: "He drives the lorry to Antwerp every day." }, items: [nl.vrachtwagen], acceptAlso: ["Elke dag rijdt hij met de vrachtwagen naar Antwerpen."], finite: { word: rijdt, hint: { en: "rijden (present)" } } }
+  - { id: s30, target: "Bedankt voor uw snelle reactie.", native: { en: "Thank you for your quick reply." }, items: [nl.reactie] }
+  - { id: s31, target: "Ik heb op drie vacatures gereageerd, maar ik heb nog geen antwoord.", native: { en: "I've responded to three vacancies, but I haven't had an answer yet." }, items: [nl.reageren] }
+  - { id: s32, target: "Ik doe graag praktisch werk, zoals koken of werken in de tuin.", native: { en: "I like practical work, such as cooking or working in the garden." }, items: [nl.zoals] }
+  - { id: s33, target: "Sommige kandidaten spreken vier talen.", native: { en: "Some candidates speak four languages." }, items: [nl.sommige, nl.kandidaat] }
+  - { id: s34, target: "Het bedrijf dat mij voor een gesprek heeft uitgenodigd, ligt in Gent.", native: { en: "The company that has invited me for an interview is in Ghent." }, items: [nl.gesprek], acceptAlso: ["Het bedrijf dat mij voor een gesprek uitgenodigd heeft, ligt in Gent."] }
+  - { id: s35, target: "De functie die u zoekt, is niet meer vrij.", native: { en: "The position you are looking for is no longer available." }, items: [nl.functie] }
+  - { id: s36, target: "Ik zoek zelf een nieuwe job.", native: { en: "I'm looking for a new job myself." }, items: [nl.zelf] }
+  - { id: s37, target: "Ze wil graag een andere job.", native: { en: "She'd like another job." }, items: [nl.ander] }
+  - { id: s38, target: "Ik heb de hele dag vacatures gelezen.", native: { en: "I've been reading job adverts all day." }, items: [nl.heel-whole], acceptAlso: ["De hele dag heb ik vacatures gelezen."] }
+  - { id: s39, target: "Ik heb geen diploma, maar ik heb wel ervaring.", native: { en: "I don't have a diploma, but I do have experience." }, items: [nl.wel] }
+  - { id: s40, target: "De job is inderdaad goed betaald.", native: { en: "The job is indeed well paid." }, items: [nl.inderdaad] }
+  - { id: s41, target: "Ik ben geïnteresseerd in de vacature van verkoper.", native: { en: "I'm interested in the sales assistant vacancy." }, items: [nl.geinteresseerd] }
+  - { id: s42, target: "Het bedrijf zoekt een nieuwe medewerker voor het magazijn.", native: { en: "The company is looking for a new employee for the warehouse." }, items: [nl.medewerker] }
+texts: [nl-b1-t03]

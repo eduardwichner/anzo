@@ -1,0 +1,48 @@
+id: fr-a1-1
+cefr: A1.1
+# The exercises of the Pre-A1 to A2 packs are locked: the homophone rule for single-word listen_type is for new packs only.
+legacyListenType: true
+# Every sentence no exercise uses gets one in an optional extra lesson (<unit>-extra), appended after the
+# locked exercises (new ids only).
+extraLessons: true
+source: >-
+  DELF Prim A1.1 (France Éducation International). DELF Prim publishes no closed word list; every word is in the
+  derived DELF Prim word list (content/src/fr/WORDLIST.md, npm run content:wordlist -- fr) at level A1.1: lemmas
+  attested in the child-facing text of the A1.1 sample papers (delf-prim-a1-1-livret-candidat, -transcription,
+  -livret-examinateur: greetings, name and age questions, family, pets, house, hobbies, colours, clothes, food, school
+  bag, library rules, birthday invitation, times), completed per theme with everyday child words (source topic) and with
+  concepts of Cambridge Starters (source parity: zoo animals, toys). Grammar: être, avoir and s'appeler in the present,
+  the present of everyday verbs as the papers use them, ne … pas, questions by intonation and with qu'est-ce que,
+  numbers 0-20, colours, articles. Dutch translations written by the content author.
+omit:
+  - { word: le, reason: "article; every noun is taught with its article (le, la, l', les)" }
+  - { word: de, reason: "preposition used in phrases (beaucoup de, à côté de, la salle de bain); practised in sentences" }
+  - { word: à, reason: "preposition used in phrases (à bientôt, à côté de, à la maison); practised in sentences" }
+  - { word: en, reason: "preposition of en France, en bus; practised in sentences" }
+  - { word: par, reason: "only in task wording of the papers (remplace par); practised in sentences later" }
+  - { word: ne, reason: "taught as ne … pas" }
+  - { word: pas, reason: "taught as ne … pas" }
+  - { word: me, reason: "reflexive pronoun, practised in je m'appelle" }
+  - { word: te, reason: "reflexive and object pronoun, practised in tu t'appelles, s'il te plaît" }
+  - { word: se, reason: "reflexive pronoun, practised in il s'appelle" }
+  - { word: que, reason: "practised in qu'est-ce que" }
+  - { word: y, reason: "practised in il y a and on y va" }
+  - { word: ce, reason: "practised in c'est, ce sont and the demonstrative ce / cette (cette rue, ce message)" }
+  - { word: plaire, reason: "only in s'il te plaît / s'il vous plaît, which are taught" }
+  - { word: falloir, reason: "only in il faut, which is taught" }
+  - { word: s'appeler, reason: "taught as je m'appelle; tu t'appelles and il s'appelle are practised in sentences" }
+  - { word: faim, reason: "taught in avoir faim" }
+  - { word: soif, reason: "taught in avoir soif" }
+  - { word: coiffer, reason: "only in an instruction of the papers (coiffe tes cheveux); se coiffer is taught at A2" }
+  - { word: compléter, reason: "task wording (compléter une fiche), not child vocabulary at this level" }
+  - { word: fiche, reason: "task wording (fiche d'inscription), not child vocabulary at this level" }
+  - { word: texte, reason: "task wording (relie le texte), not child vocabulary at this level" }
+  - { word: exemple, reason: "task wording (comme dans l'exemple)" }
+  - { word: domestique, reason: "taught at A2 in animal domestique" }
+  - { word: assis, reason: "only in rester assis; s'asseoir is taught at A1" }
+  - { word: plusieurs, reason: "only in task wording (tu écoutes plusieurs documents)" }
+  - { word: comme, reason: "only in task wording (comme dans l'exemple); practised in sentences later" }
+  - { word: si, reason: "only in task wording (si tu ne comprends pas); taught at A2 with if-clauses" }
+  - { word: plus, reason: "only in qu'est-ce que tu aimes le plus; taught at A2 with comparatives" }
+  - { word: jusque, reason: "practised in jusqu'à (je compte jusqu'à vingt)" }
+  - { word: nationalité, reason: "form-filling word; nationality is taught with néerlandais (je suis néerlandaise) and practised with français" }

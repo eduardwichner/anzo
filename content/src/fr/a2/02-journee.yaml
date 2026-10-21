@@ -1,0 +1,44 @@
+id: fr-a2-u02
+title: { nl: Mijn dag, en: "My day" }
+icon: time
+topic: La journée; les verbes pronominaux
+vocabulary:
+  - { target: se réveiller, native: { nl: wakker worden, en: "to wake up" }, pos: verb }
+  - { target: se laver, native: { nl: zich wassen, en: "to wash (yourself), to have a wash" }, pos: verb }
+  - { target: se brosser, native: { nl: "(zijn tanden) poetsen, borstelen", en: "to brush (teeth or hair)" }, pos: verb }
+  - { target: se coiffer, native: { nl: "zijn haar doen, kammen", en: "to do your hair, to comb your hair" }, pos: verb }
+  - { target: "s'endormir", native: { nl: in slaap vallen, en: "to fall asleep" }, pos: verb }
+  - { target: se dépêcher, native: { nl: opschieten, en: "to hurry up" }, pos: verb }
+  - { target: se reposer, native: { nl: uitrusten, en: "to rest" }, pos: verb }
+  - { target: le réveil, native: { nl: de wekker, en: "alarm clock" }, pos: noun, gender: m }
+  - { target: sonner, native: { nl: "rinkelen, afgaan (wekker, bel)", en: "to ring, to go off" }, pos: verb }
+  - { target: la brosse à dents, native: { nl: de tandenborstel, en: "toothbrush" }, pos: noun, gender: f }
+  - { target: le dentifrice, native: { nl: de tandpasta, en: "toothpaste" }, pos: noun, gender: m }
+  - { target: la serviette, native: { nl: de handdoek, en: "towel" }, pos: noun, gender: f }
+  - { target: la douche, native: { nl: de douche, en: "shower" }, pos: noun, gender: f }
+  - { target: la baignoire, native: { nl: het bad (de badkuip), en: "bath, bathtub" }, pos: noun, gender: f }
+  - { target: debout, native: { nl: "staand, op (uit bed)", en: "standing, up (out of bed)" }, pos: adverb }
+  - { target: en forme, native: { nl: fit, en: "fit, in good shape" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Je me réveille à sept heures.", native: { nl: "Ik word om zeven uur wakker.", en: "I wake up at seven o'clock." }, items: [fr.se-reveiller] }
+  - { id: s02, target: "Ce matin, je me suis réveillée tard.", native: { nl: "Vanochtend werd ik laat wakker.", en: "This morning I woke up late." }, items: [fr.se-reveiller] }
+  - { id: s03, target: "Je me lave dans la salle de bain.", native: { nl: "Ik was me in de badkamer.", en: "I have a wash in the bathroom." }, items: [fr.se-laver] }
+  - { id: s04, target: "Je me brosse les dents le soir.", native: { nl: "Ik poets 's avonds mijn tanden.", en: "I brush my teeth in the evening." }, items: [fr.se-brosser] }
+  - { id: s05, target: "Ma sœur se coiffe devant le miroir.", native: { nl: "Mijn zus kamt haar haar voor de spiegel.", en: "My sister is doing her hair in front of the mirror." }, items: [fr.se-coiffer] }
+  - { id: s06, target: "Le bébé s'endort tout de suite.", native: { nl: "De baby valt meteen in slaap.", en: "The baby falls asleep straight away." }, items: [fr.s-endormir] }
+  - { id: s07, target: "Dépêche-toi, le bus arrive !", native: { nl: "Schiet op, de bus komt eraan!", en: "Hurry up, the bus is coming!" }, items: [fr.se-depecher] }
+  - { id: s08, target: "Après le sport, je me repose.", native: { nl: "Na het sporten rust ik uit.", en: "After sport, I have a rest." }, items: [fr.se-reposer] }
+  - { id: s09, target: "Mon réveil sonne à sept heures.", native: { nl: "Mijn wekker gaat om zeven uur.", en: "My alarm clock goes off at seven o'clock." }, items: [fr.reveil] }
+  - { id: s10, target: "Où est ma brosse à dents ?", native: { nl: "Waar is mijn tandenborstel?", en: "Where's my toothbrush?" }, items: [fr.brosse-a-dents] }
+  - { id: s11, target: "Il n'y a plus de dentifrice !", native: { nl: "De tandpasta is op!", en: "There's no toothpaste left!" }, items: [fr.dentifrice] }
+  - { id: s12, target: "Prends une serviette pour la piscine.", native: { nl: "Neem een handdoek mee naar het zwembad.", en: "Take a towel to the swimming pool." }, items: [fr.serviette] }
+  - { id: s13, target: "Je prends une douche après le match.", native: { nl: "Ik neem een douche na de wedstrijd.", en: "I have a shower after the match." }, items: [fr.douche] }
+  - { id: s14, target: "Le bébé joue dans la baignoire.", native: { nl: "De baby speelt in bad.", en: "The baby is playing in the bath." }, items: [fr.baignoire] }
+  - { id: s15, target: "Tu es déjà debout ?", native: { nl: "Ben je al op?", en: "Are you up already?" }, items: [fr.debout] }
+  - { id: s16, target: "Aujourd'hui, je suis en forme !", native: { nl: "Vandaag voel ik me fit!", en: "Today I'm feeling fit!" }, items: [fr.en-forme] }
+  - { id: s17, target: "Hier, Hugo s'est endormi devant la télévision.", native: { nl: "Gisteren viel Hugo in slaap voor de televisie.", en: "Yesterday Hugo fell asleep in front of the television." }, items: [fr.s-endormir] }
+  - { id: s18, target: "Mon réveil va sonner à six heures.", native: { nl: "Mijn wekker gaat om zes uur af.", en: "My alarm clock is going to go off at six o'clock." }, items: [fr.sonner] }
+lessons:
+  - { id: l01, title: { nl: Opstaan, en: "Getting up" }, vocab: [fr.se-reveiller, fr.reveil, fr.debout, fr.se-laver, fr.douche, fr.serviette] }
+  - { id: l02, title: { nl: Tanden poetsen, en: "Brushing my teeth" }, vocab: [fr.se-brosser, fr.brosse-a-dents, fr.dentifrice, fr.se-coiffer, fr.baignoire] }
+  - { id: l03, title: { nl: Schiet op!, en: "Hurry up!" }, vocab: [fr.se-depecher, fr.se-reposer, fr.s-endormir, fr.en-forme, fr.sonner] }

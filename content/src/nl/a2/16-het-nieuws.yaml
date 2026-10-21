@@ -1,0 +1,57 @@
+id: nl-a2-u16
+title: { en: The news and the weather forecast }
+icon: weather
+topic: News, forecasts, the future with zullen
+vocabulary:
+  - { target: het nieuws, native: { en: news }, pos: noun, plural: "-" }
+  - { target: het journaal, native: { en: "news (on TV)" }, pos: noun, plural: journaals }
+  - { target: de radio, native: { en: radio }, pos: noun, plural: "radio's" }
+  - { target: de wereld, native: { en: world }, pos: noun, plural: werelden }
+  - { target: het binnenland, native: { en: "home country, home affairs (not abroad)" }, pos: noun, plural: "-" }
+  - { target: de regering, native: { en: government }, pos: noun, plural: regeringen }
+  - { target: de minister, native: { en: minister }, pos: noun, plural: ministers }
+  - { target: de verkiezing, native: { en: election }, pos: noun, plural: verkiezingen }
+  - { target: het weerbericht, native: { en: weather forecast }, pos: noun, plural: weerberichten }
+  - { target: verwachten, native: { en: to expect }, pos: verb }
+  - { target: voorspellen, native: { en: to forecast }, pos: verb }
+  - { target: de temperatuur, native: { en: temperature }, pos: noun, plural: temperaturen }
+  - { target: stijgen, native: { en: to rise }, pos: verb, avoid: [nl.dalen] }
+  - { target: dalen, native: { en: "to fall (go down)" }, pos: verb }
+  - { target: zonnig, native: { en: sunny }, pos: adjective, avoid: [nl.bewolkt] }
+  - { target: bewolkt, native: { en: cloudy }, pos: adjective }
+  - { target: fris, native: { en: "fresh, chilly" }, pos: adjective }
+  - { target: heet, native: { en: hot }, pos: adjective }
+  - { target: de storm, native: { en: storm }, pos: noun, plural: stormen }
+  - { target: het onweer, native: { en: thunderstorm }, pos: noun, plural: onweren }
+  - { target: onweren, native: { en: to thunder }, pos: verb }
+  - { target: de mist, native: { en: fog }, pos: noun, plural: "-" }
+  - { target: mistig, native: { en: foggy }, pos: adjective }
+  - { target: vriezen, native: { en: to freeze }, pos: verb }
+  - { target: de ijzel, native: { en: black ice }, pos: noun, plural: "-" }
+  - { target: glad, native: { en: slippery }, pos: adjective }
+sentences:
+  - { id: s01, target: "Heb je het nieuws gezien?", native: { en: "Have you seen the news?" }, items: [nl.nieuws] }
+  - { id: s02, target: "Om zeven uur kijk ik naar het journaal.", native: { en: "At seven o'clock I watch the news." }, items: [nl.journaal], acceptAlso: ["Ik kijk om zeven uur naar het journaal."] }
+  - { id: s03, target: "In de auto luister ik naar de radio.", native: { en: "In the car I listen to the radio." }, items: [nl.radio], acceptAlso: ["Ik luister in de auto naar de radio."] }
+  - { id: s04, target: "Het is het grootste land van de wereld.", native: { en: "It's the biggest country in the world." }, items: [nl.wereld] }
+  - { id: s05, target: "Eerst het nieuws uit het binnenland.", native: { en: "First the home news." }, items: [nl.binnenland] }
+  - { id: s06, target: "De regering heeft een nieuwe minister.", native: { en: "The government has a new minister." }, items: [nl.regering, nl.minister] }
+  - { id: s07, target: "Volgend jaar zijn er verkiezingen.", native: { en: "Next year there are elections." }, items: [nl.verkiezing], acceptAlso: ["Er zijn volgend jaar verkiezingen."] }
+  - { id: s08, target: "Wat zegt het weerbericht voor morgen?", native: { en: "What does the weather forecast say for tomorrow?" }, items: [nl.weerbericht] }
+  - { id: s09, target: "Het weerbericht zegt dat het morgen warmer wordt.", native: { en: "The weather forecast says it will be warmer tomorrow." }, items: [nl.weerbericht] }
+  - { id: s10, target: "Ze verwachten veel regen.", native: { en: "They're expecting a lot of rain." }, items: [nl.verwachten] }
+  - { id: s11, target: "Ze voorspellen sneeuw voor het weekend.", native: { en: "They're forecasting snow for the weekend." }, items: [nl.voorspellen], acceptAlso: ["Ze voorspellen voor het weekend sneeuw.", "Voor het weekend voorspellen ze sneeuw."] }
+  - { id: s12, target: "De temperatuur zal tot dertig graden stijgen.", native: { en: "The temperature will rise to thirty degrees." }, items: [nl.temperatuur, nl.stijgen] }
+  - { id: s13, target: "Vannacht daalt de temperatuur tot nul graden.", native: { en: "Tonight the temperature will fall to zero." }, items: [nl.dalen], acceptAlso: ["De temperatuur daalt vannacht tot nul graden."] }
+  - { id: s14, target: "Morgen wordt het zonnig.", native: { en: "Tomorrow it will be sunny." }, items: [nl.zonnig], acceptAlso: ["Het wordt morgen zonnig."] }
+  - { id: s15, target: "Het blijft vandaag bewolkt.", native: { en: "It will stay cloudy today." }, items: [nl.bewolkt], acceptAlso: ["Vandaag blijft het bewolkt."] }
+  - { id: s16, target: "'s Morgens is het nog fris.", native: { en: "In the morning it's still chilly." }, items: [nl.fris], acceptAlso: ["Het is 's morgens nog fris."] }
+  - { id: s17, target: "In juli was het heel heet.", native: { en: "In July it was very hot." }, items: [nl.heet], acceptAlso: ["Het was in juli heel heet."] }
+  - { id: s18, target: "Er komt een zware storm.", native: { en: "A heavy storm is coming." }, items: [nl.storm] }
+  - { id: s19, target: "Gisteren onweerde het lang.", native: { en: "Yesterday there was thunder for a long time." }, items: [nl.onweren] }
+  - { id: s20, target: "Na het onweer was het minder warm.", native: { en: "After the thunderstorm it was cooler." }, items: [nl.onweer] }
+  - { id: s21, target: "Door de mist zie je bijna niets.", native: { en: "Because of the fog you can hardly see anything." }, items: [nl.mist] }
+  - { id: s22, target: "Het is mistig op de weg.", native: { en: "It's foggy on the road." }, items: [nl.mistig] }
+  - { id: s23, target: "Vannacht gaat het vriezen.", native: { en: "It's going to freeze tonight." }, items: [nl.vriezen], acceptAlso: ["Het gaat vannacht vriezen."] }
+  - { id: s24, target: "Pas op, er ligt ijzel en de wegen zijn glad!", native: { en: "Be careful, there's black ice and the roads are slippery!" }, items: [nl.ijzel, nl.glad] }
+  - { id: s25, target: "Het zal morgen regenen.", native: { en: "It will rain tomorrow." }, items: [nl.verwachten], acceptAlso: ["Morgen zal het regenen."] }

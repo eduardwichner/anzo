@@ -1,0 +1,9 @@
+{
+  "about": "The accounts a new installation starts with (seeded when the database has no account yet, and by npm run seed). Copy this file to config/seed.local.json (gitignored) and put your own accounts there; without that file these generic ones are used. The tests always use this file.",
+  "rule": "Every password here is a first password only. An admin account is held at the change-password form until it is changed (forced for admins). A learner is never held: the admin sets each learner's own password in Admin → Users before the learner gets the device, so kid1/kid1 and kid2/kid2 never stay in use. Never commit real passwords or real names: keep them in config/seed.local.json.",
+  "accounts": [
+    { "username": "kid1", "password": "kid1", "role": "child", "displayName": "Sam", "courses": ["en"], "avatar": "cat", "avatarBg": "sky", "showOnLogin": true },
+    { "username": "kid2", "password": "kid2", "role": "child", "displayName": "Alex", "courses": ["fr"], "avatar": "rabbit", "avatarBg": "peach", "showOnLogin": true },
+    { "username": "admin", "password": "admin", "role": "admin", "displayName": "Beheer", "courses": [], "avatar": "owl", "avatarBg": "lilac", "uiLang": "en", "audience": "adult", "mustChangePassword": true }
+  ]
+}

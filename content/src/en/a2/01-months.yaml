@@ -1,0 +1,54 @@
+id: en-a2-u01
+title: { nl: Maanden en seizoenen }
+icon: day
+topic: Time (months, seasons, calendar)
+vocabulary:
+  - { target: January, native: { nl: januari }, pos: noun }
+  - { target: February, native: { nl: februari }, pos: noun }
+  - { target: March, native: { nl: maart }, pos: noun }
+  - { target: April, native: { nl: april }, pos: noun }
+  - { target: May, native: { nl: mei }, pos: noun }
+  - { target: June, native: { nl: juni }, pos: noun }
+  - { target: July, native: { nl: juli }, pos: noun }
+  - { target: August, native: { nl: augustus }, pos: noun }
+  - { target: September, native: { nl: september }, pos: noun }
+  - { target: October, native: { nl: oktober }, pos: noun }
+  - { target: November, native: { nl: november }, pos: noun }
+  - { target: December, native: { nl: december }, pos: noun }
+  - { target: spring, native: { nl: lente }, pos: noun }
+  - { target: summer, native: { nl: zomer }, pos: noun }
+  - { target: autumn, native: { nl: herfst }, pos: noun }
+  - { target: winter, native: { nl: winter }, pos: noun }
+  - { target: calendar, native: { nl: kalender }, pos: noun }
+  - { target: date, native: { nl: datum }, pos: noun }
+  - { target: diary, native: { nl: "dagboek, agenda" }, pos: noun, avoid: [en.calendar] }
+  - { target: century, native: { nl: eeuw }, pos: noun }
+  - { target: future, native: { nl: toekomst }, pos: noun }
+  - { target: month, native: { nl: maand }, pos: noun }
+sentences:
+  - { id: s01, target: "My birthday is in January.", native: { nl: "Ik ben in januari jarig." }, items: [en.january] }
+  - { id: s02, target: "February is a short month.", native: { nl: "Februari is een korte maand." }, items: [en.february, en.month] }
+  - { id: s03, target: "We go skiing in March.", native: { nl: "In maart gaan we skiën." }, items: [en.march] }
+  - { id: s04, target: "It often rains in April.", native: { nl: "Het regent vaak in april." }, items: [en.april] }
+  - { id: s05, target: "There are a lot of flowers in May.", native: { nl: "In mei zijn er veel bloemen." }, items: [en.may] }
+  - { id: s06, target: "We will go to the beach in June.", native: { nl: "In juni gaan we naar het strand." }, items: [en.june] }
+  - { id: s07, target: "School finishes in July.", native: { nl: "In juli is de school uit." }, items: [en.july] }
+  - { id: s08, target: "August is the hottest month.", native: { nl: "Augustus is de warmste maand." }, items: [en.august, en.month] }
+  - { id: s09, target: "School starts again in September.", native: { nl: "In september begint de school weer." }, items: [en.september] }
+  - { id: s10, target: "The leaves fall in October.", native: { nl: "In oktober vallen de bladeren." }, items: [en.october] }
+  - { id: s11, target: "It is often foggy in November.", native: { nl: "In november is het vaak mistig." }, items: [en.november] }
+  - { id: s12, target: "We have a holiday in December.", native: { nl: "In december hebben we vakantie." }, items: [en.december] }
+  - { id: s13, target: "In spring the trees are green again.", native: { nl: "In de lente zijn de bomen weer groen." }, items: [en.spring] }
+  - { id: s14, target: "We swim in the sea in summer.", native: { nl: "In de zomer zwemmen we in de zee." }, items: [en.summer] }
+  - { id: s15, target: "In autumn the leaves turn brown.", native: { nl: "In de herfst worden de bladeren bruin." }, items: [en.autumn] }
+  - { id: s16, target: "It snowed a lot last winter.", native: { nl: "Het heeft vorige winter veel gesneeuwd." }, items: [en.winter] }
+  - { id: s17, target: "Look at the calendar.", native: { nl: "Kijk op de kalender." }, items: [en.calendar] }
+  - { id: s18, target: "What's the date today?", native: { nl: "Welke datum is het vandaag?" }, items: [en.date], acceptAlso: ["What is the date today?"] }
+  - { id: s19, target: "I write in my diary every evening.", native: { nl: "Ik schrijf elke avond in mijn dagboek." }, items: [en.diary] }
+  - { id: s20, target: "This castle is more than a century old.", native: { nl: "Dit kasteel is meer dan een eeuw oud." }, items: [en.century] }
+  - { id: s21, target: "What do you want to be in the future?", native: { nl: "Wat wil jij in de toekomst worden?" }, items: [en.future] }
+  - { id: s22, target: "In which month is your birthday?", native: { nl: "In welke maand ben jij jarig?" }, items: [en.month] }
+lessons:
+  - { id: l01, title: { nl: Januari tot augustus }, vocab: [en.january, en.february, en.march, en.april, en.may, en.june, en.july, en.august] }
+  - { id: l02, title: { nl: September en de seizoenen }, vocab: [en.september, en.october, en.november, en.december, en.spring, en.summer, en.autumn, en.winter] }
+  - { id: l03, title: { nl: De kalender }, vocab: [en.calendar, en.date, en.diary, en.century, en.future, en.month] }

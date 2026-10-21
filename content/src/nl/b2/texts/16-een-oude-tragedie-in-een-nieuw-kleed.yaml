@@ -1,0 +1,53 @@
+id: nl-b2-t16
+kind: reading
+title: { en: An old tragedy in new clothes }
+topic: Culture (a theatre review in a newspaper)
+level: B2
+paragraphs:
+  - - { id: nl-b2-t16-s01, target: "Een tragedie van meer dan tweeduizend jaar oud, gespeeld in een Brussels appartement met een gsm in elke hand: het klinkt als een slecht idee.", native: { en: "A tragedy more than two thousand years old, played in a Brussels flat with a mobile phone in every hand: it sounds like a bad idea." } }
+    - { id: nl-b2-t16-s02, target: "Toch is het een van de boeiendste voorstellingen van dit seizoen.", native: { en: "Yet it is one of the most gripping performances of this season." } }
+  - - { id: nl-b2-t16-s03, target: "Het verhaal blijft dicht bij het origineel.", native: { en: "The story stays close to the original." } }
+    - { id: nl-b2-t16-s04, target: "Een jonge vrouw wil haar broer begraven, maar de koning verbiedt het.", native: { en: "A young woman wants to bury her brother, but the king forbids it." } }
+    - { id: nl-b2-t16-s05, target: "Zij volgt haar geweten, hij volgt de wet, en geen van beiden wil toegeven.", native: { en: "She follows her conscience, he follows the law, and neither of them wants to give in." } }
+    - { id: nl-b2-t16-s06, target: "Regisseur Sofie Peeters verplaatst die strijd naar vandaag, naar een familie die via sociale media ruzie maakt.", native: { en: "Director Sofie Peeters moves that struggle to the present day, to a family that argues via social media." } }
+  - - { id: nl-b2-t16-s07, target: "Dat werkt verrassend goed.", native: { en: "That works surprisingly well." } }
+    - { id: nl-b2-t16-s08, target: "Berichten verschijnen op een groot scherm boven het toneel, en het publiek leest ze terwijl de spanning stijgt.", native: { en: "Messages appear on a big screen above the stage, and the audience reads them while the tension rises." } }
+    - { id: nl-b2-t16-s09, target: "Op die manier wordt een oud conflict ineens heel herkenbaar.", native: { en: "In that way an old conflict suddenly becomes very recognisable." } }
+  - - { id: nl-b2-t16-s10, target: "De acteurs maken er een indrukwekkende avond van.", native: { en: "The actors make it an impressive evening." } }
+    - { id: nl-b2-t16-s11, target: "Vooral Leila Benali in de hoofdrol is ontroerend: zonder hard te praten laat ze zien hoe eenzaam iemand kan zijn die als enige nee zegt.", native: { en: "Leila Benali in the lead role is especially moving: without raising her voice she shows how lonely someone can be who is the only one to say no." } }
+    - { id: nl-b2-t16-s12, target: "Ook de muzikanten, die in de zaal spelen achter een doorzichtig doek, verdienen een groot applaus.", native: { en: "The musicians, who play in the hall behind a transparent curtain, also deserve a big round of applause." } }
+  - - { id: nl-b2-t16-s13, target: "Helemaal perfect is het niet.", native: { en: "It is not quite perfect." } }
+    - { id: nl-b2-t16-s14, target: "Gezien de duur van het stuk, bijna drie uur, had het tweede deel korter gemogen.", native: { en: "Given the length of the play, almost three hours, the second part could have been shorter." } }
+    - { id: nl-b2-t16-s15, target: "Sommige scènes herhalen wat we al wisten, en dan zakt de spanning even weg.", native: { en: "Some scenes repeat what we already knew, and then the tension drops for a while." } }
+  - - { id: nl-b2-t16-s16, target: "Ondanks die kleine teleurstelling is dit theater zoals het moet zijn: een oud verhaal dat ons iets vertelt over ons eigen leven.", native: { en: "Despite that small disappointment this is theatre as it should be: an old story that tells us something about our own lives." } }
+    - { id: nl-b2-t16-s17, target: "De voorstellingen in Gent en Antwerpen zijn al uitverkocht, maar in de lente komt het stuk terug.", native: { en: "The performances in Ghent and Antwerp are already sold out, but the play is coming back in the spring." } }
+glossary:
+  - { word: tragedie, native: { en: tragedy } }
+  - { word: begraven, native: { en: to bury } }
+  - { word: geweten, native: { en: conscience } }
+  - { word: strijd, native: { en: "struggle, fight" } }
+  - { word: spanning, native: { en: tension } }
+  - { word: herkenbaar, native: { en: recognisable } }
+  - { word: doorzichtig, native: { en: transparent } }
+  - { word: doek, native: { en: "cloth, curtain" } }
+  - { word: scènes, native: { en: "scenes (de scène)" } }
+items: [nl.boeiend, nl.origineel, nl.regisseur, nl.verrassend, nl.acteur, nl.indrukwekkend, nl.ontroerend, nl.muzikant, nl.applaus, nl.gezien, nl.teleurstelling, nl.uitverkocht, nl.theater]
+gapped:
+  gaps: [nl-b2-t16-s03, nl-b2-t16-s07, nl-b2-t16-s10, nl-b2-t16-s13]
+  extra:
+    - { id: nl-b2-t16-x1, target: "Daarom raad ik iedereen aan om thuis te blijven.", native: { en: "That's why I advise everyone to stay at home." } }
+questions:
+  - { id: nl-b2-t16-q1, type: summary, options: ["De recensent vindt de moderne versie van een oude tragedie heel geslaagd, ook al is ze wat te lang.", "De recensent vindt de moderne versie van een oude tragedie niet geslaagd, omdat ze veel te lang is en de acteurs slecht spelen.", "De recensent vertelt vooral over het leven van de regisseur."], correct: 0 }
+  - { id: nl-b2-t16-q2, type: mc, question: "Hoe maakt de regisseur het oude verhaal herkenbaar?", options: ["Ze laat een familie ruziemaken via sociale media.", "Ze laat de acteurs in het publiek zitten.", "Ze verandert het einde van het verhaal."], correct: 0 }
+  - { id: nl-b2-t16-q3, type: true_false_notgiven, statement: "Volgens de recensent is het tweede deel te lang.", answer: true }
+  - { id: nl-b2-t16-q4, type: true_false_notgiven, statement: "Leila Benali speelt voor het eerst een hoofdrol.", answer: not_given }
+  - { id: nl-b2-t16-q5, type: true_false_notgiven, statement: "De muziek komt van een opname.", answer: false }
+  - { id: nl-b2-t16-q6, type: match_heading, paragraph: 5, options: ["Wat minder goed is", "Het verhaal van het stuk", "Waar je tickets koopt"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-t16-l1, type: complete, statement: "De voorstelling duurt bijna drie ___.", answers: [uur] }
+  - { id: nl-b2-t16-l2, type: mc, question: "Wanneer komt het stuk terug?", options: ["In de lente.", "Volgende week.", "Nooit meer."], correct: 0 }
+wordForm:
+  - { sentence: nl-b2-t16-s02, word: boeiendste, stem: boeiend, acceptAlso: ["meest boeiende"] }
+  - { sentence: nl-b2-t16-s10, word: indrukwekkende, stem: indruk }
+  - { sentence: nl-b2-t16-s07, word: verrassend, stem: verrassen }
+orderable: false

@@ -1,0 +1,83 @@
+id: en-a1-u09
+title: { nl: Mensen }
+icon: people
+topic: Family and friends; describing people
+vocabulary:
+  - { target: aunt, native: { nl: tante }, pos: noun }
+  - { target: uncle, native: { nl: oom }, pos: noun }
+  - { target: daughter, native: { nl: dochter }, pos: noun }
+  - { target: son, native: { nl: zoon }, pos: noun }
+  - { target: granddaughter, native: { nl: kleindochter }, pos: noun }
+  - { target: grandson, native: { nl: kleinzoon }, pos: noun }
+  - { target: grandparent, native: { nl: "grootouder (opa of oma)" }, pos: noun }
+  - { target: parent, native: { nl: ouder }, pos: noun }
+  - { target: grown-up, native: { nl: volwassene }, pos: noun }
+  - { target: clown, native: { nl: clown }, pos: noun }
+  - { target: pirate, native: { nl: piraat }, pos: noun }
+  - { target: pop star, native: { nl: popster }, pos: noun }
+  - { target: film star, native: { nl: filmster }, pos: noun }
+  - { target: famous, native: { nl: beroemd }, pos: adjective }
+  - { target: afraid, native: { nl: bang }, pos: adjective }
+  - { target: frightened, native: { nl: bang }, pos: adjective }
+  - { target: surprised, native: { nl: verrast }, pos: adjective }
+  - { target: brave, native: { nl: dapper }, pos: adjective }
+  - { target: naughty, native: { nl: stout }, pos: adjective }
+  - { target: clever, native: { nl: slim }, pos: adjective }
+  - { target: boring, native: { nl: saai }, pos: adjective }
+  - { target: strong, native: { nl: sterk }, pos: adjective }
+  - { target: weak, native: { nl: zwak }, pos: adjective }
+  - { target: tall, native: { nl: "lang, hoog" }, pos: adjective }
+  - { target: little, native: { nl: klein }, pos: adjective }
+  - { target: pretty, native: { nl: "mooi, knap" }, pos: adjective }
+  - { target: fair, native: { nl: "licht (haar), blond" }, pos: adjective, avoid: [en.blond] }
+  - { target: busy, native: { nl: druk }, pos: adjective }
+  - { target: quick, native: { nl: snel }, pos: adjective }
+  - { target: slow, native: { nl: langzaam }, pos: adjective }
+  - { target: quiet, native: { nl: stil }, pos: adjective }
+  - { target: loud, native: { nl: "hard, luid" }, pos: adjective }
+  - { target: careful, native: { nl: voorzichtig }, pos: adjective }
+  - { target: dangerous, native: { nl: gevaarlijk }, pos: adjective }
+  - { target: safe, native: { nl: veilig }, pos: adjective }
+sentences:
+  - { id: s01, target: "My aunt lives in a big city.", native: { nl: "Mijn tante woont in een grote stad." }, items: [en.aunt] }
+  - { id: s02, target: "Uncle Fred has got a red car.", native: { nl: "Oom Fred heeft een rode auto." }, items: [en.uncle] }
+  - { id: s03, target: "They have got two daughters.", native: { nl: "Zij hebben twee dochters." }, items: [en.daughter] }
+  - { id: s04, target: "Their son is my best friend.", native: { nl: "Hun zoon is mijn beste vriend." }, items: [en.son] }
+  - { id: s05, target: "Grandma has got five granddaughters.", native: { nl: "Oma heeft vijf kleindochters." }, items: [en.granddaughter] }
+  - { id: s06, target: "Peter is Grandpa's grandson.", native: { nl: "Peter is de kleinzoon van opa." }, items: [en.grandson] }
+  - { id: s07, target: "My grandparents live near the sea.", native: { nl: "Mijn opa en oma wonen dicht bij de zee." }, items: [en.grandparent] }
+  - { id: s08, target: "Parents can come to the school party.", native: { nl: "Ouders mogen naar het schoolfeest komen." }, items: [en.parent] }
+  - { id: s09, target: "This film is for grown-ups.", native: { nl: "Deze film is voor volwassenen." }, items: [en.grown-up] }
+  - { id: s10, target: "The clown has got a red nose.", native: { nl: "De clown heeft een rode neus." }, items: [en.clown] }
+  - { id: s11, target: "The pirate found the treasure.", native: { nl: "De piraat vond de schat." }, items: [en.pirate] }
+  - { id: s12, target: "She wants to be a pop star.", native: { nl: "Zij wil popster worden." }, items: [en.pop-star] }
+  - { id: s13, target: "That film star is very famous.", native: { nl: "Die filmster is heel beroemd." }, items: [en.film-star, en.famous] }
+  - { id: s14, target: "Are you afraid of spiders?", native: { nl: "Ben jij bang voor spinnen?" }, items: [en.afraid] }
+  - { id: s15, target: "The little girl was frightened of the dog.", native: { nl: "Het kleine meisje was bang voor de hond." }, items: [en.frightened, en.little] }
+  - { id: s16, target: "I was surprised to see you!", native: { nl: "Ik was verrast om je te zien!" }, items: [en.surprised] }
+  - { id: s17, target: "You were very brave at the dentist.", native: { nl: "Je was heel dapper bij de tandarts." }, items: [en.brave] }
+  - { id: s18, target: "Don't be naughty!", native: { nl: "Wees niet stout!" }, items: [en.naughty], acceptAlso: ["Do not be naughty!"] }
+  - { id: s19, target: "Dolphins are clever animals.", native: { nl: "Dolfijnen zijn slimme dieren." }, items: [en.clever] }
+  - { id: s20, target: "This film is boring.", native: { nl: "Deze film is saai." }, items: [en.boring] }
+  - { id: s21, target: "Elephants are very strong.", native: { nl: "Olifanten zijn heel sterk." }, items: [en.strong] }
+  - { id: s22, target: "The kitten is small and weak.", native: { nl: "Het kitten is klein en zwak." }, items: [en.weak] }
+  - { id: s23, target: "My brother is taller than me.", native: { nl: "Mijn broer is langer dan ik." }, items: [en.tall] }
+  - { id: s36, target: "My dad is very tall.", native: { nl: "Mijn vader is heel lang." }, items: [en.tall] }
+  - { id: s24, target: "We've got a little brother.", native: { nl: "We hebben een klein broertje." }, items: [en.little], acceptAlso: ["We have got a little brother."] }
+  - { id: s25, target: "Your sister is very pretty.", native: { nl: "Je zus is heel mooi." }, items: [en.pretty] }
+  - { id: s26, target: "She has got fair hair.", native: { nl: "Zij heeft blond haar." }, items: [en.fair] }
+  - { id: s27, target: "Mum is very busy today.", native: { nl: "Mama heeft het vandaag heel druk." }, items: [en.busy] }
+  - { id: s28, target: "The rabbit is very quick.", native: { nl: "Het konijn is heel snel." }, items: [en.quick] }
+  - { id: s29, target: "Snails are slow.", native: { nl: "Slakken zijn langzaam." }, items: [en.slow] }
+  - { id: s30, target: "Be quiet, please! The baby is sleeping.", native: { nl: "Wees stil, alsjeblieft! De baby slaapt." }, items: [en.quiet] }
+  - { id: s31, target: "The music is too loud.", native: { nl: "De muziek is te hard." }, items: [en.loud] }
+  - { id: s32, target: "Be careful on the road!", native: { nl: "Wees voorzichtig op de weg!" }, items: [en.careful] }
+  - { id: s33, target: "Sharks are dangerous.", native: { nl: "Haaien zijn gevaarlijk." }, items: [en.dangerous] }
+  - { id: s34, target: "The playground is safe.", native: { nl: "De speeltuin is veilig." }, items: [en.safe] }
+  - { id: s35, target: "Is it safe to swim here?", native: { nl: "Is het veilig om hier te zwemmen?" }, items: [en.safe] }
+lessons:
+  - { id: l01, title: { nl: Mijn familie }, vocab: [en.aunt, en.uncle, en.daughter, en.son, en.granddaughter, en.grandson, en.grandparent] }
+  - { id: l02, title: { nl: Mensen en sterren }, vocab: [en.parent, en.grown-up, en.clown, en.pirate, en.pop-star, en.film-star, en.famous] }
+  - { id: l03, title: { nl: Bang en dapper }, vocab: [en.afraid, en.frightened, en.surprised, en.brave, en.naughty, en.clever, en.boring] }
+  - { id: l04, title: { nl: "Hoe zien ze eruit?" }, vocab: [en.strong, en.weak, en.tall, en.little, en.pretty, en.fair, en.busy] }
+  - { id: l05, title: { nl: Snel en langzaam }, vocab: [en.quick, en.slow, en.quiet, en.loud, en.careful, en.dangerous, en.safe] }

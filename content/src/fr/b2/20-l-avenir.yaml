@@ -1,0 +1,76 @@
+id: fr-b2-u20
+title: { nl: Vooruitblikken, en: "Looking ahead" }
+icon: star
+topic: Prévoir l'avenir, le changement et l'incertitude, les rêves et les priorités ; le futur antérieur (quand j'aurai fini, dès que tu auras lu) et une révision de la grammaire B2 (conditionnel passé, subjonctif, passif, connecteurs)
+vocabulary:
+  - { target: l'avenir, native: { nl: de toekomst, en: "future" }, pos: noun, gender: m }
+  - { target: la prévision, native: { nl: de voorspelling, en: "forecast, prediction" }, pos: noun, gender: f }
+  - { target: prédire, native: { nl: voorspellen, en: "to predict, to foresee" }, pos: verb, noBlank: true }
+  - { target: incertain, native: { nl: onzeker, en: "uncertain" }, pos: adjective }
+  - { target: l'incertitude, native: { nl: de onzekerheid, en: "uncertainty" }, pos: noun, gender: f }
+  - { target: optimiste, native: { nl: optimistisch, en: "optimistic" }, pos: adjective, avoid: [fr.pessimiste], noBlank: true }
+  - { target: pessimiste, native: { nl: pessimistisch, en: "pessimistic" }, pos: adjective, avoid: [fr.optimiste], noBlank: true }
+  - { target: l'espoir, native: { nl: de hoop, en: "hope" }, pos: noun, gender: m }
+  - { target: l'inquiétude, native: { nl: "de ongerustheid, de zorg", en: "worry, anxiety" }, pos: noun, gender: f, avoid: [fr.souci, fr.anxiete] }
+  - { target: le souci, native: { nl: "de zorg, het probleem", en: "worry, concern" }, pos: noun, gender: m, avoid: [fr.inquietude] }
+  - { target: accomplir, native: { nl: "volbrengen, verwezenlijken", en: "to accomplish, to achieve" }, pos: verb }
+  - { target: la priorité, native: { nl: de prioriteit, en: "priority" }, pos: noun, gender: f, noBlank: true }
+  - { target: à long terme, native: { nl: "op lange termijn", en: "in the long term" }, pos: adverb, avoid: [fr.a-court-terme] }
+  - { target: à court terme, native: { nl: "op korte termijn", en: "in the short term" }, pos: adverb, avoid: [fr.a-long-terme] }
+  - { target: l'étape, native: { nl: "de etappe, de stap", en: "stage, step" }, pos: noun, gender: f }
+  - { target: évoluer, native: { nl: "evolueren, veranderen", en: "to evolve, to change" }, pos: verb }
+  - { target: l'évolution, native: { nl: "de evolutie, de ontwikkeling", en: "evolution, development" }, pos: noun, gender: f }
+  - { target: fixer, native: { nl: "vastleggen, (zich een doel) stellen", en: "to set (a goal or a date)" }, pos: verb }
+  - { target: mondial, native: { nl: "wereldwijd, wereld-", en: "global, worldwide" }, pos: adjective, typedAlso: { en: [global] } }
+  - { target: la mondialisation, native: { nl: de globalisering, en: "globalisation" }, pos: noun, gender: f }
+  - { target: international, native: { nl: internationaal, en: "international" }, pos: adjective, noBlank: true }
+  - { target: d'ici, native: { nl: "tegen (een datum), van nu tot", en: "by (a date), from now until" }, pos: adverb }
+  - { target: dès que, native: { nl: "zodra (+ futur antérieur of futur)", en: "as soon as" }, pos: conjunction, avoid: [fr.aussitot-que] }
+  - { target: aussitôt que, native: { nl: "zodra (formeel)", en: "as soon as (formal)" }, pos: conjunction, avoid: [fr.des-que] }
+  - { target: une fois que, native: { nl: "eenmaal, als eenmaal", en: "once (as in: once you've read it)" }, pos: conjunction }
+  - { target: le rêve, native: { nl: de droom, en: "dream" }, pos: noun, gender: m }
+  - { target: effrayant, native: { nl: beangstigend, en: "frightening, scary" }, pos: adjective }
+  - { target: sévère, native: { nl: streng, en: "strict, harsh" }, pos: adjective, typedAlso: { en: [strict] } }
+  - { target: la gentillesse, native: { nl: de vriendelijkheid, en: "kindness" }, pos: noun, gender: f }
+  - { target: soi-même, native: { nl: "zichzelf, jezelf", en: "oneself, yourself" }, pos: pronoun, typedAlso: { en: [toi-même, soi] } }
+sentences:
+  - { id: s01, target: "Personne ne sait de quoi l'avenir sera fait.", native: { nl: "Niemand weet wat de toekomst brengt.", en: "Nobody knows what the future holds." }, items: [fr.avenir] }
+  - { id: s02, target: "Les prévisions pour l'économie ne sont pas bonnes.", native: { nl: "De voorspellingen voor de economie zijn niet goed.", en: "The forecasts for the economy aren't good." }, items: [fr.prevision], form: { word: prévisions, stem: prévoir } }
+  - { id: s03, target: "Personne ne peut prédire ce qui va se passer.", native: { nl: "Niemand kan voorspellen wat er gaat gebeuren.", en: "Nobody can predict what's going to happen." }, items: [fr.predire] }
+  - { id: s04, target: "Mon avenir professionnel est encore incertain.", native: { nl: "Mijn professionele toekomst is nog onzeker.", en: "My professional future is still uncertain." }, items: [fr.incertain] }
+  - { id: s05, target: "Beaucoup de jeunes vivent mal cette incertitude.", native: { nl: "Veel jongeren hebben het moeilijk met die onzekerheid.", en: "Many young people find this uncertainty hard to cope with." }, items: [fr.incertitude] }
+  - { id: s06, target: "Je reste optimiste malgré tout.", native: { nl: "Ik blijf ondanks alles optimistisch.", en: "I remain optimistic despite everything." }, items: [fr.optimiste] }
+  - { id: s07, target: "Mon grand-père est assez pessimiste sur l'avenir de la planète.", native: { nl: "Mijn opa is nogal pessimistisch over de toekomst van de planeet.", en: "My grandfather is quite pessimistic about the future of the planet." }, items: [fr.pessimiste] }
+  - { id: s08, target: "Ces résultats nous donnent de l'espoir.", native: { nl: "Deze resultaten geven ons hoop.", en: "These results give us hope." }, items: [fr.espoir] }
+  - { id: s09, target: "Les parents ont exprimé leur inquiétude.", native: { nl: "De ouders hebben hun ongerustheid geuit.", en: "The parents expressed their concern." }, items: [fr.inquietude] }
+  - { id: s10, target: "Ne te fais pas de souci, tout va bien se passer.", native: { nl: "Maak je geen zorgen, alles komt goed.", en: "Don't worry, everything will be fine." }, items: [fr.souci] }
+  - { id: s11, target: "Elle a accompli tout ce qu'elle voulait faire.", native: { nl: "Ze heeft alles verwezenlijkt wat ze wilde doen.", en: "She has accomplished everything she wanted to do." }, items: [fr.accomplir] }
+  - { id: s12, target: "Ma priorité, cette année, c'est de réussir mes examens.", native: { nl: "Mijn prioriteit dit jaar is slagen voor mijn examens.", en: "My priority this year is to pass my exams." }, items: [fr.priorite] }
+  - { id: s13, target: "À long terme, ce projet va créer des emplois.", native: { nl: "Op lange termijn zal dit project banen opleveren.", en: "In the long term, this project will create jobs." }, items: [fr.a-long-terme] }
+  - { id: s14, target: "À court terme, rien ne va changer.", native: { nl: "Op korte termijn gaat er niets veranderen.", en: "In the short term, nothing will change." }, items: [fr.a-court-terme] }
+  - { id: s15, target: "Finir l'école est une étape importante de la vie.", native: { nl: "De school afmaken is een belangrijke stap in het leven.", en: "Finishing school is an important stage in life." }, items: [fr.etape] }
+  - { id: s16, target: "Les métiers évoluent très vite.", native: { nl: "De beroepen veranderen heel snel.", en: "Jobs are evolving very fast." }, items: [fr.evoluer], finite: { word: évoluent, hint: { nl: "évoluer (présent)", en: "évoluer (present)" } } }
+  - { id: s17, target: "L'évolution de la technologie change notre façon de travailler.", native: { nl: "De ontwikkeling van de technologie verandert de manier waarop we werken.", en: "The development of technology is changing the way we work." }, items: [fr.evolution] }
+  - { id: s18, target: "Je me suis fixé un objectif : courir dix kilomètres.", native: { nl: "Ik heb me een doel gesteld: tien kilometer lopen.", en: "I've set myself a goal: to run ten kilometres." }, items: [fr.fixer] }
+  - { id: s19, target: "Le changement climatique est un problème mondial.", native: { nl: "De klimaatverandering is een wereldwijd probleem.", en: "Climate change is a global problem." }, items: [fr.mondial] }
+  - { id: s20, target: "La mondialisation a des avantages et des inconvénients.", native: { nl: "De globalisering heeft voordelen en nadelen.", en: "Globalisation has advantages and disadvantages." }, items: [fr.mondialisation] }
+  - { id: s21, target: "Elle veut travailler pour une organisation internationale.", native: { nl: "Ze wil voor een internationale organisatie werken.", en: "She wants to work for an international organisation." }, items: [fr.international] }
+  - { id: s22, target: "D'ici 2050, la Belgique veut produire beaucoup plus d'énergie renouvelable.", native: { nl: "Tegen 2050 wil België veel meer hernieuwbare energie produceren.", en: "By 2050, Belgium wants to produce much more renewable energy." }, items: [fr.d-ici] }
+  - { id: s23, target: "Dès que j'aurai fini mes études, je partirai en voyage.", native: { nl: "Zodra ik mijn studies heb afgerond, ga ik op reis.", en: "As soon as I've finished my studies, I'll go travelling." }, items: [fr.des-que], build: true, acceptAlso: ["Je partirai en voyage dès que j'aurai fini mes études."] }
+  - { id: s24, target: "Je t'appellerai aussitôt que je serai arrivé.", native: { nl: "Ik bel je zodra ik aangekomen ben.", en: "I'll call you as soon as I've arrived." }, items: [fr.aussitot-que], build: true, acceptAlso: ["Aussitôt que je serai arrivé, je t'appellerai."] }
+  - { id: s25, target: "Une fois que tu auras lu la lettre, tu comprendras.", native: { nl: "Als je de brief eenmaal gelezen hebt, zul je het begrijpen.", en: "Once you've read the letter, you'll understand." }, items: [fr.une-fois-que], build: true, acceptAlso: ["Tu comprendras une fois que tu auras lu la lettre."] }
+  - { id: s26, target: "Mon rêve, c'est de devenir vétérinaire.", native: { nl: "Mijn droom is dierenarts worden.", en: "My dream is to become a vet." }, items: [fr.reve] }
+  - { id: s27, target: "Certaines prévisions pour le climat sont effrayantes.", native: { nl: "Sommige voorspellingen voor het klimaat zijn beangstigend.", en: "Some climate forecasts are frightening." }, items: [fr.effrayant, fr.prevision] }
+  - { id: s28, target: "Le professeur est sévère, mais juste.", native: { nl: "De leraar is streng, maar rechtvaardig.", en: "The teacher is strict but fair." }, items: [fr.severe] }
+  - { id: s29, target: "Merci pour ta gentillesse.", native: { nl: "Bedankt voor je vriendelijkheid.", en: "Thank you for your kindness." }, items: [fr.gentillesse] }
+  - { id: s31, target: "Si j'avais su que les métiers évolueraient si vite, j'aurais choisi une autre filière.", native: { nl: "Als ik had geweten dat de beroepen zo snel zouden evolueren, had ik een andere studierichting gekozen.", en: "If I had known that jobs would evolve so fast, I would have chosen another course of study." }, items: [fr.evoluer] }
+  - { id: s32, target: "Il est essentiel que chacun puisse choisir son avenir.", native: { nl: "Het is essentieel dat iedereen zijn toekomst kan kiezen.", en: "It's essential that everyone can choose their future." }, items: [fr.avenir] }
+  - { id: s33, target: "Ma mère m'a dit qu'elle comprenait mon inquiétude.", native: { nl: "Mijn moeder zei dat ze mijn ongerustheid begreep.", en: "My mother told me that she understood my worries." }, items: [fr.inquietude] }
+  - { id: s34, target: "À long terme, de nouveaux métiers seront créés.", native: { nl: "Op lange termijn zullen er nieuwe beroepen gecreëerd worden.", en: "In the long term, new jobs will be created." }, items: [fr.a-long-terme] }
+  - { id: s35, target: "Ayant fixé mes priorités, je sais ce que je veux faire.", native: { nl: "Nu ik mijn prioriteiten heb vastgelegd, weet ik wat ik wil doen.", en: "Having set my priorities, I know what I want to do." }, items: [fr.priorite] }
+  - { id: s30, target: "Il faut d'abord croire en soi-même.", native: { nl: "Je moet eerst in jezelf geloven.", en: "First you have to believe in yourself." }, items: [fr.soi-meme] }
+transforms:
+  - { id: x01, from: "Je vais finir mes études, puis je partirai en voyage.", key: dès, gapped: "___ mes études, je partirai en voyage.", answers: ["Dès que j'aurai fini", "Dès que j'aurai terminé", "Dès que je finirai"], items: [fr.des-que], native: { en: "As soon as I've finished my studies, I'll go travelling." } }
+  - { id: x02, from: "Nous n'avons pas agi plus tôt, et l'avenir est incertain aujourd'hui.", key: si, gapped: "___ plus tôt, l'avenir serait moins incertain aujourd'hui.", answers: ["Si nous avions agi", "Si on avait agi"], items: [fr.avenir, fr.incertain], native: { en: "If we had acted earlier, the future would be less uncertain today." } }
+  - { id: x03, from: "Les métiers changent très vite.", key: évoluent, gapped: "Les métiers ___.", answers: ["évoluent très vite", "évoluent très rapidement"], items: [fr.evoluer], native: { en: "Jobs are evolving very fast." } }
+texts: [fr-b2-t20]

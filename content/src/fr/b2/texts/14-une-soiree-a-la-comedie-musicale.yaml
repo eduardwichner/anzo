@@ -1,0 +1,52 @@
+id: fr-b2-t14
+kind: reading
+title: { nl: Een avond in de musical, en: "An evening at the musical" }
+topic: Arts et spectacles (une critique dans le journal du lycée)
+level: B2
+paragraphs:
+  - - { id: fr-b2-t14-s01, target: "Quand j'ai appris que notre lycée allait monter une comédie musicale tirée d'une vieille pièce célèbre, je n'étais pas très enthousiaste.", native: { nl: "Toen ik hoorde dat onze school een musical zou opvoeren naar een beroemd oud toneelstuk, was ik niet erg enthousiast.", en: "When I heard that our lycée was going to put on a musical based on a famous old play, I wasn't very enthusiastic." } }
+    - { id: fr-b2-t14-s02, target: "Je m'attendais à deux longues heures d'élèves qui oublient leur texte.", native: { nl: "Ik verwachtte twee lange uren met leerlingen die hun tekst vergeten.", en: "I was expecting two long hours of pupils forgetting their lines." } }
+    - { id: fr-b2-t14-s03, target: "Je me trompais complètement.", native: { nl: "Ik vergiste me volledig.", en: "I was completely wrong." } }
+  - - { id: fr-b2-t14-s04, target: "Beaucoup de spectateurs connaissent déjà l'histoire.", native: { nl: "Veel toeschouwers kennen het verhaal al.", en: "Many members of the audience already know the story." } }
+    - { id: fr-b2-t14-s05, target: "Deux jeunes tombent amoureux, bien que leurs familles se détestent depuis des années.", native: { nl: "Twee jongeren worden verliefd, hoewel hun families elkaar al jaren haten.", en: "Two young people fall in love, even though their families have hated each other for years." } }
+    - { id: fr-b2-t14-s06, target: "Dans cette version moderne, toutefois, les familles sont deux groupes de musique, et les amoureux se rencontrent à un concert dans leur ville.", native: { nl: "In deze moderne versie zijn de families echter twee muziekgroepen, en de geliefden ontmoeten elkaar op een concert in hun stad.", en: "In this modern version, however, the families are two bands, and the lovers meet at a concert in their town." } }
+  - - { id: fr-b2-t14-s07, target: "La musique est la grande réussite du spectacle.", native: { nl: "De muziek is het grote succes van de voorstelling.", en: "The music is the show's great success." } }
+    - { id: fr-b2-t14-s08, target: "Toutes les chansons ont été écrites par des élèves, et j'ai encore certaines mélodies dans la tête une semaine plus tard.", native: { nl: "Alle liedjes werden door leerlingen geschreven, en sommige melodieën zitten een week later nog in mijn hoofd.", en: "All the songs were written by pupils, and a week later I still have some of the tunes in my head." } }
+    - { id: fr-b2-t14-s09, target: "Les paroles sont intelligentes et souvent très drôles, alors que la dernière chanson est si émouvante que la moitié du public pleurait.", native: { nl: "De songteksten zijn slim en vaak erg grappig, terwijl het laatste lied zo ontroerend is dat de helft van het publiek huilde.", en: "The lyrics are clever and often very funny, while the last song is so moving that half the audience was in tears." } }
+  - - { id: fr-b2-t14-s10, target: "Le spectacle n'est pas parfait, bien sûr.", native: { nl: "De voorstelling is natuurlijk niet perfect.", en: "Of course, the show isn't perfect." } }
+    - { id: fr-b2-t14-s11, target: "La première partie est trop longue, et malgré de bons micros, on entendait mal certains chanteurs à la voix plus douce.", native: { nl: "Het eerste deel is te lang, en ondanks goede microfoons waren sommige zangers met een zachtere stem slecht te horen.", en: "The first half is too long, and despite good microphones, some of the singers with softer voices were hard to hear." } }
+    - { id: fr-b2-t14-s12, target: "Néanmoins, l'énergie des comédiens fait vite oublier ces petits problèmes.", native: { nl: "Toch doet de energie van de acteurs deze kleine problemen snel vergeten.", en: "Nevertheless, the actors' energy soon makes you forget these small problems." } }
+  - - { id: fr-b2-t14-s13, target: "Faut-il y aller ?", native: { nl: "Moet je gaan?", en: "Should you go?" } }
+    - { id: fr-b2-t14-s14, target: "Oui, si vous trouvez encore un billet : les trois premières soirées étaient complètes, et à la fin, les applaudissements ont continué pendant presque dix minutes.", native: { nl: "Ja, als je nog een ticket vindt: de eerste drie avonden waren uitverkocht, en op het einde ging het applaus bijna tien minuten door.", en: "Yes, if you can still find a ticket: the first three nights were sold out, and at the end the applause went on for almost ten minutes." } }
+    - { id: fr-b2-t14-s15, target: "Même si vous n'aimez pas les comédies musicales, celle-ci mérite d'être vue.", native: { nl: "Ook als je niet van musicals houdt, is deze het zien waard.", en: "Even if you don't like musicals, this one is worth seeing." } }
+glossary:
+  - { word: version, native: { nl: versie, en: "version" } }
+  - { word: amoureux, native: { nl: "de geliefden (un amoureux); verliefd (tomber amoureux)", en: "lovers (un amoureux); in love (tomber amoureux)" } }
+  - { word: mélodies, native: { nl: "melodieën (une mélodie)", en: "tunes, melodies (une mélodie)" } }
+  - { word: micros, native: { nl: "microfoons (un micro)", en: "microphones (un micro)" } }
+  - { word: mérite, native: { nl: "verdient (mériter)", en: "deserves (mériter)" } }
+items: [fr.comedie-musicale, fr.piece-de-theatre, fr.tomber-amoureux, fr.toutefois, fr.paroles, fr.emouvant, fr.voix, fr.neanmoins, fr.comedien, fr.complet, fr.applaudissements]
+gapped:
+  gaps: [fr-b2-t14-s04, fr-b2-t14-s07, fr-b2-t14-s10, fr-b2-t14-s13]
+  extra:
+    - { id: fr-b2-t14-x1, target: "Les comédiens n'ont répété que trois jours.", native: { nl: "De acteurs hebben maar drie dagen gerepeteerd.", en: "The actors only rehearsed for three days." } }
+openCloze:
+  - { sentence: fr-b2-t14-s01, word: allait, acceptAlso: [devait, voulait] }
+  - { sentence: fr-b2-t14-s05, word: bien, acceptAlso: [alors] }
+  - { sentence: fr-b2-t14-s09, word: si, acceptAlso: [tellement] }
+  - { sentence: fr-b2-t14-s15, word: Même }
+wordForm:
+  - { sentence: fr-b2-t14-s03, word: complètement, stem: complet }
+  - { sentence: fr-b2-t14-s11, word: chanteurs, stem: chanter }
+  - { sentence: fr-b2-t14-s14, word: applaudissements, stem: applaudir }
+questions:
+  - { id: fr-b2-t14-q1, type: summary, options: ["L'auteur a beaucoup aimé la comédie musicale du lycée : malgré quelques petits problèmes, la musique et l'énergie des comédiens en font un vrai succès.", "L'auteur a trouvé la comédie musicale du lycée trop longue et décevante, et il conseille de ne pas y aller.", "L'auteur a aimé les chansons de la comédie musicale du lycée, mais il trouve que les comédiens n'avaient pas d'énergie et que le public s'ennuyait."], correct: 0 }
+  - { id: fr-b2-t14-q2, type: mc, question: "Qui a écrit les chansons ?", options: ["Des élèves.", "Un musicien célèbre.", "Le professeur de musique."], correct: 0 }
+  - { id: fr-b2-t14-q3, type: true_false_notgiven, statement: "Dans cette version, les deux familles sont des groupes de musique.", answer: true }
+  - { id: fr-b2-t14-q4, type: true_false_notgiven, statement: "Selon l'auteur, la première partie est trop courte.", answer: false }
+  - { id: fr-b2-t14-q5, type: true_false_notgiven, statement: "Le spectacle va partir en tournée dans d'autres lycées.", answer: not_given }
+  - { id: fr-b2-t14-q6, type: match_heading, paragraph: 4, options: ["Quelques petits problèmes", "Une histoire connue", "Des chansons inoubliables"], correct: 0 }
+listeningQuestions:
+  - { id: fr-b2-t14-l1, type: complete, statement: "Les applaudissements ont continué pendant presque ___ minutes.", answers: [dix] }
+  - { id: fr-b2-t14-l2, type: mc, question: "À quoi l'auteur s'attendait-il avant le spectacle ?", options: ["Des élèves qui oublient leur texte.", "Un vrai chef-d'œuvre.", "Une soirée très courte."], correct: 0 }
+orderable: false

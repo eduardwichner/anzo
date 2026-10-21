@@ -1,0 +1,46 @@
+id: fr-b2-t11
+kind: reading
+title: { nl: Het eiland van de zeevogels, en: "Seabird Island" }
+topic: Animaux et nature (un reportage dans un magazine sur la nature)
+level: B2
+paragraphs:
+  - - { id: fr-b2-t11-s01, target: "Chaque été, pendant six semaines, le chercheur Martin Leroy vit sur une petite île où personne d'autre n'habite, près de la côte de Bretagne.", native: { nl: "Elke zomer woont onderzoeker Martin Leroy zes weken op een klein eiland voor de kust van Bretagne, waar verder niemand woont.", en: "Every summer, for six weeks, the researcher Martin Leroy lives on a small island where nobody else lives, off the coast of Brittany." } }
+    - { id: fr-b2-t11-s02, target: "Il n'y a pas de magasin, pas d'internet, et le seul bruit est celui du vent et des oiseaux.", native: { nl: "Er is geen winkel en geen internet, en het enige geluid is dat van de wind en de vogels.", en: "There are no shops, no internet, and the only sound is the wind and the birds." } }
+  - - { id: fr-b2-t11-s03, target: "Il n'est pas sur l'île en vacances.", native: { nl: "Hij is niet op vakantie op het eiland.", en: "He isn't on the island for a holiday." } }
+    - { id: fr-b2-t11-s04, target: "L'île accueille l'une des plus grandes colonies d'oiseaux marins d'Europe, et son travail est de compter les oiseaux et d'observer combien de jeunes survivent.", native: { nl: "Het eiland herbergt een van de grootste zeevogelkolonies van Europa, en zijn werk is de vogels tellen en kijken hoeveel jongen overleven.", en: "The island is home to one of the largest seabird colonies in Europe, and his job is to count the birds and see how many young ones survive." } }
+    - { id: fr-b2-t11-s05, target: "« Les oiseaux reviennent chaque année exactement au même endroit pour se reproduire, explique-t-il. Certains viennent ici depuis plus de vingt ans. »", native: { nl: "\"De vogels komen elk jaar terug naar precies dezelfde plek om te broeden,\" legt hij uit. \"Sommige komen hier al meer dan twintig jaar.\"", en: "\"The birds come back to exactly the same place every year to breed,\" he explains. \"Some have been coming here for more than twenty years.\"" } }
+  - - { id: fr-b2-t11-s06, target: "Malheureusement, la situation n'est pas bonne.", native: { nl: "Helaas is de situatie niet goed.", en: "Unfortunately, the situation isn't good." } }
+    - { id: fr-b2-t11-s07, target: "Depuis le début de ses recherches, le nombre d'oiseaux a diminué de presque la moitié.", native: { nl: "Sinds het begin van zijn onderzoek is het aantal vogels met bijna de helft afgenomen.", en: "Since he began his research, the number of birds has fallen by almost half." } }
+    - { id: fr-b2-t11-s08, target: "La raison principale est la nourriture : les petits poissons dont les oiseaux se nourrissent partent vers des eaux plus froides, parce que la mer devient plus chaude.", native: { nl: "De belangrijkste reden is voedsel: de kleine vissen waarvan de vogels leven, trekken naar kouder water, omdat de zee warmer wordt.", en: "The main reason is food: the small fish the birds feed on are moving to colder waters, because the sea is getting warmer." } }
+    - { id: fr-b2-t11-s09, target: "Les parents doivent aller beaucoup plus loin pour trouver à manger, et beaucoup de jeunes oiseaux ne reçoivent pas assez pour survivre.", native: { nl: "De ouders moeten veel verder gaan om eten te vinden, en veel jonge vogels krijgen niet genoeg om te overleven.", en: "The parents have to go much further to find food, and many young birds don't get enough to survive." } }
+  - - { id: fr-b2-t11-s10, target: "Peut-on faire quelque chose ?", native: { nl: "Kan er iets gedaan worden?", en: "Can anything be done?" } }
+    - { id: fr-b2-t11-s11, target: "Martin Leroy le croit, même s'il reconnaît qu'il n'y a pas de solution simple.", native: { nl: "Martin Leroy denkt van wel, al geeft hij toe dat er geen eenvoudige oplossing is.", en: "Martin Leroy thinks so, even though he admits that there is no simple solution." } }
+    - { id: fr-b2-t11-s12, target: "Protéger les endroits où les poissons se reproduisent et limiter la pêche près des colonies donneraient aux oiseaux une meilleure chance.", native: { nl: "De plekken beschermen waar de vissen zich voortplanten en de visvangst bij de kolonies beperken, zou de vogels een betere kans geven.", en: "Protecting the places where the fish breed and limiting fishing near the colonies would give the birds a better chance." } }
+    - { id: fr-b2-t11-s13, target: "« Les animaux savent très bien s'adapter, mais seulement si on leur laisse le temps », dit-il.", native: { nl: "\"Dieren kunnen zich heel goed aanpassen, maar alleen als we hun de tijd geven,\" zegt hij.", en: "\"Animals are very good at adapting, but only if we give them time,\" he says." } }
+  - - { id: fr-b2-t11-s14, target: "Pourquoi revient-il chaque année ?", native: { nl: "Waarom komt hij elk jaar terug?", en: "Why does he come back every year?" } }
+    - { id: fr-b2-t11-s15, target: "« Chaque année, j'ai peur de ce que je vais trouver. Mais quand je vois les premiers jeunes oiseaux quitter les falaises et partir vers la mer, je sais pourquoi je suis là. »", native: { nl: "\"Elk jaar ben ik bang voor wat ik zal vinden. Maar als ik de eerste jonge vogels de kliffen zie verlaten en naar zee zie vertrekken, weet ik waarom ik hier ben.\"", en: "\"Every year I'm afraid of what I'll find. But when I see the first young birds leave the cliffs and head out to sea, I know why I'm here.\"" } }
+items: [fr.colonie, fr.oiseau-marin, fr.survivre, fr.se-reproduire, fr.se-nourrir, fr.limiter, fr.s-adapter, fr.falaise]
+gapped:
+  gaps: [fr-b2-t11-s03, fr-b2-t11-s06, fr-b2-t11-s10, fr-b2-t11-s14]
+  extra:
+    - { id: fr-b2-t11-x1, target: "Martin Leroy a toujours préféré les mammifères aux oiseaux.", native: { nl: "Martin Leroy heeft altijd meer van zoogdieren gehouden dan van vogels.", en: "Martin Leroy has always preferred mammals to birds." } }
+openCloze:
+  - { sentence: fr-b2-t11-s01, word: où }
+  - { sentence: fr-b2-t11-s07, word: de }
+  - { sentence: fr-b2-t11-s08, word: dont }
+  - { sentence: fr-b2-t11-s11, word: même }
+wordForm:
+  - { sentence: fr-b2-t11-s13, word: seulement, stem: seul }
+  - { sentence: fr-b2-t11-s07, word: recherches, stem: rechercher }
+  - { sentence: fr-b2-t11-s08, word: nourriture, stem: nourrir }
+questions:
+  - { id: fr-b2-t11-q1, type: summary, options: ["Un chercheur qui compte les oiseaux sur une petite île a vu leur nombre diminuer de presque la moitié, surtout parce que les poissons dont ils se nourrissent partent ailleurs.", "Un chercheur qui compte les oiseaux sur une petite île a vu leur nombre augmenter grâce à la protection de l'île.", "Un chercheur qui compte les oiseaux sur une petite île pense que leur nombre diminue surtout parce que des chasseurs viennent sur l'île chaque été."], correct: 0 }
+  - { id: fr-b2-t11-q2, type: mc, question: "Pourquoi les jeunes oiseaux ont-ils du mal à survivre ?", options: ["Leurs parents doivent aller très loin pour trouver à manger.", "Des chasseurs viennent sur l'île.", "Il fait trop froid sur l'île."], correct: 0 }
+  - { id: fr-b2-t11-q3, type: true_false_notgiven, statement: "Certains oiseaux reviennent sur l'île depuis plus de vingt ans.", answer: true }
+  - { id: fr-b2-t11-q4, type: true_false_notgiven, statement: "Martin Leroy pense qu'il existe une solution simple.", answer: false }
+  - { id: fr-b2-t11-q5, type: true_false_notgiven, statement: "Martin Leroy a déjà essayé de limiter la pêche près de l'île.", answer: not_given }
+  - { id: fr-b2-t11-q6, type: match_heading, paragraph: 4, options: ["Ce qu'on pourrait faire", "Pourquoi les oiseaux disparaissent", "La vie sur l'île"], correct: 0 }
+listeningQuestions:
+  - { id: fr-b2-t11-l1, type: complete, statement: "Le nombre d'oiseaux a diminué de presque la ___.", answers: [moitié] }
+  - { id: fr-b2-t11-l2, type: mc, question: "Combien de temps Martin Leroy passe-t-il sur l'île chaque été ?", options: ["Six semaines.", "Deux mois.", "Vingt jours."], correct: 0 }
+orderable: false

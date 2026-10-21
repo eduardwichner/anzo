@@ -1,0 +1,10 @@
+[Unit]
+Description=Anzo watchdog every 2 minutes
+
+[Timer]
+OnBootSec=3min
+OnUnitActiveSec=2min
+AccuracySec=10s
+
+[Install]
+WantedBy=timers.target

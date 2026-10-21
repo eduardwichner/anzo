@@ -1,0 +1,147 @@
+id: en-b1-u28
+title: { nl: "Tijd, getallen en meten" }
+icon: clock
+topic: Time expressions, frequency, numbers, sums and measurements; the past perfect with already and after, how often, how long
+vocabulary:
+  - { target: moment, native: { nl: moment }, pos: noun }
+  - { target: beginning, native: { nl: begin }, pos: noun }
+  - { target: at first, native: { nl: eerst (in het begin) }, pos: phrase }
+  - { target: afterwards, native: { nl: daarna (achteraf) }, pos: adverb }
+  - { target: meanwhile, native: { nl: ondertussen }, pos: adverb }
+  - { target: at the same time, native: { nl: tegelijkertijd }, pos: phrase }
+  - { target: at once, native: { nl: meteen }, pos: phrase }
+  - { target: immediately, native: { nl: "onmiddellijk, meteen" }, pos: adverb, avoid: [en.at-once] }
+  - { target: shortly, native: { nl: binnenkort (zo meteen) }, pos: adverb, noBlank: true }
+  - { target: at last, native: { nl: eindelijk }, pos: phrase }
+  - { target: finally, native: { nl: "ten slotte, uiteindelijk" }, pos: adverb, avoid: [en.at-last] }
+  - { target: in the end, native: { nl: uiteindelijk }, pos: phrase }
+  - { target: in time, native: { nl: "op tijd, tijdig" }, pos: phrase }
+  - { target: till, native: { nl: tot }, pos: preposition }
+  - { target: sudden, native: { nl: plotseling }, pos: adjective }
+  - { target: ages, native: { nl: een eeuwigheid (heel lang) }, pos: noun, noBlank: true }
+  - { target: forever, native: { nl: voor altijd }, pos: adverb }
+  - { target: at present, native: { nl: op dit moment }, pos: phrase }
+  - { target: nowadays, native: { nl: tegenwoordig }, pos: adverb }
+  - { target: lately, native: { nl: de laatste tijd }, pos: adverb }
+  - { target: previous, native: { nl: vorig (voorgaand) }, pos: adjective, noBlank: true }
+  - { target: previously, native: { nl: eerder (vroeger) }, pos: adverb }
+  - { target: former, native: { nl: voormalig }, pos: adjective, avoid: [en.previous], noBlank: true }
+  - { target: following, native: { nl: volgend }, pos: adjective, noBlank: true }
+  - { target: noon, native: { nl: twaalf uur 's middags }, pos: noun }
+  - { target: weekday, native: { nl: weekdag }, pos: noun }
+  - { target: fortnight, native: { nl: twee weken }, pos: noun }
+  - { target: daily, native: { nl: dagelijks }, pos: adjective }
+  - { target: weekly, native: { nl: wekelijks }, pos: adjective }
+  - { target: monthly, native: { nl: maandelijks }, pos: adjective }
+  - { target: regular, native: { nl: regelmatig }, pos: adjective }
+  - { target: regularly, native: { nl: regelmatig (bijwoord) }, pos: adverb }
+  - { target: frequent, native: { nl: vaak voorkomend }, pos: adjective }
+  - { target: frequently, native: { nl: "vaak, dikwijls" }, pos: adverb }
+  - { target: normally, native: { nl: normaal gezien }, pos: adverb, noBlank: true }
+  - { target: occasionally, native: { nl: af en toe }, pos: adverb, avoid: [en.frequently], noBlank: true }
+  - { target: rarely, native: { nl: zelden }, pos: adverb }
+  - { target: arithmetic, native: { nl: rekenen }, pos: noun }
+  - { target: calculator, native: { nl: rekenmachine }, pos: noun }
+  - { target: plus, native: { nl: plus }, pos: preposition, avoid: [en.minus] }
+  - { target: minus, native: { nl: min }, pos: preposition }
+  - { target: multiply, native: { nl: vermenigvuldigen }, pos: verb, avoid: [en.divide] }
+  - { target: divide, native: { nl: delen (rekenen) }, pos: verb }
+  - { target: subtract, native: { nl: aftrekken }, pos: verb }
+  - { target: take away, native: { nl: "aftrekken, wegnemen" }, pos: phrase }
+  - { target: sum, native: { nl: "som (bedrag)" }, pos: noun }
+  - { target: total, native: { nl: totaal }, pos: noun }
+  - { target: altogether, native: { nl: in totaal }, pos: adverb }
+  - { target: amount, native: { nl: "hoeveelheid, bedrag" }, pos: noun, avoid: [en.sum] }
+  - { target: dozen, native: { nl: dozijn }, pos: noun }
+  - { target: percent, native: { nl: procent }, pos: noun }
+  - { target: per, native: { nl: per }, pos: preposition }
+  - { target: approximately, native: { nl: ongeveer }, pos: adverb, noBlank: true }
+  - { target: maximum, native: { nl: maximum }, pos: noun, avoid: [en.minimum] }
+  - { target: minimum, native: { nl: minimum }, pos: noun }
+  - { target: diagram, native: { nl: diagram (schema) }, pos: noun }
+  - { target: measure, native: { nl: meten }, pos: verb }
+  - { target: length, native: { nl: lengte }, pos: noun }
+  - { target: height, native: { nl: hoogte }, pos: noun }
+  - { target: depth, native: { nl: diepte }, pos: noun }
+  - { target: weight, native: { nl: gewicht }, pos: noun }
+  - { target: weigh, native: { nl: wegen }, pos: verb }
+  - { target: millimetre, native: { nl: millimeter }, pos: noun }
+  - { target: centimetre, native: { nl: centimeter }, pos: noun }
+  - { target: metre, native: { nl: meter }, pos: noun }
+  - { target: inch, native: { nl: inch (duim) }, pos: noun }
+  - { target: mile, native: { nl: mijl }, pos: noun }
+  - { target: gram, native: { nl: gram }, pos: noun }
+  - { target: kilogramme, native: { nl: kilogram }, pos: noun, noBlank: true }
+  - { target: litre, native: { nl: liter }, pos: noun }
+sentences:
+  - { id: s01, target: "Wait a moment, please.", native: { nl: "Wacht even, alsjeblieft." }, items: [en.moment] }
+  - { id: s02, target: "I didn't like the beginning of the book.", native: { nl: "Ik vond het begin van het boek niet leuk." }, items: [en.beginning] }
+  - { id: s03, target: "At first I was nervous, but then I enjoyed it.", native: { nl: "Eerst was ik zenuwachtig, maar daarna vond ik het leuk." }, items: [en.at-first] }
+  - { id: s04, target: "We had a swim. Afterwards, we ate ice cream.", native: { nl: "We zwommen. Daarna aten we een ijsje." }, items: [en.afterwards] }
+  - { id: s05, target: "Dad made dinner. Meanwhile, I laid the table.", native: { nl: "Papa maakte het eten klaar. Ondertussen dekte ik de tafel." }, items: [en.meanwhile] }
+  - { id: s06, target: "Everyone started talking at the same time.", native: { nl: "Iedereen begon tegelijkertijd te praten." }, items: [en.at-the-same-time] }
+  - { id: s07, target: "Come here at once!", native: { nl: "Kom meteen hier!" }, items: [en.at-once] }
+  - { id: s08, target: "Please call me immediately when you arrive.", native: { nl: "Bel me alsjeblieft onmiddellijk als je aankomt." }, items: [en.immediately] }
+  - { id: s09, target: "The film will start shortly.", native: { nl: "De film begint zo meteen." }, items: [en.shortly] }
+  - { id: s10, target: "At last the bus arrived!", native: { nl: "Eindelijk kwam de bus!" }, items: [en.at-last], acceptAlso: ["The bus arrived at last!"] }
+  - { id: s11, target: "First we went to the museum, and finally we had dinner.", native: { nl: "Eerst gingen we naar het museum, en ten slotte aten we iets." }, items: [en.finally] }
+  - { id: s12, target: "We looked everywhere, and in the end we found the keys in the car.", native: { nl: "We zochten overal, en uiteindelijk vonden we de sleutels in de auto." }, items: [en.in-the-end] }
+  - { id: s13, target: "We arrived just in time for the start of the show.", native: { nl: "We kwamen net op tijd aan voor het begin van de show." }, items: [en.in-time] }
+  - { id: s14, target: "The shop is open till eight.", native: { nl: "De winkel is open tot acht uur." }, items: [en.till] }
+  - { id: s15, target: "There was a sudden noise outside.", native: { nl: "Buiten klonk plotseling een geluid." }, items: [en.sudden] }
+  - { id: s16, target: "It took ages for the bus to arrive.", native: { nl: "Het duurde een eeuwigheid voor de bus kwam." }, items: [en.ages] }
+  - { id: s17, target: "I'll love you forever.", native: { nl: "Ik zal voor altijd van je houden." }, items: [en.forever] }
+  - { id: s18, target: "At present, we're living with my grandparents.", native: { nl: "Op dit moment wonen we bij mijn grootouders." }, items: [en.at-present], acceptAlso: ["We're living with my grandparents at present."] }
+  - { id: s19, target: "Nowadays most people pay by card.", native: { nl: "Tegenwoordig betalen de meeste mensen met een kaart." }, items: [en.nowadays], acceptAlso: ["Most people pay by card nowadays."] }
+  - { id: s20, target: "Have you seen any good films lately?", native: { nl: "Heb je de laatste tijd nog goede films gezien?" }, items: [en.lately] }
+  - { id: s21, target: "I liked my previous school better.", native: { nl: "Ik vond mijn vorige school leuker." }, items: [en.previous] }
+  - { id: s22, target: "She had previously worked in a hotel.", native: { nl: "Ze had eerder in een hotel gewerkt." }, items: [en.previously] }
+  - { id: s23, target: "The former owner of the house was a famous writer.", native: { nl: "De voormalige eigenaar van het huis was een beroemde schrijver." }, items: [en.former] }
+  - { id: s24, target: "We came back the following day.", native: { nl: "We kwamen de volgende dag terug." }, items: [en.following] }
+  - { id: s25, target: "We'll meet at noon in front of the station.", native: { nl: "We zien elkaar om twaalf uur 's middags voor het station." }, items: [en.noon], acceptAlso: ["We'll meet in front of the station at noon."] }
+  - { id: s26, target: "The museum is open on weekdays only.", native: { nl: "Het museum is alleen op weekdagen open." }, items: [en.weekday] }
+  - { id: s27, target: "We're going on holiday for a fortnight.", native: { nl: "We gaan twee weken op vakantie." }, items: [en.fortnight] }
+  - { id: s28, target: "Exercise is part of my daily routine.", native: { nl: "Sporten hoort bij mijn dagelijkse routine." }, items: [en.daily] }
+  - { id: s29, target: "We have a weekly spelling test.", native: { nl: "We hebben een wekelijkse spellingtoets." }, items: [en.weekly] }
+  - { id: s30, target: "I buy a monthly bus ticket.", native: { nl: "Ik koop een maandabonnement voor de bus." }, items: [en.monthly] }
+  - { id: s31, target: "Regular exercise is good for you.", native: { nl: "Regelmatig sporten is goed voor je." }, items: [en.regular] }
+  - { id: s32, target: "I go swimming regularly.", native: { nl: "Ik ga regelmatig zwemmen." }, items: [en.regularly], acceptAlso: ["I regularly go swimming."] }
+  - { id: s33, target: "There are frequent trains to London.", native: { nl: "Er rijden vaak treinen naar Londen." }, items: [en.frequent] }
+  - { id: s34, target: "He frequently forgets his homework.", native: { nl: "Hij vergeet vaak zijn huiswerk." }, items: [en.frequently] }
+  - { id: s35, target: "I normally walk to school.", native: { nl: "Normaal gezien loop ik naar school." }, items: [en.normally], acceptAlso: ["Normally I walk to school."] }
+  - { id: s36, target: "We occasionally eat at a restaurant.", native: { nl: "We eten af en toe in een restaurant." }, items: [en.occasionally], acceptAlso: ["Occasionally we eat at a restaurant."] }
+  - { id: s37, target: "It rarely snows here.", native: { nl: "Het sneeuwt hier zelden." }, items: [en.rarely] }
+  - { id: s38, target: "Arithmetic was my favourite subject at primary school.", native: { nl: "Rekenen was mijn favoriete vak op de basisschool." }, items: [en.arithmetic] }
+  - { id: s39, target: "You can use a calculator in the test.", native: { nl: "Je mag een rekenmachine gebruiken bij de toets." }, items: [en.calculator] }
+  - { id: s40, target: "Seven plus five is twelve.", native: { nl: "Zeven plus vijf is twaalf." }, items: [en.plus] }
+  - { id: s41, target: "Ten minus three is seven.", native: { nl: "Tien min drie is zeven." }, items: [en.minus] }
+  - { id: s42, target: "Multiply six by four.", native: { nl: "Vermenigvuldig zes met vier." }, items: [en.multiply] }
+  - { id: s43, target: "If you divide twenty by five, you get four.", native: { nl: "Als je twintig door vijf deelt, krijg je vier." }, items: [en.divide] }
+  - { id: s44, target: "Subtract the small number from the big one.", native: { nl: "Trek het kleine getal af van het grote." }, items: [en.subtract] }
+  - { id: s45, target: "Take fifteen away from seventy-eight.", native: { nl: "Trek vijftien af van achtenzeventig." }, items: [en.take-away] }
+  - { id: s46, target: "He won a large sum of money.", native: { nl: "Hij won een grote som geld." }, items: [en.sum] }
+  - { id: s47, target: "The total is fifty pounds.", native: { nl: "Het totaal is vijftig pond." }, items: [en.total] }
+  - { id: s48, target: "Altogether, the trip cost three hundred euros.", native: { nl: "In totaal kostte de reis driehonderd euro." }, items: [en.altogether], acceptAlso: ["The trip cost three hundred euros altogether."] }
+  - { id: s49, target: "Add a small amount of salt.", native: { nl: "Voeg een kleine hoeveelheid zout toe." }, items: [en.amount] }
+  - { id: s50, target: "We need a dozen eggs for the cakes.", native: { nl: "We hebben een dozijn eieren nodig voor de taarten." }, items: [en.dozen] }
+  - { id: s51, target: "Ninety percent of the students passed.", native: { nl: "Negentig procent van de leerlingen is geslaagd." }, items: [en.percent] }
+  - { id: s52, target: "The tickets cost ten pounds per person.", native: { nl: "De kaartjes kosten tien pond per persoon." }, items: [en.per] }
+  - { id: s53, target: "The journey takes approximately two hours.", native: { nl: "De reis duurt ongeveer twee uur." }, items: [en.approximately] }
+  - { id: s54, target: "The maximum number of people in the lift is eight.", native: { nl: "Er mogen maximaal acht mensen in de lift." }, items: [en.maximum] }
+  - { id: s55, target: "You need a minimum of three players.", native: { nl: "Je hebt minimaal drie spelers nodig." }, items: [en.minimum] }
+  - { id: s56, target: "Look at the diagram on page ten.", native: { nl: "Kijk naar het diagram op bladzijde tien." }, items: [en.diagram] }
+  - { id: s57, target: "Measure the table before you buy a table-cloth.", native: { nl: "Meet de tafel voordat je een tafelkleed koopt." }, items: [en.measure] }
+  - { id: s58, target: "What's the length of the room?", native: { nl: "Wat is de lengte van de kamer?" }, items: [en.length] }
+  - { id: s59, target: "The tower has a height of sixty metres.", native: { nl: "De toren heeft een hoogte van zestig meter." }, items: [en.height, en.metre] }
+  - { id: s60, target: "What's the depth of the pool?", native: { nl: "Wat is de diepte van het zwembad?" }, items: [en.depth] }
+  - { id: s61, target: "The weight of the suitcase is twenty kilogrammes.", native: { nl: "Het gewicht van de koffer is twintig kilo." }, items: [en.weight] }
+  - { id: s62, target: "How much do you weigh?", native: { nl: "Hoeveel weeg je?" }, items: [en.weigh] }
+  - { id: s63, target: "The insect is only two millimetres long.", native: { nl: "Het insect is maar twee millimeter lang." }, items: [en.millimetre] }
+  - { id: s64, target: "I grew five centimetres last year.", native: { nl: "Ik ben vorig jaar vijf centimeter gegroeid." }, items: [en.centimetre], acceptAlso: ["Last year I grew five centimetres."] }
+  - { id: s65, target: "The screen is twelve inches wide.", native: { nl: "Het scherm is twaalf inch breed." }, items: [en.inch] }
+  - { id: s66, target: "My school is two miles from my house.", native: { nl: "Mijn school ligt twee mijl van mijn huis." }, items: [en.mile] }
+  - { id: s67, target: "You need two hundred grams of flour.", native: { nl: "Je hebt tweehonderd gram bloem nodig." }, items: [en.gram] }
+  - { id: s68, target: "A kilogramme of apples costs two euros.", native: { nl: "Een kilogram appels kost twee euro." }, items: [en.kilogramme] }
+  - { id: s69, target: "Buy two litres of milk, please.", native: { nl: "Koop twee liter melk, alsjeblieft." }, items: [en.litre] }
+  - { id: s70, target: "At that moment, the film had already started.", native: { nl: "Op dat moment was de film al begonnen." }, items: [en.moment], build: true, acceptAlso: ["The film had already started at that moment."], finite: { word: had, hint: { nl: "have (voltooid verleden tijd: … already started)" } } }
+texts: [en-b1-t29]

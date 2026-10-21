@@ -1,0 +1,36 @@
+id: nl-b1-t03
+kind: reading
+title: { en: A job advert }
+topic: Looking for work (a job advert from a Flemish company)
+level: B1
+paragraphs:
+  - - { id: nl-b1-t03-s01, target: "Groenten Peeters is een familiebedrijf in Mechelen dat groenten en fruit levert aan winkels en restaurants.", native: { en: "Groenten Peeters is a family business in Mechelen that supplies fruit and vegetables to shops and restaurants." } }
+    - { id: nl-b1-t03-s02, target: "Voor ons magazijn zoeken wij een nieuwe collega.", native: { en: "We are looking for a new colleague for our warehouse." } }
+  - - { id: nl-b1-t03-s03, target: "U maakt elke ochtend de bestellingen klaar die onze klanten de avond voordien hebben doorgestuurd.", native: { en: "Every morning you prepare the orders our customers sent the previous evening." } }
+    - { id: nl-b1-t03-s04, target: "U controleert of alle producten goed zijn en u helpt de chauffeurs om de bestellingen in de vrachtwagens te zetten.", native: { en: "You check whether all the products are in good condition and you help the drivers put the orders into the lorries." } }
+  - - { id: nl-b1-t03-s05, target: "Wij zoeken iemand die flexibel is en graag in een team werkt.", native: { en: "We are looking for someone who is flexible and likes working in a team." } }
+    - { id: nl-b1-t03-s06, target: "Een diploma is niet nodig, maar ervaring in een magazijn is een voordeel.", native: { en: "A qualification isn't necessary, but experience in a warehouse is an advantage." } }
+    - { id: nl-b1-t03-s07, target: "U moet bereid zijn om vroeg op te staan, want de werkdag begint om zes uur.", native: { en: "You must be willing to get up early, because the working day begins at six." } }
+  - - { id: nl-b1-t03-s08, target: "Wij bieden eerst een contract van zes maanden aan.", native: { en: "We first offer a six-month contract." } }
+    - { id: nl-b1-t03-s09, target: "Daarna kan het een vast contract worden.", native: { en: "After that it can become a permanent contract." } }
+    - { id: nl-b1-t03-s10, target: "De eerste twee weken wordt u begeleid door een ervaren collega.", native: { en: "For the first two weeks you will be supervised by an experienced colleague." } }
+  - - { id: nl-b1-t03-s11, target: "Bent u geïnteresseerd? Stuur dan uw cv en een korte brief naar Lien Maes van de afdeling personeel.", native: { en: "Are you interested? Then send your CV and a short letter to Lien Maes in the personnel department." } }
+    - { id: nl-b1-t03-s12, target: "Kandidaten die aan het profiel voldoen, worden uitgenodigd voor een gesprek.", native: { en: "Candidates who fit the profile will be invited for an interview." } }
+glossary:
+  - { word: familiebedrijf, native: { en: family business } }
+  - { word: voordien, native: { en: "before (that), previously" } }
+items: [nl.kandidaat, nl.profiel, nl.geinteresseerd, nl.gesprek, nl.voldoen, nl.bereid, nl.flexibel, nl.vast, nl.begeleiden, nl.aanbieden, nl.vrachtwagen, nl.afdeling, nl.personeel, nl.doorsturen]
+questions:
+  - { id: nl-b1-t03-q1, type: mc, question: "Wat doet het bedrijf Groenten Peeters?", options: ["Het brengt groenten en fruit naar winkels en restaurants.", "Het verkoopt groenten en fruit op de markt.", "Het herstelt vrachtwagens voor andere bedrijven."], correct: 0 }
+  - { id: nl-b1-t03-q2, type: true_false_notgiven, statement: "Voor deze job moet je een diploma hebben.", answer: false }
+  - { id: nl-b1-t03-q3, type: true_false_notgiven, statement: "De werkdag in het magazijn begint om zes uur.", answer: true }
+  - { id: nl-b1-t03-q4, type: true_false_notgiven, statement: "Het bedrijf betaalt een hoog loon.", answer: not_given }
+  - { id: nl-b1-t03-q5, type: match_heading, paragraph: 4, options: ["Ons aanbod", "Wie wij zoeken", "Hoe u solliciteert"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b1-t03-l1, type: mc, question: "Hoe lang duurt het eerste contract?", options: ["Zes maanden.", "Twee weken.", "Een jaar."], correct: 0 }
+  - { id: nl-b1-t03-l2, type: true_false_notgiven, statement: "Een ervaren collega helpt de nieuwe collega in het begin.", answer: true }
+cloze:
+  - { sentence: nl-b1-t03-s01, word: levert, kind: finite_verb, hint: { en: "leveren (present)" } }
+  - { sentence: nl-b1-t03-s03, word: maakt, kind: finite_verb, hint: { en: "klaarmaken (present)" } }
+  - { sentence: nl-b1-t03-s08, word: bieden, kind: finite_verb, hint: { en: "aanbieden (present)" } }
+  - { sentence: nl-b1-t03-s10, word: wordt, kind: finite_verb, hint: { en: "worden (present)" } }

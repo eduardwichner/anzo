@@ -1,0 +1,34 @@
+id: fr-b1-t10
+kind: dialogue
+title: { nl: Te veel schermtijd?, en: "Too much screen time?" }
+topic: Les médias (une mère et son fils parlent du téléphone)
+level: B1
+speakers: { A: { name: Maman }, B: { name: Hugo } }
+turns:
+  - { id: fr-b1-t10-s01, speaker: A, target: "Hugo, tu es encore sur ton téléphone ? Tu as fait tes devoirs ?", native: { nl: "Hugo, zit je weer op je telefoon? Heb je je huiswerk gemaakt?", en: "Hugo, are you on your phone again? Have you done your homework?" } }
+  - { id: fr-b1-t10-s02, speaker: B, target: "Presque. Je regarde une vidéo pour mon exposé sur les réseaux sociaux.", native: { nl: "Bijna. Ik kijk naar een video voor mijn spreekbeurt over sociale media.", en: "Nearly. I'm watching a video for my presentation on social networks." } }
+  - { id: fr-b1-t10-s03, speaker: A, target: "Un sondage dit que les jeunes passent quatre heures par jour devant leur écran.", native: { nl: "Een peiling zegt dat jongeren vier uur per dag achter hun scherm zitten.", en: "A survey says young people spend four hours a day in front of their screens." } }
+  - { id: fr-b1-t10-s04, speaker: B, target: "Je sais, c'est exactement le thème de mon exposé. Mais ce n'est pas toujours négatif !", native: { nl: "Ik weet het, dat is precies het thema van mijn spreekbeurt. Maar het is niet altijd negatief!", en: "I know: that's exactly the theme of my presentation. But it's not always negative!" } }
+  - { id: fr-b1-t10-s05, speaker: A, target: "Ah bon ? Explique-moi.", native: { nl: "O ja? Leg eens uit.", en: "Oh, really? Go on, explain." } }
+  - { id: fr-b1-t10-s06, speaker: B, target: "On trouve beaucoup d'informations utiles, et je parle avec mon correspondant au Canada.", native: { nl: "Je vindt veel nuttige informatie, en ik praat met mijn penvriend in Canada.", en: "You can find lots of useful information, and I talk to my pen friend in Canada." } }
+  - { id: fr-b1-t10-s07, speaker: A, target: "C'est vrai. Mais il faut vérifier les sources. Il y a aussi beaucoup de fausses informations.", native: { nl: "Dat is waar. Maar je moet de bronnen controleren. Er is ook veel valse informatie.", en: "That's true. But you have to check the sources. There's also a lot of false information." } }
+  - { id: fr-b1-t10-s08, speaker: B, target: "Oui, notre professeur nous a montré comment trouver un site sérieux.", native: { nl: "Ja, onze leraar heeft ons getoond hoe je een betrouwbare website vindt.", en: "Yes, our teacher showed us how to find a reliable website." } }
+  - { id: fr-b1-t10-s09, speaker: A, target: "Très bien. Alors je te propose une règle : pas de téléphone après neuf heures.", native: { nl: "Heel goed. Dan stel ik je een regel voor: geen telefoon na negen uur.", en: "Very good. So I suggest a rule: no phone after nine o'clock." } }
+  - { id: fr-b1-t10-s10, speaker: B, target: "D'accord, mais seulement si toi aussi, tu poses ton téléphone le soir !", native: { nl: "Akkoord, maar alleen als jij 's avonds ook je telefoon weglegt!", en: "OK, but only if you put your phone down in the evenings too!" } }
+items: [fr.reseau, fr.sondage, fr.negatif, fr.information, fr.source, fr.site, fr.theme, fr.expose, fr.serieux, fr.verifier, fr.utile, fr.exactement]
+questions:
+  - { id: fr-b1-t10-q1, type: mc, question: "Pourquoi Hugo regarde-t-il une vidéo ?", options: ["Pour préparer son exposé.", "Pour jouer à un jeu.", "Pour parler à un ami."], correct: 0 }
+  - { id: fr-b1-t10-q2, type: true_false_notgiven, statement: "La mère d'Hugo travaille comme journaliste.", answer: not_given }
+  - { id: fr-b1-t10-q3, type: true_false_notgiven, statement: "Hugo a un ami au Canada.", answer: true }
+  - { id: fr-b1-t10-q4, type: true_false_notgiven, statement: "Hugo pense que les écrans sont toujours mauvais.", answer: false }
+  - { id: fr-b1-t10-q5, type: mc, question: "Quelle règle la mère propose-t-elle ?", options: ["Pas de téléphone après neuf heures.", "Pas de téléphone à l'école.", "Une heure de téléphone par jour."], correct: 0 }
+listeningQuestions:
+  - { id: fr-b1-t10-l1, type: mc, question: "Combien d'heures par jour les jeunes passent-ils devant leur écran, selon le sondage ?", options: ["Quatre.", "Deux.", "Six."], correct: 0 }
+  - { id: fr-b1-t10-l2, type: true_false_notgiven, statement: "Hugo accepte la règle sans condition.", answer: false }
+cloze:
+  - { sentence: fr-b1-t10-s02, word: regarde, kind: finite_verb, hint: { nl: "regarder (présent)", en: "regarder (present)" } }
+  - { sentence: fr-b1-t10-s03, word: passent, kind: finite_verb, hint: { nl: "passer (présent)", en: "passer (present)" } }
+  - { sentence: fr-b1-t10-s06, word: trouve, kind: finite_verb, hint: { nl: "trouver (présent)", en: "trouver (present)" } }
+  - { sentence: fr-b1-t10-s08, word: a, kind: finite_verb, hint: { nl: "avoir (présent: … montré)", en: "avoir (present: … montré)" } }
+  - { sentence: fr-b1-t10-s09, word: propose, kind: finite_verb, hint: { nl: "proposer (présent)", en: "proposer (present)" } }
+orderable: true

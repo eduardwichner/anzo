@@ -1,0 +1,48 @@
+id: en-a1-u14
+title: { nl: Mijn ochtend }
+icon: clothes
+topic: Clothes; daily routine
+vocabulary:
+  - { target: wake, native: { nl: wakker worden }, pos: verb, avoid: [en.awake] }
+  - { target: get up, native: { nl: opstaan }, pos: verb }
+  - { target: awake, native: { nl: wakker }, pos: adjective }
+  - { target: asleep, native: { nl: "in slaap, slapend" }, pos: adjective }
+  - { target: tired, native: { nl: moe }, pos: adjective }
+  - { target: wash, native: { nl: wassen }, pos: verb }
+  - { target: get dressed, native: { nl: zich aankleden }, pos: verb, avoid: [en.put-on] }
+  - { target: get undressed, native: { nl: zich uitkleden }, pos: verb, avoid: [en.take-off, en.get-dressed] }
+  - { target: put on, native: { nl: aantrekken }, pos: verb, avoid: [en.take-off] }
+  - { target: take off, native: { nl: uittrekken }, pos: verb }
+  - { target: pair, native: { nl: paar }, pos: noun }
+  - { target: coat, native: { nl: jas }, pos: noun }
+  - { target: toothbrush, native: { nl: tandenborstel }, pos: noun }
+  - { target: toothpaste, native: { nl: tandpasta }, pos: noun }
+  - { target: scarf, native: { nl: sjaal }, pos: noun }
+  - { target: sweater, native: { nl: trui }, pos: noun }
+  - { target: swimsuit, native: { nl: badpak }, pos: noun }
+  - { target: pool, native: { nl: zwembad }, pos: noun }
+sentences:
+  - { id: s01, target: "I wake up at seven o'clock.", native: { nl: "Ik word om zeven uur wakker." }, items: [en.wake] }
+  - { id: s02, target: "We get up at eight o'clock.", native: { nl: "Wij staan om acht uur op." }, items: [en.get-up] }
+  - { id: s03, target: "Are you awake?", native: { nl: "Ben je wakker?" }, items: [en.awake] }
+  - { id: s04, target: "The baby is asleep.", native: { nl: "De baby is in slaap." }, items: [en.asleep] }
+  - { id: s05, target: "I'm very tired today.", native: { nl: "Ik ben heel moe vandaag." }, items: [en.tired], acceptAlso: ["I am very tired today."] }
+  - { id: s06, target: "Wash your face, please.", native: { nl: "Was je gezicht, alsjeblieft." }, items: [en.wash] }
+  - { id: s07, target: "Get dressed quickly!", native: { nl: "Kleed je snel aan!" }, items: [en.get-dressed] }
+  - { id: s08, target: "I get undressed before bed.", native: { nl: "Ik kleed me uit voor het slapengaan." }, items: [en.get-undressed] }
+  - { id: s09, target: "Put on your coat. It's cold.", native: { nl: "Trek je jas aan. Het is koud." }, items: [en.put-on, en.coat], acceptAlso: ["Put on your coat. It is cold."] }
+  - { id: s10, target: "Take off your shoes, please.", native: { nl: "Trek je schoenen uit, alsjeblieft." }, items: [en.take-off] }
+  - { id: s11, target: "I need a new pair of shoes.", native: { nl: "Ik heb een nieuw paar schoenen nodig." }, items: [en.pair] }
+  - { id: s12, target: "Where's my coat?", native: { nl: "Waar is mijn jas?" }, items: [en.coat], acceptAlso: ["Where is my coat?"] }
+  - { id: s13, target: "My toothbrush is blue.", native: { nl: "Mijn tandenborstel is blauw." }, items: [en.toothbrush] }
+  - { id: s14, target: "We need more toothpaste.", native: { nl: "We hebben meer tandpasta nodig." }, items: [en.toothpaste] }
+  - { id: s15, target: "Wear a scarf, it's windy.", native: { nl: "Doe een sjaal om, het waait." }, items: [en.scarf], acceptAlso: ["Wear a scarf, it is windy."] }
+  - { id: s16, target: "Grandma made me a sweater.", native: { nl: "Oma heeft een trui voor mij gemaakt." }, items: [en.sweater] }
+  - { id: s17, target: "I've got a new swimsuit.", native: { nl: "Ik heb een nieuw badpak." }, items: [en.swimsuit], acceptAlso: ["I have got a new swimsuit."] }
+  - { id: s18, target: "Let's swim in the pool.", native: { nl: "Laten we in het zwembad zwemmen." }, items: [en.pool] }
+  - { id: s19, target: "I put on my sweater and my scarf.", native: { nl: "Ik trok mijn trui en mijn sjaal aan." }, items: [en.put-on, en.sweater, en.scarf] }
+  - { id: s20, target: "The cat is asleep on the sofa.", native: { nl: "De kat ligt te slapen op de bank." }, items: [en.asleep] }
+lessons:
+  - { id: l01, title: { nl: Opstaan }, vocab: [en.wake, en.get-up, en.awake, en.asleep, en.tired, en.wash] }
+  - { id: l02, title: { nl: Aankleden }, vocab: [en.get-dressed, en.get-undressed, en.put-on, en.take-off, en.pair, en.coat] }
+  - { id: l03, title: { nl: Tandenborstel en badpak }, vocab: [en.toothbrush, en.toothpaste, en.scarf, en.sweater, en.swimsuit, en.pool] }

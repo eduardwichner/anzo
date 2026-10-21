@@ -1,0 +1,69 @@
+id: nl-b1-u13
+title: { en: Media and news }
+icon: news
+topic: Newspapers, broadcasts, news events, politics; reported speech and the pluperfect
+vocabulary:
+  - { target: het artikel, native: { en: article }, pos: noun, plural: artikels }
+  - { target: de journalist, native: { en: journalist }, pos: noun, plural: journalisten }
+  - { target: de titel, native: { en: "title, headline" }, pos: noun, plural: titels }
+  - { target: de zender, native: { en: "(TV or radio) channel, station" }, pos: noun, plural: zenders }
+  - { target: het programma, native: { en: programme }, pos: noun, plural: programma's }
+  - { target: de uitzending, native: { en: broadcast }, pos: noun, plural: uitzendingen }
+  - { target: uitzenden, native: { en: to broadcast }, pos: verb }
+  - { target: het interview, native: { en: interview }, pos: noun, plural: interviews }
+  - { target: de gebeurtenis, native: { en: event }, pos: noun, plural: gebeurtenissen }
+  - { target: de brand, native: { en: fire (a building on fire) }, pos: noun, plural: branden }
+  - { target: het slachtoffer, native: { en: victim }, pos: noun, plural: slachtoffers }
+  - { target: gewond, native: { en: injured }, pos: adjective }
+  - { target: redden, native: { en: "to save, to rescue" }, pos: verb }
+  - { target: de brandweer, native: { en: fire brigade }, pos: noun, plural: "-" }
+  - { target: stemmen, native: { en: to vote }, pos: verb }
+  - { target: de partij, native: { en: "(political) party" }, pos: noun, plural: partijen }
+  - { target: de wet, native: { en: law }, pos: noun, plural: wetten }
+  - { target: de staking, native: { en: strike }, pos: noun, plural: stakingen }
+  - { target: de vakbond, native: { en: trade union }, pos: noun, plural: vakbonden }
+  - { target: de economie, native: { en: economy }, pos: noun, plural: economieën }
+  - { target: de crisis, native: { en: crisis }, pos: noun, plural: crisissen }
+  - { target: het procent, native: { en: per cent }, pos: noun, plural: procenten }
+  - { target: de bron, native: { en: source }, pos: noun, plural: bronnen }
+  - { target: de wetenschapper, native: { en: scientist }, pos: noun, plural: wetenschappers }
+  - { target: beweren, native: { en: to claim }, pos: verb }
+  - { target: nep, native: { en: "fake" }, pos: adjective }
+  - { target: de student, native: { en: student }, pos: noun, plural: studenten }
+  - { target: blussen, native: { en: "to put out (a fire)" }, pos: verb }
+  - { target: het vuur, native: { en: "fire; the hob" }, pos: noun, plural: vuren }
+  - { target: rond, native: { en: "around (with a time)" }, pos: preposition }
+sentences:
+  - { id: s01, target: "Heb je het artikel over het nieuwe zwembad gelezen?", native: { en: "Have you read the article about the new swimming pool?" }, items: [nl.artikel] }
+  - { id: s02, target: "De journalist vroeg aan de burgemeester waarom de werken zo lang duren.", native: { en: "The journalist asked the mayor why the roadworks are taking so long." }, items: [nl.journalist], finite: { word: vroeg, hint: { en: "vragen (past)" } } }
+  - { id: s03, target: "Vaak lezen mensen alleen de titel van een artikel.", native: { en: "People often only read the headline of an article." }, items: [nl.titel, nl.artikel], acceptAlso: ["Mensen lezen vaak alleen de titel van een artikel."] }
+  - { id: s04, target: "Op welke zender komt het voetbal?", native: { en: "Which channel is the football on?" }, items: [nl.zender] }
+  - { id: s05, target: "Dat programma kijk ik elke zondag.", native: { en: "I watch that programme every Sunday." }, items: [nl.programma], acceptAlso: ["Ik kijk dat programma elke zondag.", "Elke zondag kijk ik dat programma.", "Ik kijk elke zondag dat programma."] }
+  - { id: s06, target: "De uitzending begint om acht uur.", native: { en: "The broadcast starts at eight." }, items: [nl.uitzending], acceptAlso: ["Om acht uur begint de uitzending."] }
+  - { id: s07, target: "Het concert wordt morgen op de radio uitgezonden.", native: { en: "The concert will be broadcast on the radio tomorrow." }, items: [nl.uitzenden], acceptAlso: ["Morgen wordt het concert op de radio uitgezonden."], finite: { word: wordt, hint: { en: "worden (present)" } } }
+  - { id: s08, target: "In het interview zei de minister dat de prijzen zouden dalen.", native: { en: "In the interview the minister said that prices would fall." }, items: [nl.interview], acceptAlso: ["De minister zei in het interview dat de prijzen zouden dalen."] }
+  - { id: s09, target: "Het was de belangrijkste gebeurtenis van het jaar.", native: { en: "It was the most important event of the year." }, items: [nl.gebeurtenis] }
+  - { id: s10, target: "Gisteren was er een grote brand in een fabriek.", native: { en: "Yesterday there was a big fire in a factory." }, items: [nl.brand], acceptAlso: ["Er was gisteren een grote brand in een fabriek.", "Gisteren was er in een fabriek een grote brand.", "Er was gisteren in een fabriek een grote brand.", "In een fabriek was er gisteren een grote brand."] }
+  - { id: s11, target: "Er zijn bij het ongeval geen slachtoffers gevallen.", native: { en: "There were no casualties in the accident." }, items: [nl.slachtoffer], acceptAlso: ["Bij het ongeval zijn er geen slachtoffers gevallen."] }
+  - { id: s12, target: "Twee mensen raakten lichtgewond.", native: { en: "Two people were slightly injured." }, items: [nl.gewond] }
+  - { id: s13, target: "De buurman heeft het kind uit het water gered.", native: { en: "The neighbour rescued the child from the water." }, items: [nl.redden] }
+  - { id: s14, target: "Toen de brandweer aankwam, was de brand al bijna geblust.", native: { en: "When the fire brigade arrived, the fire had almost been put out." }, items: [nl.brandweer, nl.brand, nl.blussen], acceptAlso: ["De brand was al bijna geblust toen de brandweer aankwam."] }
+  - { id: s15, target: "De gewonde werd met de ziekenwagen naar het ziekenhuis gebracht.", native: { en: "The injured person was taken to hospital by ambulance." }, items: [nl.gewond], acceptAlso: ["Met de ziekenwagen werd de gewonde naar het ziekenhuis gebracht."], finite: { word: werd, hint: { en: "worden (past)" } } }
+  - { id: s16, target: "Bij de verkiezingen kreeg die partij twintig procent.", native: { en: "In the elections that party got twenty per cent." }, items: [nl.partij, nl.procent], acceptAlso: ["Die partij kreeg bij de verkiezingen twintig procent."] }
+  - { id: s17, target: "In België moet je gaan stemmen.", native: { en: "In Belgium you have to vote." }, items: [nl.stemmen] }
+  - { id: s18, target: "Welke partij heeft de verkiezingen gewonnen?", native: { en: "Which party won the elections?" }, items: [nl.partij] }
+  - { id: s19, target: "Er komt een nieuwe wet tegen lawaai.", native: { en: "There's going to be a new law against noise." }, items: [nl.wet] }
+  - { id: s20, target: "Door de staking rijden er vandaag geen treinen.", native: { en: "Because of the strike there are no trains today." }, items: [nl.staking], acceptAlso: ["Er rijden vandaag door de staking geen treinen.", "Vandaag rijden er door de staking geen treinen."] }
+  - { id: s21, target: "De vakbond wil een hoger loon voor de werknemers.", native: { en: "The trade union wants higher pay for the employees." }, items: [nl.vakbond] }
+  - { id: s22, target: "De economie groeit dit jaar maar een beetje.", native: { en: "The economy is only growing a little this year." }, items: [nl.economie] }
+  - { id: s23, target: "Door de crisis zijn veel mensen hun job verloren.", native: { en: "Because of the crisis many people have lost their jobs." }, items: [nl.crisis] }
+  - { id: s24, target: "De prijs van elektriciteit is met tien procent gestegen.", native: { en: "The price of electricity has risen by ten per cent." }, items: [nl.procent] }
+  - { id: s25, target: "Een goede journalist controleert altijd zijn bronnen.", native: { en: "A good journalist always checks his sources." }, items: [nl.bron, nl.journalist] }
+  - { id: s26, target: "Volgens wetenschappers wordt het elk jaar warmer.", native: { en: "According to scientists it's getting warmer every year." }, items: [nl.wetenschapper, nl.volgens] }
+  - { id: s27, target: "Hij beweert dat hij het bericht nooit gekregen heeft.", native: { en: "He claims that he never received the message." }, items: [nl.beweren], acceptAlso: ["Hij beweert dat hij het bericht nooit heeft gekregen."] }
+  - { id: s28, target: "Op het internet staat veel nepnieuws.", native: { en: "There's a lot of fake news on the internet." }, items: [nl.nep] }
+  - { id: s29, target: "Toen de journalist belde, had de minister het interview al gegeven.", native: { en: "When the journalist rang, the minister had already given the interview." }, items: [nl.journalist, nl.interview], acceptAlso: ["De minister had het interview al gegeven toen de journalist belde."] }
+  - { id: s30, target: "De student schrijft een artikel voor de krant.", native: { en: "The student is writing an article for the newspaper." }, items: [nl.student, nl.artikel] }
+  - { id: s31, target: "Het vuur was snel geblust.", native: { en: "The fire was quickly put out." }, items: [nl.vuur, nl.blussen] }
+  - { id: s32, target: "Het nieuws begint rond acht uur.", native: { en: "The news starts around eight o'clock." }, items: [nl.rond] }
+texts: [nl-b1-t14]

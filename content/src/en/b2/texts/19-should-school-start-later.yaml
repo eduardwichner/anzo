@@ -1,0 +1,37 @@
+id: en-b2-t19
+kind: dialogue
+title: { nl: Moet school later beginnen? }
+topic: Debate and persuasion (two students prepare for a school debate)
+level: B2
+speakers: { A: { name: Megan }, B: { name: Leon } }
+turns:
+  - { id: en-b2-t19-s01, speaker: B, target: "Megan, the debate is tomorrow. Which side are we on again?", native: { nl: "Megan, het debat is morgen. Aan welke kant staan we ook alweer?" } }
+  - { id: en-b2-t19-s02, speaker: A, target: "We're in favour of starting school an hour later. The other team opposes it.", native: { nl: "Wij zijn ervoor dat de school een uur later begint. Het andere team is ertegen." } }
+  - { id: en-b2-t19-s03, speaker: B, target: "Right. So what's our strongest argument?", native: { nl: "Juist. Wat is dan ons sterkste argument?" } }
+  - { id: en-b2-t19-s04, speaker: A, target: "Sleep. Firstly, scientists agree that teenagers need more sleep than adults, and their bodies want to go to bed later.", native: { nl: "Slaap. Ten eerste zijn wetenschappers het erover eens dat tieners meer slaap nodig hebben dan volwassenen, en dat hun lichaam later naar bed wil." } }
+  - { id: en-b2-t19-s05, speaker: B, target: "And as a result, they're tired in the first lessons. That's a valid point.", native: { nl: "En daardoor zijn ze moe in de eerste lessen. Dat is een gegrond punt." } }
+  - { id: en-b2-t19-s06, speaker: A, target: "Furthermore, schools that have tried it say that attendance and marks improved.", native: { nl: "Bovendien zeggen scholen die het geprobeerd hebben, dat de aanwezigheid en de cijfers verbeterden." } }
+  - { id: en-b2-t19-s07, speaker: B, target: "But they'll say that school would finish later, so there'd be less time for sport and part-time jobs.", native: { nl: "Maar zij zullen zeggen dat de school dan later zou eindigen, zodat er minder tijd is voor sport en bijbaantjes." } }
+  - { id: en-b2-t19-s08, speaker: A, target: "Admittedly, that's a drawback. But what matters most is how much students actually learn.", native: { nl: "Toegegeven, dat is een nadeel. Maar waar het het meest om gaat, is hoeveel leerlingen echt leren." } }
+  - { id: en-b2-t19-s09, speaker: B, target: "They might also argue that parents need to leave for work early.", native: { nl: "Ze zouden ook kunnen aanvoeren dat ouders vroeg naar hun werk moeten vertrekken." } }
+  - { id: en-b2-t19-s10, speaker: A, target: "Then we suggest an alternative: the school could open early for students who need to be there, with a quiet room for reading.", native: { nl: "Dan stellen wij een alternatief voor: de school zou vroeg open kunnen gaan voor leerlingen die er moeten zijn, met een stille ruimte om te lezen." } }
+  - { id: en-b2-t19-s11, speaker: B, target: "Good idea. And we shouldn't exaggerate. One hour won't solve every problem.", native: { nl: "Goed idee. En we moeten niet overdrijven. Eén uur lost niet elk probleem op." } }
+  - { id: en-b2-t19-s12, speaker: A, target: "Agreed. If we're honest about the cons, our argument will sound more convincing.", native: { nl: "Akkoord. Als we eerlijk zijn over de nadelen, zal ons argument overtuigender klinken." } }
+  - { id: en-b2-t19-s13, speaker: B, target: "Shall I do the conclusion, then? You're better at the opening.", native: { nl: "Zal ik dan het slot doen? Jij bent beter in de inleiding." } }
+  - { id: en-b2-t19-s14, speaker: A, target: "Fine, Leon. Let's practise it once more after lunch.", native: { nl: "Goed, Leon. Laten we het na de lunch nog één keer oefenen." } }
+items: [en.debate, en.in-favour-of, en.oppose, en.firstly, en.as-a-result, en.valid, en.furthermore, en.admittedly, en.drawback, en.alternative, en.exaggerate, en.convincing]
+questions:
+  - { id: en-b2-t19-q1, type: summary, options: ["Two students prepare their arguments for a debate in favour of starting school later and think about how to answer the other team.", "Two students disagree about whether school should start later, and in the end they decide to join different teams in tomorrow's debate.", "Two students complain to their teacher that the debate about school hours is unfair."], correct: 0 }
+  - { id: en-b2-t19-q2, type: mc, question: "What alternative do they suggest for parents who leave early?", options: ["The school could open early with a quiet room.", "Parents could work from home.", "Students could take a later bus."], correct: 0 }
+  - { id: en-b2-t19-q3, type: true_false_notgiven, statement: "The other team has more members than Megan and Leon's team.", answer: not_given }
+  - { id: en-b2-t19-q4, type: true_false_notgiven, statement: "The debate will take place in the school hall.", answer: not_given }
+  - { id: en-b2-t19-q5, type: true_false_notgiven, statement: "Megan thinks being honest about the drawbacks will make their argument stronger.", answer: true }
+listeningQuestions:
+  - { id: en-b2-t19-l1, type: complete, statement: "Megan says that teenagers' bodies want to go to bed ___.", answers: [later] }
+  - { id: en-b2-t19-l2, type: mc, question: "Who will do the conclusion?", options: ["Leon.", "Megan.", "The teacher."], correct: 0 }
+openCloze:
+  - { sentence: en-b2-t19-s04, word: than }
+  - { sentence: en-b2-t19-s07, word: so, acceptAlso: [and] }
+  - { sentence: en-b2-t19-s10, word: who, acceptAlso: [that] }
+  - { sentence: en-b2-t19-s12, word: If, acceptAlso: [When] }
+orderable: false

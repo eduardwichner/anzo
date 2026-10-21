@@ -1,0 +1,60 @@
+id: nl-pre-a1-u01
+title: { en: Hello! }
+icon: hello
+topic: Greetings and politeness
+vocabulary:
+  - { target: hallo, native: { en: hello }, pos: exclamation, avoid: [nl.dag-groet] }
+  - { id: nl.dag-groet, target: dag, native: { en: "hello, goodbye" }, pos: exclamation }
+  - { target: goedemorgen, native: { en: good morning }, pos: exclamation }
+  - { target: goedemiddag, native: { en: good afternoon }, pos: exclamation }
+  - { target: goedenavond, native: { en: good evening }, pos: exclamation }
+  - { target: goedenacht, native: { en: good night }, pos: exclamation }
+  - { target: tot ziens, native: { en: goodbye }, pos: phrase, avoid: [nl.dag-groet, nl.tot-straks, nl.tot-morgen] }
+  - { target: tot straks, native: { en: see you later }, pos: phrase, avoid: [nl.tot-morgen] }
+  - { target: tot morgen, native: { en: see you tomorrow }, pos: phrase }
+  - { target: hoe gaat het, native: { en: how are you }, pos: phrase }
+  - { target: goed, native: { en: "good, fine" }, pos: adjective }
+  - { target: prima, native: { en: "fine, great" }, pos: adverb }
+  - { target: ja, native: { en: "yes" }, pos: exclamation }
+  - { target: nee, native: { en: "no" }, pos: exclamation }
+  - { target: oké, native: { en: OK }, pos: exclamation }
+  - { target: dank u wel, native: { en: "thank you (formal)" }, pos: phrase, avoid: [nl.dank-je-wel, nl.bedankt] }
+  - { target: dank je wel, native: { en: "thank you (informal)" }, pos: phrase, avoid: [nl.bedankt] }
+  - { target: bedankt, native: { en: thanks }, pos: exclamation }
+  - { target: alstublieft, native: { en: "please, you're welcome (formal)" }, pos: exclamation, avoid: [nl.alsjeblieft] }
+  - { target: alsjeblieft, native: { en: "please, you're welcome (informal)" }, pos: exclamation }
+  - { target: graag, native: { en: "gladly, I'd like" }, pos: adverb }
+  - { target: sorry, native: { en: sorry }, pos: exclamation, avoid: [nl.pardon] }
+  - { target: pardon, native: { en: "excuse me, pardon" }, pos: exclamation }
+  - { target: welkom, native: { en: welcome }, pos: exclamation }
+  - { target: de meneer, native: { en: "sir, Mr" }, pos: noun, plural: meneren }
+  - { target: de mevrouw, native: { en: "madam, Mrs, Ms" }, pos: noun, plural: mevrouwen }
+  - { target: de koffie, native: { en: coffee }, pos: noun, plural: "-", avoid: [nl.thee] }
+sentences:
+  - { id: s01, target: "Hallo Danca!", native: { en: "Hello, Danca!" }, items: [nl.hallo] }
+  - { id: s02, target: "Dag mevrouw.", native: { en: "Hello, madam." }, items: [nl.dag-groet, nl.mevrouw] }
+  - { id: s03, target: "Goedemorgen meneer!", native: { en: "Good morning, sir!" }, items: [nl.goedemorgen, nl.meneer] }
+  - { id: s04, target: "Goedemiddag mevrouw Peeters.", native: { en: "Good afternoon, Mrs Peeters." }, items: [nl.goedemiddag, nl.mevrouw] }
+  - { id: s05, target: "Goedenavond Tom.", native: { en: "Good evening, Tom." }, items: [nl.goedenavond] }
+  - { id: s06, target: "Goedenacht Lisa!", native: { en: "Good night, Lisa!" }, items: [nl.goedenacht] }
+  - { id: s07, target: "Dag mevrouw, tot ziens!", native: { en: "Goodbye, madam!" }, items: [nl.dag-groet, nl.tot-ziens, nl.mevrouw] }
+  - { id: s08, target: "Oké, tot straks!", native: { en: "OK, see you later!" }, items: [nl.oke, nl.tot-straks] }
+  - { id: s09, target: "Dag Jan, tot morgen!", native: { en: "Bye, Jan, see you tomorrow!" }, items: [nl.dag-groet, nl.tot-morgen] }
+  - { id: s10, target: "Hallo Ahmed, hoe gaat het?", native: { en: "Hello, Ahmed, how are you?" }, items: [nl.hallo, nl.hoe-gaat-het] }
+  - { id: s11, target: "Goed, dank je wel!", native: { en: "Fine, thanks!" }, items: [nl.goed, nl.dank-je-wel] }
+  - { id: s12, target: "Prima, dank u wel.", native: { en: "Fine, thank you." }, items: [nl.prima, nl.dank-u-wel] }
+  - { id: s13, target: "Ja, graag!", native: { en: "Yes, please!" }, items: [nl.ja, nl.graag] }
+  - { id: s14, target: "Nee, dank je wel.", native: { en: "No, thank you." }, items: [nl.nee, nl.dank-je-wel] }
+  - { id: s15, target: "Bedankt, Maria!", native: { en: "Thanks, Maria!" }, items: [nl.bedankt] }
+  - { id: s16, target: "Een koffie, alstublieft.", native: { en: "A coffee, please." }, items: [nl.alstublieft, nl.koffie] }
+  - { id: s17, target: "Water, alsjeblieft.", native: { en: "Water, please." }, items: [nl.alsjeblieft] }
+  - { id: s18, target: "Sorry, meneer!", native: { en: "Sorry, sir!" }, items: [nl.sorry, nl.meneer] }
+  - { id: s19, target: "Pardon, mevrouw?", native: { en: "Excuse me, madam?" }, items: [nl.pardon, nl.mevrouw] }
+  - { id: s20, target: "Welkom in Gent!", native: { en: "Welcome to Ghent!" }, items: [nl.welkom] }
+  - { id: s21, target: "Hoe gaat het, mevrouw?", native: { en: "How are you, madam?" }, items: [nl.hoe-gaat-het, nl.mevrouw] }
+  - { id: s22, target: "Het gaat goed.", native: { en: "I'm fine." }, items: [nl.goed] }
+  - { id: s23, target: "Oké, dank u wel, meneer.", native: { en: "OK, thank you, sir." }, items: [nl.oke, nl.dank-u-wel, nl.meneer] }
+lessons:
+  - { id: l01, title: { en: Hello and goodbye }, vocab: [nl.hallo, nl.dag-groet, nl.goedemorgen, nl.goedemiddag, nl.goedenavond, nl.goedenacht, nl.tot-ziens, nl.tot-straks, nl.tot-morgen] }
+  - { id: l02, title: { en: How are you? }, vocab: [nl.hoe-gaat-het, nl.goed, nl.prima, nl.ja, nl.nee, nl.oke, nl.dank-u-wel, nl.dank-je-wel] }
+  - { id: l03, title: { en: Please and thank you }, vocab: [nl.koffie, nl.bedankt, nl.alstublieft, nl.alsjeblieft, nl.graag, nl.sorry, nl.pardon, nl.welkom, nl.meneer, nl.mevrouw] }

@@ -1,0 +1,69 @@
+id: en-pre-a1-u13
+title: { nl: Sport en vrije tijd }
+icon: sport
+topic: Sports and leisure
+vocabulary:
+  - { target: sport, native: { nl: sport }, pos: noun, category: true }
+  - { target: football, native: { nl: voetbal }, pos: noun }
+  - { target: basketball, native: { nl: basketbal }, pos: noun }
+  - { target: baseball, native: { nl: honkbal }, pos: noun }
+  - { target: hockey, native: { nl: hockey }, pos: noun }
+  - { target: tennis, native: { nl: tennis }, pos: noun }
+  - { target: table tennis, native: { nl: tafeltennis }, pos: noun, avoid: [en.tennis] }
+  - { target: badminton, native: { nl: badminton }, pos: noun }
+  - { target: bat, native: { nl: "knuppel, batje" }, pos: noun }
+  - { target: tennis racket, native: { nl: tennisracket }, pos: noun, avoid: [en.bat] }
+  - { target: throw, native: { nl: gooien }, pos: verb }
+  - { target: catch, native: { nl: vangen }, pos: verb }
+  - { target: kick, native: { nl: "trappen, schoppen" }, pos: verb }
+  - { target: hit, native: { nl: slaan }, pos: verb }
+  - { target: bounce, native: { nl: stuiteren }, pos: verb }
+  - { target: run, native: { nl: rennen }, pos: verb }
+  - { target: jump, native: { nl: springen }, pos: verb }
+  - { target: swim, native: { nl: zwemmen }, pos: verb }
+  - { target: ride, native: { nl: "rijden (op)" }, pos: verb }
+  - { target: bike, native: { nl: fiets }, pos: noun }
+  - { target: fly, native: { nl: vliegen }, pos: verb }
+  - { target: play, native: { nl: spelen }, pos: verb }
+  - { target: hobby, native: { nl: hobby }, pos: noun }
+  - { target: fun, native: { nl: "plezier, leuk" }, pos: noun }
+  - { target: enjoy, native: { nl: genieten van }, pos: verb, avoid: [en.like] }
+  - { target: favourite, native: { nl: lievelings- }, pos: adjective }
+  - { target: fishing, native: { nl: vissen }, pos: noun }
+  - { target: skateboard, native: { nl: skateboard }, pos: noun }
+  - { target: skateboarding, native: { nl: skateboarden }, pos: noun, avoid: [en.skateboard] }
+sentences:
+  - { id: s01, target: "Do you like sport?", native: { nl: "Hou jij van sport?" }, items: [en.sport, en.like] }
+  - { id: s02, target: "We play football in the park.", native: { nl: "Wij voetballen in het park." }, items: [en.football] }
+  - { id: s03, target: "Basketball is my favourite sport.", native: { nl: "Basketbal is mijn lievelingssport." }, items: [en.basketball, en.sport] }
+  - { id: s04, target: "They're playing baseball.", native: { nl: "Zij spelen honkbal." }, items: [en.baseball], acceptAlso: ["They are playing baseball."] }
+  - { id: s05, target: "My sister plays hockey.", native: { nl: "Mijn zus speelt hockey." }, items: [en.hockey, en.sister] }
+  - { id: s06, target: "Can you play tennis?", native: { nl: "Kun jij tennissen?" }, items: [en.tennis] }
+  - { id: s07, target: "Let's play table tennis!", native: { nl: "Laten we gaan tafeltennissen!" }, items: [en.table-tennis] }
+  - { id: s08, target: "I play badminton with my dad.", native: { nl: "Ik speel badminton met mijn papa." }, items: [en.badminton, en.dad] }
+  - { id: s09, target: "Where's my baseball bat?", native: { nl: "Waar is mijn honkbalknuppel?" }, items: [en.bat], acceptAlso: ["Where is my baseball bat?"] }
+  - { id: s10, target: "This is my new tennis racket.", native: { nl: "Dit is mijn nieuwe tennisracket." }, items: [en.tennis-racket, en.new] }
+  - { id: s11, target: "Throw the ball!", native: { nl: "Gooi de bal!" }, items: [en.throw, en.ball] }
+  - { id: s12, target: "Catch the ball, Ben!", native: { nl: "Vang de bal, Ben!" }, items: [en.catch, en.ball] }
+  - { id: s13, target: "Kick the ball to me.", native: { nl: "Trap de bal naar mij." }, items: [en.kick, en.ball] }
+  - { id: s14, target: "Hit the ball with the bat.", native: { nl: "Sla de bal met de knuppel." }, items: [en.hit, en.bat, en.ball] }
+  - { id: s15, target: "The ball can bounce.", native: { nl: "De bal kan stuiteren." }, items: [en.bounce, en.ball] }
+  - { id: s16, target: "The dog is running in the park.", native: { nl: "De hond rent in het park." }, items: [en.run, en.dog] }
+  - { id: s17, target: "Frogs can jump.", native: { nl: "Kikkers kunnen springen." }, items: [en.jump, en.frog] }
+  - { id: s18, target: "I can swim!", native: { nl: "Ik kan zwemmen!" }, items: [en.swim] }
+  - { id: s19, target: "She's riding a horse.", native: { nl: "Zij rijdt op een paard." }, items: [en.ride, en.horse], acceptAlso: ["She is riding a horse."] }
+  - { id: s20, target: "I ride my bike to school.", native: { nl: "Ik ga op mijn fiets naar school." }, items: [en.ride, en.bike] }
+  - { id: s21, target: "Birds can fly.", native: { nl: "Vogels kunnen vliegen." }, items: [en.fly, en.bird] }
+  - { id: s22, target: "Let's play in the garden!", native: { nl: "Laten we in de tuin spelen!" }, items: [en.play, en.garden] }
+  - { id: s23, target: "My hobby is fishing.", native: { nl: "Mijn hobby is vissen." }, items: [en.hobby, en.fishing] }
+  - { id: s24, target: "Swimming is fun!", native: { nl: "Zwemmen is leuk!" }, items: [en.swim] }
+  - { id: s25, target: "I enjoy skateboarding.", native: { nl: "Ik geniet van skateboarden." }, items: [en.enjoy, en.skateboarding] }
+  - { id: s26, target: "What's your favourite sport?", native: { nl: "Wat is jouw lievelingssport?" }, items: [en.favourite, en.sport], acceptAlso: ["What is your favourite sport?"] }
+  - { id: s27, target: "Grandpa likes fishing.", native: { nl: "Opa houdt van vissen." }, items: [en.fishing, en.grandpa] }
+  - { id: s28, target: "My skateboard is red and black.", native: { nl: "Mijn skateboard is rood en zwart." }, items: [en.skateboard, en.red, en.black] }
+  - { id: s29, target: "We have a lot of fun.", native: { nl: "We hebben veel plezier." }, items: [en.fun] }
+lessons:
+  - { id: l01, title: { nl: Sporten }, vocab: [en.sport, en.football, en.basketball, en.baseball, en.hockey, en.tennis, en.table-tennis, en.badminton] }
+  - { id: l02, title: { nl: Vangen en gooien }, vocab: [en.bat, en.tennis-racket, en.throw, en.catch, en.kick, en.hit, en.bounce] }
+  - { id: l03, title: { nl: Rennen en springen }, vocab: [en.run, en.jump, en.swim, en.ride, en.bike, en.fly, en.play] }
+  - { id: l04, title: { nl: "Hobby's" }, vocab: [en.hobby, en.fun, en.enjoy, en.favourite, en.fishing, en.skateboard, en.skateboarding] }

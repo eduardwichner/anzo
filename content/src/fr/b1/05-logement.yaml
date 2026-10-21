@@ -1,0 +1,79 @@
+id: fr-b1-u05
+title: { nl: Wonen en huishouden, en: "Home and housework" }
+icon: house
+topic: Le logement et le ménage ; les pronoms y et en
+vocabulary:
+  - { target: le propriétaire, native: { nl: de eigenaar, en: "owner, landlord" }, pos: noun, gender: m }
+  - { target: le loyer, native: { nl: de huur (het bedrag), en: "rent" }, pos: noun, gender: m }
+  - { target: louer, native: { nl: huren, en: "to rent" }, pos: verb }
+  - { target: le colocataire, native: { nl: de huisgenoot, en: "flatmate, housemate" }, pos: noun, gender: m }
+  - { target: le plafond, native: { nl: het plafond, en: "ceiling" }, pos: noun, gender: m }
+  - { target: le chauffage, native: { nl: de verwarming, en: "heating" }, pos: noun, gender: m }
+  - { target: le ménage, native: { nl: het huishouden (schoonmaken), en: "housework, cleaning" }, pos: noun, gender: m }
+  - { target: l'aspirateur, native: { nl: de stofzuiger, en: "vacuum cleaner, hoover" }, pos: noun, gender: m }
+  - { target: le lave-vaisselle, native: { nl: de vaatwasser, en: "dishwasher" }, pos: noun, gender: m }
+  - { target: la machine à laver, native: { nl: de wasmachine, en: "washing machine" }, pos: noun, gender: f }
+  - { target: le linge, native: { nl: de was (kleren), en: "washing, laundry" }, pos: noun, gender: m }
+  - { target: repasser, native: { nl: strijken, en: "to iron" }, pos: verb }
+  - { target: la poussière, native: { nl: het stof, en: "dust" }, pos: noun, gender: f }
+  - { target: l'ampoule, native: { nl: de lamp (gloeilamp), en: "light bulb" }, pos: noun, gender: f }
+  - { target: le matelas, native: { nl: de matras, en: "mattress" }, pos: noun, gender: m }
+  - { target: le fauteuil, native: { nl: de fauteuil, en: "armchair" }, pos: noun, gender: m }
+  - { target: la salle, native: { nl: de zaal, en: "hall (a large room)" }, pos: noun, gender: f }
+  - { target: l'endroit, native: { nl: de plek, en: "place, spot" }, pos: noun, gender: m, avoid: [fr.lieu] }
+  - { target: le bâtiment, native: { nl: het gebouw, en: "building" }, pos: noun, gender: m }
+  - { target: aménager, native: { nl: inrichten, en: "to fit out, to convert, to arrange (a room)" }, pos: verb }
+  - { target: rénover, native: { nl: renoveren, en: "to renovate" }, pos: verb }
+  - { target: l'habitant, native: { nl: de bewoner, en: "resident, inhabitant" }, pos: noun, gender: m }
+  - { target: désordonné, native: { nl: slordig, en: "untidy, messy" }, pos: adjective }
+  - { target: déranger, native: { nl: storen, en: "to disturb, to bother" }, pos: verb }
+  - { target: le bruit, native: { nl: het lawaai, en: "noise" }, pos: noun, gender: m }
+  - { target: tranquille, native: { nl: rustig, en: "quiet, peaceful" }, pos: adjective }
+  - { target: confortable, native: { nl: comfortabel, en: "comfortable" }, pos: adjective }
+  - { target: loger, native: { nl: logeren, en: "to stay (with someone)" }, pos: verb }
+  - { target: l'hébergement, native: { nl: "het logies, het onderdak", en: "accommodation" }, pos: noun, gender: m }
+  - { target: l'appareil, native: { nl: het apparaat, en: "appliance, device" }, pos: noun, gender: m }
+  - { target: le chantier, native: { nl: de bouwplaats, en: "building site" }, pos: noun, gender: m }
+  - { target: le bricolage, native: { nl: het klussen, en: "DIY" }, pos: noun, gender: m }
+  - { target: équiper, native: { nl: uitrusten (met apparatuur), en: "to equip" }, pos: verb, avoid: [fr.se-reposer] }
+  - { target: vérifier, native: { nl: controleren, en: "to check" }, pos: verb }
+  - { target: extérieur, native: { nl: buiten-, en: "outside, exterior" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Le propriétaire de l'appartement habite au rez-de-chaussée.", native: { nl: "De eigenaar van het appartement woont op de benedenverdieping.", en: "The owner of the flat lives on the ground floor." }, items: [fr.proprietaire] }
+  - { id: s02, target: "Le loyer est cher dans le centre de la ville.", native: { nl: "De huur is duur in het centrum van de stad.", en: "The rent is expensive in the town centre." }, items: [fr.loyer] }
+  - { id: s03, target: "Nous louons une petite maison près de la mer.", native: { nl: "We huren een klein huis vlak bij de zee.", en: "We're renting a small house near the sea." }, items: [fr.louer], finite: { word: louons, hint: { nl: "louer (présent)", en: "louer (present)" } } }
+  - { id: s04, target: "Mon grand frère est étudiant et il vit avec deux colocataires.", native: { nl: "Mijn oudere broer is student en woont met twee huisgenoten.", en: "My big brother is a student and he lives with two flatmates." }, items: [fr.colocataire] }
+  - { id: s05, target: "Il faut peindre le plafond de la cuisine.", native: { nl: "Het plafond van de keuken moet geschilderd worden.", en: "The kitchen ceiling needs painting." }, items: [fr.plafond] }
+  - { id: s06, target: "Il fait froid : tu peux allumer le chauffage ?", native: { nl: "Het is koud: kun je de verwarming aanzetten?", en: "It's cold: can you turn the heating on?" }, items: [fr.chauffage] }
+  - { id: s07, target: "Le samedi matin, tout le monde fait le ménage.", native: { nl: "Op zaterdagochtend doet iedereen het huishouden.", en: "On Saturday mornings everyone does the housework." }, items: [fr.menage] }
+  - { id: s08, target: "Je passe l'aspirateur dans ma chambre.", native: { nl: "Ik stofzuig mijn kamer.", en: "I'm vacuuming my bedroom." }, items: [fr.aspirateur] }
+  - { id: s09, target: "Mets les assiettes dans le lave-vaisselle, s'il te plaît.", native: { nl: "Zet de borden in de vaatwasser, alsjeblieft.", en: "Put the plates in the dishwasher, please." }, items: [fr.lave-vaisselle] }
+  - { id: s10, target: "La machine à laver ne marche plus.", native: { nl: "De wasmachine werkt niet meer.", en: "The washing machine doesn't work any more." }, items: [fr.machine-a-laver] }
+  - { id: s11, target: "Mon père lave le linge le samedi.", native: { nl: "Mijn vader doet op zaterdag de was.", en: "My father does the washing on Saturdays." }, items: [fr.linge] }
+  - { id: s12, target: "Je déteste repasser mes chemises.", native: { nl: "Ik haat het om mijn hemden te strijken.", en: "I hate ironing my shirts." }, items: [fr.repasser] }
+  - { id: s13, target: "Il y a beaucoup de poussière sous le lit.", native: { nl: "Er ligt veel stof onder het bed.", en: "There's a lot of dust under the bed." }, items: [fr.poussiere] }
+  - { id: s14, target: "L'ampoule de la salle de bains ne marche plus.", native: { nl: "De lamp in de badkamer doet het niet meer.", en: "The light bulb in the bathroom doesn't work any more." }, items: [fr.ampoule] }
+  - { id: s15, target: "Ce matelas est trop dur, je dors mal.", native: { nl: "Deze matras is te hard, ik slaap slecht.", en: "This mattress is too hard: I sleep badly." }, items: [fr.matelas] }
+  - { id: s16, target: "Mon grand-père lit le journal dans son fauteuil.", native: { nl: "Mijn opa leest de krant in zijn fauteuil.", en: "My grandfather reads the newspaper in his armchair." }, items: [fr.fauteuil] }
+  - { id: s17, target: "La fête a lieu dans la grande salle de l'école.", native: { nl: "Het feest vindt plaats in de grote zaal van de school.", en: "The party takes place in the big hall at school." }, items: [fr.salle] }
+  - { id: s18, target: "Cet endroit est très calme pour lire.", native: { nl: "Deze plek is heel rustig om te lezen.", en: "This place is very quiet for reading." }, items: [fr.endroit] }
+  - { id: s19, target: "Notre école est dans un vieux bâtiment.", native: { nl: "Onze school zit in een oud gebouw.", en: "Our school is in an old building." }, items: [fr.batiment] }
+  - { id: s20, target: "Nous avons aménagé le grenier en chambre.", native: { nl: "We hebben de zolder tot slaapkamer omgebouwd.", en: "We've converted the attic into a bedroom." }, items: [fr.amenager] }
+  - { id: s21, target: "Ils vont rénover la cuisine cet été.", native: { nl: "Ze gaan deze zomer de keuken renoveren.", en: "They're going to renovate the kitchen this summer." }, items: [fr.renover] }
+  - { id: s22, target: "Les habitants du quartier sont très gentils.", native: { nl: "De buurtbewoners zijn heel vriendelijk.", en: "The residents of the neighbourhood are very nice." }, items: [fr.habitant] }
+  - { id: s23, target: "Ma sœur est très désordonnée : sa chambre est un vrai chantier !", native: { nl: "Mijn zus is heel slordig: haar kamer is één grote puinhoop!", en: "My sister is very untidy: her bedroom is a real building site!" }, items: [fr.desordonne] }
+  - { id: s24, target: "Excusez-moi de vous déranger, mais votre voiture est mal garée.", native: { nl: "Sorry dat ik u stoor, maar uw auto staat slecht geparkeerd.", en: "Sorry to disturb you, but your car is badly parked." }, items: [fr.deranger] }
+  - { id: s25, target: "Il y a trop de bruit dans cette rue.", native: { nl: "Er is te veel lawaai in deze straat.", en: "There's too much noise in this street." }, items: [fr.bruit], acceptAlso: ["Dans cette rue, il y a trop de bruit."] }
+  - { id: s26, target: "Nous habitons dans un quartier tranquille.", native: { nl: "We wonen in een rustige buurt.", en: "We live in a quiet neighbourhood." }, items: [fr.tranquille] }
+  - { id: s27, target: "Le canapé est plus confortable que la chaise.", native: { nl: "De bank is comfortabeler dan de stoel.", en: "The sofa is more comfortable than the chair." }, items: [fr.confortable] }
+  - { id: s28, target: "Pendant les vacances, nous logeons chez ma tante.", native: { nl: "Tijdens de vakantie logeren we bij mijn tante.", en: "During the holidays we stay with my aunt." }, items: [fr.loger], finite: { word: logeons, hint: { nl: "loger (présent)", en: "loger (present)" } } }
+  - { id: s29, target: "L'hébergement est compris dans le prix du voyage.", native: { nl: "Het logies is inbegrepen in de reisprijs.", en: "Accommodation is included in the price of the trip." }, items: [fr.hebergement] }
+  - { id: s30, target: "Éteins les appareils quand tu ne les utilises pas.", native: { nl: "Zet de apparaten uit als je ze niet gebruikt.", en: "Switch the devices off when you're not using them." }, items: [fr.appareil] }
+  - { id: s31, target: "Il y a un grand chantier devant notre maison.", native: { nl: "Er is een grote bouwplaats voor ons huis.", en: "There's a big building site in front of our house." }, items: [fr.chantier] }
+  - { id: s32, target: "Mon père adore le bricolage : il a fait cette table lui-même.", native: { nl: "Mijn vader is dol op klussen: hij heeft deze tafel zelf gemaakt.", en: "My father loves DIY: he made this table himself." }, items: [fr.bricolage] }
+  - { id: s33, target: "La nouvelle cuisine est équipée d'un grand frigo.", native: { nl: "De nieuwe keuken is uitgerust met een grote koelkast.", en: "The new kitchen is equipped with a big fridge." }, items: [fr.equiper] }
+  - { id: s34, target: "Vérifie que la porte est bien fermée.", native: { nl: "Controleer of de deur goed dicht is.", en: "Check that the door is properly shut." }, items: [fr.verifier] }
+  - { id: s35, target: "Les murs extérieurs de la maison sont blancs.", native: { nl: "De buitenmuren van het huis zijn wit.", en: "The outside walls of the house are white." }, items: [fr.exterieur] }
+  - { id: s36, target: "Tu connais cet endroit ? Oui, j'y vais souvent.", native: { nl: "Ken je deze plek? Ja, ik ga er vaak heen.", en: "Do you know this place? Yes, I often go there." }, items: [fr.endroit], build: true }
+  - { id: s37, target: "Tu as des ampoules ? Oui, j'en ai deux.", native: { nl: "Heb je nog lampjes? Ja, ik heb er twee.", en: "Have you got any light bulbs? Yes, I have two." }, items: [fr.ampoule], build: true }
+texts: [fr-b1-t06]

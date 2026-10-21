@@ -1,0 +1,330 @@
+{
+  "piperVoicesIndex": "https://huggingface.co/rhasspy/piper-voices",
+  "voices": [
+    {
+      "name": "en_GB-cori-medium",
+      "language": "en_GB",
+      "quality": "medium",
+      "sampleRate": 22050,
+      "speakers": 1,
+      "licence": "public domain",
+      "licenceAssessment": "permissive",
+      "dataset": "https://librivox.org",
+      "defaultFor": [
+        "en"
+      ],
+      "files": {
+        "onnx": {
+          "size": 63531379,
+          "sha256": "1899f98e5fb8310154f3c2973f4b8a929ba7245e722b3d3a85680b833d95f10d"
+        },
+        "config": {
+          "size": 4966,
+          "sha256": "e262c16d7f192f69d4edd6b4ef8a5915379e67495fcc402f1ab15eeb33da3d36"
+        },
+        "modelCard": {
+          "size": 474,
+          "sha256": "38d76dfde845837b184668f8bab1c6426ad740b1af0fcebc349037822739e536"
+        }
+      }
+    },
+    {
+      "name": "en_GB-vctk-medium",
+      "language": "en_GB",
+      "quality": "medium",
+      "sampleRate": 22050,
+      "speakers": 109,
+      "speakerIdMap": {
+        "p239": 0,
+        "p236": 1,
+        "p264": 2,
+        "p250": 3,
+        "p259": 4,
+        "p247": 5,
+        "p261": 6,
+        "p263": 7,
+        "p283": 8,
+        "p286": 9,
+        "p274": 10,
+        "p276": 11,
+        "p270": 12,
+        "p281": 13,
+        "p277": 14,
+        "p231": 15,
+        "p271": 16,
+        "p238": 17,
+        "p257": 18,
+        "p273": 19,
+        "p284": 20,
+        "p329": 21,
+        "p361": 22,
+        "p287": 23,
+        "p360": 24,
+        "p374": 25,
+        "p376": 26,
+        "p310": 27,
+        "p304": 28,
+        "p334": 29,
+        "p340": 30,
+        "p323": 31,
+        "p347": 32,
+        "p330": 33,
+        "p308": 34,
+        "p314": 35,
+        "p317": 36,
+        "p339": 37,
+        "p311": 38,
+        "p294": 39,
+        "p305": 40,
+        "p266": 41,
+        "p335": 42,
+        "p318": 43,
+        "p351": 44,
+        "p333": 45,
+        "p313": 46,
+        "p316": 47,
+        "p244": 48,
+        "p307": 49,
+        "p363": 50,
+        "p336": 51,
+        "p297": 52,
+        "p312": 53,
+        "p267": 54,
+        "p275": 55,
+        "p295": 56,
+        "p258": 57,
+        "p288": 58,
+        "p301": 59,
+        "p232": 60,
+        "p292": 61,
+        "p272": 62,
+        "p280": 63,
+        "p278": 64,
+        "p341": 65,
+        "p268": 66,
+        "p298": 67,
+        "p299": 68,
+        "p279": 69,
+        "p285": 70,
+        "p326": 71,
+        "p300": 72,
+        "s5": 73,
+        "p230": 74,
+        "p345": 75,
+        "p254": 76,
+        "p269": 77,
+        "p293": 78,
+        "p252": 79,
+        "p262": 80,
+        "p243": 81,
+        "p227": 82,
+        "p343": 83,
+        "p255": 84,
+        "p229": 85,
+        "p240": 86,
+        "p248": 87,
+        "p253": 88,
+        "p233": 89,
+        "p228": 90,
+        "p282": 91,
+        "p251": 92,
+        "p246": 93,
+        "p234": 94,
+        "p226": 95,
+        "p260": 96,
+        "p245": 97,
+        "p241": 98,
+        "p303": 99,
+        "p265": 100,
+        "p306": 101,
+        "p237": 102,
+        "p249": 103,
+        "p256": 104,
+        "p302": 105,
+        "p364": 106,
+        "p225": 107,
+        "p362": 108
+      },
+      "licence": "https://creativecommons.org/licenses/by/4.0/",
+      "licenceAssessment": "permissive",
+      "dataset": "https://datashare.ed.ac.uk/handle/10283/3443",
+      "defaultFor": [],
+      "dialogueFor": [
+        {
+          "track": "en",
+          "speaker": 57,
+          "speakerName": "p258"
+        }
+      ],
+      "files": {
+        "onnx": {
+          "size": 76952753,
+          "sha256": "4e9fc85ab9009385319fc6bae7f55577f8a2d7ee77fd9159a5500eb6531f41e6"
+        },
+        "config": {
+          "size": 6637,
+          "sha256": "7f85e6391ed0f7f46e4abd19345929a16be931a0c9945086f96692dce2087fa8"
+        },
+        "modelCard": {
+          "size": 326,
+          "sha256": "53ec6b1fd90d9125d5bebac55261efd27f7e8d6dc962f605a5b5f796df2ec7fb"
+        }
+      }
+    },
+    {
+      "name": "fr_FR-siwis-medium",
+      "language": "fr_FR",
+      "quality": "medium",
+      "sampleRate": 22050,
+      "speakers": 1,
+      "licence": "CC-BY 4.0",
+      "licenceAssessment": "permissive",
+      "dataset": "https://datashare.is.ed.ac.uk/handle/10283/2353",
+      "defaultFor": [
+        "fr"
+      ],
+      "files": {
+        "onnx": {
+          "size": 63201294,
+          "sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99"
+        },
+        "config": {
+          "size": 4875,
+          "sha256": "39479916c2db192b5ac9764daddd0c744d83e023ad890c6976c0633ae4df8959"
+        },
+        "modelCard": {
+          "size": 284,
+          "sha256": "bd8b8d079d4d3d2c4cc20345889bbcd586d72f021a132f93357a763eb5232cce"
+        }
+      }
+    },
+    {
+      "name": "fr_FR-upmc-medium",
+      "language": "fr_FR",
+      "quality": "medium",
+      "sampleRate": 22050,
+      "speakers": 2,
+      "speakerIdMap": {
+        "jessica": 0,
+        "pierre": 1
+      },
+      "licence": "http://creativecommons.org/licenses/by-sa/4.0/",
+      "licenceAssessment": "share-alike",
+      "dataset": "https://github.com/marytts/upmc-pierre-data",
+      "defaultFor": [],
+      "dialogueFor": [
+        {
+          "track": "fr",
+          "speaker": 1,
+          "speakerName": "pierre"
+        }
+      ],
+      "files": {
+        "onnx": {
+          "size": 76733615,
+          "sha256": "9abb3800c199148897a9ed64e100d224f3de83579f100044174ad19418f1786f"
+        },
+        "config": {
+          "size": 4996,
+          "sha256": "e8636ec15dfd5d72db37a02cb5320a20f2b8d339f2a0e4337da64c58a33a5868"
+        },
+        "modelCard": {
+          "size": 316,
+          "sha256": "cf1ac7309e0e04bb159b7e6ae80bc8f66bfce9bdfb3e62ae93a6f57e210ab98a"
+        }
+      }
+    },
+    {
+      "name": "nl_BE-nathalie-medium",
+      "language": "nl_BE",
+      "quality": "medium",
+      "sampleRate": 22050,
+      "speakers": 1,
+      "licence": "CC0",
+      "licenceAssessment": "permissive",
+      "dataset": "https://github.com/rhasspy/dataset-voice-nathalie",
+      "defaultFor": [],
+      "dialogueFor": [
+        {
+          "track": "nl",
+          "speaker": null,
+          "speakerName": null
+        }
+      ],
+      "files": {
+        "onnx": {
+          "size": 63201294,
+          "sha256": "49cf48023861f9fd42e13a8632f068fee67d1ce244a6ee38f29595afbf0a6be4"
+        },
+        "config": {
+          "size": 4879,
+          "sha256": "4704af2736022e910a3f32672480d5530dd39da5c2bcc079f315f604166ff0de"
+        },
+        "modelCard": {
+          "size": 284,
+          "sha256": "129daeda6c74903efac7aa522ae4fd6628a6acdd0975ee897384e1079acbcd2f"
+        }
+      }
+    },
+    {
+      "name": "nl_BE-rdh-medium",
+      "language": "nl_BE",
+      "quality": "medium",
+      "sampleRate": 22050,
+      "speakers": 1,
+      "licence": "CC0 1.0 Universal",
+      "licenceAssessment": "permissive",
+      "dataset": "https://github.com/r-dh/dutch-vl-tts",
+      "defaultFor": [
+        "nl"
+      ],
+      "files": {
+        "onnx": {
+          "size": 63104526,
+          "sha256": "fb1a9d89ff53dbd510c5d10bd1365c36a5f76249c3ca603076646fd778003db1"
+        },
+        "config": {
+          "size": 4159,
+          "sha256": "65deb256664d22099b0db5bb36d96237a3e32e43885c6ce4ee6811e6c04a8d79"
+        },
+        "modelCard": {
+          "size": 244,
+          "sha256": "a0ac804376a1b4be5aeba0f982e43380bccd105b84af3477208f8a2b0fb89cc3"
+        }
+      }
+    }
+  ],
+  "voskModelsIndex": "https://alphacephei.com/vosk/models",
+  "recognizers": [
+    {
+      "name": "vosk-model-small-en-us-0.15",
+      "track": "en",
+      "url": "https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip",
+      "licence": "Apache 2.0",
+      "licenceAssessment": "permissive",
+      "wer": "9.85 (librispeech test-clean)",
+      "bytes": 70898967,
+      "zipSha256": "30f26242c4eb449f948e42cb302dd7a686cb29a3423a8367f99ff41780942498"
+    },
+    {
+      "name": "vosk-model-small-fr-0.22",
+      "track": "fr",
+      "url": "https://alphacephei.com/vosk/models/vosk-model-small-fr-0.22.zip",
+      "licence": "Apache 2.0",
+      "licenceAssessment": "permissive",
+      "wer": "23.95 (cv test)",
+      "bytes": 68483807,
+      "zipSha256": "cabf6180e177eb9b3a9a9d43a437bd5e549f3a7d09525e5d69a3fed787be12ad"
+    },
+    {
+      "name": "vosk-model-small-nl-0.22",
+      "track": "nl",
+      "url": "https://alphacephei.com/vosk/models/vosk-model-small-nl-0.22.zip",
+      "licence": "Apache 2.0",
+      "licenceAssessment": "permissive",
+      "wer": "22.45 (cv test)",
+      "bytes": 68738604,
+      "zipSha256": "039811c3b829de64e4f123a9f684a53784005b212a346ac0b899dc7efce2ed0a"
+    }
+  ]
+}

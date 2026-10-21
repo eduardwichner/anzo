@@ -1,0 +1,47 @@
+id: fr-b2-t08
+kind: reading
+title: { nl: De foto die miljoenen mensen misleidde, en: "The photo that fooled millions" }
+topic: Médias et information (un article sur un site consacré aux médias)
+level: B2
+paragraphs:
+  - - { id: fr-b2-t08-s01, target: "Au printemps dernier, la photo d'un requin qui nageait dans une rue pendant une inondation est devenue virale.", native: { nl: "Afgelopen lente ging een foto viraal van een haai die tijdens een overstroming door een straat zwom.", en: "Last spring, a photo of a shark swimming down a street during a flood went viral." } }
+    - { id: fr-b2-t08-s02, target: "En une journée, elle avait été partagée plus d'un million de fois, et plusieurs sites d'information l'avaient publiée comme une nouvelle de dernière minute.", native: { nl: "Binnen een dag was hij meer dan een miljoen keer gedeeld, en verschillende nieuwssites hadden hem als laatste nieuws gepubliceerd.", en: "Within a day it had been shared more than a million times, and several news websites had published it as breaking news." } }
+    - { id: fr-b2-t08-s03, target: "Il y avait un seul problème : la photo était fausse.", native: { nl: "Er was maar één probleem: de foto was vals.", en: "There was just one problem: the photo was fake." } }
+  - - { id: fr-b2-t08-s04, target: "Comment autant de personnes ont-elles pu être trompées ?", native: { nl: "Hoe konden zoveel mensen misleid worden?", en: "How could so many people be fooled?" } }
+    - { id: fr-b2-t08-s05, target: "Selon plusieurs études, nous croyons plus facilement les histoires qui nous font peur, qui nous mettent en colère ou qui nous surprennent.", native: { nl: "Volgens verschillende studies geloven we makkelijker verhalen die ons bang of boos maken of die ons verrassen.", en: "According to several studies, we more easily believe stories that frighten us, make us angry or surprise us." } }
+    - { id: fr-b2-t08-s06, target: "Une image sensationnelle nous donne envie de la partager tout de suite, avant même d'avoir eu le temps de réfléchir.", native: { nl: "Een sensationele foto geeft ons zin om hem meteen te delen, nog voor we tijd hebben gehad om na te denken.", en: "A sensational image makes us want to share it straight away, before we've even had time to think." } }
+  - - { id: fr-b2-t08-s07, target: "Les sites qui avaient publié la photo se sont excusés plus tard.", native: { nl: "De sites die de foto hadden gepubliceerd, verontschuldigden zich later.", en: "The websites that had published the photo apologised later." } }
+    - { id: fr-b2-t08-s08, target: "Un rédacteur en chef a reconnu que personne n'avait vérifié la source, parce que l'histoire était « trop belle pour ne pas être publiée ».", native: { nl: "Een hoofdredacteur gaf toe dat niemand de bron had gecontroleerd, omdat het verhaal \"te mooi was om niet te publiceren\".", en: "One editor-in-chief admitted that nobody had checked the source, because the story was \"too good not to publish\"." } }
+    - { id: fr-b2-t08-s09, target: "D'autres ont prétendu qu'ils avaient seulement répété ce qui circulait déjà en ligne, et c'est exactement ainsi que les fausses informations se répandent.", native: { nl: "Anderen beweerden dat ze alleen hadden herhaald wat al online circuleerde, en dat is precies hoe nepnieuws zich verspreidt.", en: "Others claimed they had only repeated what was already going round online, and that is exactly how fake news spreads." } }
+  - - { id: fr-b2-t08-s10, target: "Alors, comment savoir ce qui est vrai ?", native: { nl: "Hoe weet je dan wat echt is?", en: "So how can you know what's true?" } }
+    - { id: fr-b2-t08-s11, target: "Les journalistes conseillent de se poser trois questions avant de partager une information.", native: { nl: "Journalisten raden aan om jezelf drie vragen te stellen voor je informatie deelt.", en: "Journalists advise asking yourself three questions before sharing any information." } }
+    - { id: fr-b2-t08-s12, target: "Qui l'a publiée en premier, et cette source est-elle fiable ?", native: { nl: "Wie heeft het als eerste gepubliceerd, en is die bron betrouwbaar?", en: "Who published it first, and is that source reliable?" } }
+    - { id: fr-b2-t08-s13, target: "D'autres médias sérieux racontent-ils la même histoire ?", native: { nl: "Brengen andere serieuze media hetzelfde verhaal?", en: "Are other serious news outlets telling the same story?" } }
+    - { id: fr-b2-t08-s14, target: "Et l'histoire semble-t-elle faite pour nous mettre en colère ou nous faire peur ?", native: { nl: "En lijkt het verhaal gemaakt om ons boos of bang te maken?", en: "And does the story seem designed to make us angry or frightened?" } }
+  - - { id: fr-b2-t08-s15, target: "Cela ne veut pas dire qu'il ne faut plus rien croire.", native: { nl: "Dat betekent niet dat je niets meer mag geloven.", en: "That doesn't mean you shouldn't believe anything any more." } }
+    - { id: fr-b2-t08-s16, target: "Mais comme l'a dit ensuite le rédacteur en chef : « Une histoire partagée un million de fois n'est pas plus vraie qu'une histoire partagée une seule fois. »", native: { nl: "Maar zoals de hoofdredacteur daarna zei: \"Een verhaal dat een miljoen keer gedeeld wordt, is niet meer waar dan een verhaal dat één keer gedeeld wordt.\"", en: "But as the editor-in-chief said afterwards: \"A story shared a million times is no truer than a story shared only once.\"" } }
+items: [fr.viral, fr.publier, fr.tromper, fr.sensationnel, fr.redacteur-en-chef, fr.reconnaitre, fr.pretendre, fr.fausses-informations, fr.se-repandre, fr.fiable, fr.medias]
+gapped:
+  gaps: [fr-b2-t08-s04, fr-b2-t08-s07, fr-b2-t08-s10, fr-b2-t08-s15]
+  extra:
+    - { id: fr-b2-t08-x1, target: "Dans la plupart des régions du monde, les requins ne sont pas dangereux pour les humains.", native: { nl: "In de meeste delen van de wereld zijn haaien niet gevaarlijk voor mensen.", en: "In most parts of the world, sharks are not dangerous to humans." } }
+openCloze:
+  - { sentence: fr-b2-t08-s02, word: En }
+  - { sentence: fr-b2-t08-s09, word: ainsi }
+  - { sentence: fr-b2-t08-s07, word: qui }
+  - { sentence: fr-b2-t08-s15, word: plus, acceptAlso: [jamais] }
+wordForm:
+  - { sentence: fr-b2-t08-s05, word: facilement, stem: facile }
+  - { sentence: fr-b2-t08-s11, word: journalistes, stem: journal }
+  - { sentence: fr-b2-t08-s02, word: journée, stem: jour }
+questions:
+  - { id: fr-b2-t08-q1, type: summary, options: ["Une fausse photo a été partagée par des millions de personnes et même publiée par des sites d'information, ce qui montre que nous croyons plus facilement ce qui nous surprend et qu'il faut vérifier les sources.", "Une vraie photo d'un requin dans une rue a été partagée par des millions de personnes, mais les sites d'information ont refusé de la publier.", "Les journalistes expliquent comment prendre de belles photos pendant une inondation."], correct: 0 }
+  - { id: fr-b2-t08-q2, type: mc, question: "Pourquoi partage-t-on si vite les images sensationnelles ?", options: ["Elles nous font peur ou nous surprennent, et on les partage avant de réfléchir.", "Les sites d'information nous paient pour les partager.", "Elles viennent toujours de sources fiables."], correct: 0 }
+  - { id: fr-b2-t08-q3, type: true_false_notgiven, statement: "La photo avait été prise par un photographe célèbre.", answer: not_given }
+  - { id: fr-b2-t08-q4, type: true_false_notgiven, statement: "Un rédacteur en chef a reconnu que personne n'avait vérifié d'où venait la photo.", answer: true }
+  - { id: fr-b2-t08-q5, type: true_false_notgiven, statement: "Selon l'article, il ne faut plus rien croire de ce qu'on lit en ligne.", answer: false }
+  - { id: fr-b2-t08-q6, type: match_heading, paragraph: 4, options: ["Trois questions à se poser", "Pourquoi nous y croyons", "Ce que les sites ont dit"], correct: 0 }
+listeningQuestions:
+  - { id: fr-b2-t08-l1, type: complete, statement: "En une journée, la photo avait été partagée plus d'un ___ de fois.", answers: [million] }
+  - { id: fr-b2-t08-l2, type: mc, question: "Combien de questions les journalistes conseillent-ils de se poser ?", options: ["Trois.", "Deux.", "Cinq."], correct: 0 }
+orderable: false

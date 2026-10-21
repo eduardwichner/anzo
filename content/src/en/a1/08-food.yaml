@@ -1,0 +1,53 @@
+id: en-a1-u08
+title: { nl: Lekker eten }
+icon: food
+topic: Food and drink
+vocabulary:
+  - { target: sandwich, native: { nl: "boterham, broodje" }, pos: noun }
+  - { target: cheese, native: { nl: kaas }, pos: noun }
+  - { target: salad, native: { nl: salade }, pos: noun }
+  - { target: soup, native: { nl: soep }, pos: noun }
+  - { target: pasta, native: { nl: pasta }, pos: noun }
+  - { target: noodles, native: { nl: noedels }, pos: noun }
+  - { target: sauce, native: { nl: saus }, pos: noun }
+  - { target: pancake, native: { nl: pannenkoek }, pos: noun }
+  - { target: milkshake, native: { nl: milkshake }, pos: noun }
+  - { target: tea, native: { nl: thee }, pos: noun }
+  - { target: coffee, native: { nl: koffie }, pos: noun }
+  - { target: vegetable, native: { nl: groente }, pos: noun, category: true }
+  - { target: sweet, native: { nl: zoet }, pos: adjective }
+  - { target: cook, native: { nl: "koken, kok" }, pos: verb }
+  - { target: hungry, native: { nl: "honger hebben, hongerig" }, pos: adjective }
+  - { target: thirsty, native: { nl: "dorst hebben, dorstig" }, pos: adjective }
+  - { target: break, native: { nl: pauze }, pos: noun }
+  - { target: shopping, native: { nl: "boodschappen, winkelen" }, pos: noun }
+  - { target: go shopping, native: { nl: gaan winkelen }, pos: verb, avoid: [en.shopping] }
+  - { target: buy, native: { nl: kopen }, pos: verb }
+sentences:
+  - { id: s01, target: "I'd like a cheese sandwich, please.", native: { nl: "Ik wil graag een broodje kaas." }, items: [en.sandwich, en.cheese], acceptAlso: ["I would like a cheese sandwich, please."] }
+  - { id: s02, target: "Mice love cheese.", native: { nl: "Muizen zijn dol op kaas." }, items: [en.cheese] }
+  - { id: s03, target: "Eat your salad!", native: { nl: "Eet je salade op!" }, items: [en.salad] }
+  - { id: s04, target: "The soup is too hot.", native: { nl: "De soep is te heet." }, items: [en.soup] }
+  - { id: s05, target: "We had pasta for dinner.", native: { nl: "We aten pasta als avondeten." }, items: [en.pasta] }
+  - { id: s06, target: "These noodles are very long.", native: { nl: "Deze noedels zijn heel lang." }, items: [en.noodles] }
+  - { id: s07, target: "Do you want some tomato sauce?", native: { nl: "Wil je wat tomatensaus?" }, items: [en.sauce] }
+  - { id: s08, target: "We make pancakes on Sunday.", native: { nl: "Op zondag bakken we pannenkoeken." }, items: [en.pancake], acceptAlso: ["On Sunday we make pancakes."] }
+  - { id: s09, target: "A chocolate milkshake, please!", native: { nl: "Een chocolademilkshake, alsjeblieft!" }, items: [en.milkshake] }
+  - { id: s10, target: "Mum drinks tea and Dad drinks coffee.", native: { nl: "Mama drinkt thee en papa drinkt koffie." }, items: [en.tea, en.coffee] }
+  - { id: s11, target: "Coffee is a drink for grown-ups.", native: { nl: "Koffie is een drankje voor volwassenen." }, items: [en.coffee] }
+  - { id: s12, target: "Carrots and beans are vegetables.", native: { nl: "Wortels en bonen zijn groenten." }, items: [en.vegetable] }
+  - { id: s13, target: "This cake is very sweet.", native: { nl: "Deze taart is heel zoet." }, items: [en.sweet] }
+  - { id: s14, target: "My dad can cook very well.", native: { nl: "Mijn vader kan heel goed koken." }, items: [en.cook] }
+  - { id: s15, target: "I'm hungry. What's for lunch?", native: { nl: "Ik heb honger. Wat eten we als lunch?" }, items: [en.hungry], acceptAlso: ["I am hungry. What is for lunch?", "I am hungry. What's for lunch?", "I'm hungry. What is for lunch?"] }
+  - { id: s16, target: "I'm thirsty. Can I have some water?", native: { nl: "Ik heb dorst. Mag ik wat water?" }, items: [en.thirsty], acceptAlso: ["I am thirsty. Can I have some water?"] }
+  - { id: s17, target: "We play football at break.", native: { nl: "We voetballen in de pauze." }, items: [en.break] }
+  - { id: s18, target: "Mum is doing the shopping.", native: { nl: "Mama doet de boodschappen." }, items: [en.shopping] }
+  - { id: s19, target: "Let's go shopping!", native: { nl: "Laten we gaan winkelen!" }, items: [en.go-shopping] }
+  - { id: s20, target: "I bought a new bike.", native: { nl: "Ik heb een nieuwe fiets gekocht." }, items: [en.buy] }
+  - { id: s22, target: "I'd like a pancake, please.", native: { nl: "Ik wil graag een pannenkoek." }, items: [en.pancake], acceptAlso: ["I would like a pancake, please."] }
+  - { id: s23, target: "Which vegetable do you like?", native: { nl: "Welke groente vind jij lekker?" }, items: [en.vegetable] }
+  - { id: s21, target: "Where can I buy a milkshake?", native: { nl: "Waar kan ik een milkshake kopen?" }, items: [en.buy, en.milkshake] }
+lessons:
+  - { id: l01, title: { nl: Lunch }, vocab: [en.sandwich, en.cheese, en.salad, en.soup, en.pasta, en.noodles, en.sauce] }
+  - { id: l02, title: { nl: Zoet en lekker }, vocab: [en.pancake, en.milkshake, en.tea, en.coffee, en.vegetable, en.sweet, en.cook] }
+  - { id: l03, title: { nl: Honger en boodschappen }, vocab: [en.hungry, en.thirsty, en.break, en.shopping, en.go-shopping, en.buy] }

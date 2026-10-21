@@ -1,0 +1,52 @@
+id: fr-a1-u06
+title: { nl: Waar naartoe?, en: "Which way?" }
+icon: directions
+topic: Les transports; s'orienter
+vocabulary:
+  - { target: le train, native: { nl: de trein, en: "train" }, pos: noun, gender: m }
+  - { target: "l'avion", native: { nl: het vliegtuig, en: "plane" }, pos: noun, gender: m }
+  - { target: le métro, native: { nl: de metro, en: "metro, underground" }, pos: noun, gender: m }
+  - { target: à pied, native: { nl: "lopend, te voet", en: "on foot" }, pos: adverb }
+  - { target: à droite, native: { nl: rechts, en: "on the right, to the right" }, pos: adverb }
+  - { target: à gauche, native: { nl: links, en: "on the left, to the left" }, pos: adverb }
+  - { target: tout droit, native: { nl: rechtdoor, en: "straight on" }, pos: adverb }
+  - { target: près, native: { nl: dichtbij, en: "near, nearby" }, pos: adverb, avoid: [fr.pret] }
+  - { target: près de, native: { nl: dicht bij, en: "near (to), close to" }, pos: preposition, avoid: [fr.pres] }
+  - { target: en face de, native: { nl: tegenover, en: "opposite" }, pos: preposition }
+  - { target: entre, native: { nl: tussen, en: "between" }, pos: preposition }
+  - { target: en haut, native: { nl: boven, en: "upstairs, at the top" }, pos: adverb }
+  - { target: en bas, native: { nl: beneden, en: "downstairs, at the bottom" }, pos: adverb }
+  - { target: dedans, native: { nl: "erin, binnenin", en: "inside, in it" }, pos: adverb }
+  - { target: dehors, native: { nl: buiten, en: "outside" }, pos: adverb }
+  - { target: monter, native: { nl: "naar boven gaan, instappen", en: "to go up, to get on" }, pos: verb }
+  - { target: descendre, native: { nl: "naar beneden gaan, uitstappen", en: "to go down, to get off" }, pos: verb }
+  - { target: entrer, native: { nl: binnengaan, en: "to come in, to go in" }, pos: verb }
+  - { target: rentrer, native: { nl: "thuiskomen, terugkomen", en: "to go home, to come home, to come back" }, pos: verb }
+  - { target: le départ, native: { nl: het vertrek, en: "departure" }, pos: noun, gender: m }
+sentences:
+  - { id: s01, target: "Je vais à Paris en train.", native: { nl: "Ik ga met de trein naar Parijs.", en: "I'm going to Paris by train." }, items: [fr.train] }
+  - { id: s02, target: "L'avion part à midi.", native: { nl: "Het vliegtuig vertrekt om twaalf uur.", en: "The plane leaves at midday." }, items: [fr.avion] }
+  - { id: s03, target: "Je prends le métro avec maman.", native: { nl: "Ik neem de metro met mama.", en: "I'm taking the metro with Mum." }, items: [fr.metro] }
+  - { id: s04, target: "Tu vas à l'école à pied ?", native: { nl: "Ga jij lopend naar school?", en: "Do you go to school on foot?" }, items: [fr.a-pied] }
+  - { id: s05, target: "Je viens à l'école à pied.", native: { nl: "Ik loop naar school.", en: "I come to school on foot." }, items: [fr.a-pied] }
+  - { id: s06, target: "La boulangerie est à droite.", native: { nl: "De bakkerij is rechts.", en: "The bakery is on the right." }, items: [fr.a-droite] }
+  - { id: s07, target: "Va à gauche après le parc.", native: { nl: "Ga na het park naar links.", en: "Go left after the park." }, items: [fr.a-gauche] }
+  - { id: s08, target: "Va tout droit, c'est près.", native: { nl: "Ga rechtdoor, het is dichtbij.", en: "Go straight on, it's nearby." }, items: [fr.tout-droit, fr.pres] }
+  - { id: s09, target: "J'habite près de la gare.", native: { nl: "Ik woon dicht bij het station.", en: "I live near the station." }, items: [fr.pres-de] }
+  - { id: s10, target: "Le parc est en face de l'école.", native: { nl: "Het park is tegenover de school.", en: "The park is opposite the school." }, items: [fr.en-face-de] }
+  - { id: s11, target: "Je suis entre Rose et Paul.", native: { nl: "Ik sta tussen Rose en Paul.", en: "I'm between Rose and Paul." }, items: [fr.entre] }
+  - { id: s12, target: "Ma chambre est en haut.", native: { nl: "Mijn slaapkamer is boven.", en: "My bedroom is upstairs." }, items: [fr.en-haut] }
+  - { id: s13, target: "Papa est en bas, dans la cuisine.", native: { nl: "Papa is beneden, in de keuken.", en: "Dad is downstairs, in the kitchen." }, items: [fr.en-bas] }
+  - { id: s14, target: "Regarde dans la boîte : il y a un chat dedans !", native: { nl: "Kijk in de doos: er zit een kat in!", en: "Look in the box: there's a cat inside!" }, items: [fr.dedans] }
+  - { id: s15, target: "Il fait beau, on joue dehors.", native: { nl: "Het is mooi weer, we spelen buiten.", en: "The weather's nice, we're playing outside." }, items: [fr.dehors] }
+  - { id: s16, target: "Je monte dans le bus.", native: { nl: "Ik stap in de bus.", en: "I'm getting on the bus." }, items: [fr.monter] }
+  - { id: s17, target: "Nous descendons du train.", native: { nl: "We stappen uit de trein.", en: "We're getting off the train." }, items: [fr.descendre] }
+  - { id: s18, target: "Entre, s'il te plaît !", native: { nl: "Kom binnen, alsjeblieft!", en: "Come in, please!" }, items: [fr.entrer] }
+  - { id: s19, target: "Je rentre à la maison à cinq heures.", native: { nl: "Ik kom om vijf uur thuis.", en: "I get home at five o'clock." }, items: [fr.rentrer] }
+  - { id: s20, target: "Le départ est à neuf heures.", native: { nl: "Het vertrek is om negen uur.", en: "Departure is at nine o'clock." }, items: [fr.depart] }
+  - { id: s21, target: "Je viens à l'école à vélo, pas à pied.", native: { nl: "Ik kom met de fiets naar school, niet lopend.", en: "I come to school by bike, not on foot." }, items: [fr.a-pied] }
+  - { id: s22, target: "Mon père vient en voiture, pas en train.", native: { nl: "Mijn vader komt met de auto, niet met de trein.", en: "My father comes by car, not by train." }, items: [fr.train] }
+lessons:
+  - { id: l01, title: { nl: Met de trein, en: "Trains, planes and on foot" }, vocab: [fr.train, fr.avion, fr.metro, fr.a-pied, fr.depart, fr.monter, fr.descendre] }
+  - { id: l02, title: { nl: Links en rechts, en: "Left and right" }, vocab: [fr.a-droite, fr.a-gauche, fr.tout-droit, fr.pres, fr.pres-de, fr.en-face-de, fr.entre] }
+  - { id: l03, title: { nl: Boven en beneden, en: "Upstairs and downstairs" }, vocab: [fr.en-haut, fr.en-bas, fr.dedans, fr.dehors, fr.entrer, fr.rentrer] }

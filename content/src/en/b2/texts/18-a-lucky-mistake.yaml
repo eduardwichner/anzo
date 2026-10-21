@@ -1,0 +1,53 @@
+id: en-b2-t18
+kind: reading
+title: { nl: Een gelukkige vergissing }
+topic: Science and discovery (an article in a popular-science magazine)
+level: B2
+paragraphs:
+  - - { id: en-b2-t18-s01, target: "Some of the most important discoveries in history happened by chance.", native: { nl: "Sommige van de belangrijkste ontdekkingen in de geschiedenis gebeurden toevallig." } }
+    - { id: en-b2-t18-s02, target: "One of the most famous took place in a small London laboratory in 1928.", native: { nl: "Een van de bekendste vond in 1928 plaats in een klein laboratorium in Londen." } }
+  - - { id: en-b2-t18-s03, target: "Alexander Fleming was studying bacteria that cause infections.", native: { nl: "Alexander Fleming bestudeerde bacteriën die infecties veroorzaken." } }
+    - { id: en-b2-t18-s04, target: "Before he went on holiday, he left several dishes of bacteria on his desk, and he was going to clean them when he came back.", native: { nl: "Voor hij op vakantie ging, liet hij verschillende schaaltjes met bacteriën op zijn bureau staan, en hij was van plan ze schoon te maken als hij terugkwam." } }
+    - { id: en-b2-t18-s05, target: "When he returned, he noticed something strange: a kind of mould had grown in one dish, and around it the bacteria had died.", native: { nl: "Toen hij terugkwam, merkte hij iets vreemds op: in één schaaltje was een soort schimmel gegroeid, en eromheen waren de bacteriën gestorven." } }
+  - - { id: en-b2-t18-s06, target: "Many scientists would have thrown the dish away.", native: { nl: "Veel wetenschappers zouden het schaaltje weggegooid hebben." } }
+    - { id: en-b2-t18-s07, target: "Fleming, however, was curious, and he started a series of experiments to find out what the mould was doing.", native: { nl: "Fleming was echter nieuwsgierig, en hij begon een reeks experimenten om uit te zoeken wat de schimmel deed." } }
+    - { id: en-b2-t18-s08, target: "His observations led to the first antibiotic, which he called penicillin.", native: { nl: "Zijn waarnemingen leidden tot het eerste antibioticum, dat hij penicilline noemde." } }
+  - - { id: en-b2-t18-s09, target: "At first, few people were interested.", native: { nl: "In het begin waren weinig mensen geïnteresseerd." } }
+    - { id: en-b2-t18-s10, target: "Fleming published his findings in a journal, but it was difficult to produce enough of the substance, and for over ten years nothing happened.", native: { nl: "Fleming publiceerde zijn bevindingen in een tijdschrift, maar het was moeilijk om genoeg van de stof te maken, en meer dan tien jaar gebeurde er niets." } }
+    - { id: en-b2-t18-s11, target: "It was only during the Second World War that other researchers found a way to make it in large amounts, and it saved the lives of millions of people.", native: { nl: "Pas tijdens de Tweede Wereldoorlog vonden andere onderzoekers een manier om het in grote hoeveelheden te maken, en het redde het leven van miljoenen mensen." } }
+  - - { id: en-b2-t18-s12, target: "What can we learn from this story?", native: { nl: "Wat kunnen we uit dit verhaal leren?" } }
+    - { id: en-b2-t18-s13, target: "Luck certainly played a part, but luck alone is not enough.", native: { nl: "Geluk speelde zeker een rol, maar geluk alleen is niet genoeg." } }
+    - { id: en-b2-t18-s14, target: "As Fleming himself said, \"One sometimes finds what one is not looking for\" — but only if one is paying attention.", native: { nl: "Zoals Fleming zelf zei: \"Soms vind je wat je niet zoekt\" — maar alleen als je goed oplet." } }
+glossary:
+  - { word: Alexander, native: { nl: Alexander } }
+  - { word: Fleming, native: { nl: Fleming } }
+  - { word: infections, native: { nl: "infecties (infection)" } }
+  - { word: dishes, native: { nl: "schaaltjes (dish)" } }
+  - { word: dish, native: { nl: schaaltje } }
+  - { word: mould, native: { nl: schimmel } }
+  - { word: antibiotic, native: { nl: antibioticum } }
+  - { word: penicillin, native: { nl: penicilline } }
+items: [en.bacteria, en.observation, en.findings, en.journal, en.substance, en.researcher]
+gapped:
+  gaps: [en-b2-t18-s06, en-b2-t18-s09, en-b2-t18-s12]
+  extra:
+    - { id: en-b2-t18-x1, target: "Fleming's laboratory was always very tidy.", native: { nl: "Het laboratorium van Fleming was altijd heel netjes." } }
+openCloze:
+  - { sentence: en-b2-t18-s04, word: going, acceptAlso: [planning, meaning, intending] }
+  - { sentence: en-b2-t18-s07, word: out }
+  - { sentence: en-b2-t18-s08, word: which }
+  - { sentence: en-b2-t18-s13, word: alone }
+wordForm:
+  - { sentence: en-b2-t18-s01, word: discoveries, stem: discover }
+  - { sentence: en-b2-t18-s11, word: researchers, stem: research }
+  - { sentence: en-b2-t18-s13, word: certainly, stem: certain }
+questions:
+  - { id: en-b2-t18-q1, type: summary, options: ["Fleming discovered penicillin by chance when mould killed bacteria in a dish, but it took years and other researchers before it saved millions of lives.", "Fleming planned a long series of careful experiments for years, and he finally invented penicillin in his London laboratory, which saved millions of lives at once.", "Fleming lost his discovery during his holiday because someone cleaned his laboratory while he was away."], correct: 0 }
+  - { id: en-b2-t18-q2, type: mc, question: "What did Fleming notice when he came back from holiday?", options: ["The bacteria around the mould had died.", "Someone had cleaned his dishes.", "The mould had disappeared."], correct: 0 }
+  - { id: en-b2-t18-q3, type: true_false_notgiven, statement: "Fleming worked in a large laboratory with many assistants.", answer: false }
+  - { id: en-b2-t18-q4, type: true_false_notgiven, statement: "Fleming's holiday lasted two weeks.", answer: not_given }
+  - { id: en-b2-t18-q5, type: true_false_notgiven, statement: "For more than ten years after Fleming's discovery, little happened.", answer: true }
+listeningQuestions:
+  - { id: en-b2-t18-l1, type: complete, statement: "The discovery took place in a London laboratory in ___.", answers: ["1928"] }
+  - { id: en-b2-t18-l2, type: mc, question: "What was the problem at first?", options: ["It was hard to produce enough of the substance.", "Nobody believed Fleming.", "The journal refused his article."], correct: 0 }
+orderable: false

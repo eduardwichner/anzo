@@ -1,0 +1,34 @@
+{
+  "tracks": [
+    { "id": "en", "target": "en", "name": { "nl": "Engels" }, "native": "nl", "mascot": "otter", "packs": [
+      { "id": "en-pre-a1", "file": "en/pre-a1.json", "cefr": "Pre-A1", "title": { "nl": "Starters" }, "status": "available" },
+      { "id": "en-a1",     "file": "en/a1.json",     "cefr": "A1",     "title": { "nl": "Movers" },   "status": "available" },
+      { "id": "en-a2",     "file": "en/a2.json",     "cefr": "A2",     "title": { "nl": "Flyers" },   "status": "available" },
+      { "id": "en-b1",     "file": "en/b1.json",     "cefr": "B1",     "title": { "nl": "B1" },       "status": "available" },
+      { "id": "en-b2",     "file": "en/b2.json",     "cefr": "B2",     "title": { "nl": "B2" },       "status": "available" }
+    ]},
+    { "id": "fr", "target": "fr", "name": { "nl": "Frans" }, "native": "nl", "mascot": "fox", "packs": [
+      { "id": "fr-a1-1", "file": "fr/a1-1.json", "cefr": "A1.1", "title": { "nl": "A1.1" }, "status": "available" },
+      { "id": "fr-a1",   "file": "fr/a1.json",   "cefr": "A1",   "title": { "nl": "A1" },   "status": "available" },
+      { "id": "fr-a2",   "file": "fr/a2.json",   "cefr": "A2",   "title": { "nl": "A2" },   "status": "available" },
+      { "id": "fr-b1",   "file": "fr/b1.json",   "cefr": "B1",   "title": { "nl": "B1" },   "status": "available" },
+      { "id": "fr-b2",   "file": "fr/b2.json",   "cefr": "B2",   "title": { "nl": "B2" },   "status": "available" }
+    ]},
+    { "id": "nl", "target": "nl", "name": { "en": "Dutch", "nl": "Nederlands" }, "native": "en", "mascot": "lion", "packs": [
+      { "id": "nl-pre-a1", "file": "nl/pre-a1.json", "cefr": "Pre-A1", "title": { "en": "Start", "nl": "Start" }, "status": "available" },
+      { "id": "nl-a1",     "file": "nl/a1.json",     "cefr": "A1",     "title": { "en": "A1", "nl": "A1" },       "status": "available" },
+      { "id": "nl-a2",     "file": "nl/a2.json",     "cefr": "A2",     "title": { "en": "A2", "nl": "A2" },       "status": "available" },
+      { "id": "nl-b1",     "file": "nl/b1.json",     "cefr": "B1",     "title": { "en": "B1", "nl": "B1" },       "status": "available" },
+      { "id": "nl-b2",     "file": "nl/b2.json",     "cefr": "B2",     "title": { "en": "B2", "nl": "B2" },       "status": "available" },
+      { "id": "nl-b2-work", "file": "nl/b2-work.json", "cefr": "B2", "title": { "en": "B2 Work", "nl": "B2 Werk" }, "status": "available", "branch": true, "after": "nl-b2" },
+      { "id": "nl-b2-study", "file": "nl/b2-study.json", "cefr": "B2", "title": { "en": "B2 Study", "nl": "B2 Studie" }, "status": "available", "branch": true, "after": "nl-b2" }
+    ]},
+    { "id": "fr-en", "target": "fr", "idPrefix": "fe", "name": { "en": "French", "nl": "Frans" }, "native": "en", "mascot": "fox", "packs": [
+      { "id": "fe-a1-1", "file": "fr-en/a1-1.json", "cefr": "A1.1", "title": { "en": "A1.1", "nl": "A1.1" }, "status": "available" },
+      { "id": "fe-a1",   "file": "fr-en/a1.json",   "cefr": "A1",   "title": { "en": "A1", "nl": "A1" },     "status": "available" },
+      { "id": "fe-a2",   "file": "fr-en/a2.json",   "cefr": "A2",   "title": { "en": "A2", "nl": "A2" },     "status": "available" },
+      { "id": "fe-b1",   "file": "fr-en/b1.json",    "cefr": "B1",   "title": { "en": "B1", "nl": "B1" },     "status": "available" },
+      { "id": "fe-b2",   "file": "fr-en/b2.json",    "cefr": "B2",   "title": { "en": "B2", "nl": "B2" },     "status": "available" }
+    ]}
+  ]
+}

@@ -1,0 +1,53 @@
+id: en-a1-u12
+title: { nl: Spelen en sporten }
+icon: sport
+topic: Sports and leisure
+vocabulary:
+  - { target: ice skates, native: { nl: de schaatsen }, pos: noun }
+  - { target: ice skating, native: { nl: het schaatsen }, pos: noun, avoid: [en.ice-skates, en.skate] }
+  - { target: roller skates, native: { nl: de rolschaatsen }, pos: noun, avoid: [en.ice-skates] }
+  - { target: roller skating, native: { nl: het rolschaatsen }, pos: noun, avoid: [en.roller-skates, en.ice-skating] }
+  - { target: skate, native: { nl: "schaatsen, skaten" }, pos: verb, avoid: [en.ice-skates, en.roller-skates, en.roller-skating] }
+  - { target: helmet, native: { nl: helm }, pos: noun }
+  - { target: sail, native: { nl: zeilen }, pos: verb }
+  - { target: dance, native: { nl: "dansen, dans" }, pos: verb }
+  - { target: goal, native: { nl: "doel, doelpunt" }, pos: noun }
+  - { target: net, native: { nl: het net }, pos: noun }
+  - { target: score, native: { nl: scoren }, pos: verb }
+  - { target: player, native: { nl: speler }, pos: noun }
+  - { target: practise, native: { nl: oefenen }, pos: verb }
+  - { target: practice, native: { nl: "oefening, training" }, pos: noun, avoid: [en.practise] }
+  - { target: skip, native: { nl: touwtje springen }, pos: verb }
+  - { target: party, native: { nl: feestje }, pos: noun }
+  - { target: present, native: { nl: cadeau }, pos: noun }
+  - { target: invite, native: { nl: uitnodigen }, pos: verb }
+  - { target: treasure, native: { nl: schat }, pos: noun }
+  - { target: hide, native: { nl: verstoppen }, pos: verb }
+  - { target: dress up, native: { nl: zich verkleden }, pos: verb, avoid: [en.get-dressed, en.get-undressed] }
+sentences:
+  - { id: s01, target: "I've got new ice skates.", native: { nl: "Ik heb nieuwe schaatsen." }, items: [en.ice-skates], acceptAlso: ["I have got new ice skates."] }
+  - { id: s02, target: "We went ice skating on the lake.", native: { nl: "We gingen schaatsen op het meer." }, items: [en.ice-skating] }
+  - { id: s03, target: "Put on your roller skates.", native: { nl: "Trek je rolschaatsen aan." }, items: [en.roller-skates] }
+  - { id: s04, target: "Roller skating is fun!", native: { nl: "Rolschaatsen is leuk!" }, items: [en.roller-skating] }
+  - { id: s05, target: "Can you skate?", native: { nl: "Kun jij schaatsen?" }, items: [en.skate] }
+  - { id: s06, target: "Wear a helmet on your bike.", native: { nl: "Draag een helm op je fiets." }, items: [en.helmet] }
+  - { id: s07, target: "We sailed on the lake.", native: { nl: "We hebben op het meer gezeild." }, items: [en.sail] }
+  - { id: s08, target: "Let's dance!", native: { nl: "Laten we dansen!" }, items: [en.dance] }
+  - { id: s09, target: "He kicked the ball into the goal.", native: { nl: "Hij schopte de bal in het doel." }, items: [en.goal] }
+  - { id: s10, target: "The ball is in the net!", native: { nl: "De bal zit in het net!" }, items: [en.net] }
+  - { id: s11, target: "Who scored the first goal?", native: { nl: "Wie scoorde het eerste doelpunt?" }, items: [en.score, en.goal] }
+  - { id: s12, target: "She is a very good player.", native: { nl: "Zij is een heel goede speler." }, items: [en.player] }
+  - { id: s13, target: "I practise the piano every day.", native: { nl: "Ik oefen elke dag op de piano." }, items: [en.practise] }
+  - { id: s14, target: "Football practice is on Tuesday.", native: { nl: "De voetbaltraining is op dinsdag." }, items: [en.practice] }
+  - { id: s15, target: "The children are skipping in the playground.", native: { nl: "De kinderen springen touwtje op het schoolplein." }, items: [en.skip] }
+  - { id: s16, target: "Let's have a party!", native: { nl: "Laten we een feestje geven!" }, items: [en.party] }
+  - { id: s17, target: "Thank you for the present!", native: { nl: "Dank je wel voor het cadeau!" }, items: [en.present] }
+  - { id: s18, target: "I want to invite all my friends.", native: { nl: "Ik wil al mijn vrienden uitnodigen." }, items: [en.invite] }
+  - { id: s19, target: "The pirates hid the treasure.", native: { nl: "De piraten verstopten de schat." }, items: [en.treasure, en.hide] }
+  - { id: s20, target: "Hide behind the tree!", native: { nl: "Verstop je achter de boom!" }, items: [en.hide] }
+  - { id: s21, target: "The children dressed up for the party.", native: { nl: "De kinderen verkleedden zich voor het feest." }, items: [en.dress-up] }
+  - { id: s22, target: "Let's dress up like pirates!", native: { nl: "Laten we ons verkleden als piraten!" }, items: [en.dress-up] }
+lessons:
+  - { id: l01, title: { nl: Schaatsen en skaten }, vocab: [en.ice-skates, en.ice-skating, en.roller-skates, en.roller-skating, en.skate, en.helmet, en.sail] }
+  - { id: l02, title: { nl: Dansen en scoren }, vocab: [en.dance, en.goal, en.net, en.score, en.player, en.practise, en.practice] }
+  - { id: l03, title: { nl: Feest! }, vocab: [en.skip, en.party, en.present, en.invite, en.treasure, en.hide, en.dress-up] }

@@ -1,0 +1,63 @@
+id: nl-b2-t19
+kind: reading
+title: { en: Why we sleep }
+topic: Science (a popular science article in a magazine)
+level: B2
+paragraphs:
+  - - { id: nl-b2-t19-s01, target: "We brengen ongeveer een derde van ons leven slapend door.", native: { en: "We spend about a third of our lives asleep." } }
+    - { id: nl-b2-t19-s02, target: "Wie tachtig wordt, heeft dus meer dan vijfentwintig jaar met de ogen dicht gelegen.", native: { en: "So anyone who reaches eighty has spent more than twenty-five years lying with their eyes closed." } }
+    - { id: nl-b2-t19-s03, target: "Lange tijd dachten wetenschappers dat de hersenen 's nachts gewoon uitrustten, zoals een computer in de slaapstand.", native: { en: "For a long time scientists thought that the brain simply rests at night, like a computer in sleep mode." } }
+    - { id: nl-b2-t19-s04, target: "Vandaag weten we dat het omgekeerde waar is.", native: { en: "Today we know that the opposite is true." } }
+  - - { id: nl-b2-t19-s05, target: "Tijdens de slaap zijn de hersenen erg actief.", native: { en: "During sleep the brain is very active." } }
+    - { id: nl-b2-t19-s06, target: "Uit experimenten in het laboratorium blijkt dat ze dan de informatie van de dag ordenen.", native: { en: "Experiments in the laboratory show that it then sorts the information of the day." } }
+    - { id: nl-b2-t19-s07, target: "Wat belangrijk is, wordt in het geheugen opgeslagen; wat niet belangrijk is, wordt vergeten.", native: { en: "What is important is stored in the memory; what is not important is forgotten." } }
+    - { id: nl-b2-t19-s08, target: "In één experiment leerden deelnemers 's avonds een lijst woorden: wie daarna goed sliep, kende de volgende ochtend aanzienlijk meer woorden dan wie wakker bleef.", native: { en: "In one experiment participants learned a list of words in the evening: those who then slept well knew considerably more words the next morning than those who stayed awake." } }
+  - - { id: nl-b2-t19-s09, target: "Maar slaap doet meer dan het geheugen helpen.", native: { en: "But sleep does more than help the memory." } }
+    - { id: nl-b2-t19-s10, target: "Onderzoekers ontdekten dat de hersenen 's nachts ook afvalstoffen opruimen die overdag ontstaan.", native: { en: "Researchers discovered that at night the brain also clears away waste products that build up during the day." } }
+    - { id: nl-b2-t19-s11, target: "Wie jarenlang te weinig slaapt, loopt vermoedelijk een groter risico op ziektes zoals dementie.", native: { en: "Anyone who sleeps too little for years presumably runs a greater risk of diseases such as dementia." } }
+    - { id: nl-b2-t19-s12, target: "Ook het lichaam heeft de nacht nodig om cellen te herstellen en om zich te beschermen tegen bacteriën en virussen.", native: { en: "The body also needs the night to repair cells and to protect itself against bacteria and viruses." } }
+  - - { id: nl-b2-t19-s13, target: "Toch slapen we steeds minder.", native: { en: "Yet we are sleeping less and less." } }
+    - { id: nl-b2-t19-s14, target: "Volgens recente statistieken slaapt een op de drie volwassenen minder dan zes uur per nacht, en bij tieners is dat percentage nog hoger.", native: { en: "According to recent statistics one in three adults sleeps less than six hours a night, and among teenagers that percentage is even higher." } }
+    - { id: nl-b2-t19-s15, target: "Een belangrijke oorzaak is het gebruik van schermen voor het slapengaan: het blauwe licht laat de hersenen denken dat het nog dag is.", native: { en: "An important cause is the use of screens before going to sleep: the blue light makes the brain think it is still day." } }
+    - { id: nl-b2-t19-s23, target: "Bij tieners is er nog een andere oorzaak.", native: { en: "With teenagers there is another cause too." } }
+    - { id: nl-b2-t19-s24, target: "Tijdens de puberteit verschuift hun biologische klok: ze worden 's avonds pas later moe en zouden 's morgens langer moeten kunnen slapen.", native: { en: "During puberty their biological clock shifts: they only get tired later in the evening and ought to be able to sleep longer in the morning." } }
+    - { id: nl-b2-t19-s25, target: "Een tiener die om acht uur in de klas zit, heeft dus vaak een groot slaaptekort, ook als hij helemaal niet laat naar bed gaat.", native: { en: "So a teenager who is sitting in class at eight o'clock often has a big sleep deficit, even if he doesn't go to bed late at all." } }
+    - { id: nl-b2-t19-s26, target: "In sommige landen beginnen scholen daarom een uur later, met opvallende resultaten: de leerlingen zijn minder vaak ziek en halen betere punten.", native: { en: "That is why in some countries schools start an hour later, with striking results: the pupils are ill less often and get better marks." } }
+  - - { id: nl-b2-t19-s16, target: "Wat is dan het goede aantal uren?", native: { en: "What, then, is the right number of hours?" } }
+    - { id: nl-b2-t19-s17, target: "Voor de meeste volwassenen ligt het gemiddelde tussen zeven en negen uur, maar er zijn opvallende verschillen tussen mensen.", native: { en: "For most adults the average lies between seven and nine hours, but there are striking differences between people." } }
+    - { id: nl-b2-t19-s18, target: "Sommigen voelen zich na zes uur uitgerust, anderen hebben er tien nodig.", native: { en: "Some feel rested after six hours, others need ten." } }
+    - { id: nl-b2-t19-s19, target: "Dat is blijkbaar voor een deel erfelijk.", native: { en: "That is apparently partly hereditary." } }
+  - - { id: nl-b2-t19-s20, target: "De conclusie van de onderzoekers is eenvoudig.", native: { en: "The researchers' conclusion is simple." } }
+    - { id: nl-b2-t19-s21, target: "Slaap is geen verloren tijd, maar een van de beste dingen die we voor onze gezondheid kunnen doen.", native: { en: "Sleep is not lost time but one of the best things we can do for our health." } }
+    - { id: nl-b2-t19-s22, target: "Leg dus vanavond je gsm een uur voor het slapengaan weg, en kijk wat het met je doet.", native: { en: "So tonight put your phone away an hour before going to bed, and see what difference it makes." } }
+glossary:
+  - { word: slapend, native: { en: "asleep, sleeping" } }
+  - { word: slaapstand, native: { en: "sleep mode" } }
+  - { word: omgekeerde, native: { en: "the opposite" } }
+  - { word: ordenen, native: { en: "to sort, to put in order" } }
+  - { word: afvalstoffen, native: { en: "waste products" } }
+  - { word: uitgerust, native: { en: rested } }
+  - { word: erfelijk, native: { en: hereditary } }
+  - { word: verschuift, native: { en: "shifts (verschuiven)" } }
+  - { word: biologische klok, native: { en: "biological clock" } }
+  - { word: slaaptekort, native: { en: "lack of sleep, sleep deficit" } }
+items: [nl.hersenen, nl.slaap, nl.experiment, nl.laboratorium, nl.geheugen, nl.deelnemer, nl.aanzienlijk, nl.vermoedelijk, nl.cel, nl.bacterie, nl.statistiek, nl.percentage, nl.gemiddelde, nl.opvallend, nl.blijkbaar, nl.conclusie]
+gapped:
+  gaps: [nl-b2-t19-s05, nl-b2-t19-s09, nl-b2-t19-s13, nl-b2-t19-s16, nl-b2-t19-s20]
+  extra:
+    - { id: nl-b2-t19-x1, target: "Daarom slapen dieren nooit.", native: { en: "That is why animals never sleep." } }
+questions:
+  - { id: nl-b2-t19-q1, type: summary, options: ["Slaap is belangrijk voor het geheugen en de gezondheid, maar veel mensen slapen te weinig, onder meer door schermen.", "Slaap is belangrijk voor het geheugen en de gezondheid, en de meeste mensen slapen genoeg, ook als ze 's avonds naar een scherm kijken.", "Iedereen heeft precies acht uur slaap nodig."], correct: 0 }
+  - { id: nl-b2-t19-q2, type: mc, question: "Wat toonde het experiment met de lijst woorden?", options: ["Wie goed sliep, kende de volgende ochtend meer woorden.", "Wie wakker bleef, onthield de woorden beter.", "Slaap heeft geen invloed op het geheugen."], correct: 0 }
+  - { id: nl-b2-t19-q3, type: true_false_notgiven, statement: "Mensen die veel sporten, slapen beter.", answer: not_given }
+  - { id: nl-b2-t19-q4, type: true_false_notgiven, statement: "Bij tieners is het percentage dat minder dan zes uur slaapt lager dan bij volwassenen.", answer: false }
+  - { id: nl-b2-t19-q5, type: true_false_notgiven, statement: "Vroeger dachten wetenschappers dat de hersenen 's nachts rusten.", answer: true }
+  - { id: nl-b2-t19-q6, type: mc, question: "Waarom houdt een scherm je wakker?", options: ["Het blauwe licht laat de hersenen denken dat het nog dag is.", "De gsm maakt te veel lawaai.", "Je leest te veel nieuws."], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-t19-l1, type: complete, statement: "We brengen ongeveer een ___ van ons leven slapend door.", answers: [derde] }
+  - { id: nl-b2-t19-l2, type: mc, question: "Wat raadt de auteur aan het einde aan?", options: ["Een uur voor het slapengaan je gsm wegleggen.", "Elke dag tien uur slapen.", "'s Avonds een lijst woorden leren."], correct: 0 }
+wordForm:
+  - { sentence: nl-b2-t19-s03, word: wetenschappers, stem: wetenschap }
+  - { sentence: nl-b2-t19-s21, word: gezondheid, stem: gezond }
+  - { sentence: nl-b2-t19-s26, word: leerlingen, stem: leren }
+orderable: false

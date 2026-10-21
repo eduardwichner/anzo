@@ -1,0 +1,78 @@
+id: fr-b1-u02
+title: { nl: Ik en de anderen, en: "Me and other people" }
+icon: friends
+topic: Caractère, amitié et relations ; les pronoms relatifs qui et que
+vocabulary:
+  - { target: l'apparence, native: { nl: het uiterlijk, en: "appearance, looks" }, pos: noun, gender: f }
+  - { target: le caractère, native: { nl: het karakter, en: "character (personality)" }, pos: noun, gender: m }
+  - { target: la beauté, native: { nl: de schoonheid, en: "beauty" }, pos: noun, gender: f }
+  - { target: honnête, native: { nl: eerlijk, en: "honest" }, pos: adjective }
+  - { target: impoli, native: { nl: onbeleefd, en: "rude, impolite" }, pos: adjective }
+  - { target: généreux, native: { nl: gul, en: "generous" }, pos: adjective, avoid: [fr.egoiste] }
+  - { target: égoïste, native: { nl: egoïstisch, en: "selfish" }, pos: adjective }
+  - { target: bavard, native: { nl: praatziek, en: "chatty, talkative" }, pos: adjective }
+  - { target: sérieux, native: { nl: serieus, en: "serious, reliable" }, pos: adjective }
+  - { target: chauve, native: { nl: kaal, en: "bald" }, pos: adjective }
+  - { target: tolérant, native: { nl: verdraagzaam, en: "tolerant" }, pos: adjective }
+  - { id: fr.age-adj, target: âgé, native: { nl: "oud, bejaard", en: "elderly, old" }, pos: adjective }
+  - { target: aveugle, native: { nl: blind, en: "blind" }, pos: adjective }
+  - { target: francophone, native: { nl: Franstalig, en: "French-speaking" }, pos: adjective }
+  - { target: l'adolescent, native: { nl: de tiener, en: "teenager, adolescent" }, pos: noun, gender: m, noBlank: true }
+  - { target: l'ado, native: { nl: de tiener (informeel), en: "teenager (informal), teen" }, pos: noun, gender: m, avoid: [fr.adolescent], noBlank: true }
+  - { target: l'adulte, native: { nl: de volwassene, en: "adult" }, pos: noun, gender: m }
+  - { target: l'amitié, native: { nl: de vriendschap, en: "friendship" }, pos: noun, gender: f }
+  - { target: le couple, native: { nl: "het koppel, het stel", en: "couple" }, pos: noun, gender: m }
+  - { target: la relation, native: { nl: de relatie, en: "relationship" }, pos: noun, gender: f }
+  - { target: le lien, native: { nl: de band (verbinding), en: "bond, link" }, pos: noun, gender: m }
+  - { target: le contact, native: { nl: het contact, en: "contact" }, pos: noun, gender: m }
+  - { target: la confiance, native: { nl: het vertrouwen, en: "trust, confidence" }, pos: noun, gender: f }
+  - { target: le respect, native: { nl: het respect, en: "respect" }, pos: noun, gender: m }
+  - { target: le comportement, native: { nl: het gedrag, en: "behaviour" }, pos: noun, gender: m }
+  - { target: l'attitude, native: { nl: de houding, en: "attitude" }, pos: noun, gender: f, avoid: [fr.comportement] }
+  - { target: l'habitude, native: { nl: de gewoonte, en: "habit" }, pos: noun, gender: f }
+  - { target: l'intimité, native: { nl: de privacy, en: "privacy" }, pos: noun, gender: f }
+  - { target: la dispute, native: { nl: de ruzie, en: "argument, row" }, pos: noun, gender: f }
+  - { target: se disputer, native: { nl: ruziemaken, en: "to argue, to have a row" }, pos: verb }
+  - { target: pardonner, native: { nl: vergeven, en: "to forgive" }, pos: verb }
+  - { target: promettre, native: { nl: beloven, en: "to promise" }, pos: verb }
+  - { target: la promesse, native: { nl: de belofte, en: "promise" }, pos: noun, gender: f }
+  - { target: soutenir, native: { nl: steunen, en: "to support" }, pos: verb }
+  - { target: rapprocher, native: { nl: dichter bij elkaar brengen, en: "to bring closer together" }, pos: verb }
+sentences:
+  - { id: s01, target: "L'apparence n'est pas le plus important.", native: { nl: "Het uiterlijk is niet het belangrijkste.", en: "Appearance isn't the most important thing." }, items: [fr.apparence] }
+  - { id: s02, target: "Ma sœur a un caractère très fort.", native: { nl: "Mijn zus heeft een heel sterk karakter.", en: "My sister has a very strong character." }, items: [fr.caractere] }
+  - { id: s03, target: "Les touristes aiment la beauté du village.", native: { nl: "De toeristen houden van de schoonheid van het dorp.", en: "The tourists like the beauty of the village." }, items: [fr.beaute] }
+  - { id: s04, target: "Sois honnête avec moi, s'il te plaît.", native: { nl: "Wees eerlijk tegen me, alsjeblieft.", en: "Be honest with me, please." }, items: [fr.honnete] }
+  - { id: s05, target: "Ce garçon est impoli avec les professeurs.", native: { nl: "Die jongen is onbeleefd tegen de leraren.", en: "That boy is rude to the teachers." }, items: [fr.impoli] }
+  - { id: s06, target: "Mon oncle est très généreux : il nous offre toujours des cadeaux.", native: { nl: "Mijn oom is heel gul: hij geeft ons altijd cadeaus.", en: "My uncle is very generous: he always gives us presents." }, items: [fr.genereux] }
+  - { id: s07, target: "Ne sois pas égoïste, partage avec les autres !", native: { nl: "Wees niet egoïstisch, deel met de anderen!", en: "Don't be selfish: share with the others!" }, items: [fr.egoiste] }
+  - { id: s08, target: "Ma voisine est très bavarde : elle parle pendant des heures.", native: { nl: "Mijn buurvrouw is heel praatziek: ze praat urenlang.", en: "My neighbour is very chatty: she talks for hours." }, items: [fr.bavard] }
+  - { id: s09, target: "C'est un élève sérieux qui travaille beaucoup.", native: { nl: "Hij is een serieuze leerling die hard werkt.", en: "He's a serious pupil who works hard." }, items: [fr.serieux] }
+  - { id: s10, target: "Mon grand-père est devenu chauve à quarante ans.", native: { nl: "Mijn opa werd kaal toen hij veertig was.", en: "My grandfather went bald at forty." }, items: [fr.chauve], acceptAlso: ["À quarante ans, mon grand-père est devenu chauve."] }
+  - { id: s11, target: "Il faut être tolérant avec les autres.", native: { nl: "Je moet verdraagzaam zijn tegenover anderen.", en: "You have to be tolerant of other people." }, items: [fr.tolerant] }
+  - { id: s12, target: "Nous aidons une femme âgée qui habite à côté.", native: { nl: "We helpen een oudere dame die hiernaast woont.", en: "We help an elderly woman who lives next door." }, items: [fr.age-adj] }
+  - { id: s13, target: "Ce chien aide un homme aveugle à traverser la rue.", native: { nl: "Deze hond helpt een blinde man de straat over te steken.", en: "This dog helps a blind man cross the road." }, items: [fr.aveugle] }
+  - { id: s14, target: "La Belgique est un pays en partie francophone.", native: { nl: "België is een gedeeltelijk Franstalig land.", en: "Belgium is a partly French-speaking country." }, items: [fr.francophone] }
+  - { id: s15, target: "Les adolescents doivent dormir beaucoup.", native: { nl: "Tieners moeten veel slapen.", en: "Teenagers need to sleep a lot." }, items: [fr.adolescent] }
+  - { id: s16, target: "Ce film est pour les ados et les adultes.", native: { nl: "Deze film is voor tieners en volwassenen.", en: "This film is for teens and adults." }, items: [fr.ado, fr.adulte] }
+  - { id: s17, target: "Notre amitié a commencé à l'école.", native: { nl: "Onze vriendschap is op school begonnen.", en: "Our friendship began at school." }, items: [fr.amitie] }
+  - { id: s18, target: "Un jeune couple habite dans l'appartement à côté.", native: { nl: "Er woont een jong koppel in het appartement hiernaast.", en: "A young couple live in the flat next door." }, items: [fr.couple] }
+  - { id: s19, target: "J'ai une bonne relation avec mes parents.", native: { nl: "Ik heb een goede relatie met mijn ouders.", en: "I have a good relationship with my parents." }, items: [fr.relation] }
+  - { id: s20, target: "Le sport crée des liens entre les gens.", native: { nl: "Sport schept banden tussen mensen.", en: "Sport creates bonds between people." }, items: [fr.lien] }
+  - { id: s21, target: "Je reste en contact avec mes amis de vacances.", native: { nl: "Ik blijf in contact met mijn vakantievrienden.", en: "I keep in contact with my holiday friends." }, items: [fr.contact] }
+  - { id: s22, target: "J'ai confiance en toi.", native: { nl: "Ik heb vertrouwen in jou.", en: "I trust you." }, items: [fr.confiance] }
+  - { id: s23, target: "Il faut parler aux autres avec respect.", native: { nl: "Je moet met respect tegen anderen praten.", en: "You must speak to other people with respect." }, items: [fr.respect] }
+  - { id: s24, target: "Son comportement en classe a beaucoup changé.", native: { nl: "Zijn gedrag in de klas is erg veranderd.", en: "His behaviour in class has changed a lot." }, items: [fr.comportement], acceptAlso: ["Son comportement a beaucoup changé en classe."] }
+  - { id: s25, target: "Elle a toujours une attitude positive.", native: { nl: "Ze heeft altijd een positieve houding.", en: "She always has a positive attitude." }, items: [fr.attitude] }
+  - { id: s26, target: "J'ai l'habitude de lire avant de dormir.", native: { nl: "Ik heb de gewoonte om te lezen voor het slapengaan.", en: "I'm in the habit of reading before I go to sleep." }, items: [fr.habitude], acceptAlso: ["Avant de dormir, j'ai l'habitude de lire."] }
+  - { id: s27, target: "Les ados ont besoin d'un peu d'intimité.", native: { nl: "Tieners hebben wat privacy nodig.", en: "Teens need a bit of privacy." }, items: [fr.intimite] }
+  - { id: s28, target: "Après la dispute, ils ne se parlent plus.", native: { nl: "Na de ruzie praten ze niet meer met elkaar.", en: "After the argument, they don't speak to each other any more." }, items: [fr.dispute], acceptAlso: ["Ils ne se parlent plus après la dispute."] }
+  - { id: s29, target: "Mes frères se disputent tout le temps.", native: { nl: "Mijn broers maken de hele tijd ruzie.", en: "My brothers argue all the time." }, items: [fr.se-disputer] }
+  - { id: s30, target: "Je te pardonne, mais ne fais plus ça.", native: { nl: "Ik vergeef het je, maar doe dat niet meer.", en: "I forgive you, but don't do that again." }, items: [fr.pardonner] }
+  - { id: s31, target: "Je te promets que je serai à l'heure.", native: { nl: "Ik beloof je dat ik op tijd zal zijn.", en: "I promise you I'll be on time." }, items: [fr.promettre], finite: { word: promets, hint: { nl: "promettre (présent)", en: "promettre (present)" } } }
+  - { id: s32, target: "Il faut toujours tenir ses promesses.", native: { nl: "Je moet je beloftes altijd nakomen.", en: "You must always keep your promises." }, items: [fr.promesse] }
+  - { id: s33, target: "Mes parents me soutiennent dans tous mes projets.", native: { nl: "Mijn ouders steunen me in al mijn plannen.", en: "My parents support me in all my plans." }, items: [fr.soutenir], finite: { word: soutiennent, hint: { nl: "soutenir (présent)", en: "soutenir (present)" } } }
+  - { id: s34, target: "Ce voyage nous a rapprochés.", native: { nl: "Deze reis heeft ons dichter bij elkaar gebracht.", en: "This trip brought us closer together." }, items: [fr.rapprocher] }
+  - { id: s35, target: "C'est une promesse que je ne vais pas oublier.", native: { nl: "Dat is een belofte die ik niet ga vergeten.", en: "It's a promise I'm not going to forget." }, items: [fr.promesse] }
+  - { id: s36, target: "Le garçon qui parle avec Léa est très bavard.", native: { nl: "De jongen die met Léa praat, is erg praatziek.", en: "The boy who's talking to Léa is very chatty." }, items: [fr.bavard] }
+texts: [fr-b1-t03]

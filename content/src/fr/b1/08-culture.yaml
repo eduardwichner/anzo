@@ -1,0 +1,73 @@
+id: fr-b1-u08
+title: { nl: Cultuur, en: "Culture" }
+icon: music
+topic: La culture, les arts et l'histoire ; la voix passive (être + participe passé)
+vocabulary:
+  - { target: l'exposition, native: { nl: de tentoonstelling, en: "exhibition" }, pos: noun, gender: f }
+  - { target: la scène, native: { nl: het podium, en: "stage" }, pos: noun, gender: f }
+  - { target: l'orchestre, native: { nl: het orkest, en: "orchestra" }, pos: noun, gender: m }
+  - { target: le roman, native: { nl: de roman, en: "novel" }, pos: noun, gender: m }
+  - { target: l'auteur, native: { nl: de auteur, en: "author, writer" }, pos: noun, gender: m, avoid: [fr.ecrivain] }
+  - { target: l'écrivain, native: { nl: de schrijver, en: "writer" }, pos: noun, gender: m }
+  - { target: le poème, native: { nl: het gedicht, en: "poem" }, pos: noun, gender: m }
+  - { target: le titre, native: { nl: de titel, en: "title" }, pos: noun, gender: m }
+  - { target: le réalisateur, native: { nl: de regisseur, en: "director (of a film)" }, pos: noun, gender: m }
+  - { target: le jazz, native: { nl: de jazz, en: "jazz" }, pos: noun, gender: m }
+  - { target: classique, native: { nl: klassiek, en: "classical" }, pos: adjective }
+  - { target: le musicien, native: { nl: de muzikant, en: "musician" }, pos: noun, gender: m }
+  - { target: le studio, native: { nl: de studio, en: "studio" }, pos: noun, gender: m }
+  - { target: l'enregistrement, native: { nl: de opname, en: "recording" }, pos: noun, gender: m }
+  - { target: la répétition, native: { nl: de repetitie, en: "rehearsal" }, pos: noun, gender: f }
+  - { target: la production, native: { nl: de productie, en: "production" }, pos: noun, gender: f }
+  - { target: l'édition, native: { nl: "de uitgave, de editie", en: "edition" }, pos: noun, gender: f }
+  - { target: la chronique, native: { nl: "de column, de rubriek", en: "column (in a newspaper)" }, pos: noun, gender: f }
+  - { target: la culture, native: { nl: de cultuur, en: "culture" }, pos: noun, gender: f }
+  - { target: interculturel, native: { nl: intercultureel, en: "intercultural" }, pos: adjective }
+  - { target: créer, native: { nl: "maken, creëren", en: "to create, to make" }, pos: verb }
+  - { target: représenter, native: { nl: voorstellen (afbeelden), en: "to show, to represent" }, pos: verb }
+  - { target: le thème, native: { nl: het thema, en: "theme" }, pos: noun, gender: m }
+  - { target: la série, native: { nl: de reeks (serie), en: "series" }, pos: noun, gender: f }
+  - { target: l'épisode, native: { nl: de aflevering, en: "episode" }, pos: noun, gender: m }
+  - { target: la photographie, native: { nl: de fotografie, en: "photography" }, pos: noun, gender: f }
+  - { target: l'historien, native: { nl: de historicus, en: "historian" }, pos: noun, gender: m }
+  - { target: historique, native: { nl: historisch, en: "historic, historical" }, pos: adjective }
+  - { target: le siècle, native: { nl: de eeuw, en: "century" }, pos: noun, gender: m }
+  - { target: l'époque, native: { nl: "de tijd, het tijdperk", en: "period, time (in history)" }, pos: noun, gender: f }
+  - { target: l'inventeur, native: { nl: de uitvinder, en: "inventor" }, pos: noun, gender: m }
+  - { target: la papeterie, native: { nl: de kantoorboekhandel, en: "stationer's" }, pos: noun, gender: f }
+sentences:
+  - { id: s01, target: "Nous avons visité une exposition de photos au musée.", native: { nl: "We hebben een fototentoonstelling in het museum bezocht.", en: "We visited a photo exhibition at the museum." }, items: [fr.exposition] }
+  - { id: s02, target: "Le chanteur est monté sur scène à neuf heures.", native: { nl: "De zanger kwam om negen uur op het podium.", en: "The singer came on stage at nine o'clock." }, items: [fr.scene] }
+  - { id: s03, target: "Mon frère joue du violon dans l'orchestre de l'école.", native: { nl: "Mijn broer speelt viool in het schoolorkest.", en: "My brother plays the violin in the school orchestra." }, items: [fr.orchestre] }
+  - { id: s04, target: "Ce roman raconte l'histoire d'une famille pendant les vacances.", native: { nl: "Deze roman vertelt het verhaal van een familie tijdens de vakantie.", en: "This novel tells the story of a family on holiday." }, items: [fr.roman] }
+  - { id: s05, target: "L'auteur du livre vient à la librairie samedi.", native: { nl: "De auteur van het boek komt zaterdag naar de boekhandel.", en: "The author of the book is coming to the bookshop on Saturday." }, items: [fr.auteur] }
+  - { id: s06, target: "Victor Hugo est un écrivain français très connu.", native: { nl: "Victor Hugo is een heel bekende Franse schrijver.", en: "Victor Hugo is a very famous French writer." }, items: [fr.ecrivain] }
+  - { id: s07, target: "Nous apprenons un poème par cœur pour lundi.", native: { nl: "We leren tegen maandag een gedicht van buiten.", en: "We're learning a poem by heart for Monday." }, items: [fr.poeme] }
+  - { id: s08, target: "Quel est le titre de ta chanson préférée ?", native: { nl: "Wat is de titel van je favoriete liedje?", en: "What's the title of your favourite song?" }, items: [fr.titre] }
+  - { id: s09, target: "Le réalisateur du film est belge.", native: { nl: "De regisseur van de film is Belgisch.", en: "The director of the film is Belgian." }, items: [fr.realisateur] }
+  - { id: s10, target: "Mon père écoute du jazz le dimanche matin.", native: { nl: "Mijn vader luistert op zondagochtend naar jazz.", en: "My father listens to jazz on Sunday mornings." }, items: [fr.jazz] }
+  - { id: s11, target: "Je préfère la musique classique à la musique moderne.", native: { nl: "Ik verkies klassieke muziek boven moderne muziek.", en: "I prefer classical music to modern music." }, items: [fr.classique] }
+  - { id: s12, target: "Les musiciens jouent dans la rue le samedi.", native: { nl: "De muzikanten spelen op zaterdag op straat.", en: "The musicians play in the street on Saturdays." }, items: [fr.musicien], finite: { word: jouent, hint: { nl: "jouer (présent)", en: "jouer (present)" } } }
+  - { id: s13, target: "Le groupe travaille dans un studio à Paris.", native: { nl: "De groep werkt in een studio in Parijs.", en: "The band works in a studio in Paris." }, items: [fr.studio] }
+  - { id: s14, target: "Écoute cet enregistrement de notre concert !", native: { nl: "Luister naar deze opname van ons concert!", en: "Listen to this recording of our concert!" }, items: [fr.enregistrement] }
+  - { id: s15, target: "La répétition du spectacle commence à cinq heures.", native: { nl: "De repetitie van de voorstelling begint om vijf uur.", en: "The rehearsal for the show starts at five o'clock." }, items: [fr.repetition] }
+  - { id: s16, target: "La production de ce film a coûté très cher.", native: { nl: "De productie van deze film heeft heel veel gekost.", en: "The production of this film cost a lot of money." }, items: [fr.production] }
+  - { id: s17, target: "La nouvelle édition du dictionnaire sort en mars.", native: { nl: "De nieuwe uitgave van het woordenboek verschijnt in maart.", en: "The new edition of the dictionary comes out in March." }, items: [fr.edition] }
+  - { id: s18, target: "Je lis toujours la chronique sportive du journal.", native: { nl: "Ik lees altijd de sportrubriek van de krant.", en: "I always read the newspaper's sports column." }, items: [fr.chronique] }
+  - { id: s19, target: "Voyager, c'est découvrir une autre culture.", native: { nl: "Reizen is een andere cultuur ontdekken.", en: "Travelling means discovering another culture." }, items: [fr.culture] }
+  - { id: s20, target: "Notre école organise une journée interculturelle.", native: { nl: "Onze school organiseert een interculturele dag.", en: "Our school is organising an intercultural day." }, items: [fr.interculturel] }
+  - { id: s21, target: "Les élèves ont créé un jeu sur l'histoire de la ville.", native: { nl: "De leerlingen hebben een spel over de geschiedenis van de stad gemaakt.", en: "The pupils have created a game about the history of the town." }, items: [fr.creer] }
+  - { id: s22, target: "Ce tableau représente une famille à la plage.", native: { nl: "Dit schilderij stelt een gezin op het strand voor.", en: "This painting shows a family on the beach." }, items: [fr.representer], finite: { word: représente, hint: { nl: "représenter (présent)", en: "représenter (present)" } } }
+  - { id: s23, target: "Le thème de l'exposition, c'est l'eau.", native: { nl: "Het thema van de tentoonstelling is water.", en: "The theme of the exhibition is water." }, items: [fr.theme] }
+  - { id: s24, target: "J'ai regardé toute la série en une semaine.", native: { nl: "Ik heb de hele reeks in één week bekeken.", en: "I watched the whole series in a week." }, items: [fr.serie] }
+  - { id: s25, target: "Le dernier épisode était vraiment surprenant.", native: { nl: "De laatste aflevering was echt verrassend.", en: "The last episode was really surprising." }, items: [fr.episode] }
+  - { id: s26, target: "Elle fait des études de photographie.", native: { nl: "Ze studeert fotografie.", en: "She's studying photography." }, items: [fr.photographie] }
+  - { id: s27, target: "Un historien est venu parler de la ville au Moyen Âge.", native: { nl: "Een historicus kwam vertellen over de stad in de middeleeuwen.", en: "A historian came to talk about the town in the Middle Ages." }, items: [fr.historien] }
+  - { id: s28, target: "Le centre historique de Bruges est magnifique.", native: { nl: "Het historische centrum van Brugge is prachtig.", en: "The historic centre of Bruges is magnificent." }, items: [fr.historique] }
+  - { id: s29, target: "Cette église a plus de huit siècles.", native: { nl: "Deze kerk is meer dan acht eeuwen oud.", en: "This church is more than eight centuries old." }, items: [fr.siecle] }
+  - { id: s30, target: "À cette époque, il n'y avait pas de téléphone.", native: { nl: "In die tijd was er geen telefoon.", en: "At that time, there was no telephone." }, items: [fr.epoque] }
+  - { id: s31, target: "Qui est l'inventeur de la radio ?", native: { nl: "Wie is de uitvinder van de radio?", en: "Who is the inventor of the radio?" }, items: [fr.inventeur] }
+  - { id: s32, target: "J'achète mes cahiers à la papeterie.", native: { nl: "Ik koop mijn schriften in de kantoorboekhandel.", en: "I buy my exercise books at the stationer's." }, items: [fr.papeterie] }
+  - { id: s33, target: "Ce roman a été écrit par un jeune auteur.", native: { nl: "Deze roman is geschreven door een jonge auteur.", en: "This novel was written by a young author." }, items: [fr.roman], build: true }
+  - { id: s34, target: "L'exposition est visitée par des milliers de touristes.", native: { nl: "De tentoonstelling wordt door duizenden toeristen bezocht.", en: "The exhibition is visited by thousands of tourists." }, items: [fr.exposition], build: true }
+texts: [fr-b1-t09]

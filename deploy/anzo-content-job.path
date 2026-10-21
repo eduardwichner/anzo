@@ -1,0 +1,15 @@
+[Unit]
+Description=Start the Anzo content job when a correction request arrives
+Documentation=file:///opt/anzo/docs/developer/operations.md
+
+[Path]
+# The service writes /var/spool/anzo/requests/<id>.json; the job moves each one out before working on it. Only request
+# files trigger it: a stray file (e.g. a temp file left by a crash) would otherwise start the job in a loop until
+# systemd's start limit stops this path unit for good.
+PathExistsGlob=/var/spool/anzo/requests/[0-9]*.json
+# "Record again": requests/rerecord-<id>.json
+PathExistsGlob=/var/spool/anzo/requests/rerecord-[0-9]*.json
+Unit=anzo-content-job.service
+
+[Install]
+WantedBy=paths.target

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 2,
+  "id": "en-mc-sides",
+  "track": "en",
+  "cefr": "Pre-A1",
+  "source": "Deliberately broken schema v2 fixture for the content validator.",
+  "units": [
+    {
+      "id": "en-mc-sides-u01",
+      "title": {
+        "nl": "Kapot"
+      },
+      "icon": "animals",
+      "vocabulary": [
+        {
+          "id": "en.mc-sides",
+          "target": "cat",
+          "native": {
+            "nl": "kat"
+          },
+          "pos": "noun"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "en-mc-sides-u01-l01",
+          "title": {
+            "nl": "Kapot"
+          },
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "id": "en-mc-sides-u01-l01-e01",
+              "items": [
+                "en.mc-sides"
+              ],
+              "question": "cat",
+              "options": [
+                {
+                  "text": {
+                    "nl": "kat"
+                  },
+                  "correct": true
+                },
+                {
+                  "text": "dog"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 2,
+  "id": "en-broken",
+  "track": "en",
+  "cefr": "Pre-A1",
+  "source": "Deliberately broken fixture for the content validator tests.",
+  "units": [
+    {
+      "id": "en-broken-u01",
+      "title": { "nl": "Kapot" },
+      "icon": "animals",
+      "vocabulary": [
+        { "id": "en.cat", "target": "cat", "native": { "nl": "kat" }, "pos": "noun" }
+      ],
+      "sentences": [
+        { "id": "en-broken-u01-s01", "target": "The cat is black.", "native": { "nl": "De kat is zwart." }, "items": ["en.cat"] }
+      ],
+      "lessons": [
+        {
+          "id": "en-broken-u01-l01",
+          "title": { "nl": "Kapot" },
+          "exercises": [
+            { "type": "multiple_choice", "id": "en-broken-u01-l01-e01", "items": ["en.cat"],
+              "question": "cat",
+              "options": [ { "text": { "nl": "kat" }, "correct": true }, { "text": { "nl": "hond" }, "correct": true } ] },
+            { "type": "build_sentence", "id": "en-broken-u01-l01-e02", "items": ["en.dog"], "sentenceId": "en-broken-u01-s01",
+              "answer": "The cat is black.", "tokens": ["The", "cat", "is", "white."] }
+          ]
+        }
+      ]
+    }
+  ]
+}

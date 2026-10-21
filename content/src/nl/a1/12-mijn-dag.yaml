@@ -1,0 +1,47 @@
+id: nl-a1-u12
+title: { en: My day }
+icon: day
+topic: Daily routine; separable verbs
+vocabulary:
+  - { target: opstaan, native: { en: to get up }, pos: verb }
+  - { target: wakker, native: { en: awake }, pos: adjective }
+  - { target: de wekker, native: { en: alarm clock }, pos: noun, plural: wekkers }
+  - { target: worden, native: { en: to become }, pos: verb }
+  - { target: douchen, native: { en: to shower }, pos: verb }
+  - { target: de douche, native: { en: shower }, pos: noun, plural: douches }
+  - { target: wassen, native: { en: to wash }, pos: verb }
+  - { target: de tandenborstel, native: { en: toothbrush }, pos: noun, plural: tandenborstels }
+  - { target: aankleden, native: { en: to dress }, pos: verb }
+  - { target: aantrekken, native: { en: to put on }, pos: verb, avoid: [nl.uittrekken] }
+  - { target: uittrekken, native: { en: to take off }, pos: verb }
+  - { target: de kleren, native: { en: clothes }, pos: noun, plural: "-" }
+  - { target: klaar, native: { en: ready }, pos: adjective }
+  - { target: weggaan, native: { en: "to leave, to go away" }, pos: verb }
+  - { target: thuiskomen, native: { en: to come home }, pos: verb, avoid: [nl.terugkomen] }
+  - { target: terugkomen, native: { en: to come back }, pos: verb }
+  - { target: opruimen, native: { en: to tidy up }, pos: verb }
+  - { target: schoonmaken, native: { en: to clean }, pos: verb }
+  - { target: afwassen, native: { en: "to do the washing-up" }, pos: verb }
+  - { target: elke dag, native: { en: every day }, pos: phrase }
+sentences:
+  - { id: s01, target: "In het weekend sta ik laat op.", native: { en: "At the weekend I get up late." }, items: [nl.opstaan], acceptAlso: ["Ik sta in het weekend laat op."] }
+  - { id: s02, target: "Om zes uur sta ik op.", native: { en: "At six o'clock I get up." }, items: [nl.opstaan], acceptAlso: ["Ik sta om zes uur op."] }
+  - { id: s03, target: "Ben je al wakker?", native: { en: "Are you awake yet?" }, items: [nl.wakker] }
+  - { id: s04, target: "De wekker gaat om zes uur.", native: { en: "The alarm goes off at six." }, items: [nl.wekker], acceptAlso: ["Om zes uur gaat de wekker."] }
+  - { id: s05, target: "Ik word om zes uur wakker.", native: { en: "I wake up at six o'clock." }, items: [nl.worden, nl.wakker], acceptAlso: ["Om zes uur word ik wakker."] }
+  - { id: s06, target: "Eerst douche ik.", native: { en: "First I have a shower." }, items: [nl.douchen], acceptAlso: ["Ik douche eerst."] }
+  - { id: s07, target: "De douche is warm.", native: { en: "The shower is warm." }, items: [nl.douche] }
+  - { id: s08, target: "Ik was mijn handen.", native: { en: "I wash my hands." }, items: [nl.wassen] }
+  - { id: s09, target: "Waar is mijn tandenborstel?", native: { en: "Where is my toothbrush?" }, items: [nl.tandenborstel] }
+  - { id: s10, target: "Ik kleed de baby aan.", native: { en: "I'm dressing the baby." }, items: [nl.aankleden] }
+  - { id: s11, target: "Ik trek mijn jas aan.", native: { en: "I put on my coat." }, items: [nl.aantrekken] }
+  - { id: s12, target: "Trek je schoenen uit, alsjeblieft.", native: { en: "Take off your shoes, please." }, items: [nl.uittrekken] }
+  - { id: s13, target: "Ik trek mijn kleren aan.", native: { en: "I put my clothes on." }, items: [nl.kleren, nl.aantrekken] }
+  - { id: s14, target: "Ben je klaar?", native: { en: "Are you ready?" }, items: [nl.klaar] }
+  - { id: s15, target: "Om half acht ga ik weg.", native: { en: "At half past seven I leave." }, items: [nl.weggaan], acceptAlso: ["Ik ga om half acht weg."] }
+  - { id: s16, target: "Ik kom om vijf uur thuis.", native: { en: "I get home at five o'clock." }, items: [nl.thuiskomen], acceptAlso: ["Om vijf uur kom ik thuis."] }
+  - { id: s17, target: "Wanneer kom je terug?", native: { en: "When are you coming back?" }, items: [nl.terugkomen] }
+  - { id: s18, target: "De kinderen ruimen hun kamer op.", native: { en: "The children are tidying up their room." }, items: [nl.opruimen] }
+  - { id: s19, target: "Op zaterdag maak ik het huis schoon.", native: { en: "On Saturdays I clean the house." }, items: [nl.schoonmaken], acceptAlso: ["Ik maak op zaterdag het huis schoon.", "Ik maak het huis op zaterdag schoon."] }
+  - { id: s20, target: "Na het eten was ik af.", native: { en: "After dinner I do the washing-up." }, items: [nl.afwassen], acceptAlso: ["Ik was na het eten af."] }
+  - { id: s21, target: "Ik drink elke dag koffie.", native: { en: "I drink coffee every day." }, items: [nl.elke-dag], acceptAlso: ["Elke dag drink ik koffie."] }

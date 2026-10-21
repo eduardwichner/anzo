@@ -1,0 +1,58 @@
+id: nl-a1-u02
+title: { en: "Can, may, must" }
+icon: chat
+topic: Modal verbs; knowing and thinking
+vocabulary:
+  - { target: kunnen, native: { en: "can, to be able to" }, pos: verb, avoid: [nl.mogen] }
+  - { target: moeten, native: { en: "must, to have to" }, pos: verb, avoid: [nl.hoeven] }
+  - { target: mogen, native: { en: "may, to be allowed to" }, pos: verb }
+  - { target: zullen, native: { en: "shall, will" }, pos: verb }
+  - { target: hoeven, native: { en: "to need (not)" }, pos: verb }
+  - { target: weten, native: { en: "to know (a fact)" }, pos: verb, avoid: [nl.kennen] }
+  - { target: kennen, native: { en: "to know (a person, a place)" }, pos: verb }
+  - { target: denken, native: { en: to think }, pos: verb, avoid: [nl.geloven] }
+  - { target: geloven, native: { en: to believe }, pos: verb }
+  - { target: hopen, native: { en: to hope }, pos: verb }
+  - { target: begrijpen, native: { en: to understand }, pos: verb, avoid: [nl.verstaan] }
+  - { target: verstaan, native: { en: "to understand (hear)" }, pos: verb }
+  - { target: er, native: { en: there }, pos: adverb }
+  - { target: misschien, native: { en: "maybe, perhaps" }, pos: adverb }
+  - { target: natuurlijk, native: { en: of course }, pos: adverb }
+  - { target: nog, native: { en: "still, yet, more" }, pos: adverb, avoid: [nl.al] }
+  - { target: al, native: { en: already }, pos: adverb, avoid: [nl.pas] }
+  - { target: pas, native: { en: "only (just), not until" }, pos: adverb }
+  - { target: weer, native: { en: again }, pos: adverb }
+  - { target: toch, native: { en: "still, after all" }, pos: adverb }
+  - { target: even, native: { en: "for a moment, just" }, pos: adverb }
+  - { target: laten we, native: { en: "let's" }, pos: phrase }
+lessons:
+  - { id: l01, title: { en: "Can and must" }, vocab: [nl.kunnen, nl.moeten, nl.er, nl.misschien, nl.natuurlijk] }
+  - { id: l02, title: { en: "May and shall" }, vocab: [nl.mogen, nl.zullen, nl.hoeven, nl.nog, nl.al, nl.pas] }
+  - { id: l03, title: { en: "Knowing and thinking" }, vocab: [nl.weten, nl.kennen, nl.denken, nl.geloven, nl.weer, nl.toch] }
+  - { id: l04, title: { en: "Hoping and understanding" }, vocab: [nl.hopen, nl.begrijpen, nl.verstaan, nl.even, nl.laten-we] }
+sentences:
+  - { id: s01, target: "Kunt u dat nog een keer zeggen?", native: { en: "Could you say that again?" }, items: [nl.kunnen] }
+  - { id: s02, target: "Ik kan niet komen.", native: { en: "I can't come." }, items: [nl.kunnen] }
+  - { id: s03, target: "Ik moet om acht uur op mijn werk zijn.", native: { en: "I have to be at work at eight o'clock." }, items: [nl.moeten], acceptAlso: ["Om acht uur moet ik op mijn werk zijn."] }
+  - { id: s04, target: "Mag ik mijn fiets hier zetten?", native: { en: "May I leave my bike here?" }, items: [nl.mogen], acceptAlso: ["Mag ik hier mijn fiets zetten?"] }
+  - { id: s05, target: "Je mag hier niet fietsen.", native: { en: "You're not allowed to cycle here." }, items: [nl.mogen], acceptAlso: ["Hier mag je niet fietsen."] }
+  - { id: s06, target: "Zal ik de deur dichtdoen?", native: { en: "Shall I shut the door?" }, items: [nl.zullen] }
+  - { id: s07, target: "Je hoeft niet te betalen.", native: { en: "You don't need to pay." }, items: [nl.hoeven] }
+  - { id: s08, target: "Weet u de weg naar het station?", native: { en: "Do you know the way to the station?" }, items: [nl.weten] }
+  - { id: s09, target: "Ik weet het niet.", native: { en: "I don't know." }, items: [nl.weten] }
+  - { id: s10, target: "Ken je mijn buurvrouw?", native: { en: "Do you know my neighbour?" }, items: [nl.kennen] }
+  - { id: s11, target: "Ik denk het niet.", native: { en: "I don't think so." }, items: [nl.denken] }
+  - { id: s12, target: "Ik geloof je.", native: { en: "I believe you." }, items: [nl.geloven] }
+  - { id: s13, target: "Ik hoop het!", native: { en: "I hope so!" }, items: [nl.hopen] }
+  - { id: s14, target: "Ik begrijp het niet.", native: { en: "I don't understand." }, items: [nl.begrijpen] }
+  - { id: s15, target: "Ik versta u niet goed.", native: { en: "I can't hear you properly." }, items: [nl.verstaan] }
+  - { id: s16, target: "Is er een bakker in de buurt?", native: { en: "Is there a bakery nearby?" }, items: [nl.er] }
+  - { id: s17, target: "Ik kom misschien morgen.", native: { en: "Maybe I'll come tomorrow." }, items: [nl.misschien], acceptAlso: ["Misschien kom ik morgen.", "Ik kom morgen misschien."] }
+  - { id: s18, target: "Natuurlijk mag je komen!", native: { en: "Of course you can come!" }, items: [nl.natuurlijk], acceptAlso: ["Je mag natuurlijk komen!"] }
+  - { id: s19, target: "Ben je nog op het werk?", native: { en: "Are you still at work?" }, items: [nl.nog] }
+  - { id: s20, target: "Ik ben al thuis.", native: { en: "I'm already home." }, items: [nl.al] }
+  - { id: s21, target: "De winkel gaat pas om tien uur open.", native: { en: "The shop doesn't open until ten o'clock." }, items: [nl.pas] }
+  - { id: s22, target: "Het regent weer.", native: { en: "It's raining again." }, items: [nl.weer] }
+  - { id: s23, target: "Ik ga toch naar het feest.", native: { en: "I'm going to the party after all." }, items: [nl.toch] }
+  - { id: s24, target: "Wacht even!", native: { en: "Wait a moment!" }, items: [nl.even] }
+  - { id: s25, target: "Laten we naar huis gaan.", native: { en: "Let's go home." }, items: [nl.laten-we] }

@@ -1,0 +1,47 @@
+id: fr-b2-t12
+kind: reading
+title: { nl: Verdwaald in de nevel, en: "Lost in the mist" }
+topic: Voyages et aventure (un récit pour un concours d'écriture)
+level: B2
+paragraphs:
+  - - { id: fr-b2-t12-s01, target: "Nous marchions depuis presque cinq heures quand la brume est tombée.", native: { nl: "We waren al bijna vijf uur aan het wandelen toen de nevel opkwam.", en: "We had been walking for almost five hours when the mist came down." } }
+    - { id: fr-b2-t12-s02, target: "Une minute avant, nous voyions toute la vallée sous nous ; la minute d'après, je voyais à peine mon frère, qui n'était qu'à quelques mètres devant moi.", native: { nl: "Het ene moment zagen we de hele vallei onder ons; het volgende zag ik mijn broer, die maar een paar meter voor me liep, nauwelijks nog.", en: "One minute we could see the whole valley below us; the next I could hardly see my brother, who was only a few metres in front of me." } }
+    - { id: fr-b2-t12-s03, target: "« Reste près de moi, a-t-il dit. Le sentier tourne à gauche ici. »", native: { nl: "\"Blijf dicht bij me,\" zei hij. \"Het pad gaat hier naar links.\"", en: "\"Stay close to me,\" he said. \"The path turns left here.\"" } }
+  - - { id: fr-b2-t12-s04, target: "Mais vingt minutes plus tard, il n'y avait plus de sentier.", native: { nl: "Maar twintig minuten later was er geen pad meer.", en: "But twenty minutes later, there was no path any more." } }
+    - { id: fr-b2-t12-s05, target: "La pente était devenue raide et glissante, et tous les rochers étaient pareils.", native: { nl: "De helling was steil en glad geworden, en alle rotsen zagen er hetzelfde uit.", en: "The slope had become steep and slippery, and all the rocks looked the same." } }
+    - { id: fr-b2-t12-s06, target: "J'ai sorti mon téléphone pour regarder la carte, mais la batterie était vide depuis des heures, parce que j'avais pris des photos toute la matinée.", native: { nl: "Ik nam mijn telefoon om op de kaart te kijken, maar de batterij was al uren leeg, omdat ik de hele ochtend foto's had genomen.", en: "I took out my phone to look at the map, but the battery had been flat for hours, because I'd been taking photos all morning." } }
+    - { id: fr-b2-t12-s07, target: "J'ai senti la panique monter en moi.", native: { nl: "Ik voelde de paniek in me opkomen.", en: "I felt panic rising inside me." } }
+  - - { id: fr-b2-t12-s08, target: "Mon frère, lui, est resté calme.", native: { nl: "Mijn broer bleef echter kalm.", en: "My brother, on the other hand, stayed calm." } }
+    - { id: fr-b2-t12-s09, target: "Il a sorti de son sac à dos une vieille boussole, que notre grand-père lui avait donnée des années plus tôt, et il l'a étudiée avec attention.", native: { nl: "Hij haalde een oud kompas uit zijn rugzak, dat onze opa hem jaren eerder had gegeven, en bestudeerde het aandachtig.", en: "He took an old compass out of his rucksack, one our grandfather had given him years before, and studied it carefully." } }
+    - { id: fr-b2-t12-s10, target: "« Le refuge est au sud, a-t-il dit. Si nous marchons lentement et restons ensemble, nous allons le trouver. »", native: { nl: "\"De hut ligt in het zuiden,\" zei hij. \"Als we langzaam lopen en bij elkaar blijven, vinden we hem.\"", en: "\"The hut is to the south,\" he said. \"If we walk slowly and stay together, we'll find it.\"" } }
+  - - { id: fr-b2-t12-s11, target: "C'était l'heure la plus longue de ma vie.", native: { nl: "Het was het langste uur van mijn leven.", en: "It was the longest hour of my life." } }
+    - { id: fr-b2-t12-s12, target: "De temps en temps, nous criions et nous écoutions l'écho, en espérant que quelqu'un allait répondre.", native: { nl: "Af en toe riepen we en luisterden we naar de echo, in de hoop dat iemand zou antwoorden.", en: "From time to time we shouted and listened to the echo, hoping that someone would answer." } }
+    - { id: fr-b2-t12-s13, target: "Puis, juste au moment où il commençait à faire nuit, une lumière est apparue dans la brume, et un chien s'est mis à aboyer.", native: { nl: "Toen, net toen het donker begon te worden, verscheen er een licht in de nevel, en begon er een hond te blaffen.", en: "Then, just as it was starting to get dark, a light appeared in the mist, and a dog began to bark." } }
+  - - { id: fr-b2-t12-s14, target: "Nous avions enfin atteint le refuge.", native: { nl: "Eindelijk hadden we de hut bereikt.", en: "We had finally reached the hut." } }
+    - { id: fr-b2-t12-s15, target: "La famille qui le tenait nous a donné de la soupe chaude et des chaussettes propres, et personne ne nous a posé de questions.", native: { nl: "Het gezin dat de hut uitbaatte, gaf ons warme soep en schone sokken, en niemand stelde ons vragen.", en: "The family who ran it gave us hot soup and clean socks, and nobody asked us any questions." } }
+    - { id: fr-b2-t12-s16, target: "Depuis cette aventure inoubliable, je ne pars jamais en montagne sans une carte en papier et ma propre boussole.", native: { nl: "Sinds dat onvergetelijke avontuur ga ik nooit meer de bergen in zonder papieren kaart en een eigen kompas.", en: "Since that unforgettable adventure, I never go into the mountains without a paper map and my own compass." } }
+items: [fr.inoubliable, fr.brume, fr.sentier, fr.glissant, fr.raide, fr.pente, fr.panique, fr.boussole, fr.echo, fr.refuge, fr.lentement]
+gapped:
+  gaps: [fr-b2-t12-s04, fr-b2-t12-s08, fr-b2-t12-s11, fr-b2-t12-s14]
+  extra:
+    - { id: fr-b2-t12-x1, target: "La météo avait promis du soleil toute la journée.", native: { nl: "Het weerbericht had de hele dag zon beloofd.", en: "The weather forecast had promised sunshine all day." } }
+openCloze:
+  - { sentence: fr-b2-t12-s02, word: qui }
+  - { sentence: fr-b2-t12-s06, word: mais }
+  - { sentence: fr-b2-t12-s12, word: De }
+  - { sentence: fr-b2-t12-s16, word: sans }
+wordForm:
+  - { sentence: fr-b2-t12-s10, word: lentement, stem: lent }
+  - { sentence: fr-b2-t12-s16, word: inoubliable, stem: oublier }
+  - { sentence: fr-b2-t12-s06, word: matinée, stem: matin }
+questions:
+  - { id: fr-b2-t12-q1, type: summary, options: ["L'auteur et son frère se sont perdus dans la brume en montagne, mais le frère a utilisé une vieille boussole, et ils ont trouvé un refuge avant la nuit.", "L'auteur et son frère se sont perdus en montagne et ont dû passer la nuit dehors avant d'être retrouvés.", "L'auteur et son frère racontent comment ils ont escaladé un sommet sans carte."], correct: 0 }
+  - { id: fr-b2-t12-q2, type: mc, question: "Pourquoi l'auteur n'a-t-il pas pu utiliser la carte de son téléphone ?", options: ["La batterie était vide.", "Il n'y avait pas de réseau.", "Le téléphone était tombé sur les rochers."], correct: 0 }
+  - { id: fr-b2-t12-q3, type: true_false_notgiven, statement: "La boussole avait été donnée au frère par leur grand-père.", answer: true }
+  - { id: fr-b2-t12-q4, type: true_false_notgiven, statement: "Le frère de l'auteur avait une boussole dans son sac.", answer: true }
+  - { id: fr-b2-t12-q5, type: true_false_notgiven, statement: "L'auteur et son frère ont téléphoné à leurs parents depuis le refuge.", answer: not_given }
+  - { id: fr-b2-t12-q6, type: match_heading, paragraph: 3, options: ["Un frère qui reste calme", "Plus de sentier", "Enfin arrivés"], correct: 0 }
+listeningQuestions:
+  - { id: fr-b2-t12-l1, type: complete, statement: "Le frère a trouvé le chemin grâce à une vieille ___.", answers: ["boussole"] }
+  - { id: fr-b2-t12-l2, type: mc, question: "Où était le refuge ?", options: ["Au sud.", "Au nord.", "Près du lac."], correct: 0 }
+orderable: false

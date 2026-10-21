@@ -1,0 +1,49 @@
+id: nl-a1-u07
+title: { en: At the market }
+icon: shop
+topic: At the market and the bakery; quantities
+vocabulary:
+  - { target: willen, native: { en: to want }, pos: verb, avoid: [nl.wensen] }
+  - { target: wensen, native: { en: "to wish, to want (formal)" }, pos: verb }
+  - { target: nog iets, native: { en: anything else }, pos: phrase }
+  - { target: dat is alles, native: { en: that's all }, pos: phrase }
+  - { target: zeker, native: { en: "certainly, sure" }, pos: adverb }
+  - { target: de kilo, native: { en: kilo }, pos: noun, plural: "kilo's", avoid: [nl.gram, nl.liter] }
+  - { target: de gram, native: { en: gram }, pos: noun, plural: gram, avoid: [nl.liter] }
+  - { target: de liter, native: { en: litre }, pos: noun, plural: liters }
+  - { target: het stuk, native: { en: piece }, pos: noun, plural: stukken }
+  - { target: het pak, native: { en: "packet, carton" }, pos: noun, plural: pakken }
+  - { target: de fles, native: { en: bottle }, pos: noun, plural: flessen }
+  - { target: de zak, native: { en: bag }, pos: noun, plural: zakken }
+  - { target: de doos, native: { en: box }, pos: noun, plural: dozen }
+  - { target: vers, native: { en: fresh }, pos: adjective }
+  - { target: zwaar, native: { en: heavy }, pos: adjective, avoid: [nl.licht] }
+  - { id: nl.licht, target: licht, native: { en: light (not heavy) }, pos: adjective }
+  - { target: vriendelijk, native: { en: friendly }, pos: adjective }
+  - { target: kiezen, native: { en: to choose }, pos: verb }
+  - { target: de klant, native: { en: customer }, pos: noun, plural: klanten }
+  - { target: de verkoper, native: { en: "shop assistant, seller" }, pos: noun, plural: verkopers }
+  - { target: de beenhouwer, native: { en: butcher }, pos: noun, plural: beenhouwers, alsoNL: de slager }
+  - { target: de bloem, native: { en: flower }, pos: noun, plural: bloemen }
+sentences:
+  - { id: s01, target: "Ik wil graag een brood.", native: { en: "I'd like a loaf of bread." }, items: [nl.willen] }
+  - { id: s02, target: "Wat wenst u?", native: { en: "What would you like?" }, items: [nl.wensen] }
+  - { id: s03, target: "Nog iets?", native: { en: "Anything else?" }, items: [nl.nog-iets] }
+  - { id: s04, target: "Nee, dank u wel, dat is alles.", native: { en: "No, thank you, that's all." }, items: [nl.dat-is-alles] }
+  - { id: s05, target: "Ja, zeker!", native: { en: "Yes, certainly!" }, items: [nl.zeker] }
+  - { id: s06, target: "Een kilo tomaten, alstublieft.", native: { en: "A kilo of tomatoes, please." }, items: [nl.kilo] }
+  - { id: s07, target: "Mag ik tweehonderd gram kaas?", native: { en: "May I have two hundred grams of cheese?" }, items: [nl.gram] }
+  - { id: s08, target: "Een liter melk kost een euro.", native: { en: "A litre of milk costs one euro." }, items: [nl.liter] }
+  - { id: s09, target: "Een stuk taart, graag.", native: { en: "A piece of cake, please." }, items: [nl.stuk] }
+  - { id: s10, target: "Ik koop een pak melk.", native: { en: "I'm buying a carton of milk." }, items: [nl.pak] }
+  - { id: s11, target: "Mag ik een fles water?", native: { en: "May I have a bottle of water?" }, items: [nl.fles] }
+  - { id: s12, target: "Wilt u een zak?", native: { en: "Would you like a bag?" }, items: [nl.zak] }
+  - { id: s13, target: "Ik neem een doos koekjes.", native: { en: "I'll take a box of biscuits." }, items: [nl.doos] }
+  - { id: s14, target: "Het brood is vers.", native: { en: "The bread is fresh." }, items: [nl.vers] }
+  - { id: s15, target: "De zak is zwaar.", native: { en: "The bag is heavy." }, items: [nl.zwaar, nl.zak] }
+  - { id: s16, target: "Deze doos is licht.", native: { en: "This box is light." }, items: [nl.licht, nl.doos] }
+  - { id: s17, target: "Welke kaas kies je?", native: { en: "Which cheese are you going to have?" }, items: [nl.kiezen] }
+  - { id: s18, target: "De klant betaalt aan de kassa.", native: { en: "The customer pays at the till." }, items: [nl.klant] }
+  - { id: s19, target: "De verkoper is heel vriendelijk.", native: { en: "The shop assistant is very friendly." }, items: [nl.verkoper, nl.vriendelijk] }
+  - { id: s20, target: "Ik koop vlees bij de beenhouwer.", native: { en: "I buy meat at the butcher's." }, items: [nl.beenhouwer], acceptAlso: ["Bij de beenhouwer koop ik vlees."] }
+  - { id: s21, target: "Ik koop bloemen op de markt.", native: { en: "I buy flowers at the market." }, items: [nl.bloem], acceptAlso: ["Op de markt koop ik bloemen."] }

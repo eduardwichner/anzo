@@ -1,0 +1,47 @@
+id: nl-a2-u12
+title: { en: School and parents }
+icon: school
+topic: The Flemish school system, parents' evening, results
+vocabulary:
+  - { target: de kleuterschool, native: { en: nursery school }, pos: noun, plural: kleuterscholen }
+  - { target: de lagere school, native: { en: primary school }, pos: noun, plural: lagere scholen, avoid: [nl.middelbare-school] }
+  - { target: de middelbare school, native: { en: secondary school }, pos: noun, plural: middelbare scholen }
+  - { target: het leerjaar, native: { en: "year (at primary school)" }, pos: noun, plural: leerjaren }
+  - { target: de directeur, native: { en: head teacher }, pos: noun, plural: directeurs }
+  - { target: het oudercontact, native: { en: "parents' evening" }, pos: noun, plural: oudercontacten, alsoNL: de ouderavond }
+  - { target: de opvang, native: { en: "childcare (before and after school)" }, pos: noun, plural: "-" }
+  - { target: de schoolfactuur, native: { en: school bill }, pos: noun, plural: schoolfacturen }
+  - { target: verplicht, native: { en: compulsory }, pos: adjective }
+  - { target: de uitstap, native: { en: "trip, outing" }, pos: noun, plural: uitstappen, alsoNL: het uitje }
+  - { target: het vak, native: { en: subject }, pos: noun, plural: vakken }
+  - { target: de toets, native: { en: test }, pos: noun, plural: toetsen, avoid: [nl.examen] }
+  - { target: het examen, native: { en: exam }, pos: noun, plural: examens }
+  - { target: het punt, native: { en: "mark, point" }, pos: noun, plural: punten, alsoNL: het cijfer }
+  - { target: slagen, native: { en: "to pass (an exam)" }, pos: verb, avoid: [nl.zakken] }
+  - { target: zakken, native: { en: "to fail (an exam)" }, pos: verb }
+  - { target: de bijles, native: { en: "extra lessons, tutoring" }, pos: noun, plural: bijlessen }
+  - { target: opletten, native: { en: to pay attention }, pos: verb }
+  - { target: verbeteren, native: { en: "to improve, to correct" }, pos: verb }
+  - { target: slim, native: { en: clever }, pos: adjective }
+  - { target: braaf, native: { en: well-behaved }, pos: adjective, alsoNL: lief }
+sentences:
+  - { id: s01, target: "Onze dochter gaat naar de kleuterschool.", native: { en: "Our daughter goes to nursery school." }, items: [nl.kleuterschool] }
+  - { id: s02, target: "Mijn zoon zit in de lagere school.", native: { en: "My son is at primary school." }, items: [nl.lagere-school] }
+  - { id: s03, target: "Volgend jaar gaat ze naar de middelbare school.", native: { en: "Next year she's going to secondary school." }, items: [nl.middelbare-school], acceptAlso: ["Ze gaat volgend jaar naar de middelbare school."] }
+  - { id: s04, target: "Mijn zoon zit in het derde leerjaar.", native: { en: "My son is in year three." }, items: [nl.leerjaar] }
+  - { id: s05, target: "De directeur wil met ons spreken.", native: { en: "The head teacher wants to talk to us." }, items: [nl.directeur] }
+  - { id: s06, target: "Vanavond is er oudercontact.", native: { en: "Tonight there's a parents' evening." }, items: [nl.oudercontact], acceptAlso: ["Er is vanavond oudercontact."] }
+  - { id: s07, target: "Na school gaat hij naar de opvang.", native: { en: "After school he goes to the after-school club." }, items: [nl.opvang], acceptAlso: ["Hij gaat na school naar de opvang."] }
+  - { id: s08, target: "We hebben de schoolfactuur nog niet betaald.", native: { en: "We haven't paid the school bill yet." }, items: [nl.schoolfactuur] }
+  - { id: s09, target: "De uitstap naar het museum is verplicht.", native: { en: "The trip to the museum is compulsory." }, items: [nl.verplicht, nl.uitstap] }
+  - { id: s10, target: "Wat is je favoriete vak?", native: { en: "What's your favourite subject?" }, items: [nl.vak] }
+  - { id: s11, target: "Morgen heeft ze een toets Frans.", native: { en: "Tomorrow she has a French test." }, items: [nl.toets], acceptAlso: ["Ze heeft morgen een toets Frans."] }
+  - { id: s12, target: "In juni zijn de examens.", native: { en: "The exams are in June." }, items: [nl.examen], acceptAlso: ["De examens zijn in juni."] }
+  - { id: s13, target: "Hij heeft goede punten op zijn rapport.", native: { en: "He's got good marks in his report." }, items: [nl.punt] }
+  - { id: s14, target: "Ik ben voor mijn examen geslaagd!", native: { en: "I've passed my exam!" }, items: [nl.slagen] }
+  - { id: s15, target: "Hij is voor Engels gezakt.", native: { en: "He failed English." }, items: [nl.zakken] }
+  - { id: s16, target: "Ze krijgt bijles Frans.", native: { en: "She's getting extra French lessons." }, items: [nl.bijles] }
+  - { id: s17, target: "Je moet beter opletten in de klas.", native: { en: "You need to pay more attention in class." }, items: [nl.opletten] }
+  - { id: s18, target: "De juf heeft mijn fouten verbeterd.", native: { en: "The teacher corrected my mistakes." }, items: [nl.verbeteren] }
+  - { id: s19, target: "Uw dochter is heel slim.", native: { en: "Your daughter is very clever." }, items: [nl.slim] }
+  - { id: s20, target: "Was hij vandaag braaf?", native: { en: "Was he well-behaved today?" }, items: [nl.braaf] }

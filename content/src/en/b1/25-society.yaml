@@ -1,0 +1,155 @@
+id: en-b1-u25
+title: { nl: "Samenleving, regels en veiligheid" }
+icon: police
+topic: Rules, the law, crime and safety, society and history; the past perfect, the passive (was stolen, were arrested), ought to and have got to
+vocabulary:
+  - { target: society, native: { nl: maatschappij }, pos: noun }
+  - { target: public, native: { nl: "publiek, openbaar" }, pos: adjective }
+  - { target: national, native: { nl: nationaal }, pos: adjective }
+  - { target: government, native: { nl: regering }, pos: noun }
+  - { target: president, native: { nl: president }, pos: noun }
+  - { target: politics, native: { nl: politiek }, pos: noun }
+  - { target: political, native: { nl: politiek (bijvoeglijk) }, pos: adjective }
+  - { target: politician, native: { nl: politicus }, pos: noun }
+  - { target: election, native: { nl: verkiezing }, pos: noun }
+  - { target: vote, native: { nl: stemmen }, pos: verb }
+  - { target: tax, native: { nl: belasting }, pos: noun }
+  - { target: charity, native: { nl: liefdadigheid (goed doel) }, pos: noun }
+  - { target: equal, native: { nl: gelijk }, pos: adjective }
+  - { target: unfair, native: { nl: oneerlijk }, pos: adjective }
+  - { target: duty, native: { nl: plicht }, pos: noun }
+  - { target: demand, native: { nl: eisen }, pos: verb }
+  - { target: rule, native: { nl: regel }, pos: noun }
+  - { target: law, native: { nl: wet }, pos: noun }
+  - { target: allow, native: { nl: toestaan }, pos: verb }
+  - { target: permit, native: { nl: toestaan (officieel) }, pos: verb, avoid: [en.allow] }
+  - { target: permitted, native: { nl: toegestaan }, pos: adjective, noBlank: true }
+  - { target: forbidden, native: { nl: verboden }, pos: adjective }
+  - { target: prohibited, native: { nl: verboden (officieel) }, pos: adjective, avoid: [en.forbidden], noBlank: true }
+  - { target: approve, native: { nl: goedkeuren }, pos: verb }
+  - { target: ought, native: { nl: zou (eigenlijk) moeten }, pos: other }
+  - { target: have got to, native: { nl: moeten }, pos: phrase }
+  - { target: warn, native: { nl: waarschuwen }, pos: verb }
+  - { target: warning, native: { nl: waarschuwing }, pos: noun }
+  - { target: danger, native: { nl: gevaar }, pos: noun }
+  - { target: emergency, native: { nl: noodgeval }, pos: noun }
+  - { target: urgent, native: { nl: dringend }, pos: adjective }
+  - { target: urgently, native: { nl: dringend (bijwoord) }, pos: adverb }
+  - { target: look out, native: { nl: uitkijken (pas op) }, pos: phrase }
+  - { target: security, native: { nl: beveiliging }, pos: noun }
+  - { target: rescue, native: { nl: redden }, pos: verb }
+  - { target: on fire, native: { nl: in brand }, pos: phrase, noBlank: true }
+  - { target: burning, native: { nl: brandend }, pos: adjective }
+  - { target: put out, native: { nl: blussen (uitdoen) }, pos: phrase }
+  - { target: explode, native: { nl: ontploffen }, pos: verb }
+  - { target: destroy, native: { nl: vernietigen }, pos: verb }
+  - { target: escape, native: { nl: ontsnappen }, pos: verb }
+  - { target: trouble, native: { nl: "problemen, moeilijkheden" }, pos: noun }
+  - { target: police, native: { nl: politie }, pos: noun }
+  - { target: policeman, native: { nl: politieagent }, pos: noun }
+  - { target: policewoman, native: { nl: politieagente }, pos: noun }
+  - { target: officer, native: { nl: agent (officier) }, pos: noun, avoid: [en.policeman, en.policewoman] }
+  - { target: crime, native: { nl: misdaad }, pos: noun }
+  - { target: criminal, native: { nl: crimineel }, pos: noun }
+  - { target: thief, native: { nl: dief }, pos: noun }
+  - { target: steal, native: { nl: stelen }, pos: verb, avoid: [en.rob] }
+  - { target: rob, native: { nl: beroven }, pos: verb }
+  - { target: break in, native: { nl: inbreken }, pos: phrase }
+  - { target: grab, native: { nl: grijpen }, pos: verb }
+  - { target: hidden, native: { nl: verborgen }, pos: adjective }
+  - { target: identify, native: { nl: identificeren (herkennen) }, pos: verb, avoid: [en.recognise] }
+  - { target: arrest, native: { nl: arresteren }, pos: verb }
+  - { target: court, native: { nl: rechtbank }, pos: noun }
+  - { target: judge, native: { nl: rechter }, pos: noun }
+  - { target: lawyer, native: { nl: advocaat }, pos: noun }
+  - { target: guilty, native: { nl: schuldig }, pos: adjective }
+  - { target: admit, native: { nl: toegeven }, pos: verb }
+  - { target: truth, native: { nl: waarheid }, pos: noun }
+  - { target: punish, native: { nl: straffen }, pos: verb }
+  - { target: prison, native: { nl: gevangenis }, pos: noun, noBlank: true }
+  - { target: prisoner, native: { nl: gevangene }, pos: noun }
+  - { target: reward, native: { nl: beloning }, pos: noun }
+  - { target: raise, native: { nl: "opsteken, verhogen" }, pos: verb, avoid: [en.increase, en.put-up] }
+  - { target: war, native: { nl: oorlog }, pos: noun, avoid: [en.peace] }
+  - { target: peace, native: { nl: vrede }, pos: noun }
+  - { target: battle, native: { nl: veldslag }, pos: noun }
+  - { target: enemy, native: { nl: vijand }, pos: noun }
+  - { target: army, native: { nl: leger }, pos: noun }
+  - { target: air force, native: { nl: luchtmacht }, pos: noun }
+  - { target: soldier, native: { nl: soldaat }, pos: noun }
+sentences:
+  - { id: s01, target: "Older people have an important place in our society.", native: { nl: "Ouderen hebben een belangrijke plaats in onze maatschappij." }, items: [en.society] }
+  - { id: s02, target: "The library is open to the public on Saturdays.", native: { nl: "De bibliotheek is op zaterdag open voor het publiek." }, items: [en.public] }
+  - { id: s03, target: "Today is a national holiday.", native: { nl: "Vandaag is een nationale feestdag." }, items: [en.national] }
+  - { id: s04, target: "The government wants to build more schools.", native: { nl: "De regering wil meer scholen bouwen." }, items: [en.government] }
+  - { id: s05, target: "The president visited our town last year.", native: { nl: "De president bezocht vorig jaar onze stad." }, items: [en.president], acceptAlso: ["Last year the president visited our town."] }
+  - { id: s06, target: "My brother is interested in politics.", native: { nl: "Mijn broer is geïnteresseerd in politiek." }, items: [en.politics] }
+  - { id: s07, target: "They discussed the political situation.", native: { nl: "Ze bespraken de politieke situatie." }, items: [en.political] }
+  - { id: s08, target: "She wants to be a politician when she's older.", native: { nl: "Ze wil politica worden als ze ouder is." }, items: [en.politician] }
+  - { id: s09, target: "There was an election at our school last week.", native: { nl: "Er waren vorige week verkiezingen op onze school." }, items: [en.election], acceptAlso: ["Last week there was an election at our school."] }
+  - { id: s10, target: "In many countries, you can vote at eighteen.", native: { nl: "In veel landen mag je stemmen als je achttien bent." }, items: [en.vote] }
+  - { id: s11, target: "Part of the price goes to the government as tax.", native: { nl: "Een deel van de prijs gaat als belasting naar de regering." }, items: [en.tax] }
+  - { id: s12, target: "We gave the money from the cake sale to charity.", native: { nl: "We gaven het geld van de taartverkoop aan een goed doel." }, items: [en.charity] }
+  - { id: s13, target: "Boys and girls should have equal opportunities.", native: { nl: "Jongens en meisjes moeten gelijke kansen hebben." }, items: [en.equal] }
+  - { id: s14, target: "It's unfair that I have to do all the washing-up!", native: { nl: "Het is oneerlijk dat ik altijd de afwas moet doen!" }, items: [en.unfair] }
+  - { id: s15, target: "It's our duty to help people in trouble.", native: { nl: "Het is onze plicht om mensen in nood te helpen." }, items: [en.duty] }
+  - { id: s16, target: "The workers demanded more money.", native: { nl: "De arbeiders eisten meer geld." }, items: [en.demand] }
+  - { id: s17, target: "You have to follow the rules of the game.", native: { nl: "Je moet de spelregels volgen." }, items: [en.rule] }
+  - { id: s18, target: "It's against the law to drive without a licence.", native: { nl: "Het is tegen de wet om zonder rijbewijs te rijden." }, items: [en.law] }
+  - { id: s19, target: "My parents don't allow me to stay out late.", native: { nl: "Mijn ouders laten me niet laat wegblijven." }, items: [en.allow] }
+  - { id: s20, target: "Dogs are not permitted in the shop.", native: { nl: "Honden zijn niet toegestaan in de winkel." }, items: [en.permit] }
+  - { id: s21, target: "Is swimming permitted in the lake?", native: { nl: "Is zwemmen toegestaan in het meer?" }, items: [en.permitted] }
+  - { id: s22, target: "It's forbidden to feed the animals.", native: { nl: "Het is verboden de dieren te voeren." }, items: [en.forbidden] }
+  - { id: s23, target: "Smoking is prohibited in all public buildings.", native: { nl: "Roken is verboden in alle openbare gebouwen." }, items: [en.prohibited] }
+  - { id: s24, target: "The head teacher approved our plan for a school garden.", native: { nl: "De directeur keurde ons plan voor een schooltuin goed." }, items: [en.approve] }
+  - { id: s25, target: "You ought to tell your parents.", native: { nl: "Je zou het je ouders moeten vertellen." }, items: [en.ought] }
+  - { id: s26, target: "I've got to finish this before tomorrow.", native: { nl: "Ik moet dit voor morgen afmaken." }, items: [en.have-got-to] }
+  - { id: s27, target: "The sign warns people about falling rocks.", native: { nl: "Het bord waarschuwt mensen voor vallende stenen." }, items: [en.warn] }
+  - { id: s28, target: "There's a storm warning for this weekend.", native: { nl: "Er is een stormwaarschuwing voor dit weekend." }, items: [en.warning] }
+  - { id: s29, target: "The old bridge is a danger to people on foot.", native: { nl: "De oude brug is een gevaar voor voetgangers." }, items: [en.danger] }
+  - { id: s30, target: "In an emergency, call 999.", native: { nl: "Bel in een noodgeval 999." }, items: [en.emergency], acceptAlso: ["Call 999 in an emergency."] }
+  - { id: s31, target: "I have an urgent message for the doctor.", native: { nl: "Ik heb een dringend bericht voor de dokter." }, items: [en.urgent] }
+  - { id: s32, target: "The hospital urgently needs blood.", native: { nl: "Het ziekenhuis heeft dringend bloed nodig." }, items: [en.urgently] }
+  - { id: s33, target: "Look out! There's a car coming!", native: { nl: "Kijk uit! Er komt een auto aan!" }, items: [en.look-out] }
+  - { id: s34, target: "Security at the airport was very strict.", native: { nl: "De beveiliging op de luchthaven was heel streng." }, items: [en.security] }
+  - { id: s35, target: "The firefighters rescued a cat from the roof.", native: { nl: "De brandweer redde een kat van het dak." }, items: [en.rescue] }
+  - { id: s36, target: "The old factory was on fire.", native: { nl: "De oude fabriek stond in brand." }, items: [en.on-fire] }
+  - { id: s37, target: "We could smell burning wood.", native: { nl: "Het rook naar brandend hout." }, items: [en.burning] }
+  - { id: s38, target: "The fire was quickly put out.", native: { nl: "Het vuur werd snel geblust." }, items: [en.put-out] }
+  - { id: s39, target: "The balloon exploded with a loud noise.", native: { nl: "De ballon ontplofte met een hard geluid." }, items: [en.explode] }
+  - { id: s40, target: "The storm destroyed many houses.", native: { nl: "De storm vernietigde veel huizen." }, items: [en.destroy] }
+  - { id: s41, target: "The parrot escaped from its cage.", native: { nl: "De papegaai ontsnapte uit zijn kooi." }, items: [en.escape] }
+  - { id: s42, target: "He's in trouble because he broke a window.", native: { nl: "Hij zit in de problemen omdat hij een ruit heeft gebroken." }, items: [en.trouble] }
+  - { id: s43, target: "Call the police!", native: { nl: "Bel de politie!" }, items: [en.police] }
+  - { id: s44, target: "A policeman helped the old lady across the road.", native: { nl: "Een politieagent hielp de oude dame de straat over." }, items: [en.policeman] }
+  - { id: s45, target: "The policewoman asked us some questions.", native: { nl: "De politieagente stelde ons een paar vragen." }, items: [en.policewoman] }
+  - { id: s46, target: "A police officer took our names and addresses.", native: { nl: "Een politieagent noteerde onze namen en adressen." }, items: [en.officer] }
+  - { id: s47, target: "Crime in the city has decreased.", native: { nl: "De criminaliteit in de stad is gedaald." }, items: [en.crime] }
+  - { id: s48, target: "The criminals were caught by the police.", native: { nl: "De criminelen werden door de politie gepakt." }, items: [en.criminal] }
+  - { id: s49, target: "A thief took my bag on the train.", native: { nl: "Een dief pakte mijn tas in de trein." }, items: [en.thief] }
+  - { id: s50, target: "Someone has stolen my bike!", native: { nl: "Iemand heeft mijn fiets gestolen!" }, items: [en.steal] }
+  - { id: s51, target: "Two men robbed the bank yesterday.", native: { nl: "Twee mannen beroofden gisteren de bank." }, items: [en.rob], acceptAlso: ["Yesterday two men robbed the bank."] }
+  - { id: s52, target: "Somebody broke in and stole our computer.", native: { nl: "Iemand brak in en stal onze computer." }, items: [en.break-in] }
+  - { id: s53, target: "He grabbed my bag and ran away.", native: { nl: "Hij griste mijn tas mee en rende weg." }, items: [en.grab] }
+  - { id: s54, target: "The money was hidden under the floor.", native: { nl: "Het geld lag verborgen onder de vloer." }, items: [en.hidden] }
+  - { id: s55, target: "Can you identify the man in the photo?", native: { nl: "Kunt u de man op de foto herkennen?" }, items: [en.identify] }
+  - { id: s56, target: "The police arrested two men.", native: { nl: "De politie arresteerde twee mannen." }, items: [en.arrest] }
+  - { id: s57, target: "The case will go to court next month.", native: { nl: "De zaak komt volgende maand voor de rechtbank." }, items: [en.court], acceptAlso: ["Next month the case will go to court."] }
+  - { id: s58, target: "The judge listened carefully to both sides.", native: { nl: "De rechter luisterde aandachtig naar beide partijen." }, items: [en.judge] }
+  - { id: s59, target: "My aunt is a lawyer in London.", native: { nl: "Mijn tante is advocaat in Londen." }, items: [en.lawyer] }
+  - { id: s60, target: "The man was found guilty.", native: { nl: "De man werd schuldig bevonden." }, items: [en.guilty] }
+  - { id: s61, target: "He admitted that he had taken the money.", native: { nl: "Hij gaf toe dat hij het geld had genomen." }, items: [en.admit] }
+  - { id: s62, target: "Please tell me the truth.", native: { nl: "Vertel me alsjeblieft de waarheid." }, items: [en.truth] }
+  - { id: s63, target: "The children were punished for being rude.", native: { nl: "De kinderen werden gestraft omdat ze onbeleefd waren." }, items: [en.punish] }
+  - { id: s64, target: "The thief spent two years in prison.", native: { nl: "De dief zat twee jaar in de gevangenis." }, items: [en.prison] }
+  - { id: s65, target: "The prisoners work in the prison garden.", native: { nl: "De gevangenen werken in de tuin van de gevangenis." }, items: [en.prisoner] }
+  - { id: s66, target: "There's a reward for finding the lost dog.", native: { nl: "Er is een beloning voor wie de verloren hond vindt." }, items: [en.reward] }
+  - { id: s67, target: "Raise your hand if you know the answer.", native: { nl: "Steek je hand op als je het antwoord weet." }, items: [en.raise] }
+  - { id: s68, target: "My great-grandfather was a soldier in the war.", native: { nl: "Mijn overgrootvader was soldaat in de oorlog." }, items: [en.war, en.soldier] }
+  - { id: s69, target: "After many years of war, there was peace at last.", native: { nl: "Na vele jaren oorlog was er eindelijk vrede." }, items: [en.peace] }
+  - { id: s70, target: "We read about a famous battle in our history book.", native: { nl: "We lazen over een beroemde veldslag in ons geschiedenisboek." }, items: [en.battle] }
+  - { id: s71, target: "In the story, the two enemies became friends.", native: { nl: "In het verhaal werden de twee vijanden vrienden." }, items: [en.enemy] }
+  - { id: s72, target: "My cousin joined the army when he left school.", native: { nl: "Mijn neef ging bij het leger toen hij van school kwam." }, items: [en.army] }
+  - { id: s73, target: "My grandmother was a pilot in the air force.", native: { nl: "Mijn oma was piloot bij de luchtmacht." }, items: [en.air-force] }
+  - { id: s74, target: "When we got home, we saw that someone had broken in.", native: { nl: "Toen we thuiskwamen, zagen we dat iemand had ingebroken." }, items: [en.break-in], build: true, finite: { word: had, hint: { nl: "have (voltooid verleden tijd: … broken in)" } } }
+texts: [en-b1-t26]

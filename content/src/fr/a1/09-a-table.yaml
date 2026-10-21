@@ -1,0 +1,47 @@
+id: fr-a1-u09
+title: { nl: Aan tafel, en: "At the table" }
+icon: food
+topic: Le repas; au restaurant; mettre la table
+vocabulary:
+  - { target: la viande, native: { nl: het vlees, en: "meat" }, pos: noun, gender: f, category: true }
+  - { target: le poulet, native: { nl: de kip (om te eten), en: "chicken (meat)" }, pos: noun, gender: m }
+  - { target: le jambon, native: { nl: de ham, en: "ham" }, pos: noun, gender: m }
+  - { target: le riz, native: { nl: de rijst, en: "rice" }, pos: noun, gender: m }
+  - { target: les pâtes, native: { nl: de pasta, en: "pasta" }, pos: noun, gender: f }
+  - { target: les frites, native: { nl: "de patat, de friet", en: "chips" }, pos: noun, gender: f }
+  - { target: la soupe, native: { nl: de soep, en: "soup" }, pos: noun, gender: f }
+  - { target: la salade, native: { nl: "de sla, de salade", en: "salad, lettuce" }, pos: noun, gender: f }
+  - { target: la pizza, native: { nl: de pizza, en: "pizza" }, pos: noun, gender: f }
+  - { target: le plat, native: { nl: het gerecht, en: "dish (food)" }, pos: noun, gender: m }
+  - { target: le menu, native: { nl: het menu, en: "menu" }, pos: noun, gender: m }
+  - { target: le serveur, native: { nl: de ober, en: "waiter" }, pos: noun, gender: m }
+  - { target: le verre, native: { nl: het glas, en: "glass" }, pos: noun, gender: m }
+  - { target: la tasse, native: { nl: het kopje, en: "cup" }, pos: noun, gender: f }
+  - { target: la fourchette, native: { nl: de vork, en: "fork" }, pos: noun, gender: f }
+  - { target: le couteau, native: { nl: het mes, en: "knife" }, pos: noun, gender: m }
+  - { target: la cuillère, native: { nl: de lepel, en: "spoon" }, pos: noun, gender: f }
+  - { target: la bouteille, native: { nl: de fles, en: "bottle" }, pos: noun, gender: f }
+  - { target: mettre la table, native: { nl: de tafel dekken, en: "to lay the table, to set the table" }, pos: phrase }
+sentences:
+  - { id: s01, target: "Je ne mange pas de viande.", native: { nl: "Ik eet geen vlees.", en: "I don't eat meat." }, items: [fr.viande] }
+  - { id: s02, target: "Le dimanche, on mange du poulet.", native: { nl: "Op zondag eten we kip.", en: "On Sundays we eat chicken." }, items: [fr.poulet] }
+  - { id: s03, target: "Un sandwich au jambon, s'il vous plaît.", native: { nl: "Een broodje ham, alstublieft.", en: "A ham sandwich, please." }, items: [fr.jambon] }
+  - { id: s04, target: "Tu veux du riz ou des pâtes ?", native: { nl: "Wil je rijst of pasta?", en: "Would you like rice or pasta?" }, items: [fr.riz, fr.pates] }
+  - { id: s05, target: "J'adore les pâtes !", native: { nl: "Ik ben gek op pasta!", en: "I love pasta!" }, items: [fr.pates] }
+  - { id: s06, target: "Des frites, s'il vous plaît !", native: { nl: "Patat, alstublieft!", en: "Chips, please!" }, items: [fr.frites] }
+  - { id: s07, target: "La soupe est trop chaude.", native: { nl: "De soep is te heet.", en: "The soup is too hot." }, items: [fr.soupe] }
+  - { id: s08, target: "Je mange une salade de tomates.", native: { nl: "Ik eet een tomatensalade.", en: "I'm eating a tomato salad." }, items: [fr.salade] }
+  - { id: s09, target: "Ce soir, je mange une pizza avec mon grand-père.", native: { nl: "Vanavond eet ik een pizza met mijn opa.", en: "Tonight I'm having a pizza with my grandfather." }, items: [fr.pizza] }
+  - { id: s10, target: "Quel est ton plat préféré ?", native: { nl: "Wat is jouw lievelingsgerecht?", en: "What's your favourite dish?" }, items: [fr.plat] }
+  - { id: s11, target: "Je regarde le menu.", native: { nl: "Ik kijk naar het menu.", en: "I'm looking at the menu." }, items: [fr.menu] }
+  - { id: s12, target: "Le serveur apporte les plats.", native: { nl: "De ober brengt het eten.", en: "The waiter brings the dishes." }, items: [fr.serveur, fr.plat] }
+  - { id: s13, target: "Un verre d'eau, s'il vous plaît.", native: { nl: "Een glas water, alstublieft.", en: "A glass of water, please." }, items: [fr.verre] }
+  - { id: s14, target: "Ma tasse est bleue.", native: { nl: "Mijn kopje is blauw.", en: "My cup is blue." }, items: [fr.tasse] }
+  - { id: s15, target: "Je mange avec une fourchette et un couteau.", native: { nl: "Ik eet met een vork en een mes.", en: "I eat with a knife and fork." }, items: [fr.fourchette, fr.couteau] }
+  - { id: s16, target: "Pour la soupe, prends une cuillère.", native: { nl: "Pak een lepel voor de soep.", en: "Take a spoon for the soup." }, items: [fr.cuillere] }
+  - { id: s17, target: "La bouteille est sur la table.", native: { nl: "De fles staat op tafel.", en: "The bottle is on the table." }, items: [fr.bouteille] }
+  - { id: s18, target: "Tu peux mettre la table, s'il te plaît ?", native: { nl: "Kun je de tafel dekken, alsjeblieft?", en: "Can you lay the table, please?" }, items: [fr.mettre-la-table] }
+lessons:
+  - { id: l01, title: { nl: Vlees en pasta, en: "Meat and pasta" }, vocab: [fr.viande, fr.poulet, fr.jambon, fr.riz, fr.pates, fr.frites, fr.soupe] }
+  - { id: l02, title: { nl: In het restaurant, en: "At the restaurant" }, vocab: [fr.salade, fr.pizza, fr.plat, fr.menu, fr.serveur, fr.verre] }
+  - { id: l03, title: { nl: Vork en mes, en: "Knife and fork" }, vocab: [fr.tasse, fr.fourchette, fr.couteau, fr.cuillere, fr.bouteille, fr.mettre-la-table] }

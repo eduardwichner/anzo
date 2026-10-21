@@ -1,0 +1,52 @@
+id: en-b2-t10
+kind: reading
+title: { nl: Moeten we wegwerpplastic verbieden? }
+topic: Climate and environment (a student's essay for a writing competition)
+level: B2
+paragraphs:
+  - - { id: en-b2-t10-s01, target: "Every minute, the equivalent of a lorry full of plastic ends up in the ocean.", native: { nl: "Elke minuut belandt het equivalent van een vrachtwagen vol plastic in de oceaan." } }
+    - { id: en-b2-t10-s02, target: "Much of it is single-use: bottles, cups and bags that we use for a few minutes and that take hundreds of years to break down.", native: { nl: "Veel daarvan is wegwerpplastic: flessen, bekers en zakjes die we een paar minuten gebruiken en die honderden jaren nodig hebben om af te breken." } }
+    - { id: en-b2-t10-s03, target: "Should governments simply ban it?", native: { nl: "Moeten regeringen het gewoon verbieden?" } }
+  - - { id: en-b2-t10-s04, target: "There are strong arguments for a ban.", native: { nl: "Er zijn sterke argumenten voor een verbod." } }
+    - { id: en-b2-t10-s05, target: "Plastic in the sea threatens fish and birds, and tiny pieces of it have been found in our food and even in our blood.", native: { nl: "Plastic in de zee bedreigt vissen en vogels, en piepkleine stukjes ervan zijn in ons eten en zelfs in ons bloed gevonden." } }
+    - { id: en-b2-t10-s06, target: "Countries that have banned plastic bags have seen their use fall by more than eighty per cent in a few years.", native: { nl: "Landen die plastic zakjes hebben verboden, zagen het gebruik ervan in een paar jaar met meer dan tachtig procent dalen." } }
+  - - { id: en-b2-t10-s07, target: "However, a ban is not a perfect solution.", native: { nl: "Een verbod is echter geen perfecte oplossing." } }
+    - { id: en-b2-t10-s08, target: "Some alternatives, such as paper bags, need more energy to produce, and they are not always reused.", native: { nl: "Sommige alternatieven, zoals papieren zakken, hebben meer energie nodig om te maken, en ze worden niet altijd hergebruikt." } }
+    - { id: en-b2-t10-s09, target: "For people with certain disabilities, plastic straws are a necessity rather than a luxury.", native: { nl: "Voor mensen met bepaalde beperkingen zijn plastic rietjes eerder een noodzaak dan een luxe." } }
+  - - { id: en-b2-t10-s10, target: "In my view, a ban should be only one part of the answer.", native: { nl: "Volgens mij zou een verbod maar één deel van het antwoord moeten zijn." } }
+    - { id: en-b2-t10-s11, target: "Companies should be made to pay for the waste they produce, and shops should make it easy to bring your own cup or bag.", native: { nl: "Bedrijven zouden verplicht moeten worden te betalen voor het afval dat ze produceren, en winkels zouden het makkelijk moeten maken om je eigen beker of tas mee te brengen." } }
+    - { id: en-b2-t10-s12, target: "If we had started doing this twenty years ago, far less plastic would have ended up on our beaches.", native: { nl: "Als we hier twintig jaar geleden mee begonnen waren, zou er veel minder plastic op onze stranden terechtgekomen zijn." } }
+  - - { id: en-b2-t10-s13, target: "In conclusion, the problem is too urgent to wait.", native: { nl: "Kortom, het probleem is te dringend om te wachten." } }
+    - { id: en-b2-t10-s14, target: "A ban on the worst single-use products, together with better recycling and a change in our habits, would have a real impact.", native: { nl: "Een verbod op de ergste wegwerpproducten, samen met beter recycleren en een verandering in onze gewoonten, zou echt een verschil maken." } }
+glossary:
+  - { word: equivalent, native: { nl: equivalent } }
+  - { word: lorry, native: { nl: vrachtwagen } }
+  - { word: tiny, native: { nl: piepklein } }
+  - { word: alternatives, native: { nl: "alternatieven (alternative)" } }
+  - { word: disabilities, native: { nl: "beperkingen (disability)" } }
+  - { word: straws, native: { nl: "rietjes (straw)" } }
+items: [en.single-use, en.ban, en.threaten, en.reuse, en.impact]
+gapped:
+  gaps: [en-b2-t10-s04, en-b2-t10-s07, en-b2-t10-s10, en-b2-t10-s13]
+  extra:
+    - { id: en-b2-t10-x1, target: "Plastic was invented more than a hundred years ago.", native: { nl: "Plastic werd meer dan honderd jaar geleden uitgevonden." } }
+openCloze:
+  - { sentence: en-b2-t10-s02, word: that, acceptAlso: [which] }
+  - { sentence: en-b2-t10-s06, word: by }
+  - { sentence: en-b2-t10-s09, word: rather }
+  - { sentence: en-b2-t10-s13, word: too }
+wordForm:
+  - { sentence: en-b2-t10-s09, word: necessity, stem: necessary }
+  - { sentence: en-b2-t10-s05, word: threatens, stem: threat }
+  - { sentence: en-b2-t10-s14, word: recycling, stem: recycle }
+questions:
+  - { id: en-b2-t10-q1, type: summary, options: ["The writer agrees that single-use plastic is a serious problem but thinks a ban should go together with other ideas, such as making companies pay.", "The writer agrees that plastic is a problem but thinks it should never be banned, because paper and other alternatives are even worse for the planet.", "The writer describes a beach-cleaning day organised by students to remove plastic from the ocean."], correct: 0 }
+  - { id: en-b2-t10-q2, type: mc, question: "Why are paper bags not a perfect solution, according to the writer?", options: ["They need more energy to produce.", "They are more expensive than plastic.", "They break too easily."], correct: 0 }
+  - { id: en-b2-t10-q3, type: true_false_notgiven, statement: "Pieces of plastic have been found in human blood.", answer: true }
+  - { id: en-b2-t10-q4, type: true_false_notgiven, statement: "The writer thinks a ban alone would solve the problem.", answer: false }
+  - { id: en-b2-t10-q5, type: true_false_notgiven, statement: "Some alternatives to plastic need more energy to produce.", answer: true }
+  - { id: en-b2-t10-q6, type: match_heading, paragraph: 3, options: ["The problems with a ban", "Reasons to ban plastic", "The writer's own view"], correct: 0 }
+listeningQuestions:
+  - { id: en-b2-t10-l1, type: complete, statement: "In some countries the use of plastic bags fell by more than ___ per cent.", answers: [eighty, "80"] }
+  - { id: en-b2-t10-l2, type: mc, question: "What should companies do, according to the writer?", options: ["Pay for the waste they produce.", "Stop selling food in bags.", "Give their customers free cups."], correct: 0 }
+orderable: false

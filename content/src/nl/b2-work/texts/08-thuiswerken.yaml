@@ -1,0 +1,45 @@
+id: nl-b2-work-t08
+kind: reading
+title: { en: "Working from home: the rules" }
+topic: Contract and pay (questions and answers on an HR intranet page)
+level: B2
+paragraphs:
+  - - { id: nl-b2-work-t08-s01, target: "Sinds januari kunnen alle bedienden van ons bedrijf twee dagen per week thuiswerken.", native: { en: "Since January all office staff at our company can work from home two days a week." } }
+    - { id: nl-b2-work-t08-s02, target: "Hieronder vind je de antwoorden op de vragen die de personeelsdienst het vaakst krijgt.", native: { en: "Below you'll find the answers to the questions the HR department gets most often." } }
+  - - { id: nl-b2-work-t08-s03, target: "Moet ik toestemming vragen?", native: { en: "Do I have to ask for permission?" } }
+    - { id: nl-b2-work-t08-s04, target: "Ja. Je spreekt je thuiswerkdagen af met je leidinggevende, die rekening houdt met de planning van het team.", native: { en: "Yes. You agree your days working from home with your manager, who takes the team's schedule into account." } }
+    - { id: nl-b2-work-t08-s05, target: "Wie ploegenwerk doet of klanten ontvangt, kan helaas niet thuiswerken.", native: { en: "Anyone who does shift work or receives customers unfortunately cannot work from home." } }
+  - - { id: nl-b2-work-t08-s06, target: "Krijg ik een vergoeding?", native: { en: "Do I get an allowance?" } }
+    - { id: nl-b2-work-t08-s07, target: "Elke maand krijg je naast je brutoloon een vaste vergoeding voor internet en verwarming, waarop je geen belastingen betaalt.", native: { en: "Every month, on top of your gross pay, you get a fixed allowance for internet and heating, on which you pay no tax." } }
+    - { id: nl-b2-work-t08-s08, target: "Op je thuiswerkdagen krijg je geen reiskosten, maar je maaltijdcheques blijven.", native: { en: "On your days working from home your travel expenses are not paid, but you keep your meal vouchers." } }
+  - - { id: nl-b2-work-t08-s09, target: "Wat als ik thuis een ongeval heb?", native: { en: "What if I have an accident at home?" } }
+    - { id: nl-b2-work-t08-s10, target: "Een ongeval tijdens je werkuren geldt als een arbeidsongeval, ook als het thuis gebeurt.", native: { en: "An accident during your working hours counts as an accident at work, even if it happens at home." } }
+    - { id: nl-b2-work-t08-s11, target: "Indien dat gebeurt, meld het dan meteen aan de personeelsdienst.", native: { en: "If that happens, report it to the HR department straight away." } }
+  - - { id: nl-b2-work-t08-s12, target: "Moet ik de hele dag bereikbaar zijn?", native: { en: "Do I have to be reachable all day?" } }
+    - { id: nl-b2-work-t08-s13, target: "Tijdens je normale werkuren wel, maar daarna heb je het recht om offline te zijn.", native: { en: "During your normal working hours yes, but after that you have the right to be offline." } }
+    - { id: nl-b2-work-t08-s14, target: "Niemand verwacht dat je 's avonds of in het weekend nog e-mails beantwoordt.", native: { en: "Nobody expects you to answer e-mails in the evening or at the weekend." } }
+glossary:
+  - { word: hieronder, native: { en: below } }
+  - { word: thuiswerkdagen, native: { en: "days working from home" } }
+  - { word: werkuren, native: { en: "working hours" } }
+  - { word: offline, native: { en: offline } }
+items: [nl.ploegenwerk, nl.brutoloon, nl.arbeidsongeval]
+gapped:
+  gaps: [nl-b2-work-t08-s03, nl-b2-work-t08-s06, nl-b2-work-t08-s09, nl-b2-work-t08-s12]
+  extra:
+    - { id: nl-b2-work-t08-x1, target: "Hoeveel vakantiedagen heb ik per jaar?", native: { en: "How many days' holiday do I have a year?" } }
+questions:
+  - { id: nl-b2-work-t08-q1, type: summary, options: ["De tekst beantwoordt vragen over de regels voor thuiswerken: toestemming, vergoedingen, ongevallen en bereikbaarheid.", "De tekst legt uit waarom thuiswerken verboden wordt.", "De tekst vertelt hoeveel een bediende per maand verdient."], correct: 0 }
+  - { id: nl-b2-work-t08-q2, type: mc, question: "Wie kan niet thuiswerken?", options: ["Wie ploegenwerk doet of klanten ontvangt.", "Wie minder dan vijf jaar in het bedrijf werkt.", "Wie maaltijdcheques krijgt."], correct: 0 }
+  - { id: nl-b2-work-t08-q3, type: true_false_notgiven, statement: "Op een thuiswerkdag krijg je geen reiskosten.", answer: true }
+  - { id: nl-b2-work-t08-q4, type: true_false_notgiven, statement: "Een ongeval thuis is nooit een arbeidsongeval.", answer: false }
+  - { id: nl-b2-work-t08-q5, type: true_false_notgiven, statement: "Het bedrijf geeft elke werknemer een laptop.", answer: not_given }
+listeningQuestions:
+  - { id: nl-b2-work-t08-l1, type: complete, statement: "Bedienden kunnen ___ dagen per week thuiswerken.", answers: [twee, "2"] }
+  - { id: nl-b2-work-t08-l2, type: mc, question: "Wat moet je doen na een ongeval thuis?", options: ["Het meteen melden aan de personeelsdienst.", "Een arts bellen.", "Niets."], correct: 0 }
+openCloze:
+  - { sentence: nl-b2-work-t08-s04, word: rekening }
+  - { sentence: nl-b2-work-t08-s08, word: maar, acceptAlso: [terwijl] }
+  - { sentence: nl-b2-work-t08-s10, word: als, acceptAlso: [wanneer, indien] }
+  - { sentence: nl-b2-work-t08-s13, word: recht }
+orderable: false

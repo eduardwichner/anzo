@@ -1,0 +1,533 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://anzo.local/schema/pack.schema.json",
+  "title": "Anzo content pack",
+  "description": "One CEFR level of one track (schemaVersion 2). Packs contain no UI text: exercise instructions come from the client i18n files by exercise type (optional `instruction` names another i18n key), and every native-language (\"known language\") text is a localized object keyed by native language ({ \"nl\": ... }). Cross-field rules (global id uniqueness, item references, token/answer agreement, exactly one correct option, answer sides, instruction keys) are enforced by server/src/content/validate.js on top of this schema.",
+  "$ref": "#/$defs/pack",
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+([.-][a-z0-9]+)*$", "maxLength": 80 },
+    "localized": {
+      "description": "Native-language text keyed by native language (ISO 639-1). The validator requires the course's native key (manifest `native`: nl for English and French, en for Dutch) on every native-side text of a pack.",
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": { "pattern": "^[a-z]{2}$" },
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    },
+    "track": { "description": "A course id (manifest tracks[].id): its target language, or a variant of it for another native language (fr-en: French for English speakers).", "enum": ["en", "fr", "nl", "fr-en"] },
+    "language": { "description": "A target language: what a course teaches, the language of its clips, grading rules and word list (server/src/lib/langs.js TARGET_LANGS).", "enum": ["en", "fr", "nl"] },
+    "itemRefs": { "type": "array", "items": { "$ref": "#/$defs/id" }, "minItems": 1, "uniqueItems": true },
+    "manifest": {
+      "type": "object",
+      "required": ["tracks"],
+      "additionalProperties": false,
+      "properties": {
+        "tracks": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["id", "name", "native", "mascot", "packs"],
+            "additionalProperties": false,
+            "properties": {
+              "id": { "$ref": "#/$defs/track" },
+              "target": { "$ref": "#/$defs/language", "description": "The language the course teaches (= its id for en, fr, nl; absent = the id, which must then be a language). Grading, clips and voices, trace, homophones and the word list key on it; progress, ids and the lock on the track id." },
+              "idPrefix": { "type": "string", "pattern": "^[a-z]{2}$", "description": "The first part of every id of the course (pack fe-a1-1, item fe.bonjour) when it is not the track id (fr-en: fe)." },
+              "name": { "$ref": "#/$defs/localized" },
+              "native": { "description": "The course's native language: the language of its meanings (server/src/lib/langs.js NATIVE_LANGS). A course is offered to learners with this native language.", "type": "string", "pattern": "^[a-z]{2}$" },
+              "mascot": { "type": "string", "pattern": "^[a-z]+$" },
+              "packs": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/manifestPack" } }
+            }
+          }
+        }
+      }
+    },
+    "manifestPack": {
+      "type": "object",
+      "required": ["id", "file", "cefr", "title", "status"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "file": {
+          "oneOf": [{ "type": "string", "pattern": "^[a-z]{2}(-[a-z]{2})?/[a-z0-9-]+\\.json$" }, { "type": "null" }]
+        },
+        "cefr": { "enum": ["Pre-A1", "A1.1", "A1", "A2", "B1", "B2"] },
+        "title": { "$ref": "#/$defs/localized" },
+        "status": { "enum": ["available", "preview", "planned", "roadmap"], "description": "preview: loaded and validated like available, shown only in Admin → Levels → Preview, never to learners" },
+        "branch": { "const": true, "description": "An optional branch of the level `after` (same CEFR level, another domain): its lessons are optional, never needed to finish the course; it is never a start level" },
+        "after": { "$ref": "#/$defs/id", "description": "branch packs: the core level (an earlier pack of the same track) the branch follows" }
+      },
+      "if": { "type": "object", "properties": { "status": { "enum": ["available", "preview"] } } },
+      "then": { "type": "object", "properties": { "file": { "type": "string" } } }
+    },
+    "pack": {
+      "type": "object",
+      "required": ["schemaVersion", "id", "track", "cefr", "source", "units"],
+      "additionalProperties": false,
+      "properties": {
+        "schemaVersion": { "const": 2 },
+        "id": { "$ref": "#/$defs/id" },
+        "track": { "$ref": "#/$defs/track" },
+        "cefr": { "enum": ["Pre-A1", "A1.1", "A1", "A2", "B1", "B2"] },
+        "source": {
+          "description": "Which reference documents in content/reference/ the vocabulary was drawn from, and how.",
+          "type": "string",
+          "minLength": 20
+        },
+        "units": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/unit" } }
+      }
+    },
+    "unit": {
+      "type": "object",
+      "required": ["id", "title", "icon", "vocabulary", "lessons"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "title": { "$ref": "#/$defs/localized" },
+        "icon": { "type": "string", "pattern": "^[a-z-]+$" },
+        "vocabulary": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/vocab" } },
+        "sentences": { "type": "array", "items": { "$ref": "#/$defs/sentence" } },
+        "texts": { "type": "array", "items": { "$ref": "#/$defs/text" } },
+        "lessons": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/lesson" } }
+      }
+    },
+    "text": {
+      "description": "A reading text (paragraphs of sentences) or a dialogue (turns of two speakers), with authored comprehension questions in the target language. Cross-field rules: server/src/content/texts.js.",
+      "type": "object",
+      "required": ["id", "kind", "title", "level", "items", "questions"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "kind": { "enum": ["reading", "dialogue"] },
+        "title": { "$ref": "#/$defs/localized" },
+        "topic": { "type": "string" },
+        "level": { "enum": ["Pre-A1", "A1.1", "A1", "A2", "B1", "B2"] },
+        "paragraphs": { "type": "array", "minItems": 1, "items": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/textSentence" } } },
+        "turns": { "type": "array", "minItems": 2, "items": { "$ref": "#/$defs/textTurn" } },
+        "speakers": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": { "A": { "$ref": "#/$defs/speaker" }, "B": { "$ref": "#/$defs/speaker" } }
+        },
+        "glossary": {
+          "type": "array",
+          "items": {
+            "type": "object", "required": ["word", "native"], "additionalProperties": false,
+            "properties": { "word": { "$ref": "#/$defs/targetText" }, "native": { "$ref": "#/$defs/localized" } }
+          }
+        },
+        "items": { "$ref": "#/$defs/itemRefs" },
+        "forms": {
+          "description": "Inflected forms in the text (lower case) mapped to one of its items (generated, Dutch): a tap on the form shows that word's meaning",
+          "type": "object",
+          "additionalProperties": { "$ref": "#/$defs/id" }
+        },
+        "questions": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/question" } },
+        "listeningQuestions": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/question" } },
+        "orderable": { "type": "boolean", "description": "The author confirms the order of the paragraphs (or turns) is unambiguous" }
+      }
+    },
+    "gapSentence": {
+      "description": "Gapped text (B2): `gaps` = the ids of the sentences taken out of text `textId` (in text order), `extra` = sentences written to fit none of the gaps; the learner puts a sentence in each gap. Graded per gap.",
+      "type": "object",
+      "required": ["textId", "gaps", "extra"],
+      "additionalProperties": false,
+      "properties": {
+        "type": true, "id": true, "items": true, "instruction": true,
+        "textId": { "$ref": "#/$defs/id" },
+        "gaps": { "type": "array", "minItems": 3, "maxItems": 6, "uniqueItems": true, "items": { "$ref": "#/$defs/id" } },
+        "extra": { "type": "array", "minItems": 1, "maxItems": 2, "items": { "$ref": "#/$defs/textSentence" } }
+      }
+    },
+    "transform": {
+      "description": "Key word transformation (B2): `from` = a sentence, `key` = the word to use unchanged, `gapped` = a second sentence with one ___ meaning the same; `answers` = every correct filling (2–6 words, each with the key word). Typed; graded against the answers.",
+      "type": "object",
+      "required": ["from", "key", "gapped", "answers"],
+      "additionalProperties": false,
+      "properties": {
+        "type": true, "id": true, "items": true, "instruction": true,
+        "from": { "$ref": "#/$defs/targetText" },
+        "key": { "$ref": "#/$defs/targetText" },
+        "gapped": { "type": "string", "pattern": "^[^_]*___[^_]*$" },
+        "answers": { "type": "array", "minItems": 1, "maxItems": 8, "items": { "$ref": "#/$defs/targetText" } },
+        "native": { "$ref": "#/$defs/localized" }
+      }
+    },
+    "textSentence": {
+      "type": "object",
+      "required": ["id", "target", "native"],
+      "additionalProperties": false,
+      "properties": { "id": { "$ref": "#/$defs/id" }, "target": { "$ref": "#/$defs/targetText" }, "native": { "$ref": "#/$defs/localized" } }
+    },
+    "textTurn": {
+      "type": "object",
+      "required": ["id", "speaker", "target", "native"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "#/$defs/id" }, "speaker": { "enum": ["A", "B"] },
+        "target": { "$ref": "#/$defs/targetText" }, "native": { "$ref": "#/$defs/localized" }
+      }
+    },
+    "speaker": {
+      "type": "object", "required": ["name"], "additionalProperties": false,
+      "properties": { "name": { "type": "string", "minLength": 1 } }
+    },
+    "question": {
+      "description": "mc: question + options (target language), correct = index; true_false_notgiven: statement + answer; match_heading: paragraph (1-based) + options + correct.",
+      "type": "object",
+      "required": ["id", "type"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "type": { "enum": ["mc", "true_false_notgiven", "match_heading", "summary", "match_texts", "complete"] },
+        "question": { "$ref": "#/$defs/targetText" },
+        "statement": { "$ref": "#/$defs/targetText" },
+        "paragraph": { "type": "integer", "minimum": 1 },
+        "options": { "type": "array", "minItems": 3, "maxItems": 5, "items": { "$ref": "#/$defs/targetText" } },
+        "correct": { "type": "integer", "minimum": 0 },
+        "answer": { "enum": [true, false, "not_given"] },
+        "labels": { "type": "array", "minItems": 3, "maxItems": 6, "items": { "$ref": "#/$defs/targetText" }, "description": "match_texts: a name per paragraph (the short texts)" },
+        "statements": {
+          "type": "array", "minItems": 4, "maxItems": 8,
+          "items": {
+            "type": "object", "required": ["id", "statement", "paragraph"], "additionalProperties": false,
+            "properties": { "id": { "$ref": "#/$defs/id" }, "statement": { "$ref": "#/$defs/targetText" }, "paragraph": { "type": "integer", "minimum": 1 } }
+          }
+        },
+        "answers": { "type": "array", "minItems": 1, "maxItems": 6, "items": { "$ref": "#/$defs/targetText" }, "description": "complete: every correct filling of the ___ in the statement (1–3 words)" }
+      },
+      "allOf": [
+        { "if": { "properties": { "type": { "const": "mc" } } }, "then": { "required": ["question", "options", "correct"], "not": { "anyOf": [{ "required": ["answer"] }, { "required": ["statement"] }] } } },
+        { "if": { "properties": { "type": { "const": "true_false_notgiven" } } }, "then": { "required": ["statement", "answer"], "not": { "anyOf": [{ "required": ["options"] }, { "required": ["correct"] }] } } },
+        { "if": { "properties": { "type": { "const": "match_heading" } } }, "then": { "required": ["paragraph", "options", "correct"], "not": { "required": ["answer"] } } },
+        { "if": { "properties": { "type": { "const": "summary" } } }, "then": { "required": ["options", "correct"], "not": { "anyOf": [{ "required": ["answer"] }, { "required": ["statement"] }] } } },
+        { "if": { "properties": { "type": { "const": "match_texts" } } }, "then": { "required": ["labels", "statements"], "not": { "anyOf": [{ "required": ["options"] }, { "required": ["answer"] }] } } },
+        { "if": { "properties": { "type": { "const": "complete" } } }, "then": { "required": ["statement", "answers"], "not": { "anyOf": [{ "required": ["options"] }, { "required": ["answer"] }] } } }
+      ]
+    },
+    "vocab": {
+      "type": "object",
+      "required": ["id", "target", "native", "pos"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "target": { "$ref": "#/$defs/targetText" },
+        "native": { "$ref": "#/$defs/localized" },
+        "pos": { "enum": ["noun", "verb", "adjective", "number", "phrase", "pronoun", "article", "other"] },
+        "gender": { "enum": ["m", "f"] },
+        "plural": { "description": "Dutch nouns: the plural (katten, auto's; \"-\" when there is none).", "type": "string", "minLength": 1 },
+        "alsoNL": { "description": "Dutch: the Netherlands form where Belgian standard usage differs (gsm → mobiel); shown as a note.", "type": "string", "minLength": 1 }
+      }
+    },
+    "sentence": {
+      "type": "object",
+      "required": ["id", "target", "native", "items"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "target": { "$ref": "#/$defs/targetText" },
+        "native": { "$ref": "#/$defs/localized" },
+        "items": { "$ref": "#/$defs/itemRefs" }
+      }
+    },
+    "lesson": {
+      "type": "object",
+      "required": ["id", "title", "exercises"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "title": { "$ref": "#/$defs/localized" },
+        "extra": { "const": true, "description": "An optional extra lesson (Extra oefening): never the current lesson, not counted for level or unit completion" },
+        "exercises": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/exercise" } }
+      }
+    },
+    "exercise": {
+      "type": "object",
+      "required": ["type", "id", "items"],
+      "properties": {
+        "type": {
+          "enum": [
+            "multiple_choice",
+            "match_pairs",
+            "build_sentence",
+            "fill_blank",
+            "listen_choose",
+            "listen_type",
+            "reading",
+            "dialogue",
+            "listening",
+            "order_paragraphs",
+            "cloze",
+            "open_cloze",
+            "word_form",
+            "gap_sentence",
+            "transform",
+            "speak"
+          ]
+        },
+        "id": { "$ref": "#/$defs/id" },
+        "items": { "$ref": "#/$defs/itemRefs" },
+        "instruction": { "$ref": "#/$defs/instruction" }
+      },
+      "allOf": [
+        {
+          "if": { "type": "object", "properties": { "type": { "const": "multiple_choice" } } },
+          "then": { "$ref": "#/$defs/multipleChoice" }
+        },
+        {
+          "if": { "type": "object", "properties": { "type": { "const": "match_pairs" } } },
+          "then": { "$ref": "#/$defs/matchPairs" }
+        },
+        {
+          "if": { "type": "object", "properties": { "type": { "const": "build_sentence" } } },
+          "then": { "$ref": "#/$defs/buildSentence" }
+        },
+        {
+          "if": { "type": "object", "properties": { "type": { "const": "fill_blank" } } },
+          "then": { "$ref": "#/$defs/fillBlank" }
+        },
+        {
+          "if": { "type": "object", "properties": { "type": { "const": "listen_choose" } } },
+          "then": { "$ref": "#/$defs/listenChoose" }
+        },
+        {
+          "if": { "type": "object", "properties": { "type": { "const": "listen_type" } } },
+          "then": { "$ref": "#/$defs/listenType" }
+        },
+        {
+          "if": { "type": "object", "properties": { "type": { "enum": ["reading", "dialogue", "listening"] } } },
+          "then": { "$ref": "#/$defs/textQuestion" }
+        },
+        {
+          "if": { "type": "object", "properties": { "type": { "const": "order_paragraphs" } } },
+          "then": { "$ref": "#/$defs/orderParagraphs" }
+        },
+        {
+          "if": { "type": "object", "properties": { "type": { "enum": ["cloze", "open_cloze", "word_form"] } } },
+          "then": { "$ref": "#/$defs/cloze" }
+        },
+        {
+          "if": { "type": "object", "properties": { "type": { "const": "gap_sentence" } } },
+          "then": { "$ref": "#/$defs/gapSentence" }
+        },
+        {
+          "if": { "type": "object", "properties": { "type": { "const": "transform" } } },
+          "then": { "$ref": "#/$defs/transform" }
+        },
+        {
+          "if": { "type": "object", "properties": { "type": { "const": "speak" } } },
+          "then": { "$ref": "#/$defs/speak" }
+        }
+      ]
+    },
+    "multipleChoice": {
+      "type": "object",
+      "required": ["question", "options"],
+      "additionalProperties": false,
+      "properties": {
+        "type": true,
+        "id": true,
+        "items": true,
+        "instruction": true,
+        "question": { "$ref": "#/$defs/sideText" },
+        "options": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "required": ["text"],
+            "additionalProperties": false,
+            "properties": { "text": { "$ref": "#/$defs/sideText" }, "correct": { "const": true } }
+          }
+        }
+      },
+      "description": "Question in the target language (string) with native options (localized), or the reverse. The validator checks the sides are opposite."
+    },
+    "matchPairs": {
+      "type": "object",
+      "required": ["pairs"],
+      "additionalProperties": false,
+      "properties": {
+        "type": true,
+        "id": true,
+        "items": true,
+        "instruction": true,
+        "pairs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["left", "right"],
+            "additionalProperties": false,
+            "properties": { "left": { "$ref": "#/$defs/targetText" }, "right": { "$ref": "#/$defs/localized" } }
+          }
+        }
+      }
+    },
+    "buildSentence": {
+      "type": "object",
+      "required": ["sentenceId", "answer", "tokens"],
+      "additionalProperties": false,
+      "properties": {
+        "type": true,
+        "id": true,
+        "items": true,
+        "instruction": true,
+        "sentenceId": { "$ref": "#/$defs/id" },
+        "answer": { "type": "string", "minLength": 1 },
+        "tokens": {
+          "type": "array",
+          "minItems": 2,
+          "items": { "type": "string", "minLength": 1, "pattern": "^\\S+( [!?:;»]+)?$", "$comment": "one word; French keeps spaced punctuation with its word: \"Salut !\"" }
+        },
+        "distractors": { "type": "array", "items": { "type": "string", "minLength": 1, "pattern": "^\\S+$" } },
+        "acceptAlso": {
+          "description": "Other correct orders of the same tokens (each a permutation of tokens, joined by spaces).",
+          "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 }
+        }
+      },
+      "description": "Build the sentence `sentenceId` from word tiles; the app shows that sentence's native text. tokens joined by spaces equal answer, which equals the sentence's target."
+    },
+    "fillBlank": {
+      "type": "object",
+      "required": ["sentence", "answer"],
+      "additionalProperties": false,
+      "properties": {
+        "type": true,
+        "id": true,
+        "items": true,
+        "instruction": true,
+        "sentenceId": { "$ref": "#/$defs/id" },
+        "sentence": { "type": "string", "pattern": "___" },
+        "answer": { "type": "string", "minLength": 1 },
+        "hint": { "$ref": "#/$defs/localized" },
+        "kind": { "enum": ["finite_verb", "word_form"], "description": "finite_verb: the blank is a conjugated verb, the hint names its infinitive (and tense); word_form: the blank is formed from `stem` (B2 word formation)" },
+        "stem": { "$ref": "#/$defs/targetText" },
+        "acceptAlso": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 }, "description": "typed only: other words that fill the gap (unit YAML typedAlso, per native language); never sent to the client" },
+        "options": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 6,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "listenChoose": {
+      "description": "Play the clip of a vocabulary item or sentence (`listen`); choose the written target-language form (answerSide target: string options) or its native meaning (answerSide native: localized options).",
+      "type": "object",
+      "required": ["listen", "answerSide", "options"],
+      "additionalProperties": false,
+      "properties": {
+        "type": true,
+        "id": true,
+        "items": true,
+        "instruction": true,
+        "listen": { "$ref": "#/$defs/id" },
+        "answerSide": { "enum": ["target", "native"] },
+        "options": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 4,
+          "items": {
+            "type": "object",
+            "required": ["text"],
+            "additionalProperties": false,
+            "properties": { "text": { "$ref": "#/$defs/sideText" }, "correct": { "const": true } }
+          }
+        }
+      }
+    },
+    "listenType": {
+      "description": "Play the clip of a vocabulary item or sentence (`listen`); type what you hear. `answer` equals the listened item's target text.",
+      "type": "object",
+      "required": ["listen", "answer"],
+      "additionalProperties": false,
+      "properties": {
+        "type": true,
+        "id": true,
+        "items": true,
+        "instruction": true,
+        "listen": { "$ref": "#/$defs/id" },
+        "answer": { "type": "string", "minLength": 1 },
+        "acceptAlso": {
+          "description": "Other correct ways to write what is heard (e.g. a contraction spelled out).",
+          "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "textQuestion": {
+      "description": "One comprehension question about text `textId`: reading and dialogue show the text, listening plays it (the transcript after answering).",
+      "type": "object",
+      "required": ["textId", "question"],
+      "additionalProperties": false,
+      "properties": {
+        "type": true, "id": true, "items": true, "instruction": true,
+        "textId": { "$ref": "#/$defs/id" },
+        "question": { "$ref": "#/$defs/question" }
+      }
+    },
+    "orderParagraphs": {
+      "description": "Put the text's paragraphs (or a dialogue's turns, or one paragraph's sentences) in order: `segments` lists their ids (sentence or turn ids; a paragraph by its first sentence id) in the right order.",
+      "type": "object",
+      "required": ["textId", "segments"],
+      "additionalProperties": false,
+      "properties": {
+        "type": true, "id": true, "items": true, "instruction": true,
+        "textId": { "$ref": "#/$defs/id" },
+        "unit": { "enum": ["paragraph", "sentence", "turn"] },
+        "segments": { "type": "array", "minItems": 3, "maxItems": 8, "uniqueItems": true, "items": { "$ref": "#/$defs/id" } }
+      }
+    },
+    "cloze": {
+      "description": "The text with 3–6 gaps (sentence id + the word); `options` = a shared word bank (below B1), none = typed. Graded per gap; all right = correct. Also open_cloze (B2: no hints, `acceptAlso` per gap) and word_form (B2: each gap formed from its `stem`).",
+      "type": "object",
+      "required": ["textId", "gaps"],
+      "additionalProperties": false,
+      "properties": {
+        "type": true, "id": true, "items": true, "instruction": true,
+        "textId": { "$ref": "#/$defs/id" },
+        "gaps": {
+          "type": "array", "minItems": 3, "maxItems": 6,
+          "items": {
+            "type": "object", "required": ["sentence", "word"], "additionalProperties": false,
+            "properties": {
+              "sentence": { "$ref": "#/$defs/id" },
+              "word": { "$ref": "#/$defs/targetText" },
+              "kind": { "enum": ["word", "finite_verb", "open", "word_form"] },
+              "hint": { "$ref": "#/$defs/localized" },
+              "stem": { "$ref": "#/$defs/targetText" },
+              "acceptAlso": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/targetText" } }
+            }
+          }
+        },
+        "options": { "type": "array", "minItems": 3, "maxItems": 10, "items": { "$ref": "#/$defs/targetText" } }
+      }
+    },
+    "speak": {
+      "description": "Reserved (not playable yet): say the phrase, graded by a local speech model.",
+      "type": "object",
+      "required": ["phrase"],
+      "properties": {
+        "type": true,
+        "id": true,
+        "items": true,
+        "instruction": true,
+        "phrase": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "targetText": {
+      "description": "Text in the pack's target language (English or French). Never localized.",
+      "type": "string",
+      "minLength": 1
+    },
+    "sideText": {
+      "description": "Either target-language text (a string) or native-language text (a localized object).",
+      "oneOf": [{ "$ref": "#/$defs/targetText" }, { "$ref": "#/$defs/localized" }]
+    },
+    "instruction": {
+      "description": "i18n key of the instruction shown above the exercise, overriding the type's default. Must exist in every client/src/i18n/*.json (the validator checks).",
+      "type": "string",
+      "pattern": "^exercise(\\.[A-Za-z_]+)+$"
+    }
+  }
+}

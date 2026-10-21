@@ -1,0 +1,39 @@
+id: nl-b1-t15
+kind: reading
+title: { en: Make your street greener }
+topic: The environment and the neighbourhood (a call from the municipality)
+level: B1
+paragraphs:
+  - - { id: nl-b1-t15-s01, target: "Woont u in een straat met veel steen en weinig groen? Dan zoeken wij u!", native: { en: "Do you live in a street with a lot of stone and little greenery? Then we're looking for you!" } }
+    - { id: nl-b1-t15-s02, target: "Met de actie Groene Straat wil de gemeente samen met de buurtbewoners de straten groener maken.", native: { en: "With the Green Street campaign the municipality wants to make the streets greener together with local residents." } }
+  - - { id: nl-b1-t15-s03, target: "Waarom? Bomen en planten zorgen voor betere lucht en meer koelte in de zomer.", native: { en: "Why? Trees and plants make the air cleaner and keep things cooler in summer." } }
+    - { id: nl-b1-t15-s04, target: "Ze geven ook een thuis aan vogels en insecten, en het regenwater kan beter in de grond zakken.", native: { en: "They also give a home to birds and insects, and rainwater can soak into the ground better." } }
+  - - { id: nl-b1-t15-s05, target: "Hoe doet u mee? U zoekt minstens vijf buren die willen deelnemen en samen met die buren stuurt u een voorstel naar de milieudienst.", native: { en: "How do you take part? You find at least five neighbours who want to take part and together with them you send a proposal to the environment department." } }
+    - { id: nl-b1-t15-s06, target: "In uw voorstel schrijft u wat u wilt doen, bijvoorbeeld bloembakken plaatsen, een geveltuin aanleggen of een moestuin aanleggen.", native: { en: "In your proposal you write what you want to do, for example put out flower boxes, lay out a front-wall garden or create a vegetable garden." } }
+  - - { id: nl-b1-t15-s07, target: "Elk goedgekeurd voorstel krijgt een premie tot 500 euro.", native: { en: "Every approved proposal gets a grant of up to 500 euros." } }
+    - { id: nl-b1-t15-s08, target: "Daarnaast komt er een medewerker van de gemeente langs om u te helpen met het plan, zodat de planten goed groeien.", native: { en: "In addition, someone from the municipality comes round to help you with the plan, so that the plants grow well." } }
+  - - { id: nl-b1-t15-s09, target: "Op 15 april is er een informatieavond in het buurthuis. U kunt er uw vragen stellen en andere bewoners ontmoeten.", native: { en: "On 15 April there is an information evening at the community centre. You can ask your questions and meet other residents there." } }
+    - { id: nl-b1-t15-s10, target: "Voorstellen kunt u indienen tot 31 mei.", native: { en: "You can submit proposals until 31 May." } }
+glossary:
+  - { word: koelte, native: { en: coolness } }
+  - { word: aanleggen, native: { en: "to lay out, to create (a garden, a path)" } }
+  - { word: milieudienst, native: { en: environment department } }
+  - { word: bloembakken, native: { en: flower boxes } }
+  - { word: geveltuin, native: { en: "front-wall garden (a narrow garden against the front of a house)" } }
+  - { word: indienen, native: { en: "to submit, to hand in" } }
+items: [nl.buurtbewoner, nl.lucht, nl.vogel, nl.insect, nl.deelnemen, nl.moestuin, nl.premie, nl.actie, nl.steen, nl.minstens, nl.buurthuis, nl.medewerker, nl.ander, nl.groeien, nl.ontmoeten, nl.stellen, nl.langskomen, nl.bijvoorbeeld, nl.informatieavond, nl.meedoen, nl.grond]
+questions:
+  - { id: nl-b1-t15-q1, type: mc, question: "Wat wil de gemeente met de actie Groene Straat?", options: ["Samen met de bewoners de straten groener maken.", "Nieuwe fietspaden aanleggen.", "Minder bomen in de straten."], correct: 0 }
+  - { id: nl-b1-t15-q3, type: true_false_notgiven, statement: "Een goedgekeurd voorstel kan tot 500 euro krijgen.", answer: true }
+  - { id: nl-b1-t15-q2, type: true_false_notgiven, statement: "U kunt ook zonder buren een voorstel indienen.", answer: false }
+  - { id: nl-b1-t15-q4, type: true_false_notgiven, statement: "Vorig jaar deden twintig straten mee.", answer: not_given }
+  - { id: nl-b1-t15-q5, type: match_heading, paragraph: 3, options: ["Hoe u meedoet", "Waarom groen belangrijk is", "Wat u krijgt"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b1-t15-l1, type: mc, question: "Hoeveel buren moeten minstens meedoen?", options: ["Vijf.", "Twee.", "Tien."], correct: 0 }
+  - { id: nl-b1-t15-l2, type: true_false_notgiven, statement: "De informatieavond is in het stadhuis.", answer: false }
+cloze:
+  - { sentence: nl-b1-t15-s05, word: zoekt, kind: finite_verb, hint: { en: "zoeken (present)" } }
+  - { sentence: nl-b1-t15-s05, word: stuurt, kind: finite_verb, hint: { en: "sturen (present)" } }
+  - { sentence: nl-b1-t15-s07, word: krijgt, kind: finite_verb, hint: { en: "krijgen (present)" } }
+  - { sentence: nl-b1-t15-s08, word: komt, kind: finite_verb, hint: { en: "langskomen (present)" } }
+orderable: false

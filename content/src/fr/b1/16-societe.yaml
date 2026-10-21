@@ -1,0 +1,89 @@
+id: fr-b1-u16
+title: { nl: Samenleving, en: "Society" }
+icon: police
+topic: La société, les règles et l'engagement ; vouloir que + subjonctif
+vocabulary:
+  - { target: l'élection, native: { nl: de verkiezing, en: "election" }, pos: noun, gender: f }
+  - { target: voter, native: { nl: stemmen, en: "to vote" }, pos: verb }
+  - { target: le gouvernement, native: { nl: de regering, en: "government" }, pos: noun, gender: m }
+  - { target: le droit, native: { nl: het recht, en: "right (as in: the right to vote)" }, pos: noun, gender: m }
+  - { target: le voleur, native: { nl: de dief, en: "thief" }, pos: noun, gender: m }
+  - { target: la prison, native: { nl: de gevangenis, en: "prison" }, pos: noun, gender: f }
+  - { target: se plaindre, native: { nl: klagen, en: "to complain" }, pos: verb }
+  - { target: la plainte, native: { nl: "de klacht; de aangifte", en: "complaint, report (to the police)" }, pos: noun, gender: f }
+  - { target: la loi, native: { nl: de wet, en: "law" }, pos: noun, gender: f }
+  - { target: le citoyen, native: { nl: de burger, en: "citizen" }, pos: noun, gender: m }
+  - { target: la société, native: { nl: de samenleving, en: "society" }, pos: noun, gender: f }
+  - { target: la politique, native: { nl: de politiek, en: "politics, policy" }, pos: noun, gender: f }
+  - { target: le président, native: { nl: de voorzitter (president), en: "president, chairperson" }, pos: noun, gender: m }
+  - { target: l'association, native: { nl: de vereniging, en: "association" }, pos: noun, gender: f }
+  - { target: le bénévole, native: { nl: de vrijwilliger, en: "volunteer" }, pos: noun, gender: m, avoid: [fr.volontaire], noBlank: true }
+  - { target: le bénévolat, native: { nl: het vrijwilligerswerk, en: "volunteering, voluntary work" }, pos: noun, gender: m }
+  - { target: le volontaire, native: { nl: de vrijwilliger (die zich aanbiedt), en: "volunteer" }, pos: noun, gender: m, avoid: [fr.benevole], noBlank: true }
+  - { target: solidaire, native: { nl: solidair, en: "supportive, showing solidarity" }, pos: adjective }
+  - { target: l'initiative, native: { nl: het initiatief, en: "initiative" }, pos: noun, gender: f }
+  - { target: le don, native: { nl: de gift, en: "donation, gift" }, pos: noun, gender: m }
+  - { target: la générosité, native: { nl: de vrijgevigheid, en: "generosity" }, pos: noun, gender: f }
+  - { target: le commissariat, native: { nl: het politiebureau, en: "police station" }, pos: noun, gender: m }
+  - { target: la sécurité, native: { nl: de veiligheid, en: "safety, security" }, pos: noun, gender: f }
+  - { target: respecter, native: { nl: respecteren, en: "to respect" }, pos: verb }
+  - { target: national, native: { nl: nationaal, en: "national" }, pos: adjective }
+  - { target: public, native: { nl: openbaar, en: "public" }, pos: adjective }
+  - { target: la population, native: { nl: de bevolking, en: "population" }, pos: noun, gender: f }
+  - { target: social, native: { nl: sociaal, en: "social" }, pos: adjective }
+  - { target: obliger, native: { nl: verplichten, en: "to force, to oblige" }, pos: verb }
+  - { target: le signe, native: { nl: het teken, en: "sign, signal" }, pos: noun, gender: m, typedAlso: { en: [signal] } }
+  - { target: la preuve, native: { nl: het bewijs, en: "proof, evidence" }, pos: noun, gender: f }
+  - { target: la cause, native: { nl: de oorzaak, en: "cause" }, pos: noun, gender: f }
+  - { target: la volonté, native: { nl: de wil, en: "will, willpower" }, pos: noun, gender: f }
+  - { target: la conscience, native: { nl: het geweten (het bewustzijn), en: "conscience, awareness" }, pos: noun, gender: f }
+  - { target: la présence, native: { nl: de aanwezigheid, en: "presence" }, pos: noun, gender: f }
+  - { target: la limitation, native: { nl: de beperking, en: "limit, restriction" }, pos: noun, gender: f }
+  - { target: enfermer, native: { nl: opsluiten, en: "to lock up, to shut in" }, pos: verb }
+  - { target: le portefeuille, native: { nl: de portefeuille (voor kaarten en briefjes), en: "wallet" }, pos: noun, gender: m, avoid: [fr.porte-monnaie] }
+  - { target: récupérer, native: { nl: terugkrijgen, en: "to get back" }, pos: verb }
+  - { target: résoudre, native: { nl: oplossen, en: "to solve" }, pos: verb }
+sentences:
+  - { id: s01, target: "Les élections ont lieu tous les cinq ans.", native: { nl: "De verkiezingen vinden om de vijf jaar plaats.", en: "Elections take place every five years." }, items: [fr.election] }
+  - { id: s02, target: "Dans beaucoup de pays, on peut voter à dix-huit ans.", native: { nl: "In veel landen mag je vanaf je achttiende stemmen.", en: "In many countries you can vote at eighteen." }, items: [fr.voter], acceptAlso: ["On peut voter à dix-huit ans dans beaucoup de pays."] }
+  - { id: s03, target: "Le gouvernement a changé la loi.", native: { nl: "De regering heeft de wet veranderd.", en: "The government has changed the law." }, items: [fr.gouvernement] }
+  - { id: s04, target: "Tous les enfants ont le droit d'aller à l'école.", native: { nl: "Alle kinderen hebben het recht om naar school te gaan.", en: "All children have the right to go to school." }, items: [fr.droit] }
+  - { id: s05, target: "La police a arrêté le voleur.", native: { nl: "De politie heeft de dief opgepakt.", en: "The police have arrested the thief." }, items: [fr.voleur] }
+  - { id: s06, target: "Il a passé deux ans en prison.", native: { nl: "Hij heeft twee jaar in de gevangenis gezeten.", en: "He spent two years in prison." }, items: [fr.prison] }
+  - { id: s07, target: "Mon frère se plaint toujours de la cantine.", native: { nl: "Mijn broer klaagt altijd over de kantine.", en: "My brother always complains about the canteen." }, items: [fr.se-plaindre] }
+  - { id: s08, target: "Les voisins ont porté plainte à cause du bruit.", native: { nl: "De buren hebben een klacht ingediend wegens het lawaai.", en: "The neighbours made a complaint to the police about the noise." }, items: [fr.plainte] }
+  - { id: s09, target: "C'est la loi : il faut s'arrêter au feu rouge.", native: { nl: "Het is de wet: je moet stoppen voor het rode licht.", en: "It's the law: you must stop at a red light." }, items: [fr.loi] }
+  - { id: s10, target: "Chaque citoyen a des droits et des devoirs.", native: { nl: "Elke burger heeft rechten en plichten.", en: "Every citizen has rights and duties." }, items: [fr.citoyen] }
+  - { id: s11, target: "Les personnes âgées ont une place importante dans la société.", native: { nl: "Ouderen hebben een belangrijke plaats in de samenleving.", en: "Elderly people have an important place in society." }, items: [fr.societe] }
+  - { id: s12, target: "Mon père s'intéresse beaucoup à la politique.", native: { nl: "Mijn vader is erg geïnteresseerd in politiek.", en: "My father is very interested in politics." }, items: [fr.politique] }
+  - { id: s13, target: "La présidente du club a parlé aux membres.", native: { nl: "De voorzitster van de club heeft de leden toegesproken.", en: "The president of the club spoke to the members." }, items: [fr.president] }
+  - { id: s14, target: "Ma mère fait partie d'une association pour les animaux.", native: { nl: "Mijn moeder is lid van een vereniging voor dieren.", en: "My mother is a member of an animal welfare association." }, items: [fr.association] }
+  - { id: s15, target: "Les bénévoles donnent des repas aux gens qui vivent dans la rue.", native: { nl: "De vrijwilligers delen maaltijden uit aan daklozen.", en: "The volunteers give meals to people who live on the streets." }, items: [fr.benevole] }
+  - { id: s16, target: "Le bénévolat, c'est donner de son temps aux autres.", native: { nl: "Vrijwilligerswerk is je tijd aan anderen geven.", en: "Volunteering means giving your time to others." }, items: [fr.benevolat] }
+  - { id: s17, target: "On cherche des volontaires pour ranger la salle.", native: { nl: "We zoeken vrijwilligers om de zaal op te ruimen.", en: "We're looking for volunteers to tidy the hall." }, items: [fr.volontaire] }
+  - { id: s18, target: "Les élèves ont été très solidaires avec leur camarade.", native: { nl: "De leerlingen waren heel solidair met hun klasgenoot.", en: "The pupils were very supportive of their classmate." }, items: [fr.solidaire] }
+  - { id: s19, target: "C'est une belle initiative des élèves.", native: { nl: "Het is een mooi initiatief van de leerlingen.", en: "It's a great initiative by the pupils." }, items: [fr.initiative] }
+  - { id: s20, target: "Nous avons fait un don à une association.", native: { nl: "We hebben een gift gedaan aan een vereniging.", en: "We made a donation to an association." }, items: [fr.don] }
+  - { id: s21, target: "Merci pour votre générosité !", native: { nl: "Bedankt voor uw vrijgevigheid!", en: "Thank you for your generosity!" }, items: [fr.generosite] }
+  - { id: s22, target: "Je suis allé au commissariat pour signaler le vol de mon vélo.", native: { nl: "Ik ben naar het politiebureau gegaan om de diefstal van mijn fiets te melden.", en: "I went to the police station to report the theft of my bike." }, items: [fr.commissariat] }
+  - { id: s23, target: "Pour votre sécurité, restez assis pendant le voyage.", native: { nl: "Blijf voor uw veiligheid zitten tijdens de reis.", en: "For your safety, remain seated during the journey." }, items: [fr.securite], acceptAlso: ["Restez assis pendant le voyage pour votre sécurité."] }
+  - { id: s24, target: "Il faut respecter les règles du jeu.", native: { nl: "Je moet de spelregels respecteren.", en: "You must respect the rules of the game." }, items: [fr.respecter] }
+  - { id: s25, target: "Le vingt et un juillet est la fête nationale belge.", native: { nl: "Eenentwintig juli is de Belgische nationale feestdag.", en: "The twenty-first of July is Belgium's National Day." }, items: [fr.national] }
+  - { id: s26, target: "Les chiens sont interdits dans les lieux publics.", native: { nl: "Honden zijn verboden op openbare plaatsen.", en: "Dogs are not allowed in public places." }, items: [fr.public] }
+  - { id: s27, target: "La population de la ville a beaucoup augmenté.", native: { nl: "De bevolking van de stad is sterk gestegen.", en: "The town's population has increased a lot." }, items: [fr.population] }
+  - { id: s28, target: "Les jeunes passent beaucoup de temps sur les réseaux sociaux.", native: { nl: "Jongeren brengen veel tijd door op sociale media.", en: "Young people spend a lot of time on social networks." }, items: [fr.social] }
+  - { id: s29, target: "Personne ne t'oblige à venir.", native: { nl: "Niemand verplicht je om te komen.", en: "Nobody's forcing you to come." }, items: [fr.obliger] }
+  - { id: s30, target: "Il m'a fait un signe de la main.", native: { nl: "Hij heeft me met zijn hand een teken gegeven.", en: "He signalled to me with his hand." }, items: [fr.signe] }
+  - { id: s31, target: "La police n'a pas de preuve contre lui.", native: { nl: "De politie heeft geen bewijs tegen hem.", en: "The police have no evidence against him." }, items: [fr.preuve] }
+  - { id: s32, target: "Quelle est la cause de l'accident ?", native: { nl: "Wat is de oorzaak van het ongeluk?", en: "What's the cause of the accident?" }, items: [fr.cause] }
+  - { id: s33, target: "Avec un peu de volonté, tu peux tout faire.", native: { nl: "Met een beetje wil kun je alles.", en: "With a little willpower, you can do anything." }, items: [fr.volonte] }
+  - { id: s34, target: "Il a mauvaise conscience parce qu'il a cassé le vélo de son frère.", native: { nl: "Hij heeft een slecht geweten omdat hij de fiets van zijn broer kapot heeft gemaakt.", en: "He has a guilty conscience because he broke his brother's bike." }, items: [fr.conscience] }
+  - { id: s35, target: "Ta présence à la réunion est importante.", native: { nl: "Je aanwezigheid op de vergadering is belangrijk.", en: "Your presence at the meeting is important." }, items: [fr.presence] }
+  - { id: s36, target: "La limitation de vitesse en ville est de trente kilomètres par heure.", native: { nl: "De snelheidsbeperking in de stad is dertig kilometer per uur.", en: "The speed limit in town is thirty kilometres an hour." }, items: [fr.limitation] }
+  - { id: s37, target: "Le chien était enfermé dans la voiture.", native: { nl: "De hond zat opgesloten in de auto.", en: "The dog was shut in the car." }, items: [fr.enfermer] }
+  - { id: s38, target: "J'ai perdu mon portefeuille dans le bus.", native: { nl: "Ik ben mijn portefeuille in de bus verloren.", en: "I've lost my wallet on the bus." }, items: [fr.portefeuille] }
+  - { id: s39, target: "J'ai récupéré mon portefeuille au commissariat.", native: { nl: "Ik heb mijn portefeuille teruggekregen op het politiebureau.", en: "I got my wallet back at the police station." }, items: [fr.recuperer] }
+  - { id: s40, target: "Ensemble, nous allons résoudre ce problème.", native: { nl: "Samen gaan we dit probleem oplossen.", en: "Together, we're going to solve this problem." }, items: [fr.resoudre], acceptAlso: ["Nous allons résoudre ce problème ensemble."] }
+  - { id: s41, target: "Le directeur veut que les élèves respectent les règles.", native: { nl: "De directeur wil dat de leerlingen de regels respecteren.", en: "The head teacher wants the pupils to respect the rules." }, items: [fr.respecter], build: true }
+  - { id: s42, target: "Je veux que tu fasses attention à ta sécurité.", native: { nl: "Ik wil dat je op je veiligheid let.", en: "I want you to pay attention to your safety." }, items: [fr.securite], build: true }
+texts: [fr-b1-t17]

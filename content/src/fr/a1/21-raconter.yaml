@@ -1,0 +1,35 @@
+id: fr-a1-u21
+title: { nl: Opstaan en vertellen, en: "Getting up and telling stories" }
+icon: actions
+topic: La journée; raconter; se présenter
+vocabulary:
+  - { target: se lever, native: { nl: opstaan, en: "to get up" }, pos: verb }
+  - { target: se coucher, native: { nl: naar bed gaan, en: "to go to bed" }, pos: verb }
+  - { target: "s'asseoir", native: { nl: gaan zitten, en: "to sit down" }, pos: verb }
+  - { target: raconter, native: { nl: vertellen, en: "to tell (a story)" }, pos: verb }
+  - { target: présenter, native: { nl: voorstellen, en: "to introduce" }, pos: verb }
+  - { target: se présenter, native: { nl: zich voorstellen, en: "to introduce yourself" }, pos: verb, avoid: [fr.presenter] }
+  - { target: détester, native: { nl: een hekel hebben aan, en: "to hate" }, pos: verb }
+  - { target: aimer bien, native: { nl: wel leuk vinden, en: "to quite like, to like" }, pos: phrase }
+  - { target: tenir, native: { nl: vasthouden, en: "to hold" }, pos: verb }
+  - { target: observer, native: { nl: "bekijken, observeren", en: "to watch, to observe" }, pos: verb }
+  - { target: passer, native: { nl: "doorbrengen, langsgaan", en: "to spend (time), to drop in" }, pos: verb }
+sentences:
+  - { id: s01, target: "Nous nous levons à sept heures.", native: { nl: "We staan om zeven uur op.", en: "We get up at seven o'clock." }, items: [fr.se-lever] }
+  - { id: s02, target: "Je me lève tôt.", native: { nl: "Ik sta vroeg op.", en: "I get up early." }, items: [fr.se-lever] }
+  - { id: s03, target: "Nous nous couchons à neuf heures.", native: { nl: "We gaan om negen uur naar bed.", en: "We go to bed at nine o'clock." }, items: [fr.se-coucher] }
+  - { id: s04, target: "Assieds-toi, s'il te plaît.", native: { nl: "Ga zitten, alsjeblieft.", en: "Sit down, please." }, items: [fr.s-asseoir] }
+  - { id: s05, target: "Raconte l'histoire !", native: { nl: "Vertel het verhaal!", en: "Tell the story!" }, items: [fr.raconter] }
+  - { id: s14, target: "J'aime raconter des histoires.", native: { nl: "Ik vertel graag verhalen.", en: "I like telling stories." }, items: [fr.raconter] }
+  - { id: s06, target: "Je te présente mon ami Lucas.", native: { nl: "Dit is mijn vriend Lucas.", en: "Let me introduce my friend Lucas." }, items: [fr.presenter] }
+  - { id: s07, target: "Je me présente : je m'appelle Camille.", native: { nl: "Ik stel me voor: ik heet Camille.", en: "Let me introduce myself: my name is Camille." }, items: [fr.se-presenter] }
+  - { id: s08, target: "Je déteste aller au cinéma.", native: { nl: "Ik vind het vreselijk om naar de bioscoop te gaan.", en: "I hate going to the cinema." }, items: [fr.detester] }
+  - { id: s09, target: "J'aime bien le basket.", native: { nl: "Ik vind basketbal wel leuk.", en: "I quite like basketball." }, items: [fr.aimer-bien] }
+  - { id: s10, target: "Tu peux tenir mon sac, s'il te plaît ?", native: { nl: "Kun je mijn tas even vasthouden, alsjeblieft?", en: "Can you hold my bag, please?" }, items: [fr.tenir] }
+  - { id: s11, target: "Je tiens la main de ma petite sœur.", native: { nl: "Ik houd mijn zusje bij de hand.", en: "I'm holding my little sister's hand." }, items: [fr.tenir] }
+  - { id: s12, target: "J'observe les oiseaux.", native: { nl: "Ik kijk naar de vogels.", en: "I'm watching the birds." }, items: [fr.observer] }
+  - { id: s13, target: "Nous passons une super semaine à la montagne.", native: { nl: "We brengen een superleuke week door in de bergen.", en: "We're spending a great week in the mountains." }, items: [fr.passer] }
+  - { id: s15, target: "J'aime observer les oiseaux.", native: { nl: "Ik kijk graag naar vogels.", en: "I like watching birds." }, items: [fr.observer] }
+lessons:
+  - { id: l01, title: { nl: Opstaan en naar bed, en: "Getting up and going to bed" }, vocab: [fr.se-lever, fr.se-coucher, fr.s-asseoir, fr.raconter, fr.presenter, fr.se-presenter] }
+  - { id: l02, title: { nl: Ik vind het wel leuk, en: "I quite like it" }, vocab: [fr.detester, fr.aimer-bien, fr.tenir, fr.observer, fr.passer] }

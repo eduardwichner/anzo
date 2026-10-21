@@ -1,0 +1,38 @@
+id: en-a2-u07
+title: { nl: Bijzondere dieren }
+icon: animals
+topic: Animals
+vocabulary:
+  - { target: insect, native: { nl: insect }, pos: noun, category: true }
+  - { target: beetle, native: { nl: kever }, pos: noun }
+  - { target: butterfly, native: { nl: vlinder }, pos: noun }
+  - { target: camel, native: { nl: kameel }, pos: noun }
+  - { target: eagle, native: { nl: adelaar }, pos: noun }
+  - { target: octopus, native: { nl: octopus }, pos: noun }
+  - { target: swan, native: { nl: zwaan }, pos: noun }
+  - { target: tortoise, native: { nl: schildpad }, pos: noun }
+  - { target: fur, native: { nl: vacht }, pos: noun }
+  - { target: furry, native: { nl: "harig, pluizig" }, pos: adjective }
+  - { target: spotted, native: { nl: "gestippeld, gevlekt" }, pos: adjective }
+  - { target: striped, native: { nl: gestreept }, pos: adjective }
+  - { target: stripe, native: { nl: streep }, pos: noun, avoid: [en.striped] }
+  - { target: spot, native: { nl: "vlek, stip" }, pos: noun, avoid: [en.spotted] }
+sentences:
+  - { id: s01, target: "There's a black beetle on the floor.", native: { nl: "Er zit een zwarte kever op de vloer." }, items: [en.beetle], acceptAlso: ["There is a black beetle on the floor."] }
+  - { id: s02, target: "A butterfly landed on my hand.", native: { nl: "Er ging een vlinder op mijn hand zitten." }, items: [en.butterfly] }
+  - { id: s03, target: "Camels can walk for days without water.", native: { nl: "Kamelen kunnen dagenlang zonder water lopen." }, items: [en.camel] }
+  - { id: s04, target: "The eagle is flying above the mountains.", native: { nl: "De adelaar vliegt boven de bergen." }, items: [en.eagle] }
+  - { id: s05, target: "A bee is an insect.", native: { nl: "Een bij is een insect." }, items: [en.insect] }
+  - { id: s06, target: "An octopus has got eight arms.", native: { nl: "Een octopus heeft acht armen." }, items: [en.octopus] }
+  - { id: s07, target: "There are two white swans on the lake.", native: { nl: "Er zijn twee witte zwanen op het meer." }, items: [en.swan] }
+  - { id: s08, target: "My tortoise is fifty years old.", native: { nl: "Mijn schildpad is vijftig jaar oud." }, items: [en.tortoise] }
+  - { id: s09, target: "The cat has got soft fur.", native: { nl: "De kat heeft een zachte vacht." }, items: [en.fur] }
+  - { id: s10, target: "My rabbit is small and furry.", native: { nl: "Mijn konijn is klein en pluizig." }, items: [en.furry] }
+  - { id: s11, target: "She is wearing a spotted dress.", native: { nl: "Ze draagt een jurk met stippen." }, items: [en.spotted] }
+  - { id: s12, target: "Zebras are striped.", native: { nl: "Zebra's zijn gestreept." }, items: [en.striped] }
+  - { id: s13, target: "Draw a red stripe.", native: { nl: "Teken een rode streep." }, items: [en.stripe] }
+  - { id: s14, target: "The dog has got a black spot on its back.", native: { nl: "De hond heeft een zwarte vlek op zijn rug." }, items: [en.spot] }
+  - { id: s15, target: "Butterflies are beautiful insects.", native: { nl: "Vlinders zijn mooie insecten." }, items: [en.butterfly, en.insect] }
+lessons:
+  - { id: l01, title: { nl: Bijzondere dieren }, vocab: [en.insect, en.beetle, en.butterfly, en.camel, en.eagle, en.octopus, en.swan, en.tortoise] }
+  - { id: l02, title: { nl: Strepen en stippen }, vocab: [en.fur, en.furry, en.spotted, en.striped, en.stripe, en.spot] }

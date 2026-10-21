@@ -1,0 +1,79 @@
+id: en-pre-a1-u04
+title: { nl: Familie en vrienden }
+icon: family
+topic: Family and friends
+vocabulary:
+  - { target: family, native: { nl: "familie, gezin" }, pos: noun, category: true }
+  - { target: mother, native: { nl: "moeder, mama" }, pos: noun }
+  - { target: mum, native: { nl: mama }, pos: noun }
+  - { target: father, native: { nl: "vader, papa" }, pos: noun }
+  - { target: dad, native: { nl: papa }, pos: noun }
+  - { target: brother, native: { nl: broer }, pos: noun }
+  - { target: sister, native: { nl: zus }, pos: noun }
+  - { target: baby, native: { nl: baby }, pos: noun }
+  - { target: grandfather, native: { nl: "opa, grootvader" }, pos: noun }
+  - { target: grandpa, native: { nl: opa }, pos: noun }
+  - { target: grandmother, native: { nl: "oma, grootmoeder" }, pos: noun }
+  - { target: grandma, native: { nl: oma }, pos: noun }
+  - { target: cousin, native: { nl: "neef, nicht" }, pos: noun }
+  - { target: child, native: { nl: kind }, pos: noun }
+  - { target: children, native: { nl: kinderen }, pos: noun }
+  - { target: kid, native: { nl: "kind, kid" }, pos: noun }
+  - { target: boy, native: { nl: jongen }, pos: noun }
+  - { target: girl, native: { nl: meisje }, pos: noun }
+  - { target: friend, native: { nl: "vriend, vriendin" }, pos: noun }
+  - { target: name, native: { nl: naam }, pos: noun }
+  - { target: pet, native: { nl: huisdier }, pos: noun }
+  - { target: love, native: { nl: houden van }, pos: verb }
+  - { target: live, native: { nl: wonen }, pos: verb }
+  - { target: man, native: { nl: man }, pos: noun }
+  - { target: men, native: { nl: mannen }, pos: noun }
+  - { target: woman, native: { nl: vrouw }, pos: noun }
+  - { target: women, native: { nl: vrouwen }, pos: noun }
+  - { target: person, native: { nl: persoon }, pos: noun }
+  - { target: people, native: { nl: mensen }, pos: noun }
+  - { target: Mr, native: { nl: meneer }, pos: other }
+  - { target: Mrs, native: { nl: mevrouw }, pos: other }
+  - { target: Miss, native: { nl: "juf, juffrouw" }, pos: other }
+sentences:
+  - { id: s01, target: "This is my family.", native: { nl: "Dit is mijn gezin." }, items: [en.family] }
+  - { id: s02, target: "My mother is a teacher.", native: { nl: "Mijn moeder is juf." }, items: [en.mother] }
+  - { id: s03, target: "Mum, can I have a cake?", native: { nl: "Mama, mag ik een taartje?" }, items: [en.mum] }
+  - { id: s04, target: "My father has got a big car.", native: { nl: "Mijn vader heeft een grote auto." }, items: [en.father, en.big] }
+  - { id: s05, target: "Dad is in the kitchen.", native: { nl: "Papa is in de keuken." }, items: [en.dad] }
+  - { id: s06, target: "I've got two brothers.", native: { nl: "Ik heb twee broers." }, items: [en.brother, en.two], acceptAlso: ["I have got two brothers."] }
+  - { id: s07, target: "My sister is eight.", native: { nl: "Mijn zus is acht." }, items: [en.sister, en.eight] }
+  - { id: s08, target: "The baby is sleeping.", native: { nl: "De baby slaapt." }, items: [en.baby] }
+  - { id: s09, target: "My grandfather is reading a book.", native: { nl: "Mijn opa leest een boek." }, items: [en.grandfather] }
+  - { id: s10, target: "Grandpa and I are playing football.", native: { nl: "Opa en ik zijn aan het voetballen." }, items: [en.grandpa] }
+  - { id: s11, target: "My grandmother lives in a small house.", native: { nl: "Mijn oma woont in een klein huis." }, items: [en.grandmother, en.small] }
+  - { id: s12, target: "Grandma is making a cake.", native: { nl: "Oma is een taart aan het bakken." }, items: [en.grandma] }
+  - { id: s13, target: "My cousin is nine.", native: { nl: "Mijn nicht is negen." }, items: [en.cousin, en.nine] }
+  - { id: s14, target: "The child is happy.", native: { nl: "Het kind is blij." }, items: [en.child] }
+  - { id: s15, target: "The children are at school.", native: { nl: "De kinderen zijn op school." }, items: [en.children] }
+  - { id: s16, target: "Those kids are my friends.", native: { nl: "Die kinderen zijn mijn vrienden." }, items: [en.kid, en.friend] }
+  - { id: s17, target: "Look at that kid on the bike!", native: { nl: "Kijk naar dat kind op de fiets!" }, items: [en.kid] }
+  - { id: s18, target: "That boy is my brother.", native: { nl: "Die jongen is mijn broer." }, items: [en.boy, en.brother] }
+  - { id: s19, target: "The girl has got a red bike.", native: { nl: "Het meisje heeft een rode fiets." }, items: [en.girl, en.red] }
+  - { id: s20, target: "Anna is my friend.", native: { nl: "Anna is mijn vriendin." }, items: [en.friend] }
+  - { id: s21, target: "What's your name?", native: { nl: "Hoe heet jij?" }, items: [en.name], acceptAlso: ["What is your name?"] }
+  - { id: s22, target: "My name is Sue.", native: { nl: "Ik heet Sue." }, items: [en.name] }
+  - { id: s23, target: "Have you got a pet?", native: { nl: "Heb jij een huisdier?" }, items: [en.pet] }
+  - { id: s24, target: "I love my cat.", native: { nl: "Ik hou van mijn kat." }, items: [en.love, en.cat] }
+  - { id: s25, target: "I live with my mum and dad.", native: { nl: "Ik woon bij mijn mama en papa." }, items: [en.live] }
+  - { id: s26, target: "Where do you live?", native: { nl: "Waar woon jij?" }, items: [en.live] }
+  - { id: s27, target: "The man has got a black dog.", native: { nl: "De man heeft een zwarte hond." }, items: [en.man, en.black, en.dog] }
+  - { id: s28, target: "Two men are in the boat.", native: { nl: "Er zitten twee mannen in de boot." }, items: [en.men, en.two] }
+  - { id: s29, target: "The woman is my teacher.", native: { nl: "De vrouw is mijn juf." }, items: [en.woman] }
+  - { id: s30, target: "Three women are singing.", native: { nl: "Drie vrouwen zijn aan het zingen." }, items: [en.women, en.three] }
+  - { id: s31, target: "Who is that person?", native: { nl: "Wie is die persoon?" }, items: [en.person] }
+  - { id: s32, target: "There are a lot of people in the park.", native: { nl: "Er zijn veel mensen in het park." }, items: [en.people] }
+  - { id: s33, target: "Hello, Mr Brown!", native: { nl: "Hallo, meneer Brown!" }, items: [en.mr, en.hello] }
+  - { id: s34, target: "Mrs White is our teacher.", native: { nl: "Mevrouw White is onze juf." }, items: [en.mrs] }
+  - { id: s35, target: "Good morning, Miss Green!", native: { nl: "Goedemorgen, juf Green!" }, items: [en.miss, en.good] }
+  - { id: s36, target: "My mum and dad love me.", native: { nl: "Mijn mama en papa houden van mij." }, items: [en.mum, en.dad, en.love] }
+lessons:
+  - { id: l01, title: { nl: Mijn gezin }, vocab: [en.family, en.mother, en.mum, en.father, en.dad, en.brother, en.sister, en.baby] }
+  - { id: l02, title: { nl: Opa en oma }, vocab: [en.grandfather, en.grandpa, en.grandmother, en.grandma, en.cousin, en.child, en.children, en.kid] }
+  - { id: l03, title: { nl: Jongens en meisjes }, vocab: [en.boy, en.girl, en.friend, en.name, en.pet, en.love, en.live, en.man] }
+  - { id: l04, title: { nl: Mensen }, vocab: [en.men, en.woman, en.women, en.person, en.people, en.mr, en.mrs, en.miss] }

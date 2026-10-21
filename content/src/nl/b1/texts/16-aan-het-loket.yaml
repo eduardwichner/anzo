@@ -1,0 +1,37 @@
+id: nl-b1-t16
+kind: dialogue
+title: { en: The train has been cancelled }
+topic: Travel and holidays (a traveller at the station information desk)
+level: B1
+speakers: { A: { name: Pieter }, B: { name: Nina (loket) } }
+turns:
+  - { id: nl-b1-t16-s01, speaker: A, target: "Goedemorgen. Mijn trein naar de luchthaven is afgeschaft. Wat moet ik nu doen?", native: { en: "Good morning. My train to the airport has been cancelled. What should I do now?" } }
+  - { id: nl-b1-t16-s02, speaker: B, target: "Dat spijt me. Door een staking rijden er vandaag minder treinen. Hoe laat vertrekt uw vlucht?", native: { en: "I'm sorry. Because of a strike there are fewer trains today. What time does your flight leave?" } }
+  - { id: nl-b1-t16-s03, speaker: A, target: "Om twaalf uur. Ik zou om tien uur moeten inchecken.", native: { en: "At twelve. I'm supposed to check in at ten." } }
+  - { id: nl-b1-t16-s04, speaker: B, target: "Er vertrekt om kwart na negen een trein naar Brussel-Zuid. Daar hebt u aansluiting op de trein naar de luchthaven.", native: { en: "There's a train to Brussels-South at a quarter past nine. There you have a connection with the train to the airport." } }
+  - { id: nl-b1-t16-s05, speaker: A, target: "En als die ook vertraagd is? Ik wil mijn vlucht echt niet missen.", native: { en: "And if that one is delayed too? I really don't want to miss my flight." } }
+  - { id: nl-b1-t16-s06, speaker: B, target: "Dan zou ik een bus nemen. Voor het station vertrekt elk half uur een bus naar de luchthaven.", native: { en: "Then I'd take a bus. A bus to the airport leaves from in front of the station every half hour." } }
+  - { id: nl-b1-t16-s07, speaker: A, target: "Is mijn treinticket ook geldig op die bus?", native: { en: "Is my train ticket also valid on that bus?" } }
+  - { id: nl-b1-t16-s08, speaker: B, target: "Nee, helaas niet. Maar u kunt achteraf een compensatie aanvragen op onze website.", native: { en: "No, unfortunately not. But you can apply for compensation afterwards on our website." } }
+  - { id: nl-b1-t16-s09, speaker: A, target: "Wat heb ik daarvoor nodig?", native: { en: "What do I need for that?" } }
+  - { id: nl-b1-t16-s10, speaker: B, target: "Uw treinticket en uw busticket. Bewaar ze goed, want zonder bewijs wordt er niets terugbetaald.", native: { en: "Your train ticket and your bus ticket. Keep them safe, because without proof nothing is refunded." } }
+  - { id: nl-b1-t16-s11, speaker: A, target: "Dat zal ik doen. Op welk spoor vertrekt de trein naar Brussel?", native: { en: "I'll do that. Which platform does the train to Brussels leave from?" } }
+  - { id: nl-b1-t16-s12, speaker: B, target: "Op spoor vier. Goede reis, en ik hoop dat u op tijd bent!", native: { en: "Platform four. Have a good trip, and I hope you're on time!" } }
+glossary:
+  - { word: achteraf, native: { en: afterwards } }
+items: [nl.afschaffen, nl.vlucht, nl.inchecken, nl.aansluiting, nl.vertraagd, nl.compensatie, nl.aanvragen, nl.terugbetalen, nl.helaas, nl.aanvraag, nl.geldig, nl.staking, nl.zonde, nl.bewijs, nl.spijten]
+questions:
+  - { id: nl-b1-t16-q1, type: mc, question: "Waarom rijden er vandaag minder treinen?", options: ["Door een staking.", "Door slecht weer.", "Door werken aan het spoor."], correct: 0 }
+  - { id: nl-b1-t16-q4, type: true_false_notgiven, statement: "Pieter vliegt naar Spanje.", answer: not_given }
+  - { id: nl-b1-t16-q2, type: true_false_notgiven, statement: "Pieter moet om tien uur op de luchthaven inchecken.", answer: true }
+  - { id: nl-b1-t16-q3, type: true_false_notgiven, statement: "Met zijn treinticket mag Pieter gratis de bus nemen.", answer: false }
+  - { id: nl-b1-t16-q5, type: mc, question: "Wat heeft Pieter nodig om een compensatie te vragen?", options: ["Zijn treinticket en zijn busticket.", "Zijn paspoort.", "Een brief van de luchthaven."], correct: 0 }
+listeningQuestions:
+  - { id: nl-b1-t16-l1, type: mc, question: "Van welk spoor vertrekt de trein naar Brussel?", options: ["Spoor vier.", "Spoor twee.", "Spoor negen."], correct: 0 }
+  - { id: nl-b1-t16-l2, type: true_false_notgiven, statement: "De bus naar de luchthaven vertrekt maar één keer per uur.", answer: false }
+cloze:
+  - { sentence: nl-b1-t16-s05, word: is, kind: finite_verb, hint: { en: "zijn (present)" } }
+  - { sentence: nl-b1-t16-s04, word: vertrekt, kind: finite_verb, hint: { en: "vertrekken (present)" } }
+  - { sentence: nl-b1-t16-s06, word: zou, kind: finite_verb, hint: { en: "zullen (conditional)" } }
+  - { sentence: nl-b1-t16-s10, word: wordt, kind: finite_verb, hint: { en: "worden (present)" } }
+orderable: true

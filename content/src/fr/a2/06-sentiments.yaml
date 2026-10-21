@@ -1,0 +1,47 @@
+id: fr-a2-u06
+title: { nl: Hoe voel je je?, en: "How are you feeling?" }
+icon: people
+topic: Les sentiments; dire ce qu'on aime
+vocabulary:
+  - { target: heureux, native: { nl: gelukkig, en: "happy" }, pos: adjective }
+  - { target: malheureux, native: { nl: ongelukkig, en: "unhappy" }, pos: adjective }
+  - { target: fâché, native: { nl: boos, en: "angry, annoyed" }, pos: adjective }
+  - { target: fier, native: { nl: trots, en: "proud" }, pos: adjective }
+  - { target: inquiet, native: { nl: ongerust, en: "worried" }, pos: adjective }
+  - { target: surpris, native: { nl: "verrast, verbaasd", en: "surprised" }, pos: adjective }
+  - { target: calme, native: { nl: "rustig, kalm", en: "calm, quiet" }, pos: adjective }
+  - { target: curieux, native: { nl: nieuwsgierig, en: "curious" }, pos: adjective }
+  - { target: la joie, native: { nl: "de vreugde, de blijdschap", en: "joy" }, pos: noun, gender: f, avoid: [fr.chance] }
+  - { target: avoir peur, native: { nl: bang zijn, en: "to be afraid, to be scared" }, pos: phrase }
+  - { target: rire, native: { nl: lachen, en: "to laugh" }, pos: verb }
+  - { target: pleurer, native: { nl: huilen, en: "to cry" }, pos: verb }
+  - { target: sourire, native: { nl: glimlachen, en: "to smile" }, pos: verb }
+  - { target: "s'ennuyer", native: { nl: zich vervelen, en: "to be bored" }, pos: verb }
+  - { target: "s'amuser", native: { nl: plezier hebben, en: "to have fun, to enjoy yourself" }, pos: verb }
+  - { target: ennuyeux, native: { nl: saai, en: "boring" }, pos: adjective }
+  - { target: intéressant, native: { nl: interessant, en: "interesting" }, pos: adjective }
+  - { target: amusant, native: { nl: "leuk, grappig", en: "fun, funny" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Je suis très heureuse aujourd'hui.", native: { nl: "Ik ben vandaag heel gelukkig.", en: "I'm very happy today." }, items: [fr.heureux] }
+  - { id: s02, target: "Le chien perdu est malheureux.", native: { nl: "De verdwaalde hond is ongelukkig.", en: "The lost dog is unhappy." }, items: [fr.malheureux] }
+  - { id: s03, target: "Papa est fâché, j'ai cassé un verre.", native: { nl: "Papa is boos, ik heb een glas gebroken.", en: "Dad is angry: I broke a glass." }, items: [fr.fache] }
+  - { id: s04, target: "Je suis fière de toi !", native: { nl: "Ik ben trots op je!", en: "I'm proud of you!" }, items: [fr.fier] }
+  - { id: s05, target: "Maman est inquiète, il est tard.", native: { nl: "Mama is ongerust, het is laat.", en: "Mum is worried: it's late." }, items: [fr.inquiet] }
+  - { id: s06, target: "J'ai été très surprise par la fête !", native: { nl: "Ik was heel verrast door het feest!", en: "I was very surprised by the party!" }, items: [fr.surpris] }
+  - { id: s07, target: "La mer est calme ce matin.", native: { nl: "De zee is vanochtend rustig.", en: "The sea is calm this morning." }, items: [fr.calme] }
+  - { id: s08, target: "Mon chat est très curieux.", native: { nl: "Mijn kat is heel nieuwsgierig.", en: "My cat is very curious." }, items: [fr.curieux] }
+  - { id: s09, target: "Quelle joie de te voir !", native: { nl: "Wat fijn om je te zien!", en: "What a joy to see you!" }, items: [fr.joie] }
+  - { id: s10, target: "Avant, j'avais peur des chiens.", native: { nl: "Vroeger was ik bang voor honden.", en: "I used to be afraid of dogs." }, items: [fr.avoir-peur] }
+  - { id: s11, target: "N'aie pas peur, il est gentil.", native: { nl: "Wees niet bang, hij is lief.", en: "Don't be afraid, he's friendly." }, items: [fr.avoir-peur] }
+  - { id: s12, target: "Nous avons beaucoup ri au cirque.", native: { nl: "We hebben veel gelachen in het circus.", en: "We laughed a lot at the circus." }, items: [fr.rire] }
+  - { id: s13, target: "Le bébé pleure, il a faim.", native: { nl: "De baby huilt, hij heeft honger.", en: "The baby is crying: he's hungry." }, items: [fr.pleurer] }
+  - { id: s14, target: "Souris pour la photo !", native: { nl: "Glimlachen voor de foto!", en: "Smile for the photo!" }, items: [fr.sourire] }
+  - { id: s15, target: "Il pleut, je m'ennuie à la maison.", native: { nl: "Het regent, ik verveel me thuis.", en: "It's raining, so I'm bored at home." }, items: [fr.s-ennuyer] }
+  - { id: s16, target: "On s'est bien amusés à la piscine !", native: { nl: "We hebben veel plezier gehad in het zwembad!", en: "We had great fun at the swimming pool!" }, items: [fr.s-amuser] }
+  - { id: s17, target: "Ce film est ennuyeux.", native: { nl: "Deze film is saai.", en: "This film is boring." }, items: [fr.ennuyeux] }
+  - { id: s18, target: "Ton livre est très intéressant.", native: { nl: "Jouw boek is heel interessant.", en: "Your book is very interesting." }, items: [fr.interessant] }
+  - { id: s19, target: "Le jeu est amusant.", native: { nl: "Het spel is leuk.", en: "The game is fun." }, items: [fr.amusant] }
+lessons:
+  - { id: l01, title: { nl: Blij en boos, en: "Happy and angry" }, vocab: [fr.heureux, fr.malheureux, fr.fache, fr.fier, fr.inquiet, fr.surpris] }
+  - { id: l02, title: { nl: Lachen en huilen, en: "Laughing and crying" }, vocab: [fr.calme, fr.curieux, fr.joie, fr.avoir-peur, fr.rire, fr.pleurer] }
+  - { id: l03, title: { nl: Saai of leuk?, en: "Boring or fun?" }, vocab: [fr.sourire, fr.s-ennuyer, fr.s-amuser, fr.ennuyeux, fr.interessant, fr.amusant] }

@@ -1,0 +1,91 @@
+id: nl-b2-u11
+title: { en: Mobility }
+icon: bike
+topic: Commuting, traffic jams, public transport, cycling and road safety; infinitive constructions with te (proberen te, beloven te, weigeren te, lijken te, hoeven te, staan te, zitten te)
+vocabulary:
+  - { target: de mobiliteit, native: { en: "mobility, getting around" }, pos: noun, plural: "-" }
+  - { target: het vervoer, native: { en: "transport (as in: public transport)" }, pos: noun, plural: "-" }
+  - { target: pendelen, native: { en: to commute }, pos: verb }
+  - { target: de pendelaar, native: { en: commuter }, pos: noun, plural: pendelaars }
+  - { target: het woon-werkverkeer, native: { en: "commuting traffic" }, pos: noun, plural: "-" }
+  - { target: de verplaatsing, native: { en: "journey, trip" }, pos: noun, plural: verplaatsingen }
+  - { target: de reistijd, native: { en: travel time }, pos: noun, plural: reistijden }
+  - { target: de afstand, native: { en: distance }, pos: noun, plural: afstanden }
+  - { target: de spits, native: { en: "rush hour" }, pos: noun, plural: "-" }
+  - { target: de snelweg, native: { en: motorway }, pos: noun, plural: snelwegen }
+  - { target: de ring, native: { en: "ring road" }, pos: noun, plural: ringen, noBlank: true }
+  - { target: de tunnel, native: { en: tunnel }, pos: noun, plural: tunnels }
+  - { target: de tol, native: { en: toll }, pos: noun, plural: "-" }
+  - { target: de parkeerplaats, native: { en: "parking space" }, pos: noun, plural: parkeerplaatsen }
+  - { target: de automobilist, native: { en: motorist }, pos: noun, plural: automobilisten }
+  - { target: de bestuurder, native: { en: driver }, pos: noun, plural: bestuurders, avoid: [nl.chauffeur, nl.automobilist] }
+  - { target: de voetganger, native: { en: pedestrian }, pos: noun, plural: voetgangers }
+  - { target: de deelfiets, native: { en: "shared bike, rental bike" }, pos: noun, plural: deelfietsen }
+  - { target: de step, native: { en: "scooter (kick or electric)" }, pos: noun, plural: steps }
+  - { target: de dienstregeling, native: { en: timetable }, pos: noun, plural: dienstregelingen }
+  - { target: de conducteur, native: { en: "(train) guard, conductor" }, pos: noun, plural: conducteurs }
+  - { target: de verkeersveiligheid, native: { en: road safety }, pos: noun, plural: "-" }
+  - { target: de snelheidsbeperking, native: { en: speed limit }, pos: noun, plural: snelheidsbeperkingen }
+  - { target: de flitspaal, native: { en: "speed camera (Belgian)" }, pos: noun, plural: flitspalen, alsoNL: de flitser }
+  - { target: de zone, native: { en: zone }, pos: noun, plural: zones }
+  - { target: de infrastructuur, native: { en: infrastructure }, pos: noun, plural: "-" }
+  - { target: het alternatief, native: { en: alternative }, pos: noun, plural: alternatieven }
+  - { target: de bereikbaarheid, native: { en: "accessibility (how easy it is to get somewhere)" }, pos: noun, plural: "-" }
+  - { target: de frustratie, native: { en: frustration }, pos: noun, plural: frustraties }
+  - { target: carpoolen, native: { en: "to carpool" }, pos: verb }
+  - { target: aanleggen, native: { en: "to build, to lay (a road, a path)" }, pos: verb }
+  - { target: stipt, native: { en: "punctual, on time" }, pos: adjective }
+  - { target: bereikbaar, native: { en: "reachable, accessible" }, pos: adjective }
+  - { target: comfortabel, native: { en: comfortable }, pos: adjective }
+  - { target: efficiënt, native: { en: efficient }, pos: adjective }
+sentences:
+  - { id: s01, target: "Mobiliteit is in Vlaanderen een groot probleem.", native: { en: "Mobility is a big problem in Flanders." }, items: [nl.mobiliteit] }
+  - { id: s02, target: "Met het openbaar vervoer ben je vaak even snel.", native: { en: "By public transport you're often just as quick." }, items: [nl.vervoer, nl.openbaar], acceptAlso: ["Vaak ben je met het openbaar vervoer even snel."] }
+  - { id: s03, target: "Ik pendel elke dag van Gent naar Brussel.", native: { en: "I commute every day from Ghent to Brussels." }, items: [nl.pendelen], finite: { word: pendel, hint: { en: "pendelen (present)" } } }
+  - { id: s04, target: "De pendelaars staan elke ochtend in de file.", native: { en: "The commuters are stuck in traffic every morning." }, items: [nl.pendelaar], acceptAlso: ["Elke ochtend staan de pendelaars in de file."] }
+  - { id: s05, target: "Het woon-werkverkeer zorgt voor lange files.", native: { en: "Commuter traffic causes long traffic jams." }, items: [nl.woon-werkverkeer] }
+  - { id: s06, target: "Hoeveel verplaatsingen doe je per dag?", native: { en: "How many journeys do you make per day?" }, items: [nl.verplaatsing] }
+  - { id: s07, target: "Met de trein is mijn reistijd korter.", native: { en: "By train my travel time is shorter." }, items: [nl.reistijd] }
+  - { id: s08, target: "Voor korte afstanden neem ik de fiets.", native: { en: "For short distances I take the bike." }, items: [nl.afstand], acceptAlso: ["Ik neem de fiets voor korte afstanden.", "Ik neem voor korte afstanden de fiets."] }
+  - { id: s09, target: "Tijdens de spits zit de trein vol.", native: { en: "During rush hour the train is full." }, items: [nl.spits], acceptAlso: ["De trein zit vol tijdens de spits."] }
+  - { id: s10, target: "Op de snelweg is er een ongeval gebeurd.", native: { en: "There has been an accident on the motorway." }, items: [nl.snelweg] }
+  - { id: s11, target: "Op de ring rond Antwerpen staat bijna altijd file.", native: { en: "There is nearly always a traffic jam on the ring road around Antwerp." }, items: [nl.ring] }
+  - { id: s12, target: "De tunnel is vannacht voor werken gesloten.", native: { en: "The tunnel is closed tonight for maintenance work." }, items: [nl.tunnel], acceptAlso: ["De tunnel is vannacht gesloten voor werken.", "Vannacht is de tunnel voor werken gesloten.", "Vannacht is de tunnel gesloten voor werken."] }
+  - { id: s13, target: "In Frankrijk betaal je tol op de snelweg.", native: { en: "In France you pay a toll on the motorway." }, items: [nl.tol], acceptAlso: ["In Frankrijk betaal je op de snelweg tol.", "Op de snelweg betaal je in Frankrijk tol."] }
+  - { id: s15, target: "Het is moeilijk om in het centrum een parkeerplaats te vinden.", native: { en: "It is hard to find a parking space in the centre." }, items: [nl.parkeerplaats], acceptAlso: ["Het is moeilijk om een parkeerplaats te vinden in het centrum.", "Het is moeilijk om een parkeerplaats in het centrum te vinden.", "In het centrum is het moeilijk om een parkeerplaats te vinden.", "Het is in het centrum moeilijk om een parkeerplaats te vinden."] }
+  - { id: s16, target: "Veel automobilisten rijden te snel in de stad.", native: { en: "Many motorists drive too fast in town." }, items: [nl.automobilist] }
+  - { id: s17, target: "De bestuurder van de bus was gelukkig niet gewond.", native: { en: "Fortunately the driver of the bus was not injured." }, items: [nl.bestuurder] }
+  - { id: s18, target: "Voetgangers lopen op het voetpad.", native: { en: "Pedestrians walk on the pavement." }, items: [nl.voetganger] }
+  - { id: s19, target: "Aan het station kun je een deelfiets huren.", native: { en: "At the station you can rent a shared bike." }, items: [nl.deelfiets], acceptAlso: ["Een deelfiets kun je aan het station huren."] }
+  - { id: s20, target: "Met een elektrische step ben je snel op je werk.", native: { en: "With an electric scooter you get to work quickly." }, items: [nl.step] }
+  - { id: s21, target: "De nieuwe dienstregeling begint in december.", native: { en: "The new timetable starts in December." }, items: [nl.dienstregeling] }
+  - { id: s22, target: "De conducteur controleert de tickets.", native: { en: "The guard checks the tickets." }, items: [nl.conducteur] }
+  - { id: s23, target: "Verkeersveiligheid begint bij jezelf.", native: { en: "Road safety starts with you." }, items: [nl.verkeersveiligheid] }
+  - { id: s24, target: "In de buurt van scholen is er een snelheidsbeperking.", native: { en: "Near schools there is a speed limit." }, items: [nl.snelheidsbeperking] }
+  - { id: s25, target: "Hij werd door een flitspaal geflitst.", native: { en: "He was caught by a speed camera." }, items: [nl.flitspaal], acceptAlso: ["Hij werd geflitst door een flitspaal."] }
+  - { id: s26, target: "In de nieuwe zone mogen oude auto's niet meer rijden.", native: { en: "Old cars are no longer allowed in the new zone." }, items: [nl.zone] }
+  - { id: s27, target: "De stad investeert in betere infrastructuur voor fietsers.", native: { en: "The city is investing in better infrastructure for cyclists." }, items: [nl.infrastructuur] }
+  - { id: s28, target: "De trein is een goed alternatief voor de auto.", native: { en: "The train is a good alternative to the car." }, items: [nl.alternatief] }
+  - { id: s29, target: "De bereikbaarheid van het ziekenhuis moet beter.", native: { en: "Access to the hospital has to improve." }, items: [nl.bereikbaarheid], form: { word: bereikbaarheid, stem: bereikbaar } }
+  - { id: s30, target: "Elke dag in de file staan zorgt voor veel frustratie.", native: { en: "Being stuck in traffic every day causes a lot of frustration." }, items: [nl.frustratie] }
+  - { id: s31, target: "Mijn collega's en ik carpoolen naar het werk.", native: { en: "My colleagues and I carpool to work." }, items: [nl.carpoolen] }
+  - { id: s32, target: "De gemeente legt een nieuw fietspad aan.", native: { en: "The council is building a new cycle path." }, items: [nl.aanleggen] }
+  - { id: s34, target: "De trein was vandaag stipt op tijd.", native: { en: "The train was right on time today." }, items: [nl.stipt], acceptAlso: ["Vandaag was de trein stipt op tijd."] }
+  - { id: s35, target: "Het dorp is moeilijk bereikbaar met het openbaar vervoer.", native: { en: "The village is hard to reach by public transport." }, items: [nl.bereikbaar], acceptAlso: ["Het dorp is met het openbaar vervoer moeilijk bereikbaar.", "Met het openbaar vervoer is het dorp moeilijk bereikbaar."] }
+  - { id: s36, target: "De nieuwe trein is erg comfortabel.", native: { en: "The new train is very comfortable." }, items: [nl.comfortabel] }
+  - { id: s37, target: "In de stad is een fiets heel efficiënt.", native: { en: "In town a bike is very efficient." }, items: [nl.efficient], acceptAlso: ["Een fiets is in de stad heel efficiënt."] }
+  - { id: s38, target: "Voor korte afstanden probeer ik met de fiets te gaan.", native: { en: "For short distances I try to go by bike." }, items: [nl.afstand], build: true, acceptAlso: ["Ik probeer voor korte afstanden met de fiets te gaan."] }
+  - { id: s39, target: "De minister belooft om meer treinen te laten rijden.", native: { en: "The minister promises to run more trains." }, items: [nl.dienstregeling] }
+  - { id: s40, target: "De automobilist weigert om zijn auto te laten staan.", native: { en: "The motorist refuses to leave his car at home." }, items: [nl.automobilist], build: true }
+  - { id: s41, target: "Tijdens het eerste halfuur hoef je voor de deelfiets niet te betalen.", native: { en: "You don't have to pay for the shared bike during the first half hour." }, items: [nl.deelfiets], acceptAlso: ["Voor de deelfiets hoef je tijdens het eerste halfuur niet te betalen.", "Tijdens het eerste halfuur hoef je niet te betalen voor de deelfiets."] }
+  - { id: s42, target: "De frustratie over de file lijkt elk jaar groter te worden.", native: { en: "Frustration about traffic jams seems to grow every year." }, items: [nl.frustratie], acceptAlso: ["Elk jaar lijkt de frustratie over de file groter te worden."] }
+  - { id: s43, target: "We stonden tijdens de spits een uur in de file te wachten.", native: { en: "We sat waiting in a traffic jam for an hour during rush hour." }, items: [nl.spits] }
+  - { id: s44, target: "De verkeersveiligheid in onze straat is slecht.", native: { en: "Road safety in our street is bad." }, items: [nl.verkeersveiligheid] }
+  - { id: s45, target: "Voor een pendelaar is een abonnement goedkoper.", native: { en: "For a commuter a season ticket is cheaper." }, items: [nl.pendelaar], form: { word: pendelaar, stem: pendelen } }
+  - { id: s46, target: "In de trein zit ik vaak te lezen.", native: { en: "On the train I often sit reading." }, items: [nl.pendelaar] }
+  - { id: s47, target: "De trein is vaak te laat; desondanks blijf ik hem elke dag nemen.", native: { en: "The train is often late; nevertheless I keep taking it every day." }, items: [nl.desondanks] }
+transforms:
+  - { id: x01, from: "De automobilist wil zijn auto echt niet laten staan.", key: weigert, gapped: "De automobilist ___ te laten staan.", answers: ["weigert om zijn auto", "weigert zijn auto", "weigert echt om zijn auto", "weigert echt zijn auto"], items: [nl.automobilist] }
+  - { id: x02, from: "Het is niet nodig dat je een ticket koopt.", key: hoeft, gapped: "Je ___ ticket te kopen.", answers: ["hoeft geen"], items: [nl.dienstregeling] }
+  - { id: x03, from: "Het ziet ernaar uit dat de trein vertraging heeft.", key: lijkt, gapped: "De trein ___ te hebben.", answers: ["lijkt vertraging"], items: [nl.conducteur] }
+texts: [nl-b2-t12]

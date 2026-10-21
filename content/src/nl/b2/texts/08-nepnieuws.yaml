@@ -1,0 +1,54 @@
+id: nl-b2-t08
+kind: reading
+title: { en: How do you recognise fake news? }
+topic: Media and information (an article in an online magazine)
+level: B2
+paragraphs:
+  - - { id: nl-b2-t08-s01, target: "Een foto van een overstroomde luchthaven, een citaat van een minister dat nooit is uitgesproken, een filmpje dat uit zijn context is gehaald.", native: { en: "A photo of a flooded airport, a quote from a minister that was never said, a video taken out of its context." } }
+    - { id: nl-b2-t08-s02, target: "Elke dag wordt er op sociale media nepnieuws verspreid.", native: { en: "Every day fake news is spread on social media." } }
+    - { id: nl-b2-t08-s03, target: "Volgens een recent onderzoek twijfelt een op de drie mensen of ze nepnieuws van echt nieuws kunnen onderscheiden.", native: { en: "According to a recent study one in three people doubt whether they can tell fake news from real news." } }
+  - - { id: nl-b2-t08-s04, target: "Waarom geloven we zo gemakkelijk wat we online lezen?", native: { en: "Why do we so easily believe what we read online?" } }
+    - { id: nl-b2-t08-s05, target: "Een belangrijke rol is weggelegd voor de algoritmes van de grote platformen.", native: { en: "An important role is played by the algorithms of the big platforms." } }
+    - { id: nl-b2-t08-s06, target: "Ze tonen ons vooral berichten die sterke emoties oproepen, omdat we daar langer naar kijken.", native: { en: "They mainly show us posts that arouse strong emotions, because we look at those for longer." } }
+    - { id: nl-b2-t08-s07, target: "Een bericht dat ons boos of bang maakt, wordt bovendien sneller gedeeld.", native: { en: "A post that makes us angry or afraid is, moreover, shared faster." } }
+  - - { id: nl-b2-t08-s08, target: "Daarnaast lezen veel mensen alleen de kop van een artikel.", native: { en: "In addition many people only read the headline of an article." } }
+    - { id: nl-b2-t08-s09, target: "Wie niet verder leest, mist vaak de nuance die in de tekst zelf staat.", native: { en: "Anyone who doesn't read on often misses the nuance that is in the text itself." } }
+    - { id: nl-b2-t08-s10, target: "Journalisten van betrouwbare media controleren hun feiten, maar op sociale media doet bijna niemand dat.", native: { en: "Journalists at reputable news outlets check their facts, but on social media almost nobody does." } }
+  - - { id: nl-b2-t08-s11, target: "Hoe kun je jezelf beschermen?", native: { en: "How can you protect yourself?" } }
+    - { id: nl-b2-t08-s12, target: "Ga eerst na wie de auteur is en waar het bericht vandaan komt.", native: { en: "First check who the author is and where the message comes from." } }
+    - { id: nl-b2-t08-s13, target: "Een geloofwaardig artikel verwijst naar bronnen die je zelf kunt controleren.", native: { en: "A credible article refers to sources that you can check yourself." } }
+    - { id: nl-b2-t08-s14, target: "Kijk ook naar de datum: soms worden oude beelden opnieuw verspreid alsof ze nieuw zijn.", native: { en: "Also look at the date: sometimes old images are spread again as if they were new." } }
+  - - { id: nl-b2-t08-s15, target: "Wees vooral kritisch als een bericht precies bevestigt wat je al dacht.", native: { en: "Be especially critical when a message confirms exactly what you already thought." } }
+    - { id: nl-b2-t08-s16, target: "Dat zijn de berichten die we het minst controleren.", native: { en: "Those are the messages we check least." } }
+    - { id: nl-b2-t08-s17, target: "En twijfel je nog, deel het bericht dan gewoon niet.", native: { en: "And if you are still in doubt, simply don't share the message." } }
+  - - { id: nl-b2-t08-s18, target: "Ook de overheid en de scholen hebben een taak.", native: { en: "The government and schools also have a task." } }
+    - { id: nl-b2-t08-s19, target: "Steeds meer leerkrachten leren hun leerlingen hoe ze bronnen kunnen beoordelen.", native: { en: "More and more teachers teach their pupils how to judge sources." } }
+    - { id: nl-b2-t08-s20, target: "Want wie zelf kan nagaan wat waar is, laat zich minder snel manipuleren.", native: { en: "Because anyone who can check for themselves what is true is less easily manipulated." } }
+glossary:
+  - { word: weggelegd, native: { en: "(is weggelegd voor) is reserved for, falls to" } }
+  - { word: overstroomde, native: { en: "flooded (overstromen)" } }
+  - { word: citaat, native: { en: quote } }
+  - { word: context, native: { en: context } }
+  - { word: onderscheiden, native: { en: "to tell apart, to distinguish" } }
+  - { word: oproepen, native: { en: "to arouse, to call up" } }
+  - { word: bevestigt, native: { en: "confirms (bevestigen)" } }
+items: [nl.nepnieuws, nl.verspreiden, nl.twijfelen, nl.rol, nl.algoritme, nl.platform, nl.emotie, nl.kop, nl.feit, nl.media, nl.jezelf, nl.nagaan, nl.auteur, nl.geloofwaardig, nl.verwijzen, nl.beeld, nl.kritisch, nl.overheid, nl.manipuleren, nl.nuance]
+gapped:
+  gaps: [nl-b2-t08-s04, nl-b2-t08-s09, nl-b2-t08-s16, nl-b2-t08-s19]
+  extra:
+    - { id: nl-b2-t08-x1, target: "Daarom lezen jongeren tegenwoordig vooral papieren kranten.", native: { en: "That is why young people nowadays mainly read paper newspapers." } }
+questions:
+  - { id: nl-b2-t08-q1, type: summary, options: ["Het artikel legt uit waarom nepnieuws zich zo snel verspreidt en hoe je het kunt herkennen.", "Het artikel legt uit waarom nepnieuws zich zo snel verspreidt en waarom je het bijna nooit kunt herkennen.", "Het artikel zegt dat je beter nooit nieuws op sociale media leest."], correct: 0 }
+  - { id: nl-b2-t08-q2, type: mc, question: "Waarom tonen algoritmes vooral berichten met sterke emoties?", options: ["Omdat we daar langer naar kijken.", "Omdat de overheid dat vraagt.", "Omdat die berichten altijd waar zijn."], correct: 0 }
+  - { id: nl-b2-t08-q3, type: true_false_notgiven, statement: "Volgens het artikel worden berichten die ons boos maken sneller gedeeld.", answer: true }
+  - { id: nl-b2-t08-q4, type: true_false_notgiven, statement: "Een op de drie mensen leest elke dag een papieren krant.", answer: not_given }
+  - { id: nl-b2-t08-q5, type: true_false_notgiven, statement: "Je moet vooral kritisch zijn als een bericht niet bij je eigen mening past.", answer: false }
+  - { id: nl-b2-t08-q6, type: match_heading, paragraph: 4, options: ["Tips om jezelf te beschermen", "De rol van de scholen", "Waarom we alleen de kop lezen"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-t08-l1, type: complete, statement: "Kijk ook naar de ___: soms worden oude beelden opnieuw verspreid.", answers: [datum] }
+  - { id: nl-b2-t08-l2, type: mc, question: "Wat doe je volgens het artikel als je nog twijfelt?", options: ["Je deelt het bericht niet.", "Je vraagt het aan de auteur.", "Je leest alleen de kop."], correct: 0 }
+wordForm:
+  - { sentence: nl-b2-t08-s05, word: belangrijke, stem: belang }
+  - { sentence: nl-b2-t08-s03, word: onderzoek, stem: onderzoeken }
+  - { sentence: nl-b2-t08-s19, word: beoordelen, stem: oordeel }
+orderable: false

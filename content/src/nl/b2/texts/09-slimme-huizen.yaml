@@ -1,0 +1,50 @@
+id: nl-b2-t09
+kind: reading
+title: { en: How smart should a house be? }
+topic: Technology (an article on a consumer website)
+level: B2
+paragraphs:
+  - - { id: nl-b2-t09-s01, target: "Een lamp die vanzelf aangaat als je thuiskomt, een koelkast die zelf melk bestelt, een thermostaat die weet wanneer je opstaat.", native: { en: "A lamp that switches on by itself when you come home, a fridge that orders milk itself, a thermostat that knows when you get up." } }
+    - { id: nl-b2-t09-s02, target: "Wat twintig jaar geleden nog een droom was, staat vandaag in veel Belgische huizen.", native: { en: "What was still a dream twenty years ago is in many Belgian homes today." } }
+    - { id: nl-b2-t09-s03, target: "Steeds meer apparaten zijn met het internet verbonden en worden met een app bediend.", native: { en: "More and more devices are connected to the internet and are operated with an app." } }
+  - - { id: nl-b2-t09-s04, target: "De voordelen zijn groot.", native: { en: "The advantages are considerable." } }
+    - { id: nl-b2-t09-s05, target: "Een slimme thermostaat kan tot tien procent energie besparen, omdat hij de verwarming automatisch lager zet als er niemand thuis is.", native: { en: "A smart thermostat can save up to ten per cent on energy, because it turns the heating down automatically when nobody is home." } }
+    - { id: nl-b2-t09-s06, target: "Sensoren melden een lek of een brand, ook als je op vakantie bent.", native: { en: "Sensors report a leak or a fire, even when you are on holiday." } }
+    - { id: nl-b2-t09-s07, target: "Voor ouderen die alleen wonen, kan zo'n systeem zelfs een leven redden.", native: { en: "For elderly people who live alone such a system can even save a life." } }
+  - - { id: nl-b2-t09-s08, target: "Toch is niet iedereen enthousiast.", native: { en: "Still, not everyone is enthusiastic." } }
+    - { id: nl-b2-t09-s09, target: "Elk apparaat dat met het internet verbonden is, verzamelt gegevens over zijn gebruikers.", native: { en: "Every device connected to the internet collects data about its users." } }
+    - { id: nl-b2-t09-s10, target: "Wanneer sta je op, wanneer ga je weg, hoeveel stroom gebruik je?", native: { en: "When do you get up, when do you leave, how much electricity do you use?" } }
+    - { id: nl-b2-t09-s11, target: "Die informatie wordt opgeslagen bij het bedrijf dat het apparaat verkoopt, en je weet vaak niet wat ermee gebeurt.", native: { en: "That information is stored by the company that sells the device, and you often don't know what happens to it." } }
+  - - { id: nl-b2-t09-s12, target: "Daarnaast is er het risico van hackers.", native: { en: "In addition there is the risk of hackers." } }
+    - { id: nl-b2-t09-s13, target: "Goedkope apparaten worden vaak niet meer geüpdatet, waardoor ze na een paar jaar onveilig zijn.", native: { en: "Cheap devices are often no longer updated, which makes them unsafe after a few years." } }
+    - { id: nl-b2-t09-s14, target: "Een camera waarmee je je huis bewaakt, kan dan een camera worden waarmee anderen je huis bekijken.", native: { en: "A camera with which you watch your house can then become a camera with which others look into your house." } }
+  - - { id: nl-b2-t09-s15, target: "Wat kun je zelf doen?", native: { en: "What can you do yourself?" } }
+    - { id: nl-b2-t09-s16, target: "Kies apparaten van een merk dat belooft om de software jarenlang te updaten.", native: { en: "Choose devices from a brand that promises to update the software for years." } }
+    - { id: nl-b2-t09-s17, target: "Verander altijd het wachtwoord dat bij het apparaat hoort, en zet functies die je niet nodig hebt uit.", native: { en: "Always change the password that comes with the device, and switch off functions you don't need." } }
+    - { id: nl-b2-t09-s18, target: "En vraag je bij elk nieuw apparaat af of het je leven echt gemakkelijker maakt.", native: { en: "And ask yourself with every new device whether it really makes your life easier." } }
+  - - { id: nl-b2-t09-s19, target: "Want een huis dat alles zelf doet, is pas slim als jij nog beslist wat het doet.", native: { en: "Because a house that does everything itself is only smart if you still decide what it does." } }
+glossary:
+  - { word: functies, native: { en: "functions, features (of a device)" } }
+  - { word: vanzelf, native: { en: "by itself, automatically" } }
+  - { word: bediend, native: { en: "operated (bedienen)" } }
+  - { word: bewaakt, native: { en: "guards, watches (bewaken)" } }
+items: [nl.apparaat, nl.verzamelen, nl.gebruiker, nl.stroom, nl.opslaan, nl.hacker, nl.updaten, nl.software, nl.sensor, nl.automatisch, nl.risico, nl.thermostaat]
+gapped:
+  gaps: [nl-b2-t09-s04, nl-b2-t09-s08, nl-b2-t09-s12, nl-b2-t09-s15]
+  extra:
+    - { id: nl-b2-t09-x1, target: "Daarom verkopen de winkels bijna geen slimme apparaten meer.", native: { en: "That is why the shops hardly sell any smart devices any more." } }
+questions:
+  - { id: nl-b2-t09-q1, type: summary, options: ["Slimme apparaten hebben voordelen, maar ook risico's voor je privacy en veiligheid, en je kunt zelf iets doen om die te beperken.", "Slimme apparaten besparen veel energie en zijn veilig, zolang je ze bij een bekend merk koopt en de app elke dag gebruikt.", "Wie een slim huis heeft, hoeft nooit meer energie te besparen."], correct: 0 }
+  - { id: nl-b2-t09-q2, type: mc, question: "Waarom bespaart een slimme thermostaat energie?", options: ["Hij zet de verwarming lager als er niemand thuis is.", "Hij werkt zonder stroom.", "Hij bestelt zelf goedkopere energie."], correct: 0 }
+  - { id: nl-b2-t09-q3, type: true_false_notgiven, statement: "Goedkope apparaten krijgen vaak na een paar jaar geen updates meer.", answer: true }
+  - { id: nl-b2-t09-q4, type: true_false_notgiven, statement: "De helft van de Belgische gezinnen heeft een slimme koelkast.", answer: not_given }
+  - { id: nl-b2-t09-q5, type: true_false_notgiven, statement: "Volgens het artikel weet je altijd wat er met je gegevens gebeurt.", answer: false }
+  - { id: nl-b2-t09-q6, type: match_heading, paragraph: 5, options: ["Tips voor wie een slim apparaat koopt", "Waarom ouderen geen apparaten willen", "De geschiedenis van de thermostaat"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-t09-l1, type: complete, statement: "Een slimme thermostaat kan tot tien procent ___ besparen.", answers: [energie] }
+  - { id: nl-b2-t09-l2, type: mc, question: "Wanneer is een huis volgens de laatste zin echt slim?", options: ["Als jij nog beslist wat het doet.", "Als het alles zelf doet.", "Als het veel sensoren heeft."], correct: 0 }
+wordForm:
+  - { sentence: nl-b2-t09-s05, word: automatisch, stem: automaat }
+  - { sentence: nl-b2-t09-s13, word: onveilig, stem: veilig, acceptAlso: [onveiliger] }
+  - { sentence: nl-b2-t09-s11, word: informatie, stem: informeren }
+orderable: false

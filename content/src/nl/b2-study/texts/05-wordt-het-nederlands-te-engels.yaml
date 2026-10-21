@@ -1,0 +1,50 @@
+id: nl-b2-study-t05
+kind: reading
+title: { en: Is Dutch becoming too English? }
+topic: Language change (a summary of a radio interview with a linguist, for fellow students)
+level: B2
+paragraphs:
+  - - { id: nl-b2-study-t05-s01, target: "Sorry, deadline, feedback: wie naar Vlaamse jongeren luistert, hoort veel woorden uit het Engels.", native: { en: "Sorry, deadline, feedback: anyone who listens to young Flemish people hears a lot of words from English." } }
+    - { id: nl-b2-study-t05-s02, target: "Gaat het Nederlands daardoor verloren? Dat vroegen we aan taalkundige Lotte Maes van de universiteit van Gent.", native: { en: "Is Dutch being lost because of this? We asked linguist Lotte Maes of Ghent University." } }
+  - - { id: nl-b2-study-t05-s03, target: "Volgens Maes is er geen reden om bang te zijn.", native: { en: "According to Maes there is no reason to be afraid." } }
+    - { id: nl-b2-study-t05-s04, target: "\"Talen veranderen altijd\", zegt ze. \"Het Nederlands heeft altijd woorden ontleend aan andere talen.\"", native: { en: "\"Languages are always changing\", she says. \"Dutch has always borrowed words from other languages.\"" } }
+    - { id: nl-b2-study-t05-s05, target: "Woorden als cadeau, douche en paraplu komen uit het Frans, en vandaag denkt niemand daar nog aan.", native: { en: "Words like cadeau, douche and paraplu come from French, and today nobody thinks about that any more." } }
+  - - { id: nl-b2-study-t05-s06, target: "Het aantal leenwoorden is ook kleiner dan veel mensen denken.", native: { en: "The number of loanwords is also smaller than many people think." } }
+    - { id: nl-b2-study-t05-s07, target: "In een gewone krant komt ongeveer één procent van de woorden uit het Engels.", native: { en: "In an ordinary newspaper about one per cent of the words come from English." } }
+    - { id: nl-b2-study-t05-s08, target: "Bovendien passen we leenwoorden aan onze eigen uitspraak en grammatica aan: we zeggen ik heb het gedownload.", native: { en: "What's more, we adapt loanwords to our own pronunciation and grammar: we say ik heb het gedownload." } }
+  - - { id: nl-b2-study-t05-s09, target: "Wat wel verandert, is de manier waarop we spreken.", native: { en: "What does change is the way we speak." } }
+    - { id: nl-b2-study-t05-s10, target: "Vroeger spraken de meeste Vlamingen thuis dialect en op school de standaardtaal.", native: { en: "In the past most Flemish people spoke dialect at home and the standard language at school." } }
+    - { id: nl-b2-study-t05-s11, target: "Vandaag spreken veel jongeren geen dialect meer, maar tussentaal: een mengvorm met een eigen uitspraak en grammatica.", native: { en: "Today many young people no longer speak dialect, but tussentaal: a mixture with its own pronunciation and grammar." } }
+    - { id: nl-b2-study-t05-s12, target: "Op de radio en op het journaal blijft de standaardtaal de norm.", native: { en: "On the radio and on the news the standard language remains the norm." } }
+  - - { id: nl-b2-study-t05-s13, target: "Ook het chatten heeft invloed.", native: { en: "Chatting has an influence too." } }
+    - { id: nl-b2-study-t05-s14, target: "Jongeren schrijven met afkortingen en zonder hoofdletters, maar volgens Maes betekent dat niet dat ze de spelling niet kennen.", native: { en: "Young people write with abbreviations and without capital letters, but according to Maes that does not mean they don't know how to spell." } }
+    - { id: nl-b2-study-t05-s15, target: "\"Ze passen hun taalgebruik aan de situatie aan. In een e-mail aan een docent schrijven ze heel anders dan in een bericht aan een vriend.\"", native: { en: "\"They adapt their language to the situation. In an e-mail to a lecturer they write very differently than they do in a message to a friend.\"" } }
+  - - { id: nl-b2-study-t05-s16, target: "Haar advies aan ouders en leerkrachten? \"Lach niet met de taal van jongeren, maar lees samen met je kinderen en leerlingen. Een grote woordenschat is de beste manier om een taal te beschermen.\"", native: { en: "Her advice to parents and teachers? \"Don't laugh at young people's language, but read together with your children and pupils. A large vocabulary is the best way to protect a language.\"" } }
+glossary:
+  - { word: mengvorm, native: { en: "mixture, hybrid form" } }
+  - { word: hoofdletters, native: { en: "capital letters (de hoofdletter)" } }
+items: [nl.taalkundige, nl.ontlenen, nl.leenwoord, nl.uitspraak, nl.grammatica, nl.dialect, nl.standaardtaal, nl.tussentaal, nl.norm, nl.chatten, nl.afkorting, nl.spelling, nl.taalgebruik, nl.woordenschat]
+gapped:
+  gaps: [nl-b2-study-t05-s03, nl-b2-study-t05-s06, nl-b2-study-t05-s09, nl-b2-study-t05-s13]
+  extra:
+    - { id: nl-b2-study-t05-x1, target: "Daarom moeten scholen meer lessen Engels geven.", native: { en: "That is why schools should give more English lessons." } }
+openCloze:
+  - { sentence: nl-b2-study-t05-s02, word: aan }
+  - { sentence: nl-b2-study-t05-s05, word: uit, acceptAlso: [van] }
+  - { sentence: nl-b2-study-t05-s07, word: van }
+  - { sentence: nl-b2-study-t05-s11, word: geen }
+wordForm:
+  - { sentence: nl-b2-study-t05-s01, word: jongeren, stem: jong }
+  - { sentence: nl-b2-study-t05-s11, word: uitspraak, stem: uitspreken }
+  - { sentence: nl-b2-study-t05-s16, word: leerlingen, stem: leren }
+questions:
+  - { id: nl-b2-study-t05-q1, type: summary, options: ["Een taalkundige vindt dat het Nederlands niet in gevaar is: leenwoorden zijn normaal, en wat vooral verandert, is hoe Vlamingen spreken en chatten.", "Een taalkundige wil dat jongeren geen woorden uit het Engels meer gebruiken.", "Een taalkundige legt uit waarom dialecten beter zijn dan de standaardtaal."], correct: 0 }
+  - { id: nl-b2-study-t05-q2, type: mc, question: "Waarom zijn leenwoorden volgens Maes geen probleem?", options: ["Het Nederlands heeft altijd woorden aan andere talen ontleend.", "Er komen bijna geen nieuwe leenwoorden meer bij.", "Jongeren gebruiken ze alleen als ze chatten."], correct: 0 }
+  - { id: nl-b2-study-t05-q3, type: true_false_notgiven, statement: "Veel jongeren spreken vandaag tussentaal in plaats van dialect.", answer: true }
+  - { id: nl-b2-study-t05-q4, type: true_false_notgiven, statement: "In een gewone krant komt meer dan tien procent van de woorden uit het Engels.", answer: false }
+  - { id: nl-b2-study-t05-q5, type: true_false_notgiven, statement: "Lotte Maes spreekt thuis zelf dialect.", answer: not_given }
+  - { id: nl-b2-study-t05-q6, type: match_heading, paragraph: 4, options: ["Van dialect naar tussentaal", "Woorden uit andere talen", "Schrijven op het internet"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-study-t05-l1, type: complete, statement: "In een gewone krant komt ongeveer één ___ van de woorden uit het Engels.", answers: [procent] }
+  - { id: nl-b2-study-t05-l2, type: mc, question: "Wat is volgens Maes de beste manier om een taal te beschermen?", options: ["Een grote woordenschat.", "Geen leenwoorden gebruiken.", "Altijd dialect spreken."], correct: 0 }
+orderable: false

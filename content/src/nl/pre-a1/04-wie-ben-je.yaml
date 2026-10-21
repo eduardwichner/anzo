@@ -1,0 +1,59 @@
+id: nl-pre-a1-u04
+title: { en: Who are you? }
+icon: person
+topic: Introducing yourself (name, origin, address, languages)
+vocabulary:
+  - { target: zijn, native: { en: to be }, pos: verb, avoid: [nl.heten] }
+  - { target: heten, native: { en: to be called }, pos: verb }
+  - { target: de naam, native: { en: name }, pos: noun, plural: namen, avoid: [nl.voornaam, nl.achternaam] }
+  - { target: de voornaam, native: { en: first name }, pos: noun, plural: voornamen }
+  - { target: de achternaam, native: { en: surname }, pos: noun, plural: achternamen }
+  - { target: komen, native: { en: to come }, pos: verb }
+  - { target: uit, native: { en: from }, pos: preposition, avoid: [nl.van] }
+  - { target: het land, native: { en: country }, pos: noun, plural: landen }
+  - { target: de stad, native: { en: "city, town" }, pos: noun, plural: steden }
+  - { target: wonen, native: { en: to live }, pos: verb }
+  - { target: in, native: { en: in }, pos: preposition }
+  - { target: het adres, native: { en: address }, pos: noun, plural: adressen }
+  - { target: de straat, native: { en: street }, pos: noun, plural: straten }
+  - { target: het nummer, native: { en: number }, pos: noun, plural: nummers }
+  - { target: van, native: { en: "of, from" }, pos: preposition }
+  - { target: spreken, native: { en: to speak }, pos: verb }
+  - { target: de taal, native: { en: language }, pos: noun, plural: talen }
+  - { target: het Nederlands, native: { en: Dutch }, pos: noun, plural: "-" }
+  - { target: het Engels, native: { en: English }, pos: noun, plural: "-" }
+  - { target: het Frans, native: { en: French }, pos: noun, plural: "-" }
+  - { target: Belgisch, native: { en: Belgian }, pos: adjective }
+  - { target: leren, native: { en: "to learn" }, pos: verb }
+  - { target: een beetje, native: { en: a little }, pos: phrase }
+  - { target: werken, native: { en: to work }, pos: verb }
+  - { target: op, native: { en: on }, pos: preposition }
+sentences:
+  - { id: s01, target: "Ik ben Danca.", native: { en: "I'm Danca." }, items: [nl.zijn] }
+  - { id: s02, target: "Ik heet Tom Peeters.", native: { en: "I'm called Tom Peeters." }, items: [nl.heten] }
+  - { id: s03, target: "Hoe heet u?", native: { en: "What's your name?" }, items: [nl.heten] }
+  - { id: s04, target: "Wat is uw naam?", native: { en: "What's your name?" }, items: [nl.naam] }
+  - { id: s05, target: "Mijn naam is Sara Maes.", native: { en: "My name is Sara Maes." }, items: [nl.naam] }
+  - { id: s06, target: "Mijn voornaam is Lisa.", native: { en: "My first name is Lisa." }, items: [nl.voornaam] }
+  - { id: s07, target: "Wat is uw achternaam?", native: { en: "What's your surname?" }, items: [nl.achternaam] }
+  - { id: s08, target: "Ik kom uit Roemenië.", native: { en: "I come from Romania." }, items: [nl.komen, nl.uit] }
+  - { id: s09, target: "Waar komt u vandaan?", native: { en: "Where do you come from?" }, items: [nl.komen] }
+  - { id: s10, target: "Uit welk land komt u?", native: { en: "Which country do you come from?" }, items: [nl.land, nl.uit, nl.komen] }
+  - { id: s11, target: "Gent is een mooie stad.", native: { en: "Ghent is a beautiful city." }, items: [nl.stad] }
+  - { id: s12, target: "Ik woon in Antwerpen.", native: { en: "I live in Antwerp." }, items: [nl.wonen, nl.in] }
+  - { id: s13, target: "Waar woont u?", native: { en: "Where do you live?" }, items: [nl.wonen] }
+  - { id: s14, target: "Is dit uw adres?", native: { en: "Is this your address?" }, items: [nl.adres] }
+  - { id: s15, target: "Ik woon in de Kerkstraat.", native: { en: "I live in Kerkstraat." }, items: [nl.straat, nl.wonen] }
+  - { id: s16, target: "Mijn adres is Kerkstraat 9.", native: { en: "My address is 9 Kerkstraat." }, items: [nl.adres] }
+  - { id: s26, target: "Ik woon op nummer 9.", native: { en: "I live at number 9." }, items: [nl.nummer, nl.wonen, nl.op] }
+  - { id: s28, target: "Ik werk in Gent.", native: { en: "I work in Ghent." }, items: [nl.werken] }
+  - { id: s27, target: "In welke straat woont u?", native: { en: "Which street do you live in?" }, items: [nl.straat, nl.wonen] }
+  - { id: s17, target: "Hij is een vriend van Tom.", native: { en: "He is a friend of Tom's." }, items: [nl.van] }
+  - { id: s18, target: "Spreekt u Engels?", native: { en: "Do you speak English?" }, items: [nl.spreken, nl.engels] }
+  - { id: s19, target: "Ik spreek Frans en Engels.", native: { en: "I speak French and English." }, items: [nl.frans, nl.engels, nl.spreken], acceptAlso: ["Ik spreek Engels en Frans."] }
+  - { id: s20, target: "Ik leer Nederlands.", native: { en: "I'm learning Dutch." }, items: [nl.leren, nl.nederlands] }
+  - { id: s21, target: "Nederlands is een mooie taal.", native: { en: "Dutch is a beautiful language." }, items: [nl.taal, nl.nederlands] }
+  - { id: s22, target: "Ik spreek een beetje Nederlands.", native: { en: "I speak a little Dutch." }, items: [nl.een-beetje, nl.spreken] }
+  - { id: s23, target: "Tom is Belgisch.", native: { en: "Tom is Belgian." }, items: [nl.belgisch] }
+  - { id: s24, target: "Ben jij Belgisch?", native: { en: "Are you Belgian?" }, items: [nl.belgisch, nl.zijn] }
+  - { id: s25, target: "Welke taal spreek jij?", native: { en: "Which language do you speak?" }, items: [nl.taal, nl.spreken] }

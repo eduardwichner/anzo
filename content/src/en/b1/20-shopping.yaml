@@ -1,0 +1,175 @@
+id: en-b1-u20
+title: { nl: Winkelen en geld }
+icon: shop
+topic: Shops, prices, paying, banks and complaints; the first conditional, too and enough, how much / how many
+vocabulary:
+  - { target: department store, native: { nl: warenhuis }, pos: noun }
+  - { target: mall, native: { nl: winkelcentrum }, pos: noun }
+  - { target: grocery, native: { nl: kruidenierswinkel }, pos: noun }
+  - { target: baker, native: { nl: bakker }, pos: noun }
+  - { target: butcher, native: { nl: slager }, pos: noun }
+  - { target: hairdresser, native: { nl: kapper }, pos: noun, avoid: [en.barber] }
+  - { target: barber, native: { nl: herenkapper }, pos: noun }
+  - { target: stall, native: { nl: kraam }, pos: noun }
+  - { target: opening hours, native: { nl: openingsuren }, pos: noun }
+  - { target: queue, native: { nl: rij (wachtrij) }, pos: noun }
+  - { target: checkout, native: { nl: kassa }, pos: noun }
+  - { target: customer, native: { nl: klant }, pos: noun }
+  - { target: shopper, native: { nl: winkelende persoon }, pos: noun }
+  - { target: buyer, native: { nl: koper }, pos: noun }
+  - { target: goods, native: { nl: goederen }, pos: noun }
+  - { target: product, native: { nl: product }, pos: noun }
+  - { target: item, native: { nl: artikel (ding) }, pos: noun, avoid: [en.product], noBlank: true }
+  - { target: choice, native: { nl: keuze }, pos: noun }
+  - { target: variety, native: { nl: verscheidenheid }, pos: noun }
+  - { target: available, native: { nl: verkrijgbaar (beschikbaar) }, pos: adjective }
+  - { target: limited, native: { nl: beperkt }, pos: adjective }
+  - { target: quality, native: { nl: kwaliteit }, pos: noun }
+  - { target: quantity, native: { nl: hoeveelheid }, pos: noun, avoid: [en.amount], noBlank: true }
+  - { target: condition, native: { nl: staat (toestand) }, pos: noun, noBlank: true }
+  - { target: brand new, native: { nl: gloednieuw }, pos: adjective, avoid: [en.second-hand] }
+  - { target: second-hand, native: { nl: tweedehands }, pos: adjective }
+  - { target: price, native: { nl: prijs }, pos: noun }
+  - { target: cost, native: { nl: kosten }, pos: verb }
+  - { target: value, native: { nl: waarde }, pos: noun }
+  - { target: worth, native: { nl: waard }, pos: adjective }
+  - { target: bargain, native: { nl: koopje }, pos: noun }
+  - { target: sale, native: { nl: uitverkoop }, pos: noun }
+  - { target: on sale, native: { nl: te koop (in de winkel verkrijgbaar) }, pos: phrase, avoid: [en.for-sale, en.available] }
+  - { target: for sale, native: { nl: te koop }, pos: phrase }
+  - { target: discount, native: { nl: korting }, pos: noun }
+  - { target: half-price, native: { nl: halve prijs }, pos: adjective }
+  - { target: reduce, native: { nl: verlagen }, pos: verb, avoid: [en.increase] }
+  - { target: reduced, native: { nl: afgeprijsd }, pos: adjective }
+  - { target: increase, native: { nl: verhogen (stijgen) }, pos: verb, avoid: [en.put-up, en.raise, en.rise] }
+  - { target: decrease, native: { nl: dalen (verminderen) }, pos: verb, avoid: [en.reduce] }
+  - { target: put up, native: { nl: verhogen (prijzen) }, pos: phrase, avoid: [en.raise], noBlank: true }
+  - { target: inexpensive, native: { nl: niet duur }, pos: adjective, noBlank: true }
+  - { target: reasonable, native: { nl: redelijk }, pos: adjective }
+  - { target: reasonably, native: { nl: redelijk (bijwoord) }, pos: adverb, avoid: [en.fairly], noBlank: true }
+  - { target: afford, native: { nl: zich kunnen veroorloven }, pos: verb }
+  - { target: extra, native: { nl: extra }, pos: adjective }
+  - { target: free, native: { nl: gratis }, pos: adjective }
+  - { target: include, native: { nl: inbegrijpen }, pos: verb }
+  - { target: including, native: { nl: inclusief }, pos: preposition }
+  - { target: charge, native: { nl: kosten (te betalen bedrag) }, pos: noun, avoid: [en.fee, en.cost], noBlank: true }
+  - { target: fee, native: { nl: tarief (bedrag) }, pos: noun }
+  - { target: offer, native: { nl: aanbieding }, pos: noun }
+  - { target: deal, native: { nl: handelen (in) }, pos: verb }
+  - { target: run out, native: { nl: opraken }, pos: phrase }
+  - { target: receipt, native: { nl: kassabon }, pos: noun }
+  - { target: complain, native: { nl: klagen }, pos: verb }
+  - { target: complaint, native: { nl: klacht }, pos: noun }
+  - { target: refund, native: { nl: terugbetaling }, pos: noun }
+  - { target: exchange, native: { nl: ruilen }, pos: verb, noBlank: true }
+  - { target: deliver, native: { nl: bezorgen }, pos: verb, avoid: [en.supply] }
+  - { target: delivery, native: { nl: levering }, pos: noun }
+  - { target: cash, native: { nl: contant geld }, pos: noun }
+  - { target: credit card, native: { nl: kredietkaart }, pos: noun }
+  - { target: credit, native: { nl: krediet }, pos: noun }
+  - { target: cheque, native: { nl: cheque }, pos: noun }
+  - { target: cash machine, native: { nl: geldautomaat }, pos: noun, avoid: [en.cashpoint], noBlank: true }
+  - { target: cashpoint, native: { nl: geldautomaat (pinautomaat) }, pos: noun, noBlank: true }
+  - { target: account, native: { nl: "rekening; account" }, pos: noun, avoid: [en.bank-account], noBlank: true }
+  - { target: bank account, native: { nl: bankrekening }, pos: noun }
+  - { target: banking, native: { nl: bankieren }, pos: noun }
+  - { target: deposit, native: { nl: "aanbetaling, waarborg" }, pos: noun }
+  - { target: lend, native: { nl: uitlenen }, pos: verb }
+  - { target: loan, native: { nl: lening }, pos: noun }
+  - { target: owe, native: { nl: schuldig zijn (verschuldigd zijn) }, pos: verb }
+  - { target: financial, native: { nl: financieel }, pos: adjective }
+  - { target: pocket money, native: { nl: zakgeld }, pos: noun }
+  - { target: lottery, native: { nl: loterij }, pos: noun }
+  - { target: pound, native: { nl: pond }, pos: noun }
+  - { target: penny, native: { nl: penny }, pos: noun }
+  - { target: pence, native: { nl: pence (meervoud van penny) }, pos: noun }
+  - { target: euro, native: { nl: euro }, pos: noun }
+  - { target: cent, native: { nl: cent }, pos: noun }
+  - { target: dollar, native: { nl: dollar }, pos: noun }
+sentences:
+  - { id: s01, target: "We bought my new coat in a department store.", native: { nl: "We kochten mijn nieuwe jas in een warenhuis." }, items: [en.department-store] }
+  - { id: s02, target: "On Saturdays the mall is always crowded.", native: { nl: "Op zaterdag is het winkelcentrum altijd druk." }, items: [en.mall], acceptAlso: ["The mall is always crowded on Saturdays."] }
+  - { id: s03, target: "There's a small grocery shop on the corner.", native: { nl: "Er is een kleine kruidenierswinkel op de hoek." }, items: [en.grocery] }
+  - { id: s04, target: "The baker opens at six in the morning.", native: { nl: "De bakker gaat om zes uur 's ochtends open." }, items: [en.baker] }
+  - { id: s05, target: "We buy our meat from the butcher in the village.", native: { nl: "We kopen ons vlees bij de slager in het dorp." }, items: [en.butcher] }
+  - { id: s06, target: "I'm going to the hairdresser's after school.", native: { nl: "Ik ga na school naar de kapper." }, items: [en.hairdresser] }
+  - { id: s07, target: "Dad goes to the barber every month.", native: { nl: "Papa gaat elke maand naar de herenkapper." }, items: [en.barber], acceptAlso: ["Every month Dad goes to the barber."] }
+  - { id: s08, target: "She sells jewellery at a market stall.", native: { nl: "Ze verkoopt sieraden op een marktkraam." }, items: [en.stall] }
+  - { id: s09, target: "The opening hours are on the door.", native: { nl: "De openingsuren staan op de deur." }, items: [en.opening-hours] }
+  - { id: s10, target: "There was a long queue at the checkout.", native: { nl: "Er stond een lange rij bij de kassa." }, items: [en.queue, en.checkout] }
+  - { id: s11, target: "The customer wants to speak to the manager.", native: { nl: "De klant wil de manager spreken." }, items: [en.customer] }
+  - { id: s12, target: "The streets were full of shoppers before Christmas.", native: { nl: "De straten waren vol winkelend publiek voor Kerstmis." }, items: [en.shopper], acceptAlso: ["Before Christmas the streets were full of shoppers."] }
+  - { id: s13, target: "We've found a buyer for our old car.", native: { nl: "We hebben een koper gevonden voor onze oude auto." }, items: [en.buyer] }
+  - { id: s14, target: "The goods will arrive next week.", native: { nl: "De goederen komen volgende week." }, items: [en.goods], acceptAlso: ["Next week the goods will arrive."] }
+  - { id: s15, target: "This shop only sells local products.", native: { nl: "Deze winkel verkoopt alleen streekproducten." }, items: [en.product] }
+  - { id: s16, target: "You can return any item within thirty days.", native: { nl: "Je kunt elk artikel binnen dertig dagen terugbrengen." }, items: [en.item] }
+  - { id: s17, target: "There's a good choice of sandwiches.", native: { nl: "Er is een goede keuze aan broodjes." }, items: [en.choice] }
+  - { id: s18, target: "The market has a great variety of fruit.", native: { nl: "De markt heeft een grote verscheidenheid aan fruit." }, items: [en.variety] }
+  - { id: s19, target: "Is this jacket available in a larger size?", native: { nl: "Is deze jas verkrijgbaar in een grotere maat?" }, items: [en.available] }
+  - { id: s20, target: "There's only a limited number of tickets.", native: { nl: "Er is maar een beperkt aantal kaartjes." }, items: [en.limited] }
+  - { id: s21, target: "These shoes are expensive, but the quality is excellent.", native: { nl: "Deze schoenen zijn duur, maar de kwaliteit is uitstekend." }, items: [en.quality] }
+  - { id: s22, target: "We bought a large quantity of paper for the school.", native: { nl: "We kochten een grote hoeveelheid papier voor de school." }, items: [en.quantity] }
+  - { id: s23, target: "The bike is old, but it's in good condition.", native: { nl: "De fiets is oud, maar hij is in goede staat." }, items: [en.condition] }
+  - { id: s24, target: "He got a brand new phone for his birthday.", native: { nl: "Hij kreeg een gloednieuwe telefoon voor zijn verjaardag." }, items: [en.brand-new], acceptAlso: ["For his birthday he got a brand new phone."] }
+  - { id: s25, target: "I bought a second-hand bike for twenty pounds.", native: { nl: "Ik kocht een tweedehandsfiets voor twintig pond." }, items: [en.second-hand] }
+  - { id: s26, target: "The price of bread has gone up.", native: { nl: "De prijs van brood is gestegen." }, items: [en.price] }
+  - { id: s27, target: "How much does it cost to send a parcel?", native: { nl: "Hoeveel kost het om een pakket te versturen?" }, items: [en.cost] }
+  - { id: s28, target: "The value of the old coins was surprising.", native: { nl: "De waarde van de oude munten was verrassend." }, items: [en.value] }
+  - { id: s29, target: "This painting is worth a lot of money.", native: { nl: "Dit schilderij is veel geld waard." }, items: [en.worth] }
+  - { id: s30, target: "Only five pounds? That's a bargain!", native: { nl: "Maar vijf pond? Dat is een koopje!" }, items: [en.bargain] }
+  - { id: s31, target: "There's a big sale at the sports shop.", native: { nl: "Er is een grote uitverkoop in de sportwinkel." }, items: [en.sale] }
+  - { id: s32, target: "Tickets for the concert are on sale now.", native: { nl: "Kaartjes voor het concert zijn nu te koop." }, items: [en.on-sale] }
+  - { id: s33, target: "Our neighbours' house is for sale.", native: { nl: "Het huis van onze buren is te koop." }, items: [en.for-sale] }
+  - { id: s34, target: "Students get a ten percent discount.", native: { nl: "Studenten krijgen tien procent korting." }, items: [en.discount] }
+  - { id: s35, target: "All the books are half-price today.", native: { nl: "Alle boeken zijn vandaag voor de halve prijs." }, items: [en.half-price], acceptAlso: ["Today all the books are half-price."] }
+  - { id: s36, target: "The shop has reduced the price of all its toys.", native: { nl: "De winkel heeft de prijs van al het speelgoed verlaagd." }, items: [en.reduce] }
+  - { id: s37, target: "All reduced items are on the table by the door.", native: { nl: "Alle afgeprijsde artikelen liggen op de tafel bij de deur." }, items: [en.reduced] }
+  - { id: s38, target: "The number of customers increased last year.", native: { nl: "Het aantal klanten steeg vorig jaar." }, items: [en.increase], acceptAlso: ["Last year the number of customers increased."] }
+  - { id: s39, target: "The price of computers has decreased.", native: { nl: "De prijs van computers is gedaald." }, items: [en.decrease] }
+  - { id: s40, target: "The cinema has put up its prices again.", native: { nl: "De bioscoop heeft zijn prijzen weer verhoogd." }, items: [en.put-up] }
+  - { id: s41, target: "The café is clean and inexpensive.", native: { nl: "Het café is schoon en niet duur." }, items: [en.inexpensive] }
+  - { id: s42, target: "The prices at the market are very reasonable.", native: { nl: "De prijzen op de markt zijn heel redelijk." }, items: [en.reasonable] }
+  - { id: s43, target: "The hotel was reasonably cheap.", native: { nl: "Het hotel was redelijk goedkoop." }, items: [en.reasonably] }
+  - { id: s44, target: "We can't afford a new car this year.", native: { nl: "We kunnen ons dit jaar geen nieuwe auto veroorloven." }, items: [en.afford], acceptAlso: ["This year we can't afford a new car."] }
+  - { id: s45, target: "Sauce costs extra.", native: { nl: "Saus kost extra." }, items: [en.extra] }
+  - { id: s46, target: "If you buy two, you get one free.", native: { nl: "Als je er twee koopt, krijg je er één gratis." }, items: [en.free], acceptAlso: ["You get one free if you buy two."] }
+  - { id: s47, target: "Does the price include breakfast?", native: { nl: "Is het ontbijt bij de prijs inbegrepen?" }, items: [en.include] }
+  - { id: s48, target: "It costs forty pounds, including delivery.", native: { nl: "Het kost veertig pond, inclusief levering." }, items: [en.including, en.delivery] }
+  - { id: s49, target: "There's no charge for children.", native: { nl: "Voor kinderen hoef je niet te betalen." }, items: [en.charge] }
+  - { id: s50, target: "The entrance fee is six pounds.", native: { nl: "De toegangsprijs is zes pond." }, items: [en.fee] }
+  - { id: s51, target: "There's a special offer on orange juice.", native: { nl: "Er is een speciale aanbieding op sinaasappelsap." }, items: [en.offer] }
+  - { id: s52, target: "The shop deals in antique furniture.", native: { nl: "De winkel handelt in antieke meubels." }, items: [en.deal] }
+  - { id: s53, target: "Sorry, we've run out of milk.", native: { nl: "Sorry, de melk is op." }, items: [en.run-out] }
+  - { id: s54, target: "Keep the receipt in case you want to return it.", native: { nl: "Bewaar de kassabon voor het geval je het wilt terugbrengen." }, items: [en.receipt] }
+  - { id: s55, target: "If the food is cold, you should complain.", native: { nl: "Als het eten koud is, moet je klagen." }, items: [en.complain], acceptAlso: ["You should complain if the food is cold."] }
+  - { id: s56, target: "I wrote a complaint to the company.", native: { nl: "Ik stuurde een klacht naar het bedrijf." }, items: [en.complaint] }
+  - { id: s57, target: "The shop gave me a full refund.", native: { nl: "De winkel gaf me mijn geld helemaal terug." }, items: [en.refund] }
+  - { id: s58, target: "Can I exchange this shirt? It's too small.", native: { nl: "Kan ik dit shirt ruilen? Het is te klein." }, items: [en.exchange] }
+  - { id: s59, target: "They will deliver the sofa on Monday.", native: { nl: "Ze bezorgen de sofa op maandag." }, items: [en.deliver], acceptAlso: ["On Monday they will deliver the sofa."] }
+  - { id: s60, target: "Delivery is free on orders over fifty euros.", native: { nl: "De levering is gratis bij bestellingen boven vijftig euro." }, items: [en.delivery, en.euro] }
+  - { id: s61, target: "Do you want to pay in cash or by card?", native: { nl: "Wilt u contant of met de kaart betalen?" }, items: [en.cash] }
+  - { id: s62, target: "Can I pay by credit card?", native: { nl: "Kan ik met een kredietkaart betalen?" }, items: [en.credit-card] }
+  - { id: s63, target: "He bought the car on credit.", native: { nl: "Hij kocht de auto op krediet." }, items: [en.credit] }
+  - { id: s64, target: "Nobody pays by cheque any more.", native: { nl: "Niemand betaalt nog met een cheque." }, items: [en.cheque] }
+  - { id: s65, target: "Is there a cash machine near here?", native: { nl: "Is er een geldautomaat in de buurt?" }, items: [en.cash-machine] }
+  - { id: s66, target: "I need to find a cashpoint.", native: { nl: "Ik moet een pinautomaat zoeken." }, items: [en.cashpoint] }
+  - { id: s67, target: "There's not much money in my account.", native: { nl: "Er staat niet veel geld op mijn rekening." }, items: [en.account] }
+  - { id: s68, target: "I opened a bank account when I was sixteen.", native: { nl: "Ik opende een bankrekening toen ik zestien was." }, items: [en.bank-account], acceptAlso: ["When I was sixteen I opened a bank account."] }
+  - { id: s69, target: "Online banking is quick and easy.", native: { nl: "Online bankieren is snel en makkelijk." }, items: [en.banking] }
+  - { id: s70, target: "We paid a deposit for the holiday flat.", native: { nl: "We betaalden een aanbetaling voor het vakantieappartement." }, items: [en.deposit] }
+  - { id: s71, target: "Could you lend me five pounds?", native: { nl: "Kun je me vijf pond lenen?" }, items: [en.lend] }
+  - { id: s72, target: "They got a loan from the bank to buy a house.", native: { nl: "Ze kregen een lening van de bank om een huis te kopen." }, items: [en.loan] }
+  - { id: s73, target: "You still owe me ten euros.", native: { nl: "Je bent me nog tien euro schuldig." }, items: [en.owe] }
+  - { id: s74, target: "The company has financial problems.", native: { nl: "Het bedrijf heeft financiële problemen." }, items: [en.financial] }
+  - { id: s75, target: "I save half of my pocket money.", native: { nl: "Ik spaar de helft van mijn zakgeld." }, items: [en.pocket-money] }
+  - { id: s76, target: "My grandad has never won the lottery.", native: { nl: "Mijn opa heeft nooit de loterij gewonnen." }, items: [en.lottery] }
+  - { id: s77, target: "A ticket costs two pounds fifty.", native: { nl: "Een kaartje kost twee pond vijftig." }, items: [en.pound] }
+  - { id: s78, target: "I haven't got a penny left.", native: { nl: "Ik heb geen cent meer over." }, items: [en.penny] }
+  - { id: s79, target: "The stamp costs eighty pence.", native: { nl: "De postzegel kost tachtig pence." }, items: [en.pence] }
+  - { id: s80, target: "The coffee costs two euros and fifty cents.", native: { nl: "De koffie kost twee euro vijftig." }, items: [en.euro, en.cent] }
+  - { id: s81, target: "How many dollars is that in euros?", native: { nl: "Hoeveel dollar is dat in euro?" }, items: [en.dollar] }
+  - { id: s82, target: "If I save money, I can afford a new guitar.", native: { nl: "Als ik geld spaar, kan ik een nieuwe gitaar betalen." }, items: [en.afford], build: true, acceptAlso: ["I can afford a new guitar if I save money."] }
+  - { id: s83, target: "The price of these jeans is too high.", native: { nl: "De prijs van deze spijkerbroek is te hoog." }, items: [en.price] }
+  - { id: s84, target: "If you pay by card, you'll get a discount.", native: { nl: "Als je met je kaart betaalt, krijg je korting." }, items: [en.discount], build: true }
+  - { id: s85, target: "I haven't got enough money to pay the deposit.", native: { nl: "Ik heb niet genoeg geld om de aanbetaling te betalen." }, items: [en.deposit] }
+texts: [en-b1-t21]

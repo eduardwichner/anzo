@@ -1,0 +1,31 @@
+id: fr-a1-u18
+title: { nl: "Hoera, een feest!", en: "Hooray, a party!" }
+icon: party
+topic: La fête; l'anniversaire
+vocabulary:
+  - { target: le cadeau, native: { nl: het cadeau, en: "present" }, pos: noun, gender: m }
+  - { target: la bougie, native: { nl: de kaars, en: "candle" }, pos: noun, gender: f }
+  - { target: la surprise, native: { nl: de verrassing, en: "surprise" }, pos: noun, gender: f }
+  - { target: bon anniversaire, native: { nl: gefeliciteerd (met je verjaardag), en: "happy birthday" }, pos: exclamation }
+  - { target: fêter, native: { nl: vieren, en: "to celebrate" }, pos: verb }
+  - { target: offrir, native: { nl: geven (als cadeau), en: "to give (as a present)" }, pos: verb }
+  - { target: bravo, native: { nl: "goed zo, bravo", en: "well done, bravo" }, pos: exclamation }
+  - { target: bienvenue, native: { nl: welkom, en: "welcome" }, pos: exclamation }
+  - { target: coucou, native: { nl: "hoi, kiekeboe", en: "hi, hello (informal), peekaboo" }, pos: exclamation }
+  - { target: le programme, native: { nl: het programma, en: "programme" }, pos: noun, gender: m }
+  - { target: "l'affiche", native: { nl: "de poster, het affiche", en: "poster" }, pos: noun, gender: f }
+sentences:
+  - { id: s01, target: "C'est un cadeau pour toi !", native: { nl: "Dit is een cadeautje voor jou!", en: "This is a present for you!" }, items: [fr.cadeau] }
+  - { id: s02, target: "Il y a dix bougies sur le gâteau.", native: { nl: "Er staan tien kaarsjes op de taart.", en: "There are ten candles on the cake." }, items: [fr.bougie] }
+  - { id: s03, target: "Surprise ! Bon anniversaire !", native: { nl: "Verrassing! Gefeliciteerd!", en: "Surprise! Happy birthday!" }, items: [fr.surprise, fr.bon-anniversaire] }
+  - { id: s04, target: "Bon anniversaire, maman !", native: { nl: "Gefeliciteerd, mama!", en: "Happy birthday, Mum!" }, items: [fr.bon-anniversaire] }
+  - { id: s05, target: "Nous fêtons l'anniversaire de Lucas.", native: { nl: "We vieren de verjaardag van Lucas.", en: "We're celebrating Lucas's birthday." }, items: [fr.feter] }
+  - { id: s06, target: "J'offre un livre à mon ami.", native: { nl: "Ik geef mijn vriend een boek cadeau.", en: "I'm giving my friend a book as a present." }, items: [fr.offrir] }
+  - { id: s07, target: "Bravo, c'est très bien !", native: { nl: "Bravo, dat is heel goed!", en: "Well done, that's very good!" }, items: [fr.bravo] }
+  - { id: s08, target: "Bienvenue chez nous !", native: { nl: "Welkom bij ons thuis!", en: "Welcome to our house!" }, items: [fr.bienvenue] }
+  - { id: s09, target: "Coucou, c'est Louise !", native: { nl: "Hoi, ik ben het, Louise!", en: "Hi, it's Louise!" }, items: [fr.coucou] }
+  - { id: s10, target: "Quel est le programme de la soirée ?", native: { nl: "Wat staat er vanavond op het programma?", en: "What's the programme for the evening?" }, items: [fr.programme] }
+  - { id: s11, target: "Il y a une affiche dans la classe.", native: { nl: "Er hangt een poster in de klas.", en: "There's a poster in the classroom." }, items: [fr.affiche] }
+lessons:
+  - { id: l01, title: { nl: Cadeaus, en: "Presents" }, vocab: [fr.cadeau, fr.bougie, fr.surprise, fr.bon-anniversaire, fr.feter, fr.offrir] }
+  - { id: l02, title: { nl: Welkom!, en: "Welcome!" }, vocab: [fr.bravo, fr.bienvenue, fr.coucou, fr.programme, fr.affiche] }

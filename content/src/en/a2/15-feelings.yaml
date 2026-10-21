@@ -1,0 +1,50 @@
+id: en-a2-u15
+title: { nl: Denken en voelen }
+icon: people
+topic: Verbs and adjectives of thinking and feeling
+vocabulary:
+  - { target: agree, native: { nl: het eens zijn }, pos: verb }
+  - { target: believe, native: { nl: geloven }, pos: verb }
+  - { target: decide, native: { nl: beslissen }, pos: verb }
+  - { target: forget, native: { nl: vergeten }, pos: verb }
+  - { target: guess, native: { nl: raden }, pos: verb }
+  - { target: hope, native: { nl: hopen }, pos: verb }
+  - { target: remember, native: { nl: "onthouden, zich herinneren" }, pos: verb, avoid: [en.forget] }
+  - { target: invent, native: { nl: uitvinden }, pos: verb }
+  - { target: mind, native: { nl: het erg vinden }, pos: verb }
+  - { target: prefer, native: { nl: liever hebben }, pos: verb }
+  - { target: wish, native: { nl: wensen }, pos: verb, avoid: [en.hope] }
+  - { target: hate, native: { nl: een hekel hebben aan }, pos: verb }
+  - { target: sure, native: { nl: zeker }, pos: adjective }
+  - { target: strange, native: { nl: "vreemd, raar" }, pos: adjective, avoid: [en.unusual] }
+  - { target: worried, native: { nl: bezorgd }, pos: adjective }
+  - { target: interested, native: { nl: geïnteresseerd }, pos: adjective }
+  - { target: excited, native: { nl: "enthousiast, opgewonden" }, pos: adjective }
+  - { target: pleased, native: { nl: "blij, tevreden" }, pos: adjective }
+  - { target: bored, native: { nl: verveeld }, pos: adjective }
+  - { target: lucky, native: { nl: geluk hebben }, pos: adjective }
+sentences:
+  - { id: s01, target: "I agree with you.", native: { nl: "Ik ben het met je eens." }, items: [en.agree] }
+  - { id: s02, target: "I don't believe you!", native: { nl: "Ik geloof je niet!" }, items: [en.believe], acceptAlso: ["I do not believe you!"] }
+  - { id: s03, target: "You must decide now.", native: { nl: "Je moet nu beslissen." }, items: [en.decide] }
+  - { id: s04, target: "Don't forget your bag!", native: { nl: "Vergeet je tas niet!" }, items: [en.forget], acceptAlso: ["Do not forget your bag!"] }
+  - { id: s05, target: "Guess what I've got!", native: { nl: "Raad eens wat ik heb!" }, items: [en.guess], acceptAlso: ["Guess what I have got!"] }
+  - { id: s06, target: "I hope you feel better soon.", native: { nl: "Ik hoop dat je je snel beter voelt." }, items: [en.hope] }
+  - { id: s07, target: "I can't remember his name.", native: { nl: "Ik kan me zijn naam niet herinneren." }, items: [en.remember], acceptAlso: ["I cannot remember his name."] }
+  - { id: s08, target: "I want to invent a robot.", native: { nl: "Ik wil een robot uitvinden." }, items: [en.invent] }
+  - { id: s09, target: "Do you mind if I open the window?", native: { nl: "Vind je het erg als ik het raam opendoe?" }, items: [en.mind] }
+  - { id: s10, target: "I prefer apples.", native: { nl: "Ik heb liever appels." }, items: [en.prefer] }
+  - { id: s11, target: "I wish you a happy birthday!", native: { nl: "Ik wens je een fijne verjaardag!" }, items: [en.wish] }
+  - { id: s12, target: "I hate spiders!", native: { nl: "Ik heb een hekel aan spinnen!" }, items: [en.hate] }
+  - { id: s13, target: "Are you sure?", native: { nl: "Weet je het zeker?" }, items: [en.sure] }
+  - { id: s14, target: "That is a strange noise.", native: { nl: "Dat is een raar geluid." }, items: [en.strange] }
+  - { id: s15, target: "Mum is worried about Grandma.", native: { nl: "Mama is bezorgd om oma." }, items: [en.worried] }
+  - { id: s16, target: "I'm interested in dinosaurs.", native: { nl: "Ik ben geïnteresseerd in dinosaurussen." }, items: [en.interested], acceptAlso: ["I am interested in dinosaurs."] }
+  - { id: s17, target: "The children are excited about the party.", native: { nl: "De kinderen zijn enthousiast over het feest." }, items: [en.excited] }
+  - { id: s18, target: "Dad was pleased with my drawing.", native: { nl: "Papa was blij met mijn tekening." }, items: [en.pleased] }
+  - { id: s19, target: "I'm bored. Let's play a game!", native: { nl: "Ik verveel me. Laten we een spelletje doen!" }, items: [en.bored], acceptAlso: ["I am bored. Let's play a game!"] }
+  - { id: s20, target: "You're lucky! You won the prize.", native: { nl: "Je hebt geluk! Je hebt de prijs gewonnen." }, items: [en.lucky], acceptAlso: ["You are lucky! You won the prize."] }
+lessons:
+  - { id: l01, title: { nl: Denken }, vocab: [en.agree, en.believe, en.decide, en.forget, en.guess, en.hope, en.remember] }
+  - { id: l02, title: { nl: Willen en wensen }, vocab: [en.invent, en.mind, en.prefer, en.wish, en.hate, en.sure, en.strange] }
+  - { id: l03, title: { nl: "Hoe voel je je?" }, vocab: [en.worried, en.interested, en.excited, en.pleased, en.bored, en.lucky] }

@@ -1,0 +1,49 @@
+id: nl-a1-u10
+title: { en: By bus and train }
+icon: train
+topic: Public transport and travelling
+vocabulary:
+  - { target: de trein, native: { en: train }, pos: noun, plural: treinen }
+  - { target: de tram, native: { en: tram }, pos: noun, plural: trams }
+  - { target: de metro, native: { en: metro }, pos: noun, plural: "metro's" }
+  - { target: de auto, native: { en: car }, pos: noun, plural: "auto's" }
+  - { target: de fiets, native: { en: bike }, pos: noun, plural: fietsen }
+  - { target: het vliegtuig, native: { en: plane }, pos: noun, plural: vliegtuigen }
+  - { target: de halte, native: { en: stop }, pos: noun, plural: haltes }
+  - { target: het perron, native: { en: platform }, pos: noun, plural: perrons, avoid: [nl.spoor] }
+  - { target: het spoor, native: { en: "platform (number), track" }, pos: noun, plural: sporen }
+  - { target: het ticket, native: { en: ticket }, pos: noun, plural: tickets }
+  - { target: het abonnement, native: { en: season ticket }, pos: noun, plural: abonnementen }
+  - { target: de chauffeur, native: { en: driver }, pos: noun, plural: chauffeurs }
+  - { target: de reis, native: { en: "journey, trip" }, pos: noun, plural: reizen }
+  - { target: de file, native: { en: traffic jam }, pos: noun, plural: files }
+  - { target: vol, native: { en: full }, pos: adjective }
+  - { target: rijden, native: { en: "to drive, to ride" }, pos: verb }
+  - { target: opstappen, native: { en: to get on }, pos: verb, avoid: [nl.uitstappen] }
+  - { target: uitstappen, native: { en: to get off }, pos: verb }
+  - { target: overstappen, native: { en: to change (trains) }, pos: verb }
+  - { target: vertrekken, native: { en: to leave }, pos: verb, avoid: [nl.aankomen] }
+  - { target: aankomen, native: { en: to arrive }, pos: verb }
+  - { target: reizen, native: { en: to travel }, pos: verb }
+sentences:
+  - { id: s01, target: "Ik ga met de trein naar Brussel.", native: { en: "I'm going to Brussels by train." }, items: [nl.trein] }
+  - { id: s02, target: "De tram is vol.", native: { en: "The tram is full." }, items: [nl.tram, nl.vol] }
+  - { id: s03, target: "In Brussel neem ik de metro.", native: { en: "In Brussels I take the metro." }, items: [nl.metro], acceptAlso: ["Ik neem de metro in Brussel.", "Ik neem in Brussel de metro."] }
+  - { id: s04, target: "Mijn auto staat voor het huis.", native: { en: "My car is in front of the house." }, items: [nl.auto] }
+  - { id: s05, target: "Ik ga met de fiets naar mijn werk.", native: { en: "I go to work by bike." }, items: [nl.fiets] }
+  - { id: s06, target: "Het vliegtuig vertrekt om tien uur.", native: { en: "The plane leaves at ten o'clock." }, items: [nl.vliegtuig, nl.vertrekken] }
+  - { id: s07, target: "Waar is de halte van bus drie?", native: { en: "Where is the stop for bus three?" }, items: [nl.halte] }
+  - { id: s08, target: "De trein staat aan het perron.", native: { en: "The train is at the platform." }, items: [nl.perron], acceptAlso: ["Aan het perron staat de trein."] }
+  - { id: s09, target: "De trein naar Gent vertrekt van spoor vier.", native: { en: "The train to Ghent leaves from platform four." }, items: [nl.spoor], acceptAlso: ["Van spoor vier vertrekt de trein naar Gent."] }
+  - { id: s10, target: "Een ticket naar Brugge, alstublieft.", native: { en: "A ticket to Bruges, please." }, items: [nl.ticket] }
+  - { id: s11, target: "Ik heb een abonnement voor de bus.", native: { en: "I have a season ticket for the bus." }, items: [nl.abonnement] }
+  - { id: s12, target: "Waar moet ik uitstappen?", native: { en: "Where do I have to get off?" }, items: [nl.uitstappen] }
+  - { id: s13, target: "De chauffeur rijdt heel rustig.", native: { en: "The driver drives very calmly." }, items: [nl.chauffeur] }
+  - { id: s14, target: "De reis duurt een uur.", native: { en: "The journey takes an hour." }, items: [nl.reis] }
+  - { id: s15, target: "Er staat een file op de weg.", native: { en: "There's a traffic jam on the road." }, items: [nl.file] }
+  - { id: s16, target: "Ik rijd met de auto naar Gent.", native: { en: "I'm driving to Ghent." }, items: [nl.rijden] }
+  - { id: s17, target: "In Gent stap ik op.", native: { en: "I get on in Ghent." }, items: [nl.opstappen], acceptAlso: ["Ik stap in Gent op."] }
+  - { id: s18, target: "Aan het station stap ik uit.", native: { en: "I get off at the station." }, items: [nl.uitstappen], acceptAlso: ["Ik stap aan het station uit."] }
+  - { id: s19, target: "In Brussel stap ik over.", native: { en: "In Brussels I change trains." }, items: [nl.overstappen], acceptAlso: ["Ik stap in Brussel over."] }
+  - { id: s20, target: "Hoe laat komt de trein aan?", native: { en: "What time does the train arrive?" }, items: [nl.aankomen] }
+  - { id: s21, target: "Ik reis graag met de trein.", native: { en: "I like travelling by train." }, items: [nl.reizen] }

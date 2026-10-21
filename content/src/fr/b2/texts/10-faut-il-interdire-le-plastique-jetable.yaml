@@ -1,0 +1,48 @@
+id: fr-b2-t10
+kind: reading
+title: { nl: Moeten we wegwerpplastic verbieden?, en: "Should single-use plastic be banned?" }
+topic: Climat et environnement (un essai argumenté pour le journal du lycée)
+level: B2
+paragraphs:
+  - - { id: fr-b2-t10-s01, target: "Chaque minute, autant de plastique qu'un camion plein finit dans l'océan.", native: { nl: "Elke minuut belandt er een volle vrachtwagen plastic in de oceaan.", en: "Every minute, a lorryload of plastic ends up in the ocean." } }
+    - { id: fr-b2-t10-s02, target: "Une grande partie de ce plastique est jetable : des bouteilles, des verres et des sacs que nous utilisons quelques minutes et qui mettent des siècles à disparaître.", native: { nl: "Een groot deel van dat plastic is wegwerpplastic: flessen, bekertjes en zakjes die we een paar minuten gebruiken en die eeuwen nodig hebben om te verdwijnen.", en: "A large part of this plastic is single-use: bottles, cups and bags that we use for a few minutes and that take centuries to disappear." } }
+    - { id: fr-b2-t10-s03, target: "Les gouvernements devraient-ils simplement l'interdire ?", native: { nl: "Zouden regeringen het gewoon moeten verbieden?", en: "Should governments simply ban it?" } }
+  - - { id: fr-b2-t10-s04, target: "Il existe de bons arguments pour une interdiction.", native: { nl: "Er zijn goede argumenten voor een verbod.", en: "There are good arguments for a ban." } }
+    - { id: fr-b2-t10-s05, target: "Le plastique dans la mer menace les poissons et les oiseaux, et on en a même trouvé de petits morceaux dans notre nourriture et dans notre sang.", native: { nl: "Plastic in de zee bedreigt vissen en vogels, en er zijn zelfs kleine stukjes van gevonden in ons voedsel en in ons bloed.", en: "Plastic in the sea threatens fish and birds, and small pieces of it have even been found in our food and in our blood." } }
+    - { id: fr-b2-t10-s06, target: "Dans les pays qui ont interdit les sacs en plastique, leur utilisation a baissé de plus de quatre-vingts pour cent en quelques années.", native: { nl: "In landen die plastic zakjes hebben verboden, is het gebruik ervan in een paar jaar met meer dan tachtig procent gedaald.", en: "In countries that have banned plastic bags, their use has fallen by more than eighty per cent in a few years." } }
+  - - { id: fr-b2-t10-s07, target: "Pourtant, une interdiction n'est pas une solution parfaite.", native: { nl: "Toch is een verbod geen perfecte oplossing.", en: "Yet a ban is not a perfect solution." } }
+    - { id: fr-b2-t10-s08, target: "Certains produits qui remplacent le plastique, comme les sacs en papier, demandent plus d'énergie, et on ne les réutilise pas toujours.", native: { nl: "Sommige producten die plastic vervangen, zoals papieren zakken, vragen meer energie, en ze worden niet altijd hergebruikt.", en: "Some products that replace plastic, such as paper bags, need more energy, and they aren't always reused." } }
+    - { id: fr-b2-t10-s09, target: "Pour certaines personnes handicapées, une paille en plastique est une nécessité plutôt qu'un luxe.", native: { nl: "Voor sommige mensen met een beperking is een plastic rietje eerder een noodzaak dan een luxe.", en: "For some disabled people, a plastic straw is a necessity rather than a luxury." } }
+  - - { id: fr-b2-t10-s10, target: "À mon avis, une interdiction ne devrait être qu'une partie de la réponse.", native: { nl: "Volgens mij zou een verbod maar een deel van het antwoord moeten zijn.", en: "In my opinion, a ban should only be part of the answer." } }
+    - { id: fr-b2-t10-s11, target: "Les entreprises devraient payer pour les déchets qu'elles produisent, et dans les magasins, il devrait être facile d'apporter sa propre tasse ou son propre sac.", native: { nl: "Bedrijven zouden moeten betalen voor het afval dat ze produceren, en winkels zouden het makkelijk moeten maken om je eigen beker of tas mee te brengen.", en: "Companies should pay for the waste they produce, and in shops it should be easy to bring your own cup or bag." } }
+    - { id: fr-b2-t10-s12, target: "Si nous avions commencé il y a vingt ans, beaucoup moins de plastique aurait fini dans la mer.", native: { nl: "Als we twintig jaar geleden begonnen waren, zou er veel minder plastic in de zee terechtgekomen zijn.", en: "If we had started twenty years ago, much less plastic would have ended up in the sea." } }
+  - - { id: fr-b2-t10-s13, target: "En conclusion, le problème est trop urgent pour attendre.", native: { nl: "Tot besluit: het probleem is te dringend om te wachten.", en: "In conclusion, the problem is too urgent to wait." } }
+    - { id: fr-b2-t10-s14, target: "Une interdiction des pires produits jetables, avec un meilleur recyclage et un changement de nos habitudes, aurait un vrai impact.", native: { nl: "Een verbod op de ergste wegwerpproducten, samen met betere recyclage en een verandering van onze gewoonten, zou een echte impact hebben.", en: "A ban on the worst disposable products, together with better recycling and a change in our habits, would have a real impact." } }
+glossary:
+  - { word: morceaux, native: { nl: "stukjes (un morceau)", en: "pieces (un morceau)" } }
+  - { word: paille, native: { nl: rietje, en: "straw (for drinking)" } }
+items: [fr.jetable, fr.interdire, fr.interdiction, fr.menacer, fr.reutiliser, fr.urgent, fr.impact, fr.recyclage, fr.handicape, fr.en-conclusion]
+gapped:
+  gaps: [fr-b2-t10-s04, fr-b2-t10-s07, fr-b2-t10-s10, fr-b2-t10-s13]
+  extra:
+    - { id: fr-b2-t10-x1, target: "Le plastique a été inventé il y a plus de cent ans.", native: { nl: "Plastic werd meer dan honderd jaar geleden uitgevonden.", en: "Plastic was invented more than a hundred years ago." } }
+openCloze:
+  - { sentence: fr-b2-t10-s02, word: qui }
+  - { sentence: fr-b2-t10-s06, word: de }
+  - { sentence: fr-b2-t10-s09, word: plutôt }
+  - { sentence: fr-b2-t10-s13, word: trop }
+wordForm:
+  - { sentence: fr-b2-t10-s06, word: utilisation, stem: utiliser }
+  - { sentence: fr-b2-t10-s09, word: nécessité, stem: nécessaire }
+  - { sentence: fr-b2-t10-s02, word: jetable, stem: jeter }
+questions:
+  - { id: fr-b2-t10-q1, type: summary, options: ["L'auteur pense qu'une interdiction du plastique jetable est utile mais ne suffit pas : il faut aussi faire payer les entreprises, mieux recycler et changer nos habitudes.", "L'auteur pense qu'il ne faut pas interdire le plastique jetable, parce que les produits qui le remplacent sont pires.", "L'auteur pense qu'une interdiction du plastique jetable suffit, parce que les sacs en papier demandent moins d'énergie et que les entreprises ne doivent rien changer."], correct: 0 }
+  - { id: fr-b2-t10-q2, type: mc, question: "Qu'est-ce qui s'est passé dans les pays qui ont interdit les sacs en plastique ?", options: ["Leur utilisation a beaucoup baissé.", "Les magasins ont fermé.", "Les gens ont acheté plus de bouteilles."], correct: 0 }
+  - { id: fr-b2-t10-q3, type: true_false_notgiven, statement: "Les sacs en papier demandent moins d'énergie que les sacs en plastique.", answer: false }
+  - { id: fr-b2-t10-q4, type: true_false_notgiven, statement: "Le lycée de l'auteur a déjà interdit les bouteilles en plastique.", answer: not_given }
+  - { id: fr-b2-t10-q5, type: true_false_notgiven, statement: "Selon l'auteur, les entreprises devraient payer pour leurs déchets.", answer: true }
+  - { id: fr-b2-t10-q6, type: match_heading, paragraph: 3, options: ["Pourquoi une interdiction ne suffit pas", "Les arguments pour une interdiction", "Ce que l'auteur propose"], correct: 0 }
+listeningQuestions:
+  - { id: fr-b2-t10-l1, type: complete, statement: "Chaque minute, autant de plastique qu'un ___ plein finit dans l'océan.", answers: [camion] }
+  - { id: fr-b2-t10-l2, type: mc, question: "De combien l'utilisation des sacs en plastique a-t-elle baissé ?", options: ["De plus de quatre-vingts pour cent.", "De vingt pour cent.", "De moitié."], correct: 0 }
+orderable: false

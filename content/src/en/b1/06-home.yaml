@@ -1,0 +1,104 @@
+id: en-b1-u06
+title: { nl: Thuis wonen }
+icon: house
+topic: Homes, rooms, furniture and neighbours; relative clauses with where and which
+vocabulary:
+  - { target: property, native: { nl: "eigendom, woning" }, pos: noun }
+  - { target: apartment building, native: { nl: flatgebouw }, pos: noun }
+  - { target: block, native: { nl: blok (huizen) }, pos: noun }
+  - { target: own, native: { nl: "eigen; bezitten" }, pos: adjective }
+  - { target: owner, native: { nl: eigenaar }, pos: noun }
+  - { target: belong, native: { nl: "toebehoren (aan), van iemand zijn" }, pos: verb }
+  - { target: rent, native: { nl: huur }, pos: noun }
+  - { target: flatmate, native: { nl: huisgenoot }, pos: noun }
+  - { target: roommate, native: { nl: kamergenoot }, pos: noun }
+  - { target: neighbour, native: { nl: "buurman, buurvrouw" }, pos: noun }
+  - { target: neighbourhood, native: { nl: buurt }, pos: noun }
+  - { target: private, native: { nl: privé }, pos: adjective }
+  - { target: modern, native: { nl: modern }, pos: adjective, avoid: [en.antique] }
+  - { target: antique, native: { nl: antiek }, pos: adjective }
+  - { target: sitting room, native: { nl: zitkamer }, pos: noun }
+  - { target: cellar, native: { nl: kelder }, pos: noun }
+  - { target: garage, native: { nl: garage }, pos: noun }
+  - { target: yard, native: { nl: "(binnen)plaats, erf" }, pos: noun }
+  - { target: toilet, native: { nl: wc }, pos: noun }
+  - { target: bathtub, native: { nl: badkuip }, pos: noun }
+  - { target: ceiling, native: { nl: plafond }, pos: noun }
+  - { target: carpet, native: { nl: "vloerbedekking, tapijt" }, pos: noun }
+  - { target: curtain, native: { nl: gordijn }, pos: noun }
+  - { target: furniture, native: { nl: meubels }, pos: noun }
+  - { target: wardrobe, native: { nl: kledingkast }, pos: noun }
+  - { target: chest of drawers, native: { nl: ladekast }, pos: noun }
+  - { target: drawer, native: { nl: la }, pos: noun }
+  - { target: bookshelf, native: { nl: boekenplank }, pos: noun }
+  - { target: duvet, native: { nl: dekbed }, pos: noun }
+  - { target: pillow, native: { nl: hoofdkussen }, pos: noun }
+  - { target: sheet, native: { nl: laken }, pos: noun }
+  - { target: vase, native: { nl: vaas }, pos: noun }
+  - { target: frame, native: { nl: lijst (van een foto) }, pos: noun }
+  - { target: hang, native: { nl: ophangen }, pos: verb }
+  - { target: decorate, native: { nl: "versieren, opknappen" }, pos: verb }
+  - { target: remote control, native: { nl: afstandsbediening }, pos: noun }
+  - { target: heating, native: { nl: verwarming }, pos: noun }
+  - { target: central heating, native: { nl: centrale verwarming }, pos: noun }
+  - { target: air conditioning, native: { nl: airconditioning }, pos: noun }
+  - { target: alarm, native: { nl: alarm }, pos: noun }
+  - { target: lock, native: { nl: slot }, pos: noun }
+  - { target: knock, native: { nl: kloppen }, pos: verb }
+  - { target: shut, native: { nl: "dichtdoen, sluiten" }, pos: verb }
+  - { target: underneath, native: { nl: onder }, pos: preposition }
+  - { target: comfort, native: { nl: comfort }, pos: noun }
+  - { target: comfortable, native: { nl: comfortabel }, pos: adjective, avoid: [en.uncomfortable] }
+  - { target: uncomfortable, native: { nl: oncomfortabel }, pos: adjective }
+  - { target: cosy, native: { nl: gezellig (knus) }, pos: adjective }
+sentences:
+  - { id: s01, target: "The house is private property.", native: { nl: "Het huis is privé-eigendom." }, items: [en.property, en.private] }
+  - { id: s02, target: "We live on the fourth floor of an apartment building.", native: { nl: "We wonen op de vierde verdieping van een flatgebouw." }, items: [en.apartment-building] }
+  - { id: s03, target: "Let's walk round the block before dinner.", native: { nl: "Laten we voor het eten een rondje om het blok lopen." }, items: [en.block], acceptAlso: ["Before dinner let's walk round the block."] }
+  - { id: s04, target: "I'd love to have my own room.", native: { nl: "Ik zou graag een eigen kamer hebben." }, items: [en.own] }
+  - { id: s05, target: "The owner of the flat lives in London.", native: { nl: "De eigenaar van de flat woont in Londen." }, items: [en.owner] }
+  - { id: s06, target: "Who does this umbrella belong to?", native: { nl: "Van wie is deze paraplu?" }, items: [en.belong] }
+  - { id: s07, target: "Students pay a lot of rent in this city.", native: { nl: "Studenten betalen veel huur in deze stad." }, items: [en.rent] }
+  - { id: s08, target: "My sister shares a flat with two flatmates.", native: { nl: "Mijn zus deelt een flat met twee huisgenoten." }, items: [en.flatmate] }
+  - { id: s09, target: "My roommate at camp talked in her sleep all night.", native: { nl: "Mijn kamergenote op kamp praatte de hele nacht in haar slaap." }, items: [en.roommate] }
+  - { id: s10, target: "Our neighbours have a very noisy dog.", native: { nl: "Onze buren hebben een heel luidruchtige hond." }, items: [en.neighbour] }
+  - { id: s11, target: "There are lots of parks in our neighbourhood.", native: { nl: "Er zijn veel parken in onze buurt." }, items: [en.neighbourhood], acceptAlso: ["In our neighbourhood there are lots of parks."] }
+  - { id: s12, target: "The kitchen is very modern, but the house is old.", native: { nl: "De keuken is heel modern, maar het huis is oud." }, items: [en.modern] }
+  - { id: s13, target: "My grandmother collects antique clocks.", native: { nl: "Mijn oma verzamelt antieke klokken." }, items: [en.antique] }
+  - { id: s14, target: "When we have guests, we sit in the sitting room after dinner.", native: { nl: "Als we gasten hebben, zitten we na het eten in de zitkamer." }, items: [en.sitting-room] }
+  - { id: s15, target: "We keep our old toys in the cellar.", native: { nl: "We bewaren ons oude speelgoed in de kelder." }, items: [en.cellar] }
+  - { id: s16, target: "Dad keeps his bike in the garage.", native: { nl: "Papa zet zijn fiets in de garage." }, items: [en.garage] }
+  - { id: s17, target: "The children were playing in the yard behind the house.", native: { nl: "De kinderen speelden op de binnenplaats achter het huis." }, items: [en.yard] }
+  - { id: s18, target: "Excuse me, where's the toilet?", native: { nl: "Pardon, waar is de wc?" }, items: [en.toilet] }
+  - { id: s19, target: "Our flat has a shower but no bathtub.", native: { nl: "Ons appartement heeft een douche maar geen badkuip." }, items: [en.bathtub] }
+  - { id: s20, target: "There's a spider on the ceiling!", native: { nl: "Er zit een spin op het plafond!" }, items: [en.ceiling] }
+  - { id: s21, target: "We've got a new blue carpet in the bedroom.", native: { nl: "We hebben nieuwe blauwe vloerbedekking in de slaapkamer." }, items: [en.carpet] }
+  - { id: s22, target: "Close the curtains, please. It's getting dark.", native: { nl: "Doe de gordijnen dicht, alsjeblieft. Het wordt donker." }, items: [en.curtain] }
+  - { id: s23, target: "We bought new furniture for the living room.", native: { nl: "We kochten nieuwe meubels voor de woonkamer." }, items: [en.furniture], finite: { word: bought, hint: { nl: "buy (verleden tijd)" } } }
+  - { id: s24, target: "Hang your jacket in the wardrobe.", native: { nl: "Hang je jas in de kledingkast." }, items: [en.wardrobe, en.hang] }
+  - { id: s25, target: "My socks are in the chest of drawers.", native: { nl: "Mijn sokken liggen in de ladekast." }, items: [en.chest-of-drawers] }
+  - { id: s26, target: "The scissors are in the top drawer.", native: { nl: "De schaar ligt in de bovenste la." }, items: [en.drawer] }
+  - { id: s27, target: "Put the dictionary back on the bookshelf.", native: { nl: "Zet het woordenboek terug op de boekenplank." }, items: [en.bookshelf] }
+  - { id: s28, target: "In winter I sleep under a thick duvet.", native: { nl: "In de winter slaap ik onder een dik dekbed." }, items: [en.duvet] }
+  - { id: s29, target: "I can't sleep without my pillow.", native: { nl: "Ik kan niet slapen zonder mijn kussen." }, items: [en.pillow] }
+  - { id: s30, target: "Can you help me put clean sheets on the bed?", native: { nl: "Kun je me helpen schone lakens op het bed te leggen?" }, items: [en.sheet] }
+  - { id: s31, target: "Put the flowers in a vase with some water.", native: { nl: "Zet de bloemen in een vaas met wat water." }, items: [en.vase] }
+  - { id: s32, target: "There's a photo of us in a silver frame.", native: { nl: "Er staat een foto van ons in een zilveren lijst." }, items: [en.frame] }
+  - { id: s33, target: "We decorated the room with balloons.", native: { nl: "We versierden de kamer met ballonnen." }, items: [en.decorate], finite: { word: decorated, hint: { nl: "decorate (verleden tijd)" } } }
+  - { id: s34, target: "Where's the remote control? I want to change the channel.", native: { nl: "Waar is de afstandsbediening? Ik wil naar een andere zender kijken." }, items: [en.remote-control] }
+  - { id: s35, target: "Turn the heating down if you're too warm.", native: { nl: "Zet de verwarming lager als je het te warm hebt." }, items: [en.heating] }
+  - { id: s36, target: "Old houses often don't have central heating.", native: { nl: "Oude huizen hebben vaak geen centrale verwarming." }, items: [en.central-heating] }
+  - { id: s37, target: "The hotel room had air conditioning.", native: { nl: "De hotelkamer had airconditioning." }, items: [en.air-conditioning] }
+  - { id: s38, target: "The alarm went off in the middle of the night.", native: { nl: "Het alarm ging midden in de nacht af." }, items: [en.alarm], finite: { word: went, hint: { nl: "go (verleden tijd: … off)" } }, acceptAlso: ["In the middle of the night the alarm went off."] }
+  - { id: s39, target: "The key is stuck in the lock.", native: { nl: "De sleutel zit vast in het slot." }, items: [en.lock] }
+  - { id: s40, target: "Somebody is knocking at the door.", native: { nl: "Er klopt iemand op de deur." }, items: [en.knock] }
+  - { id: s41, target: "Please shut the door when you leave.", native: { nl: "Doe alsjeblieft de deur dicht als je weggaat." }, items: [en.shut] }
+  - { id: s42, target: "The cat is hiding underneath the bed.", native: { nl: "De kat verstopt zich onder het bed." }, items: [en.underneath] }
+  - { id: s43, target: "Our new flat has every comfort you can imagine.", native: { nl: "Onze nieuwe flat heeft alle denkbare comfort." }, items: [en.comfort] }
+  - { id: s44, target: "This sofa is really comfortable.", native: { nl: "Deze bank is echt comfortabel." }, items: [en.comfortable] }
+  - { id: s45, target: "These shoes are very uncomfortable.", native: { nl: "Deze schoenen zitten heel oncomfortabel." }, items: [en.uncomfortable] }
+  - { id: s46, target: "Our living room is small but cosy.", native: { nl: "Onze woonkamer is klein maar gezellig." }, items: [en.cosy] }
+  - { id: s47, target: "This is the sitting room, where we watch TV.", native: { nl: "Dit is de zitkamer, waar we tv kijken." }, items: [en.sitting-room] }
+  - { id: s48, target: "The flat, which has two bedrooms, has a low rent.", native: { nl: "De flat, die twee slaapkamers heeft, heeft een lage huur." }, items: [en.rent] }
+  - { id: s49, target: "That's the neighbourhood where my grandparents live.", native: { nl: "Dat is de buurt waar mijn grootouders wonen." }, items: [en.neighbourhood] }
+texts: [en-b1-t07]

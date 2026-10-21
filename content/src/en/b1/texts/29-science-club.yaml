@@ -1,0 +1,36 @@
+id: en-b1-t29
+kind: reading
+title: { nl: De wetenschapsclub meet de school }
+topic: Numbers and measuring (a report by a school science club)
+level: B1
+paragraphs:
+  - - { id: en-b1-t29-s01, target: "Every Thursday after school, the science club meets in the laboratory.", native: { nl: "Elke donderdag na school komt de wetenschapsclub samen in het laboratorium." } }
+    - { id: en-b1-t29-s02, target: "This term, our teacher gave us an unusual project: to measure the school.", native: { nl: "Dit trimester gaf onze leraar ons een ongewoon project: de school opmeten." } }
+  - - { id: en-b1-t29-s03, target: "At first we thought it would be easy, but it took ages.", native: { nl: "Eerst dachten we dat het makkelijk zou zijn, maar het duurde een eeuwigheid." } }
+    - { id: en-b1-t29-s04, target: "We measured the length of the playground with a long tape: it is exactly forty-two metres.", native: { nl: "We maten de lengte van het schoolplein met een lang meetlint: het is precies tweeënveertig meter." } }
+    - { id: en-b1-t29-s05, target: "Measuring the height of the building was harder, so we used its shadow and a little arithmetic.", native: { nl: "De hoogte van het gebouw meten was moeilijker, dus gebruikten we de schaduw ervan en een beetje rekenwerk." } }
+  - - { id: en-b1-t29-s06, target: "We also weighed every pupil's school bag on a Monday morning.", native: { nl: "We wogen ook op een maandagochtend de schooltas van elke leerling." } }
+    - { id: en-b1-t29-s07, target: "The average bag weighed approximately six kilogrammes, and the heaviest one weighed eleven!", native: { nl: "De gemiddelde tas woog ongeveer zes kilogram, en de zwaarste woog er elf!" } }
+    - { id: en-b1-t29-s08, target: "Doctors say a bag should not be more than ten percent of your weight, so many bags are too heavy.", native: { nl: "Artsen zeggen dat een tas niet meer dan tien procent van je gewicht mag zijn, dus veel tassen zijn te zwaar." } }
+  - - { id: en-b1-t29-s09, target: "In the end, we put all our results in a diagram and showed it at the school's open evening.", native: { nl: "Uiteindelijk zetten we al onze resultaten in een diagram en lieten we het zien op de open avond van de school." } }
+    - { id: en-b1-t29-s10, target: "Next term we are going to measure how much water the school uses every day.", native: { nl: "Volgend trimester gaan we meten hoeveel water de school elke dag gebruikt." } }
+glossary:
+  - { word: tape, native: { nl: meetlint } }
+items: [en.laboratory, en.term, en.measure, en.at-first, en.ages, en.length, en.exactly, en.metre, en.height, en.shadow, en.arithmetic, en.weigh, en.average, en.approximately, en.percent, en.weight, en.in-the-end, en.result, en.diagram, en.kilogramme]
+questions:
+  - { id: en-b1-t29-q1, type: mc, question: "When does the science club meet?", options: ["On Thursdays after school.", "On Thursday mornings.", "Every day at lunchtime."], correct: 0 }
+  - { id: en-b1-t29-q2, type: true_false_notgiven, statement: "Measuring the school was as easy as the students expected.", answer: false }
+  - { id: en-b1-t29-q3, type: true_false_notgiven, statement: "The heaviest bag belonged to the youngest pupil.", answer: not_given }
+  - { id: en-b1-t29-q4, type: true_false_notgiven, statement: "The playground is forty-two metres long.", answer: true }
+  - { id: en-b1-t29-q5, type: mc, question: "How did they measure the height of the building?", options: ["With its shadow and some arithmetic.", "With a long tape from the roof.", "They asked the architect."], correct: 0 }
+  - { id: en-b1-t29-q6, type: match_heading, paragraph: 3, options: ["Heavy school bags", "Measuring the playground", "Plans for next term"], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t29-l1, type: mc, question: "How much did the average bag weigh?", options: ["About six kilogrammes.", "About eleven kilogrammes.", "About ten kilogrammes."], correct: 0 }
+  - { id: en-b1-t29-l2, type: true_false_notgiven, statement: "Next term the club will measure the school's water.", answer: true }
+cloze:
+  - { sentence: en-b1-t29-s02, word: gave, kind: finite_verb, hint: { nl: "give (verleden tijd)" } }
+  - { sentence: en-b1-t29-s03, word: thought, kind: finite_verb, hint: { nl: "think (verleden tijd)" } }
+  - { sentence: en-b1-t29-s04, word: measured, kind: finite_verb, hint: { nl: "measure (verleden tijd)" } }
+  - { sentence: en-b1-t29-s06, word: weighed, kind: finite_verb, hint: { nl: "weigh (verleden tijd)" } }
+  - { sentence: en-b1-t29-s09, word: showed, kind: finite_verb, hint: { nl: "show (verleden tijd)" } }
+orderable: true

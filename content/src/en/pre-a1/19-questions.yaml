@@ -1,0 +1,54 @@
+id: en-pre-a1-u19
+title: { nl: Vragen en kleine woorden }
+icon: questions
+topic: Grammar (question words, conjunctions, articles, adverbs)
+vocabulary:
+  - { target: who, native: { nl: wie }, pos: question }
+  - { target: what, native: { nl: wat }, pos: question }
+  - { target: which, native: { nl: welke }, pos: question }
+  - { target: whose, native: { nl: van wie }, pos: question }
+  - { target: how, native: { nl: hoe }, pos: question }
+  - { target: how many, native: { nl: hoeveel }, pos: question, avoid: [en.how] }
+  - { target: how old, native: { nl: hoe oud }, pos: question, avoid: [en.how] }
+  - { target: and, native: { nl: en }, pos: conjunction }
+  - { target: but, native: { nl: maar }, pos: conjunction }
+  - { target: or, native: { nl: of }, pos: conjunction }
+  - { target: not, native: { nl: niet }, pos: adverb }
+  - { target: very, native: { nl: heel }, pos: adverb, avoid: [en.really] }
+  - { target: too, native: { nl: "ook, te" }, pos: adverb }
+  - { target: a, native: { nl: een }, pos: article }
+  - { target: an, native: { nl: "een (voor een klinkerklank)" }, pos: article, avoid: [en.a] }
+  - { target: the, native: { nl: "de, het" }, pos: article }
+  - { target: really, native: { nl: echt }, pos: adverb }
+  - { target: a lot, native: { nl: "veel, heel erg" }, pos: adverb }
+  - { target: lots, native: { nl: "veel, heel erg" }, pos: adverb }
+sentences:
+  - { id: s01, target: "Who is that boy?", native: { nl: "Wie is die jongen?" }, items: [en.who, en.boy] }
+  - { id: s02, target: "And who is that girl?", native: { nl: "En wie is dat meisje?" }, items: [en.who, en.girl] }
+  - { id: s03, target: "What is this?", native: { nl: "Wat is dit?" }, items: [en.what] }
+  - { id: s04, target: "Mum, what is this?", native: { nl: "Mama, wat is dit?" }, items: [en.what, en.mum] }
+  - { id: s05, target: "Which bag is yours?", native: { nl: "Welke tas is van jou?" }, items: [en.which, en.bag] }
+  - { id: s06, target: "Whose pen is this?", native: { nl: "Van wie is deze pen?" }, items: [en.whose, en.pen] }
+  - { id: s07, target: "How are you?", native: { nl: "Hoe gaat het met je?" }, items: [en.how] }
+  - { id: s08, target: "How many cats have you got?", native: { nl: "Hoeveel katten heb jij?" }, items: [en.how-many, en.cat] }
+  - { id: s09, target: "How old are you?", native: { nl: "Hoe oud ben jij?" }, items: [en.how-old] }
+  - { id: s10, target: "Ben, how old is your sister?", native: { nl: "Ben, hoe oud is jouw zus?" }, items: [en.how-old, en.sister] }
+  - { id: s11, target: "I've got a cat and a dog.", native: { nl: "Ik heb een kat en een hond." }, items: [en.and, en.cat, en.dog], acceptAlso: ["I have got a cat and a dog.", "I've got a dog and a cat."] }
+  - { id: s12, target: "I like apples but I don't like pears.", native: { nl: "Ik vind appels lekker, maar peren niet." }, items: [en.but, en.like], acceptAlso: ["I like apples but I do not like pears."] }
+  - { id: s13, target: "My dog is small but very funny.", native: { nl: "Mijn hond is klein maar heel grappig." }, items: [en.but, en.very, en.small, en.funny] }
+  - { id: s14, target: "Do you want milk or juice?", native: { nl: "Wil je melk of sap?" }, items: [en.or, en.milk, en.juice] }
+  - { id: s15, target: "This is not my bag.", native: { nl: "Dit is niet mijn tas." }, items: [en.not, en.bag] }
+  - { id: s16, target: "The elephant is very big.", native: { nl: "De olifant is heel groot." }, items: [en.very, en.elephant, en.big] }
+  - { id: s17, target: "I like football too.", native: { nl: "Ik vind voetbal ook leuk." }, items: [en.too, en.football] }
+  - { id: s18, target: "This T-shirt is too small.", native: { nl: "Dit T-shirt is te klein." }, items: [en.too, en.small] }
+  - { id: s19, target: "I've got a banana.", native: { nl: "Ik heb een banaan." }, items: [en.a, en.banana], acceptAlso: ["I have got a banana."] }
+  - { id: s20, target: "She's eating an apple.", native: { nl: "Ze eet een appel." }, items: [en.an, en.apple], acceptAlso: ["She is eating an apple."] }
+  - { id: s21, target: "Is this an egg or a ball?", native: { nl: "Is dit een ei of een bal?" }, items: [en.an, en.a, en.or, en.egg, en.ball] }
+  - { id: s22, target: "Where is the teacher?", native: { nl: "Waar is de juf?" }, items: [en.the, en.teacher] }
+  - { id: s23, target: "Is it really your birthday?", native: { nl: "Ben je echt jarig?" }, items: [en.really, en.birthday] }
+  - { id: s24, target: "I like this song a lot.", native: { nl: "Ik vind dit liedje heel erg leuk." }, items: [en.a-lot, en.song] }
+  - { id: s25, target: "I love you lots!", native: { nl: "Ik hou heel veel van je!" }, items: [en.lots, en.love] }
+lessons:
+  - { id: l01, title: { nl: Vragen }, vocab: [en.who, en.what, en.which, en.whose, en.how, en.how-many, en.how-old] }
+  - { id: l02, title: { nl: "En, maar, niet" }, vocab: [en.and, en.but, en.or, en.not, en.very, en.too] }
+  - { id: l03, title: { nl: "Een, de, het en echt" }, vocab: [en.a, en.an, en.the, en.really, en.a-lot, en.lots] }

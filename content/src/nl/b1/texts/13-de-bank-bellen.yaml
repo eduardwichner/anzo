@@ -1,0 +1,39 @@
+id: nl-b1-t13
+kind: dialogue
+title: { en: A suspicious message }
+topic: Money and the bank (a customer phones his bank)
+level: B1
+speakers: { A: { name: Tom }, B: { name: Sara (bank) } }
+turns:
+  - { id: nl-b1-t13-s01, speaker: B, target: "Goedemiddag, u spreekt met Sara van de klantendienst. Waarmee kan ik u helpen?", native: { en: "Good afternoon, this is Sara from customer service. How can I help you?" } }
+  - { id: nl-b1-t13-s02, speaker: A, target: "Dag mevrouw. Ik heb vanmorgen een verdacht bericht gekregen. Er stond in dat mijn kaart geblokkeerd was.", native: { en: "Hello. I got a suspicious message this morning. It said that my card had been blocked." } }
+  - { id: nl-b1-t13-s03, speaker: B, target: "Stond er ook een link in het bericht?", native: { en: "Was there also a link in the message?" } }
+  - { id: nl-b1-t13-s04, speaker: A, target: "Ja. Ik heb erop geklikt en mijn gegevens ingevuld. Pas daarna dacht ik: dit klopt niet.", native: { en: "Yes. I clicked on it and filled in my details. Only afterwards did I think: this isn't right." } }
+  - { id: nl-b1-t13-s05, speaker: B, target: "Hebt u ook uw pincode of een code uit uw kaartlezer gegeven?", native: { en: "Did you also give your PIN or a code from your card reader?" } }
+  - { id: nl-b1-t13-s06, speaker: A, target: "Mijn pincode niet, maar wel een code die ik per sms had gekregen.", native: { en: "Not my PIN, but I did give a code that I had received by text message." } }
+  - { id: nl-b1-t13-s07, speaker: B, target: "Dan blokkeren we uw kaart en uw app nu meteen. Ik kijk ook even of er vandaag verdachte betalingen zijn gebeurd.", native: { en: "Then we'll block your card and your app right now. I'll also check whether any suspicious payments have been made today." } }
+  - { id: nl-b1-t13-s08, speaker: A, target: "Dank u. Ik ben zo ongerust. Op die rekening staat al ons spaargeld.", native: { en: "Thank you. I'm so worried. All our savings are in that account." } }
+  - { id: nl-b1-t13-s09, speaker: B, target: "Ik begrijp het. Er is één betaling van vijfhonderd euro, van tien minuten geleden. Die hebben we kunnen tegenhouden.", native: { en: "I understand. There's one payment of five hundred euros, from ten minutes ago. We were able to stop it." } }
+  - { id: nl-b1-t13-s10, speaker: A, target: "Gelukkig! Wat moet ik nu nog doen?", native: { en: "Thank goodness! What else do I need to do now?" } }
+  - { id: nl-b1-t13-s11, speaker: B, target: "U krijgt binnen drie dagen een nieuwe kaart. En ik zou ook aangifte doen bij de politie. Wij vragen nooit uw gegevens via een link.", native: { en: "You'll get a new card within three days. And I would also report it to the police. We never ask for your details through a link." } }
+  - { id: nl-b1-t13-s12, speaker: A, target: "Dat zal ik onthouden. Bedankt voor uw hulp.", native: { en: "I'll remember that. Thank you for your help." } }
+glossary:
+  - { word: kaartlezer, native: { en: card reader } }
+  - { word: ongerust, native: { en: worried } }
+  - { word: tegenhouden, native: { en: "to stop, to block" } }
+items: [nl.verdacht, nl.gegevens, nl.pincode, nl.code, nl.blokkeren, nl.spaargeld, nl.meteen, nl.wel, nl.kloppen, nl.binnen, nl.betaling, nl.via, nl.sms, nl.bedanken, nl.verdachte]
+questions:
+  - { id: nl-b1-t13-q1, type: mc, question: "Waarom belt Tom naar de bank?", options: ["Hij heeft zijn gegevens ingevuld na een verdacht bericht.", "Hij is zijn bankkaart verloren.", "Hij wil een lening aanvragen."], correct: 0 }
+  - { id: nl-b1-t13-q4, type: true_false_notgiven, statement: "Tom heeft al eerder een verdacht bericht gekregen.", answer: not_given }
+  - { id: nl-b1-t13-q2, type: true_false_notgiven, statement: "Tom heeft zijn pincode gegeven.", answer: false }
+  - { id: nl-b1-t13-q3, type: true_false_notgiven, statement: "De bank heeft de betaling van vijfhonderd euro gestopt.", answer: true }
+  - { id: nl-b1-t13-q5, type: mc, question: "Wat raadt Sara Tom aan?", options: ["Aangifte doen bij de politie.", "Een nieuwe rekening openen.", "Het bericht beantwoorden."], correct: 0 }
+listeningQuestions:
+  - { id: nl-b1-t13-l1, type: mc, question: "Wanneer krijgt Tom een nieuwe kaart?", options: ["Binnen drie dagen.", "Morgen.", "Binnen tien minuten."], correct: 0 }
+  - { id: nl-b1-t13-l2, type: true_false_notgiven, statement: "Volgens Sara mag Tom zijn gegevens via een link doorgeven.", answer: false }
+cloze:
+  - { sentence: nl-b1-t13-s02, word: stond, kind: finite_verb, hint: { en: "staan (past)" } }
+  - { sentence: nl-b1-t13-s04, word: dacht, kind: finite_verb, hint: { en: "denken (past)" } }
+  - { sentence: nl-b1-t13-s07, word: kijk, kind: finite_verb, hint: { en: "kijken (present)" } }
+  - { sentence: nl-b1-t13-s11, word: krijgt, kind: finite_verb, hint: { en: "krijgen (present)" } }
+orderable: true

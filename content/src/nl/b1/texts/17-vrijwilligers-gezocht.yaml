@@ -1,0 +1,38 @@
+id: nl-b1-t17
+kind: reading
+title: { en: Volunteers wanted }
+topic: Leisure and associations (the newsletter of a neighbourhood association)
+level: B1
+paragraphs:
+  - - { id: nl-b1-t17-s01, target: "Op zaterdag 6 juni organiseert onze buurtvereniging opnieuw het festival Samen in de Wijk.", native: { en: "On Saturday 6 June our neighbourhood association is once again organising the festival Together in the Neighbourhood." } }
+    - { id: nl-b1-t17-s02, target: "Er is muziek, er treden dansgroepen op en er is een rommelmarkt waar iedereen spullen kan verkopen.", native: { en: "There's music, dance groups perform and there's a flea market where anyone can sell things." } }
+  - - { id: nl-b1-t17-s03, target: "Om alles goed te laten verlopen, hebben we minstens dertig vrijwilligers nodig.", native: { en: "To make everything run smoothly, we need at least thirty volunteers." } }
+    - { id: nl-b1-t17-s04, target: "U kunt helpen aan de toog, bij de opbouw van de tenten of bij de activiteiten voor kinderen.", native: { en: "You can help at the bar, with putting up the tents or with the activities for children." } }
+    - { id: nl-b1-t17-s05, target: "U hoeft niet de hele dag te werken: een taak duurt meestal drie uur.", native: { en: "You don't have to work the whole day: a task usually lasts three hours." } }
+  - - { id: nl-b1-t17-s06, target: "Vorig jaar deden er heel wat nieuwe buren mee.", native: { en: "Last year quite a few new neighbours took part." } }
+    - { id: nl-b1-t17-s07, target: "Fatima, die twee jaar geleden in de wijk kwam wonen, vertelt: \"Ik kende bijna niemand. Door het vrijwilligerswerk heb ik veel mensen leren kennen, en nu ben ik zelf lid van het bestuur.\"", native: { en: "Fatima, who came to live in the neighbourhood two years ago, says: \"I hardly knew anyone. Through the voluntary work I got to know a lot of people, and now I'm on the committee myself.\"" } }
+  - - { id: nl-b1-t17-s08, target: "Alle vrijwilligers krijgen een gratis maaltijd en een T-shirt van het festival.", native: { en: "All volunteers get a free meal and a festival T-shirt." } }
+    - { id: nl-b1-t17-s09, target: "Na het festival is er een feest om iedereen te bedanken.", native: { en: "After the festival there's a party to thank everyone." } }
+  - - { id: nl-b1-t17-s10, target: "Wilt u helpen? Schrijf u in bij onze secretaris, Els Claes, voor het einde van mei, of vul het formulier in op onze website.", native: { en: "Would you like to help? Sign up with our secretary, Els Claes, before the end of May, or fill in the form on our website." } }
+glossary:
+  - { word: dansgroepen, native: { en: dance groups } }
+  - { word: verlopen, native: { en: "to go, to run (smoothly)" } }
+  - { word: opbouw, native: { en: "setting up, putting up" } }
+  - { word: heel wat, native: { en: "quite a few, a lot of" } }
+  - { word: T-shirt, native: { en: T-shirt } }
+items: [nl.festival, nl.rommelmarkt, nl.optreden, nl.vrijwilligerswerk, nl.bestuur, nl.secretaris, nl.toog, nl.bedanken, nl.zelf, nl.vrijwilliger, nl.minstens, nl.spullen, nl.opnieuw, nl.lid, nl.einde, nl.meedoen]
+questions:
+  - { id: nl-b1-t17-q1, type: mc, question: "Waarvoor zoekt de buurtvereniging vrijwilligers?", options: ["Voor het festival Samen in de Wijk.", "Voor een nieuwe jeugdbeweging.", "Voor het bestuur van de vereniging."], correct: 0 }
+  - { id: nl-b1-t17-q3, type: true_false_notgiven, statement: "Fatima is nu lid van het bestuur.", answer: true }
+  - { id: nl-b1-t17-q2, type: true_false_notgiven, statement: "Vrijwilligers moeten de hele dag werken.", answer: false }
+  - { id: nl-b1-t17-q4, type: true_false_notgiven, statement: "Het festival kost vijf euro voor bezoekers.", answer: not_given }
+  - { id: nl-b1-t17-q5, type: match_heading, paragraph: 3, options: ["Wat een vrijwilliger vertelt", "Wat vrijwilligers krijgen", "Hoe u zich inschrijft"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b1-t17-l1, type: mc, question: "Hoeveel vrijwilligers zijn er minstens nodig?", options: ["Dertig.", "Tien.", "Drie."], correct: 0 }
+  - { id: nl-b1-t17-l2, type: true_false_notgiven, statement: "Vrijwilligers krijgen een gratis maaltijd.", answer: true }
+cloze:
+  - { sentence: nl-b1-t17-s01, word: organiseert, kind: finite_verb, hint: { en: "organiseren (present)" } }
+  - { sentence: nl-b1-t17-s05, word: duurt, kind: finite_verb, hint: { en: "duren (present)" } }
+  - { sentence: nl-b1-t17-s06, word: deden, kind: finite_verb, hint: { en: "meedoen (past)" } }
+  - { sentence: nl-b1-t17-s07, word: kwam, kind: finite_verb, hint: { en: "komen (past)" } }
+orderable: false

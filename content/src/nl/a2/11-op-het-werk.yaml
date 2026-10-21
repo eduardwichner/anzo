@@ -1,0 +1,46 @@
+id: nl-a2-u11
+title: { en: On the job }
+icon: work
+topic: Tasks, meetings, shifts, safety
+vocabulary:
+  - { target: de taak, native: { en: task }, pos: noun, plural: taken }
+  - { target: het team, native: { en: team }, pos: noun, plural: teams }
+  - { target: de vergadering, native: { en: meeting }, pos: noun, plural: vergaderingen }
+  - { target: vergaderen, native: { en: "to have a meeting" }, pos: verb }
+  - { target: de bediende, native: { en: "office worker, clerk" }, pos: noun, plural: bedienden, alsoNL: de kantoormedewerker }
+  - { target: de dienst, native: { en: "service, department" }, pos: noun, plural: diensten }
+  - { target: de ploeg, native: { en: "shift, team" }, pos: noun, plural: ploegen }
+  - { target: de overuren, native: { en: overtime }, pos: noun, plural: "-" }
+  - { target: het verlof, native: { en: "leave (time off work)" }, pos: noun, plural: "-"}
+  - { target: het magazijn, native: { en: warehouse }, pos: noun, plural: magazijnen }
+  - { target: de machine, native: { en: machine }, pos: noun, plural: machines }
+  - { target: de veiligheid, native: { en: safety }, pos: noun, plural: "-" }
+  - { target: de regel, native: { en: rule }, pos: noun, plural: regels }
+  - { target: uitleggen, native: { en: to explain }, pos: verb }
+  - { target: afwerken, native: { en: "to finish (off)" }, pos: verb, alsoNL: afmaken }
+  - { target: regelen, native: { en: "to arrange, to sort out" }, pos: verb, avoid: [nl.organiseren, nl.plannen] }
+  - { target: plannen, native: { en: to plan }, pos: verb }
+  - { target: organiseren, native: { en: to organise }, pos: verb }
+  - { target: verantwoordelijk, native: { en: responsible }, pos: adjective }
+  - { target: nauwkeurig, native: { en: "precise, careful" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Wat zijn mijn taken?", native: { en: "What are my tasks?" }, items: [nl.taak] }
+  - { id: s02, target: "In ons team werken vijf collega's.", native: { en: "Five colleagues work in our team." }, items: [nl.team], acceptAlso: ["Vijf collega's werken in ons team."] }
+  - { id: s03, target: "De vergadering begint om negen uur.", native: { en: "The meeting starts at nine o'clock." }, items: [nl.vergadering], acceptAlso: ["Om negen uur begint de vergadering."] }
+  - { id: s04, target: "We hebben twee uur vergaderd.", native: { en: "We were in a meeting for two hours." }, items: [nl.vergaderen], acceptAlso: ["Twee uur hebben we vergaderd."] }
+  - { id: s05, target: "Mijn zus is bediende bij een bank.", native: { en: "My sister is a clerk at a bank." }, items: [nl.bediende] }
+  - { id: s06, target: "Welke dienst moet ik bellen?", native: { en: "Which department should I call?" }, items: [nl.dienst] }
+  - { id: s07, target: "Deze week werk ik in de nachtploeg.", native: { en: "This week I'm on the night shift." }, items: [nl.ploeg], acceptAlso: ["Ik werk deze week in de nachtploeg."] }
+  - { id: s08, target: "Vorige week heb ik veel overuren gedaan.", native: { en: "Last week I did a lot of overtime." }, items: [nl.overuren], acceptAlso: ["Ik heb vorige week veel overuren gedaan."] }
+  - { id: s09, target: "In augustus neem ik twee weken verlof.", native: { en: "In August I'm taking two weeks' leave." }, items: [nl.verlof], acceptAlso: ["Ik neem in augustus twee weken verlof."] }
+  - { id: s10, target: "De pakjes liggen in het magazijn.", native: { en: "The parcels are in the warehouse." }, items: [nl.magazijn], acceptAlso: ["In het magazijn liggen de pakjes."] }
+  - { id: s11, target: "Kunt u uitleggen hoe deze machine werkt?", native: { en: "Can you explain how this machine works?" }, items: [nl.machine, nl.uitleggen] }
+  - { id: s12, target: "Veiligheid is het belangrijkst.", native: { en: "Safety comes first." }, items: [nl.veiligheid] }
+  - { id: s13, target: "Ken je de regels van het bedrijf?", native: { en: "Do you know the company rules?" }, items: [nl.regel] }
+  - { id: s14, target: "De baas legt het werk uit.", native: { en: "The boss explains the work." }, items: [nl.uitleggen] }
+  - { id: s15, target: "Ik moet dit rapport vandaag afwerken.", native: { en: "I have to finish this report today." }, items: [nl.afwerken] }
+  - { id: s16, target: "Ik heb alles geregeld.", native: { en: "I've sorted everything out." }, items: [nl.regelen], acceptAlso: ["Alles heb ik geregeld."] }
+  - { id: s17, target: "We plannen de vergadering voor maandag.", native: { en: "We're planning the meeting for Monday." }, items: [nl.plannen], acceptAlso: ["De vergadering plannen we voor maandag."] }
+  - { id: s18, target: "Wie organiseert het feest?", native: { en: "Who's organising the party?" }, items: [nl.organiseren] }
+  - { id: s19, target: "Zij is verantwoordelijk voor het magazijn.", native: { en: "She's responsible for the warehouse." }, items: [nl.verantwoordelijk] }
+  - { id: s20, target: "Je moet heel nauwkeurig werken.", native: { en: "You have to work very precisely." }, items: [nl.nauwkeurig] }

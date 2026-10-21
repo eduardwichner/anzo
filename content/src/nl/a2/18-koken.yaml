@@ -1,0 +1,60 @@
+id: nl-a2-u18
+title: { en: Cooking }
+icon: food
+topic: Recipes, kitchen things, instructions
+vocabulary:
+  - { target: het recept, native: { en: recipe }, pos: noun, plural: recepten }
+  - { target: het ingrediënt, native: { en: ingredient }, pos: noun, plural: ingrediënten }
+  - { target: bereiden, native: { en: to prepare }, pos: verb }
+  - { target: de pan, native: { en: pan }, pos: noun, plural: pannen }
+  - { target: de oven, native: { en: oven }, pos: noun, plural: ovens }
+  - { target: het mes, native: { en: knife }, pos: noun, plural: messen, avoid: [nl.vork, nl.lepel] }
+  - { target: de vork, native: { en: fork }, pos: noun, plural: vorken, avoid: [nl.lepel] }
+  - { target: de lepel, native: { en: spoon }, pos: noun, plural: lepels }
+  - { target: het bord, native: { en: plate }, pos: noun, plural: borden }
+  - { target: de kom, native: { en: bowl }, pos: noun, plural: kommen }
+  - { target: snijden, native: { en: to cut }, pos: verb }
+  - { target: mengen, native: { en: to mix }, pos: verb, avoid: [nl.roeren] }
+  - { target: roeren, native: { en: to stir }, pos: verb }
+  - { target: bakken, native: { en: "to fry, to bake" }, pos: verb }
+  - { target: gebakken, native: { en: "fried, baked" }, pos: adjective }
+  - { target: rauw, native: { en: raw }, pos: adjective }
+  - { target: proeven, native: { en: to taste }, pos: verb }
+  - { target: bewaren, native: { en: to keep }, pos: verb }
+  - { target: het meel, native: { en: flour }, pos: noun, plural: "-" }
+  - { target: de olie, native: { en: oil }, pos: noun, plural: oliën }
+  - { target: de room, native: { en: cream }, pos: noun, plural: "-" }
+  - { target: de peper, native: { en: pepper }, pos: noun, plural: "-" }
+  - { target: de saus, native: { en: sauce }, pos: noun, plural: sauzen }
+  - { target: de salade, native: { en: salad }, pos: noun, plural: salades }
+  - { target: het gehakt, native: { en: mince }, pos: noun, plural: "-" }
+  - { target: de biefstuk, native: { en: steak }, pos: noun, plural: biefstukken }
+  - { target: zoet, native: { en: sweet }, pos: adjective, avoid: [nl.zuur] }
+  - { target: zuur, native: { en: sour }, pos: adjective }
+  - { target: pikant, native: { en: "spicy, hot" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Heb je een goed recept voor soep?", native: { en: "Have you got a good soup recipe?" }, items: [nl.recept] }
+  - { id: s02, target: "Welke ingrediënten heb je nodig?", native: { en: "Which ingredients do you need?" }, items: [nl.ingredient] }
+  - { id: s03, target: "Mijn moeder heeft de maaltijd bereid.", native: { en: "My mother prepared the meal." }, items: [nl.bereiden] }
+  - { id: s04, target: "Doe wat olie in de pan.", native: { en: "Put some oil in the pan." }, items: [nl.olie, nl.pan] }
+  - { id: s05, target: "Zet de taart veertig minuten in de oven.", native: { en: "Put the cake in the oven for forty minutes." }, items: [nl.oven] }
+  - { id: s06, target: "Pas op met het mes!", native: { en: "Be careful with the knife!" }, items: [nl.mes] }
+  - { id: s07, target: "Mag ik een vork en een lepel?", native: { en: "May I have a fork and a spoon?" }, items: [nl.vork, nl.lepel] }
+  - { id: s08, target: "Zet de borden op tafel.", native: { en: "Put the plates on the table." }, items: [nl.bord] }
+  - { id: s09, target: "Doe het meel en de melk in een kom.", native: { en: "Put the flour and the milk in a bowl." }, items: [nl.meel, nl.kom] }
+  - { id: s10, target: "Snijd de tomaten in stukjes.", native: { en: "Cut the tomatoes into small pieces." }, items: [nl.snijden] }
+  - { id: s11, target: "Meng de eieren met de suiker.", native: { en: "Mix the eggs with the sugar." }, items: [nl.mengen] }
+  - { id: s12, target: "Je moet goed roeren.", native: { en: "You have to stir well." }, items: [nl.roeren] }
+  - { id: s13, target: "Ik heb vis gebakken.", native: { en: "I fried some fish." }, items: [nl.bakken] }
+  - { id: s14, target: "Ik eet graag gebakken aardappelen.", native: { en: "I like eating fried potatoes." }, items: [nl.gebakken] }
+  - { id: s15, target: "Dit vlees is nog rauw.", native: { en: "This meat is still raw." }, items: [nl.rauw] }
+  - { id: s16, target: "Wil je de saus even proeven?", native: { en: "Do you want to taste the sauce?" }, items: [nl.proeven, nl.saus] }
+  - { id: s17, target: "Bewaar de room in de koelkast.", native: { en: "Keep the cream in the fridge." }, items: [nl.bewaren, nl.room] }
+  - { id: s18, target: "Een beetje zout en peper, alstublieft.", native: { en: "A little salt and pepper, please." }, items: [nl.peper] }
+  - { id: s19, target: "Ik maak een salade met tomaten.", native: { en: "I'm making a salad with tomatoes." }, items: [nl.salade] }
+  - { id: s20, target: "Voor de saus heb je een kilo gehakt nodig.", native: { en: "For the sauce you need a kilo of mince." }, items: [nl.gehakt] }
+  - { id: s21, target: "Ik neem de biefstuk met frietjes.", native: { en: "I'll have the steak and chips." }, items: [nl.biefstuk] }
+  - { id: s22, target: "De taart is te zoet.", native: { en: "The cake is too sweet." }, items: [nl.zoet] }
+  - { id: s23, target: "Deze appel is zuur.", native: { en: "This apple is sour." }, items: [nl.zuur] }
+  - { id: s24, target: "Deze saus is pikanter dan die van gisteren.", native: { en: "This sauce is spicier than yesterday's." }, items: [nl.pikant] }
+  - { id: s25, target: "Roer de saus terwijl ze kookt.", native: { en: "Stir the sauce while it's cooking." }, items: [nl.roeren] }

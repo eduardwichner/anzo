@@ -1,0 +1,185 @@
+id: en-b1-u04
+title: { nl: Vrienden en relaties }
+icon: friends
+topic: Friends, relationships and getting on with people; reflexive pronouns, phrasal verbs, present perfect with for / since
+vocabulary:
+  - { target: relationship, native: { nl: relatie }, pos: noun }
+  - { target: friendship, native: { nl: vriendschap }, pos: noun }
+  - { target: mate, native: { nl: "maat, vriend" }, pos: noun }
+  - { target: guy, native: { nl: "jongen, kerel" }, pos: noun }
+  - { target: penfriend, native: { nl: penvriend }, pos: noun }
+  - { target: boyfriend, native: { nl: "vriend (relatie), lief" }, pos: noun, avoid: [en.girlfriend] }
+  - { target: girlfriend, native: { nl: "vriendin (relatie), lief" }, pos: noun }
+  - { target: partner, native: { nl: partner }, pos: noun }
+  - { target: couple, native: { nl: stel }, pos: noun }
+  - { target: in love, native: { nl: verliefd }, pos: phrase }
+  - { target: kiss, native: { nl: zoenen }, pos: verb }
+  - { target: hug, native: { nl: knuffelen }, pos: verb }
+  - { target: split up, native: { nl: uit elkaar gaan }, pos: phrase }
+  - { target: stranger, native: { nl: vreemde (persoon) }, pos: noun }
+  - { target: social, native: { nl: sociaal }, pos: adjective }
+  - { target: get along, native: { nl: "goed opschieten (met), het goed kunnen vinden (met)" }, pos: phrase }
+  - { target: get on with, native: { nl: "goed opschieten (met), doorgaan met" }, pos: phrase }
+  - { target: trust, native: { nl: vertrouwen }, pos: verb }
+  - { target: rely, native: { nl: "(kunnen) rekenen (op)" }, pos: verb }
+  - { target: respect, native: { nl: respect }, pos: noun }
+  - { target: support, native: { nl: steun }, pos: noun }
+  - { target: encourage, native: { nl: aanmoedigen }, pos: verb }
+  - { target: favour, native: { nl: gunst }, pos: noun }
+  - { target: promise, native: { nl: belofte }, pos: noun }
+  - { target: advice, native: { nl: advies }, pos: noun }
+  - { target: advise, native: { nl: adviseren }, pos: verb }
+  - { target: suggest, native: { nl: voorstellen (een idee) }, pos: verb }
+  - { target: suggestion, native: { nl: voorstel }, pos: noun }
+  - { target: remind, native: { nl: herinneren (aan) }, pos: verb }
+  - { target: discuss, native: { nl: bespreken }, pos: verb }
+  - { target: discussion, native: { nl: discussie }, pos: noun }
+  - { target: argue, native: { nl: ruziemaken }, pos: verb }
+  - { target: argument, native: { nl: ruzie }, pos: noun }
+  - { target: disagree, native: { nl: het oneens zijn }, pos: verb }
+  - { target: insist, native: { nl: "erop staan, aandringen" }, pos: verb }
+  - { target: refuse, native: { nl: weigeren }, pos: verb, avoid: [en.accept] }
+  - { target: accept, native: { nl: "aannemen, accepteren" }, pos: verb }
+  - { target: blame, native: { nl: de schuld geven }, pos: verb }
+  - { target: apologise, native: { nl: zich verontschuldigen }, pos: verb }
+  - { target: apology, native: { nl: verontschuldiging }, pos: noun }
+  - { target: excuse, native: { nl: "smoes, uitvlucht" }, pos: noun }
+  - { target: forgive, native: { nl: vergeven }, pos: verb }
+  - { target: behave, native: { nl: zich gedragen }, pos: verb }
+  - { target: behaviour, native: { nl: gedrag }, pos: noun }
+  - { target: on purpose, native: { nl: expres }, pos: phrase }
+  - { target: joke, native: { nl: grap }, pos: noun }
+  - { target: ignore, native: { nl: negeren }, pos: verb }
+  - { target: interrupt, native: { nl: onderbreken }, pos: verb }
+  - { target: disturb, native: { nl: storen }, pos: verb, avoid: [en.bother] }
+  - { target: bother, native: { nl: "dwarszitten, last bezorgen" }, pos: verb }
+  - { target: apart, native: { nl: "uit elkaar, apart" }, pos: adverb }
+  - { target: contact, native: { nl: contact }, pos: noun }
+  - { target: face to face, native: { nl: persoonlijk (oog in oog) }, pos: phrase }
+  - { id: en.face-to-face-adj, target: face-to-face, native: { nl: persoonlijk (van gesprek) }, pos: adjective, avoid: [en.personal] }
+  - { target: call for, native: { nl: ophalen (bij iemand thuis) }, pos: phrase }
+  - { target: call in, native: { nl: even langsgaan }, pos: phrase }
+  - { target: show up, native: { nl: komen opdagen }, pos: phrase }
+  - { target: give back, native: { nl: teruggeven }, pos: phrase }
+  - { target: greet, native: { nl: begroeten }, pos: verb }
+  - { target: greeting, native: { nl: groet }, pos: noun }
+  - { target: welcome, native: { nl: welkom (het onthaal) }, pos: noun }
+  - { target: introduce, native: { nl: voorstellen (aan iemand) }, pos: verb }
+  - { target: introduction, native: { nl: "kennismaking, inleiding" }, pos: noun }
+  - { target: shake, native: { nl: schudden }, pos: verb }
+  - { target: first name, native: { nl: voornaam }, pos: noun }
+  - { target: initial, native: { nl: voorletter }, pos: noun }
+  - { target: by name, native: { nl: bij naam }, pos: phrase }
+  - { target: sir, native: { nl: meneer }, pos: noun }
+  - { target: madam, native: { nl: mevrouw }, pos: noun }
+  - { target: Ms, native: { nl: "mevrouw, mevr. (voor de naam)" }, pos: noun }
+  - { target: good morning, native: { nl: goedemorgen }, pos: phrase }
+  - { target: good afternoon, native: { nl: goedemiddag }, pos: phrase }
+  - { target: good evening, native: { nl: goedenavond }, pos: phrase }
+  - { target: good night, native: { nl: welterusten }, pos: phrase }
+  - { target: hey, native: { nl: hé }, pos: phrase }
+  - { target: yeah, native: { nl: ja (informeel) }, pos: phrase }
+  - { target: you know, native: { nl: weet je }, pos: phrase }
+  - { target: cheers, native: { nl: "proost!; bedankt! (informeel)" }, pos: phrase }
+  - { target: everybody, native: { nl: iedereen }, pos: pronoun }
+  - { target: somebody, native: { nl: iemand }, pos: pronoun }
+  - { target: anybody, native: { nl: "iemand, wie dan ook" }, pos: pronoun }
+  - { target: nobody, native: { nl: niemand }, pos: pronoun }
+  - { target: myself, native: { nl: mezelf }, pos: pronoun }
+  - { target: yourself, native: { nl: jezelf }, pos: pronoun }
+  - { target: himself, native: { nl: zichzelf (hij) }, pos: pronoun }
+  - { target: herself, native: { nl: zichzelf (zij) }, pos: pronoun }
+  - { target: itself, native: { nl: zichzelf (het) }, pos: pronoun }
+  - { target: ourselves, native: { nl: onszelf }, pos: pronoun }
+  - { target: themselves, native: { nl: "zichzelf (zij, meervoud)" }, pos: pronoun }
+sentences:
+  - { id: s01, target: "They have a very close relationship.", native: { nl: "Ze hebben een heel hechte relatie." }, items: [en.relationship] }
+  - { id: s02, target: "Our friendship started on the first day of school.", native: { nl: "Onze vriendschap begon op de eerste schooldag." }, items: [en.friendship], finite: { word: started, hint: { nl: "start (verleden tijd)" } } }
+  - { id: s03, target: "I'm going to the cinema with my mates.", native: { nl: "Ik ga naar de bioscoop met mijn vrienden." }, items: [en.mate] }
+  - { id: s04, target: "The new guy in our class is really funny.", native: { nl: "De nieuwe jongen in onze klas is echt grappig." }, items: [en.guy] }
+  - { id: s05, target: "My penfriend lives in Canada.", native: { nl: "Mijn penvriendin woont in Canada." }, items: [en.penfriend] }
+  - { id: s06, target: "Has your sister got a boyfriend?", native: { nl: "Heeft je zus een vriendje?" }, items: [en.boyfriend] }
+  - { id: s07, target: "He's been with his girlfriend for two years.", native: { nl: "Hij is al twee jaar samen met zijn vriendin." }, items: [en.girlfriend] }
+  - { id: s08, target: "Mum and her partner are coming to the party.", native: { nl: "Mama en haar partner komen naar het feest." }, items: [en.partner] }
+  - { id: s09, target: "A young couple moved in next door.", native: { nl: "Een jong stel is naast ons komen wonen." }, items: [en.couple] }
+  - { id: s10, target: "My cousin is in love with a girl from his class.", native: { nl: "Mijn neef is verliefd op een meisje uit zijn klas." }, items: [en.in-love] }
+  - { id: s11, target: "Grandma kissed us goodbye.", native: { nl: "Oma gaf ons een afscheidszoen." }, items: [en.kiss] }
+  - { id: s12, target: "When I won, my mum hugged me.", native: { nl: "Toen ik won, knuffelde mijn moeder me." }, items: [en.hug], finite: { word: hugged, hint: { nl: "hug (verleden tijd)" } } }
+  - { id: s13, target: "My aunt and uncle split up last year.", native: { nl: "Mijn tante en oom zijn vorig jaar uit elkaar gegaan." }, items: [en.split-up], acceptAlso: ["Last year my aunt and uncle split up."] }
+  - { id: s14, target: "Never get into a car with a stranger.", native: { nl: "Stap nooit in een auto bij een vreemde." }, items: [en.stranger] }
+  - { id: s15, target: "Dogs are very social animals.", native: { nl: "Honden zijn heel sociale dieren." }, items: [en.social] }
+  - { id: s16, target: "Do you get along with your brother?", native: { nl: "Kun je goed opschieten met je broer?" }, items: [en.get-along] }
+  - { id: s17, target: "I get on with everyone in my class.", native: { nl: "Ik kan met iedereen in mijn klas goed opschieten." }, items: [en.get-on-with] }
+  - { id: s18, target: "You can trust me. I won't tell anybody.", native: { nl: "Je kunt me vertrouwen. Ik vertel het aan niemand." }, items: [en.trust, en.anybody] }
+  - { id: s19, target: "You can always rely on your family.", native: { nl: "Je kunt altijd op je familie rekenen." }, items: [en.rely] }
+  - { id: s20, target: "We should show respect to older people.", native: { nl: "We moeten respect tonen voor oudere mensen." }, items: [en.respect] }
+  - { id: s21, target: "Thank you for all your support.", native: { nl: "Bedankt voor al je steun." }, items: [en.support] }
+  - { id: s22, target: "My parents encouraged me to learn the guitar.", native: { nl: "Mijn ouders moedigden me aan om gitaar te leren spelen." }, items: [en.encourage], finite: { word: encouraged, hint: { nl: "encourage (verleden tijd)" } } }
+  - { id: s23, target: "Can you do me a favour and feed my cat?", native: { nl: "Kun je me een plezier doen en mijn kat eten geven?" }, items: [en.favour] }
+  - { id: s24, target: "You made a promise, so you must keep it.", native: { nl: "Je hebt een belofte gedaan, dus je moet je eraan houden." }, items: [en.promise] }
+  - { id: s25, target: "Can I give you some advice?", native: { nl: "Mag ik je wat advies geven?" }, items: [en.advice] }
+  - { id: s26, target: "The doctor advised me to rest.", native: { nl: "De dokter adviseerde me om te rusten." }, items: [en.advise] }
+  - { id: s27, target: "I suggest going to the beach this afternoon.", native: { nl: "Ik stel voor om vanmiddag naar het strand te gaan." }, items: [en.suggest] }
+  - { id: s28, target: "Have you got any suggestions for the party?", native: { nl: "Heb je voorstellen voor het feest?" }, items: [en.suggestion] }
+  - { id: s29, target: "Please remind me to call Grandma tomorrow.", native: { nl: "Herinner me er alsjeblieft aan om oma morgen te bellen." }, items: [en.remind] }
+  - { id: s30, target: "We discussed the problem for an hour.", native: { nl: "We hebben het probleem een uur lang besproken." }, items: [en.discuss] }
+  - { id: s31, target: "We had an interesting discussion about the environment.", native: { nl: "We hadden een interessante discussie over het milieu." }, items: [en.discussion] }
+  - { id: s32, target: "My brothers argue about everything.", native: { nl: "Mijn broers maken overal ruzie over." }, items: [en.argue] }
+  - { id: s33, target: "I had an argument with my best friend.", native: { nl: "Ik had ruzie met mijn beste vriendin." }, items: [en.argument] }
+  - { id: s34, target: "I'm sorry, but I disagree with you.", native: { nl: "Het spijt me, maar ik ben het niet met je eens." }, items: [en.disagree] }
+  - { id: s35, target: "My dad insisted on paying for the meal.", native: { nl: "Mijn vader stond erop om de maaltijd te betalen." }, items: [en.insist] }
+  - { id: s36, target: "He refused to say sorry.", native: { nl: "Hij weigerde sorry te zeggen." }, items: [en.refuse], finite: { word: refused, hint: { nl: "refuse (verleden tijd)" } } }
+  - { id: s37, target: "Please accept this small present.", native: { nl: "Neem alsjeblieft dit kleine cadeautje aan." }, items: [en.accept] }
+  - { id: s38, target: "Don't blame me! It wasn't my idea.", native: { nl: "Geef mij niet de schuld! Het was niet mijn idee." }, items: [en.blame] }
+  - { id: s39, target: "He apologised for being late.", native: { nl: "Hij verontschuldigde zich omdat hij te laat was." }, items: [en.apologise] }
+  - { id: s40, target: "Please accept my apology.", native: { nl: "Aanvaard alsjeblieft mijn verontschuldiging." }, items: [en.apology, en.accept] }
+  - { id: s41, target: "What's your excuse this time?", native: { nl: "Wat is je smoes deze keer?" }, items: [en.excuse] }
+  - { id: s42, target: "I forgave him because he said sorry.", native: { nl: "Ik vergaf hem omdat hij sorry zei." }, items: [en.forgive], finite: { word: forgave, hint: { nl: "forgive (verleden tijd)" } } }
+  - { id: s43, target: "The children behaved very well at the museum.", native: { nl: "De kinderen gedroegen zich heel goed in het museum." }, items: [en.behave] }
+  - { id: s44, target: "Your behaviour in class has improved.", native: { nl: "Je gedrag in de klas is verbeterd." }, items: [en.behaviour] }
+  - { id: s45, target: "Sorry, I didn't do it on purpose.", native: { nl: "Sorry, ik deed het niet expres." }, items: [en.on-purpose] }
+  - { id: s46, target: "He told a joke and everybody laughed.", native: { nl: "Hij vertelde een grap en iedereen lachte." }, items: [en.joke, en.everybody] }
+  - { id: s47, target: "She ignored me all day. I don't know why.", native: { nl: "Ze negeerde me de hele dag. Ik weet niet waarom." }, items: [en.ignore] }
+  - { id: s48, target: "Please don't interrupt me when I'm speaking.", native: { nl: "Onderbreek me alsjeblieft niet als ik aan het woord ben." }, items: [en.interrupt] }
+  - { id: s49, target: "Sorry to disturb you, but there's a phone call for you.", native: { nl: "Sorry dat ik stoor, maar er is telefoon voor je." }, items: [en.disturb] }
+  - { id: s50, target: "My job's hard, but that doesn't bother me.", native: { nl: "Mijn werk is zwaar, maar dat zit me niet dwars." }, items: [en.bother] }
+  - { id: s51, target: "My best friend and I live far apart now.", native: { nl: "Mijn beste vriendin en ik wonen nu ver uit elkaar." }, items: [en.apart] }
+  - { id: s52, target: "We've stayed in contact since primary school.", native: { nl: "We hebben sinds de basisschool contact gehouden." }, items: [en.contact] }
+  - { id: s53, target: "I'd prefer to tell her face to face.", native: { nl: "Ik zeg het haar liever persoonlijk." }, items: [en.face-to-face] }
+  - { id: s54, target: "We had a face-to-face meeting with the teacher.", native: { nl: "We hadden een persoonlijk gesprek met de leraar." }, items: [en.face-to-face-adj] }
+  - { id: s55, target: "I'll call for you at seven, so be ready.", native: { nl: "Ik haal je om zeven uur op, dus zorg dat je klaar bent." }, items: [en.call-for] }
+  - { id: s56, target: "We called in at my aunt's house on the way home.", native: { nl: "We gingen op weg naar huis even langs bij mijn tante." }, items: [en.call-in] }
+  - { id: s57, target: "Only five people showed up for the meeting.", native: { nl: "Er kwamen maar vijf mensen opdagen voor de vergadering." }, items: [en.show-up] }
+  - { id: s58, target: "Can you give me back my pen, please?", native: { nl: "Kun je me mijn pen teruggeven, alsjeblieft?" }, items: [en.give-back], acceptAlso: ["Can you give me my pen back, please?", "Can you please give me back my pen?"] }
+  - { id: s59, target: "The head teacher greets every student at the door.", native: { nl: "De directeur begroet elke leerling bij de deur." }, items: [en.greet] }
+  - { id: s60, target: "Birthday cards often have a short greeting inside.", native: { nl: "Verjaardagskaarten hebben vaak een korte groet erin." }, items: [en.greeting] }
+  - { id: s61, target: "They gave us a warm welcome.", native: { nl: "Ze gaven ons een warm welkom." }, items: [en.welcome] }
+  - { id: s62, target: "Let me introduce my friend Omar.", native: { nl: "Mag ik mijn vriend Omar voorstellen?" }, items: [en.introduce] }
+  - { id: s63, target: "After the introductions, the meeting started.", native: { nl: "Na de kennismaking begon de vergadering." }, items: [en.introduction] }
+  - { id: s64, target: "They shook hands and smiled.", native: { nl: "Ze schudden elkaar de hand en glimlachten." }, items: [en.shake], finite: { word: shook, hint: { nl: "shake (verleden tijd)" } } }
+  - { id: s65, target: "Write your first name and your surname here.", native: { nl: "Schrijf hier je voornaam en je achternaam." }, items: [en.first-name] }
+  - { id: s66, target: "Her initials are on her school bag.", native: { nl: "Haar voorletters staan op haar schooltas." }, items: [en.initial] }
+  - { id: s67, target: "Our teacher knows every pupil by name.", native: { nl: "Onze leraar kent elke leerling bij naam." }, items: [en.by-name] }
+  - { id: s68, target: "Yes, sir. I'll do it now.", native: { nl: "Ja, meneer. Ik doe het nu." }, items: [en.sir] }
+  - { id: s69, target: "Can I help you, madam?", native: { nl: "Kan ik u helpen, mevrouw?" }, items: [en.madam] }
+  - { id: s70, target: "The letter was for Ms Taylor.", native: { nl: "De brief was voor mevrouw Taylor." }, items: [en.ms] }
+  - { id: s71, target: "Good morning, everybody!", native: { nl: "Goedemorgen, allemaal!" }, items: [en.good-morning, en.everybody] }
+  - { id: s72, target: "Good afternoon. How can I help you?", native: { nl: "Goedemiddag. Waarmee kan ik u helpen?" }, items: [en.good-afternoon] }
+  - { id: s73, target: "Good evening, and welcome to the show.", native: { nl: "Goedenavond, en welkom bij de show." }, items: [en.good-evening] }
+  - { id: s74, target: "Good night! Sleep well.", native: { nl: "Welterusten! Slaap lekker." }, items: [en.good-night] }
+  - { id: s75, target: "Hey, wait for me!", native: { nl: "Hé, wacht op mij!" }, items: [en.hey] }
+  - { id: s76, target: "Yeah, I think so too.", native: { nl: "Ja, dat denk ik ook." }, items: [en.yeah] }
+  - { id: s77, target: "It was, you know, a bit strange.", native: { nl: "Het was, weet je, een beetje vreemd." }, items: [en.you-know] }
+  - { id: s78, target: "Here's your pen. Oh, cheers!", native: { nl: "Hier is je pen. O, bedankt!" }, items: [en.cheers] }
+  - { id: s80, target: "Somebody has taken my umbrella.", native: { nl: "Iemand heeft mijn paraplu meegenomen." }, items: [en.somebody] }
+  - { id: s81, target: "Nobody knows where he is.", native: { nl: "Niemand weet waar hij is." }, items: [en.nobody] }
+  - { id: s83, target: "I made this cake myself.", native: { nl: "Ik heb deze taart zelf gemaakt." }, items: [en.myself] }
+  - { id: s84, target: "Help yourself to a drink.", native: { nl: "Pak gerust iets te drinken." }, items: [en.yourself] }
+  - { id: s85, target: "He hurt himself when he fell off his bike.", native: { nl: "Hij bezeerde zich toen hij van zijn fiets viel." }, items: [en.himself], acceptAlso: ["When he fell off his bike, he hurt himself."] }
+  - { id: s86, target: "She taught herself to play the piano.", native: { nl: "Ze heeft zichzelf piano leren spelen." }, items: [en.herself] }
+  - { id: s87, target: "The door closed by itself.", native: { nl: "De deur ging vanzelf dicht." }, items: [en.itself] }
+  - { id: s88, target: "We really enjoyed ourselves at the party.", native: { nl: "We hebben ons echt vermaakt op het feest." }, items: [en.ourselves] }
+  - { id: s89, target: "The children made the costumes themselves.", native: { nl: "De kinderen hebben de kostuums zelf gemaakt." }, items: [en.themselves] }
+  - { id: s90, target: "Ella and I have been mates since we were five.", native: { nl: "Ella en ik zijn al vriendinnen sinds we vijf waren." }, items: [en.mate] }
+  - { id: s91, target: "He's a good mate of mine.", native: { nl: "Hij is een goede maat van me." }, items: [en.mate] }
+texts: [en-b1-t05]

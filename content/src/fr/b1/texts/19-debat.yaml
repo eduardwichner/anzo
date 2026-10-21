@@ -1,0 +1,35 @@
+id: fr-b1-t19
+kind: dialogue
+title: { nl: Uniformen op school?, en: "School uniforms?" }
+topic: L'opinion (deux élèves discutent d'une proposition du directeur)
+level: B1
+speakers: { A: { name: Zoé }, B: { name: Sami } }
+turns:
+  - { id: fr-b1-t19-s01, speaker: A, target: "Tu as lu le message du directeur ? Il veut que tous les élèves portent un uniforme.", native: { nl: "Heb je het bericht van de directeur gelezen? Hij wil dat alle leerlingen een uniform dragen.", en: "Have you read the head teacher's message? He wants all the pupils to wear a uniform." } }
+  - { id: fr-b1-t19-s02, speaker: B, target: "Oui, et je suis plutôt d'accord. Ainsi, personne ne rigole des vêtements des autres.", native: { nl: "Ja, en ik ben het er eigenlijk mee eens. Zo lacht niemand met de kleren van anderen.", en: "Yes, and I tend to agree. That way, nobody laughs at other people's clothes." } }
+  - { id: fr-b1-t19-s03, speaker: A, target: "C'est vrai. Pourtant, je trouve important que chacun puisse choisir ses vêtements.", native: { nl: "Dat is waar. Toch vind ik het belangrijk dat iedereen zijn kleren kan kiezen.", en: "That's true. And yet I think it's important that everyone can choose their clothes." } }
+  - { id: fr-b1-t19-s04, speaker: B, target: "Bien que ce soit moins libre, c'est aussi plus simple : le matin, on ne perd pas de temps.", native: { nl: "Hoewel het minder vrij is, is het ook eenvoudiger: 's ochtends verlies je geen tijd.", en: "Although it's less free, it's also simpler: in the morning, you don't waste time." } }
+  - { id: fr-b1-t19-s05, speaker: A, target: "Et le prix ? Selon le message, un uniforme coûte quatre-vingts euros.", native: { nl: "En de prijs? Volgens het bericht kost een uniform tachtig euro.", en: "And the price? According to the message, a uniform costs eighty euros." } }
+  - { id: fr-b1-t19-s06, speaker: B, target: "Ce n'est pas rien, en effet. Mais les familles dépensent souvent davantage pour des vêtements de marque.", native: { nl: "Dat is inderdaad niet niks. Maar gezinnen geven vaak meer uit aan merkkleren.", en: "That's quite a lot, it's true. But families often spend more on designer clothes." } }
+  - { id: fr-b1-t19-s07, speaker: A, target: "Il faut que le directeur demande l'avis des élèves avant qu'il soit trop tard.", native: { nl: "De directeur moet de mening van de leerlingen vragen voordat het te laat is.", en: "The head teacher must ask the pupils for their opinion before it's too late." } }
+  - { id: fr-b1-t19-s08, speaker: B, target: "Je suis totalement d'accord. Si on organisait un vote dans chaque classe, chaque élève pourrait choisir.", native: { nl: "Daar ben ik het helemaal mee eens. Als we in elke klas een stemming organiseerden, zou elke leerling kunnen kiezen.", en: "I totally agree. If we organised a vote in each class, every pupil could choose." } }
+  - { id: fr-b1-t19-s09, speaker: A, target: "Bonne idée ! J'écris au directeur ce soir pour que tout le monde puisse donner son opinion.", native: { nl: "Goed idee! Ik schrijf vanavond naar de directeur, zodat iedereen zijn mening kan geven.", en: "Good idea! I'll write to the head teacher this evening so that everyone can give their opinion." } }
+glossary:
+  - { word: vote, native: { nl: de stemming, en: "vote" } }
+items: [fr.vouloir-que, fr.plutot, fr.ainsi, fr.pourtant, fr.bien-que, fr.selon, fr.en-effet, fr.davantage, fr.marque, fr.il-faut-que, fr.avant-que, fr.avis, fr.totalement, fr.organiser, fr.pour-que, fr.opinion, fr.simple]
+questions:
+  - { id: fr-b1-t19-q1, type: mc, question: "Que propose le directeur ?", options: ["Que les élèves portent un uniforme.", "Que les élèves votent pour un nouveau directeur.", "Que l'école commence plus tard."], correct: 0 }
+  - { id: fr-b1-t19-q2, type: true_false_notgiven, statement: "D'autres écoles de la ville ont déjà un uniforme.", answer: not_given }
+  - { id: fr-b1-t19-q3, type: true_false_notgiven, statement: "Un uniforme coûte quatre-vingts euros.", answer: true }
+  - { id: fr-b1-t19-q4, type: true_false_notgiven, statement: "Sami est totalement contre l'uniforme.", answer: false }
+  - { id: fr-b1-t19-q5, type: mc, question: "Que va faire Zoé ce soir ?", options: ["Écrire au directeur.", "Acheter un uniforme.", "Organiser une fête."], correct: 0 }
+listeningQuestions:
+  - { id: fr-b1-t19-l1, type: mc, question: "Selon Sami, quel est un avantage de l'uniforme ?", options: ["On ne perd pas de temps le matin.", "Il est confortable.", "Il est très à la mode."], correct: 0 }
+  - { id: fr-b1-t19-l2, type: true_false_notgiven, statement: "Beaucoup de parents sont contre l'uniforme.", answer: not_given }
+cloze:
+  - { sentence: fr-b1-t19-s01, word: portent, kind: finite_verb, hint: { nl: "porter (subjonctif)", en: "porter (subjunctive)" } }
+  - { sentence: fr-b1-t19-s03, word: puisse, kind: finite_verb, hint: { nl: "pouvoir (subjonctif)", en: "pouvoir (subjunctive)" } }
+  - { sentence: fr-b1-t19-s04, word: soit, kind: finite_verb, hint: { nl: "être (subjonctif)", en: "être (subjunctive)" } }
+  - { sentence: fr-b1-t19-s07, word: demande, kind: finite_verb, hint: { nl: "demander (subjonctif)", en: "demander (subjunctive)" } }
+  - { sentence: fr-b1-t19-s08, word: pourrait, kind: finite_verb, hint: { nl: "pouvoir (conditionnel)", en: "pouvoir (conditional)" } }
+orderable: true

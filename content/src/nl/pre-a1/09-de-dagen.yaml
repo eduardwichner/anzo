@@ -1,0 +1,64 @@
+id: nl-pre-a1-u09
+title: { en: Days and times }
+icon: calendar
+topic: Days of the week, parts of the day
+vocabulary:
+  - { target: de dag, native: { en: day }, pos: noun, plural: dagen }
+  - { target: de week, native: { en: week }, pos: noun, plural: weken }
+  - { target: maandag, native: { en: Monday }, pos: other }
+  - { target: dinsdag, native: { en: Tuesday }, pos: other }
+  - { target: woensdag, native: { en: Wednesday }, pos: other }
+  - { target: donderdag, native: { en: Thursday }, pos: other }
+  - { target: vrijdag, native: { en: Friday }, pos: other }
+  - { target: zaterdag, native: { en: Saturday }, pos: other }
+  - { target: zondag, native: { en: Sunday }, pos: other }
+  - { target: het weekend, native: { en: weekend }, pos: noun, plural: weekends }
+  - { target: vandaag, native: { en: today }, pos: adverb, avoid: [nl.morgen] }
+  - { target: morgen, native: { en: tomorrow }, pos: adverb }
+  - { target: de ochtend, native: { en: morning }, pos: noun, plural: ochtenden, avoid: [nl.voormiddag] }
+  - { target: de voormiddag, native: { en: morning }, pos: noun, plural: voormiddagen, alsoNL: de ochtend }
+  - { target: de middag, native: { en: "noon, midday" }, pos: noun, plural: middagen, avoid: [nl.namiddag] }
+  - { target: de namiddag, native: { en: afternoon }, pos: noun, plural: namiddagen, alsoNL: de middag }
+  - { target: de avond, native: { en: evening }, pos: noun, plural: avonden }
+  - { target: de nacht, native: { en: night }, pos: noun, plural: nachten }
+  - { target: "'s morgens", native: { en: in the morning }, pos: phrase }
+  - { target: "'s middags", native: { en: at midday }, pos: phrase }
+  - { target: "'s avonds", native: { en: in the evening }, pos: phrase }
+  - { target: "'s nachts", native: { en: at night }, pos: phrase }
+  - { target: thuis, native: { en: at home }, pos: adverb }
+  - { target: het uur, native: { en: "hour, o'clock" }, pos: noun, plural: uren }
+  - { target: vroeg, native: { en: early }, pos: adverb, avoid: [nl.laat] }
+  - { target: laat, native: { en: late }, pos: adverb }
+  - { target: straks, native: { en: "later, later on" }, pos: adverb }
+  - { target: altijd, native: { en: always }, pos: adverb, avoid: [nl.soms] }
+  - { target: soms, native: { en: sometimes }, pos: adverb }
+sentences:
+  - { id: s01, target: "Ik werk vijf dagen in de week.", native: { en: "I work five days a week." }, items: [nl.dag] }
+  - { id: s02, target: "Een week heeft zeven dagen.", native: { en: "A week has seven days." }, items: [nl.week, nl.dag] }
+  - { id: s03, target: "Ik werk op maandag.", native: { en: "I work on Mondays." }, items: [nl.maandag] }
+  - { id: s04, target: "Ik leer Nederlands op dinsdag.", native: { en: "I learn Dutch on Tuesdays." }, items: [nl.dinsdag] }
+  - { id: s05, target: "Ik werk niet op woensdag.", native: { en: "I don't work on Wednesdays." }, items: [nl.woensdag], acceptAlso: ["Ik werk op woensdag niet."] }
+  - { id: s06, target: "Donderdag is goed.", native: { en: "Thursday is fine." }, items: [nl.donderdag] }
+  - { id: s07, target: "Ik kom vrijdag.", native: { en: "I'm coming on Friday." }, items: [nl.vrijdag] }
+  - { id: s08, target: "Ik ga zaterdag naar de markt.", native: { en: "I'm going to the market on Saturday." }, items: [nl.zaterdag] }
+  - { id: s09, target: "Ik ben zondag thuis.", native: { en: "I'm at home on Sunday." }, items: [nl.zondag, nl.thuis] }
+  - { id: s10, target: "Wat doe je in het weekend?", native: { en: "What do you do at the weekend?" }, items: [nl.weekend] }
+  - { id: s11, target: "Ik werk vandaag.", native: { en: "I'm working today." }, items: [nl.vandaag] }
+  - { id: s12, target: "Tot morgen!", native: { en: "See you tomorrow!" }, items: [nl.morgen] }
+  - { id: s13, target: "Ik kom morgen.", native: { en: "I'm coming tomorrow." }, items: [nl.morgen] }
+  - { id: s14, target: "Ik drink koffie in de ochtend.", native: { en: "I drink coffee in the morning." }, items: [nl.ochtend], acceptAlso: ["Ik drink in de ochtend koffie."] }
+  - { id: s15, target: "Ik werk in de voormiddag.", native: { en: "I work in the morning." }, items: [nl.voormiddag] }
+  - { id: s16, target: "Wij eten 's middags.", native: { en: "We eat at midday." }, items: [nl.s-middags] }
+  - { id: s17, target: "Ik ben in de namiddag thuis.", native: { en: "I'm at home in the afternoon." }, items: [nl.namiddag, nl.thuis] }
+  - { id: s18, target: "De avond is rustig.", native: { en: "The evening is quiet." }, items: [nl.avond] }
+  - { id: s19, target: "De nacht is rustig.", native: { en: "The night is quiet." }, items: [nl.nacht] }
+  - { id: s20, target: "Ik drink 's morgens thee.", native: { en: "I drink tea in the morning." }, items: [nl.s-morgens] }
+  - { id: s21, target: "Ik kook 's avonds.", native: { en: "I cook in the evening." }, items: [nl.s-avonds] }
+  - { id: s22, target: "Het is drie uur.", native: { en: "It's three o'clock." }, items: [nl.uur] }
+  - { id: s23, target: "Ik werk morgen vroeg.", native: { en: "I'm working early tomorrow." }, items: [nl.vroeg] }
+  - { id: s24, target: "Het is laat.", native: { en: "It's late." }, items: [nl.laat] }
+  - { id: s25, target: "Tot straks!", native: { en: "See you later!" }, items: [nl.straks] }
+  - { id: s26, target: "Ik bel je straks.", native: { en: "I'll call you later." }, items: [nl.straks] }
+  - { id: s27, target: "Ik werk altijd op zaterdag.", native: { en: "I always work on Saturdays." }, items: [nl.altijd] }
+  - { id: s28, target: "Ik werk soms op zondag.", native: { en: "I sometimes work on Sundays." }, items: [nl.soms] }
+  - { id: s29, target: "Ik slaap 's nachts.", native: { en: "I sleep at night." }, items: [nl.s-nachts] }

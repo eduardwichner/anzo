@@ -1,0 +1,34 @@
+id: fr-b1-t15
+kind: dialogue
+title: { nl: Met de fiets naar school, en: "Cycling to school" }
+topic: La ville (un frère et une sœur parlent du trajet vers l'école)
+level: B1
+speakers: { A: { name: Chloé }, B: { name: Lucas } }
+turns:
+  - { id: fr-b1-t15-s01, speaker: A, target: "Lucas, tu as vu ? La commune a fait une nouvelle piste cyclable jusqu'au collège.", native: { nl: "Lucas, heb je het gezien? De gemeente heeft een nieuw fietspad tot aan het collège gemaakt.", en: "Lucas, have you seen? The council has built a new cycle lane all the way to the collège." } }
+  - { id: fr-b1-t15-s02, speaker: B, target: "Oui, je l'ai prise ce matin. C'est beaucoup plus rapide que le bus.", native: { nl: "Ja, ik ben er vanochtend al over gefietst. Het is veel sneller dan de bus.", en: "Yes, I used it this morning. It's much quicker than the bus." } }
+  - { id: fr-b1-t15-s03, speaker: A, target: "Le bus est toujours en retard à cause des embouteillages au carrefour.", native: { nl: "De bus is altijd te laat door de files aan het kruispunt.", en: "The bus is always late because of the traffic jams at the crossroads." } }
+  - { id: fr-b1-t15-s04, speaker: B, target: "Exactement. À vélo, je mets quinze minutes, et je n'attends jamais.", native: { nl: "Precies. Met de fiets doe ik er vijftien minuten over, en ik wacht nooit.", en: "Exactly. By bike it takes me fifteen minutes, and I never have to wait." } }
+  - { id: fr-b1-t15-s05, speaker: A, target: "Mais ce n'est pas dangereux ? Il y a beaucoup de circulation dans l'avenue.", native: { nl: "Maar is het niet gevaarlijk? Er is veel verkeer in de laan.", en: "But isn't it dangerous? There's a lot of traffic on the avenue." } }
+  - { id: fr-b1-t15-s06, speaker: B, target: "Non, la piste n'est pas sur la route. Il faut seulement faire attention aux piétons près du marché.", native: { nl: "Nee, het fietspad ligt niet op de weg. Je moet alleen opletten voor de voetgangers bij de markt.", en: "No, the cycle lane isn't on the road. You just have to watch out for pedestrians near the market." } }
+  - { id: fr-b1-t15-s07, speaker: A, target: "Maman ne voudra pas. Elle trouve que je suis trop jeune.", native: { nl: "Mama zal het niet willen. Ze vindt me te jong.", en: "Mum won't want me to. She thinks I'm too young." } }
+  - { id: fr-b1-t15-s08, speaker: B, target: "Je lui parlerai. Si on part ensemble, elle sera d'accord.", native: { nl: "Ik zal met haar praten. Als we samen vertrekken, zal ze het goed vinden.", en: "I'll talk to her. If we leave together, she'll agree." } }
+  - { id: fr-b1-t15-s09, speaker: A, target: "Super ! Et le soir, on pourra rentrer par le parc.", native: { nl: "Super! En 's avonds kunnen we via het park naar huis.", en: "Great! And in the evening we'll be able to come home through the park." } }
+  - { id: fr-b1-t15-s10, speaker: B, target: "D'accord, mais n'oublie pas ton vélo !", native: { nl: "Oké, maar vergeet je fiets niet!", en: "OK, but don't forget your bike!" } }
+items: [fr.commune, fr.cyclable, fr.embouteillage, fr.carrefour, fr.circulation, fr.avenue, fr.pieton, fr.exactement, fr.piste, fr.college, fr.retard]
+questions:
+  - { id: fr-b1-t15-q1, type: mc, question: "Pourquoi Lucas préfère-t-il le vélo ?", options: ["C'est plus rapide que le bus.", "Le bus est trop cher.", "Il n'aime pas les autres élèves."], correct: 0 }
+  - { id: fr-b1-t15-q2, type: true_false_notgiven, statement: "La piste cyclable est sur la route, avec les voitures.", answer: false }
+  - { id: fr-b1-t15-q3, type: true_false_notgiven, statement: "Leur mère pense que Chloé est trop jeune.", answer: true }
+  - { id: fr-b1-t15-q4, type: true_false_notgiven, statement: "Lucas a un nouveau vélo.", answer: not_given }
+  - { id: fr-b1-t15-q5, type: mc, question: "Par où vont-ils rentrer le soir ?", options: ["Par le parc.", "Par le marché.", "Par l'avenue."], correct: 0 }
+listeningQuestions:
+  - { id: fr-b1-t15-l1, type: mc, question: "Combien de temps Lucas met-il à vélo ?", options: ["Quinze minutes.", "Cinquante minutes.", "Cinq minutes."], correct: 0 }
+  - { id: fr-b1-t15-l2, type: true_false_notgiven, statement: "Le marché a lieu tous les jours.", answer: not_given }
+cloze:
+  - { sentence: fr-b1-t15-s04, word: mets, kind: finite_verb, hint: { nl: "mettre (présent)", en: "mettre (present)" } }
+  - { sentence: fr-b1-t15-s05, word: a, kind: finite_verb, hint: { nl: "avoir (présent: il y …)", en: "avoir (present: il y …)" } }
+  - { sentence: fr-b1-t15-s07, word: voudra, kind: finite_verb, hint: { nl: "vouloir (futur)", en: "vouloir (future)" } }
+  - { sentence: fr-b1-t15-s08, word: parlerai, kind: finite_verb, hint: { nl: "parler (futur)", en: "parler (future)" } }
+  - { sentence: fr-b1-t15-s09, word: pourra, kind: finite_verb, hint: { nl: "pouvoir (futur)", en: "pouvoir (future)" } }
+orderable: true

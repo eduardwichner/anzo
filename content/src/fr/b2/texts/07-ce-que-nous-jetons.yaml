@@ -1,0 +1,46 @@
+id: fr-b2-t07
+kind: reading
+title: { nl: Wat we weggooien, en: "What we throw away" }
+topic: Alimentation et gaspillage (un article dans le journal d'un collège)
+level: B2
+paragraphs:
+  - - { id: fr-b2-t07-s01, target: "Chaque année, environ un tiers de la nourriture produite dans le monde n'est jamais mangée.", native: { nl: "Elk jaar wordt ongeveer een derde van het voedsel dat in de wereld geproduceerd wordt nooit opgegeten.", en: "Every year, about a third of the food produced in the world is never eaten." } }
+    - { id: fr-b2-t07-s02, target: "Une partie se perd avant d'arriver dans les magasins, mais dans les pays riches, une grande quantité est tout simplement jetée à la maison.", native: { nl: "Een deel gaat verloren voor het in de winkels aankomt, maar in rijke landen wordt een grote hoeveelheid gewoon thuis weggegooid.", en: "Some of it is lost before it reaches the shops, but in rich countries a large amount is simply thrown away at home." } }
+  - - { id: fr-b2-t07-s03, target: "Pourquoi gaspillons-nous autant ?", native: { nl: "Waarom verspillen we zoveel?", en: "Why do we waste so much?" } }
+    - { id: fr-b2-t07-s04, target: "D'abord, nous achetons plus que nécessaire, surtout quand les supermarchés proposent trois produits pour le prix de deux.", native: { nl: "Ten eerste kopen we meer dan nodig, vooral als supermarkten drie producten voor de prijs van twee aanbieden.", en: "First, we buy more than we need, especially when supermarkets offer three products for the price of two." } }
+    - { id: fr-b2-t07-s05, target: "Ensuite, beaucoup de gens ne comprennent pas les dates sur les emballages et jettent des produits qu'on peut encore manger.", native: { nl: "Verder begrijpen veel mensen de data op de verpakking niet en gooien ze producten weg die nog gegeten kunnen worden.", en: "Next, many people don't understand the dates on the packaging and throw away products that can still be eaten." } }
+    - { id: fr-b2-t07-s06, target: "Les restaurants, eux, servent souvent des portions trop grandes.", native: { nl: "De restaurants serveren dan weer vaak te grote porties.", en: "Restaurants, for their part, often serve portions that are too big." } }
+  - - { id: fr-b2-t07-s07, target: "Le problème n'est pas seulement une question d'argent.", native: { nl: "Het probleem is niet alleen een kwestie van geld.", en: "The problem isn't just a question of money." } }
+    - { id: fr-b2-t07-s08, target: "Pour produire et transporter la nourriture, il faut énormément d'eau et d'énergie.", native: { nl: "Om voedsel te produceren en te vervoeren is enorm veel water en energie nodig.", en: "Producing and transporting food takes an enormous amount of water and energy." } }
+    - { id: fr-b2-t07-s09, target: "Quand elle finit à la poubelle, tout cela est gaspillé aussi.", native: { nl: "Als het in de vuilnisbak belandt, is dat allemaal ook verspild.", en: "When it ends up in the bin, all that is wasted too." } }
+  - - { id: fr-b2-t07-s10, target: "Heureusement, de petits gestes peuvent aider.", native: { nl: "Gelukkig kunnen kleine gebaren helpen.", en: "Fortunately, small actions can help." } }
+    - { id: fr-b2-t07-s11, target: "Dans notre collège, des élèves ont créé un « club des restes » : une fois par semaine, ils cuisinent un repas avec ce qui reste à la cantine.", native: { nl: "In onze school hebben leerlingen een \"restjesclub\" opgericht: één keer per week koken ze een maaltijd met wat er in de kantine overblijft.", en: "At our collège, some pupils have started a \"leftovers club\": once a week they cook a meal with what's left over in the canteen." } }
+    - { id: fr-b2-t07-s12, target: "« Au début, les gens pensaient que ce serait fade, raconte Zoé, quinze ans. Maintenant, il y a toujours une file. »", native: { nl: "\"In het begin dachten de mensen dat het flauw zou zijn,\" vertelt Zoé, vijftien. \"Nu staat er altijd een rij.\"", en: "\"At first, people thought it would be bland,\" says Zoé, fifteen. \"Now there's always a queue.\"" } }
+glossary:
+  - { word: tiers, native: { nl: "een derde", en: "a third" } }
+  - { word: énormément, native: { nl: enorm veel, en: "an enormous amount, hugely" } }
+  - { word: file, native: { nl: "de rij (wachtrij)", en: "queue" } }
+items: [fr.quantite, fr.emballage, fr.portion, fr.fade, fr.nourriture, fr.produire, fr.heureusement]
+gapped:
+  gaps: [fr-b2-t07-s03, fr-b2-t07-s07, fr-b2-t07-s10]
+  extra:
+    - { id: fr-b2-t07-x1, target: "La plupart de cette nourriture vient de fermes bio.", native: { nl: "Het meeste van dit voedsel komt van biologische boerderijen.", en: "Most of this food comes from organic farms." } }
+openCloze:
+  - { sentence: fr-b2-t07-s02, word: avant }
+  - { sentence: fr-b2-t07-s04, word: que }
+  - { sentence: fr-b2-t07-s09, word: Quand, acceptAlso: [Si, Lorsque] }
+  - { sentence: fr-b2-t07-s11, word: avec }
+wordForm:
+  - { sentence: fr-b2-t07-s11, word: restes, stem: rester }
+  - { sentence: fr-b2-t07-s07, word: seulement, stem: seul }
+  - { sentence: fr-b2-t07-s10, word: Heureusement, stem: heureux }
+questions:
+  - { id: fr-b2-t07-q1, type: summary, options: ["Une grande partie de la nourriture est jetée, ce qui gaspille de l'argent, de l'eau et de l'énergie, mais de petits gestes, comme le club des restes de l'école, peuvent aider.", "La plupart de la nourriture se perd dans les fermes, donc les familles ne peuvent presque rien faire contre le gaspillage.", "Les supermarchés ont arrêté de vendre trois produits pour le prix de deux à cause du gaspillage."], correct: 0 }
+  - { id: fr-b2-t07-q2, type: mc, question: "Pourquoi les gens jettent-ils des produits qu'on peut encore manger ?", options: ["Ils ne comprennent pas les dates sur les emballages.", "Ils n'aiment pas les restes.", "Les supermarchés le leur demandent."], correct: 0 }
+  - { id: fr-b2-t07-q3, type: true_false_notgiven, statement: "Le club des restes a été créé par un professeur.", answer: false }
+  - { id: fr-b2-t07-q4, type: true_false_notgiven, statement: "Le club des restes cuisine une fois par semaine.", answer: true }
+  - { id: fr-b2-t07-q5, type: true_false_notgiven, statement: "Le club des restes a gagné un prix.", answer: not_given }
+listeningQuestions:
+  - { id: fr-b2-t07-l1, type: complete, statement: "Environ un ___ de la nourriture produite n'est jamais mangée.", answers: [tiers] }
+  - { id: fr-b2-t07-l2, type: mc, question: "Quel âge a Zoé ?", options: ["Quinze ans.", "Treize ans.", "Dix-sept ans."], correct: 0 }
+orderable: false

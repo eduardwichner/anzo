@@ -1,0 +1,23 @@
+id: fr-a1
+cefr: A1
+# The exercises of the Pre-A1 to A2 packs are locked: the homophone rule for single-word listen_type is for new packs only.
+legacyListenType: true
+# Every sentence no exercise uses gets one in an optional extra lesson (<unit>-extra), appended after the
+# locked exercises (new ids only).
+extraLessons: true
+source: >-
+  DELF Prim A1 (France Éducation International). DELF Prim publishes no closed word list; every word is in the derived
+  DELF Prim word list (content/src/fr/WORDLIST.md, npm run content:wordlist -- fr) at level A1 or A1.1: lemmas attested
+  in the child-facing text of the A1 sample papers (delf-prim-a1-livret-candidat, -transcription, -livret-examinateur:
+  hobbies and dislikes, school subjects, seasons, a birthday card, a class trip to a farm, a ski week, a countryside
+  invitation, a cafeteria role play, a music festival, the job of a parent, how the child comes to school), completed per
+  theme with everyday child words (source topic) and with concepts of Cambridge Movers (source parity). Grammar: the
+  present of regular and common irregular verbs (aller, faire, venir, pouvoir, vouloir, devoir, savoir, prendre),
+  reflexive verbs as the papers use them (nous nous levons), prepositions of place, all possessives, numbers to 100, the
+  time, il fait + weather, months and dates. Dutch translations written by the content author.
+omit:
+  - { word: côté, reason: "taught in à côté de (A1.1)" }
+  - { word: bain, reason: "taught in la salle de bain and le maillot de bain" }
+  - { word: environ, reason: "only in task wording of the papers (écris environ 8 lignes)" }
+  - { word: grand-parent, reason: "taught as les grands-parents (A1.1)" }
+  - { word: mathématiques, reason: "taught as les maths, the form children use; same meaning" }

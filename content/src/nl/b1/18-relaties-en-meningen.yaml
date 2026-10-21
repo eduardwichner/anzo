@@ -1,0 +1,80 @@
+id: nl-b1-u18
+title: { en: Relationships and opinions }
+icon: people
+topic: Partners, family, habits; giving and defending an opinion (hoewel, enerzijds … anderzijds)
+vocabulary:
+  - { target: de relatie, native: { en: relationship }, pos: noun, plural: relaties }
+  - { target: het koppel, native: { en: couple }, pos: noun, plural: koppels, alsoNL: het stel, avoid: [nl.een-paar] }
+  - { target: samenwonen, native: { en: "to live together" }, pos: verb }
+  - { target: scheiden, native: { en: "to divorce, to separate" }, pos: verb }
+  - { target: de scheiding, native: { en: "divorce, separation" }, pos: noun, plural: scheidingen }
+  - { target: de liefde, native: { en: love }, pos: noun, plural: "-" }
+  - { target: het vertrouwen, native: { en: trust }, pos: noun, plural: "-" }
+  - { target: het respect, native: { en: respect }, pos: noun, plural: "-" }
+  - { target: de discussie, native: { en: "discussion, debate" }, pos: noun, plural: discussies }
+  - { target: het argument, native: { en: argument (a reason) }, pos: noun, plural: argumenten }
+  - { target: het standpunt, native: { en: "point of view, position" }, pos: noun, plural: standpunten }
+  - { target: overtuigd, native: { en: convinced }, pos: adjective }
+  - { target: akkoord, native: { en: "agreed, in agreement" }, pos: adjective }
+  - { target: oneens, native: { en: "in disagreement (as in: to disagree)" }, pos: adjective }
+  - { target: gelijk, native: { en: "equal; right (as in: to be right)" }, pos: adjective }
+  - { target: enerzijds, native: { en: "on the one hand" }, pos: adverb, avoid: [nl.anderzijds] }
+  - { target: anderzijds, native: { en: "on the other hand" }, pos: adverb }
+  - { target: kortom, native: { en: "in short" }, pos: adverb }
+  - { target: overdrijven, native: { en: to exaggerate }, pos: verb }
+  - { target: het begrip, native: { en: "understanding; concept" }, pos: noun, plural: begrippen }
+  - { target: rekening houden met, native: { en: "to take into account" }, pos: phrase }
+  - { target: het verschil, native: { en: difference }, pos: noun, plural: verschillen }
+  - { target: de gewoonte, native: { en: habit }, pos: noun, plural: gewoontes }
+  - { target: de schoonmoeder, native: { en: mother-in-law }, pos: noun, plural: schoonmoeders }
+  - { target: de generatie, native: { en: generation }, pos: noun, plural: generaties }
+  - { target: privé, native: { en: private }, pos: adjective }
+  - { target: de privacy, native: { en: privacy }, pos: noun, plural: "-" }
+  - { target: de smartphone, native: { en: smartphone }, pos: noun, plural: smartphones }
+  - { target: verslaafd, native: { en: addicted }, pos: adjective }
+  - { target: toestaan, native: { en: "to allow, to permit" }, pos: verb }
+  - { target: het compromis, native: { en: compromise }, pos: noun, plural: compromissen }
+  - { target: toegeven, native: { en: "to admit; to give in" }, pos: verb }
+  - { target: de mijne, native: { en: "mine (with a de-word)" }, pos: phrase }
+  - { target: de situatie, native: { en: situation }, pos: noun, plural: situaties }
+  - { target: zich vergissen, native: { en: "to be mistaken, to make a mistake" }, pos: verb }
+  - { target: genoeg, native: { en: enough }, pos: adverb }
+  - { target: enig, native: { en: "the only (one); some, any" }, pos: determiner, avoid: [nl.sommige, nl.een-paar] }
+sentences:
+  - { id: s01, target: "Ze hebben al tien jaar een relatie.", native: { en: "They've been in a relationship for ten years." }, items: [nl.relatie], acceptAlso: ["Al tien jaar hebben ze een relatie."] }
+  - { id: s02, target: "Het jonge koppel woont naast ons.", native: { en: "The young couple live next door to us." }, items: [nl.koppel] }
+  - { id: s03, target: "Ze wonen samen, maar ze zijn niet getrouwd.", native: { en: "They live together, but they aren't married." }, items: [nl.samenwonen] }
+  - { id: s04, target: "Zijn ouders zijn gescheiden toen hij tien was.", native: { en: "His parents divorced when he was ten." }, items: [nl.scheiden], acceptAlso: ["Toen hij tien was, zijn zijn ouders gescheiden."] }
+  - { id: s05, target: "Na de scheiding wonen de kinderen een week bij hun moeder en een week bij hun vader.", native: { en: "After the divorce the children live one week with their mother and one week with their father." }, items: [nl.scheiding] }
+  - { id: s06, target: "Ze trouwden uit liefde.", native: { en: "They married for love." }, items: [nl.liefde], finite: { word: trouwden, hint: { en: "trouwen (past)" } } }
+  - { id: s07, target: "Zonder vertrouwen werkt een relatie niet.", native: { en: "Without trust a relationship doesn't work." }, items: [nl.vertrouwen, nl.relatie] }
+  - { id: s08, target: "We moeten met respect over elkaar praten.", native: { en: "We have to talk about each other with respect." }, items: [nl.respect] }
+  - { id: s09, target: "Na een lange discussie hebben we een beslissing genomen.", native: { en: "After a long discussion we took a decision." }, items: [nl.discussie], acceptAlso: ["We hebben na een lange discussie een beslissing genomen."] }
+  - { id: s10, target: "Dat is een goed argument.", native: { en: "That's a good argument." }, items: [nl.argument] }
+  - { id: s11, target: "Wat is jouw standpunt over thuiswerken?", native: { en: "What's your position on working from home?" }, items: [nl.standpunt, nl.thuiswerken] }
+  - { id: s12, target: "Ik ben ervan overtuigd dat het een goed plan is.", native: { en: "I'm convinced that it's a good plan." }, items: [nl.overtuigd] }
+  - { id: s13, target: "Gaat u akkoord met de voorwaarden?", native: { en: "Do you agree to the conditions?" }, items: [nl.akkoord, nl.voorwaarde] }
+  - { id: s14, target: "Ik ben het met je oneens.", native: { en: "I disagree with you." }, items: [nl.oneens], acceptAlso: ["Ik ben het oneens met je."] }
+  - { id: s15, target: "Je hebt gelijk: het was mijn fout.", native: { en: "You're right: it was my fault." }, items: [nl.gelijk] }
+  - { id: s16, target: "Enerzijds is de stad duur, anderzijds is alles dichtbij.", native: { en: "On the one hand the city is expensive, on the other hand everything is close by." }, items: [nl.enerzijds, nl.anderzijds], acceptAlso: ["De stad is enerzijds duur, anderzijds is alles dichtbij."] }
+  - { id: s17, target: "Kortom, we zijn heel tevreden.", native: { en: "In short, we're very pleased." }, items: [nl.kortom], acceptAlso: ["We zijn kortom heel tevreden."] }
+  - { id: s18, target: "Je overdrijft! Zo erg is het niet.", native: { en: "You're exaggerating! It's not that bad." }, items: [nl.overdrijven] }
+  - { id: s19, target: "Ik heb begrip voor je situatie.", native: { en: "I understand your situation." }, items: [nl.begrip, nl.situatie] }
+  - { id: s20, target: "We moeten met de wensen van de kinderen rekening houden.", native: { en: "We have to take the children's wishes into account." }, items: [nl.rekening-houden-met], acceptAlso: ["Met de wensen van de kinderen moeten we rekening houden.", "We moeten rekening houden met de wensen van de kinderen."] }
+  - { id: s21, target: "Wat is het verschil tussen deze twee contracten?", native: { en: "What's the difference between these two contracts?" }, items: [nl.verschil] }
+  - { id: s22, target: "Elk gezin heeft zijn eigen gewoontes.", native: { en: "Every family has its own habits." }, items: [nl.gewoonte, nl.eigen] }
+  - { id: s23, target: "Mijn schoonmoeder komt elke zondag eten.", native: { en: "My mother-in-law comes for dinner every Sunday." }, items: [nl.schoonmoeder] }
+  - { id: s24, target: "Mijn grootmoeder vindt dat mijn generatie te veel op de gsm zit.", native: { en: "My grandmother thinks my generation spends too much time on their phones." }, items: [nl.generatie] }
+  - { id: s25, target: "Dat is privé, daar praat ik niet over.", native: { en: "That's private, I don't talk about it." }, items: [nl.prive] }
+  - { id: s26, target: "Veel jongeren denken niet aan hun privacy.", native: { en: "Many young people don't think about their privacy." }, items: [nl.privacy, nl.jongere] }
+  - { id: s27, target: "Hoewel hij pas tien is, heeft hij al een smartphone.", native: { en: "Although he's only ten, he already has a smartphone." }, items: [nl.smartphone], acceptAlso: ["Hij heeft al een smartphone, hoewel hij pas tien is."] }
+  - { id: s28, target: "Sommige jongeren zijn verslaafd aan hun gsm.", native: { en: "Some young people are addicted to their phones." }, items: [nl.verslaafd, nl.sommige] }
+  - { id: s29, target: "Wij staan aan tafel geen gsm toe.", native: { en: "We don't allow phones at the table." }, items: [nl.toestaan], acceptAlso: ["Aan tafel staan wij geen gsm toe."] }
+  - { id: s30, target: "Uiteindelijk hebben we een compromis gevonden.", native: { en: "In the end we found a compromise." }, items: [nl.compromis] }
+  - { id: s31, target: "Hij gaf toe dat hij zich vergist had.", native: { en: "He admitted that he had made a mistake." }, items: [nl.toegeven, nl.zich-vergissen], acceptAlso: ["Hij gaf toe dat hij zich had vergist."], finite: { word: gaf, hint: { en: "toegeven (past)" } } }
+  - { id: s32, target: "Ik ben het niet met alles eens, maar ik begrijp je wel.", native: { en: "I don't agree with everything, but I do understand you." }, items: [nl.wel] }
+  - { id: s33, target: "Dat is inderdaad een probleem.", native: { en: "That is indeed a problem." }, items: [nl.inderdaad], acceptAlso: ["Inderdaad is dat een probleem."] }
+  - { id: s34, target: "Jouw mening is anders dan de mijne.", native: { en: "Your opinion is different from mine." }, items: [nl.de-mijne] }
+  - { id: s35, target: "Ik heb genoeg argumenten gehoord.", native: { en: "I've heard enough arguments." }, items: [nl.genoeg, nl.argument] }
+  - { id: s36, target: "Hij is het enige kind in de klas zonder gsm.", native: { en: "He's the only child in the class without a mobile." }, items: [nl.enig] }
+texts: [nl-b1-t19]

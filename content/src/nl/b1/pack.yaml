@@ -1,0 +1,15 @@
+id: nl-b1
+cefr: B1
+native: en
+# Unit 1 is the pilot unit (its two texts locked); units 2–20 have one text each.
+finiteVerbFill: true
+source: >-
+  Dutch as spoken in Flanders (standard Belgian Dutch), level B1 for adult English speakers: texts and dialogues. Every
+  word is in the derived Dutch word list (content/src/nl/WORDLIST.md) at B1 or below — the B1 group draws on NT2Lex (Tack
+  et al. 2018, CC BY-NC-SA 4.0) and on the text types and topics of the CNaVT B1 exams in content/reference/dutch/b1/
+  (Profiel Maatschappelijk Formeel) and the Staatsexamen NT2 Programma I 2025 booklets — or in a text's glossary. Units follow
+  the domains, roles and can-do tasks of Richtgraad 2 (Threshold) for adults in Flanders: work and applications, housing,
+  health, school, the municipality, money, media, the environment, travel, leisure, complaints, opinions, the police, a life
+  story. Grammar: the passive with worden, the pluperfect, relative clauses (die/dat, waar + preposition), er, indirect speech,
+  the conditional zou, linking words, verbs with fixed prepositions (content/src/nl/PLAN.md). The texts are original (exam
+  papers are models for text types only); English meanings written by the content author.

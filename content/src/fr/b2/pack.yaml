@@ -1,0 +1,17 @@
+id: fr-b2
+cefr: B2
+# French B2 (DELF B2 junior / scolaire), units 1–20, one text each.
+finiteVerbFill: true
+transformsFirst: true
+source: >-
+  French for Dutch-speaking learners (from about 13 to adult), level B2. The DELF B2 junior / scolaire publishes no word
+  list: every word is in the derived French word list (content/src/fr/WORDLIST.md) at B2 or below — the DELF Prim and DELF B1
+  levels, plus the B2 lemmas of content/src/fr/wordlist-sources.yaml (attested in the two DELF B2 junior / scolaire sample
+  papers, or topic and parity words with a justification) — or is a name or a text's glossary word. Units follow the
+  themes of the DELF B2 papers (school, the media, the environment, society, an argued opinion) and the topics of the Dutch
+  and English B2 courses; the exercise kinds follow the B2 tasks (key word transformation as reformulation, word formation,
+  open cloze, gapped text, multiple matching). Texts are original; Dutch meanings written by the content author.
+omit:
+  - { word: mademoiselle, reason: "a form of address of one B2 paper; official French has dropped it, and the course teaches madame for every adult woman" }
+  - { word: amoureux, reason: "taught inside tomber amoureux (fr-b2-u14); the noun les amoureux is glossed in t14" }
+  - { word: compagnie, reason: "taught inside tenir compagnie (fr-b2-u16)" }

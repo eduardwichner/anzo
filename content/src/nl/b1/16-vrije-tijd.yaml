@@ -1,0 +1,74 @@
+id: nl-b1-u16
+title: { en: Leisure and associations }
+icon: sport
+topic: Clubs, culture, events, volunteering, meeting people; relative clauses with waar + preposition
+vocabulary:
+  - { target: de club, native: { en: club }, pos: noun, plural: clubs }
+  - { target: de jeugdbeweging, native: { en: "youth movement (like the scouts)" }, pos: noun, plural: jeugdbewegingen }
+  - { target: het koor, native: { en: choir }, pos: noun, plural: koren }
+  - { target: het toneel, native: { en: "theatre, drama (acting)" }, pos: noun, plural: "-" }
+  - { target: de academie, native: { en: "academy (a part-time school for music, art, drama or dance)" }, pos: noun, plural: academies }
+  - { target: het lidgeld, native: { en: "membership fee" }, pos: noun, plural: lidgelden, alsoNL: de contributie }
+  - { target: het bestuur, native: { en: "board, committee" }, pos: noun, plural: besturen }
+  - { target: de voorzitter, native: { en: "chairman, chairwoman" }, pos: noun, plural: voorzitters }
+  - { target: de secretaris, native: { en: secretary }, pos: noun, plural: secretarissen }
+  - { target: de penningmeester, native: { en: treasurer }, pos: noun, plural: penningmeesters }
+  - { target: het evenement, native: { en: event }, pos: noun, plural: evenementen, avoid: [nl.festival, nl.kermis, nl.tentoonstelling, nl.toernooi] }
+  - { target: optreden, native: { en: "to perform" }, pos: verb }
+  - { target: de tentoonstelling, native: { en: exhibition }, pos: noun, plural: tentoonstellingen }
+  - { target: het festival, native: { en: festival }, pos: noun, plural: festivals }
+  - { target: de kermis, native: { en: funfair }, pos: noun, plural: kermissen }
+  - { target: de rommelmarkt, native: { en: "flea market, car boot sale" }, pos: noun, plural: rommelmarkten }
+  - { target: het toernooi, native: { en: tournament }, pos: noun, plural: toernooien }
+  - { target: de training, native: { en: "training (session)" }, pos: noun, plural: trainingen }
+  - { target: de trainer, native: { en: "coach, trainer" }, pos: noun, plural: trainers }
+  - { target: de supporter, native: { en: supporter }, pos: noun, plural: supporters }
+  - { target: de ontspanning, native: { en: relaxation }, pos: noun, plural: "-" }
+  - { target: het vrijwilligerswerk, native: { en: voluntary work }, pos: noun, plural: "-" }
+  - { target: inzetten, native: { en: "to use, to deploy; (reflexive: to work for, to be committed to)" }, pos: verb }
+  - { target: de eenzaamheid, native: { en: loneliness }, pos: noun, plural: "-" }
+  - { target: integreren, native: { en: "to integrate, to fit in" }, pos: verb }
+  - { target: de integratie, native: { en: integration }, pos: noun, plural: "-" }
+  - { target: cultureel, native: { en: cultural }, pos: adjective }
+  - { target: de cultuur, native: { en: culture }, pos: noun, plural: culturen }
+  - { target: het centrum, native: { en: "centre" }, pos: noun, plural: centra }
+  - { target: de piano, native: { en: piano }, pos: noun, plural: "piano's" }
+  - { target: streng, native: { en: strict }, pos: adjective }
+  - { target: de vorm, native: { en: "form, shape" }, pos: noun, plural: vormen }
+  - { target: de toog, native: { en: "bar (counter)" }, pos: noun, plural: togen, alsoNL: de bar }
+  - { target: bedanken, native: { en: to thank }, pos: verb }
+  - { target: de bezoeker, native: { en: visitor }, pos: noun, plural: bezoekers }
+sentences:
+  - { id: s01, target: "Ik ben lid van een club waarmee ik elke zondag ga fietsen.", native: { en: "I'm a member of a club I go cycling with every Sunday." }, items: [nl.club, nl.lid], acceptAlso: ["Ik ben lid van een club waarmee ik elke zondag fietsen ga."] }
+  - { id: s02, target: "Onze kinderen gaan elke zaterdag naar de jeugdbeweging.", native: { en: "Our children go to the youth movement every Saturday." }, items: [nl.jeugdbeweging], acceptAlso: ["Elke zaterdag gaan onze kinderen naar de jeugdbeweging."] }
+  - { id: s03, target: "Mijn moeder zingt al twintig jaar in een koor.", native: { en: "My mother has been singing in a choir for twenty years." }, items: [nl.koor], acceptAlso: ["Al twintig jaar zingt mijn moeder in een koor."] }
+  - { id: s04, target: "Ze speelt toneel bij een vereniging in het dorp.", native: { en: "She acts with an amateur drama group in the village." }, items: [nl.toneel] }
+  - { id: s05, target: "Op de academie leert onze dochter piano spelen.", native: { en: "At the academy our daughter is learning to play the piano." }, items: [nl.academie, nl.piano], acceptAlso: ["Onze dochter leert op de academie piano spelen."] }
+  - { id: s06, target: "Het lidgeld is veertig euro per jaar.", native: { en: "The membership fee is forty euros a year." }, items: [nl.lidgeld], acceptAlso: ["Per jaar is het lidgeld veertig euro."] }
+  - { id: s07, target: "Het bestuur vergadert één keer per maand.", native: { en: "The committee meets once a month." }, items: [nl.bestuur], acceptAlso: ["Één keer per maand vergadert het bestuur."] }
+  - { id: s08, target: "De voorzitter heette iedereen welkom.", native: { en: "The chairwoman welcomed everyone." }, items: [nl.voorzitter], finite: { word: heette, hint: { en: "heten (past)" } } }
+  - { id: s09, target: "De secretaris schrijft het verslag van elke vergadering.", native: { en: "The secretary writes the minutes of every meeting." }, items: [nl.secretaris, nl.verslag] }
+  - { id: s10, target: "Het lidgeld betaal je aan de penningmeester.", native: { en: "You pay the membership fee to the treasurer." }, items: [nl.penningmeester, nl.lidgeld] }
+  - { id: s11, target: "Het evenement waarover ik je vertelde, is volgende week.", native: { en: "The event I told you about is next week." }, items: [nl.evenement], acceptAlso: ["Volgende week is het evenement waarover ik je vertelde."] }
+  - { id: s12, target: "Op het buurtfeest treden de kinderen van de school op.", native: { en: "The children from the school are performing at the street party." }, items: [nl.optreden], acceptAlso: ["De kinderen van de school treden op het buurtfeest op."] }
+  - { id: s13, target: "In het museum is een tentoonstelling over de geschiedenis van de stad.", native: { en: "There's an exhibition about the history of the city in the museum." }, items: [nl.tentoonstelling] }
+  - { id: s14, target: "In de zomer gaan we naar een festival aan de kust.", native: { en: "In summer we're going to a festival on the coast." }, items: [nl.festival], acceptAlso: ["We gaan in de zomer naar een festival aan de kust."] }
+  - { id: s15, target: "Elk jaar in september is er kermis op het marktplein.", native: { en: "Every year in September there's a funfair in the market square." }, items: [nl.kermis], acceptAlso: ["Er is elk jaar in september kermis op het marktplein."] }
+  - { id: s16, target: "Op de rommelmarkt heb ik een oude lamp gekocht.", native: { en: "I bought an old lamp at the flea market." }, items: [nl.rommelmarkt], acceptAlso: ["Ik heb op de rommelmarkt een oude lamp gekocht."] }
+  - { id: s17, target: "Onze ploeg heeft het toernooi gewonnen.", native: { en: "Our team won the tournament." }, items: [nl.toernooi] }
+  - { id: s18, target: "De training begint om zeven uur.", native: { en: "Training starts at seven." }, items: [nl.training], acceptAlso: ["Om zeven uur begint de training."] }
+  - { id: s19, target: "De trainer is streng maar eerlijk.", native: { en: "The coach is strict but fair." }, items: [nl.trainer, nl.streng] }
+  - { id: s20, target: "De supporters zongen tijdens de hele wedstrijd.", native: { en: "The supporters sang during the whole match." }, items: [nl.supporter, nl.tijdens], acceptAlso: ["Tijdens de hele wedstrijd zongen de supporters."], finite: { word: zongen, hint: { en: "zingen (past)" } } }
+  - { id: s21, target: "Voor mij is werken in de tuin een vorm van ontspanning.", native: { en: "For me gardening is a form of relaxation." }, items: [nl.ontspanning, nl.vorm], acceptAlso: ["Werken in de tuin is voor mij een vorm van ontspanning."] }
+  - { id: s22, target: "Vrijwilligerswerk is een goede manier om mensen te leren kennen.", native: { en: "Voluntary work is a good way to get to know people." }, items: [nl.vrijwilligerswerk] }
+  - { id: s23, target: "Ze zet zich in voor oudere mensen in de buurt.", native: { en: "She does a lot for older people in the neighbourhood." }, items: [nl.inzetten], acceptAlso: ["Ze zet zich voor oudere mensen in de buurt in."] }
+  - { id: s24, target: "Veel oudere mensen hebben last van eenzaamheid.", native: { en: "Many older people suffer from loneliness." }, items: [nl.eenzaamheid] }
+  - { id: s25, target: "Door lid te worden van een club integreer je sneller.", native: { en: "By joining a club you fit in more quickly." }, items: [nl.integreren, nl.club] }
+  - { id: s26, target: "Taal is belangrijk voor de integratie.", native: { en: "Language is important for integration." }, items: [nl.integratie], acceptAlso: ["Voor de integratie is taal belangrijk."] }
+  - { id: s27, target: "Het culturele centrum heeft een nieuw programma.", native: { en: "The cultural centre has a new programme." }, items: [nl.cultureel, nl.centrum, nl.programma] }
+  - { id: s28, target: "Ik wil meer over de Belgische cultuur leren.", native: { en: "I want to learn more about Belgian culture." }, items: [nl.cultuur], acceptAlso: ["Over de Belgische cultuur wil ik meer leren.", "Ik wil meer leren over de Belgische cultuur."] }
+  - { id: s29, target: "Op de rommelmarkt kunt u zelf spullen verkopen.", native: { en: "At the flea market you can sell things yourself." }, items: [nl.zelf, nl.rommelmarkt], acceptAlso: ["U kunt op de rommelmarkt zelf spullen verkopen."] }
+  - { id: s30, target: "Op zaterdag help ik aan de toog van de voetbalclub.", native: { en: "On Saturdays I help at the bar of the football club." }, items: [nl.toog], acceptAlso: ["Ik help op zaterdag aan de toog van de voetbalclub."] }
+  - { id: s31, target: "Veel bezoekers kwamen naar de tentoonstelling.", native: { en: "A lot of visitors came to the exhibition." }, items: [nl.bezoeker, nl.tentoonstelling] }
+  - { id: s32, target: "We willen alle vrijwilligers bedanken voor hun hulp.", native: { en: "We'd like to thank all the volunteers for their help." }, items: [nl.bedanken], acceptAlso: ["We willen alle vrijwilligers voor hun hulp bedanken."] }
+texts: [nl-b1-t17]

@@ -1,0 +1,39 @@
+id: fr-a2-u11
+title: { nl: Winkelen, en: "Shopping" }
+icon: shop
+topic: Les achats; l'argent; les bijoux
+vocabulary:
+  - { target: "l'argent", native: { nl: het geld, en: "money" }, pos: noun, gender: m }
+  - { target: "l'euro", native: { nl: de euro, en: "euro" }, pos: noun, gender: m }
+  - { target: le prix, native: { nl: de prijs, en: "price" }, pos: noun, gender: m }
+  - { target: cher, native: { nl: duur, en: "expensive, dear" }, pos: adjective }
+  - { target: coûter, native: { nl: kosten, en: "to cost" }, pos: verb }
+  - { target: vendre, native: { nl: verkopen, en: "to sell" }, pos: verb }
+  - { target: essayer, native: { nl: "proberen, passen", en: "to try, to try on" }, pos: verb }
+  - { target: le client, native: { nl: de klant, en: "customer" }, pos: noun, gender: m }
+  - { target: le porte-monnaie, native: { nl: de portemonnee, en: "purse" }, pos: noun, gender: m }
+  - { target: la librairie, native: { nl: de boekwinkel, en: "bookshop" }, pos: noun, gender: f, avoid: [fr.bibliotheque] }
+  - { target: la montre, native: { nl: het horloge, en: "watch" }, pos: noun, gender: f }
+  - { target: la poche, native: { nl: de zak (in je kleren), en: "pocket" }, pos: noun, gender: f }
+  - { target: la bague, native: { nl: de ring, en: "ring" }, pos: noun, gender: f }
+  - { target: le bracelet, native: { nl: de armband, en: "bracelet" }, pos: noun, gender: m }
+  - { target: le collier, native: { nl: de ketting, en: "necklace" }, pos: noun, gender: m }
+sentences:
+  - { id: s01, target: "Je n'ai pas assez d'argent.", native: { nl: "Ik heb niet genoeg geld.", en: "I haven't got enough money." }, items: [fr.argent] }
+  - { id: s02, target: "Le livre coûte dix euros.", native: { nl: "Het boek kost tien euro.", en: "The book costs ten euros." }, items: [fr.euro, fr.couter] }
+  - { id: s03, target: "Quel est le prix de ce vélo ?", native: { nl: "Wat is de prijs van deze fiets?", en: "What's the price of this bike?" }, items: [fr.prix] }
+  - { id: s04, target: "C'est trop cher pour moi.", native: { nl: "Dat is te duur voor mij.", en: "It's too expensive for me." }, items: [fr.cher] }
+  - { id: s05, target: "Combien ça coûte ?", native: { nl: "Hoeveel kost het?", en: "How much does it cost?" }, items: [fr.couter] }
+  - { id: s06, target: "Mon voisin vend son vélo.", native: { nl: "Mijn buurman verkoopt zijn fiets.", en: "My neighbour is selling his bike." }, items: [fr.vendre] }
+  - { id: s07, target: "Je peux essayer ce pull ?", native: { nl: "Mag ik deze trui passen?", en: "Can I try this jumper on?" }, items: [fr.essayer] }
+  - { id: s08, target: "Il y a beaucoup de clients dans le magasin.", native: { nl: "Er zijn veel klanten in de winkel.", en: "There are lots of customers in the shop." }, items: [fr.client] }
+  - { id: s09, target: "J'ai perdu mon porte-monnaie !", native: { nl: "Ik ben mijn portemonnee kwijt!", en: "I've lost my purse!" }, items: [fr.porte-monnaie] }
+  - { id: s10, target: "J'achète un livre à la librairie.", native: { nl: "Ik koop een boek in de boekwinkel.", en: "I'm buying a book at the bookshop." }, items: [fr.librairie] }
+  - { id: s11, target: "Ma nouvelle montre est bleue.", native: { nl: "Mijn nieuwe horloge is blauw.", en: "My new watch is blue." }, items: [fr.montre] }
+  - { id: s12, target: "Mets ton téléphone dans ta poche.", native: { nl: "Stop je telefoon in je zak.", en: "Put your phone in your pocket." }, items: [fr.poche] }
+  - { id: s13, target: "Ma grand-mère m'a offert une bague.", native: { nl: "Mijn oma heeft me een ring cadeau gegeven.", en: "My grandmother gave me a ring." }, items: [fr.bague] }
+  - { id: s14, target: "J'ai fait un bracelet pour Rose.", native: { nl: "Ik heb een armband voor Rose gemaakt.", en: "I made a bracelet for Rose." }, items: [fr.bracelet] }
+  - { id: s15, target: "Maman porte un joli collier.", native: { nl: "Mama draagt een mooie ketting.", en: "Mum is wearing a pretty necklace." }, items: [fr.collier] }
+lessons:
+  - { id: l01, title: { nl: Hoeveel kost het?, en: "How much does it cost?" }, vocab: [fr.argent, fr.euro, fr.prix, fr.cher, fr.couter, fr.vendre, fr.essayer, fr.client] }
+  - { id: l02, title: { nl: Spullen en sieraden, en: "Purses, pockets and jewellery" }, vocab: [fr.porte-monnaie, fr.librairie, fr.montre, fr.poche, fr.bague, fr.bracelet, fr.collier] }

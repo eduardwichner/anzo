@@ -1,0 +1,44 @@
+id: fr-a1-1-u15
+title: { nl: Doe mee!, en: "Everyday verbs" }
+icon: actions
+topic: Les verbes être, avoir, aller, faire et autres
+vocabulary:
+  - { target: être, native: { nl: zijn, en: "to be" }, pos: verb }
+  - { target: avoir, native: { nl: hebben, en: "to have" }, pos: verb }
+  - { target: aller, native: { nl: gaan, en: "to go" }, pos: verb }
+  - { target: faire, native: { nl: "doen, maken", en: "to do, to make" }, pos: verb }
+  - { target: venir, native: { nl: komen, en: "to come" }, pos: verb }
+  - { target: vouloir, native: { nl: willen, en: "to want" }, pos: verb }
+  - { target: pouvoir, native: { nl: "kunnen, mogen", en: "can, to be able to, to be allowed to" }, pos: verb }
+  - { target: devoir, native: { nl: moeten, en: "must, to have to" }, pos: verb }
+  - { target: prendre, native: { nl: "pakken, nemen", en: "to take" }, pos: verb }
+  - { target: mettre, native: { nl: "zetten, leggen, doen", en: "to put, to put on" }, pos: verb }
+  - { target: donner, native: { nl: geven, en: "to give" }, pos: verb }
+  - { target: dire, native: { nl: zeggen, en: "to say" }, pos: verb }
+  - { target: voir, native: { nl: zien, en: "to see" }, pos: verb }
+  - { target: aider, native: { nl: helpen, en: "to help" }, pos: verb }
+sentences:
+  - { id: s01, target: "Mon ami Côme est français.", native: { nl: "Mijn vriend Côme is Frans.", en: "My friend Côme is French." }, items: [fr.etre] }
+  - { id: s02, target: "Tu es prêt ?", native: { nl: "Ben je klaar?", en: "Are you ready?" }, items: [fr.etre] }
+  - { id: s03, target: "Nous avons un chat.", native: { nl: "We hebben een kat.", en: "We have a cat." }, items: [fr.avoir] }
+  - { id: s04, target: "Ils ont quel âge ?", native: { nl: "Hoe oud zijn ze?", en: "How old are they?" }, items: [fr.avoir] }
+  - { id: s05, target: "Je vais à la plage.", native: { nl: "Ik ga naar het strand.", en: "I'm going to the beach." }, items: [fr.aller] }
+  - { id: s06, target: "Nous allons au parc.", native: { nl: "We gaan naar het park.", en: "We're going to the park." }, items: [fr.aller] }
+  - { id: s07, target: "Qu'est-ce que tu fais ?", native: { nl: "Wat doe je?", en: "What are you doing?" }, items: [fr.faire] }
+  - { id: s08, target: "Je fais un gâteau avec maman.", native: { nl: "Ik maak een taart met mama.", en: "I'm making a cake with Mum." }, items: [fr.faire] }
+  - { id: s09, target: "Tu veux venir ?", native: { nl: "Wil je komen?", en: "Do you want to come?" }, items: [fr.venir, fr.vouloir] }
+  - { id: s10, target: "Je veux une glace !", native: { nl: "Ik wil een ijsje!", en: "I want an ice cream!" }, items: [fr.vouloir] }
+  - { id: s11, target: "Tu peux venir samedi ?", native: { nl: "Kun je zaterdag komen?", en: "Can you come on Saturday?" }, items: [fr.pouvoir, fr.venir] }
+  - { id: s12, target: "Elle doit prendre un ballon.", native: { nl: "Ze moet een bal meenemen.", en: "She has to take a ball." }, items: [fr.devoir, fr.prendre] }
+  - { id: s13, target: "Prends ton sac !", native: { nl: "Pak je tas!", en: "Take your bag!" }, items: [fr.prendre] }
+  - { id: s14, target: "Je mets mon pull.", native: { nl: "Ik doe mijn trui aan.", en: "I'm putting on my jumper." }, items: [fr.mettre] }
+  - { id: s15, target: "Mets tes livres sur la table.", native: { nl: "Leg je boeken op de tafel.", en: "Put your books on the table." }, items: [fr.mettre] }
+  - { id: s16, target: "Je donne une pomme à Paul.", native: { nl: "Ik geef Paul een appel.", en: "I'm giving Paul an apple." }, items: [fr.donner] }
+  - { id: s17, target: "Dis bonjour à madame !", native: { nl: "Zeg mevrouw gedag!", en: "Say hello to the lady!" }, items: [fr.dire] }
+  - { id: s18, target: "Qu'est-ce que tu vois ?", native: { nl: "Wat zie je?", en: "What do you see?" }, items: [fr.voir] }
+  - { id: s19, target: "Je vois un oiseau.", native: { nl: "Ik zie een vogel.", en: "I see a bird." }, items: [fr.voir] }
+  - { id: s20, target: "Tu aides Paul ?", native: { nl: "Help jij Paul?", en: "Are you helping Paul?" }, items: [fr.aider] }
+  - { id: s21, target: "J'aide papa dans le jardin.", native: { nl: "Ik help papa in de tuin.", en: "I'm helping Dad in the garden." }, items: [fr.aider] }
+lessons:
+  - { id: l01, title: { nl: Zijn en hebben, en: "To be and to have" }, vocab: [fr.etre, fr.avoir, fr.aller, fr.faire, fr.venir, fr.vouloir, fr.pouvoir] }
+  - { id: l02, title: { nl: Pak je tas, en: "Take your bag" }, vocab: [fr.devoir, fr.prendre, fr.mettre, fr.donner, fr.dire, fr.voir, fr.aider] }

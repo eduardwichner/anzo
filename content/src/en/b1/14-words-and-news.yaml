@@ -1,0 +1,172 @@
+id: en-b1-u14
+title: { nl: "Woorden, boeken en nieuws" }
+icon: book
+topic: Language, reading, writing and the news; the passive (was written by, is published), reported speech (said that)
+vocabulary:
+  - { target: grammar, native: { nl: grammatica }, pos: noun }
+  - { target: vocabulary, native: { nl: woordenschat }, pos: noun }
+  - { target: meaning, native: { nl: betekenis }, pos: noun }
+  - { target: phrase, native: { nl: "uitdrukking, zinsdeel" }, pos: noun }
+  - { target: tense, native: { nl: werkwoordstijd }, pos: noun }
+  - { target: spelling, native: { nl: spelling }, pos: noun }
+  - { target: vowel, native: { nl: klinker }, pos: noun, avoid: [en.consonant] }
+  - { target: consonant, native: { nl: medeklinker }, pos: noun }
+  - { target: pronounce, native: { nl: uitspreken }, pos: verb }
+  - { target: pronunciation, native: { nl: uitspraak }, pos: noun }
+  - { target: accent, native: { nl: accent }, pos: noun }
+  - { target: communicate, native: { nl: communiceren }, pos: verb }
+  - { target: communication, native: { nl: communicatie }, pos: noun }
+  - { target: translate, native: { nl: vertalen }, pos: verb }
+  - { target: translation, native: { nl: vertaling }, pos: noun }
+  - { target: look up, native: { nl: opzoeken }, pos: phrase }
+  - { target: aloud, native: { nl: hardop }, pos: adverb }
+  - { target: full stop, native: { nl: punt (leesteken) }, pos: noun, avoid: [en.comma, en.period, en.dot] }
+  - { target: comma, native: { nl: komma }, pos: noun }
+  - { target: period, native: { nl: periode }, pos: noun }
+  - { target: paragraph, native: { nl: alinea }, pos: noun }
+  - { target: underline, native: { nl: onderstrepen }, pos: verb }
+  - { target: cross out, native: { nl: doorstrepen }, pos: phrase }
+  - { target: write down, native: { nl: opschrijven }, pos: phrase, avoid: [en.put-down] }
+  - { target: writing, native: { nl: schrijven (het schrijven) }, pos: noun }
+  - { target: written, native: { nl: geschreven (schriftelijk) }, pos: adjective }
+  - { target: reading, native: { nl: lezen (het lezen) }, pos: noun }
+  - { target: reader, native: { nl: lezer }, pos: noun }
+  - { target: writer, native: { nl: schrijver }, pos: noun, avoid: [en.author, en.novelist] }
+  - { target: author, native: { nl: auteur }, pos: noun, avoid: [en.writer, en.novelist] }
+  - { target: novel, native: { nl: roman }, pos: noun }
+  - { target: novelist, native: { nl: romanschrijver }, pos: noun, avoid: [en.writer, en.author] }
+  - { target: fiction, native: { nl: fictie }, pos: noun }
+  - { target: science fiction, native: { nl: sciencefiction }, pos: noun }
+  - { target: mystery, native: { nl: mysterie }, pos: noun }
+  - { target: detective, native: { nl: detective }, pos: noun }
+  - { target: spy, native: { nl: spion }, pos: noun }
+  - { target: prince, native: { nl: prins }, pos: noun, avoid: [en.princess] }
+  - { target: princess, native: { nl: prinses }, pos: noun }
+  - { target: upon, native: { nl: "er was eens (once … a time)" }, pos: preposition }
+  - { target: biography, native: { nl: biografie }, pos: noun }
+  - { target: literature, native: { nl: literatuur }, pos: noun }
+  - { target: poem, native: { nl: gedicht }, pos: noun }
+  - { target: poet, native: { nl: dichter }, pos: noun }
+  - { target: poetry, native: { nl: poëzie }, pos: noun }
+  - { target: bestseller, native: { nl: bestseller }, pos: noun }
+  - { target: title, native: { nl: titel }, pos: noun }
+  - { target: chapter, native: { nl: hoofdstuk }, pos: noun, avoid: [en.unit] }
+  - { target: contents, native: { nl: "inhoud, inhoudsopgave" }, pos: noun }
+  - { target: cover, native: { nl: "omslag, kaft" }, pos: noun }
+  - { target: publish, native: { nl: publiceren }, pos: verb }
+  - { target: publisher, native: { nl: uitgever }, pos: noun }
+  - { target: base on, native: { nl: baseren op }, pos: phrase }
+  - { target: according to, native: { nl: volgens }, pos: phrase }
+  - { target: article, native: { nl: artikel }, pos: noun, avoid: [en.item] }
+  - { target: headline, native: { nl: krantenkop }, pos: noun }
+  - { target: issue, native: { nl: "nummer (van een tijdschrift); kwestie" }, pos: noun }
+  - { target: section, native: { nl: "deel, rubriek" }, pos: noun }
+  - { target: report, native: { nl: verslag }, pos: noun }
+  - { target: reporter, native: { nl: verslaggever }, pos: noun }
+  - { target: presenter, native: { nl: presentator }, pos: noun }
+  - { target: documentary, native: { nl: documentaire }, pos: noun }
+  - { target: review, native: { nl: recensie }, pos: noun }
+  - { target: topic, native: { nl: onderwerp }, pos: noun }
+  - { target: speech, native: { nl: toespraak }, pos: noun }
+  - { target: announce, native: { nl: "aankondigen, bekendmaken" }, pos: verb }
+  - { target: inform, native: { nl: informeren }, pos: verb, avoid: [en.enquire] }
+  - { target: mention, native: { nl: noemen (vermelden) }, pos: verb }
+  - { target: notice, native: { nl: mededeling }, pos: noun }
+  - { target: brief, native: { nl: kort (bondig) }, pos: adjective, noBlank: true }
+  - { target: glance, native: { nl: een blik werpen }, pos: verb }
+  - { target: latest, native: { nl: nieuwste }, pos: adjective }
+  - { target: recent, native: { nl: recent }, pos: adjective }
+  - { target: up to date, native: { nl: actueel (bij de tijd) }, pos: phrase, avoid: [en.out-of-date] }
+  - { target: out of date, native: { nl: verouderd }, pos: phrase }
+  - { target: "false", native: { nl: onwaar }, pos: adjective }
+  - { target: unknown, native: { nl: onbekend }, pos: adjective }
+  - { target: influence, native: { nl: invloed }, pos: noun }
+  - { target: questionnaire, native: { nl: vragenlijst }, pos: noun }
+  - { target: ad, native: { nl: advertentie }, pos: noun }
+  - { target: advert, native: { nl: "reclame, advertentie" }, pos: noun }
+  - { target: advertise, native: { nl: adverteren }, pos: verb }
+sentences:
+  - { id: s01, target: "English grammar is easier than German grammar.", native: { nl: "De Engelse grammatica is makkelijker dan de Duitse." }, items: [en.grammar] }
+  - { id: s02, target: "Reading helps you to learn new vocabulary.", native: { nl: "Lezen helpt je om nieuwe woordenschat te leren." }, items: [en.vocabulary] }
+  - { id: s03, target: "What's the meaning of this word?", native: { nl: "Wat is de betekenis van dit woord?" }, items: [en.meaning] }
+  - { id: s04, target: "Learn these useful phrases before your trip.", native: { nl: "Leer deze nuttige uitdrukkingen voor je reis." }, items: [en.phrase] }
+  - { id: s05, target: "We're learning the past tense this week.", native: { nl: "We leren deze week de verleden tijd." }, items: [en.tense], acceptAlso: ["This week we're learning the past tense."] }
+  - { id: s06, target: "Check your spelling before you hand it in.", native: { nl: "Controleer je spelling voordat je het inlevert." }, items: [en.spelling] }
+  - { id: s07, target: "A, E, I, O and U are vowels.", native: { nl: "A, E, I, O en U zijn klinkers." }, items: [en.vowel] }
+  - { id: s08, target: "The word 'street' has a lot of consonants.", native: { nl: "Het woord 'street' heeft veel medeklinkers." }, items: [en.consonant] }
+  - { id: s09, target: "How do you pronounce your surname?", native: { nl: "Hoe spreek je je achternaam uit?" }, items: [en.pronounce] }
+  - { id: s10, target: "Her pronunciation is very clear.", native: { nl: "Haar uitspraak is heel duidelijk." }, items: [en.pronunciation] }
+  - { id: s11, target: "He speaks English with an Irish accent.", native: { nl: "Hij spreekt Engels met een Iers accent." }, items: [en.accent] }
+  - { id: s12, target: "Dolphins communicate with sounds.", native: { nl: "Dolfijnen communiceren met geluiden." }, items: [en.communicate] }
+  - { id: s13, target: "Good communication is important in a team.", native: { nl: "Goede communicatie is belangrijk in een team." }, items: [en.communication] }
+  - { id: s14, target: "Can you translate this letter into Dutch?", native: { nl: "Kun je deze brief in het Nederlands vertalen?" }, items: [en.translate] }
+  - { id: s15, target: "The translation isn't very good.", native: { nl: "De vertaling is niet erg goed." }, items: [en.translation] }
+  - { id: s16, target: "Look up the word in your dictionary.", native: { nl: "Zoek het woord op in je woordenboek." }, items: [en.look-up], acceptAlso: ["Look the word up in your dictionary."] }
+  - { id: s17, target: "The teacher asked me to read the poem aloud.", native: { nl: "De leraar vroeg me het gedicht hardop voor te lezen." }, items: [en.aloud, en.poem] }
+  - { id: s18, target: "Every sentence ends with a full stop.", native: { nl: "Elke zin eindigt met een punt." }, items: [en.full-stop] }
+  - { id: s19, target: "You need a comma after the first part of the sentence.", native: { nl: "Je hebt een komma nodig na het eerste deel van de zin." }, items: [en.comma] }
+  - { id: s20, target: "We're studying a short period of history.", native: { nl: "We bestuderen een korte periode uit de geschiedenis." }, items: [en.period] }
+  - { id: s21, target: "Read the first paragraph again.", native: { nl: "Lees de eerste alinea nog eens." }, items: [en.paragraph] }
+  - { id: s22, target: "Underline the most important words.", native: { nl: "Onderstreep de belangrijkste woorden." }, items: [en.underline] }
+  - { id: s23, target: "If you make a mistake, cross it out.", native: { nl: "Als je een fout maakt, streep die dan door." }, items: [en.cross-out], acceptAlso: ["Cross it out if you make a mistake."] }
+  - { id: s24, target: "Write down your address here.", native: { nl: "Schrijf je adres hier op." }, items: [en.write-down], acceptAlso: ["Write your address down here."] }
+  - { id: s25, target: "Writing stories is my favourite hobby.", native: { nl: "Verhalen schrijven is mijn favoriete hobby." }, items: [en.writing] }
+  - { id: s26, target: "There's a written test on Friday.", native: { nl: "Er is vrijdag een schriftelijke toets." }, items: [en.written], acceptAlso: ["On Friday there's a written test."] }
+  - { id: s27, target: "Reading before bed helps me to relax.", native: { nl: "Lezen voor het slapengaan helpt me te ontspannen." }, items: [en.reading] }
+  - { id: s28, target: "She's a fast reader. She finished the book in a day.", native: { nl: "Ze is een snelle lezer. Ze had het boek in een dag uit." }, items: [en.reader] }
+  - { id: s29, target: "My uncle is a writer for a travel magazine.", native: { nl: "Mijn oom is schrijver voor een reistijdschrift." }, items: [en.writer] }
+  - { id: s30, target: "The author signed my copy of the book.", native: { nl: "De auteur signeerde mijn exemplaar van het boek." }, items: [en.author] }
+  - { id: s31, target: "This novel was written two hundred years ago.", native: { nl: "Deze roman werd tweehonderd jaar geleden geschreven." }, items: [en.novel] }
+  - { id: s32, target: "Her mother is a famous novelist.", native: { nl: "Haar moeder is een beroemde romanschrijfster." }, items: [en.novelist] }
+  - { id: s33, target: "I prefer fiction to books about real life.", native: { nl: "Ik heb liever fictie dan boeken over het echte leven." }, items: [en.fiction] }
+  - { id: s34, target: "He loves science fiction stories about other planets.", native: { nl: "Hij houdt van sciencefictionverhalen over andere planeten." }, items: [en.science-fiction] }
+  - { id: s35, target: "How the old castle got its name is still a mystery.", native: { nl: "Hoe het oude kasteel zijn naam kreeg, is nog steeds een mysterie." }, items: [en.mystery] }
+  - { id: s36, target: "The detective found the answer in the last chapter.", native: { nl: "De detective vond het antwoord in het laatste hoofdstuk." }, items: [en.detective, en.chapter] }
+  - { id: s37, target: "My brother loves films about spies.", native: { nl: "Mijn broer houdt van films over spionnen." }, items: [en.spy] }
+  - { id: s38, target: "The prince and the princess lived in a castle.", native: { nl: "De prins en de prinses woonden in een kasteel." }, items: [en.prince, en.princess] }
+  - { id: s39, target: "Once upon a time, there was a poor farmer.", native: { nl: "Er was eens een arme boer." }, items: [en.upon] }
+  - { id: s40, target: "I'm reading a biography of a famous footballer.", native: { nl: "Ik lees een biografie van een beroemde voetballer." }, items: [en.biography] }
+  - { id: s41, target: "She studies English literature at university.", native: { nl: "Ze studeert Engelse literatuur aan de universiteit." }, items: [en.literature] }
+  - { id: s42, target: "The poet read his poems at the library.", native: { nl: "De dichter las zijn gedichten voor in de bibliotheek." }, items: [en.poet] }
+  - { id: s43, target: "We're reading poetry in English lessons this term.", native: { nl: "We lezen dit trimester poëzie in de Engelse les." }, items: [en.poetry], acceptAlso: ["This term we're reading poetry in English lessons."] }
+  - { id: s44, target: "Her first book became a bestseller.", native: { nl: "Haar eerste boek werd een bestseller." }, items: [en.bestseller] }
+  - { id: s45, target: "I can't remember the title of the song.", native: { nl: "Ik kan me de titel van het liedje niet herinneren." }, items: [en.title] }
+  - { id: s46, target: "Look at the contents page to find the chapter.", native: { nl: "Kijk in de inhoudsopgave om het hoofdstuk te vinden." }, items: [en.contents] }
+  - { id: s47, target: "Don't judge a book by its cover.", native: { nl: "Beoordeel een boek niet op zijn kaft." }, items: [en.cover] }
+  - { id: s48, target: "Her story was published in the school magazine.", native: { nl: "Haar verhaal werd gepubliceerd in het schooltijdschrift." }, items: [en.publish] }
+  - { id: s49, target: "The publisher sent the book to every school.", native: { nl: "De uitgever stuurde het boek naar elke school." }, items: [en.publisher] }
+  - { id: s50, target: "The film is based on a true story.", native: { nl: "De film is gebaseerd op een waargebeurd verhaal." }, items: [en.base-on] }
+  - { id: s51, target: "According to the weather forecast, it will rain tomorrow.", native: { nl: "Volgens de weersverwachting gaat het morgen regenen." }, items: [en.according-to], acceptAlso: ["It will rain tomorrow, according to the weather forecast."] }
+  - { id: s52, target: "I read an interesting article about robots.", native: { nl: "Ik las een interessant artikel over robots." }, items: [en.article] }
+  - { id: s53, target: "The story was on the front page with a huge headline.", native: { nl: "Het verhaal stond op de voorpagina met een enorme kop." }, items: [en.headline] }
+  - { id: s54, target: "Have you seen this month's issue of the magazine?", native: { nl: "Heb je het nummer van het tijdschrift van deze maand al gezien?" }, items: [en.issue] }
+  - { id: s55, target: "I always read the sports section first.", native: { nl: "Ik lees altijd eerst de sportrubriek." }, items: [en.section] }
+  - { id: s56, target: "We wrote a report about our school trip.", native: { nl: "We schreven een verslag over ons schoolreisje." }, items: [en.report], finite: { word: wrote, hint: { nl: "write (verleden tijd)" } } }
+  - { id: s57, target: "A reporter interviewed the winners.", native: { nl: "Een verslaggever interviewde de winnaars." }, items: [en.reporter] }
+  - { id: s58, target: "The presenter of the quiz show is very funny.", native: { nl: "De presentator van de quizshow is heel grappig." }, items: [en.presenter] }
+  - { id: s59, target: "We watched a documentary about whales.", native: { nl: "We keken naar een documentaire over walvissen." }, items: [en.documentary] }
+  - { id: s60, target: "The film got good reviews in the newspapers.", native: { nl: "De film kreeg goede recensies in de kranten." }, items: [en.review] }
+  - { id: s61, target: "Choose a topic for your presentation.", native: { nl: "Kies een onderwerp voor je presentatie." }, items: [en.topic] }
+  - { id: s62, target: "The head teacher made a speech on the last day.", native: { nl: "De directeur hield een toespraak op de laatste dag." }, items: [en.speech], acceptAlso: ["On the last day the head teacher made a speech."] }
+  - { id: s63, target: "The winners will be announced on Friday.", native: { nl: "De winnaars worden vrijdag bekendgemaakt." }, items: [en.announce], acceptAlso: ["On Friday the winners will be announced."] }
+  - { id: s64, target: "Please inform us if your address changes.", native: { nl: "Laat het ons alsjeblieft weten als je adres verandert." }, items: [en.inform] }
+  - { id: s65, target: "She mentioned that she had a new job.", native: { nl: "Ze zei terloops dat ze een nieuwe baan had." }, items: [en.mention] }
+  - { id: s66, target: "There's a notice on the door about the meeting.", native: { nl: "Er hangt een mededeling op de deur over de vergadering." }, items: [en.notice] }
+  - { id: s67, target: "Write a brief description of your best friend.", native: { nl: "Schrijf een korte beschrijving van je beste vriend." }, items: [en.brief] }
+  - { id: s68, target: "He glanced at his watch and ran out of the room.", native: { nl: "Hij wierp een blik op zijn horloge en rende de kamer uit." }, items: [en.glance], finite: { word: glanced, hint: { nl: "glance (verleden tijd)" } } }
+  - { id: s69, target: "Have you heard the latest news?", native: { nl: "Heb je het laatste nieuws gehoord?" }, items: [en.latest] }
+  - { id: s70, target: "Use recent photos for your passport.", native: { nl: "Gebruik recente foto's voor je paspoort." }, items: [en.recent] }
+  - { id: s71, target: "Is this information up to date?", native: { nl: "Is deze informatie actueel?" }, items: [en.up-to-date] }
+  - { id: s72, target: "This map is out of date. The road has changed.", native: { nl: "Deze kaart is verouderd. De weg is veranderd." }, items: [en.out-of-date], acceptAlso: ["The road has changed. This map is out of date."] }
+  - { id: s73, target: "Is this sentence true or false?", native: { nl: "Is deze zin waar of onwaar?" }, items: [en.false] }
+  - { id: s74, target: "The writer of the song is unknown.", native: { nl: "De schrijver van het liedje is onbekend." }, items: [en.unknown] }
+  - { id: s75, target: "Social media has a big influence on teenagers.", native: { nl: "Sociale media hebben een grote invloed op tieners." }, items: [en.influence] }
+  - { id: s76, target: "Please fill in this questionnaire about our school.", native: { nl: "Vul alsjeblieft deze vragenlijst over onze school in." }, items: [en.questionnaire] }
+  - { id: s77, target: "I saw an ad for a cheap bike online.", native: { nl: "Ik zag online een advertentie voor een goedkope fiets." }, items: [en.ad], acceptAlso: ["I saw an ad online for a cheap bike."] }
+  - { id: s78, target: "There are too many adverts on TV.", native: { nl: "Er is te veel reclame op tv." }, items: [en.advert] }
+  - { id: s79, target: "The shop advertises in the local newspaper.", native: { nl: "De winkel adverteert in de plaatselijke krant." }, items: [en.advertise] }
+  - { id: s80, target: "The reporter said that the match was very exciting.", native: { nl: "De verslaggever zei dat de wedstrijd heel spannend was." }, items: [en.reporter] }
+  - { id: s81, target: "The teacher asked us what the poem was about.", native: { nl: "De leraar vroeg ons waar het gedicht over ging." }, items: [en.poem] }
+  - { id: s82, target: "The reporter told me that she was tired.", native: { nl: "De verslaggeefster zei me dat ze moe was." }, items: [en.reporter], build: true }
+  - { id: s83, target: "He asked me if I liked the novel.", native: { nl: "Hij vroeg me of ik de roman leuk vond." }, items: [en.novel] }
+texts: [en-b1-t15]

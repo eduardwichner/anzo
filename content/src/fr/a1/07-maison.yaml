@@ -1,0 +1,41 @@
+id: fr-a1-u07
+title: { nl: In huis, en: "In the house" }
+icon: home
+topic: La maison et les meubles
+vocabulary:
+  - { target: "l'appartement", native: { nl: het appartement, en: "flat, apartment" }, pos: noun, gender: m }
+  - { target: le salon, native: { nl: de woonkamer, en: "living room" }, pos: noun, gender: m }
+  - { target: la salle à manger, native: { nl: de eetkamer, en: "dining room" }, pos: noun, gender: f }
+  - { target: la salle de bain, native: { nl: de badkamer, en: "bathroom" }, pos: noun, gender: f }
+  - { target: les toilettes, native: { nl: de wc, en: "toilet" }, pos: noun, gender: f }
+  - { target: "l'escalier", native: { nl: de trap, en: "stairs" }, pos: noun, gender: m }
+  - { target: "l'étage", native: { nl: de verdieping, en: "floor (storey)" }, pos: noun, gender: m }
+  - { target: le mur, native: { nl: de muur, en: "wall" }, pos: noun, gender: m }
+  - { target: le toit, native: { nl: het dak, en: "roof" }, pos: noun, gender: m }
+  - { target: le garage, native: { nl: de garage, en: "garage" }, pos: noun, gender: m }
+  - { target: "l'armoire", native: { nl: de kast (kleerkast), en: "wardrobe" }, pos: noun, gender: f }
+  - { target: le placard, native: { nl: de kast (keukenkast), en: "cupboard" }, pos: noun, gender: m, avoid: [fr.armoire] }
+  - { target: le bureau, native: { nl: het bureau, en: "desk, office" }, pos: noun, gender: m }
+  - { target: le canapé, native: { nl: de bank (sofa), en: "sofa" }, pos: noun, gender: m }
+  - { target: la lampe, native: { nl: de lamp, en: "lamp" }, pos: noun, gender: f }
+  - { target: la clé, native: { nl: de sleutel, en: "key" }, pos: noun, gender: f }
+sentences:
+  - { id: s01, target: "J'habite dans un appartement en ville.", native: { nl: "Ik woon in een appartement in de stad.", en: "I live in a flat in town." }, items: [fr.appartement] }
+  - { id: s02, target: "On regarde la télévision dans le salon.", native: { nl: "We kijken televisie in de woonkamer.", en: "We watch television in the living room." }, items: [fr.salon] }
+  - { id: s03, target: "Nous mangeons dans la salle à manger.", native: { nl: "We eten in de eetkamer.", en: "We eat in the dining room." }, items: [fr.salle-a-manger] }
+  - { id: s04, target: "La salle de bain est en haut.", native: { nl: "De badkamer is boven.", en: "The bathroom is upstairs." }, items: [fr.salle-de-bain] }
+  - { id: s05, target: "Où sont les toilettes, s'il vous plaît ?", native: { nl: "Waar is de wc, alstublieft?", en: "Where's the toilet, please?" }, items: [fr.toilettes] }
+  - { id: s06, target: "Le chat dort dans l'escalier.", native: { nl: "De kat slaapt op de trap.", en: "The cat is sleeping on the stairs." }, items: [fr.escalier] }
+  - { id: s07, target: "Ma chambre est au premier étage.", native: { nl: "Mijn slaapkamer is op de eerste verdieping.", en: "My bedroom is on the first floor." }, items: [fr.etage] }
+  - { id: s08, target: "Il y a un dessin sur le mur.", native: { nl: "Er hangt een tekening aan de muur.", en: "There's a drawing on the wall." }, items: [fr.mur] }
+  - { id: s09, target: "Le chat est sur le toit !", native: { nl: "De kat zit op het dak!", en: "The cat is on the roof!" }, items: [fr.toit] }
+  - { id: s10, target: "Le vélo est dans le garage.", native: { nl: "De fiets staat in de garage.", en: "The bike is in the garage." }, items: [fr.garage] }
+  - { id: s11, target: "Mes vêtements sont dans l'armoire.", native: { nl: "Mijn kleren liggen in de kast.", en: "My clothes are in the wardrobe." }, items: [fr.armoire] }
+  - { id: s12, target: "Les assiettes sont dans le placard.", native: { nl: "De borden staan in de kast.", en: "The plates are in the cupboard." }, items: [fr.placard] }
+  - { id: s13, target: "Je fais mes devoirs à mon bureau.", native: { nl: "Ik maak mijn huiswerk aan mijn bureau.", en: "I do my homework at my desk." }, items: [fr.bureau] }
+  - { id: s14, target: "Papa dort sur le canapé.", native: { nl: "Papa slaapt op de bank.", en: "Dad is sleeping on the sofa." }, items: [fr.canape] }
+  - { id: s15, target: "La lampe est à côté du lit.", native: { nl: "De lamp staat naast het bed.", en: "The lamp is next to the bed." }, items: [fr.lampe] }
+  - { id: s16, target: "Où est la clé de la maison ?", native: { nl: "Waar is de huissleutel?", en: "Where's the house key?" }, items: [fr.cle] }
+lessons:
+  - { id: l01, title: { nl: Kamers, en: "Rooms" }, vocab: [fr.appartement, fr.salon, fr.salle-a-manger, fr.salle-de-bain, fr.toilettes, fr.escalier, fr.etage, fr.mur] }
+  - { id: l02, title: { nl: Kast en bank, en: "Around the house" }, vocab: [fr.toit, fr.garage, fr.armoire, fr.placard, fr.bureau, fr.canape, fr.lampe, fr.cle] }

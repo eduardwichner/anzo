@@ -1,0 +1,50 @@
+id: en-a2-u19
+title: { nl: Doen en bewegen }
+icon: actions
+topic: Verbs and phrasal verbs
+vocabulary:
+  - { target: act, native: { nl: "acteren, toneelspelen" }, pos: verb }
+  - { target: begin, native: { nl: beginnen }, pos: verb }
+  - { target: finish, native: { nl: "afmaken, eindigen" }, pos: verb, avoid: [en.begin] }
+  - { target: use, native: { nl: gebruiken }, pos: verb }
+  - { target: let, native: { nl: laten }, pos: verb }
+  - { target: repair, native: { nl: repareren }, pos: verb }
+  - { target: look like, native: { nl: lijken op }, pos: verb }
+  - { target: turn, native: { nl: "draaien, omslaan" }, pos: verb }
+  - { target: turn on, native: { nl: aanzetten }, pos: verb, avoid: [en.turn] }
+  - { target: turn off, native: { nl: uitzetten }, pos: verb, avoid: [en.turn, en.turn-on] }
+  - { target: pull, native: { nl: trekken }, pos: verb }
+  - { target: push, native: { nl: duwen }, pos: verb, avoid: [en.pull] }
+  - { target: touch, native: { nl: aanraken }, pos: verb }
+  - { target: fetch, native: { nl: halen }, pos: verb }
+  - { target: follow, native: { nl: volgen }, pos: verb }
+  - { target: enter, native: { nl: binnengaan }, pos: verb }
+  - { target: go out, native: { nl: "uitgaan, naar buiten gaan" }, pos: verb }
+  - { target: go away, native: { nl: "weggaan, ga weg" }, pos: verb, avoid: [en.go-out] }
+  - { target: look after, native: { nl: "zorgen voor, passen op" }, pos: verb }
+  - { target: make sure, native: { nl: zorgen dat }, pos: verb, avoid: [en.look-after] }
+sentences:
+  - { id: s01, target: "I want to act in a film.", native: { nl: "Ik wil in een film spelen." }, items: [en.act] }
+  - { id: s02, target: "The film begins at seven.", native: { nl: "De film begint om zeven uur." }, items: [en.begin] }
+  - { id: s03, target: "Please finish your dinner.", native: { nl: "Eet je avondeten op, alsjeblieft." }, items: [en.finish] }
+  - { id: s04, target: "Can I use your phone?", native: { nl: "Mag ik je telefoon gebruiken?" }, items: [en.use] }
+  - { id: s05, target: "Let me help you.", native: { nl: "Laat mij je helpen." }, items: [en.let] }
+  - { id: s06, target: "Dad can repair the TV.", native: { nl: "Papa kan de tv repareren." }, items: [en.repair] }
+  - { id: s07, target: "You look like your mum.", native: { nl: "Je lijkt op je moeder." }, items: [en.look-like] }
+  - { id: s08, target: "Please turn the page.", native: { nl: "Sla de bladzijde om, alsjeblieft." }, items: [en.turn] }
+  - { id: s09, target: "Turn on the TV, please.", native: { nl: "Zet de tv aan, alsjeblieft." }, items: [en.turn-on] }
+  - { id: s10, target: "Please turn off the light.", native: { nl: "Doe het licht uit, alsjeblieft." }, items: [en.turn-off] }
+  - { id: s11, target: "Pull, don't push!", native: { nl: "Trekken, niet duwen!" }, items: [en.pull, en.push], acceptAlso: ["Pull, do not push!"] }
+  - { id: s12, target: "Can you push me on the swing?", native: { nl: "Kun jij me duwen op de schommel?" }, items: [en.push] }
+  - { id: s13, target: "Don't touch the cake!", native: { nl: "Niet aan de taart komen!" }, items: [en.touch], acceptAlso: ["Do not touch the cake!"] }
+  - { id: s14, target: "Can you fetch the ball, please?", native: { nl: "Kun jij de bal halen, alsjeblieft?" }, items: [en.fetch] }
+  - { id: s15, target: "Follow me!", native: { nl: "Volg mij!" }, items: [en.follow] }
+  - { id: s16, target: "Please enter the classroom quietly.", native: { nl: "Kom alsjeblieft rustig het klaslokaal binnen." }, items: [en.enter] }
+  - { id: s17, target: "Can I go out to play?", native: { nl: "Mag ik buiten gaan spelen?" }, items: [en.go-out] }
+  - { id: s18, target: "Go away, I'm busy!", native: { nl: "Ga weg, ik heb het druk!" }, items: [en.go-away], acceptAlso: ["Go away, I am busy!"] }
+  - { id: s19, target: "Can you look after my cat?", native: { nl: "Kun jij voor mijn kat zorgen?" }, items: [en.look-after] }
+  - { id: s20, target: "Make sure you close the door.", native: { nl: "Zorg dat je de deur dichtdoet." }, items: [en.make-sure] }
+lessons:
+  - { id: l01, title: { nl: Beginnen en gebruiken }, vocab: [en.act, en.begin, en.finish, en.use, en.let, en.repair, en.look-like] }
+  - { id: l02, title: { nl: Aan en uit }, vocab: [en.turn, en.turn-on, en.turn-off, en.pull, en.push, en.touch] }
+  - { id: l03, title: { nl: Halen en volgen }, vocab: [en.fetch, en.follow, en.enter, en.go-out, en.go-away, en.look-after, en.make-sure] }

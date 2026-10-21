@@ -1,0 +1,75 @@
+id: fr-b2-u18
+title: { nl: Talen en communicatie, en: "Languages and communication" }
+icon: chat
+topic: Apprendre et parler plusieurs langues, la Belgique et ses langues, la traduction, oser s'exprimer ; le participe présent (parlant, ayant grandi, ne sachant pas) et le gérondif (en parlant)
+vocabulary:
+  - { target: bilingue, native: { nl: tweetalig, en: "bilingual" }, pos: adjective, avoid: [fr.trilingue] }
+  - { target: trilingue, native: { nl: drietalig, en: "trilingual" }, pos: adjective, avoid: [fr.bilingue] }
+  - { target: le bilinguisme, native: { nl: de tweetaligheid, en: "bilingualism" }, pos: noun, gender: m }
+  - { target: la langue maternelle, native: { nl: de moedertaal, en: "mother tongue, first language" }, pos: noun, gender: f }
+  - { target: la langue étrangère, native: { nl: de vreemde taal, en: "foreign language" }, pos: noun, gender: f }
+  - { target: l'accent, native: { nl: het accent, en: "accent" }, pos: noun, gender: m, noBlank: true }
+  - { target: la prononciation, native: { nl: de uitspraak, en: "pronunciation" }, pos: noun, gender: f }
+  - { target: prononcer, native: { nl: uitspreken, en: "to pronounce" }, pos: verb }
+  - { target: le vocabulaire, native: { nl: de woordenschat, en: "vocabulary" }, pos: noun, gender: m }
+  - { target: la grammaire, native: { nl: de grammatica, en: "grammar" }, pos: noun, gender: f, noBlank: true }
+  - { target: l'orthographe, native: { nl: de spelling, en: "spelling" }, pos: noun, gender: f }
+  - { target: traduire, native: { nl: vertalen, en: "to translate" }, pos: verb }
+  - { target: la traduction, native: { nl: de vertaling, en: "translation" }, pos: noun, gender: f }
+  - { target: le traducteur, native: { nl: de vertaler, en: "translator" }, pos: noun, gender: m, noBlank: true }
+  - { target: néerlandophone, native: { nl: Nederlandstalig, en: "Dutch-speaking" }, pos: adjective, avoid: [fr.germanophone] }
+  - { target: germanophone, native: { nl: Duitstalig, en: "German-speaking" }, pos: adjective, avoid: [fr.neerlandophone] }
+  - { target: couramment, native: { nl: vloeiend, en: "fluently" }, pos: adverb }
+  - { target: maîtriser, native: { nl: beheersen, en: "to master" }, pos: verb }
+  - { target: la maîtrise, native: { nl: de beheersing, en: "mastery, command (of a language)" }, pos: noun, gender: f }
+  - { target: progresser, native: { nl: "vooruitgaan, vorderingen maken", en: "to make progress, to improve" }, pos: verb }
+  - { target: l'immersion, native: { nl: "de immersie, het taalbad", en: "immersion" }, pos: noun, gender: f, noBlank: true }
+  - { target: s'exprimer, native: { nl: "zich uitdrukken", en: "to express oneself" }, pos: verb, avoid: [fr.exprimer] }
+  - { target: l'expression, native: { nl: de uitdrukking, en: "expression, phrase" }, pos: noun, gender: f }
+  - { target: communiquer, native: { nl: communiceren, en: "to communicate" }, pos: verb, noBlank: true }
+  - { target: la communication, native: { nl: de communicatie, en: "communication" }, pos: noun, gender: f, noBlank: true }
+  - { target: signifier, native: { nl: betekenen, en: "to mean" }, pos: verb }
+  - { target: la mémoire, native: { nl: het geheugen, en: "memory" }, pos: noun, gender: f }
+  - { target: oser, native: { nl: durven, en: "to dare" }, pos: verb }
+  - { target: l'identité, native: { nl: de identiteit, en: "identity" }, pos: noun, gender: f, noBlank: true }
+  - { target: l'enfance, native: { nl: de kindertijd, en: "childhood" }, pos: noun, gender: f }
+  - { target: flamand, native: { nl: Vlaams, en: "Flemish" }, pos: adjective }
+  - { target: la frontière linguistique, native: { nl: de taalgrens, en: "language border" }, pos: noun, gender: f }
+sentences:
+  - { id: s01, target: "Bruxelles est une ville bilingue.", native: { nl: "Brussel is een tweetalige stad.", en: "Brussels is a bilingual city." }, items: [fr.bilingue] }
+  - { id: s02, target: "Mon cousin est trilingue : il parle français, néerlandais et anglais.", native: { nl: "Mijn neef is drietalig: hij spreekt Frans, Nederlands en Engels.", en: "My cousin is trilingual: he speaks French, Dutch and English." }, items: [fr.trilingue] }
+  - { id: s03, target: "Le bilinguisme est un avantage sur le marché du travail.", native: { nl: "Tweetaligheid is een voordeel op de arbeidsmarkt.", en: "Bilingualism is an advantage on the job market." }, items: [fr.bilinguisme] }
+  - { id: s04, target: "Sa langue maternelle est l'allemand.", native: { nl: "Haar moedertaal is het Duits.", en: "Her mother tongue is German." }, items: [fr.langue-maternelle] }
+  - { id: s05, target: "À l'école, on apprend deux langues étrangères.", native: { nl: "Op school leer je twee vreemde talen.", en: "At school, you learn two foreign languages." }, items: [fr.langue-etrangere] }
+  - { id: s06, target: "Elle parle français avec un léger accent flamand.", native: { nl: "Ze spreekt Frans met een licht Vlaams accent.", en: "She speaks French with a slight Flemish accent." }, items: [fr.accent, fr.flamand] }
+  - { id: s07, target: "La prononciation française est difficile pour moi.", native: { nl: "De Franse uitspraak is moeilijk voor mij.", en: "French pronunciation is difficult for me." }, items: [fr.prononciation] }
+  - { id: s08, target: "Comment est-ce qu'on prononce ce mot ?", native: { nl: "Hoe spreek je dat woord uit?", en: "How do you pronounce this word?" }, items: [fr.prononcer] }
+  - { id: s09, target: "En lisant beaucoup, on apprend du vocabulaire.", native: { nl: "Door veel te lezen, leer je woordenschat bij.", en: "By reading a lot, you learn vocabulary." }, items: [fr.vocabulaire], acceptAlso: ["On apprend du vocabulaire en lisant beaucoup."] }
+  - { id: s10, target: "Je fais encore des fautes de grammaire.", native: { nl: "Ik maak nog grammaticafouten.", en: "I still make grammar mistakes." }, items: [fr.grammaire] }
+  - { id: s11, target: "L'orthographe française n'est pas facile.", native: { nl: "De Franse spelling is niet makkelijk.", en: "French spelling isn't easy." }, items: [fr.orthographe] }
+  - { id: s12, target: "Peux-tu traduire cette lettre en néerlandais ?", native: { nl: "Kun je deze brief in het Nederlands vertalen?", en: "Can you translate this letter into Dutch?" }, items: [fr.traduire] }
+  - { id: s13, target: "Une bonne traduction respecte les idées de l'auteur.", native: { nl: "Een goede vertaling respecteert de ideeën van de auteur.", en: "A good translation respects the author's ideas." }, items: [fr.traduction] }
+  - { id: s14, target: "Elle travaille comme traductrice pour une entreprise internationale.", native: { nl: "Ze werkt als vertaalster voor een internationaal bedrijf.", en: "She works as a translator for an international company." }, items: [fr.traducteur] }
+  - { id: s15, target: "Les écoles néerlandophones de Bruxelles accueillent beaucoup d'enfants francophones.", native: { nl: "De Nederlandstalige scholen in Brussel hebben veel Franstalige leerlingen.", en: "The Dutch-speaking schools in Brussels have many French-speaking pupils." }, items: [fr.neerlandophone] }
+  - { id: s16, target: "Il y a aussi une petite communauté germanophone en Belgique.", native: { nl: "Er is in België ook een kleine Duitstalige gemeenschap.", en: "There's also a small German-speaking community in Belgium." }, items: [fr.germanophone] }
+  - { id: s17, target: "Après un an à Liège, elle parlait couramment français.", native: { nl: "Na een jaar in Luik sprak ze vloeiend Frans.", en: "After a year in Liège, she spoke French fluently." }, items: [fr.couramment] }
+  - { id: s18, target: "Pour ce travail, il faut maîtriser deux langues.", native: { nl: "Voor deze job moet je twee talen beheersen.", en: "For this job, you need to master two languages." }, items: [fr.maitriser] }
+  - { id: s19, target: "Une bonne maîtrise de l'anglais est demandée.", native: { nl: "Een goede beheersing van het Engels wordt gevraagd.", en: "A good command of English is required." }, items: [fr.maitrise] }
+  - { id: s20, target: "Tu as beaucoup progressé depuis septembre.", native: { nl: "Je bent sinds september flink vooruitgegaan.", en: "You've made a lot of progress since September." }, items: [fr.progresser] }
+  - { id: s21, target: "Dans cette école, les cours de sciences se donnent en néerlandais : c'est de l'immersion.", native: { nl: "In deze school worden de lessen wetenschappen in het Nederlands gegeven: dat is immersie.", en: "At this school, science lessons are taught in Dutch: that's immersion." }, items: [fr.immersion] }
+  - { id: s22, target: "Il a du mal à s'exprimer devant la classe.", native: { nl: "Hij heeft het moeilijk om zich voor de klas uit te drukken.", en: "He finds it hard to express himself in front of the class." }, items: [fr.s-exprimer] }
+  - { id: s23, target: "« Avoir la tête dans les nuages » est une expression qui signifie rêver.", native: { nl: "\"Avoir la tête dans les nuages\" is een uitdrukking die betekent dat je dagdroomt.", en: "\"Avoir la tête dans les nuages\" is an expression that means daydreaming." }, items: [fr.expression, fr.signifier] }
+  - { id: s24, target: "Nous communiquons surtout par messages.", native: { nl: "We communiceren vooral via berichtjes.", en: "We mostly communicate by text message." }, items: [fr.communiquer], finite: { word: communiquons, hint: { nl: "communiquer (présent)", en: "communiquer (present)" } } }
+  - { id: s25, target: "La communication entre les deux équipes était difficile.", native: { nl: "De communicatie tussen de twee ploegen was moeilijk.", en: "Communication between the two teams was difficult." }, items: [fr.communication] }
+  - { id: s26, target: "J'ai une très bonne mémoire pour les mots.", native: { nl: "Ik heb een heel goed geheugen voor woorden.", en: "I have a very good memory for words." }, items: [fr.memoire] }
+  - { id: s27, target: "Au début, je n'osais pas parler français.", native: { nl: "In het begin durfde ik geen Frans te spreken.", en: "At first, I didn't dare speak French." }, items: [fr.oser] }
+  - { id: s28, target: "La langue fait partie de notre identité.", native: { nl: "De taal maakt deel uit van onze identiteit.", en: "Language is part of our identity." }, items: [fr.identite] }
+  - { id: s29, target: "Pendant mon enfance, nous parlions deux langues à la maison.", native: { nl: "In mijn kindertijd spraken we thuis twee talen.", en: "During my childhood, we spoke two languages at home." }, items: [fr.enfance] }
+  - { id: s30, target: "Notre village est juste au sud de la frontière linguistique.", native: { nl: "Ons dorp ligt net ten zuiden van de taalgrens.", en: "Our village is just south of the language border." }, items: [fr.frontiere-linguistique] }
+  - { id: s31, target: "Ayant grandi à Bruxelles, elle est bilingue.", native: { nl: "Omdat ze in Brussel is opgegroeid, is ze tweetalig.", en: "Having grown up in Brussels, she is bilingual." }, items: [fr.bilingue], build: true }
+  - { id: s32, target: "Ne connaissant pas le mot, il a cherché sa traduction dans un dictionnaire.", native: { nl: "Omdat hij het woord niet kende, zocht hij de vertaling op in een woordenboek.", en: "Not knowing the word, he looked up its translation in a dictionary." }, items: [fr.traduction], build: true }
+transforms:
+  - { id: x01, from: "Elle a grandi à Bruxelles, donc elle parle les deux langues.", key: Ayant, gapped: "___ Bruxelles, elle parle les deux langues.", answers: ["Ayant grandi à"], items: [fr.bilingue], native: { en: "Having grown up in Brussels, she speaks both languages." } }
+  - { id: x02, from: "Quand on lit beaucoup, on apprend du vocabulaire.", key: lisant, gapped: "___ beaucoup, on apprend du vocabulaire.", answers: ["En lisant"], items: [fr.vocabulaire], native: { en: "By reading a lot, you learn vocabulary." } }
+  - { id: x03, from: "Je parle français sans difficulté.", key: couramment, gapped: "Je ___.", answers: ["parle couramment français", "parle français couramment", "parle couramment le français", "parle le français couramment"], items: [fr.couramment], native: { en: "I speak French fluently." } }
+texts: [fr-b2-t18]

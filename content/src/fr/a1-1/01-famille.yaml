@@ -1,0 +1,70 @@
+id: fr-a1-1-u01
+title: { nl: Ik en mijn familie, en: "Me and my family" }
+icon: family
+topic: Se présenter; la famille
+vocabulary:
+  - { id: fr.bonjour, target: bonjour, native: { nl: hallo, en: "hello" }, pos: exclamation }
+  - { id: fr.salut, target: salut, native: { nl: hoi, en: "hi, bye" }, pos: exclamation, avoid: [fr.bonjour] }
+  - { id: fr.je-m-appelle, target: "je m'appelle", native: { nl: ik heet, en: "my name is" }, pos: phrase }
+  - { id: fr.j-ai, target: "j'ai", native: { nl: ik heb, en: "I have" }, pos: verb }
+  - { id: fr.ami, target: "l'ami", native: { nl: de vriend, en: "friend (male)" }, pos: noun, gender: m }
+  - { id: fr.amie, target: "l'amie", native: { nl: de vriendin, en: "friend (female)" }, pos: noun, gender: f, avoid: [fr.ami] }
+  - { target: le prénom, native: { nl: de voornaam, en: "first name" }, pos: noun, gender: m }
+  - { id: fr.famille, target: la famille, native: { nl: "het gezin, de familie", en: "family" }, pos: noun, gender: f }
+  - { id: fr.parents, target: les parents, native: { nl: de ouders, en: "parents" }, pos: noun, gender: m }
+  - { id: fr.maman, target: maman, native: { nl: mama, en: "mum" }, pos: noun, gender: f }
+  - { id: fr.papa, target: papa, native: { nl: papa, en: "dad" }, pos: noun, gender: m }
+  - { id: fr.frere, target: le frère, native: { nl: de broer, en: "brother" }, pos: noun, gender: m }
+  - { id: fr.soeur, target: la sœur, native: { nl: de zus, en: "sister" }, pos: noun, gender: f }
+  - { id: fr.grand-pere, target: le grand-père, native: { nl: de opa, en: "grandfather, grandpa" }, pos: noun, gender: m }
+  - { id: fr.grand-mere, target: la grand-mère, native: { nl: de oma, en: "grandmother, grandma" }, pos: noun, gender: f }
+  - { target: les grands-parents, native: { nl: opa en oma, en: "grandparents" }, pos: noun, gender: m }
+  - { target: la mère, native: { nl: de moeder, en: "mother" }, pos: noun, gender: f, avoid: [fr.maman, fr.mer] }
+  - { target: le père, native: { nl: de vader, en: "father" }, pos: noun, gender: m, avoid: [fr.papa] }
+  - { target: le garçon, native: { nl: de jongen, en: "boy" }, pos: noun, gender: m }
+  - { target: la fille, native: { nl: het meisje, en: "girl" }, pos: noun, gender: f }
+  - { target: le copain, native: { nl: "het vriendje, de maat", en: "mate, pal (male)" }, pos: noun, gender: m, avoid: [fr.ami] }
+  - { target: la copine, native: { nl: het vriendinnetje, en: "mate, pal (female)" }, pos: noun, gender: f, avoid: [fr.amie] }
+  - { target: le nom, native: { nl: de naam, en: "name" }, pos: noun, gender: m, avoid: [fr.prenom] }
+  - { target: le voisin, native: { nl: "de buurjongen, de buurman", en: "neighbour (male)" }, pos: noun, gender: m }
+  - { target: la personne, native: { nl: de persoon, en: "person, people (plural)" }, pos: noun, gender: f }
+  - { target: néerlandais, native: { nl: Nederlands, en: "Dutch" }, pos: adjective }
+  - { target: les Pays-Bas, native: { nl: Nederland, en: "the Netherlands" }, pos: noun, gender: m }
+sentences:
+  - { id: s01, target: "Je m'appelle Rose.", native: { nl: "Ik heet Rose.", en: "My name is Rose." }, items: [fr.je-m-appelle] }
+  - { id: s02, target: "Bonjour, je m'appelle Paul.", native: { nl: "Hallo, ik heet Paul.", en: "Hello, my name is Paul." }, items: [fr.bonjour, fr.je-m-appelle] }
+  - { id: s03, target: "Salut ! Je m'appelle Liam.", native: { nl: "Hoi! Ik heet Liam.", en: "Hi! My name is Liam." }, items: [fr.salut, fr.je-m-appelle] }
+  - { id: s04, target: "J'ai un frère.", native: { nl: "Ik heb een broer.", en: "I have a brother." }, items: [fr.j-ai, fr.frere] }
+  - { id: s05, target: "J'ai une sœur.", native: { nl: "Ik heb een zus.", en: "I have a sister." }, items: [fr.j-ai, fr.soeur] }
+  - { id: s06, target: "C'est ma famille.", native: { nl: "Dit is mijn gezin.", en: "This is my family." }, items: [fr.famille] }
+  - { id: s07, target: "Bonjour maman !", native: { nl: "Hallo mama!", en: "Hello, Mum!" }, items: [fr.bonjour, fr.maman] }
+  - { id: s08, target: "J'ai deux frères.", native: { nl: "Ik heb twee broers.", en: "I have two brothers." }, items: [fr.j-ai, fr.frere] }
+  - { id: s09, target: "J'ai deux sœurs.", native: { nl: "Ik heb twee zussen.", en: "I have two sisters." }, items: [fr.j-ai, fr.soeur] }
+  - { id: s10, target: "Mon grand-père s'appelle Paul.", native: { nl: "Mijn opa heet Paul.", en: "My grandfather is called Paul." }, items: [fr.grand-pere] }
+  - { id: s11, target: "Ma grand-mère s'appelle Rose.", native: { nl: "Mijn oma heet Rose.", en: "My grandmother is called Rose." }, items: [fr.grand-mere] }
+  - { id: s12, target: "Paul est mon ami.", native: { nl: "Paul is mijn vriend.", en: "Paul is my friend." }, items: [fr.ami] }
+  - { id: s13, target: "Rose est mon amie.", native: { nl: "Rose is mijn vriendin.", en: "Rose is my friend." }, items: [fr.amie] }
+  - { id: s14, target: "Mon prénom, c'est Liam.", native: { nl: "Mijn voornaam is Liam.", en: "My first name is Liam." }, items: [fr.prenom] }
+  - { id: s15, target: "Salut ! J'ai un ami français.", native: { nl: "Hoi! Ik heb een Franse vriend.", en: "Hi! I have a French friend." }, items: [fr.salut, fr.j-ai, fr.ami] }
+  - { id: s16, target: "Ce sont mes parents.", native: { nl: "Dit zijn mijn ouders.", en: "These are my parents." }, items: [fr.parents] }
+  - { id: s17, target: "Mon papa s'appelle Karl.", native: { nl: "Mijn papa heet Karl.", en: "My dad is called Karl." }, items: [fr.papa] }
+  - { id: s18, target: "Mon frère a dix ans.", native: { nl: "Mijn broer is tien jaar.", en: "My brother is ten years old." }, items: [fr.frere] }
+  - { id: s19, target: "Ma sœur est petite.", native: { nl: "Mijn zus is klein.", en: "My sister is little." }, items: [fr.soeur] }
+  - { id: s20, target: "Mes grands-parents habitent à la montagne.", native: { nl: "Mijn opa en oma wonen in de bergen.", en: "My grandparents live in the mountains." }, items: [fr.grands-parents] }
+  - { id: s21, target: "Ma mère est française.", native: { nl: "Mijn moeder is Frans.", en: "My mother is French." }, items: [fr.mere] }
+  - { id: s22, target: "Mon père parle français.", native: { nl: "Mijn vader spreekt Frans.", en: "My father speaks French." }, items: [fr.pere] }
+  - { id: s23, target: "Le garçon s'appelle Diego.", native: { nl: "De jongen heet Diego.", en: "The boy is called Diego." }, items: [fr.garcon] }
+  - { id: s24, target: "La fille a sept ans.", native: { nl: "Het meisje is zeven jaar.", en: "The girl is seven years old." }, items: [fr.fille] }
+  - { id: s25, target: "Diego est mon copain.", native: { nl: "Diego is mijn maatje.", en: "Diego is my mate." }, items: [fr.copain] }
+  - { id: s26, target: "Rose est ma copine.", native: { nl: "Rose is mijn vriendinnetje.", en: "Rose is my pal." }, items: [fr.copine] }
+  - { id: s27, target: "Quel est ton nom ?", native: { nl: "Wat is je naam?", en: "What is your name?" }, items: [fr.nom] }
+  - { id: s28, target: "Côme est mon nouveau voisin.", native: { nl: "Côme is mijn nieuwe buurjongen.", en: "Côme is my new neighbour." }, items: [fr.voisin] }
+  - { id: s30, target: "J'habite aux Pays-Bas.", native: { nl: "Ik woon in Nederland.", en: "I live in the Netherlands." }, items: [fr.pays-bas] }
+  - { id: s31, target: "Je suis néerlandaise.", native: { nl: "Ik ben Nederlandse.", en: "I am Dutch." }, items: [fr.neerlandais] }
+  - { id: s32, target: "Je parle néerlandais avec mes parents.", native: { nl: "Ik spreek Nederlands met mijn ouders.", en: "I speak Dutch with my parents." }, items: [fr.neerlandais] }
+  - { id: s29, target: "Dans ma famille, nous sommes cinq personnes.", native: { nl: "In mijn gezin zijn we met vijf personen.", en: "There are five people in my family." }, items: [fr.personne] }
+lessons:
+  - { id: l01, title: { nl: "Hallo, ik heet...", en: "Hello, my name is..." }, vocab: [fr.bonjour, fr.salut, fr.je-m-appelle, fr.j-ai, fr.ami, fr.amie, fr.prenom] }
+  - { id: l02, title: { nl: Mijn gezin, en: "My family" }, vocab: [fr.famille, fr.parents, fr.maman, fr.papa, fr.frere, fr.soeur] }
+  - { id: l03, title: { nl: "Vader, moeder, opa en oma", en: "Father, mother, grandpa and grandma" }, vocab: [fr.grand-pere, fr.grand-mere, fr.grands-parents, fr.mere, fr.pere, fr.garcon, fr.fille] }
+  - { id: l04, title: { nl: Vrienden en Nederland, en: "Friends and the Netherlands" }, vocab: [fr.copain, fr.copine, fr.nom, fr.voisin, fr.personne, fr.neerlandais, fr.pays-bas] }

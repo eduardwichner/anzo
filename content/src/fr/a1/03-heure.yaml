@@ -1,0 +1,40 @@
+id: fr-a1-u03
+title: { nl: Hoe laat is het?, en: "What's the time?" }
+icon: time
+topic: L'heure; parler du temps
+vocabulary:
+  - { target: la minute, native: { nl: de minuut, en: "minute" }, pos: noun, gender: f }
+  - { target: la seconde, native: { nl: de seconde, en: "second (of time)" }, pos: noun, gender: f }
+  - { target: le quart, native: { nl: het kwart, en: "quarter" }, pos: noun, gender: m }
+  - { target: demi, native: { nl: half, en: "half" }, pos: adjective }
+  - { target: midi, native: { nl: twaalf uur ('s middags), en: "midday, noon" }, pos: noun, gender: m }
+  - { target: minuit, native: { nl: middernacht, en: "midnight" }, pos: noun, gender: m }
+  - { target: le rendez-vous, native: { nl: de afspraak, en: "appointment, meeting (arranged)" }, pos: noun, gender: m }
+  - { target: la journée, native: { nl: de dag (de hele dag), en: "day (the whole day)" }, pos: noun, gender: f, avoid: [fr.jour] }
+  - { target: la soirée, native: { nl: de avond (de hele avond), en: "evening (the whole evening)" }, pos: noun, gender: f, avoid: [fr.soir] }
+  - { target: en retard, native: { nl: te laat, en: "late (not on time)" }, pos: adverb }
+  - { target: tout de suite, native: { nl: meteen, en: "straight away, immediately" }, pos: adverb }
+  - { target: maintenant, native: { nl: nu, en: "now" }, pos: adverb, avoid: [fr.tout-de-suite] }
+  - { target: encore, native: { nl: "nog, opnieuw", en: "again, more, still" }, pos: adverb }
+  - { target: vite, native: { nl: snel, en: "quickly, fast" }, pos: adverb }
+sentences:
+  - { id: s01, target: "Attends une minute !", native: { nl: "Wacht een minuutje!", en: "Wait a minute!" }, items: [fr.minute] }
+  - { id: s02, target: "Il est huit heures et quart.", native: { nl: "Het is kwart over acht.", en: "It's a quarter past eight." }, items: [fr.quart] }
+  - { id: s03, target: "Le cours finit à onze heures et quart.", native: { nl: "De les is om kwart over elf afgelopen.", en: "The lesson ends at a quarter past eleven." }, items: [fr.quart] }
+  - { id: s04, target: "Il est neuf heures et demie.", native: { nl: "Het is half tien.", en: "It's half past nine." }, items: [fr.demi] }
+  - { id: s05, target: "On mange à midi.", native: { nl: "We eten om twaalf uur.", en: "We eat at midday." }, items: [fr.midi] }
+  - { id: s06, target: "À minuit, je dors.", native: { nl: "Om middernacht slaap ik.", en: "At midnight I'm asleep." }, items: [fr.minuit] }
+  - { id: s07, target: "Une minute, c'est soixante secondes.", native: { nl: "Een minuut is zestig seconden.", en: "A minute is sixty seconds." }, items: [fr.seconde, fr.minute] }
+  - { id: s08, target: "À quelle heure est-ce que tu as rendez-vous ?", native: { nl: "Hoe laat heb jij een afspraak?", en: "What time is your appointment?" }, items: [fr.rendez-vous] }
+  - { id: s09, target: "J'ai rendez-vous avec Louise à dix heures.", native: { nl: "Ik heb om tien uur afgesproken met Louise.", en: "I've arranged to meet Louise at ten o'clock." }, items: [fr.rendez-vous] }
+  - { id: s10, target: "C'est une belle journée !", native: { nl: "Het is een mooie dag!", en: "It's a lovely day!" }, items: [fr.journee] }
+  - { id: s11, target: "On fait une fête ce soir. C'est une super soirée !", native: { nl: "We geven vanavond een feest. Het is een supergezellige avond!", en: "We're having a party tonight. It's a great evening!" }, items: [fr.soiree] }
+  - { id: s12, target: "Vite, nous sommes en retard !", native: { nl: "Vlug, we zijn te laat!", en: "Quick, we're late!" }, items: [fr.en-retard, fr.vite] }
+  - { id: s13, target: "Viens tout de suite !", native: { nl: "Kom meteen!", en: "Come straight away!" }, items: [fr.tout-de-suite] }
+  - { id: s14, target: "Je fais mes devoirs maintenant.", native: { nl: "Ik maak nu mijn huiswerk.", en: "I'm doing my homework now." }, items: [fr.maintenant] }
+  - { id: s16, target: "Tu veux encore du gâteau ?", native: { nl: "Wil je nog wat taart?", en: "Would you like some more cake?" }, items: [fr.encore] }
+  - { id: s17, target: "Le train va très vite.", native: { nl: "De trein gaat heel snel.", en: "The train goes very fast." }, items: [fr.vite] }
+  - { id: s18, target: "Il est midi et demi.", native: { nl: "Het is half één.", en: "It's half past twelve." }, items: [fr.demi, fr.midi] }
+lessons:
+  - { id: l01, title: { nl: Kwart en half, en: "Quarter past and half past" }, vocab: [fr.minute, fr.seconde, fr.quart, fr.demi, fr.midi, fr.minuit, fr.rendez-vous] }
+  - { id: l02, title: { nl: "Snel, we zijn te laat!", en: "Quick, we're late!" }, vocab: [fr.journee, fr.soiree, fr.en-retard, fr.tout-de-suite, fr.maintenant, fr.encore, fr.vite] }

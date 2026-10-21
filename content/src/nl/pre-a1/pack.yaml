@@ -1,0 +1,14 @@
+id: nl-pre-a1
+cefr: Pre-A1
+native: en
+source: >-
+  Dutch as spoken in Flanders (standard Belgian Dutch), level Start (Pre-A1) for adult English speakers. Every word is in
+  the derived Dutch word list (content/src/nl/WORDLIST.md, npm run content:wordlist -- nl) at level Start: NT2Lex
+  (Tack et al. 2018, CC BY-NC-SA 4.0) levels by first observation, attestations in Naar Nederland (werkboek, word list)
+  and topic additions for Belgian standard forms. Units follow the Richtgraad 1 domains of Flemish adult education
+  (content/src/nl/SOURCES.md). Grammar: zijn and hebben, personal pronouns, the present of regular verbs, yes/no and
+  w-questions, numbers 0-20, niet and geen. English meanings written by the content author; plan: content/src/nl/PLAN.md.
+omit:
+  - { word: de, reason: "article; every noun is taught with its article (de / het); practised in every sentence" }
+  - { word: het, reason: "article (and the pronoun it); taught with every het-noun; practised in sentences" }
+  - { word: een, reason: "indefinite article; practised in sentences (een broer, een kat)" }

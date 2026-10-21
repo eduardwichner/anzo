@@ -1,0 +1,72 @@
+id: fr-b1-u07
+title: { nl: Sport en vrije tijd, en: "Sport and free time" }
+icon: sport
+topic: Le sport et les loisirs ; le gérondif (en + participe présent)
+vocabulary:
+  - { target: l'entraîneur, native: { nl: de trainer (coach), en: "coach, trainer" }, pos: noun, gender: m }
+  - { target: le champion, native: { nl: de kampioen, en: "champion" }, pos: noun, gender: m }
+  - { target: battre, native: { nl: verslaan, en: "to beat" }, pos: verb }
+  - { target: le passe-temps, native: { nl: de hobby, en: "hobby, pastime" }, pos: noun, gender: m, typedAlso: { en: [loisir, hobby] } }
+  - { target: la pêche, native: { nl: het vissen, en: "fishing" }, pos: noun, gender: f }
+  - { target: le jardinage, native: { nl: het tuinieren, en: "gardening" }, pos: noun, gender: m }
+  - { target: le membre, native: { nl: het lid, en: "member" }, pos: noun, gender: m }
+  - { target: le jogging, native: { nl: het joggen, en: "jogging" }, pos: noun, gender: m }
+  - { target: le yoga, native: { nl: de yoga, en: "yoga" }, pos: noun, gender: m }
+  - { target: la gym, native: { nl: de gym (turnen), en: "gymnastics, gym" }, pos: noun, gender: f, avoid: [fr.gymnastique], noBlank: true }
+  - { target: la compétition, native: { nl: de competitie, en: "competition" }, pos: noun, gender: f }
+  - { target: l'atelier, native: { nl: de workshop, en: "workshop" }, pos: noun, gender: m }
+  - { target: l'animateur, native: { nl: de begeleider (van activiteiten), en: "activity leader" }, pos: noun, gender: m }
+  - { target: participer, native: { nl: deelnemen, en: "to take part" }, pos: verb }
+  - { target: le participant, native: { nl: de deelnemer, en: "participant" }, pos: noun, gender: m }
+  - { target: sportif, native: { nl: sportief, en: "sporty" }, pos: adjective }
+  - { target: l'entraînement, native: { nl: de training, en: "training, practice" }, pos: noun, gender: m }
+  - { target: le terrain, native: { nl: het terrein (veld), en: "pitch, ground (for sport)" }, pos: noun, gender: m }
+  - { target: la piste, native: { nl: de piste (baan), en: "track" }, pos: noun, gender: f }
+  - { target: le parcours, native: { nl: het parcours, en: "route (of a race)" }, pos: noun, gender: m }
+  - { target: l'excursion, native: { nl: de uitstap, en: "trip, excursion" }, pos: noun, gender: f }
+  - { target: camper, native: { nl: kamperen, en: "to camp" }, pos: verb }
+  - { target: le camping-car, native: { nl: de camper, en: "camper van, motorhome" }, pos: noun, gender: m }
+  - { target: collectif, native: { nl: "gezamenlijk, in groep", en: "team (as in: a team sport), collective" }, pos: adjective, avoid: [fr.individuel] }
+  - { target: individuel, native: { nl: individueel, en: "individual" }, pos: adjective }
+  - { target: actif, native: { nl: actief, en: "active" }, pos: adjective, avoid: [fr.passif] }
+  - { target: passif, native: { nl: passief, en: "passive" }, pos: adjective }
+  - { target: l'effort, native: { nl: de inspanning, en: "effort" }, pos: noun, gender: m }
+  - { target: le défi, native: { nl: de uitdaging, en: "challenge" }, pos: noun, gender: m }
+  - { target: la vitesse, native: { nl: de snelheid, en: "speed" }, pos: noun, gender: f }
+  - { target: la récompense, native: { nl: de beloning, en: "reward" }, pos: noun, gender: f }
+sentences:
+  - { id: s01, target: "Notre entraîneur est très sérieux mais gentil.", native: { nl: "Onze trainer is heel serieus maar vriendelijk.", en: "Our coach is very serious but kind." }, items: [fr.entraineur] }
+  - { id: s02, target: "Elle est championne de Belgique de natation.", native: { nl: "Ze is Belgisch kampioene zwemmen.", en: "She's the Belgian swimming champion." }, items: [fr.champion] }
+  - { id: s03, target: "Notre équipe a battu l'équipe de l'autre école.", native: { nl: "Ons team heeft het team van de andere school verslagen.", en: "Our team beat the team from the other school." }, items: [fr.battre] }
+  - { id: s04, target: "Mon passe-temps préféré, c'est la photo.", native: { nl: "Mijn favoriete hobby is fotografie.", en: "My favourite hobby is photography." }, items: [fr.passe-temps] }
+  - { id: s05, target: "Mon grand-père adore aller à la pêche près du lac.", native: { nl: "Mijn opa gaat graag vissen bij het meer.", en: "My grandfather loves going fishing near the lake." }, items: [fr.peche] }
+  - { id: s06, target: "Le jardinage, c'est bon pour la santé.", native: { nl: "Tuinieren is goed voor de gezondheid.", en: "Gardening is good for your health." }, items: [fr.jardinage] }
+  - { id: s07, target: "Je suis membre d'un club de tennis.", native: { nl: "Ik ben lid van een tennisclub.", en: "I'm a member of a tennis club." }, items: [fr.membre] }
+  - { id: s08, target: "Tous les matins, mon père fait son jogging dans le parc.", native: { nl: "Elke ochtend gaat mijn vader joggen in het park.", en: "Every morning my father goes jogging in the park." }, items: [fr.jogging] }
+  - { id: s09, target: "Le yoga me fait du bien.", native: { nl: "Yoga doet me goed.", en: "Yoga does me good." }, items: [fr.yoga] }
+  - { id: s10, target: "Ma sœur fait de la gym trois fois par semaine.", native: { nl: "Mijn zus doet drie keer per week aan turnen.", en: "My sister does gymnastics three times a week." }, items: [fr.gym] }
+  - { id: s11, target: "Il a gagné la compétition de ski.", native: { nl: "Hij heeft de skiwedstrijd gewonnen.", en: "He won the ski competition." }, items: [fr.competition] }
+  - { id: s12, target: "Samedi, il y a un atelier de cuisine à la bibliothèque.", native: { nl: "Zaterdag is er een kookworkshop in de bibliotheek.", en: "On Saturday there's a cooking workshop at the library." }, items: [fr.atelier] }
+  - { id: s13, target: "Pendant les vacances, l'animateur organise des jeux le soir.", native: { nl: "Tijdens de vakantie organiseert de begeleider 's avonds spelletjes.", en: "During the holidays, the activity leader organises games in the evening." }, items: [fr.animateur] }
+  - { id: s14, target: "Je participe à une course de dix kilomètres.", native: { nl: "Ik neem deel aan een loopwedstrijd van tien kilometer.", en: "I'm taking part in a ten-kilometre race." }, items: [fr.participer], finite: { word: participe, hint: { nl: "participer (présent)", en: "participer (present)" } } }
+  - { id: s15, target: "Chaque participant reçoit un t-shirt.", native: { nl: "Elke deelnemer krijgt een T-shirt.", en: "Each participant gets a T-shirt." }, items: [fr.participant] }
+  - { id: s16, target: "Mon frère est très sportif : il fait du vélo et du foot.", native: { nl: "Mijn broer is heel sportief: hij fietst en voetbalt.", en: "My brother is very sporty: he cycles and plays football." }, items: [fr.sportif] }
+  - { id: s17, target: "L'entraînement commence à six heures.", native: { nl: "De training begint om zes uur.", en: "Training starts at six o'clock." }, items: [fr.entrainement], finite: { word: commence, hint: { nl: "commencer (présent)", en: "commencer (present)" } } }
+  - { id: s18, target: "Les joueurs sont déjà sur le terrain.", native: { nl: "De spelers staan al op het veld.", en: "The players are already on the pitch." }, items: [fr.terrain] }
+  - { id: s19, target: "Les élèves courent sur la piste.", native: { nl: "De leerlingen lopen op de baan.", en: "The pupils are running on the track." }, items: [fr.piste] }
+  - { id: s20, target: "Le parcours de la course passe par le centre-ville.", native: { nl: "Het parcours van de wedstrijd gaat door het stadscentrum.", en: "The route of the race goes through the town centre." }, items: [fr.parcours] }
+  - { id: s21, target: "La classe part en excursion à la mer.", native: { nl: "De klas gaat op uitstap naar zee.", en: "The class is going on a trip to the seaside." }, items: [fr.excursion] }
+  - { id: s22, target: "Cet été, nous allons camper dans les Alpes.", native: { nl: "Deze zomer gaan we kamperen in de Alpen.", en: "This summer we're going camping in the Alps." }, items: [fr.camper] }
+  - { id: s23, target: "Mes grands-parents voyagent en camping-car.", native: { nl: "Mijn grootouders reizen met een camper.", en: "My grandparents travel in a camper van." }, items: [fr.camping-car] }
+  - { id: s24, target: "Le football est un sport collectif.", native: { nl: "Voetbal is een teamsport.", en: "Football is a team sport." }, items: [fr.collectif] }
+  - { id: s25, target: "Le tennis est souvent un sport individuel.", native: { nl: "Tennis is vaak een individuele sport.", en: "Tennis is often an individual sport." }, items: [fr.individuel] }
+  - { id: s26, target: "Ma grand-mère est encore très active.", native: { nl: "Mijn oma is nog heel actief.", en: "My grandmother is still very active." }, items: [fr.actif] }
+  - { id: s27, target: "Regarder la télévision toute la journée, c'est trop passif.", native: { nl: "De hele dag tv kijken is te passief.", en: "Watching television all day is too passive." }, items: [fr.passif] }
+  - { id: s28, target: "Avec un peu d'effort, tu vas réussir.", native: { nl: "Met een beetje moeite lukt het je wel.", en: "With a bit of effort, you'll succeed." }, items: [fr.effort] }
+  - { id: s29, target: "Courir quarante kilomètres, c'est un grand défi.", native: { nl: "Veertig kilometer lopen is een grote uitdaging.", en: "Running forty kilometres is a big challenge." }, items: [fr.defi] }
+  - { id: s30, target: "Le train va à grande vitesse.", native: { nl: "De trein rijdt met hoge snelheid.", en: "The train travels at high speed." }, items: [fr.vitesse] }
+  - { id: s31, target: "En récompense, nous avons reçu un cadeau.", native: { nl: "Als beloning kregen we een cadeau.", en: "As a reward, we got a present." }, items: [fr.recompense] }
+  - { id: s32, target: "Je fais mon jogging en écoutant de la musique.", native: { nl: "Ik jog terwijl ik naar muziek luister.", en: "I jog while listening to music." }, items: [fr.jogging], build: true }
+  - { id: s33, target: "Il s'est fait mal en tombant pendant l'entraînement.", native: { nl: "Hij heeft zich pijn gedaan toen hij viel tijdens de training.", en: "He hurt himself when he fell during training." }, items: [fr.entrainement], build: true }
+  - { id: s34, target: "Si j'avais plus de temps, je ferais du yoga.", native: { nl: "Als ik meer tijd had, zou ik aan yoga doen.", en: "If I had more time, I'd do yoga." }, items: [fr.yoga], build: true, acceptAlso: ["Je ferais du yoga si j'avais plus de temps."] }
+texts: [fr-b1-t08]

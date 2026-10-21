@@ -1,0 +1,74 @@
+id: nl-b2-u14
+title: { en: Law and consumer rights }
+icon: scale
+topic: Contracts, guarantees and the right of withdrawal, complaints and mediation, fraud, crime and the courts; fixed prepositions after adjectives and nouns (bewust van, recht op, tevreden over, benieuwd naar, gewend aan, verantwoordelijk voor)
+vocabulary:
+  - { target: de overeenkomst, native: { en: "agreement, contract" }, pos: noun, plural: overeenkomsten, avoid: [nl.contract] }
+  - { target: het herroepingsrecht, native: { en: "right of withdrawal (to cancel an online purchase)" }, pos: noun, plural: "-" }
+  - { target: de opzegging, native: { en: "notice (of cancellation), termination" }, pos: noun, plural: opzeggingen }
+  - { target: verzekeren, native: { en: to insure }, pos: verb }
+  - { target: aansprakelijk, native: { en: "liable, responsible (+ voor)" }, pos: adjective }
+  - { target: de schadevergoeding, native: { en: "compensation, damages" }, pos: noun, plural: schadevergoedingen }
+  - { target: het conflict, native: { en: conflict }, pos: noun, plural: conflicten }
+  - { target: de bemiddeling, native: { en: mediation }, pos: noun, plural: "-" }
+  - { target: de bemiddelaar, native: { en: mediator }, pos: noun, plural: bemiddelaars }
+  - { target: de oplichting, native: { en: "fraud, scam" }, pos: noun, plural: "-" }
+  - { target: bedriegen, native: { en: "to deceive, to cheat" }, pos: verb }
+  - { target: het bedrog, native: { en: "deception, fraud" }, pos: noun, plural: "-" }
+  - { target: de misdaad, native: { en: crime }, pos: noun, plural: misdaden, avoid: [nl.overtreding] }
+  - { target: de overtreding, native: { en: "offence, violation" }, pos: noun, plural: overtredingen }
+  - { target: overtreden, native: { en: "to break (a rule, a law)" }, pos: verb }
+  - { target: naleven, native: { en: "to comply with, to observe (rules)" }, pos: verb }
+  - { target: beschuldigen, native: { en: "to accuse (+ van)" }, pos: verb }
+  - { target: veroordelen, native: { en: "to sentence, to convict; to condemn" }, pos: verb }
+  - { target: straffen, native: { en: to punish }, pos: verb, avoid: [nl.veroordelen] }
+  - { target: de gevangenis, native: { en: prison }, pos: noun, plural: gevangenissen }
+  - { target: de rechtbank, native: { en: court }, pos: noun, plural: rechtbanken }
+  - { target: het proces, native: { en: "trial; process" }, pos: noun, plural: processen }
+  - { target: legaal, native: { en: legal }, pos: adjective }
+  - { target: illegaal, native: { en: illegal }, pos: adjective }
+  - { target: wettelijk, native: { en: "legal, statutory (by law)" }, pos: adjective }
+  - { target: benieuwd, native: { en: "curious, eager to know (+ naar)" }, pos: adjective }
+  - { target: gelden, native: { en: "to apply, to be valid (for)" }, pos: verb }
+sentences:
+  - { id: s01, target: "Lees de overeenkomst goed voor je ze ondertekent.", native: { en: "Read the agreement carefully before you sign it." }, items: [nl.overeenkomst] }
+  - { id: s02, target: "Bij een online aankoop heb je herroepingsrecht.", native: { en: "With an online purchase you have the right of withdrawal." }, items: [nl.herroepingsrecht] }
+  - { id: s03, target: "Een opzegging moet je schriftelijk doen.", native: { en: "You have to give notice in writing." }, items: [nl.opzegging] }
+  - { id: s04, target: "Ik heb mijn opzegging per brief naar de klantendienst gestuurd.", native: { en: "I sent my notice of cancellation to customer service by letter." }, items: [nl.opzegging], acceptAlso: ["Ik heb mijn opzegging naar de klantendienst per brief gestuurd."] }
+  - { id: s05, target: "Is je huis verzekerd tegen brand?", native: { en: "Is your house insured against fire?" }, items: [nl.verzekeren] }
+  - { id: s06, target: "De winkel is aansprakelijk voor de schade.", native: { en: "The shop is liable for the damage." }, items: [nl.aansprakelijk], acceptAlso: ["De winkel is voor de schade aansprakelijk."] }
+  - { id: s07, target: "Na het ongeval kreeg ze een schadevergoeding.", native: { en: "After the accident she received compensation." }, items: [nl.schadevergoeding], acceptAlso: ["Ze kreeg na het ongeval een schadevergoeding.", "Ze kreeg een schadevergoeding na het ongeval."] }
+  - { id: s08, target: "Het conflict met de buren duurt al twee jaar.", native: { en: "The conflict with the neighbours has been going on for two years." }, items: [nl.conflict] }
+  - { id: s09, target: "Bemiddeling is goedkoper dan een proces.", native: { en: "Mediation is cheaper than a trial." }, items: [nl.bemiddeling, nl.proces] }
+  - { id: s10, target: "Een bemiddelaar helpt beide partijen om een oplossing te vinden.", native: { en: "A mediator helps both parties to find a solution." }, items: [nl.bemiddelaar] }
+  - { id: s11, target: "De politie waarschuwt voor oplichting via sms.", native: { en: "The police are warning about text-message scams." }, items: [nl.oplichting] }
+  - { id: s12, target: "De verkoper heeft ons bedrogen.", native: { en: "The seller cheated us." }, items: [nl.bedriegen] }
+  - { id: s13, target: "Het bedrog werd pas na een jaar ontdekt.", native: { en: "The fraud was only discovered after a year." }, items: [nl.bedrog], form: { word: bedrog, stem: bedriegen } }
+  - { id: s14, target: "Diefstal is een misdaad.", native: { en: "Theft is a crime." }, items: [nl.misdaad] }
+  - { id: s15, target: "Te snel rijden is een overtreding.", native: { en: "Speeding is an offence." }, items: [nl.overtreding] }
+  - { id: s16, target: "Wie de regels overtreedt, krijgt een boete.", native: { en: "Anyone who breaks the rules gets a fine." }, items: [nl.overtreden], finite: { word: overtreedt, hint: { en: "overtreden (present)" } }, acceptAlso: ["Een boete krijgt wie de regels overtreedt."] }
+  - { id: s17, target: "Elk bedrijf moet de wet naleven.", native: { en: "Every company has to comply with the law." }, items: [nl.naleven] }
+  - { id: s19, target: "Hij werd beschuldigd van diefstal.", native: { en: "He was accused of theft." }, items: [nl.beschuldigen], acceptAlso: ["Hij werd van diefstal beschuldigd."] }
+  - { id: s20, target: "De dader werd veroordeeld tot twee jaar gevangenis.", native: { en: "The offender was sentenced to two years in prison." }, items: [nl.veroordelen, nl.gevangenis] }
+  - { id: s21, target: "Kinderen mogen niet zonder reden gestraft worden.", native: { en: "Children must not be punished without a reason." }, items: [nl.straffen], acceptAlso: ["Kinderen mogen niet zonder reden worden gestraft.", "Kinderen mogen niet gestraft worden zonder reden.", "Kinderen mogen niet worden gestraft zonder reden.", "Zonder reden mogen kinderen niet gestraft worden.", "Zonder reden mogen kinderen niet worden gestraft."] }
+  - { id: s22, target: "Het proces begint volgende maand in de rechtbank.", native: { en: "The trial starts in court next month." }, items: [nl.rechtbank] }
+  - { id: s23, target: "Is het legaal om muziek te downloaden?", native: { en: "Is it legal to download music?" }, items: [nl.legaal] }
+  - { id: s24, target: "Die website verkoopt illegale kopieën van films.", native: { en: "That website sells illegal copies of films." }, items: [nl.illegaal] }
+  - { id: s25, target: "De wettelijke garantie is twee jaar.", native: { en: "The legal guarantee is two years." }, items: [nl.wettelijk] }
+  - { id: s26, target: "Ik ben benieuwd naar het antwoord van de klantendienst.", native: { en: "I'm curious to hear what customer service will say." }, items: [nl.benieuwd], acceptAlso: ["Ik ben naar het antwoord van de klantendienst benieuwd."] }
+  - { id: s27, target: "Ben je je bewust van je herroepingsrecht als consument?", native: { en: "Are you aware of your right of withdrawal as a consumer?" }, items: [nl.herroepingsrecht], build: true, acceptAlso: ["Ben je je als consument bewust van je herroepingsrecht?", "Ben je je van je herroepingsrecht als consument bewust?", "Ben je je als consument van je herroepingsrecht bewust?"] }
+  - { id: s28, target: "Volgens de overeenkomst heb je recht op een nieuw toestel.", native: { en: "Under the agreement you are entitled to a new device." }, items: [nl.overeenkomst], acceptAlso: ["Op een nieuw toestel heb je volgens de overeenkomst recht."] }
+  - { id: s29, target: "We zijn niet tevreden over de schadevergoeding.", native: { en: "We are not satisfied with the compensation." }, items: [nl.schadevergoeding], acceptAlso: ["We zijn over de schadevergoeding niet tevreden."] }
+  - { id: s30, target: "Ik ben nog niet gewend aan de nieuwe wettelijke regels.", native: { en: "I'm not used to the new legal rules yet." }, items: [nl.wettelijk] }
+  - { id: s31, target: "Wie is er aansprakelijk voor deze fout?", native: { en: "Who is liable for this mistake?" }, items: [nl.aansprakelijk], acceptAlso: ["Wie is er voor deze fout aansprakelijk?"] }
+  - { id: s32, target: "Na veertien dagen bedenktijd kun je je herroepingsrecht niet meer gebruiken.", native: { en: "After a fourteen-day cooling-off period you can no longer use your right of withdrawal." }, items: [nl.herroepingsrecht], acceptAlso: ["Je herroepingsrecht kun je na veertien dagen bedenktijd niet meer gebruiken."] }
+  - { id: s33, target: "Hij werd veroordeeld voor oplichting.", native: { en: "He was convicted of fraud." }, items: [nl.oplichting] }
+  - { id: s34, target: "Ze vond een oplossing voor het conflict.", native: { en: "She found a solution to the conflict." }, items: [nl.conflict], form: { word: oplossing, stem: oplossen } }
+  - { id: s35, target: "Volgens de bemiddelaar is een akkoord mogelijk.", native: { en: "According to the mediator an agreement is possible." }, items: [nl.bemiddelaar] }
+  - { id: s36, target: "Die regel geldt niet voor kinderen.", native: { en: "That rule does not apply to children." }, items: [nl.gelden], finite: { word: geldt, hint: { en: "gelden (present)" } }, acceptAlso: ["Voor kinderen geldt die regel niet."] }
+  - { id: s37, target: "Fietsen zonder licht is ook een overtreding.", native: { en: "Cycling without lights is also an offence." }, items: [nl.overtreding] }
+transforms:
+  - { id: x01, from: "Ik weet goed dat de winkel aansprakelijk is.", key: bewust, gapped: "Ik ben me ___ dat de winkel aansprakelijk is.", answers: ["ervan bewust", "er goed van bewust", "er heel goed van bewust"], items: [nl.aansprakelijk] }
+  - { id: x02, from: "Ik wil graag weten wat de rechter beslist.", key: benieuwd, gapped: "Ik ben ___ de beslissing van de rechter.", answers: ["benieuwd naar", "erg benieuwd naar", "heel benieuwd naar"], items: [nl.benieuwd] }
+  - { id: x03, from: "De verkoper moet de schade betalen.", key: aansprakelijk, gapped: "De verkoper ___ de schade.", answers: ["is aansprakelijk voor"], items: [nl.aansprakelijk] }
+texts: [nl-b2-t15]

@@ -1,0 +1,38 @@
+id: en-b1-t06
+kind: dialogue
+title: { nl: Een verrassing voor opa en oma }
+topic: Family celebrations (a sister and brother planning a party)
+level: B1
+speakers: { A: { name: Hannah }, B: { name: Leo } }
+turns:
+  - { id: en-b1-t06-s01, speaker: A, target: "Leo, do you know what's happening on the twelfth of May?", native: { nl: "Leo, weet je wat er op twaalf mei gebeurt?" } }
+  - { id: en-b1-t06-s02, speaker: B, target: "Isn't it Granny and Grandad's wedding anniversary?", native: { nl: "Is dat niet de trouwdag van oma en opa?" } }
+  - { id: en-b1-t06-s03, speaker: A, target: "Yes, and they've been married for fifty years! Mum thinks we should organise a surprise party.", native: { nl: "Ja, en ze zijn al vijftig jaar getrouwd! Mama vindt dat we een verrassingsfeest moeten organiseren." } }
+  - { id: en-b1-t06-s04, speaker: B, target: "Great idea. But they always go to the seaside in May, don't they?", native: { nl: "Goed idee. Maar ze gaan in mei altijd naar zee, toch?" } }
+  - { id: en-b1-t06-s05, speaker: A, target: "Not this year. Granny said they postponed the trip until September.", native: { nl: "Dit jaar niet. Oma zei dat ze de reis hebben uitgesteld tot september." } }
+  - { id: en-b1-t06-s06, speaker: B, target: "Perfect. So who are we going to invite?", native: { nl: "Perfect. Wie gaan we dan uitnodigen?" } }
+  - { id: en-b1-t06-s07, speaker: A, target: "All the relatives, of course, and their old friends from the village. That's about forty guests.", native: { nl: "Alle familieleden natuurlijk, en hun oude vrienden uit het dorp. Dat zijn ongeveer veertig gasten." } }
+  - { id: en-b1-t06-s08, speaker: B, target: "Forty! Our living room is too small for that.", native: { nl: "Veertig! Onze woonkamer is daar te klein voor." } }
+  - { id: en-b1-t06-s09, speaker: A, target: "I know. Mum has arranged to use the hall next to the church, where they got married.", native: { nl: "Weet ik. Mama heeft geregeld dat we de zaal naast de kerk kunnen gebruiken, waar ze getrouwd zijn." } }
+  - { id: en-b1-t06-s10, speaker: B, target: "That's lovely. Could we show some old photos from their wedding?", native: { nl: "Wat mooi. Kunnen we wat oude foto's van hun bruiloft laten zien?" } }
+  - { id: en-b1-t06-s11, speaker: A, target: "Yes! You're good with computers, so you could make a slide show.", native: { nl: "Ja! Jij kunt goed met computers overweg, dus jij zou een diavoorstelling kunnen maken." } }
+  - { id: en-b1-t06-s12, speaker: B, target: "Fine, I'll do it. But remember, it's a secret. Don't tell Granny!", native: { nl: "Goed, ik doe het. Maar onthoud: het is een geheim. Niets tegen oma zeggen!" } }
+glossary:
+  - { word: slide show, native: { nl: diavoorstelling } }
+  - { word: church, native: { nl: kerk } }
+items: [en.anniversary, en.granny, en.grandad, en.organise, en.postpone, en.relative, en.guest, en.arrange, en.wedding, en.seaside, en.perfect]
+questions:
+  - { id: en-b1-t06-q1, type: mc, question: "Why are Hannah and Leo planning a party?", options: ["Their grandparents have been married for fifty years.", "It is Granny's birthday.", "Their grandparents are moving to the seaside."], correct: 0 }
+  - { id: en-b1-t06-q2, type: true_false_notgiven, statement: "The grandparents are going to the seaside in May this year.", answer: false }
+  - { id: en-b1-t06-q3, type: true_false_notgiven, statement: "The party will not be in their living room.", answer: true }
+  - { id: en-b1-t06-q4, type: true_false_notgiven, statement: "The hall next to the church is expensive.", answer: not_given }
+  - { id: en-b1-t06-q5, type: mc, question: "What is Leo going to do?", options: ["Make a slide show of old photos.", "Book the hall.", "Bake a cake."], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t06-l1, type: mc, question: "How many guests will there be?", options: ["About forty.", "About fourteen.", "About a hundred."], correct: 0 }
+  - { id: en-b1-t06-l2, type: true_false_notgiven, statement: "Granny knows about the party.", answer: false }
+cloze:
+  - { sentence: en-b1-t06-s03, word: thinks, kind: finite_verb, hint: { nl: "think (tegenwoordige tijd)" } }
+  - { sentence: en-b1-t06-s05, word: postponed, kind: finite_verb, hint: { nl: "postpone (verleden tijd)" } }
+  - { sentence: en-b1-t06-s09, word: has, kind: finite_verb, hint: { nl: "have (voltooide tijd: … arranged)" } }
+  - { sentence: en-b1-t06-s09, word: got, kind: finite_verb, hint: { nl: "get (verleden tijd: … married)" } }
+orderable: true

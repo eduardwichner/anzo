@@ -1,0 +1,35 @@
+id: fr-b1-t11
+kind: reading
+title: { nl: Wat ga je later studeren?, en: "What will you study after school?" }
+topic: Les études (le blog d'une lycéenne sur son choix d'études)
+level: B1
+paragraphs:
+  - - { id: fr-b1-t11-s01, target: "Je m'appelle Inès et je suis en dernière année au lycée.", native: { nl: "Ik heet Inès en ik zit in het laatste jaar van het lycée.", en: "My name is Inès and I'm in my final year at lycée." } }
+    - { id: fr-b1-t11-s02, target: "Dans quelques mois, je passe le baccalauréat, et je dois choisir mes études.", native: { nl: "Over een paar maanden doe ik mijn eindexamen, en ik moet mijn studie kiezen.", en: "In a few months I'm taking the baccalaureate, and I have to choose what to study." } }
+  - - { id: fr-b1-t11-s03, target: "Au collège, j'avais des difficultés en mathématiques, et je pensais que les sciences n'étaient pas pour moi, parce que j'avais toujours eu de mauvaises notes.", native: { nl: "Op het collège had ik moeite met wiskunde, en ik dacht dat wetenschappen niets voor mij waren, omdat ik altijd slechte cijfers had gehad.", en: "At collège I had difficulties with maths, and I thought science wasn't for me, because I'd always had bad marks." } }
+    - { id: fr-b1-t11-s04, target: "Mais au lycée, j'ai eu une enseignante de biologie extraordinaire.", native: { nl: "Maar op het lycée had ik een buitengewone biologielerares.", en: "But at lycée I had an extraordinary biology teacher." } }
+    - { id: fr-b1-t11-s05, target: "Sa méthode était simple : chaque semaine, nous faisions une petite recherche en groupe.", native: { nl: "Haar methode was eenvoudig: elke week deden we in groep een klein onderzoek.", en: "Her method was simple: every week we did a little research project in groups." } }
+  - - { id: fr-b1-t11-s06, target: "Mes notes ont progressivement augmenté, et aujourd'hui la biologie est ma matière préférée.", native: { nl: "Mijn cijfers zijn geleidelijk gestegen, en nu is biologie mijn lievelingsvak.", en: "My marks gradually went up, and today biology is my favourite subject." } }
+    - { id: fr-b1-t11-s07, target: "Je voudrais étudier la médecine à l'université, mais c'est une formation très longue.", native: { nl: "Ik zou geneeskunde willen studeren aan de universiteit, maar het is een heel lange opleiding.", en: "I'd like to study medicine at university, but it's a very long course." } }
+  - - { id: fr-b1-t11-s08, target: "Mes parents me disent que c'est difficile, mais que je peux réussir si je travaille beaucoup.", native: { nl: "Mijn ouders zeggen dat het moeilijk is, maar dat ik kan slagen als ik veel werk.", en: "My parents tell me it's difficult, but that I can succeed if I work hard." } }
+    - { id: fr-b1-t11-s09, target: "Et vous, qu'est-ce que vous voulez faire après le lycée ? Écrivez-moi !", native: { nl: "En jullie, wat willen jullie doen na het lycée? Schrijf me!", en: "And what about you? What do you want to do after lycée? Write to me!" } }
+glossary:
+  - { word: extraordinaire, native: { nl: buitengewoon, en: "extraordinary" } }
+items: [fr.lycee, fr.baccalaureat, fr.etude, fr.college, fr.difficulte, fr.enseignant, fr.biologie, fr.methode, fr.recherche, fr.note, fr.progressivement, fr.augmenter, fr.universite, fr.formation, fr.reussir, fr.groupe, fr.simple]
+questions:
+  - { id: fr-b1-t11-q1, type: mc, question: "En quelle année est Inès ?", options: ["En dernière année du lycée.", "En première année à l'université.", "En dernière année du collège."], correct: 0 }
+  - { id: fr-b1-t11-q2, type: true_false_notgiven, statement: "Au collège, Inès était très forte en mathématiques.", answer: false }
+  - { id: fr-b1-t11-q3, type: true_false_notgiven, statement: "Inès habite à Paris.", answer: not_given }
+  - { id: fr-b1-t11-q4, type: true_false_notgiven, statement: "L'enseignante de biologie faisait travailler les élèves en groupe.", answer: true }
+  - { id: fr-b1-t11-q5, type: mc, question: "Qu'est-ce qu'Inès voudrait étudier ?", options: ["La médecine.", "Les mathématiques.", "La chimie."], correct: 0 }
+  - { id: fr-b1-t11-q6, type: match_heading, paragraph: 2, options: ["Une professeure qui change tout", "Un examen dans quelques mois", "Le conseil des parents"], correct: 0 }
+listeningQuestions:
+  - { id: fr-b1-t11-l1, type: mc, question: "Quelle est la matière préférée d'Inès aujourd'hui ?", options: ["La biologie.", "La physique.", "Le français."], correct: 0 }
+  - { id: fr-b1-t11-l2, type: true_false_notgiven, statement: "Les parents d'Inès pensent que la médecine est facile.", answer: false }
+cloze:
+  - { sentence: fr-b1-t11-s02, word: dois, kind: finite_verb, hint: { nl: "devoir (présent)", en: "devoir (present)" } }
+  - { sentence: fr-b1-t11-s03, word: pensais, kind: finite_verb, hint: { nl: "penser (imparfait)", en: "penser (imperfect)" } }
+  - { sentence: fr-b1-t11-s05, word: faisions, kind: finite_verb, hint: { nl: "faire (imparfait)", en: "faire (imperfect)" } }
+  - { sentence: fr-b1-t11-s07, word: voudrais, kind: finite_verb, hint: { nl: "vouloir (conditionnel)", en: "vouloir (conditional)" } }
+  - { sentence: fr-b1-t11-s08, word: disent, kind: finite_verb, hint: { nl: "dire (présent)", en: "dire (present)" } }
+orderable: true

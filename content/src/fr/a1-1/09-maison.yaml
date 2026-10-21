@@ -1,0 +1,47 @@
+id: fr-a1-1-u09
+title: { nl: Thuis, en: "At home" }
+icon: home
+topic: La maison
+vocabulary:
+  - { target: la maison, native: { nl: het huis, en: "house, home" }, pos: noun, gender: f }
+  - { target: la chambre, native: { nl: de slaapkamer, en: "bedroom" }, pos: noun, gender: f }
+  - { target: la cuisine, native: { nl: de keuken, en: "kitchen" }, pos: noun, gender: f }
+  - { target: le jardin, native: { nl: de tuin, en: "garden" }, pos: noun, gender: m }
+  - { target: la porte, native: { nl: de deur, en: "door" }, pos: noun, gender: f }
+  - { target: la fenêtre, native: { nl: het raam, en: "window" }, pos: noun, gender: f }
+  - { target: la table, native: { nl: de tafel, en: "table" }, pos: noun, gender: f }
+  - { target: la chaise, native: { nl: de stoel, en: "chair" }, pos: noun, gender: f }
+  - { target: le lit, native: { nl: het bed, en: "bed" }, pos: noun, gender: m }
+  - { target: la boîte, native: { nl: de doos, en: "box" }, pos: noun, gender: f }
+  - { target: "l'entrée", native: { nl: "de ingang, de hal", en: "entrance, hall" }, pos: noun, gender: f }
+  - { target: le savon, native: { nl: de zeep, en: "soap" }, pos: noun, gender: m }
+  - { target: habiter, native: { nl: wonen, en: "to live (somewhere)" }, pos: verb }
+  - { target: "l'adresse", native: { nl: het adres, en: "address" }, pos: noun, gender: f }
+  - { target: la rue, native: { nl: de straat, en: "street" }, pos: noun, gender: f }
+  - { target: ici, native: { nl: hier, en: "here" }, pos: adverb }
+sentences:
+  - { id: s01, target: "Tu as une grande maison ?", native: { nl: "Heb jij een groot huis?", en: "Have you got a big house?" }, items: [fr.maison] }
+  - { id: s02, target: "Ma maison est petite.", native: { nl: "Mijn huis is klein.", en: "My house is small." }, items: [fr.maison] }
+  - { id: s03, target: "Ma chambre est bleue.", native: { nl: "Mijn slaapkamer is blauw.", en: "My bedroom is blue." }, items: [fr.chambre] }
+  - { id: s04, target: "Maman est dans la cuisine.", native: { nl: "Mama is in de keuken.", en: "Mum is in the kitchen." }, items: [fr.cuisine] }
+  - { id: s05, target: "Tu as un jardin ?", native: { nl: "Heb jij een tuin?", en: "Have you got a garden?" }, items: [fr.jardin] }
+  - { id: s06, target: "Le chien est dans le jardin.", native: { nl: "De hond is in de tuin.", en: "The dog is in the garden." }, items: [fr.jardin] }
+  - { id: s07, target: "La porte est rouge.", native: { nl: "De deur is rood.", en: "The door is red." }, items: [fr.porte] }
+  - { id: s08, target: "Ferme la porte, s'il te plaît.", native: { nl: "Doe de deur dicht, alsjeblieft.", en: "Close the door, please." }, items: [fr.porte] }
+  - { id: s09, target: "Le chat regarde par la fenêtre.", native: { nl: "De kat kijkt uit het raam.", en: "The cat is looking out of the window." }, items: [fr.fenetre] }
+  - { id: s10, target: "Les livres sont sur la table.", native: { nl: "De boeken liggen op de tafel.", en: "The books are on the table." }, items: [fr.table] }
+  - { id: s11, target: "Je mets mon sac sous ma chaise.", native: { nl: "Ik zet mijn tas onder mijn stoel.", en: "I'm putting my bag under my chair." }, items: [fr.chaise] }
+  - { id: s12, target: "Le chat dort sur mon lit.", native: { nl: "De kat slaapt op mijn bed.", en: "The cat is sleeping on my bed." }, items: [fr.lit] }
+  - { id: s13, target: "Mets tes jouets dans les boîtes.", native: { nl: "Doe je speelgoed in de dozen.", en: "Put your toys in the boxes." }, items: [fr.boite] }
+  - { id: s14, target: "Mon manteau est dans l'entrée.", native: { nl: "Mijn jas hangt in de hal.", en: "My coat is in the hall." }, items: [fr.entree] }
+  - { id: s15, target: "Où est le savon ?", native: { nl: "Waar is de zeep?", en: "Where's the soap?" }, items: [fr.savon] }
+  - { id: s16, target: "Tu habites où ?", native: { nl: "Waar woon je?", en: "Where do you live?" }, items: [fr.habiter] }
+  - { id: s17, target: "J'habite dans une grande maison.", native: { nl: "Ik woon in een groot huis.", en: "I live in a big house." }, items: [fr.habiter, fr.maison] }
+  - { id: s18, target: "Quelle est ton adresse ?", native: { nl: "Wat is je adres?", en: "What's your address?" }, items: [fr.adresse] }
+  - { id: s19, target: "J'habite dans cette rue.", native: { nl: "Ik woon in deze straat.", en: "I live in this street." }, items: [fr.habiter, fr.rue] }
+  - { id: s20, target: "Mon école est loin d'ici.", native: { nl: "Mijn school is ver hiervandaan.", en: "My school is a long way from here." }, items: [fr.ici] }
+  - { id: s21, target: "Viens ici, Bulle !", native: { nl: "Kom hier, Bulle!", en: "Come here, Bulle!" }, items: [fr.ici] }
+lessons:
+  - { id: l01, title: { nl: Mijn huis, en: "My house" }, vocab: [fr.maison, fr.chambre, fr.cuisine, fr.jardin, fr.porte, fr.fenetre] }
+  - { id: l02, title: { nl: Tafel en stoel, en: "Tables and chairs" }, vocab: [fr.table, fr.chaise, fr.lit, fr.boite, fr.savon] }
+  - { id: l03, title: { nl: Waar woon je?, en: "Where do you live?" }, vocab: [fr.entree, fr.habiter, fr.adresse, fr.rue, fr.ici] }

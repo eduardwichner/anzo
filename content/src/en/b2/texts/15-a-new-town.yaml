@@ -1,0 +1,36 @@
+id: en-b2-t15
+kind: dialogue
+title: { nl: Een nieuwe stad }
+topic: Friendship and relationships (two cousins talk on the phone)
+level: B2
+speakers: { A: { name: Grace }, B: { name: Ollie } }
+turns:
+  - { id: en-b2-t15-s01, speaker: B, target: "Hi Grace! How's life in the new town? Have you got used to it yet?", native: { nl: "Hoi Grace! Hoe is het leven in de nieuwe stad? Ben je er al aan gewend?" } }
+  - { id: en-b2-t15-s02, speaker: A, target: "Not really, Ollie. I'm still not used to being the new girl.", native: { nl: "Niet echt, Ollie. Ik ben er nog altijd niet aan gewend om het nieuwe meisje te zijn." } }
+  - { id: en-b2-t15-s03, speaker: B, target: "Haven't you made any friends at school?", native: { nl: "Heb je op school nog geen vrienden gemaakt?" } }
+  - { id: en-b2-t15-s04, speaker: A, target: "A few acquaintances, but nobody I can really talk to. Everyone has known each other since they were five.", native: { nl: "Een paar kennissen, maar niemand met wie ik echt kan praten. Iedereen kent elkaar al sinds hun vijfde." } }
+  - { id: en-b2-t15-s05, speaker: B, target: "That's hard. In our old town you used to know everybody.", native: { nl: "Dat is moeilijk. In onze oude stad kende je vroeger iedereen." } }
+  - { id: en-b2-t15-s06, speaker: A, target: "Exactly. Sometimes I feel really isolated, especially at the weekend.", native: { nl: "Precies. Soms voel ik me echt geïsoleerd, vooral in het weekend." } }
+  - { id: en-b2-t15-s07, speaker: B, target: "What about joining a club? You used to love playing football.", native: { nl: "Waarom word je geen lid van een club? Vroeger speelde je zo graag voetbal." } }
+  - { id: en-b2-t15-s08, speaker: A, target: "I thought about it, but I'm afraid they'll all be better than me.", native: { nl: "Ik heb erover nagedacht, maar ik ben bang dat ze allemaal beter zullen zijn dan ik." } }
+  - { id: en-b2-t15-s09, speaker: B, target: "So what? Nobody cares about that in a team. And it's the easiest way to socialise.", native: { nl: "Wat dan nog? Niemand let daar in een team op. En het is de makkelijkste manier om mensen te leren kennen." } }
+  - { id: en-b2-t15-s10, speaker: A, target: "Maybe you're right. There's a girl in my class who plays. She seems really nice.", native: { nl: "Misschien heb je gelijk. Er is een meisje in mijn klas dat speelt. Ze lijkt echt aardig." } }
+  - { id: en-b2-t15-s11, speaker: B, target: "Then ask her when they train. The worst she can say is no.", native: { nl: "Vraag haar dan wanneer ze trainen. Het ergste wat ze kan zeggen is nee." } }
+  - { id: en-b2-t15-s12, speaker: A, target: "OK, I'll ask her tomorrow. Thanks, Ollie. I can always count on you.", native: { nl: "Oké, ik vraag het haar morgen. Bedankt, Ollie. Ik kan altijd op je rekenen." } }
+  - { id: en-b2-t15-s13, speaker: B, target: "That's what cousins are for. And call me after your first training session, all right?", native: { nl: "Daar zijn neven en nichten voor. En bel me na de eerste training, oké?" } }
+items: [en.get-used-to, en.be-used-to, en.acquaintance, en.isolated, en.socialise, en.count-on]
+questions:
+  - { id: en-b2-t15-q1, type: summary, options: ["Grace feels lonely in her new town, and her cousin encourages her to join a football club and talk to a girl from her class.", "Grace is happy in her new town and tells her cousin about all the new friends she has made at the football club.", "Grace wants to move back to her old town, and her cousin promises to ask her parents if she can live with his family."], correct: 0 }
+  - { id: en-b2-t15-q2, type: mc, question: "Why is it hard for Grace to make friends?", options: ["The others have known each other since they were small.", "She has too much homework.", "Nobody at her school plays football."], correct: 0 }
+  - { id: en-b2-t15-q3, type: true_false_notgiven, statement: "Grace used to play football.", answer: true }
+  - { id: en-b2-t15-q4, type: true_false_notgiven, statement: "Grace has a few acquaintances at her new school.", answer: true }
+  - { id: en-b2-t15-q5, type: true_false_notgiven, statement: "Grace feels most lonely during the week.", answer: false }
+listeningQuestions:
+  - { id: en-b2-t15-l1, type: complete, statement: "Grace feels isolated, especially at the ___.", answers: [weekend] }
+  - { id: en-b2-t15-l2, type: mc, question: "When will Grace talk to the girl from her class?", options: ["Tomorrow.", "Next week.", "After the first training session."], correct: 0 }
+openCloze:
+  - { sentence: en-b2-t15-s02, word: to }
+  - { sentence: en-b2-t15-s04, word: since }
+  - { sentence: en-b2-t15-s08, word: than }
+  - { sentence: en-b2-t15-s10, word: who, acceptAlso: [that] }
+orderable: false

@@ -1,0 +1,48 @@
+id: nl-a2-u10
+title: { en: Looking for work }
+icon: work
+topic: Vacancies, applications, interviews
+vocabulary:
+  - { target: werkloos, native: { en: unemployed }, pos: adjective }
+  - { target: de vacature, native: { en: vacancy }, pos: noun, plural: vacatures }
+  - { target: solliciteren, native: { en: "to apply (for a job)" }, pos: verb }
+  - { target: de sollicitatie, native: { en: job application }, pos: noun, plural: sollicitaties }
+  - { target: het sollicitatiegesprek, native: { en: job interview }, pos: noun, plural: sollicitatiegesprekken }
+  - { target: het cv, native: { en: CV }, pos: noun, plural: "cv's" }
+  - { target: het diploma, native: { en: "diploma, qualification" }, pos: noun, plural: "diploma's" }
+  - { target: de opleiding, native: { en: "training, education" }, pos: noun, plural: opleidingen, avoid: [nl.cursus] }
+  - { target: de cursus, native: { en: course }, pos: noun, plural: cursussen }
+  - { target: ervaren, native: { en: experienced }, pos: adjective }
+  - { target: geschikt, native: { en: suitable }, pos: adjective }
+  - { target: de werkgever, native: { en: employer }, pos: noun, plural: werkgevers, avoid: [nl.werknemer] }
+  - { target: de werknemer, native: { en: employee }, pos: noun, plural: werknemers }
+  - { target: aannemen, native: { en: "to take on, to hire" }, pos: verb, avoid: [nl.ontslaan] }
+  - { target: ontslaan, native: { en: "to dismiss, to fire" }, pos: verb }
+  - { target: de interim, native: { en: "temporary work (agency)" }, pos: noun, plural: interims, alsoNL: het uitzendwerk }
+  - { target: voltijds, native: { en: full-time }, pos: adjective, avoid: [nl.deeltijds], alsoNL: fulltime }
+  - { target: deeltijds, native: { en: part-time }, pos: adjective, alsoNL: parttime }
+  - { target: het loon, native: { en: "wage, pay" }, pos: noun, plural: lonen, avoid: [nl.salaris] }
+  - { target: het salaris, native: { en: salary }, pos: noun, plural: salarissen }
+sentences:
+  - { id: s01, target: "Ik ben al drie maanden werkloos.", native: { en: "I've been unemployed for three months." }, items: [nl.werkloos], acceptAlso: ["Al drie maanden ben ik werkloos."] }
+  - { id: s02, target: "Ik heb een interessante vacature gezien.", native: { en: "I've seen an interesting vacancy." }, items: [nl.vacature] }
+  - { id: s03, target: "Gisteren heb ik bij een bank gesolliciteerd.", native: { en: "Yesterday I applied for a job at a bank." }, items: [nl.solliciteren], acceptAlso: ["Ik heb gisteren bij een bank gesolliciteerd."] }
+  - { id: s04, target: "Bedankt voor uw sollicitatie.", native: { en: "Thank you for your application." }, items: [nl.sollicitatie] }
+  - { id: s05, target: "Morgen heb ik een sollicitatiegesprek.", native: { en: "Tomorrow I have a job interview." }, items: [nl.sollicitatiegesprek], acceptAlso: ["Ik heb morgen een sollicitatiegesprek."] }
+  - { id: s06, target: "Kunt u uw cv sturen?", native: { en: "Could you send your CV?" }, items: [nl.cv] }
+  - { id: s07, target: "Ik heb mijn diploma in Engeland gehaald.", native: { en: "I got my qualification in England." }, items: [nl.diploma] }
+  - { id: s08, target: "Welke opleiding hebt u gedaan?", native: { en: "What training have you done?" }, items: [nl.opleiding] }
+  - { id: s09, target: "Ik doe een cursus Nederlands.", native: { en: "I'm doing a Dutch course." }, items: [nl.cursus] }
+  - { id: s10, target: "We zoeken een ervaren kok.", native: { en: "We're looking for an experienced cook." }, items: [nl.ervaren] }
+  - { id: s11, target: "Ik denk dat ik geschikt ben voor deze job.", native: { en: "I think I'm suitable for this job." }, items: [nl.geschikt], acceptAlso: ["Ik denk dat ik voor deze job geschikt ben."] }
+  - { id: s12, target: "Mijn werkgever is heel tevreden.", native: { en: "My employer is very pleased." }, items: [nl.werkgever] }
+  - { id: s13, target: "Het bedrijf heeft tweehonderd werknemers.", native: { en: "The company has two hundred employees." }, items: [nl.werknemer] }
+  - { id: s14, target: "Ze hebben me aangenomen!", native: { en: "They've taken me on!" }, items: [nl.aannemen] }
+  - { id: s15, target: "Ze hebben hem vorige maand ontslagen.", native: { en: "They dismissed him last month." }, items: [nl.ontslaan], acceptAlso: ["Vorige maand hebben ze hem ontslagen."] }
+  - { id: s16, target: "Ik heb bij een interimkantoor werk gevonden.", native: { en: "I found work through a temping agency." }, items: [nl.interim] }
+  - { id: s17, target: "Ik wil graag voltijds werken.", native: { en: "I'd like to work full-time." }, items: [nl.voltijds] }
+  - { id: s18, target: "Mijn vrouw werkt deeltijds omdat de kinderen nog klein zijn.", native: { en: "My wife works part-time because the children are still young." }, items: [nl.deeltijds], acceptAlso: ["Omdat de kinderen nog klein zijn, werkt mijn vrouw deeltijds."] }
+  - { id: s19, target: "Het loon is niet hoog.", native: { en: "The pay isn't high." }, items: [nl.loon] }
+  - { id: s20, target: "Het salaris is hoger dan in mijn vorige job.", native: { en: "The salary is higher than in my previous job." }, items: [nl.salaris] }
+  - { id: s21, target: "De interim heeft me gisteren gebeld.", native: { en: "The temping agency called me yesterday." }, items: [nl.interim], acceptAlso: ["Gisteren heeft de interim me gebeld."] }
+  - { id: s22, target: "Ik ben ingeschreven bij de VDAB.", native: { en: "I'm registered with the VDAB (the employment service)." }, items: [nl.werkloos] }

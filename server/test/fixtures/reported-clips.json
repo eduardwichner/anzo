@@ -1,0 +1,583 @@
+{
+ "about": "Acceptance: 13 clips listeners reported, as they were rendered then, with the measures of analyze.py and phonemes.py and the statistics of their group in that run. The check must flag every one (server/test/audio-check-shape.test.js).",
+ "clips": [
+  {
+   "track": "en",
+   "speed": "normal",
+   "text": "eight",
+   "file": "en/2d9b014fcbb3724e.mp3",
+   "m": {
+    "durationMs": 1587,
+    "peak": 0.801,
+    "clipped": 0,
+    "segments": [
+     [
+      80,
+      470
+     ],
+     [
+      570,
+      1070
+     ]
+    ],
+    "voicedStartMs": 80,
+    "voicedEndMs": 1070,
+    "voicedMs": 890,
+    "leadMs": 80,
+    "trailMs": 517,
+    "onsetMs": 70,
+    "vowelStartMs": 90,
+    "vowelEndMs": 450,
+    "afterVowelMs": 840,
+    "quietTailMs": 460,
+    "transcript": "a hit"
+   },
+   "phonemes": "ˈeɪt",
+   "said": "eight",
+   "expectedSaid": "eight",
+   "group": "en|normal|s",
+   "groupStats": {
+    "n": 2485,
+    "medLog": 4.58836306767171,
+    "mad": 0.1652271234346543,
+    "medPerLetter": 98.33333333333334
+   },
+   "expect": [
+    "tail",
+    "second",
+    "extra-words",
+    "coda",
+    "quiet-tail"
+   ]
+  },
+  {
+   "track": "en",
+   "speed": "slow",
+   "text": "dad",
+   "file": "en/698f74f620e0c98f.mp3",
+   "m": {
+    "durationMs": 1239,
+    "peak": 0.803,
+    "clipped": 0,
+    "segments": [
+     [
+      110,
+      520
+     ],
+     [
+      610,
+      630
+     ],
+     [
+      740,
+      1090
+     ]
+    ],
+    "voicedStartMs": 110,
+    "voicedEndMs": 1090,
+    "voicedMs": 780,
+    "leadMs": 110,
+    "trailMs": 149,
+    "onsetMs": 110,
+    "vowelStartMs": 150,
+    "vowelEndMs": 1070,
+    "afterVowelMs": 50,
+    "quietTailMs": 90,
+    "transcript": "tarte over"
+   },
+   "phonemes": "dˈad",
+   "said": "dad",
+   "expectedSaid": "dad",
+   "group": "en|slow|xs",
+   "groupStats": {
+    "n": 233,
+    "medLog": 5.298317366548036,
+    "mad": 0.2231435513142097,
+    "medPerLetter": 199.99999999999994
+   },
+   "expect": [
+    "second",
+    "extra-words"
+   ]
+  },
+  {
+   "track": "en",
+   "speed": "slow",
+   "text": "child",
+   "file": "en/5b14b2ee3da3ed96.mp3",
+   "m": {
+    "durationMs": 1332,
+    "peak": 0.788,
+    "clipped": 0,
+    "segments": [
+     [
+      100,
+      840
+     ]
+    ],
+    "voicedStartMs": 100,
+    "voicedEndMs": 840,
+    "voicedMs": 740,
+    "leadMs": 100,
+    "trailMs": 492,
+    "onsetMs": 90,
+    "vowelStartMs": 250,
+    "vowelEndMs": 810,
+    "afterVowelMs": 90,
+    "quietTailMs": 440,
+    "transcript": "child"
+   },
+   "phonemes": "tʃˈaɪld",
+   "said": "child",
+   "expectedSaid": "child",
+   "group": "en|slow|s",
+   "groupStats": {
+    "n": 1726,
+    "medLog": 4.892852258439873,
+    "mad": 0.16989903679539786,
+    "medPerLetter": 133.33333333333337
+   },
+   "expect": [
+    "quiet-tail"
+   ]
+  },
+  {
+   "track": "en",
+   "speed": "normal",
+   "text": "the",
+   "file": "en/77640eea93ab85c1.mp3",
+   "m": {
+    "durationMs": 844,
+    "peak": 0.805,
+    "clipped": 0,
+    "segments": [
+     [
+      100,
+      580
+     ]
+    ],
+    "voicedStartMs": 100,
+    "voicedEndMs": 580,
+    "voicedMs": 480,
+    "leadMs": 100,
+    "trailMs": 264,
+    "onsetMs": 80,
+    "vowelStartMs": 110,
+    "vowelEndMs": 500,
+    "afterVowelMs": 170,
+    "quietTailMs": 160,
+    "transcript": "the lawyer"
+   },
+   "phonemes": "ðə",
+   "said": "the",
+   "expectedSaid": "the",
+   "group": "en|normal|xs",
+   "groupStats": {
+    "n": 303,
+    "medLog": 5.0106352940962555,
+    "mad": 0.25131442828090567,
+    "medPerLetter": 149.99999999999997
+   },
+   "expect": [
+    "coda"
+   ]
+  },
+  {
+   "track": "en",
+   "speed": "normal",
+   "text": "i've",
+   "file": "en/628dc6ff3e00f1d5.mp3",
+   "m": {
+    "durationMs": 2806,
+    "peak": 0.82,
+    "clipped": 0,
+    "segments": [
+     [
+      80,
+      480
+     ],
+     [
+      960,
+      1140
+     ],
+     [
+      1330,
+      2390
+     ]
+    ],
+    "voicedStartMs": 80,
+    "voicedEndMs": 2390,
+    "voicedMs": 1640,
+    "leadMs": 80,
+    "trailMs": 416,
+    "onsetMs": 80,
+    "vowelStartMs": 80,
+    "vowelEndMs": 2060,
+    "afterVowelMs": 440,
+    "quietTailMs": 360,
+    "transcript": "i've"
+   },
+   "phonemes": "aɪv.",
+   "said": "i've",
+   "expectedSaid": "i've",
+   "group": "en|normal|xs",
+   "groupStats": {
+    "n": 303,
+    "medLog": 5.0106352940962555,
+    "mad": 0.25131442828090567,
+    "medPerLetter": 149.99999999999997
+   },
+   "expect": [
+    "tail",
+    "second",
+    "coda"
+   ]
+  },
+  {
+   "track": "en",
+   "speed": "normal",
+   "text": "a",
+   "file": "en/35bf79a1fb00ba05.mp3",
+   "m": {
+    "durationMs": 902,
+    "peak": 0.799,
+    "clipped": 0,
+    "segments": [
+     [
+      80,
+      450
+     ],
+     [
+      530,
+      640
+     ]
+    ],
+    "voicedStartMs": 80,
+    "voicedEndMs": 640,
+    "voicedMs": 480,
+    "leadMs": 80,
+    "trailMs": 262,
+    "onsetMs": 70,
+    "vowelStartMs": 80,
+    "vowelEndMs": 610,
+    "afterVowelMs": 60,
+    "quietTailMs": 210,
+    "transcript": "a"
+   },
+   "phonemes": "ˈeɪ",
+   "said": "a",
+   "expectedSaid": "[[ ˈə ]]",
+   "group": "en|normal|xs",
+   "groupStats": {
+    "n": 303,
+    "medLog": 5.0106352940962555,
+    "mad": 0.25131442828090567,
+    "medPerLetter": 149.99999999999997
+   },
+   "expect": [
+    "tail",
+    "second",
+    "pronunciation"
+   ]
+  },
+  {
+   "track": "en",
+   "speed": "normal",
+   "text": "is",
+   "file": "en/0736e0499daa776b.mp3",
+   "m": {
+    "durationMs": 1146,
+    "peak": 0.788,
+    "clipped": 0,
+    "segments": [
+     [
+      80,
+      460
+     ],
+     [
+      850,
+      980
+     ]
+    ],
+    "voicedStartMs": 80,
+    "voicedEndMs": 980,
+    "voicedMs": 510,
+    "leadMs": 80,
+    "trailMs": 166,
+    "onsetMs": 80,
+    "vowelStartMs": 90,
+    "vowelEndMs": 960,
+    "afterVowelMs": 60,
+    "quietTailMs": 110,
+    "transcript": "he him"
+   },
+   "phonemes": "ɪz",
+   "said": "is",
+   "expectedSaid": "is",
+   "group": "en|normal|xs",
+   "groupStats": {
+    "n": 303,
+    "medLog": 5.0106352940962555,
+    "mad": 0.25131442828090567,
+    "medPerLetter": 149.99999999999997
+   },
+   "expect": [
+    "tail",
+    "second",
+    "extra-words"
+   ]
+  },
+  {
+   "track": "en",
+   "speed": "normal",
+   "text": "and",
+   "file": "en/d3459b266aca820a.mp3",
+   "m": {
+    "durationMs": 1181,
+    "peak": 0.801,
+    "clipped": 0,
+    "segments": [
+     [
+      80,
+      650
+     ]
+    ],
+    "voicedStartMs": 80,
+    "voicedEndMs": 650,
+    "voicedMs": 570,
+    "leadMs": 80,
+    "trailMs": 531,
+    "onsetMs": 70,
+    "vowelStartMs": 80,
+    "vowelEndMs": 510,
+    "afterVowelMs": 370,
+    "quietTailMs": 470,
+    "transcript": "a hand"
+   },
+   "phonemes": "and.",
+   "said": "and",
+   "expectedSaid": "and",
+   "group": "en|normal|xs",
+   "groupStats": {
+    "n": 303,
+    "medLog": 5.0106352940962555,
+    "mad": 0.25131442828090567,
+    "medPerLetter": 149.99999999999997
+   },
+   "expect": [
+    "coda",
+    "quiet-tail"
+   ]
+  },
+  {
+   "track": "en",
+   "speed": "normal",
+   "text": "Anna is my friend.",
+   "file": "en/7c91d574fee0a928.mp3",
+   "m": {
+    "durationMs": 1285,
+    "peak": 0.808,
+    "clipped": 0,
+    "segments": [
+     [
+      80,
+      1060
+     ]
+    ],
+    "voicedStartMs": 80,
+    "voicedEndMs": 1060,
+    "voicedMs": 980,
+    "leadMs": 80,
+    "trailMs": 225,
+    "transcript": "i know is my friend"
+   },
+   "phonemes": "ˈanəɹ ɪz maɪ fɹˈɛnd.",
+   "said": "Anna is my friend.",
+   "expectedSaid": "[[ ˈanə ]] is my friend.",
+   "group": "en|normal|l",
+   "groupStats": {
+    "n": 1268,
+    "medLog": 4.323530427992273,
+    "mad": 0.0993182012018643,
+    "medPerLetter": 75.45454545454542
+   },
+   "expect": [
+    "pronunciation"
+   ]
+  },
+  {
+   "track": "en",
+   "speed": "normal",
+   "text": "old",
+   "file": "en/5c419363f37b2879.mp3",
+   "m": {
+    "durationMs": 1134,
+    "peak": 0.806,
+    "clipped": 0,
+    "segments": [
+     [
+      80,
+      410
+     ],
+     [
+      600,
+      970
+     ]
+    ],
+    "voicedStartMs": 80,
+    "voicedEndMs": 970,
+    "voicedMs": 700,
+    "leadMs": 80,
+    "trailMs": 164,
+    "onsetMs": 80,
+    "vowelStartMs": 90,
+    "vowelEndMs": 900,
+    "afterVowelMs": 90,
+    "quietTailMs": 50,
+    "transcript": "old old"
+   },
+   "said": "old",
+   "expectedSaid": "old",
+   "group": "en|normal|xs",
+   "groupStats": {
+    "n": 303,
+    "medLog": 5.0106352940962555,
+    "mad": 0.25131442828090567,
+    "medPerLetter": 149.99999999999997
+   },
+   "expect": [
+    "tail",
+    "second",
+    "extra-words"
+   ]
+  },
+  {
+   "track": "nl",
+   "speed": "normal",
+   "text": "snel",
+   "file": "nl/e650f5e405e0c8ae.mp3",
+   "m": {
+    "durationMs": 507,
+    "peak": 0.812,
+    "clipped": 0,
+    "segments": [
+     [
+      110,
+      330
+     ]
+    ],
+    "voicedStartMs": 110,
+    "voicedEndMs": 330,
+    "voicedMs": 220,
+    "leadMs": 110,
+    "trailMs": 177,
+    "onsetMs": 100,
+    "vowelStartMs": 110,
+    "vowelEndMs": 320,
+    "afterVowelMs": 50,
+    "quietTailMs": 70,
+    "transcript": "wel"
+   },
+   "phonemes": "snˈɛl",
+   "said": "snel",
+   "expectedSaid": "snel",
+   "group": "nl|normal|s",
+   "groupStats": {
+    "n": 1726,
+    "medLog": 4.382026634673881,
+    "mad": 0.17185025692665956,
+    "medPerLetter": 79.99999999999997
+   },
+   "expect": [
+    "onset"
+   ]
+  },
+  {
+   "track": "nl",
+   "speed": "normal",
+   "text": "job",
+   "file": "nl/1c1cc98f58fbfbb6.mp3",
+   "m": {
+    "durationMs": 542,
+    "peak": 0.804,
+    "clipped": 0,
+    "segments": [
+     [
+      130,
+      280
+     ]
+    ],
+    "voicedStartMs": 130,
+    "voicedEndMs": 280,
+    "voicedMs": 150,
+    "leadMs": 130,
+    "trailMs": 262,
+    "onsetMs": 130,
+    "vowelStartMs": 140,
+    "vowelEndMs": 250,
+    "afterVowelMs": 80,
+    "quietTailMs": 120,
+    "transcript": "job"
+   },
+   "phonemes": "jˈɔp",
+   "said": "job",
+   "expectedSaid": "[[ dʒˈɔp ]]",
+   "group": "nl|normal|xs",
+   "groupStats": {
+    "n": 194,
+    "medLog": 4.5712686343124105,
+    "mad": 0.2762533766281585,
+    "medPerLetter": 96.66666666666671
+   },
+   "expect": [
+    "pronunciation"
+   ]
+  },
+  {
+   "track": "fr",
+   "speed": "normal",
+   "text": "s'il te plaît",
+   "file": "fr/ee278f73ed12f216.mp3",
+   "m": {
+    "durationMs": 1076,
+    "peak": 0.804,
+    "clipped": 0,
+    "segments": [
+     [
+      30,
+      360
+     ],
+     [
+      450,
+      850
+     ]
+    ],
+    "voicedStartMs": 30,
+    "voicedEndMs": 850,
+    "voicedMs": 730,
+    "leadMs": 30,
+    "trailMs": 226,
+    "onsetMs": 30,
+    "vowelStartMs": 100,
+    "vowelEndMs": 680,
+    "afterVowelMs": 200,
+    "quietTailMs": 90,
+    "transcript": "s'il te plaît"
+   },
+   "phonemes": "sil tə- plˈɛ",
+   "said": "s'il te plaît",
+   "expectedSaid": "s'il te plaît",
+   "group": "fr|normal|m",
+   "groupStats": {
+    "n": 3058,
+    "medLog": 4.334017415487521,
+    "mad": 0.1170020906733118,
+    "medPerLetter": 76.25
+   },
+   "expect": [
+    "onset",
+    "coda"
+   ]
+  }
+ ]
+}

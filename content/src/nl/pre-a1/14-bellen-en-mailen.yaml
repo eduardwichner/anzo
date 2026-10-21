@@ -1,0 +1,35 @@
+id: nl-pre-a1-u14
+title: { en: Calls and messages }
+icon: phone
+topic: Phone, messages, questions and answers
+vocabulary:
+  - { target: het bericht, native: { en: message }, pos: noun, plural: berichten }
+  - { target: sturen, native: { en: to send }, pos: verb }
+  - { target: de computer, native: { en: computer }, pos: noun, plural: computers }
+  - { target: de e-mail, native: { en: email }, pos: noun, plural: e-mails }
+  - { target: het internet, native: { en: internet }, pos: noun, plural: "-" }
+  - { target: de foto, native: { en: photo }, pos: noun, plural: "foto's" }
+  - { target: vragen, native: { en: to ask }, pos: verb }
+  - { target: de vraag, native: { en: question }, pos: noun, plural: vragen }
+  - { target: antwoorden, native: { en: to answer }, pos: verb }
+  - { target: het antwoord, native: { en: answer }, pos: noun, plural: antwoorden }
+  - { target: zeggen, native: { en: to say }, pos: verb }
+sentences:
+  - { id: s01, target: "Ik bel mijn moeder.", native: { en: "I'm calling my mother." }, items: [nl.bellen] }
+  - { id: s02, target: "Bel me straks!", native: { en: "Call me later!" }, items: [nl.bellen] }
+  - { id: s03, target: "Ik heb een bericht voor jou.", native: { en: "I have a message for you." }, items: [nl.bericht] }
+  - { id: s04, target: "Ik stuur een bericht.", native: { en: "I'm sending a message." }, items: [nl.sturen, nl.bericht] }
+  - { id: s05, target: "De computer is nieuw.", native: { en: "The computer is new." }, items: [nl.computer] }
+  - { id: s06, target: "Ik schrijf een e-mail.", native: { en: "I'm writing an email." }, items: [nl.e-mail] }
+  - { id: s07, target: "Heb je internet?", native: { en: "Do you have internet?" }, items: [nl.internet] }
+  - { id: s08, target: "Ik stuur een foto.", native: { en: "I'm sending a photo." }, items: [nl.foto, nl.sturen] }
+  - { id: s09, target: "Ik vraag het aan Tom.", native: { en: "I'll ask Tom." }, items: [nl.vragen] }
+  - { id: s10, target: "Ik heb een vraag.", native: { en: "I have a question." }, items: [nl.vraag] }
+  - { id: s11, target: "Waarom antwoord je niet?", native: { en: "Why don't you answer?" }, items: [nl.antwoorden] }
+  - { id: s12, target: "Wat is het antwoord?", native: { en: "What is the answer?" }, items: [nl.antwoord] }
+  - { id: s13, target: "Wat zeg je?", native: { en: "Sorry, what did you say?" }, items: [nl.zeggen] }
+  - { id: s14, target: "Hij zegt niet veel.", native: { en: "He doesn't say much." }, items: [nl.zeggen, nl.veel] }
+  - { id: s15, target: "Waar is mijn gsm?", native: { en: "Where is my mobile phone?" }, items: [nl.gsm] }
+  - { id: s16, target: "Stuurt u mij een e-mail?", native: { en: "Will you send me an email?" }, items: [nl.sturen, nl.e-mail] }
+  - { id: s17, target: "Hallo, met Sara.", native: { en: "Hello, Sara speaking." }, items: [nl.hallo] }
+  - { id: s18, target: "Hoe zeg je dat in het Nederlands?", native: { en: "How do you say that in Dutch?" }, items: [nl.zeggen] }

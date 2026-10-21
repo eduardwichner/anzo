@@ -1,0 +1,94 @@
+id: en-b1-u09
+title: { nl: Uit eten }
+icon: food
+topic: Restaurants, cafés, tastes and diets; would like, offers, requests and recommendations
+vocabulary:
+  - { target: menu, native: { nl: menukaart }, pos: noun }
+  - { target: order, native: { nl: bestellen }, pos: verb }
+  - { target: recommend, native: { nl: aanraden }, pos: verb }
+  - { target: serve, native: { nl: "serveren, bedienen" }, pos: verb }
+  - { target: waitress, native: { nl: serveerster }, pos: noun }
+  - { target: chef, native: { nl: "chef-kok, kok" }, pos: noun }
+  - { target: dish, native: { nl: gerecht }, pos: noun }
+  - { target: main course, native: { nl: hoofdgerecht }, pos: noun, avoid: [en.dessert] }
+  - { target: dessert, native: { nl: nagerecht }, pos: noun }
+  - { target: steak, native: { nl: biefstuk }, pos: noun }
+  - { target: medium, native: { nl: "half doorbakken; middelgroot" }, pos: adjective }
+  - { target: curry, native: { nl: curry }, pos: noun }
+  - { target: omelette, native: { nl: omelet }, pos: noun }
+  - { target: chip, native: { nl: frietje (één friet) }, pos: noun }
+  - { target: roll, native: { nl: broodje }, pos: noun }
+  - { target: toast, native: { nl: geroosterd brood }, pos: noun }
+  - { target: vanilla, native: { nl: vanille }, pos: noun }
+  - { target: gum, native: { nl: kauwgom }, pos: noun }
+  - { target: cola, native: { nl: cola }, pos: noun }
+  - { target: mineral water, native: { nl: mineraalwater }, pos: noun }
+  - { target: sparkling, native: { nl: bruisend }, pos: adjective }
+  - { target: jug, native: { nl: kan }, pos: noun }
+  - { target: saucer, native: { nl: schoteltje }, pos: noun }
+  - { target: table-cloth, native: { nl: tafelkleed }, pos: noun }
+  - { target: lay, native: { nl: dekken (de tafel) }, pos: verb }
+  - { target: refreshments, native: { nl: "drankjes en hapjes" }, pos: noun }
+  - { target: supper, native: { nl: avondeten (licht) }, pos: noun }
+  - { target: lunchtime, native: { nl: lunchtijd }, pos: noun }
+  - { target: takeaway, native: { nl: afhaalmaaltijd }, pos: noun }
+  - { target: fast food, native: { nl: fastfood }, pos: noun, noBlank: true }
+  - { target: self-service, native: { nl: zelfbediening }, pos: adjective }
+  - { target: canteen, native: { nl: kantine }, pos: noun, avoid: [en.cafeteria] }
+  - { target: cafeteria, native: { nl: cafetaria (zelfbedieningsrestaurant) }, pos: noun }
+  - { target: bar, native: { nl: "bar, café" }, pos: noun }
+  - { target: tasty, native: { nl: lekker }, pos: adjective, avoid: [en.disgusting] }
+  - { target: disgusting, native: { nl: walgelijk }, pos: adjective }
+  - { target: flavour, native: { nl: smaak }, pos: noun }
+  - { target: spicy, native: { nl: pittig }, pos: adjective }
+  - { target: sour, native: { nl: zuur }, pos: adjective, avoid: [en.bitter] }
+  - { target: bitter, native: { nl: bitter }, pos: adjective }
+  - { target: hunger, native: { nl: honger }, pos: noun }
+  - { target: diet, native: { nl: dieet }, pos: noun }
+  - { target: vegetarian, native: { nl: vegetariër }, pos: noun }
+sentences:
+  - { id: s01, target: "Could we see the menu, please?", native: { nl: "Mogen we de menukaart zien, alstublieft?" }, items: [en.menu] }
+  - { id: s02, target: "Are you ready to order?", native: { nl: "Bent u klaar om te bestellen?" }, items: [en.order] }
+  - { id: s03, target: "What do you recommend?", native: { nl: "Wat raadt u aan?" }, items: [en.recommend] }
+  - { id: s04, target: "Breakfast is served from seven to ten.", native: { nl: "Het ontbijt wordt van zeven tot tien uur geserveerd." }, items: [en.serve] }
+  - { id: s05, target: "The waitress brought us some water.", native: { nl: "De serveerster bracht ons wat water." }, items: [en.waitress], finite: { word: brought, hint: { nl: "bring (verleden tijd)" } } }
+  - { id: s06, target: "The chef came out of the kitchen to say hello.", native: { nl: "De kok kwam uit de keuken om gedag te zeggen." }, items: [en.chef] }
+  - { id: s07, target: "Fish and chips is a traditional British dish.", native: { nl: "Fish and chips is een traditioneel Brits gerecht." }, items: [en.dish] }
+  - { id: s08, target: "For my main course, I'll have the chicken.", native: { nl: "Als hoofdgerecht neem ik de kip." }, items: [en.main-course], acceptAlso: ["I'll have the chicken for my main course."] }
+  - { id: s09, target: "Shall we share a dessert?", native: { nl: "Zullen we een nagerecht delen?" }, items: [en.dessert] }
+  - { id: s10, target: "How would you like your steak? Medium, please.", native: { nl: "Hoe wilt u uw biefstuk gebakken hebben? Medium, alstublieft." }, items: [en.steak, en.medium] }
+  - { id: s11, target: "This curry is too hot for me.", native: { nl: "Deze curry is te pittig voor mij." }, items: [en.curry] }
+  - { id: s12, target: "I'll have a cheese omelette with salad.", native: { nl: "Ik neem een kaasomelet met salade." }, items: [en.omelette] }
+  - { id: s13, target: "Can I have one of your chips?", native: { nl: "Mag ik een van je frietjes?" }, items: [en.chip] }
+  - { id: s14, target: "We had soup and a bread roll for lunch.", native: { nl: "We aten soep en een broodje als lunch." }, items: [en.roll], acceptAlso: ["For lunch we had soup and a bread roll."] }
+  - { id: s15, target: "I usually have toast and jam for breakfast.", native: { nl: "Ik eet meestal geroosterd brood met jam als ontbijt." }, items: [en.toast] }
+  - { id: s16, target: "Two vanilla ice creams, please.", native: { nl: "Twee vanille-ijsjes, alstublieft." }, items: [en.vanilla] }
+  - { id: s17, target: "Have you got any gum?", native: { nl: "Heb je kauwgom?" }, items: [en.gum] }
+  - { id: s18, target: "Can I have a cola with ice?", native: { nl: "Mag ik een cola met ijs?" }, items: [en.cola] }
+  - { id: s19, target: "A bottle of mineral water, please.", native: { nl: "Een fles mineraalwater, alstublieft." }, items: [en.mineral-water] }
+  - { id: s20, target: "Still or sparkling water?", native: { nl: "Plat of bruisend water?" }, items: [en.sparkling] }
+  - { id: s21, target: "Could we have a jug of water for the table?", native: { nl: "Mogen we een kan water voor op tafel?" }, items: [en.jug] }
+  - { id: s22, target: "Put the cup on the saucer.", native: { nl: "Zet het kopje op het schoteltje." }, items: [en.saucer] }
+  - { id: s23, target: "Mum put a white table-cloth on the table.", native: { nl: "Mama legde een wit tafelkleed op tafel." }, items: [en.table-cloth] }
+  - { id: s24, target: "Can you lay the table, please?", native: { nl: "Kun jij de tafel dekken, alsjeblieft?" }, items: [en.lay] }
+  - { id: s25, target: "Refreshments will be served after the concert.", native: { nl: "Na het concert worden er drankjes en hapjes geserveerd." }, items: [en.refreshments] }
+  - { id: s26, target: "We had a light supper before bed.", native: { nl: "We aten een licht avondmaal voor het slapengaan." }, items: [en.supper] }
+  - { id: s27, target: "The shop closes at lunchtime.", native: { nl: "De winkel sluit tijdens de middagpauze." }, items: [en.lunchtime] }
+  - { id: s28, target: "Let's get a takeaway tonight. I'm too tired to cook.", native: { nl: "Laten we vanavond iets afhalen. Ik ben te moe om te koken." }, items: [en.takeaway] }
+  - { id: s29, target: "Eating too much fast food is bad for you.", native: { nl: "Te veel fastfood eten is slecht voor je." }, items: [en.fast-food] }
+  - { id: s30, target: "It's a self-service restaurant, so you get your own food.", native: { nl: "Het is een zelfbedieningsrestaurant, dus je haalt zelf je eten." }, items: [en.self-service] }
+  - { id: s31, target: "We eat lunch in the school canteen.", native: { nl: "We lunchen in de schoolkantine." }, items: [en.canteen] }
+  - { id: s32, target: "There's a cafeteria on the top floor of the museum.", native: { nl: "Er is een zelfbedieningsrestaurant op de bovenste verdieping van het museum." }, items: [en.cafeteria] }
+  - { id: s33, target: "There's a juice bar next to the gym.", native: { nl: "Er is een sapbar naast de sportschool." }, items: [en.bar] }
+  - { id: s34, target: "That pizza was really tasty.", native: { nl: "Die pizza was echt lekker." }, items: [en.tasty] }
+  - { id: s35, target: "This milk smells disgusting!", native: { nl: "Deze melk ruikt walgelijk!" }, items: [en.disgusting] }
+  - { id: s36, target: "Strawberry is my favourite ice-cream flavour.", native: { nl: "Aardbei is mijn favoriete ijssmaak." }, items: [en.flavour] }
+  - { id: s37, target: "I love spicy food.", native: { nl: "Ik hou van pittig eten." }, items: [en.spicy] }
+  - { id: s38, target: "Lemons taste sour.", native: { nl: "Citroenen smaken zuur." }, items: [en.sour] }
+  - { id: s39, target: "This coffee is too bitter without sugar.", native: { nl: "Deze koffie is te bitter zonder suiker." }, items: [en.bitter] }
+  - { id: s40, target: "Millions of people in the world suffer from hunger.", native: { nl: "Miljoenen mensen in de wereld lijden honger." }, items: [en.hunger] }
+  - { id: s41, target: "Dad is on a diet, so he doesn't eat sweets.", native: { nl: "Papa is op dieet, dus hij eet geen snoep." }, items: [en.diet] }
+  - { id: s42, target: "My sister has been a vegetarian for two years.", native: { nl: "Mijn zus is al twee jaar vegetariër." }, items: [en.vegetarian] }
+  - { id: s43, target: "Would you like to order something to drink while you wait?", native: { nl: "Wilt u iets te drinken bestellen terwijl u wacht?" }, items: [en.order] }
+  - { id: s44, target: "Are you being served?", native: { nl: "Wordt u al geholpen?" }, items: [en.serve] }
+texts: [en-b1-t10]

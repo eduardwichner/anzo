@@ -1,0 +1,47 @@
+id: fr-b2-t06
+kind: reading
+title: { nl: Stap voor stap, en: "One step at a time" }
+topic: Santé et sport (un article dans un magazine sur la santé et le moral)
+level: B2
+paragraphs:
+  - - { id: fr-b2-t06-s01, target: "Pendant des années, Thomas pensait que le sport était réservé aux sportifs.", native: { nl: "Jarenlang dacht Thomas dat sport alleen iets was voor sportievelingen.", en: "For years, Thomas thought sport was only for sporty people." } }
+    - { id: fr-b2-t06-s02, target: "Il passait ses journées assis devant un ordinateur et ses soirées devant un écran.", native: { nl: "Hij bracht zijn dagen zittend voor een computer door en zijn avonden voor een scherm.", en: "He spent his days sitting at a computer and his evenings in front of a screen." } }
+    - { id: fr-b2-t06-s03, target: "À vingt-huit ans, il a commencé à souffrir d'anxiété et il dormait très mal.", native: { nl: "Op zijn achtentwintigste begon hij te lijden aan angst en sliep hij heel slecht.", en: "At twenty-eight, he began to suffer from anxiety and he slept very badly." } }
+  - - { id: fr-b2-t06-s04, target: "Le conseil de son médecin l'a surpris.", native: { nl: "De raad van zijn dokter verraste hem.", en: "His doctor's advice surprised him." } }
+    - { id: fr-b2-t06-s05, target: "Au lieu de lui donner des médicaments, elle lui a proposé de marcher trente minutes par jour.", native: { nl: "In plaats van hem medicijnen te geven, stelde ze voor om dertig minuten per dag te wandelen.", en: "Instead of giving him medicine, she suggested he should walk for thirty minutes a day." } }
+    - { id: fr-b2-t06-s06, target: "« Le corps et la tête vont ensemble, lui a-t-elle dit. En bougeant, vous aiderez les deux. »", native: { nl: "\"Lichaam en hoofd gaan samen,\" zei ze tegen hem. \"Door te bewegen helpt u ze allebei.\"", en: "\"Body and mind go together,\" she told him. \"By moving, you'll help both.\"" } }
+  - - { id: fr-b2-t06-s07, target: "Les scientifiques sont d'accord avec elle.", native: { nl: "Wetenschappers zijn het met haar eens.", en: "Scientists agree with her." } }
+    - { id: fr-b2-t06-s08, target: "Une activité physique régulière diminue le stress et améliore le sommeil.", native: { nl: "Regelmatige lichaamsbeweging vermindert stress en verbetert de slaap.", en: "Regular physical activity reduces stress and improves sleep." } }
+    - { id: fr-b2-t06-s09, target: "La bonne nouvelle, c'est que de petits efforts suffisent : dix minutes de marche augmentent déjà le rythme cardiaque.", native: { nl: "Het goede nieuws is dat kleine inspanningen volstaan: tien minuten wandelen verhoogt al de hartslag.", en: "The good news is that small efforts are enough: ten minutes of walking already raises your heart rate." } }
+  - - { id: fr-b2-t06-s10, target: "Les premières semaines ont été difficiles.", native: { nl: "De eerste weken waren moeilijk.", en: "The first few weeks were hard." } }
+    - { id: fr-b2-t06-s11, target: "Il pleuvait presque tous les jours, il avait mal aux jambes et deux fois, il a presque abandonné.", native: { nl: "Het regende bijna elke dag, zijn benen deden pijn en twee keer gaf hij het bijna op.", en: "It rained almost every day, his legs hurt, and twice he almost gave up." } }
+    - { id: fr-b2-t06-s12, target: "Mais peu à peu, son endurance a augmenté, et six mois plus tard, il a couru sa première course de dix kilomètres.", native: { nl: "Maar beetje bij beetje nam zijn uithoudingsvermogen toe, en zes maanden later liep hij zijn eerste wedstrijd van tien kilometer.", en: "But little by little his endurance increased, and six months later he ran his first ten-kilometre race." } }
+    - { id: fr-b2-t06-s13, target: "Son conseil aux autres ? « N'attendez pas d'être motivé. Commencez petit et ne vous découragez pas. »", native: { nl: "Zijn raad aan anderen? \"Wacht niet tot je gemotiveerd bent. Begin klein en laat je niet ontmoedigen.\"", en: "His advice to others? \"Don't wait until you feel motivated. Start small and don't get discouraged.\"" } }
+glossary:
+  - { word: assis, native: { nl: "zittend (s'asseoir)", en: "sitting (s'asseoir)" } }
+  - { word: souffrir, native: { nl: lijden, en: "to suffer" } }
+  - { word: bougeant, native: { nl: "door te bewegen (bouger)", en: "by moving (bouger)" } }
+items: [fr.anxiete, fr.sommeil, fr.rythme-cardiaque, fr.endurance, fr.scientifique]
+gapped:
+  gaps: [fr-b2-t06-s04, fr-b2-t06-s07, fr-b2-t06-s10]
+  extra:
+    - { id: fr-b2-t06-x1, target: "La course à pied est le sport préféré des Français.", native: { nl: "Hardlopen is de populairste sport in Frankrijk.", en: "Running is France's favourite sport." } }
+openCloze:
+  - { sentence: fr-b2-t06-s05, word: lieu }
+  - { sentence: fr-b2-t06-s08, word: et }
+  - { sentence: fr-b2-t06-s12, word: plus }
+  - { sentence: fr-b2-t06-s13, word: pas, acceptAlso: [plus] }
+wordForm:
+  - { sentence: fr-b2-t06-s01, word: sportifs, stem: sport }
+  - { sentence: fr-b2-t06-s08, word: activité, stem: actif }
+  - { sentence: fr-b2-t06-s13, word: découragez, stem: courage }
+questions:
+  - { id: fr-b2-t06-q1, type: summary, options: ["Un homme qui avait de l'anxiété a commencé à marcher chaque jour sur le conseil de son médecin, et malgré des débuts difficiles, il a fini par courir dix kilomètres.", "Un homme qui avait de l'anxiété a refusé les médicaments et s'est préparé en quelques semaines pour une course de quarante kilomètres.", "Une médecin explique pourquoi les personnes qui ont de l'anxiété doivent éviter le sport jusqu'à ce qu'elles aillent mieux."], correct: 0 }
+  - { id: fr-b2-t06-q2, type: mc, question: "Qu'est-ce que le médecin a proposé à Thomas ?", options: ["Marcher trente minutes par jour.", "Prendre des médicaments.", "Courir quarante kilomètres."], correct: 0 }
+  - { id: fr-b2-t06-q3, type: true_false_notgiven, statement: "Le médecin de Thomas fait beaucoup de sport.", answer: not_given }
+  - { id: fr-b2-t06-q4, type: true_false_notgiven, statement: "Thomas a presque abandonné deux fois.", answer: true }
+  - { id: fr-b2-t06-q5, type: true_false_notgiven, statement: "Thomas faisait beaucoup de sport pendant la journée.", answer: false }
+listeningQuestions:
+  - { id: fr-b2-t06-l1, type: complete, statement: "Thomas a couru sa première course de ___ kilomètres.", answers: [dix, "10"] }
+  - { id: fr-b2-t06-l2, type: mc, question: "Quel est le conseil de Thomas ?", options: ["Commencer petit et ne pas se décourager.", "Attendre d'être motivé.", "S'inscrire tout de suite dans un club."], correct: 0 }
+orderable: false

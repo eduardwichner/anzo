@@ -1,0 +1,34 @@
+id: fr-b1-t16
+kind: reading
+title: { nl: Een schoon strand, en: "A clean beach" }
+topic: L'environnement (un article sur une action de nettoyage à la côte)
+level: B1
+paragraphs:
+  - - { id: fr-b1-t16-s01, target: "Dimanche matin, cent cinquante bénévoles ont nettoyé la plage d'Ostende.", native: { nl: "Zondagochtend hebben honderdvijftig vrijwilligers het strand van Oostende schoongemaakt.", en: "On Sunday morning, a hundred and fifty volunteers cleaned the beach at Ostend." } }
+    - { id: fr-b1-t16-s02, target: "La journée était organisée par une association environnementale de la région.", native: { nl: "De dag werd georganiseerd door een milieuvereniging uit de streek.", en: "The day was organised by an environmental association from the region." } }
+  - - { id: fr-b1-t16-s03, target: "En trois heures, les participants ont ramassé presque une tonne de déchets.", native: { nl: "In drie uur hebben de deelnemers bijna een ton afval opgeraapt.", en: "In three hours, the participants picked up almost a tonne of rubbish." } }
+    - { id: fr-b1-t16-s04, target: "Il y avait surtout du plastique, mais aussi du métal et du verre.", native: { nl: "Het was vooral plastic, maar ook metaal en glas.", en: "It was mainly plastic, but there was also metal and glass." } }
+    - { id: fr-b1-t16-s05, target: "Après chaque tempête, le courant apporte de nouveaux déchets sur la plage.", native: { nl: "Na elke storm brengt de stroming nieuw afval naar het strand.", en: "After every storm, the current brings new rubbish onto the beach." } }
+  - - { id: fr-b1-t16-s06, target: "« Le plastique est très dangereux pour les animaux marins », explique Julie, la présidente de l'association.", native: { nl: "\"Plastic is heel gevaarlijk voor zeedieren\", zegt Julie, de voorzitster van de vereniging.", en: "\"Plastic is very dangerous for sea animals,\" explains Julie, the chair of the association." } }
+    - { id: fr-b1-t16-s07, target: "« Les oiseaux et les poissons le mangent, et beaucoup en meurent. »", native: { nl: "\"Vogels en vissen eten het op, en veel van hen sterven eraan.\"", en: "\"Birds and fish eat it, and many of them die from it.\"" } }
+  - - { id: fr-b1-t16-s08, target: "L'association veut aussi sensibiliser les jeunes : elle viendra dans les écoles de la ville en mai.", native: { nl: "De vereniging wil ook jongeren bewust maken: ze komt in mei naar de scholen van de stad.", en: "The association also wants to raise young people's awareness: it will visit the town's schools in May." } }
+    - { id: fr-b1-t16-s09, target: "Selon Julie, chaque petit geste compte, même ramasser une seule bouteille.", native: { nl: "Volgens Julie telt elk klein gebaar, zelfs één enkele fles oprapen.", en: "According to Julie, every small action counts, even picking up a single bottle." } }
+
+items: [fr.benevole, fr.association, fr.environnemental, fr.region, fr.participant, fr.ramasser, fr.tonne, fr.plastique, fr.metal, fr.tempete, fr.courant, fr.marin, fr.mourir, fr.sensibiliser, fr.geste, fr.president, fr.surtout, fr.selon, fr.meme]
+questions:
+  - { id: fr-b1-t16-q1, type: mc, question: "Combien de bénévoles ont nettoyé la plage ?", options: ["Cent cinquante.", "Cinquante.", "Mille."], correct: 0 }
+  - { id: fr-b1-t16-q2, type: true_false_notgiven, statement: "Julie travaille comme professeure de biologie.", answer: not_given }
+  - { id: fr-b1-t16-q3, type: true_false_notgiven, statement: "Après une tempête, il y a de nouveaux déchets sur la plage.", answer: true }
+  - { id: fr-b1-t16-q4, type: true_false_notgiven, statement: "Les bénévoles ont trouvé seulement du plastique.", answer: false }
+  - { id: fr-b1-t16-q5, type: mc, question: "Que va faire l'association en mai ?", options: ["Visiter les écoles.", "Nettoyer une autre plage.", "Organiser une fête."], correct: 0 }
+  - { id: fr-b1-t16-q6, type: match_heading, paragraph: 3, options: ["Dangereux pour les animaux", "Une tonne de déchets", "Des visites dans les écoles"], correct: 0 }
+listeningQuestions:
+  - { id: fr-b1-t16-l1, type: mc, question: "Pendant combien d'heures les bénévoles ont-ils travaillé ?", options: ["Trois heures.", "Une heure.", "Six heures."], correct: 0 }
+  - { id: fr-b1-t16-l2, type: true_false_notgiven, statement: "Pour Julie, les petits gestes ne servent à rien.", answer: false }
+cloze:
+  - { sentence: fr-b1-t16-s01, word: ont, kind: finite_verb, hint: { nl: "avoir (présent: … nettoyé)", en: "avoir (present: … nettoyé)" } }
+  - { sentence: fr-b1-t16-s02, word: était, kind: finite_verb, hint: { nl: "être (imparfait)", en: "être (imperfect)" } }
+  - { sentence: fr-b1-t16-s05, word: apporte, kind: finite_verb, hint: { nl: "apporter (présent)", en: "apporter (present)" } }
+  - { sentence: fr-b1-t16-s07, word: meurent, kind: finite_verb, hint: { nl: "mourir (présent)", en: "mourir (present)" } }
+  - { sentence: fr-b1-t16-s08, word: viendra, kind: finite_verb, hint: { nl: "venir (futur)", en: "venir (future)" } }
+orderable: true

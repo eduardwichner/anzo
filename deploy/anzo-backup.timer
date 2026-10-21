@@ -1,0 +1,11 @@
+[Unit]
+Description=Weekly Anzo database backup (Sundays 03:30)
+Documentation=file:///opt/anzo/README.md
+
+[Timer]
+OnCalendar=Sun *-*-* 03:30:00
+# A run missed while the machine was off happens at the next boot.
+Persistent=true
+
+[Install]
+WantedBy=timers.target

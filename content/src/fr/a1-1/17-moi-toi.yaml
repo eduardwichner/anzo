@@ -1,0 +1,41 @@
+id: fr-a1-1-u17
+title: { nl: Ik en jij, en: "You and me" }
+icon: people
+topic: Les pronoms; les possessifs
+vocabulary:
+  - { target: je, native: { nl: ik, en: "I" }, pos: pronoun }
+  - { target: tu, native: { nl: jij, en: "you (informal singular)" }, pos: pronoun }
+  - { target: il, native: { nl: hij, en: "he" }, pos: pronoun }
+  - { target: elle, native: { nl: zij (één meisje of vrouw), en: "she" }, pos: pronoun }
+  - { target: nous, native: { nl: wij, en: "we" }, pos: pronoun }
+  - { target: on, native: { nl: "we (spreektaal), men", en: "we (informal), one" }, pos: pronoun, avoid: [fr.nous] }
+  - { target: moi, native: { nl: "ik (met nadruk), mij", en: "me, I (stressed)" }, pos: pronoun, avoid: [fr.je] }
+  - { target: toi, native: { nl: "jij (met nadruk), jou", en: "you (informal stressed)" }, pos: pronoun, avoid: [fr.tu] }
+  - { target: lui, native: { nl: "hem, hij (met nadruk)", en: "him, he (stressed)" }, pos: pronoun, avoid: [fr.il] }
+  - { target: ça, native: { nl: "dat, het", en: "that, it" }, pos: pronoun }
+  - { target: mon, native: { nl: mijn, en: "my" }, pos: determiner }
+  - { target: ton, native: { nl: jouw, en: "your (informal)" }, pos: determiner }
+  - { target: son, native: { nl: "zijn, haar", en: "his, her, its" }, pos: determiner }
+  - { target: autre, native: { nl: ander, en: "other" }, pos: determiner }
+  - { target: chaque, native: { nl: "elke, iedere", en: "each, every" }, pos: determiner }
+sentences:
+  - { id: s01, target: "Je suis contente !", native: { nl: "Ik ben blij!", en: "I'm happy!" }, items: [fr.je] }
+  - { id: s02, target: "Et toi, tu t'appelles comment ?", native: { nl: "En jij, hoe heet jij?", en: "What about you? What's your name?" }, items: [fr.toi, fr.tu] }
+  - { id: s03, target: "Il s'appelle comment, ton frère ?", native: { nl: "Hoe heet je broer?", en: "What's he called, your brother?" }, items: [fr.il, fr.ton] }
+  - { id: s04, target: "Elle a dix ans.", native: { nl: "Zij is tien jaar.", en: "She's ten years old." }, items: [fr.elle] }
+  - { id: s05, target: "Nous sommes en vacances.", native: { nl: "Wij zijn op vakantie.", en: "We're on holiday." }, items: [fr.nous] }
+  - { id: s06, target: "On va au cinéma ?", native: { nl: "Gaan we naar de bioscoop?", en: "Shall we go to the cinema?" }, items: [fr.on] }
+  - { id: s07, target: "Moi, je préfère danser.", native: { nl: "Ik dans liever.", en: "As for me, I prefer dancing." }, items: [fr.moi] }
+  - { id: s08, target: "Je joue avec toi.", native: { nl: "Ik speel met jou.", en: "I'm playing with you." }, items: [fr.toi] }
+  - { id: s09, target: "C'est Paul. Je joue avec lui.", native: { nl: "Dat is Paul. Ik speel met hem.", en: "This is Paul. I'm playing with him." }, items: [fr.lui] }
+  - { id: s10, target: "Qu'est-ce que c'est, ça ?", native: { nl: "Wat is dat?", en: "What's that?" }, items: [fr.ca] }
+  - { id: s11, target: "Oui, j'adore ça !", native: { nl: "Ja, daar ben ik dol op!", en: "Yes, I love it!" }, items: [fr.ca] }
+  - { id: s12, target: "C'est mon livre.", native: { nl: "Dat is mijn boek.", en: "It's my book." }, items: [fr.mon] }
+  - { id: s13, target: "Où est ton sac ?", native: { nl: "Waar is je tas?", en: "Where's your bag?" }, items: [fr.ton] }
+  - { id: s14, target: "Diego joue avec son chien.", native: { nl: "Diego speelt met zijn hond.", en: "Diego is playing with his dog." }, items: [fr.son] }
+  - { id: s15, target: "Rose joue avec son chat.", native: { nl: "Rose speelt met haar kat.", en: "Rose is playing with her cat." }, items: [fr.son] }
+  - { id: s16, target: "Tu parles d'autres langues ?", native: { nl: "Spreek jij nog andere talen?", en: "Do you speak any other languages?" }, items: [fr.autre] }
+  - { id: s17, target: "Il y a un livre pour chaque élève.", native: { nl: "Er is een boek voor elke leerling.", en: "There's a book for each pupil." }, items: [fr.chaque] }
+lessons:
+  - { id: l01, title: { nl: "Ik, jij, wij", en: "I, you, we" }, vocab: [fr.je, fr.tu, fr.il, fr.elle, fr.nous, fr.on, fr.moi, fr.toi] }
+  - { id: l02, title: { nl: Mijn en jouw, en: "My, your, his and her" }, vocab: [fr.lui, fr.ca, fr.mon, fr.ton, fr.son, fr.autre, fr.chaque] }

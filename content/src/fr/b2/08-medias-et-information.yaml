@@ -1,0 +1,70 @@
+id: fr-b2-u08
+title: { nl: Nieuws en media, en: "News and the media" }
+icon: news
+topic: La presse et les réseaux sociaux, les fausses informations et les sources fiables, la vie privée ; le discours rapporté (il a dit que…, elle m'a demandé si…, nier avoir…, accuser quelqu'un d'avoir…) et la concordance des temps
+vocabulary:
+  - { target: diffuser, native: { nl: uitzenden, en: "to broadcast" }, pos: verb, avoid: [fr.se-repandre] }
+  - { target: le rédacteur en chef, native: { nl: de hoofdredacteur, en: "editor-in-chief, editor" }, pos: noun, gender: m }
+  - { target: les médias, native: { nl: de media, en: "the media" }, pos: noun, gender: m, noBlank: true }
+  - { target: l'influenceur, native: { nl: de influencer, en: "influencer" }, pos: noun, gender: m, noBlank: true }
+  - { target: viral, native: { nl: "viraal (snel verspreid op internet)", en: "viral" }, pos: adjective, noBlank: true }
+  - { target: l'abonné, native: { nl: "de abonnee, de volger", en: "subscriber, follower" }, pos: noun, gender: m }
+  - { target: s'abonner, native: { nl: "zich abonneren (+ à: op)", en: "to subscribe (+ à: to)" }, pos: verb }
+  - { target: les fausses informations, native: { nl: "het nepnieuws, de valse informatie", en: "fake news, false information" }, pos: noun, gender: f, typedAlso: { en: [fausses nouvelles] } }
+  - { target: la rumeur, native: { nl: het gerucht, en: "rumour" }, pos: noun, gender: f }
+  - { target: partial, native: { nl: "partijdig, bevooroordeeld", en: "biased" }, pos: adjective, avoid: [fr.objectif], typedAlso: { en: [biaisé] } }
+  - { target: prétendre, native: { nl: "beweren (zonder bewijs)", en: "to claim (without proof)" }, pos: verb, avoid: [fr.affirmer] }
+  - { target: affirmer, native: { nl: "stellig beweren, verklaren", en: "to assert, to declare" }, pos: verb, avoid: [fr.pretendre] }
+  - { target: nier, native: { nl: ontkennen, en: "to deny" }, pos: verb, avoid: [fr.reconnaitre] }
+  - { target: révéler, native: { nl: onthullen, en: "to reveal" }, pos: verb }
+  - { target: accuser, native: { nl: "beschuldigen (+ de: van)", en: "to accuse (+ de: of)" }, pos: verb }
+  - { target: controversé, native: { nl: omstreden, en: "controversial" }, pos: adjective }
+  - { target: sensationnel, native: { nl: sensationeel, en: "sensational" }, pos: adjective, noBlank: true }
+  - { target: la vie privée, native: { nl: "het privéleven, de privacy", en: "privacy, private life" }, pos: noun, gender: f }
+  - { target: tromper, native: { nl: "misleiden, bedriegen", en: "to deceive, to mislead, to fool" }, pos: verb }
+  - { target: trompeur, native: { nl: misleidend, en: "misleading" }, pos: adjective }
+  - { target: fiable, native: { nl: betrouwbaar, en: "reliable" }, pos: adjective }
+  - { target: se répandre, native: { nl: "zich verspreiden", en: "to spread" }, pos: verb }
+  - { target: la presse, native: { nl: de pers, en: "the press" }, pos: noun, gender: f }
+  - { target: publier, native: { nl: publiceren, en: "to publish" }, pos: verb }
+  - { target: la publication, native: { nl: "de publicatie, het verschijnen", en: "publication" }, pos: noun, gender: f, noBlank: true }
+  - { target: reconnaître, native: { nl: "toegeven, erkennen", en: "to admit, to acknowledge" }, pos: verb, avoid: [fr.nier] }
+  - { target: annoncer, native: { nl: aankondigen, en: "to announce" }, pos: verb }
+  - { target: la liberté d'expression, native: { nl: "de vrijheid van meningsuiting", en: "freedom of speech, freedom of expression" }, pos: noun, gender: f, typedAlso: { en: [liberté de parole] } }
+  - { target: le reportage, native: { nl: de reportage, en: "news report, documentary" }, pos: noun, gender: m, noBlank: true }
+sentences:
+  - { id: s01, target: "Le match sera diffusé à la télévision ce soir.", native: { nl: "De wedstrijd wordt vanavond op televisie uitgezonden.", en: "The match will be broadcast on television this evening." }, items: [fr.diffuser] }
+  - { id: s02, target: "Le rédacteur en chef choisit les articles de la première page.", native: { nl: "De hoofdredacteur kiest de artikels voor de voorpagina.", en: "The editor-in-chief chooses the articles for the front page." }, items: [fr.redacteur-en-chef] }
+  - { id: s03, target: "Les médias ont beaucoup parlé de cette histoire.", native: { nl: "De media hebben veel over dat verhaal gesproken.", en: "The media talked a lot about this story." }, items: [fr.medias] }
+  - { id: s04, target: "Cet influenceur a plus d'un million d'abonnés.", native: { nl: "Die influencer heeft meer dan een miljoen volgers.", en: "This influencer has more than a million followers." }, items: [fr.influenceur, fr.abonne] }
+  - { id: s05, target: "Sa vidéo est devenue virale en une nuit.", native: { nl: "Zijn video ging in één nacht viraal.", en: "His video went viral overnight." }, items: [fr.viral] }
+  - { id: s06, target: "Je me suis abonné à un journal en ligne.", native: { nl: "Ik heb me op een onlinekrant geabonneerd.", en: "I've subscribed to an online newspaper." }, items: [fr.s-abonner] }
+  - { id: s07, target: "Les fausses informations se répandent plus vite que les vraies.", native: { nl: "Nepnieuws verspreidt zich sneller dan echt nieuws.", en: "Fake news spreads faster than real news." }, items: [fr.fausses-informations, fr.se-repandre] }
+  - { id: s08, target: "Ce n'est qu'une rumeur : personne ne sait si c'est vrai.", native: { nl: "Het is maar een gerucht: niemand weet of het waar is.", en: "It's only a rumour: nobody knows if it's true." }, items: [fr.rumeur] }
+  - { id: s09, target: "Ce journal est partial : il ne présente qu'un côté de l'histoire.", native: { nl: "Die krant is partijdig: ze toont maar één kant van het verhaal.", en: "This newspaper is biased: it only shows one side of the story." }, items: [fr.partial] }
+  - { id: s10, target: "Il prétend qu'il a vu un requin dans la rivière.", native: { nl: "Hij beweert dat hij een haai in de rivier heeft gezien.", en: "He claims he saw a shark in the river." }, items: [fr.pretendre] }
+  - { id: s11, target: "Le maire a affirmé que tout allait bien.", native: { nl: "De burgemeester verklaarde dat alles goed ging.", en: "The mayor declared that everything was fine." }, items: [fr.affirmer] }
+  - { id: s12, target: "Le directeur a nié avoir reçu cet argent.", native: { nl: "De directeur ontkende dat hij dat geld had gekregen.", en: "The head teacher denied receiving that money." }, items: [fr.nier] }
+  - { id: s13, target: "Le journaliste a révélé que l'entreprise cachait des informations.", native: { nl: "De journalist onthulde dat het bedrijf informatie verborg.", en: "The journalist revealed that the company was hiding information." }, items: [fr.reveler] }
+  - { id: s14, target: "Elle l'a accusé d'avoir pris son téléphone.", native: { nl: "Ze beschuldigde hem ervan dat hij haar telefoon had genomen.", en: "She accused him of taking her phone." }, items: [fr.accuser] }
+  - { id: s15, target: "C'est une question controversée.", native: { nl: "Het is een omstreden kwestie.", en: "It's a controversial issue." }, items: [fr.controverse] }
+  - { id: s16, target: "Les journaux aiment les titres sensationnels.", native: { nl: "Kranten houden van sensationele koppen.", en: "Newspapers like sensational headlines." }, items: [fr.sensationnel] }
+  - { id: s17, target: "Ne publie pas de photos de tes amis sans leur accord : respecte leur vie privée.", native: { nl: "Publiceer geen foto's van je vrienden zonder hun toestemming: respecteer hun privéleven.", en: "Don't publish photos of your friends without their permission: respect their privacy." }, items: [fr.publier, fr.vie-privee] }
+  - { id: s18, target: "Cette photo nous a trompés : elle était fausse.", native: { nl: "Die foto heeft ons misleid: hij was vals.", en: "That photo fooled us: it was fake." }, items: [fr.tromper] }
+  - { id: s19, target: "Ce titre est trompeur : l'article dit autre chose.", native: { nl: "Die kop is misleidend: het artikel zegt iets anders.", en: "This headline is misleading: the article says something else." }, items: [fr.trompeur] }
+  - { id: s20, target: "Un site internet n'est pas toujours une source fiable.", native: { nl: "Een website is niet altijd een betrouwbare bron.", en: "A website isn't always a reliable source." }, items: [fr.fiable] }
+  - { id: s21, target: "La presse a parlé de l'accident pendant des semaines.", native: { nl: "De pers heeft wekenlang over het ongeval gesproken.", en: "The press talked about the accident for weeks." }, items: [fr.presse] }
+  - { id: s22, target: "Le journal a publié la photo sans vérifier la source.", native: { nl: "De krant publiceerde de foto zonder de bron te controleren.", en: "The newspaper published the photo without checking the source." }, items: [fr.publier] }
+  - { id: s23, target: "Il a reconnu qu'il s'était trompé.", native: { nl: "Hij gaf toe dat hij zich had vergist.", en: "He admitted that he had made a mistake." }, items: [fr.reconnaitre] }
+  - { id: s24, target: "Le directeur a annoncé que l'école serait fermée vendredi.", native: { nl: "De directeur kondigde aan dat de school vrijdag dicht zou zijn.", en: "The head teacher announced that the school would be closed on Friday." }, items: [fr.annoncer] }
+  - { id: s25, target: "La liberté d'expression est un droit important.", native: { nl: "De vrijheid van meningsuiting is een belangrijk recht.", en: "Freedom of speech is an important right." }, items: [fr.liberte-d-expression] }
+  - { id: s26, target: "J'ai regardé un reportage sur les requins.", native: { nl: "Ik heb een reportage over haaien bekeken.", en: "I watched a documentary about sharks." }, items: [fr.reportage] }
+  - { id: s27, target: "La publication de cette photo était une erreur.", native: { nl: "De publicatie van die foto was een vergissing.", en: "The publication of that photo was a mistake." }, items: [fr.publication], form: { word: publication, stem: publier } }
+  - { id: s28, target: "Elle m'a demandé si j'avais lu l'article publié hier.", native: { nl: "Ze vroeg me of ik het artikel had gelezen dat gisteren gepubliceerd was.", en: "She asked me if I had read the article published yesterday." }, items: [fr.publier], build: true }
+  - { id: s29, target: "Il a affirmé qu'il nous enverrait la vidéo plus tard.", native: { nl: "Hij verklaarde dat hij ons de video later zou sturen.", en: "He declared that he would send us the video later." }, items: [fr.affirmer], build: true }
+  - { id: s30, target: "La radio diffuse les informations toutes les heures.", native: { nl: "De radio zendt elk uur het nieuws uit.", en: "The radio broadcasts the news every hour." }, items: [fr.diffuser], finite: { word: diffuse, hint: { nl: "diffuser (présent)", en: "diffuser (present)" } } }
+transforms:
+  - { id: x01, from: "« Je n'ai rien vu », a dit Paul.", key: affirmé, gapped: "Paul ___ rien vu.", answers: ["a affirmé qu'il n'avait", "a affirmé n'avoir"], items: [fr.affirmer], native: { en: "Paul insisted that he hadn't seen anything." } }
+  - { id: x02, from: "« Est-ce que tu t'es abonné au journal ? », m'a demandé Léa.", key: si, gapped: "Léa m'a demandé ___ au journal.", answers: ["si je m'étais abonné", "si je m'étais abonnée", "si j'étais abonné", "si j'étais abonnée"], items: [fr.s-abonner], native: { en: "Léa asked me whether I had subscribed to the newspaper." } }
+  - { id: x03, from: "Elle a dit : « Ce n'est pas moi qui ai pris le téléphone. »", key: nié, gapped: "Elle ___ pris le téléphone.", answers: ["a nié avoir", "a nié qu'elle ait", "a nié qu'elle avait"], items: [fr.nier], native: { en: "She denied having taken the phone." } }
+texts: [fr-b2-t08]

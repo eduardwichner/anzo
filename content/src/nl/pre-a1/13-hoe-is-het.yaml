@@ -1,0 +1,49 @@
+id: nl-pre-a1-u13
+title: { en: How is it? }
+icon: feelings
+topic: Describing people and things; feelings
+vocabulary:
+  - { target: slecht, native: { en: bad }, pos: adjective }
+  - { target: blij, native: { en: "happy, glad" }, pos: adjective }
+  - { target: moe, native: { en: tired }, pos: adjective }
+  - { target: ziek, native: { en: ill }, pos: adjective }
+  - { target: druk, native: { en: busy }, pos: adjective, avoid: [nl.rustig] }
+  - { target: rustig, native: { en: "quiet, calm" }, pos: adjective }
+  - { target: leuk, native: { en: "nice, fun" }, pos: adjective }
+  - { target: duur, native: { en: expensive }, pos: adjective, avoid: [nl.goedkoop] }
+  - { target: goedkoop, native: { en: cheap }, pos: adjective }
+  - { target: koud, native: { en: cold }, pos: adjective, avoid: [nl.warm] }
+  - { target: warm, native: { en: "warm, hot" }, pos: adjective }
+  - { target: lang, native: { en: long }, pos: adjective, avoid: [nl.kort] }
+  - { target: kort, native: { en: short }, pos: adjective }
+  - { target: snel, native: { en: fast }, pos: adjective, avoid: [nl.langzaam] }
+  - { target: langzaam, native: { en: slow }, pos: adjective }
+  - { target: erg, native: { en: very }, pos: adverb }
+  - { target: veel, native: { en: "a lot, many" }, pos: adverb, avoid: [nl.weinig] }
+  - { target: weinig, native: { en: "little, few" }, pos: adverb }
+  - { target: te, native: { en: "too (as in too big)" }, pos: adverb }
+  - { target: zo, native: { en: so }, pos: adverb }
+sentences:
+  - { id: s01, target: "Het eten is slecht.", native: { en: "The food is bad." }, items: [nl.slecht] }
+  - { id: s02, target: "Ik ben blij.", native: { en: "I'm happy." }, items: [nl.blij] }
+  - { id: s03, target: "Ben je moe?", native: { en: "Are you tired?" }, items: [nl.moe] }
+  - { id: s04, target: "Mijn zoon is ziek.", native: { en: "My son is ill." }, items: [nl.ziek] }
+  - { id: s05, target: "Het is druk in de winkel.", native: { en: "It's busy in the shop." }, items: [nl.druk] }
+  - { id: s06, target: "Ik heb het heel druk.", native: { en: "I'm very busy." }, items: [nl.druk] }
+  - { id: s07, target: "Het park is rustig.", native: { en: "The park is quiet." }, items: [nl.rustig] }
+  - { id: s08, target: "De film is leuk.", native: { en: "The film is fun." }, items: [nl.leuk] }
+  - { id: s09, target: "De jas is duur.", native: { en: "The coat is expensive." }, items: [nl.duur] }
+  - { id: s10, target: "Het brood is goedkoop.", native: { en: "The bread is cheap." }, items: [nl.goedkoop] }
+  - { id: s11, target: "Het water is koud.", native: { en: "The water is cold." }, items: [nl.koud] }
+  - { id: s12, target: "De koffie is warm.", native: { en: "The coffee is hot." }, items: [nl.warm] }
+  - { id: s13, target: "De dag is lang.", native: { en: "The day is long." }, items: [nl.lang] }
+  - { id: s14, target: "De broek is kort.", native: { en: "The trousers are short." }, items: [nl.kort] }
+  - { id: s15, target: "De bus is snel.", native: { en: "The bus is fast." }, items: [nl.snel] }
+  - { id: s16, target: "Ik lees langzaam.", native: { en: "I read slowly." }, items: [nl.langzaam] }
+  - { id: s17, target: "Het is erg koud.", native: { en: "It's very cold." }, items: [nl.erg, nl.koud] }
+  - { id: s18, target: "Ik werk veel.", native: { en: "I work a lot." }, items: [nl.veel] }
+  - { id: s19, target: "Ik slaap weinig.", native: { en: "I don't sleep much." }, items: [nl.weinig] }
+  - { id: s20, target: "De jas is te duur.", native: { en: "The coat is too expensive." }, items: [nl.te, nl.duur] }
+  - { id: s21, target: "Ik ben zo moe.", native: { en: "I'm so tired." }, items: [nl.zo, nl.moe] }
+  - { id: s22, target: "Bent u ziek, meneer?", native: { en: "Are you ill, sir?" }, items: [nl.ziek] }
+  - { id: s23, target: "Langzaam, alstublieft.", native: { en: "Slowly, please." }, items: [nl.langzaam] }

@@ -1,0 +1,79 @@
+{
+  "en": {
+    "voice": "en_GB-cori-medium",
+    "speaker": null,
+    "lengthScale": 1.1,
+    "slowLengthScale": 1.6,
+    "sample": "Hello! My name is Cori. Let's learn English together.",
+    "carrier": {
+      "text": "The word,",
+      "kinds": [
+        "word",
+        "short"
+      ],
+      "alternatives": [
+        "The word;",
+        "The next word,"
+      ]
+    },
+    "dialogue": {
+      "voice": "en_GB-vctk-medium",
+      "speaker": 57,
+      "speakerName": "p258",
+      "lengthScale": 1.1,
+      "slowLengthScale": 1.6,
+      "sample": "Have you tried the estate agent's on the high street?"
+    }
+  },
+  "fr": {
+    "voice": "fr_FR-siwis-medium",
+    "speaker": null,
+    "lengthScale": 1.1,
+    "slowLengthScale": 1.6,
+    "sample": "Bonjour ! Je m'appelle Siwis. On apprend le français ensemble ?",
+    "carrier": {
+      "text": "Le mot :",
+      "kinds": [
+        "word",
+        "short"
+      ],
+      "alternatives": [
+        "Le mot,",
+        "Le mot suivant :"
+      ]
+    },
+    "dialogue": {
+      "voice": "fr_FR-upmc-medium",
+      "speaker": 1,
+      "speakerName": "pierre",
+      "lengthScale": 1.1,
+      "slowLengthScale": 1.6,
+      "sample": "Tu as essayé l'agence dans la grande rue ?"
+    }
+  },
+  "nl": {
+    "voice": "nl_BE-rdh-medium",
+    "speaker": null,
+    "lengthScale": 1.1,
+    "slowLengthScale": 1.6,
+    "sample": "Hallo! Welkom bij de cursus Nederlands. Zullen we samen beginnen?",
+    "carrier": {
+      "text": "Het woord is:",
+      "kinds": [
+        "word",
+        "short"
+      ],
+      "alternatives": [
+        "Hier is het woord:",
+        "Het volgende woord is:"
+      ]
+    },
+    "dialogue": {
+      "voice": "nl_BE-nathalie-medium",
+      "speaker": null,
+      "lengthScale": 1.1,
+      "slowLengthScale": 1.6,
+      "sample": "Heb je al bij het immokantoor in de Kerkstraat gekeken?"
+    }
+  }
+}

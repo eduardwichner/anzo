@@ -1,0 +1,36 @@
+id: en-b1-t15
+kind: reading
+title: { nl: Achter de schermen bij het schoolnieuws }
+topic: News and writing (an article in a school magazine)
+level: B1
+paragraphs:
+  - - { id: en-b1-t15-s01, target: "Every Friday, about two hundred students read Hillside News, our school's news website.", native: { nl: "Elke vrijdag lezen ongeveer tweehonderd leerlingen Hillside News, de nieuwswebsite van onze school." } }
+    - { id: en-b1-t15-s02, target: "But how is it made? We spent a week with the team to find out.", native: { nl: "Maar hoe wordt die gemaakt? We brachten een week door met het team om dat uit te zoeken." } }
+  - - { id: en-b1-t15-s03, target: "On Monday, the eight young reporters meet in the library and choose the topics for the week.", native: { nl: "Op maandag komen de acht jonge verslaggevers samen in de bibliotheek en kiezen ze de onderwerpen voor die week." } }
+    - { id: en-b1-t15-s04, target: "This week there was a lot of news: a new head teacher was announced, and the football team was in a final.", native: { nl: "Deze week was er veel nieuws: er werd een nieuwe directeur aangekondigd, en het voetbalteam stond in een finale." } }
+  - - { id: en-b1-t15-s05, target: "From Tuesday to Thursday, the reporters interview people and write their articles.", native: { nl: "Van dinsdag tot donderdag interviewen de verslaggevers mensen en schrijven ze hun artikelen." } }
+    - { id: en-b1-t15-s06, target: "According to Nadia, the fifteen-year-old editor, the hardest part is checking the facts.", native: { nl: "Volgens Nadia, de vijftienjarige hoofdredacteur, is het moeilijkste deel het controleren van de feiten." } }
+    - { id: en-b1-t15-s07, target: "\"A story is useless if it isn't true,\" she told us.", native: { nl: "\"Een verhaal is nutteloos als het niet waar is,\" vertelde ze ons." } }
+  - - { id: en-b1-t15-s08, target: "On Friday morning, everything is checked again for spelling and grammar.", native: { nl: "Op vrijdagochtend wordt alles nog eens gecontroleerd op spelling en grammatica." } }
+    - { id: en-b1-t15-s09, target: "Then the team writes the headlines, chooses the photos and publishes the new issue at lunchtime.", native: { nl: "Daarna schrijft het team de krantenkoppen, kiest het de foto's en publiceert het om lunchtijd het nieuwe nummer." } }
+    - { id: en-b1-t15-s10, target: "If you would like to join them, there is a notice with more information outside room 12.", native: { nl: "Als je graag mee wilt doen, hangt er een mededeling met meer informatie buiten lokaal 12." } }
+glossary:
+  - { word: editor, native: { nl: hoofdredacteur } }
+  - { word: useless, native: { nl: nutteloos } }
+items: [en.reporter, en.topic, en.announce, en.final, en.article, en.according-to, en.fact, en.spelling, en.grammar, en.headline, en.publish, en.issue, en.lunchtime, en.notice, en.true]
+questions:
+  - { id: en-b1-t15-q1, type: mc, question: "When do the reporters choose the topics?", options: ["On Monday.", "On Wednesday.", "On Friday."], correct: 0 }
+  - { id: en-b1-t15-q2, type: true_false_notgiven, statement: "There was very little news this week.", answer: false }
+  - { id: en-b1-t15-q3, type: true_false_notgiven, statement: "Nadia thinks checking the facts is the most difficult part.", answer: true }
+  - { id: en-b1-t15-q4, type: true_false_notgiven, statement: "The football team won the final.", answer: not_given }
+  - { id: en-b1-t15-q5, type: mc, question: "What happens on Friday morning?", options: ["The articles are checked again.", "The reporters interview people.", "The team meets in the library."], correct: 0 }
+  - { id: en-b1-t15-q6, type: match_heading, paragraph: 3, options: ["Writing the stories", "Planning the week", "Publishing day"], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t15-l1, type: mc, question: "How many reporters are in the team?", options: ["Eight.", "Fifteen.", "Twelve."], correct: 0 }
+  - { id: en-b1-t15-l2, type: true_false_notgiven, statement: "The new issue is published at lunchtime on Friday.", answer: true }
+cloze:
+  - { sentence: en-b1-t15-s02, word: spent, kind: finite_verb, hint: { nl: "spend (verleden tijd)" } }
+  - { sentence: en-b1-t15-s07, word: told, kind: finite_verb, hint: { nl: "tell (verleden tijd)" } }
+  - { sentence: en-b1-t15-s08, word: is, kind: finite_verb, hint: { nl: "be (tegenwoordige tijd: … checked)" } }
+  - { sentence: en-b1-t15-s09, word: publishes, kind: finite_verb, hint: { nl: "publish (tegenwoordige tijd)" } }
+orderable: true

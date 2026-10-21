@@ -1,0 +1,46 @@
+id: en-a2-u09
+title: { nl: Lichaam en gezondheid }
+icon: health
+topic: Body and face; Health
+vocabulary:
+  - { target: elbow, native: { nl: elleboog }, pos: noun }
+  - { target: finger, native: { nl: vinger }, pos: noun }
+  - { target: knee, native: { nl: knie }, pos: noun }
+  - { target: toe, native: { nl: teen }, pos: noun }
+  - { target: sore, native: { nl: pijnlijk }, pos: adjective }
+  - { target: feel, native: { nl: voelen }, pos: verb }
+  - { target: fall over, native: { nl: omvallen }, pos: verb }
+  - { target: bandage, native: { nl: verband }, pos: noun }
+  - { target: medicine, native: { nl: medicijn }, pos: noun }
+  - { target: x-ray, native: { nl: röntgenfoto }, pos: noun }
+  - { id: en.break-verb, target: break, native: { nl: breken }, pos: verb }
+  - { target: broken, native: { nl: "gebroken, kapot" }, pos: adjective, avoid: [en.break-verb] }
+  - { target: cut, native: { nl: snijden }, pos: verb }
+  - { target: shampoo, native: { nl: shampoo }, pos: noun }
+  - { target: soap, native: { nl: zeep }, pos: noun }
+  - { target: comb, native: { nl: "kam, kammen" }, pos: noun }
+  - { target: brush, native: { nl: "borstel, poetsen" }, pos: noun, avoid: [en.comb] }
+  - { target: burn, native: { nl: "verbranden, branden" }, pos: verb }
+sentences:
+  - { id: s01, target: "I hurt my elbow.", native: { nl: "Ik heb mijn elleboog bezeerd." }, items: [en.elbow] }
+  - { id: s02, target: "Put your finger on your nose.", native: { nl: "Leg je vinger op je neus." }, items: [en.finger] }
+  - { id: s03, target: "My knee is sore.", native: { nl: "Mijn knie is pijnlijk." }, items: [en.knee, en.sore] }
+  - { id: s04, target: "I hurt my big toe.", native: { nl: "Ik heb mijn grote teen bezeerd." }, items: [en.toe] }
+  - { id: s05, target: "How do you feel today?", native: { nl: "Hoe voel je je vandaag?" }, items: [en.feel] }
+  - { id: s06, target: "Be careful or you'll fall over.", native: { nl: "Pas op, anders val je om." }, items: [en.fall-over], acceptAlso: ["Be careful or you will fall over."] }
+  - { id: s07, target: "The nurse put a bandage on my arm.", native: { nl: "De verpleegkundige deed een verband om mijn arm." }, items: [en.bandage] }
+  - { id: s08, target: "Take your medicine, please.", native: { nl: "Neem je medicijn in, alsjeblieft." }, items: [en.medicine] }
+  - { id: s09, target: "The doctor took an x-ray of my leg.", native: { nl: "De dokter maakte een röntgenfoto van mijn been." }, items: [en.x-ray] }
+  - { id: s10, target: "Don't break the glass!", native: { nl: "Breek het glas niet!" }, items: [en.break-verb], acceptAlso: ["Do not break the glass!"] }
+  - { id: s11, target: "My leg is broken.", native: { nl: "Mijn been is gebroken." }, items: [en.broken] }
+  - { id: s12, target: "Cut the bread with a knife.", native: { nl: "Snijd het brood met een mes." }, items: [en.cut] }
+  - { id: s13, target: "Wash your hair with shampoo.", native: { nl: "Was je haar met shampoo." }, items: [en.shampoo] }
+  - { id: s14, target: "Wash your hands with soap.", native: { nl: "Was je handen met zeep." }, items: [en.soap] }
+  - { id: s15, target: "Can I use your comb?", native: { nl: "Mag ik jouw kam gebruiken?" }, items: [en.comb] }
+  - { id: s16, target: "Brush your teeth before bed.", native: { nl: "Poets je tanden voor het slapengaan." }, items: [en.brush] }
+  - { id: s17, target: "I need a new brush.", native: { nl: "Ik heb een nieuwe borstel nodig." }, items: [en.brush] }
+  - { id: s18, target: "Don't touch the oven. You'll burn your hand!", native: { nl: "Raak de oven niet aan. Je verbrandt je hand!" }, items: [en.burn], acceptAlso: ["Do not touch the oven. You will burn your hand!"] }
+lessons:
+  - { id: l01, title: { nl: "Au, mijn knie!" }, vocab: [en.elbow, en.finger, en.knee, en.toe, en.sore, en.feel, en.fall-over] }
+  - { id: l02, title: { nl: Naar de dokter }, vocab: [en.bandage, en.medicine, en.x-ray, en.break-verb, en.broken, en.cut] }
+  - { id: l03, title: { nl: Wassen en kammen }, vocab: [en.shampoo, en.soap, en.comb, en.brush, en.burn] }

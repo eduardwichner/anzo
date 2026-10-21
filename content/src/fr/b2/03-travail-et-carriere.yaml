@@ -1,0 +1,68 @@
+id: fr-b2-u03
+title: { nl: Werk en loopbaan, en: "Work and careers" }
+icon: work
+topic: Chercher un emploi, les stages et l'apprentissage, les conditions de travail, être indépendant ; le conditionnel passé (j'aurais dû, il aurait fallu, j'aurais aimé)
+vocabulary:
+  - { target: recruter, native: { nl: "aanwerven, rekruteren", en: "to recruit" }, pos: verb, avoid: [fr.embaucher], noBlank: true }
+  - { target: le candidat, native: { nl: "de kandidaat, de sollicitant", en: "candidate, applicant" }, pos: noun, gender: m }
+  - { target: le stagiaire, native: { nl: de stagiair, en: "trainee, intern" }, pos: noun, gender: m }
+  - { target: l'apprenti, native: { nl: "de leerling (in een vak)", en: "apprentice" }, pos: noun, gender: m }
+  - { target: indépendant, native: { nl: "zelfstandig, onafhankelijk", en: "self-employed, independent" }, pos: adjective }
+  - { target: le revenu, native: { nl: het inkomen, en: "income" }, pos: noun, gender: m, avoid: [fr.salaire] }
+  - { target: la promotion, native: { nl: "de promotie, de bevordering", en: "promotion" }, pos: noun, gender: f }
+  - { target: démissionner, native: { nl: ontslag nemen, en: "to resign, to quit" }, pos: verb, avoid: [fr.licencier] }
+  - { target: licencier, native: { nl: ontslaan, en: "to dismiss, to lay off" }, pos: verb, avoid: [fr.demissionner] }
+  - { target: le supérieur, native: { nl: "de meerdere, de leidinggevende", en: "manager, superior" }, pos: noun, gender: m, noBlank: true }
+  - { target: les horaires, native: { nl: "de werkuren, het uurrooster", en: "working hours, hours" }, pos: noun, gender: m, typedAlso: { en: [heures] } }
+  - { target: flexible, native: { nl: flexibel, en: "flexible" }, pos: adjective }
+  - { target: le télétravail, native: { nl: het thuiswerk, en: "working from home" }, pos: noun, gender: m }
+  - { target: la responsabilité, native: { nl: de verantwoordelijkheid, en: "responsibility" }, pos: noun, gender: f }
+  - { target: exigeant, native: { nl: "veeleisend, zwaar", en: "demanding" }, pos: adjective }
+  - { target: gratifiant, native: { nl: "dankbaar, voldoening gevend", en: "rewarding" }, pos: adjective }
+  - { target: qualifié, native: { nl: "geschoold, gekwalificeerd", en: "qualified, skilled" }, pos: adjective }
+  - { target: l'employeur, native: { nl: de werkgever, en: "employer" }, pos: noun, gender: m, avoid: [fr.salarie] }
+  - { target: le salarié, native: { nl: de werknemer, en: "employee" }, pos: noun, gender: m, avoid: [fr.employeur] }
+  - { target: le contrat, native: { nl: het contract, en: "contract" }, pos: noun, gender: m }
+  - { target: la pénurie, native: { nl: het tekort, en: "shortage" }, pos: noun, gender: f }
+  - { target: la compétence, native: { nl: "de vaardigheid, de competentie", en: "skill" }, pos: noun, gender: f }
+  - { target: la carrière, native: { nl: de loopbaan, en: "career" }, pos: noun, gender: f }
+  - { target: s'épanouir, native: { nl: "zich ontplooien, openbloeien", en: "to flourish, to thrive" }, pos: verb }
+  - { target: la tâche, native: { nl: de taak, en: "task" }, pos: noun, gender: f }
+  - { target: collaborer, native: { nl: samenwerken, en: "to work together, to collaborate" }, pos: verb }
+  - { target: la flexibilité, native: { nl: de flexibiliteit, en: "flexibility" }, pos: noun, gender: f }
+  - { target: regretter, native: { nl: "spijt hebben van, betreuren", en: "to regret, to be sorry" }, pos: verb }
+sentences:
+  - { id: s01, target: "L'hôpital essaie de recruter plus d'infirmières.", native: { nl: "Het ziekenhuis probeert meer verpleegsters aan te werven.", en: "The hospital is trying to recruit more nurses." }, items: [fr.recruter] }
+  - { id: s02, target: "Plus de cinquante candidats ont envoyé leur CV.", native: { nl: "Meer dan vijftig kandidaten stuurden hun cv.", en: "More than fifty candidates sent their CVs." }, items: [fr.candidat] }
+  - { id: s03, target: "La stagiaire a beaucoup appris en trois mois.", native: { nl: "De stagiaire heeft in drie maanden veel geleerd.", en: "The trainee learnt a lot in three months." }, items: [fr.stagiaire] }
+  - { id: s04, target: "Un apprenti gagne de l'argent pendant qu'il apprend un métier.", native: { nl: "Een leerling verdient geld terwijl hij een vak leert.", en: "An apprentice earns money while learning a trade." }, items: [fr.apprenti] }
+  - { id: s05, target: "Mon oncle travaille comme photographe indépendant.", native: { nl: "Mijn oom werkt als zelfstandig fotograaf.", en: "My uncle works as a self-employed photographer." }, items: [fr.independant] }
+  - { id: s06, target: "Leurs revenus ne suffisent pas pour payer le loyer.", native: { nl: "Hun inkomen is niet genoeg om de huur te betalen.", en: "Their income isn't enough to pay the rent." }, items: [fr.revenu] }
+  - { id: s07, target: "Après deux ans, elle a eu une promotion.", native: { nl: "Na twee jaar kreeg ze promotie.", en: "After two years, she got a promotion." }, items: [fr.promotion] }
+  - { id: s08, target: "Il a démissionné pour créer sa propre entreprise.", native: { nl: "Hij nam ontslag om zijn eigen bedrijf te beginnen.", en: "He resigned to start his own business." }, items: [fr.demissionner] }
+  - { id: s09, target: "L'usine a licencié cent salariés.", native: { nl: "De fabriek heeft honderd werknemers ontslagen.", en: "The factory has laid off a hundred employees." }, items: [fr.licencier, fr.salarie] }
+  - { id: s10, target: "Demande à ton supérieur si tu peux partir plus tôt.", native: { nl: "Vraag je leidinggevende of je vroeger mag vertrekken.", en: "Ask your manager if you can leave earlier." }, items: [fr.superieur] }
+  - { id: s11, target: "Les horaires de ce travail sont très flexibles.", native: { nl: "De werkuren van deze baan zijn heel flexibel.", en: "The hours in this job are very flexible." }, items: [fr.horaires, fr.flexible] }
+  - { id: s12, target: "De plus en plus d'entreprises proposent le télétravail.", native: { nl: "Steeds meer bedrijven bieden thuiswerk aan.", en: "More and more companies offer working from home." }, items: [fr.teletravail] }
+  - { id: s13, target: "La sécurité des salariés est la responsabilité de l'employeur.", native: { nl: "De veiligheid van de werknemers is de verantwoordelijkheid van de werkgever.", en: "The safety of employees is the employer's responsibility." }, items: [fr.responsabilite, fr.employeur] }
+  - { id: s14, target: "Le métier d'infirmier est exigeant mais gratifiant.", native: { nl: "Het beroep van verpleger is zwaar, maar het geeft veel voldoening.", en: "Being a nurse is demanding but rewarding." }, items: [fr.exigeant, fr.gratifiant] }
+  - { id: s15, target: "Il y a une pénurie de salariés qualifiés.", native: { nl: "Er is een tekort aan geschoolde werknemers.", en: "There's a shortage of skilled employees." }, items: [fr.penurie, fr.qualifie] }
+  - { id: s16, target: "Mon contrat se termine à la fin du mois.", native: { nl: "Mijn contract loopt op het einde van de maand af.", en: "My contract ends at the end of the month." }, items: [fr.contrat] }
+  - { id: s17, target: "Parler trois langues est une compétence très utile.", native: { nl: "Drie talen spreken is een heel nuttige vaardigheid.", en: "Speaking three languages is a very useful skill." }, items: [fr.competence] }
+  - { id: s18, target: "Elle a fait toute sa carrière dans la même entreprise.", native: { nl: "Ze heeft haar hele loopbaan in hetzelfde bedrijf gewerkt.", en: "She spent her whole career at the same company." }, items: [fr.carriere] }
+  - { id: s19, target: "Il s'épanouit dans son nouveau travail.", native: { nl: "Hij bloeit open in zijn nieuwe baan.", en: "He's thriving in his new job." }, items: [fr.s-epanouir] }
+  - { id: s20, target: "Chaque membre de l'équipe a une tâche différente.", native: { nl: "Elk lid van het team heeft een andere taak.", en: "Each member of the team has a different task." }, items: [fr.tache] }
+  - { id: s21, target: "Les deux services collaborent à ce projet.", native: { nl: "De twee afdelingen werken samen aan dit project.", en: "The two departments are working together on this project." }, items: [fr.collaborer] }
+  - { id: s22, target: "Je ne regrette pas mon choix.", native: { nl: "Ik heb geen spijt van mijn keuze.", en: "I don't regret my choice." }, items: [fr.regretter] }
+  - { id: s23, target: "Je regrette : j'aurais dû accepter ce travail.", native: { nl: "Ik heb er spijt van: ik had die baan moeten aannemen.", en: "I regret it: I should have accepted that job." }, items: [fr.regretter], build: true }
+  - { id: s24, target: "Il aurait fallu recruter plus de salariés.", native: { nl: "Er hadden meer werknemers aangeworven moeten worden.", en: "They should have recruited more employees." }, items: [fr.recruter], build: true }
+  - { id: s25, target: "Elle aurait aimé faire carrière comme médecin.", native: { nl: "Ze had graag carrière gemaakt als dokter.", en: "She would have liked to have a career as a doctor." }, items: [fr.carriere], build: true }
+  - { id: s26, target: "Elle démissionne parce que le travail est trop exigeant.", native: { nl: "Ze neemt ontslag omdat het werk te zwaar is.", en: "She's resigning because the work is too demanding." }, items: [fr.demissionner], finite: { word: démissionne, hint: { nl: "démissionner (présent)", en: "démissionner (present)" } } }
+  - { id: s27, target: "Un apprenti a besoin de temps pour apprendre un métier.", native: { nl: "Een leerling heeft tijd nodig om een vak te leren.", en: "An apprentice needs time to learn a trade." }, items: [fr.apprenti] }
+  - { id: s28, target: "Il cherche un emploi avec de nouvelles responsabilités.", native: { nl: "Hij zoekt een baan met nieuwe verantwoordelijkheden.", en: "He's looking for a job with new responsibilities." }, items: [fr.responsabilite], form: { word: responsabilités, stem: responsable } }
+  - { id: s29, target: "Le travail à distance demande beaucoup de flexibilité.", native: { nl: "Werken op afstand vraagt veel flexibiliteit.", en: "Working remotely requires a lot of flexibility." }, items: [fr.flexibilite], form: { word: flexibilité, stem: flexible } }
+transforms:
+  - { id: x01, from: "Je regrette de ne pas avoir accepté ce travail.", key: dû, gapped: "J'aurais ___ ce travail.", answers: ["dû accepter"], items: [fr.regretter], native: { en: "I should have accepted that job." } }
+  - { id: x02, from: "Elle a quitté son travail parce que ses journées étaient trop longues.", key: démissionné, gapped: "Elle a ___ ses journées étaient trop longues.", answers: ["démissionné parce que", "démissionné car", "démissionné puisque"], items: [fr.demissionner], native: { en: "She resigned because her working days were too long." } }
+  - { id: x03, from: "On manque de salariés qualifiés.", key: pénurie, gapped: "Il y a une ___ qualifiés.", answers: ["pénurie de salariés"], items: [fr.penurie], native: { en: "There's a shortage of skilled employees." } }
+texts: [fr-b2-t03]

@@ -1,0 +1,70 @@
+id: en-a2-u21
+title: { nl: Kleine woordjes }
+icon: questions
+topic: Grammar (adverbs, conjunctions, modal verbs); Numbers (thousand, million, ordinals)
+vocabulary:
+  - { target: zero, native: { nl: nul }, pos: number }
+  - { target: thousand, native: { nl: duizend }, pos: number }
+  - { target: million, native: { nl: miljoen }, pos: number }
+  - { target: kilometre, native: { nl: kilometer }, pos: noun }
+  - { target: thirtieth, native: { nl: dertigste }, pos: adjective }
+  - { target: how long, native: { nl: hoe lang }, pos: question }
+  - { target: if, native: { nl: "als (wanneer)" }, pos: conjunction }
+  - { target: as, native: { nl: "als (zoals een)" }, pos: preposition, avoid: [en.if] }
+  - { target: as … as, native: { nl: "even … als" }, pos: phrase }
+  - { target: also, native: { nl: ook }, pos: adverb }
+  - { target: actually, native: { nl: eigenlijk }, pos: adverb }
+  - { target: instead, native: { nl: in plaats daarvan }, pos: adverb }
+  - { target: might, native: { nl: "zou kunnen" }, pos: verb, avoid: [en.perhaps] }
+  - { target: should, native: { nl: zou moeten }, pos: verb }
+  - { target: will, native: { nl: "zal, zullen" }, pos: verb }
+  - { target: perhaps, native: { nl: misschien }, pos: adverb, avoid: [en.might] }
+  - { target: quite, native: { nl: "best, nogal" }, pos: adverb }
+  - { target: just, native: { nl: "maar, net, gewoon" }, pos: adverb }
+  - { target: still, native: { nl: nog steeds }, pos: adverb, avoid: [en.yet, en.already] }
+  - { target: suddenly, native: { nl: plotseling }, pos: adverb }
+  - { target: usually, native: { nl: meestal }, pos: adverb }
+  - { target: while, native: { nl: terwijl }, pos: conjunction, avoid: [en.during] }
+  - { target: next, native: { nl: volgende }, pos: adjective }
+  - { target: happen, native: { nl: gebeuren }, pos: verb }
+  - { target: of course, native: { nl: natuurlijk }, pos: phrase }
+  - { target: no problem, native: { nl: geen probleem }, pos: phrase }
+  - { target: "you're welcome", native: { nl: graag gedaan }, pos: phrase }
+  - { target: if you want, native: { nl: als je wilt }, pos: phrase, avoid: [en.if] }
+  - { target: warm, native: { nl: warm }, pos: adjective }
+sentences:
+  - { id: s01, target: "My phone number starts with zero.", native: { nl: "Mijn telefoonnummer begint met een nul." }, items: [en.zero] }
+  - { id: s02, target: "A thousand people came to the concert.", native: { nl: "Er kwamen duizend mensen naar het concert." }, items: [en.thousand] }
+  - { id: s03, target: "A million is a very big number.", native: { nl: "Een miljoen is een heel groot getal." }, items: [en.million] }
+  - { id: s04, target: "The school is one kilometre from my house.", native: { nl: "De school is een kilometer van mijn huis." }, items: [en.kilometre] }
+  - { id: s05, target: "Today is the thirtieth of June.", native: { nl: "Vandaag is het de dertigste juni." }, items: [en.thirtieth] }
+  - { id: s06, target: "How long is the film?", native: { nl: "Hoe lang duurt de film?" }, items: [en.how-long] }
+  - { id: s07, target: "If it rains, we stay inside.", native: { nl: "Als het regent, blijven we binnen." }, items: [en.if] }
+  - { id: s08, target: "She works as a nurse.", native: { nl: "Zij werkt als verpleegkundige." }, items: [en.as] }
+  - { id: s09, target: "My brother is as tall as my dad.", native: { nl: "Mijn broer is even lang als mijn vader." }, items: [en.as-as] }
+  - { id: s10, target: "I like cats and I also like dogs.", native: { nl: "Ik hou van katten en ik hou ook van honden." }, items: [en.also] }
+  - { id: s11, target: "Actually, I don't like milk.", native: { nl: "Eigenlijk vind ik melk niet lekker." }, items: [en.actually], acceptAlso: ["Actually, I do not like milk."] }
+  - { id: s12, target: "We didn't take the bus. We walked instead.", native: { nl: "We namen de bus niet. We liepen in plaats daarvan." }, items: [en.instead], acceptAlso: ["We did not take the bus. We walked instead."] }
+  - { id: s13, target: "It might rain tomorrow.", native: { nl: "Het zou morgen kunnen regenen." }, items: [en.might] }
+  - { id: s14, target: "You should drink more water.", native: { nl: "Je zou meer water moeten drinken." }, items: [en.should] }
+  - { id: s15, target: "I will help you.", native: { nl: "Ik zal je helpen." }, items: [en.will] }
+  - { id: s16, target: "Perhaps we can go to the beach.", native: { nl: "Misschien kunnen we naar het strand." }, items: [en.perhaps] }
+  - { id: s17, target: "The film was quite good.", native: { nl: "De film was best goed." }, items: [en.quite] }
+  - { id: s18, target: "It's just a small spider.", native: { nl: "Het is maar een klein spinnetje." }, items: [en.just], acceptAlso: ["It is just a small spider."] }
+  - { id: s19, target: "It's still raining.", native: { nl: "Het regent nog steeds." }, items: [en.still], acceptAlso: ["It is still raining."] }
+  - { id: s20, target: "Suddenly the lights went out.", native: { nl: "Plotseling ging het licht uit." }, items: [en.suddenly] }
+  - { id: s21, target: "I usually walk to school.", native: { nl: "Ik loop meestal naar school." }, items: [en.usually] }
+  - { id: s22, target: "I read a book while you were sleeping.", native: { nl: "Ik las een boek terwijl jij sliep." }, items: [en.while] }
+  - { id: s23, target: "See you next week!", native: { nl: "Tot volgende week!" }, items: [en.next] }
+  - { id: s24, target: "What will happen next?", native: { nl: "Wat gebeurt er daarna?" }, items: [en.happen] }
+  - { id: s25, target: "Of course you can come!", native: { nl: "Natuurlijk mag je komen!" }, items: [en.of-course] }
+  - { id: s26, target: "Can you help me? No problem!", native: { nl: "Kun je me helpen? Geen probleem!" }, items: [en.no-problem] }
+  - { id: s27, target: "Thanks for the present! You're welcome.", native: { nl: "Bedankt voor het cadeau! Graag gedaan." }, items: [en.you-re-welcome] }
+  - { id: s28, target: "You can come with us if you want.", native: { nl: "Je mag met ons mee als je wilt." }, items: [en.if-you-want] }
+  - { id: s29, target: "It's warm today.", native: { nl: "Het is warm vandaag." }, items: [en.warm], acceptAlso: ["It is warm today."] }
+lessons:
+  - { id: l01, title: { nl: Grote getallen en hoe lang }, vocab: [en.zero, en.thousand, en.million, en.kilometre, en.thirtieth, en.how-long] }
+  - { id: l02, title: { nl: Als en ook }, vocab: [en.if, en.as, en.as-as, en.also, en.actually, en.instead] }
+  - { id: l03, title: { nl: Misschien }, vocab: [en.might, en.should, en.will, en.perhaps, en.quite, en.just] }
+  - { id: l04, title: { nl: Plotseling }, vocab: [en.still, en.suddenly, en.usually, en.while, en.next, en.happen] }
+  - { id: l05, title: { nl: "Graag gedaan, het is warm" }, vocab: [en.of-course, en.no-problem, en.you-re-welcome, en.if-you-want, en.warm] }

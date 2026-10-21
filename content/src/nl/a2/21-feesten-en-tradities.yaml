@@ -1,0 +1,45 @@
+id: nl-a2-u21
+title: { en: Celebrations and traditions }
+icon: party
+topic: Holidays, weddings, births, wishes
+vocabulary:
+  - { target: de traditie, native: { en: tradition }, pos: noun, plural: tradities }
+  - { target: de feestdag, native: { en: "public holiday" }, pos: noun, plural: feestdagen }
+  - { target: Kerstmis, native: { en: Christmas }, pos: other }
+  - { target: Pasen, native: { en: Easter }, pos: other }
+  - { target: het nieuwjaar, native: { en: "New Year" }, pos: noun, plural: "-" }
+  - { target: gelukkig nieuwjaar, native: { en: "Happy New Year" }, pos: phrase }
+  - { target: prettige feestdagen, native: { en: "Season's greetings" }, pos: phrase }
+  - { target: veel geluk, native: { en: "good luck" }, pos: phrase }
+  - { target: de wens, native: { en: wish }, pos: noun, plural: wensen }
+  - { target: het huwelijk, native: { en: "marriage, wedding" }, pos: noun, plural: huwelijken }
+  - { target: de bruiloft, native: { en: wedding }, pos: noun, plural: bruiloften }
+  - { target: de geboorte, native: { en: birth }, pos: noun, plural: geboortes }
+  - { target: de begrafenis, native: { en: funeral }, pos: noun, plural: begrafenissen }
+  - { target: de verrassing, native: { en: surprise }, pos: noun, plural: verrassingen }
+  - { target: verrassen, native: { en: to surprise }, pos: verb }
+  - { target: de praline, native: { en: "chocolate (praline)" }, pos: noun, plural: pralines, alsoNL: de bonbon }
+  - { target: ontvangen, native: { en: "to receive, to welcome" }, pos: verb }
+  - { target: danken, native: { en: to thank }, pos: verb }
+  - { target: groeten, native: { en: to greet }, pos: verb }
+sentences:
+  - { id: s01, target: "In België zijn er veel tradities.", native: { en: "There are many traditions in Belgium." }, items: [nl.traditie], acceptAlso: ["Er zijn veel tradities in België."] }
+  - { id: s02, target: "Op een feestdag zijn de winkels dicht.", native: { en: "On a public holiday the shops are closed." }, items: [nl.feestdag], acceptAlso: ["De winkels zijn dicht op een feestdag.", "De winkels zijn op een feestdag dicht."] }
+  - { id: s03, target: "Met Kerstmis eten we bij mijn ouders.", native: { en: "At Christmas we eat at my parents' house." }, items: [nl.kerstmis], acceptAlso: ["We eten met Kerstmis bij mijn ouders."] }
+  - { id: s04, target: "Met Pasen zoeken de kinderen eieren in de tuin.", native: { en: "At Easter the children look for eggs in the garden." }, items: [nl.pasen], acceptAlso: ["Met Pasen zoeken de kinderen in de tuin eieren."] }
+  - { id: s05, target: "Hoe vieren jullie nieuwjaar?", native: { en: "How do you celebrate New Year?" }, items: [nl.nieuwjaar] }
+  - { id: s06, target: "Gelukkig nieuwjaar!", native: { en: "Happy New Year!" }, items: [nl.gelukkig-nieuwjaar] }
+  - { id: s07, target: "Prettige feestdagen!", native: { en: "Season's greetings!" }, items: [nl.prettige-feestdagen] }
+  - { id: s08, target: "Veel geluk met je examen!", native: { en: "Good luck with your exam!" }, items: [nl.veel-geluk] }
+  - { id: s09, target: "Alle goede wensen voor het nieuwe jaar!", native: { en: "All the best for the new year!" }, items: [nl.wens] }
+  - { id: s10, target: "Ze zijn al twintig jaar getrouwd: een gelukkig huwelijk.", native: { en: "They've been married for twenty years: a happy marriage." }, items: [nl.huwelijk] }
+  - { id: s11, target: "We zijn op een bruiloft uitgenodigd.", native: { en: "We've been invited to a wedding." }, items: [nl.bruiloft] }
+  - { id: s12, target: "Proficiat met de geboorte van jullie zoon!", native: { en: "Congratulations on the birth of your son!" }, items: [nl.geboorte] }
+  - { id: s13, target: "Morgen gaan we naar de begrafenis van zijn opa.", native: { en: "Tomorrow we're going to his grandpa's funeral." }, items: [nl.begrafenis], acceptAlso: ["We gaan morgen naar de begrafenis van zijn opa."] }
+  - { id: s14, target: "Wat een mooie verrassing!", native: { en: "What a lovely surprise!" }, items: [nl.verrassing] }
+  - { id: s15, target: "We willen onze moeder met een taart verrassen.", native: { en: "We want to surprise our mother with a cake." }, items: [nl.verrassen] }
+  - { id: s16, target: "Ik heb een doos pralines gekregen.", native: { en: "I was given a box of chocolates." }, items: [nl.praline] }
+  - { id: s17, target: "Ze hebben ons heel hartelijk ontvangen.", native: { en: "They gave us a very warm welcome." }, items: [nl.ontvangen] }
+  - { id: s18, target: "Ik dank u voor de uitnodiging.", native: { en: "Thank you for the invitation." }, items: [nl.danken] }
+  - { id: s19, target: "Ik groet de buren elke ochtend.", native: { en: "I greet the neighbours every morning." }, items: [nl.groeten], acceptAlso: ["Elke ochtend groet ik de buren."] }
+  - { id: s20, target: "Op 6 december komt Sinterklaas.", native: { en: "Saint Nicholas comes on 6 December." }, items: [nl.feestdag], acceptAlso: ["Sinterklaas komt op 6 december."] }

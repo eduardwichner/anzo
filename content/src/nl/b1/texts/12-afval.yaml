@@ -1,0 +1,38 @@
+id: nl-b1-t12
+kind: reading
+title: { en: "A new rubbish collection" }
+topic: The municipality and services (a notice from the town council)
+level: B1
+paragraphs:
+  - - { id: nl-b1-t12-s01, target: "Vanaf 1 januari wordt het afval in onze gemeente op een andere manier opgehaald.", native: { en: "From 1 January rubbish in our municipality will be collected in a different way." } }
+    - { id: nl-b1-t12-s02, target: "De gemeenteraad heeft die beslissing genomen omdat er nog te veel afval bij het restafval terechtkomt.", native: { en: "The town council took that decision because too much rubbish still ends up in the general waste." } }
+  - - { id: nl-b1-t12-s03, target: "Elk gezin krijgt een grijze container voor restafval en een groene container voor gft.", native: { en: "Every household gets a grey wheelie bin for general waste and a green one for organic waste." } }
+    - { id: nl-b1-t12-s04, target: "De containers worden in december aan huis geleverd. U hoeft er zelf niets voor te doen.", native: { en: "The bins will be delivered to your home in December. You don't need to do anything for it yourself." } }
+  - - { id: nl-b1-t12-s05, target: "Het restafval wordt voortaan om de twee weken opgehaald, het gft elke week.", native: { en: "From now on general waste will be collected every two weeks, organic waste every week." } }
+    - { id: nl-b1-t12-s06, target: "De ophaling van pmd en papier en karton blijft op dezelfde dagen als nu.", native: { en: "Plastics and cans, and paper and cardboard are still collected on the same days as now." } }
+    - { id: nl-b1-t12-s07, target: "Op de nieuwe afvalkalender, die u in uw brievenbus krijgt, ziet u alle dagen.", native: { en: "On the new rubbish calendar, which you'll get in your letterbox, you can see all the days." } }
+  - - { id: nl-b1-t12-s08, target: "Zet uw container de avond voor de ophaling buiten, maar niet voor zes uur 's avonds.", native: { en: "Put your bin out the evening before the collection, but not before six in the evening." } }
+    - { id: nl-b1-t12-s09, target: "Een container die te zwaar is of verkeerd afval bevat, wordt niet geleegd.", native: { en: "A bin that is too heavy or contains the wrong rubbish will not be emptied." } }
+  - - { id: nl-b1-t12-s10, target: "Wie minder restafval heeft, betaalt ook minder belasting. Zo loont sorteren dubbel.", native: { en: "Anyone with less general waste also pays less tax. So sorting pays off twice." } }
+    - { id: nl-b1-t12-s11, target: "Meer informatie krijgt u bij de milieudienst in het stadhuis of op de website van de gemeente.", native: { en: "You can get more information from the environment department at the town hall or on the municipality's website." } }
+glossary:
+  - { word: terechtkomt, native: { en: "ends up (terechtkomen)" } }
+  - { word: geleegd, native: { en: "emptied (legen)" } }
+  - { word: loont, native: { en: "pays off (lonen)" } }
+  - { word: milieudienst, native: { en: environment department } }
+items: [nl.restafval, nl.container, nl.gft, nl.pmd, nl.karton, nl.afvalkalender, nl.ophaling, nl.belasting, nl.gemeenteraad, nl.stadhuis, nl.zelf, nl.ander, nl.voortaan, nl.papier, nl.buiten, nl.dezelfde, nl.dubbel, nl.informatie, nl.bevatten, nl.verkeerd]
+questions:
+  - { id: nl-b1-t12-q1, type: mc, question: "Waarom verandert de ophaling van het afval?", options: ["Er komt nog te veel afval bij het restafval.", "De containers zijn te oud.", "De gemeente heeft een nieuwe burgemeester."], correct: 0 }
+  - { id: nl-b1-t12-q3, type: true_false_notgiven, statement: "Het gft wordt vaker opgehaald dan het restafval.", answer: true }
+  - { id: nl-b1-t12-q2, type: true_false_notgiven, statement: "De bewoners moeten hun nieuwe containers zelf in het stadhuis halen.", answer: false }
+  - { id: nl-b1-t12-q4, type: true_false_notgiven, statement: "Een container kost tien euro per maand.", answer: not_given }
+  - { id: nl-b1-t12-q5, type: match_heading, paragraph: 4, options: ["Wanneer zet u uw container buiten?", "Twee nieuwe containers", "Waarom de gemeente dit doet"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b1-t12-l1, type: mc, question: "Hoe vaak wordt het restafval voortaan opgehaald?", options: ["Om de twee weken.", "Elke week.", "Eén keer per maand."], correct: 0 }
+  - { id: nl-b1-t12-l2, type: true_false_notgiven, statement: "Wie goed sorteert, kan geld besparen.", answer: true }
+cloze:
+  - { sentence: nl-b1-t12-s01, word: wordt, kind: finite_verb, hint: { en: "worden (present)" } }
+  - { sentence: nl-b1-t12-s03, word: krijgt, kind: finite_verb, hint: { en: "krijgen (present)" } }
+  - { sentence: nl-b1-t12-s06, word: blijft, kind: finite_verb, hint: { en: "blijven (present)" } }
+  - { sentence: nl-b1-t12-s10, word: betaalt, kind: finite_verb, hint: { en: "betalen (present)" } }
+orderable: false

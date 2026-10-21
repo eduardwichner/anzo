@@ -1,0 +1,77 @@
+id: en-pre-a1-u03
+title: { nl: Kleuren en getallen }
+icon: colours
+topic: Colours; Numbers (1-20)
+vocabulary:
+  - { target: blue, native: { nl: blauw }, pos: adjective }
+  - { target: red, native: { nl: rood }, pos: adjective }
+  - { target: orange, native: { nl: "oranje, sinaasappel" }, pos: adjective }
+  - { target: pink, native: { nl: roze }, pos: adjective }
+  - { target: purple, native: { nl: paars }, pos: adjective }
+  - { target: grey, native: { nl: grijs }, pos: adjective }
+  - { target: colour, native: { nl: kleur }, pos: noun }
+  - { target: one, native: { nl: één }, pos: number }
+  - { target: two, native: { nl: twee }, pos: number }
+  - { target: three, native: { nl: drie }, pos: number }
+  - { target: four, native: { nl: vier }, pos: number }
+  - { target: five, native: { nl: vijf }, pos: number }
+  - { target: six, native: { nl: zes }, pos: number }
+  - { target: seven, native: { nl: zeven }, pos: number }
+  - { target: eight, native: { nl: acht }, pos: number }
+  - { target: nine, native: { nl: negen }, pos: number }
+  - { target: ten, native: { nl: tien }, pos: number }
+  - { target: number, native: { nl: getal }, pos: noun }
+  - { target: count, native: { nl: tellen }, pos: verb }
+  - { target: eleven, native: { nl: elf }, pos: number }
+  - { target: twelve, native: { nl: twaalf }, pos: number }
+  - { target: thirteen, native: { nl: dertien }, pos: number }
+  - { target: fourteen, native: { nl: veertien }, pos: number }
+  - { target: fifteen, native: { nl: vijftien }, pos: number }
+  - { target: add, native: { nl: optellen }, pos: verb }
+  - { target: sixteen, native: { nl: zestien }, pos: number }
+  - { target: seventeen, native: { nl: zeventien }, pos: number }
+  - { target: eighteen, native: { nl: achttien }, pos: number }
+  - { target: nineteen, native: { nl: negentien }, pos: number }
+  - { target: twenty, native: { nl: twintig }, pos: number }
+  - { target: double, native: { nl: dubbel }, pos: adjective }
+sentences:
+  - { id: s01, target: "My bag is blue.", native: { nl: "Mijn tas is blauw." }, items: [en.blue] }
+  - { id: s02, target: "I've got a red ball.", native: { nl: "Ik heb een rode bal." }, items: [en.red], acceptAlso: ["I have got a red ball."] }
+  - { id: s03, target: "The fish is orange.", native: { nl: "De vis is oranje." }, items: [en.orange, en.fish] }
+  - { id: s04, target: "Her dress is pink.", native: { nl: "Haar jurk is roze." }, items: [en.pink] }
+  - { id: s05, target: "Purple is my favourite colour.", native: { nl: "Paars is mijn lievelingskleur." }, items: [en.purple, en.colour] }
+  - { id: s06, target: "The elephant is grey.", native: { nl: "De olifant is grijs." }, items: [en.grey, en.elephant] }
+  - { id: s07, target: "What colour is your bike?", native: { nl: "Welke kleur heeft jouw fiets?" }, items: [en.colour] }
+  - { id: s08, target: "Colour the bird red.", native: { nl: "Kleur de vogel rood." }, items: [en.colour, en.red, en.bird] }
+  - { id: s09, target: "The sea is blue and the sand is yellow.", native: { nl: "De zee is blauw en het zand is geel." }, items: [en.blue, en.yellow] }
+  - { id: s10, target: "I've got one brother.", native: { nl: "Ik heb één broer." }, items: [en.one], acceptAlso: ["I have got one brother."] }
+  - { id: s11, target: "Two cats are sleeping.", native: { nl: "Twee katten liggen te slapen." }, items: [en.two, en.cat] }
+  - { id: s12, target: "I can see three birds.", native: { nl: "Ik zie drie vogels." }, items: [en.three, en.bird] }
+  - { id: s13, target: "The dog has got four legs.", native: { nl: "De hond heeft vier poten." }, items: [en.four, en.dog] }
+  - { id: s14, target: "There are five ducks in the water.", native: { nl: "Er zitten vijf eenden in het water." }, items: [en.five, en.duck] }
+  - { id: s15, target: "Ben is six.", native: { nl: "Ben is zes." }, items: [en.six] }
+  - { id: s16, target: "Seven and three is ten.", native: { nl: "Zeven en drie is tien." }, items: [en.seven, en.three, en.ten] }
+  - { id: s17, target: "There are eight spiders.", native: { nl: "Er zijn acht spinnen." }, items: [en.eight, en.spider] }
+  - { id: s18, target: "I'm nine today!", native: { nl: "Ik word vandaag negen!" }, items: [en.nine], acceptAlso: ["I am nine today!", "Today I'm nine!", "Today I am nine!"] }
+  - { id: s19, target: "Count to ten!", native: { nl: "Tel tot tien!" }, items: [en.count, en.ten] }
+  - { id: s20, target: "What's your favourite number?", native: { nl: "Wat is jouw lievelingsgetal?" }, items: [en.number], acceptAlso: ["What is your favourite number?"] }
+  - { id: s21, target: "Can you count the monkeys?", native: { nl: "Kun jij de apen tellen?" }, items: [en.count, en.monkey] }
+  - { id: s22, target: "There are eleven children in my class.", native: { nl: "Er zitten elf kinderen in mijn klas." }, items: [en.eleven] }
+  - { id: s23, target: "My sister is twelve.", native: { nl: "Mijn zus is twaalf." }, items: [en.twelve] }
+  - { id: s24, target: "There are thirteen books on the table.", native: { nl: "Er liggen dertien boeken op de tafel." }, items: [en.thirteen] }
+  - { id: s25, target: "I've got fourteen crayons.", native: { nl: "Ik heb veertien waskrijtjes." }, items: [en.fourteen], acceptAlso: ["I have got fourteen crayons."] }
+  - { id: s26, target: "Add five and ten. It's fifteen!", native: { nl: "Tel vijf en tien op. Dat is vijftien!" }, items: [en.add, en.five, en.ten, en.fifteen], acceptAlso: ["Add five and ten. It is fifteen!"] }
+  - { id: s27, target: "Add the numbers, please.", native: { nl: "Tel de getallen op, alsjeblieft." }, items: [en.add, en.number, en.please] }
+  - { id: s28, target: "There are sixteen sheep.", native: { nl: "Er zijn zestien schapen." }, items: [en.sixteen, en.sheep] }
+  - { id: s29, target: "My cousin is seventeen.", native: { nl: "Mijn neef is zeventien." }, items: [en.seventeen] }
+  - { id: s30, target: "Eighteen and two is twenty.", native: { nl: "Achttien en twee is twintig." }, items: [en.eighteen, en.two, en.twenty] }
+  - { id: s31, target: "There are nineteen apples in the box.", native: { nl: "Er zitten negentien appels in de doos." }, items: [en.nineteen] }
+  - { id: s32, target: "I've got twenty pencils!", native: { nl: "Ik heb twintig potloden!" }, items: [en.twenty], acceptAlso: ["I have got twenty pencils!"] }
+  - { id: s33, target: "Can you spell book? B, double O, K.", native: { nl: "Kun je book spellen? B, dubbel O, K." }, items: [en.double] }
+  - { id: s34, target: "Double six is twelve.", native: { nl: "Dubbel zes is twaalf." }, items: [en.double, en.six, en.twelve] }
+lessons:
+  - { id: l01, title: { nl: Kleuren }, vocab: [en.blue, en.red, en.orange, en.pink, en.purple, en.grey, en.colour] }
+  - { id: l02, title: { nl: Eén tot zes }, vocab: [en.one, en.two, en.three, en.four, en.five, en.six] }
+  - { id: l03, title: { nl: Zeven tot tien }, vocab: [en.seven, en.eight, en.nine, en.ten, en.number, en.count] }
+  - { id: l04, title: { nl: Elf tot vijftien }, vocab: [en.eleven, en.twelve, en.thirteen, en.fourteen, en.fifteen, en.add] }
+  - { id: l05, title: { nl: Zestien tot twintig }, vocab: [en.sixteen, en.seventeen, en.eighteen, en.nineteen, en.twenty, en.double] }

@@ -1,0 +1,77 @@
+id: nl-b1-u05
+title: { en: The landlord and repairs }
+icon: house
+topic: Repairs, maintenance, energy, the lease; er in its main uses
+vocabulary:
+  - { target: de verhuurder, native: { en: "landlord, landlady (who lets the home)" }, pos: noun, plural: verhuurders }
+  - { target: het huurcontract, native: { en: "lease, rental agreement" }, pos: noun, plural: huurcontracten }
+  - { target: de ketel, native: { en: boiler }, pos: noun, plural: ketels }
+  - { target: de schimmel, native: { en: mould }, pos: noun, plural: schimmels }
+  - { target: het vocht, native: { en: "damp, moisture (noun)" }, pos: noun, plural: "-" }
+  - { target: vochtig, native: { en: "damp (adjective)" }, pos: adjective }
+  - { target: de afvoer, native: { en: "drain, waste pipe" }, pos: noun, plural: afvoeren }
+  - { target: verstopt, native: { en: blocked }, pos: adjective }
+  - { target: de elektricien, native: { en: electrician }, pos: noun, plural: elektriciens }
+  - { target: het onderhoud, native: { en: maintenance }, pos: noun, plural: "-" }
+  - { target: onderhouden, native: { en: "to maintain, to look after" }, pos: verb }
+  - { target: nakijken, native: { en: "to check, to look at" }, pos: verb }
+  - { target: de controle, native: { en: "check, inspection" }, pos: noun, plural: controles }
+  - { target: de factuur, native: { en: invoice }, pos: noun, plural: facturen }
+  - { target: terugbetalen, native: { en: "to pay back, to refund" }, pos: verb }
+  - { target: langskomen, native: { en: "to come round, to drop by" }, pos: verb }
+  - { target: de conciërge, native: { en: caretaker }, pos: noun, plural: conciërges }
+  - { target: de syndicus, native: { en: "building manager (for the owners of a block of flats)" }, pos: noun, plural: syndici, alsoNL: de beheerder }
+  - { target: het gebouw, native: { en: building }, pos: noun, plural: gebouwen }
+  - { target: de overlast, native: { en: "nuisance, disturbance" }, pos: noun, plural: "-" }
+  - { target: de isolatie, native: { en: insulation }, pos: noun, plural: "-" }
+  - { target: isoleren, native: { en: to insulate }, pos: verb }
+  - { target: het verbruik, native: { en: consumption (energy) }, pos: noun, plural: "-" }
+  - { target: de meter, native: { en: "meter (gas, electricity, water)" }, pos: noun, plural: meters }
+  - { target: het gas, native: { en: gas }, pos: noun, plural: gassen }
+  - { target: de elektriciteit, native: { en: electricity }, pos: noun, plural: "-" }
+  - { target: beloven, native: { en: to promise }, pos: verb }
+  - { target: hopelijk, native: { en: hopefully }, pos: adverb }
+  - { target: helaas, native: { en: unfortunately }, pos: adverb }
+  - { target: opnieuw, native: { en: "again, once more" }, pos: adverb }
+  - { target: steeds, native: { en: "always, constantly; more and more (+ comparative)" }, pos: adverb }
+  - { target: het bad, native: { en: bath }, pos: noun, plural: baden }
+  - { target: veroorzaken, native: { en: to cause }, pos: verb }
+  - { target: ruiken, native: { en: to smell }, pos: verb }
+  - { target: branden, native: { en: "to burn, to be on (a light)" }, pos: verb }
+sentences:
+  - { id: s01, target: "Mijn verhuurder woont in hetzelfde gebouw.", native: { en: "My landlord lives in the same building." }, items: [nl.verhuurder, nl.gebouw] }
+  - { id: s02, target: "In het huurcontract staat wie de herstellingen betaalt.", native: { en: "The lease says who pays for the repairs." }, items: [nl.huurcontract], acceptAlso: ["Wie de herstellingen betaalt, staat in het huurcontract."] }
+  - { id: s03, target: "De ketel is weer kapot, dus er is geen warm water.", native: { en: "The boiler's broken again, so there's no hot water." }, items: [nl.ketel], acceptAlso: ["De ketel is weer kapot, dus is er geen warm water."] }
+  - { id: s04, target: "Er zit schimmel op de muur van de badkamer.", native: { en: "There's mould on the bathroom wall." }, items: [nl.schimmel] }
+  - { id: s05, target: "Het vocht komt door het dak.", native: { en: "The damp is coming through the roof." }, items: [nl.vocht] }
+  - { id: s06, target: "De slaapkamer is koud en vochtig.", native: { en: "The bedroom is cold and damp." }, items: [nl.vochtig] }
+  - { id: s07, target: "De afvoer van het bad is verstopt.", native: { en: "The bath drain is blocked." }, items: [nl.afvoer, nl.verstopt, nl.bad] }
+  - { id: s08, target: "Ik heb een elektricien gebeld omdat het licht niet meer werkt.", native: { en: "I called an electrician because the light doesn't work any more." }, items: [nl.elektricien], acceptAlso: ["Omdat het licht niet meer werkt, heb ik een elektricien gebeld."] }
+  - { id: s09, target: "Het onderhoud van de tuin is voor de huurder.", native: { en: "Looking after the garden is the tenant's job." }, items: [nl.onderhoud, nl.onderhouden] }
+  - { id: s10, target: "De ketel moet elk jaar onderhouden worden.", native: { en: "The boiler has to be serviced every year." }, items: [nl.onderhouden, nl.ketel], acceptAlso: ["Elk jaar moet de ketel onderhouden worden."] }
+  - { id: s11, target: "Kan iemand de verwarming komen nakijken?", native: { en: "Can someone come and check the heating?" }, items: [nl.nakijken] }
+  - { id: s12, target: "Morgen komt er iemand voor de controle van de ketel.", native: { en: "Tomorrow someone is coming to inspect the boiler." }, items: [nl.controle, nl.ketel], acceptAlso: ["Er komt morgen iemand voor de controle van de ketel."] }
+  - { id: s13, target: "De factuur van de loodgieter was hoger dan ik dacht.", native: { en: "The plumber's invoice was higher than I thought." }, items: [nl.factuur] }
+  - { id: s14, target: "De verhuurder zal de kosten terugbetalen.", native: { en: "The landlord will refund the costs." }, items: [nl.terugbetalen, nl.verhuurder] }
+  - { id: s15, target: "Kunt u morgen even langskomen?", native: { en: "Could you come round tomorrow?" }, items: [nl.langskomen] }
+  - { id: s16, target: "De conciërge heeft een sleutel van alle kelders.", native: { en: "The caretaker has a key to all the cellars." }, items: [nl.concierge] }
+  - { id: s17, target: "Voor problemen in de gang moet u de syndicus bellen.", native: { en: "For problems in the hallway you have to call the building manager." }, items: [nl.syndicus], acceptAlso: ["U moet voor problemen in de gang de syndicus bellen."] }
+  - { id: s18, target: "Onze buren veroorzaken veel overlast.", native: { en: "Our neighbours cause a lot of nuisance." }, items: [nl.overlast, nl.veroorzaken] }
+  - { id: s19, target: "Door de slechte isolatie betalen we veel voor de verwarming.", native: { en: "Because of the poor insulation we pay a lot for heating." }, items: [nl.isolatie], acceptAlso: ["We betalen door de slechte isolatie veel voor de verwarming.", "We betalen veel voor de verwarming door de slechte isolatie."] }
+  - { id: s20, target: "Het dak werd vorig jaar geïsoleerd.", native: { en: "The roof was insulated last year." }, items: [nl.isoleren], acceptAlso: ["Vorig jaar werd het dak geïsoleerd."], finite: { word: werd, hint: { en: "worden (past)" } } }
+  - { id: s21, target: "Ons verbruik van gas en elektriciteit is dit jaar lager.", native: { en: "Our gas and electricity consumption is lower this year." }, items: [nl.verbruik, nl.gas, nl.elektriciteit], acceptAlso: ["Dit jaar is ons verbruik van gas en elektriciteit lager."] }
+  - { id: s22, target: "De meter hangt in de kelder.", native: { en: "The meter is in the cellar." }, items: [nl.meter], acceptAlso: ["In de kelder hangt de meter."] }
+  - { id: s23, target: "Ruik je ook gas? Open dan meteen de ramen!", native: { en: "Can you smell gas too? Then open the windows at once!" }, items: [nl.gas, nl.ruiken] }
+  - { id: s24, target: "Hij heeft beloofd dat hij het lek snel zou herstellen.", native: { en: "He promised that he would repair the leak quickly." }, items: [nl.beloven] }
+  - { id: s25, target: "Hopelijk is de verwarming voor de winter hersteld.", native: { en: "Hopefully the heating will be fixed before winter." }, items: [nl.hopelijk] }
+  - { id: s26, target: "Helaas kan de loodgieter pas volgende week komen.", native: { en: "Unfortunately the plumber can't come until next week." }, items: [nl.helaas], acceptAlso: ["De loodgieter kan helaas pas volgende week komen."] }
+  - { id: s27, target: "De kraan lekt opnieuw.", native: { en: "The tap is leaking again." }, items: [nl.opnieuw], finite: { word: lekt, hint: { en: "lekken (present)" } } }
+  - { id: s28, target: "Het wordt steeds kouder in huis.", native: { en: "It's getting colder and colder in the house." }, items: [nl.steeds], acceptAlso: ["In huis wordt het steeds kouder.", "Het wordt in huis steeds kouder."] }
+  - { id: s29, target: "Hoeveel meters zijn er in het gebouw? Er zijn er drie.", native: { en: "How many meters are there in the building? There are three." }, items: [nl.meter, nl.gebouw] }
+  - { id: s30, target: "Woon je al lang in dit gebouw? Ik woon er al tien jaar.", native: { en: "Have you lived in this building long? I've lived here for ten years." }, items: [nl.gebouw] }
+  - { id: s31, target: "Ik heb er met de verhuurder over gepraat.", native: { en: "I've talked to the landlord about it." }, items: [nl.verhuurder] }
+  - { id: s32, target: "De buren van boven maken veel lawaai.", native: { en: "The neighbours upstairs make a lot of noise." }, items: [nl.boven] }
+  - { id: s33, target: "Dat is het gebouw waarin we vroeger woonden.", native: { en: "That's the building we used to live in." }, items: [nl.gebouw] }
+  - { id: s34, target: "Het gebouw is goed geïsoleerd. Bovendien is het verbruik laag.", native: { en: "The building is well insulated. What's more, the consumption is low." }, items: [nl.isoleren, nl.verbruik, nl.gebouw] }
+  - { id: s35, target: "In de gang brandt het licht de hele nacht.", native: { en: "In the hallway the light is on all night." }, items: [nl.branden] }
+texts: [nl-b1-t06]

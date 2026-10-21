@@ -1,0 +1,51 @@
+id: en-b2-t12
+kind: reading
+title: { nl: Verdwaald in de nevel }
+topic: Travel and adventure (a story for a writing competition)
+level: B2
+paragraphs:
+  - - { id: en-b2-t12-s01, target: "We had been walking for almost five hours when the mist came down.", native: { nl: "We waren al bijna vijf uur aan het wandelen toen de nevel neerdaalde." } }
+    - { id: en-b2-t12-s02, target: "One minute we could see the whole valley below us; the next, I could hardly see my brother, who was only a few metres ahead of me.", native: { nl: "Het ene moment konden we de hele vallei onder ons zien; het volgende kon ik mijn broer, die maar een paar meter voor me liep, nauwelijks zien." } }
+    - { id: en-b2-t12-s03, target: "\"Stay close,\" he said. \"The trail goes left here.\"", native: { nl: "\"Blijf dichtbij,\" zei hij. \"Het pad gaat hier naar links.\"" } }
+  - - { id: en-b2-t12-s04, target: "But after twenty minutes there was no trail any more.", native: { nl: "Maar na twintig minuten was er geen pad meer." } }
+    - { id: en-b2-t12-s05, target: "The ground had become steep and slippery, and every rock looked the same.", native: { nl: "De grond was steil en glad geworden, en elke rots zag er hetzelfde uit." } }
+    - { id: en-b2-t12-s06, target: "I took out my phone to check the map, but the battery had died hours earlier, because I had been taking photos all morning.", native: { nl: "Ik haalde mijn telefoon tevoorschijn om op de kaart te kijken, maar de batterij was uren eerder leeg geraakt, omdat ik de hele ochtend foto's had genomen." } }
+    - { id: en-b2-t12-s07, target: "I felt the panic rising in my chest.", native: { nl: "Ik voelde de paniek in mijn borst opkomen." } }
+  - - { id: en-b2-t12-s08, target: "My brother, however, stayed calm.", native: { nl: "Mijn broer bleef echter kalm." } }
+    - { id: en-b2-t12-s09, target: "He took out an old compass, which our grandfather had given him years before, and studied it carefully.", native: { nl: "Hij haalde een oud kompas tevoorschijn, dat onze opa hem jaren eerder had gegeven, en bestudeerde het aandachtig." } }
+    - { id: en-b2-t12-s10, target: "\"The hut is to the south,\" he said. \"If we walk slowly and stay together, we'll find it.\"", native: { nl: "\"De hut ligt in het zuiden,\" zei hij. \"Als we langzaam lopen en bij elkaar blijven, vinden we hem.\"" } }
+  - - { id: en-b2-t12-s11, target: "It was the longest hour of my life.", native: { nl: "Het was het langste uur van mijn leven." } }
+    - { id: en-b2-t12-s12, target: "We shouted from time to time and listened to the echo, hoping someone would answer.", native: { nl: "Af en toe riepen we en luisterden we naar de echo, in de hoop dat iemand zou antwoorden." } }
+    - { id: en-b2-t12-s13, target: "Then, just as it was getting dark, a light appeared through the mist, and a dog started barking.", native: { nl: "Toen, net toen het donker werd, verscheen er een licht door de nevel, en begon er een hond te blaffen." } }
+  - - { id: en-b2-t12-s14, target: "We had reached the hut at last.", native: { nl: "Eindelijk hadden we de hut bereikt." } }
+    - { id: en-b2-t12-s15, target: "The family who ran it gave us hot soup and dry socks, and nobody said a word about how foolish we had been.", native: { nl: "Het gezin dat de hut uitbaatte, gaf ons warme soep en droge sokken, en niemand zei een woord over hoe dwaas we geweest waren." } }
+    - { id: en-b2-t12-s16, target: "Since that day I have never gone into the mountains without a paper map and a compass of my own.", native: { nl: "Sinds die dag ben ik nooit meer de bergen in gegaan zonder papieren kaart en een eigen kompas." } }
+glossary:
+  - { word: chest, native: { nl: borst } }
+  - { word: barking, native: { nl: "blaffen (bark)" } }
+  - { word: foolish, native: { nl: dwaas } }
+items: [en.mist, en.trail, en.slippery, en.panic, en.compass, en.echo]
+gapped:
+  gaps: [en-b2-t12-s04, en-b2-t12-s08, en-b2-t12-s11, en-b2-t12-s14]
+  extra:
+    - { id: en-b2-t12-x1, target: "The weather forecast had promised sun all day.", native: { nl: "Het weerbericht had de hele dag zon voorspeld." } }
+openCloze:
+  - { sentence: en-b2-t12-s02, word: who }
+  - { sentence: en-b2-t12-s06, word: because, acceptAlso: [as, since] }
+  - { sentence: en-b2-t12-s12, word: from }
+  - { sentence: en-b2-t12-s16, word: without }
+wordForm:
+  - { sentence: en-b2-t12-s09, word: carefully, stem: care }
+  - { sentence: en-b2-t12-s10, word: slowly, stem: slow }
+  - { sentence: en-b2-t12-s05, word: slippery, stem: slip }
+questions:
+  - { id: en-b2-t12-q1, type: summary, options: ["The writer and the writer's brother got lost in the mist in the mountains, but the brother used an old compass, and they found a hut before dark.", "The writer and the writer's brother got lost in the mountains and had to spend the night outside until rescuers found them the next morning.", "The writer and the writer's brother argue about whether to use a phone or a compass to plan their walk in the mountains."], correct: 0 }
+  - { id: en-b2-t12-q2, type: mc, question: "Why couldn't the writer use the map on the phone?", options: ["The battery was empty.", "There was no signal.", "The phone had fallen on the rocks."], correct: 0 }
+  - { id: en-b2-t12-q3, type: true_false_notgiven, statement: "The writer's brother had got the compass from their grandfather.", answer: true }
+  - { id: en-b2-t12-q4, type: true_false_notgiven, statement: "The family at the hut criticised them for being foolish.", answer: false }
+  - { id: en-b2-t12-q5, type: true_false_notgiven, statement: "The writer and the brother had been to the hut before.", answer: not_given }
+  - { id: en-b2-t12-q6, type: match_heading, paragraph: 3, options: ["A calm brother", "Losing the trail", "Safe at last"], correct: 0 }
+listeningQuestions:
+  - { id: en-b2-t12-l1, type: complete, statement: "They had been walking for almost ___ hours when the mist came down.", answers: [five, "5"] }
+  - { id: en-b2-t12-l2, type: mc, question: "What did the family at the hut give them?", options: ["Hot soup and dry socks.", "A new map.", "A torch."], correct: 0 }
+orderable: false

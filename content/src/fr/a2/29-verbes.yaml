@@ -1,0 +1,48 @@
+id: fr-a2-u29
+title: { nl: Wat is er gebeurd?, en: "What happened?" }
+icon: actions
+topic: Raconter au passé; les verbes
+vocabulary:
+  - { target: tomber, native: { nl: vallen, en: "to fall" }, pos: verb }
+  - { target: devenir, native: { nl: worden, en: "to become" }, pos: verb }
+  - { target: revenir, native: { nl: terugkomen, en: "to come back" }, pos: verb }
+  - { target: casser, native: { nl: "breken, kapotmaken", en: "to break" }, pos: verb, avoid: [fr.se-casser] }
+  - { target: construire, native: { nl: bouwen, en: "to build" }, pos: verb }
+  - { target: réparer, native: { nl: "repareren, maken", en: "to repair, to fix, to mend" }, pos: verb }
+  - { target: se souvenir, native: { nl: zich herinneren, en: "to remember" }, pos: verb }
+  - { target: se perdre, native: { nl: verdwalen, en: "to get lost" }, pos: verb }
+  - { target: décider, native: { nl: beslissen, en: "to decide" }, pos: verb }
+  - { target: pousser, native: { nl: duwen, en: "to push" }, pos: verb }
+  - { target: tirer, native: { nl: trekken, en: "to pull" }, pos: verb, avoid: [fr.pousser] }
+  - { target: toucher, native: { nl: aanraken, en: "to touch" }, pos: verb }
+  - { target: suivre, native: { nl: volgen, en: "to follow" }, pos: verb }
+  - { target: disparaître, native: { nl: verdwijnen, en: "to disappear" }, pos: verb }
+  - { target: changer, native: { nl: veranderen, en: "to change" }, pos: verb }
+  - { target: grandir, native: { nl: "groeien, groot worden", en: "to grow, to grow up" }, pos: verb }
+  - { target: rencontrer, native: { nl: ontmoeten, en: "to meet" }, pos: verb }
+  - { target: réserver, native: { nl: reserveren, en: "to reserve, to make a booking" }, pos: verb }
+  - { target: vivre, native: { nl: "leven, wonen", en: "to live" }, pos: verb }
+sentences:
+  - { id: s01, target: "Je suis tombée de vélo.", native: { nl: "Ik ben van mijn fiets gevallen.", en: "I fell off my bike." }, items: [fr.tomber] }
+  - { id: s02, target: "Je veux devenir vétérinaire.", native: { nl: "Ik wil dierenarts worden.", en: "I want to become a vet." }, items: [fr.devenir] }
+  - { id: s03, target: "Nous sommes revenus de vacances hier.", native: { nl: "We zijn gisteren teruggekomen van vakantie.", en: "We came back from holiday yesterday." }, items: [fr.revenir] }
+  - { id: s04, target: "Non ! J'ai cassé mon stylo !", native: { nl: "Nee! Ik heb mijn pen kapotgemaakt!", en: "Oh no! I've broken my pen!" }, items: [fr.casser] }
+  - { id: s05, target: "Nous avons construit un château de sable.", native: { nl: "We hebben een zandkasteel gebouwd.", en: "We built a sandcastle." }, items: [fr.construire] }
+  - { id: s06, target: "Papa va réparer mon vélo.", native: { nl: "Papa gaat mijn fiets maken.", en: "Dad is going to fix my bike." }, items: [fr.reparer] }
+  - { id: s07, target: "Tu te souviens de notre voyage ?", native: { nl: "Weet je onze reis nog?", en: "Do you remember our trip?" }, items: [fr.se-souvenir] }
+  - { id: s08, target: "Je me suis perdue dans la ville.", native: { nl: "Ik ben verdwaald in de stad.", en: "I got lost in the town." }, items: [fr.se-perdre] }
+  - { id: s09, target: "J'ai décidé de faire du judo.", native: { nl: "Ik heb besloten om op judo te gaan.", en: "I've decided to do judo." }, items: [fr.decider] }
+  - { id: s10, target: "Tu peux pousser la porte ? Elle est lourde.", native: { nl: "Kun je de deur openduwen? Hij is zwaar.", en: "Can you push the door? It's heavy." }, items: [fr.pousser] }
+  - { id: s11, target: "Ne tire pas la queue du chat !", native: { nl: "Trek niet aan de staart van de kat!", en: "Don't pull the cat's tail!" }, items: [fr.tirer] }
+  - { id: s12, target: "Ne touche pas, c'est chaud !", native: { nl: "Niet aanraken, het is heet!", en: "Don't touch, it's hot!" }, items: [fr.toucher] }
+  - { id: s13, target: "Le chien suit le chat.", native: { nl: "De hond volgt de kat.", en: "The dog is following the cat." }, items: [fr.suivre] }
+  - { id: s14, target: "Mon livre a disparu !", native: { nl: "Mijn boek is verdwenen!", en: "My book has disappeared!" }, items: [fr.disparaitre] }
+  - { id: s15, target: "Qu'est-ce que tu veux changer dans ta chambre ?", native: { nl: "Wat wil jij veranderen in je kamer?", en: "What do you want to change in your bedroom?" }, items: [fr.changer] }
+  - { id: s16, target: "Le poisson est petit, mais il va grandir.", native: { nl: "De vis is klein, maar hij gaat groeien.", en: "The fish is small, but it's going to grow." }, items: [fr.grandir] }
+  - { id: s17, target: "J'ai rencontré une nouvelle amie à la piscine.", native: { nl: "Ik heb in het zwembad een nieuwe vriendin leren kennen.", en: "I met a new friend at the swimming pool." }, items: [fr.rencontrer] }
+  - { id: s18, target: "Mon papa peut nous réserver des places au cinéma.", native: { nl: "Mijn papa kan plaatsen in de bioscoop voor ons reserveren.", en: "My dad can reserve seats for us at the cinema." }, items: [fr.reserver] }
+  - { id: s19, target: "Les ours vivent dans la forêt.", native: { nl: "Beren leven in het bos.", en: "Bears live in the forest." }, items: [fr.vivre] }
+lessons:
+  - { id: l01, title: { nl: Gevallen!, en: "I fell!" }, vocab: [fr.tomber, fr.devenir, fr.revenir, fr.casser, fr.construire, fr.reparer, fr.disparaitre] }
+  - { id: l02, title: { nl: Duwen en trekken, en: "Pushing and pulling" }, vocab: [fr.se-souvenir, fr.se-perdre, fr.decider, fr.pousser, fr.tirer, fr.toucher] }
+  - { id: l03, title: { nl: Groot worden, en: "Growing up" }, vocab: [fr.suivre, fr.changer, fr.grandir, fr.rencontrer, fr.reserver, fr.vivre] }

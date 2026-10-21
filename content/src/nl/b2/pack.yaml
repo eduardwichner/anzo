@@ -1,0 +1,14 @@
+id: nl-b2
+cefr: B2
+native: en
+# The B2 core (Vantage). Units 1–20 (PLAN.md, B2); two optional branches follow it (nl-b2-work, nl-b2-study).
+finiteVerbFill: true
+source: >-
+  Dutch as spoken in Flanders (standard Belgian Dutch), level B2 for adult and teenage English speakers: longer texts and
+  dialogues, argument and opinion. Every word is in the derived Dutch word list (content/src/nl/WORDLIST.md) at B2 or below —
+  the B2 groups draw on NT2Lex (Tack et al. 2018, CC BY-NC-SA 4.0) and on the Staatsexamen NT2 Programma II 2025 booklets and the
+  CNaVT B2 profiles in content/reference/dutch/b2/ — or in a text's glossary. Units follow the domains, roles and can-do tasks of
+  Richtgraad 3 (Vantage). Grammar: the passive in all tenses (with modals), zou + infinitive, verb clusters, er in all its
+  functions, nominalisation, infinitive and participle constructions, fixed prepositions, formal connectors
+  (content/src/nl/PLAN.md). The texts are original (exam papers are models for text types only); English meanings written by the
+  content author.

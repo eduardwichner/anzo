@@ -1,0 +1,113 @@
+id: fr-b1-u20
+title: { nl: Nuttige woorden, en: "Useful words" }
+icon: idea
+topic: Des mots utiles pour expliquer et argumenter ; les pronoms démonstratifs (celui, cela)
+vocabulary:
+  - { target: l'aspect, native: { nl: het aspect, en: "aspect" }, pos: noun, gender: m }
+  - { target: le cas, native: { nl: het geval, en: "case" }, pos: noun, gender: m }
+  - { target: la chose, native: { nl: het ding (de zaak), en: "thing" }, pos: noun, gender: f }
+  - { target: la condition, native: { nl: de voorwaarde, en: "condition" }, pos: noun, gender: f }
+  - { target: le contexte, native: { nl: de context, en: "context" }, pos: noun, gender: m }
+  - { target: le domaine, native: { nl: het domein (gebied), en: "sphere, area of work" }, pos: noun, gender: m }
+  - { target: l'effet, native: { nl: het effect (gevolg), en: "effect" }, pos: noun, gender: m }
+  - { target: la façon, native: { nl: "de manier, de wijze", en: "way, manner" }, pos: noun, gender: f }
+  - { target: la manière, native: { nl: "de manier, de wijze", en: "way, manner" }, pos: noun, gender: f }
+  - { target: la forme, native: { nl: de vorm, en: "shape, form" }, pos: noun, gender: f }
+  - { target: le type, native: { nl: het type (soort), en: "type, sort" }, pos: noun, gender: m }
+  - { target: le moyen, native: { nl: het middel, en: "means" }, pos: noun, gender: m }
+  - { target: l'objectif, native: { nl: het doel, en: "goal, aim, objective" }, pos: noun, gender: m }
+  - { target: le problème, native: { nl: het probleem, en: "problem" }, pos: noun, gender: m }
+  - { target: la solution, native: { nl: de oplossing, en: "solution" }, pos: noun, gender: f }
+  - { target: la situation, native: { nl: de situatie, en: "situation" }, pos: noun, gender: f }
+  - { target: la possibilité, native: { nl: de mogelijkheid, en: "possibility, opportunity" }, pos: noun, gender: f }
+  - { target: la nécessité, native: { nl: de noodzaak, en: "necessity, need" }, pos: noun, gender: f }
+  - { target: l'importance, native: { nl: het belang, en: "importance" }, pos: noun, gender: f }
+  - { target: l'intérêt, native: { nl: de interesse, en: "interest" }, pos: noun, gender: m, avoid: [fr.importance] }
+  - { target: l'origine, native: { nl: de oorsprong, en: "origin" }, pos: noun, gender: f }
+  - { target: la particularité, native: { nl: "de bijzonderheid, het kenmerk", en: "special feature, characteristic" }, pos: noun, gender: f }
+  - { target: la facilité, native: { nl: het gemak, en: "ease" }, pos: noun, gender: f }
+  - { target: le rapport, native: { nl: "het verslag; het verband", en: "report; link" }, pos: noun, gender: m }
+  - { target: le circuit, native: { nl: "de rondrit, de tocht", en: "tour, circuit" }, pos: noun, gender: m, avoid: [fr.parcours] }
+  - { target: le cadre, native: { nl: het kader (de omgeving), en: "setting, framework (as in: as part of)" }, pos: noun, gender: m }
+  - { target: le groupe, native: { nl: de groep, en: "group" }, pos: noun, gender: m }
+  - { target: le projet, native: { nl: het project (plan), en: "project, plan" }, pos: noun, gender: m }
+  - { target: la proposition, native: { nl: het voorstel, en: "suggestion, proposal" }, pos: noun, gender: f, typedAlso: { en: [suggestion] } }
+  - { target: la recommandation, native: { nl: de aanbeveling, en: "recommendation" }, pos: noun, gender: f }
+  - { target: le conseil, native: { nl: de raad (advies), en: "advice, piece of advice" }, pos: noun, gender: m, avoid: [fr.recommandation] }
+  - { target: possible, native: { nl: mogelijk, en: "possible" }, pos: adjective }
+  - { target: nécessaire, native: { nl: nodig, en: "necessary" }, pos: adjective, avoid: [fr.essentiel] }
+  - { target: essentiel, native: { nl: essentieel, en: "essential" }, pos: adjective }
+  - { target: principal, native: { nl: voornaamste, en: "main" }, pos: adjective }
+  - { target: général, native: { nl: algemeen, en: "general" }, pos: adjective }
+  - { target: particulier, native: { nl: bijzonder, en: "special, particular" }, pos: adjective, typedAlso: { en: [spécial] } }
+  - { target: véritable, native: { nl: "echt, waar", en: "real, true" }, pos: adjective }
+  - { target: évident, native: { nl: vanzelfsprekend, en: "obvious" }, pos: adjective }
+  - { target: idéal, native: { nl: ideaal, en: "ideal" }, pos: adjective }
+  - { target: réaliste, native: { nl: realistisch, en: "realistic" }, pos: adjective }
+  - { target: simple, native: { nl: eenvoudig, en: "simple" }, pos: adjective }
+  - { id: fr.sur-adj, target: sûr, native: { nl: zeker, en: "sure" }, pos: adjective, typedAlso: { en: [certain] } }
+  - { target: juste, native: { nl: "rechtvaardig, juist", en: "fair" }, pos: adjective }
+  - { target: entier, native: { nl: heel (volledig), en: "whole, entire" }, pos: adjective }
+  - { target: même, native: { nl: "zelfde; zelfs", en: "same; even" }, pos: determiner }
+  - { target: aucun, native: { nl: geen enkel, en: "not any, not a single" }, pos: determiner }
+  - { target: cela, native: { nl: dat (dit), en: "that" }, pos: pronoun }
+  - { target: celui, native: { nl: degene (die), en: "the one who, the one that" }, pos: pronoun }
+  - { target: certain, native: { nl: sommige (bepaald), en: "some, certain" }, pos: determiner }
+  - { target: tel, native: { nl: zulk (zo'n), en: "such, such a" }, pos: determiner }
+  - { target: ordinaire, native: { nl: gewoon (alledaags), en: "ordinary" }, pos: adjective, noBlank: true }
+  - { target: nombreux, native: { nl: talrijk, en: "many, numerous" }, pos: adjective }
+  - { target: la plupart, native: { nl: de meeste (het merendeel), en: "most (the majority)" }, pos: noun, gender: f, typedAlso: { en: [majorité] } }
+sentences:
+  - { id: s01, target: "C'est un aspect important du problème.", native: { nl: "Dat is een belangrijk aspect van het probleem.", en: "That's an important aspect of the problem." }, items: [fr.aspect, fr.probleme] }
+  - { id: s02, target: "En cas de pluie, le match sera annulé.", native: { nl: "In geval van regen wordt de wedstrijd afgelast.", en: "In case of rain, the match will be cancelled." }, items: [fr.cas], acceptAlso: ["Le match sera annulé en cas de pluie."] }
+  - { id: s03, target: "J'ai encore beaucoup de choses à faire.", native: { nl: "Ik moet nog veel dingen doen.", en: "I still have a lot of things to do." }, items: [fr.chose] }
+  - { id: s04, target: "Tu peux venir, à une condition : tu rentres avant minuit.", native: { nl: "Je mag komen, op één voorwaarde: je bent voor middernacht thuis.", en: "You can come, on one condition: you're home before midnight." }, items: [fr.condition] }
+  - { id: s05, target: "Pour comprendre ce mot, il faut lire le contexte.", native: { nl: "Om dit woord te begrijpen, moet je de context lezen.", en: "To understand this word, you have to read the context." }, items: [fr.contexte] }
+  - { id: s06, target: "Elle travaille dans le domaine de la santé.", native: { nl: "Ze werkt op het gebied van de gezondheidszorg.", en: "She works in the area of health care." }, items: [fr.domaine] }
+  - { id: s07, target: "Ce médicament a un effet rapide.", native: { nl: "Dit medicijn heeft een snel effect.", en: "This medicine takes effect quickly." }, items: [fr.effet] }
+  - { id: s08, target: "Il y a plusieurs façons de répondre à cette question.", native: { nl: "Er zijn verschillende manieren om op deze vraag te antwoorden.", en: "There are several ways to answer this question." }, items: [fr.facon] }
+  - { id: s09, target: "Elle parle d'une manière très calme.", native: { nl: "Ze spreekt op een heel kalme manier.", en: "She speaks in a very calm manner." }, items: [fr.maniere] }
+  - { id: s10, target: "Ce gâteau a la forme d'un cœur.", native: { nl: "Deze taart heeft de vorm van een hart.", en: "This cake is in the shape of a heart." }, items: [fr.forme] }
+  - { id: s11, target: "Quel type de musique est-ce que tu aimes ?", native: { nl: "Van welk type muziek hou je?", en: "What type of music do you like?" }, items: [fr.type] }
+  - { id: s12, target: "Le vélo est le meilleur moyen de transport en ville.", native: { nl: "De fiets is het beste vervoermiddel in de stad.", en: "The bike is the best means of transport in town." }, items: [fr.moyen] }
+  - { id: s13, target: "Mon objectif est de réussir mon examen.", native: { nl: "Mijn doel is om voor mijn examen te slagen.", en: "My goal is to pass my exam." }, items: [fr.objectif] }
+  - { id: s14, target: "Nous avons trouvé une solution ensemble.", native: { nl: "We hebben samen een oplossing gevonden.", en: "We found a solution together." }, items: [fr.solution] }
+  - { id: s15, target: "La situation est difficile, mais nous allons trouver une solution.", native: { nl: "De situatie is moeilijk, maar we gaan een oplossing vinden.", en: "The situation is difficult, but we're going to find a solution." }, items: [fr.situation] }
+  - { id: s16, target: "Les élèves ont la possibilité de manger à la cantine.", native: { nl: "De leerlingen hebben de mogelijkheid om in de kantine te eten.", en: "The pupils have the possibility of eating in the canteen." }, items: [fr.possibilite] }
+  - { id: s17, target: "Apprendre une langue étrangère est une nécessité aujourd'hui.", native: { nl: "Een vreemde taal leren is vandaag een noodzaak.", en: "Learning a foreign language is a necessity today." }, items: [fr.necessite] }
+  - { id: s18, target: "Le professeur parle de l'importance du sport.", native: { nl: "De leraar spreekt over het belang van sport.", en: "The teacher talks about the importance of sport." }, items: [fr.importance] }
+  - { id: s19, target: "Il montre beaucoup d'intérêt pour l'histoire.", native: { nl: "Hij toont veel interesse voor geschiedenis.", en: "He shows a lot of interest in history." }, items: [fr.interet] }
+  - { id: s20, target: "Quelle est l'origine de ce mot ?", native: { nl: "Wat is de oorsprong van dit woord?", en: "What's the origin of this word?" }, items: [fr.origine] }
+  - { id: s21, target: "La particularité de cette ville, ce sont ses vieux ponts.", native: { nl: "Het bijzondere aan deze stad zijn haar oude bruggen.", en: "The special feature of this town is its old bridges." }, items: [fr.particularite] }
+  - { id: s22, target: "Il a appris le piano avec une grande facilité.", native: { nl: "Hij heeft met groot gemak piano leren spelen.", en: "He learnt the piano with great ease." }, items: [fr.facilite] }
+  - { id: s23, target: "Le professeur a lu le rapport de notre groupe.", native: { nl: "De leraar heeft het verslag van onze groep gelezen.", en: "The teacher read our group's report." }, items: [fr.rapport, fr.groupe] }
+  - { id: s24, target: "Nous avons fait un circuit à vélo dans la région.", native: { nl: "We hebben een fietstocht gemaakt door de streek.", en: "We did a cycling tour of the region." }, items: [fr.circuit] }
+  - { id: s25, target: "Dans le cadre de ce projet, nous visitons un musée.", native: { nl: "In het kader van dit project bezoeken we een museum.", en: "As part of this project, we're visiting a museum." }, items: [fr.cadre] }
+  - { id: s26, target: "Notre classe prépare un projet sur l'eau.", native: { nl: "Onze klas bereidt een project over water voor.", en: "Our class is preparing a project on water." }, items: [fr.projet] }
+  - { id: s27, target: "J'ai une proposition : allons au cinéma.", native: { nl: "Ik heb een voorstel: laten we naar de bioscoop gaan.", en: "I have a suggestion: let's go to the cinema." }, items: [fr.proposition] }
+  - { id: s28, target: "Suivez les recommandations du médecin.", native: { nl: "Volg de aanbevelingen van de dokter.", en: "Follow the doctor's recommendations." }, items: [fr.recommandation] }
+  - { id: s29, target: "Je peux te donner un conseil ?", native: { nl: "Mag ik je een raad geven?", en: "Can I give you some advice?" }, items: [fr.conseil] }
+  - { id: s30, target: "Ce n'est pas possible de tout faire en un jour.", native: { nl: "Het is niet mogelijk om alles op één dag te doen.", en: "It's not possible to do everything in one day." }, items: [fr.possible] }
+  - { id: s31, target: "Est-ce qu'il est nécessaire de réserver ?", native: { nl: "Is het nodig om te reserveren?", en: "Is it necessary to book?" }, items: [fr.necessaire] }
+  - { id: s32, target: "L'eau est essentielle à la vie.", native: { nl: "Water is essentieel voor het leven.", en: "Water is essential to life." }, items: [fr.essentiel] }
+  - { id: s33, target: "La raison principale de mon retard, c'est le bus.", native: { nl: "De voornaamste reden waarom ik te laat ben, is de bus.", en: "The main reason I'm late is the bus." }, items: [fr.principal] }
+  - { id: s34, target: "En général, je me lève à sept heures.", native: { nl: "Over het algemeen sta ik om zeven uur op.", en: "In general, I get up at seven o'clock." }, items: [fr.general] }
+  - { id: s35, target: "C'est un jour particulier pour notre famille.", native: { nl: "Het is een bijzondere dag voor ons gezin.", en: "It's a special day for our family." }, items: [fr.particulier] }
+  - { id: s36, target: "C'est une véritable amitié.", native: { nl: "Het is een echte vriendschap.", en: "It's a true friendship." }, items: [fr.veritable] }
+  - { id: s37, target: "La réponse est évidente.", native: { nl: "Het antwoord is vanzelfsprekend.", en: "The answer is obvious." }, items: [fr.evident] }
+  - { id: s38, target: "C'est le moment idéal pour partir.", native: { nl: "Het is het ideale moment om te vertrekken.", en: "It's the ideal moment to leave." }, items: [fr.ideal] }
+  - { id: s39, target: "Ton projet est intéressant, mais pas très réaliste.", native: { nl: "Je project is interessant, maar niet erg realistisch.", en: "Your project is interesting, but not very realistic." }, items: [fr.realiste] }
+  - { id: s40, target: "Elle porte toujours des vêtements simples.", native: { nl: "Ze draagt altijd eenvoudige kleren.", en: "She always wears simple clothes." }, items: [fr.simple] }
+  - { id: s41, target: "Tu es sûr de vouloir partir ?", native: { nl: "Weet je zeker dat je wilt vertrekken?", en: "Are you sure you want to leave?" }, items: [fr.sur-adj] }
+  - { id: s42, target: "Ce n'est pas juste : il a eu plus que moi !", native: { nl: "Dat is niet eerlijk: hij heeft meer gekregen dan ik!", en: "It's not fair: he got more than me!" }, items: [fr.juste] }
+  - { id: s43, target: "J'ai lu le livre entier en une nuit.", native: { nl: "Ik heb het hele boek in één nacht gelezen.", en: "I read the whole book in one night." }, items: [fr.entier] }
+  - { id: s44, target: "Nous avons le même professeur que l'année dernière.", native: { nl: "We hebben dezelfde leraar als vorig jaar.", en: "We have the same teacher as last year." }, items: [fr.meme] }
+  - { id: s45, target: "Aucun élève n'a trouvé la réponse.", native: { nl: "Geen enkele leerling heeft het antwoord gevonden.", en: "Not a single pupil found the answer." }, items: [fr.aucun] }
+  - { id: s46, target: "Cela ne me dérange pas.", native: { nl: "Dat stoort me niet.", en: "That doesn't bother me." }, items: [fr.cela] }
+  - { id: s47, target: "Quel sac préfères-tu ? Celui de ma sœur.", native: { nl: "Welke tas heb je liever? Die van mijn zus.", en: "Which bag do you prefer? The one that belongs to my sister." }, items: [fr.celui] }
+  - { id: s48, target: "Certains élèves viennent à l'école en bus.", native: { nl: "Sommige leerlingen komen met de bus naar school.", en: "Some pupils come to school by bus." }, items: [fr.certain] }
+  - { id: s49, target: "Je n'ai jamais vu une telle tempête.", native: { nl: "Ik heb nog nooit zo'n storm gezien.", en: "I've never seen such a storm." }, items: [fr.tel] }
+  - { id: s50, target: "C'était une journée ordinaire.", native: { nl: "Het was een gewone dag.", en: "It was an ordinary day." }, items: [fr.ordinaire] }
+  - { id: s51, target: "De nombreux touristes visitent la ville en été.", native: { nl: "Heel wat toeristen bezoeken de stad in de zomer.", en: "Many tourists visit the town in summer." }, items: [fr.nombreux], acceptAlso: ["En été, de nombreux touristes visitent la ville."] }
+  - { id: s52, target: "La plupart des élèves aiment le sport.", native: { nl: "De meeste leerlingen houden van sport.", en: "Most pupils like sport." }, items: [fr.plupart] }
+texts: [fr-b1-t21]

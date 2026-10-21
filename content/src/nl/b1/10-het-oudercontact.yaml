@@ -1,0 +1,70 @@
+id: nl-b1-u10
+title: { en: The parents' evening }
+icon: school
+topic: Progress, behaviour, support at school; linking words (doordat, zodat, hoewel)
+vocabulary:
+  - { target: het gedrag, native: { en: behaviour }, pos: noun, plural: "-" }
+  - { target: pesten, native: { en: to bully }, pos: verb }
+  - { target: de ruzie, native: { en: "quarrel, argument" }, pos: noun, plural: ruzies }
+  - { target: de straf, native: { en: punishment }, pos: noun, plural: straffen }
+  - { target: belonen, native: { en: to reward }, pos: verb }
+  - { target: de concentratie, native: { en: concentration }, pos: noun, plural: "-" }
+  - { target: zich concentreren, native: { en: to concentrate }, pos: verb }
+  - { target: de moeite, native: { en: "difficulty, trouble, effort" }, pos: noun, plural: "-" }
+  - { target: de vooruitgang, native: { en: progress }, pos: noun, plural: "-" }
+  - { target: de wiskunde, native: { en: "maths" }, pos: noun, plural: "-" }
+  - { target: de ondersteuning, native: { en: support }, pos: noun, plural: "-" }
+  - { target: de logopedist, native: { en: speech therapist }, pos: noun, plural: logopedisten }
+  - { target: motiveren, native: { en: to motivate }, pos: verb, avoid: [nl.aanmoedigen] }
+  - { target: aanmoedigen, native: { en: to encourage }, pos: verb }
+  - { target: de aandacht, native: { en: attention }, pos: noun, plural: "-" }
+  - { target: de interesse, native: { en: interest }, pos: noun, plural: interesses }
+  - { target: adviseren, native: { en: to advise }, pos: verb }
+  - { target: het zelfvertrouwen, native: { en: self-confidence }, pos: noun, plural: "-" }
+  - { target: verlegen, native: { en: shy }, pos: adjective }
+  - { target: actief, native: { en: active }, pos: adjective }
+  - { target: gemakkelijk, native: { en: easy }, pos: adjective }
+  - { target: de inspanning, native: { en: effort }, pos: noun, plural: inspanningen, avoid: [nl.moeite] }
+  - { target: de uitleg, native: { en: explanation }, pos: noun, plural: "-" }
+  - { target: snappen, native: { en: "to get, to understand" }, pos: verb }
+  - { target: beoordelen, native: { en: "to assess, to judge" }, pos: verb }
+  - { target: de evaluatie, native: { en: "assessment, evaluation" }, pos: noun, plural: evaluaties }
+  - { target: overgaan, native: { en: "to move up (to the next school year)" }, pos: verb }
+  - { target: de vriendschap, native: { en: friendship }, pos: noun, plural: vriendschappen }
+  - { target: doordat, native: { en: "because (of the fact that)" }, pos: conjunction }
+  - { target: de oefening, native: { en: exercise }, pos: noun, plural: oefeningen }
+  - { target: extra, native: { en: extra }, pos: adjective }
+  - { target: fijn, native: { en: "nice, pleasant" }, pos: adjective }
+  - { target: aanraden, native: { en: "to advise, to recommend" }, pos: verb }
+sentences:
+  - { id: s01, target: "De leerkracht is tevreden over zijn gedrag in de klas.", native: { en: "The teacher is pleased with his behaviour in class." }, items: [nl.gedrag] }
+  - { id: s02, target: "Op deze school wordt pesten niet aanvaard.", native: { en: "Bullying is not accepted at this school." }, items: [nl.pesten], finite: { word: wordt, hint: { en: "worden (present)" } } }
+  - { id: s03, target: "Ze had ruzie met haar beste vriendin.", native: { en: "She had an argument with her best friend." }, items: [nl.ruzie] }
+  - { id: s04, target: "Een straf helpt niet altijd.", native: { en: "A punishment doesn't always help." }, items: [nl.straf] }
+  - { id: s05, target: "Het is beter om goed gedrag te belonen.", native: { en: "It's better to reward good behaviour." }, items: [nl.belonen, nl.gedrag] }
+  - { id: s06, target: "Na de middag is zijn concentratie minder goed.", native: { en: "In the afternoon his concentration isn't as good." }, items: [nl.concentratie], acceptAlso: ["Zijn concentratie is na de middag minder goed."] }
+  - { id: s07, target: "Hij kan zich moeilijk concentreren als er lawaai is.", native: { en: "He finds it hard to concentrate when it's noisy." }, items: [nl.zich-concentreren] }
+  - { id: s08, target: "Ze heeft moeite met lezen.", native: { en: "She has difficulty reading." }, items: [nl.moeite], acceptAlso: ["Met lezen heeft ze moeite."] }
+  - { id: s09, target: "Ik zie veel vooruitgang sinds september.", native: { en: "I've seen a lot of progress since September." }, items: [nl.vooruitgang, nl.sinds] }
+  - { id: s10, target: "Wiskunde vindt hij het leukste vak.", native: { en: "He thinks maths is the best subject." }, items: [nl.wiskunde], acceptAlso: ["Hij vindt wiskunde het leukste vak."] }
+  - { id: s11, target: "Leerlingen die het moeilijk hebben, krijgen extra ondersteuning.", native: { en: "Pupils who are struggling get extra support." }, items: [nl.ondersteuning, nl.extra] }
+  - { id: s12, target: "Onze zoon gaat twee keer per week naar de logopedist.", native: { en: "Our son goes to the speech therapist twice a week." }, items: [nl.logopedist] }
+  - { id: s13, target: "Hoe kunnen we hem motiveren om meer te lezen?", native: { en: "How can we motivate him to read more?" }, items: [nl.motiveren] }
+  - { id: s14, target: "Moedig je kind aan, ook als het een fout maakt.", native: { en: "Encourage your child, even when they make a mistake." }, items: [nl.aanmoedigen] }
+  - { id: s15, target: "De juf geeft elk kind veel aandacht.", native: { en: "The teacher gives every child a lot of attention." }, items: [nl.aandacht] }
+  - { id: s16, target: "Hij heeft veel interesse in muziek.", native: { en: "He's very interested in music." }, items: [nl.interesse] }
+  - { id: s17, target: "De school adviseert een andere richting.", native: { en: "The school advises a different course of study." }, items: [nl.adviseren] }
+  - { id: s18, target: "Door de goede punten heeft ze meer zelfvertrouwen.", native: { en: "Thanks to her good marks she has more self-confidence." }, items: [nl.zelfvertrouwen], acceptAlso: ["Ze heeft door de goede punten meer zelfvertrouwen."] }
+  - { id: s19, target: "Hoewel ze verlegen is, heeft ze veel vriendinnen.", native: { en: "Although she's shy, she has a lot of friends." }, items: [nl.verlegen], acceptAlso: ["Ze heeft veel vriendinnen, hoewel ze verlegen is."] }
+  - { id: s20, target: "Hij is een actief kind dat graag buiten speelt.", native: { en: "He's an active child who likes playing outside." }, items: [nl.actief] }
+  - { id: s21, target: "Rekenen vindt ze gemakkelijk.", native: { en: "She finds arithmetic easy." }, items: [nl.gemakkelijk], acceptAlso: ["Ze vindt rekenen gemakkelijk."] }
+  - { id: s22, target: "Zijn punten zijn beter doordat hij meer inspanningen doet.", native: { en: "His marks are better because he's making more effort." }, items: [nl.inspanning, nl.doordat], acceptAlso: ["Doordat hij meer inspanningen doet, zijn zijn punten beter."] }
+  - { id: s23, target: "Na de uitleg van de juf snapte hij de oefening.", native: { en: "After the teacher's explanation he got the exercise." }, items: [nl.uitleg, nl.snappen, nl.oefening], acceptAlso: ["Hij snapte de oefening na de uitleg van de juf."], finite: { word: snapte, hint: { en: "snappen (past)" } } }
+  - { id: s24, target: "De taken worden elke week door de leerkracht beoordeeld.", native: { en: "The assignments are assessed by the teacher every week." }, items: [nl.beoordelen], acceptAlso: ["Elke week worden de taken door de leerkracht beoordeeld.", "De taken worden door de leerkracht elke week beoordeeld."] }
+  - { id: s25, target: "Na de evaluatie praten we met de ouders.", native: { en: "After the assessment we talk to the parents." }, items: [nl.evaluatie], acceptAlso: ["We praten na de evaluatie met de ouders."] }
+  - { id: s26, target: "Als ze zo verder werkt, gaat ze zeker over.", native: { en: "If she keeps working like this, she'll certainly move up." }, items: [nl.overgaan] }
+  - { id: s27, target: "Hun vriendschap begon in de kleuterschool.", native: { en: "Their friendship began at nursery school." }, items: [nl.vriendschap], finite: { word: begon, hint: { en: "beginnen (past)" } } }
+  - { id: s28, target: "Hij zit vooraan, zodat hij zich beter kan concentreren.", native: { en: "He sits at the front, so that he can concentrate better." }, items: [nl.zich-concentreren] }
+  - { id: s29, target: "De juf raadt ons aan om elke dag samen te lezen.", native: { en: "The teacher advises us to read together every day." }, items: [nl.aanraden] }
+  - { id: s30, target: "Het is fijn dat de juf veel aandacht aan elk kind geeft.", native: { en: "It is nice that the teacher gives every child a lot of attention." }, items: [nl.fijn, nl.aandacht] }
+texts: [nl-b1-t11]

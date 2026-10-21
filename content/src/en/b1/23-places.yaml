@@ -1,0 +1,135 @@
+id: en-b1-u23
+title: { nl: Stad en land }
+icon: city
+topic: Towns, buildings, regions and the countryside; relative clauses with where and whose, the passive (is situated, was built)
+vocabulary:
+  - { target: area, native: { nl: gebied }, pos: noun, avoid: [en.region, en.district], noBlank: true }
+  - { target: region, native: { nl: regio }, pos: noun, noBlank: true }
+  - { target: district, native: { nl: wijk (district) }, pos: noun, noBlank: true }
+  - { target: zone, native: { nl: zone }, pos: noun }
+  - { target: continent, native: { nl: werelddeel }, pos: noun }
+  - { target: capital, native: { nl: hoofdstad }, pos: noun }
+  - { target: population, native: { nl: bevolking }, pos: noun }
+  - { target: local, native: { nl: plaatselijk }, pos: adjective }
+  - { target: central, native: { nl: centraal }, pos: adjective }
+  - { target: northern, native: { nl: noordelijk }, pos: adjective, avoid: [en.southern] }
+  - { target: southern, native: { nl: zuidelijk }, pos: adjective }
+  - { target: eastern, native: { nl: oostelijk }, pos: adjective, avoid: [en.western] }
+  - { target: western, native: { nl: westelijk }, pos: adjective }
+  - { target: northeast, native: { nl: noordoosten }, pos: noun }
+  - { target: northwest, native: { nl: noordwesten }, pos: noun }
+  - { target: southeast, native: { nl: zuidoosten }, pos: noun }
+  - { target: southwest, native: { nl: zuidwesten }, pos: noun }
+  - { target: locate, native: { nl: "liggen, gelegen zijn" }, pos: verb, avoid: [en.situated] }
+  - { target: location, native: { nl: ligging (plek) }, pos: noun }
+  - { target: situated, native: { nl: gelegen }, pos: adjective, noBlank: true }
+  - { target: surround, native: { nl: omringen }, pos: verb }
+  - { target: nearby, native: { nl: in de buurt }, pos: adjective }
+  - { target: beside, native: { nl: naast }, pos: preposition, noBlank: true }
+  - { target: beneath, native: { nl: onder (beneden) }, pos: preposition, avoid: [en.underneath], noBlank: true }
+  - { target: beyond, native: { nl: voorbij (achter) }, pos: preposition, noBlank: true }
+  - { target: within, native: { nl: binnen }, pos: preposition }
+  - { target: edge, native: { nl: rand }, pos: noun }
+  - { target: upper, native: { nl: bovenste (opper-) }, pos: adjective, noBlank: true }
+  - { target: entry, native: { nl: toegang (ingang) }, pos: noun }
+  - { target: facilities, native: { nl: voorzieningen }, pos: noun }
+  - { target: crowded, native: { nl: druk (vol mensen) }, pos: adjective, avoid: [en.peaceful], noBlank: true }
+  - { target: peaceful, native: { nl: rustig (vredig) }, pos: adjective }
+  - { target: lively, native: { nl: levendig }, pos: adjective }
+  - { target: narrow, native: { nl: smal }, pos: adjective, avoid: [en.wide] }
+  - { target: wide, native: { nl: breed }, pos: adjective, noBlank: true }
+  - { target: broad, native: { nl: breed (ruim) }, pos: adjective, avoid: [en.wide], noBlank: true }
+  - { target: steep, native: { nl: steil }, pos: adjective }
+  - { target: giant, native: { nl: reusachtig }, pos: adjective, noBlank: true }
+  - { target: magnificent, native: { nl: prachtig (groots) }, pos: adjective, avoid: [en.gorgeous], noBlank: true }
+  - { target: spectacular, native: { nl: spectaculair }, pos: adjective }
+  - { target: ancient, native: { nl: oeroud (uit de oudheid) }, pos: adjective }
+  - { target: historic, native: { nl: historisch (belangrijk) }, pos: adjective }
+  - { target: historical, native: { nl: historisch (uit de geschiedenis) }, pos: adjective }
+  - { target: culture, native: { nl: cultuur }, pos: noun }
+  - { target: cultural, native: { nl: cultureel }, pos: adjective }
+  - { target: architecture, native: { nl: architectuur }, pos: noun }
+  - { target: attract, native: { nl: aantrekken }, pos: verb }
+  - { target: attraction, native: { nl: attractie (trekpleister) }, pos: noun }
+  - { target: monument, native: { nl: monument }, pos: noun }
+  - { target: statue, native: { nl: standbeeld }, pos: noun }
+  - { target: fountain, native: { nl: fontein }, pos: noun }
+  - { target: tower, native: { nl: toren }, pos: noun }
+  - { target: palace, native: { nl: paleis }, pos: noun }
+  - { target: cathedral, native: { nl: kathedraal }, pos: noun }
+  - { target: ruin, native: { nl: ruïne }, pos: noun }
+  - { target: rebuild, native: { nl: herbouwen }, pos: verb }
+  - { target: cottage, native: { nl: huisje (op het platteland) }, pos: noun }
+  - { target: hut, native: { nl: hut }, pos: noun }
+  - { target: canal, native: { nl: kanaal (gracht) }, pos: noun }
+  - { target: harbour, native: { nl: haven (voor boten) }, pos: noun }
+  - { target: port, native: { nl: havenstad (haven) }, pos: noun, avoid: [en.harbour] }
+  - { target: seaside, native: { nl: kust (aan zee) }, pos: noun, avoid: [en.coast], noBlank: true }
+  - { target: valley, native: { nl: vallei }, pos: noun }
+  - { target: scenery, native: { nl: landschap (natuurschoon) }, pos: noun, avoid: [en.landscape], noBlank: true }
+sentences:
+  - { id: s01, target: "This area is famous for its cheese.", native: { nl: "Dit gebied is beroemd om zijn kaas." }, items: [en.area] }
+  - { id: s02, target: "It often rains in this region.", native: { nl: "Het regent vaak in deze regio." }, items: [en.region], acceptAlso: ["In this region it often rains."] }
+  - { id: s03, target: "We live in a quiet district of the city.", native: { nl: "We wonen in een rustige wijk van de stad." }, items: [en.district] }
+  - { id: s04, target: "The centre is a car-free zone.", native: { nl: "Het centrum is een autovrije zone." }, items: [en.zone] }
+  - { id: s05, target: "Asia is the biggest continent.", native: { nl: "Azië is het grootste werelddeel." }, items: [en.continent] }
+  - { id: s06, target: "What's the capital of Australia?", native: { nl: "Wat is de hoofdstad van Australië?" }, items: [en.capital] }
+  - { id: s07, target: "The population of the town has doubled.", native: { nl: "De bevolking van de stad is verdubbeld." }, items: [en.population] }
+  - { id: s08, target: "We read about it in the local newspaper.", native: { nl: "We lazen erover in de plaatselijke krant." }, items: [en.local] }
+  - { id: s09, target: "The hotel is in a very central location.", native: { nl: "Het hotel ligt heel centraal." }, items: [en.central, en.location] }
+  - { id: s10, target: "It's colder in northern England.", native: { nl: "Het is kouder in het noorden van Engeland." }, items: [en.northern] }
+  - { id: s11, target: "Southern Spain is hot and dry in summer.", native: { nl: "Zuid-Spanje is warm en droog in de zomer." }, items: [en.southern], acceptAlso: ["In summer southern Spain is hot and dry."] }
+  - { id: s12, target: "They live in a small village in eastern Germany.", native: { nl: "Ze wonen in een klein dorp in Oost-Duitsland." }, items: [en.eastern] }
+  - { id: s13, target: "The storm will reach western Scotland tonight.", native: { nl: "De storm bereikt vanavond het westen van Schotland." }, items: [en.western], acceptAlso: ["Tonight the storm will reach western Scotland."] }
+  - { id: s14, target: "Newcastle is in the northeast of England.", native: { nl: "Newcastle ligt in het noordoosten van Engeland." }, items: [en.northeast] }
+  - { id: s15, target: "Liverpool is in the northwest.", native: { nl: "Liverpool ligt in het noordwesten." }, items: [en.northwest] }
+  - { id: s16, target: "The wind is coming from the southeast.", native: { nl: "De wind komt uit het zuidoosten." }, items: [en.southeast] }
+  - { id: s17, target: "Cornwall is in the southwest of England.", native: { nl: "Cornwall ligt in het zuidwesten van Engeland." }, items: [en.southwest] }
+  - { id: s18, target: "The station is located in the city centre.", native: { nl: "Het station ligt in het stadscentrum." }, items: [en.locate] }
+  - { id: s19, target: "The house is situated on a hill above the village.", native: { nl: "Het huis ligt op een heuvel boven het dorp." }, items: [en.situated] }
+  - { id: s20, target: "The garden is surrounded by a high wall.", native: { nl: "De tuin wordt omringd door een hoge muur." }, items: [en.surround] }
+  - { id: s21, target: "We had lunch in a nearby café.", native: { nl: "We lunchten in een café in de buurt." }, items: [en.nearby] }
+  - { id: s22, target: "She sat beside me on the bus.", native: { nl: "Ze zat naast me in de bus." }, items: [en.beside] }
+  - { id: s23, target: "There's a cellar beneath the shop.", native: { nl: "Er is een kelder onder de winkel." }, items: [en.beneath] }
+  - { id: s24, target: "The farm is just beyond the river.", native: { nl: "De boerderij ligt net voorbij de rivier." }, items: [en.beyond] }
+  - { id: s25, target: "Everything is within walking distance.", native: { nl: "Alles is op loopafstand." }, items: [en.within] }
+  - { id: s26, target: "They live on the edge of the forest.", native: { nl: "Ze wonen aan de rand van het bos." }, items: [en.edge] }
+  - { id: s27, target: "The upper floors have a view of the sea.", native: { nl: "De bovenste verdiepingen hebben uitzicht op zee." }, items: [en.upper] }
+  - { id: s28, target: "Entry to the park is free.", native: { nl: "De toegang tot het park is gratis." }, items: [en.entry] }
+  - { id: s29, target: "The village has good sports facilities.", native: { nl: "Het dorp heeft goede sportvoorzieningen." }, items: [en.facilities] }
+  - { id: s30, target: "The beach was very crowded.", native: { nl: "Het strand was heel druk." }, items: [en.crowded] }
+  - { id: s31, target: "It's a peaceful place, far from the noise of the city.", native: { nl: "Het is een rustige plek, ver van het lawaai van de stad." }, items: [en.peaceful] }
+  - { id: s32, target: "The market is very lively on Saturdays.", native: { nl: "De markt is heel levendig op zaterdag." }, items: [en.lively], acceptAlso: ["On Saturdays the market is very lively."] }
+  - { id: s33, target: "The streets in the old town are very narrow.", native: { nl: "De straten in de oude stad zijn heel smal." }, items: [en.narrow] }
+  - { id: s34, target: "The river is very wide here.", native: { nl: "De rivier is hier heel breed." }, items: [en.wide] }
+  - { id: s35, target: "He has broad shoulders.", native: { nl: "Hij heeft brede schouders." }, items: [en.broad] }
+  - { id: s36, target: "The path up the hill is very steep.", native: { nl: "Het pad de heuvel op is heel steil." }, items: [en.steep] }
+  - { id: s37, target: "There's a giant screen in the main square.", native: { nl: "Er staat een reusachtig scherm op het grote plein." }, items: [en.giant] }
+  - { id: s38, target: "We had a magnificent view of the mountains.", native: { nl: "We hadden een prachtig uitzicht op de bergen." }, items: [en.magnificent] }
+  - { id: s39, target: "The view from the top of the tower is spectacular.", native: { nl: "Het uitzicht vanaf de top van de toren is spectaculair." }, items: [en.spectacular, en.tower] }
+  - { id: s40, target: "This ancient tree is over a thousand years old.", native: { nl: "Deze oeroude boom is meer dan duizend jaar oud." }, items: [en.ancient] }
+  - { id: s41, target: "The old town is a historic area.", native: { nl: "De oude stad is een historisch gebied." }, items: [en.historic] }
+  - { id: s42, target: "She writes historical novels.", native: { nl: "Ze schrijft historische romans." }, items: [en.historical] }
+  - { id: s43, target: "I'd like to learn more about Japanese culture.", native: { nl: "Ik zou graag meer over de Japanse cultuur leren." }, items: [en.culture] }
+  - { id: s44, target: "The city has a lot of cultural events.", native: { nl: "De stad heeft veel culturele evenementen." }, items: [en.cultural] }
+  - { id: s45, target: "We're studying modern architecture.", native: { nl: "We bestuderen moderne architectuur." }, items: [en.architecture] }
+  - { id: s46, target: "The festival attracts thousands of visitors.", native: { nl: "Het festival trekt duizenden bezoekers aan." }, items: [en.attract] }
+  - { id: s47, target: "The castle is the town's biggest attraction.", native: { nl: "Het kasteel is de grootste trekpleister van de stad." }, items: [en.attraction] }
+  - { id: s48, target: "There's a monument to the soldiers in the square.", native: { nl: "Er staat een monument voor de soldaten op het plein." }, items: [en.monument] }
+  - { id: s49, target: "We met by the statue in the park.", native: { nl: "We spraken af bij het standbeeld in het park." }, items: [en.statue] }
+  - { id: s50, target: "Children were playing in the fountain.", native: { nl: "Er speelden kinderen in de fontein." }, items: [en.fountain] }
+  - { id: s51, target: "The king lived in this palace.", native: { nl: "De koning woonde in dit paleis." }, items: [en.palace] }
+  - { id: s52, target: "The cathedral was built eight hundred years ago.", native: { nl: "De kathedraal werd achthonderd jaar geleden gebouwd." }, items: [en.cathedral] }
+  - { id: s53, target: "We visited the ruins of an old castle.", native: { nl: "We bezochten de ruïnes van een oud kasteel." }, items: [en.ruin] }
+  - { id: s54, target: "After the fire, the school was rebuilt.", native: { nl: "Na de brand werd de school herbouwd." }, items: [en.rebuild], finite: { word: was, hint: { nl: "be (verleden tijd: … rebuilt)" } } }
+  - { id: s55, target: "We rented a little cottage in the countryside.", native: { nl: "We huurden een klein huisje op het platteland." }, items: [en.cottage] }
+  - { id: s56, target: "We stayed dry in a small hut during the storm.", native: { nl: "We bleven droog in een kleine hut tijdens de storm." }, items: [en.hut], acceptAlso: ["During the storm we stayed dry in a small hut."] }
+  - { id: s57, target: "Amsterdam has lots of canals.", native: { nl: "Amsterdam heeft veel grachten." }, items: [en.canal] }
+  - { id: s58, target: "The fishing boats are back in the harbour.", native: { nl: "De vissersboten liggen weer in de haven." }, items: [en.harbour] }
+  - { id: s59, target: "Rotterdam is one of the biggest ports in the world.", native: { nl: "Rotterdam is een van de grootste havens ter wereld." }, items: [en.port] }
+  - { id: s60, target: "We spent a week at the seaside.", native: { nl: "We brachten een week door aan zee." }, items: [en.seaside] }
+  - { id: s61, target: "A small river runs through the valley.", native: { nl: "Er stroomt een kleine rivier door de vallei." }, items: [en.valley] }
+  - { id: s62, target: "The scenery in Scotland is beautiful.", native: { nl: "Het landschap in Schotland is prachtig." }, items: [en.scenery] }
+  - { id: s63, target: "This is the area where my mother grew up.", native: { nl: "Dit is het gebied waar mijn moeder is opgegroeid." }, items: [en.area] }
+  - { id: s64, target: "That's the man whose cottage is next to the castle.", native: { nl: "Dat is de man wiens huisje naast het kasteel staat." }, items: [en.cottage] }
+texts: [en-b1-t24]

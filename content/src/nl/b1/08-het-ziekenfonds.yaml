@@ -1,0 +1,73 @@
+id: nl-b1-u08
+title: { en: Health insurance and the pharmacy }
+icon: health
+topic: The ziekenfonds, refunds, medicines, specialists; the passive
+vocabulary:
+  - { target: het lid, native: { en: member }, pos: noun, plural: leden }
+  - { target: het lidmaatschap, native: { en: membership }, pos: noun, plural: lidmaatschappen }
+  - { target: de bijdrage, native: { en: "contribution, fee" }, pos: noun, plural: bijdragen }
+  - { target: de terugbetaling, native: { en: "refund, reimbursement" }, pos: noun, plural: terugbetalingen, avoid: [nl.vergoeding] }
+  - { target: het remgeld, native: { en: "patient's share (of a medical cost)" }, pos: noun, plural: "-", alsoNL: de eigen bijdrage }
+  - { target: het bedrag, native: { en: amount }, pos: noun, plural: bedragen }
+  - { target: de vergoeding, native: { en: "allowance, compensation" }, pos: noun, plural: vergoedingen }
+  - { target: vergoeden, native: { en: "to reimburse, to pay for" }, pos: verb }
+  - { target: verzekerd, native: { en: insured }, pos: adjective }
+  - { target: de hospitalisatieverzekering, native: { en: "hospital insurance" }, pos: noun, plural: hospitalisatieverzekeringen }
+  - { target: de opname, native: { en: "admission (to hospital)" }, pos: noun, plural: opnames }
+  - { target: generiek, native: { en: generic }, pos: adjective }
+  - { target: het merk, native: { en: brand }, pos: noun, plural: merken }
+  - { target: de druppel, native: { en: drop }, pos: noun, plural: druppels }
+  - { target: de bijsluiter, native: { en: "package leaflet (with a medicine)" }, pos: noun, plural: bijsluiters, avoid: [nl.folder] }
+  - { target: het gebruik, native: { en: use }, pos: noun, plural: "-" }
+  - { target: nuchter, native: { en: "on an empty stomach" }, pos: adjective }
+  - { target: het ziekteverlof, native: { en: sick leave }, pos: noun, plural: "-" }
+  - { target: de arbeidsongeschiktheid, native: { en: "incapacity for work" }, pos: noun, plural: "-" }
+  - { target: de tandarts, native: { en: dentist }, pos: noun, plural: tandartsen }
+  - { target: de kinesist, native: { en: physiotherapist }, pos: noun, plural: kinesisten, alsoNL: de fysiotherapeut }
+  - { target: de oogarts, native: { en: "eye specialist, ophthalmologist" }, pos: noun, plural: oogartsen }
+  - { target: de lens, native: { en: "(contact) lens" }, pos: noun, plural: lenzen }
+  - { target: zwanger, native: { en: pregnant }, pos: adjective }
+  - { target: de zwangerschap, native: { en: pregnancy }, pos: noun, plural: zwangerschappen }
+  - { target: de bevalling, native: { en: "delivery, birth (of a baby)" }, pos: noun, plural: bevallingen }
+  - { target: het groeipakket, native: { en: "child benefit (in Flanders)" }, pos: noun, plural: "-" }
+  - { target: een paar, native: { en: "a few, a couple of" }, pos: phrase }
+  - { target: de folder, native: { en: "leaflet, brochure" }, pos: noun, plural: folders }
+  - { target: de meeste, native: { en: "most (of)" }, pos: phrase }
+  - { target: de rest, native: { en: "rest, remainder (what is left)" }, pos: noun, plural: "-" }
+  - { target: zelfs, native: { en: even }, pos: adverb }
+  - { target: de ziekte, native: { en: "illness, disease" }, pos: noun, plural: ziektes }
+sentences:
+  - { id: s01, target: "Iedereen die in België woont, moet lid zijn van een ziekenfonds.", native: { en: "Everyone who lives in Belgium has to be a member of a health insurance fund." }, items: [nl.lid] }
+  - { id: s02, target: "Het lidmaatschap kost ongeveer honderd euro per jaar.", native: { en: "Membership costs about a hundred euros a year." }, items: [nl.lidmaatschap], acceptAlso: ["Per jaar kost het lidmaatschap ongeveer honderd euro."] }
+  - { id: s03, target: "Elk jaar betaal je een kleine bijdrage aan het ziekenfonds.", native: { en: "Every year you pay a small fee to the health insurance fund." }, items: [nl.bijdrage] }
+  - { id: s04, target: "De terugbetaling staat binnen een week op je rekening.", native: { en: "The refund is in your account within a week." }, items: [nl.terugbetaling] }
+  - { id: s05, target: "Het remgeld betaal je zelf.", native: { en: "You pay the patient's share yourself." }, items: [nl.remgeld] }
+  - { id: s06, target: "Welk bedrag krijg ik terug?", native: { en: "What amount do I get back?" }, items: [nl.bedrag] }
+  - { id: s07, target: "Wie lang ziek is, krijgt een vergoeding van het ziekenfonds.", native: { en: "Anyone who is ill for a long time gets an allowance from the health insurance fund." }, items: [nl.vergoeding] }
+  - { id: s08, target: "Een bril wordt maar voor een deel vergoed.", native: { en: "Glasses are only partly paid for." }, items: [nl.vergoeden], finite: { word: wordt, hint: { en: "worden (present)" } } }
+  - { id: s09, target: "Bent u verzekerd voor een opname in het ziekenhuis?", native: { en: "Are you insured for a stay in hospital?" }, items: [nl.verzekerd, nl.opname] }
+  - { id: s10, target: "Een hospitalisatieverzekering betaalt de kosten die het ziekenfonds niet terugbetaalt.", native: { en: "Hospital insurance pays the costs that the health insurance fund doesn't refund." }, items: [nl.hospitalisatieverzekering] }
+  - { id: s11, target: "Na zijn opname moest hij nog een week rusten.", native: { en: "After his stay in hospital he had to rest for another week." }, items: [nl.opname], acceptAlso: ["Hij moest na zijn opname nog een week rusten."], finite: { word: moest, hint: { en: "moeten (past)" } } }
+  - { id: s12, target: "Een generiek medicijn is goedkoper dan een bekend merk.", native: { en: "A generic medicine is cheaper than a well-known brand." }, items: [nl.generiek, nl.merk] }
+  - { id: s13, target: "Neem drie keer per dag tien druppels.", native: { en: "Take ten drops three times a day." }, items: [nl.druppel] }
+  - { id: s14, target: "Lees de bijsluiter voordat u het medicijn gebruikt.", native: { en: "Read the leaflet before you use the medicine." }, items: [nl.bijsluiter] }
+  - { id: s15, target: "Deze pil moet u nuchter innemen.", native: { en: "You have to take this pill on an empty stomach." }, items: [nl.nuchter], acceptAlso: ["U moet deze pil nuchter innemen."] }
+  - { id: s16, target: "Mijn collega is twee weken met ziekteverlof.", native: { en: "My colleague is on sick leave for two weeks." }, items: [nl.ziekteverlof] }
+  - { id: s17, target: "Bij arbeidsongeschiktheid moet u een formulier naar het ziekenfonds sturen.", native: { en: "If you're unable to work, you have to send a form to the health insurance fund." }, items: [nl.arbeidsongeschiktheid], acceptAlso: ["U moet bij arbeidsongeschiktheid een formulier naar het ziekenfonds sturen."] }
+  - { id: s18, target: "Ik heb morgen een afspraak bij de tandarts.", native: { en: "I have a dentist's appointment tomorrow." }, items: [nl.tandarts], acceptAlso: ["Morgen heb ik een afspraak bij de tandarts."] }
+  - { id: s19, target: "Na de operatie ging ik twee keer per week naar de kinesist.", native: { en: "After the operation I went to the physiotherapist twice a week." }, items: [nl.kinesist], acceptAlso: ["Ik ging na de operatie twee keer per week naar de kinesist.", "Twee keer per week ging ik na de operatie naar de kinesist."] }
+  - { id: s20, target: "Voor een afspraak bij de oogarts moet je lang wachten.", native: { en: "For an appointment with the eye specialist you have to wait a long time." }, items: [nl.oogarts], acceptAlso: ["Je moet voor een afspraak bij de oogarts lang wachten."] }
+  - { id: s21, target: "Draagt u lenzen of een bril?", native: { en: "Do you wear contact lenses or glasses?" }, items: [nl.lens] }
+  - { id: s22, target: "Mijn vrouw is zwanger van ons tweede kind.", native: { en: "My wife is pregnant with our second child." }, items: [nl.zwanger] }
+  - { id: s23, target: "Tijdens de zwangerschap gaat ze elke maand naar de dokter.", native: { en: "During her pregnancy she goes to the doctor every month." }, items: [nl.zwangerschap, nl.tijdens], acceptAlso: ["Ze gaat tijdens de zwangerschap elke maand naar de dokter.", "Elke maand gaat ze tijdens de zwangerschap naar de dokter."] }
+  - { id: s24, target: "De bevalling is goed gegaan.", native: { en: "The delivery went well." }, items: [nl.bevalling] }
+  - { id: s25, target: "Het groeipakket wordt elke maand op je rekening gestort.", native: { en: "Child benefit is paid into your account every month." }, items: [nl.groeipakket] }
+  - { id: s26, target: "Hoeveel leden heeft jullie ziekenfonds?", native: { en: "How many members does your health insurance fund have?" }, items: [nl.lid] }
+  - { id: s27, target: "Na een paar dagen kreeg ik het geld terug.", native: { en: "After a few days I got the money back." }, items: [nl.een-paar], acceptAlso: ["Ik kreeg het geld na een paar dagen terug."] }
+  - { id: s28, target: "Na gebruik moet je de fles goed sluiten.", native: { en: "After use you must close the bottle properly." }, items: [nl.gebruik] }
+  - { id: s29, target: "De rest van de kosten betaalt u zelf.", native: { en: "You pay the rest of the costs yourself." }, items: [nl.rest], acceptAlso: ["U betaalt de rest van de kosten zelf."] }
+  - { id: s30, target: "In de folder van het ziekenfonds staan alle prijzen.", native: { en: "All the prices are in the health insurance fund's leaflet." }, items: [nl.folder] }
+  - { id: s31, target: "De meeste mensen zijn lid van een ziekenfonds.", native: { en: "Most people are members of a health insurance fund." }, items: [nl.de-meeste, nl.lid] }
+  - { id: s32, target: "Sommige behandelingen worden zelfs helemaal terugbetaald.", native: { en: "Some treatments are even refunded in full." }, items: [nl.zelfs] }
+  - { id: s33, target: "Bij een lange ziekte krijg je een uitkering.", native: { en: "With a long illness you get benefit." }, items: [nl.ziekte] }
+texts: [nl-b1-t09]

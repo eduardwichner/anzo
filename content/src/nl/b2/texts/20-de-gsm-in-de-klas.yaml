@@ -1,0 +1,59 @@
+id: nl-b2-t20
+kind: reading
+title: { en: Phones in the classroom }
+topic: Debate and argument (an opinion piece by a teacher in a newspaper)
+level: B2
+paragraphs:
+  - - { id: nl-b2-t20-s01, target: "Sinds september mogen de leerlingen van onze school hun gsm niet meer gebruiken tijdens de schooldag.", native: { en: "Since September the pupils at our school may no longer use their phones during the school day." } }
+    - { id: nl-b2-t20-s02, target: "Ze stoppen hem 's morgens in een kastje en krijgen hem pas na de laatste les terug.", native: { en: "They put it in a locker in the morning and only get it back after the last lesson." } }
+    - { id: nl-b2-t20-s03, target: "Steeds meer scholen in Vlaanderen doen hetzelfde, en de discussie erover is fel.", native: { en: "More and more schools in Flanders are doing the same, and the discussion about it is fierce." } }
+    - { id: nl-b2-t20-s04, target: "Als leerkracht wil ik die discussie wat nuanceren.", native: { en: "As a teacher I would like to add some nuance to that discussion." } }
+  - - { id: nl-b2-t20-s05, target: "De voorstanders van een verbod hebben sterke argumenten.", native: { en: "Those in favour of a ban have strong arguments." } }
+    - { id: nl-b2-t20-s06, target: "Ze wijzen erop dat de concentratie in de klas verbetert, dat er minder gepest wordt via sociale media en dat jongeren op de speelplaats weer met elkaar praten.", native: { en: "They point out that concentration in class improves, that there is less bullying via social media and that young people talk to each other again in the playground." } }
+    - { id: nl-b2-t20-s07, target: "Ook ik zie dat: de pauzes zijn luider, maar ook gezelliger geworden.", native: { en: "I see that too: the breaks have become louder, but also more sociable." } }
+  - - { id: nl-b2-t20-s08, target: "Niettemin vind ik dat een verbod alleen niet volstaat.", native: { en: "Nevertheless I think that a ban alone is not enough." } }
+    - { id: nl-b2-t20-s09, target: "Wie zijn gsm acht uur per dag in een kastje legt, leert immers niet hoe je hem verstandig gebruikt.", native: { en: "After all, anyone who puts their phone in a locker for eight hours a day doesn't learn how to use it sensibly." } }
+    - { id: nl-b2-t20-s10, target: "Zodra de schoolbel gaat, zitten veel leerlingen meteen weer urenlang achter hun scherm, en thuis is er vaak niemand die grenzen stelt.", native: { en: "As soon as the school bell rings, many pupils are straight back on their screens for hours, and at home there is often nobody to set limits." } }
+  - - { id: nl-b2-t20-s11, target: "Bovendien is de gsm ook een nuttig hulpmiddel.", native: { en: "Moreover, the phone is also a useful tool." } }
+    - { id: nl-b2-t20-s12, target: "In mijn lessen Nederlands zoeken leerlingen een woord op, nemen ze een gesprek op of controleren ze een bron.", native: { en: "In my Dutch lessons pupils look up a word, record a conversation or check a source." } }
+    - { id: nl-b2-t20-s13, target: "Het zou onredelijk zijn om dat allemaal te verbieden, terwijl we ook verwachten dat ze later digitaal vaardig zijn.", native: { en: "It would be unreasonable to ban all that, while we also expect them to be digitally literate later." } }
+  - - { id: nl-b2-t20-s20, target: "Ik vroeg mijn leerlingen van het vijfde jaar wat zij ervan vonden.", native: { en: "I asked my fifth-year pupils what they thought of it." } }
+    - { id: nl-b2-t20-s21, target: "Hun antwoorden waren genuanceerder dan ik had verwacht.", native: { en: "Their answers were more nuanced than I had expected." } }
+    - { id: nl-b2-t20-s22, target: "\"In het begin was het vreselijk\", gaf een leerling toe, \"maar nu merk ik dat ik me beter kan concentreren en dat ik minder moe ben.\"", native: { en: "\"At first it was terrible\", one pupil admitted, \"but now I notice that I can concentrate better and that I am less tired.\"" } }
+    - { id: nl-b2-t20-s23, target: "Een andere leerling was het niet eens met die mening: \"Op school mag het niet, maar thuis zit ik daardoor juist langer op mijn gsm, om alles in te halen wat ik gemist heb.\"", native: { en: "Another pupil didn't agree with that opinion: \"At school it isn't allowed, but because of that I actually spend longer on my phone at home, to catch up on everything I missed.\"" } }
+  - - { id: nl-b2-t20-s14, target: "Wat is dan de oplossing?", native: { en: "What is the solution, then?" } }
+    - { id: nl-b2-t20-s15, target: "Ik pleit voor een middenweg: geen gsm tijdens de pauzes, wel in de les als de leerkracht erom vraagt.", native: { en: "I argue for a middle way: no phone during breaks, but yes in class when the teacher asks for it." } }
+    - { id: nl-b2-t20-s16, target: "En vooral: lessen waarin we samen met de leerlingen nadenken over hoe sociale media werken en wat ze met ons doen.", native: { en: "And above all: lessons in which we think together with the pupils about how social media work and what they do to us." } }
+  - - { id: nl-b2-t20-s17, target: "Ofschoon het debat vaak hard gevoerd wordt, is er tussen voor- en tegenstanders meer consensus dan we denken.", native: { en: "Although the debate is often heated, there is more consensus between supporters and opponents than we think." } }
+    - { id: nl-b2-t20-s18, target: "Iedereen wil jongeren die zich kunnen concentreren en die kritisch zijn.", native: { en: "Everyone wants young people who can concentrate and who are critical." } }
+    - { id: nl-b2-t20-s19, target: "Bijgevolg is de vraag niet of de gsm de klas uit moet, maar hoe we leerlingen leren om er zelf de baas over te blijven.", native: { en: "Consequently the question is not whether the phone has to leave the classroom, but how we teach pupils to stay in charge of it themselves." } }
+glossary:
+  - { word: kastje, native: { en: "locker, small cupboard" } }
+  - { word: fel, native: { en: "fierce, heated" } }
+  - { word: volstaat, native: { en: "is enough (volstaan)" } }
+  - { word: verstandig, native: { en: "sensible, wise" } }
+  - { word: hulpmiddel, native: { en: "tool, aid" } }
+  - { word: vaardig, native: { en: skilled } }
+  - { word: middenweg, native: { en: "middle way, compromise" } }
+  - { word: baas, native: { en: "(de baas blijven over iets: to stay in control of something)" } }
+  - { word: gevoerd, native: { en: "conducted (een debat voeren)" } }
+  - { word: genuanceerder, native: { en: "more nuanced (genuanceerd)" } }
+  - { word: vreselijk, native: { en: terrible } }
+items: [nl.verbod, nl.nuanceren, nl.voorstander, nl.niettemin, nl.onredelijk, nl.pleiten, nl.ofschoon, nl.consensus, nl.tegenstander, nl.bijgevolg]
+openCloze:
+  - { sentence: nl-b2-t20-s05, word: van }
+  - { sentence: nl-b2-t20-s08, word: Niettemin, acceptAlso: [Toch, Desondanks, Echter, Zelf, Persoonlijk, Eigenlijk] }
+  - { sentence: nl-b2-t20-s11, word: Bovendien, acceptAlso: [Daarnaast, Verder, Anderzijds] }
+  - { sentence: nl-b2-t20-s13, word: terwijl, acceptAlso: [omdat, aangezien] }
+  - { sentence: nl-b2-t20-s19, word: Bijgevolg, acceptAlso: [Dus, Daarom, Eigenlijk, Kortom] }
+questions:
+  - { id: nl-b2-t20-q1, type: summary, options: ["Een leerkracht begrijpt de argumenten voor een verbod op de gsm, maar pleit voor een middenweg en voor lessen over sociale media.", "Een leerkracht begrijpt de argumenten tegen een verbod op de gsm, maar vindt dat de gsm toch op de hele school verboden moet worden.", "Een leerkracht vertelt hoe leerlingen hun gsm in de klas gebruiken om te spelen."], correct: 0 }
+  - { id: nl-b2-t20-q2, type: mc, question: "Welk argument van de voorstanders staat niet in de tekst?", options: ["De leerlingen halen betere punten.", "De concentratie in de klas verbetert.", "Er wordt minder gepest via sociale media."], correct: 0 }
+  - { id: nl-b2-t20-q3, type: true_false_notgiven, statement: "Volgens de auteur zijn de pauzes rustiger geworden.", answer: false }
+  - { id: nl-b2-t20-q4, type: true_false_notgiven, statement: "De auteur geeft les Nederlands.", answer: true }
+  - { id: nl-b2-t20-q5, type: true_false_notgiven, statement: "De ouders van de leerlingen zijn tegen het verbod.", answer: not_given }
+  - { id: nl-b2-t20-q6, type: match_heading, paragraph: 3, options: ["Waarom een verbod niet genoeg is", "Wat de voorstanders zeggen", "Een nieuwe regel op school"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-t20-l1, type: complete, statement: "De leerlingen stoppen hun gsm 's morgens in een ___.", answers: [kastje] }
+  - { id: nl-b2-t20-l2, type: mc, question: "Wanneer mag de gsm volgens de auteur wel gebruikt worden?", options: ["In de les als de leerkracht erom vraagt.", "Tijdens de pauzes.", "Nooit."], correct: 0 }
+orderable: false

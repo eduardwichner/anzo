@@ -1,0 +1,30 @@
+id: fr-b1-t02
+kind: dialogue
+title: { nl: Een spreekbeurt voorbereiden, en: "Preparing a presentation" }
+topic: L'école (two classmates making plans)
+level: B1
+speakers: { A: { name: Léa }, B: { name: Hugo } }
+turns:
+  - { id: fr-b1-t02-s01, speaker: A, target: "Salut Hugo ! Tu as déjà choisi un sujet pour l'exposé ?", native: { nl: "Hoi Hugo! Heb je al een onderwerp gekozen voor de spreekbeurt?", en: "Hi Hugo! Have you chosen a topic for the presentation yet?" } }
+  - { id: fr-b1-t02-s02, speaker: B, target: "Pas encore. J'hésite entre les volcans et les dauphins. Et toi ?", native: { nl: "Nog niet. Ik twijfel tussen vulkanen en dolfijnen. En jij?", en: "Not yet. I can't decide between volcanoes and dolphins. What about you?" } }
+  - { id: fr-b1-t02-s03, speaker: A, target: "Moi, je voudrais parler des abeilles. Elles sont très importantes pour la nature.", native: { nl: "Ik wil graag over bijen vertellen. Ze zijn heel belangrijk voor de natuur.", en: "I'd like to talk about bees. They're very important for nature." } }
+  - { id: fr-b1-t02-s04, speaker: B, target: "Bonne idée ! On pourrait faire l'exposé ensemble, non ?", native: { nl: "Goed idee! Zullen we de spreekbeurt samen maken?", en: "Good idea! We could do the presentation together, couldn't we?" } }
+  - { id: fr-b1-t02-s05, speaker: A, target: "D'accord. On peut aller à la bibliothèque mercredi après-midi.", native: { nl: "Oké. We kunnen woensdagmiddag naar de bibliotheek gaan.", en: "OK. We can go to the library on Wednesday afternoon." } }
+  - { id: fr-b1-t02-s06, speaker: B, target: "Super. Je vais apporter mon ordinateur pour faire les affiches.", native: { nl: "Super. Ik breng mijn computer mee om de posters te maken.", en: "Great. I'm going to bring my computer to make the posters." } }
+  - { id: fr-b1-t02-s07, speaker: A, target: "Et moi, je vais chercher des photos. Il faut finir avant vendredi.", native: { nl: "En ik ga foto's zoeken. We moeten klaar zijn vóór vrijdag.", en: "And I'm going to look for photos. We have to finish before Friday." } }
+  - { id: fr-b1-t02-s08, speaker: B, target: "Pas de problème. On a encore le temps.", native: { nl: "Geen probleem. We hebben nog tijd.", en: "No problem. We still have time." } }
+glossary:
+  - { word: problème, native: { nl: probleem, en: "problem" } }
+items: [fr.sujet, fr.expose, fr.hesiter, fr.probleme]
+questions:
+  - { id: fr-b1-t02-q1, type: mc, question: "De quoi Léa veut-elle parler ?", options: ["Des abeilles.", "Des volcans.", "Des dauphins."], correct: 0 }
+  - { id: fr-b1-t02-q2, type: true_false_notgiven, statement: "Quand Léa lui parle, Hugo a déjà choisi son sujet.", answer: false }
+  - { id: fr-b1-t02-q3, type: true_false_notgiven, statement: "Ils vont aller à la bibliothèque mercredi.", answer: true }
+  - { id: fr-b1-t02-q4, type: true_false_notgiven, statement: "Leur maîtresse aime beaucoup les abeilles.", answer: not_given }
+  - { id: fr-b1-t02-q5, type: mc, question: "Que va faire Hugo ?", options: ["Faire les affiches avec son ordinateur.", "Chercher des photos.", "Écrire le texte."], correct: 0 }
+cloze:
+  - { sentence: fr-b1-t02-s01, word: sujet, hint: { nl: onderwerp, en: "topic" } }
+  - { sentence: fr-b1-t02-s03, word: sont, kind: finite_verb, hint: { nl: "être (présent)", en: "être (present)" } }
+  - { sentence: fr-b1-t02-s05, word: peut, kind: finite_verb, hint: { nl: "pouvoir (présent)", en: "pouvoir (present)" } }
+  - { sentence: fr-b1-t02-s07, word: photos, hint: { nl: "foto's", en: "photos" } }
+orderable: true

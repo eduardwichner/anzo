@@ -1,0 +1,35 @@
+id: fr-b1-t13
+kind: reading
+title: { nl: Tweedehands kopen, en: "Buying second-hand" }
+topic: La consommation (un article d'un magazine pour ados)
+level: B1
+paragraphs:
+  - - { id: fr-b1-t13-s01, target: "Chaque année, les jeunes dépensent beaucoup d'argent pour leurs vêtements.", native: { nl: "Elk jaar geven jongeren veel geld uit aan hun kleren.", en: "Every year young people spend a lot of money on their clothes." } }
+    - { id: fr-b1-t13-s02, target: "Mais de plus en plus d'ados choisissent d'acheter de seconde main.", native: { nl: "Maar steeds meer tieners kiezen ervoor om tweedehands te kopen.", en: "But more and more teenagers are choosing to buy second-hand." } }
+  - - { id: fr-b1-t13-s03, target: "Lina, quinze ans, achète presque tous ses vêtements sur une application.", native: { nl: "Lina, vijftien jaar, koopt bijna al haar kleren via een app.", en: "Lina, fifteen, buys almost all her clothes on an app." } }
+    - { id: fr-b1-t13-s04, target: "« Les prix sont beaucoup plus bas, et je trouve des marques que je ne pourrais jamais acheter dans un magasin », explique-t-elle.", native: { nl: "\"De prijzen zijn veel lager, en ik vind merken die ik nooit in een winkel zou kunnen kopen\", legt ze uit.", en: "\"Prices are much lower, and I find brands I could never buy in a shop,\" she explains." } }
+    - { id: fr-b1-t13-s05, target: "Le mois dernier, elle a trouvé une veste en cuir pour quinze euros.", native: { nl: "Vorige maand vond ze een leren jas voor vijftien euro.", en: "Last month she found a leather jacket for fifteen euros." } }
+  - - { id: fr-b1-t13-s06, target: "Pour Sami, seize ans, la raison n'est pas le prix : elle est surtout écologique.", native: { nl: "Voor Sami, zestien jaar, is de reden niet de prijs: die is vooral ecologisch.", en: "For Sami, sixteen, the reason isn't the price: it's mainly environmental." } }
+    - { id: fr-b1-t13-s07, target: "« Pour faire un seul jean, il faut des milliers de litres d'eau. Je ne veux pas participer à ce gaspillage. »", native: { nl: "\"Voor één spijkerbroek zijn duizenden liters water nodig. Ik wil niet meedoen aan die verspilling.\"", en: "\"Making a single pair of jeans takes thousands of litres of water. I don't want to be part of that waste.\"" } }
+  - - { id: fr-b1-t13-s08, target: "Attention quand même : comparez bien les prix, et vérifiez la taille avant de payer.", native: { nl: "Let toch op: vergelijk de prijzen goed, en controleer de maat voordat je betaalt.", en: "Watch out, though: compare prices carefully and check the size before you pay." } }
+    - { id: fr-b1-t13-s09, target: "Sur certains sites, on ne peut pas être remboursé si le vêtement est trop petit.", native: { nl: "Op sommige websites krijg je je geld niet terug als het kledingstuk te klein is.", en: "On some websites you can't get a refund if the item of clothing is too small." } }
+glossary:
+  - { word: seconde main, native: { nl: tweedehands, en: "second-hand" } }
+items: [fr.depenser, fr.application, fr.marque, fr.cuir, fr.ecologique, fr.millier, fr.gaspillage, fr.comparer, fr.taille, fr.rembourser, fr.site, fr.raison, fr.ado, fr.participer, fr.surtout, fr.certain]
+questions:
+  - { id: fr-b1-t13-q1, type: mc, question: "Où Lina achète-t-elle ses vêtements ?", options: ["Sur une application.", "Dans les grands magasins.", "Au marché."], correct: 0 }
+  - { id: fr-b1-t13-q2, type: true_false_notgiven, statement: "Sami vend ses vieux vêtements sur Internet.", answer: not_given }
+  - { id: fr-b1-t13-q3, type: true_false_notgiven, statement: "Sami pense d'abord à l'environnement.", answer: true }
+  - { id: fr-b1-t13-q4, type: true_false_notgiven, statement: "Lina achète surtout ses vêtements dans les magasins.", answer: false }
+  - { id: fr-b1-t13-q5, type: mc, question: "Quel conseil donne l'article ?", options: ["Vérifier la taille avant de payer.", "Acheter seulement des marques.", "Payer avec une carte bancaire."], correct: 0 }
+  - { id: fr-b1-t13-q6, type: match_heading, paragraph: 3, options: ["Une question d'environnement", "Des marques à petit prix", "Faites attention !"], correct: 0 }
+listeningQuestions:
+  - { id: fr-b1-t13-l1, type: mc, question: "Combien Lina a-t-elle payé sa veste ?", options: ["Quinze euros.", "Cinquante euros.", "Cinq euros."], correct: 0 }
+  - { id: fr-b1-t13-l2, type: true_false_notgiven, statement: "On peut toujours être remboursé sur ces sites.", answer: false }
+cloze:
+  - { sentence: fr-b1-t13-s01, word: dépensent, kind: finite_verb, hint: { nl: "dépenser (présent)", en: "dépenser (present)" } }
+  - { sentence: fr-b1-t13-s02, word: choisissent, kind: finite_verb, hint: { nl: "choisir (présent)", en: "choisir (present)" } }
+  - { sentence: fr-b1-t13-s03, word: achète, kind: finite_verb, hint: { nl: "acheter (présent)", en: "acheter (present)" } }
+  - { sentence: fr-b1-t13-s04, word: pourrais, kind: finite_verb, hint: { nl: "pouvoir (conditionnel)", en: "pouvoir (conditional)" } }
+  - { sentence: fr-b1-t13-s05, word: trouvé, kind: finite_verb, hint: { nl: "trouver (passé composé: elle a …)", en: "trouver (passé composé: elle a …)" } }
+orderable: true

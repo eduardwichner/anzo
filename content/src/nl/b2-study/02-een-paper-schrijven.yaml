@@ -1,0 +1,53 @@
+id: nl-b2-study-u02
+title: { en: Writing a paper }
+icon: book
+topic: Academic reading and writing — the structure of a paper, quoting and paraphrasing, sources and plagiarism, formal style; the impersonal passive (Er wordt verwacht dat …) and door + te + infinitive
+vocabulary:
+  - { target: de paper, native: { en: "paper, written assignment (Belgian)" }, pos: noun, plural: papers, alsoNL: het werkstuk }
+  - { target: het essay, native: { en: essay }, pos: noun, plural: essays }
+  - { target: citeren, native: { en: to quote }, pos: verb }
+  - { target: het citaat, native: { en: quotation }, pos: noun, plural: citaten }
+  - { target: de bronvermelding, native: { en: "reference, citation of sources" }, pos: noun, plural: bronvermeldingen }
+  - { target: vermelden, native: { en: "to mention, to state" }, pos: verb }
+  - { target: letterlijk, native: { en: "literal, word for word" }, pos: adjective }
+  - { target: kopiëren, native: { en: to copy }, pos: verb }
+  - { target: het plagiaat, native: { en: plagiarism }, pos: noun, plural: "-" }
+  - { target: parafraseren, native: { en: to paraphrase }, pos: verb }
+  - { target: de alinea, native: { en: paragraph }, pos: noun, plural: "alinea's" }
+  - { target: de inleiding, native: { en: introduction }, pos: noun, plural: inleidingen }
+  - { target: de structuur, native: { en: structure }, pos: noun, plural: structuren }
+  - { target: de opbouw, native: { en: "structure, build-up (of a text)" }, pos: noun, plural: "-", avoid: [nl.structuur] }
+  - { target: de kern, native: { en: "core, heart; main body (of a text)" }, pos: noun, plural: kernen }
+  - { target: de definitie, native: { en: definition }, pos: noun, plural: definities }
+  - { target: de bibliografie, native: { en: "bibliography, list of references" }, pos: noun, plural: bibliografieën }
+  - { target: academisch, native: { en: academic }, pos: adjective }
+  - { target: formuleren, native: { en: "to formulate, to put into words" }, pos: verb }
+  - { target: herschrijven, native: { en: to rewrite }, pos: verb }
+  - { target: correct, native: { en: correct }, pos: adjective }
+sentences:
+  - { id: s01, target: "Voor dit opleidingsonderdeel schrijf je een paper over een onderwerp naar keuze.", native: { en: "For this module you write a paper on a subject of your choice." }, items: [nl.paper] }
+  - { id: s02, target: "Het essay telt voor de helft van de punten.", native: { en: "The essay counts for half of the marks." }, items: [nl.essay], acceptAlso: ["Voor de helft van de punten telt het essay."] }
+  - { id: s03, target: "Als je een zin letterlijk overneemt, moet je hem citeren.", native: { en: "If you take over a sentence word for word, you have to quote it." }, items: [nl.letterlijk, nl.citeren] }
+  - { id: s04, target: "Het citaat komt uit een interview met de minister.", native: { en: "The quotation comes from an interview with the minister." }, items: [nl.citaat] }
+  - { id: s05, target: "Een correcte bronvermelding is verplicht.", native: { en: "Correct referencing is compulsory." }, items: [nl.bronvermelding, nl.correct] }
+  - { id: s06, target: "Vergeet niet om de naam van de auteur te vermelden.", native: { en: "Don't forget to state the author's name." }, items: [nl.vermelden] }
+  - { id: s07, target: "Een tekst kopiëren zonder bron is plagiaat.", native: { en: "Copying a text without a source is plagiarism." }, items: [nl.kopieren, nl.plagiaat] }
+  - { id: s08, target: "Elke alinea gaat over één idee.", native: { en: "Each paragraph is about one idea." }, items: [nl.alinea] }
+  - { id: s09, target: "In de inleiding leg je uit waarover je paper gaat.", native: { en: "In the introduction you explain what your paper is about." }, items: [nl.inleiding] }
+  - { id: s10, target: "Een duidelijke structuur helpt elke lezer.", native: { en: "A clear structure helps every reader." }, items: [nl.structuur], form: { word: lezer, stem: lezen } }
+  - { id: s11, target: "De opbouw van een paper is altijd dezelfde: een inleiding, een kern en een besluit.", native: { en: "The structure of a paper is always the same: an introduction, a main body and a conclusion." }, items: [nl.opbouw, nl.kern] }
+  - { id: s12, target: "Begin met een definitie van de belangrijkste begrippen.", native: { en: "Start with a definition of the most important concepts." }, items: [nl.definitie] }
+  - { id: s13, target: "Zet alle bronnen in de bibliografie aan het einde van je paper.", native: { en: "Put all the sources in the bibliography at the end of your paper." }, items: [nl.bibliografie], acceptAlso: ["Zet alle bronnen aan het einde van je paper in de bibliografie."] }
+  - { id: s14, target: "Academische teksten zijn formeler dan een artikel in de krant.", native: { en: "Academic texts are more formal than an article in the newspaper." }, items: [nl.academisch] }
+  - { id: s15, target: "Probeer je mening zo duidelijk mogelijk te formuleren.", native: { en: "Try to express your opinion as clearly as possible." }, items: [nl.formuleren] }
+  - { id: s16, target: "Na de feedback van de docent heb ik de inleiding herschreven.", native: { en: "After the lecturer's feedback I rewrote the introduction." }, items: [nl.herschrijven, nl.inleiding], acceptAlso: ["Ik heb de inleiding na de feedback van de docent herschreven.", "Ik heb na de feedback van de docent de inleiding herschreven."] }
+  - { id: s17, target: "Parafraseren betekent dat je een tekst in je eigen woorden herschrijft.", native: { en: "Paraphrasing means that you rewrite a text in your own words." }, items: [nl.parafraseren], acceptAlso: ["Parafraseren betekent dat je een tekst herschrijft in je eigen woorden."] }
+  - { id: s18, target: "Er wordt verwacht dat elke alinea over één idee gaat.", native: { en: "It is expected that each paragraph is about one idea." }, items: [nl.alinea], build: true, acceptAlso: ["Er wordt verwacht dat elke alinea gaat over één idee."] }
+  - { id: s19, target: "Door een tekst te parafraseren, toon je dat je hem begrijpt.", native: { en: "By paraphrasing a text, you show that you understand it." }, items: [nl.parafraseren], build: true }
+  - { id: s20, target: "Ze citeert een bekende onderzoeker.", native: { en: "She quotes a well-known researcher." }, items: [nl.citeren], finite: { word: citeert, hint: { en: "citeren (present)" } } }
+  - { id: s21, target: "De docent heeft hoge verwachtingen van je eerste paper.", native: { en: "The lecturer has high expectations of your first paper." }, items: [nl.paper], form: { word: verwachtingen, stem: verwachten } }
+transforms:
+  - { id: x01, from: "Men verwacht dat je je bronnen vermeldt.", key: wordt, gapped: "Er ___ dat je je bronnen vermeldt.", answers: ["wordt verwacht", "wordt van je verwacht", "wordt van jou verwacht"], items: [nl.vermelden] }
+  - { id: x02, from: "Schrijf de tekst in je eigen woorden; zo toon je dat je hem begrijpt.", key: door, gapped: "___ in je eigen woorden te schrijven, toon je dat je hem begrijpt.", answers: ["Door de tekst", "Door een tekst", "Door die tekst"], items: [nl.parafraseren] }
+  - { id: x03, from: "Men controleert elke paper met een programma.", key: gecontroleerd, gapped: "Elke paper ___ met een programma.", answers: ["wordt gecontroleerd"], items: [nl.paper] }
+texts: [nl-b2-study-t02]

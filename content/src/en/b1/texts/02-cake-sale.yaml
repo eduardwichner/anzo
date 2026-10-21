@@ -1,0 +1,30 @@
+id: en-b1-t02
+kind: dialogue
+title: { nl: De taartverkoop }
+topic: School events (classmates making plans)
+level: B1
+speakers: { A: { name: Emma }, B: { name: Sam } }
+turns:
+  - { id: en-b1-t02-s01, speaker: A, target: "Sam, have you heard about the cake sale on Friday?", native: { nl: "Sam, heb je gehoord van de taartverkoop op vrijdag?" } }
+  - { id: en-b1-t02-s02, speaker: B, target: "Yes, Miss Brown told us this morning. It's for new library books, isn't it?", native: { nl: "Ja, juf Brown heeft het ons vanochtend verteld. Het is voor nieuwe bibliotheekboeken, toch?" } }
+  - { id: en-b1-t02-s03, speaker: A, target: "That's right. I'm going to bake chocolate cookies with my dad. What about you?", native: { nl: "Klopt. Ik ga chocoladekoekjes bakken met mijn vader. En jij?" } }
+  - { id: en-b1-t02-s04, speaker: B, target: "I'd like to help, but I can't bake. Could I sell the cakes instead?", native: { nl: "Ik wil graag helpen, maar ik kan niet bakken. Mag ik dan de taarten verkopen?" } }
+  - { id: en-b1-t02-s05, speaker: A, target: "Of course! We need people at the tables in the hall.", native: { nl: "Natuurlijk! We hebben mensen nodig aan de tafels in de aula." } }
+  - { id: en-b1-t02-s06, speaker: B, target: "Great. What time does it start?", native: { nl: "Super. Hoe laat begint het?" } }
+  - { id: en-b1-t02-s07, speaker: A, target: "At half past twelve, after lunch. Don't forget to bring some coins.", native: { nl: "Om half één, na de lunch. Vergeet niet wat muntjes mee te nemen." } }
+  - { id: en-b1-t02-s08, speaker: B, target: "I won't. I'll ask my mum for some tonight.", native: { nl: "Doe ik. Ik vraag er vanavond een paar aan mijn moeder." } }
+glossary:
+  - { word: sale, native: { nl: verkoop } }
+items: [en.bake, en.coin]
+questions:
+  - { id: en-b1-t02-q1, type: mc, question: "Why is there a cake sale?", options: ["To buy new library books.", "To go on a school trip.", "To help the school cook."], correct: 0 }
+  - { id: en-b1-t02-q2, type: true_false_notgiven, statement: "Sam is going to bake a cake.", answer: false }
+  - { id: en-b1-t02-q3, type: true_false_notgiven, statement: "The cake sale is in the school hall.", answer: true }
+  - { id: en-b1-t02-q4, type: true_false_notgiven, statement: "Miss Brown is going to bake cookies.", answer: not_given }
+  - { id: en-b1-t02-q5, type: mc, question: "What does Sam need to bring?", options: ["Some coins.", "A chocolate cake.", "A table."], correct: 0 }
+cloze:
+  - { sentence: en-b1-t02-s02, word: told, kind: finite_verb, hint: { nl: "tell (verleden tijd)" } }
+  - { sentence: en-b1-t02-s02, word: library, hint: { nl: bibliotheek } }
+  - { sentence: en-b1-t02-s04, word: bake, hint: { nl: bakken } }
+  - { sentence: en-b1-t02-s07, word: coins, hint: { nl: muntjes } }
+orderable: true

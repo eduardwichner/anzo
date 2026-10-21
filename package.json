@@ -1,0 +1,54 @@
+{
+  "name": "anzo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Self-hosted, LAN-only language-learning app for children",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "install:all": "npm install",
+    "build": "npm run build --workspace client",
+    "start": "node server/src/index.js",
+    "dev": "node scripts/dev.js",
+    "test": "npm test --workspace server",
+    "test:e2e": "node scripts/e2e.js",
+    "content:validate": "node scripts/validate-content.js",
+    "seed": "node scripts/seed-users.js",
+    "icons": "node scripts/generate-icons.js",
+    "audio:render": "nice -n 10 ionice -c3 node scripts/render-audio/index.js",
+    "content:format": "node scripts/format-packs.js",
+    "backup:db": "sudo -u anzo /opt/anzo/scripts/backup-db.sh --manual",
+    "test:live": "npx playwright test -c e2e/playwright.live.config.js",
+    "check:integrity": "node scripts/check-integrity.js",
+    "content:generate": "node scripts/generate-pack.js",
+    "content:trace": "node scripts/content/trace.js",
+    "content:wordlist": "node scripts/content/wordlist.js",
+    "content:status": "node scripts/content/status.js",
+    "content:lock": "node scripts/content/lock.js",
+    "test:content-job": "node scripts/jobs/integration.js",
+    "backup:full": "sudo node /opt/anzo/scripts/ops/backup-full.js",
+    "publish:check": "node scripts/ops/publish-check.js",
+    "ops:restart-check": "bash scripts/ops/restart-check.sh",
+    "audio:lexicon": "node scripts/render-audio/lexicon.js",
+    "audio:check": "nice -n 10 ionice -c3 node scripts/audio-check/index.js",
+    "audio:fix": "nice -n 10 ionice -c3 node scripts/audio-check/fix.js",
+    "docs:rules": "node scripts/docs-rules.js"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.11.1",
+    "@playwright/test": "^1.63.0",
+    "sharp": "^0.35.5",
+    "yaml": "^2.9.1"
+  },
+  "allowScripts": {
+    "bcrypt@6.0.0": true,
+    "better-sqlite3@13.0.3": true
+  }
+}

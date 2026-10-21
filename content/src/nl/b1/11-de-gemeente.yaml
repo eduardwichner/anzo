@@ -1,0 +1,66 @@
+id: nl-b1-u11
+title: { en: The municipality and services }
+icon: town
+topic: Rubbish collection, taxes, permits, the library, the council; the passive
+vocabulary:
+  - { target: de afvalkalender, native: { en: "rubbish collection calendar" }, pos: noun, plural: afvalkalenders }
+  - { target: het huisvuil, native: { en: household rubbish }, pos: noun, plural: "-", avoid: [nl.restafval] }
+  - { target: het restafval, native: { en: "general waste (not sorted)" }, pos: noun, plural: "-" }
+  - { target: het gft, native: { en: "organic waste (fruit, vegetables, garden)" }, pos: noun, plural: "-" }
+  - { target: het pmd, native: { en: "plastic and metal packaging and drink cartons (the blue bag)" }, pos: noun, plural: "-" }
+  - { target: het karton, native: { en: cardboard }, pos: noun, plural: kartons }
+  - { target: de container, native: { en: "container, wheelie bin" }, pos: noun, plural: containers, avoid: [nl.bak] }
+  - { target: de bak, native: { en: "bin, box (container)" }, pos: noun, plural: bakken }
+  - { target: de ophaling, native: { en: collection (of rubbish) }, pos: noun, plural: ophalingen, alsoNL: de inzameling }
+  - { target: de belasting, native: { en: tax }, pos: noun, plural: belastingen }
+  - { target: het stadhuis, native: { en: town hall }, pos: noun, plural: stadhuizen }
+  - { target: de burgemeester, native: { en: mayor }, pos: noun, plural: burgemeesters }
+  - { target: de schepen, native: { en: "alderman, member of the town's executive" }, pos: noun, plural: schepenen, alsoNL: de wethouder }
+  - { target: de gemeenteraad, native: { en: town council }, pos: noun, plural: gemeenteraden }
+  - { target: de inwoner, native: { en: inhabitant }, pos: noun, plural: inwoners }
+  - { target: de wachttijd, native: { en: waiting time }, pos: noun, plural: wachttijden }
+  - { target: het uittreksel, native: { en: "extract (an official copy from a register)" }, pos: noun, plural: uittreksels }
+  - { target: de vergunning, native: { en: "permit, licence" }, pos: noun, plural: vergunningen }
+  - { target: parkeren, native: { en: to park }, pos: verb }
+  - { target: de wegenwerken, native: { en: roadworks }, pos: noun, plural: "-", alsoNL: de wegwerkzaamheden }
+  - { target: afsluiten, native: { en: "to close off, to lock" }, pos: verb }
+  - { target: lenen, native: { en: "to borrow, to lend" }, pos: verb }
+  - { target: verlengen, native: { en: "to extend, to renew" }, pos: verb }
+  - { target: de lidkaart, native: { en: membership card }, pos: noun, plural: lidkaarten, alsoNL: de ledenpas }
+  - { target: het OCMW, native: { en: "public social welfare centre (in Flanders; now often called het Sociaal Huis)" }, pos: noun, plural: "-", alsoNL: de sociale dienst }
+  - { target: sociaal, native: { en: social }, pos: adjective }
+  - { target: de steun, native: { en: "support, aid" }, pos: noun, plural: "-", avoid: [nl.ondersteuning] }
+  - { target: buiten, native: { en: "outside" }, pos: adverb }
+  - { target: dezelfde, native: { en: "the same" }, pos: determiner }
+  - { target: dubbel, native: { en: "double, twice" }, pos: adjective }
+  - { target: de informatie, native: { en: information }, pos: noun, plural: "-" }
+sentences:
+  - { id: s01, target: "Op de afvalkalender staat wanneer het afval wordt opgehaald.", native: { en: "The rubbish calendar says when the rubbish is collected." }, items: [nl.afvalkalender], finite: { word: staat, hint: { en: "staan (present)" } } }
+  - { id: s02, target: "Het huisvuil wordt elke maandag opgehaald.", native: { en: "The household rubbish is collected every Monday." }, items: [nl.huisvuil], acceptAlso: ["Elke maandag wordt het huisvuil opgehaald."] }
+  - { id: s03, target: "Restafval gaat in de grijze container.", native: { en: "General waste goes in the grey wheelie bin." }, items: [nl.restafval, nl.container], acceptAlso: ["In de grijze container gaat restafval."] }
+  - { id: s04, target: "Groenten en fruit horen bij het gft.", native: { en: "Fruit and vegetables belong with the organic waste." }, items: [nl.gft], acceptAlso: ["Bij het gft horen groenten en fruit."] }
+  - { id: s05, target: "Plastic flessen gaan in de blauwe zak voor het pmd.", native: { en: "Plastic bottles go in the blue bag for plastics and cans." }, items: [nl.pmd] }
+  - { id: s06, target: "Zet het karton op de juiste dag buiten.", native: { en: "Put the cardboard out on the right day." }, items: [nl.karton, nl.buiten] }
+  - { id: s07, target: "Waar staat de bak voor het papier?", native: { en: "Where's the bin for paper?" }, items: [nl.bak] }
+  - { id: s08, target: "Door de feestdag is de ophaling een dag later.", native: { en: "Because of the public holiday the collection is a day later." }, items: [nl.ophaling], acceptAlso: ["De ophaling is door de feestdag een dag later."] }
+  - { id: s09, target: "Voor het afval betaalt u elk jaar een belasting aan de gemeente.", native: { en: "You pay the municipality a tax for rubbish every year." }, items: [nl.belasting], acceptAlso: ["U betaalt voor het afval elk jaar een belasting aan de gemeente.", "Elk jaar betaalt u voor het afval een belasting aan de gemeente."] }
+  - { id: s10, target: "Het stadhuis van Brugge is heel oud.", native: { en: "Bruges town hall is very old." }, items: [nl.stadhuis] }
+  - { id: s11, target: "De burgemeester opende het nieuwe zwembad.", native: { en: "The mayor opened the new swimming pool." }, items: [nl.burgemeester], finite: { word: opende, hint: { en: "openen (past)" } } }
+  - { id: s12, target: "De schepen van milieu wil meer fietspaden.", native: { en: "The alderman for the environment wants more cycle paths." }, items: [nl.schepen] }
+  - { id: s13, target: "Het plan werd door de gemeenteraad goedgekeurd.", native: { en: "The plan was approved by the town council." }, items: [nl.gemeenteraad], finite: { word: werd, hint: { en: "worden (past)" } } }
+  - { id: s14, target: "Onze gemeente heeft twintigduizend inwoners.", native: { en: "Our municipality has twenty thousand inhabitants." }, items: [nl.inwoner] }
+  - { id: s15, target: "Met een afspraak is er bijna geen wachttijd.", native: { en: "With an appointment there's hardly any waiting time." }, items: [nl.wachttijd], acceptAlso: ["Er is met een afspraak bijna geen wachttijd."] }
+  - { id: s16, target: "Voor mijn nieuwe job heb ik een uittreksel van het stadhuis nodig.", native: { en: "For my new job I need an extract from the town hall." }, items: [nl.uittreksel, nl.stadhuis], acceptAlso: ["Ik heb voor mijn nieuwe job een uittreksel van het stadhuis nodig."] }
+  - { id: s17, target: "Voor een feest op straat hebt u een vergunning nodig.", native: { en: "For a party in the street you need a permit." }, items: [nl.vergunning], acceptAlso: ["U hebt voor een feest op straat een vergunning nodig."] }
+  - { id: s18, target: "In deze straat mag je niet parkeren.", native: { en: "You're not allowed to park in this street." }, items: [nl.parkeren], acceptAlso: ["Je mag in deze straat niet parkeren."] }
+  - { id: s19, target: "Door de wegenwerken is de straat drie weken afgesloten.", native: { en: "Because of the roadworks the street is closed off for three weeks." }, items: [nl.wegenwerken, nl.afsluiten], acceptAlso: ["De straat is door de wegenwerken drie weken afgesloten."] }
+  - { id: s20, target: "In de bibliotheek kun je ook films lenen.", native: { en: "At the library you can borrow films too." }, items: [nl.lenen] }
+  - { id: s21, target: "Ik wil de boeken nog twee weken verlengen.", native: { en: "I'd like to renew the books for two more weeks." }, items: [nl.verlengen] }
+  - { id: s22, target: "Met je lidkaart kun je gratis boeken lenen.", native: { en: "With your membership card you can borrow books for free." }, items: [nl.lidkaart, nl.lenen] }
+  - { id: s23, target: "Mensen die weinig geld hebben, kunnen bij het OCMW steun krijgen.", native: { en: "People who have little money can get support from the social welfare centre." }, items: [nl.ocmw, nl.steun] }
+  - { id: s24, target: "De sociale dienst van het OCMW helpt bij problemen met de huur.", native: { en: "The social service of the social welfare centre helps with problems with the rent." }, items: [nl.sociaal, nl.ocmw], acceptAlso: ["Bij problemen met de huur helpt de sociale dienst van het OCMW."] }
+  - { id: s25, target: "De gemeente geeft steun aan verenigingen.", native: { en: "The municipality gives support to clubs and associations." }, items: [nl.steun] }
+  - { id: s26, target: "Het afval wordt elke week op dezelfde dag opgehaald.", native: { en: "The rubbish is collected on the same day every week." }, items: [nl.dezelfde] }
+  - { id: s27, target: "Wie niet sorteert, betaalt dubbel.", native: { en: "Anyone who doesn't sort their rubbish pays double." }, items: [nl.dubbel] }
+  - { id: s28, target: "Meer informatie vindt u op de website van de gemeente.", native: { en: "You'll find more information on the municipality's website." }, items: [nl.informatie], acceptAlso: ["U vindt meer informatie op de website van de gemeente."] }
+texts: [nl-b1-t12]

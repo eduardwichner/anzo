@@ -1,0 +1,29 @@
+id: fr-a2-u22
+title: { nl: Spelletjes, en: "Games" }
+icon: sport
+topic: Les jeux; se déguiser; jouer à cache-cache
+vocabulary:
+  - { target: le cerf-volant, native: { nl: de vlieger, en: "kite" }, pos: noun, gender: m }
+  - { target: le puzzle, native: { nl: de puzzel, en: "jigsaw, puzzle" }, pos: noun, gender: m }
+  - { target: les échecs, native: { nl: het schaken, en: "chess" }, pos: noun, gender: m }
+  - { target: collectionner, native: { nl: verzamelen, en: "to collect" }, pos: verb }
+  - { target: se déguiser, native: { nl: zich verkleden, en: "to dress up" }, pos: verb }
+  - { target: le déguisement, native: { nl: het verkleedpak, en: "costume, fancy dress" }, pos: noun, gender: m, avoid: [fr.costume] }
+  - { target: la couronne, native: { nl: de kroon, en: "crown" }, pos: noun, gender: f }
+  - { target: cacher, native: { nl: verstoppen, en: "to hide (something)" }, pos: verb }
+  - { target: se cacher, native: { nl: zich verstoppen, en: "to hide (yourself)" }, pos: verb, avoid: [fr.cacher] }
+  - { target: deviner, native: { nl: raden, en: "to guess" }, pos: verb }
+sentences:
+  - { id: s01, target: "Il y a du vent, on fait du cerf-volant !", native: { nl: "Het waait, we gaan vliegeren!", en: "It's windy, let's fly a kite!" }, items: [fr.cerf-volant] }
+  - { id: s02, target: "J'ai fini le puzzle de mille pièces.", native: { nl: "Ik heb de puzzel van duizend stukjes af.", en: "I've finished the thousand-piece jigsaw." }, items: [fr.puzzle] }
+  - { id: s03, target: "Mon grand-père joue aux échecs avec moi.", native: { nl: "Mijn opa schaakt met mij.", en: "My grandfather plays chess with me." }, items: [fr.echecs] }
+  - { id: s04, target: "Mon frère collectionne les timbres.", native: { nl: "Mijn broer verzamelt postzegels.", en: "My brother collects stamps." }, items: [fr.collectionner] }
+  - { id: s05, target: "Pour la fête, je me suis déguisée en reine.", native: { nl: "Voor het feest heb ik me als koningin verkleed.", en: "For the party I dressed up as a queen." }, items: [fr.se-deguiser] }
+  - { id: s06, target: "J'ai un déguisement de lion.", native: { nl: "Ik heb een leeuwenpak.", en: "I have a lion costume." }, items: [fr.deguisement] }
+  - { id: s07, target: "Le roi porte une couronne.", native: { nl: "De koning draagt een kroon.", en: "The king is wearing a crown." }, items: [fr.couronne] }
+  - { id: s08, target: "J'ai caché le cadeau sous le lit.", native: { nl: "Ik heb het cadeau onder het bed verstopt.", en: "I hid the present under the bed." }, items: [fr.cacher] }
+  - { id: s09, target: "Le chat se cache derrière le canapé.", native: { nl: "De kat verstopt zich achter de bank.", en: "The cat is hiding behind the sofa." }, items: [fr.se-cacher] }
+  - { id: s10, target: "Devine ce que j'ai dans la main !", native: { nl: "Raad eens wat ik in mijn hand heb!", en: "Guess what I have in my hand!" }, items: [fr.deviner] }
+lessons:
+  - { id: l01, title: { nl: Vlieger en puzzel, en: "Kite and jigsaw" }, vocab: [fr.cerf-volant, fr.puzzle, fr.echecs, fr.collectionner, fr.deviner] }
+  - { id: l02, title: { nl: Verkleden, en: "Dressing up" }, vocab: [fr.se-deguiser, fr.deguisement, fr.couronne, fr.cacher, fr.se-cacher] }

@@ -1,0 +1,68 @@
+id: en-a2-u08
+title: { nl: Koken en eten }
+icon: food
+topic: Food and drink
+vocabulary:
+  - { target: biscuit, native: { nl: koekje }, pos: noun }
+  - { target: butter, native: { nl: boter }, pos: noun }
+  - { target: cereal, native: { nl: ontbijtgranen }, pos: noun }
+  - { target: honey, native: { nl: honing }, pos: noun }
+  - { target: jam, native: { nl: jam }, pos: noun }
+  - { target: yoghurt, native: { nl: yoghurt }, pos: noun }
+  - { target: strawberry, native: { nl: aardbei }, pos: noun }
+  - { target: fork, native: { nl: vork }, pos: noun }
+  - { target: knife, native: { nl: mes }, pos: noun }
+  - { target: spoon, native: { nl: lepel }, pos: noun }
+  - { target: chopsticks, native: { nl: eetstokjes }, pos: noun }
+  - { target: salt, native: { nl: zout }, pos: noun }
+  - { target: pepper, native: { nl: peper }, pos: noun }
+  - { target: sugar, native: { nl: suiker }, pos: noun }
+  - { target: cooker, native: { nl: fornuis }, pos: noun }
+  - { target: oven, native: { nl: oven }, pos: noun, avoid: [en.cooker] }
+  - { target: fridge, native: { nl: koelkast }, pos: noun }
+  - { target: flour, native: { nl: "bloem, meel" }, pos: noun }
+  - { target: mix, native: { nl: mengen }, pos: verb }
+  - { target: prepare, native: { nl: "klaarmaken, voorbereiden" }, pos: verb }
+  - { target: meal, native: { nl: maaltijd }, pos: noun }
+  - { target: olives, native: { nl: olijven }, pos: noun }
+  - { target: pizza, native: { nl: pizza }, pos: noun }
+  - { target: snack, native: { nl: tussendoortje }, pos: noun }
+  - { target: delicious, native: { nl: heerlijk }, pos: adjective }
+  - { target: taste, native: { nl: "proeven, smaak" }, pos: verb }
+  - { target: smell, native: { nl: "ruiken, geur" }, pos: verb }
+sentences:
+  - { id: s01, target: "Can I have a biscuit, please?", native: { nl: "Mag ik een koekje, alsjeblieft?" }, items: [en.biscuit] }
+  - { id: s02, target: "I put butter on my bread.", native: { nl: "Ik doe boter op mijn brood." }, items: [en.butter] }
+  - { id: s03, target: "I eat cereal for breakfast.", native: { nl: "Ik eet ontbijtgranen als ontbijt." }, items: [en.cereal] }
+  - { id: s04, target: "Bees make honey.", native: { nl: "Bijen maken honing." }, items: [en.honey] }
+  - { id: s05, target: "I'd like some strawberry jam.", native: { nl: "Ik wil graag wat aardbeienjam." }, items: [en.jam, en.strawberry], acceptAlso: ["I would like some strawberry jam."] }
+  - { id: s06, target: "I have yoghurt with fruit.", native: { nl: "Ik eet yoghurt met fruit." }, items: [en.yoghurt] }
+  - { id: s07, target: "This strawberry is very sweet.", native: { nl: "Deze aardbei is heel zoet." }, items: [en.strawberry] }
+  - { id: s08, target: "You eat soup with a spoon.", native: { nl: "Je eet soep met een lepel." }, items: [en.spoon] }
+  - { id: s09, target: "Be careful with that knife!", native: { nl: "Pas op met dat mes!" }, items: [en.knife] }
+  - { id: s10, target: "Where's my fork?", native: { nl: "Waar is mijn vork?" }, items: [en.fork], acceptAlso: ["Where is my fork?"] }
+  - { id: s11, target: "Can you eat with chopsticks?", native: { nl: "Kun jij met eetstokjes eten?" }, items: [en.chopsticks] }
+  - { id: s12, target: "Put some salt on your potatoes.", native: { nl: "Doe wat zout op je aardappelen." }, items: [en.salt] }
+  - { id: s13, target: "This soup needs more pepper.", native: { nl: "Deze soep heeft meer peper nodig." }, items: [en.pepper] }
+  - { id: s14, target: "Don't eat too much sugar.", native: { nl: "Eet niet te veel suiker." }, items: [en.sugar], acceptAlso: ["Do not eat too much sugar."] }
+  - { id: s15, target: "Mum is cooking on the cooker.", native: { nl: "Mama kookt op het fornuis." }, items: [en.cooker] }
+  - { id: s16, target: "The cake is in the oven.", native: { nl: "De taart staat in de oven." }, items: [en.oven] }
+  - { id: s17, target: "Put the milk in the fridge.", native: { nl: "Zet de melk in de koelkast." }, items: [en.fridge] }
+  - { id: s18, target: "You need flour to make bread.", native: { nl: "Je hebt bloem nodig om brood te maken." }, items: [en.flour] }
+  - { id: s19, target: "Mix the eggs and the sugar.", native: { nl: "Meng de eieren en de suiker." }, items: [en.mix] }
+  - { id: s20, target: "Dad is preparing dinner.", native: { nl: "Papa maakt het avondeten klaar." }, items: [en.prepare] }
+  - { id: s21, target: "Breakfast is the first meal of the day.", native: { nl: "Het ontbijt is de eerste maaltijd van de dag." }, items: [en.meal] }
+  - { id: s22, target: "I don't like olives.", native: { nl: "Ik vind olijven niet lekker." }, items: [en.olives], acceptAlso: ["I do not like olives."] }
+  - { id: s23, target: "Let's make a pizza!", native: { nl: "Laten we een pizza maken!" }, items: [en.pizza] }
+  - { id: s24, target: "An apple is a good snack.", native: { nl: "Een appel is een goed tussendoortje." }, items: [en.snack] }
+  - { id: s25, target: "This cake is delicious!", native: { nl: "Deze taart is heerlijk!" }, items: [en.delicious] }
+  - { id: s26, target: "Taste this soup!", native: { nl: "Proef deze soep eens!" }, items: [en.taste] }
+  - { id: s27, target: "Can you taste the honey?", native: { nl: "Proef je de honing?" }, items: [en.taste, en.honey] }
+  - { id: s29, target: "Can you mix the flour and the eggs?", native: { nl: "Kun jij de bloem en de eieren mengen?" }, items: [en.mix] }
+  - { id: s30, target: "We must prepare the room for the party.", native: { nl: "We moeten de kamer klaarmaken voor het feest." }, items: [en.prepare] }
+  - { id: s28, target: "The flowers smell lovely.", native: { nl: "De bloemen ruiken heerlijk." }, items: [en.smell] }
+lessons:
+  - { id: l01, title: { nl: Ontbijt }, vocab: [en.biscuit, en.butter, en.cereal, en.honey, en.jam, en.yoghurt, en.strawberry] }
+  - { id: l02, title: { nl: Aan tafel }, vocab: [en.fork, en.knife, en.spoon, en.chopsticks, en.salt, en.pepper, en.sugar] }
+  - { id: l03, title: { nl: In de keuken }, vocab: [en.cooker, en.oven, en.fridge, en.flour, en.mix, en.prepare, en.meal] }
+  - { id: l04, title: { nl: Lekker! }, vocab: [en.olives, en.pizza, en.snack, en.delicious, en.taste, en.smell] }

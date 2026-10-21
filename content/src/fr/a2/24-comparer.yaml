@@ -1,0 +1,39 @@
+id: fr-a2-u24
+title: { nl: Groter dan..., en: "Bigger than..." }
+icon: compare
+topic: Comparer
+vocabulary:
+  - { target: moins, native: { nl: minder, en: "less" }, pos: adverb }
+  - { target: meilleur, native: { nl: "beter, beste", en: "better, best" }, pos: adjective, avoid: [fr.mieux] }
+  - { target: différent, native: { nl: "anders, verschillend", en: "different" }, pos: adjective }
+  - { target: pareil, native: { nl: "hetzelfde, gelijk", en: "the same, alike" }, pos: adjective }
+  - { target: léger, native: { nl: licht (niet zwaar), en: "light (not heavy)" }, pos: adjective }
+  - { target: lourd, native: { nl: zwaar, en: "heavy" }, pos: adjective }
+  - { target: rapide, native: { nl: snel, en: "fast, quick" }, pos: adjective, avoid: [fr.vite] }
+  - { target: lent, native: { nl: langzaam, en: "slow" }, pos: adjective }
+  - { target: haut, native: { nl: hoog, en: "high" }, pos: adjective }
+  - { target: bas, native: { nl: laag, en: "low" }, pos: adjective }
+  - { target: dur, native: { nl: hard, en: "hard" }, pos: adjective }
+  - { target: doux, native: { nl: zacht, en: "soft" }, pos: adjective }
+  - { target: plein, native: { nl: vol, en: "full" }, pos: adjective }
+  - { target: vide, native: { nl: leeg, en: "empty" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Ma valise est aussi lourde que mon sac.", native: { nl: "Mijn koffer is even zwaar als mijn tas.", en: "My suitcase is as heavy as my bag." }, items: [fr.lourd] }
+  - { id: s02, target: "Mon frère est moins grand que moi.", native: { nl: "Mijn broer is kleiner dan ik.", en: "My brother isn't as tall as me." }, items: [fr.moins] }
+  - { id: s03, target: "C'est mon meilleur ami.", native: { nl: "Hij is mijn beste vriend.", en: "He's my best friend." }, items: [fr.meilleur] }
+  - { id: s04, target: "Les pizzas de papa sont meilleures !", native: { nl: "De pizza's van papa zijn lekkerder!", en: "Dad's pizzas are better!" }, items: [fr.meilleur] }
+  - { id: s05, target: "Les deux chats sont très différents.", native: { nl: "De twee katten zijn heel verschillend.", en: "The two cats are very different." }, items: [fr.different] }
+  - { id: s06, target: "Ton pull et mon pull sont pareils !", native: { nl: "Jouw trui en mijn trui zijn hetzelfde!", en: "Your jumper and my jumper are the same!" }, items: [fr.pareil] }
+  - { id: s07, target: "Mon sac est léger aujourd'hui.", native: { nl: "Mijn tas is vandaag licht.", en: "My bag is light today." }, items: [fr.leger] }
+  - { id: s08, target: "Ma valise est plus lourde que ton sac.", native: { nl: "Mijn koffer is zwaarder dan jouw tas.", en: "My suitcase is heavier than your bag." }, items: [fr.lourd] }
+  - { id: s09, target: "Le train est plus rapide que le bus.", native: { nl: "De trein is sneller dan de bus.", en: "The train is faster than the bus." }, items: [fr.rapide] }
+  - { id: s10, target: "La tortue est très lente.", native: { nl: "De schildpad is heel langzaam.", en: "The tortoise is very slow." }, items: [fr.lent] }
+  - { id: s11, target: "La montagne est plus haute que la colline.", native: { nl: "De berg is hoger dan de heuvel.", en: "The mountain is higher than the hill." }, items: [fr.haut] }
+  - { id: s12, target: "Cette table est trop basse.", native: { nl: "Deze tafel is te laag.", en: "This table is too low." }, items: [fr.bas] }
+  - { id: s13, target: "Le pain est dur.", native: { nl: "Het brood is hard.", en: "The bread is hard." }, items: [fr.dur] }
+  - { id: s14, target: "Le chaton est tout doux.", native: { nl: "Het katje is heel zacht.", en: "The kitten is very soft." }, items: [fr.doux] }
+  - { id: s15, target: "Mon verre est plein.", native: { nl: "Mijn glas is vol.", en: "My glass is full." }, items: [fr.plein] }
+  - { id: s16, target: "La bouteille est vide.", native: { nl: "De fles is leeg.", en: "The bottle is empty." }, items: [fr.vide] }
+lessons:
+  - { id: l01, title: { nl: Beter en minder, en: "Heavy and light" }, vocab: [fr.moins, fr.meilleur, fr.different, fr.pareil, fr.leger, fr.lourd, fr.rapide] }
+  - { id: l02, title: { nl: Hoog en laag, en: "High and low" }, vocab: [fr.lent, fr.haut, fr.bas, fr.dur, fr.doux, fr.plein, fr.vide] }

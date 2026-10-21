@@ -1,0 +1,12 @@
+id: nl-a2
+cefr: A2
+native: en
+source: >-
+  Dutch as spoken in Flanders (standard Belgian Dutch), level A2 for adult English speakers. Every word is in the derived
+  Dutch word list (content/src/nl/WORDLIST.md, npm run content:wordlist -- nl) at level A2 or below: NT2Lex (Tack et al.
+  2018, CC BY-NC-SA 4.0) levels by first observation, attestations in Naar Nederland, the CNaVT Profiel Maatschappelijk
+  Informeel and the Richtgraad 1 Waystage tasks, and topic additions for Belgian standard forms and Flemish everyday tasks
+  (content/src/nl/SOURCES.md). Grammar: the perfect with hebben and zijn, the imperfect, subordinate clauses (verb last),
+  comparatives and superlatives, the future with zullen and gaan, reflexive verbs. English meanings written by the content
+  author; plan: content/src/nl/PLAN.md.
+omit: []

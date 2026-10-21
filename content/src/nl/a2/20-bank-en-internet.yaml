@@ -1,0 +1,49 @@
+id: nl-a2-u20
+title: { en: The bank and online }
+icon: money
+topic: Bank accounts, transfers, computers and apps
+vocabulary:
+  - { target: de rekening, native: { en: "account, bill" }, pos: noun, plural: rekeningen }
+  - { target: het rekeningnummer, native: { en: account number }, pos: noun, plural: rekeningnummers }
+  - { target: overschrijven, native: { en: "to transfer (money)" }, pos: verb, alsoNL: overmaken }
+  - { target: de overschrijving, native: { en: bank transfer }, pos: noun, plural: overschrijvingen, alsoNL: de overboeking }
+  - { target: de bankautomaat, native: { en: cash machine }, pos: noun, plural: bankautomaten, alsoNL: de pinautomaat }
+  - { target: veilig, native: { en: safe }, pos: adjective, avoid: [nl.onveilig] }
+  - { target: onveilig, native: { en: unsafe }, pos: adjective }
+  - { target: het wachtwoord, native: { en: password }, pos: noun, plural: wachtwoorden }
+  - { target: inloggen, native: { en: to log in }, pos: verb }
+  - { target: de account, native: { en: "account (online)" }, pos: noun, plural: accounts }
+  - { target: online, native: { en: online }, pos: adverb }
+  - { target: de website, native: { en: website }, pos: noun, plural: websites }
+  - { target: de link, native: { en: link }, pos: noun, plural: links }
+  - { target: klikken, native: { en: to click }, pos: verb }
+  - { target: opzoeken, native: { en: to look up }, pos: verb }
+  - { target: de app, native: { en: app }, pos: noun, plural: apps }
+  - { target: downloaden, native: { en: to download }, pos: verb }
+  - { target: het toestel, native: { en: device }, pos: noun, plural: toestellen }
+  - { target: het scherm, native: { en: screen }, pos: noun, plural: schermen }
+  - { target: opladen, native: { en: to charge }, pos: verb }
+  - { target: de printer, native: { en: printer }, pos: noun, plural: printers }
+  - { target: printen, native: { en: to print }, pos: verb }
+  - { target: verkopen, native: { en: to sell }, pos: verb }
+sentences:
+  - { id: s01, target: "Ik wil een rekening openen.", native: { en: "I'd like to open an account." }, items: [nl.rekening] }
+  - { id: s02, target: "Wat is uw rekeningnummer?", native: { en: "What's your account number?" }, items: [nl.rekeningnummer] }
+  - { id: s03, target: "Ik heb de huur gisteren overgeschreven.", native: { en: "I transferred the rent yesterday." }, items: [nl.overschrijven], acceptAlso: ["Gisteren heb ik de huur overgeschreven.", "Ik heb gisteren de huur overgeschreven."] }
+  - { id: s04, target: "Betaal de schoolfactuur met een overschrijving.", native: { en: "Pay the school bill by bank transfer." }, items: [nl.overschrijving] }
+  - { id: s05, target: "Is er een bankautomaat in de buurt?", native: { en: "Is there a cash machine nearby?" }, items: [nl.bankautomaat], acceptAlso: ["Is er in de buurt een bankautomaat?"] }
+  - { id: s06, target: "Is deze website veilig?", native: { en: "Is this website safe?" }, items: [nl.veilig, nl.website] }
+  - { id: s07, target: "Die link is onveilig, klik er niet op.", native: { en: "That link is unsafe, don't click on it." }, items: [nl.onveilig, nl.link] }
+  - { id: s08, target: "Ik ben mijn wachtwoord vergeten.", native: { en: "I've forgotten my password." }, items: [nl.wachtwoord] }
+  - { id: s09, target: "Ik kan niet inloggen.", native: { en: "I can't log in." }, items: [nl.inloggen] }
+  - { id: s10, target: "Ik heb een nieuwe account gemaakt.", native: { en: "I've made a new account." }, items: [nl.account] }
+  - { id: s11, target: "Je kunt de tickets online kopen.", native: { en: "You can buy the tickets online." }, items: [nl.online], acceptAlso: ["Je kunt online de tickets kopen."] }
+  - { id: s12, target: "Klik op de link in de e-mail.", native: { en: "Click on the link in the email." }, items: [nl.klikken], acceptAlso: ["Klik in de e-mail op de link."] }
+  - { id: s13, target: "Ik zoek het adres op internet op.", native: { en: "I'll look the address up on the internet." }, items: [nl.opzoeken], acceptAlso: ["Ik zoek op internet het adres op."] }
+  - { id: s14, target: "Heb je de app al gedownload?", native: { en: "Have you downloaded the app yet?" }, items: [nl.app, nl.downloaden] }
+  - { id: s15, target: "Mijn toestel is te oud.", native: { en: "My device is too old." }, items: [nl.toestel] }
+  - { id: s16, target: "Het scherm van mijn gsm is kapot.", native: { en: "My phone's screen is broken." }, items: [nl.scherm] }
+  - { id: s17, target: "Ik moet mijn gsm opladen.", native: { en: "I need to charge my phone." }, items: [nl.opladen] }
+  - { id: s18, target: "De printer werkt niet.", native: { en: "The printer isn't working." }, items: [nl.printer] }
+  - { id: s19, target: "Ik heb het formulier geprint.", native: { en: "I printed the form." }, items: [nl.printen] }
+  - { id: s20, target: "Ik heb mijn oude fiets online verkocht.", native: { en: "I sold my old bike online." }, items: [nl.verkopen], acceptAlso: ["Mijn oude fiets heb ik online verkocht.", "Ik heb online mijn oude fiets verkocht."] }

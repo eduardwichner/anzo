@@ -1,0 +1,49 @@
+id: en-b2-t17
+kind: reading
+title: { nl: Moeten zestienjarigen kunnen stemmen? }
+topic: Rules, rights and the law (an article on a news website for young people)
+level: B2
+paragraphs:
+  - - { id: en-b2-t17-s01, target: "In most countries you have to be eighteen to vote, but a growing number of people think that age is too high.", native: { nl: "In de meeste landen moet je achttien zijn om te stemmen, maar steeds meer mensen vinden die leeftijd te hoog." } }
+    - { id: en-b2-t17-s02, target: "In Austria and Scotland, sixteen-year-olds can already vote in some elections, and other countries are considering the same reform.", native: { nl: "In Oostenrijk en Schotland kunnen zestienjarigen al bij sommige verkiezingen stemmen, en andere landen overwegen dezelfde hervorming." } }
+  - - { id: en-b2-t17-s13, target: "Those in favour have several arguments.", native: { nl: "De voorstanders hebben verschillende argumenten." } }
+    - { id: en-b2-t17-s03, target: "At sixteen you can work, pay taxes and in some countries even get married, so why shouldn't you have a say in the laws that affect your life?", native: { nl: "Op je zestiende kun je werken, belastingen betalen en in sommige landen zelfs trouwen, dus waarom zou je niets te zeggen hebben over de wetten die je leven beïnvloeden?" } }
+    - { id: en-b2-t17-s04, target: "Decisions about the climate, education and housing will affect young people for longer than anyone else.", native: { nl: "Beslissingen over het klimaat, onderwijs en huisvesting zullen jongeren langer treffen dan wie ook." } }
+    - { id: en-b2-t17-s05, target: "Studies also suggest that people who vote at a young age are more likely to keep voting all their lives.", native: { nl: "Studies wijzen er ook op dat mensen die op jonge leeftijd stemmen, meer kans hebben om hun hele leven te blijven stemmen." } }
+  - - { id: en-b2-t17-s06, target: "Not everyone agrees, however.", native: { nl: "Niet iedereen is het daarmee eens." } }
+    - { id: en-b2-t17-s07, target: "Critics argue that most sixteen-year-olds are not mature enough and know too little about politics.", native: { nl: "Critici beweren dat de meeste zestienjarigen niet volwassen genoeg zijn en te weinig over politiek weten." } }
+    - { id: en-b2-t17-s08, target: "They also point out that young people are supposed to be protected by the law, not to make it.", native: { nl: "Ze wijzen er ook op dat jongeren door de wet beschermd horen te worden, niet dat ze die wet zelf maken." } }
+    - { id: en-b2-t17-s09, target: "Some fear that teenagers would simply vote the same way as their parents.", native: { nl: "Sommigen vrezen dat tieners gewoon hetzelfde zouden stemmen als hun ouders." } }
+  - - { id: en-b2-t17-s10, target: "What does the evidence say?", native: { nl: "Wat zegt het bewijs?" } }
+    - { id: en-b2-t17-s11, target: "In Austria, where sixteen-year-olds have voted since 2007, researchers found that young voters were just as interested in politics as older first-time voters.", native: { nl: "In Oostenrijk, waar zestienjarigen sinds 2007 stemmen, stelden onderzoekers vast dat jonge kiezers even geïnteresseerd waren in politiek als oudere kiezers die voor het eerst stemden." } }
+    - { id: en-b2-t17-s12, target: "Many schools there now spend more time teaching students how parliament works, which is said to have made young people more confident about voting.", native: { nl: "Veel scholen daar besteden nu meer tijd aan uitleggen hoe het parlement werkt, wat jongeren naar verluidt meer vertrouwen heeft gegeven om te stemmen." } }
+glossary:
+  - { word: reform, native: { nl: hervorming } }
+  - { word: in favour, native: { nl: "voor (in favour: voorstander)" } }
+  - { word: voters, native: { nl: "kiezers (voter)" } }
+  - { word: Critics, native: { nl: "critici (critic)" } }
+items: [en.democracy, en.parliament, en.evidence, en.be-supposed-to, en.mature, en.researcher]
+gapped:
+  gaps: [en-b2-t17-s13, en-b2-t17-s06, en-b2-t17-s10]
+  extra:
+    - { id: en-b2-t17-x1, target: "Voting is compulsory in a few countries.", native: { nl: "In een paar landen is stemmen verplicht." } }
+openCloze:
+  - { sentence: en-b2-t17-s03, word: why }
+  - { sentence: en-b2-t17-s04, word: than }
+  - { sentence: en-b2-t17-s05, word: likely }
+  - { sentence: en-b2-t17-s11, word: where }
+wordForm:
+  - { sentence: en-b2-t17-s04, word: Decisions, stem: decide }
+  - { sentence: en-b2-t17-s09, word: simply, stem: simple }
+  - { sentence: en-b2-t17-s11, word: interested, stem: interest }
+questions:
+  - { id: en-b2-t17-q1, type: summary, options: ["The article presents arguments for and against letting sixteen-year-olds vote and looks at what happened in Austria, where they already can.", "The article explains why sixteen-year-olds in Austria have lost the right to vote that they had since 2007.", "The article argues that young people should not be allowed to vote because they are not interested in politics."], correct: 0 }
+  - { id: en-b2-t17-q2, type: mc, question: "What did researchers in Austria find?", options: ["Young voters were as interested in politics as older first-time voters.", "Most young voters voted the same way as their parents.", "Few sixteen-year-olds actually voted."], correct: 0 }
+  - { id: en-b2-t17-q3, type: true_false_notgiven, statement: "Sixteen-year-olds can vote in some elections in Scotland.", answer: true }
+  - { id: en-b2-t17-q4, type: true_false_notgiven, statement: "Most teachers in Scotland support the vote at sixteen.", answer: not_given }
+  - { id: en-b2-t17-q5, type: true_false_notgiven, statement: "In Austria more young people vote than older people.", answer: not_given }
+  - { id: en-b2-t17-q6, type: match_heading, paragraph: 3, options: ["The arguments against", "The arguments for", "What the research shows"], correct: 0 }
+listeningQuestions:
+  - { id: en-b2-t17-l1, type: complete, statement: "In Austria sixteen-year-olds have voted since ___.", answers: ["2007"] }
+  - { id: en-b2-t17-l2, type: mc, question: "What do critics fear?", options: ["Teenagers would vote the same way as their parents.", "Teenagers would not vote at all.", "Elections would cost more money."], correct: 0 }
+orderable: false

@@ -1,0 +1,66 @@
+id: nl-a2-u08
+title: { en: The doctor and the hospital }
+icon: health
+topic: Emergencies, examinations, the hospital
+vocabulary:
+  - { target: het ongeval, native: { en: accident }, pos: noun, plural: ongevallen }
+  - { target: de ziekenwagen, native: { en: ambulance }, pos: noun, plural: ziekenwagens, alsoNL: de ambulance }
+  - { target: de spoed, native: { en: "A&E (emergency department)" }, pos: noun, plural: "-", alsoNL: de eerste hulp }
+  - { target: dringend, native: { en: urgent }, pos: adjective }
+  - { target: de patiënt, native: { en: patient }, pos: noun, plural: patiënten }
+  - { target: de verpleger, native: { en: "nurse (man)" }, pos: noun, plural: verplegers }
+  - { target: de specialist, native: { en: specialist }, pos: noun, plural: specialisten }
+  - { target: het onderzoek, native: { en: "examination, test" }, pos: noun, plural: onderzoeken }
+  - { target: onderzoeken, native: { en: to examine }, pos: verb }
+  - { target: de operatie, native: { en: operation }, pos: noun, plural: operaties }
+  - { target: opnemen, native: { en: "to admit (to hospital), to answer (the phone)" }, pos: verb }
+  - { target: genezen, native: { en: "to heal, to cure" }, pos: verb }
+  - { target: zorgen, native: { en: "to look after (zorgen voor)" }, pos: verb }
+  - { target: het bloed, native: { en: blood }, pos: noun, plural: "-" }
+  - { target: bloeden, native: { en: to bleed }, pos: verb }
+  - { target: de wonde, native: { en: wound }, pos: noun, plural: wonden, alsoNL: de wond }
+  - { target: gebroken, native: { en: "broken (bone)" }, pos: adjective }
+  - { target: het hart, native: { en: heart }, pos: noun, plural: harten }
+  - { target: de verkoudheid, native: { en: "cold (illness)" }, pos: noun, plural: verkoudheden }
+  - { target: verkouden, native: { en: "having a cold" }, pos: adjective }
+  - { target: hoesten, native: { en: to cough }, pos: verb }
+  - { target: misselijk, native: { en: "sick (nauseous)" }, pos: adjective }
+  - { target: het voorschrift, native: { en: prescription }, pos: noun, plural: voorschriften, alsoNL: het recept }
+  - { target: de allergie, native: { en: allergy }, pos: noun, plural: allergieën }
+sentences:
+  - { id: s01, target: "Er is op het kruispunt een ongeval gebeurd.", native: { en: "There's been an accident at the crossroads." }, items: [nl.ongeval], acceptAlso: ["Op het kruispunt is er een ongeval gebeurd.", "Er is een ongeval op het kruispunt gebeurd."] }
+  - { id: s02, target: "Bel een ziekenwagen!", native: { en: "Call an ambulance!" }, items: [nl.ziekenwagen] }
+  - { id: s03, target: "Gisteren ben ik naar de spoed gegaan.", native: { en: "Yesterday I went to A&E." }, items: [nl.spoed], acceptAlso: ["Ik ben gisteren naar de spoed gegaan."] }
+  - { id: s04, target: "Het is dringend!", native: { en: "It's urgent!" }, items: [nl.dringend] }
+  - { id: s05, target: "De patiënt moet nog even wachten.", native: { en: "The patient has to wait a little longer." }, items: [nl.patient] }
+  - { id: s06, target: "De verpleger helpt de patiënt.", native: { en: "The nurse is helping the patient." }, items: [nl.verpleger] }
+  - { id: s07, target: "Ik heb een afspraak bij de specialist.", native: { en: "I have an appointment with the specialist." }, items: [nl.specialist] }
+  - { id: s08, target: "Het onderzoek duurt een uur.", native: { en: "The examination takes an hour." }, items: [nl.onderzoek] }
+  - { id: s09, target: "De dokter heeft mijn hart onderzocht.", native: { en: "The doctor examined my heart." }, items: [nl.onderzoeken, nl.hart] }
+  - { id: s10, target: "Na de operatie mocht ik naar huis.", native: { en: "After the operation I was allowed to go home." }, items: [nl.operatie], acceptAlso: ["Ik mocht na de operatie naar huis."] }
+  - { id: s11, target: "Mijn vader is in het ziekenhuis opgenomen.", native: { en: "My father has been admitted to hospital." }, items: [nl.opnemen] }
+  - { id: s12, target: "De wonde is goed genezen.", native: { en: "The wound has healed well." }, items: [nl.genezen, nl.wonde] }
+  - { id: s13, target: "Wie zorgt er voor de kinderen?", native: { en: "Who's taking care of the children?" }, items: [nl.zorgen] }
+  - { id: s14, target: "Mijn neus bloedt.", native: { en: "My nose is bleeding." }, items: [nl.bloeden] }
+  - { id: s15, target: "Zijn been is gebroken.", native: { en: "His leg is broken." }, items: [nl.gebroken] }
+  - { id: s16, target: "Ik heb een zware verkoudheid.", native: { en: "I have a bad cold." }, items: [nl.verkoudheid] }
+  - { id: s17, target: "Ik ben al een week verkouden.", native: { en: "I've had a cold for a week." }, items: [nl.verkouden], acceptAlso: ["Al een week ben ik verkouden."] }
+  - { id: s18, target: "Hij hoest elke nacht.", native: { en: "He coughs every night." }, items: [nl.hoesten], acceptAlso: ["Elke nacht hoest hij."] }
+  - { id: s19, target: "Ik voel me misselijk.", native: { en: "I feel sick." }, items: [nl.misselijk] }
+  - { id: s21, target: "De dokter heeft me een voorschrift gegeven.", native: { en: "The doctor gave me a prescription." }, items: [nl.voorschrift] }
+  - { id: s20, target: "Ik heb een allergie voor melk.", native: { en: "I'm allergic to milk." }, items: [nl.allergie] }
+  - { id: s22, target: "Er zit bloed op je hemd.", native: { en: "There's blood on your shirt." }, items: [nl.bloed] }
+  - { id: s23, target: "Mag ik uw identiteitskaart zien?", native: { en: "May I see your identity card?" }, items: [nl.patient] }
+# Added after the unit's exercises were locked — its own lesson, new ids.
+append:
+  - lesson: { id: l04, title: { en: The health insurance fund } }
+    why: "Belgian health care: every resident joins a ziekenfonds (also called mutualiteit), which pays back part of the costs."
+    vocabulary:
+      - { target: het ziekenfonds, native: { en: "health insurance fund" }, pos: noun, plural: ziekenfondsen, alsoNL: de zorgverzekeraar, avoid: [nl.mutualiteit] }
+      - { target: de mutualiteit, native: { en: "health insurance fund" }, pos: noun, plural: mutualiteiten, alsoNL: de zorgverzekeraar, avoid: [nl.ziekenfonds] }
+    sentences:
+      - { id: s24, target: "Iedereen in België heeft een ziekenfonds.", native: { en: "Everyone in Belgium belongs to a health insurance fund." }, items: [nl.ziekenfonds], acceptAlso: ["In België heeft iedereen een ziekenfonds.", "Iedereen heeft in België een ziekenfonds."] }
+      - { id: s25, target: "Het ziekenfonds betaalt het geld terug.", native: { en: "The health insurance fund refunds the money." }, items: [nl.ziekenfonds] }
+      - { id: s26, target: "Ik ga morgen naar de mutualiteit.", native: { en: "I'm going to the health insurance fund tomorrow." }, items: [nl.mutualiteit], acceptAlso: ["Morgen ga ik naar de mutualiteit."] }
+      - { id: s27, target: "Een ziekenfonds en een mutualiteit zijn hetzelfde.", native: { en: "A ziekenfonds and a mutualiteit are the same thing." }, items: [nl.ziekenfonds, nl.mutualiteit] }
+      - { id: s28, target: "De mutualiteit heeft een kantoor in onze straat.", native: { en: "The health insurance fund has an office in our street." }, items: [nl.mutualiteit], acceptAlso: ["In onze straat heeft de mutualiteit een kantoor."] }

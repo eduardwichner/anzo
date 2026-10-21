@@ -1,0 +1,33 @@
+id: fr-a2-u12
+title: { nl: Warme kleren, en: "Warm clothes" }
+icon: clothes
+topic: Les vêtements; s'habiller pour le temps
+vocabulary:
+  - { target: le jean, native: { nl: de spijkerbroek, en: "jeans" }, pos: noun, gender: m, avoid: [fr.pantalon] }
+  - { target: "l'écharpe", native: { nl: de sjaal, en: "scarf" }, pos: noun, gender: f }
+  - { target: le gant, native: { nl: de handschoen, en: "glove" }, pos: noun, gender: m }
+  - { target: le bonnet, native: { nl: de muts, en: "woolly hat, hat (woolly)" }, pos: noun, gender: m }
+  - { target: la botte, native: { nl: de laars, en: "boot" }, pos: noun, gender: f }
+  - { target: les baskets, native: { nl: de sportschoenen, en: "trainers" }, pos: noun, gender: f }
+  - { target: le pyjama, native: { nl: de pyjama, en: "pyjamas" }, pos: noun, gender: m }
+  - { target: le parapluie, native: { nl: de paraplu, en: "umbrella" }, pos: noun, gender: m }
+  - { target: les lunettes de soleil, native: { nl: de zonnebril, en: "sunglasses" }, pos: noun, gender: f }
+  - { target: le costume, native: { nl: het pak, en: "suit, costume" }, pos: noun, gender: m, avoid: [fr.deguisement] }
+  - { target: "l'uniforme", native: { nl: het uniform, en: "uniform" }, pos: noun, gender: m }
+  - { target: enlever, native: { nl: "uittrekken, afdoen", en: "to take off" }, pos: verb }
+sentences:
+  - { id: s01, target: "Je mets mon jean et un pull.", native: { nl: "Ik trek mijn spijkerbroek en een trui aan.", en: "I'm putting on my jeans and a jumper." }, items: [fr.jean] }
+  - { id: s02, target: "Il fait froid, prends ton écharpe !", native: { nl: "Het is koud, neem je sjaal mee!", en: "It's cold, take your scarf!" }, items: [fr.echarpe] }
+  - { id: s03, target: "J'ai perdu un gant.", native: { nl: "Ik ben een handschoen kwijt.", en: "I've lost a glove." }, items: [fr.gant] }
+  - { id: s04, target: "Mets ton bonnet, il neige.", native: { nl: "Zet je muts op, het sneeuwt.", en: "Put your hat on, it's snowing." }, items: [fr.bonnet] }
+  - { id: s05, target: "Prends tes bottes pour la neige.", native: { nl: "Neem je laarzen mee voor de sneeuw.", en: "Take your boots for the snow." }, items: [fr.botte] }
+  - { id: s06, target: "Pour le sport, mets tes baskets.", native: { nl: "Doe je sportschoenen aan voor gym.", en: "Put your trainers on for sport." }, items: [fr.baskets] }
+  - { id: s07, target: "Je mets mon pyjama et je vais au lit.", native: { nl: "Ik trek mijn pyjama aan en ga naar bed.", en: "I put on my pyjamas and go to bed." }, items: [fr.pyjama] }
+  - { id: s08, target: "Il pleut, n'oublie pas ton parapluie.", native: { nl: "Het regent, vergeet je paraplu niet.", en: "It's raining, don't forget your umbrella." }, items: [fr.parapluie] }
+  - { id: s09, target: "À la plage, je porte des lunettes de soleil.", native: { nl: "Op het strand draag ik een zonnebril.", en: "On the beach I wear sunglasses." }, items: [fr.lunettes-de-soleil] }
+  - { id: s10, target: "Papa porte un costume et une chemise blanche.", native: { nl: "Papa draagt een pak en een wit overhemd.", en: "Dad is wearing a suit and a white shirt." }, items: [fr.costume] }
+  - { id: s11, target: "Le policier porte un uniforme.", native: { nl: "De politieagent draagt een uniform.", en: "The police officer is wearing a uniform." }, items: [fr.uniforme] }
+  - { id: s12, target: "Enlève tes chaussures, s'il te plaît.", native: { nl: "Trek je schoenen uit, alsjeblieft.", en: "Take your shoes off, please." }, items: [fr.enlever] }
+lessons:
+  - { id: l01, title: { nl: Muts en sjaal, en: "Hat and scarf" }, vocab: [fr.jean, fr.echarpe, fr.gant, fr.bonnet, fr.botte, fr.baskets] }
+  - { id: l02, title: { nl: Pyjama en paraplu, en: "Pyjamas and umbrella" }, vocab: [fr.pyjama, fr.parapluie, fr.lunettes-de-soleil, fr.costume, fr.uniforme, fr.enlever] }

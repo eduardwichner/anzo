@@ -1,0 +1,51 @@
+id: nl-b2-t04
+kind: reading
+title: { en: Why do we buy what we don't need? }
+topic: Money matters (a magazine article about impulse buying)
+level: B2
+paragraphs:
+  - - { id: nl-b2-t04-s01, target: "Iedereen kent het gevoel: je wilde alleen brood kopen, maar je komt thuis met een volle tas.", native: { en: "Everyone knows the feeling: you only wanted to buy bread, but you come home with a full bag." } }
+    - { id: nl-b2-t04-s02, target: "Volgens onderzoekers is één op de drie aankopen impulsief.", native: { en: "According to researchers one in three purchases is impulsive." } }
+    - { id: nl-b2-t04-s03, target: "Hoe komt dat, en wat kun je eraan doen?", native: { en: "How does that happen, and what can you do about it?" } }
+  - - { id: nl-b2-t04-s04, target: "Winkels doen er alles aan om ons te verleiden.", native: { en: "Shops do everything they can to tempt us." } }
+    - { id: nl-b2-t04-s05, target: "De goedkoopste producten liggen vaak onderaan, terwijl de duurste op ooghoogte staan.", native: { en: "The cheapest products are often at the bottom, while the most expensive ones are at eye level." } }
+    - { id: nl-b2-t04-s06, target: "Bij de kassa vind je chocolade en kleine spullen die je op het laatste moment nog meeneemt.", native: { en: "At the checkout you find chocolate and small items you grab at the last minute." } }
+  - - { id: nl-b2-t04-s07, target: "Online is de verleiding nog groter.", native: { en: "Online the temptation is even greater." } }
+    - { id: nl-b2-t04-s08, target: "Met één klik is een aankoop gedaan, en met je kredietkaart betaal je pas later.", native: { en: "With one click a purchase is made, and with your credit card you only pay later." } }
+    - { id: nl-b2-t04-s09, target: "Daarnaast worden vooral jongeren sterk beïnvloed door influencers, die betaald worden voor de producten die ze tonen.", native: { en: "In addition, young people especially are strongly influenced by influencers, who are paid for the products they show." } }
+    - { id: nl-b2-t04-s10, target: "Vaak merken ze niet eens dat het om reclame gaat.", native: { en: "Often they don't even notice that it is advertising." } }
+  - - { id: nl-b2-t04-s11, target: "Toch zijn impulsieve aankopen niet altijd slecht.", native: { en: "Still, impulsive purchases aren't always bad." } }
+    - { id: nl-b2-t04-s12, target: "Een klein cadeautje voor jezelf kan je humeur verbeteren.", native: { en: "A small present for yourself can improve your mood." } }
+    - { id: nl-b2-t04-s13, target: "Het probleem begint pas als je meer uitgeeft dan je verdient.", native: { en: "The problem only begins when you spend more than you earn." } }
+    - { id: nl-b2-t04-s14, target: "Dan moeten facturen met een lening betaald worden en ontstaan er al snel schulden.", native: { en: "Then bills have to be paid with a loan and debts soon pile up." } }
+  - - { id: nl-b2-t04-s15, target: "Wie zuiniger wil leven, kan enkele eenvoudige regels volgen.", native: { en: "Anyone who wants to live more thriftily can follow a few simple rules." } }
+    - { id: nl-b2-t04-s16, target: "Maak een boodschappenlijst en hou je eraan.", native: { en: "Make a shopping list and stick to it." } }
+    - { id: nl-b2-t04-s17, target: "Wacht een dag voor je iets duurs koopt: vaak verdwijnt het verlangen vanzelf.", native: { en: "Wait a day before you buy something expensive: the desire often disappears by itself." } }
+    - { id: nl-b2-t04-s18, target: "En vergelijk altijd de prijzen, ook online.", native: { en: "And always compare the prices, online too." } }
+  - - { id: nl-b2-t04-s19, target: "Wie toch in de problemen komt, hoeft zich niet te schamen.", native: { en: "Anyone who does get into trouble needn't be ashamed." } }
+    - { id: nl-b2-t04-s20, target: "Het OCMW en de diensten voor schuldbemiddeling helpen je gratis om een overzicht te maken en een haalbaar plan op te stellen.", native: { en: "The OCMW (social welfare centre) and the debt mediation services help you free of charge to get an overview of your finances and draw up a realistic plan." } }
+glossary:
+  - { word: ooghoogte, native: { en: eye level } }
+  - { word: humeur, native: { en: mood } }
+  - { word: schamen, native: { en: "to be ashamed (zich schamen)" } }
+items: [nl.onderzoeker, nl.aankoop, nl.impulsief, nl.verleiden, nl.verleiding, nl.kredietkaart, nl.beinvloeden, nl.influencer, nl.reclame, nl.zuinig, nl.vergelijken, nl.schuldbemiddeling, nl.overzicht, nl.haalbaar, nl.verlangen, nl.moment]
+gapped:
+  gaps: [nl-b2-t04-s06, nl-b2-t04-s10, nl-b2-t04-s14, nl-b2-t04-s17]
+  extra:
+    - { id: nl-b2-t04-x1, target: "Daarom kopen steeds meer mensen hun brood in de supermarkt.", native: { en: "That is why more and more people buy their bread at the supermarket." } }
+questions:
+  - { id: nl-b2-t04-q1, type: summary, options: ["Het artikel legt uit waarom we zo vaak impulsief kopen en hoe je dat kunt vermijden.", "Het artikel legt uit waarom we zo vaak impulsief kopen en waarom je dat eigenlijk niet kunt vermijden.", "Het artikel beschrijft hoe een gezin zijn schulden heeft afbetaald."], correct: 0 }
+  - { id: nl-b2-t04-q2, type: mc, question: "Waar liggen in de winkel vaak de duurste producten?", options: ["Op ooghoogte.", "Onderaan.", "Bij de kassa."], correct: 0 }
+  - { id: nl-b2-t04-q3, type: true_false_notgiven, statement: "Volgens het artikel zijn impulsieve aankopen altijd slecht.", answer: false }
+  - { id: nl-b2-t04-q4, type: true_false_notgiven, statement: "Jongeren zien niet altijd dat een influencer reclame maakt.", answer: true }
+  - { id: nl-b2-t04-q5, type: true_false_notgiven, statement: "Het OCMW vraagt geld voor hulp bij schulden.", answer: false }
+  - { id: nl-b2-t04-q6, type: match_heading, paragraph: 5, options: ["Een paar eenvoudige regels", "Waar je hulp vindt", "Een klein cadeau voor jezelf"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-t04-l1, type: complete, statement: "Volgens onderzoekers is één op de ___ aankopen impulsief.", answers: [drie, "3"] }
+  - { id: nl-b2-t04-l2, type: true_false_notgiven, statement: "Het artikel raadt aan om een week te wachten voor je iets duurs koopt.", answer: false }
+openCloze:
+  - { sentence: nl-b2-t04-s04, word: alles, acceptAlso: [veel] }
+  - { sentence: nl-b2-t04-s15, word: Wie }
+  - { sentence: nl-b2-t04-s13, word: dan }
+  - { sentence: nl-b2-t04-s19, word: zich }
+orderable: false

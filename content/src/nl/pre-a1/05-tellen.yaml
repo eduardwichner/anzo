@@ -1,0 +1,63 @@
+id: nl-pre-a1-u05
+title: { en: Numbers to twenty }
+icon: numbers
+topic: Numbers 0-20, age, phone numbers
+vocabulary:
+  - { target: nul, native: { en: zero }, pos: number }
+  - { target: één, native: { en: one }, pos: number }
+  - { target: twee, native: { en: two }, pos: number }
+  - { target: drie, native: { en: three }, pos: number }
+  - { target: vier, native: { en: four }, pos: number }
+  - { target: vijf, native: { en: five }, pos: number }
+  - { target: zes, native: { en: six }, pos: number }
+  - { target: zeven, native: { en: seven }, pos: number }
+  - { target: acht, native: { en: eight }, pos: number }
+  - { target: negen, native: { en: nine }, pos: number }
+  - { target: tien, native: { en: ten }, pos: number }
+  - { target: elf, native: { en: eleven }, pos: number }
+  - { target: twaalf, native: { en: twelve }, pos: number }
+  - { target: dertien, native: { en: thirteen }, pos: number }
+  - { target: veertien, native: { en: fourteen }, pos: number }
+  - { target: vijftien, native: { en: fifteen }, pos: number }
+  - { target: zestien, native: { en: sixteen }, pos: number }
+  - { target: zeventien, native: { en: seventeen }, pos: number }
+  - { target: achttien, native: { en: eighteen }, pos: number }
+  - { target: negentien, native: { en: nineteen }, pos: number }
+  - { target: twintig, native: { en: twenty }, pos: number }
+  - { target: hoeveel, native: { en: "how many, how much" }, pos: question }
+  - { target: het jaar, native: { en: year }, pos: noun, plural: jaren }
+  - { target: oud, native: { en: old }, pos: adjective, avoid: [nl.jong] }
+  - { target: jong, native: { en: young }, pos: adjective }
+  - { target: de gsm, native: { en: mobile phone }, pos: noun, plural: "gsm's", alsoNL: de mobiel }
+  - { target: het telefoonnummer, native: { en: phone number }, pos: noun, plural: telefoonnummers }
+  - { target: de euro, native: { en: euro }, pos: noun, plural: "euro's" }
+sentences:
+  - { id: s01, target: "Mijn telefoonnummer is nul vier twee twee.", native: { en: "My phone number is zero four two two." }, items: [nl.nul] }
+  - { id: s02, target: "Ik heb één broer.", native: { en: "I have one brother." }, items: [nl.een] }
+  - { id: s03, target: "Twee koffie, alstublieft.", native: { en: "Two coffees, please." }, items: [nl.twee] }
+  - { id: s04, target: "Tom heeft drie kinderen.", native: { en: "Tom has three children." }, items: [nl.drie] }
+  - { id: s05, target: "Ik woon op nummer vier.", native: { en: "I live at number four." }, items: [nl.vier] }
+  - { id: s06, target: "Dat is vijf euro.", native: { en: "That's five euros." }, items: [nl.vijf, nl.euro] }
+  - { id: s07, target: "Sara is zes jaar.", native: { en: "Sara is six years old." }, items: [nl.zes, nl.jaar] }
+  - { id: s08, target: "Mijn dochter is zeven.", native: { en: "My daughter is seven." }, items: [nl.zeven] }
+  - { id: s09, target: "Het is acht uur.", native: { en: "It's eight o'clock." }, items: [nl.acht] }
+  - { id: s10, target: "Lucas is negen jaar.", native: { en: "Lucas is nine years old." }, items: [nl.negen] }
+  - { id: s11, target: "Ik heb tien euro.", native: { en: "I have ten euros." }, items: [nl.tien] }
+  - { id: s12, target: "Mijn zoon is elf.", native: { en: "My son is eleven." }, items: [nl.elf] }
+  - { id: s13, target: "Twaalf eieren, alstublieft.", native: { en: "Twelve eggs, please." }, items: [nl.twaalf] }
+  - { id: s14, target: "Ik woon op nummer dertien.", native: { en: "I live at number thirteen." }, items: [nl.dertien] }
+  - { id: s15, target: "Veertien euro, alstublieft.", native: { en: "Fourteen euros, please." }, items: [nl.veertien] }
+  - { id: s16, target: "Mijn zoon is vijftien.", native: { en: "My son is fifteen." }, items: [nl.vijftien] }
+  - { id: s17, target: "Mijn dochter is zestien jaar.", native: { en: "My daughter is sixteen years old." }, items: [nl.zestien] }
+  - { id: s18, target: "Daar is bus zeventien.", native: { en: "There's bus seventeen." }, items: [nl.zeventien] }
+  - { id: s19, target: "Ik ben achttien jaar.", native: { en: "I'm eighteen years old." }, items: [nl.achttien] }
+  - { id: s20, target: "Het is negentien euro.", native: { en: "It's nineteen euros." }, items: [nl.negentien] }
+  - { id: s21, target: "Ik heb twintig euro.", native: { en: "I have twenty euros." }, items: [nl.twintig] }
+  - { id: s22, target: "Hoeveel kinderen hebt u?", native: { en: "How many children do you have?" }, items: [nl.hoeveel] }
+  - { id: s23, target: "Hoe oud bent u?", native: { en: "How old are you?" }, items: [nl.oud] }
+  - { id: s24, target: "Mijn vader is oud.", native: { en: "My father is old." }, items: [nl.oud] }
+  - { id: s25, target: "Lisa is jong.", native: { en: "Lisa is young." }, items: [nl.jong] }
+  - { id: s26, target: "Wat is uw telefoonnummer?", native: { en: "What's your phone number?" }, items: [nl.telefoonnummer] }
+  - { id: s27, target: "Hebt u een gsm?", native: { en: "Do you have a mobile phone?" }, items: [nl.gsm] }
+  - { id: s28, target: "Mijn gsm is nieuw.", native: { en: "My mobile phone is new." }, items: [nl.gsm] }
+  - { id: s29, target: "Hoeveel is dat?", native: { en: "How much is that?" }, items: [nl.hoeveel] }

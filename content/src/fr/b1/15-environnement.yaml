@@ -1,0 +1,76 @@
+id: fr-b1-u15
+title: { nl: Milieu, en: "The environment" }
+icon: nature
+topic: L'environnement et le climat ; il faut que + subjonctif
+vocabulary:
+  - { target: le climat, native: { nl: het klimaat, en: "climate" }, pos: noun, gender: m }
+  - { target: le réchauffement climatique, native: { nl: de opwarming van de aarde, en: "global warming" }, pos: noun, gender: m }
+  - { target: l'énergie, native: { nl: de energie, en: "energy" }, pos: noun, gender: f }
+  - { target: l'espèce, native: { nl: de soort (diersoort), en: "species" }, pos: noun, gender: f }
+  - { target: la tempête, native: { nl: de storm, en: "storm" }, pos: noun, gender: f }
+  - { target: l'inondation, native: { nl: de overstroming, en: "flood" }, pos: noun, gender: f }
+  - { target: écologique, native: { nl: ecologisch, en: "environmentally friendly, ecological" }, pos: adjective }
+  - { target: le plastique, native: { nl: het plastic, en: "plastic" }, pos: noun, gender: m }
+  - { target: polluer, native: { nl: vervuilen, en: "to pollute" }, pos: verb }
+  - { target: préserver, native: { nl: "behouden, in stand houden", en: "to preserve, to conserve" }, pos: verb, avoid: [fr.proteger], noBlank: true }
+  - { target: durable, native: { nl: duurzaam, en: "sustainable, durable" }, pos: adjective }
+  - { target: environnemental, native: { nl: milieu-, en: "environmental" }, pos: adjective }
+  - { target: ramasser, native: { nl: oprapen, en: "to pick up" }, pos: verb }
+  - { target: la ressource, native: { nl: de (natuurlijke) hulpbron, en: "resource" }, pos: noun, gender: f, avoid: [fr.source] }
+  - { target: l'agriculture, native: { nl: de landbouw, en: "agriculture, farming" }, pos: noun, gender: f }
+  - { target: agricole, native: { nl: landbouw-, en: "agricultural" }, pos: adjective }
+  - { target: naturel, native: { nl: natuurlijk (van de natuur), en: "natural" }, pos: adjective }
+  - { target: l'équilibre, native: { nl: het evenwicht, en: "balance" }, pos: noun, gender: m }
+  - { target: le développement, native: { nl: de ontwikkeling, en: "development" }, pos: noun, gender: m }
+  - { target: l'écotourisme, native: { nl: het ecotoerisme, en: "ecotourism" }, pos: noun, gender: m }
+  - { target: sensibiliser, native: { nl: bewust maken, en: "to raise awareness, to make aware" }, pos: verb }
+  - { target: accumuler, native: { nl: ophopen (verzamelen), en: "to pile up, to accumulate" }, pos: verb }
+  - { target: la tonne, native: { nl: de ton (1000 kilo), en: "tonne" }, pos: noun, gender: f }
+  - { target: le métal, native: { nl: het metaal, en: "metal" }, pos: noun, gender: m }
+  - { target: marin, native: { nl: zee-, en: "marine, sea (as in: sea animals)" }, pos: adjective }
+  - { target: le courant, native: { nl: "de stroming, de stroom", en: "current" }, pos: noun, gender: m }
+  - { target: prévisible, native: { nl: voorspelbaar, en: "predictable" }, pos: adjective }
+  - { target: valoriser, native: { nl: "in de verf zetten, opwaarderen", en: "to promote, to showcase" }, pos: verb, avoid: [fr.apprecier] }
+  - { target: contribuer, native: { nl: bijdragen, en: "to contribute" }, pos: verb }
+  - { target: le dommage, native: { nl: "de schade; jammer (c'est …)", en: "damage; a pity (as in: what a pity)" }, pos: noun, gender: m, noBlank: true }
+  - { target: l'air, native: { nl: de lucht, en: "air" }, pos: noun, gender: m }
+  - { target: le geste, native: { nl: het gebaar (de handeling), en: "gesture, action" }, pos: noun, gender: m }
+  - { target: le milieu, native: { nl: het midden, en: "middle" }, pos: noun, gender: m, typedAlso: { en: [centre] } }
+sentences:
+  - { id: s01, target: "En Belgique, le climat est assez froid et il pleut souvent.", native: { nl: "In België is het klimaat vrij koud en regent het vaak.", en: "In Belgium the climate is quite cold and it often rains." }, items: [fr.climat] }
+  - { id: s02, target: "Le réchauffement climatique est un grand problème pour la planète.", native: { nl: "De opwarming van de aarde is een groot probleem voor de planeet.", en: "Global warming is a big problem for the planet." }, items: [fr.rechauffement-climatique] }
+  - { id: s03, target: "Le soleil et le vent nous donnent de l'énergie.", native: { nl: "De zon en de wind geven ons energie.", en: "The sun and the wind give us energy." }, items: [fr.energie] }
+  - { id: s04, target: "Il y a de moins en moins d'espèces d'oiseaux.", native: { nl: "Er zijn steeds minder vogelsoorten.", en: "There are fewer and fewer bird species." }, items: [fr.espece] }
+  - { id: s05, target: "La tempête a fait tomber plusieurs arbres.", native: { nl: "De storm heeft verschillende bomen omvergeblazen.", en: "The storm brought down several trees." }, items: [fr.tempete] }
+  - { id: s06, target: "Après les fortes pluies, il y a eu des inondations.", native: { nl: "Na de zware regen waren er overstromingen.", en: "After the heavy rain, there were floods." }, items: [fr.inondation] }
+  - { id: s07, target: "Prendre le vélo, c'est plus écologique que la voiture.", native: { nl: "De fiets nemen is ecologischer dan de auto.", en: "Taking the bike is more environmentally friendly than taking the car." }, items: [fr.ecologique] }
+  - { id: s08, target: "Il y a trop de plastique dans la mer.", native: { nl: "Er zit te veel plastic in de zee.", en: "There's too much plastic in the sea." }, items: [fr.plastique] }
+  - { id: s09, target: "Les voitures polluent l'air des villes.", native: { nl: "Auto's vervuilen de lucht in de steden.", en: "Cars pollute the air in towns." }, items: [fr.polluer, fr.air], finite: { word: polluent, hint: { nl: "polluer (présent)", en: "polluer (present)" } } }
+  - { id: s10, target: "Nous devons préserver la nature pour les générations futures.", native: { nl: "We moeten de natuur beschermen voor de toekomstige generaties.", en: "We must preserve nature for future generations." }, items: [fr.preserver] }
+  - { id: s11, target: "Ce sac en coton est durable.", native: { nl: "Deze katoenen tas is duurzaam.", en: "This cotton bag is durable." }, items: [fr.durable] }
+  - { id: s12, target: "L'école a un projet environnemental.", native: { nl: "De school heeft een milieuproject.", en: "The school has an environmental project." }, items: [fr.environnemental] }
+  - { id: s13, target: "Samedi, nous ramassons les déchets dans le parc.", native: { nl: "Zaterdag rapen we het afval in het park op.", en: "On Saturday we're picking up the rubbish in the park." }, items: [fr.ramasser], finite: { word: ramassons, hint: { nl: "ramasser (présent)", en: "ramasser (present)" } } }
+  - { id: s14, target: "L'eau est une ressource très importante.", native: { nl: "Water is een heel belangrijke natuurlijke hulpbron.", en: "Water is a very important resource." }, items: [fr.ressource] }
+  - { id: s15, target: "L'agriculture a besoin de beaucoup d'eau.", native: { nl: "De landbouw heeft veel water nodig.", en: "Agriculture needs a lot of water." }, items: [fr.agriculture] }
+  - { id: s16, target: "Mes grands-parents travaillaient dans une région agricole.", native: { nl: "Mijn grootouders werkten in een landbouwstreek.", en: "My grandparents worked in an agricultural region." }, items: [fr.agricole] }
+  - { id: s17, target: "Ce jus est cent pour cent naturel.", native: { nl: "Dit sap is honderd procent natuurlijk.", en: "This juice is a hundred per cent natural." }, items: [fr.naturel] }
+  - { id: s18, target: "Il faut trouver un équilibre entre le travail et les loisirs.", native: { nl: "Je moet een evenwicht vinden tussen werk en vrije tijd.", en: "You need to find a balance between work and free time." }, items: [fr.equilibre] }
+  - { id: s19, target: "Le sport aide au développement des enfants.", native: { nl: "Sport helpt bij de ontwikkeling van kinderen.", en: "Sport helps children's development." }, items: [fr.developpement] }
+  - { id: s20, target: "L'écotourisme respecte la nature et les habitants.", native: { nl: "Ecotoerisme respecteert de natuur en de bewoners.", en: "Ecotourism respects nature and the local people." }, items: [fr.ecotourisme] }
+  - { id: s21, target: "Ce film veut sensibiliser les jeunes à l'environnement.", native: { nl: "Deze film wil jongeren bewust maken van het milieu.", en: "This film aims to make young people aware of the environment." }, items: [fr.sensibiliser] }
+  - { id: s22, target: "Les déchets s'accumulent sur la plage.", native: { nl: "Op het strand hoopt het afval zich op.", en: "Rubbish is piling up on the beach." }, items: [fr.accumuler] }
+  - { id: s23, target: "La ville produit des tonnes de déchets chaque jour.", native: { nl: "De stad produceert elke dag tonnen afval.", en: "The town produces tonnes of rubbish every day." }, items: [fr.tonne], acceptAlso: ["Chaque jour, la ville produit des tonnes de déchets."] }
+  - { id: s24, target: "On peut recycler le papier, le verre et le métal.", native: { nl: "Je kunt papier, glas en metaal recycleren.", en: "You can recycle paper, glass and metal." }, items: [fr.metal] }
+  - { id: s25, target: "Les animaux marins mangent parfois du plastique.", native: { nl: "Zeedieren eten soms plastic.", en: "Sea animals sometimes eat plastic." }, items: [fr.marin], acceptAlso: ["Parfois, les animaux marins mangent du plastique."] }
+  - { id: s26, target: "Attention, le courant est très fort ici.", native: { nl: "Opgelet, de stroming is hier heel sterk.", en: "Careful, the current is very strong here." }, items: [fr.courant] }
+  - { id: s27, target: "Le temps n'est pas toujours prévisible à la montagne.", native: { nl: "Het weer is in de bergen niet altijd voorspelbaar.", en: "The weather isn't always predictable in the mountains." }, items: [fr.previsible] }
+  - { id: s28, target: "Ce festival valorise les produits de la région.", native: { nl: "Dit festival zet de producten van de streek in de verf.", en: "This festival showcases the region's products." }, items: [fr.valoriser], finite: { word: valorise, hint: { nl: "valoriser (présent)", en: "valoriser (present)" } } }
+  - { id: s29, target: "Chacun peut contribuer à protéger la planète.", native: { nl: "Iedereen kan bijdragen aan de bescherming van de planeet.", en: "Everyone can contribute to protecting the planet." }, items: [fr.contribuer] }
+  - { id: s30, target: "Tu ne peux pas venir ? C'est dommage !", native: { nl: "Je kunt niet komen? Dat is jammer!", en: "You can't come? What a pity!" }, items: [fr.dommage] }
+  - { id: s31, target: "Le matin, j'ouvre la fenêtre pour laisser entrer l'air.", native: { nl: "'s Ochtends doe ik het raam open om lucht binnen te laten.", en: "In the morning I open the window to let the air in." }, items: [fr.air], acceptAlso: ["J'ouvre la fenêtre le matin pour laisser entrer l'air."] }
+  - { id: s32, target: "Éteindre la télévision, c'est un petit geste pour la planète.", native: { nl: "De televisie uitzetten is een klein gebaar voor de planeet.", en: "Switching off the television is a small gesture for the planet." }, items: [fr.geste] }
+  - { id: s33, target: "Il y a un arbre au milieu du jardin.", native: { nl: "Er staat een boom midden in de tuin.", en: "There's a tree in the middle of the garden." }, items: [fr.milieu] }
+  - { id: s34, target: "Il faut que nous protégions ces espèces.", native: { nl: "We moeten deze soorten beschermen.", en: "We must protect these species." }, items: [fr.espece], build: true }
+  - { id: s35, target: "Il faut que tu ramasses tes déchets.", native: { nl: "Je moet je afval oprapen.", en: "You must pick up your rubbish." }, items: [fr.ramasser], build: true }
+  - { id: s36, target: "Si tout le monde ramassait ses déchets, la plage serait plus propre.", native: { nl: "Als iedereen zijn afval opraapte, zou het strand netter zijn.", en: "If everyone picked up their rubbish, the beach would be cleaner." }, items: [fr.ramasser], finite: { word: serait, hint: { nl: "être (conditionnel)", en: "être (conditional)" } } }
+texts: [fr-b1-t16]

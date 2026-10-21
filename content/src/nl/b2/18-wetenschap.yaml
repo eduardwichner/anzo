@@ -1,0 +1,91 @@
+id: nl-b2-u18
+title: { en: Science }
+icon: flask
+topic: How research works, popular science about the brain, sleep and the body, reading numbers and conclusions critically; formal register and nominal style (uit het onderzoek blijkt, de vermindering van, het gebruik van)
+vocabulary:
+  - { target: het experiment, native: { en: experiment }, pos: noun, plural: experimenten }
+  - { target: de proef, native: { en: "test, trial, experiment" }, pos: noun, plural: proeven }
+  - { target: het laboratorium, native: { en: laboratory }, pos: noun, plural: laboratoria }
+  - { target: de hypothese, native: { en: hypothesis }, pos: noun, plural: hypothesen }
+  - { target: de methode, native: { en: method }, pos: noun, plural: methodes }
+  - { target: de aanpak, native: { en: approach }, pos: noun, plural: "-" }
+  - { target: de deelnemer, native: { en: participant }, pos: noun, plural: deelnemers }
+  - { target: de analyse, native: { en: analysis }, pos: noun, plural: analyses }
+  - { target: analyseren, native: { en: to analyse }, pos: verb }
+  - { target: de statistiek, native: { en: statistics }, pos: noun, plural: statistieken }
+  - { target: het percentage, native: { en: percentage }, pos: noun, plural: percentages }
+  - { target: het gemiddelde, native: { en: average }, pos: noun, plural: gemiddelden }
+  - { target: de vergelijking, native: { en: comparison }, pos: noun, plural: vergelijkingen }
+  - { target: het verband, native: { en: "connection, link" }, pos: noun, plural: verbanden }
+  - { target: de uitkomst, native: { en: "outcome, result" }, pos: noun, plural: uitkomsten }
+  - { target: de conclusie, native: { en: conclusion }, pos: noun, plural: conclusies }
+  - { target: bewijzen, native: { en: to prove }, pos: verb }
+  - { target: weerleggen, native: { en: "to refute, to disprove" }, pos: verb }
+  - { target: de ontdekking, native: { en: discovery }, pos: noun, plural: ontdekkingen }
+  - { target: publiceren, native: { en: to publish }, pos: verb }
+  - { target: de publicatie, native: { en: publication }, pos: noun, plural: publicaties }
+  - { target: de hersenen, native: { en: brain }, pos: noun, plural: "-" }
+  - { target: het geheugen, native: { en: memory }, pos: noun, plural: geheugens }
+  - { target: de slaap, native: { en: sleep }, pos: noun, plural: "-" }
+  - { target: de psychologie, native: { en: psychology }, pos: noun, plural: "-" }
+  - { target: de biologie, native: { en: biology }, pos: noun, plural: "-" }
+  - { target: de geneeskunde, native: { en: medicine (the science) }, pos: noun, plural: "-" }
+  - { target: de bacterie, native: { en: bacterium }, pos: noun, plural: bacteriën }
+  - { target: de cel, native: { en: cell }, pos: noun, plural: cellen }
+  - { target: de evolutie, native: { en: evolution }, pos: noun, plural: "-" }
+  - { target: het heelal, native: { en: universe }, pos: noun, plural: "-" }
+  - { target: de ster, native: { en: star }, pos: noun, plural: sterren }
+  - { target: toevallig, native: { en: "by chance, coincidental" }, pos: adjective }
+  - { target: opvallend, native: { en: "striking, remarkable" }, pos: adjective }
+  - { target: aanzienlijk, native: { en: "considerable, considerably" }, pos: adjective }
+  - { target: blijkbaar, native: { en: "apparently" }, pos: adverb }
+  - { target: vermoedelijk, native: { en: "presumably, probably" }, pos: adverb }
+  - { target: het cijfer, native: { en: "figure, number (in statistics)" }, pos: noun, plural: cijfers }
+sentences:
+  - { id: s01, target: "Het experiment werd drie keer herhaald.", native: { en: "The experiment was repeated three times." }, items: [nl.experiment], acceptAlso: ["Drie keer werd het experiment herhaald."] }
+  - { id: s02, target: "Bij deze proef kregen de deelnemers een nieuw medicijn.", native: { en: "In this trial the participants were given a new medicine." }, items: [nl.proef, nl.deelnemer] }
+  - { id: s03, target: "Ze werkt in een laboratorium van de universiteit.", native: { en: "She works in a university laboratory." }, items: [nl.laboratorium] }
+  - { id: s04, target: "Met dit onderzoek willen we een hypothese controleren.", native: { en: "With this research we want to test a hypothesis." }, items: [nl.hypothese] }
+  - { id: s05, target: "Welke methode hebben de onderzoekers gebruikt?", native: { en: "Which method did the researchers use?" }, items: [nl.methode] }
+  - { id: s06, target: "Voor dat probleem is een nieuwe aanpak nodig.", native: { en: "A new approach is needed for that problem." }, items: [nl.aanpak] }
+  - { id: s07, target: "Een goede analyse van de gegevens duurt maanden.", native: { en: "A good analysis of the data takes months." }, items: [nl.analyse], acceptAlso: ["Maanden duurt een goede analyse van de gegevens."] }
+  - { id: s08, target: "Een computer analyseert de beelden van de hersenen.", native: { en: "A computer analyses the brain scans." }, items: [nl.analyseren, nl.hersenen] }
+  - { id: s09, target: "Volgens de statistieken leven vrouwen langer dan mannen.", native: { en: "According to the statistics, women live longer than men." }, items: [nl.statistiek] }
+  - { id: s10, target: "Een groot percentage van de jongeren slaapt te weinig.", native: { en: "A large percentage of young people sleep too little." }, items: [nl.percentage] }
+  - { id: s11, target: "Gemiddeld slaapt een volwassene zeven uur per nacht, maar het gemiddelde zegt weinig over jou.", native: { en: "On average an adult sleeps seven hours a night, but the average says little about you." }, items: [nl.gemiddelde] }
+  - { id: s12, target: "In vergelijking met vroeger lezen we minder boeken.", native: { en: "Compared with the past, we read fewer books." }, items: [nl.vergelijking], acceptAlso: ["We lezen in vergelijking met vroeger minder boeken.", "We lezen minder boeken in vergelijking met vroeger."] }
+  - { id: s13, target: "Er is een duidelijk verband tussen slaap en geheugen.", native: { en: "There is a clear link between sleep and memory." }, items: [nl.verband, nl.slaap, nl.geheugen], acceptAlso: ["Tussen slaap en geheugen is er een duidelijk verband.", "Er is tussen slaap en geheugen een duidelijk verband."] }
+  - { id: s14, target: "De uitkomst van het onderzoek was verrassend.", native: { en: "The outcome of the research was surprising." }, items: [nl.uitkomst] }
+  - { id: s15, target: "Welke conclusie trek je uit deze cijfers?", native: { en: "What conclusion do you draw from these figures?" }, items: [nl.conclusie, nl.cijfer] }
+  - { id: s16, target: "Kun je bewijzen dat dat waar is?", native: { en: "Can you prove that that is true?" }, items: [nl.bewijzen] }
+  - { id: s17, target: "Een nieuw onderzoek heeft die theorie weerlegd.", native: { en: "A new study has refuted that theory." }, items: [nl.weerleggen] }
+  - { id: s18, target: "De ontdekking van dat medicijn was toeval.", native: { en: "The discovery of that medicine was a matter of chance." }, items: [nl.ontdekking] }
+  - { id: s19, target: "De onderzoekers publiceren hun resultaten in een wetenschappelijk tijdschrift.", native: { en: "The researchers publish their results in a scientific journal." }, items: [nl.publiceren], acceptAlso: ["In een wetenschappelijk tijdschrift publiceren de onderzoekers hun resultaten."] }
+  - { id: s20, target: "Na de publicatie van het artikel kwam er veel kritiek.", native: { en: "After the publication of the article there was a lot of criticism." }, items: [nl.publicatie], form: { word: publicatie, stem: publiceren }, acceptAlso: ["Er kwam na de publicatie van het artikel veel kritiek."] }
+  - { id: s21, target: "Ze studeert psychologie in Leuven.", native: { en: "She studies psychology in Leuven." }, items: [nl.psychologie], acceptAlso: ["Ze studeert in Leuven psychologie.", "In Leuven studeert ze psychologie."] }
+  - { id: s22, target: "In de les biologie leren we over de cellen van het lichaam.", native: { en: "In biology class we learn about the cells of the body." }, items: [nl.biologie, nl.cel], acceptAlso: ["We leren in de les biologie over de cellen van het lichaam."] }
+  - { id: s23, target: "De geneeskunde heeft de laatste honderd jaar grote stappen gezet.", native: { en: "Medicine has made great strides over the last hundred years." }, items: [nl.geneeskunde], acceptAlso: ["De laatste honderd jaar heeft de geneeskunde grote stappen gezet."] }
+  - { id: s24, target: "Niet alle bacteriën zijn slecht voor je gezondheid.", native: { en: "Not all bacteria are bad for your health." }, items: [nl.bacterie] }
+  - { id: s25, target: "Darwin schreef een boek over de evolutie.", native: { en: "Darwin wrote a book about evolution." }, items: [nl.evolutie] }
+  - { id: s26, target: "Het heelal is ouder dan we vroeger dachten.", native: { en: "The universe is older than we used to think." }, items: [nl.heelal], finite: { word: dachten, hint: { en: "denken (past)" } } }
+  - { id: s27, target: "Op het platteland zie je 's nachts veel meer sterren.", native: { en: "In the countryside you see many more stars at night." }, items: [nl.ster] }
+  - { id: s28, target: "Het verband was toevallig.", native: { en: "The connection was coincidental." }, items: [nl.toevallig] }
+  - { id: s29, target: "Een opvallend resultaat is dat jongens beter slapen dan meisjes.", native: { en: "A striking result is that boys sleep better than girls." }, items: [nl.opvallend] }
+  - { id: s30, target: "Het aantal deelnemers is aanzienlijk gestegen.", native: { en: "The number of participants has risen considerably." }, items: [nl.aanzienlijk] }
+  - { id: s31, target: "Blijkbaar heeft niemand de cijfers gecontroleerd.", native: { en: "Apparently nobody checked the figures." }, items: [nl.blijkbaar] }
+  - { id: s32, target: "De fout is vermoedelijk in het laboratorium gebeurd.", native: { en: "The mistake presumably happened in the laboratory." }, items: [nl.vermoedelijk] }
+  - { id: s33, target: "Uit het onderzoek blijkt dat slaap belangrijk is voor het geheugen.", native: { en: "The research shows that sleep is important for memory." }, items: [nl.geheugen], build: true, acceptAlso: ["Uit het onderzoek blijkt dat slaap voor het geheugen belangrijk is.", "Dat slaap belangrijk is voor het geheugen, blijkt uit het onderzoek.", "Dat slaap voor het geheugen belangrijk is, blijkt uit het onderzoek."] }
+  - { id: s34, target: "Het gebruik van een gsm voor het slapengaan is slecht voor je slaap.", native: { en: "Using a mobile phone before going to sleep is bad for your sleep." }, items: [nl.slaap], acceptAlso: ["Voor het slapengaan is het gebruik van een gsm slecht voor je slaap."] }
+  - { id: s35, target: "In de les biologie leerden we over het verdwijnen van veel planten en dieren.", native: { en: "In biology class we learned about the disappearance of many plants and animals." }, items: [nl.biologie], acceptAlso: ["We leerden in de les biologie over het verdwijnen van veel planten en dieren."] }
+  - { id: s36, target: "Die ontdekking is erg belangrijk voor de geneeskunde.", native: { en: "That discovery is very important for medicine." }, items: [nl.ontdekking], form: { word: ontdekking, stem: ontdekken }, acceptAlso: ["Die ontdekking is voor de geneeskunde erg belangrijk.", "Voor de geneeskunde is die ontdekking erg belangrijk."] }
+  - { id: s37, target: "De vergelijking met andere landen is interessant.", native: { en: "The comparison with other countries is interesting." }, items: [nl.vergelijking], form: { word: vergelijking, stem: vergelijken } }
+  - { id: s38, target: "Ze is een bekende wetenschapper met veel publicaties.", native: { en: "She is a well-known scientist with many publications." }, items: [nl.publicatie] }
+  - { id: s39, target: "We wachten met een conclusie totdat de resultaten gepubliceerd zijn.", native: { en: "We are waiting to draw a conclusion until the results have been published." }, items: [nl.totdat] }
+  - { id: s40, target: "De resultaten moeten echter nog bevestigd worden.", native: { en: "The results still have to be confirmed, however." }, items: [nl.echter], acceptAlso: ["De resultaten moeten echter nog worden bevestigd."] }
+  - { id: s41, target: "De onderzoekers zitten al maanden op de resultaten te wachten.", native: { en: "The researchers have been waiting for the results for months." }, items: [nl.onderzoeker], build: true, acceptAlso: ["De onderzoekers zitten al maanden te wachten op de resultaten."] }
+  - { id: s42, target: "Veel mensen zijn zich niet bewust van de risico's van hun apparaten.", native: { en: "Many people are not aware of the risks of their devices." }, items: [nl.bewust, nl.risico, nl.apparaat] }
+transforms:
+  - { id: x01, from: "Het onderzoek laat zien dat de deelnemers beter sliepen.", key: blijkt, gapped: "Uit het onderzoek ___ beter sliepen.", answers: ["blijkt dat de deelnemers"], items: [nl.deelnemer] }
+  - { id: x02, from: "Als we het met vroeger vergelijken, lezen we nu minder.", key: vergelijking, gapped: "In ___ vroeger lezen we nu minder.", answers: ["vergelijking met", "vergelijking tot"], items: [nl.vergelijking] }
+  - { id: x03, from: "Het lijkt erop dat niemand de cijfers gecontroleerd heeft.", key: blijkbaar, gapped: "___ de cijfers gecontroleerd.", answers: ["Blijkbaar heeft niemand", "Niemand heeft blijkbaar"], items: [nl.blijkbaar] }
+texts: [nl-b2-t19]

@@ -1,0 +1,44 @@
+id: nl-a2-u19
+title: { en: Shopping and complaints }
+icon: shop
+topic: Online orders, deliveries, complaints, sales
+vocabulary:
+  - { target: de webshop, native: { en: online shop }, pos: noun, plural: webshops }
+  - { target: bestellen, native: { en: to order }, pos: verb }
+  - { target: de bestelling, native: { en: order }, pos: noun, plural: bestellingen }
+  - { target: leveren, native: { en: to deliver }, pos: verb }
+  - { target: de levering, native: { en: delivery }, pos: noun, plural: leveringen }
+  - { target: het product, native: { en: product }, pos: noun, plural: producten }
+  - { target: de kwaliteit, native: { en: quality }, pos: noun, plural: kwaliteiten }
+  - { target: beschadigd, native: { en: damaged }, pos: adjective }
+  - { id: nl.fout-n, target: de fout, native: { en: mistake }, pos: noun, plural: fouten }
+  - { target: de klacht, native: { en: complaint }, pos: noun, plural: klachten }
+  - { target: ontevreden, native: { en: dissatisfied }, pos: adjective }
+  - { target: de klantendienst, native: { en: customer service }, pos: noun, plural: klantendiensten, alsoNL: de klantenservice }
+  - { target: de garantie, native: { en: guarantee }, pos: noun, plural: garanties }
+  - { target: terugbrengen, native: { en: to take back }, pos: verb, avoid: [nl.teruggeven] }
+  - { target: teruggeven, native: { en: "to give back, to refund" }, pos: verb }
+  - { target: vervangen, native: { en: to replace }, pos: verb }
+  - { target: opzeggen, native: { en: "to cancel (a contract)" }, pos: verb }
+  - { target: de solden, native: { en: "the sales" }, pos: noun, plural: "-", alsoNL: de uitverkoop }
+  - { target: de aanbieding, native: { en: special offer }, pos: noun, plural: aanbiedingen }
+sentences:
+  - { id: s01, target: "Ik koop vaak kleren in een webshop.", native: { en: "I often buy clothes from an online shop." }, items: [nl.webshop], acceptAlso: ["Vaak koop ik kleren in een webshop.", "In een webshop koop ik vaak kleren."] }
+  - { id: s02, target: "Ik heb vorige week schoenen besteld.", native: { en: "I ordered shoes last week." }, items: [nl.bestellen], acceptAlso: ["Vorige week heb ik schoenen besteld."] }
+  - { id: s03, target: "Mijn bestelling is nog niet aangekomen.", native: { en: "My order hasn't arrived yet." }, items: [nl.bestelling] }
+  - { id: s04, target: "Ze leveren het pakje morgen.", native: { en: "They're delivering the parcel tomorrow." }, items: [nl.leveren], acceptAlso: ["Morgen leveren ze het pakje.", "Ze leveren morgen het pakje."] }
+  - { id: s05, target: "De levering is gratis.", native: { en: "Delivery is free." }, items: [nl.levering] }
+  - { id: s06, target: "Dit product is kapot.", native: { en: "This product is broken." }, items: [nl.product] }
+  - { id: s07, target: "De kwaliteit is slecht.", native: { en: "The quality is poor." }, items: [nl.kwaliteit] }
+  - { id: s08, target: "De doos was beschadigd.", native: { en: "The box was damaged." }, items: [nl.beschadigd] }
+  - { id: s09, target: "Er staat een fout op de rekening.", native: { en: "There's a mistake on the bill." }, items: [nl.fout-n], acceptAlso: ["Op de rekening staat er een fout."] }
+  - { id: s10, target: "Ik heb een klacht over de levering.", native: { en: "I have a complaint about the delivery." }, items: [nl.klacht] }
+  - { id: s11, target: "Ik ben heel ontevreden over de webshop.", native: { en: "I'm very dissatisfied with the online shop." }, items: [nl.ontevreden], acceptAlso: ["Ik ben over de webshop heel ontevreden.", "Over de webshop ben ik heel ontevreden."] }
+  - { id: s12, target: "Ik heb de klantendienst gebeld.", native: { en: "I called customer service." }, items: [nl.klantendienst] }
+  - { id: s13, target: "Er is twee jaar garantie op de computer.", native: { en: "The computer has a two-year guarantee." }, items: [nl.garantie], acceptAlso: ["Op de computer is er twee jaar garantie.", "Er is op de computer twee jaar garantie."] }
+  - { id: s14, target: "Mag ik deze jas terugbrengen?", native: { en: "May I bring this coat back?" }, items: [nl.terugbrengen] }
+  - { id: s15, target: "Ze hebben mijn geld teruggegeven.", native: { en: "They gave me my money back." }, items: [nl.teruggeven] }
+  - { id: s16, target: "Kunt u het product vervangen?", native: { en: "Can you replace the product?" }, items: [nl.vervangen] }
+  - { id: s17, target: "Ik wil mijn abonnement opzeggen.", native: { en: "I'd like to cancel my subscription." }, items: [nl.opzeggen] }
+  - { id: s18, target: "In januari zijn de solden.", native: { en: "The sales are in January." }, items: [nl.solden], acceptAlso: ["De solden zijn in januari."] }
+  - { id: s19, target: "Deze week is koffie in aanbieding.", native: { en: "This week coffee is on special offer." }, items: [nl.aanbieding], acceptAlso: ["Koffie is deze week in aanbieding."] }

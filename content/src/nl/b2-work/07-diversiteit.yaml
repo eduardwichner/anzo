@@ -1,0 +1,36 @@
+id: nl-b2-work-u07
+title: { en: Diversity at work }
+icon: people
+topic: Diversity and inclusion on the shop floor, equal chances, a mentor for newcomers, adapting the workplace; nuancing an opinion (Dat hangt ervan af …, enerzijds … anderzijds)
+vocabulary:
+  - { target: de werkvloer, native: { en: "shop floor, workplace (op de werkvloer: at work)" }, pos: noun, plural: "-" }
+  - { target: de inclusie, native: { en: inclusion }, pos: noun, plural: "-" }
+  - { target: inclusief, native: { en: "inclusive; including" }, pos: adjective }
+  - { target: de handicap, native: { en: "disability, handicap" }, pos: noun, plural: handicaps, noBlank: true }
+  - { target: de doelgroep, native: { en: target group }, pos: noun, plural: doelgroepen }
+  - { target: de mentor, native: { en: mentor }, pos: noun, plural: mentors }
+  - { target: de taalbarrière, native: { en: language barrier }, pos: noun, plural: taalbarrières }
+  - { target: het quotum, native: { en: quota }, pos: noun, plural: quota }
+  - { target: de ondernemingsraad, native: { en: "works council" }, pos: noun, plural: ondernemingsraden }
+  - { target: de vakbondsafgevaardigde, native: { en: "union representative" }, pos: noun, plural: vakbondsafgevaardigden }
+sentences:
+  - { id: s01, target: "Op de werkvloer spreken we Nederlands, Frans en Engels.", native: { en: "At work we speak Dutch, French and English." }, items: [nl.werkvloer], acceptAlso: ["We spreken op de werkvloer Nederlands, Frans en Engels."] }
+  - { id: s02, target: "Inclusie betekent dat iedereen zich welkom voelt.", native: { en: "Inclusion means that everyone feels welcome." }, items: [nl.inclusie] }
+  - { id: s03, target: "Een inclusief bedrijf kijkt naar talent, niet naar afkomst.", native: { en: "An inclusive company looks at talent, not at origin." }, items: [nl.inclusief] }
+  - { id: s04, target: "Werknemers met een handicap hebben recht op een aangepaste werkpost.", native: { en: "Employees with a disability have a right to an adapted workstation." }, items: [nl.handicap] }
+  - { id: s05, target: "Jongeren zonder diploma zijn een belangrijke doelgroep van de VDAB.", native: { en: "Young people without a diploma are an important target group for the VDAB (the Flemish employment service)." }, items: [nl.doelgroep], acceptAlso: ["Een belangrijke doelgroep van de VDAB zijn jongeren zonder diploma."] }
+  - { id: s06, target: "Elke nieuwe collega krijgt een mentor voor de eerste maanden.", native: { en: "Every new colleague gets a mentor for the first months." }, items: [nl.mentor], finite: { word: krijgt, hint: { en: "krijgen (present)" } }, acceptAlso: ["Elke nieuwe collega krijgt voor de eerste maanden een mentor."] }
+  - { id: s07, target: "Een taalbarrière kan het werk moeilijker maken.", native: { en: "A language barrier can make the work harder." }, items: [nl.taalbarriere] }
+  - { id: s08, target: "Sommige bedrijven werken met een quotum voor vrouwen in het bestuur.", native: { en: "Some companies work with a quota for women on the board." }, items: [nl.quotum] }
+  - { id: s09, target: "De directie heeft het voorstel van de ondernemingsraad aanvaard.", native: { en: "The management has accepted the works council's proposal." }, items: [nl.ondernemingsraad] }
+  - { id: s10, target: "Bij problemen kun je ook bij de vakbondsafgevaardigde terecht.", native: { en: "If you have problems, you can also turn to the union representative." }, items: [nl.vakbondsafgevaardigde] }
+  - { id: s11, target: "Of een quotum werkt, hangt ervan af hoe groot het bedrijf is.", native: { en: "Whether a quota works depends on how big the company is." }, items: [nl.quotum], build: true }
+  - { id: s12, target: "Enerzijds is een quotum duidelijk, anderzijds voelt het soms niet eerlijk.", native: { en: "On the one hand a quota is clear, on the other hand it sometimes doesn't feel fair." }, items: [nl.quotum] }
+  - { id: s13, target: "Door een taalbarrière voelen nieuwe collega's zich niet altijd aanvaard.", native: { en: "Because of a language barrier, new colleagues do not always feel accepted." }, items: [nl.taalbarriere], acceptAlso: ["Nieuwe collega's voelen zich door een taalbarrière niet altijd aanvaard."] }
+  - { id: s14, target: "Een divers en inclusief team neemt vaak betere beslissingen.", native: { en: "A diverse and inclusive team often makes better decisions." }, items: [nl.inclusief], form: { word: beslissingen, stem: beslissen } }
+  - { id: s15, target: "De begeleiding van een mentor maakt het begin gemakkelijker.", native: { en: "The guidance of a mentor makes the start easier." }, items: [nl.mentor], form: { word: begeleiding, stem: begeleiden } }
+transforms:
+  - { id: x01, from: "Het antwoord is afhankelijk van hoeveel tijd de mentor heeft.", key: hangt, gapped: "Dat ___ hoeveel tijd de mentor heeft.", answers: ["hangt ervan af", "hangt af van"], items: [nl.mentor] }
+  - { id: x02, from: "De directie zei ja tegen het voorstel van de ondernemingsraad.", key: aanvaard, gapped: "Het voorstel van de ondernemingsraad ___.", answers: ["werd door de directie aanvaard", "werd aanvaard door de directie", "is door de directie aanvaard", "is aanvaard door de directie"], items: [nl.ondernemingsraad] }
+  - { id: x03, from: "Een mentor begeleidt elke nieuwe collega.", key: door, gapped: "Elke nieuwe collega wordt ___ begeleid.", answers: ["door een mentor"], items: [nl.mentor] }
+texts: [nl-b2-work-t07]

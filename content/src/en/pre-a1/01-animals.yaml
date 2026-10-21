@@ -1,0 +1,85 @@
+id: en-pre-a1-u01          # stable forever (existing progress)
+title: { nl: Dieren }
+icon: animals
+topic: Animals
+vocabulary:
+  - { target: cat, native: { nl: kat }, pos: noun }
+  - { target: dog, native: { nl: hond }, pos: noun }
+  - { target: fish, native: { nl: vis }, pos: noun }
+  - { target: bird, native: { nl: vogel }, pos: noun }
+  - { target: horse, native: { nl: paard }, pos: noun }
+  - { target: cow, native: { nl: koe }, pos: noun }
+  - { target: sheep, native: { nl: schaap }, pos: noun }
+  - { target: chicken, native: { nl: kip }, pos: noun }
+  - { target: duck, native: { nl: eend }, pos: noun }
+  - { target: frog, native: { nl: kikker }, pos: noun }
+  - { target: black, native: { nl: zwart }, pos: adjective }
+  - { target: white, native: { nl: wit }, pos: adjective }
+  - { target: brown, native: { nl: bruin }, pos: adjective }
+  - { target: green, native: { nl: groen }, pos: adjective }
+  - { target: yellow, native: { nl: geel }, pos: adjective }
+  - { target: big, native: { nl: groot }, pos: adjective }
+  - { target: small, native: { nl: klein }, pos: adjective }
+  - { target: crocodile, native: { nl: krokodil }, pos: noun }
+  - { target: lizard, native: { nl: hagedis }, pos: noun }
+  - { target: snake, native: { nl: slang }, pos: noun }
+  - { target: animal, native: { nl: dier }, pos: noun, category: true }
+  - { target: bear, native: { nl: beer }, pos: noun }
+  - { target: elephant, native: { nl: olifant }, pos: noun }
+  - { target: giraffe, native: { nl: giraf }, pos: noun }
+  - { target: hippo, native: { nl: nijlpaard }, pos: noun }
+  - { target: monkey, native: { nl: aap }, pos: noun }
+  - { target: tiger, native: { nl: tijger }, pos: noun }
+  - { target: zebra, native: { nl: zebra }, pos: noun }
+  - { target: donkey, native: { nl: ezel }, pos: noun }
+  - { target: goat, native: { nl: geit }, pos: noun }
+  - { target: mouse, native: { nl: muis }, pos: noun }
+  - { target: mice, native: { nl: muizen }, pos: noun }
+  - { target: spider, native: { nl: spin }, pos: noun }
+  - { target: polar bear, native: { nl: ijsbeer }, pos: noun }
+  - { target: tail, native: { nl: staart }, pos: noun }
+sentences:
+  - { id: s01, target: "The cat is black.", native: { nl: "De kat is zwart." }, items: [en.cat, en.black] }
+  - { id: s02, target: "The dog is white.", native: { nl: "De hond is wit." }, items: [en.dog, en.white] }
+  - { id: s03, target: "The bird is brown.", native: { nl: "De vogel is bruin." }, items: [en.bird, en.brown] }
+  - { id: s04, target: "The duck is yellow.", native: { nl: "De eend is geel." }, items: [en.duck, en.yellow] }
+  - { id: s05, target: "The horse is brown.", native: { nl: "Het paard is bruin." }, items: [en.horse, en.brown] }
+  - { id: s06, target: "This is a cow.", native: { nl: "Dit is een koe." }, items: [en.cow] }
+  - { id: s07, target: "The sheep is white.", native: { nl: "Het schaap is wit." }, items: [en.sheep, en.white] }
+  - { id: s08, target: "The frog is green.", native: { nl: "De kikker is groen." }, items: [en.frog, en.green] }
+  - { id: s09, target: "The cat is small.", native: { nl: "De kat is klein." }, items: [en.cat, en.small] }
+  - { id: s10, target: "The horse is big.", native: { nl: "Het paard is groot." }, items: [en.horse, en.big] }
+  - { id: s11, target: "The crocodile is green.", native: { nl: "De krokodil is groen." }, items: [en.crocodile, en.green] }
+  - { id: s12, target: "The lizard is small.", native: { nl: "De hagedis is klein." }, items: [en.lizard, en.small] }
+  - { id: s13, target: "This is a long snake.", native: { nl: "Dit is een lange slang." }, items: [en.snake] }
+  - { id: s14, target: "The frog can jump.", native: { nl: "De kikker kan springen." }, items: [en.frog] }
+  - { id: s15, target: "I like animals.", native: { nl: "Ik vind dieren leuk." }, items: [en.animal] }
+  - { id: s16, target: "The bear is big and brown.", native: { nl: "De beer is groot en bruin." }, items: [en.bear, en.big, en.brown] }
+  - { id: s17, target: "The elephant has got a long nose.", native: { nl: "De olifant heeft een lange neus." }, items: [en.elephant] }
+  - { id: s18, target: "Giraffes are yellow and brown.", native: { nl: "Giraffen zijn geel met bruin." }, items: [en.giraffe, en.yellow, en.brown] }
+  - { id: s19, target: "The hippo is in the water.", native: { nl: "Het nijlpaard is in het water." }, items: [en.hippo] }
+  - { id: s20, target: "The monkey is eating a banana.", native: { nl: "De aap eet een banaan." }, items: [en.monkey] }
+  - { id: s21, target: "The tiger is orange and black.", native: { nl: "De tijger is oranje met zwart." }, items: [en.tiger, en.black] }
+  - { id: s22, target: "The zebra is black and white.", native: { nl: "De zebra is zwart-wit." }, items: [en.zebra, en.black, en.white] }
+  - { id: s23, target: "Look at the donkey!", native: { nl: "Kijk naar de ezel!" }, items: [en.donkey] }
+  - { id: s24, target: "The goat is eating the flowers.", native: { nl: "De geit eet de bloemen." }, items: [en.goat] }
+  - { id: s25, target: "There is a mouse under the table.", native: { nl: "Er zit een muis onder de tafel." }, items: [en.mouse] }
+  - { id: s26, target: "I can see three mice.", native: { nl: "Ik zie drie muizen." }, items: [en.mice] }
+  - { id: s27, target: "The spider has got eight legs.", native: { nl: "De spin heeft acht poten." }, items: [en.spider] }
+  - { id: s28, target: "The polar bear is white.", native: { nl: "De ijsbeer is wit." }, items: [en.polar-bear, en.white] }
+  - { id: s29, target: "The cat has got a long tail.", native: { nl: "De kat heeft een lange staart." }, items: [en.cat, en.tail] }
+  - { id: s30, target: "My dog is my favourite animal.", native: { nl: "Mijn hond is mijn lievelingsdier." }, items: [en.dog, en.animal] }
+  - { id: s31, target: "The duck is swimming.", native: { nl: "De eend zwemt." }, items: [en.duck] }
+  - { id: s32, target: "The bird can fly.", native: { nl: "De vogel kan vliegen." }, items: [en.bird] }
+  - { id: s33, target: "The fish is small.", native: { nl: "De vis is klein." }, items: [en.fish, en.small] }
+  - { id: s34, target: "Is that a sheep?", native: { nl: "Is dat een schaap?" }, items: [en.sheep] }
+  - { id: s35, target: "The chicken is brown.", native: { nl: "De kip is bruin." }, items: [en.chicken, en.brown] }
+  - { id: s36, target: "I've got a cow and a horse.", native: { nl: "Ik heb een koe en een paard." }, items: [en.cow, en.horse], acceptAlso: ["I have got a cow and a horse."] }
+  - { id: s37, target: "The monkey has got a long tail.", native: { nl: "De aap heeft een lange staart." }, items: [en.monkey, en.tail] }
+  - { id: s38, target: "The elephant is big and grey.", native: { nl: "De olifant is groot en grijs." }, items: [en.elephant, en.big] }
+lessons:
+  - { id: l01, title: { nl: Huisdieren }, vocab: [en.cat, en.dog, en.fish, en.bird, en.black, en.white, en.brown] }
+  - { id: l02, title: { nl: Op de boerderij }, vocab: [en.horse, en.cow, en.sheep, en.chicken, en.duck, en.yellow] }
+  - { id: l03, title: { nl: Kikkers en slangen }, vocab: [en.frog, en.green, en.big, en.small, en.crocodile, en.lizard, en.snake] }
+  - { id: l04, title: { nl: In de dierentuin }, vocab: [en.animal, en.bear, en.elephant, en.giraffe, en.hippo, en.monkey, en.tiger, en.zebra] }
+  - { id: l05, title: { nl: Nog meer dieren }, vocab: [en.donkey, en.goat, en.mouse, en.mice, en.spider, en.polar-bear, en.tail] }

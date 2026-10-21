@@ -1,0 +1,41 @@
+id: nl-b2-work-t06
+kind: dialogue
+title: { en: An angry customer }
+topic: Customers and suppliers (a phone call to customer service about an invoice)
+level: B2
+speakers: { A: { name: Johan }, B: { name: Nathalie } }
+turns:
+  - { id: nl-b2-work-t06-s01, speaker: B, target: "Goedemiddag, klantendienst van Claes Kantoor, u spreekt met Nathalie. Waarmee kan ik u helpen?", native: { en: "Good afternoon, Claes Kantoor customer service, Nathalie speaking. How can I help you?" } }
+  - { id: nl-b2-work-t06-s02, speaker: A, target: "Goedemiddag, met Johan Maes van het architectenbureau Maes. Ik bel over een factuur die ik vanmorgen heb gekregen, en eerlijk gezegd ben ik niet blij.", native: { en: "Good afternoon, this is Johan Maes from the Maes architects' office. I'm calling about an invoice I received this morning, and to be honest I'm not happy." } }
+  - { id: nl-b2-work-t06-s03, speaker: B, target: "Dat spijt me. Kunt u me het nummer van de factuur geven? Dan zoek ik uw bestelling op.", native: { en: "I'm sorry to hear that. Could you give me the invoice number? Then I'll look up your order." } }
+  - { id: nl-b2-work-t06-s04, speaker: A, target: "Het is factuur 2471. Volgens uw offerte zou elke bureaustoel honderdtachtig euro kosten, maar op de factuur staat tweehonderdtwintig.", native: { en: "It's invoice 2471. According to your quotation each office chair would cost a hundred and eighty euros, but the invoice says two hundred and twenty." } }
+  - { id: nl-b2-work-t06-s05, speaker: B, target: "Even kijken. U hebt gelijk: in de offerte stond honderdtachtig euro, op voorwaarde dat u voor het einde van september zou bestellen.", native: { en: "Let me see. You're right: the quotation said a hundred and eighty euros, on condition that you ordered before the end of September." } }
+  - { id: nl-b2-work-t06-s06, speaker: A, target: "Dat heb ik ook gedaan. Ik heb de bestelbon op 28 september verstuurd.", native: { en: "That's what I did. I sent the order form on 28 September." } }
+  - { id: nl-b2-work-t06-s07, speaker: B, target: "Ik zie hem. Hij is pas op 2 oktober bij ons geregistreerd, maar dat is onze fout, niet die van u.", native: { en: "I can see it. It was only registered with us on 2 October, but that's our mistake, not yours." } }
+  - { id: nl-b2-work-t06-s08, speaker: A, target: "Dat is fijn om te horen. En dan is er nog iets: de stoelen kwamen een week later dan beloofd.", native: { en: "That's good to hear. And then there's something else: the chairs arrived a week later than promised." } }
+  - { id: nl-b2-work-t06-s09, speaker: B, target: "Dat weet ik, we hadden problemen met een leverancier. Het spijt me echt. Ik stuur u vandaag een nieuwe factuur met de juiste prijs.", native: { en: "I know, we had problems with a supplier. I'm really sorry. I'll send you a new invoice with the right price today." } }
+  - { id: nl-b2-work-t06-s10, speaker: A, target: "Goed. Moet ik de eerste factuur dan niet betalen? De vervaldag is volgende week.", native: { en: "Good. So I don't have to pay the first invoice? The due date is next week." } }
+  - { id: nl-b2-work-t06-s11, speaker: B, target: "Nee, die annuleren we: u krijgt een creditnota. En omdat de levering te laat was, krijgt u op uw volgende bestelling vijf procent korting.", native: { en: "No, we'll cancel that one: you'll get a credit note. And because the delivery was late, you'll get five per cent off your next order." } }
+  - { id: nl-b2-work-t06-s12, speaker: A, target: "Dat is een correcte oplossing. Ik had niet verwacht dat het zo snel zou gaan.", native: { en: "That's a fair solution. I hadn't expected it to go so quickly." } }
+  - { id: nl-b2-work-t06-s13, speaker: B, target: "Klanttevredenheid is voor ons belangrijk. Kan ik nog iets anders voor u doen?", native: { en: "Customer satisfaction is important to us. Is there anything else I can do for you?" } }
+  - { id: nl-b2-work-t06-s14, speaker: A, target: "Nee, dat was het. Bedankt voor uw hulp, en nog een fijne dag.", native: { en: "No, that's all. Thanks for your help, and have a nice day." } }
+glossary:
+  - { word: architectenbureau, native: { en: "architects' office" } }
+  - { word: creditnota, native: { en: "credit note" } }
+  - { word: correcte, native: { en: "fair, correct (correct)" } }
+items: [nl.offerte, nl.bestelbon, nl.vervaldag, nl.klanttevredenheid]
+questions:
+  - { id: nl-b2-work-t06-q1, type: summary, options: ["Een klant belt over een te hoge factuur en een levering die te laat kwam, en de klantendienst vindt een oplossing.", "Een klant belt om nieuwe bureaustoelen te bestellen.", "De klantendienst belt een klant omdat hij zijn factuur niet betaald heeft."], correct: 0 }
+  - { id: nl-b2-work-t06-q2, type: mc, question: "Waarom stond er een te hoge prijs op de factuur?", options: ["De bestelbon werd te laat geregistreerd.", "Johan had te laat besteld.", "De prijs van de stoelen was gestegen."], correct: 0 }
+  - { id: nl-b2-work-t06-q3, type: true_false_notgiven, statement: "Johan moet de eerste factuur niet betalen.", answer: true }
+  - { id: nl-b2-work-t06-q4, type: true_false_notgiven, statement: "De stoelen kwamen op tijd aan.", answer: false }
+  - { id: nl-b2-work-t06-q5, type: true_false_notgiven, statement: "Johan heeft twaalf stoelen besteld.", answer: not_given }
+listeningQuestions:
+  - { id: nl-b2-work-t06-l1, type: complete, statement: "Op de volgende bestelling krijgt Johan ___ procent korting.", answers: [vijf, "5"] }
+  - { id: nl-b2-work-t06-l2, type: mc, question: "Wat stuurt Nathalie vandaag?", options: ["Een nieuwe factuur met de juiste prijs.", "Nieuwe stoelen.", "Een nieuwe offerte."], correct: 0 }
+openCloze:
+  - { sentence: nl-b2-work-t06-s05, word: op, acceptAlso: [onder] }
+  - { sentence: nl-b2-work-t06-s03, word: op }
+  - { sentence: nl-b2-work-t06-s08, word: dan, acceptAlso: [verder] }
+  - { sentence: nl-b2-work-t06-s12, word: zo }
+orderable: false

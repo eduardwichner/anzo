@@ -1,0 +1,64 @@
+id: nl-b1-u20
+title: { en: Looking back and ahead }
+icon: star
+topic: A newcomer's story, settling in, achievements and plans; the pluperfect and linking words
+vocabulary:
+  - { target: het heimwee, native: { en: homesickness }, pos: noun, plural: "-" }
+  - { target: wennen, native: { en: "to get used to (+ aan)" }, pos: verb }
+  - { target: gewend, native: { en: "used to (+ aan)" }, pos: adjective }
+  - { target: het succes, native: { en: success }, pos: noun, plural: successen }
+  - { target: dankbaar, native: { en: grateful }, pos: adjective }
+  - { target: de moed, native: { en: courage }, pos: noun, plural: "-" }
+  - { target: durven, native: { en: to dare }, pos: verb }
+  - { target: opgeven, native: { en: to give up }, pos: verb, avoid: [nl.volhouden] }
+  - { target: volhouden, native: { en: "to keep going, to persevere" }, pos: verb }
+  - { target: het begin, native: { en: beginning }, pos: noun, plural: "-" }
+  - { target: ondanks, native: { en: "despite, in spite of" }, pos: preposition }
+  - { target: langzamerhand, native: { en: gradually }, pos: adverb, avoid: [nl.geleidelijk] }
+  - { target: geleidelijk, native: { en: gradual }, pos: adjective }
+  - { target: terugkijken, native: { en: "to look back" }, pos: verb }
+  - { target: de ontmoeting, native: { en: meeting (with someone) }, pos: noun, plural: ontmoetingen }
+  - { target: het afscheid, native: { en: "farewell, goodbye" }, pos: noun, plural: afscheiden }
+  - { target: de nationaliteit, native: { en: nationality }, pos: noun, plural: nationaliteiten }
+  - { target: de inburgering, native: { en: "civic integration (the programme for newcomers)" }, pos: noun, plural: "-" }
+  - { target: de nieuwkomer, native: { en: newcomer }, pos: noun, plural: nieuwkomers }
+  - { target: de vluchteling, native: { en: refugee }, pos: noun, plural: vluchtelingen }
+  - { target: opbouwen, native: { en: "to build up" }, pos: verb }
+  - { target: de moeilijkheid, native: { en: difficulty }, pos: noun, plural: moeilijkheden }
+  - { target: onafhankelijk, native: { en: independent }, pos: adjective }
+  - { target: de vrijheid, native: { en: freedom }, pos: noun, plural: vrijheden }
+  - { target: bereiken, native: { en: "to reach, to achieve" }, pos: verb }
+  - { target: erkennen, native: { en: "to recognise (a diploma)" }, pos: verb }
+  - { target: het hoofdstuk, native: { en: chapter }, pos: noun, plural: hoofdstukken }
+  - { target: volgen, native: { en: "to follow; to take (a course)" }, pos: verb }
+  - { target: betekenen, native: { en: to mean }, pos: verb }
+sentences:
+  - { id: s01, target: "In het eerste jaar had ik vaak heimwee.", native: { en: "In the first year I was often homesick." }, items: [nl.heimwee], acceptAlso: ["Ik had in het eerste jaar vaak heimwee."] }
+  - { id: s02, target: "Ik moest wennen aan het weer en aan het eten.", native: { en: "I had to get used to the weather and the food." }, items: [nl.wennen] }
+  - { id: s03, target: "Nu ben ik gewend aan de regen.", native: { en: "Now I'm used to the rain." }, items: [nl.gewend, nl.wennen], acceptAlso: ["Ik ben nu gewend aan de regen."] }
+  - { id: s04, target: "Haar winkel is een groot succes.", native: { en: "Her shop is a big success." }, items: [nl.succes] }
+  - { id: s05, target: "Ik ben dankbaar voor alle hulp die ik heb gekregen.", native: { en: "I'm grateful for all the help I've had." }, items: [nl.dankbaar] }
+  - { id: s06, target: "Er is veel moed nodig om alles achter te laten.", native: { en: "It takes a lot of courage to leave everything behind." }, items: [nl.moed] }
+  - { id: s07, target: "In het begin durfde ik geen Nederlands te spreken.", native: { en: "At the beginning I didn't dare to speak Dutch." }, items: [nl.durven, nl.begin], acceptAlso: ["Ik durfde in het begin geen Nederlands te spreken."], finite: { word: durfde, hint: { en: "durven (past)" } } }
+  - { id: s08, target: "Soms wilde ik alles opgeven.", native: { en: "Sometimes I wanted to give it all up." }, items: [nl.opgeven] }
+  - { id: s09, target: "Gelukkig heb ik volgehouden.", native: { en: "Fortunately I kept going." }, items: [nl.volhouden], acceptAlso: ["Ik heb gelukkig volgehouden."] }
+  - { id: s10, target: "Ondanks de regen gingen we wandelen.", native: { en: "Despite the rain we went for a walk." }, items: [nl.ondanks], acceptAlso: ["We gingen ondanks de regen wandelen."] }
+  - { id: s11, target: "Langzamerhand begreep ik de mensen beter.", native: { en: "Gradually I understood people better." }, items: [nl.langzamerhand], acceptAlso: ["Ik begreep de mensen langzamerhand beter."] }
+  - { id: s12, target: "Het was een geleidelijke verandering.", native: { en: "It was a gradual change." }, items: [nl.geleidelijk, nl.verandering] }
+  - { id: s13, target: "Als ik terugkijk, ben ik trots op wat ik heb bereikt.", native: { en: "When I look back, I'm proud of what I've achieved." }, items: [nl.terugkijken, nl.bereiken], acceptAlso: ["Ik ben trots op wat ik heb bereikt als ik terugkijk."] }
+  - { id: s14, target: "Die ontmoeting heeft mijn leven veranderd.", native: { en: "That meeting changed my life." }, items: [nl.ontmoeting] }
+  - { id: s15, target: "Op de cursus heb ik mensen uit de hele wereld ontmoet.", native: { en: "On the course I met people from all over the world." }, items: [nl.ontmoeten, nl.heel-whole], acceptAlso: ["Ik heb op de cursus mensen uit de hele wereld ontmoet."] }
+  - { id: s16, target: "Het afscheid van mijn familie was moeilijk.", native: { en: "Saying goodbye to my family was hard." }, items: [nl.afscheid] }
+  - { id: s17, target: "Welke nationaliteit hebt u?", native: { en: "What nationality are you?" }, items: [nl.nationaliteit] }
+  - { id: s18, target: "Nieuwkomers volgen een cursus inburgering.", native: { en: "Newcomers take a civic integration course." }, items: [nl.nieuwkomer, nl.inburgering, nl.volgen] }
+  - { id: s19, target: "Veel vluchtelingen moeten opnieuw beginnen.", native: { en: "Many refugees have to start again." }, items: [nl.vluchteling, nl.opnieuw] }
+  - { id: s20, target: "Ze hebben hier een nieuw leven opgebouwd.", native: { en: "They've built up a new life here." }, items: [nl.opbouwen], acceptAlso: ["Hier hebben ze een nieuw leven opgebouwd."] }
+  - { id: s21, target: "Toen ik jong was, bestond internet nog niet.", native: { en: "When I was young, the internet didn't exist yet." }, items: [nl.bestaan], acceptAlso: ["Internet bestond nog niet toen ik jong was."], finite: { word: bestond, hint: { en: "bestaan (past)" } } }
+  - { id: s22, target: "De grootste moeilijkheid was de taal.", native: { en: "The biggest difficulty was the language." }, items: [nl.moeilijkheid], acceptAlso: ["De taal was de grootste moeilijkheid."] }
+  - { id: s23, target: "Met een eigen job ben je onafhankelijk.", native: { en: "With a job of your own you're independent." }, items: [nl.onafhankelijk, nl.eigen] }
+  - { id: s24, target: "Voor veel mensen betekent België vrijheid.", native: { en: "For many people Belgium means freedom." }, items: [nl.vrijheid, nl.betekenen] }
+  - { id: s25, target: "Nadat mijn diploma was erkend, kon ik als verpleegkundige werken.", native: { en: "After my qualification had been recognised, I could work as a nurse." }, items: [nl.erkennen], acceptAlso: ["Ik kon als verpleegkundige werken nadat mijn diploma was erkend."] }
+  - { id: s26, target: "Voor ons begint nu een nieuw hoofdstuk.", native: { en: "A new chapter is beginning for us now." }, items: [nl.hoofdstuk] }
+  - { id: s27, target: "In het begin voelde alles vreemd.", native: { en: "At the beginning everything felt strange." }, items: [nl.vreemd, nl.begin], acceptAlso: ["Alles voelde vreemd in het begin.", "Alles voelde in het begin vreemd."] }
+  - { id: s28, target: "Het was moeilijk, maar toch heb ik volgehouden.", native: { en: "It was hard, but I kept going all the same." }, items: [nl.volhouden], acceptAlso: ["Het was moeilijk, maar ik heb toch volgehouden."], build: true }
+texts: [nl-b1-t21]

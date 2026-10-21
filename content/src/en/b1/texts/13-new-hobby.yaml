@@ -1,0 +1,38 @@
+id: en-b1-t13
+kind: reading
+title: { nl: Probeer eens iets nieuws }
+topic: Hobbies (four young people describe a new hobby on a youth centre website)
+level: B1
+paragraphs:
+  - - { id: en-b1-t13-s01, target: "Last term our youth centre asked members to try an activity they had never done before.", native: { nl: "Vorig trimester vroeg ons jongerencentrum leden om een activiteit te proberen die ze nog nooit hadden gedaan." } }
+    - { id: en-b1-t13-s02, target: "Here is what four of them thought.", native: { nl: "Dit is wat vier van hen ervan vonden." } }
+  - - { id: en-b1-t13-s03, target: "Priya, 13: I took up pottery, and at first everything I made looked terrible!", native: { nl: "Priya, 13: Ik ben met pottenbakken begonnen, en eerst zag alles wat ik maakte er vreselijk uit!" } }
+    - { id: en-b1-t13-s04, target: "But our teacher was patient, and now I've made a bowl for my mum's birthday.", native: { nl: "Maar onze lerares was geduldig, en nu heb ik een kom gemaakt voor de verjaardag van mijn moeder." } }
+  - - { id: en-b1-t13-s05, target: "Omar, 15: I'm not keen on team sports, so I tried the indoor climbing wall.", native: { nl: "Omar, 15: Ik ben niet zo dol op teamsporten, dus ik probeerde de binnenklimmuur." } }
+    - { id: en-b1-t13-s06, target: "You climb with a partner who holds your rope, so you learn to trust each other.", native: { nl: "Je klimt met een partner die je touw vasthoudt, dus je leert elkaar te vertrouwen." } }
+  - - { id: en-b1-t13-s07, target: "Chloe, 14: I joined the photography club.", native: { nl: "Chloe, 14: Ik werd lid van de fotografieclub." } }
+    - { id: en-b1-t13-s08, target: "We walk around the town and take photographs of ordinary things, like doors or old signs.", native: { nl: "We lopen door de stad en maken foto's van gewone dingen, zoals deuren of oude borden." } }
+    - { id: en-b1-t13-s09, target: "Our pictures are going to be in an exhibition at the library in May.", native: { nl: "Onze foto's komen in mei in een tentoonstelling in de bibliotheek." } }
+  - - { id: en-b1-t13-s10, target: "Ethan, 12: I learned to knit, which my friends thought was strange.", native: { nl: "Ethan, 12: Ik leerde breien, wat mijn vrienden raar vonden." } }
+    - { id: en-b1-t13-s11, target: "It's actually very relaxing, and I'm making a scarf in my team's colours for the football season.", native: { nl: "Het is eigenlijk heel ontspannend, en ik brei een sjaal in de kleuren van mijn team voor het voetbalseizoen." } }
+glossary:
+  - { word: youth centre, native: { nl: jongerencentrum } }
+  - { word: relaxing, native: { nl: ontspannend } }
+items: [en.activity, en.take-up, en.pottery, en.patient, en.keen, en.climbing, en.indoor, en.partner, en.rope, en.trust, en.photography, en.photograph, en.ordinary, en.sign, en.exhibition, en.knit, en.season]
+questions:
+  - { id: en-b1-t13-q1, type: mc, question: "What did the youth centre ask its members to do?", options: ["Try a new activity.", "Teach a hobby to others.", "Make a present for a parent."], correct: 0 }
+  - { id: en-b1-t13-q2, type: true_false_notgiven, statement: "Chloe has bought a new camera.", answer: not_given }
+  - { id: en-b1-t13-q3, type: true_false_notgiven, statement: "Omar doesn't really like team sports.", answer: true }
+  - { id: en-b1-t13-q4, type: true_false_notgiven, statement: "Priya was good at pottery from the start.", answer: false }
+  - { id: en-b1-t13-q5, type: mc, question: "What did Ethan's friends think about his hobby?", options: ["It was strange.", "It was boring.", "It was dangerous."], correct: 0 }
+  - { id: en-b1-t13-q6, type: match_heading, paragraph: 4, options: ["Seeing ordinary things in a new way", "Learning to trust a partner", "A present for Mum"], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t13-l1, type: mc, question: "Where will the photography club's pictures be shown?", options: ["At the library.", "At the youth centre.", "At school."], correct: 0 }
+  - { id: en-b1-t13-l2, type: true_false_notgiven, statement: "Ethan is making a scarf in his team's colours.", answer: true }
+cloze:
+  - { sentence: en-b1-t13-s01, word: asked, kind: finite_verb, hint: { nl: "ask (verleden tijd)" } }
+  - { sentence: en-b1-t13-s04, word: made, kind: finite_verb, hint: { nl: "make (voltooide tijd: I've …)" } }
+  - { sentence: en-b1-t13-s06, word: holds, kind: finite_verb, hint: { nl: "hold (tegenwoordige tijd)" } }
+  - { sentence: en-b1-t13-s07, word: joined, kind: finite_verb, hint: { nl: "join (verleden tijd)" } }
+  - { sentence: en-b1-t13-s10, word: learned, kind: finite_verb, hint: { nl: "learn (verleden tijd)" } }
+orderable: false

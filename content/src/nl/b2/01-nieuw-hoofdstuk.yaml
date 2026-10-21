@@ -1,0 +1,95 @@
+id: nl-b2-u01
+title: { en: A new chapter }
+icon: home
+topic: Moving to another city, weighing a decision; verb clusters (had willen doen, heeft kunnen doen)
+vocabulary:
+  - { target: de omgeving, native: { en: "surroundings, environment (where you live)" }, pos: noun, plural: omgevingen }
+  - { target: het besef, native: { en: awareness }, pos: noun, plural: "-" }
+  - { target: de twijfel, native: { en: doubt }, pos: noun, plural: twijfels }
+  - { target: het avontuur, native: { en: adventure }, pos: noun, plural: avonturen }
+  - { target: de aanpassing, native: { en: "adjustment, adaptation" }, pos: noun, plural: aanpassingen }
+  - { target: de wereldstad, native: { en: "metropolis, cosmopolitan city" }, pos: noun, plural: wereldsteden }
+  - { target: het netwerk, native: { en: network }, pos: noun, plural: netwerken }
+  - { target: de stap, native: { en: step }, pos: noun, plural: stappen }
+  - { target: de gemeenschap, native: { en: community }, pos: noun, plural: gemeenschappen }
+  - { target: het besluit, native: { en: "decision, resolution" }, pos: noun, plural: besluiten, avoid: [nl.beslissing] }
+  - { target: de spijt, native: { en: regret }, pos: noun, plural: "-" }
+  - { target: het toeval, native: { en: "chance, coincidence" }, pos: noun, plural: "-" }
+  - { target: het gemis, native: { en: "sense of loss, missing (someone or something)" }, pos: noun, plural: "-" }
+  - { target: de drukte, native: { en: "bustle, crowds" }, pos: noun, plural: "-" }
+  - { target: de moedertaal, native: { en: mother tongue }, pos: noun, plural: moedertalen }
+  - { target: het accent, native: { en: accent }, pos: noun, plural: accenten }
+  - { target: aarzelen, native: { en: to hesitate }, pos: verb }
+  - { target: zich vestigen, native: { en: to settle (somewhere) }, pos: verb }
+  - { target: ontdekken, native: { en: to discover }, pos: verb }
+  - { target: beleven, native: { en: to experience }, pos: verb }
+  - { target: betreuren, native: { en: to regret }, pos: verb }
+  - { target: overwegen, native: { en: to consider }, pos: verb }
+  - { target: verlaten, native: { en: "to leave (a place)" }, pos: verb }
+  - { target: onbekend, native: { en: unknown }, pos: adjective }
+  - { target: spontaan, native: { en: spontaneous }, pos: adjective }
+  - { target: bewust, native: { en: "conscious, deliberate" }, pos: adjective }
+  - { target: vertrouwd, native: { en: familiar }, pos: adjective }
+  - { target: onzeker, native: { en: "unsure, insecure" }, pos: adjective }
+  - { target: nieuwsgierig, native: { en: curious }, pos: adjective }
+  - { target: aanvankelijk, native: { en: "at first, initially" }, pos: adverb }
+  - { target: inmiddels, native: { en: "by now, in the meantime" }, pos: adverb, avoid: [nl.tegelijkertijd] }
+  - { target: ineens, native: { en: "suddenly, all at once" }, pos: adverb }
+  - { target: achteraf, native: { en: "afterwards, in hindsight" }, pos: adverb }
+  - { target: tegelijkertijd, native: { en: at the same time }, pos: adverb }
+  - { target: allemaal, native: { en: "all (of them), everyone" }, pos: adverb }
+  - { target: enorm, native: { en: "enormous; enormously" }, pos: adjective }
+  - { target: gek, native: { en: "mad, crazy; strange" }, pos: adjective }
+  - { target: gemeen, native: { en: "in common (as in: to have a lot in common); mean, nasty" }, pos: adjective }
+  - { target: puur, native: { en: pure }, pos: adjective }
+  - { target: vlot, native: { en: "fluent; smooth" }, pos: adjective }
+  - { target: de psycholoog, native: { en: psychologist }, pos: noun, plural: psychologen }
+  - { target: besluiten, native: { en: to decide }, pos: verb, avoid: [nl.beslissen, nl.besluit] }
+  - { target: "zo'n", native: { en: "such a, a … like that" }, pos: other }
+sentences:
+  - { id: s01, target: "Na tien jaar wilde ik mijn vertrouwde omgeving verlaten.", native: { en: "After ten years I wanted to leave my familiar surroundings." }, items: [nl.vertrouwd, nl.omgeving, nl.verlaten], acceptAlso: ["Ik wilde na tien jaar mijn vertrouwde omgeving verlaten."] }
+  - { id: s02, target: "Pas later kwam het besef dat ik veel had achtergelaten.", native: { en: "Only later did I realise that I had left a lot behind." }, items: [nl.besef], finite: { word: kwam, hint: { en: "komen (past)" } }, acceptAlso: ["Pas later kwam het besef dat ik veel achtergelaten had.", "Het besef dat ik veel had achtergelaten kwam pas later.", "Het besef dat ik veel achtergelaten had kwam pas later."] }
+  - { id: s03, target: "Ik had geen enkele twijfel over mijn keuze.", native: { en: "I didn't have a single doubt about my choice." }, items: [nl.twijfel], acceptAlso: ["Over mijn keuze had ik geen enkele twijfel."] }
+  - { id: s04, target: "Voor mijn kinderen was de verhuizing een groot avontuur.", native: { en: "For my children the move was a big adventure." }, items: [nl.avontuur], acceptAlso: ["De verhuizing was voor mijn kinderen een groot avontuur.", "De verhuizing was een groot avontuur voor mijn kinderen."] }
+  - { id: s05, target: "Een verhuizing naar een andere stad is altijd een grote aanpassing.", native: { en: "Moving to another city is always a big adjustment." }, items: [nl.aanpassing], form: { word: aanpassing, stem: aanpassen } }
+  - { id: s06, target: "In een wereldstad als Brussel is er altijd iets te beleven.", native: { en: "In a big city like Brussels there's always something going on." }, items: [nl.wereldstad, nl.beleven] }
+  - { id: s07, target: "Het duurt even voor je een netwerk van vrienden hebt.", native: { en: "It takes a while before you have a network of friends." }, items: [nl.netwerk] }
+  - { id: s08, target: "Ik had die stap veel eerder willen zetten.", native: { en: "I would have liked to take that step much earlier." }, items: [nl.stap], build: true, acceptAlso: ["Die stap had ik veel eerder willen zetten.", "Veel eerder had ik die stap willen zetten."] }
+  - { id: s09, target: "In onze buurt is er een sterke gemeenschap.", native: { en: "In our neighbourhood there is a strong community." }, items: [nl.gemeenschap] }
+  - { id: s10, target: "Het besluit om te verhuizen hebben we samen genomen.", native: { en: "We took the decision to move together." }, items: [nl.besluit], acceptAlso: ["We hebben het besluit om te verhuizen samen genomen."] }
+  - { id: s11, target: "Heb je nooit spijt gehad van je keuze?", native: { en: "Have you never regretted your choice?" }, items: [nl.spijt] }
+  - { id: s12, target: "Door puur toeval vond ik een appartement vlak bij het station.", native: { en: "By pure chance I found a flat right next to the station." }, items: [nl.toeval], acceptAlso: ["Ik vond door puur toeval een appartement vlak bij het station."] }
+  - { id: s13, target: "Het gemis van mijn familie voel ik vooral op zondag.", native: { en: "I miss my family most on Sundays." }, items: [nl.gemis], acceptAlso: ["Ik voel het gemis van mijn familie vooral op zondag."] }
+  - { id: s14, target: "Aan de drukte in de stad moest ik echt wennen.", native: { en: "I really had to get used to the bustle of the city." }, items: [nl.drukte], acceptAlso: ["Ik moest echt aan de drukte in de stad wennen.", "Ik moest echt wennen aan de drukte in de stad."] }
+  - { id: s15, target: "Haar moedertaal is Frans, maar ze spreekt vlot Nederlands.", native: { en: "Her mother tongue is French, but she speaks Dutch fluently." }, items: [nl.moedertaal], acceptAlso: ["Frans is haar moedertaal, maar ze spreekt vlot Nederlands.", "Haar moedertaal is Frans, maar Nederlands spreekt ze vlot."] }
+  - { id: s16, target: "Na een jaar in Gent heeft hij al een accent uit Gent.", native: { en: "After a year in Ghent he already has a Ghent accent." }, items: [nl.accent], acceptAlso: ["Hij heeft na een jaar in Gent al een accent uit Gent."] }
+  - { id: s17, target: "Ik heb lang geaarzeld voor ik ja zei.", native: { en: "I hesitated for a long time before I said yes." }, items: [nl.aarzelen], acceptAlso: ["Voor ik ja zei, heb ik lang geaarzeld."] }
+  - { id: s18, target: "Veel jongeren vestigen zich in de stad voor hun werk.", native: { en: "Many young people settle in the city for their work." }, items: [nl.zich-vestigen], acceptAlso: ["Voor hun werk vestigen veel jongeren zich in de stad."] }
+  - { id: s19, target: "Elke week ontdek ik een nieuw café in de stad.", native: { en: "Every week I discover a new café in the city." }, items: [nl.ontdekken], acceptAlso: ["Ik ontdek elke week een nieuw café in de stad."] }
+  - { id: s20, target: "Ze betreurt dat ze haar vrienden niet vaker ziet.", native: { en: "She regrets that she doesn't see her friends more often." }, items: [nl.betreuren] }
+  - { id: s21, target: "We hebben overwogen om naar het buitenland te verhuizen.", native: { en: "We considered moving abroad." }, items: [nl.overwegen] }
+  - { id: s22, target: "Die buurt is voor mij nog helemaal onbekend.", native: { en: "That neighbourhood is still completely unknown to me." }, items: [nl.onbekend], acceptAlso: ["Voor mij is die buurt nog helemaal onbekend."] }
+  - { id: s23, target: "Het was een spontaan besluit, zonder veel plannen.", native: { en: "It was a spontaneous decision, without much planning." }, items: [nl.spontaan, nl.besluit] }
+  - { id: s24, target: "Ze heeft bewust gekozen voor een kleine stad.", native: { en: "She deliberately chose a small town." }, items: [nl.bewust] }
+  - { id: s25, target: "In het begin was ik onzeker over mijn Nederlands.", native: { en: "At first I was unsure about my Dutch." }, items: [nl.onzeker], acceptAlso: ["Ik was in het begin onzeker over mijn Nederlands.", "Over mijn Nederlands was ik in het begin onzeker."] }
+  - { id: s26, target: "Ik was nieuwsgierig naar het leven in een andere stad.", native: { en: "I was curious about life in another city." }, items: [nl.nieuwsgierig], acceptAlso: ["Naar het leven in een andere stad was ik nieuwsgierig."] }
+  - { id: s27, target: "Aanvankelijk voelde ik me er niet thuis.", native: { en: "At first I didn't feel at home there." }, items: [nl.aanvankelijk], acceptAlso: ["Ik voelde me er aanvankelijk niet thuis."] }
+  - { id: s28, target: "Inmiddels woon ik hier al vijf jaar.", native: { en: "By now I've been living here for five years." }, items: [nl.inmiddels], acceptAlso: ["Ik woon hier inmiddels al vijf jaar."], finite: { word: woon, hint: { en: "wonen (present)" } } }
+  - { id: s29, target: "Ineens had ik geen zin meer om terug te gaan.", native: { en: "All at once I no longer felt like going back." }, items: [nl.ineens], acceptAlso: ["Ik had ineens geen zin meer om terug te gaan."] }
+  - { id: s30, target: "Achteraf gezien was het de beste beslissing van mijn leven.", native: { en: "In hindsight it was the best decision of my life." }, items: [nl.achteraf], form: { word: beslissing, stem: beslissen } }
+  - { id: s31, target: "Ik zocht tegelijkertijd werk en een appartement.", native: { en: "I was looking for work and a flat at the same time." }, items: [nl.tegelijkertijd], acceptAlso: ["Ik zocht werk en tegelijkertijd een appartement.", "Tegelijkertijd zocht ik werk en een appartement."] }
+  - { id: s32, target: "Hij heeft zich niet snel aan zijn nieuwe omgeving kunnen aanpassen.", native: { en: "He wasn't able to adjust quickly to his new surroundings." }, items: [nl.omgeving], acceptAlso: ["Hij heeft zich niet snel kunnen aanpassen aan zijn nieuwe omgeving.", "Aan zijn nieuwe omgeving heeft hij zich niet snel kunnen aanpassen.", "Hij heeft zich aan zijn nieuwe omgeving niet snel kunnen aanpassen."], build: true }
+  - { id: s33, target: "Mijn vrienden zijn allemaal in Hasselt gebleven.", native: { en: "My friends all stayed in Hasselt." }, items: [nl.allemaal], acceptAlso: ["In Hasselt zijn mijn vrienden allemaal gebleven."] }
+  - { id: s34, target: "Het verschil met mijn dorp is enorm.", native: { en: "The difference from my village is enormous." }, items: [nl.enorm] }
+  - { id: s35, target: "Gek genoeg mis ik vooral de rust.", native: { en: "Strangely enough, what I miss most is the peace and quiet." }, items: [nl.gek], acceptAlso: ["Ik mis gek genoeg vooral de rust."] }
+  - { id: s36, target: "We hebben veel gemeen, want we komen allebei van het platteland.", native: { en: "We have a lot in common, because we both come from the countryside." }, items: [nl.gemeen] }
+  - { id: s37, target: "Het was puur toeval dat ik die job vond.", native: { en: "It was pure chance that I found that job." }, items: [nl.puur, nl.toeval] }
+  - { id: s38, target: "De eerste weken verliepen vlot.", native: { en: "The first weeks went smoothly." }, items: [nl.vlot], finite: { word: verliepen, hint: { en: "verlopen (past)" } } }
+  - { id: s39, target: "Een psycholoog heeft me geholpen met mijn twijfels.", native: { en: "A psychologist helped me with my doubts." }, items: [nl.psycholoog, nl.twijfel] }
+  - { id: s40, target: "Na veel twijfel besloot ze om te blijven.", native: { en: "After a lot of doubt she decided to stay." }, items: [nl.besluiten, nl.twijfel], acceptAlso: ["Ze besloot na veel twijfel om te blijven."] }
+  - { id: s41, target: "Zo'n grote stad was voor mij helemaal nieuw.", native: { en: "A big city like that was completely new to me." }, items: [nl.zo-n], acceptAlso: ["Voor mij was zo'n grote stad helemaal nieuw."] }
+transforms:
+  - { id: x01, from: "Ik wilde die stap eerder zetten, maar ik heb het niet gedaan.", key: willen, gapped: "Ik had die stap eerder ___.", answers: ["willen zetten"], items: [nl.stap], native: { en: "I would have liked to take that step earlier." } }
+  - { id: x02, from: "Misschien vestigt ze zich ooit in Hasselt.", key: kunnen, gapped: "Het ___ ze zich ooit in Hasselt vestigt.", answers: ["zou kunnen dat"], items: [nl.zich-vestigen], native: { en: "She might settle in Hasselt one day." } }
+  - { id: x03, from: "Hij heeft er spijt van dat hij zijn vrienden heeft achtergelaten.", key: betreurt, gapped: "Hij ___ zijn vrienden heeft achtergelaten.", answers: ["betreurt dat hij", "betreurt het dat hij"], items: [nl.betreuren], native: { en: "He regrets leaving his friends behind." } }
+texts: [nl-b2-t01, nl-b2-t02]

@@ -1,0 +1,50 @@
+id: en-a1-u18
+title: { nl: Dingen doen }
+icon: actions
+topic: Verbs and expressions
+vocabulary:
+  - { target: bring, native: { nl: brengen }, pos: verb }
+  - { target: build, native: { nl: bouwen }, pos: verb }
+  - { target: fix, native: { nl: repareren }, pos: verb }
+  - { target: grow, native: { nl: groeien }, pos: verb }
+  - { target: take, native: { nl: "nemen, pakken" }, pos: verb, avoid: [en.bring] }
+  - { target: need, native: { nl: nodig hebben }, pos: verb }
+  - { target: work, native: { nl: "werken, werk" }, pos: verb }
+  - { target: look for, native: { nl: zoeken }, pos: verb }
+  - { target: lose, native: { nl: "verliezen, kwijtraken" }, pos: verb }
+  - { target: wait, native: { nl: wachten }, pos: verb }
+  - { target: dream, native: { nl: "droom, dromen" }, pos: noun }
+  - { target: top, native: { nl: "bovenkant, top" }, pos: noun }
+  - { target: bottom, native: { nl: "onderkant, bodem" }, pos: noun }
+  - { target: huge, native: { nl: "enorm, gigantisch" }, pos: adjective }
+  - { target: brilliant, native: { nl: "briljant, super" }, pos: adjective }
+  - { target: exciting, native: { nl: spannend }, pos: adjective }
+  - { target: all right, native: { nl: in orde }, pos: phrase }
+  - { target: come on, native: { nl: kom op }, pos: phrase }
+  - { target: excuse me, native: { nl: "pardon, mag ik even" }, pos: phrase }
+sentences:
+  - { id: s01, target: "Can you bring me a glass of water?", native: { nl: "Kun je me een glas water brengen?" }, items: [en.bring] }
+  - { id: s02, target: "Let's build a house for the bird.", native: { nl: "Laten we een huisje voor de vogel bouwen." }, items: [en.build] }
+  - { id: s03, target: "Dad fixed my bike.", native: { nl: "Papa heeft mijn fiets gerepareerd." }, items: [en.fix] }
+  - { id: s04, target: "Plants need water to grow.", native: { nl: "Planten hebben water nodig om te groeien." }, items: [en.grow, en.need] }
+  - { id: s05, target: "My brother is growing very quickly.", native: { nl: "Mijn broer groeit heel snel." }, items: [en.grow] }
+  - { id: s06, target: "Take an apple, please.", native: { nl: "Pak een appel, alsjeblieft." }, items: [en.take] }
+  - { id: s07, target: "I need a new pencil.", native: { nl: "Ik heb een nieuw potlood nodig." }, items: [en.need] }
+  - { id: s08, target: "Mum works in a hospital.", native: { nl: "Mama werkt in een ziekenhuis." }, items: [en.work] }
+  - { id: s09, target: "I'm looking for my cat.", native: { nl: "Ik zoek mijn kat." }, items: [en.look-for], acceptAlso: ["I am looking for my cat."] }
+  - { id: s10, target: "Don't lose your ticket!", native: { nl: "Raak je kaartje niet kwijt!" }, items: [en.lose], acceptAlso: ["Do not lose your ticket!"] }
+  - { id: s11, target: "Wait for me!", native: { nl: "Wacht op mij!" }, items: [en.wait] }
+  - { id: s12, target: "Please wait here.", native: { nl: "Wacht hier, alsjeblieft." }, items: [en.wait] }
+  - { id: s13, target: "I had a funny dream.", native: { nl: "Ik had een grappige droom." }, items: [en.dream] }
+  - { id: s14, target: "The bird is at the top of the tree.", native: { nl: "De vogel zit in de top van de boom." }, items: [en.top] }
+  - { id: s15, target: "There's a fish at the bottom of the lake.", native: { nl: "Er zwemt een vis op de bodem van het meer." }, items: [en.bottom], acceptAlso: ["There is a fish at the bottom of the lake."] }
+  - { id: s16, target: "Whales are huge!", native: { nl: "Walvissen zijn enorm!" }, items: [en.huge] }
+  - { id: s17, target: "That's a brilliant idea!", native: { nl: "Dat is een briljant idee!" }, items: [en.brilliant], acceptAlso: ["That is a brilliant idea!"] }
+  - { id: s18, target: "The film was very exciting.", native: { nl: "De film was heel spannend." }, items: [en.exciting] }
+  - { id: s19, target: "Are you all right?", native: { nl: "Ben je in orde?" }, items: [en.all-right] }
+  - { id: s20, target: "Come on, let's go!", native: { nl: "Kom op, laten we gaan!" }, items: [en.come-on] }
+  - { id: s21, target: "Excuse me, where is the station?", native: { nl: "Pardon, waar is het station?" }, items: [en.excuse-me] }
+lessons:
+  - { id: l01, title: { nl: Brengen en bouwen }, vocab: [en.bring, en.build, en.fix, en.grow, en.take, en.need, en.work] }
+  - { id: l02, title: { nl: "Zoeken, wachten en dromen" }, vocab: [en.look-for, en.lose, en.wait, en.dream, en.top, en.bottom] }
+  - { id: l03, title: { nl: Kom op! }, vocab: [en.huge, en.brilliant, en.exciting, en.all-right, en.come-on, en.excuse-me] }

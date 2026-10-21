@@ -1,0 +1,37 @@
+id: nl-b1-t07
+kind: reading
+title: { en: "Moving? What you have to arrange" }
+topic: Moving house (a page on a municipal website)
+level: B1
+paragraphs:
+  - - { id: nl-b1-t07-s01, target: "Gaat u verhuizen binnen de gemeente of komt u in onze gemeente wonen?", native: { en: "Are you moving within the municipality, or are you coming to live in our municipality?" } }
+    - { id: nl-b1-t07-s02, target: "Dan zijn er enkele dingen die u zelf moet regelen.", native: { en: "Then there are a few things you have to arrange yourself." } }
+  - - { id: nl-b1-t07-s03, target: "Eerst geeft u uw adreswijziging door aan de dienst bevolking.", native: { en: "First you report your change of address to the population office." } }
+    - { id: nl-b1-t07-s04, target: "Dat moet gebeuren binnen acht werkdagen nadat u bent verhuisd.", native: { en: "That has to be done within eight working days of moving." } }
+    - { id: nl-b1-t07-s05, target: "U kunt dat online doen of aan het loket, maar daar kunt u alleen op afspraak terecht.", native: { en: "You can do that online or at the counter, but you can only go there by appointment." } }
+  - - { id: nl-b1-t07-s06, target: "Daarna komt de wijkagent bij u langs om te controleren of u echt op het nieuwe adres woont.", native: { en: "After that the local police officer calls on you to check whether you really live at the new address." } }
+    - { id: nl-b1-t07-s07, target: "Is er niemand thuis, dan wordt er een briefje in de brievenbus gestoken.", native: { en: "If nobody is at home, a note is put through the letterbox." } }
+    - { id: nl-b1-t07-s08, target: "Uw adres wordt pas in het rijksregister aangepast als de wijkagent de controle heeft gedaan.", native: { en: "Your address is only changed in the national register once the local police officer has done the check." } }
+  - - { id: nl-b1-t07-s09, target: "Vervolgens krijgt u een brief met een uitnodiging om uw identiteitskaart te laten aanpassen.", native: { en: "Next you receive a letter inviting you to have your identity card updated." } }
+    - { id: nl-b1-t07-s10, target: "Breng uw kaart en de code die u bij de kaart hebt gekregen mee naar het loket.", native: { en: "Bring your card and the code you received with the card to the counter." } }
+  - - { id: nl-b1-t07-s11, target: "Ten slotte: vergeet niet uw leveranciers van gas, elektriciteit en internet te verwittigen.", native: { en: "Finally: don't forget to notify your gas, electricity and internet suppliers." } }
+    - { id: nl-b1-t07-s12, target: "Bij de post kunt u uw brieven een paar maanden laten doorsturen naar uw nieuwe adres.", native: { en: "At the post office you can have your letters forwarded to your new address for a few months." } }
+glossary:
+  - { word: dienst bevolking, native: { en: "population office (at the town hall)" } }
+  - { word: rijksregister, native: { en: "national register (of residents)" } }
+items: [nl.adreswijziging, nl.binnen, nl.terecht, nl.wijkagent, nl.leverancier, nl.post, nl.doorsturen, nl.steken, nl.zelf, nl.doorgeven, nl.aanpassen, nl.enkele, nl.controle, nl.langskomen, nl.gas, nl.elektriciteit, nl.verwittigen, nl.code]
+questions:
+  - { id: nl-b1-t07-q1, type: mc, question: "Binnen hoeveel dagen moet u uw adreswijziging doorgeven?", options: ["Binnen acht werkdagen.", "Binnen twee weken.", "Binnen een maand."], correct: 0 }
+  - { id: nl-b1-t07-q4, type: true_false_notgiven, statement: "De post stuurt uw brieven gratis door.", answer: not_given }
+  - { id: nl-b1-t07-q2, type: true_false_notgiven, statement: "Aan het loket kunt u zonder afspraak terecht.", answer: false }
+  - { id: nl-b1-t07-q3, type: true_false_notgiven, statement: "Uw adres wordt pas aangepast na de controle van de wijkagent.", answer: true }
+  - { id: nl-b1-t07-q5, type: match_heading, paragraph: 3, options: ["Het bezoek van de wijkagent", "Uw identiteitskaart", "Uw leveranciers"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b1-t07-l1, type: mc, question: "Wat gebeurt er als u niet thuis bent?", options: ["Er wordt een briefje in de brievenbus gestoken.", "De wijkagent komt de volgende dag terug.", "U moet naar het politiekantoor gaan."], correct: 0 }
+  - { id: nl-b1-t07-l2, type: true_false_notgiven, statement: "U krijgt een brief over uw identiteitskaart.", answer: true }
+cloze:
+  - { sentence: nl-b1-t07-s03, word: geeft, kind: finite_verb, hint: { en: "doorgeven (present)" } }
+  - { sentence: nl-b1-t07-s06, word: komt, kind: finite_verb, hint: { en: "langskomen (present)" } }
+  - { sentence: nl-b1-t07-s07, word: wordt, kind: finite_verb, hint: { en: "worden (present)" } }
+  - { sentence: nl-b1-t07-s09, word: krijgt, kind: finite_verb, hint: { en: "krijgen (present)" } }
+orderable: true

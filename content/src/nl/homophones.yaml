@@ -1,0 +1,14 @@
+# Words of the Dutch course that sound like another word or form of the course: never a single-word
+# listen_type (the learner cannot hear which one is meant). Used by scripts/content/generator.js for every Dutch pack.
+groups:
+  - [mij, mei]          # me / May
+  - [zij, zei]          # she, they / said
+  - [jou, jouw]         # you / your
+  - [hart, hard]        # heart / hard (final devoicing)
+  - [rijst, reist]      # rice / travels
+  - [wij, wei]          # we / meadow (wei is not taught; listed for completeness)
+  - [hij, hei]          # he / heath
+  - [eis, ijs]          # demand / ice
+  - [word, wordt]       # forms of worden
+  - [licht, ligt]        # light / lies (final devoicing)
+  - [tenminste, ten minste]  # one word or two, same sound

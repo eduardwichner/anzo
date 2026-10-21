@@ -1,0 +1,211 @@
+# English B2 word list, derived: the groups below add level-B2 entries to wordlist-en.json on top of the
+# YLE and B1 Preliminary lists (npm run content:wordlist; scripts/content/wordlist-en.js). Cambridge publishes no B2 list:
+# a word the B2 First for Schools sample paper 1 uses is marked attested automatically (the builder checks the paper's text);
+# the other words are topic words, each group with its justification. A word already on the YLE or B1 list is an error.
+# Fields per group: id, theme, why, word lists noun / verb / adj / adv / prep / conj / phrase, and newSense (a word whose
+# spelling matches a lower-list entry that is another word: make up "to be friends again" vs the noun make-up).
+names: [Leo, Hart, Okafor, Priya, Sam, Mia, Tom, Aisha, Ben, Hannah, Dawson, Mill, Jamie, Clarke, Zara, Leeds, Nadia, Rahman, Eva, Lund, Ellie, Moore, Mozart, Shakespeare, Hollywood, Austria, Grace, Ollie, Kofi, Lily, Daniel, Sofia, Scotland, Darwin, Mars, Alexander, Fleming, Megan, Leon, Ruby]
+groups:
+  - id: b01-personality
+    theme: "Personality, talent and ambition"
+    why: >-
+      B2 First for Schools: Reading Part 5 "Ballet dancer by chance" (scholarship, enrol, by chance), the writing and speaking
+      tasks about people and ambitions; describing personality and coping with setbacks is B2 range (CEFR B2: a good range
+      of vocabulary for matters connected to his field and most general topics). Parity: nl-b2-u01, fr-b2 u01.
+    noun: [determination, scholarship, confidence, personality, motivation, failure, audition, role model, potential, passion, rehearsal, pressure]
+    verb: [enrol, cope, struggle, overcome]
+    adj: [ambitious, determined, gifted, sensitive, stubborn, modest, outgoing, impatient, motivated, dedicated, remarkable]
+    adv: [eventually, gradually]
+    phrase: [by chance, look up to]
+  - id: b02-learning
+    theme: "Studying and learning for life"
+    why: >-
+      B2 First for Schools: the essay task in the sample paper (school and learning), Listening Part 4 and the speaking topics
+      about school life; study skills, assessment and online learning are the B2 range of the education domain. Attested in
+      the paper: lifelong, concentration, attendance, assessment, effective, keep up with. Parity: nl-b2-u09, fr-b2.
+    noun: [assignment, deadline, concentration, distraction, attendance, tutor, plagiarism, assessment, feedback, mentor, curiosity, discipline]
+    verb: [memorise, focus, discourage, assess, broaden]
+    adj: [lifelong, academic, practical, theoretical, compulsory, optional, effective]
+    phrase: [take notes, figure out, catch up, fall behind, keep up with, drop out]
+  - id: b03-work
+    theme: "Work and careers"
+    why: >-
+      B2 First for Schools: the writing tasks (an email about a summer job, an article about future careers) and the speaking
+      topics on work and the future; recruitment, working conditions and self-employment are the B2 range of the work domain.
+      Attested in the paper: shift, flexibility, demanding, reference. Parity: nl-b2-u02 (werk en loopbaan), fr-b2.
+    noun: [vacancy, applicant, internship, apprenticeship, income, promotion, supervisor, workplace, workload, overtime, shift, flexibility, responsibility, reference, entrepreneur, shortage]
+    verb: [recruit, resign, commute]
+    adj: [freelance, self-employed, flexible, remote, demanding, rewarding, skilled]
+    phrase: [take on, take over, be in charge of]
+  - id: b04-money
+    theme: "Money, spending and consumers"
+    why: >-
+      B2 First for Schools: Reading Part 7 and the writing tasks (an article or email about pocket money, shopping); budgets,
+      saving, debt and advertising are B2 range in the consumer domain. Attested in the paper: payment, spending.
+      Parity: nl-b2-u03 (geld en consumptie), fr-b2.
+    noun: [budget, expense, debt, savings, consumer, purchase, impulse, advertising, brand, payment, allowance, cost of living, necessity, wealth, poverty, investment, profit, spending, subscription, temptation, survey]
+    verb: [invest]
+    adj: [affordable, contactless, wealthy]
+    phrase: [save up, splash out, get by, run out of, pay back]
+  - id: b05-home
+    theme: "Home, housing and the neighbourhood"
+    why: >-
+      B2 First for Schools: the speaking topics (where you live, your town) and writing tasks (an email to a friend about a
+      move, a review of a place); renting, repairs and the neighbourhood are B2 range in the housing domain. Attested in the
+      paper: resident, community, chores. Parity: nl-b2-u04 (wonen), fr-b2.
+    noun: [landlord, tenant, mortgage, estate agent, resident, community, suburb, outskirts, plumber, electrician, leak, extension, attic, household, chores, clutter, insulation]
+    verb: [renovate]
+    adj: [detached, terraced, spacious, cramped, run-down, furnished]
+    phrase: [rent out, move in, move out, settle in]
+  - id: b06-health
+    theme: "Physical and mental health, fitness"
+    why: >-
+      B2 First for Schools handbook: writing Part 2 "general questions, based on a range of topics, such as health and
+      fitness, sport, music"; the speaking topics on healthy living. Attested in the paper: physical, lifestyle, balanced.
+      Parity: nl-b2-u05 (gezondheidszorg), nl-b2-work-u05, fr-b2.
+    noun: [wellbeing, muscle, injury, recovery, symptom, treatment, therapy, prevention, nutrition, lifestyle, anxiety, burnout, meditation, screen time, addiction, heart rate, stamina]
+    verb: [stretch, treat, cause]
+    adj: [physical, mental, balanced, sedentary, overweight, addicted]
+    phrase: [warm up, get into shape, cut down on]
+  - id: b07-food
+    theme: "Food, diet and food waste"
+    why: >-
+      B2 First for Schools: the writing topics (healthy eating, a review of a restaurant or café) and the speaking photos
+      about food; diets, nutrition and food waste are B2 range in the food domain. Attested in the paper: starving,
+      a great deal of. Parity: nl-b2-u06 (eten), fr-b2.
+    noun: [cuisine, junk food, protein, vitamin, fibre, portion, appetite, harvest, leftovers, packaging, allergy, dairy, consumption, famine]
+    verb: [consume]
+    adj: [bland, savoury, organic, processed, vegan, plant-based, starving, seasonal, imported, allergic, sustainable]
+    phrase: [a great deal of, hardly any]
+  - id: b08-media
+    theme: "News, media and fake news"
+    why: >-
+      B2 First for Schools: Reading Part 5 and the essay prompts about social media and the news; journalism, reliable
+      sources and reporting verbs are B2 range (CEFR B2: can understand articles and reports concerned with contemporary
+      problems). Attested in the paper: media, accuse, controversial. Parity: nl-b2-u07 (media), fr-b2.
+    noun: [journalism, coverage, editor, media, influencer, follower, fake news, misinformation, rumour, source, bias, privacy, breaking news]
+    verb: [broadcast, claim, deny, reveal, accuse, subscribe, verify, mislead, spread]
+    adj: [viral, biased, objective, controversial, sensational, misleading, trustworthy]
+  - id: b09-technology
+    theme: "Inventions, technology and devices"
+    why: >-
+      B2 First for Schools: Reading Part 6 "Young inventor" in the sample paper (device, ingenious, manufacture, come up
+      with) and the speaking topics on technology; inventions, AI and automation are B2 range in the science and technology
+      domain. Parity: nl-b2-u08 (technologie), fr-b2.
+    noun: [device, gadget, prototype, innovation, breakthrough, artificial intelligence, automation, algorithm, patent, mechanism, hacker, function]
+    verb: [upgrade, manufacture]
+    adj: [ingenious, innovative, wireless, user-friendly, virtual, solar, renewable, cutting-edge, obsolete, outdated, technological]
+    phrase: [depend on, come up with]
+  - id: b10-climate
+    theme: "Climate change, pollution and waste"
+    why: >-
+      B2 First for Schools: the essay task (Writing Part 1 asks for an opinion on a topic of general interest, here the
+      environment) and the speaking photos about the environment; the causes and effects of climate change and protest are
+      B2 range. Parity: nl-b2-u10 (klimaat en energie), fr-b2.
+    noun: [greenhouse gas, carbon, emissions, carbon footprint, fossil fuels, coal, landfill, drought, heatwave, sea level, glacier, deforestation, biodiversity, campaign, activist, impact, threat, crisis, disaster]
+    verb: [pollute, reuse, melt, protest, ban, threaten]
+    adj: [eco-friendly, single-use, biodegradable, extreme]
+  - id: b11-nature
+    theme: "Animals, habitats and conservation"
+    why: >-
+      B2 First for Schools: Reading Part 7 "Camels" in the sample paper and the listening about seabirds (puffins); animals,
+      habitats and conservation are B2 range in the natural world domain. Attested in the paper: observe, rapidly.
+      Parity: nl-b2 natuur, fr-b2.
+    noun: [habitat, extinction, conservation, predator, prey, migration, mammal, reptile, survival, captivity, sanctuary, instinct, herd, flock, colony, feather, beak, researcher]
+    verb: [migrate, breed, hibernate, survive, adapt, thrive, observe, decline]
+    adj: [endangered]
+    adv: [rapidly]
+    phrase: [feed on]
+  - id: b12-travel
+    theme: "Travel, adventure and the outdoors"
+    why: >-
+      B2 First for Schools: Reading Part 1 (a skier on a steep, slippery slope) and the story task (Writing Part 2) in the
+      sample paper; travel problems, adventure and narrative are B2 range. Attested in the paper: landmark, slope, slippery,
+      adventurous, wander. Parity: nl-b2-u17 (reizen), fr-b2.
+    noun: [itinerary, landmark, slope, trek, voyage, jet lag, cancellation, culture shock, compass, summit, trail, mist, shelter, rescuer, dawn, dusk, echo]
+    verb: [wander, panic]
+    adj: [slippery, adventurous, breathtaking, homesick, spontaneous]
+    adv: [overland]
+    phrase: [off the beaten track]
+  - id: b13-sport
+    theme: "Sport, competition and fair play"
+    why: >-
+      B2 First for Schools handbook: Writing Part 2 topics "health and fitness, sport"; Reading Part 1 "Playing chess" in the
+      sample paper (opponent); competition, tactics and fair play are B2 range. Parity: nl-b2 sport, fr-b2.
+    noun: [opponent, referee, spectator, rival, rivalry, victory, medal, trophy, tactic, strategy, endurance, sportsmanship, fair play, outcome, underdog, sponsor]
+    verb: [cheer, calculate, overtake]
+    adj: [athletic, amateur, competitive]
+    phrase: [keep fit]
+  - id: b14-arts
+    theme: "Music, film, theatre and the arts; contrast"
+    why: >-
+      B2 First for Schools: the review task (Writing Part 2), Reading Part 5 "Ballet dancer by chance" and the writing
+      sample about Macbeth; the arts and the language of reviews and contrast (whereas, in spite of, nevertheless) are B2
+      range. Attested in the paper: artistic, script, moving. Parity: nl-b2-u15 (cultuur), fr-b2.
+    noun: [portrait, masterpiece, creativity, inspiration, composer, lyrics, melody, rhythm, gig, venue, conductor, playwright, script, cast, premiere, critic, box office, blockbuster, subtitles, genre, sequel, applause]
+    verb: [release]
+    adj: [artistic, sold out, entertaining, moving, overrated]
+    adv: [nevertheless]
+    conj: [whereas]
+    phrase: [in spite of]
+  - id: b15-relationships
+    theme: "Friendship, family and relationships"
+    why: >-
+      B2 First for Schools: the essay sample in the paper (loneliness, socialise) and the speaking topics on friends and
+      family; relationships, conflict and peer pressure are B2 range in the personal domain. Attested in the paper:
+      loneliness, socialise. Parity: nl-b2-u16 (familie en relaties), fr-b2.
+    noun: [loneliness, acquaintance, bond, loyalty, jealousy, conflict, peer pressure, generation gap, sibling, upbringing, empathy, compliment, criticism, misunderstanding]
+    verb: [socialise, betray, gossip, criticise]
+    adj: [close-knit, loyal, mature, supportive, isolated]
+    phrase: [fall out, make up, count on, get used to, be used to]
+    newSense: [make up]
+  - id: b16-community
+    theme: "Community, volunteering, equality"
+    why: >-
+      B2 First for Schools: Reading Part 7 "Teenage summer camps" and the essay topics about helping others; volunteering,
+      charity and equality are B2 range in the social domain. Parity: nl-b2-u12 (samenleving), nl-b2-u13, fr-b2.
+    noun: [donation, fundraising, food bank, disability, inequality, equality, minority, diversity, discrimination, prejudice, citizen, council, petition, initiative, contribution, commitment, community centre]
+    verb: [donate, contribute]
+    adj: [voluntary, homeless, vulnerable, inclusive, tolerant, beneficial]
+    phrase: [make a difference]
+  - id: b17-law
+    theme: "Rules, rights, the law and democracy"
+    why: >-
+      B2 First for Schools: the essay prompts about rules for young people and the speaking discussions (Part 4) about
+      society; laws, rights and justice (without violence) and the impersonal passive are B2 range. Attested in the paper:
+      punishment, policy. Parity: nl-b2-u13 (politiek), nl-b2-u14 (recht), fr-b2.
+    noun: [trial, jury, witness, evidence, punishment, suspect, victim, theft, vandalism, offence, regulation, rights, freedom, democracy, parliament, minister, policy, curfew, CCTV]
+    verb: [commit, investigate, obey, prohibit]
+    adj: [legal, illegal, innocent]
+    phrase: [be supposed to]
+  - id: b18-science
+    theme: "Science, discovery and space"
+    why: >-
+      B2 First for Schools: the reading texts on inventions and discoveries and the speaking topics on science; how science
+      works and the language of research are B2 range (CEFR B2: can understand specialised articles outside his field).
+      Attested in the paper: theory, analyse, sample. Parity: nl-b2-u18 (wetenschap), fr-b2.
+    noun: [hypothesis, theory, proof, analysis, sample, observation, findings, journal, chemical, substance, cell, gene, evolution, telescope, galaxy, gravity, orbit, satellite, mission, oxygen, microscope, bacteria, vaccine, phenomenon]
+    verb: [analyse, launch]
+    adj: [precise]
+  - id: b19-debate
+    theme: "Debate, persuasion and linking an argument"
+    why: >-
+      B2 First for Schools: the essay task (Writing Part 1: give an opinion with reasons, "organisation" and "cohesive
+      devices" in the assessment scales) and Speaking Part 4 (discussion); the linkers and evaluative words of argument are
+      the B2 grammar of discourse. Attested in the paper: persuasive, point of view, perspective, in addition, as a result,
+      thus, overall. Parity: nl-b2-u19 (debat en argumentatie), fr-b2.
+    noun: [debate, point of view, perspective, alternative, drawback, pros and cons]
+    verb: [justify, exaggerate, assume, oppose]
+    adj: [persuasive, convincing, valid]
+    adv: [firmly, furthermore, moreover, firstly, consequently, thus, overall, admittedly, undoubtedly]
+    phrase: [in addition, on the other hand, on the contrary, as a result, in conclusion, in favour of]
+  - id: b20-future
+    theme: "The future, change and goals (review unit)"
+    why: >-
+      B2 First for Schools: the writing and speaking tasks about plans and the future (an article about life in the future,
+      Speaking Part 4); predictions, uncertainty and priorities are B2 range, and the unit reviews the B2 grammar. Attested
+      in the paper: revolutionary. Parity: nl-b2-u20 (de toekomst), fr-b2.
+    noun: [prediction, uncertainty, transformation, revolution, priority, milestone, prospect, vision, expectation, resilience]
+    verb: [transform, foresee, prioritise, accomplish]
+    adj: [inevitable, uncertain, optimistic, pessimistic, ageing, revolutionary, long-term, short-term, adaptable]
+    phrase: [in the long run, sooner or later]

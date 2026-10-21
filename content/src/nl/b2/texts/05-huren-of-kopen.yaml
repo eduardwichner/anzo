@@ -1,0 +1,42 @@
+id: nl-b2-t05
+kind: reading
+title: { en: Rent or buy? }
+topic: Housing (four reactions on a forum)
+level: B2
+paragraphs:
+  - - { id: nl-b2-t05-s01, target: "Wij huren al tien jaar een appartement in Gent en we zijn er heel tevreden over.", native: { en: "We have been renting a flat in Ghent for ten years and we are very happy with it." } }
+    - { id: nl-b2-t05-s02, target: "Als er iets kapot is, belt de verhuurder een vakman en betalen wij niets.", native: { en: "When something is broken, the landlord calls a tradesman and we pay nothing." } }
+    - { id: nl-b2-t05-s03, target: "Een huis kopen zou ons te veel zorgen geven.", native: { en: "Buying a house would give us too many worries." } }
+  - - { id: nl-b2-t05-s04, target: "Ik heb vorig jaar een oud rijhuis gekocht om het zelf te renoveren.", native: { en: "Last year I bought an old terraced house to renovate it myself." } }
+    - { id: nl-b2-t05-s05, target: "Door elk weekend te werken, bespaar ik veel geld.", native: { en: "By working every weekend, I save a lot of money." } }
+    - { id: nl-b2-t05-s06, target: "Het is zwaar, maar later is het huis mijn eigendom en betaal ik geen huur meer.", native: { en: "It's hard, but later the house will be my property and I won't pay rent any more." } }
+  - - { id: nl-b2-t05-s07, target: "Wij wilden kopen, maar de bank gaf ons geen woonlening.", native: { en: "We wanted to buy, but the bank wouldn't give us a home loan." } }
+    - { id: nl-b2-t05-s08, target: "Met twee tijdelijke contracten heb je volgens de bank te weinig zekerheid.", native: { en: "With two temporary contracts you don't have enough security, according to the bank." } }
+    - { id: nl-b2-t05-s09, target: "Nu sparen we elke maand, in de hoop dat het over een paar jaar wel lukt.", native: { en: "Now we save every month, in the hope that it will work out in a few years." } }
+  - - { id: nl-b2-t05-s10, target: "Na de dood van mijn vader heb ik zijn huis geërfd.", native: { en: "After my father's death I inherited his house." } }
+    - { id: nl-b2-t05-s11, target: "Ik zou het kunnen verkopen, maar ik verhuur het liever aan een jong gezin.", native: { en: "I could sell it, but I'd rather rent it out to a young family." } }
+    - { id: nl-b2-t05-s12, target: "Zo heb ik een extra inkomen en blijft het huis in de familie.", native: { en: "That way I have an extra income and the house stays in the family." } }
+glossary:
+  - { word: vakman, native: { en: "tradesman (a plumber, an electrician …)" } }
+  - { word: geërfd, native: { en: "inherited (erven)" } }
+items: [nl.rijhuis, nl.renoveren, nl.eigendom, nl.woonlening, nl.zekerheid]
+questions:
+  - id: nl-b2-t05-q1
+    type: match_texts
+    labels: [Lotte, Wout, Samira, Hugo]
+    statements:
+      - { id: nl-b2-t05-q1-a, statement: "Deze persoon werkt zelf aan een huis.", paragraph: 2 }
+      - { id: nl-b2-t05-q1-b, statement: "Deze persoon wil later toch nog een huis kopen.", paragraph: 3 }
+      - { id: nl-b2-t05-q1-c, statement: "Deze persoon is zelf verhuurder.", paragraph: 4 }
+      - { id: nl-b2-t05-q1-d, statement: "Deze persoon vindt het prettig dat iemand anders de herstellingen regelt.", paragraph: 1 }
+      - { id: nl-b2-t05-q1-e, statement: "De bank wilde deze persoon geen lening geven.", paragraph: 3 }
+      - { id: nl-b2-t05-q1-f, statement: "Deze persoon heeft een huis gekregen zonder het te kopen.", paragraph: 4 }
+  - { id: nl-b2-t05-q2, type: mc, question: "Waarom kreeg Samira geen woonlening?", options: ["Ze had geen vast contract.", "Ze had al te veel schulden.", "Het huis was te duur."], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-t05-l1, type: true_false_notgiven, statement: "De eerste persoon woont al tien jaar in een huurappartement.", answer: true }
+  - { id: nl-b2-t05-l2, type: complete, statement: "De laatste persoon verhuurt het huis van zijn vader aan een jong ___.", answers: [gezin] }
+wordForm:
+  - { sentence: nl-b2-t05-s02, word: verhuurder, stem: verhuren }
+  - { sentence: nl-b2-t05-s08, word: tijdelijke, stem: tijd }
+  - { sentence: nl-b2-t05-s09, word: hoop, stem: hopen }
+orderable: false

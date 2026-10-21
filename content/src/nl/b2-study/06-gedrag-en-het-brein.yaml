@@ -1,0 +1,46 @@
+id: nl-b2-study-u06
+title: { en: Behaviour and the brain }
+icon: brain
+topic: How the brain decides, unconscious stimuli, marketing and brain scans, screen time and bedtime, ethics; zonder dat and laten + infinitive
+vocabulary:
+  - { target: het brein, native: { en: brain }, pos: noun, plural: breinen }
+  - { target: de marketing, native: { en: marketing }, pos: noun, plural: "-" }
+  - { target: onbewust, native: { en: "unconscious, unconsciously" }, pos: adjective }
+  - { target: de prikkel, native: { en: "stimulus, trigger" }, pos: noun, plural: prikkels }
+  - { target: de hersenscan, native: { en: brain scan }, pos: noun, plural: hersenscans }
+  - { target: de manipulatie, native: { en: manipulation }, pos: noun, plural: manipulaties }
+  - { target: ethisch, native: { en: ethical }, pos: adjective }
+  - { target: scannen, native: { en: to scan }, pos: verb }
+  - { target: het mediagebruik, native: { en: "media use, screen time" }, pos: noun, plural: "-" }
+  - { target: de bedtijd, native: { en: bedtime }, pos: noun, plural: "-" }
+  - { target: het slaaptekort, native: { en: "lack of sleep, sleep deficit" }, pos: noun, plural: "-" }
+  - { target: het logo, native: { en: logo }, pos: noun, plural: "logo's" }
+  - { target: de geur, native: { en: "smell, scent" }, pos: noun, plural: geuren }
+  - { target: emotioneel, native: { en: emotional }, pos: adjective }
+  - { target: rationeel, native: { en: rational }, pos: adjective }
+  - { target: commercieel, native: { en: commercial }, pos: adjective }
+sentences:
+  - { id: s01, target: "Het brein beslist vaak sneller dan we denken.", native: { en: "The brain often decides faster than we think." }, items: [nl.brein] }
+  - { id: s02, target: "Ze werkt op de afdeling marketing van een groot bedrijf.", native: { en: "She works in the marketing department of a big company." }, items: [nl.marketing] }
+  - { id: s03, target: "Veel keuzes maken we onbewust.", native: { en: "We make many choices unconsciously." }, items: [nl.onbewust], acceptAlso: ["We maken veel keuzes onbewust."] }
+  - { id: s04, target: "Muziek en kleuren zijn prikkels die ons gedrag beïnvloeden.", native: { en: "Music and colours are stimuli that influence our behaviour." }, items: [nl.prikkel] }
+  - { id: s05, target: "Op een hersenscan zie je welk deel van het brein actief is.", native: { en: "On a brain scan you can see which part of the brain is active." }, items: [nl.hersenscan, nl.brein] }
+  - { id: s06, target: "Is reclame een vorm van manipulatie?", native: { en: "Is advertising a form of manipulation?" }, items: [nl.manipulatie] }
+  - { id: s07, target: "Is het ethisch om de hersenen van klanten te scannen?", native: { en: "Is it ethical to scan customers' brains?" }, items: [nl.ethisch, nl.scannen] }
+  - { id: s08, target: "Het mediagebruik van jongeren stijgt elk jaar.", native: { en: "Young people's screen time rises every year." }, items: [nl.mediagebruik], finite: { word: stijgt, hint: { en: "stijgen (present)" } } }
+  - { id: s09, target: "Wat is een normale bedtijd voor een tiener?", native: { en: "What is a normal bedtime for a teenager?" }, items: [nl.bedtijd] }
+  - { id: s10, target: "Door een slaaptekort kun je je minder goed concentreren.", native: { en: "Because of a lack of sleep you can't concentrate as well." }, items: [nl.slaaptekort] }
+  - { id: s11, target: "Iedereen herkent het logo van dat merk.", native: { en: "Everyone recognises that brand's logo." }, items: [nl.logo], acceptAlso: ["Het logo van dat merk herkent iedereen."] }
+  - { id: s12, target: "De geur van vers brood in de supermarkt is geen toeval.", native: { en: "The smell of fresh bread in the supermarket is no accident." }, items: [nl.geur] }
+  - { id: s13, target: "Een emotionele reclame werkt beter dan een lijst met cijfers.", native: { en: "An emotional advert works better than a list of figures." }, items: [nl.emotioneel] }
+  - { id: s14, target: "We denken dat we rationeel kiezen, maar dat is vaak niet zo.", native: { en: "We think we choose rationally, but that is often not the case." }, items: [nl.rationeel], acceptAlso: ["We denken dat we rationeel kiezen, maar vaak is dat niet zo."] }
+  - { id: s15, target: "Het onderzoek wordt door een commercieel bedrijf betaald.", native: { en: "The research is paid for by a commercial company." }, items: [nl.commercieel], acceptAlso: ["Het onderzoek wordt betaald door een commercieel bedrijf."] }
+  - { id: s16, target: "Rustige muziek is een prikkel die klanten langer in de winkel laat blijven.", native: { en: "Calm music is a stimulus that makes customers stay in the shop longer." }, items: [nl.prikkel], build: true, acceptAlso: ["Rustige muziek is een prikkel die klanten langer laat blijven in de winkel."] }
+  - { id: s17, target: "Het brein reageert op reclame, zonder dat we het merken.", native: { en: "The brain reacts to advertising without our noticing." }, items: [nl.brein], build: true, acceptAlso: ["Zonder dat we het merken, reageert het brein op reclame."] }
+  - { id: s18, target: "Die beslissing was niet rationeel.", native: { en: "That decision was not rational." }, items: [nl.rationeel], form: { word: beslissing, stem: beslissen } }
+  - { id: s19, target: "Het brein reageert meteen op een prikkel.", native: { en: "The brain reacts to a stimulus immediately." }, items: [nl.prikkel, nl.brein] }
+  - { id: s20, target: "Door veel mediagebruik voor de bedtijd slapen jongeren slechter.", native: { en: "Because of a lot of screen time before bedtime, young people sleep worse." }, items: [nl.mediagebruik, nl.bedtijd], acceptAlso: ["Jongeren slapen slechter door veel mediagebruik voor de bedtijd."] }
+transforms:
+  - { id: x01, from: "Klanten reageren op prikkels, maar ze weten niet waarom.", key: zonder, gapped: "Klanten reageren op prikkels, ___ waarom.", answers: ["zonder te weten", "zonder dat ze weten", "zonder dat zij weten"], native: { en: "Customers react to stimuli without knowing why." }, items: [nl.prikkel] }
+  - { id: x02, from: "Door de geur van vers brood kopen klanten meer.", key: laat, gapped: "De geur van vers brood ___ kopen.", answers: ["laat klanten meer", "laat de klanten meer"], native: { en: "The smell of fresh bread makes customers buy more." }, items: [nl.geur] }
+texts: [nl-b2-study-t06]

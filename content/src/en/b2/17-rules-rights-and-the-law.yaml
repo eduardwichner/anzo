@@ -1,0 +1,67 @@
+id: en-b2-u17
+title: { nl: "Regels, rechten en de wet" }
+icon: law
+topic: Laws and rights, crime and justice (without violence), rules for young people, democracy; the impersonal passive (It is said that …, He is believed to …) and be supposed to
+vocabulary:
+  - { target: legal, native: { nl: "wettelijk, legaal" }, pos: adjective, avoid: [en.illegal] }
+  - { target: illegal, native: { nl: illegaal }, pos: adjective, avoid: [en.legal] }
+  - { target: trial, native: { nl: "proces (in de rechtbank)" }, pos: noun }
+  - { target: jury, native: { nl: jury }, pos: noun, noBlank: true }
+  - { target: witness, native: { nl: getuige }, pos: noun }
+  - { target: evidence, native: { nl: bewijs }, pos: noun }
+  - { target: innocent, native: { nl: onschuldig }, pos: adjective, avoid: [en.guilty] }
+  - { target: commit, native: { nl: "plegen (een misdaad)" }, pos: verb }
+  - { target: punishment, native: { nl: straf }, pos: noun }
+  - { target: investigate, native: { nl: onderzoeken }, pos: verb }
+  - { target: suspect, native: { nl: verdachte }, pos: noun }
+  - { target: victim, native: { nl: slachtoffer }, pos: noun }
+  - { target: theft, native: { nl: diefstal }, pos: noun }
+  - { target: vandalism, native: { nl: vandalisme }, pos: noun, noBlank: true }
+  - { target: offence, native: { nl: "overtreding, misdrijf" }, pos: noun }
+  - { target: regulation, native: { nl: "voorschrift, regel" }, pos: noun }
+  - { target: obey, native: { nl: gehoorzamen }, pos: verb }
+  - { target: rights, native: { nl: rechten }, pos: noun }
+  - { target: freedom, native: { nl: vrijheid }, pos: noun }
+  - { target: democracy, native: { nl: democratie }, pos: noun, noBlank: true }
+  - { target: parliament, native: { nl: parlement }, pos: noun, noBlank: true }
+  - { target: minister, native: { nl: minister }, pos: noun, noBlank: true }
+  - { target: policy, native: { nl: beleid }, pos: noun }
+  - { target: curfew, native: { nl: "avondklok, uur waarop je thuis moet zijn" }, pos: noun }
+  - { target: prohibit, native: { nl: verbieden }, pos: verb, avoid: [en.ban] }
+  - { target: CCTV, native: { nl: "camerabewaking" }, pos: noun }
+  - { target: be supposed to, native: { nl: "horen te, geacht worden te (volgens de regels)" }, pos: phrase }
+sentences:
+  - { id: s01, target: "Is it legal to ride an electric scooter on the pavement?", native: { nl: "Is het wettelijk toegestaan om met een elektrische step op de stoep te rijden?" }, items: [en.legal] }
+  - { id: s02, target: "Downloading films without paying is illegal.", native: { nl: "Films downloaden zonder te betalen is illegaal." }, items: [en.illegal], form: { word: illegal, stem: legal } }
+  - { id: s03, target: "The trial lasted three weeks.", native: { nl: "Het proces duurde drie weken." }, items: [en.trial] }
+  - { id: s04, target: "The jury decided that the man was not guilty.", native: { nl: "De jury besliste dat de man niet schuldig was." }, items: [en.jury] }
+  - { id: s05, target: "A witness saw the thief run away.", native: { nl: "Een getuige zag de dief weglopen." }, items: [en.witness] }
+  - { id: s06, target: "The police found an important piece of evidence in the car.", native: { nl: "De politie vond een belangrijk bewijsstuk in de auto." }, items: [en.evidence] }
+  - { id: s07, target: "Everyone is innocent until proven guilty.", native: { nl: "Iedereen is onschuldig tot het tegendeel bewezen is." }, items: [en.innocent] }
+  - { id: s08, target: "Most crimes are committed by a small group of people.", native: { nl: "De meeste misdaden worden gepleegd door een kleine groep mensen." }, items: [en.commit] }
+  - { id: s09, target: "Do you think a fine is the right punishment for this?", native: { nl: "Denk je dat een boete hiervoor de juiste straf is?" }, items: [en.punishment], form: { word: punishment, stem: punish } }
+  - { id: s10, target: "The police are investigating the theft of three bikes.", native: { nl: "De politie onderzoekt de diefstal van drie fietsen." }, items: [en.investigate, en.theft] }
+  - { id: s11, target: "The suspect was seen near the shop on the night of the theft.", native: { nl: "De verdachte werd op de avond van de diefstal in de buurt van de winkel gezien." }, items: [en.suspect] }
+  - { id: s12, target: "The victims of online crime are often older people.", native: { nl: "De slachtoffers van internetcriminaliteit zijn vaak oudere mensen." }, items: [en.victim] }
+  - { id: s13, target: "There has been a lot of vandalism in the new park.", native: { nl: "Er is veel vandalisme geweest in het nieuwe park." }, items: [en.vandalism] }
+  - { id: s14, target: "Driving without a licence is a serious offence.", native: { nl: "Rijden zonder rijbewijs is een ernstige overtreding." }, items: [en.offence] }
+  - { id: s15, target: "The new regulations apply to all schools.", native: { nl: "De nieuwe voorschriften gelden voor alle scholen." }, items: [en.regulation] }
+  - { id: s16, target: "Everyone has to obey the law, even the police.", native: { nl: "Iedereen moet de wet gehoorzamen, ook de politie." }, items: [en.obey] }
+  - { id: s17, target: "Children have the right to education.", native: { nl: "Kinderen hebben recht op onderwijs." }, items: [en.rights] }
+  - { id: s29, target: "Everyone should know their rights.", native: { nl: "Iedereen zou zijn rechten moeten kennen." }, items: [en.rights] }
+  - { id: s18, target: "Freedom of speech is important in a democracy.", native: { nl: "Vrijheid van meningsuiting is belangrijk in een democratie." }, items: [en.freedom, en.democracy] }
+  - { id: s19, target: "Parliament will vote on the new law next week.", native: { nl: "Het parlement stemt volgende week over de nieuwe wet." }, items: [en.parliament], acceptAlso: ["Next week parliament will vote on the new law."] }
+  - { id: s20, target: "The minister promised to build more schools.", native: { nl: "De minister beloofde meer scholen te bouwen." }, items: [en.minister] }
+  - { id: s21, target: "The school has a strict policy on mobile phones.", native: { nl: "De school heeft een streng beleid wat gsm's betreft." }, items: [en.policy] }
+  - { id: s22, target: "My parents set me a curfew of eleven o'clock at weekends.", native: { nl: "Mijn ouders willen dat ik in het weekend om elf uur thuis ben." }, items: [en.curfew] }
+  - { id: s23, target: "The rules prohibit the use of phones during exams.", native: { nl: "De regels verbieden het gebruik van telefoons tijdens examens." }, items: [en.prohibit] }
+  - { id: s24, target: "There are CCTV cameras in every street of the city centre.", native: { nl: "Er hangen bewakingscamera's in elke straat van het stadscentrum." }, items: [en.cctv] }
+  - { id: s25, target: "You are supposed to wear a helmet on an electric scooter.", native: { nl: "Je hoort een helm te dragen op een elektrische step." }, items: [en.be-supposed-to], build: true, acceptAlso: ["On an electric scooter you are supposed to wear a helmet."] }
+  - { id: s26, target: "It is said that the castle is more than a thousand years old.", native: { nl: "Men zegt dat het kasteel meer dan duizend jaar oud is." }, items: [en.evidence], build: true }
+  - { id: s27, target: "The thief is believed to have left the country.", native: { nl: "Men denkt dat de dief het land verlaten heeft." }, items: [en.suspect], build: true }
+  - { id: s28, target: "The police investigated the case for two years.", native: { nl: "De politie onderzocht de zaak twee jaar lang." }, items: [en.investigate], finite: { word: investigated, hint: { nl: "investigate (verleden tijd)" } } }
+transforms:
+  - { id: x01, from: "People say that the painting is worth millions.", key: said, gapped: "The painting ___ worth millions.", answers: ["is said to be"], items: [en.evidence] }
+  - { id: x02, from: "Students should hand in their phones before the exam, according to the rules.", key: supposed, gapped: "Students ___ their phones before the exam.", answers: ["are supposed to hand in"], items: [en.be-supposed-to] }
+  - { id: x03, from: "You are not allowed to park here.", key: prohibited, gapped: "Parking ___ here.", answers: ["is prohibited"], items: [en.prohibit] }
+texts: [en-b2-t17]

@@ -1,0 +1,38 @@
+id: fr-a2-u18
+title: { nl: Op straat, en: "In the street" }
+icon: directions
+topic: La circulation; les transports
+vocabulary:
+  - { target: la route, native: { nl: de weg, en: "road" }, pos: noun, gender: f }
+  - { target: le chemin, native: { nl: "het pad, de weg", en: "path, way" }, pos: noun, gender: m, avoid: [fr.route] }
+  - { target: le parking, native: { nl: de parkeerplaats, en: "car park" }, pos: noun, gender: m }
+  - { target: le trottoir, native: { nl: de stoep, en: "pavement" }, pos: noun, gender: m }
+  - { target: le feu, native: { nl: "het stoplicht, het vuur", en: "traffic lights, fire" }, pos: noun, gender: m }
+  - { target: "l'arrêt", native: { nl: de halte, en: "stop (bus or tram)" }, pos: noun, gender: m }
+  - { target: la gare routière, native: { nl: het busstation, en: "bus station" }, pos: noun, gender: f }
+  - { target: le tram, native: { nl: de tram, en: "tram" }, pos: noun, gender: m }
+  - { target: le taxi, native: { nl: de taxi, en: "taxi" }, pos: noun, gender: m }
+  - { target: la moto, native: { nl: de motor, en: "motorbike" }, pos: noun, gender: f }
+  - { target: le camion, native: { nl: de vrachtwagen, en: "lorry" }, pos: noun, gender: m }
+  - { target: traverser, native: { nl: oversteken, en: "to cross" }, pos: verb }
+  - { target: tourner, native: { nl: "afslaan, draaien", en: "to turn" }, pos: verb }
+  - { target: continuer, native: { nl: doorgaan, en: "to carry on, to continue" }, pos: verb }
+  - { target: conduire, native: { nl: "rijden, besturen", en: "to drive" }, pos: verb }
+sentences:
+  - { id: s01, target: "Il y a beaucoup de voitures sur la route.", native: { nl: "Er rijden veel auto's op de weg.", en: "There are lots of cars on the road." }, items: [fr.route] }
+  - { id: s02, target: "Chloé m'a montré le chemin.", native: { nl: "Chloé heeft me de weg gewezen.", en: "Chloé showed me the way." }, items: [fr.chemin] }
+  - { id: s03, target: "La voiture est sur le parking.", native: { nl: "De auto staat op de parkeerplaats.", en: "The car is in the car park." }, items: [fr.parking] }
+  - { id: s04, target: "Marche sur le trottoir !", native: { nl: "Loop op de stoep!", en: "Walk on the pavement!" }, items: [fr.trottoir] }
+  - { id: s05, target: "Le feu est rouge, on attend.", native: { nl: "Het stoplicht staat op rood, we wachten.", en: "The traffic lights are red, so we wait." }, items: [fr.feu] }
+  - { id: s06, target: "Je descends au prochain arrêt.", native: { nl: "Ik stap bij de volgende halte uit.", en: "I'm getting off at the next stop." }, items: [fr.arret] }
+  - { id: s07, target: "Le bus part de la gare routière.", native: { nl: "De bus vertrekt van het busstation.", en: "The bus leaves from the bus station." }, items: [fr.gare-routiere] }
+  - { id: s08, target: "Je prends le tram pour aller à l'école.", native: { nl: "Ik neem de tram naar school.", en: "I take the tram to school." }, items: [fr.tram] }
+  - { id: s09, target: "Nous avons pris un taxi à l'aéroport.", native: { nl: "We hebben op het vliegveld een taxi genomen.", en: "We got a taxi at the airport." }, items: [fr.taxi] }
+  - { id: s10, target: "La moto va très vite.", native: { nl: "De motor gaat heel snel.", en: "The motorbike goes very fast." }, items: [fr.moto] }
+  - { id: s11, target: "Son père conduit des camions.", native: { nl: "Haar vader rijdt vrachtwagens.", en: "Her father drives lorries." }, items: [fr.camion, fr.conduire] }
+  - { id: s12, target: "Regarde bien avant de traverser la rue.", native: { nl: "Kijk goed voordat je de straat oversteekt.", en: "Look carefully before you cross the street." }, items: [fr.traverser] }
+  - { id: s13, target: "Au feu, tourne à droite.", native: { nl: "Sla bij het stoplicht rechtsaf.", en: "Turn right at the traffic lights." }, items: [fr.tourner, fr.feu] }
+  - { id: s14, target: "Continue tout droit jusqu'au pont.", native: { nl: "Ga verder rechtdoor tot aan de brug.", en: "Continue straight on as far as the bridge." }, items: [fr.continuer] }
+lessons:
+  - { id: l01, title: { nl: Weg en stoep, en: "Road and pavement" }, vocab: [fr.route, fr.chemin, fr.parking, fr.trottoir, fr.feu, fr.arret, fr.gare-routiere] }
+  - { id: l02, title: { nl: Tram en taxi, en: "Tram and taxi" }, vocab: [fr.tram, fr.taxi, fr.moto, fr.camion, fr.traverser, fr.tourner, fr.continuer, fr.conduire] }

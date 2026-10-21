@@ -1,0 +1,34 @@
+id: en-b1-t09
+kind: reading
+title: { nl: Een makkelijke groentecurry }
+topic: Cooking (a recipe on a teenagers' cooking website)
+level: B1
+paragraphs:
+  - - { id: en-b1-t09-s01, target: "This vegetable curry is perfect for a cold evening, and it only takes thirty minutes to make.", native: { nl: "Deze groentecurry is perfect voor een koude avond, en je hebt hem in maar dertig minuten klaar." } }
+    - { id: en-b1-t09-s02, target: "It isn't too spicy, so even my little brother enjoys it.", native: { nl: "Hij is niet te pittig, dus zelfs mijn kleine broertje vindt hem lekker." } }
+  - - { id: en-b1-t09-s03, target: "For four people you need two onions, some garlic, a small cabbage, a tin of tomatoes and a packet of frozen peas.", native: { nl: "Voor vier personen heb je twee uien nodig, wat knoflook, een kleine kool, een blik tomaten en een pak diepvrieserwten." } }
+    - { id: en-b1-t09-s04, target: "You will also need curry powder, oil, and a little cream if you like.", native: { nl: "Je hebt ook kerriepoeder nodig, olie, en een beetje room als je dat lekker vindt." } }
+  - - { id: en-b1-t09-s05, target: "First, peel the onions and the garlic and cut them up into small pieces.", native: { nl: "Schil eerst de uien en de knoflook en snijd ze in kleine stukjes." } }
+    - { id: en-b1-t09-s06, target: "Heat the oil in a large saucepan and fry them for five minutes.", native: { nl: "Verhit de olie in een grote steelpan en bak ze vijf minuten." } }
+    - { id: en-b1-t09-s07, target: "Then add the curry powder and stir well.", native: { nl: "Voeg daarna de kerriepoeder toe en roer goed." } }
+  - - { id: en-b1-t09-s08, target: "After that, pour in the tomatoes, add the cabbage, cut into thin slices, and cook everything for fifteen minutes.", native: { nl: "Giet daarna de tomaten erbij, voeg de kool toe, in dunne reepjes gesneden, en laat alles vijftien minuten koken." } }
+    - { id: en-b1-t09-s09, target: "Add the peas at the end, because they only need a few minutes.", native: { nl: "Voeg de erwten op het eind toe, omdat die maar een paar minuten nodig hebben." } }
+    - { id: en-b1-t09-s10, target: "Serve the curry with rice and, if you want, a spoonful of cream on top.", native: { nl: "Serveer de curry met rijst en, als je wilt, een lepel room erbovenop." } }
+glossary:
+  - { word: spoonful, native: { nl: lepel (vol) } }
+items: [en.spicy, en.garlic, en.cabbage, en.tin, en.packet, en.frozen, en.powder, en.oil, en.cream, en.peel, en.cut-up, en.saucepan, en.fry, en.stir, en.pour, en.curry, en.serve, en.perfect, en.slice, en.few]
+questions:
+  - { id: en-b1-t09-q1, type: mc, question: "How long does it take to make the curry?", options: ["Half an hour.", "Fifteen minutes.", "An hour."], correct: 0 }
+  - { id: en-b1-t09-q2, type: true_false_notgiven, statement: "The curry is very spicy.", answer: false }
+  - { id: en-b1-t09-q3, type: true_false_notgiven, statement: "You can make the curry without cream.", answer: true }
+  - { id: en-b1-t09-q4, type: true_false_notgiven, statement: "The recipe comes from India.", answer: not_given }
+  - { id: en-b1-t09-q5, type: mc, question: "Why do you add the peas at the end?", options: ["They cook very quickly.", "They are too sweet.", "Children don't like them."], correct: 0 }
+  - { id: en-b1-t09-q6, type: match_heading, paragraph: 2, options: ["What you need", "How to start", "Serving the curry"], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t09-l1, type: mc, question: "What do you fry first?", options: ["The onions and the garlic.", "The cabbage.", "The tomatoes."], correct: 0 }
+  - { id: en-b1-t09-l2, type: true_false_notgiven, statement: "You serve the curry with rice.", answer: true }
+cloze:
+  - { sentence: en-b1-t09-s01, word: is, kind: finite_verb, hint: { nl: "be (tegenwoordige tijd)" } }
+  - { sentence: en-b1-t09-s01, word: takes, kind: finite_verb, hint: { nl: "take (tegenwoordige tijd)" } }
+  - { sentence: en-b1-t09-s02, word: enjoys, kind: finite_verb, hint: { nl: "enjoy (tegenwoordige tijd)" } }
+orderable: true

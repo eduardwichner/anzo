@@ -1,0 +1,69 @@
+id: en-b2-u15
+title: { nl: Vriendschap en relaties }
+icon: people
+topic: Friendship and loneliness, family relationships, conflict and making up, peer pressure; used to, be used to and get used to
+vocabulary:
+  - { target: loneliness, native: { nl: eenzaamheid }, pos: noun }
+  - { target: socialise, native: { nl: "omgaan met anderen, uitgaan met vrienden" }, pos: verb, noBlank: true }
+  - { target: acquaintance, native: { nl: kennis }, pos: noun }
+  - { target: bond, native: { nl: band }, pos: noun }
+  - { target: close-knit, native: { nl: "hecht" }, pos: adjective }
+  - { target: loyal, native: { nl: "trouw, loyaal" }, pos: adjective }
+  - { target: loyalty, native: { nl: loyaliteit }, pos: noun }
+  - { target: betray, native: { nl: verraden }, pos: verb }
+  - { target: jealousy, native: { nl: jaloezie }, pos: noun, noBlank: true }
+  - { target: conflict, native: { nl: conflict }, pos: noun, noBlank: true }
+  - { target: fall out, native: { nl: "ruzie krijgen (+ with)" }, pos: phrase, avoid: [en.make-up-after-a-row] }
+  - { id: en.make-up-after-a-row, target: make up, native: { nl: "het weer goedmaken" }, pos: phrase, avoid: [en.fall-out] }
+  - { target: count on, native: { nl: "rekenen op" }, pos: phrase, avoid: [en.rely-on], noBlank: true }
+  - { target: peer pressure, native: { nl: groepsdruk }, pos: noun }
+  - { target: generation gap, native: { nl: generatiekloof }, pos: noun }
+  - { target: sibling, native: { nl: "broer of zus" }, pos: noun }
+  - { target: upbringing, native: { nl: opvoeding }, pos: noun }
+  - { target: mature, native: { nl: volwassen }, pos: adjective }
+  - { target: empathy, native: { nl: "inlevingsvermogen, empathie" }, pos: noun }
+  - { target: supportive, native: { nl: "steunend, een steun (voor iemand)" }, pos: adjective }
+  - { target: gossip, native: { nl: "roddelen; roddels" }, pos: verb }
+  - { target: compliment, native: { nl: compliment }, pos: noun, noBlank: true }
+  - { target: criticise, native: { nl: "bekritiseren" }, pos: verb }
+  - { target: criticism, native: { nl: kritiek }, pos: noun }
+  - { target: misunderstanding, native: { nl: misverstand }, pos: noun }
+  - { target: isolated, native: { nl: geïsoleerd }, pos: adjective }
+  - { target: get used to, native: { nl: "wennen aan" }, pos: phrase, avoid: [en.settle-in] }
+  - { target: be used to, native: { nl: "gewend zijn aan" }, pos: phrase }
+sentences:
+  - { id: s01, target: "Among young people, loneliness is a growing problem.", native: { nl: "Bij jongeren is eenzaamheid een groeiend probleem." }, items: [en.loneliness], form: { word: loneliness, stem: lonely } }
+  - { id: s02, target: "He prefers to socialise with a few close friends.", native: { nl: "Hij brengt zijn tijd liever door met een paar goede vrienden." }, items: [en.socialise] }
+  - { id: s03, target: "She is not really a friend, just an acquaintance from work.", native: { nl: "Ze is niet echt een vriendin, gewoon een kennis van het werk." }, items: [en.acquaintance] }
+  - { id: s04, target: "There is a strong bond between the two sisters.", native: { nl: "Er is een sterke band tussen de twee zussen." }, items: [en.bond] }
+  - { id: s05, target: "They live in a close-knit village where everyone knows each other.", native: { nl: "Ze wonen in een hecht dorp waar iedereen elkaar kent." }, items: [en.close-knit] }
+  - { id: s06, target: "A loyal friend stands by you when things go wrong.", native: { nl: "Een trouwe vriend staat aan je kant als het misloopt." }, items: [en.loyal] }
+  - { id: s07, target: "Their loyalty to the team never changed.", native: { nl: "Hun trouw aan het team veranderde nooit." }, items: [en.loyalty], form: { word: loyalty, stem: loyal } }
+  - { id: s08, target: "She felt betrayed when her friend told everyone her secret.", native: { nl: "Ze voelde zich verraden toen haar vriendin iedereen haar geheim vertelde." }, items: [en.betray] }
+  - { id: s09, target: "Jealousy can destroy a friendship.", native: { nl: "Jaloezie kan een vriendschap kapotmaken." }, items: [en.jealousy] }
+  - { id: s10, target: "The best way to solve a conflict is to talk about it.", native: { nl: "De beste manier om een conflict op te lossen is erover te praten." }, items: [en.conflict] }
+  - { id: s11, target: "I fell out with my best friend over a stupid joke.", native: { nl: "Ik kreeg ruzie met mijn beste vriend om een stomme grap." }, items: [en.fall-out] }
+  - { id: s12, target: "They argued all morning, but they made up before lunch.", native: { nl: "Ze maakten de hele ochtend ruzie, maar voor de lunch hadden ze het weer goedgemaakt." }, items: [en.make-up-after-a-row] }
+  - { id: s13, target: "You can always count on your grandparents.", native: { nl: "Je kunt altijd op je grootouders rekenen." }, items: [en.count-on] }
+  - { id: s14, target: "Peer pressure can make teenagers do things they don't want to do.", native: { nl: "Groepsdruk kan tieners dingen laten doen die ze niet willen doen." }, items: [en.peer-pressure] }
+  - { id: s15, target: "The generation gap seems smaller in families that talk a lot.", native: { nl: "De generatiekloof lijkt kleiner in gezinnen waar veel gepraat wordt." }, items: [en.generation-gap] }
+  - { id: s16, target: "Do you get on well with your siblings?", native: { nl: "Kun je goed opschieten met je broers en zussen?" }, items: [en.sibling] }
+  - { id: s17, target: "His strict upbringing made him very independent.", native: { nl: "Zijn strenge opvoeding maakte hem heel zelfstandig." }, items: [en.upbringing] }
+  - { id: s18, target: "She is very mature for a girl of her age.", native: { nl: "Ze is heel volwassen voor een meisje van haar leeftijd." }, items: [en.mature] }
+  - { id: s19, target: "Empathy means understanding how another person feels.", native: { nl: "Empathie betekent begrijpen hoe iemand anders zich voelt." }, items: [en.empathy] }
+  - { id: s20, target: "My parents were very supportive when I changed schools.", native: { nl: "Mijn ouders steunden me heel erg toen ik van school veranderde." }, items: [en.supportive], form: { word: supportive, stem: support } }
+  - { id: s21, target: "It's not nice to gossip about people who aren't there.", native: { nl: "Het is niet leuk om te roddelen over mensen die er niet zijn." }, items: [en.gossip] }
+  - { id: s22, target: "She paid me a compliment on my new haircut.", native: { nl: "Ze gaf me een compliment over mijn nieuwe kapsel." }, items: [en.compliment] }
+  - { id: s23, target: "It's easy to criticise others and hard to change yourself.", native: { nl: "Het is makkelijk om anderen te bekritiseren en moeilijk om jezelf te veranderen." }, items: [en.criticise] }
+  - { id: s24, target: "He doesn't take criticism very well.", native: { nl: "Hij kan niet goed tegen kritiek." }, items: [en.criticism] }
+  - { id: s25, target: "The argument started with a small misunderstanding.", native: { nl: "De ruzie begon met een klein misverstand." }, items: [en.misunderstanding] }
+  - { id: s26, target: "Elderly people who live alone can feel very isolated.", native: { nl: "Ouderen die alleen wonen, kunnen zich heel geïsoleerd voelen." }, items: [en.isolated] }
+  - { id: s27, target: "It took me a long time to get used to my new school.", native: { nl: "Het duurde lang voor ik gewend was aan mijn nieuwe school." }, items: [en.get-used-to], build: true }
+  - { id: s28, target: "I'm used to sharing a room with my brother.", native: { nl: "Ik ben eraan gewend een kamer met mijn broer te delen." }, items: [en.be-used-to], build: true }
+  - { id: s29, target: "We used to play together every day when we were small.", native: { nl: "Vroeger speelden we elke dag samen toen we klein waren." }, items: [en.bond], build: true, acceptAlso: ["When we were small, we used to play together every day."] }
+  - { id: s30, target: "My grandmother socialises much more now that she belongs to a dance club.", native: { nl: "Mijn oma komt veel meer onder de mensen nu ze bij een dansclub is." }, items: [en.socialise], finite: { word: socialises, hint: { nl: "socialise (tegenwoordige tijd)" } } }
+transforms:
+  - { id: x01, from: "Living in a big city is new for me, and it's still strange.", key: used, gapped: "I'm not ___ in a big city yet.", answers: ["used to living"], items: [en.be-used-to] }
+  - { id: x02, from: "We were friends for years, but we had an argument last summer.", key: fell, gapped: "We were friends for years, but we ___ last summer.", answers: ["fell out", "fell out with each other", "fell out with one another"], items: [en.fall-out] }
+  - { id: x03, from: "When I was younger, I went to the park every Saturday.", key: used, gapped: "When I was younger, I ___ the park every Saturday.", answers: ["used to go to", "used to visit"], items: [en.bond] }
+texts: [en-b2-t15]

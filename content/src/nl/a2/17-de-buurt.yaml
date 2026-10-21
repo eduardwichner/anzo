@@ -1,0 +1,49 @@
+id: nl-a2-u17
+title: { en: The neighbourhood and the town }
+icon: map
+topic: Rubbish, roadworks, rules, local life
+vocabulary:
+  - { target: de wijk, native: { en: "district, neighbourhood" }, pos: noun, plural: wijken }
+  - { target: de bewoner, native: { en: resident }, pos: noun, plural: bewoners }
+  - { target: het afval, native: { en: "rubbish, waste" }, pos: noun, plural: "-" }
+  - { target: de vuilniszak, native: { en: bin bag }, pos: noun, plural: vuilniszakken }
+  - { target: de vuilbak, native: { en: bin }, pos: noun, plural: vuilbakken, alsoNL: de vuilnisbak }
+  - { target: de huisvuilophaling, native: { en: rubbish collection }, pos: noun, plural: "-", alsoNL: de afvalinzameling }
+  - { target: buitenzetten, native: { en: to put out }, pos: verb }
+  - { target: het containerpark, native: { en: recycling centre }, pos: noun, plural: containerparken, alsoNL: de milieustraat }
+  - { id: nl.werken-n, target: de werken, native: { en: roadworks }, pos: noun, plural: "-", alsoNL: de werkzaamheden }
+  - { target: de omleiding, native: { en: diversion }, pos: noun, plural: omleidingen }
+  - { target: het reglement, native: { en: regulations }, pos: noun, plural: reglementen }
+  - { target: verbieden, native: { en: to forbid }, pos: verb, avoid: [nl.toelaten] }
+  - { target: verboden, native: { en: forbidden }, pos: adjective, avoid: [nl.toegelaten] }
+  - { target: toelaten, native: { en: to allow }, pos: verb }
+  - { target: toegelaten, native: { en: allowed }, pos: adjective, alsoNL: toegestaan }
+  - { target: de boete, native: { en: fine }, pos: noun, plural: boetes }
+  - { target: melden, native: { en: to report }, pos: verb }
+  - { target: publiek, native: { en: public }, pos: adjective }
+  - { target: de bibliotheek, native: { en: library }, pos: noun, plural: bibliotheken }
+  - { target: de vereniging, native: { en: "club, association" }, pos: noun, plural: verenigingen }
+  - { target: het straatfeest, native: { en: street party }, pos: noun, plural: straatfeesten }
+sentences:
+  - { id: s01, target: "We wonen in een rustige wijk.", native: { en: "We live in a quiet neighbourhood." }, items: [nl.wijk] }
+  - { id: s02, target: "Alle bewoners krijgen een brief van de gemeente.", native: { en: "All residents get a letter from the council." }, items: [nl.bewoner] }
+  - { id: s03, target: "Waar moet ik het afval laten?", native: { en: "Where should I leave the rubbish?" }, items: [nl.afval] }
+  - { id: s04, target: "Je mag alleen blauwe vuilniszakken gebruiken.", native: { en: "You may only use blue bin bags." }, items: [nl.vuilniszak] }
+  - { id: s05, target: "De vuilbak staat naast de deur.", native: { en: "The bin is next to the door." }, items: [nl.vuilbak] }
+  - { id: s06, target: "De huisvuilophaling is op dinsdag.", native: { en: "The rubbish collection is on Tuesday." }, items: [nl.huisvuilophaling] }
+  - { id: s07, target: "Ik heb de vuilniszak gisteren buitengezet.", native: { en: "I put the bin bag out yesterday." }, items: [nl.buitenzetten], acceptAlso: ["Ik heb gisteren de vuilniszak buitengezet.", "Gisteren heb ik de vuilniszak buitengezet."] }
+  - { id: s08, target: "Zet de vuilniszak voor acht uur buiten.", native: { en: "Put the bin bag out before eight o'clock." }, items: [nl.buitenzetten] }
+  - { id: s09, target: "Oude kasten breng je naar het containerpark.", native: { en: "You take old cupboards to the recycling centre." }, items: [nl.containerpark], acceptAlso: ["Naar het containerpark breng je oude kasten."] }
+  - { id: s10, target: "Door de werken is de straat dicht.", native: { en: "The street is closed because of the roadworks." }, items: [nl.werken-n], acceptAlso: ["De straat is dicht door de werken."] }
+  - { id: s11, target: "Neem de omleiding langs de markt.", native: { en: "Take the diversion past the market." }, items: [nl.omleiding] }
+  - { id: s12, target: "Lees het reglement van het zwembad.", native: { en: "Read the swimming pool's regulations." }, items: [nl.reglement] }
+  - { id: s13, target: "De gemeente verbiedt auto's op het plein.", native: { en: "The council bans cars from the square." }, items: [nl.verbieden] }
+  - { id: s14, target: "Fietsen is hier verboden.", native: { en: "Cycling is forbidden here." }, items: [nl.verboden] }
+  - { id: s15, target: "In de winkel laten ze geen honden toe.", native: { en: "They don't allow dogs in the shop." }, items: [nl.toelaten], acceptAlso: ["Ze laten in de winkel geen honden toe."] }
+  - { id: s16, target: "Zijn honden hier toegelaten?", native: { en: "Are dogs allowed here?" }, items: [nl.toegelaten] }
+  - { id: s17, target: "Hij heeft een boete gekregen.", native: { en: "He got a fine." }, items: [nl.boete] }
+  - { id: s18, target: "U kunt een probleem bij de gemeente melden.", native: { en: "You can report a problem to the council." }, items: [nl.melden] }
+  - { id: s19, target: "Er is een publiek toilet in het park.", native: { en: "There's a public toilet in the park." }, items: [nl.publiek] }
+  - { id: s20, target: "Ik haal boeken in de bibliotheek.", native: { en: "I get books from the library." }, items: [nl.bibliotheek], acceptAlso: ["In de bibliotheek haal ik boeken."] }
+  - { id: s21, target: "Mijn man speelt voetbal bij een vereniging.", native: { en: "My husband plays football at a club." }, items: [nl.vereniging] }
+  - { id: s22, target: "In september is er een straatfeest.", native: { en: "In September there's a street party." }, items: [nl.straatfeest], acceptAlso: ["Er is in september een straatfeest."] }

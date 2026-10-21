@@ -1,0 +1,64 @@
+id: en-pre-a1-u12
+title: { nl: Speelgoed en muziek }
+icon: toys
+topic: Toys; Sports and leisure (music, photos, TV)
+vocabulary:
+  - { target: toy, native: { nl: "speelgoed, speeltje" }, pos: noun, category: true }
+  - { target: ball, native: { nl: bal }, pos: noun }
+  - { target: balloon, native: { nl: ballon }, pos: noun }
+  - { target: doll, native: { nl: pop }, pos: noun }
+  - { target: teddy, native: { nl: knuffelbeer }, pos: noun, avoid: [en.bear] }
+  - { target: kite, native: { nl: vlieger }, pos: noun }
+  - { target: robot, native: { nl: robot }, pos: noun }
+  - { target: game, native: { nl: "spel, spelletje" }, pos: noun }
+  - { target: board game, native: { nl: bordspel }, pos: noun, avoid: [en.game] }
+  - { target: alien, native: { nl: "alien, ruimtewezen" }, pos: noun }
+  - { target: monster, native: { nl: monster }, pos: noun }
+  - { target: thing, native: { nl: ding }, pos: noun }
+  - { target: story, native: { nl: verhaal }, pos: noun }
+  - { target: music, native: { nl: muziek }, pos: noun }
+  - { target: song, native: { nl: liedje }, pos: noun }
+  - { target: sing, native: { nl: zingen }, pos: verb }
+  - { target: guitar, native: { nl: gitaar }, pos: noun }
+  - { target: piano, native: { nl: piano }, pos: noun }
+  - { target: radio, native: { nl: radio }, pos: noun }
+  - { target: camera, native: { nl: camera }, pos: noun }
+  - { target: photo, native: { nl: foto }, pos: noun }
+  - { target: take a photo, native: { nl: een foto maken }, pos: phrase }
+  - { target: take a picture, native: { nl: een foto maken }, pos: phrase }
+  - { target: phone, native: { nl: telefoon }, pos: noun }
+  - { target: television, native: { nl: televisie }, pos: noun }
+  - { target: TV, native: { nl: "tv, televisie" }, pos: noun }
+sentences:
+  - { id: s01, target: "This is my favourite toy.", native: { nl: "Dit is mijn lievelingsspeeltje." }, items: [en.toy] }
+  - { id: s02, target: "Throw the ball to me!", native: { nl: "Gooi de bal naar mij!" }, items: [en.ball] }
+  - { id: s03, target: "The balloon is red.", native: { nl: "De ballon is rood." }, items: [en.balloon, en.red] }
+  - { id: s04, target: "My doll has got long hair.", native: { nl: "Mijn pop heeft lang haar." }, items: [en.doll, en.long, en.hair] }
+  - { id: s05, target: "I sleep with my teddy.", native: { nl: "Ik slaap met mijn knuffelbeer." }, items: [en.teddy] }
+  - { id: s06, target: "Let's fly my kite!", native: { nl: "Laten we mijn vlieger oplaten!" }, items: [en.kite] }
+  - { id: s07, target: "My kite is in the tree!", native: { nl: "Mijn vlieger zit in de boom!" }, items: [en.kite] }
+  - { id: s08, target: "The robot can walk and talk.", native: { nl: "De robot kan lopen en praten." }, items: [en.robot] }
+  - { id: s09, target: "Let's play a game!", native: { nl: "Laten we een spelletje doen!" }, items: [en.game] }
+  - { id: s10, target: "We've got a new board game.", native: { nl: "We hebben een nieuw bordspel." }, items: [en.board-game, en.new], acceptAlso: ["We have got a new board game."] }
+  - { id: s11, target: "The alien is green.", native: { nl: "De alien is groen." }, items: [en.alien, en.green] }
+  - { id: s12, target: "Look at that funny monster!", native: { nl: "Kijk naar dat grappige monster!" }, items: [en.monster, en.funny, en.look-at] }
+  - { id: s13, target: "What's that thing?", native: { nl: "Wat is dat ding?" }, items: [en.thing], acceptAlso: ["What is that thing?"] }
+  - { id: s14, target: "Grandma is reading a story.", native: { nl: "Oma leest een verhaal voor." }, items: [en.story, en.grandma] }
+  - { id: s15, target: "I like this music.", native: { nl: "Ik vind deze muziek leuk." }, items: [en.music, en.like] }
+  - { id: s16, target: "Let's sing a song!", native: { nl: "Laten we een liedje zingen!" }, items: [en.song, en.sing] }
+  - { id: s17, target: "The birds are singing.", native: { nl: "De vogels zingen." }, items: [en.sing, en.bird] }
+  - { id: s18, target: "My brother plays the guitar.", native: { nl: "Mijn broer speelt gitaar." }, items: [en.guitar, en.brother] }
+  - { id: s19, target: "Can you play the piano?", native: { nl: "Kun jij piano spelen?" }, items: [en.piano] }
+  - { id: s20, target: "Dad is listening to the radio.", native: { nl: "Papa luistert naar de radio." }, items: [en.radio, en.dad] }
+  - { id: s21, target: "I've got a new camera.", native: { nl: "Ik heb een nieuwe camera." }, items: [en.camera, en.new], acceptAlso: ["I have got a new camera."] }
+  - { id: s22, target: "Look at this photo!", native: { nl: "Kijk eens naar deze foto!" }, items: [en.photo] }
+  - { id: s23, target: "Can I take a photo?", native: { nl: "Mag ik een foto maken?" }, items: [en.take-a-photo] }
+  - { id: s24, target: "Let's take a picture of the cat.", native: { nl: "Laten we een foto van de kat maken." }, items: [en.take-a-picture, en.cat] }
+  - { id: s25, target: "Where's my phone?", native: { nl: "Waar is mijn telefoon?" }, items: [en.phone], acceptAlso: ["Where is my phone?"] }
+  - { id: s26, target: "We watch television in the evening.", native: { nl: "Wij kijken 's avonds televisie." }, items: [en.television] }
+  - { id: s27, target: "Can I watch TV, please?", native: { nl: "Mag ik tv kijken, alsjeblieft?" }, items: [en.tv, en.please] }
+lessons:
+  - { id: l01, title: { nl: Speelgoed }, vocab: [en.toy, en.ball, en.balloon, en.doll, en.teddy, en.kite, en.robot] }
+  - { id: l02, title: { nl: Spelletjes en verhalen }, vocab: [en.game, en.board-game, en.alien, en.monster, en.thing, en.story] }
+  - { id: l03, title: { nl: Muziek }, vocab: [en.music, en.song, en.sing, en.guitar, en.piano, en.radio] }
+  - { id: l04, title: { nl: "Foto's en tv" }, vocab: [en.camera, en.photo, en.take-a-photo, en.take-a-picture, en.phone, en.television, en.tv] }

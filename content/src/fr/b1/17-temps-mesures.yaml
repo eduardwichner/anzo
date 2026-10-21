@@ -1,0 +1,79 @@
+id: fr-b1-u17
+title: { nl: Tijd en maten, en: "Time and measurements" }
+icon: clock
+topic: Le temps, les quantités et les mesures ; les expressions de temps (depuis, pendant, dès, il y a)
+vocabulary:
+  - { target: la quinzaine, native: { nl: een veertiental (twee weken), en: "about two weeks, fortnight" }, pos: noun, gender: f }
+  - { target: pour cent, native: { nl: procent, en: "per cent" }, pos: phrase }
+  - { target: mesurer, native: { nl: meten, en: "to measure" }, pos: verb }
+  - { target: peser, native: { nl: wegen, en: "to weigh" }, pos: verb }
+  - { target: le poids, native: { nl: het gewicht, en: "weight" }, pos: noun, gender: m }
+  - { target: la longueur, native: { nl: de lengte, en: "length" }, pos: noun, gender: f }
+  - { target: le kilo, native: { nl: de kilo, en: "kilo" }, pos: noun, gender: m }
+  - { target: le litre, native: { nl: de liter, en: "litre" }, pos: noun, gender: m }
+  - { target: le kilomètre, native: { nl: de kilometer, en: "kilometre" }, pos: noun, gender: m }
+  - { target: le mètre, native: { nl: de meter, en: "metre" }, pos: noun, gender: m }
+  - { target: la dizaine, native: { nl: een tiental, en: "about ten" }, pos: noun, gender: f }
+  - { target: la moitié, native: { nl: de helft, en: "half" }, pos: noun, gender: f }
+  - { target: le minimum, native: { nl: het minimum, en: "minimum" }, pos: noun, gender: m }
+  - { target: la période, native: { nl: de periode, en: "period" }, pos: noun, gender: f }
+  - { target: autrefois, native: { nl: vroeger, en: "in the past, in the old days" }, pos: adverb, noBlank: true }
+  - { target: désormais, native: { nl: voortaan, en: "from now on" }, pos: adverb }
+  - { target: actuellement, native: { nl: momenteel, en: "currently, at the moment" }, pos: adverb }
+  - { target: récemment, native: { nl: onlangs, en: "recently" }, pos: adverb }
+  - { target: récent, native: { nl: recent, en: "recent" }, pos: adjective }
+  - { target: la durée, native: { nl: de duur, en: "duration, length of time" }, pos: noun, gender: f }
+  - { target: le début, native: { nl: het begin, en: "beginning, start" }, pos: noun, gender: m, avoid: [fr.fin] }
+  - { target: la fin, native: { nl: het einde, en: "end" }, pos: noun, gender: f }
+  - { target: la matinée, native: { nl: de ochtend (voormiddag), en: "morning" }, pos: noun, gender: f }
+  - { target: l'horaire, native: { nl: het uurrooster (dienstregeling), en: "timetable, schedule" }, pos: noun, gender: m }
+  - { target: régulier, native: { nl: regelmatig, en: "regular" }, pos: adjective }
+  - { target: fréquent, native: { nl: vaak voorkomend, en: "frequent, common" }, pos: adjective }
+  - { target: rarement, native: { nl: zelden, en: "rarely, seldom" }, pos: adverb }
+  - { target: rapidement, native: { nl: snel, en: "quickly, fast" }, pos: adverb }
+  - { target: durant, native: { nl: gedurende, en: "during" }, pos: preposition, noBlank: true }
+  - { target: dès, native: { nl: vanaf (meteen vanaf), en: "right from, as soon as" }, pos: preposition }
+  - { target: lors de, native: { nl: tijdens (bij), en: "at the time of, during" }, pos: preposition, avoid: [fr.durant], noBlank: true }
+  - { target: futur, native: { nl: toekomstig, en: "future" }, pos: adjective }
+  - { target: permanent, native: { nl: permanent (blijvend), en: "permanent" }, pos: adjective }
+  - { target: quasiment, native: { nl: "bijna, zo goed als", en: "almost, practically" }, pos: adverb }
+  - { target: le tas, native: { nl: de hoop (stapel), en: "pile, heap" }, pos: noun, gender: m }
+  - { target: l'ordre, native: { nl: de volgorde (orde), en: "order" }, pos: noun, gender: m }
+sentences:
+  - { id: s01, target: "Nous partons en vacances pour une quinzaine de jours.", native: { nl: "We gaan voor een veertiental dagen op vakantie.", en: "We're going on holiday for about two weeks." }, items: [fr.quinzaine] }
+  - { id: s02, target: "Quatre-vingts pour cent des élèves viennent à vélo.", native: { nl: "Tachtig procent van de leerlingen komt met de fiets.", en: "Eighty per cent of the pupils come by bike." }, items: [fr.pour-cent] }
+  - { id: s03, target: "Mesure la longueur de la table, s'il te plaît.", native: { nl: "Meet de lengte van de tafel, alsjeblieft.", en: "Measure the length of the table, please." }, items: [fr.mesurer, fr.longueur] }
+  - { id: s04, target: "Le bébé pèse trois kilos.", native: { nl: "De baby weegt drie kilo.", en: "The baby weighs three kilos." }, items: [fr.peser, fr.kilo], finite: { word: pèse, hint: { nl: "peser (présent)", en: "peser (present)" } } }
+  - { id: s05, target: "Le poids de ton sac est mauvais pour ton dos.", native: { nl: "Het gewicht van je tas is slecht voor je rug.", en: "The weight of your bag is bad for your back." }, items: [fr.poids] }
+  - { id: s06, target: "Il faut boire au moins un litre d'eau par jour.", native: { nl: "Je moet minstens een liter water per dag drinken.", en: "You should drink at least a litre of water a day." }, items: [fr.litre] }
+  - { id: s07, target: "L'école est à deux kilomètres de chez moi.", native: { nl: "De school ligt op twee kilometer van mijn huis.", en: "The school is two kilometres from my home." }, items: [fr.kilometre] }
+  - { id: s08, target: "La piscine fait vingt-cinq mètres.", native: { nl: "Het zwembad is vijfentwintig meter lang.", en: "The swimming pool is twenty-five metres long." }, items: [fr.metre] }
+  - { id: s09, target: "Une dizaine d'élèves sont malades.", native: { nl: "Een tiental leerlingen is ziek.", en: "About ten pupils are ill." }, items: [fr.dizaine] }
+  - { id: s10, target: "J'ai mangé la moitié du gâteau.", native: { nl: "Ik heb de helft van de taart opgegeten.", en: "I ate half the cake." }, items: [fr.moitie] }
+  - { id: s11, target: "Il faut un minimum de cinq joueurs.", native: { nl: "Er zijn minimaal vijf spelers nodig.", en: "You need a minimum of five players." }, items: [fr.minimum] }
+  - { id: s12, target: "C'est une période difficile pour notre famille.", native: { nl: "Het is een moeilijke periode voor ons gezin.", en: "It's a difficult period for our family." }, items: [fr.periode] }
+  - { id: s13, target: "Autrefois, il n'y avait pas d'ordinateurs.", native: { nl: "Vroeger waren er geen computers.", en: "In the past, there were no computers." }, items: [fr.autrefois] }
+  - { id: s14, target: "Désormais, le magasin ferme à vingt heures.", native: { nl: "Voortaan sluit de winkel om twintig uur.", en: "From now on, the shop closes at eight in the evening." }, items: [fr.desormais], acceptAlso: ["Le magasin ferme désormais à vingt heures.", "Le magasin ferme à vingt heures désormais."] }
+  - { id: s15, target: "Actuellement, mon père travaille à Bruxelles.", native: { nl: "Momenteel werkt mijn vader in Brussel.", en: "At the moment, my father is working in Brussels." }, items: [fr.actuellement] }
+  - { id: s16, target: "J'ai vu ce film récemment.", native: { nl: "Ik heb die film onlangs gezien.", en: "I saw that film recently." }, items: [fr.recemment], acceptAlso: ["Récemment, j'ai vu ce film."] }
+  - { id: s17, target: "Ce sont des photos récentes de la ville.", native: { nl: "Het zijn recente foto's van de stad.", en: "These are recent photos of the town." }, items: [fr.recent] }
+  - { id: s18, target: "La durée du film est de deux heures.", native: { nl: "De duur van de film is twee uur.", en: "The duration of the film is two hours." }, items: [fr.duree] }
+  - { id: s19, target: "Au début, je ne comprenais rien.", native: { nl: "In het begin begreep ik niets.", en: "At the beginning, I didn't understand anything." }, items: [fr.debut], acceptAlso: ["Je ne comprenais rien au début."] }
+  - { id: s20, target: "À la fin du film, tout le monde pleurait.", native: { nl: "Aan het einde van de film huilde iedereen.", en: "At the end of the film, everyone was crying." }, items: [fr.fin], acceptAlso: ["Tout le monde pleurait à la fin du film."] }
+  - { id: s21, target: "J'ai travaillé toute la matinée.", native: { nl: "Ik heb de hele voormiddag gewerkt.", en: "I worked all morning." }, items: [fr.matinee] }
+  - { id: s22, target: "Regarde l'horaire des trains sur le site.", native: { nl: "Kijk naar de dienstregeling van de treinen op de website.", en: "Look at the train timetable on the website." }, items: [fr.horaire] }
+  - { id: s23, target: "Manger à des heures régulières est bon pour la santé.", native: { nl: "Op vaste tijden eten is goed voor de gezondheid.", en: "Eating at regular times is good for your health." }, items: [fr.regulier] }
+  - { id: s24, target: "Les tempêtes sont fréquentes en hiver.", native: { nl: "Stormen komen vaak voor in de winter.", en: "Storms are frequent in winter." }, items: [fr.frequent] }
+  - { id: s25, target: "Je vais rarement au cinéma.", native: { nl: "Ik ga zelden naar de bioscoop.", en: "I rarely go to the cinema." }, items: [fr.rarement] }
+  - { id: s26, target: "Les nouvelles circulent très rapidement sur Internet.", native: { nl: "Nieuws verspreidt zich heel snel op het internet.", en: "News spreads very quickly on the internet." }, items: [fr.rapidement] }
+  - { id: s27, target: "Durant les vacances, la bibliothèque est fermée.", native: { nl: "Gedurende de vakantie is de bibliotheek gesloten.", en: "During the holidays, the library is closed." }, items: [fr.durant], acceptAlso: ["La bibliothèque est fermée durant les vacances."] }
+  - { id: s28, target: "Dès mon arrivée, j'ai appelé mes parents.", native: { nl: "Meteen bij mijn aankomst heb ik mijn ouders gebeld.", en: "As soon as I arrived, I phoned my parents." }, items: [fr.des], acceptAlso: ["J'ai appelé mes parents dès mon arrivée."] }
+  - { id: s29, target: "Lors de notre visite, le musée était fermé.", native: { nl: "Bij ons bezoek was het museum gesloten.", en: "At the time of our visit, the museum was closed." }, items: [fr.lors-de], acceptAlso: ["Le musée était fermé lors de notre visite."] }
+  - { id: s30, target: "Que veux-tu faire dans ta future vie professionnelle ?", native: { nl: "Wat wil je doen in je toekomstige beroepsleven?", en: "What do you want to do in your future working life?" }, items: [fr.futur] }
+  - { id: s31, target: "Elle a trouvé un emploi permanent.", native: { nl: "Ze heeft een vaste baan gevonden.", en: "She's found a permanent job." }, items: [fr.permanent] }
+  - { id: s32, target: "Le travail est quasiment terminé.", native: { nl: "Het werk is zo goed als klaar.", en: "The work is almost finished." }, items: [fr.quasiment] }
+  - { id: s33, target: "Il y a un tas de vêtements sur ton lit.", native: { nl: "Er ligt een hoop kleren op je bed.", en: "There's a pile of clothes on your bed." }, items: [fr.tas] }
+  - { id: s34, target: "Mets les mots dans le bon ordre.", native: { nl: "Zet de woorden in de juiste volgorde.", en: "Put the words in the right order." }, items: [fr.ordre] }
+  - { id: s35, target: "Je fais du piano depuis une dizaine d'années.", native: { nl: "Ik speel al een tiental jaar piano.", en: "I've been playing the piano for about ten years." }, items: [fr.dizaine], build: true, acceptAlso: ["Depuis une dizaine d'années, je fais du piano."] }
+  - { id: s36, target: "Il y a deux jours, j'ai mesuré ma chambre.", native: { nl: "Twee dagen geleden heb ik mijn kamer opgemeten.", en: "Two days ago I measured my bedroom." }, items: [fr.mesurer], build: true, acceptAlso: ["J'ai mesuré ma chambre il y a deux jours."] }
+texts: [fr-b1-t18]

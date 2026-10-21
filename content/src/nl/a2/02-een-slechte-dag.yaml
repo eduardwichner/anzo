@@ -1,0 +1,56 @@
+id: nl-a2-u02
+title: { en: A bad day }
+icon: warning
+topic: Things that went wrong; the perfect and the imperfect
+vocabulary:
+  - { target: de dief, native: { en: thief }, pos: noun, plural: dieven }
+  - { target: stelen, native: { en: to steal }, pos: verb }
+  - { target: gestolen, native: { en: stolen }, pos: adjective }
+  - { target: de politie, native: { en: police }, pos: noun, plural: "-" }
+  - { target: de agent, native: { en: police officer }, pos: noun, plural: agenten }
+  - { target: de aangifte, native: { en: "report (to the police)" }, pos: noun, plural: aangiftes }
+  - { target: de portefeuille, native: { en: wallet }, pos: noun, plural: portefeuilles, alsoNL: de portemonnee }
+  - { target: verliezen, native: { en: to lose }, pos: verb, avoid: [nl.kwijtraken] }
+  - { target: verloren, native: { en: lost }, pos: adjective, avoid: [nl.kwijt] }
+  - { target: kwijtraken, native: { en: "to lose (mislay)" }, pos: verb }
+  - { target: kwijt, native: { en: "gone, lost (can't find)" }, pos: adjective }
+  - { target: het ongeluk, native: { en: "accident, bad luck" }, pos: noun, plural: ongelukken, avoid: [nl.pech] }
+  - { target: de pech, native: { en: "bad luck, breakdown" }, pos: noun, plural: "-" }
+  - { target: het probleem, native: { en: problem }, pos: noun, plural: problemen }
+  - { target: vallen, native: { en: to fall }, pos: verb }
+  - { target: breken, native: { en: to break }, pos: verb }
+  - { target: kapot, native: { en: broken }, pos: adjective }
+  - { target: missen, native: { en: to miss }, pos: verb }
+  - { target: te laat, native: { en: "late (too late)" }, pos: phrase }
+  - { target: schrikken, native: { en: to get a fright }, pos: verb }
+  - { target: morsen, native: { en: to spill }, pos: verb }
+  - { target: de vlek, native: { en: stain }, pos: noun, plural: vlekken }
+  - { target: de kapper, native: { en: hairdresser }, pos: noun, plural: kappers }
+  - { target: knippen, native: { en: "to cut (with scissors)" }, pos: verb }
+  - { target: de ober, native: { en: waiter }, pos: noun, plural: obers }
+  - { target: vervelend, native: { en: "annoying, boring" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Een dief heeft mijn fiets gestolen.", native: { en: "A thief has stolen my bike." }, items: [nl.dief, nl.stelen] }
+  - { id: s02, target: "Mijn gsm is gestolen.", native: { en: "My mobile phone has been stolen." }, items: [nl.gestolen] }
+  - { id: s03, target: "Ik heb de politie gebeld.", native: { en: "I called the police." }, items: [nl.politie] }
+  - { id: s04, target: "De agent was heel vriendelijk.", native: { en: "The police officer was very friendly." }, items: [nl.agent] }
+  - { id: s05, target: "Ik heb aangifte gedaan.", native: { en: "I reported it to the police." }, items: [nl.aangifte] }
+  - { id: s06, target: "Ik heb mijn portefeuille verloren.", native: { en: "I've lost my wallet." }, items: [nl.portefeuille, nl.verliezen] }
+  - { id: s07, target: "Ik ben mijn sleutels verloren.", native: { en: "I've lost my keys." }, items: [nl.verloren] }
+  - { id: s08, target: "Ik ben mijn bril kwijtgeraakt.", native: { en: "I've lost my glasses." }, items: [nl.kwijtraken] }
+  - { id: s09, target: "Mijn paraplu is kwijt.", native: { en: "My umbrella has gone missing." }, items: [nl.kwijt] }
+  - { id: s10, target: "Er is op de weg een ongeluk gebeurd.", native: { en: "There's been an accident on the road." }, items: [nl.ongeluk] }
+  - { id: s11, target: "We hadden pech met de auto.", native: { en: "We had car trouble." }, items: [nl.pech] }
+  - { id: s12, target: "Geen probleem!", native: { en: "No problem!" }, items: [nl.probleem] }
+  - { id: s13, target: "Ik ben van de trap gevallen.", native: { en: "I fell down the stairs." }, items: [nl.vallen] }
+  - { id: s14, target: "Hij heeft zijn arm gebroken.", native: { en: "He has broken his arm." }, items: [nl.breken] }
+  - { id: s15, target: "De lift is kapot.", native: { en: "The lift is broken." }, items: [nl.kapot] }
+  - { id: s16, target: "Ik heb de bus gemist.", native: { en: "I missed the bus." }, items: [nl.missen] }
+  - { id: s17, target: "Daarom was ik te laat op mijn werk.", native: { en: "That's why I was late for work." }, items: [nl.te-laat], acceptAlso: ["Ik was daarom te laat op mijn werk."] }
+  - { id: s18, target: "Ik schrok van het lawaai.", native: { en: "The noise gave me a fright." }, items: [nl.schrikken] }
+  - { id: s19, target: "Ik heb koffie op mijn broek gemorst.", native: { en: "I spilt coffee on my trousers." }, items: [nl.morsen] }
+  - { id: s20, target: "Er zit een vlek op je hemd.", native: { en: "There's a stain on your shirt." }, items: [nl.vlek] }
+  - { id: s21, target: "Ik ging gisteren naar de kapper.", native: { en: "I went to the hairdresser's yesterday." }, items: [nl.kapper], acceptAlso: ["Gisteren ging ik naar de kapper."] }
+  - { id: s22, target: "Hij heeft mijn haar te kort geknipt.", native: { en: "He cut my hair too short." }, items: [nl.knippen] }
+  - { id: s23, target: "De ober bracht koude soep.", native: { en: "The waiter brought cold soup." }, items: [nl.ober] }
+  - { id: s24, target: "Wat een vervelende dag!", native: { en: "What an annoying day!" }, items: [nl.vervelend] }

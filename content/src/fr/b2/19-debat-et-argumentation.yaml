@@ -1,0 +1,70 @@
+id: fr-b2-u19
+title: { nl: Debat en overtuigen, en: "Debating and persuading" }
+icon: chat
+topic: Donner et défendre son point de vue, peser le pour et le contre, répondre aux objections ; les articulateurs du discours argumenté (d'une part … d'autre part, en outre, en revanche, certes … mais, bref, en conclusion) et la mise en relief (ce qui compte, c'est …)
+vocabulary:
+  - { target: d'une part, native: { nl: "enerzijds", en: "on the one hand, for one thing" }, pos: adverb, avoid: [fr.d-autre-part] }
+  - { target: d'autre part, native: { nl: "anderzijds; bovendien", en: "on the other hand, for another; besides" }, pos: adverb, avoid: [fr.d-une-part, fr.en-outre, fr.de-plus] }
+  - { target: en outre, native: { nl: "bovendien (formeel)", en: "moreover, furthermore (formal)" }, pos: adverb, avoid: [fr.de-plus], noBlank: true }
+  - { target: de plus, native: { nl: "daarenboven, bovendien", en: "what's more, moreover" }, pos: adverb, avoid: [fr.en-outre], noBlank: true }
+  - { target: par ailleurs, native: { nl: "overigens, daarnaast", en: "besides, in addition, moreover" }, pos: adverb, noBlank: true }
+  - { target: en revanche, native: { nl: daarentegen, en: "on the other hand, by contrast" }, pos: adverb, avoid: [fr.au-contraire] }
+  - { target: au contraire, native: { nl: integendeel, en: "on the contrary" }, pos: adverb, avoid: [fr.en-revanche] }
+  - { target: certes, native: { nl: weliswaar, en: "admittedly, it's true that" }, pos: adverb }
+  - { target: bref, native: { nl: kortom, en: "in short, in a word" }, pos: adverb }
+  - { target: en conclusion, native: { nl: "tot besluit, kortom", en: "in conclusion" }, pos: adverb, avoid: [fr.bref] }
+  - { target: convaincre, native: { nl: overtuigen, en: "to convince, to persuade" }, pos: verb, avoid: [fr.persuader] }
+  - { target: convaincant, native: { nl: overtuigend, en: "convincing" }, pos: adjective }
+  - { target: persuader, native: { nl: "overhalen, overtuigen (+ de)", en: "to persuade (+ de: to)" }, pos: verb, avoid: [fr.convaincre] }
+  - { target: réfuter, native: { nl: weerleggen, en: "to refute, to disprove" }, pos: verb }
+  - { target: contredire, native: { nl: tegenspreken, en: "to contradict" }, pos: verb }
+  - { target: l'objection, native: { nl: het bezwaar, en: "objection" }, pos: noun, gender: f }
+  - { target: nuancer, native: { nl: nuanceren, en: "to qualify (a statement), to add nuance to" }, pos: verb, noBlank: true }
+  - { target: la nuance, native: { nl: de nuance, en: "nuance, subtle difference" }, pos: noun, gender: f, noBlank: true }
+  - { target: le point de vue, native: { nl: het standpunt, en: "point of view, standpoint" }, pos: noun, gender: m, avoid: [fr.position], noBlank: true }
+  - { target: la position, native: { nl: "de positie, het standpunt (dat je inneemt)", en: "position, stance, standpoint" }, pos: noun, gender: f, avoid: [fr.point-de-vue] }
+  - { target: prouver, native: { nl: bewijzen, en: "to prove" }, pos: verb }
+  - { target: le compromis, native: { nl: het compromis, en: "compromise" }, pos: noun, gender: m, noBlank: true }
+  - { target: l'orateur, native: { nl: de spreker, en: "speaker" }, pos: noun, gender: m }
+  - { target: le jury, native: { nl: de jury, en: "jury, panel (of judges)" }, pos: noun, gender: m, noBlank: true }
+  - { target: interrompre, native: { nl: onderbreken, en: "to interrupt" }, pos: verb }
+  - { target: la parole, native: { nl: "het woord (in een gesprek of debat)", en: "turn to speak (as in: to take the floor)" }, pos: noun, gender: f }
+  - { target: le contre-argument, native: { nl: het tegenargument, en: "counter-argument" }, pos: noun, gender: m }
+  - { target: illustrer, native: { nl: illustreren, en: "to illustrate" }, pos: verb, noBlank: true }
+  - { target: la thèse, native: { nl: "de stelling, de these", en: "thesis, main argument" }, pos: noun, gender: f }
+sentences:
+  - { id: s01, target: "D'une part, les écrans nous aident à apprendre ; d'autre part, ils nous font perdre du temps.", native: { nl: "Enerzijds helpen schermen ons om te leren; anderzijds verliezen we er tijd door.", en: "On the one hand, screens help us to learn; on the other hand, they make us waste time." }, items: [fr.d-une-part, fr.d-autre-part] }
+  - { id: s02, target: "Ce projet coûte cher ; en outre, il prendra des années.", native: { nl: "Dit project kost veel geld; bovendien zal het jaren duren.", en: "This project is expensive; moreover, it will take years." }, items: [fr.en-outre] }
+  - { id: s03, target: "Le vélo est bon pour la santé. De plus, il ne pollue pas.", native: { nl: "Fietsen is goed voor de gezondheid. Bovendien vervuilt het niet.", en: "Cycling is good for your health. What's more, it doesn't pollute." }, items: [fr.de-plus] }
+  - { id: s04, target: "Elle est bonne en sciences ; par ailleurs, elle joue du piano.", native: { nl: "Ze is goed in wetenschappen; daarnaast speelt ze piano.", en: "She's good at science; in addition, she plays the piano." }, items: [fr.par-ailleurs] }
+  - { id: s05, target: "Le train est plus lent ; en revanche, il pollue beaucoup moins.", native: { nl: "De trein is trager; daarentegen vervuilt hij veel minder.", en: "The train is slower; on the other hand, it pollutes much less." }, items: [fr.en-revanche] }
+  - { id: s06, target: "Ce n'est pas du temps perdu ; au contraire, c'est très utile.", native: { nl: "Het is geen tijdverlies; integendeel, het is heel nuttig.", en: "It's not wasted time; on the contrary, it's very useful." }, items: [fr.au-contraire] }
+  - { id: s07, target: "Certes, cette solution coûte cher, mais elle est efficace.", native: { nl: "Deze oplossing is weliswaar duur, maar ze is doeltreffend.", en: "Admittedly, this solution is expensive, but it's effective." }, items: [fr.certes] }
+  - { id: s08, target: "Bref, il faut changer nos habitudes.", native: { nl: "Kortom, we moeten onze gewoonten veranderen.", en: "In short, we must change our habits." }, items: [fr.bref] }
+  - { id: s09, target: "En conclusion, les avantages sont plus nombreux que les inconvénients.", native: { nl: "Tot besluit: de voordelen zijn talrijker dan de nadelen.", en: "In conclusion, there are more advantages than disadvantages." }, items: [fr.en-conclusion] }
+  - { id: s10, target: "Ses arguments ne m'ont pas convaincu.", native: { nl: "Zijn argumenten hebben me niet overtuigd.", en: "His arguments didn't convince me." }, items: [fr.convaincre] }
+  - { id: s11, target: "Elle a donné un exemple très convaincant.", native: { nl: "Ze gaf een heel overtuigend voorbeeld.", en: "She gave a very convincing example." }, items: [fr.convaincant] }
+  - { id: s12, target: "J'ai persuadé mes parents de me laisser partir.", native: { nl: "Ik heb mijn ouders overgehaald om me te laten gaan.", en: "I persuaded my parents to let me go." }, items: [fr.persuader] }
+  - { id: s13, target: "Il a réfuté cet argument avec des exemples clairs.", native: { nl: "Hij heeft dat argument weerlegd met duidelijke voorbeelden.", en: "He refuted that argument with clear examples." }, items: [fr.refuter] }
+  - { id: s14, target: "Je n'aime pas qu'on me contredise devant tout le monde.", native: { nl: "Ik hou er niet van dat iemand me tegenspreekt waar iedereen bij is.", en: "I don't like being contradicted in front of everyone." }, items: [fr.contredire] }
+  - { id: s15, target: "Avez-vous des objections à ce projet ?", native: { nl: "Hebt u bezwaren tegen dit project?", en: "Have you got any objections to this project?" }, items: [fr.objection] }
+  - { id: s16, target: "Je voudrais nuancer ce que tu viens de dire.", native: { nl: "Ik zou willen nuanceren wat je net zei.", en: "I'd like to qualify what you've just said." }, items: [fr.nuancer] }
+  - { id: s17, target: "Il y a une nuance importante entre ces deux mots.", native: { nl: "Er is een belangrijke nuance tussen die twee woorden.", en: "There's an important nuance between these two words." }, items: [fr.nuance] }
+  - { id: s18, target: "Je comprends ton point de vue, mais je ne le partage pas.", native: { nl: "Ik begrijp je standpunt, maar ik deel het niet.", en: "I understand your point of view, but I don't share it." }, items: [fr.point-de-vue] }
+  - { id: s19, target: "Le directeur a pris position contre le projet.", native: { nl: "De directeur heeft zich tegen het project uitgesproken.", en: "The head teacher has taken a stance against the project." }, items: [fr.position] }
+  - { id: s20, target: "Cette étude prouve que le sommeil est important.", native: { nl: "Deze studie bewijst dat slaap belangrijk is.", en: "This study proves that sleep is important." }, items: [fr.prouver] }
+  - { id: s21, target: "Après une longue discussion, nous avons trouvé un compromis.", native: { nl: "Na een lange discussie hebben we een compromis gevonden.", en: "After a long discussion, we found a compromise." }, items: [fr.compromis] }
+  - { id: s22, target: "Le premier orateur a parlé pendant cinq minutes.", native: { nl: "De eerste spreker heeft vijf minuten gesproken.", en: "The first speaker spoke for five minutes." }, items: [fr.orateur] }
+  - { id: s23, target: "Le jury a choisi l'équipe la plus convaincante.", native: { nl: "De jury koos de overtuigendste ploeg.", en: "The judges chose the most convincing team." }, items: [fr.jury, fr.convaincant] }
+  - { id: s24, target: "S'il te plaît, ne m'interromps pas !", native: { nl: "Onderbreek me alsjeblieft niet!", en: "Please don't interrupt me!" }, items: [fr.interrompre] }
+  - { id: s25, target: "C'est à toi de prendre la parole.", native: { nl: "Het is aan jou om het woord te nemen.", en: "It's your turn to take the floor." }, items: [fr.parole] }
+  - { id: s26, target: "Prépare un contre-argument pour chaque objection.", native: { nl: "Bereid voor elk bezwaar een tegenargument voor.", en: "Prepare a counter-argument for each objection." }, items: [fr.contre-argument] }
+  - { id: s27, target: "Illustre ton idée avec un exemple.", native: { nl: "Illustreer je idee met een voorbeeld.", en: "Illustrate your idea with an example." }, items: [fr.illustrer] }
+  - { id: s28, target: "Notre thèse est simple : l'école devrait commencer plus tard.", native: { nl: "Onze stelling is eenvoudig: school zou later moeten beginnen.", en: "Our thesis is simple: school should start later." }, items: [fr.these] }
+  - { id: s29, target: "Ce qui compte, c'est le point de vue des élèves.", native: { nl: "Waar het om gaat, is het standpunt van de leerlingen.", en: "What matters is the pupils' point of view." }, items: [fr.point-de-vue], build: true }
+  - { id: s30, target: "Nous défendons cette thèse parce qu'elle est juste.", native: { nl: "We verdedigen deze stelling omdat ze juist is.", en: "We're defending this thesis because it's right." }, items: [fr.these], build: true }
+transforms:
+  - { id: x01, from: "Cette solution coûte cher. Pourtant, elle est efficace.", key: certes, gapped: "___ cher, mais elle est efficace.", answers: ["Certes, cette solution coûte", "Certes cette solution coûte", "Cette solution coûte certes", "Cette solution certes coûte"], items: [fr.certes], native: { en: "Admittedly, this solution is expensive, but it's effective." } }
+  - { id: x02, from: "Le train est plus lent, mais il pollue beaucoup moins.", key: revanche, gapped: "Le train est plus lent ; ___ beaucoup moins.", answers: ["en revanche, il pollue", "en revanche il pollue", "il pollue en revanche"], items: [fr.en-revanche], native: { en: "The train is slower; on the other hand, it pollutes much less." } }
+  - { id: x03, from: "Ses arguments ne m'ont pas fait changer d'avis.", key: convaincu, gapped: "Ses arguments ne ___.", answers: ["m'ont pas convaincu"], items: [fr.convaincre], native: { en: "His arguments didn't convince me." } }
+texts: [fr-b2-t19]

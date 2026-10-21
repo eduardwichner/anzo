@@ -1,0 +1,75 @@
+id: fr-b1-u11
+title: { nl: Werk, en: "Work" }
+icon: work
+topic: Le travail et l'emploi ; le conditionnel de politesse (je voudrais, pourriez-vous)
+vocabulary:
+  - { target: le collègue, native: { nl: de collega, en: "colleague" }, pos: noun, gender: m }
+  - { target: le patron, native: { nl: de baas, en: "boss" }, pos: noun, gender: m }
+  - { target: le salaire, native: { nl: het loon, en: "salary, wages" }, pos: noun, gender: m }
+  - { target: la candidature, native: { nl: de sollicitatie, en: "application (for a job)" }, pos: noun, gender: f }
+  - { target: l'entretien, native: { nl: het gesprek (sollicitatiegesprek), en: "job interview" }, pos: noun, gender: m, avoid: [fr.conversation] }
+  - { target: le CV, native: { nl: het cv, en: "CV" }, pos: noun, gender: m }
+  - { target: embaucher, native: { nl: aannemen (in dienst nemen), en: "to hire, to take on" }, pos: verb }
+  - { target: le chômage, native: { nl: de werkloosheid, en: "unemployment" }, pos: noun, gender: m }
+  - { target: la retraite, native: { nl: het pensioen, en: "retirement" }, pos: noun, gender: f }
+  - { target: l'emploi, native: { nl: "de baan, de werkgelegenheid", en: "job, employment" }, pos: noun, gender: m }
+  - { target: l'entreprise, native: { nl: het bedrijf, en: "company, business" }, pos: noun, gender: f }
+  - { target: le stage, native: { nl: de stage, en: "work placement, internship" }, pos: noun, gender: m }
+  - { target: la profession, native: { nl: het beroep, en: "profession, occupation" }, pos: noun, gender: f }
+  - { target: professionnel, native: { nl: professioneel, en: "professional" }, pos: adjective }
+  - { target: le secteur, native: { nl: de sector, en: "sector" }, pos: noun, gender: m }
+  - { target: responsable, native: { nl: verantwoordelijk, en: "responsible, in charge" }, pos: adjective }
+  - { target: l'expérience, native: { nl: de ervaring, en: "experience" }, pos: noun, gender: f }
+  - { target: bénéficier, native: { nl: genieten van (voordeel hebben), en: "to benefit (from)" }, pos: verb, avoid: [fr.profiter] }
+  - { target: l'établissement, native: { nl: "de instelling (school, bedrijf)", en: "establishment, institution" }, pos: noun, gender: m }
+  - { target: commercial, native: { nl: commercieel, en: "commercial, shopping (as in: shopping centre)" }, pos: adjective }
+  - { target: l'industriel, native: { nl: "de fabrikant, de industrieel", en: "manufacturer, industrialist" }, pos: noun, gender: m }
+  - { target: l'économie, native: { nl: de economie, en: "economy" }, pos: noun, gender: f }
+  - { target: économique, native: { nl: economisch, en: "economic" }, pos: adjective }
+  - { target: diriger, native: { nl: leiden, en: "to manage, to lead" }, pos: verb }
+  - { target: l'éducateur, native: { nl: de opvoeder, en: "youth worker, care worker" }, pos: noun, gender: m }
+  - { target: le spécialiste, native: { nl: de specialist, en: "specialist" }, pos: noun, gender: m }
+  - { target: spécialisé, native: { nl: gespecialiseerd, en: "specialised" }, pos: adjective }
+  - { target: le maire, native: { nl: de burgemeester, en: "mayor" }, pos: noun, gender: m }
+  - { target: le formulaire, native: { nl: het formulier, en: "form to fill in" }, pos: noun, gender: m }
+  - { target: assister, native: { nl: bijwonen, en: "to attend" }, pos: verb }
+  - { target: assurer, native: { nl: verzekeren (garanderen), en: "to assure, to guarantee" }, pos: verb }
+  - { target: capable, native: { nl: in staat (bekwaam), en: "capable, able" }, pos: adjective }
+  - { target: l'exigence, native: { nl: de eis, en: "demand, requirement" }, pos: noun, gender: f }
+sentences:
+  - { id: s01, target: "Ma mère s'entend bien avec ses collègues.", native: { nl: "Mijn moeder kan goed opschieten met haar collega's.", en: "My mother gets on well with her colleagues." }, items: [fr.collegue] }
+  - { id: s02, target: "Le patron du restaurant cherche un serveur.", native: { nl: "De baas van het restaurant zoekt een ober.", en: "The restaurant's boss is looking for a waiter." }, items: [fr.patron] }
+  - { id: s03, target: "Son salaire n'est pas très bon.", native: { nl: "Zijn loon is niet erg goed.", en: "His salary isn't very good." }, items: [fr.salaire] }
+  - { id: s04, target: "J'ai envoyé ma candidature par courriel.", native: { nl: "Ik heb mijn sollicitatie per e-mail gestuurd.", en: "I sent my application by email." }, items: [fr.candidature] }
+  - { id: s05, target: "Mon entretien est jeudi à dix heures.", native: { nl: "Mijn sollicitatiegesprek is donderdag om tien uur.", en: "My interview is on Thursday at ten o'clock." }, items: [fr.entretien] }
+  - { id: s06, target: "N'oublie pas de mettre ton stage dans ton CV.", native: { nl: "Vergeet niet je stage in je cv te zetten.", en: "Don't forget to put your work placement in your CV." }, items: [fr.cv, fr.stage] }
+  - { id: s07, target: "Le magasin va embaucher trois vendeurs pour l'été.", native: { nl: "De winkel gaat drie verkopers aannemen voor de zomer.", en: "The shop is going to take on three sales assistants for the summer." }, items: [fr.embaucher] }
+  - { id: s08, target: "Mon oncle est au chômage depuis six mois.", native: { nl: "Mijn oom is al zes maanden werkloos.", en: "My uncle has been unemployed for six months." }, items: [fr.chomage], acceptAlso: ["Depuis six mois, mon oncle est au chômage."] }
+  - { id: s09, target: "Mon grand-père a pris sa retraite l'année dernière.", native: { nl: "Mijn opa is vorig jaar met pensioen gegaan.", en: "My grandfather retired last year." }, items: [fr.retraite], acceptAlso: ["L'année dernière, mon grand-père a pris sa retraite."] }
+  - { id: s10, target: "Cette usine a créé 200 emplois.", native: { nl: "Deze fabriek heeft 200 banen geschapen.", en: "This factory has created 200 jobs." }, items: [fr.emploi] }
+  - { id: s11, target: "Cette entreprise vend des vélos.", native: { nl: "Dit bedrijf verkoopt fietsen.", en: "This company sells bikes." }, items: [fr.entreprise] }
+  - { id: s12, target: "Quelle est la profession de ton père ?", native: { nl: "Wat is het beroep van je vader?", en: "What is your father's profession?" }, items: [fr.profession] }
+  - { id: s13, target: "Elle joue au tennis à un niveau professionnel.", native: { nl: "Ze speelt tennis op professioneel niveau.", en: "She plays tennis at a professional level." }, items: [fr.professionnel] }
+  - { id: s14, target: "Il travaille dans le secteur du tourisme.", native: { nl: "Hij werkt in de toeristische sector.", en: "He works in the tourism sector." }, items: [fr.secteur] }
+  - { id: s15, target: "Qui est responsable de ce projet ?", native: { nl: "Wie is verantwoordelijk voor dit project?", en: "Who is responsible for this project?" }, items: [fr.responsable] }
+  - { id: s16, target: "Je n'ai pas encore d'expérience professionnelle.", native: { nl: "Ik heb nog geen werkervaring.", en: "I don't have any professional experience yet." }, items: [fr.experience] }
+  - { id: s17, target: "Les élèves bénéficient d'un repas gratuit.", native: { nl: "De leerlingen krijgen een gratis maaltijd.", en: "The pupils benefit from a free meal." }, items: [fr.beneficier], finite: { word: bénéficient, hint: { nl: "bénéficier (présent)", en: "bénéficier (present)" } } }
+  - { id: s18, target: "Cet établissement accueille 300 élèves.", native: { nl: "Deze school telt driehonderd leerlingen.", en: "This establishment takes 300 pupils." }, items: [fr.etablissement] }
+  - { id: s19, target: "Il y a un nouveau centre commercial près de chez moi.", native: { nl: "Er is een nieuw winkelcentrum bij mij in de buurt.", en: "There's a new shopping centre near my home." }, items: [fr.commercial] }
+  - { id: s20, target: "Les industriels doivent respecter l'environnement.", native: { nl: "De fabrikanten moeten het milieu respecteren.", en: "Manufacturers must respect the environment." }, items: [fr.industriel] }
+  - { id: s21, target: "Le tourisme est important pour l'économie du pays.", native: { nl: "Toerisme is belangrijk voor de economie van het land.", en: "Tourism is important for the country's economy." }, items: [fr.economie] }
+  - { id: s22, target: "La situation économique du pays est difficile.", native: { nl: "De economische situatie van het land is moeilijk.", en: "The country's economic situation is difficult." }, items: [fr.economique] }
+  - { id: s23, target: "Ma tante dirige une petite entreprise.", native: { nl: "Mijn tante leidt een klein bedrijf.", en: "My aunt manages a small company." }, items: [fr.diriger], finite: { word: dirige, hint: { nl: "diriger (présent)", en: "diriger (present)" } } }
+  - { id: s24, target: "L'éducateur joue avec les enfants dans le jardin.", native: { nl: "De opvoeder speelt met de kinderen in de tuin.", en: "The youth worker is playing with the children in the garden." }, items: [fr.educateur] }
+  - { id: s25, target: "Pour ce problème, il faut voir un spécialiste.", native: { nl: "Voor dit probleem moet je naar een specialist.", en: "For this problem, you need to see a specialist." }, items: [fr.specialiste] }
+  - { id: s26, target: "Elle travaille dans un magasin spécialisé dans les vélos.", native: { nl: "Ze werkt in een winkel die gespecialiseerd is in fietsen.", en: "She works in a shop that specialises in bikes." }, items: [fr.specialise] }
+  - { id: s27, target: "Le maire a ouvert la nouvelle piscine.", native: { nl: "De burgemeester heeft het nieuwe zwembad geopend.", en: "The mayor opened the new swimming pool." }, items: [fr.maire] }
+  - { id: s28, target: "Remplissez ce formulaire, s'il vous plaît.", native: { nl: "Vul dit formulier in, alstublieft.", en: "Fill in this form, please." }, items: [fr.formulaire] }
+  - { id: s29, target: "Tous les parents peuvent assister à la réunion.", native: { nl: "Alle ouders kunnen de vergadering bijwonen.", en: "All the parents can attend the meeting." }, items: [fr.assister] }
+  - { id: s30, target: "Je vous assure que tout sera prêt demain.", native: { nl: "Ik verzeker u dat alles morgen klaar zal zijn.", en: "I assure you that everything will be ready tomorrow." }, items: [fr.assurer] }
+  - { id: s31, target: "Tu es capable de réussir cet examen.", native: { nl: "Je bent in staat om voor dit examen te slagen.", en: "You're capable of passing this exam." }, items: [fr.capable] }
+  - { id: s32, target: "Ce patron a beaucoup d'exigences.", native: { nl: "Deze baas stelt veel eisen.", en: "This boss makes a lot of demands." }, items: [fr.exigence] }
+  - { id: s33, target: "Je voudrais parler au patron, s'il vous plaît.", native: { nl: "Ik zou graag de baas spreken, alstublieft.", en: "I'd like to speak to the boss, please." }, items: [fr.patron], build: true }
+  - { id: s34, target: "Pourriez-vous m'envoyer le formulaire ?", native: { nl: "Zou u me het formulier kunnen sturen?", en: "Could you send me the form?" }, items: [fr.formulaire], build: true }
+  - { id: s35, target: "Si j'étais le patron, je donnerais un meilleur salaire à tout le monde.", native: { nl: "Als ik de baas was, zou ik iedereen een beter loon geven.", en: "If I were the boss, I'd give everyone a better salary." }, items: [fr.patron, fr.salaire], finite: { word: donnerais, hint: { nl: "donner (conditionnel)", en: "donner (conditional)" } } }
+texts: [fr-b1-t12]

@@ -1,0 +1,51 @@
+id: nl-a2-u13
+title: { en: Travelling }
+icon: travel
+topic: Holidays abroad, the airport, hotels
+vocabulary:
+  - { target: het buitenland, native: { en: abroad }, pos: noun, plural: "-" }
+  - { target: buitenlands, native: { en: foreign }, pos: adjective }
+  - { target: het reisbureau, native: { en: travel agency }, pos: noun, plural: reisbureaus }
+  - { target: boeken, native: { en: to book }, pos: verb }
+  - { target: annuleren, native: { en: to cancel }, pos: verb }
+  - { target: de bestemming, native: { en: destination }, pos: noun, plural: bestemmingen }
+  - { target: de luchthaven, native: { en: airport }, pos: noun, plural: luchthavens }
+  - { target: vliegen, native: { en: to fly }, pos: verb }
+  - { target: landen, native: { en: to land }, pos: verb }
+  - { target: de vertraging, native: { en: delay }, pos: noun, plural: vertragingen }
+  - { target: het paspoort, native: { en: passport }, pos: noun, plural: paspoorten }
+  - { target: de grens, native: { en: border }, pos: noun, plural: grenzen }
+  - { target: de koffer, native: { en: suitcase }, pos: noun, plural: koffers }
+  - { target: de bagage, native: { en: luggage }, pos: noun, plural: "-" }
+  - { target: inpakken, native: { en: to pack }, pos: verb, avoid: [nl.uitpakken] }
+  - { target: uitpakken, native: { en: to unpack }, pos: verb }
+  - { target: het hotel, native: { en: hotel }, pos: noun, plural: hotels }
+  - { target: de camping, native: { en: campsite }, pos: noun, plural: campings }
+  - { target: de tent, native: { en: tent }, pos: noun, plural: tenten }
+  - { target: de toerist, native: { en: tourist }, pos: noun, plural: toeristen }
+  - { target: terugkeren, native: { en: to return }, pos: verb }
+  - { target: mogelijk, native: { en: possible }, pos: adjective, avoid: [nl.onmogelijk] }
+  - { target: onmogelijk, native: { en: impossible }, pos: adjective }
+sentences:
+  - { id: s01, target: "Deze zomer gaan we naar het buitenland.", native: { en: "This summer we're going abroad." }, items: [nl.buitenland], acceptAlso: ["We gaan deze zomer naar het buitenland."] }
+  - { id: s02, target: "Er zijn veel buitenlandse toeristen in Brugge.", native: { en: "There are many foreign tourists in Bruges." }, items: [nl.buitenlands, nl.toerist] }
+  - { id: s03, target: "We hebben de reis bij een reisbureau geboekt.", native: { en: "We booked the trip at a travel agency." }, items: [nl.reisbureau, nl.boeken], acceptAlso: ["Bij een reisbureau hebben we de reis geboekt."] }
+  - { id: s04, target: "Ik wil mijn hotelkamer annuleren.", native: { en: "I'd like to cancel my hotel room." }, items: [nl.annuleren] }
+  - { id: s05, target: "Wat is de bestemming van de reis?", native: { en: "What's the destination of the trip?" }, items: [nl.bestemming] }
+  - { id: s06, target: "Hoe kom ik naar de luchthaven?", native: { en: "How do I get to the airport?" }, items: [nl.luchthaven] }
+  - { id: s07, target: "We zijn naar Spanje gevlogen.", native: { en: "We flew to Spain." }, items: [nl.vliegen], acceptAlso: ["Naar Spanje zijn we gevlogen."] }
+  - { id: s08, target: "Het vliegtuig is om tien uur geland.", native: { en: "The plane landed at ten o'clock." }, items: [nl.landen], acceptAlso: ["Om tien uur is het vliegtuig geland."] }
+  - { id: s09, target: "De trein heeft een uur vertraging.", native: { en: "The train is an hour late." }, items: [nl.vertraging] }
+  - { id: s10, target: "Vergeet je paspoort niet!", native: { en: "Don't forget your passport!" }, items: [nl.paspoort] }
+  - { id: s11, target: "Aan de grens moesten we lang wachten.", native: { en: "We had to wait a long time at the border." }, items: [nl.grens], acceptAlso: ["We moesten aan de grens lang wachten.", "We moesten lang aan de grens wachten."] }
+  - { id: s12, target: "Mijn koffer is te zwaar.", native: { en: "My suitcase is too heavy." }, items: [nl.koffer] }
+  - { id: s13, target: "Waar kan ik mijn bagage laten?", native: { en: "Where can I leave my luggage?" }, items: [nl.bagage] }
+  - { id: s14, target: "Ik heb mijn koffer al ingepakt.", native: { en: "I've already packed my suitcase." }, items: [nl.inpakken] }
+  - { id: s15, target: "Na de reis pak ik de koffers uit.", native: { en: "After the trip I unpack the suitcases." }, items: [nl.uitpakken], acceptAlso: ["Ik pak na de reis de koffers uit.", "Ik pak de koffers na de reis uit."] }
+  - { id: s16, target: "Het hotel lag dicht bij het strand.", native: { en: "The hotel was close to the beach." }, items: [nl.hotel], acceptAlso: ["Dicht bij het strand lag het hotel."] }
+  - { id: s17, target: "We slapen op een camping in de Ardennen.", native: { en: "We're staying at a campsite in the Ardennes." }, items: [nl.camping], acceptAlso: ["In de Ardennen slapen we op een camping."] }
+  - { id: s18, target: "Onze tent is te klein voor vier mensen.", native: { en: "Our tent is too small for four people." }, items: [nl.tent] }
+  - { id: s19, target: "Wanneer keren jullie terug?", native: { en: "When are you returning?" }, items: [nl.terugkeren] }
+  - { id: s20, target: "Is het mogelijk om vroeger te komen?", native: { en: "Is it possible to come earlier?" }, items: [nl.mogelijk] }
+  - { id: s21, target: "Dat is onmogelijk, het hotel is vol.", native: { en: "That's impossible, the hotel is full." }, items: [nl.onmogelijk] }
+  - { id: s22, target: "Hebt u nog een kamer vrij?", native: { en: "Do you have a room free?" }, items: [nl.hotel] }

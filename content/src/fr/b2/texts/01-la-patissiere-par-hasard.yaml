@@ -1,0 +1,46 @@
+id: fr-b2-t01
+kind: reading
+title: { nl: Toevallig banketbakster, en: "A pastry chef by chance" }
+topic: Caractère et ambitions (un portrait dans un magazine pour ados)
+level: B2
+paragraphs:
+  - - { id: fr-b2-t01-s01, target: "Il y a deux ans, Lina ne savait même pas faire une crêpe.", native: { nl: "Twee jaar geleden kon Lina zelfs nog geen pannenkoek bakken.", en: "Two years ago, Lina couldn't even make a pancake." } }
+    - { id: fr-b2-t01-s02, target: "Aujourd'hui, à seize ans, elle vient de gagner un concours de cuisine à la télévision.", native: { nl: "Vandaag, op haar zestiende, heeft ze net een kookwedstrijd op televisie gewonnen.", en: "Today, at sixteen, she has just won a cookery competition on television." } }
+  - - { id: fr-b2-t01-s03, target: "Tout a commencé par hasard.", native: { nl: "Alles begon toevallig.", en: "It all began by chance." } }
+    - { id: fr-b2-t01-s04, target: "Un dimanche, sa grand-mère, qui était malade, lui a demandé de préparer le gâteau qu'elle faisait pour toute la famille.", native: { nl: "Op een zondag vroeg haar oma, die ziek was, haar de taart te maken die zij voor de hele familie maakte.", en: "One Sunday, her grandmother, who was ill, asked her to make the cake she used to bake for the whole family." } }
+    - { id: fr-b2-t01-s05, target: "Lina a suivi la recette, mais le gâteau n'était pas bon.", native: { nl: "Lina volgde het recept, maar de taart was niet lekker.", en: "Lina followed the recipe, but the cake wasn't good." } }
+    - { id: fr-b2-t01-s06, target: "« J'étais furieuse, raconte-t-elle. Alors j'ai recommencé, encore et encore, jusqu'à ce qu'il soit parfait. »", native: { nl: "\"Ik was woedend,\" vertelt ze. \"Dus begon ik opnieuw, telkens weer, tot hij perfect was.\"", en: "\"I was furious,\" she says. \"So I started again, over and over, until it was perfect.\"" } }
+  - - { id: fr-b2-t01-s07, target: "Les premiers mois n'ont pas été faciles.", native: { nl: "De eerste maanden waren niet makkelijk.", en: "The first few months weren't easy." } }
+    - { id: fr-b2-t01-s08, target: "Lina, qui est plutôt timide, ne voulait montrer ses gâteaux à personne.", native: { nl: "Lina, die nogal verlegen is, wilde haar taarten aan niemand tonen.", en: "Lina, who is rather shy, didn't want to show her cakes to anyone." } }
+    - { id: fr-b2-t01-s09, target: "C'est son professeur de français qui l'a encouragée à participer au concours dont elle avait entendu parler à la radio.", native: { nl: "Het was haar leraar Frans die haar aanmoedigde om mee te doen aan de wedstrijd waarover ze op de radio had gehoord.", en: "It was her French teacher who encouraged her to enter the competition she had heard about on the radio." } }
+    - { id: fr-b2-t01-s10, target: "Peu à peu, elle a pris confiance.", native: { nl: "Beetje bij beetje kreeg ze zelfvertrouwen.", en: "Little by little, she gained confidence." } }
+  - - { id: fr-b2-t01-s11, target: "Que garde-t-elle de cette aventure ?", native: { nl: "Wat onthoudt ze van dit avontuur?", en: "What does she take away from this adventure?" } }
+    - { id: fr-b2-t01-s12, target: "« Que l'échec fait partie de la réussite. J'ai jeté des dizaines de gâteaux avant de réussir. »", native: { nl: "\"Dat falen bij succes hoort. Ik heb tientallen taarten weggegooid voor het lukte.\"", en: "\"That failure is part of success. I threw away dozens of cakes before I got it right.\"" } }
+    - { id: fr-b2-t01-s13, target: "Elle a reçu une bourse pour suivre une formation de pâtisserie l'été prochain, mais elle reste modeste : « Le plus important, c'est que ma grand-mère est fière de moi. »", native: { nl: "Ze kreeg een beurs om volgende zomer een opleiding tot banketbakker te volgen, maar ze blijft bescheiden: \"Het belangrijkste is dat mijn oma trots op me is.\"", en: "She has been awarded a grant to do a pastry course next summer, but she remains modest: \"The most important thing is that my grandmother is proud of me.\"" } }
+glossary:
+  - { word: furieuse, native: { nl: "woedend (furieux)", en: "furious (furieux)" } }
+  - { word: pâtisserie, native: { nl: "het banketbakken, gebak", en: "pastry-making, pastries" } }
+items: [fr.par-hasard, fr.recommencer, fr.peu-a-peu, fr.reussite, fr.bourse, fr.modeste]
+gapped:
+  gaps: [fr-b2-t01-s03, fr-b2-t01-s07, fr-b2-t01-s11]
+  extra:
+    - { id: fr-b2-t01-x1, target: "Elle a toujours rêvé de devenir chanteuse.", native: { nl: "Ze heeft er altijd van gedroomd zangeres te worden.", en: "She has always dreamt of becoming a singer." } }
+openCloze:
+  - { sentence: fr-b2-t01-s04, word: qui }
+  - { sentence: fr-b2-t01-s09, word: dont }
+  - { sentence: fr-b2-t01-s12, word: avant }
+  - { sentence: fr-b2-t01-s13, word: pour, acceptAlso: [afin de] }
+wordForm:
+  - { sentence: fr-b2-t01-s09, word: encouragée, stem: courage }
+  - { sentence: fr-b2-t01-s12, word: réussite, stem: réussir }
+  - { sentence: fr-b2-t01-s06, word: recommencé, stem: commencer }
+questions:
+  - { id: fr-b2-t01-q1, type: summary, options: ["Une adolescente timide a découvert la pâtisserie par hasard et, grâce à sa persévérance et à un professeur qui l'a encouragée, elle a gagné un concours.", "Une adolescente qui a toujours voulu être cuisinière raconte comment ses parents l'ont inscrite à une école de cuisine célèbre.", "Une professeure explique pourquoi les élèves timides devraient participer à des concours à la télévision."], correct: 0 }
+  - { id: fr-b2-t01-q2, type: mc, question: "Pourquoi Lina a-t-elle fait son premier gâteau ?", options: ["Sa grand-mère était malade.", "Elle voulait participer à un concours.", "Son professeur le lui a demandé."], correct: 0 }
+  - { id: fr-b2-t01-q3, type: true_false_notgiven, statement: "Le premier gâteau de Lina était réussi.", answer: false }
+  - { id: fr-b2-t01-q4, type: true_false_notgiven, statement: "Lina a entendu parler du concours à la télévision.", answer: false }
+  - { id: fr-b2-t01-q5, type: true_false_notgiven, statement: "Lina veut ouvrir sa propre pâtisserie.", answer: not_given }
+listeningQuestions:
+  - { id: fr-b2-t01-l1, type: complete, statement: "Lina a gagné le concours à ___ ans.", answers: [seize, "16"] }
+  - { id: fr-b2-t01-l2, type: mc, question: "Qui a encouragé Lina à participer au concours ?", options: ["Son professeur de français.", "Sa grand-mère.", "Ses parents."], correct: 0 }
+orderable: false

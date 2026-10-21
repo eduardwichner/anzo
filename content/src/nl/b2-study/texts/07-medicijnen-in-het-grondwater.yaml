@@ -1,0 +1,38 @@
+id: nl-b2-study-t07
+kind: dialogue
+title: { en: Medicines in the groundwater }
+topic: Water and the environment (a radio interview with a water researcher)
+level: B2
+speakers: { A: { name: Koen }, B: { name: Leen } }
+turns:
+  - { id: nl-b2-study-t07-s01, speaker: A, target: "Goedemorgen en welkom. In de studio zit Leen Wouters, die onderzoek doet naar ons grondwater. Leen, wat hebt u ontdekt?", native: { en: "Good morning and welcome. In the studio is Leen Wouters, who does research into our groundwater. Leen, what have you found?" } }
+  - { id: nl-b2-study-t07-s02, speaker: B, target: "Goedemorgen, Koen. We hebben op meer dan honderd plaatsen in Vlaanderen het grondwater onderzocht, en op bijna elke plaats vonden we medicijnresten.", native: { en: "Good morning, Koen. We examined the groundwater in more than a hundred places in Flanders, and in almost every place we found medicine residues." } }
+  - { id: nl-b2-study-t07-s03, speaker: A, target: "Medicijnen in het grondwater? Hoe komen die daar?", native: { en: "Medicines in the groundwater? How do they get there?" } }
+  - { id: nl-b2-study-t07-s04, speaker: B, target: "Op twee manieren. Ten eerste verlaat een deel van elk medicijn ons lichaam weer via het toilet, en zo gaat het naar het afvalwater. Dat is de grootste bron.", native: { en: "In two ways. Firstly, part of every medicine leaves our body again through the toilet, and so it goes into the waste water. That is the biggest source." } }
+  - { id: nl-b2-study-t07-s05, speaker: A, target: "En de tweede manier?", native: { en: "And the second way?" } }
+  - { id: nl-b2-study-t07-s06, speaker: B, target: "Veel mensen spoelen oude medicijnen gewoon door. Dat kunnen we makkelijk vermijden.", native: { en: "Many people simply flush old medicines away. That is something we can easily avoid." } }
+  - { id: nl-b2-study-t07-s07, speaker: A, target: "Maar het afvalwater wordt toch gezuiverd?", native: { en: "But the waste water is treated, isn't it?" } }
+  - { id: nl-b2-study-t07-s08, speaker: B, target: "Ja, maar de waterzuivering is niet gemaakt voor die stoffen. Een deel wordt afgebroken, maar veel medicijnresten gaan door de filters en komen in de rivieren en in het grondwater.", native: { en: "Yes, but water treatment isn't designed for those substances. Part of them is broken down, but many residues go through the filters and end up in the rivers and in the groundwater." } }
+  - { id: nl-b2-study-t07-s09, speaker: A, target: "Is dat gevaarlijk voor de mens?", native: { en: "Is that dangerous for people?" } }
+  - { id: nl-b2-study-t07-s10, speaker: B, target: "In ons drinkwater is de concentratie heel laag, dus u hoeft zich geen zorgen te maken als u water uit de kraan drinkt. Voor het ecosysteem is het wel een probleem: hormonen maken vissen ziek, en door antibiotica in het water werken die medicijnen later minder goed.", native: { en: "In our drinking water the concentration is very low, so you needn't worry if you drink tap water. For the ecosystem, though, it is a problem: hormones make fish ill, and because of antibiotics in the water those medicines work less well later on." } }
+  - { id: nl-b2-study-t07-s11, speaker: A, target: "Wat kunnen we eraan doen?", native: { en: "What can we do about it?" } }
+  - { id: nl-b2-study-t07-s12, speaker: B, target: "Er zijn twee oplossingen. De waterzuivering kan betere filters gebruiken, maar dat kost veel geld. Goedkoper is dat iedereen zijn oude medicijnen bij de apotheek inlevert. Dat is gratis.", native: { en: "There are two solutions. Water treatment plants can use better filters, but that costs a lot of money. A cheaper one is for everyone to hand in their old medicines at the pharmacy. That is free." } }
+  - { id: nl-b2-study-t07-s13, speaker: A, target: "En de apothekers? Hebben zij een rol?", native: { en: "And pharmacists? Do they have a part to play?" } }
+  - { id: nl-b2-study-t07-s14, speaker: B, target: "Zeker. Een apotheker kan uitleggen hoe je medicijnen correct gebruikt en wat je met de rest doet. Daarom zou elke student farmacie hierover moeten leren.", native: { en: "Certainly. A pharmacist can explain how to use medicines correctly and what to do with what's left. That is why every pharmacy student should learn about this." } }
+  - { id: nl-b2-study-t07-s15, speaker: A, target: "Leen Wouters, bedankt voor uw uitleg.", native: { en: "Leen Wouters, thank you for your explanation." } }
+items: [nl.grondwater, nl.medicijnrest, nl.afvalwater, nl.doorspoelen, nl.zuiveren, nl.waterzuivering, nl.stof, nl.afbreken, nl.filter, nl.drinkwater, nl.ecosysteem, nl.hormoon, nl.antibioticum, nl.inleveren, nl.farmacie]
+questions:
+  - { id: nl-b2-study-t07-q1, type: summary, options: ["Een onderzoeker legt uit hoe medicijnresten in het grondwater komen, waarom dat een probleem is voor de natuur en wat we eraan kunnen doen.", "Een onderzoeker zegt dat water uit de kraan gevaarlijk is om te drinken.", "Een apotheker vertelt hoe je antibiotica moet nemen."], correct: 0 }
+  - { id: nl-b2-study-t07-q2, type: mc, question: "Hoe komen volgens Leen Wouters de meeste medicijnresten in het afvalwater?", options: ["Via ons lichaam, na gewoon gebruik.", "Doordat apothekers te veel medicijnen verkopen.", "Doordat de filters van de waterzuivering kapot zijn."], correct: 0 }
+  - { id: nl-b2-study-t07-q3, type: true_false_notgiven, statement: "De onderzoekers vonden op bijna elke plaats medicijnresten in het grondwater.", answer: true }
+  - { id: nl-b2-study-t07-q4, type: true_false_notgiven, statement: "Volgens Leen Wouters is water uit de kraan gevaarlijk om te drinken.", answer: false }
+  - { id: nl-b2-study-t07-q5, type: true_false_notgiven, statement: "De waterzuivering gaat volgend jaar betere filters gebruiken.", answer: not_given }
+listeningQuestions:
+  - { id: nl-b2-study-t07-l1, type: complete, statement: "Je kunt oude medicijnen gratis bij de ___ inleveren.", answers: [apotheek, apotheker] }
+  - { id: nl-b2-study-t07-l2, type: mc, question: "Voor wie of wat zijn de medicijnresten vooral een probleem?", options: ["Voor het ecosysteem.", "Voor wie water uit de kraan drinkt.", "Voor de apothekers."], correct: 0 }
+openCloze:
+  - { sentence: nl-b2-study-t07-s04, word: via }
+  - { sentence: nl-b2-study-t07-s08, word: maar }
+  - { sentence: nl-b2-study-t07-s12, word: dat }
+  - { sentence: nl-b2-study-t07-s14, word: hoe }
+orderable: false

@@ -1,0 +1,39 @@
+id: nl-a2-u23
+title: { en: Making plans }
+icon: calendar
+topic: Plans, dreams, the future with gaan and zullen
+vocabulary:
+  - { target: het plan, native: { en: plan }, pos: noun, plural: plannen }
+  - { target: van plan zijn, native: { en: "to intend" }, pos: phrase }
+  - { target: de toekomst, native: { en: future }, pos: noun, plural: "-" }
+  - { target: in de toekomst, native: { en: "in the future" }, pos: phrase }
+  - { target: volgend jaar, native: { en: "next year" }, pos: phrase }
+  - { target: over een jaar, native: { en: "in a year's time" }, pos: phrase }
+  - { target: binnenkort, native: { en: soon }, pos: adverb }
+  - { target: waarschijnlijk, native: { en: probably }, pos: adverb }
+  - { target: het doel, native: { en: "goal, aim" }, pos: noun, plural: doelen }
+  - { target: de droom, native: { en: dream }, pos: noun, plural: dromen }
+  - { target: dromen, native: { en: to dream }, pos: verb }
+  - { target: het talent, native: { en: talent }, pos: noun, plural: talenten }
+  - { target: de kans, native: { en: "chance, opportunity" }, pos: noun, plural: kansen }
+  - { target: de beslissing, native: { en: decision }, pos: noun, plural: beslissingen }
+  - { target: beslissen, native: { en: to decide }, pos: verb }
+  - { target: veranderen, native: { en: to change }, pos: verb }
+sentences:
+  - { id: s01, target: "Wat zijn je plannen voor de zomer?", native: { en: "What are your plans for the summer?" }, items: [nl.plan] }
+  - { id: s02, target: "Ik ben van plan om Nederlands te studeren.", native: { en: "I intend to study Dutch." }, items: [nl.van-plan-zijn] }
+  - { id: s03, target: "Niemand weet wat de toekomst brengt.", native: { en: "No one knows what the future will bring." }, items: [nl.toekomst] }
+  - { id: s04, target: "In de toekomst wil ik in Gent wonen.", native: { en: "In the future I want to live in Ghent." }, items: [nl.in-de-toekomst], acceptAlso: ["Ik wil in de toekomst in Gent wonen."] }
+  - { id: s05, target: "Volgend jaar gaan we verhuizen.", native: { en: "Next year we're going to move." }, items: [nl.volgend-jaar], acceptAlso: ["We gaan volgend jaar verhuizen."] }
+  - { id: s06, target: "Over een jaar spreek ik goed Nederlands.", native: { en: "In a year's time I'll speak good Dutch." }, items: [nl.over-een-jaar], acceptAlso: ["Ik spreek over een jaar goed Nederlands."] }
+  - { id: s07, target: "Ik zal je binnenkort bellen.", native: { en: "I'll call you soon." }, items: [nl.binnenkort], acceptAlso: ["Binnenkort zal ik je bellen."] }
+  - { id: s08, target: "Morgen gaat het waarschijnlijk regenen.", native: { en: "It's probably going to rain tomorrow." }, items: [nl.waarschijnlijk], acceptAlso: ["Het gaat morgen waarschijnlijk regenen."] }
+  - { id: s09, target: "Mijn doel is om een goede job te vinden.", native: { en: "My goal is to find a good job." }, items: [nl.doel] }
+  - { id: s10, target: "Het is mijn droom om een restaurant te openen.", native: { en: "It's my dream to open a restaurant." }, items: [nl.droom] }
+  - { id: s11, target: "Ik droom van een huis aan zee.", native: { en: "I dream of a house by the sea." }, items: [nl.dromen] }
+  - { id: s12, target: "Zij heeft talent voor muziek.", native: { en: "She has a talent for music." }, items: [nl.talent], acceptAlso: ["Voor muziek heeft zij talent."] }
+  - { id: s13, target: "Dit is een grote kans voor mij.", native: { en: "This is a big opportunity for me." }, items: [nl.kans], acceptAlso: ["Voor mij is dit een grote kans."] }
+  - { id: s14, target: "Dat was een moeilijke beslissing.", native: { en: "That was a difficult decision." }, items: [nl.beslissing] }
+  - { id: s15, target: "We hebben beslist om te blijven.", native: { en: "We've decided to stay." }, items: [nl.beslissen] }
+  - { id: s16, target: "Mijn leven is veel veranderd.", native: { en: "My life has changed a lot." }, items: [nl.veranderen] }
+  - { id: s17, target: "Ik zal je helpen.", native: { en: "I'll help you." }, items: [nl.binnenkort] }

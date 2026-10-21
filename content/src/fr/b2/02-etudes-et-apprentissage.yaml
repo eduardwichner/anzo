@@ -1,0 +1,72 @@
+id: fr-b2-u02
+title: { nl: Studeren en leren, en: "Studying and learning" }
+icon: school
+topic: Apprendre efficacement, l'évaluation, l'orientation, les cours en ligne ; le subjonctif après il faut que, bien que, pour que, avant que
+vocabulary:
+  - { target: la révision, native: { nl: "de herhaling (van de leerstof)", en: "revision (for exams)" }, pos: noun, gender: f }
+  - { target: mémoriser, native: { nl: "onthouden, uit het hoofd leren", en: "to memorise, to learn by heart" }, pos: verb }
+  - { target: la concentration, native: { nl: de concentratie, en: "concentration" }, pos: noun, gender: f }
+  - { target: se concentrer, native: { nl: zich concentreren, en: "to concentrate" }, pos: verb }
+  - { target: l'absence, native: { nl: de afwezigheid, en: "absence" }, pos: noun, gender: f }
+  - { target: théorique, native: { nl: theoretisch, en: "theoretical" }, pos: adjective, avoid: [fr.pratique] }
+  - { target: pratique, native: { nl: praktisch, en: "practical" }, pos: adjective, avoid: [fr.theorique] }
+  - { target: décourager, native: { nl: ontmoedigen, en: "to discourage" }, pos: verb, avoid: [fr.encourager] }
+  - { target: obligatoire, native: { nl: verplicht, en: "compulsory" }, pos: adjective, avoid: [fr.facultatif] }
+  - { target: facultatif, native: { nl: "facultatief, niet verplicht", en: "optional" }, pos: adjective, avoid: [fr.obligatoire] }
+  - { target: le plagiat, native: { nl: het plagiaat, en: "plagiarism" }, pos: noun, gender: m }
+  - { target: évaluer, native: { nl: "beoordelen, evalueren", en: "to assess, to evaluate" }, pos: verb }
+  - { target: l'évaluation, native: { nl: de beoordeling, en: "assessment" }, pos: noun, gender: f }
+  - { target: le contrôle, native: { nl: "de toets, de overhoring", en: "test (at school)" }, pos: noun, gender: m }
+  - { target: conseiller, native: { nl: "aanraden, adviseren", en: "to advise, to recommend" }, pos: verb }
+  - { target: rattraper, native: { nl: "inhalen, bijwerken", en: "to catch up (on)" }, pos: verb }
+  - { target: abandonner, native: { nl: "opgeven, stoppen met", en: "to give up, to drop out" }, pos: verb }
+  - { target: élargir, native: { nl: verbreden, en: "to broaden, to widen" }, pos: verb }
+  - { target: efficace, native: { nl: "doeltreffend, efficiënt", en: "effective" }, pos: adjective }
+  - { target: la curiosité, native: { nl: de nieuwsgierigheid, en: "curiosity" }, pos: noun, gender: f }
+  - { target: la discipline, native: { nl: de discipline, en: "discipline" }, pos: noun, gender: f, noBlank: true }
+  - { target: le trimestre, native: { nl: het trimester, en: "term (of the school year)" }, pos: noun, gender: m }
+  - { target: redoubler, native: { nl: "blijven zitten (een jaar overdoen)", en: "to repeat a year" }, pos: verb }
+  - { target: l'orientation, native: { nl: "de studiekeuze, de oriëntering", en: "choice of studies, careers guidance" }, pos: noun, gender: f }
+  - { target: la filière, native: { nl: "de studierichting", en: "course of study, pathway" }, pos: noun, gender: f }
+  - { target: l'enseignement, native: { nl: het onderwijs, en: "education, teaching" }, pos: noun, gender: m }
+  - { target: la compréhension, native: { nl: het begrip, en: "understanding" }, pos: noun, gender: f }
+  - { target: en ligne, native: { nl: online, en: "online" }, pos: adverb }
+  - { target: à distance, native: { nl: "op afstand", en: "remotely, at a distance" }, pos: adverb }
+sentences:
+  - { id: s01, target: "Je commence mes révisions un mois avant les examens.", native: { nl: "Ik begin een maand voor de examens met herhalen.", en: "I start my revision a month before the exams." }, items: [fr.revision] }
+  - { id: s02, target: "Certains élèves mémorisent des pages entières sans les comprendre.", native: { nl: "Sommige leerlingen leren hele bladzijden uit het hoofd zonder ze te begrijpen.", en: "Some pupils memorise whole pages without understanding them." }, items: [fr.memoriser] }
+  - { id: s03, target: "La musique forte est mauvaise pour la concentration.", native: { nl: "Luide muziek is slecht voor de concentratie.", en: "Loud music is bad for concentration." }, items: [fr.concentration] }
+  - { id: s04, target: "J'ai du mal à me concentrer quand mon téléphone est à côté de moi.", native: { nl: "Ik kan me moeilijk concentreren als mijn telefoon naast me ligt.", en: "I find it hard to concentrate when my phone is next to me." }, items: [fr.se-concentrer] }
+  - { id: s05, target: "Après trois absences, les parents reçoivent une lettre.", native: { nl: "Na drie keer afwezig zijn krijgen de ouders een brief.", en: "After three absences, the parents get a letter." }, items: [fr.absence], form: { word: absences, stem: absent } }
+  - { id: s06, target: "Le cours a une partie théorique et une partie pratique.", native: { nl: "De cursus heeft een theoretisch en een praktisch deel.", en: "The course has a theoretical part and a practical part." }, items: [fr.theorique, fr.pratique] }
+  - { id: s07, target: "Une mauvaise note ne doit pas te décourager.", native: { nl: "Een slecht cijfer mag je niet ontmoedigen.", en: "A bad mark shouldn't discourage you." }, items: [fr.decourager] }
+  - { id: s08, target: "Dans notre école, le sport est obligatoire pour tous les élèves.", native: { nl: "In onze school is sport verplicht voor alle leerlingen.", en: "At our school, sport is compulsory for all pupils." }, items: [fr.obligatoire] }
+  - { id: s09, target: "Les cours de théâtre sont facultatifs.", native: { nl: "De theaterlessen zijn niet verplicht.", en: "Drama lessons are optional." }, items: [fr.facultatif] }
+  - { id: s10, target: "Prendre un texte sur internet sans dire d'où il vient, c'est du plagiat.", native: { nl: "Een tekst van het internet nemen zonder te zeggen waar hij vandaan komt, is plagiaat.", en: "Taking a text from the internet without saying where it comes from is plagiarism." }, items: [fr.plagiat] }
+  - { id: s11, target: "Les professeurs évaluent notre travail de différentes façons.", native: { nl: "De leraren beoordelen ons werk op verschillende manieren.", en: "The teachers assess our work in different ways." }, items: [fr.evaluer] }
+  - { id: s12, target: "Notre professeur fait une évaluation à la fin de chaque trimestre.", native: { nl: "Onze leraar houdt op het einde van elk trimester een evaluatie.", en: "Our teacher does an assessment at the end of each term." }, items: [fr.evaluation], form: { word: évaluation, stem: évaluer } }
+  - { id: s13, target: "Nous avons un contrôle de chimie vendredi.", native: { nl: "We hebben vrijdag een toets scheikunde.", en: "We have a chemistry test on Friday." }, items: [fr.controle] }
+  - { id: s14, target: "J'étais malade, alors je dois rattraper les cours.", native: { nl: "Ik was ziek, dus ik moet de lessen inhalen.", en: "I was ill, so I have to catch up on the lessons." }, items: [fr.rattraper] }
+  - { id: s15, target: "Il a abandonné ses études après un an.", native: { nl: "Hij stopte na een jaar met zijn studie.", en: "He gave up his studies after a year." }, items: [fr.abandonner] }
+  - { id: s16, target: "Lire beaucoup élargit tes connaissances.", native: { nl: "Veel lezen verbreedt je kennis.", en: "Reading a lot broadens your knowledge." }, items: [fr.elargir] }
+  - { id: s17, target: "Se poser des questions est plus efficace que de lire ses notes une deuxième fois.", native: { nl: "Jezelf vragen stellen is doeltreffender dan je notities een tweede keer lezen.", en: "Asking yourself questions is more effective than reading your notes a second time." }, items: [fr.efficace] }
+  - { id: s18, target: "La curiosité est la meilleure raison d'apprendre.", native: { nl: "Nieuwsgierigheid is de beste reden om te leren.", en: "Curiosity is the best reason to learn." }, items: [fr.curiosite] }
+  - { id: s19, target: "Étudier seul demande beaucoup de discipline.", native: { nl: "Alleen studeren vraagt veel discipline.", en: "Studying alone takes a lot of discipline." }, items: [fr.discipline] }
+  - { id: s20, target: "Mes notes du deuxième trimestre étaient meilleures.", native: { nl: "Mijn cijfers van het tweede trimester waren beter.", en: "My marks in the second term were better." }, items: [fr.trimestre] }
+  - { id: s21, target: "En France, de moins en moins d'élèves redoublent.", native: { nl: "In Frankrijk blijven steeds minder leerlingen zitten.", en: "In France, fewer and fewer pupils repeat a year." }, items: [fr.redoubler] }
+  - { id: s22, target: "Le professeur m'a conseillé une filière de sciences.", native: { nl: "De leraar heeft me een richting wetenschappen aangeraden.", en: "The teacher advised me to choose a science pathway." }, items: [fr.conseiller] }
+  - { id: s32, target: "L'orientation est un moment important pour les élèves.", native: { nl: "De studiekeuze is een belangrijk moment voor de leerlingen.", en: "Choosing what to study is an important moment for pupils." }, items: [fr.orientation] }
+  - { id: s23, target: "Elle hésite entre deux filières.", native: { nl: "Ze twijfelt tussen twee studierichtingen.", en: "She can't decide between two courses of study." }, items: [fr.filiere] }
+  - { id: s24, target: "L'enseignement est gratuit dans beaucoup de pays.", native: { nl: "Het onderwijs is in veel landen gratis.", en: "Education is free in many countries." }, items: [fr.enseignement] }
+  - { id: s25, target: "Ces questions vérifient la compréhension du texte.", native: { nl: "Deze vragen controleren het begrip van de tekst.", en: "These questions check your understanding of the text." }, items: [fr.comprehension] }
+  - { id: s26, target: "Je suis un cours de photographie en ligne.", native: { nl: "Ik volg een online cursus fotografie.", en: "I'm doing an online photography course." }, items: [fr.en-ligne] }
+  - { id: s27, target: "Quand il a beaucoup neigé, les élèves ont travaillé à distance.", native: { nl: "Toen het veel had gesneeuwd, werkten de leerlingen op afstand.", en: "When it snowed heavily, the pupils worked remotely." }, items: [fr.a-distance] }
+  - { id: s28, target: "Il faut que tu révises avant le contrôle.", native: { nl: "Je moet herhalen voor de toets.", en: "You have to revise before the test." }, items: [fr.controle], build: true, acceptAlso: ["Avant le contrôle, il faut que tu révises."] }
+  - { id: s29, target: "Bien qu'il soit fatigué, il arrive à se concentrer.", native: { nl: "Hoewel hij moe is, slaagt hij erin zich te concentreren.", en: "Although he's tired, he manages to concentrate." }, items: [fr.se-concentrer], build: true, acceptAlso: ["Il arrive à se concentrer, bien qu'il soit fatigué."] }
+  - { id: s30, target: "Le professeur explique deux fois pour que tout le monde comprenne.", native: { nl: "De leraar legt het twee keer uit, zodat iedereen het begrijpt.", en: "The teacher explains twice so that everyone understands." }, items: [fr.comprehension] }
+  - { id: s31, target: "Elle se concentre mieux le matin.", native: { nl: "'s Morgens kan ze zich beter concentreren.", en: "She concentrates better in the morning." }, items: [fr.se-concentrer], finite: { word: concentre, hint: { nl: "se concentrer (présent)", en: "se concentrer (present)" } } }
+transforms:
+  - { id: x01, from: "Tu dois réviser avant le contrôle.", key: faut, gapped: "Il ___ avant le contrôle.", answers: ["faut que tu révises"], items: [fr.revision], native: { en: "You have to revise before the test." } }
+  - { id: x02, from: "Il est fatigué, mais il arrive à se concentrer.", key: bien, gapped: "___ fatigué, il arrive à se concentrer.", answers: ["Bien qu'il soit", "Bien que"], items: [fr.se-concentrer], native: { en: "Although he's tired, he manages to concentrate." } }
+  - { id: x03, from: "On n'est pas obligé de suivre les cours de théâtre.", key: facultatifs, gapped: "Les cours de théâtre ___.", answers: ["sont facultatifs"], items: [fr.facultatif], native: { en: "Drama lessons are optional." } }
+texts: [fr-b2-t02]

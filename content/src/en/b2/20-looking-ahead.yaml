@@ -1,0 +1,69 @@
+id: en-b2-u20
+title: { nl: Vooruitkijken }
+icon: rocket
+topic: Predictions and the future, change and uncertainty, goals and priorities; review of the B2 grammar (future perfect and continuous, conditionals, the passive, wishes, linkers)
+vocabulary:
+  - { target: prediction, native: { nl: voorspelling }, pos: noun }
+  - { target: inevitable, native: { nl: onvermijdelijk }, pos: adjective }
+  - { target: uncertain, native: { nl: onzeker }, pos: adjective }
+  - { target: uncertainty, native: { nl: onzekerheid }, pos: noun }
+  - { target: optimistic, native: { nl: optimistisch }, pos: adjective, avoid: [en.pessimistic] }
+  - { target: pessimistic, native: { nl: pessimistisch }, pos: adjective, avoid: [en.optimistic] }
+  - { target: ageing, native: { nl: "vergrijzend, ouder wordend" }, pos: adjective }
+  - { target: transform, native: { nl: "veranderen, omvormen" }, pos: verb }
+  - { target: transformation, native: { nl: "transformatie, gedaanteverandering" }, pos: noun }
+  - { target: revolution, native: { nl: revolutie }, pos: noun, noBlank: true }
+  - { target: revolutionary, native: { nl: "revolutionair, baanbrekend" }, pos: adjective }
+  - { target: foresee, native: { nl: voorzien }, pos: verb }
+  - { target: long-term, native: { nl: "op lange termijn" }, pos: adjective, avoid: [en.short-term, en.in-the-long-run] }
+  - { target: short-term, native: { nl: "op korte termijn" }, pos: adjective, avoid: [en.long-term] }
+  - { target: in the long run, native: { nl: "op de lange duur" }, pos: phrase, avoid: [en.long-term] }
+  - { target: sooner or later, native: { nl: "vroeg of laat" }, pos: phrase }
+  - { target: priority, native: { nl: prioriteit }, pos: noun, noBlank: true }
+  - { target: prioritise, native: { nl: "voorrang geven, prioriteit geven" }, pos: verb }
+  - { target: accomplish, native: { nl: "volbrengen, bereiken" }, pos: verb, avoid: [en.achieve] }
+  - { target: milestone, native: { nl: mijlpaal }, pos: noun }
+  - { target: prospect, native: { nl: "vooruitzicht" }, pos: noun }
+  - { target: vision, native: { nl: "visie" }, pos: noun }
+  - { target: expectation, native: { nl: verwachting }, pos: noun }
+  - { target: resilience, native: { nl: veerkracht }, pos: noun }
+  - { target: adaptable, native: { nl: "flexibel, aanpasbaar" }, pos: adjective, avoid: [en.flexible] }
+sentences:
+  - { id: s01, target: "Most predictions about the future are never completely right.", native: { nl: "De meeste voorspellingen over de toekomst kloppen nooit helemaal." }, items: [en.prediction], form: { word: predictions, stem: predict } }
+  - { id: s02, target: "Change is inevitable, so we have to learn to deal with it.", native: { nl: "Verandering is onvermijdelijk, dus we moeten leren ermee om te gaan." }, items: [en.inevitable] }
+  - { id: s03, target: "The future of the factory is uncertain.", native: { nl: "De toekomst van de fabriek is onzeker." }, items: [en.uncertain] }
+  - { id: s04, target: "Uncertainty about jobs makes many young people nervous.", native: { nl: "Onzekerheid over werk maakt veel jongeren zenuwachtig." }, items: [en.uncertainty] }
+  - { id: s05, target: "I'm optimistic about the future of the planet.", native: { nl: "Ik ben optimistisch over de toekomst van de planeet." }, items: [en.optimistic] }
+  - { id: s06, target: "My grandfather is rather pessimistic about technology.", native: { nl: "Mijn opa is nogal pessimistisch over technologie." }, items: [en.pessimistic] }
+  - { id: s07, target: "An ageing population needs more nurses and doctors.", native: { nl: "Een vergrijzende bevolking heeft meer verpleegkundigen en dokters nodig." }, items: [en.ageing] }
+  - { id: s08, target: "The internet has transformed the way we work.", native: { nl: "Het internet heeft de manier waarop we werken veranderd." }, items: [en.transform] }
+  - { id: s09, target: "The town has gone through a complete transformation.", native: { nl: "De stad heeft een volledige transformatie ondergaan." }, items: [en.transformation], form: { word: transformation, stem: transform } }
+  - { id: s10, target: "Some people say we are living through a digital revolution.", native: { nl: "Sommige mensen zeggen dat we een digitale revolutie doormaken." }, items: [en.revolution] }
+  - { id: s11, target: "The phone was a revolutionary invention.", native: { nl: "De telefoon was een revolutionaire uitvinding." }, items: [en.revolutionary] }
+  - { id: s12, target: "Nobody could have foreseen how quickly things would change.", native: { nl: "Niemand had kunnen voorzien hoe snel alles zou veranderen." }, items: [en.foresee] }
+  - { id: s13, target: "We need long-term solutions, not short-term ones.", native: { nl: "We hebben oplossingen op lange termijn nodig, niet op korte termijn." }, items: [en.long-term, en.short-term] }
+  - { id: s14, target: "In the long run, learning a language always pays off.", native: { nl: "Op de lange duur loont het altijd om een taal te leren." }, items: [en.in-the-long-run] }
+  - { id: s15, target: "Sooner or later you will have to make a decision.", native: { nl: "Vroeg of laat zul je een beslissing moeten nemen." }, items: [en.sooner-or-later] }
+  - { id: s16, target: "Her family is her first priority.", native: { nl: "Haar gezin is haar eerste prioriteit." }, items: [en.priority] }
+  - { id: s17, target: "Learn to prioritise the most important jobs.", native: { nl: "Leer de belangrijkste taken voorrang te geven." }, items: [en.prioritise] }
+  - { id: s18, target: "She accomplished everything she had planned.", native: { nl: "Ze heeft alles volbracht wat ze gepland had." }, items: [en.accomplish] }
+  - { id: s19, target: "Finishing school is an important milestone.", native: { nl: "De school afmaken is een belangrijke mijlpaal." }, items: [en.milestone] }
+  - { id: s20, target: "The prospect of a long summer holiday kept us going.", native: { nl: "Het vooruitzicht van een lange zomervakantie hield ons op de been." }, items: [en.prospect] }
+  - { id: s21, target: "The council has a clear vision for the city.", native: { nl: "De gemeente heeft een duidelijke visie op de stad." }, items: [en.vision] }
+  - { id: s22, target: "The results were better than our expectations.", native: { nl: "De resultaten waren beter dan onze verwachtingen." }, items: [en.expectation], form: { word: expectations, stem: expect } }
+  - { id: s23, target: "Resilience helps you to recover from a failure.", native: { nl: "Veerkracht helpt je om te herstellen van een mislukking." }, items: [en.resilience] }
+  - { id: s24, target: "Employers are looking for people who are adaptable.", native: { nl: "Werkgevers zoeken mensen die flexibel zijn." }, items: [en.adaptable] }
+  - { id: s25, target: "By 2040, many of today's jobs will have disappeared.", native: { nl: "Tegen 2040 zullen veel van de banen van vandaag verdwenen zijn." }, items: [en.prediction], build: true, acceptAlso: ["Many of today's jobs will have disappeared by 2040."] }
+  - { id: s26, target: "If we had invested in solar energy earlier, our bills would be lower now.", native: { nl: "Als we eerder in zonne-energie hadden geïnvesteerd, waren onze rekeningen nu lager." }, items: [en.long-term], build: true, acceptAlso: ["If we had invested in solar energy earlier, our bills would now be lower.", "Our bills would be lower now if we had invested in solar energy earlier."] }
+  - { id: s27, target: "I wish I had been more adventurous when I was young.", native: { nl: "Ik wou dat ik avontuurlijker was geweest toen ik jong was." }, items: [en.expectation] }
+  - { id: s28, target: "New cities are being designed for an ageing population.", native: { nl: "Er worden nieuwe steden ontworpen voor een vergrijzende bevolking." }, items: [en.ageing], build: true }
+  - { id: s29, target: "Not only will robots do our housework, but they will also drive our cars.", native: { nl: "Robots zullen niet alleen ons huishouden doen, maar ook onze auto's besturen." }, items: [en.revolutionary] }
+  - { id: s31, target: "You'd better start saving now if you want to travel after school.", native: { nl: "Je begint beter nu te sparen als je na school wilt reizen." }, items: [en.long-term] }
+  - { id: s32, target: "In the future, we will probably have our shopping delivered by robots.", native: { nl: "In de toekomst laten we onze boodschappen waarschijnlijk door robots leveren." }, items: [en.prediction] }
+  - { id: s33, target: "It is said that half of today's jobs will disappear.", native: { nl: "Men zegt dat de helft van de banen van vandaag zal verdwijnen." }, items: [en.prediction] }
+  - { id: s30, target: "He prioritises his studies over his social life.", native: { nl: "Hij geeft zijn studie voorrang op zijn sociale leven." }, items: [en.prioritise], finite: { word: prioritises, hint: { nl: "prioritise (tegenwoordige tijd)" } } }
+transforms:
+  - { id: x01, from: "Most petrol cars will disappear from our roads before 2040.", key: have, gapped: "By 2040 most petrol cars ___ from our roads.", answers: ["will have disappeared"], items: [en.prediction] }
+  - { id: x02, from: "Nobody expected the changes to happen so fast.", key: foreseen, gapped: "Nobody had ___ happen so fast.", answers: ["foreseen the changes would", "foreseen that the changes would"], items: [en.foresee] }
+  - { id: x03, from: "Your health should be the most important thing to you.", key: priority, gapped: "Your health should be ___.", answers: ["your first priority", "your top priority", "your main priority", "your number one priority", "the top priority", "the first priority"], items: [en.priority] }
+texts: [en-b2-t20]

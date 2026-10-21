@@ -1,0 +1,49 @@
+id: fr-b2-t17
+kind: reading
+title: { nl: Moeten we stemmen op zestien?, en: "Should we vote at sixteen?" }
+topic: Droit et citoyenneté (un essai argumenté pour un concours de jeunes citoyens)
+level: B2
+paragraphs:
+  - - { id: fr-b2-t17-s01, target: "En 2024, pour la première fois, les jeunes Belges de seize et dix-sept ans ont pu voter aux élections européennes.", native: { nl: "In 2024 konden Belgische jongeren van zestien en zeventien voor het eerst stemmen bij de Europese verkiezingen.", en: "In 2024, for the first time, sixteen- and seventeen-year-old Belgians were able to vote in the European elections." } }
+    - { id: fr-b2-t17-s02, target: "Depuis, le débat continue : faut-il leur donner le droit de vote à toutes les élections ?", native: { nl: "Sindsdien gaat het debat door: moeten we hun stemrecht geven bij alle verkiezingen?", en: "Since then the debate has continued: should they be given the right to vote in all elections?" } }
+  - - { id: fr-b2-t17-s03, target: "Les adversaires de cette idée avancent plusieurs arguments.", native: { nl: "De tegenstanders van dat idee brengen verschillende argumenten aan.", en: "Opponents of the idea put forward several arguments." } }
+    - { id: fr-b2-t17-s04, target: "Selon eux, à seize ans, on n'a pas encore la maturité nécessaire pour comprendre des questions politiques compliquées.", native: { nl: "Volgens hen heb je op zestien nog niet de nodige maturiteit om ingewikkelde politieke vraagstukken te begrijpen.", en: "According to them, at sixteen you don't yet have the maturity needed to understand complicated political questions." } }
+    - { id: fr-b2-t17-s05, target: "Ils craignent aussi que les jeunes votent comme leurs parents, ou qu'ils se laissent influencer par les réseaux sociaux.", native: { nl: "Ze vrezen ook dat jongeren stemmen zoals hun ouders, of dat ze zich laten beïnvloeden door sociale media.", en: "They also fear that young people will vote the same way as their parents, or let themselves be influenced by social networks." } }
+  - - { id: fr-b2-t17-s06, target: "Ces arguments ne me convainquent pas.", native: { nl: "Die argumenten overtuigen me niet.", en: "These arguments don't convince me." } }
+    - { id: fr-b2-t17-s07, target: "D'abord, beaucoup d'adultes ne comprennent pas mieux la politique que les jeunes, et personne ne leur demande de passer un examen avant de voter.", native: { nl: "Ten eerste begrijpen veel volwassenen politiek niet beter dan jongeren, en niemand vraagt hun om een examen af te leggen voor ze stemmen.", en: "First, many adults don't understand politics any better than young people, and nobody asks them to take an exam before they vote." } }
+    - { id: fr-b2-t17-s08, target: "Ensuite, à seize ans, on a déjà des obligations : on peut travailler, payer des impôts et être puni par la justice.", native: { nl: "Verder heb je op zestien al plichten: je mag werken, belastingen betalen en door het gerecht gestraft worden.", en: "Next, at sixteen you already have obligations: you can work, pay taxes and be punished by the justice system." } }
+    - { id: fr-b2-t17-s09, target: "Il ne me semble pas juste d'avoir des devoirs de citoyen sans en avoir les droits.", native: { nl: "Het lijkt me niet eerlijk om de plichten van een burger te hebben zonder de rechten.", en: "It doesn't seem fair to me to have the duties of a citizen without the rights." } }
+  - - { id: fr-b2-t17-s10, target: "Enfin, les choix faits aujourd'hui, sur le climat ou sur l'école, concernent surtout notre génération.", native: { nl: "Ten slotte gaan de keuzes van vandaag, over het klimaat of over school, vooral onze generatie aan.", en: "Finally, the choices made today, about the climate or about school, mainly concern our generation." } }
+    - { id: fr-b2-t17-s11, target: "Si les jeunes votaient, les partis seraient obligés de s'intéresser davantage à leurs problèmes.", native: { nl: "Als jongeren stemden, zouden de partijen verplicht zijn meer aandacht te hebben voor hun problemen.", en: "If young people voted, the parties would have to take more interest in their problems." } }
+  - - { id: fr-b2-t17-s12, target: "Bien sûr, voter ne suffit pas.", native: { nl: "Natuurlijk is stemmen niet genoeg.", en: "Of course, voting isn't enough." } }
+    - { id: fr-b2-t17-s13, target: "Pour que ce droit ait un sens, il faut que l'école prépare mieux les élèves, par exemple avec des cours de citoyenneté et des débats en classe.", native: { nl: "Wil dat recht zin hebben, dan moet de school de leerlingen beter voorbereiden, bijvoorbeeld met lessen burgerschap en debatten in de klas.", en: "For this right to mean something, schools must prepare pupils better, for example with citizenship lessons and class debates." } }
+    - { id: fr-b2-t17-s14, target: "Il est temps que la démocratie fasse confiance à ses plus jeunes citoyens.", native: { nl: "Het is tijd dat de democratie haar jongste burgers vertrouwt.", en: "It's time democracy trusted its youngest citizens." } }
+glossary:
+  - { word: adversaires, native: { nl: "tegenstanders (un adversaire)", en: "opponents (un adversaire)" } }
+  - { word: compliquées, native: { nl: "ingewikkelde (compliqué)", en: "complicated (compliqué)" } }
+  - { word: craignent, native: { nl: "vrezen (craindre)", en: "fear (craindre)" } }
+items: [fr.debat, fr.droit-de-vote, fr.maturite, fr.obligation, fr.punir, fr.justice, fr.parti, fr.citoyennete, fr.democratie, fr.il-est-temps-que, fr.influencer, fr.impot, fr.convaincre]
+gapped:
+  gaps: [fr-b2-t17-s03, fr-b2-t17-s06, fr-b2-t17-s10, fr-b2-t17-s12]
+  extra:
+    - { id: fr-b2-t17-x1, target: "En Belgique, il est obligatoire d'aller voter.", native: { nl: "In België is stemmen verplicht.", en: "In Belgium, voting is compulsory." } }
+openCloze:
+  - { sentence: fr-b2-t17-s04, word: Selon, acceptAlso: [Pour, "D'après"] }
+  - { sentence: fr-b2-t17-s09, word: en }
+  - { sentence: fr-b2-t17-s13, word: Pour }
+  - { sentence: fr-b2-t17-s11, word: Si }
+wordForm:
+  - { sentence: fr-b2-t17-s05, word: influencer, stem: influence }
+  - { sentence: fr-b2-t17-s01, word: élections, stem: élire }
+  - { sentence: fr-b2-t17-s13, word: citoyenneté, stem: citoyen }
+questions:
+  - { id: fr-b2-t17-q1, type: summary, options: ["L'auteur pense que les jeunes de seize ans devraient avoir le droit de vote, à condition que l'école les prépare mieux.", "L'auteur pense que les jeunes de seize ans ne sont pas encore prêts à voter.", "L'auteur pense que les jeunes de seize ans devraient voter, et que l'école ne doit rien changer pour les préparer."], correct: 0 }
+  - { id: fr-b2-t17-q2, type: mc, question: "Quel argument des adversaires est donné dans le texte ?", options: ["Les jeunes pourraient voter comme leurs parents.", "Les jeunes ne paient pas d'impôts.", "Les jeunes ne s'intéressent pas au climat."], correct: 0 }
+  - { id: fr-b2-t17-q3, type: true_false_notgiven, statement: "Selon l'auteur, beaucoup d'adultes ne comprennent pas mieux la politique que les jeunes.", answer: true }
+  - { id: fr-b2-t17-q4, type: true_false_notgiven, statement: "Selon l'auteur, à seize ans, on peut déjà payer des impôts.", answer: true }
+  - { id: fr-b2-t17-q5, type: true_false_notgiven, statement: "La plupart des jeunes Belges ont voté pour le même parti en 2024.", answer: not_given }
+  - { id: fr-b2-t17-q6, type: match_heading, paragraph: 3, options: ["Pourquoi l'auteur n'est pas d'accord", "Ce que disent les adversaires", "Ce que l'école doit faire"], correct: 0 }
+listeningQuestions:
+  - { id: fr-b2-t17-l1, type: complete, statement: "En ___, les jeunes Belges de seize ans ont pu voter pour la première fois.", answers: ["2024", deux mille vingt-quatre] }
+  - { id: fr-b2-t17-l2, type: mc, question: "Que propose l'auteur pour l'école ?", options: ["Des cours de citoyenneté et des débats en classe.", "Un examen avant de voter.", "Plus de cours de mathématiques."], correct: 0 }
+orderable: false

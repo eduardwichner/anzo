@@ -1,0 +1,89 @@
+id: fr-b1-u14
+title: { nl: Verkeer en de stad, en: "Traffic and the town" }
+icon: city
+topic: La circulation, les transports et la ville ; les pronoms compléments (le, la, lui, leur)
+vocabulary:
+  - { target: la circulation, native: { nl: het verkeer, en: "traffic" }, pos: noun, gender: f }
+  - { target: l'embouteillage, native: { nl: de file, en: "traffic jam" }, pos: noun, gender: m }
+  - { target: le carrefour, native: { nl: het kruispunt, en: "crossroads, junction" }, pos: noun, gender: m }
+  - { target: le permis de conduire, native: { nl: het rijbewijs, en: "driving licence" }, pos: noun, gender: m }
+  - { target: freiner, native: { nl: remmen, en: "to brake" }, pos: verb }
+  - { target: garer, native: { nl: parkeren, en: "to park (a car)" }, pos: verb }
+  - { target: le conducteur, native: { nl: de bestuurder, en: "driver" }, pos: noun, gender: m }
+  - { target: le véhicule, native: { nl: het voertuig, en: "vehicle" }, pos: noun, gender: m }
+  - { target: l'automobile, native: { nl: de auto (automobiel), en: "car (motor car)" }, pos: noun, gender: f, avoid: [fr.voiture], noBlank: true }
+  - { target: circuler, native: { nl: rijden (zich verplaatsen), en: "to get around, to drive" }, pos: verb, avoid: [fr.conduire] }
+  - { target: le volant, native: { nl: het stuur (van een auto), en: "steering wheel" }, pos: noun, gender: m }
+  - { target: le piéton, native: { nl: de voetganger, en: "pedestrian" }, pos: noun, gender: m }
+  - { target: cyclable, native: { nl: "fiets- (zoals in: het fietspad)", en: "cycle (as in: a cycle lane)" }, pos: adjective, noBlank: true }
+  - { target: la bicyclette, native: { nl: de fiets (rijwiel), en: "bicycle, bike" }, pos: noun, gender: f, avoid: [fr.velo], noBlank: true }
+  - { target: le transport, native: { nl: het vervoer, en: "transport" }, pos: noun, gender: m }
+  - { target: transporter, native: { nl: vervoeren, en: "to transport, to carry" }, pos: verb }
+  - { target: le déplacement, native: { nl: de verplaatsing, en: "getting around, movement" }, pos: noun, gender: m }
+  - { target: déplacer, native: { nl: verplaatsen, en: "to move" }, pos: verb }
+  - { target: la direction, native: { nl: de richting, en: "direction, way" }, pos: noun, gender: f }
+  - { target: le demi-tour, native: { nl: "het keren, het omkeren", en: "U-turn, turning back" }, pos: noun, gender: m }
+  - { target: le passage, native: { nl: de doorgang, en: "passage, way through" }, pos: noun, gender: m }
+  - { target: le klaxon, native: { nl: de claxon, en: "horn (of a car)" }, pos: noun, gender: m }
+  - { target: le centre-ville, native: { nl: het stadscentrum, en: "town centre, city centre" }, pos: noun, gender: m, avoid: [fr.centre] }
+  - { target: la banlieue, native: { nl: de buitenwijk, en: "suburbs" }, pos: noun, gender: f }
+  - { target: le port, native: { nl: de haven, en: "port, harbour" }, pos: noun, gender: m }
+  - { target: la côte, native: { nl: de kust, en: "coast" }, pos: noun, gender: f }
+  - { target: le paysage, native: { nl: het landschap, en: "landscape, scenery" }, pos: noun, gender: m }
+  - { target: le monument, native: { nl: het monument, en: "monument" }, pos: noun, gender: m }
+  - { target: l'avenue, native: { nl: de laan, en: "avenue" }, pos: noun, gender: f }
+  - { target: l'impasse, native: { nl: de doodlopende straat, en: "dead end, cul-de-sac" }, pos: noun, gender: f }
+  - { target: la région, native: { nl: de regio (streek), en: "region, area" }, pos: noun, gender: f }
+  - { target: la commune, native: { nl: de gemeente, en: "municipality, local council" }, pos: noun, gender: f }
+  - { target: le lieu, native: { nl: de plaats (plek), en: "place" }, pos: noun, gender: m, avoid: [fr.endroit, fr.place], noBlank: true }
+  - { target: situer, native: { nl: situeren (liggen), en: "to locate, to be located" }, pos: verb }
+  - { target: autour, native: { nl: rondom, en: "around" }, pos: adverb }
+  - { target: proche, native: { nl: dichtbij, en: "near, nearby" }, pos: adjective }
+  - { target: moderne, native: { nl: modern, en: "modern" }, pos: adjective }
+  - { target: aboyer, native: { nl: blaffen, en: "to bark" }, pos: verb }
+  - { target: autonome, native: { nl: zelfstandig, en: "independent" }, pos: adjective, typedAlso: { en: [indépendant] } }
+  - { target: local, native: { nl: plaatselijk, en: "local" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Il y a beaucoup de circulation le vendredi soir.", native: { nl: "Er is veel verkeer op vrijdagavond.", en: "There's a lot of traffic on Friday evenings." }, items: [fr.circulation], acceptAlso: ["Le vendredi soir, il y a beaucoup de circulation."] }
+  - { id: s02, target: "Nous sommes restés une heure dans un embouteillage.", native: { nl: "We hebben een uur in een file gestaan.", en: "We were stuck in a traffic jam for an hour." }, items: [fr.embouteillage] }
+  - { id: s03, target: "Tournez à droite au prochain carrefour.", native: { nl: "Sla bij het volgende kruispunt rechtsaf.", en: "Turn right at the next crossroads." }, items: [fr.carrefour], acceptAlso: ["Au prochain carrefour, tournez à droite."] }
+  - { id: s04, target: "Mon frère vient d'avoir son permis de conduire.", native: { nl: "Mijn broer heeft net zijn rijbewijs gehaald.", en: "My brother has just got his driving licence." }, items: [fr.permis-de-conduire] }
+  - { id: s05, target: "Le conducteur a freiné juste à temps.", native: { nl: "De bestuurder remde net op tijd.", en: "The driver braked just in time." }, items: [fr.freiner, fr.conducteur] }
+  - { id: s06, target: "Où est-ce que je peux garer la voiture ?", native: { nl: "Waar kan ik de auto parkeren?", en: "Where can I park the car?" }, items: [fr.garer] }
+  - { id: s07, target: "Les véhicules ne peuvent pas entrer dans cette rue.", native: { nl: "Voertuigen mogen deze straat niet in.", en: "Vehicles can't enter this street." }, items: [fr.vehicule] }
+  - { id: s08, target: "Mon grand-père a une vieille automobile des années soixante.", native: { nl: "Mijn opa heeft een oude auto uit de jaren zestig.", en: "My grandfather has an old motor car from the sixties." }, items: [fr.automobile] }
+  - { id: s09, target: "Dans le centre, on circule mieux à vélo.", native: { nl: "In het centrum kom je vlotter vooruit met de fiets.", en: "In the centre, it's easier to get around by bike." }, items: [fr.circuler] }
+  - { id: s10, target: "Garde les deux mains sur le volant !", native: { nl: "Hou beide handen aan het stuur!", en: "Keep both hands on the steering wheel!" }, items: [fr.volant] }
+  - { id: s11, target: "Les piétons doivent attendre le feu vert.", native: { nl: "Voetgangers moeten op het groene licht wachten.", en: "Pedestrians must wait for the green light." }, items: [fr.pieton] }
+  - { id: s12, target: "Il y a une nouvelle piste cyclable jusqu'à l'école.", native: { nl: "Er is een nieuw fietspad tot aan de school.", en: "There's a new cycle lane all the way to the school." }, items: [fr.cyclable] }
+  - { id: s13, target: "Ma grand-mère va au marché à bicyclette.", native: { nl: "Mijn oma gaat met de fiets naar de markt.", en: "My grandmother goes to the market by bicycle." }, items: [fr.bicyclette] }
+  - { id: s14, target: "Le transport des élèves est gratuit.", native: { nl: "Het vervoer van de leerlingen is gratis.", en: "Transport for pupils is free." }, items: [fr.transport] }
+  - { id: s15, target: "Ce camion transporte des fruits et des légumes.", native: { nl: "Deze vrachtwagen vervoert groenten en fruit.", en: "This lorry transports fruit and vegetables." }, items: [fr.transporter], finite: { word: transporte, hint: { nl: "transporter (présent)", en: "transporter (present)" } } }
+  - { id: s16, target: "Mes déplacements en ville, je les fais à pied.", native: { nl: "Mijn verplaatsingen in de stad doe ik te voet.", en: "I do all my getting around town on foot." }, items: [fr.deplacement] }
+  - { id: s17, target: "Tu peux m'aider à déplacer cette table ?", native: { nl: "Kun je me helpen deze tafel te verplaatsen?", en: "Can you help me move this table?" }, items: [fr.deplacer] }
+  - { id: s18, target: "Excusez-moi, c'est la bonne direction pour la gare ?", native: { nl: "Pardon, is dit de goede richting naar het station?", en: "Excuse me, is this the right way to the station?" }, items: [fr.direction] }
+  - { id: s19, target: "La route est fermée, il faut faire demi-tour.", native: { nl: "De weg is afgesloten, we moeten omkeren.", en: "The road is closed, so we have to turn back." }, items: [fr.demi-tour] }
+  - { id: s20, target: "Ce petit passage va jusqu'à la place du marché.", native: { nl: "Deze kleine doorgang loopt tot aan het marktplein.", en: "This little passage leads to the market square." }, items: [fr.passage] }
+  - { id: s21, target: "J'entends le klaxon d'une voiture dans la rue.", native: { nl: "Ik hoor de claxon van een auto op straat.", en: "I can hear a car horn in the street." }, items: [fr.klaxon] }
+  - { id: s22, target: "Les magasins du centre-ville ferment à dix-huit heures.", native: { nl: "De winkels in het stadscentrum sluiten om achttien uur.", en: "The shops in the town centre close at six in the evening." }, items: [fr.centre-ville] }
+  - { id: s23, target: "Beaucoup de familles habitent en banlieue.", native: { nl: "Veel gezinnen wonen in een buitenwijk.", en: "A lot of families live in the suburbs." }, items: [fr.banlieue] }
+  - { id: s24, target: "Les bateaux de pêche rentrent au port le soir.", native: { nl: "De vissersboten keren 's avonds terug naar de haven.", en: "The fishing boats come back to the harbour in the evening." }, items: [fr.port] }
+  - { id: s25, target: "Nous avons fait du vélo le long de la côte.", native: { nl: "We hebben langs de kust gefietst.", en: "We cycled along the coast." }, items: [fr.cote] }
+  - { id: s26, target: "Le paysage des Alpes est magnifique.", native: { nl: "Het landschap van de Alpen is prachtig.", en: "The landscape of the Alps is magnificent." }, items: [fr.paysage] }
+  - { id: s27, target: "Ce monument est le plus visité de la ville.", native: { nl: "Dit is het meest bezochte monument van de stad.", en: "This is the most visited monument in the town." }, items: [fr.monument] }
+  - { id: s28, target: "La banque se trouve sur la grande avenue.", native: { nl: "De bank ligt aan de grote laan.", en: "The bank is on the main avenue." }, items: [fr.avenue] }
+  - { id: s29, target: "Nous habitons dans une impasse très calme.", native: { nl: "We wonen in een heel rustige doodlopende straat.", en: "We live in a very quiet cul-de-sac." }, items: [fr.impasse] }
+  - { id: s30, target: "Cette région produit beaucoup de fromage.", native: { nl: "Deze streek maakt veel kaas.", en: "This region produces a lot of cheese." }, items: [fr.region] }
+  - { id: s31, target: "Notre commune a construit une nouvelle piscine.", native: { nl: "Onze gemeente heeft een nieuw zwembad gebouwd.", en: "Our local council has built a new swimming pool." }, items: [fr.commune] }
+  - { id: s32, target: "Le lieu de rendez-vous est devant le cinéma.", native: { nl: "De afspraakplek is voor de bioscoop.", en: "The meeting place is in front of the cinema." }, items: [fr.lieu] }
+  - { id: s33, target: "Le village est situé près d'un lac.", native: { nl: "Het dorp ligt bij een meer.", en: "The village is located near a lake." }, items: [fr.situer] }
+  - { id: s34, target: "Il y a des arbres tout autour de la maison.", native: { nl: "Er staan bomen rondom het huis.", en: "There are trees all around the house." }, items: [fr.autour], acceptAlso: ["Tout autour de la maison, il y a des arbres."] }
+  - { id: s35, target: "La gare la plus proche est à dix minutes.", native: { nl: "Het dichtstbijzijnde station ligt op tien minuten.", en: "The nearest station is ten minutes away." }, items: [fr.proche] }
+  - { id: s36, target: "La bibliothèque est dans un bâtiment très moderne.", native: { nl: "De bibliotheek zit in een heel modern gebouw.", en: "The library is in a very modern building." }, items: [fr.moderne] }
+  - { id: s37, target: "Le chien du voisin aboie toute la nuit.", native: { nl: "De hond van de buren blaft de hele nacht.", en: "The neighbour's dog barks all night." }, items: [fr.aboyer], finite: { word: aboie, hint: { nl: "aboyer (présent)", en: "aboyer (present)" } } }
+  - { id: s38, target: "À quinze ans, on veut être plus autonome.", native: { nl: "Op je vijftiende wil je zelfstandiger zijn.", en: "At fifteen, you want to be more independent." }, items: [fr.autonome] }
+  - { id: s39, target: "J'achète mes légumes au marché local.", native: { nl: "Ik koop mijn groenten op de plaatselijke markt.", en: "I buy my vegetables at the local market." }, items: [fr.local] }
+  - { id: s40, target: "Tu vois le piéton ? Laisse-le passer.", native: { nl: "Zie je de voetganger? Laat hem oversteken.", en: "Can you see the pedestrian? Let him cross." }, items: [fr.pieton], build: true }
+  - { id: s41, target: "J'ai vu le maire et je lui ai parlé du carrefour.", native: { nl: "Ik heb de burgemeester gezien en met hem over het kruispunt gepraat.", en: "I saw the mayor and talked to him about the crossroads." }, items: [fr.carrefour], build: true }
+  - { id: s42, target: "Les touristes sont perdus : je leur montre la direction du port.", native: { nl: "De toeristen zijn verdwaald: ik wijs hun de richting naar de haven.", en: "The tourists are lost: I show them the way to the harbour." }, items: [fr.direction, fr.port] }
+texts: [fr-b1-t15]

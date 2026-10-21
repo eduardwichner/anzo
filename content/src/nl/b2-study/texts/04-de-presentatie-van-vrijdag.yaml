@@ -1,0 +1,43 @@
+id: nl-b2-study-t04
+kind: dialogue
+title: { en: "Friday's presentation" }
+topic: Giving a presentation (two fellow students prepare a group presentation)
+level: B2
+speakers: { A: { name: Jonas }, B: { name: Amira } }
+turns:
+  - { id: nl-b2-study-t04-s01, speaker: A, target: "Amira, we moeten onze presentatie over de fiets in Vlaanderen nog verdelen. Heb je even tijd?", native: { en: "Amira, we still have to divide up our presentation on cycling in Flanders. Have you got a moment?" } }
+  - { id: nl-b2-study-t04-s02, speaker: B, target: "Ja hoor. Ik heb de dia's gisteren al gemaakt. Het zijn er twaalf, met een paar grafieken en foto's.", native: { en: "Yes, sure. I made the slides yesterday. There are twelve, with a few graphs and photos." } }
+  - { id: nl-b2-study-t04-s03, speaker: A, target: "Twaalf dia's voor tien minuten? Dat lijkt me veel. Volgens de docent moet je ongeveer één minuut per dia rekenen.", native: { en: "Twelve slides for ten minutes? That seems a lot to me. According to the lecturer you should allow about one minute per slide." } }
+  - { id: nl-b2-study-t04-s04, speaker: B, target: "Je hebt gelijk. Ik kan van de twee dia's met cijfers één grafiek maken.", native: { en: "You're right. I can make one graph out of the two slides with figures." } }
+  - { id: nl-b2-study-t04-s05, speaker: A, target: "Goed idee. Zal ik de inleiding doen? Dan begin ik met een vraag aan het publiek: wie is vandaag met de fiets gekomen?", native: { en: "Good idea. Shall I do the introduction? Then I'll start with a question to the audience: who came by bike today?" } }
+  - { id: nl-b2-study-t04-s06, speaker: B, target: "Leuk, zo heb je meteen hun aandacht. Ik doe dan het deel over de fietspaden en de veiligheid.", native: { en: "Nice, that way you have their attention straight away. Then I'll do the part on cycle paths and safety." } }
+  - { id: nl-b2-study-t04-s07, speaker: A, target: "En het besluit? Dat moet bondig zijn, met de drie belangrijkste punten.", native: { en: "And the conclusion? That has to be brief, with the three most important points." } }
+  - { id: nl-b2-study-t04-s08, speaker: B, target: "Dat doen we samen. Maar ik heb één probleem: als ik zenuwachtig ben, spreek ik veel te snel.", native: { en: "We'll do that together. But I have one problem: when I'm nervous, I speak much too fast." } }
+  - { id: nl-b2-study-t04-s09, speaker: A, target: "Dat heb ik ook. Mijn zus geeft vaak presentaties, en zij zegt: lees je tekst nooit voor, maar gebruik trefwoorden.", native: { en: "So do I. My sister often gives presentations, and she says: never read out your text, but use keywords." } }
+  - { id: nl-b2-study-t04-s10, speaker: B, target: "En oogcontact, dat weet ik. Maar wat doen we als iemand een vraag stelt die we niet kunnen beantwoorden?", native: { en: "And eye contact, I know. But what do we do if someone asks a question we can't answer?" } }
+  - { id: nl-b2-study-t04-s11, speaker: A, target: "Dan zeggen we eerlijk dat we het niet weten en dat we het zullen opzoeken. Dat is beter dan iets verzinnen.", native: { en: "Then we say honestly that we don't know and that we'll look it up. That's better than making something up." } }
+  - { id: nl-b2-study-t04-s12, speaker: B, target: "Afgesproken. Zullen we morgen na het werkcollege samen oefenen? Hardop, met de laptop, in een leeg lokaal.", native: { en: "Agreed. Shall we practise together tomorrow after the seminar? Out loud, with the laptop, in an empty classroom." } }
+  - { id: nl-b2-study-t04-s13, speaker: A, target: "Goed. Hoe vaker we oefenen, hoe rustiger we vrijdag zullen zijn.", native: { en: "Good. The more often we practise, the calmer we'll be on Friday." } }
+  - { id: nl-b2-study-t04-s14, speaker: B, target: "Dan zie ik je morgen om vier uur, Jonas. Ik breng koffie mee!", native: { en: "Then I'll see you tomorrow at four, Jonas. I'll bring coffee!" } }
+glossary:
+  - { word: presentatie, native: { en: "presentation (de presentatie)" } }
+  - { word: publiek, native: { en: "audience (het publiek)" } }
+  - { word: lokaal, native: { en: "room, classroom (het lokaal)" } }
+  - { word: besluit, native: { en: "conclusion (of a talk or text; Belgian)" } }
+  - { word: rekenen, native: { en: "to allow, to reckon (here)" } }
+items: [nl.dia, nl.bondig, nl.trefwoord, nl.voorlezen, nl.oogcontact, nl.hardop]
+questions:
+  - { id: nl-b2-study-t04-q1, type: summary, options: ["Twee studenten verdelen het werk voor hun presentatie en geven elkaar tips om rustig en duidelijk te presenteren.", "Twee studenten klagen bij hun docent dat de presentatie te kort is.", "Een student legt aan een medestudent uit hoe je een fiets herstelt."], correct: 0 }
+  - { id: nl-b2-study-t04-q2, type: mc, question: "Waarom vindt Jonas twaalf dia's te veel?", options: ["De presentatie duurt maar tien minuten.", "De dia's zijn te ingewikkeld.", "Er staan te veel foto's op."], correct: 0 }
+  - { id: nl-b2-study-t04-q3, type: true_false_notgiven, statement: "Amira spreekt te snel als ze zenuwachtig is.", answer: true }
+  - { id: nl-b2-study-t04-q4, type: true_false_notgiven, statement: "Jonas wil de hele presentatie alleen geven.", answer: false }
+  - { id: nl-b2-study-t04-q5, type: true_false_notgiven, statement: "De docent geeft extra punten voor oogcontact.", answer: not_given }
+listeningQuestions:
+  - { id: nl-b2-study-t04-l1, type: complete, statement: "De presentatie duurt ___ minuten.", answers: [tien, "10"] }
+  - { id: nl-b2-study-t04-l2, type: mc, question: "Wat doen ze als ze een vraag niet kunnen beantwoorden?", options: ["Ze zeggen eerlijk dat ze het niet weten.", "Ze verzinnen een antwoord.", "Ze vragen de docent om te helpen."], correct: 0 }
+openCloze:
+  - { sentence: nl-b2-study-t04-s03, word: per }
+  - { sentence: nl-b2-study-t04-s05, word: met }
+  - { sentence: nl-b2-study-t04-s11, word: dan }
+  - { sentence: nl-b2-study-t04-s13, word: hoe }
+orderable: false

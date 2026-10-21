@@ -1,0 +1,1715 @@
+# Dutch word list sources. npm run content:wordlist -- nl builds content/reference/extracted/wordlist-nl.json
+# from these groups, NT2Lex (content/reference/dutch/a1/NT2Lex-CGN-v01.tsv) and the attestations in the extracted
+# reference texts (Naar Nederland: Start/A1; CNaVT Maatschappelijk Informeel: A2). Method: content/src/nl/WORDLIST.md.
+#
+# Each group is one unit of the plan (content/src/nl/PLAN.md): level, theme, why (the written reason for the group —
+# Richtgraad 1 domain/task and what the references show), and its lemmas by part of speech:
+#   noun: "de kat/katten" (article/plural; "-" = no plural)   verb: "werken", separable "op|staan"
+#   adj, adv, pron, det, num, prep, conj, inter: the lemma    phrase: a fixed multi-word expression ("tot ziens")
+# moved: why a lemma sits at another level than NT2Lex's first-observed level (needed when the level is LOWER than NT2Lex
+# and the lemma is not attested in a reference at or below it, or HIGHER than NT2Lex); reasons: per-lemma reasons.
+# alsoNL: Belgian standard form taught → the Netherlands form, shown to the learner as a note.
+# regional: Netherlands-only words and realia from the references, tagged regional: nl and never taught as core vocabulary.
+
+names: [Danca, Benali, Linde, Brussel-Zuid, Sofie, Sara, Tom, Lisa, Jan, Ahmed, Maria, Pieter, Emma, Lucas, Nina, Karim, Anna, Marc, Els, Bram, Lien, Ali, Fatima, Johan, Peeters, Janssens, Maes, Jacobs, Mertens, Willems, Claes, Wouters, Smets, Dubois,
+  Gent, Antwerpen, Brussel, Brugge, Leuven, Mechelen, Hasselt, Oostende, België, Vlaanderen, Wallonië, Nederland, Amsterdam,
+  Engeland, Frankrijk, Duitsland, Spanje, Italië, Polen, Roemenië, Turkije, Marokko, Amerika, Europa, Ardennen, VDAB, Sinterklaas, Sarah, Leila, Ines, Samira, Lotte, Hugo, Wout, CAW, Ilias, Katrien, Femke, Elif, Jef, Lies, Yonas, Nathalie, Ellen, Bart, Venetië, Barcelona, Zeebrugge, Zwitserland, Darwin, Arjun, Wim, Karin, Luc, Hanne, Jonas, Amira, Koen, Leen]
+
+alsoNL:
+  paper: het werkstuk
+  aula: de collegezaal
+  arbeidsgeneesheer: de bedrijfsarts
+  serre: de kas
+  gsm: mobiel
+  praline: bonbon
+  fitness: de sportschool
+  frietjes: patat
+  voormiddag: ochtend
+  namiddag: middag
+  zetel: bank
+  hemd: overhemd
+  kleed: jurk
+  job: baan
+  boekentas: schooltas
+  brooddoos: broodtrommel
+  speelplaats: schoolplein
+  rondpunt: rotonde
+  voetpad: stoep
+  parking: parkeerplaats
+  confituur: jam
+  proficiat: gefeliciteerd
+  kasticket: kassabon
+  bankkaart: pinpas
+  oudercontact: ouderavond
+  ziekenwagen: ambulance
+  woonlening: de hypotheek
+  huurwaarborg: de borg
+  rijhuis: het rijtjeshuis
+  energiefactuur: de energierekening
+  appartementsgebouw: het appartementencomplex
+  bouwgrond: de bouwkavel
+  verkaveling: de nieuwbouwwijk
+  schatting: de taxatie
+  woonzorgcentrum: het verzorgingshuis
+  kredietkaart: de creditcard
+  reeks: de serie
+  rusthuis: het bejaardenhuis
+  flitspaal: de flitser
+  aanwerven: aannemen
+  kandidatuur: de sollicitatie
+  personeelsdienst: de personeelsafdeling
+  in bijlage: bijgevoegd
+  werkpost: de werkplek
+  vervaldag: de vervaldatum
+  loonbrief: de loonstrook
+  blokken: stampen
+  kot: de studentenkamer
+  voorschrift: recept
+  solden: uitverkoop
+  uurrooster: rooster
+  beenhouwer: slager
+  vuilbak: vuilnisbak
+  bediende: kantoormedewerker
+  spoed: eerste hulp
+  'kwart na': 'kwart over'
+  proper: schoon
+  poetsvrouw: schoonmaakster
+  turnles: gymles
+  ziekenfonds: zorgverzekeraar
+  mutualiteit: zorgverzekeraar
+  # B1
+  doktersattest: de doktersverklaring
+  syndicus: de beheerder
+  onthaal: de receptie
+  raadpleging: het spreekuur
+  wachtdienst: de huisartsenpost
+  remgeld: de eigen bijdrage
+  kinesist: de fysiotherapeut
+  verwittigen: laten weten
+  schepen: de wethouder
+  wegenwerken: de wegwerkzaamheden
+  ocmw: de sociale dienst
+  zichtrekening: de betaalrekening
+  domiciliëring: de automatische incasso
+  intrest: de rente
+  biljet: het bankbiljet
+  recycleren: recyclen
+  reservatie: de reservering
+  lidgeld: de contributie
+  kader: het frame
+  koppel: het stel
+  politiekantoor: het politiebureau
+  ophaling: de inzameling
+  lidkaart: de ledenpas
+  bedrijfswagen: de auto van de zaak
+  werf: de bouwplaats
+  turnzaal: de gymzaal
+  toog: de bar
+
+regional:
+  - { word: ov-chipkaart, ref: "nn-werkboek les 51" }
+  - { word: Randstad, ref: "nn-werkboek les 54" }
+  - { word: DigiD, ref: "brief: Netherlands government login" }
+  - { word: pinnen, ref: "nn-werkboek les 53 (BE: met de kaart betalen)" }
+  - { word: pinpas, ref: "nn-werkboek les 53 (BE: bankkaart)" }
+  # pincode: the PIN of a Belgian bank card too (Belgian standard): no longer regional; taught at B1
+  - { word: pinautomaat, ref: "BE: bankautomaat" }
+  - { word: patat, ref: "nn-werkboek les 53 (BE: frietjes)" }
+  - { word: consultatiebureau, ref: "nn-fotoboek vraag 90 (BE: Kind en Gezin)" }
+  - { word: huisartsenpost, ref: "nn-fotoboek vraag 89 (BE: wachtdienst)" }
+  - { word: Koningsdag, ref: "nn-werkboek les 55" }
+  - { word: 9292ov, ref: "nn-werkboek les 49" }
+  - { word: groep, ref: "nn-werkboek les 38: groep zeven (school year; BE: leerjaar)" }
+  - { word: zorgverzekering, ref: "nn-fotoboek vraag 84 (BE: ziekenfonds)" }
+  - { word: ziektekostenverzekering, ref: "nn-fotoboek vraag 84" }
+  - { word: Tweede Kamer, ref: "nn-fotoboek vraag 44" }
+  - { word: Schiphol, ref: "nn-fotoboek vraag 15" }
+  # uitkering: Belgian standard too (the RVA pays a werkloosheidsuitkering): no longer regional; taught at B1
+  - { word: UWV, ref: "Netherlands employment agency (BE: VDAB)" }
+  - { word: DUO, ref: "Netherlands exam agency" }
+  # inburgering: Flemish civic integration is inburgering too (Agentschap Integratie en Inburgering): no longer regional; taught at B1
+  - { word: mobiel, ref: "nn-werkboek les 21 (BE: gsm)" }
+  - { word: kassabon, ref: "BE: kasticket" }
+  - { word: bonnetje, ref: "nn-werkboek les 53 (BE: kasticket)" }
+  - { word: stoep, ref: "BE: voetpad" }
+  - { word: rotonde, ref: "BE: rondpunt" }
+  - { word: broodtrommel, ref: "BE: brooddoos" }
+  - { word: schoolplein, ref: "BE: speelplaats" }
+  - { word: ouderavond, ref: "BE: oudercontact" }
+
+groups:
+# ======================================================= Start (Pre-A1) =======================================================
+  - id: s01-greetings
+    level: Start
+    theme: Greetings and politeness
+    why: >-
+      Richtgraad 1 (register appendix: Hallo / Dag, goedemorgen, goedenavond; Bedankt, dank je / Dank u wel;
+      Alsjeblieft / Alstublieft) and Naar Nederland les 21 (Dag mevrouw, Goedemiddag); everyday contact in Flanders.
+    inter: [hallo, dag, ja, nee, oké, sorry, pardon, bedankt]
+    phrase: [goedemorgen, goedemiddag, goedenavond, goedenacht, tot ziens, tot straks, tot morgen, dank u wel, dank je wel, alstublieft, alsjeblieft, welkom, hoe gaat het]
+    noun: [de meneer/meneren, de mevrouw/mevrouwen]
+    adj: [goed]
+    adv: [graag, prima]
+  - id: s02-introducing
+    level: Start
+    theme: Introducing yourself
+    why: >-
+      Richtgraad 1 domain persoonlijk (personal details, origin, languages); Naar Nederland les 21 (Wat is uw naam?
+      Waar woont u?) and CNaVT INFO (personalia: naam, woonplaats).
+    noun: [de naam/namen, de voornaam/voornamen, de achternaam/achternamen, het land/landen, de stad/steden, het adres/adressen, de straat/straten, het nummer/nummers, de taal/talen, het Nederlands/-, het Engels/-, het Frans/-]
+    verb: [zijn, heten, wonen, komen, spreken, leren]
+    prep: [uit, in, van]
+    adj: [Belgisch]
+    adv: [een beetje, vandaan]
+  - id: s03-numbers
+    level: Start
+    theme: Numbers to twenty, age, phone numbers
+    why: >-
+      Naar Nederland les 21–22 (nul … twintig, Hoe oud zijn ze?, telefoonnummer) and Richtgraad 1 (personalia,
+      giving a phone number); NT2Lex A1 numbers.
+    num: [nul, één, twee, drie, vier, vijf, zes, zeven, acht, negen, tien, elf, twaalf, dertien, veertien, vijftien, zestien, zeventien, achttien, negentien, twintig]
+    noun: [het jaar/jaren, het telefoonnummer/telefoonnummers, de gsm/gsm's, de euro/euro's]
+    adj: [oud, jong]
+    adv: [hoeveel]
+  - id: s04-family
+    level: Start
+    theme: Family
+    why: >-
+      Richtgraad 1 domain persoonlijk, role opvoeder (the learner's own family and children); Naar Nederland les 22, 28,
+      36 (gezin, zoon, dochter, ouders); CNaVT INFO (familiefeest, nicht, oom).
+    noun: [de familie/families, het gezin/gezinnen, de man/mannen, de vrouw/vrouwen, het kind/kinderen, de zoon/zonen, de dochter/dochters, de moeder/moeders, de vader/vaders, de ouder/ouders, de broer/broers, de zus/zussen, de baby/baby's, de jongen/jongens, het meisje/meisjes, de vriend/vrienden, de vriendin/vriendinnen, de partner/partners]
+    verb: [hebben]
+    adj: [getrouwd, alleen]
+  - id: s05-pronouns
+    level: Start
+    theme: Me, you and questions
+    why: >-
+      Grammar of the Start level (personal pronouns, yes/no and w-questions, niet/geen — content/src/nl/PLAN.md);
+      Naar Nederland les 22 (Ik ben Tom. Jij bent Isabel. Hij is daar.) and the EXTRA boxes; NT2Lex A1 function words.
+    pron: [ik, mij, me, jij, je, jou, u, hij, hem, zij, ze, wij, we, jullie]
+    det: [mijn, jouw, uw, de, het, een, geen, welk, dit, dat]
+    adv: [wie, wat, waar, wanneer, hoe, waarom, niet, ook, hier, daar, nu, heel]
+    conj: [en, of, maar]
+  - id: s06-home
+    level: Start
+    theme: At home
+    why: >-
+      Richtgraad 1 role beheerder huisvesting (describing one's home); Naar Nederland les 23 (Ons huis: woonkamer,
+      keuken, slaapkamer, badkamer, trap); NT2Lex A1 (huis, kamer, keuken, tuin, deur). zetel is the Belgian standard word
+      for a sofa (alsoNL bank), chosen over bank to keep bank (the bank, the bench) apart.
+    noun: [het huis/huizen, het appartement/appartementen, de kamer/kamers, de keuken/keukens, de badkamer/badkamers, de slaapkamer/slaapkamers, de woonkamer/woonkamers, het toilet/toiletten, de tuin/tuinen, de deur/deuren, het raam/ramen, de tafel/tafels, de stoel/stoelen, het bed/bedden, de zetel/zetels, de kast/kasten, de trap/trappen, de lamp/lampen]
+    adj: [groot, klein, mooi, nieuw]
+  - id: s07-food
+    level: Start
+    theme: Food and drink
+    why: >-
+      Richtgraad 1 role consument and sociocultural appendix (Waaruit bestaat een alledaagse maaltijd? Wat wordt er
+      gedronken?); Naar Nederland les 26 (Eten en drinken: broodje kaas, soep, melk, ontbijt); CNaVT INFO (menu, hapjes).
+      frietjes is the Belgian word (alsoNL patat).
+    noun: [het eten/-, het brood/broden, de boterham/boterhammen, het broodje/broodjes, de kaas/kazen, de boter/-, het ei/eieren, de melk/-, het water/-, de koffie/-, de thee/-, het bier/bieren, de wijn/wijnen, de soep/soepen, het fruit/-, de appel/appels, de banaan/bananen, de groente/groenten, het vlees/-, de vis/vissen, de kip/kippen, de frietjes/-, het glas/glazen, de honger/-, de dorst/-]
+    verb: [eten, drinken]
+    adj: [lekker]
+  - id: s08-days
+    level: Start
+    theme: Days and parts of the day
+    why: >-
+      Richtgraad 1 (appointments, opening hours, everyday routine); Naar Nederland les 25 (De dagen van de week, de
+      agenda, 's ochtends 's middags 's avonds); voormiddag and namiddag are the Belgian standard words (alsoNL ochtend,
+      middag).
+    noun: [de dag/dagen, de week/weken, het weekend/weekends, de ochtend/ochtenden, de voormiddag/voormiddagen, de middag/middagen, de namiddag/namiddagen, de avond/avonden, de nacht/nachten, het uur/uren]
+    day: [maandag, dinsdag, woensdag, donderdag, vrijdag, zaterdag, zondag]
+    adv: [vandaag, morgen, vroeg, laat, straks, altijd, soms, thuis]
+    phrase: ["'s morgens", "'s middags", "'s avonds", "'s nachts"]
+  - id: s09-town
+    level: Start
+    theme: Places in town
+    why: >-
+      Richtgraad 1 domain publiek (shops, the station, the doctor, the school); Naar Nederland les 34 (winkelcentrum,
+      kerk), CNaVT INFO (station, café, restaurant, park); NT2Lex A1 (winkel, supermarkt, station, school).
+    noun: [de winkel/winkels, de supermarkt/supermarkten, de bakker/bakkers, de markt/markten, de bank/banken, de apotheek/apotheken, het station/stations, de bus/bussen, de bushalte/bushaltes, de school/scholen, het ziekenhuis/ziekenhuizen, de dokter/dokters, het café/cafés, het restaurant/restaurants, het park/parken, de kerk/kerken]
+    verb: [gaan]
+    prep: [naar, bij, met, op, voor, aan]
+    adv: [naartoe]
+  - id: s10-clothes
+    level: Start
+    theme: Colours and clothes
+    why: >-
+      Richtgraad 1 role consument (shop: andere kleur, maat); Naar Nederland les 43 (broek, schoenen, blauwe broek);
+      NT2Lex A1 (rood, blauw, wit, jas, broek, kleed). kleed (dress) and hemd (shirt) are the Belgian standard words
+      (alsoNL jurk, overhemd); NT2Lex A1 attests kleed 41 times.
+    noun: [de kleur/kleuren, de broek/broeken, de jas/jassen, het hemd/hemden, de trui/truien, de rok/rokken, het kleed/kleden, de schoen/schoenen, de sok/sokken]
+    adj: [rood, blauw, groen, geel, zwart, wit, bruin, grijs, oranje, roze]
+    verb: [dragen]
+  - id: s11-doing
+    level: Start
+    theme: What do you do?
+    why: >-
+      Grammar of the Start level (present tense of regular verbs); Richtgraad 1 roles werkende, cursist,
+      vrijetijdsbesteder; Naar Nederland les 25–27 (werken, leren, lezen, schrijven, luisteren, koken); NT2Lex A1 verbs.
+    verb: [werken, lezen, schrijven, luisteren, kijken, zien, slapen, koken, fietsen, wandelen, betalen, kopen, doen, maken, zoeken, helpen, wachten, spelen, studeren]
+    noun: [het werk/-, het boek/boeken, de krant/kranten, de muziek/-, de film/films]
+  - id: s12-how
+    level: Start
+    theme: How are you? Describing things
+    why: >-
+      Richtgraad 1 (expressing one's feelings and needs, describing things); Naar Nederland les 29 (ziek, beter),
+      les 24 (koud, warm); CNaVT INFO (moe, verdrietig); NT2Lex A1 adjectives (blij, leuk, ziek, moe).
+    adj: [slecht, blij, moe, ziek, druk, rustig, leuk, duur, goedkoop, koud, warm, lang, kort, snel, langzaam]
+    adv: [erg, veel, weinig, te, zo]
+  - id: s13-phone
+    level: Start
+    theme: Calling and messages
+    why: >-
+      Richtgraad 1 role consument (telephone provider example task), the phone in everyday contact; Naar Nederland
+      les 21 (telefoon, mobiel nummer), les 41 (bellen of schrijven); gsm is the Belgian standard word (alsoNL mobiel).
+    verb: [bellen, sturen, antwoorden, vragen, zeggen]
+    noun: [het bericht/berichten, de computer/computers, de e-mail/e-mails, het internet/-, de foto/foto's, de vraag/vragen, het antwoord/antwoorden]
+# ============================================================ A1 ============================================================
+  - id: a01-numbers
+    level: A1
+    theme: Numbers to a thousand, order
+    why: >-
+      Grammar of A1 (numbers to 1000); Naar Nederland les 22 (dertig … honderd), les 42 (eerste, tweede verdieping),
+      les 59 (prices); CNaVT INFO (prices, ages, addresses).
+    num: [dertig, veertig, vijftig, zestig, zeventig, tachtig, negentig, honderd, duizend, eerste, tweede, derde, vierde, vijfde, laatste]
+    noun: [de helft/helften, het getal/getallen]
+    adv: [ongeveer, precies, samen, meer, minder]
+  - id: a02-money
+    level: A1
+    theme: Money and prices
+    why: >-
+      Richtgraad 1 role consument (prices, paying); Naar Nederland les 43 (euro's, briefje van vijftig, eurocent, de
+      portemonnee), les 53 (betalen), les 59 (Hoeveel kost dat?); CNaVT INFO (prices, kassa). bankkaart and kasticket
+      are the Belgian words (alsoNL pinpas, kassabon).
+    noun: [het geld/-, de cent/centen, de prijs/prijzen, de kassa/kassa's, de bankkaart/bankkaarten, het kasticket/kastickets, de portemonnee/portemonnees, de korting/kortingen, het briefje/briefjes]
+    verb: [kosten, geven, krijgen, nemen, tellen]
+    adj: [gratis]
+    adv: [cash, terug]
+    phrase: [hoeveel kost]
+  - id: a03-clock
+    level: A1
+    theme: The time and appointments
+    why: >-
+      Richtgraad 1 (making an appointment, opening hours); Naar Nederland les 25 (de klok: kwart over, half twee; het
+      kwartier, de minuut; de agenda), les 35 (een afspraak maken, op tijd komen). kwart na is the usual Belgian form
+      (alsoNL kwart over).
+    noun: [de afspraak/afspraken, de minuut/minuten, het kwartier/kwartieren, de seconde/seconden, de agenda/agenda's, de klok/klokken, de tijd/tijden]
+    adj: [half]
+    phrase: [kwart na, kwart voor, hoe laat, op tijd]
+    prep: [om, na, tot, vanaf]
+    verb: [beginnen, stoppen, duren, af|spreken]
+    adv: [eerst, dan, daarna, meestal]
+  - id: a04-groceries
+    level: A1
+    theme: Groceries
+    why: >-
+      Richtgraad 1 role consument and sociocultural appendix (meals); Naar Nederland les 34 (boodschappen: vers brood,
+      eieren, vis, groente en fruit), les 26 (aardappelen, groente); CNaVT INFO (salade, rijst, pasta, kruiden).
+      confituur is the Belgian word (alsoNL jam).
+    noun: [de boodschap/boodschappen, de aardappel/aardappelen, de tomaat/tomaten, de ui/uien, de wortel/wortels, de sla/-, de rijst/-, de pasta/pasta's, de peer/peren, de sinaasappel/sinaasappels, de citroen/citroenen, de suiker/-, het zout/-, de confituur/confituren, de chocolade/-, de taart/taarten, het koekje/koekjes, het sap/sappen, de cola/cola's, het ontbijt/ontbijten, de lunch/lunches, het avondeten/-]
+    verb: [ontbijten]
+    prep: [zonder]
+  - id: a05-shop
+    level: A1
+    theme: At the market and the bakery
+    why: >-
+      Richtgraad 1 role consument (asking for a product, quantity, price); Naar Nederland les 59 (Hoeveel kosten die
+      bloemen? twee bossen), les 34; CNaVT INFO (folder: per stuk, liter, pot). beenhouwer is the Belgian word (alsoNL slager).
+    noun: [de kilo/kilo's, de gram/gram, de liter/liters, het stuk/stukken, het pak/pakken, de fles/flessen, de zak/zakken, de doos/dozen, de beenhouwer/beenhouwers, de klant/klanten, de verkoper/verkopers, de bloem/bloemen]
+    verb: [willen, wensen, kiezen]
+    adj: [vers, zwaar, licht, vriendelijk]
+    phrase: [nog iets, dat is alles]
+    adv: [zeker]
+  - id: a06-body
+    level: A1
+    theme: The body
+    why: >-
+      Naar Nederland les 35 (het lichaam: hoofd, oog, oor, mond, schouders, arm, rug, buik, hand, been, knie, voet);
+      Richtgraad 1 role patiënt; NT2Lex A1 (hoofd, hand, voet, oog).
+    noun: [het lichaam/lichamen, het hoofd/hoofden, het haar/haren, het oog/ogen, het oor/oren, de neus/neuzen, de mond/monden, de tand/tanden, de keel/kelen, de arm/armen, de hand/handen, de vinger/vingers, de schouder/schouders, de rug/ruggen, de buik/buiken, het been/benen, de knie/knieën, de voet/voeten]
+  - id: a07-doctor
+    level: A1
+    theme: At the doctor's
+    why: >-
+      Richtgraad 1 role patiënt (notes for the doctor, the doctor's explanation, medication); Naar Nederland les 29
+      (ziek geweest, pijn in mijn hoofd, de apotheek, medicijnen), les 35 (huisarts, spreekuur, wachtkamer); CNaVT INFO
+      (koorts, hoofdpijn, keelpijn, griep).
+    noun: [de pijn/pijnen, de last/-, de hoofdpijn/-, de buikpijn/-, de keelpijn/-, de koorts/-, de griep/-, de huisarts/huisartsen, de wachtkamer/wachtkamers, het medicijn/medicijnen, de pil/pillen, de apotheker/apothekers, de verpleegkundige/verpleegkundigen]
+    verb: [voelen, rusten]
+    adj: [gezond, beter, ernstig]
+    phrase: [beterschap]
+  - id: a08-transport
+    level: A1
+    theme: By bus and train
+    why: >-
+      Richtgraad 1 roles verkeersgebruiker and consument (asking the driver to warn at the stop, tickets); Naar Nederland
+      les 30 (auto, bus, fiets, file), les 50 (de trein, de conducteur, overstappen, het perron); CNaVT INFO (bus 300,
+      kaartje, uitstappen, station).
+    noun: [de trein/treinen, de tram/trams, de metro/metro's, de auto/auto's, de fiets/fietsen, het vliegtuig/vliegtuigen, de halte/haltes, het perron/perrons, het spoor/sporen, het ticket/tickets, het abonnement/abonnementen, de chauffeur/chauffeurs, de reis/reizen, de file/files]
+    verb: [rijden, op|stappen, uit|stappen, over|stappen, vertrekken, aan|komen, reizen]
+    adj: [vol]
+  - id: a09-directions
+    level: A1
+    theme: Asking the way
+    why: >-
+      Richtgraad 1 (asking and giving directions; noting directions to a party); Naar Nederland les 34 (tweede straat
+      links, rechtdoor, voorbij de kerk, rechtsaf), les 60 (de weg wijzen); rondpunt and voetpad are the Belgian words
+      (alsoNL rotonde, stoep).
+    noun: [de weg/wegen, de hoek/hoeken, het kruispunt/kruispunten, het rondpunt/rondpunten, het verkeerslicht/verkeerslichten, de brug/bruggen, het plein/pleinen, het voetpad/voetpaden, de parking/parkings, de kaart/kaarten]
+    adv: [links, rechts, rechtdoor, ver, dichtbij]
+    prep: [naast, tegenover, achter, tussen, langs, over, door]
+    verb: [wijzen, vinden, over|steken]
+  - id: a10-day
+    level: A1
+    theme: My day
+    why: >-
+      Grammar of A1 (separable verbs, inversion: Eerst ga ik douchen); Naar Nederland les 27 (Zo begint de dag: uit bed,
+      douchen, schone kleren aantrekken, ontbijt, vertrekken), les 43 (aantrekken, opruimen); Richtgraad 1 (day schedule).
+    verb: [op|staan, worden, douchen, wassen, aan|kleden, aan|trekken, uit|trekken, op|ruimen, schoon|maken, af|wassen, weg|gaan, thuis|komen, terug|komen]
+    noun: [de douche/douches, de wekker/wekkers, de tandenborstel/tandenborstels, de kleren/-]
+    adj: [wakker, klaar]
+    phrase: [elke dag]
+  - id: a11-living
+    level: A1
+    theme: Housing
+    why: >-
+      Richtgraad 1 role beheerder huisvesting (wishes for a new home at the immokantoor, calling the landlord, a removal
+      firm); Naar Nederland les 23 (verdieping, ruimte), les 59 (een woning huren, een vast bedrag per maand); NT2Lex A1
+      (appartement, huur, huren, verhuizen, buur).
+    noun: [de woning/woningen, de huur/huren, de huisbaas/huisbazen, de buur/buren, de buurt/buurten, de verdieping/verdiepingen, de lift/liften, de garage/garages, de kelder/kelders, de zolder/zolders, het balkon/balkons, de muur/muren, de vloer/vloeren, de sleutel/sleutels, de verwarming/verwarmingen, het licht/lichten, de koelkast/koelkasten]
+    verb: [huren, verhuizen, zetten, leggen, hangen, staan, liggen, zitten]
+    adj: [ruim, donker, proper, vuil]
+  - id: a12-work
+    level: A1
+    theme: At work
+    why: >-
+      Richtgraad 1 roles werkende and werkzoekende (telling about one's job, work experience); Naar Nederland les 42
+      (Wat doe jij voor werk? schilder, bank, het netwerk), les 25 (lerares, school, bank); NT2Lex A1 (werk, baas,
+      collega, kantoor, fabriek). job is the Belgian standard word (alsoNL baan).
+    noun: [de job/jobs, de collega/collega's, de baas/bazen, het kantoor/kantoren, de fabriek/fabrieken, het bedrijf/bedrijven, de les/lessen, de leraar/leraren, de poetsvrouw/poetsvrouwen, de schilder/schilders, de kok/koks, de verkoopster/verkoopsters, de bouw/-, het beroep/beroepen, de pauze/pauzes, het uurrooster/uurroosters]
+    verb: [verdienen, poetsen, sorteren]
+    adj: [moeilijk, makkelijk, interessant, vrij]
+  - id: a13-school
+    level: A1
+    theme: The children's school
+    why: >-
+      Richtgraad 1 role opvoeder (a proposal to the teacher, the school bill, school regulations); Naar Nederland les 37
+      (naar school, rekenen, taal), les 25 (juf Maria, de school begint om half negen); boekentas, brooddoos and
+      speelplaats are the Belgian words (alsoNL schooltas, broodtrommel, schoolplein).
+    noun: [de juf/juffen, de meester/meesters, de leerkracht/leerkrachten, de klas/klassen, de leerling/leerlingen, het huiswerk/-, het rapport/rapporten, de boekentas/boekentassen, de brooddoos/brooddozen, de speelplaats/speelplaatsen, de vakantie/vakanties, de turnles/turnlessen, het schrift/schriften, de pen/pennen, het potlood/potloden]
+    verb: [brengen, halen, op|halen, rekenen, tekenen, zingen, oefenen]
+  - id: a14-weather
+    level: A1
+    theme: Weather, seasons and months
+    why: >-
+      Richtgraad 1 (weather forecast: deciding when to go out); Naar Nederland les 24 (De seizoenen: januari, winter,
+      lente, het regent, nat en donker, de kalender); CNaVT INFO (fietsen in de regen, zon, zonnebril).
+    noun: [het weer/-, de zon/-, de regen/-, de wind/winden, de sneeuw/-, de wolk/wolken, de lente/lentes, de zomer/zomers, de herfst/herfsten, de winter/winters, de maand/maanden, de paraplu/paraplu's, de graad/graden]
+    month: [januari, februari, maart, april, mei, juni, juli, augustus, september, oktober, november, december]
+    verb: [regenen, sneeuwen, waaien, schijnen]
+    adj: [nat, droog]
+  - id: a15-leisure
+    level: A1
+    theme: Free time
+    why: >-
+      Richtgraad 1 role vrijetijdsbesteder (a soap, the news, going out, a short story); Naar Nederland les 56 (Vrije
+      tijd: muziek, lezen, sport, fietsen, voetballen, wandelen, zwemmen), les 52 (uitgaan: restaurant, concert,
+      bioscoop); CNaVT INFO (blog: favoriete restaurant, hobby, weekend).
+    noun: [de vrije tijd/-, de hobby/hobby's, de sport/sporten, het voetbal/-, het zwembad/zwembaden, de bioscoop/bioscopen, het concert/concerten, het museum/musea, de televisie/televisies, het spel/spelen, de zee/zeeën, het strand/stranden, het bos/bossen]
+    verb: [sporten, zwemmen, lopen, dansen, uit|gaan, bezoeken]
+    adj: [favoriet, saai]
+  - id: a16-clothes-shop
+    level: A1
+    theme: Buying clothes
+    why: >-
+      Richtgraad 1 role consument (a bigger or smaller size, another colour); Naar Nederland les 43 (Nieuwe spullen:
+      schoenen, de goede maat), les 53 (deze broek en dat overhemd, combinatie); NT2Lex A1 (passen, jas, t-shirt).
+    noun: [de maat/maten, de kledingwinkel/kledingwinkels, de paskamer/paskamers, de muts/mutsen, de sjaal/sjaals, de handschoen/handschoenen, de laars/laarzen, de tas/tassen, de bril/brillen]
+    verb: [passen, proberen, ruilen]
+    adj: [breed, smal, dun, dik]
+  - id: a17-town-hall
+    level: A1
+    theme: At the town hall
+    why: >-
+      Richtgraad 1 role burger and beheerder gezinsadministratie (letters from the gemeente, registering, forms);
+      Naar Nederland les 21 (inschrijven, postcode); the Flemish municipality as the learner's first public office.
+    noun: [het gemeentehuis/gemeentehuizen, de gemeente/gemeenten, het formulier/formulieren, de identiteitskaart/identiteitskaarten, de geboortedatum/geboortedata, de handtekening/handtekeningen, de postcode/postcodes, het loket/loketten, de brief/brieven, de postbode/postbodes, het pakje/pakjes]
+    verb: [in|vullen, in|schrijven]
+    adj: [nodig, belangrijk, open, dicht, gesloten]
+  - id: a18-party
+    level: A1
+    theme: A party
+    why: >-
+      Richtgraad 1 (an invitation and a reaction to it); Naar Nederland les 32 (jarig, een feestje geven), les 42
+      (Op bezoek: Kom binnen! cadeau, meegebracht); CNaVT INFO (verjaardag, uitnodiging, cadeau, taart). proficiat is the
+      Belgian standard word (alsoNL gefeliciteerd).
+    noun: [het feest/feesten, de verjaardag/verjaardagen, het cadeau/cadeaus, de uitnodiging/uitnodigingen, de kaars/kaarsen, de gast/gasten, het bezoek/bezoeken, de oma/oma's, de opa/opa's, de tante/tantes, de oom/ooms]
+    verb: [vieren, uit|nodigen, mee|brengen, binnen|komen, trouwen, feliciteren]
+    adj: [jarig, gezellig]
+    inter: [proficiat, gezondheid, smakelijk]
+  - id: a19-modals
+    level: A1
+    theme: Can, want, must
+    why: >-
+      Grammar of A1 (modal verbs; inversion; er); Naar Nederland les 40 EXTRA (willen, kunnen, moeten, mogen, zullen,
+      hoeven te), les 32 EXTRA (kan, kunt, kunnen); Richtgraad 1 tasks (modale werkwoorden).
+    verb: [kunnen, moeten, mogen, zullen, hoeven, weten, kennen, denken, geloven, hopen, begrijpen, verstaan]
+    adv: [er, misschien, natuurlijk, nog, al, pas, weer, toch, even]
+    phrase: [laten we]
+  - id: a20-mine
+    level: A1
+    theme: Mine and yours, when
+    why: >-
+      Grammar of A1 (possessives, time expressions); Naar Nederland les 35 EXTRA (mijn/m'n, jouw/je, zijn/z'n, haar,
+      onze, ons, jullie, hun); NT2Lex A1 function words.
+    det: [zijn, haar, ons, onze, hun, deze, die, elk, ieder, alle]
+    prep: [per, tegen]
+    pron: [iemand, niemand, iets, niets, alles, iedereen, elkaar]
+    adv: [vaak, nooit, bijna, gisteren, vorige, volgende, later, eens]
+    phrase: [vorige week, volgende week, elke week]
+    noun: [de keer/keren]
+# ============================================================ A2 ============================================================
+  - id: b01-yesterday
+    level: A2
+    moved: >-
+      geleden, toen and vertellen are NT2Lex A1 but belong to telling about the past, which A2 grammar introduces (perfect and imperfect; Richtgraad 1 Waystage: work experience told chronologically).
+    theme: Yesterday and last year
+    why: >-
+      Grammar of A2 (perfect tense with hebben/zijn, imperfect of common verbs); Richtgraad 1 (telling work experience
+      chronologically, a report of an outing); Naar Nederland les 31 EXTRA (Ik heb foto's gezien, Ik ben ziek geweest),
+      les 63 EXTRA; CNaVT INFO (Een dagje Rotterdam, Vertel eens iets over een feest).
+    adv: [geleden, toen, vroeger, ooit, net, onlangs, intussen, uiteindelijk, plotseling]
+    phrase: [vorig jaar, vorige maand, het voorbije weekend, de vorige keer]
+    verb: [gebeuren, vertellen, vergeten, onthouden, herinneren, terug|zien]
+    noun: [het verleden/-, de herinnering/herinneringen, het verhaal/verhalen, de ervaring/ervaringen]
+  - id: b02-bad-day
+    level: A2
+    moved: >-
+      probleem, vallen and missen are NT2Lex A1; here they serve the A2 story of a bad day in the past tense (CNaVT INFO set 2, Een vervelende dag).
+    theme: A bad day
+    why: >-
+      CNaVT INFO set 2 Deel C (Een vervelende dag: de bus was te laat, de kapper knipte mijn haar kapot, lang wachten aan
+      de kassa, de ober morste koffie, een dief, naar de politie, aangifte); Richtgraad 1 (a problem and a complaint;
+      feelings about a sad event).
+    noun: [de dief/dieven, de politie/-, de agent/agenten, de portefeuille/portefeuilles, de kapper/kappers, de ober/obers, de vlek/vlekken, het ongeluk/ongelukken, de pech/-, het probleem/problemen, de aangifte/aangiftes]
+    verb: [stelen, verliezen, vallen, breken, knippen, morsen, schrikken, missen, kwijt|raken]
+    adj: [kapot, kwijt, vervelend, gestolen, verloren]
+    phrase: [te laat]
+  - id: b03-house-problems
+    level: A2
+    moved: >-
+      kraan, lawaai, controleren and stil are NT2Lex A1; they are taught with the A2 task of calling the landlord about a problem in the home (Richtgraad 1 Waystage).
+    theme: Problems at home
+    why: >-
+      Richtgraad 1 role beheerder huisvesting (calling the landlord about a problem with the home; instructions to a
+      removal firm); NT2Lex A2 (lek, kraan, herstellen); technieker and herstelling are the Belgian words
+      (alsoNL monteur, reparatie).
+    noun: [het lek/lekken, de kraan/kranen, het stopcontact/stopcontacten, de technieker/techniekers, de loodgieter/loodgieters, de herstelling/herstellingen, de schade/-, het lawaai/-, de radiator/radiatoren, het dak/daken, de gang/gangen]
+    verb: [herstellen, repareren, lekken, klagen, op|lossen, controleren]
+    adj: [stil, luid, defect]
+  - id: b04-new-home
+    level: A2
+    moved: >-
+      berging and verhuren are NT2Lex A1; they belong to the A2 task of telling the immokantoor one's wishes for a new home (Richtgraad 1 Waystage).
+    theme: Looking for a home
+    why: >-
+      Richtgraad 1 (wishes for a new home at the immokantoor; describing a home in an e-mail; a zoekertje); NT2Lex A1–A2
+      (makelaar, huren, berging, rijtjeshuis); Naar Nederland les 59 (huren, een vast bedrag per maand). immokantoor and
+      zoekertje are the Belgian words (alsoNL makelaarskantoor, advertentie); huurwaarborg is Belgian (alsoNL borg).
+    noun: [het immokantoor/immokantoren, het zoekertje/zoekertjes, de huurprijs/huurprijzen, de waarborg/waarborgen, het contract/contracten, de huurder/huurders, de eigenaar/eigenaars, de rijwoning/rijwoningen, de studio/studio's, de oppervlakte/oppervlaktes, de berging/bergingen, het terras/terrassen]
+    verb: [bezichtigen, verhuren]
+    adj: [gemeubeld, centraal]
+  - id: b05-hospital
+    level: A2
+    theme: The doctor and the hospital
+    why: >-
+      Richtgraad 1 role patiënt (notes for the doctor; the doctor's explanation → a medication schedule for the
+      children); Naar Nederland les 35 (ziekenhuis, onderzoek, specialist, opgenomen), les 29; CNaVT INFO set 2
+      (reisapotheek). ziekenwagen, spoed and voorschrift are the Belgian words (alsoNL ambulance, eerste hulp, recept).
+    noun: [de specialist/specialisten, het onderzoek/onderzoeken, de ziekenwagen/ziekenwagens, de spoed/-, het voorschrift/voorschriften, de verpleger/verplegers, de patiënt/patiënten, de operatie/operaties, het ongeval/ongevallen, het bloed/-, het hart/harten, de wonde/wonden, de verkoudheid/verkoudheden, de allergie/allergieën]
+    verb: [onderzoeken, genezen, op|nemen, hoesten, bloeden, zorgen]
+    adj: [gebroken, verkouden, misselijk, dringend]
+  - id: b06-pharmacy
+    level: A2
+    moved: >-
+      tablet, maaltijd, gebruiken and leeg are NT2Lex A1; they are taught with the A2 reading of a travel-pharmacy leaflet (CNaVT INFO set 2, Eerste hulp op vakantie).
+    theme: At the pharmacy
+    why: >-
+      CNaVT INFO set 2 Deel B (Eerste hulp op vakantie: iets tegen pijn, hoofdpijn, maag, insecten, muggen, allergie,
+      zonnebrand, reisziekte, misselijk, koorts, keelpijn, spierpijn, op een lege maag, slaperig, autorijden);
+      Richtgraad 1 role patiënt.
+    noun: [de tablet/tabletten, de siroop/siropen, de zalf/zalven, de crème/crèmes, de maag/magen, de mug/muggen, de zonnebrand/-, de bijwerking/bijwerkingen, de dosis/dosissen, de verpakking/verpakkingen, de maaltijd/maaltijden]
+    verb: [in|nemen, gebruiken, smeren, slikken]
+    adj: [slaperig, leeg]
+  - id: b07-job-search
+    level: A2
+    theme: Looking for work
+    why: >-
+      Richtgraad 1 roles werkzoekende (preparing a job interview, selecting vacancies, telling work experience, a letter
+      from VDAB); Naar Nederland les 19 (Ik zoek een baan), les 47 (salaris, beroep); NT2Lex A2 (vacature, solliciteren).
+    noun: [de vacature/vacatures, de sollicitatie/sollicitaties, het sollicitatiegesprek/sollicitatiegesprekken, het cv/cv's, het diploma/diploma's, de opleiding/opleidingen, de cursus/cursussen, het salaris/salarissen, het loon/lonen, de werkgever/werkgevers, de werknemer/werknemers, de interim/interims]
+    verb: [solliciteren, aan|nemen, ontslaan]
+    adj: [werkloos, voltijds, deeltijds, geschikt, ervaren]
+  - id: b08-at-work
+    level: A2
+    moved: >-
+      plannen and organiseren are NT2Lex A1; they are taught with the A2 work tasks (a day or week schedule of tasks, a team meeting: Richtgraad 1 Waystage).
+    theme: On the job
+    why: >-
+      Richtgraad 1 role werkende (instructions at work: werk dit af, breng dit mee; a team meeting; a day or week schedule
+      of tasks; colleagues at lunch); NT2Lex A2 (vergadering, taak, klant). bediende is the Belgian word for an office
+      employee (alsoNL kantoormedewerker); verlof is leave from work in both countries.
+    noun: [de vergadering/vergaderingen, de taak/taken, het team/teams, de bediende/bedienden, het verlof/-, de dienst/diensten, de overuren/-, de ploeg/ploegen, het magazijn/magazijnen, de machine/machines, de veiligheid/-, de regel/regels]
+    verb: [af|werken, uit|leggen, regelen, plannen, vergaderen, organiseren]
+    adj: [verantwoordelijk, nauwkeurig]
+  - id: b09-school
+    level: A2
+    moved: >-
+      vak and slim are NT2Lex A1; they are taught with the A2 tasks of a parent talking to the school (Richtgraad 1 Waystage, role opvoeder).
+    theme: School and parents
+    why: >-
+      Richtgraad 1 role opvoeder (a proposal to the teacher — extra lessons for the children; the school bill; the school
+      regulations; a discussion on upbringing); Naar Nederland les 37–38 (vakken, diploma, verder leren); oudercontact
+      and middelbare school are the usual Belgian words (alsoNL ouderavond, voortgezet onderwijs).
+    noun: [het oudercontact/oudercontacten, de directeur/directeurs, de schoolfactuur/schoolfacturen, de uitstap/uitstappen, de toets/toetsen, het examen/examens, het punt/punten, de opvang/-, de kleuterschool/kleuterscholen, de lagere school/lagere scholen, de middelbare school/middelbare scholen, het leerjaar/leerjaren, het vak/vakken, de bijles/bijlessen]
+    verb: [slagen, zakken, op|letten, verbeteren]
+    adj: [braaf, slim, verplicht]
+  - id: b10-travel
+    level: A2
+    moved: >-
+      buitenland and tent are NT2Lex A1; they are taught with the A2 travel topic (CNaVT INFO: Voor het vertrek, Op bezoek).
+    theme: Travelling
+    why: >-
+      CNaVT INFO (Op bezoek: vliegveld, bus 300, kaartje, uitstappen, station; Voor het vertrek: advice before a
+      holiday; Uitnodiging: reis naar Spanje); Richtgraad 1 (noting a change in travel details after a call from the
+      travel agency); Naar Nederland les 50 (koffers), les 62 (op reis, toeristen).
+    noun: [de luchthaven/luchthavens, de koffer/koffers, de bagage/-, het paspoort/paspoorten, het hotel/hotels, het reisbureau/reisbureaus, de toerist/toeristen, het buitenland/-, de grens/grenzen, de camping/campings, de tent/tenten, de vertraging/vertragingen, de bestemming/bestemmingen]
+    verb: [boeken, vliegen, landen, in|pakken, uit|pakken, annuleren, terug|keren]
+    adj: [buitenlands, mogelijk, onmogelijk]
+  - id: b11-day-out
+    level: A2
+    moved: >-
+      boot, eiland, haven, ijsje, activiteit, varen and kamperen are NT2Lex A1 (textbook stories); they are taught with the A2 day-out tasks of CNaVT INFO (Een uitstapje, Dagje Rotterdam).
+    theme: A day out
+    why: >-
+      CNaVT INFO set 1 (Een uitstapje: avonturenpark, natuur, water, boot, eiland, fietsen, openingsuren, tickets; Dagje
+      Rotterdam: rondvaart, haven, ijsje), set 2 (Fietsen in de regen); Naar Nederland les 55 (Een dagje op stap:
+      pretpark, strand, varen, haven, schepen); Richtgraad 1 role vrijetijdsbesteder. openingsuren is Belgian (alsoNL
+      openingstijden).
+    noun: [het pretpark/pretparken, de natuur/-, de boot/boten, het eiland/eilanden, de rivier/rivieren, de haven/havens, het ijsje/ijsjes, de openingsuren/-, de ingang/ingangen, de uitgang/uitgangen, de toegang/-, de activiteit/activiteiten, de wandeling/wandelingen, de fietstocht/fietstochten, de picknick/picknicks]
+    verb: [genieten, varen, klimmen, kamperen]
+    adj: [avontuurlijk, spannend]
+  - id: b12-feelings
+    level: A2
+    moved: >-
+      The feelings words and lachen, huilen, schreeuwen, stress are NT2Lex A1; they are taught with the reflexive verbs of A2 and the Waystage task of expressing one's feelings about a happy or sad event (Richtgraad 1).
+    theme: How do you feel?
+    why: >-
+      Grammar of A2 (reflexive verbs); Richtgraad 1 (expressing one's feelings about a happy or sad event and asking
+      about the other person's); Naar Nederland les 64 EXTRA (zich herinneren, zich houden aan, zich aankleden);
+      NT2Lex A1–A2 (verdrietig, bang, eenzaam, boos, gelukkig).
+    adj: [verdrietig, bang, boos, eenzaam, gelukkig, ongelukkig, tevreden, zenuwachtig, verliefd, trots, jaloers, kwaad]
+    pron: [zich]
+    verb: [zich vervelen, zich haasten, zich zorgen maken, zich ergeren, zich amuseren, lachen, huilen, schreeuwen]
+    noun: [het gevoel/gevoelens, de angst/angsten, de vreugde/-, het verdriet/-, de stress/-]
+  - id: b13-opinions
+    level: A2
+    moved: >-
+      omdat, want, dus, dat, als, idee, normaal, eigenlijk and helemaal are NT2Lex A1; they are taught with A2 grammar (linking and subordinate clauses with the verb last) and giving opinions (Richtgraad 1 Waystage).
+    theme: What do you think?
+    why: >-
+      Grammar of A2 (subordinate clauses with omdat/dat, verb last); Richtgraad 1 (reacting to an invitation or a proposal;
+      selecting relevant data from a persuasive text); CNaVT INFO (blog: Welke activiteit doe je graag? Waarom?);
+      Naar Nederland les 37 EXTRA (omdat).
+    conj: [omdat, want, dus, dat, als]
+    noun: [de mening/meningen, het idee/ideeën, het voordeel/voordelen, het nadeel/nadelen, het voorstel/voorstellen, de reden/redenen]
+    verb: [voor|stellen, weigeren, aanvaarden]
+    phrase: [het eens zijn, akkoord gaan]
+    adj: [juist, fout, eerlijk, raar, normaal]
+    adv: [eigenlijk, volgens mij, helemaal]
+  - id: b14-news
+    level: A2
+    moved: >-
+      radio and fris are NT2Lex A1; they are taught with the A2 listening tasks on the news and the weather forecast (Richtgraad 1 Waystage).
+    theme: The news and the weather forecast
+    why: >-
+      Richtgraad 1 (the news: binnenland, buitenland, sport; the weather forecast for the next days; dikketruiendag);
+      Naar Nederland les 51 (vertraging, een ongeluk, het slechte weer); CNaVT FORM level kept to A2 words.
+    noun: [het nieuws/-, het weerbericht/weerberichten, de radio/radio's, het journaal/journaals, de temperatuur/temperaturen, de storm/stormen, het onweer/onweren, de mist/-, de ijzel/-, het binnenland/-, de wereld/werelden, de verkiezing/verkiezingen, de minister/ministers, de regering/regeringen]
+    verb: [verwachten, voorspellen, stijgen, dalen, vriezen, onweren]
+    adj: [zonnig, bewolkt, mistig, glad, heet, fris]
+  - id: b15-municipality
+    level: A2
+    moved: >-
+      bewoner and verbieden are NT2Lex A1, and NT2Lex counts de werken (roadworks, a Belgian plural-only word) under werk; all three are taught with the A2 reading of municipal letters (Richtgraad 1 Waystage: huisvuilophaling, werkzaamheden).
+    theme: The neighbourhood and the town
+    why: >-
+      Richtgraad 1 role burger (short letters from the gemeente about waste collection and roadworks; a reglement);
+      CNaVT FORM topics kept at A2 size (straatfeest, afval, huisvuilophaling: Flemish municipal language); Naar
+      Nederland les 61 (onze buurt: lawaai, politie gebeld). vuilbak is Belgian (alsoNL vuilnisbak).
+    noun: [het afval/-, de vuilniszak/vuilniszakken, de vuilbak/vuilbakken, de huisvuilophaling/-, het containerpark/containerparken, de werken/-, de omleiding/omleidingen, de bewoner/bewoners, het straatfeest/straatfeesten, de vereniging/verenigingen, de bibliotheek/bibliotheken, het reglement/reglementen, de boete/boetes, de wijk/wijken]
+    verb: [buiten|zetten, melden, verbieden, toe|laten]
+    adj: [verboden, toegelaten, publiek]
+  - id: b16-cooking
+    level: A2
+    moved: >-
+      bord and zoet are NT2Lex A1; they are taught with the A2 cooking unit (Richtgraad 1 Waystage: the steps of a cooking programme).
+    theme: Cooking
+    why: >-
+      Richtgraad 1 (ordering the steps of a cooking programme chronologically); CNaVT INFO set 1 (Cadeau kopen: koken,
+      recepten, vlees bakken, sausjes bij salades, bloem bewaren, burgers; Feest: menu); Naar Nederland les 42 (zelf
+      gebakken).
+    noun: [het recept/recepten, de pan/pannen, de oven/ovens, het mes/messen, de vork/vorken, de lepel/lepels, het bord/borden, de kom/kommen, de saus/sauzen, de olie/oliën, de peper/-, het meel/-, de room/-, de salade/salades, het gehakt/-, de biefstuk/biefstukken, het ingrediënt/ingrediënten]
+    verb: [bakken, snijden, mengen, roeren, proeven, bewaren, bereiden]
+    adj: [gebakken, rauw, zoet, zuur, pikant]
+  - id: b17-complaints
+    level: A2
+    moved: >-
+      product is NT2Lex A1; it is taught with the A2 shopping complaint (Richtgraad 1 Waystage, role consument).
+    theme: Shopping and complaints
+    why: >-
+      Richtgraad 1 role consument (a complaint in a shop; another size or colour; switching a telephone provider; a
+      cancellation form); CNaVT FORM topics at A2 size (een horloge online gekocht, klantenservice). solden is Belgian
+      (alsoNL uitverkoop).
+    noun: [de klacht/klachten, de klantendienst/klantendiensten, de garantie/garanties, de bestelling/bestellingen, de levering/leveringen, de webshop/webshops, de solden/-, de aanbieding/aanbiedingen, het product/producten, de kwaliteit/kwaliteiten, de fout/fouten]
+    verb: [bestellen, leveren, terug|brengen, terug|geven, vervangen, op|zeggen]
+    adj: [beschadigd, ontevreden]
+  - id: b18-bank-online
+    level: A2
+    moved: >-
+      website and verkopen are NT2Lex A1; they are taught with the A2 online and banking tasks (Naar Nederland les 49, 56).
+    theme: The bank and online
+    why: >-
+      Richtgraad 1 (switching provider, a form on a website, telephony); Naar Nederland les 49 (een website gebruiken,
+      opzoeken), les 53 (betalen met de kaart), les 56 (mailen, internet, kopen en verkopen via internet); bankautomaat is
+      the Belgian word (alsoNL pinautomaat).
+    noun: [de rekening/rekeningen, het rekeningnummer/rekeningnummers, de overschrijving/overschrijvingen, de bankautomaat/bankautomaten, het wachtwoord/wachtwoorden, de website/websites, de app/apps, de link/links, de account/accounts, de printer/printers, het scherm/schermen, het toestel/toestellen]
+    verb: [over|schrijven, op|zoeken, in|loggen, downloaden, printen, klikken, op|laden, verkopen]
+    adj: [online, veilig, onveilig]
+  - id: b19-traditions
+    level: A2
+    moved: >-
+      danken is NT2Lex A1; it is taught with the thanking formulas of the A2 celebrations unit.
+    theme: Celebrations and traditions
+    why: >-
+      Richtgraad 1 sociocultural appendix (the main holidays; visiting customs: punctuality, a gift, drinks); CNaVT INFO
+      (Familiefeest; Uitnodiging: 30 jaar getrouwd, verrassingsfeest); Naar Nederland les 32 (vlak voor de kerst),
+      les 47 (een baby gekregen). praline is the Belgian standard word for a filled chocolate (bonbon in the Netherlands;
+      Taaladvies).
+    holiday: [Kerstmis, Pasen]
+    noun: [het huwelijk/huwelijken, de bruiloft/bruiloften, de geboorte/geboortes, de begrafenis/begrafenissen, het nieuwjaar/-, de traditie/tradities, de verrassing/verrassingen, de wens/wensen, de praline/pralines, de feestdag/feestdagen]
+    verb: [danken, verrassen, ontvangen, groeten]
+    phrase: [gelukkig nieuwjaar, prettige feestdagen, veel geluk]
+  - id: b20-sport-health
+    level: A2
+    moved: >-
+      sportschool, spier, afvallen, sportief, ongezond and vet are NT2Lex A1; they are taught with the A2 healthy-life unit (Naar Nederland les 29: the GP's advice).
+    theme: Sport and a healthy life
+    why: >-
+      Naar Nederland les 29 (Adviezen van uw huisarts: leef gezond, beweeg regelmatig, eet niet te vet, rook niet, neem
+      voldoende rust), les 39–40 (Een wedstrijd: de ploeg, het doel, winnen, verliezen); CNaVT INFO (hardlopen,
+      fietsen); Richtgraad 2 previewed at A2 size.
+    noun: [de wedstrijd/wedstrijden, de speler/spelers, de fitness/-, de beweging/bewegingen, de gezondheid/-, het gewicht/gewichten, de sigaret/sigaretten, de alcohol/-, de rust/-, de energie/-, de spier/spieren]
+    verb: [winnen, trainen, bewegen, roken, af|vallen, ontspannen]
+    adj: [sportief, fit, ongezond, vet, regelmatig]
+  - id: b21-comparing
+    level: A2
+    moved: >-
+      dan, hard, zacht, bekend, speciaal, gewoon and hetzelfde are NT2Lex A1; they are taught with the comparatives and superlatives of A2 grammar.
+    theme: Bigger, better, best
+    why: >-
+      Grammar of A2 (comparatives and superlatives); Naar Nederland les 36 EXTRA (ouder, oudst, groter, grootste), les 41
+      EXTRA (makkelijker dan vroeger), les 47–48 EXTRA (beter, best; meer, meest; minder, minst); Richtgraad 1 (comparing
+      cars in brochures).
+    conj: [dan]
+    adj: [hoog, laag, sterk, zwak, hard, zacht, modern, ouderwets, praktisch, handig, populair, bekend, beroemd, speciaal, gewoon, verschillend, hetzelfde]
+    phrase: [net zo]
+  - id: b22-plans
+    level: A2
+    moved: >-
+      plan is NT2Lex A1; it is taught with the A2 future (zullen, gaan + infinitive).
+    theme: Making plans
+    why: >-
+      Grammar of A2 (zullen and gaan + infinitive for the future); Richtgraad 1 (an invitation, a proposal and a reaction;
+      deciding on an outing after the weather forecast); CNaVT INFO set 2 Deel C (Mijn leven over tien jaar: werk, wonen,
+      partner, kinderen, vrienden, talenten, bucketlist).
+    noun: [het plan/plannen, de toekomst/-, het doel/doelen, de droom/dromen, het talent/talenten, de kans/kansen, de beslissing/beslissingen]
+    verb: [beslissen, dromen, veranderen]
+    adv: [binnenkort, waarschijnlijk]
+    phrase: [van plan zijn, over een jaar, in de toekomst, volgend jaar]
+  - id: b23-linking
+    level: A2
+    moved: >-
+      daarom is NT2Lex A1; it is taught with the A2 linking words.
+    theme: Linking sentences
+    why: >-
+      Grammar of A2 (subordinate clauses with omdat/als/dat, verb last; toen, terwijl, voordat, nadat); Naar Nederland
+      les 37 EXTRA (als, omdat), les 64 EXTRA (Ik weet wel waar zij woont); Richtgraad 1 (eenvoudige verbindingswoorden,
+      verbindingswoorden bij een verhaal).
+    conj: [terwijl, voordat, nadat, zodat, hoewel]
+    adv: [daarom, daardoor, bovendien, ten slotte, vervolgens, ook nog, tenminste]
+    pron: [wat voor]
+  - id: b24-keeping-in-touch
+    level: A2
+    moved: >-
+      groet, brievenbus and onderwerp are NT2Lex A1; they are taught with writing letters and e-mails at A2 (Naar Nederland les 41, 48).
+    theme: Keeping in touch
+    why: >-
+      Naar Nederland les 41 (Bellen of schrijven: een brief, een kaartje, mailen; Veel liefs, Hartelijke groeten, Tot
+      gauw, Hoogachtend), les 48 (Een mailtje: Lieve broer); Richtgraad 1 (a short message, an e-mail to an
+      acquaintance describing a home); CNaVT INFO (e-mail van uw oom: Groetjes).
+    noun: [het kaartje/kaartjes, de groet/groeten, de envelop/enveloppen, de postzegel/postzegels, de brievenbus/brievenbussen, het contact/contacten, de ontvanger/ontvangers, het onderwerp/onderwerpen, de bijlage/bijlagen]
+    phrase: [met vriendelijke groeten, veel liefs, tot gauw, hartelijke groeten]
+    verb: [beantwoorden, versturen, op|bellen, terug|bellen]
+    adj: [persoonlijk, hartelijk, formeel, lief]
+  - id: b25-core
+    level: A2
+    moved: >-
+      Core words NT2Lex observes at Start or A1 that the Start and A1 units did not need (their themes were covered with
+      other words); the A2 unit People and things teaches them together so that no basic word is left out of the course.
+    theme: People and things
+    why: >-
+      High-frequency words of NT2Lex (CGN) at A1 or below; Naar Nederland les 2 (de mensen, het dorp), les 23 (mijn
+      ouders), les 30 (blijven, praten); Richtgraad 1 (describing people and places, asking for help, giving one's age).
+    noun: [de mens/mensen, de ouders/-, het woord/woorden, de zin/zinnen, het dorp/dorpen, de plaats/plaatsen, het ding/dingen, de manier/manieren, de hulp/-, de leeftijd/leeftijden, het dier/dieren, de hond/honden, de kat/katten, de boom/bomen]
+    verb: [blijven, praten, leven, houden, laten, tonen, sluiten, openen, horen]
+    adj: [aardig, lelijk, beleefd]
+    adv: [echt]
+  - id: b26-belgian-realia
+    level: A2
+    moved: >-
+      ziekenfonds is NT2Lex B1 and not attested below it; a newcomer in Flanders needs it at A2 together with the doctor
+      and the pharmacy (Belgian realia).
+    theme: Belgian realia (appended to the units Looking for a home and The doctor and the hospital)
+    why: >-
+      Belgian everyday institutions an adult newcomer meets in the first year, Richtgraad 1
+      domains wonen (renting: the tenant must insure the home against fire; the landlord and tenant draw up a
+      plaatsbeschrijving at the start of the lease, Woninghuurdecreet) and gezondheid (every resident joins a ziekenfonds,
+      also called mutualiteit, which pays back part of the doctor's and pharmacy's costs). The Netherlands-based corpora
+      do not teach them below B1: NT2Lex first observes ziekenfonds at B1 (see moved) and has none of the other three;
+      Naar Nederland names ziekenfonds only as the Belgian counterpart of the Netherlands zorgverzekering (regional).
+      Source: topic, Belgian standard.
+    noun: [het ziekenfonds/ziekenfondsen, de mutualiteit/mutualiteiten, de brandverzekering/brandverzekeringen, de plaatsbeschrijving/plaatsbeschrijvingen]
+# ========================================================= B1 (pilot unit) ============================================================
+  - id: c01-living-together
+    level: B1
+    moved: >-
+      wel, zelf, boven, mee (mee|nemen), een paar, af en toe and vlak are NT2Lex A1–A2 words the Start–A2 units did not need;
+      the first B1 texts (a neighbourhood newsletter, a conversation between neighbours) use them. inderdaad and vreemd are
+      NT2Lex A2–B1; de mijne is the possessive pronoun of A2 grammar used independently.
+    theme: Living together (the pilot unit's texts)
+    why: >-
+      CNaVT B1 (content/reference/dutch/b1/, Profiel Maatschappelijk Formeel): reading a local newsletter article and
+      talking to neighbours about a problem in the building; Richtgraad 1 Threshold (wonen: herstellingen, de huisbaas,
+      de verzekering; vrijwilligerswerk in de buurt). NT2Lex levels per lemma in the derived list.
+    noun: [de vrijwilliger/vrijwilligers, het buurthuis/buurthuizen, het onderdeel/onderdelen, het plafond/plafonds, de verzekering/verzekeringen]
+    verb: [weg|gooien, mee|nemen]
+    adj: [vreemd, zonde]
+    adv: [meteen, wel, zelf, boven, inderdaad, vlak]
+    phrase: [af en toe, een paar, de mijne]
+# ========================================================= B1 (the level) ===================================================================
+  - id: c02-werk-zoeken
+    level: B1
+    theme: Looking for work
+    moved: >-
+      The words NT2Lex observes at A1–A2 (profiel, aanbod, voorwaarde, afdeling, flexibel, zelfstandig, stage, vast, kennis, rijbewijs, bereid, zoals, sommige …) were not needed by the A2 unit Looking for work, which taught the basic vacancy vocabulary; at B1 they are the core of the job-advert text type (Richtgraad 2: werkzoekende).
+    why: >-
+      Richtgraad 2 (Threshold 2, publiek; rol werkzoekende): reading job adverts and understanding the profile, conditions and offer (leerplandoelstelling: specifieke informatie zoeken in informatieve teksten); CNaVT FORM and Staatsexamen 2025 Lezen I (a carpenter who becomes a driving instructor, overtime) use these words; NT2Lex B1 for kandidaat, functie, motivatie, eis, sector, uitkering, beschikken, voldoen, vereisen, verantwoordelijkheid, beschikbaar, uitdaging, begeleiden, vrachtwagen.
+    noun: [de kandidaat/kandidaten, de functie/functies, de motivatie/-, de vaardigheid/vaardigheden, de eis/eisen, het profiel/profielen, het aanbod/-, de voorwaarde/voorwaarden, de sector/sectoren, de afdeling/afdelingen, de stage/stages, de uitkering/uitkeringen, de kennis/-, het rijbewijs/rijbewijzen, de verantwoordelijkheid/verantwoordelijkheden, de uitdaging/uitdagingen, de vrachtwagen/vrachtwagens, de reactie/reacties, het gesprek/gesprekken, de medewerker/medewerkers]
+    adj: [flexibel, zelfstandig, tijdelijk, vast, bereid, beschikbaar, geïnteresseerd, ander, heel]
+    verb: [beschikken, voldoen, vereisen, aan|bieden, aan|vragen, begeleiden, reageren]
+    adv: [onmiddellijk]
+    conj: [zoals]
+    det: [sommige]
+  - id: c03-sollicitatiegesprek
+    level: B1
+    theme: The job interview
+    moved: >-
+      NT2Lex A1–A2 words (eigenschap, overtuigen, indruk, enthousiast, geduldig, studie, resultaat, verwachting, onderhandelen, aantal, groeien, ontwikkelen, lijken, eigen, vooral, volgens, af en toe …) belong to describing yourself and arguing in an interview, a B1 task; the A2 units did not need them.
+    why: >-
+      Richtgraad 2 (Threshold 2, publiek; rol werkzoekende): a job interview — presenting yourself, your qualities and expectations, asking about pay and conditions (leerplandoelstelling: informatie uitwisselen, een standpunt uitleggen); Staatsexamen 2025 Luisteren I (an appraisal interview); Belgian employment realia (maaltijdcheque, bedrijfswagen: topic, Flemish standard).
+    noun: [de eigenschap/eigenschappen, het karakter/karakters, de persoonlijkheid/persoonlijkheden, de carrière/carrières, de indruk/indrukken, de studie/studies, het getuigschrift/getuigschriften, de referentie/referenties, het resultaat/resultaten, de uitslag/uitslagen, de verwachting/verwachtingen, de maaltijdcheque/maaltijdcheques, de bedrijfswagen/bedrijfswagens, de laptop/laptops, het aantal/aantallen, de test/tests, het geduld/-]
+    verb: [overtuigen, behalen, af|studeren, onderhandelen, thuis|werken, groeien, ontwikkelen, lijken, klinken, kloppen, ontmoeten, bestaan]
+    adj: [gemotiveerd, enthousiast, ambitieus, betrouwbaar, geduldig, bruto, netto, eigen]
+    adv: [vooral, verder]
+    prep: [volgens]
+  - id: c04-op-het-werk
+    level: B1
+    theme: At work
+    moved: >-
+      NT2Lex A1–A2 words of the workplace (overleg, verslag, rooster, afwezig, aanwezig, personeel, instructie, planning, opdracht, verdelen, bespreken, aanpassen, invoeren, gevaar, gevaarlijk, voorzichtig, herhalen, tijdens, voortaan, sinds …) come with B1 tasks (rules, procedures, e-mails from a team leader); A2 On the job used a smaller set.
+    why: >-
+      Richtgraad 2 (Threshold 2, publiek; rol werkende): understanding instructions and safety rules at work, a change in the rota, reporting absence (leerplandoelstellingen: alle gegevens begrijpen in prescriptieve teksten; de werkende bespreekt een verandering in het werkrooster); Staatsexamen 2025 Schrijven I (work e-mails, a broken coffee machine, booking a meeting room); doktersattest is the Belgian standard form (topic).
+    noun: [het overleg/-, het verslag/verslagen, het werkrooster/werkroosters, het doktersattest/doktersattesten, de helm/helmen, de kantine/kantines, het personeel/-, de instructie/instructies, de procedure/procedures, de toestemming/-, de planning/planningen, de opdracht/opdrachten, de werkplek/werkplekken, de verandering/veranderingen, het systeem/systemen, het gevaar/gevaren, de werf/werven, de spullen/-]
+    adj: [afwezig, aanwezig, gevaarlijk, voorzichtig]
+    verb: [goed|keuren, verdelen, bespreken, informeren, door|geven, aan|passen, in|voeren, stellen, herhalen, op|hangen]
+    det: [enkele]
+    prep: [tijdens, sinds, binnen, onder]
+    adv: [voortaan, eerder]
+  - id: c05-de-verhuurder
+    level: B1
+    theme: The landlord and repairs
+    moved: >-
+      NT2Lex A1–A2 words (huurcontract, vocht, vochtig, verstopt, onderhoud, nakijken, controle, terugbetalen, langskomen, gebouw, meter, gas, elektriciteit, beloven, hopelijk, helaas, opnieuw, steeds, boven …) are needed for B1 phone calls and e-mails about repairs; A2 Problems at home taught the basic words.
+    why: >-
+      Richtgraad 2 (Threshold 1, persoonlijk; rol beheerder huisvesting en gezinsadministratie): reporting a breakdown to the landlord, maintenance, energy use (de cursist luistert naar aanbevelingen van vaklui en kiest de beste oplossing; energiebesparing); CNaVT FORM (household tips); syndicus and conciërge are Belgian standard housing terms (topic).
+    noun: [de verhuurder/verhuurders, het huurcontract/huurcontracten, de ketel/ketels, de schimmel/schimmels, het vocht/-, de afvoer/afvoeren, de elektricien/elektriciens, het onderhoud/-, de controle/controles, de factuur/facturen, de conciërge/conciërges, de syndicus/syndici, het gebouw/gebouwen, de overlast/-, de isolatie/-, het verbruik/-, de meter/meters, het gas/gassen, de elektriciteit/-, het bad/baden]
+    adj: [vochtig, verstopt]
+    verb: [onderhouden, na|kijken, terug|betalen, langs|komen, isoleren, beloven, veroorzaken, ruiken, branden]
+    adv: [hopelijk, helaas, opnieuw, steeds]
+  - id: c06-verhuizen
+    level: B1
+    theme: Moving house
+    moved: >-
+      NT2Lex A1–A2 words (verhuizing, inschrijving, aanvraag, binnen, schilderen, kennismaken, buurman, buurvrouw, vooraf, bijvoorbeeld, digitaal, papier, afhalen, bezorgen, vlak …) are the words of municipal procedures, a B1 text type; the A1–A2 units used the basic town-hall words.
+    why: >-
+      Richtgraad 2 (Threshold 2, publiek; rol beheerder huisvesting en gezinsadministratie): moving house and the formalities at the municipality (de cursist luistert naar een uiteenzetting over het reglement en vraagt aan de hand van een formulier aan); Flemish procedure (adreswijziging binnen acht dagen, the wijkagent's visit: topic, Belgian standard).
+    noun: [de verhuizing/verhuizingen, de verhuiswagen/verhuiswagens, de verhuisdoos/verhuisdozen, de adreswijziging/adreswijzigingen, de wijkagent/wijkagenten, de bevestiging/bevestigingen, de inschrijving/inschrijvingen, het document/documenten, de aanvraag/aanvragen, de termijn/termijnen, de leverancier/leveranciers, de post/-, de pasfoto/pasfoto's, het papier/papieren, de kopie/kopieën, de versie/versies]
+    verb: [bevestigen, registreren, over|zetten, door|sturen, schilderen, kennis|maken, ondertekenen, af|halen, bezorgen, steken]
+    adj: [geldig, digitaal, recent]
+    adv: [vooraf, bijvoorbeeld, terecht]
+    det: [beide]
+  - id: c07-de-huisarts
+    level: B1
+    theme: The doctor and appointments
+    moved: >-
+      NT2Lex A1–A2 words (praktijk, secretariaat, symptoom, allergisch, ontsteking, behandelen, verzorgen, bloeddruk, aanmelden, merken, verdwijnen, ademen …) are needed for B1 conversations at the doctor's; A1 At the doctor's and A2 The doctor and the hospital taught the basic words.
+    why: >-
+      Richtgraad 2 (Threshold 1, persoonlijk; rol patiënt/consument): phoning the GP's practice, describing symptoms, understanding the doctor's instructions (de cursist luistert naar instructies van de dokter over hoe een medicijn te gebruiken); Belgian standard health-care terms (raadpleging, wachtdienst, onthaal: topic, with alsoNL).
+    noun: [de praktijk/praktijken, het onthaal/-, het secretariaat/secretariaten, de raadpleging/raadplegingen, het huisbezoek/huisbezoeken, de wachtdienst/wachtdiensten, het symptoom/symptomen, de hoest/-, de ontsteking/ontstekingen, de infectie/infecties, het vaccin/vaccins, de vaccinatie/vaccinaties, de behandeling/behandelingen, de bloeddruk/-, de long/longen, de enkel/enkels, het gips/-, de lijst/lijsten]
+    adj: [duizelig, allergisch, besmettelijk, pijnlijk, diep]
+    verb: [door|verwijzen, voor|schrijven, behandelen, verzorgen, verstuiken, aan|melden, verplaatsen, merken, verdwijnen, ademen]
+  - id: c08-het-ziekenfonds
+    level: B1
+    theme: Health insurance and the pharmacy
+    moved: >-
+      NT2Lex A1–A2 words (lid, lidmaatschap, bedrag, vergoeding, merk, bijsluiter, gebruik, zwanger, een paar …) are the words of B1 information leaflets; A2 At the pharmacy taught the basic pharmacy words.
+    why: >-
+      Richtgraad 2 (Threshold 2, publiek; rol beheerder huisvesting en gezinsadministratie): understanding a leaflet of the ziekenfonds (refunds, remgeld, hospital insurance, sick pay) and the instructions of a medicine; Belgian institutions (remgeld, hospitalisatieverzekering, groeipakket, kinesist: topic, Belgian standard).
+    noun: [het lid/leden, het lidmaatschap/lidmaatschappen, de bijdrage/bijdragen, de terugbetaling/terugbetalingen, het remgeld/-, het bedrag/bedragen, de vergoeding/vergoedingen, de hospitalisatieverzekering/hospitalisatieverzekeringen, de opname/opnames, het merk/merken, de druppel/druppels, de bijsluiter/bijsluiters, het gebruik/-, het ziekteverlof/-, de arbeidsongeschiktheid/-, de tandarts/tandartsen, de kinesist/kinesisten, de oogarts/oogartsen, de lens/lenzen, de zwangerschap/zwangerschappen, de bevalling/bevallingen, het groeipakket/-, de folder/folders, de rest/-, de ziekte/ziektes]
+    verb: [vergoeden]
+    adj: [verzekerd, generiek, nuchter, zwanger]
+    phrase: [de meeste]
+    adv: [zelfs]
+  - id: c09-school-en-ouders
+    level: B1
+    theme: School and parents
+    moved: >-
+      NT2Lex A1–A2 words (directie, lerares, basisschool, opvoeding, opvoeden, volwassene, bijeenkomst, voorstelling, keuze, richting, mogelijkheid, advies …) are needed to read school letters and talk about choices, B1 tasks; A1–A2 school units used the basic words.
+    why: >-
+      Richtgraad 2 (Threshold 1, persoonlijk; rol opvoeder): understanding a letter from school (parents' evening, a school trip, costs), the Flemish school system (secundaire school, trimester, refter, maximumfactuur: topic, Belgian standard with alsoNL).
+    noun: [de directie/directies, de lerares/leraressen, de klasgenoot/klasgenoten, de basisschool/basisscholen, de secundaire school/secundaire scholen, het schooljaar/schooljaren, het trimester/trimesters, de refter/refters, het middagmaal/middagmalen, de zwemles/zwemlessen, de schoolreis/schoolreizen, de betaling/betalingen, de afwezigheid/afwezigheden, de maximumfactuur/maximumfacturen, de opvoeding/-, de puber/pubers, de jongere/jongeren, de volwassene/volwassenen, de informatieavond/informatieavonden, de bijeenkomst/bijeenkomsten, de voorstelling/voorstellingen, de keuze/keuzes, de richting/richtingen, de mogelijkheid/mogelijkheden, het advies/adviezen, het einde/-, de turnzaal/turnzalen]
+    verb: [verwittigen, op|voeden, verklaren]
+    prep: [dankzij]
+  - id: c10-het-oudercontact
+    level: B1
+    theme: The parents' evening
+    moved: >-
+      NT2Lex A1–A2 words (ruzie, straf, belonen, concentratie, concentreren, moeite, wiskunde, aandacht, zelfvertrouwen, verlegen, actief, gemakkelijk, inspanning, uitleg, snappen, beoordelen, evaluatie, overgaan, vriendschap, doordat …) are needed to discuss a child's progress at B1; A2 School and parents taught results and reports only.
+    why: >-
+      Richtgraad 2 (Threshold 1, persoonlijk; rol opvoeder): talking with a teacher about progress, behaviour and support (de cursist luistert naar een fragment over straf of beloning en begrijpt de boodschap; the parents' evening).
+    noun: [het gedrag/-, de ruzie/ruzies, de straf/straffen, de concentratie/-, de moeite/-, de vooruitgang/-, de wiskunde/-, de ondersteuning/-, de logopedist/logopedisten, de aandacht/-, de interesse/interesses, het zelfvertrouwen/-, de inspanning/inspanningen, de uitleg/-, de evaluatie/evaluaties, de vriendschap/vriendschappen, de oefening/oefeningen]
+    verb: [pesten, belonen, zich concentreren, motiveren, aan|moedigen, adviseren, snappen, beoordelen, over|gaan, aan|raden]
+    adj: [verlegen, actief, gemakkelijk, extra, fijn]
+    conj: [doordat]
+  - id: c11-de-gemeente
+    level: B1
+    theme: The municipality and services
+    moved: >-
+      NT2Lex A1–A2 words (bak, belasting, stadhuis, inwoner, parkeren, afsluiten, lenen, sociaal …) are needed for municipal notices, a B1 text type; A1 At the town hall and A2 The neighbourhood and the town taught the basic words.
+    why: >-
+      Richtgraad 2 (Threshold 2, publiek; rol beheerder huisvesting en gezinsadministratie): understanding a notice from the municipality (rubbish collection, taxes, permits, the library); CNaVT FORM deel B (a municipal folder about street parties, Bertem); Flemish institutions and sorting categories (pmd, gft, OCMW, schepen, wegenwerken: topic, Belgian standard with alsoNL).
+    noun: [de afvalkalender/afvalkalenders, het huisvuil/-, het restafval/-, het gft/-, het pmd/-, het karton/kartons, de container/containers, de bak/bakken, de ophaling/ophalingen, de belasting/belastingen, het stadhuis/stadhuizen, de burgemeester/burgemeesters, de schepen/schepenen, de gemeenteraad/gemeenteraden, de inwoner/inwoners, de wachttijd/wachttijden, het uittreksel/uittreksels, de vergunning/vergunningen, de wegenwerken/-, de lidkaart/lidkaarten, het OCMW/-, de steun/-, de informatie/-]
+    verb: [parkeren, af|sluiten, lenen, verlengen]
+    adj: [sociaal, dubbel]
+    adv: [buiten]
+    det: [dezelfde]
+  - id: c12-de-bank
+    level: B1
+    theme: Money and the bank
+    moved: >-
+      NT2Lex A1–A2 words (sparen, schuld, inkomen, verdacht, munt, besparen, maandelijks, jaarlijks, afbetalen, voorschot …) are needed for B1 conversations about money; A2 The bank and online taught the basic words.
+    why: >-
+      Richtgraad 2 (Threshold 2, publiek; rol consument/beheerder gezinsadministratie): managing accounts, payments and debts, recognising fraud (phishing) and phoning the bank; Belgian banking terms (zichtrekening, domiciliëring, intrest, biljet: topic, Belgian standard with alsoNL).
+    noun: [de zichtrekening/zichtrekeningen, de spaarrekening/spaarrekeningen, het spaargeld/-, het saldo/saldo's, de domiciliëring/domiciliëringen, de uitgave/uitgaven, het inkomen/inkomens, het budget/budgetten, de schuld/schulden, de lening/leningen, de intrest/-, de pincode/pincodes, de code/codes, de fraude/-, de oplichter/oplichters, de gegevens/-, de munt/munten, het biljet/biljetten, de aanmaning/aanmaningen, de achterstand/achterstanden, het voorschot/voorschotten, de sms/sms'en]
+    verb: [sparen, blokkeren, beveiligen, bankieren, besparen, af|betalen, storten]
+    adj: [verdacht, maandelijks, jaarlijks]
+    adv: [contant]
+    prep: [via]
+  - id: c13-media-en-nieuws
+    level: B1
+    theme: Media and news
+    moved: >-
+      NT2Lex A1–A2 words (journalist, titel, programma, uitzending, uitzenden, interview, brand, slachtoffer, gewond, redden, brandweer, stemmen, partij, wet, economie, procent, bron, wetenschapper …) are the words of B1 news texts; A2 The news and the weather forecast taught only weather and basic news words.
+    why: >-
+      Richtgraad 2 (Threshold 2, publiek; rol vrijetijdsbesteder/burger): reading a short news article and following the news (de cursist luistert naar een nieuwsitem over het openbaar vervoer en vormt zich een mening); Staatsexamen 2025 Lezen I (newspaper-style texts); NT2Lex B1 for artikel, zender, verkiezing, staking, vakbond, crisis, beweren, nep.
+    noun: [het artikel/artikels, de journalist/journalisten, de titel/titels, de zender/zenders, het programma/programma's, de uitzending/uitzendingen, het interview/interviews, de gebeurtenis/gebeurtenissen, de brand/branden, het slachtoffer/slachtoffers, de brandweer/-, de partij/partijen, de wet/wetten, de staking/stakingen, de vakbond/vakbonden, de economie/economieën, de crisis/crisissen, het procent/procenten, de bron/bronnen, de wetenschapper/wetenschappers, de student/studenten, het vuur/vuren]
+    verb: [uit|zenden, redden, stemmen, beweren, blussen]
+    adj: [gewond, nep]
+    prep: [rond]
+  - id: c14-milieu-en-buurt
+    level: B1
+    theme: The environment and the neighbourhood
+    moved: >-
+      NT2Lex A1–A2 words (klimaat, vervuilen, lucht, planten, insect, vogel, plastic, verspillen, verkeer, delen, initiatief, buurtbewoner, deelnemen, meedoen, samenwerken, zonde …) are needed for B1 notices and discussions about the neighbourhood; the A2 units did not need them.
+    why: >-
+      Richtgraad 2 (Threshold 2, publiek; rol beheerder huisvesting): understanding public-information messages about energy and the environment and taking part in a local initiative (de cursist kijkt naar een voorlichtingsfilmpje over energiebesparing); CNaVT FORM deel C (climate ideas of the municipality), FORM deel A (a neighbourhood meeting); fietsstraat and deelauto are Flemish everyday realia (topic).
+    noun: [het milieu/-, het klimaat/klimaten, de klimaatverandering/-, de vervuiling/-, de lucht/luchten, de uitstoot/-, het zonnepaneel/zonnepanelen, de windmolen/windmolens, de moestuin/moestuinen, het insect/insecten, de vogel/vogels, het plastic/-, het fietspad/fietspaden, de fietsstraat/fietsstraten, het verkeer/-, de deelauto/deelauto's, het initiatief/initiatieven, de buurtbewoner/buurtbewoners, de actie/acties, de subsidie/subsidies, de premie/premies, de inspraak/-, de fietser/fietsers, het platteland/-, de steen/stenen]
+    verb: [vervuilen, planten, hergebruiken, recycleren, verspillen, delen, deel|nemen, mee|doen, samen|werken, in|halen, verminderen]
+    adj: [duurzaam]
+    adv: [minstens]
+  - id: c15-op-reis
+    level: B1
+    theme: Travel and holidays
+    moved: >-
+      NT2Lex A1–A2 words (reserveren, douane, vlucht, instappen, verblijf, gids, souvenir, voorwerp, meenemen …) are needed for B1 problem-solving while travelling; A2 Travelling taught the basic words.
+    why: >-
+      Richtgraad 2 (Threshold 2, publiek; rol verkeersgebruiker/consument): bookings, delays and compensation, airports and accommodation (de cursist luistert naar verkeersinformatie; at the station desk); reservatie is the Belgian standard form (alsoNL reservering).
+    noun: [de boeking/boekingen, de reservatie/reservaties, de annulering/annuleringen, de aansluiting/aansluitingen, de compensatie/compensaties, de handbagage/-, het visum/visa, de douane/-, de vlucht/vluchten, het verblijf/verblijven, de overnachting/overnachtingen, het halfpension/-, de verhuur/-, de bezienswaardigheid/bezienswaardigheden, de gids/gidsen, de rondleiding/rondleidingen, de excursie/excursies, het souvenir/souvenirs, de reisverzekering/reisverzekeringen, de annuleringsverzekering/annuleringsverzekeringen, het voorwerp/voorwerpen, de kust/kusten, de passagier/passagiers, de persoon/personen, de geschiedenis/-]
+    verb: [reserveren, af|schaffen, in|checken, in|stappen]
+    adj: [vertraagd, toeristisch]
+  - id: c16-vrije-tijd
+    level: B1
+    theme: Leisure and associations
+    moved: >-
+      NT2Lex A1–A2 words (club, koor, toneel, kermis, rommelmarkt, optreden, training, ontspanning, vrijwilligerswerk, inzetten, cultureel, cultuur, centrum, zelf …) are needed for B1 newsletters and invitations; A1 Free time taught the basic hobby words.
+    why: >-
+      Richtgraad 2 (Threshold 1, persoonlijk; rol vrijetijdsbesteder): clubs and associations, cultural events, volunteering and meeting people (de cursist hoort informatie over vrijwilligerswerk en begrijpt de voorwaarden); CNaVT FORM deel A (the Ronde van Vlaanderen), deel B (a photo contest, Dwars door Brugge); Flemish realia (jeugdbeweging, academie, lidgeld: topic, Belgian standard).
+    noun: [de club/clubs, de jeugdbeweging/jeugdbewegingen, het koor/koren, het toneel/-, de academie/academies, het lidgeld/lidgelden, het bestuur/besturen, de voorzitter/voorzitters, de secretaris/secretarissen, de penningmeester/penningmeesters, het evenement/evenementen, de tentoonstelling/tentoonstellingen, het festival/festivals, de kermis/kermissen, de rommelmarkt/rommelmarkten, het toernooi/toernooien, de training/trainingen, de trainer/trainers, de supporter/supporters, de ontspanning/-, het vrijwilligerswerk/-, de eenzaamheid/-, de integratie/-, de cultuur/culturen, het centrum/centra, de piano/piano's, de vorm/vormen, de toog/togen, de bezoeker/bezoekers]
+    verb: [op|treden, in|zetten, integreren, bedanken]
+    adj: [cultureel, streng]
+  - id: c17-klachten
+    level: B1
+    theme: Consumer complaints
+    moved: >-
+      NT2Lex A1–A2 words (pakket, oplossing, consument, advocaat, redelijk, uiteraard, jammer, beschrijven, bevatten, bewijs, anders, in plaats van, afhangen …) are the words of a formal complaint, a B1 text type; A2 Shopping and complaints taught the basic words.
+    why: >-
+      Richtgraad 2 (Threshold 2, publiek; rol consument): complaining about an order, a delivery or a broken product, in writing and on the phone (leerplandoelstelling: een klacht formuleren); Staatsexamen 2025 Schrijven I (a complaint about a broken machine).
+    noun: [het pakket/pakketten, de zending/zendingen, de verzendkosten/-, de bedenktijd/-, de tegoedbon/tegoedbonnen, de reparatie/reparaties, het excuus/excuses, de oplossing/oplossingen, het recht/rechten, de consument/consumenten, de ombudsman/ombudsmannen, het geschil/geschillen, de advocaat/advocaten, de beschrijving/beschrijvingen, het bewijs/bewijzen, de rechter/rechters, de heer/heren]
+    verb: [terug|sturen, om|ruilen, zich verontschuldigen, eisen, ontbreken, bevatten, af|hangen, af|geven, stappen, spijten]
+    adj: [teleurgesteld, redelijk, jammer, spijtig, verkeerd]
+    adv: [uiteraard, anders, onderweg]
+    phrase: [in plaats van]
+  - id: c18-relaties-en-meningen
+    level: B1
+    theme: Relationships and opinions
+    moved: >-
+      NT2Lex A1–A2 words (relatie, scheiden, scheiding, liefde, vertrouwen, respect, discussie, gelijk, kortom, begrip, verschil, gewoonte, privé, verslaafd, toestaan, toegeven, wel, inderdaad, de mijne …) are needed to argue a point at B1; A2 What do you think? taught basic opinions only.
+    why: >-
+      Richtgraad 2 (Threshold 1, persoonlijk): relationships and family, giving and defending an opinion (een standpunt innemen en verdedigen; de cursist geeft zijn mening en overtuigt een vriend); NT2Lex B1 for koppel, samenwonen, argument, standpunt, overtuigd, akkoord, oneens, enerzijds, anderzijds, overdrijven, schoonmoeder, generatie, privacy, smartphone, compromis.
+    noun: [de relatie/relaties, het koppel/koppels, de scheiding/scheidingen, de liefde/-, het vertrouwen/-, het respect/-, de discussie/discussies, het argument/argumenten, het standpunt/standpunten, het begrip/begrippen, het verschil/verschillen, de gewoonte/gewoontes, de schoonmoeder/schoonmoeders, de generatie/generaties, de privacy/-, de smartphone/smartphones, het compromis/compromissen, de situatie/situaties]
+    verb: [samen|wonen, scheiden, overdrijven, toe|staan, toe|geven, zich vergissen]
+    adj: [overtuigd, akkoord, oneens, gelijk, privé, verslaafd]
+    adv: [enerzijds, anderzijds, kortom, genoeg]
+    phrase: [rekening houden met]
+    det: [enig]
+  - id: c19-politie-en-veiligheid
+    level: B1
+    theme: The police and safety
+    moved: >-
+      NT2Lex A1–A2 words (inspecteur, verdachte, slot, diefstal, beroven, waarde, alarm, oppassen, waarschuwen, waarschuwing, snelheid …) are needed for B1 reports and statements; A2 A bad day taught the basic words (gestolen, de dief).
+    why: >-
+      Richtgraad 2 (Threshold 2, publiek; rol burger/verkeersgebruiker): reporting a theft at the police station, describing what happened and what was stolen; CNaVT FORM deel C set 1 (a stolen bike, the police); proces-verbaal and kader (bike frame) are Belgian standard (topic, alsoNL).
+    noun: [het proces-verbaal/processen-verbaal, het politiekantoor/politiekantoren, de inspecteur/inspecteurs, de getuige/getuigen, de verklaring/verklaringen, de verdachte/verdachten, de dader/daders, het slot/sloten, het kader/kaders, de diefstal/diefstallen, de inbraak/inbraken, de overval/overvallen, de handtas/handtassen, het signalement/signalementen, het model/modellen, de waarde/waarden, de verzekeraar/verzekeraars, het noodnummer/noodnummers, het alarm/alarmen, de camera/camera's, de waarschuwing/waarschuwingen, de snelheid/snelheden, de grond/gronden]
+    verb: [in|breken, beroven, terug|vinden, aan|geven, op|merken, op|vallen, op|passen, waarschuwen, flitsen, af|leggen, op|maken, op|pakken, beperken, raken, beschrijven, bekijken]
+  - id: c20-terugblikken
+    level: B1
+    theme: Looking back and ahead
+    moved: >-
+      NT2Lex A1–A2 words (heimwee, wennen, succes, dankbaar, moed, durven, opgeven, begin, ontmoeting, ontmoeten, afscheid, nationaliteit, bestaan, moeilijkheid, vrijheid, bereiken, erkennen, hoofdstuk, vreemd …) are needed to tell a story about settling in, a B1 narrative task; the A2 units did not need them.
+    why: >-
+      Richtgraad 2 (Threshold 1, persoonlijk; rol cursist): telling one's life story and looking ahead (een verhaal vertellen; de cursist luistert naar het levensverhaal van een medecursist); Flemish integration realia (inburgering, nieuwkomer: topic).
+    noun: [het heimwee/-, het succes/successen, de moed/-, het begin/-, de ontmoeting/ontmoetingen, het afscheid/afscheiden, de nationaliteit/nationaliteiten, de inburgering/-, de nieuwkomer/nieuwkomers, de vluchteling/vluchtelingen, de moeilijkheid/moeilijkheden, de vrijheid/vrijheden, het hoofdstuk/hoofdstukken]
+    verb: [wennen, durven, op|geven, vol|houden, terug|kijken, op|bouwen, bereiken, erkennen, volgen, betekenen]
+    adj: [gewend, dankbaar, geleidelijk, onafhankelijk]
+    prep: [ondanks]
+    adv: [langzamerhand]
+  # ---- B2 core: one group per unit of PLAN.md (B2), Richtgraad 3 (Vantage) role and task in `why` ----------
+  - id: d00-algemeen
+    level: B2
+    theme: General B2 words (used across the texts; each taught in one unit, see PLAN.md)
+    moved: >-
+      Everyday NT2Lex A1–B1 words the lower units did not happen to teach (overheid, rol, eeuw, gebrek, belang, basis, perfect,
+      soort, geluk, stilte …) that the B2 texts and their arguments need throughout; each is taught in the unit named in PLAN.md (B2).
+    why: >-
+      Richtgraad 3 (Vantage): informative and argumentative texts about society use these words in every domain; NT2Lex observes all
+      of them at B1–B2 with a high frequency.
+    noun: [de overheid/overheden, de rol/rollen, de eeuw/eeuwen, het gebrek/gebreken, het belang/belangen, de basis/bases, de soort/soorten,
+      het moment/momenten]
+    adj: [perfect]
+  - id: d01-nieuw-hoofdstuk
+    level: B2
+    theme: A new chapter
+    moved: >-
+      NT2Lex A1–B1 words (omgeving, stap, ontdekken, beleven, verlaten, onbekend, bewust, inmiddels, ineens, aanvankelijk, tegelijkertijd,
+      nieuwsgierig, avontuur, besluit, gemeenschap, netwerk, and everyday words the lower units did not happen to teach: allemaal,
+      enorm, gek, zo'n, puur, vlot, gemeen (gemeen hebben) …) are the vocabulary of telling and weighing a life change — a B2 narrative and
+      evaluative task (Richtgraad 3: verhalen vertellen, beleving verwoorden); the lower units did not need them.
+    why: >-
+      Richtgraad 3 (Vantage, persoonlijk; rol beheerder huisvesting / vrijetijdsbesteder): telling about a move to another city and
+      weighing a decision (een samenvatting geven van narratieve teksten; zijn beleving verwoorden); Staatsexamen 2025 Lezen II (texts about
+      doubt and decisions) as a model for the evaluative register.
+    noun: [de omgeving/omgevingen, het besef/-, de twijfel/twijfels, het avontuur/avonturen, de aanpassing/aanpassingen, de wereldstad/wereldsteden,
+      het netwerk/netwerken, de stap/stappen, de gemeenschap/gemeenschappen, het besluit/besluiten, de spijt/-, het toeval/-, het gemis/-,
+      de drukte/-, de moedertaal/moedertalen, het accent/accenten, de psycholoog/psychologen]
+    verb: [aarzelen, zich vestigen, ontdekken, beleven, betreuren, overwegen, verlaten, besluiten]
+    adj: [onbekend, spontaan, bewust, vertrouwd, onzeker, nieuwsgierig, enorm, gek, gemeen, puur, vlot]
+    adv: [aanvankelijk, inmiddels, ineens, achteraf, tegelijkertijd, allemaal]
+    det: [zo'n]
+  - id: d02-werk-en-loopbaan
+    level: B2
+    theme: Work and career
+    moved: >-
+      NT2Lex A2–B1 words (ambitie, arbeidsmarkt, ontslag, presteren, zinvol, evalueren, starten, zekerheid, onzekerheid, zich afvragen,
+      ondernemer, eventueel …) belong to weighing a career change and talking about working conditions in depth — B2 tasks of the
+      professional domain (Richtgraad 3: een mening verwoorden, voor- en nadelen bespreken); the A2 and B1 work units did not need them.
+    why: >-
+      Richtgraad 3 (Vantage, professioneel; rol werkende / werkzoekende): a career change, further training, working conditions
+      and the labour market (beschrijvingen en presentaties geven met uitgewerkte standpunten; de voor- en nadelen van een beroep);
+      Staatsexamen 2025 Lezen II (the appraisal interview: functioneringsgesprek, feedback) and CNaVT PROF as models; Belgian
+      employment realia (tijdskrediet, ouderschapsverlof: topic, Flemish standard).
+    noun: [de loopbaan/loopbanen, de omscholing/omscholingen, de arbeidsmarkt/arbeidsmarkten, de ambitie/ambities, de burn-out/burn-outs,
+      de werkdruk/-, de promotie/promoties, het ontslag/ontslagen, de werkloosheid/-, de bijscholing/bijscholingen, de coach/coaches,
+      de zelfstandige/zelfstandigen, de ondernemer/ondernemers, het functioneringsgesprek/functioneringsgesprekken, de feedback/-,
+      het pensioen/pensioenen, het tijdskrediet/tijdskredieten, het ouderschapsverlof/-, het takenpakket/takenpakketten,
+      de werkzoekende/werkzoekenden, de werkweek/werkweken, de werkgelegenheid/-, de opzegtermijn/opzegtermijnen, de zekerheid/zekerheden,
+      de onzekerheid/onzekerheden, de loonsverhoging/loonsverhogingen, de deadline/deadlines, de tip/tips, de luisteraar/luisteraars,
+      de overstap/overstappen, de leidinggevende/leidinggevenden, het project/projecten, de regio/regio's]
+    verb: [starten, evalueren, presteren, zich om|scholen, zich af|vragen, door|groeien, voor|bereiden]
+    adj: [zinvol, haalbaar, veeleisend, uitdagend, eventueel, ideaal, nerveus]
+  - id: d03-geld
+    level: B2
+    theme: Money matters
+    moved: >-
+      NT2Lex A2–B1 words (reclame, impuls, afbetaling, overzicht, financieel, luxe, noodzakelijk, overbodig, gierig, zuinig,
+      consumptie, beïnvloeden, besteden, tweedehands, vergelijken, betaalbaar, nadenken, winkelen, onderzoeker, impulsief …) are needed
+      to discuss spending and debt critically — a B2 persuasive and informative task (Richtgraad 3, publiek; rol consument: een
+      mening verwoorden in persuasieve teksten, reclame doorzien); the A2 and B1 money units covered paying and banking only.
+    why: >-
+      Richtgraad 3 (Vantage, publiek; rol consument / beheerder gezinsadministratie): budgets, credit and debt, advertising and
+      impulse buying (de cursist vat een reportage samen over hoe vatbaar kinderen zijn voor reclame; kaart een probleem aan bij een
+      klantendienst); Staatsexamen 2025 Lezen II as a model for the article; Belgian realia (kredietkaart, schuldbemiddeling: topic).
+    noun: [de rente/renten, de reclame/reclames, de impuls/impulsen, het krediet/kredieten, de afbetaling/afbetalingen,
+      het overzicht/overzichten, de verspilling/verspillingen, de luxe/-, de koopkracht/-, de consumptie/-, het huishoudbudget/huishoudbudgetten,
+      de schuldbemiddeling/-, de kredietkaart/kredietkaarten, de influencer/influencers, de verleiding/verleidingen, het koopje/koopjes,
+      de advertentie/advertenties, de onderzoeker/onderzoekers]
+    verb: [verleiden, verkwisten, beïnvloeden, besteden, uit|lenen, vergelijken, na|denken, winkelen, vermijden, ontstaan]
+    adj: [financieel, noodzakelijk, overbodig, gierig, zuinig, achterstallig, tweedehands, betaalbaar, gespreid, impulsief, eenvoudig]
+    pron: [men, jezelf]
+
+  - id: d04-wonen
+    level: B2
+    theme: Housing
+    moved: >-
+      NT2Lex A2–B1 words (koper, renovatie, verbouwen, gevel, bieden, eigendom, aflossen, investering, nieuwbouw, energiezuinig …)
+      belong to comparing renting and buying and to renovating — B2 tasks of weighing options with arguments (Richtgraad 3,
+      persoonlijk; rol beheerder huisvesting: woonfaciliteiten en problemen bespreken, beschrijvingen met uitgewerkte standpunten);
+      the A2 and B1 housing units covered renting and repairs only.
+    why: >-
+      Richtgraad 3 (Vantage, persoonlijk; rol beheerder huisvesting en gezinsadministratie): the housing market, buying a house
+      (the notary, the deed, a home loan), renovating and energy (de cursist bespreekt woonfaciliteiten en problemen; vat een
+      informatiefilm over huurcontracten en stroomvoorziening samen); Flemish realia: rijhuis, woonst, huurwaarborg,
+      omgevingsvergunning, verkaveling, hypothecaire lening (topic, Flemish standard).
+    noun: [de woningmarkt/woningmarkten, de huurmarkt/huurmarkten, de renovatie/renovaties, de energiefactuur/energiefacturen,
+      de warmtepomp/warmtepompen, de woonlening/woonleningen, de notaris/notarissen, de akte/akten, het bod/biedingen, de schatting/schattingen,
+      de huurwaarborg/huurwaarborgen, de leegstand/-, de makelaar/makelaars, de koper/kopers, het rijhuis/rijhuizen, de woonst/woonsten,
+      de omgevingsvergunning/omgevingsvergunningen, de bouwgrond/bouwgronden, de gevel/gevels, het eigendom/eigendommen,
+      de bezichtiging/bezichtigingen, de investering/investeringen, de schaarste/-, de nieuwbouw/-, de verkaveling/verkavelingen,
+      het appartementsgebouw/appartementsgebouwen, de renteverhoging/renteverhogingen, de dood/-]
+    verb: [renoveren, verbouwen, bieden, af|lossen, investeren, bedragen, schatten, lukken]
+    adj: [schaars, energiezuinig, hypothecair, maximaal, volledig, waard, prettig]
+  - id: d05-gezondheidszorg
+    level: B2
+    theme: Health care
+    moved: >-
+      NT2Lex A2–B1 words (wachtlijst, therapie, psychiater, depressie, stoornis, mentaal, welzijn, diagnose, chronisch, herstel,
+      mantelzorg, vergrijzing, slapeloosheid, voorkomen, ondersteunen, psychisch, preventief, lichamelijk, taboe, kwetsbaar,
+      toegankelijk, oorzaak, gevolg, risico, bevolking, gemiddeld, verhogen, verlagen …) are needed to explain and discuss the health
+      system, prevention and mental health — B2 informative and evaluative tasks (Richtgraad 3: informatie vragen en geven,
+      een samenvatting geven van informatieve teksten); the A1–B1 doctor units covered consultations only. Oorzaak, gevolg, risico,
+      bevolking, gemiddeld are taught here because every later B2 text argues with them.
+    why: >-
+      Richtgraad 3 (Vantage, publiek; rol patiënt / zorgvrager): the health system, waiting lists, prevention, mental health and
+      care for older people (de cursist vat een informatiefilm samen; bespreekt het belang van sporten); CNaVT PROF (Apps voor de zorg,
+      Uitvindingen voor senioren) as models; Flemish realia: woonzorgcentrum, thuisverpleging, mantelzorg (topic).
+    noun: [de gezondheidszorg/-, de preventie/-, de inenting/inentingen, de wachtlijst/wachtlijsten, de therapie/therapieën,
+      de therapeut/therapeuten, de psychiater/psychiaters, de depressie/depressies, de stoornis/stoornissen, het welzijn/-,
+      de verwijzing/verwijzingen, de diagnose/diagnoses, het herstel/-, de revalidatie/-, de zorgverlener/zorgverleners, de mantelzorg/-,
+      de mantelzorger/mantelzorgers, de thuisverpleging/-, het woonzorgcentrum/woonzorgcentra, de vergrijzing/-,
+      de levensverwachting/levensverwachtingen, het overgewicht/-, de slapeloosheid/-, het taboe/taboes, de hulpverlener/hulpverleners,
+      de oorzaak/oorzaken, het gevolg/gevolgen, het risico/risico's, de bevolking/bevolkingen, de diabetes/-, de oudere/ouderen, de arts/artsen]
+    verb: [opereren, voorkomen, ondersteunen, verhogen, verlagen, herkennen, in|enten, om|gaan, op|sporen]
+    adj: [mentaal, chronisch, psychisch, preventief, lichamelijk, kwetsbaar, toegankelijk, gemiddeld]
+    adv: [grotendeels]
+
+  - id: d06-voeding
+    level: B2
+    theme: Food and health
+    moved: >-
+      NT2Lex A1–B1 words (voeding, voedsel, etiket, calorie, eiwit, vitamine, vezel, dieet, vegetarisch, veganist, vleesvervanger,
+      biologisch, lokaal, seizoen, houdbaarheidsdatum, portie, frisdrank, verslaving, kant-en-klaar, evenwichtig, gevarieerd, schadelijk,
+      smaak, boer …) are needed to discuss diets, labels and food waste with arguments — a B2 task (Richtgraad 3, persoonlijk;
+      rol consument: een mening verwoorden over gezonde voeding); the Start–A2 food units taught shopping and cooking words only.
+    why: >-
+      Richtgraad 3 (Vantage, persoonlijk; rol consument / vrijetijdsbesteder): healthy food, labels, vegetarian diets, food waste
+      (een instructie geven: de ingrediënten en de bereiding; de cursist overtuigt zijn kinderen om gezond te eten); CNaVT STRT
+      (Bewust leven, Aardbeien plukken) and CNaVT FORM household tips as models.
+    noun: [de voeding/-, het voedsel/-, de voedingswaarde/voedingswaarden, het etiket/etiketten, de calorie/calorieën, het eiwit/eiwitten,
+      de vitamine/vitaminen, de vezel/vezels, het dieet/diëten, de veganist/veganisten, de vleesvervanger/vleesvervangers, het seizoen/seizoenen,
+      de houdbaarheidsdatum/houdbaarheidsdata, de voedselverspilling/-, het restje/restjes, de portie/porties, het tussendoortje/tussendoortjes,
+      de frisdrank/frisdranken, de verslaving/verslavingen, het fastfood/-, de smaak/smaken, de diëtist/diëtisten, de boer/boeren,
+      de compost/-, de boon/bonen, de noot/noten, de schil/schillen, de vegetariër/vegetariërs, de zuivel/-, de documentaire/documentaires]
+    verb: [in|vriezen, ontdooien, variëren, vervoeren]
+    adj: [vegetarisch, biologisch, lokaal, kant-en-klaar, evenwichtig, gevarieerd, matig, schadelijk, bewerkt]
+    pron: [allebei]
+    adv: [hoogstens, rechtstreeks]
+  - id: d07-media
+    level: B2
+    theme: Media and information
+    moved: >-
+      NT2Lex A1–B1 words (media, onbetrouwbaar, journalistiek, redactie, tijdschrift, kop, verspreiden, feit, objectief, kritisch,
+      platform, podcast, omroep, kijker, lezer, commentaar, hoogte, nieuwsbrief …) are needed to judge news and sources — a B2
+      evaluative task (Richtgraad 3: de hoofdgedachte achterhalen en de gedachtegang volgen; informatie kritisch beoordelen); the
+      B1 media unit covered reading and hearing the news only.
+    why: >-
+      Richtgraad 3 (Vantage, publiek; rol burger / vrijetijdsbesteder): news, fake news, social media and algorithms, press freedom
+      (een mening verwoorden in informatieve teksten); Staatsexamen 2025 Lezen II (Lezen en het digitale tijdperk) and CNaVT STRT
+      (Liegen, Taalverandering) as models.
+    noun: [de media/-, de desinformatie/-, het algoritme/algoritmes, de journalistiek/-, de redactie/redacties,
+      het tijdschrift/tijdschriften, de kop/koppen, het feit/feiten, de propaganda/-, de censuur/-, de persvrijheid/-, het platform/platformen,
+      de volger/volgers, de schermtijd/-, de betaalmuur/betaalmuren, de podcast/podcasts, de omroep/omroepen, de kijker/kijkers,
+      de lezer/lezers, het commentaar/commentaren, de hoogte/hoogten, de nieuwsbrief/nieuwsbrieven, de tijdlijn/tijdlijnen,
+      het haatbericht/haatberichten, het beeld/beelden, de auteur/auteurs, de emotie/emoties, de waarheid/waarheden, de leugen/leugens, de datum/data, de pers/-, de tekst/teksten]
+    verb: [verspreiden, na|gaan, manipuleren, vervalsen, twijfelen, zich baseren, verwijzen, verzinnen, verwijderen, blijken, bestrijden, beschermen]
+    adj: [onbetrouwbaar, objectief, subjectief, kritisch, geloofwaardig, twijfelachtig, openbaar]
+    adv: [tegenwoordig]
+    conj: [alsof]
+    num: [miljoen]
+  - id: d08-technologie
+    level: B2
+    theme: Technology
+    moved: >-
+      NT2Lex A1–B1 words (apparaat, robot, intelligentie, toepassing, ontwikkeling, uitvinden, opslaan, virus, bestand, batterij,
+      verbinding, gebruiker, verzamelen, misbruik, automatisch, nuttig, afhankelijk, sensor, stroom, elektrisch, innovatie, berekenen,
+      meten, wereldwijd) are needed to explain and weigh technology — a B2 task (Richtgraad 3: informatie kritisch beoordelen, de
+      gedachtegang volgen in informatieve teksten); the lower units used devices only for everyday tasks.
+    why: >-
+      Richtgraad 3 (Vantage, publiek / beroepsgericht): technology, privacy and artificial intelligence in informative texts;
+      Staatsexamen 2025 Lezen II (Lezen en het digitale tijdperk) and CNaVT STRT (Liegen) as models; NT2Lex B2 technologie,
+      software, kunstmatig, klantenservice; installeren, updaten, hacken, zoekmachine, wifi from the topic (no NT2Lex entry).
+    noun: [de technologie/technologieën, het apparaat/apparaten, de software/-, de robot/robots, de intelligentie/-,
+      de toepassing/toepassingen, de ontwikkeling/ontwikkelingen, de uitvinding/uitvindingen, het virus/virussen, het bestand/bestanden,
+      de batterij/batterijen, de verbinding/verbindingen, de gebruiker/gebruikers, het misbruik/-, de sensor/sensoren, de stroom/stromen,
+      de innovatie/innovaties, de zoekmachine/zoekmachines, de hacker/hackers, de wifi/-, de update/updates, de cloud/-, de thermostaat/thermostaten]
+    verb: [uit|vinden, installeren, updaten, op|slaan, verzamelen, misbruiken, hacken, meten, berekenen, verbinden]
+    adj: [kunstmatig, automatisch, nuttig, afhankelijk, elektrisch, wereldwijd]
+  - id: d09-onderwijs
+    level: B2
+    theme: Education
+    moved: >-
+      NT2Lex A1–B1 words (onderwijs, universiteit, hogeschool, docent, professor, secundair, basisonderwijs, kleuter, leerplicht,
+      inschrijvingsgeld, studiebeurs, vorming, discipline, gelijkheid, wetenschap, wetenschappelijk, theorie, serieus, voorbereiding,
+      samenvatting, samenvatten, master, campus, semester, begeleiding, leerstof, spijbelen) are needed to describe and compare
+      education systems and to argue about them — a B2 task (Richtgraad 3, rol student / burger: de gedachtegang volgen in
+      informatieve teksten over het onderwijs); the lower units covered one's own school and course only.
+    why: >-
+      Richtgraad 3 (Vantage, educatief domein): the Flemish school system, higher education, dual and lifelong learning; CNaVT STRT
+      profile (studiegerichte taalvaardigheid) and Staatsexamen II Lezen as models; NT2Lex B2 competentie, vrijwillig; buizen,
+      herexamen, attest, thesis, bachelor, stagiair, duaal, levenslang, ongelijkheid, theoretisch from the topic (Belgian school
+      usage; no NT2Lex entry).
+    noun: [het onderwijs/-, het basisonderwijs/-, de kleuter/kleuters, de leerplicht/-, de universiteit/universiteiten,
+      de hogeschool/hogescholen, de campus/campussen, de docent/docenten, de professor/professoren, de bachelor/bachelors,
+      de master/masters, de thesis/thesissen, het semester/semesters, het inschrijvingsgeld/-, de studiebeurs/studiebeurzen,
+      het herexamen/herexamens, het attest/attesten, de leerstof/-, de samenvatting/samenvattingen, de voorbereiding/voorbereidingen,
+      de begeleiding/-, de stagiair/stagiairs, de vorming/vormingen, de competentie/competenties, de discipline/disciplines,
+      de wetenschap/wetenschappen, de theorie/theorieën, de gelijkheid/-, de ongelijkheid/ongelijkheden]
+    verb: [buizen, samen|vatten, spijbelen]
+    adj: [secundair, duaal, levenslang, wetenschappelijk, theoretisch, vrijwillig, serieus, duidelijk]
+  - id: d10-klimaat-en-energie
+    level: B2
+    theme: Climate and energy
+    moved: >-
+      NT2Lex A2–B1 words (broeikasgas, stijging, droogte, overstroming, overstromen, hittegolf, luchtvervuiling, fijnstof, windturbine,
+      fossiel, brandstof, steenkool, verbruiken, bedreigen, zeespiegel, dijk, maatregel, beleid, doelstelling, effect, invloed, toenemen,
+      afnemen, aarde, protest, echter, daarentegen, immers, weliswaar, aangezien) are needed to follow and build an argument about
+      climate policy — a B2 task (Richtgraad 3: argumentatieve teksten, de gedachtegang volgen, standpunten vergelijken); the lower
+      units described the weather and recycling only.
+    why: >-
+      Richtgraad 3 (Vantage, publiek domein, rol burger): climate change, extreme weather, the energy transition; the connectors of
+      argument (Richtgraad 3, structureren: tegenstelling, oorzaak, toegeving); Staatsexamen II Lezen (opinion pieces) as model;
+      NT2Lex B2 duurzaamheid, uitsterven, extreem, planeet, kernenergie (C1), biodiversiteit (C1); opwarming, hernieuwbaar,
+      kerncentrale, desondanks, betoging from the topic.
+    noun: [de opwarming/-, de aarde/-, de planeet/planeten, het broeikasgas/broeikasgassen, de stijging/stijgingen, de zeespiegel/-,
+      de droogte/droogtes, de hittegolf/hittegolven, de overstroming/overstromingen, de dijk/dijken, de luchtvervuiling/-, het fijnstof/-,
+      de brandstof/brandstoffen, de steenkool/-, de kernenergie/-, de kerncentrale/kerncentrales, de windturbine/windturbines,
+      de duurzaamheid/-, de biodiversiteit/-, de maatregel/maatregelen, het beleid/-, de doelstelling/doelstellingen, het effect/effecten,
+      de invloed/invloeden, het protest/protesten, de betoging/betogingen, de warmte/-, de hitte/-, de oogst/oogsten]
+    verb: [overstromen, verbruiken, uit|sterven, bedreigen, toe|nemen, af|nemen, uit|stoten, dreigen]
+    adj: [fossiel, hernieuwbaar, extreem, schoon]
+    adv: [echter, desondanks, daarentegen, immers, weliswaar]
+    conj: [aangezien]
+    phrase: [ten eerste, ten tweede]
+  - id: d11-mobiliteit
+    level: B2
+    theme: Mobility
+    moved: >-
+      NT2Lex A1–B1 words (mobiliteit, vervoer, pendelen, pendelaar, woon-werkverkeer, reistijd, afstand, spits, snelweg, ring, tunnel,
+      tol, parkeerplaats, automobilist, bestuurder, voetganger, conducteur, verkeersveiligheid, zone, infrastructuur,
+      alternatief, bereikbaar, frustratie, comfortabel, efficiënt, aanleggen) are needed to discuss mobility policy and weigh
+      alternatives — a B2 task (Richtgraad 3, rol burger: deelnemen aan een discussie, argumenten afwegen); the lower units asked the
+      way and bought tickets only.
+    why: >-
+      Richtgraad 3 (Vantage, publiek domein): commuting, public transport, cycling, road safety; Staatsexamen II Spreken/Luisteren
+      (discussions) and CNaVT B2 listening as models; NT2Lex B2 carpoolen, bereikbaarheid; deelfiets, step, verplaatsing (Belgian
+      usage), dienstregeling, snelheidsbeperking, flitspaal (Belgian), stipt from the topic.
+    noun: [de mobiliteit/-, het vervoer/-, de pendelaar/pendelaars, het woon-werkverkeer/-, de verplaatsing/verplaatsingen,
+      de reistijd/reistijden, de afstand/afstanden, de spits/-, de snelweg/snelwegen, de ring/ringen, de tunnel/tunnels, de tol/-,
+      de parkeerplaats/parkeerplaatsen, de automobilist/automobilisten, de bestuurder/bestuurders,
+      de voetganger/voetgangers, de deelfiets/deelfietsen, de step/steps, de dienstregeling/dienstregelingen, de conducteur/conducteurs,
+      de verkeersveiligheid/-, de snelheidsbeperking/snelheidsbeperkingen, de flitspaal/flitspalen, de zone/zones,
+      de infrastructuur/-, het alternatief/alternatieven, de bereikbaarheid/-, de frustratie/frustraties]
+    verb: [pendelen, carpoolen, aan|leggen]
+    adj: [stipt, bereikbaar, comfortabel, efficiënt]
+  - id: d12-samenleving
+    level: B2
+    theme: Society and diversity
+    moved: >-
+      NT2Lex A2–B1 words (samenleving, maatschappij, diversiteit, divers, migrant, migratie, inburgeren, afkomst, achtergrond, identiteit,
+      meertalig, religie, geloof, discriminatie, discrimineren, racisme, vooroordeel, respecteren, uitsluiting, armoede, rijk, solidariteit,
+      senior, Belg) are needed to discuss living together and to take a position on it — a B2 task (Richtgraad 3, rol burger: een
+      standpunt innemen en verdedigen over maatschappelijke onderwerpen); the lower units met newcomers and neighbours only.
+    why: >-
+      Richtgraad 3 (Vantage, publiek domein): diversity, integration, prejudice, volunteering and solidarity; Staatsexamen II Lezen
+      and CNaVT B2 (maatschappelijke teksten) as models; NT2Lex B2 tolerantie, gelijkwaardig, bijdragen, kansarm (C1); asiel,
+      engagement, zich engageren (Belgian usage), solidair, Vlaming from the topic.
+    noun: [de samenleving/samenlevingen, de maatschappij/maatschappijen, de diversiteit/-, de migrant/migranten, de migratie/-,
+      het asiel/-, de afkomst/-, de achtergrond/achtergronden, de identiteit/identiteiten, de religie/religies, het geloof/geloven,
+      de discriminatie/-, het racisme/-, het vooroordeel/vooroordelen, de tolerantie/-, de uitsluiting/-, de armoede/-,
+      de solidariteit/-, het engagement/-, de senior/senioren, de Vlaming/Vlamingen, de Belg/Belgen]
+    verb: [in|burgeren, discrimineren, respecteren, zich engageren, bij|dragen]
+    adj: [divers, meertalig, gelijkwaardig, rijk, kansarm, solidair, tolerant]
+  - id: d13-politiek
+    level: B2
+    theme: Politics and government
+    moved: >-
+      NT2Lex A1–B1 words (politiek, politicus, democratie, democratisch, vanzelfsprekend, parlement, premier, stem, kiezer, campagne,
+      coalitie, oppositie, meerderheid, minderheid, provincie, gewest, federaal, Vlaams, Waals, Brussels, grondwet, wetsvoorstel, macht,
+      bevoegdheid, koning, monarchie, staat, burger, plicht, debat, onderhandeling) are needed to explain how a state is governed and
+      to follow political news and debate — a B2 task (Richtgraad 3, rol burger: informatie over het politieke systeem begrijpen en
+      erover discussiëren); the lower units met the municipality as a service only.
+    why: >-
+      Richtgraad 3 (Vantage, publiek domein): the Belgian federal state, regions and communities, elections and compulsory voting,
+      rights and duties; Staatsexamen II (Kennis van de Nederlandse Maatschappij as background, Lezen) and CNaVT B2 as models;
+      NT2Lex B2 begroting; dictatuur, stemplicht, hervorming, bevoegd from the topic.
+    noun: [de politiek/-, de politicus/politici, de democratie/democratieën, de dictatuur/dictaturen, de staat/staten, het gewest/gewesten,
+      de provincie/provincies, het parlement/parlementen, de premier/premiers, de koning/koningen, de monarchie/monarchieën,
+      de grondwet/grondwetten, het wetsvoorstel/wetsvoorstellen, de begroting/begrotingen, de hervorming/hervormingen,
+      de bevoegdheid/bevoegdheden, de macht/machten, de coalitie/coalities, de oppositie/-, de meerderheid/meerderheden,
+      de minderheid/minderheden, de campagne/campagnes, de kiezer/kiezers, de stem/stemmen, de stemplicht/-, de burger/burgers,
+      de plicht/plichten, het debat/debatten, de onderhandeling/onderhandelingen]
+    adj: [democratisch, federaal, Vlaams, Waals, Brussels, bevoegd, vanzelfsprekend]
+  - id: d14-recht-en-consument
+    level: B2
+    theme: Law and consumer rights
+    moved: >-
+      NT2Lex A2–B1 words (overeenkomst, verzekeren, schadevergoeding, conflict, misdaad, bedriegen, bedrog, overtreden, overtreding,
+      beschuldigen, veroordelen, straffen, gevangenis, rechtbank, proces, legaal, illegaal, wettelijk, benieuwd) are needed to claim
+      one's rights, to complain in writing and to follow news about crime and the courts — a B2 task (Richtgraad 3, rol consument /
+      burger: een klacht formuleren, voorwaarden en rechten begrijpen); the lower units returned a purchase and filed a simple complaint.
+    why: >-
+      Richtgraad 3 (Vantage, publiek domein): contracts, guarantees, withdrawal, mediation, fraud, courts; Staatsexamen II Schrijven
+      (klachtenbrief) and CNaVT B2 (formele brieven) as models; NT2Lex B2 aansprakelijk, bemiddeling, bemiddelaar, opzegging;
+      herroepingsrecht, oplichting, naleven from the topic.
+    noun: [de overeenkomst/overeenkomsten, het herroepingsrecht/-, de opzegging/opzeggingen,
+      de schadevergoeding/schadevergoedingen, het conflict/conflicten, de bemiddeling/-, de bemiddelaar/bemiddelaars, de oplichting/-,
+      het bedrog/-, de misdaad/misdaden, de overtreding/overtredingen, de gevangenis/gevangenissen, de rechtbank/rechtbanken,
+      het proces/processen]
+    verb: [verzekeren, bedriegen, overtreden, na|leven, beschuldigen, veroordelen, straffen, gelden]
+    adj: [aansprakelijk, legaal, illegaal, wettelijk, benieuwd]
+  - id: d15-cultuur
+    level: B2
+    theme: Culture
+    moved: >-
+      NT2Lex A2–B1 words (kunst, kunstenaar, schilderij, theater, première, acteur, regisseur, applaus, recensie, kritiek, roman, schrijver,
+      dichter, gedicht, orkest, muzikant, zanger, zaal, monument, klassiek, hedendaags, origineel, creatief, creativiteit, inspiratie,
+      inspireren, verbeelding, indrukwekkend, boeiend, teleurstelling, wegens) are needed to read and write a review and to judge a
+      performance or a book — a B2 task (Richtgraad 3, rol vrijetijdsbesteder: een recensie lezen en een oordeel geven en motiveren);
+      the lower units planned an outing only.
+    why: >-
+      Richtgraad 3 (Vantage, privé / publiek domein): art, theatre, books, music, heritage; Staatsexamen II Lezen (recensies) and CNaVT
+      B2 as models; NT2Lex B2 recensent, personage, architectuur, verrassend, gezien; regie, poëzie, reeks (Belgian), erfgoed,
+      uitverkocht, ontroerend, teleurstellend from the topic.
+    noun: [de kunst/kunsten, de kunstenaar/kunstenaars, het schilderij/schilderijen, het theater/theaters, de première/premières,
+      de acteur/acteurs, de regisseur/regisseurs, de regie/-, het applaus/-, de recensie/recensies, de recensent/recensenten,
+      de kritiek/kritieken, de roman/romans, de schrijver/schrijvers, de dichter/dichters, het gedicht/gedichten, de poëzie/-,
+      het personage/personages, de reeks/reeksen, het orkest/orkesten, de muzikant/muzikanten, de zanger/zangers, de zaal/zalen,
+      het erfgoed/-, het monument/monumenten, de architectuur/-, de creativiteit/-, de inspiratie/-, de verbeelding/-,
+      de teleurstelling/teleurstellingen]
+    verb: [inspireren]
+    adj: [uitverkocht, klassiek, hedendaags, origineel, creatief, indrukwekkend, ontroerend, boeiend, teleurstellend, verrassend]
+    prep: [gezien, wegens]
+  - id: d16-familie-en-relaties
+    level: B2
+    theme: Family and relationships
+    moved: >-
+      NT2Lex A1–B1 words (echtscheiding, alleenstaand, kleinkind, schoonvader, tiener, puberteit, generatiekloof, ruimte,
+      zakgeld, beloning, band, jaloezie, communicatie, communiceren, waardering, waarderen, steunen, opvangen, verwennen, vergeven,
+      bewonderen, tenzij, zodra, zolang, totdat, mama, papa) are needed to talk about relationships, upbringing and care and to weigh choices
+      within a family — a B2 task (Richtgraad 3, privé domein: gevoelens en meningen nuanceren, afspraken maken onder voorwaarden);
+      the lower units introduced the family and daily routines.
+    why: >-
+      Richtgraad 3 (Vantage, privé domein): families, teenagers, grandparents, caring for ageing parents; Staatsexamen II Luisteren
+      (gesprekken) and CNaVT B2 as models; NT2Lex B2 ouderschap, verbondenheid, geluk, stilte; mits (C1); pleeggezin, zelfstandigheid,
+      rusthuis (Belgian), dementie, zich bemoeien from the topic.
+    noun: [de echtscheiding/echtscheidingen, het kleinkind/kleinkinderen, de schoonvader/schoonvaders,
+      het pleeggezin/pleeggezinnen, het ouderschap/-, de tiener/tieners, de puberteit/-, de generatiekloof/generatiekloven,
+      de zelfstandigheid/-, de ruimte/ruimtes, het zakgeld/-, de beloning/beloningen, de band/banden, de verbondenheid/-,
+      de jaloezie/-, de communicatie/-, de waardering/-, het rusthuis/rusthuizen, de dementie/-, het geluk/-, de stilte/stilten,
+      de mama/mama's, de papa/papa's]
+    verb: [communiceren, steunen, op|vangen, verwennen, zich bemoeien, vergeven, bewonderen, waarderen]
+    adj: [alleenstaand]
+    conj: [tenzij, mits, zodra, zolang, totdat]
+  - id: d17-reizen-en-toerisme
+    level: B2
+    theme: Travel and tourism
+    moved: >-
+      NT2Lex A2–B1 words (reiziger, vakantieganger, verblijven, overnachten, verkennen, vliegreis, treinreis, overvol, ecologisch,
+      compenseren, evenwicht, beperking, spreiden, economisch, natuurgebied, berg, authentiek, gastvrij, ergernis, verlangen) are needed
+      to weigh the effects of tourism and to argue for another way of travelling — a B2 task (Richtgraad 3, rol vrijetijdsbesteder /
+      burger: informatie vergelijken en een standpunt beargumenteren); the lower units booked a trip and described a holiday.
+    why: >-
+      Richtgraad 3 (Vantage, publiek domein): sustainable travel, mass tourism and the residents; Staatsexamen II Lezen (reportages)
+      and CNaVT B2 as models; NT2Lex B2 gastvrijheid; toerisme, massatoerisme, accommodatie, rugzak, cruise, cruiseschip, hoogseizoen,
+      laagseizoen, voetafdruk, impact, inkomsten, cultuurschok from the topic.
+    noun: [het toerisme/-, het massatoerisme/-, de reiziger/reizigers, de vakantieganger/vakantiegangers, de accommodatie/accommodaties,
+      de rugzak/rugzakken, de cruise/cruises, het cruiseschip/cruiseschepen, de vliegreis/vliegreizen, de treinreis/treinreizen,
+      het hoogseizoen/-, het laagseizoen/-, de voetafdruk/voetafdrukken, de impact/-, het evenwicht/-, de beperking/beperkingen,
+      de inkomsten/-, het natuurgebied/natuurgebieden, de berg/bergen, de gastvrijheid/-, de cultuurschok/cultuurschokken,
+      de ergernis/ergernissen, het verlangen/verlangens]
+    verb: [verblijven, overnachten, verkennen, compenseren, spreiden]
+    adj: [overvol, ecologisch, economisch, authentiek, gastvrij]
+  - id: d18-wetenschap
+    level: B2
+    theme: Science
+    moved: >-
+      NT2Lex A1–B1 words (experiment, proef, hypothese, methode, aanpak, deelnemer, analyse, analyseren, statistiek, percentage,
+      gemiddelde, vergelijking, verband, conclusie, bewijzen, publiceren, publicatie, hersenen, slaap, biologie, geneeskunde, bacterie,
+      cel, evolutie, ster, toevallig, opvallend, aanzienlijk, blijkbaar, vermoedelijk) are needed to follow popular science and to read
+      research results critically — a B2 task (Richtgraad 3, educatief domein: informatieve teksten over wetenschap begrijpen, cijfers
+      en conclusies beoordelen); the lower units met numbers in everyday texts only.
+    why: >-
+      Richtgraad 3 (Vantage, educatief / publiek domein): research, the brain, sleep, the body; formal register and nominal style;
+      CNaVT STRT (studiegerichte teksten) and Staatsexamen II Lezen as models; NT2Lex B2 laboratorium, uitkomst, weerleggen, ontdekking,
+      geheugen, psychologie; heelal from the topic.
+    noun: [het experiment/experimenten, de proef/proeven, het laboratorium/laboratoria, de hypothese/hypothesen, de methode/methodes,
+      de aanpak/-, de deelnemer/deelnemers, de analyse/analyses, de statistiek/statistieken, het percentage/percentages,
+      het gemiddelde/gemiddelden, de vergelijking/vergelijkingen, het verband/verbanden, de uitkomst/uitkomsten, de conclusie/conclusies,
+      de ontdekking/ontdekkingen, de publicatie/publicaties, de hersenen/-, het geheugen/geheugens, de slaap/-, de psychologie/-,
+      de biologie/-, de geneeskunde/-, de bacterie/bacteriën, de cel/cellen, de evolutie/-, het heelal/-, de ster/sterren, het cijfer/cijfers]
+    verb: [analyseren, bewijzen, weerleggen, publiceren]
+    adj: [toevallig, opvallend, aanzienlijk]
+    adv: [blijkbaar, vermoedelijk]
+  - id: d19-debat-en-argumentatie
+    level: B2
+    theme: Debate and argument
+    moved: >-
+      NT2Lex A2–B1 words (stelling, voorstander, tegenstander, overtuiging, nuanceren, niettemin, concluderen, betwisten, tegenspreken,
+      ontkennen, onterecht, logisch, overdreven, visie, perspectief, kant, consensus, discussiëren) are needed to take, defend and
+      nuance a position — a B2 task (Richtgraad 3, structureren en beoordelen: argumentatie volgen, standpunten vergelijken, een
+      betoog schrijven); the lower units gave and asked for an opinion only.
+    why: >-
+      Richtgraad 3 (Vantage, publiek / educatief domein): argumentation, concession and conclusion; Staatsexamen II Schrijven and
+      Spreken (een standpunt beargumenteren) and Lezen (opiniestukken) as models; NT2Lex B2 ofschoon, bewering, rechtvaardigen,
+      onredelijk, polarisatie; argumentatie, tegenargument, overtuigend, bijgevolg (Belgian formal usage), onderbouwen, tegenstrijdig,
+      afweging, afwegen, verbod from the topic.
+    noun: [de argumentatie/argumentaties, de stelling/stellingen, het tegenargument/tegenargumenten, de voorstander/voorstanders,
+      de tegenstander/tegenstanders, de overtuiging/overtuigingen, de bewering/beweringen, de nuance/nuances, de visie/visies,
+      het perspectief/perspectieven, de kant/kanten, de afweging/afwegingen, de consensus/-, de polarisatie/-, het verbod/verboden]
+    verb: [pleiten, nuanceren, concluderen, betwisten, tegen|spreken, ontkennen, onderbouwen, rechtvaardigen, af|wegen, discussiëren]
+    adj: [overtuigend, onterecht, onredelijk, logisch, tegenstrijdig, overdreven]
+    conj: [ofschoon]
+    adv: [niettemin, bijgevolg]
+  - id: d20-de-toekomst
+    level: B2
+    theme: The future
+    moved: >-
+      NT2Lex A2–B1 words (vergrijzen, beroepsbevolking, samenwerking, levenskwaliteit, welvaart, tekort, overschot, voorspelling, scenario,
+      hoop, vrees, vrezen, optimistisch, pessimistisch, evolueren, drastisch, onvermijdelijk) are needed to discuss predictions and
+      long-term change and to weigh scenarios — a B2 task (Richtgraad 3, publiek / beroepsgericht domein: toekomstgerichte informatieve
+      en argumentatieve teksten begrijpen en erover discussiëren); the lower units made plans for the coming week only.
+    why: >-
+      Richtgraad 3 (Vantage): the future of work, an ageing society, technology; Staatsexamen II Lezen and CNaVT PROF/STRT as models;
+      NT2Lex B2 bedreiging, vakmanschap, betaalbaarheid, ingrijpend; automatisering (C1), optimisme (C1); gepensioneerd, digitalisering,
+      telewerken (Belgian), vierdagenweek, empathie, demografisch, vooruitzicht, veerkracht from the topic.
+    noun: [de beroepsbevolking/-, de automatisering/-, de digitalisering/-, de vierdagenweek/vierdagenweken, de samenwerking/samenwerkingen,
+      het vakmanschap/-, de empathie/-, de welvaart/-, de levenskwaliteit/-, de betaalbaarheid/-, het tekort/tekorten,
+      het overschot/overschotten, de voorspelling/voorspellingen, het scenario/scenario's, het vooruitzicht/vooruitzichten,
+      de bedreiging/bedreigingen, de hoop/-, de vrees/-, het optimisme/-, de veerkracht/-, de optimist/optimisten, de pessimist/pessimisten]
+    verb: [vergrijzen, telewerken, vrezen, evolueren, op|leiden]
+    adj: [gepensioneerd, demografisch, optimistisch, pessimistisch, drastisch, ingrijpend, onvermijdelijk, geboren, technisch]
+    adv: [tegelijk]
+  # B2 branch nl-b2-work: CNaVT B2 Zakelijk Professioneel (PROF)
+  - id: e01-solliciteren
+    level: B2
+    theme: "Work branch: applying for a job"
+    moved: >-
+      NT2Lex A2–B1 words (sollicitatiebrief, selectie, personeelsdienst, arbeider) are needed to
+      read a full job advert and to write an application at B2 — the PROF tasks (een e-mail aan de directeur van de personeelsdienst,
+      een sollicitatie); the core B2 units and B1 met job adverts only briefly.
+    why: >-
+      CNaVT B2 Zakelijk Professioneel (Deel B set 1: Opleiding; set 2: Stagiair(e) gezocht) and Richtgraad 3 (beroepsgericht domein,
+      rol werkzoekende); NT2Lex B2 aanwerven, troef, proeftijd, arbeidscontract; sollicitant, motivatiebrief, selectieprocedure,
+      functieomschrijving, vereiste, vereist, aanwerving, kaderlid, kandidatuur and zich kandidaat stellen (Belgian), aanmerking (in
+      aanmerking komen) from the topic; NT2Lex B2 teamleider; leiden (to lead a team) with the PROF tasks.
+    noun: [de sollicitatiebrief/sollicitatiebrieven, de motivatiebrief/motivatiebrieven, de sollicitant/sollicitanten, de selectie/selecties,
+      de selectieprocedure/selectieprocedures, de aanwerving/aanwervingen, de personeelsdienst/personeelsdiensten,
+      de functieomschrijving/functieomschrijvingen, de vereiste/vereisten, de troef/troeven, de proeftijd/-,
+      het arbeidscontract/arbeidscontracten, de arbeider/arbeiders, het kaderlid/kaderleden,
+      de teamleider/teamleiders, de kandidatuur/kandidaturen, de aanmerking/aanmerkingen]
+    verb: [aan|werven, zich kandidaat stellen, leiden]
+    adj: [vereist]
+  - id: e02-vergaderen
+    level: B2
+    theme: "Work branch: meetings"
+    moved: >-
+      NT2Lex A2–B1 words (notulen, overleggen, presenteren, presentatie, stemming, verloop, aanwezigheid, verontschuldiging, meedelen,
+      mededeling) are needed to prepare, chair and report on a meeting — the PROF tasks (een gesprek met een collega voorbereiden, een
+      verslag schrijven); the lower units only attended a meeting.
+    why: >-
+      CNaVT B2 Zakelijk Professioneel (Deel C: gesprekken met een collega, Zelfsturende teams) and Richtgraad 3 (beroepsgericht
+      domein, rol werknemer); NT2Lex B2 agendapunt, unaniem, notuleren, voorzitten, deelname, benadrukken, intern, extern; werkoverleg,
+      actiepunt from the topic.
+    noun: [het agendapunt/agendapunten, de notulen/-, het werkoverleg/-, de presentatie/presentaties, het actiepunt/actiepunten,
+      de stemming/stemmingen, het verloop/-, de aanwezigheid/-, de verontschuldiging/verontschuldigingen, de deelname/-,
+      de mededeling/mededelingen]
+    verb: [notuleren, voor|zitten, overleggen, presenteren, benadrukken, mee|delen]
+    adj: [unaniem, intern, extern]
+  - id: e03-zakelijke-mails
+    level: B2
+    theme: "Work branch: formal e-mails"
+    moved: >-
+      NT2Lex A2–B1 words (afsluiting, afzender, toon, aanleiding, betrekking, ontvangst, inzake, zakelijk, informeel, rapporteren) are
+      needed to write a formal e-mail with a fitting opening, reason, request and close — the PROF writing tasks (een e-mail aan uw
+      afdelingshoofd, aan de directeur van de personeelsdienst, een klacht over een foute levering); B1 wrote a short complaint only.
+    why: >-
+      CNaVT B2 Zakelijk Professioneel (Deel A and B: every task is an e-mail with "een gepaste introductie … een gepaste afsluiting";
+      Foute levering) and Richtgraad 3 (beroepsgericht domein, schrijven); NT2Lex B2 aanspreekvorm; aanhef, in bijlage (Belgian),
+      geacht, gepast, beknopt from the topic.
+    noun: [de aanhef/-, de afsluiting/afsluitingen, de afzender/afzenders, de aanspreekvorm/aanspreekvormen, de toon/tonen,
+      de aanleiding/aanleidingen, de betrekking/-, de ontvangst/-]
+    verb: [rapporteren]
+    adj: [geacht, gepast, zakelijk, informeel, beknopt]
+    prep: [inzake]
+    phrase: [in bijlage]
+  - id: e04-teams-en-leiding
+    level: B2
+    theme: "Work branch: teams and leadership"
+    moved: >-
+      NT2Lex A2–B1 words (leiding, taakverdeling, coördinator, functioneren, opvolgen, sterkte, compliment) are needed to talk about
+      how a team is led and to give and receive feedback — the PROF tasks (Zelfsturende teams, Een motiverende werkplek); the lower
+      units described one's own job only.
+    why: >-
+      CNaVT B2 Zakelijk Professioneel (Deel C set 2: Een motiverende werkplek; Zelfsturende teams) and Richtgraad 3 (beroepsgericht
+      domein, rol werknemer / leidinggevende); NT2Lex B2 autonomie, prioriteit, beoordeling; verantwoordelijke, coördineren,
+      delegeren, zelfsturend, motiverend, opvolging, bijsturen (Belgian), zwakte, verbeterpunt from the topic.
+    noun: [de leiding/-, de taakverdeling/taakverdelingen, de verantwoordelijke/verantwoordelijken, de coördinator/coördinatoren,
+      de autonomie/-, de prioriteit/prioriteiten, de beoordeling/beoordelingen, de opvolging/-, de sterkte/sterktes, de zwakte/zwaktes,
+      het verbeterpunt/verbeterpunten, het compliment/complimenten]
+    verb: [coördineren, delegeren, functioneren, op|volgen, bij|sturen]
+    adj: [zelfsturend, motiverend]
+  - id: e05-gezond-op-het-werk
+    level: B2
+    theme: "Work branch: healthy at work"
+    moved: >-
+      NT2Lex A2–B1 words (houding, bureau, balans) are needed to discuss posture, workplace health and absence — the PROF task Bewegen op
+      het werk (an e-mail to a head of department with the speaker's tips and one's own position); the lower units visited the doctor
+      only.
+    why: >-
+      CNaVT B2 Zakelijk Professioneel (Deel A set 1: Bewegen op het werk) and Richtgraad 3 (beroepsgericht domein); NT2Lex B2 verzuim,
+      bureaustoel, grensoverschrijdend; ergonomisch, beeldscherm, werkpost and preventieadviseur, arbeidsgeneesheer (Belgian; NL bedrijfsarts), staand,
+      arbeidsongeval, overwerken, uitgeput, vertrouwenspersoon from the topic.
+    noun: [de houding/houdingen, het bureau/bureaus, de bureaustoel/bureaustoelen, het beeldscherm/beeldschermen, de werkpost/werkposten,
+      de arbeidsgeneesheer/arbeidsgeneesheren, de preventieadviseur/preventieadviseurs, het arbeidsongeval/arbeidsongevallen, het verzuim/-,
+      de balans/balansen, de vertrouwenspersoon/vertrouwenspersonen]
+    verb: [over|werken]
+    adj: [ergonomisch, staand, uitgeput, grensoverschrijdend]
+  - id: e06-klanten
+    level: B2
+    theme: "Work branch: customers and suppliers"
+    moved: >-
+      NT2Lex A2–B1 words (bestelbon, garanderen, voorkeur) are needed to handle orders, quotations and a complaint on the phone — the
+      PROF tasks (Foute levering, a conversation with a customer); B1 complained as a customer only.
+    why: >-
+      CNaVT B2 Zakelijk Professioneel (Foute levering; Reiskosten) and Richtgraad 3 (beroepsgericht domein, rol werknemer met klanten);
+      NT2Lex B2 neutraal; offerte, levertermijn, vervaldag (Belgian), klanttevredenheid, klantvriendelijk, respectvol,
+      arbeidsvoorwaarden from the topic.
+    noun: [de offerte/offertes, de bestelbon/bestelbonnen, de levertermijn/levertermijnen, de vervaldag/vervaldagen,
+      de klanttevredenheid/-, de voorkeur/voorkeuren, de arbeidsvoorwaarden/-]
+    verb: [garanderen]
+    adj: [klantvriendelijk, neutraal, respectvol]
+  - id: e07-diversiteit
+    level: B2
+    theme: "Work branch: diversity at work"
+    moved: >-
+      NT2Lex A2–B1 words (werkvloer, inclusief, handicap, doelgroep, mentor) are needed to discuss diversity policy at work and to
+      nuance a position on it — the PROF task Diversiteit op de werkvloer (an e-mail to a director with the forms of diversity, one
+      advantage and one's own view); the lower units met colleagues only.
+    why: >-
+      CNaVT B2 Zakelijk Professioneel (Deel A set 2: Diversiteit op de werkvloer) and Richtgraad 3 (beroepsgericht domein); NT2Lex B2
+      ondernemingsraad; quotum (C1); inclusie, taalbarrière, vakbondsafgevaardigde from the topic.
+    noun: [de werkvloer/-, de inclusie/-, de handicap/handicaps, de doelgroep/doelgroepen, de mentor/mentors, de taalbarrière/taalbarrières,
+      het quotum/quota, de ondernemingsraad/ondernemingsraden, de vakbondsafgevaardigde/vakbondsafgevaardigden]
+    adj: [inclusief]
+  - id: e08-contract-en-loon
+    level: B2
+    theme: "Work branch: contract and pay"
+    moved: >-
+      NT2Lex A2–B1 words are not enough to read a payslip, an employment contract or the rules on working from home; the branch words
+      (brutoloon, nettoloon, loonbrief, eindejaarspremie, vakantiegeld, indexering, anciënniteit, ploegenwerk, opzeggingstermijn,
+      ontslagvergoeding, statuut) are the Belgian terms of those documents — a B2 task (Richtgraad 3, beroepsgericht domein:
+      arbeidsvoorwaarden begrijpen, de regels van een bedrijf toepassen).
+    why: >-
+      CNaVT B2 Zakelijk Professioneel (Thuiswerken; Reiskosten) and Richtgraad 3; NT2Lex B2 arbeidsduur; brutoloon, nettoloon, loonbrief
+      (Belgian), eindejaarspremie, vakantiegeld, indexering, anciënniteit, ploegenwerk, uitzendkracht, opzeggingstermijn,
+      ontslagvergoeding, statuut, indien from the topic.
+    noun: [het brutoloon/brutolonen, het nettoloon/nettolonen, de loonbrief/loonbrieven, de eindejaarspremie/eindejaarspremies,
+      het vakantiegeld/-, de indexering/indexeringen, de anciënniteit/-, de arbeidsduur/-, het ploegenwerk/-, de uitzendkracht/uitzendkrachten,
+      de opzeggingstermijn/opzeggingstermijnen, de ontslagvergoeding/ontslagvergoedingen, het statuut/statuten]
+    conj: [indien]
+  # B2 branch nl-b2-study: CNaVT B2 Educatief Startbekwaam (STRT)
+  - id: f01-studeren
+    level: B2
+    theme: "Study branch: studying in higher education"
+    moved: >-
+      NT2Lex A2–B1 words are not enough to follow a study programme in Dutch; the branch words (hoorcollege, werkcollege, syllabus,
+      studiepunt, examenperiode, blokken, kot, aula, assistent, promotor, opleidingsonderdeel, studietraject) are the Flemish terms of
+      higher education — a B2 task (Richtgraad 3, educatief domein, rol student: informatie over een opleiding begrijpen, advies vragen).
+    why: >-
+      CNaVT B2 Educatief Startbekwaam (STRT: the profile for starting higher education in Dutch) and Richtgraad 3; NT2Lex B2
+      studiepunt, examenperiode; assistent (A2) moved; hoorcollege, werkcollege, syllabus, blokken, kot (Belgian), aula, promotor,
+      opleidingsonderdeel (Belgian), studietraject, notitie, noteren, herlezen, mondeling, schriftelijk from the topic
+      (taking and rereading notes: Richtgraad 3, rol student).
+    noun: [het hoorcollege/hoorcolleges, het werkcollege/werkcolleges, de syllabus/syllabi, het studiepunt/studiepunten,
+      de examenperiode/examenperiodes, het kot/koten, de aula/aula's, de assistent/assistenten, de promotor/promotors,
+      het opleidingsonderdeel/opleidingsonderdelen, het studietraject/studietrajecten, de notitie/notities]
+    verb: [blokken, noteren, herlezen]
+    adj: [mondeling, schriftelijk]
+  - id: f02-academisch-schrijven
+    level: B2
+    theme: "Study branch: academic reading and writing"
+    moved: >-
+      Writing a paper with sources is a B2 task of the educational domain (Richtgraad 3, rol student: een verslag of paper
+      schrijven, bronnen gebruiken); NT2Lex places vermelden, alinea, inleiding, structuur, opbouw, academisch, formuleren, kern (B1),
+      letterlijk, kopiëren (A2) and plagiaat (B1) lower, but the course has not needed them before.
+    why: >-
+      CNaVT B2 Educatief Startbekwaam (STRT, Deel B: "Schrijf in uw eigen woorden. U mag geen zinnen letterlijk overnemen";
+      a summary "geen opsomming"; a logical whole) and Richtgraad 3; NT2Lex B2 paper, essay, citeren, herschrijven, correct,
+      definitie; vermelden, alinea, inleiding, structuur, opbouw, academisch, formuleren, kern, letterlijk, kopiëren, plagiaat moved;
+      citaat, bronvermelding, parafraseren, bibliografie from the topic.
+    noun: [de paper/papers, het essay/essays, het citaat/citaten, de bronvermelding/bronvermeldingen, het plagiaat/-,
+      de alinea/alinea's, de inleiding/inleidingen, de structuur/structuren, de opbouw/-, de definitie/definities,
+      de bibliografie/bibliografieën, de kern/kernen]
+    verb: [citeren, vermelden, kopiëren, parafraseren, formuleren, herschrijven]
+    adj: [letterlijk, academisch, correct]
+  - id: f03-onderzoek
+    level: B2
+    theme: "Study branch: research, surveys and a lecture on lying"
+    moved: >-
+      Understanding and reporting research (a survey, a sample, a table) is a B2 task of the educational domain (Richtgraad 3,
+      rol student: een lezing volgen, onderzoeksresultaten samenvatten); NT2Lex places lezing, kwetsen (B1), liegen (A2) lower.
+    why: >-
+      CNaVT B2 Educatief Startbekwaam (STRT, Deel A taak 2 "Liegen": a lecture on forensic psychology, summarised for a fellow
+      student) and Richtgraad 3; NT2Lex B2 representatief, anoniem, proefpersoon; enquête, vragenlijst, respondent, grafiek, tabel
+      (B1/A2 in NT2Lex), lezing, kwetsen, liegen moved; steekproef, onderzoeksvraag, kwalitatief, kwantitatief, eerlijkheid from
+      the topic.
+    noun: [de enquête/enquêtes, de vragenlijst/vragenlijsten, de respondent/respondenten, de steekproef/steekproeven,
+      de onderzoeksvraag/onderzoeksvragen, de grafiek/grafieken, de tabel/tabellen, de proefpersoon/proefpersonen,
+      de lezing/lezingen, de eerlijkheid/-]
+    verb: [liegen, kwetsen]
+    adj: [representatief, anoniem, kwalitatief, kwantitatief]
+  - id: f04-presenteren
+    level: B2
+    theme: "Study branch: giving a presentation"
+    moved: >-
+      Giving a presentation with slides to fellow students is a B2 task of the educational domain (Richtgraad 3, rol student:
+      een presentatie geven, vragen beantwoorden); NT2Lex places spreker, tempo, ingewikkeld, begrijpelijk, voorlezen, hardop
+      (A2), microfoon, visueel, bondig (B1) lower, but the course has not needed them before.
+    why: >-
+      CNaVT B2 Educatief Startbekwaam (STRT, Deel C taak 2 "Nederland fietsland" and "Wat een bende": a presentation for the
+      lecturer and fellow students with dia's; "notities in trefwoorden") and Richtgraad 3; NT2Lex B2 medestudent, illustreren;
+      spreker, tempo, microfoon, visueel, bondig, ingewikkeld, begrijpelijk, voorlezen, hardop moved; dia, toehoorder,
+      oogcontact, trefwoord from the topic.
+    noun: [de dia/dia's, de spreker/sprekers, de toehoorder/toehoorders, het oogcontact/-, het tempo/tempo's,
+      de microfoon/microfoons, de medestudent/medestudenten, het trefwoord/trefwoorden]
+    verb: [illustreren, voor|lezen]
+    adj: [visueel, bondig, ingewikkeld, begrijpelijk]
+    adv: [hardop]
+  - id: f05-taal
+    level: B2
+    theme: "Study branch: language and language change"
+    moved: >-
+      Talking about language itself (dialect, loanwords, spelling, pronunciation) is a B2 task of the educational domain
+      (Richtgraad 3, rol student: een interview over taal samenvatten); NT2Lex places dialect, leenwoord, tweetalig, ontlenen,
+      taalkundige, woordenschat, grammatica, jongerentaal, afkorting, norm (B1), spelling, uitspraak, uitspreken, taalgebruik,
+      chatten (A2) lower, but the course has not needed them before.
+    why: >-
+      CNaVT B2 Educatief Startbekwaam (STRT, Deel A set 2, taak 2 "Taalverandering": a radio interview with a language researcher,
+      summarised for the lecturer and fellow students) and Richtgraad 3; NT2Lex B2 tussentaal, standaardtaal; the others moved.
+    noun: [het dialect/dialecten, de tussentaal/-, de standaardtaal/-, het leenwoord/leenwoorden, de spelling/-,
+      de uitspraak/uitspraken, de taalkundige/taalkundigen, de woordenschat/-, de grammatica/-, het taalgebruik/-,
+      de jongerentaal/-, de afkorting/afkortingen, de norm/normen]
+    verb: [uit|spreken, ontlenen, chatten]
+    adj: [tweetalig]
+  - id: f06-brein
+    level: B2
+    theme: "Study branch: behaviour and the brain"
+    moved: >-
+      Reading about research into behaviour (brain scans, marketing, screen time) is a B2 task of the educational domain
+      (Richtgraad 3, rol student: een wetenschappelijk artikel samenvatten); NT2Lex places onbewust, ethisch, emotioneel,
+      commercieel (B1) and geur (A2) lower, but the course has not needed them before.
+    why: >-
+      CNaVT B2 Educatief Startbekwaam (STRT, Deel B set 1, taak 2 "Koopknop in het brein": neuromarketing, hersenscans,
+      commerciële doeleinden; Deel A set 2, taak 1 "Bedtijd": tiredness and media use) and Richtgraad 3; NT2Lex B2 prikkel,
+      mediagebruik, slaaptekort, scannen, logo; onbewust, ethisch, emotioneel, commercieel, geur moved; brein, marketing,
+      hersenscan, manipulatie, bedtijd, rationeel from the topic.
+    noun: [het brein/breinen, de marketing/-, de prikkel/prikkels, de hersenscan/hersenscans, de manipulatie/manipulaties,
+      het mediagebruik/-, de bedtijd/-, het slaaptekort/-, het logo/logo's, de geur/geuren]
+    verb: [scannen]
+    adj: [onbewust, ethisch, emotioneel, rationeel, commercieel]
+  - id: f07-water
+    level: B2
+    theme: "Study branch: water and the environment"
+    moved: >-
+      Following a radio interview on an environmental problem and arguing a point about it is a B2 task of the educational
+      domain (Richtgraad 3, rol student: een betoog schrijven); NT2Lex places antibioticum, filter, giftig, stof (A2) and
+      drinkwater (B1) lower, but the course has not needed them before.
+    why: >-
+      CNaVT B2 Educatief Startbekwaam (STRT, Deel A set 1, taak 1 "Medicijnresten in het grondwater": a student of farmacie
+      hears a radio interview and writes a betoog — het probleem, de verklaring, twee oplossingen) and Richtgraad 3; NT2Lex B2
+      grondwater, zuiveren, riool, afbreken, inleveren; antibioticum, filter, giftig, stof, drinkwater moved; medicijnrest (the STRT task's title), afvalwater,
+      waterzuivering, ecosysteem, hormoon, doorspoelen, farmacie from the topic.
+    noun: [het grondwater/-, het drinkwater/-, het afvalwater/-, de waterzuivering/waterzuiveringen, het riool/riolen,
+      de stof/stoffen, het ecosysteem/ecosystemen, het antibioticum/antibiotica, het hormoon/hormonen, de filter/filters,
+      de farmacie/-, de medicijnrest/medicijnresten]
+    verb: [zuiveren, af|breken, door|spoelen, in|leveren]
+    adj: [giftig]
+  - id: f08-ontwerpen
+    level: B2
+    theme: "Study branch: design"
+    moved: >-
+      Understanding and explaining a design process (from sketch and prototype to product) is a B2 task of the educational
+      domain (Richtgraad 3, rol student: een stage of project beschrijven, een uitleg samenvatten); NT2Lex places ontwerper,
+      ontwerp, aardbei, plukken, rijp (A1–A2), ontwerpen, materiaal, functioneel, productie, testen, kunststof, serre (B1) lower,
+      but the course has not needed them before.
+    why: >-
+      CNaVT B2 Educatief Startbekwaam (STRT, Deel B set 1, taak 1 "Industrieel ontwerpen": industrieel ontwerper, product,
+      gebruiksvriendelijk, ontwerpen en testen, kunststof; Deel B set 2, taak 2 "Aardbeien plukken": a researcher on a
+      strawberry-picking robot, explained in three steps for future students) and Richtgraad 3; zowel … als (Richtgraad 3
+      connectors); NT2Lex B2 prototype,
+      gebruiksvriendelijk, schets, opdrachtgever, innovatief; the others moved.
+    noun: [de ontwerper/ontwerpers, het ontwerp/ontwerpen, het prototype/prototypes, het materiaal/materialen,
+      de productie/producties, de schets/schetsen, de opdrachtgever/opdrachtgevers, de kunststof/kunststoffen,
+      de aardbei/aardbeien, de serre/serres]
+    verb: [ontwerpen, testen, plukken]
+    adj: [gebruiksvriendelijk, functioneel, innovatief, rijp]
+    conj: [zowel]

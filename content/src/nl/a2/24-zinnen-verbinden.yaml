@@ -1,0 +1,32 @@
+id: nl-a2-u24
+title: { en: Linking sentences }
+icon: chat
+topic: Linking words; word order after them
+vocabulary:
+  - { target: terwijl, native: { en: while }, pos: conjunction }
+  - { target: voordat, native: { en: before }, pos: conjunction, avoid: [nl.nadat] }
+  - { target: nadat, native: { en: after }, pos: conjunction }
+  - { target: zodat, native: { en: "so that" }, pos: conjunction }
+  - { target: hoewel, native: { en: although }, pos: conjunction }
+  - { target: daarom, native: { en: "that's why, therefore" }, pos: adverb, avoid: [nl.daardoor] }
+  - { target: daardoor, native: { en: "because of that, as a result" }, pos: adverb }
+  - { target: bovendien, native: { en: "besides, moreover" }, pos: adverb, avoid: [nl.ook-nog] }
+  - { target: ook nog, native: { en: "as well, on top of that" }, pos: adverb }
+  - { target: vervolgens, native: { en: "then, next" }, pos: adverb, avoid: [nl.ten-slotte] }
+  - { target: ten slotte, native: { en: "finally, lastly" }, pos: adverb }
+  - { target: tenminste, native: { en: "at least" }, pos: adverb }
+  - { target: wat voor, native: { en: "what kind of" }, pos: pronoun }
+sentences:
+  - { id: s01, target: "Ik luister naar de radio terwijl ik kook.", native: { en: "I listen to the radio while I cook." }, items: [nl.terwijl], acceptAlso: ["Terwijl ik kook, luister ik naar de radio."] }
+  - { id: s02, target: "Was je handen voordat je eet.", native: { en: "Wash your hands before you eat." }, items: [nl.voordat], acceptAlso: ["Voordat je eet, was je handen."] }
+  - { id: s03, target: "Nadat we gegeten hebben, gaan we wandelen.", native: { en: "After we've eaten, we'll go for a walk." }, items: [nl.nadat], acceptAlso: ["Nadat we hebben gegeten, gaan we wandelen.", "We gaan wandelen nadat we gegeten hebben.", "We gaan wandelen nadat we hebben gegeten."] }
+  - { id: s04, target: "Ik spreek langzaam, zodat iedereen me begrijpt.", native: { en: "I speak slowly so that everyone understands me." }, items: [nl.zodat] }
+  - { id: s05, target: "Hoewel het regende, zijn we gaan fietsen.", native: { en: "Although it was raining, we went cycling." }, items: [nl.hoewel], acceptAlso: ["We zijn gaan fietsen, hoewel het regende."] }
+  - { id: s06, target: "Ik was ziek, daarom ben ik thuisgebleven.", native: { en: "I was ill, that's why I stayed at home." }, items: [nl.daarom], acceptAlso: ["Ik was ziek, ik ben daarom thuisgebleven."] }
+  - { id: s07, target: "Er was een file, daardoor kwam ik te laat.", native: { en: "There was a traffic jam, so I was late." }, items: [nl.daardoor], acceptAlso: ["Er was een file, ik kwam daardoor te laat."] }
+  - { id: s08, target: "Het huis is groot en bovendien goedkoop.", native: { en: "The house is big and cheap as well." }, items: [nl.bovendien] }
+  - { id: s09, target: "Hij werkt en hij studeert ook nog.", native: { en: "He works and he studies as well." }, items: [nl.ook-nog] }
+  - { id: s10, target: "Eerst snijd je de groenten, vervolgens bak je het vlees.", native: { en: "First you cut the vegetables, then you fry the meat." }, items: [nl.vervolgens] }
+  - { id: s11, target: "Ten slotte drinken we samen koffie.", native: { en: "Finally, we have coffee together." }, items: [nl.ten-slotte], acceptAlso: ["We drinken ten slotte samen koffie."] }
+  - { id: s12, target: "Het regent niet, tenminste nu niet.", native: { en: "It isn't raining, at least not now." }, items: [nl.tenminste] }
+  - { id: s13, target: "Wat voor werk doet u?", native: { en: "What kind of work do you do?" }, items: [nl.wat-voor] }

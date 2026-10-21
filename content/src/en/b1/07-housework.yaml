@@ -1,0 +1,162 @@
+id: en-b1-u07
+title: { nl: Huishouden en spullen }
+icon: home
+topic: Housework, appliances, materials and repairs; the passive (is made of, was broken), have / get something done
+vocabulary:
+  - { target: housework, native: { nl: "het huishouden, huishoudelijk werk" }, pos: noun }
+  - { target: tidy up, native: { nl: opruimen }, pos: phrase, avoid: [en.put-away], noBlank: true }
+  - { target: put away, native: { nl: "opbergen, wegleggen" }, pos: phrase, avoid: [en.tidy-up] }
+  - { target: throw away, native: { nl: weggooien }, pos: phrase, avoid: [en.get-rid-of] }
+  - { target: get rid of, native: { nl: zich ontdoen van }, pos: phrase }
+  - { target: mess, native: { nl: rommel }, pos: noun, avoid: [en.stuff] }
+  - { target: messy, native: { nl: rommelig }, pos: adjective, avoid: [en.neat] }
+  - { target: neat, native: { nl: "netjes, keurig" }, pos: adjective }
+  - { target: stuff, native: { nl: spullen }, pos: noun }
+  - { target: pile, native: { nl: stapel }, pos: noun }
+  - { target: dust, native: { nl: (huis)stof }, pos: noun }
+  - { target: dusty, native: { nl: stoffig }, pos: adjective }
+  - { target: dirt, native: { nl: vuil }, pos: noun }
+  - { target: dustbin, native: { nl: vuilnisbak }, pos: noun }
+  - { target: bucket, native: { nl: emmer }, pos: noun }
+  - { target: basket, native: { nl: mand }, pos: noun }
+  - { target: laundry, native: { nl: was (wasgoed) }, pos: noun }
+  - { target: washing machine, native: { nl: wasmachine }, pos: noun }
+  - { target: load, native: { nl: lading (was) }, pos: noun }
+  - { target: powder, native: { nl: poeder }, pos: noun }
+  - { target: liquid, native: { nl: vloeistof }, pos: noun }
+  - { target: iron, native: { nl: strijkijzer }, pos: noun }
+  - { target: ironing, native: { nl: strijkgoed (het strijken) }, pos: noun }
+  - { target: fold, native: { nl: vouwen }, pos: verb }
+  - { target: washing-up, native: { nl: de afwas }, pos: noun }
+  - { target: wash up, native: { nl: afwassen }, pos: phrase }
+  - { target: dishwasher, native: { nl: vaatwasser }, pos: noun }
+  - { target: sink, native: { nl: gootsteen }, pos: noun }
+  - { target: tap, native: { nl: kraan }, pos: noun }
+  - { target: basin, native: { nl: wastafel }, pos: noun }
+  - { target: pipe, native: { nl: "buis, leiding" }, pos: noun }
+  - { target: kettle, native: { nl: waterkoker }, pos: noun }
+  - { target: microwave, native: { nl: magnetron }, pos: noun }
+  - { target: refrigerator, native: { nl: koelkast }, pos: noun }
+  - { target: freezer, native: { nl: vriezer }, pos: noun }
+  - { target: mug, native: { nl: mok }, pos: noun }
+  - { target: cabinet, native: { nl: kastje }, pos: noun }
+  - { target: alarm clock, native: { nl: wekker }, pos: noun }
+  - { target: hairdryer, native: { nl: föhn }, pos: noun }
+  - { target: heater, native: { nl: kachel }, pos: noun }
+  - { target: heat, native: { nl: hitte }, pos: noun }
+  - { target: electricity, native: { nl: elektriciteit }, pos: noun }
+  - { target: electric, native: { nl: elektrisch }, pos: adjective, avoid: [en.electrical] }
+  - { target: electrical, native: { nl: elektrisch (van apparaten) }, pos: adjective, avoid: [en.electric] }
+  - { target: switch, native: { nl: schakelaar }, pos: noun }
+  - { target: plug, native: { nl: stekker }, pos: noun }
+  - { target: bulb, native: { nl: gloeilamp }, pos: noun }
+  - { target: lighter, native: { nl: aansteker }, pos: noun }
+  - { target: ladder, native: { nl: ladder }, pos: noun }
+  - { target: tube, native: { nl: tube }, pos: noun }
+  - { target: tip, native: { nl: "punt, uiteinde" }, pos: noun }
+  - { target: pin, native: { nl: speld }, pos: noun }
+  - { target: stick, native: { nl: plakken }, pos: verb }
+  - { target: sticky, native: { nl: plakkerig }, pos: adjective }
+  - { target: spill, native: { nl: morsen }, pos: verb }
+  - { target: object, native: { nl: voorwerp }, pos: noun }
+  - { target: material, native: { nl: materiaal }, pos: noun }
+  - { target: made of, native: { nl: gemaakt van }, pos: phrase, noBlank: true }
+  - { target: cardboard, native: { nl: karton }, pos: noun }
+  - { target: wooden, native: { nl: houten }, pos: adjective }
+  - { target: thick, native: { nl: dik }, pos: adjective }
+  - { target: shiny, native: { nl: glanzend }, pos: adjective }
+  - { target: well made, native: { nl: goed gemaakt }, pos: phrase }
+  - { target: by hand, native: { nl: met de hand }, pos: phrase }
+  - { target: useful, native: { nl: nuttig }, pos: adjective }
+  - { target: valuable, native: { nl: waardevol }, pos: adjective }
+  - { target: list, native: { nl: lijst }, pos: noun }
+  - { target: instructions, native: { nl: gebruiksaanwijzing }, pos: noun }
+  - { target: handle, native: { nl: hanteren (omgaan met) }, pos: verb }
+  - { target: properly, native: { nl: naar behoren (zoals het hoort) }, pos: adverb }
+  - { target: out of order, native: { nl: defect }, pos: phrase }
+  - { target: fault, native: { nl: "fout, schuld" }, pos: noun }
+  - { target: damage, native: { nl: schade }, pos: noun }
+  - { target: damaged, native: { nl: beschadigd }, pos: adjective }
+  - { target: mend, native: { nl: "repareren, maken" }, pos: verb }
+  - { target: replace, native: { nl: vervangen }, pos: verb }
+  - { target: remove, native: { nl: verwijderen }, pos: verb }
+sentences:
+  - { id: s01, target: "Everybody in our family helps with the housework.", native: { nl: "Iedereen in ons gezin helpt met het huishouden." }, items: [en.housework] }
+  - { id: s02, target: "Please tidy up your room before your friends come.", native: { nl: "Ruim alsjeblieft je kamer op voordat je vrienden komen." }, items: [en.tidy-up] }
+  - { id: s03, target: "Put your toys away, please.", native: { nl: "Berg je speelgoed op, alsjeblieft." }, items: [en.put-away], acceptAlso: ["Put away your toys, please."] }
+  - { id: s04, target: "Don't throw away those boxes. We can use them.", native: { nl: "Gooi die dozen niet weg. We kunnen ze gebruiken." }, items: [en.throw-away] }
+  - { id: s05, target: "We need to get rid of this old sofa.", native: { nl: "We moeten van deze oude bank af." }, items: [en.get-rid-of] }
+  - { id: s06, target: "What a mess! Who did this?", native: { nl: "Wat een rommel! Wie heeft dat gedaan?" }, items: [en.mess] }
+  - { id: s07, target: "My brother's room is always messy.", native: { nl: "De kamer van mijn broer is altijd rommelig." }, items: [en.messy] }
+  - { id: s08, target: "Her handwriting is very neat.", native: { nl: "Haar handschrift is heel netjes." }, items: [en.neat] }
+  - { id: s09, target: "There's too much stuff in this cupboard.", native: { nl: "Er liggen te veel spullen in deze kast." }, items: [en.stuff] }
+  - { id: s10, target: "There's a pile of dirty clothes on the floor.", native: { nl: "Er ligt een stapel vuile kleren op de vloer." }, items: [en.pile] }
+  - { id: s11, target: "There was a lot of dust under the bed.", native: { nl: "Er lag veel stof onder het bed." }, items: [en.dust] }
+  - { id: s12, target: "The old books in the cellar were very dusty.", native: { nl: "De oude boeken in de kelder waren heel stoffig." }, items: [en.dusty] }
+  - { id: s13, target: "Take your shoes off. They're covered in dirt.", native: { nl: "Doe je schoenen uit. Ze zitten onder het vuil." }, items: [en.dirt] }
+  - { id: s14, target: "Can you take the rubbish out to the dustbin?", native: { nl: "Kun je het afval naar de vuilnisbak brengen?" }, items: [en.dustbin] }
+  - { id: s15, target: "Fill the bucket with warm water.", native: { nl: "Vul de emmer met warm water." }, items: [en.bucket] }
+  - { id: s16, target: "Put the clean clothes in the basket.", native: { nl: "Leg de schone kleren in de mand." }, items: [en.basket] }
+  - { id: s17, target: "Dad does the laundry on Saturdays.", native: { nl: "Papa doet op zaterdag de was." }, items: [en.laundry], acceptAlso: ["On Saturdays Dad does the laundry."] }
+  - { id: s18, target: "The washing machine is making a strange noise.", native: { nl: "De wasmachine maakt een raar geluid." }, items: [en.washing-machine] }
+  - { id: s19, target: "I've already done two loads of washing today.", native: { nl: "Ik heb vandaag al twee wassen gedraaid." }, items: [en.load] }
+  - { id: s20, target: "Use less washing powder.", native: { nl: "Gebruik minder waspoeder." }, items: [en.powder] }
+  - { id: s21, target: "Milk and juice are liquids.", native: { nl: "Melk en sap zijn vloeistoffen." }, items: [en.liquid] }
+  - { id: s22, target: "Be careful: the iron is very hot.", native: { nl: "Pas op: het strijkijzer is heel heet." }, items: [en.iron] }
+  - { id: s23, target: "Mum hates doing the ironing.", native: { nl: "Mama heeft een hekel aan strijken." }, items: [en.ironing] }
+  - { id: s24, target: "Fold your T-shirts and put them in the drawer.", native: { nl: "Vouw je T-shirts op en leg ze in de la." }, items: [en.fold] }
+  - { id: s25, target: "It's your turn to do the washing-up.", native: { nl: "Het is jouw beurt om de afwas te doen." }, items: [en.washing-up] }
+  - { id: s26, target: "I'll wash up if you dry.", native: { nl: "Ik was af als jij afdroogt." }, items: [en.wash-up] }
+  - { id: s27, target: "Put the plates in the dishwasher.", native: { nl: "Zet de borden in de vaatwasser." }, items: [en.dishwasher] }
+  - { id: s28, target: "The sink is full of dirty cups.", native: { nl: "De gootsteen staat vol vuile kopjes." }, items: [en.sink] }
+  - { id: s29, target: "Turn off the tap while you brush your teeth.", native: { nl: "Draai de kraan dicht terwijl je je tanden poetst." }, items: [en.tap] }
+  - { id: s30, target: "Wash your hands in the basin.", native: { nl: "Was je handen in de wastafel." }, items: [en.basin] }
+  - { id: s31, target: "A pipe broke and water came through the ceiling.", native: { nl: "Er brak een leiding en er kwam water door het plafond." }, items: [en.pipe], finite: { word: broke, hint: { nl: "break (verleden tijd)" } } }
+  - { id: s32, target: "Can you switch the kettle on? I'd like some tea.", native: { nl: "Kun je de waterkoker aanzetten? Ik wil graag thee." }, items: [en.kettle], acceptAlso: ["Can you switch on the kettle? I'd like some tea."] }
+  - { id: s33, target: "Heat the soup in the microwave for two minutes.", native: { nl: "Verwarm de soep twee minuten in de magnetron." }, items: [en.microwave] }
+  - { id: s34, target: "Keep the milk in the refrigerator.", native: { nl: "Bewaar de melk in de koelkast." }, items: [en.refrigerator] }
+  - { id: s35, target: "There's some ice cream in the freezer.", native: { nl: "Er ligt ijs in de vriezer." }, items: [en.freezer] }
+  - { id: s36, target: "I drink my hot chocolate from a big mug.", native: { nl: "Ik drink mijn warme chocolademelk uit een grote mok." }, items: [en.mug] }
+  - { id: s37, target: "The medicine is in the bathroom cabinet.", native: { nl: "De medicijnen staan in het badkamerkastje." }, items: [en.cabinet] }
+  - { id: s38, target: "My alarm clock didn't go off this morning.", native: { nl: "Mijn wekker ging vanochtend niet af." }, items: [en.alarm-clock], acceptAlso: ["This morning my alarm clock didn't go off."] }
+  - { id: s39, target: "Can I borrow your hairdryer?", native: { nl: "Mag ik je föhn lenen?" }, items: [en.hairdryer] }
+  - { id: s40, target: "It's cold in here. Shall I turn on the heater?", native: { nl: "Het is koud hier. Zal ik de kachel aanzetten?" }, items: [en.heater] }
+  - { id: s41, target: "The heat from the oven made the kitchen very warm.", native: { nl: "De hitte van de oven maakte de keuken heel warm." }, items: [en.heat] }
+  - { id: s42, target: "We should use less electricity.", native: { nl: "We zouden minder elektriciteit moeten gebruiken." }, items: [en.electricity] }
+  - { id: s43, target: "Our neighbours have an electric car.", native: { nl: "Onze buren hebben een elektrische auto." }, items: [en.electric] }
+  - { id: s44, target: "That shop sells electrical goods.", native: { nl: "Die winkel verkoopt elektrische apparaten." }, items: [en.electrical] }
+  - { id: s45, target: "The light switch is next to the door.", native: { nl: "De lichtschakelaar zit naast de deur." }, items: [en.switch] }
+  - { id: s46, target: "Take the plug out before you clean the machine.", native: { nl: "Haal de stekker eruit voordat je de machine schoonmaakt." }, items: [en.plug] }
+  - { id: s47, target: "We need a new bulb for the lamp in the hall.", native: { nl: "We hebben een nieuwe gloeilamp nodig voor de lamp in de gang." }, items: [en.bulb] }
+  - { id: s48, target: "Never play with a lighter.", native: { nl: "Speel nooit met een aansteker." }, items: [en.lighter] }
+  - { id: s49, target: "Dad climbed up the ladder to clean the windows.", native: { nl: "Papa klom de ladder op om de ramen te wassen." }, items: [en.ladder], finite: { word: climbed, hint: { nl: "climb (verleden tijd)" } } }
+  - { id: s50, target: "We need a new tube of toothpaste.", native: { nl: "We hebben een nieuwe tube tandpasta nodig." }, items: [en.tube] }
+  - { id: s51, target: "The tip of my pencil broke.", native: { nl: "De punt van mijn potlood brak af." }, items: [en.tip] }
+  - { id: s52, target: "Be careful, there's a pin in the shirt.", native: { nl: "Pas op, er zit een speld in het overhemd." }, items: [en.pin] }
+  - { id: s53, target: "Stick the photo in your notebook.", native: { nl: "Plak de foto in je schrift." }, items: [en.stick] }
+  - { id: s54, target: "My fingers are sticky because of the jam.", native: { nl: "Mijn vingers zijn plakkerig van de jam." }, items: [en.sticky] }
+  - { id: s55, target: "Oh no, I've spilt juice on the carpet!", native: { nl: "O nee, ik heb sap op de vloerbedekking gemorst!" }, items: [en.spill] }
+  - { id: s56, target: "There are some strange objects in the museum.", native: { nl: "Er staan een paar vreemde voorwerpen in het museum." }, items: [en.object] }
+  - { id: s57, target: "What kind of material is this jacket?", native: { nl: "Van welk materiaal is deze jas?" }, items: [en.material] }
+  - { id: s58, target: "This bag is made of plastic bottles.", native: { nl: "Deze tas is gemaakt van plastic flessen." }, items: [en.made-of] }
+  - { id: s59, target: "The robot was made from cardboard boxes.", native: { nl: "De robot was gemaakt van kartonnen dozen." }, items: [en.cardboard] }
+  - { id: s60, target: "We sat at a big wooden table.", native: { nl: "We zaten aan een grote houten tafel." }, items: [en.wooden], finite: { word: sat, hint: { nl: "sit (verleden tijd)" } } }
+  - { id: s61, target: "I need a thick jumper for the winter.", native: { nl: "Ik heb een dikke trui nodig voor de winter." }, items: [en.thick] }
+  - { id: s62, target: "He cleaned his shoes until they were shiny.", native: { nl: "Hij maakte zijn schoenen schoon tot ze glansden." }, items: [en.shiny] }
+  - { id: s63, target: "These chairs are cheap but well made.", native: { nl: "Deze stoelen zijn goedkoop maar goed gemaakt." }, items: [en.well-made] }
+  - { id: s64, target: "Grandma made this scarf by hand.", native: { nl: "Oma heeft deze sjaal met de hand gemaakt." }, items: [en.by-hand] }
+  - { id: s65, target: "A torch is very useful when you go camping.", native: { nl: "Een zaklamp is heel handig als je gaat kamperen." }, items: [en.useful] }
+  - { id: s66, target: "Don't leave valuable things in the car.", native: { nl: "Laat geen waardevolle spullen in de auto liggen." }, items: [en.valuable] }
+  - { id: s67, target: "I made a list of things we need for the party.", native: { nl: "Ik maakte een lijst van dingen die we nodig hebben voor het feest." }, items: [en.list] }
+  - { id: s68, target: "Read the instructions before you use the machine.", native: { nl: "Lees de gebruiksaanwijzing voordat je de machine gebruikt." }, items: [en.instructions], acceptAlso: ["Before you use the machine read the instructions."] }
+  - { id: s69, target: "Handle the glasses carefully.", native: { nl: "Ga voorzichtig met de glazen om." }, items: [en.handle] }
+  - { id: s70, target: "The printer isn't working properly.", native: { nl: "De printer werkt niet goed." }, items: [en.properly] }
+  - { id: s71, target: "The lift is out of order, so we'll have to use the stairs.", native: { nl: "De lift is defect, dus we moeten de trap nemen." }, items: [en.out-of-order] }
+  - { id: s72, target: "There's a fault in the electrical system.", native: { nl: "Er is een storing in de elektrische installatie." }, items: [en.fault, en.electrical] }
+  - { id: s73, target: "The storm did a lot of damage to the roof.", native: { nl: "De storm richtte veel schade aan het dak aan." }, items: [en.damage] }
+  - { id: s74, target: "The box arrived, but the plates inside were damaged.", native: { nl: "De doos kwam aan, maar de borden erin waren beschadigd." }, items: [en.damaged] }
+  - { id: s75, target: "Can you mend the hole in my jeans?", native: { nl: "Kun je het gat in mijn spijkerbroek herstellen?" }, items: [en.mend] }
+  - { id: s76, target: "We had the broken window replaced.", native: { nl: "We hebben het kapotte raam laten vervangen." }, items: [en.replace] }
+  - { id: s77, target: "How can I remove this dirt from my shirt?", native: { nl: "Hoe kan ik dit vuil uit mijn overhemd verwijderen?" }, items: [en.remove] }
+  - { id: s78, target: "We're having the broken pipe replaced next week.", native: { nl: "We laten volgende week de kapotte leiding vervangen." }, items: [en.pipe, en.replace] }
+texts: [en-b1-t08]

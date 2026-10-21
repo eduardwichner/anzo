@@ -1,0 +1,42 @@
+id: nl-b2-work-t02
+kind: dialogue
+title: { en: The team meeting }
+topic: Meetings (a team leader and a colleague prepare the Monday meeting)
+level: B2
+speakers: { A: { name: Pieter }, B: { name: Sofie } }
+turns:
+  - { id: nl-b2-work-t02-s01, speaker: A, target: "Sofie, heb je even tijd om het werkoverleg van maandag voor te bereiden?", native: { en: "Sofie, have you got a moment to prepare Monday's team meeting?" } }
+  - { id: nl-b2-work-t02-s02, speaker: B, target: "Natuurlijk. Ik heb de notulen van vorige week al nagelezen. Er staan nog drie actiepunten open.", native: { en: "Of course. I've already reread last week's minutes. Three action points are still open." } }
+  - { id: nl-b2-work-t02-s03, speaker: A, target: "Welke zijn dat?", native: { en: "Which ones are they?" } }
+  - { id: nl-b2-work-t02-s04, speaker: B, target: "De nieuwe planning voor de feestdagen, de opleiding over het nieuwe systeem en de klacht van die klant uit Brugge.", native: { en: "The new schedule for the holidays, the training on the new system and the complaint from that customer in Bruges." } }
+  - { id: nl-b2-work-t02-s05, speaker: A, target: "Die klacht wil ik als eerste agendapunt. Dat is het dringendst.", native: { en: "I want that complaint as the first item. That's the most urgent." } }
+  - { id: nl-b2-work-t02-s06, speaker: B, target: "Goed idee. Zal ik dan ook de cijfers van de leveringen presenteren? Dan ziet iedereen waar het misgaat.", native: { en: "Good idea. Shall I present the delivery figures too, then? Then everyone can see where it goes wrong." } }
+  - { id: nl-b2-work-t02-s07, speaker: A, target: "Graag, maar hou het kort. Vorige keer duurde de vergadering bijna twee uur.", native: { en: "Yes please, but keep it short. Last time the meeting took almost two hours." } }
+  - { id: nl-b2-work-t02-s08, speaker: B, target: "Dat kwam doordat iedereen over de planning wilde discussiëren. Misschien moeten we daar eerst met een paar mensen over overleggen.", native: { en: "That was because everyone wanted to discuss the schedule. Maybe we should discuss it with a few people first." } }
+  - { id: nl-b2-work-t02-s09, speaker: A, target: "Dat is verstandig. Kun jij een voorstel maken, samen met Karim en Lien?", native: { en: "That's sensible. Can you make a proposal, together with Karim and Lien?" } }
+  - { id: nl-b2-work-t02-s10, speaker: B, target: "Dat lukt. Dan kunnen we het maandag voorstellen en eventueel meteen stemmen.", native: { en: "I can do that. Then we can propose it on Monday and vote straight away if need be." } }
+  - { id: nl-b2-work-t02-s11, speaker: A, target: "En wie notuleert er deze keer? Ik wil zelf de vergadering voorzitten.", native: { en: "And who's taking the minutes this time? I want to chair the meeting myself." } }
+  - { id: nl-b2-work-t02-s12, speaker: B, target: "Dat doe ik wel. Maar dan wil ik dat iedereen de notulen pas na de vergadering nakijkt.", native: { en: "I'll do it. But then I want everyone to check the minutes only after the meeting." } }
+  - { id: nl-b2-work-t02-s13, speaker: A, target: "Afgesproken. Is er nog iets?", native: { en: "Agreed. Anything else?" } }
+  - { id: nl-b2-work-t02-s14, speaker: B, target: "Ja, Tom heeft een verontschuldiging gestuurd. Hij is maandag op opleiding.", native: { en: "Yes, Tom has sent his apologies. He's on a training course on Monday." } }
+  - { id: nl-b2-work-t02-s15, speaker: A, target: "Dan stuur ik hem achteraf de notulen. Bedankt, Sofie, zo wordt het een korte en nuttige vergadering.", native: { en: "Then I'll send him the minutes afterwards. Thanks, Sofie, that way it'll be a short and useful meeting." } }
+glossary:
+  - { word: nagelezen, native: { en: "reread (nalezen)" } }
+  - { word: misgaat, native: { en: "goes wrong (misgaan)" } }
+  - { word: verstandig, native: { en: sensible } }
+items: [nl.werkoverleg, nl.notulen, nl.actiepunt, nl.agendapunt, nl.presenteren, nl.overleggen, nl.notuleren, nl.voorzitten, nl.verontschuldiging]
+questions:
+  - { id: nl-b2-work-t02-q1, type: summary, options: ["Pieter en Sofie bereiden samen het werkoverleg voor en spreken af hoe het korter en nuttiger kan.", "Pieter en Sofie bespreken de klacht van een klant uit Brugge en beslissen wat ze terugbetalen.", "Sofie vertelt Pieter dat ze de vergadering niet wil voorzitten."], correct: 0 }
+  - { id: nl-b2-work-t02-q2, type: mc, question: "Waarom wil Pieter de klacht als eerste agendapunt?", options: ["Het is het dringendste punt.", "De klant komt zelf naar de vergadering.", "Tom wil erover praten."], correct: 0 }
+  - { id: nl-b2-work-t02-q3, type: true_false_notgiven, statement: "Pieter vindt dat de vorige vergadering te lang duurde.", answer: true }
+  - { id: nl-b2-work-t02-q4, type: true_false_notgiven, statement: "Pieter notuleert maandag zelf.", answer: false }
+  - { id: nl-b2-work-t02-q5, type: true_false_notgiven, statement: "Karim en Lien werken al lang in het team.", answer: not_given }
+listeningQuestions:
+  - { id: nl-b2-work-t02-l1, type: complete, statement: "Er staan nog ___ actiepunten open.", answers: [drie, "3"] }
+  - { id: nl-b2-work-t02-l2, type: mc, question: "Waarom is Tom maandag niet op de vergadering?", options: ["Hij is op opleiding.", "Hij is ziek.", "Hij is met vakantie."], correct: 0 }
+openCloze:
+  - { sentence: nl-b2-work-t02-s05, word: als }
+  - { sentence: nl-b2-work-t02-s08, word: doordat, acceptAlso: [omdat] }
+  - { sentence: nl-b2-work-t02-s09, word: met }
+  - { sentence: nl-b2-work-t02-s01, word: om }
+orderable: false

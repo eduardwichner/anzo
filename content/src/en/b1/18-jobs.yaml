@@ -1,0 +1,130 @@
+id: en-b1-u18
+title: { nl: Beroepen en het werk }
+icon: work
+topic: Jobs, companies and the workplace; present simple and continuous for jobs and temporary situations, used to
+vocabulary:
+  - { target: occupation, native: { nl: beroep (op een formulier) }, pos: noun, avoid: [en.profession] }
+  - { target: profession, native: { nl: beroep (vak) }, pos: noun, avoid: [en.occupation] }
+  - { target: professional, native: { nl: professioneel }, pos: adjective }
+  - { target: position, native: { nl: functie (positie) }, pos: noun, noBlank: true }
+  - { target: ability, native: { nl: bekwaamheid (vermogen) }, pos: noun }
+  - { target: expert, native: { nl: deskundige }, pos: noun }
+  - { target: worker, native: { nl: arbeider (werknemer) }, pos: noun }
+  - { target: staff, native: { nl: personeel }, pos: noun }
+  - { target: colleague, native: { nl: collega }, pos: noun }
+  - { target: boss, native: { nl: baas }, pos: noun }
+  - { target: assistant, native: { nl: assistent }, pos: noun }
+  - { target: assist, native: { nl: assisteren (helpen) }, pos: verb }
+  - { target: secretary, native: { nl: secretaresse }, pos: noun }
+  - { target: receptionist, native: { nl: receptionist }, pos: noun }
+  - { target: accountant, native: { nl: boekhouder }, pos: noun }
+  - { target: banker, native: { nl: bankier }, pos: noun }
+  - { target: architect, native: { nl: architect }, pos: noun }
+  - { target: engineering, native: { nl: "ingenieurswetenschappen, techniek (als studie)" }, pos: noun, avoid: [en.technique] }
+  - { target: programmer, native: { nl: programmeur }, pos: noun }
+  - { target: librarian, native: { nl: bibliothecaris }, pos: noun }
+  - { target: vet, native: { nl: dierenarts }, pos: noun }
+  - { target: firefighter, native: { nl: brandweerman (-vrouw) }, pos: noun }
+  - { target: postman, native: { nl: postbode }, pos: noun }
+  - { target: sailor, native: { nl: zeeman }, pos: noun }
+  - { target: guard, native: { nl: bewaker }, pos: noun }
+  - { target: security guard, native: { nl: beveiliger }, pos: noun, noBlank: true, avoid: [en.guard] }
+  - { target: cleaner, native: { nl: schoonmaker }, pos: noun }
+  - { target: shop assistant, native: { nl: verkoper (in een winkel) }, pos: noun, avoid: [en.salesman] }
+  - { target: salesman, native: { nl: verkoper }, pos: noun }
+  - { target: housewife, native: { nl: huisvrouw }, pos: noun }
+  - { target: babysitter, native: { nl: babysitter }, pos: noun }
+  - { target: babysit, native: { nl: babysitten }, pos: verb }
+  - { target: volunteer, native: { nl: vrijwilliger }, pos: noun }
+  - { target: company, native: { nl: bedrijf }, pos: noun, avoid: [en.firm] }
+  - { target: firm, native: { nl: firma }, pos: noun }
+  - { target: organisation, native: { nl: organisatie }, pos: noun }
+  - { target: department, native: { nl: afdeling }, pos: noun }
+  - { target: industry, native: { nl: industrie }, pos: noun }
+  - { target: trade, native: { nl: handel }, pos: noun }
+  - { target: conference, native: { nl: conferentie }, pos: noun }
+  - { target: on business, native: { nl: voor zaken }, pos: phrase, noBlank: true }
+  - { target: regarding, native: { nl: betreffende }, pos: preposition, noBlank: true }
+  - { target: set up, native: { nl: opzetten (een bedrijf) }, pos: phrase }
+  - { target: manage, native: { nl: "leiden; erin slagen" }, pos: verb, avoid: [en.lead, en.succeed] }
+  - { target: provide, native: { nl: zorgen voor (leveren) }, pos: verb, avoid: [en.supply, en.take-care-of] }
+  - { target: supply, native: { nl: leveren }, pos: verb }
+  - { target: promote, native: { nl: promotie geven }, pos: verb }
+  - { target: efficient, native: { nl: efficiënt }, pos: adjective }
+  - { target: working, native: { nl: werk- (werkend) }, pos: adjective }
+  - { target: full-time, native: { nl: voltijds }, pos: adjective, avoid: [en.part-time, en.full-time-1] }
+  - { target: part-time, native: { nl: deeltijds }, pos: adjective, avoid: [en.part-time-1] }
+  - { id: en.full-time-1, target: full time, native: { nl: voltijds (bijwoord) }, pos: phrase, avoid: [en.part-time-1] }
+  - { id: en.part-time-1, target: part time, native: { nl: deeltijds (bijwoord) }, pos: phrase }
+  - { target: temporary, native: { nl: tijdelijk }, pos: adjective }
+  - { target: earn, native: { nl: verdienen }, pos: verb }
+  - { target: pay, native: { nl: loon (betaling) }, pos: noun, noBlank: true }
+  - { target: strike, native: { nl: staking }, pos: noun }
+  - { target: union, native: { nl: vakbond }, pos: noun }
+  - { target: retire, native: { nl: met pensioen gaan }, pos: verb }
+  - { target: retirement, native: { nl: pensioen }, pos: noun }
+sentences:
+  - { id: s01, target: "Write your occupation on the form.", native: { nl: "Schrijf je beroep op het formulier." }, items: [en.occupation] }
+  - { id: s02, target: "Teaching is a very important profession.", native: { nl: "Lesgeven is een heel belangrijk beroep." }, items: [en.profession] }
+  - { id: s03, target: "She's a professional singer.", native: { nl: "Ze is een professionele zangeres." }, items: [en.professional] }
+  - { id: s04, target: "He applied for a position at the bank.", native: { nl: "Hij solliciteerde naar een functie bij de bank." }, items: [en.position] }
+  - { id: s05, target: "She has the ability to explain things clearly.", native: { nl: "Ze kan dingen duidelijk uitleggen." }, items: [en.ability] }
+  - { id: s06, target: "He's an expert on birds.", native: { nl: "Hij is een deskundige op het gebied van vogels." }, items: [en.expert] }
+  - { id: s07, target: "The factory has five hundred workers.", native: { nl: "De fabriek heeft vijfhonderd arbeiders." }, items: [en.worker] }
+  - { id: s08, target: "The hotel staff were very friendly.", native: { nl: "Het hotelpersoneel was heel vriendelijk." }, items: [en.staff] }
+  - { id: s09, target: "My mum is going for a meal with her colleagues.", native: { nl: "Mijn moeder gaat uit eten met haar collega's." }, items: [en.colleague], finite: { word: is, hint: { nl: "be (tegenwoordige tijd: … going)" } } }
+  - { id: s10, target: "My boss lets me leave early on Fridays.", native: { nl: "Mijn baas laat me op vrijdag vroeg weggaan." }, items: [en.boss], acceptAlso: ["On Fridays my boss lets me leave early."] }
+  - { id: s11, target: "The shop assistant helped me find a jumper.", native: { nl: "De verkoopster hielp me een trui te vinden." }, items: [en.shop-assistant] }
+  - { id: s12, target: "I assist the teacher at the after-school club.", native: { nl: "Ik help de leraar bij de naschoolse activiteiten." }, items: [en.assist] }
+  - { id: s13, target: "The doctor's assistant took my temperature.", native: { nl: "De assistent van de dokter nam mijn temperatuur op." }, items: [en.assistant] }
+  - { id: s14, target: "Ask the secretary for a form.", native: { nl: "Vraag de secretaresse om een formulier." }, items: [en.secretary] }
+  - { id: s15, target: "The receptionist gave us the key to our room.", native: { nl: "De receptionist gaf ons de sleutel van onze kamer." }, items: [en.receptionist] }
+  - { id: s16, target: "An accountant helps people with their money.", native: { nl: "Een boekhouder helpt mensen met hun geld." }, items: [en.accountant] }
+  - { id: s17, target: "My uncle is a banker in London.", native: { nl: "Mijn oom is bankier in Londen." }, items: [en.banker] }
+  - { id: s18, target: "The architect designed a very modern library.", native: { nl: "De architect ontwierp een heel moderne bibliotheek." }, items: [en.architect] }
+  - { id: s19, target: "She wants to study engineering at university.", native: { nl: "Ze wil techniek studeren aan de universiteit." }, items: [en.engineering] }
+  - { id: s20, target: "Computer programmers earn good money.", native: { nl: "Computerprogrammeurs verdienen goed." }, items: [en.programmer, en.earn] }
+  - { id: s21, target: "The librarian helped me find the book.", native: { nl: "De bibliothecaris hielp me het boek te vinden." }, items: [en.librarian] }
+  - { id: s22, target: "We took our cat to the vet.", native: { nl: "We brachten onze kat naar de dierenarts." }, items: [en.vet] }
+  - { id: s23, target: "The firefighters arrived in five minutes.", native: { nl: "De brandweerlieden kwamen binnen vijf minuten." }, items: [en.firefighter] }
+  - { id: s24, target: "The postman comes at about ten.", native: { nl: "De postbode komt rond tien uur." }, items: [en.postman] }
+  - { id: s25, target: "My grandfather was a sailor for forty years.", native: { nl: "Mijn opa was veertig jaar zeeman." }, items: [en.sailor] }
+  - { id: s26, target: "There's a guard at the door of the palace.", native: { nl: "Er staat een bewaker bij de deur van het paleis." }, items: [en.guard] }
+  - { id: s27, target: "The security guard checked our bags.", native: { nl: "De beveiliger controleerde onze tassen." }, items: [en.security-guard] }
+  - { id: s28, target: "The cleaners start work at six in the morning.", native: { nl: "De schoonmakers beginnen om zes uur 's ochtends." }, items: [en.cleaner], acceptAlso: ["At six in the morning the cleaners start work."] }
+  - { id: s29, target: "My dad was a car salesman before he became a teacher.", native: { nl: "Mijn vader was autoverkoper voordat hij leraar werd." }, items: [en.salesman] }
+  - { id: s30, target: "My grandmother was a housewife and looked after six children.", native: { nl: "Mijn oma was huisvrouw en zorgde voor zes kinderen." }, items: [en.housewife] }
+  - { id: s31, target: "We need a babysitter for Saturday night.", native: { nl: "We hebben een babysitter nodig voor zaterdagavond." }, items: [en.babysitter] }
+  - { id: s32, target: "I sometimes babysit for our neighbours.", native: { nl: "Ik babysit soms bij onze buren." }, items: [en.babysit], acceptAlso: ["Sometimes I babysit for our neighbours."] }
+  - { id: s33, target: "She works as a volunteer at the animal hospital.", native: { nl: "Ze werkt als vrijwilliger in het dierenziekenhuis." }, items: [en.volunteer] }
+  - { id: s34, target: "My aunt works for a big computer company.", native: { nl: "Mijn tante werkt voor een groot computerbedrijf." }, items: [en.company] }
+  - { id: s35, target: "It's a good firm to work for.", native: { nl: "Het is een goede firma om voor te werken." }, items: [en.firm] }
+  - { id: s36, target: "The organisation helps children all over the world.", native: { nl: "De organisatie helpt kinderen over de hele wereld." }, items: [en.organisation] }
+  - { id: s37, target: "Which department do you work in?", native: { nl: "Op welke afdeling werk je?" }, items: [en.department] }
+  - { id: s38, target: "The car industry is very important in Germany.", native: { nl: "De auto-industrie is heel belangrijk in Duitsland." }, items: [en.industry], acceptAlso: ["In Germany the car industry is very important."] }
+  - { id: s39, target: "The port is a centre of international trade.", native: { nl: "De haven is een centrum van internationale handel." }, items: [en.trade] }
+  - { id: s40, target: "Mum is at a conference in Edinburgh this week.", native: { nl: "Mama is deze week op een conferentie in Edinburgh." }, items: [en.conference], acceptAlso: ["This week Mum is at a conference in Edinburgh."] }
+  - { id: s41, target: "Dad often goes to Paris on business.", native: { nl: "Papa gaat vaak voor zaken naar Parijs." }, items: [en.on-business] }
+  - { id: s42, target: "I'm writing regarding your letter of 3 May.", native: { nl: "Ik schrijf u naar aanleiding van uw brief van 3 mei." }, items: [en.regarding] }
+  - { id: s43, target: "Her mother helped her to set up her own business.", native: { nl: "Haar moeder hielp haar haar eigen bedrijf op te zetten." }, items: [en.set-up] }
+  - { id: s44, target: "She manages a small hotel by the sea.", native: { nl: "Ze leidt een klein hotel aan zee." }, items: [en.manage] }
+  - { id: s61, target: "Did you manage to find the café?", native: { nl: "Is het je gelukt het café te vinden?" }, items: [en.manage] }
+  - { id: s45, target: "The school provides lunch for all pupils.", native: { nl: "De school zorgt voor lunch voor alle leerlingen." }, items: [en.provide] }
+  - { id: s46, target: "A local farm supplies the restaurant with vegetables.", native: { nl: "Een boerderij uit de buurt levert groenten aan het restaurant." }, items: [en.supply] }
+  - { id: s47, target: "She was promoted after only one year.", native: { nl: "Ze kreeg al na één jaar promotie." }, items: [en.promote], acceptAlso: ["After only one year she was promoted."] }
+  - { id: s48, target: "Our new system is much more efficient.", native: { nl: "Ons nieuwe systeem is veel efficiënter." }, items: [en.efficient] }
+  - { id: s49, target: "Most working parents are very busy.", native: { nl: "De meeste werkende ouders hebben het heel druk." }, items: [en.working] }
+  - { id: s50, target: "She has a full-time job at the hospital.", native: { nl: "Ze heeft een voltijdse baan in het ziekenhuis." }, items: [en.full-time] }
+  - { id: s51, target: "Lots of students have part-time jobs.", native: { nl: "Veel studenten hebben een bijbaantje." }, items: [en.part-time] }
+  - { id: s52, target: "My mum works full time, and my dad works part time.", native: { nl: "Mijn moeder werkt voltijds, en mijn vader werkt deeltijds." }, items: [en.full-time-1, en.part-time-1] }
+  - { id: s53, target: "It's only a temporary job for the summer.", native: { nl: "Het is maar een tijdelijke baan voor de zomer." }, items: [en.temporary] }
+  - { id: s54, target: "How much do you earn as a waiter?", native: { nl: "Hoeveel verdien je als ober?" }, items: [en.earn] }
+  - { id: s55, target: "The pay is good, but the hours are long.", native: { nl: "Het loon is goed, maar de uren zijn lang." }, items: [en.pay] }
+  - { id: s56, target: "The train drivers are on strike today.", native: { nl: "De treinbestuurders staken vandaag." }, items: [en.strike], acceptAlso: ["Today the train drivers are on strike."] }
+  - { id: s57, target: "Most of the workers belong to a union.", native: { nl: "De meeste arbeiders zijn lid van een vakbond." }, items: [en.union] }
+  - { id: s58, target: "My grandmother retired at sixty-five.", native: { nl: "Mijn oma ging op haar vijfenzestigste met pensioen." }, items: [en.retire] }
+  - { id: s59, target: "He enjoys gardening in his retirement.", native: { nl: "Nu hij met pensioen is, geniet hij van het tuinieren." }, items: [en.retirement], acceptAlso: ["In his retirement he enjoys gardening."] }
+  - { id: s60, target: "My uncle used to be a sailor, but now he's working in an office.", native: { nl: "Mijn oom was vroeger zeeman, maar nu werkt hij op een kantoor." }, items: [en.sailor] }
+  - { id: s62, target: "We used to live in a small flat near my office.", native: { nl: "We woonden vroeger in een kleine flat bij mijn kantoor." }, items: [en.used-to] }
+  - { id: s63, target: "I've worked for this company since 2015.", native: { nl: "Ik werk sinds 2015 voor dit bedrijf." }, items: [en.company] }
+texts: [en-b1-t19]

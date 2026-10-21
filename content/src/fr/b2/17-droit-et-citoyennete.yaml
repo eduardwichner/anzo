@@ -1,0 +1,70 @@
+id: fr-b2-u17
+title: { nl: "Regels, rechten en de wet", en: "Rules, rights and the law" }
+icon: law
+topic: Les élections et la démocratie, la justice et les tribunaux, les droits et les devoirs des jeunes ; l'obligation et la permission (avoir le droit de, être autorisé à, être obligé de) et le subjonctif après les expressions impersonnelles (il est temps que, il est essentiel que, il est inacceptable que)
+vocabulary:
+  - { target: le droit de vote, native: { nl: het stemrecht, en: "the right to vote" }, pos: noun, gender: m }
+  - { target: l'électeur, native: { nl: de kiezer, en: "voter" }, pos: noun, gender: m }
+  - { target: élire, native: { nl: verkiezen, en: "to elect" }, pos: verb }
+  - { target: le parti, native: { nl: "de (politieke) partij", en: "political party" }, pos: noun, gender: m }
+  - { target: la démocratie, native: { nl: de democratie, en: "democracy" }, pos: noun, gender: f, noBlank: true }
+  - { target: le ministre, native: { nl: de minister, en: "minister" }, pos: noun, gender: m, noBlank: true }
+  - { target: autoriser, native: { nl: toestaan, en: "to allow, to authorise" }, pos: verb }
+  - { target: l'autorisation, native: { nl: de toestemming, en: "authorisation, consent" }, pos: noun, gender: f }
+  - { target: l'obligation, native: { nl: de verplichting, en: "obligation, duty" }, pos: noun, gender: f }
+  - { target: avoir le droit de, native: { nl: "het recht hebben om, mogen", en: "to be allowed to, to have the right to" }, pos: verb }
+  - { target: majeur, native: { nl: meerderjarig, en: "of age (18 or over)" }, pos: adjective, avoid: [fr.mineur] }
+  - { target: mineur, native: { nl: minderjarig, en: "under age, minor" }, pos: adjective, avoid: [fr.majeur] }
+  - { target: la citoyenneté, native: { nl: het burgerschap, en: "citizenship" }, pos: noun, gender: f }
+  - { target: le juge, native: { nl: de rechter, en: "judge" }, pos: noun, gender: m }
+  - { target: le tribunal, native: { nl: de rechtbank, en: "court" }, pos: noun, gender: m }
+  - { target: l'avocat, native: { nl: de advocaat, en: "lawyer" }, pos: noun, gender: m, noBlank: true }
+  - { target: condamner, native: { nl: veroordelen, en: "to sentence, to convict" }, pos: verb }
+  - { target: l'amende, native: { nl: de boete, en: "fine (as in: a parking fine)" }, pos: noun, gender: f }
+  - { target: punir, native: { nl: straffen, en: "to punish" }, pos: verb }
+  - { target: la sanction, native: { nl: "de sanctie, de straf", en: "penalty, punishment" }, pos: noun, gender: f, noBlank: true }
+  - { target: coupable, native: { nl: schuldig, en: "guilty" }, pos: adjective, avoid: [fr.innocent] }
+  - { target: innocent, native: { nl: onschuldig, en: "innocent" }, pos: adjective, avoid: [fr.coupable] }
+  - { target: le témoin, native: { nl: de getuige, en: "witness" }, pos: noun, gender: m }
+  - { target: la victime, native: { nl: het slachtoffer, en: "victim" }, pos: noun, gender: f }
+  - { target: la justice, native: { nl: "de justitie, de rechtvaardigheid", en: "justice, the legal system" }, pos: noun, gender: f }
+  - { target: la liberté, native: { nl: de vrijheid, en: "freedom, liberty" }, pos: noun, gender: f }
+  - { target: le débat, native: { nl: het debat, en: "debate" }, pos: noun, gender: m, noBlank: true }
+  - { target: la maturité, native: { nl: "de maturiteit, de rijpheid", en: "maturity" }, pos: noun, gender: f }
+  - { target: il est temps que, native: { nl: "het is tijd dat (+ subjonctif)", en: "it's time (+ subjunctive)" }, pos: phrase }
+  - { target: inacceptable, native: { nl: onaanvaardbaar, en: "unacceptable" }, pos: adjective }
+sentences:
+  - { id: s01, target: "En Belgique, le droit de vote commence à dix-huit ans pour la plupart des élections.", native: { nl: "In België begint het stemrecht voor de meeste verkiezingen op achttien jaar.", en: "In Belgium, the right to vote starts at eighteen for most elections." }, items: [fr.droit-de-vote] }
+  - { id: s02, target: "Les électeurs doivent choisir entre douze partis.", native: { nl: "De kiezers moeten kiezen tussen twaalf partijen.", en: "Voters have to choose between twelve parties." }, items: [fr.electeur, fr.parti] }
+  - { id: s03, target: "Les habitants élisent un nouveau conseil tous les six ans.", native: { nl: "De inwoners verkiezen om de zes jaar een nieuwe raad.", en: "The residents elect a new council every six years." }, items: [fr.elire], finite: { word: élisent, hint: { nl: "élire (présent)", en: "élire (present)" } }, acceptAlso: ["Tous les six ans, les habitants élisent un nouveau conseil."] }
+  - { id: s04, target: "Dans une démocratie, chacun peut donner son opinion.", native: { nl: "In een democratie mag iedereen zijn mening geven.", en: "In a democracy, everyone can give their opinion." }, items: [fr.democratie] }
+  - { id: s05, target: "Le ministre de l'Éducation a visité notre école.", native: { nl: "De minister van Onderwijs heeft onze school bezocht.", en: "The Minister of Education visited our school." }, items: [fr.ministre] }
+  - { id: s06, target: "L'école n'autorise pas les téléphones en classe.", native: { nl: "De school staat geen telefoons in de klas toe.", en: "The school doesn't allow phones in class." }, items: [fr.autoriser] }
+  - { id: s07, target: "Pour la sortie, il faut l'autorisation de tes parents.", native: { nl: "Voor de uitstap is de toestemming van je ouders nodig.", en: "For the trip, you need your parents' authorisation." }, items: [fr.autorisation] }
+  - { id: s08, target: "L'école est une obligation jusqu'à dix-huit ans en Belgique.", native: { nl: "In België is school verplicht tot achttien jaar.", en: "In Belgium, school is an obligation up to the age of eighteen." }, items: [fr.obligation] }
+  - { id: s09, target: "À seize ans, on a le droit de travailler pendant les vacances.", native: { nl: "Op zestien jaar mag je in de vakantie werken.", en: "At sixteen, you're allowed to work in the holidays." }, items: [fr.avoir-le-droit-de] }
+  - { id: s10, target: "On est majeur à dix-huit ans.", native: { nl: "Je bent meerderjarig op achttien jaar.", en: "You come of age at eighteen." }, items: [fr.majeur], acceptAlso: ["À dix-huit ans, on est majeur."] }
+  - { id: s11, target: "Il est interdit aux mineurs de conduire une voiture seuls.", native: { nl: "Het is voor minderjarigen verboden alleen een auto te besturen.", en: "Minors aren't allowed to drive a car alone." }, items: [fr.mineur] }
+  - { id: s12, target: "Au cours de citoyenneté, nous parlons de nos droits et de nos devoirs.", native: { nl: "In de les burgerschap praten we over onze rechten en plichten.", en: "In citizenship lessons, we talk about our rights and our duties." }, items: [fr.citoyennete] }
+  - { id: s13, target: "Le juge a écouté l'avocat et le témoin.", native: { nl: "De rechter heeft naar de advocaat en de getuige geluisterd.", en: "The judge listened to the lawyer and the witness." }, items: [fr.juge] }
+  - { id: s14, target: "Le tribunal se prononcera le mois prochain.", native: { nl: "De rechtbank doet volgende maand uitspraak.", en: "The court will give its decision next month." }, items: [fr.tribunal] }
+  - { id: s15, target: "Son avocat dit qu'il est innocent.", native: { nl: "Zijn advocaat zegt dat hij onschuldig is.", en: "His lawyer says he's innocent." }, items: [fr.avocat, fr.innocent] }
+  - { id: s16, target: "Le voleur a été condamné à six mois de prison.", native: { nl: "De dief werd veroordeeld tot zes maanden cel.", en: "The thief was sentenced to six months in prison." }, items: [fr.condamner] }
+  - { id: s17, target: "Il a reçu une amende parce qu'il conduisait trop vite.", native: { nl: "Hij kreeg een boete omdat hij te snel reed.", en: "He got a fine because he was driving too fast." }, items: [fr.amende] }
+  - { id: s18, target: "Faut-il punir les parents quand un enfant ne va pas à l'école ?", native: { nl: "Moet je de ouders straffen als een kind niet naar school gaat?", en: "Should parents be punished when a child doesn't go to school?" }, items: [fr.punir] }
+  - { id: s19, target: "Les sanctions sont plus sévères pour les adultes.", native: { nl: "De straffen zijn strenger voor volwassenen.", en: "Penalties are more severe for adults." }, items: [fr.sanction] }
+  - { id: s20, target: "Le tribunal a décidé qu'il était coupable.", native: { nl: "De rechtbank heeft beslist dat hij schuldig was.", en: "The court decided that he was guilty." }, items: [fr.coupable] }
+  - { id: s21, target: "Un témoin a vu l'accident depuis sa fenêtre.", native: { nl: "Een getuige zag het ongeval vanuit zijn raam.", en: "A witness saw the accident from his window." }, items: [fr.temoin] }
+  - { id: s22, target: "La victime a porté plainte à la police.", native: { nl: "Het slachtoffer heeft klacht ingediend bij de politie.", en: "The victim made a complaint to the police." }, items: [fr.victime] }
+  - { id: s23, target: "Les victimes demandent que justice soit faite.", native: { nl: "De slachtoffers vragen dat recht gedaan wordt.", en: "The victims are asking for justice to be done." }, items: [fr.justice] }
+  - { id: s24, target: "La liberté de la presse est importante dans une démocratie.", native: { nl: "De persvrijheid is belangrijk in een democratie.", en: "Freedom of the press is important in a democracy." }, items: [fr.liberte] }
+  - { id: s25, target: "Le débat sur le vote à seize ans continue.", native: { nl: "Het debat over stemmen op zestien gaat verder.", en: "The debate about voting at sixteen goes on." }, items: [fr.debat] }
+  - { id: s26, target: "Elle montre une grande maturité pour son âge.", native: { nl: "Ze is heel matuur voor haar leeftijd.", en: "She shows great maturity for her age." }, items: [fr.maturite] }
+  - { id: s27, target: "Il est temps que les jeunes soient écoutés.", native: { nl: "Het is tijd dat er naar jongeren geluisterd wordt.", en: "It's time young people were listened to." }, items: [fr.il-est-temps-que], build: true }
+  - { id: s28, target: "Il est inacceptable qu'on paie les femmes moins que les hommes.", native: { nl: "Het is onaanvaardbaar dat vrouwen minder betaald worden dan mannen.", en: "It's unacceptable that women are paid less than men." }, items: [fr.inacceptable] }
+  - { id: s29, target: "Les mineurs ne sont pas autorisés à voter aux élections de la commune.", native: { nl: "Minderjarigen mogen niet stemmen bij de gemeenteraadsverkiezingen.", en: "Minors are not allowed to vote in local elections." }, items: [fr.mineur], build: true }
+transforms:
+  - { id: x01, from: "Les jeunes doivent être écoutés maintenant.", key: temps, gapped: "Il est ___ écoutés.", answers: ["temps que les jeunes soient", "grand temps que les jeunes soient"], items: [fr.il-est-temps-que], native: { en: "It's time young people were listened to." } }
+  - { id: x02, from: "À seize ans, on peut travailler pendant les vacances.", key: droit, gapped: "À seize ans, on ___ pendant les vacances.", answers: ["a le droit de travailler"], items: [fr.avoir-le-droit-de], native: { en: "At sixteen, you're allowed to work in the holidays." } }
+  - { id: x03, from: "L'école interdit les téléphones en classe.", key: autorisés, gapped: "Les téléphones ne ___ en classe.", answers: ["sont pas autorisés"], items: [fr.autoriser], native: { en: "Phones are not allowed in class." } }
+texts: [fr-b2-t17]

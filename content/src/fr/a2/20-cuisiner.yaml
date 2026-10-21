@@ -1,0 +1,35 @@
+id: fr-a2-u20
+title: { nl: In de keuken, en: "In the kitchen" }
+icon: food
+topic: La cuisine; au restaurant
+vocabulary:
+  - { target: le dessert, native: { nl: het toetje, en: "dessert, pudding" }, pos: noun, gender: m }
+  - { target: le bol, native: { nl: de kom, en: "bowl" }, pos: noun, gender: m }
+  - { target: la casserole, native: { nl: "de kookpan, de steelpan", en: "saucepan" }, pos: noun, gender: f }
+  - { target: la poêle, native: { nl: de koekenpan, en: "frying pan" }, pos: noun, gender: f, avoid: [fr.casserole] }
+  - { target: le four, native: { nl: de oven, en: "oven" }, pos: noun, gender: m }
+  - { target: le frigo, native: { nl: de koelkast, en: "fridge" }, pos: noun, gender: m }
+  - { target: couper, native: { nl: snijden, en: "to cut" }, pos: verb }
+  - { target: mélanger, native: { nl: "mengen, roeren", en: "to mix, to stir" }, pos: verb }
+  - { target: cuire, native: { nl: "koken, bakken (in de oven)", en: "to cook, to bake" }, pos: verb, avoid: [fr.cuisiner] }
+  - { target: délicieux, native: { nl: heerlijk, en: "delicious" }, pos: adjective }
+  - { id: fr.sucre-adj, target: sucré, native: { nl: zoet, en: "sweet" }, pos: adjective }
+  - { id: fr.sale-adj, target: salé, native: { nl: zout (van smaak), en: "salty" }, pos: adjective, avoid: [fr.sel] }
+  - { target: commander, native: { nl: bestellen, en: "to order" }, pos: verb }
+sentences:
+  - { id: s01, target: "Comme dessert, je prends une glace.", native: { nl: "Als toetje neem ik een ijsje.", en: "For dessert I'm having an ice cream." }, items: [fr.dessert] }
+  - { id: s02, target: "Je mange mes céréales dans un bol.", native: { nl: "Ik eet mijn ontbijtgranen uit een kom.", en: "I eat my cereal out of a bowl." }, items: [fr.bol] }
+  - { id: s03, target: "La soupe est dans la casserole.", native: { nl: "De soep staat in de pan.", en: "The soup is in the saucepan." }, items: [fr.casserole] }
+  - { id: s04, target: "On fait les crêpes dans une poêle.", native: { nl: "Je bakt pannenkoeken in een koekenpan.", en: "You make pancakes in a frying pan." }, items: [fr.poele] }
+  - { id: s05, target: "Le gâteau est dans le four.", native: { nl: "De taart staat in de oven.", en: "The cake is in the oven." }, items: [fr.four] }
+  - { id: s06, target: "Mets le lait dans le frigo.", native: { nl: "Zet de melk in de koelkast.", en: "Put the milk in the fridge." }, items: [fr.frigo] }
+  - { id: s07, target: "Papa coupe le pain.", native: { nl: "Papa snijdt het brood.", en: "Dad is cutting the bread." }, items: [fr.couper] }
+  - { id: s08, target: "Mélange la farine et le lait.", native: { nl: "Meng de bloem en de melk.", en: "Mix the flour and the milk." }, items: [fr.melanger] }
+  - { id: s09, target: "Le gâteau doit cuire une demi-heure.", native: { nl: "De taart moet een half uur bakken.", en: "The cake has to bake for half an hour." }, items: [fr.cuire] }
+  - { id: s10, target: "Ce gâteau est délicieux !", native: { nl: "Deze taart is heerlijk!", en: "This cake is delicious!" }, items: [fr.delicieux] }
+  - { id: s11, target: "Je n'aime pas les gâteaux trop sucrés.", native: { nl: "Ik hou niet van taarten die te zoet zijn.", en: "I don't like cakes that are too sweet." }, items: [fr.sucre-adj] }
+  - { id: s12, target: "Les frites sont trop salées.", native: { nl: "De patat is te zout.", en: "The chips are too salty." }, items: [fr.sale-adj] }
+  - { id: s13, target: "J'ai commandé une pizza au restaurant.", native: { nl: "Ik heb in het restaurant een pizza besteld.", en: "I ordered a pizza at the restaurant." }, items: [fr.commander] }
+lessons:
+  - { id: l01, title: { nl: Pannen en kommen, en: "Pans and bowls" }, vocab: [fr.dessert, fr.bol, fr.casserole, fr.poele, fr.four, fr.frigo, fr.couper] }
+  - { id: l02, title: { nl: Wat heerlijk!, en: "How delicious!" }, vocab: [fr.melanger, fr.cuire, fr.delicieux, fr.sucre-adj, fr.sale-adj, fr.commander] }

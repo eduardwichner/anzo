@@ -1,0 +1,7 @@
+{
+  "tracks": [
+    { "id": "en", "name": { "nl": "Engels" }, "native": "nl", "mascot": "otter", "packs": [
+      { "id": "en-broken", "file": "en/broken.json", "cefr": "Pre-A1", "title": { "nl": "Kapot" }, "status": "available" }
+    ]}
+  ]
+}

@@ -1,0 +1,94 @@
+id: nl-b2-u03
+title: { en: Money matters }
+icon: money
+topic: Budgets, credit and debt, advertising and impulse buying; the passive with a modal (moet betaald worden, had betaald moeten worden)
+vocabulary:
+  - { target: de rente, native: { en: "interest (on money); in Belgium also de intrest" }, pos: noun, plural: renten }
+  - { target: de reclame, native: { en: "advertising, advert" }, pos: noun, plural: reclames, avoid: [nl.advertentie] }
+  - { target: de impuls, native: { en: impulse }, pos: noun, plural: impulsen }
+  - { target: de aankoop, native: { en: purchase }, pos: noun, plural: aankopen }
+  - { target: het krediet, native: { en: credit (a loan) }, pos: noun, plural: kredieten, avoid: [nl.lening], noBlank: true }
+  - { target: de afbetaling, native: { en: "repayment, instalment" }, pos: noun, plural: afbetalingen }
+  - { target: het overzicht, native: { en: overview }, pos: noun, plural: overzichten }
+  - { target: de verspilling, native: { en: waste }, pos: noun, plural: verspillingen }
+  - { target: de luxe, native: { en: luxury }, pos: noun, plural: "-" }
+  - { target: de koopkracht, native: { en: purchasing power }, pos: noun, plural: "-" }
+  - { target: de consumptie, native: { en: consumption }, pos: noun, plural: "-" }
+  - { target: het huishoudbudget, native: { en: household budget }, pos: noun, plural: huishoudbudgetten }
+  - { target: de schuldbemiddeling, native: { en: "debt mediation (debt counselling service)" }, pos: noun, plural: "-" }
+  - { target: de kredietkaart, native: { en: credit card }, pos: noun, plural: kredietkaarten, alsoNL: de creditcard }
+  - { target: de influencer, native: { en: influencer }, pos: noun, plural: influencers }
+  - { target: de verleiding, native: { en: temptation }, pos: noun, plural: verleidingen }
+  - { target: het koopje, native: { en: bargain }, pos: noun, plural: koopjes }
+  - { target: de advertentie, native: { en: "advertisement (in a paper or online)" }, pos: noun, plural: advertenties }
+  - { target: de onderzoeker, native: { en: researcher }, pos: noun, plural: onderzoekers }
+  - { target: verleiden, native: { en: to tempt }, pos: verb }
+  - { target: verkwisten, native: { en: "to squander, to waste (money)" }, pos: verb, avoid: [nl.verspillen] }
+  - { target: beïnvloeden, native: { en: to influence }, pos: verb }
+  - { target: besteden, native: { en: to spend (money or time) }, pos: verb, avoid: [nl.uitgeven] }
+  - { target: uitlenen, native: { en: to lend (out) }, pos: verb, avoid: [nl.lenen] }
+  - { target: vergelijken, native: { en: to compare }, pos: verb }
+  - { target: nadenken, native: { en: "to think (about), to reflect" }, pos: verb }
+  - { target: winkelen, native: { en: to go shopping }, pos: verb }
+  - { target: financieel, native: { en: financial }, pos: adjective }
+  - { target: noodzakelijk, native: { en: necessary }, pos: adjective, noBlank: true }
+  - { target: overbodig, native: { en: "superfluous, unnecessary" }, pos: adjective }
+  - { target: gierig, native: { en: "stingy, mean (with money)" }, pos: adjective }
+  - { target: zuinig, native: { en: "thrifty, economical" }, pos: adjective }
+  - { target: achterstallig, native: { en: "overdue, in arrears" }, pos: adjective }
+  - { target: tweedehands, native: { en: second-hand }, pos: adjective }
+  - { target: betaalbaar, native: { en: affordable }, pos: adjective }
+  - { target: gespreid, native: { en: "spread (out), in instalments" }, pos: adjective }
+  - { target: impulsief, native: { en: impulsive }, pos: adjective }
+  - { target: men, native: { en: "one, people (in general)" }, pos: pronoun }
+  - { target: jezelf, native: { en: yourself }, pos: pronoun }
+  - { target: vermijden, native: { en: to avoid }, pos: verb, avoid: [nl.voorkomen] }
+  - { target: ontstaan, native: { en: "to arise, to come into being" }, pos: verb }
+  - { target: eenvoudig, native: { en: "simple, easy" }, pos: adjective }
+sentences:
+  - { id: s01, target: "De rente op mijn spaarrekening is heel laag.", native: { en: "The interest on my savings account is very low." }, items: [nl.rente] }
+  - { id: s02, target: "Kinderen worden sterk beïnvloed door reclame.", native: { en: "Children are strongly influenced by advertising." }, items: [nl.reclame, nl.beinvloeden], acceptAlso: ["Kinderen worden door reclame sterk beïnvloed."] }
+  - { id: s03, target: "Ik kocht die schoenen op impuls.", native: { en: "I bought those shoes on impulse." }, items: [nl.impuls] }
+  - { id: s04, target: "Grote aankopen moeten eerst besproken worden.", native: { en: "Big purchases have to be discussed first." }, items: [nl.aankoop], acceptAlso: ["Grote aankopen moeten eerst worden besproken.", "Eerst moeten grote aankopen besproken worden.", "Eerst moeten grote aankopen worden besproken."], build: true }
+  - { id: s05, target: "Voor een nieuwe auto sluiten veel mensen een krediet af.", native: { en: "For a new car many people take out a loan." }, items: [nl.krediet], acceptAlso: ["Veel mensen sluiten voor een nieuwe auto een krediet af."] }
+  - { id: s06, target: "De laatste afbetaling moet in juni gedaan worden.", native: { en: "The last instalment has to be made in June." }, items: [nl.afbetaling], acceptAlso: ["De laatste afbetaling moet in juni worden gedaan.", "In juni moet de laatste afbetaling gedaan worden.", "In juni moet de laatste afbetaling worden gedaan."] }
+  - { id: s07, target: "Maak een overzicht van al je vaste kosten.", native: { en: "Make a list of all your fixed costs." }, items: [nl.overzicht] }
+  - { id: s08, target: "Al die plastic verpakkingen zijn pure verspilling.", native: { en: "All that plastic packaging is pure waste." }, items: [nl.verspilling, nl.puur], form: { word: verspilling, stem: verspillen } }
+  - { id: s09, target: "Een tweede auto is voor ons een luxe.", native: { en: "A second car is a luxury for us." }, items: [nl.luxe], acceptAlso: ["Voor ons is een tweede auto een luxe."] }
+  - { id: s10, target: "Door de hoge prijzen daalt de koopkracht van gezinnen.", native: { en: "Because of the high prices, families' purchasing power is falling." }, items: [nl.koopkracht], acceptAlso: ["De koopkracht van gezinnen daalt door de hoge prijzen."] }
+  - { id: s11, target: "Onze consumptie van vlees is de laatste jaren gedaald.", native: { en: "Our consumption of meat has fallen in recent years." }, items: [nl.consumptie] }
+  - { id: s12, target: "Elke maand maken we samen het huishoudbudget op.", native: { en: "Every month we draw up the household budget together." }, items: [nl.huishoudbudget], acceptAlso: ["We maken elke maand samen het huishoudbudget op.", "Samen maken we elke maand het huishoudbudget op.", "We maken samen elke maand het huishoudbudget op.", "Elke maand maken we het huishoudbudget samen op."] }
+  - { id: s13, target: "Wie zijn schulden niet meer kan betalen, kan hulp krijgen via schuldbemiddeling.", native: { en: "Anyone who can no longer pay their debts can get help through debt mediation." }, items: [nl.schuldbemiddeling] }
+  - { id: s14, target: "Met een kredietkaart verlies je snel het overzicht.", native: { en: "With a credit card you quickly lose track." }, items: [nl.kredietkaart, nl.overzicht] }
+  - { id: s15, target: "Die influencer krijgt geld voor elk product dat ze toont.", native: { en: "That influencer gets money for every product she shows." }, items: [nl.influencer], acceptAlso: ["Voor elk product dat ze toont, krijgt die influencer geld."] }
+  - { id: s16, target: "Tijdens de solden is de verleiding groot.", native: { en: "During the sales the temptation is great." }, items: [nl.verleiding], acceptAlso: ["De verleiding is groot tijdens de solden."], form: { word: verleiding, stem: verleiden } }
+  - { id: s17, target: "Die jas voor twintig euro was echt een koopje.", native: { en: "That coat for twenty euros was a real bargain." }, items: [nl.koopje] }
+  - { id: s18, target: "Ik zag de advertentie voor die fiets in de krant.", native: { en: "I saw the advertisement for that bike in the paper." }, items: [nl.advertentie] }
+  - { id: s19, target: "Volgens onderzoekers kopen we vaker online dan vroeger.", native: { en: "According to researchers we buy online more often than before." }, items: [nl.onderzoeker] }
+  - { id: s20, target: "Winkels verleiden je met muziek en mooie lichten.", native: { en: "Shops tempt you with music and pretty lights." }, items: [nl.verleiden] }
+  - { id: s21, target: "Hij heeft zijn spaargeld verkwist aan dure reizen.", native: { en: "He squandered his savings on expensive trips." }, items: [nl.verkwisten] }
+  - { id: s22, target: "Hoeveel geld besteed je per maand aan eten?", native: { en: "How much money do you spend on food per month?" }, items: [nl.besteden], finite: { word: besteed, hint: { en: "besteden (present)" } } }
+  - { id: s23, target: "Ik leen nooit geld uit aan vrienden.", native: { en: "I never lend money to friends." }, items: [nl.uitlenen], acceptAlso: ["Aan vrienden leen ik nooit geld uit."] }
+  - { id: s24, target: "Vergelijk de prijzen voor je iets koopt.", native: { en: "Compare the prices before you buy something." }, items: [nl.vergelijken] }
+  - { id: s25, target: "Denk eerst goed na voor je een lening aangaat.", native: { en: "Think carefully before you take out a loan." }, items: [nl.nadenken] }
+  - { id: s26, target: "Op zaterdag gaan we graag in de stad winkelen.", native: { en: "On Saturdays we like going shopping in town." }, items: [nl.winkelen], acceptAlso: ["We gaan op zaterdag graag winkelen in de stad.", "We gaan op zaterdag graag in de stad winkelen.", "Op zaterdag gaan we graag winkelen in de stad."] }
+  - { id: s27, target: "Ze heeft financiële problemen sinds ze haar job verloor.", native: { en: "She has had financial problems since she lost her job." }, items: [nl.financieel], acceptAlso: ["Sinds ze haar job verloor, heeft ze financiële problemen."] }
+  - { id: s28, target: "Een auto is voor mij niet noodzakelijk.", native: { en: "A car isn't necessary for me." }, items: [nl.noodzakelijk], acceptAlso: ["Voor mij is een auto niet noodzakelijk."] }
+  - { id: s29, target: "Veel apps op mijn gsm zijn eigenlijk overbodig.", native: { en: "Many apps on my mobile are actually unnecessary." }, items: [nl.overbodig] }
+  - { id: s30, target: "Hij is niet gierig, maar wel zuinig.", native: { en: "He isn't stingy, but he is thrifty." }, items: [nl.gierig, nl.zuinig] }
+  - { id: s31, target: "De achterstallige huur moet deze maand betaald worden.", native: { en: "The overdue rent has to be paid this month." }, items: [nl.achterstallig], acceptAlso: ["De achterstallige huur moet deze maand worden betaald.", "Deze maand moet de achterstallige huur betaald worden.", "Deze maand moet de achterstallige huur worden betaald."], build: true }
+  - { id: s32, target: "Tweedehands kleren zijn goedkoop en beter voor het milieu.", native: { en: "Second-hand clothes are cheap and better for the environment." }, items: [nl.tweedehands] }
+  - { id: s33, target: "Betaalbare woningen zijn moeilijk te vinden.", native: { en: "Affordable homes are hard to find." }, items: [nl.betaalbaar] }
+  - { id: s34, target: "Je kunt de factuur ook gespreid betalen.", native: { en: "You can also pay the bill in instalments." }, items: [nl.gespreid] }
+  - { id: s35, target: "Veel van die impulsieve aankopen hadden vermeden kunnen worden.", native: { en: "Many of those impulse purchases could have been avoided." }, items: [nl.impulsief, nl.aankoop], build: true, acceptAlso: ["Veel van die impulsieve aankopen hadden kunnen worden vermeden.", "Veel van die impulsieve aankopen hadden kunnen vermeden worden."] }
+  - { id: s36, target: "Men zegt dat geld niet gelukkig maakt.", native: { en: "People say that money doesn't make you happy." }, items: [nl.men] }
+  - { id: s37, target: "Koop af en toe iets leuks voor jezelf.", native: { en: "Treat yourself to something nice now and then." }, items: [nl.jezelf] }
+  - { id: s38, target: "Probeer schulden te vermijden.", native: { en: "Try to avoid debts." }, items: [nl.vermijden] }
+  - { id: s39, target: "Hoe ontstaan schulden eigenlijk?", native: { en: "How do debts actually come about?" }, items: [nl.ontstaan] }
+  - { id: s40, target: "Een eenvoudig budget helpt om je uitgaven te volgen.", native: { en: "A simple budget helps you keep track of your spending." }, items: [nl.eenvoudig] }
+  - { id: s41, target: "Wie moe is, koopt vaker impulsief.", native: { en: "People who are tired buy on impulse more often." }, items: [nl.impulsief], form: { word: impulsief, stem: impuls } }
+transforms:
+  - { id: x01, from: "Je moet de factuur binnen dertig dagen betalen.", key: worden, gapped: "De factuur ___.", answers: ["moet binnen dertig dagen betaald worden", "moet binnen dertig dagen worden betaald", "moet betaald worden binnen dertig dagen", "moet worden betaald binnen dertig dagen"], items: [nl.achterstallig] }
+  - { id: x02, from: "Men kan een aankoop binnen veertien dagen terugsturen.", key: worden, gapped: "Een aankoop ___.", answers: ["kan binnen veertien dagen teruggestuurd worden", "kan binnen veertien dagen worden teruggestuurd", "kan teruggestuurd worden binnen veertien dagen", "kan worden teruggestuurd binnen veertien dagen"], items: [nl.aankoop] }
+  - { id: x03, from: "Iemand had de lening eerder moeten afbetalen.", key: worden, gapped: "De lening had eerder ___.", answers: ["afbetaald moeten worden", "moeten worden afbetaald", "moeten afbetaald worden"], items: [nl.afbetaling] }
+texts: [nl-b2-t04]

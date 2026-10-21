@@ -1,0 +1,45 @@
+id: fr-b2-t20
+kind: reading
+title: { nl: Een brief aan mezelf, en: "A letter to myself" }
+topic: L'avenir (une lettre écrite en classe, à ouvrir dans dix ans)
+level: B2
+paragraphs:
+  - - { id: fr-b2-t20-s01, target: "Chère moi, quand tu liras cette lettre, tu auras vingt-six ans, et j'espère que tu auras accompli au moins une partie des rêves que j'ai aujourd'hui.", native: { nl: "Lieve ik, als je deze brief leest, ben je zesentwintig, en ik hoop dat je minstens een deel van de dromen hebt waargemaakt die ik vandaag heb.", en: "Dear future me, when you read this letter, you'll be twenty-six, and I hope you'll have achieved at least some of the dreams I have today." } }
+    - { id: fr-b2-t20-s02, target: "Notre professeur nous a demandé d'écrire nos espoirs pour l'avenir, alors les voici.", native: { nl: "Onze leraar vroeg ons om op te schrijven wat we voor de toekomst hopen, dus hier komt het.", en: "Our teacher asked us to write down our hopes for the future, so here they are." } }
+  - - { id: fr-b2-t20-s03, target: "En ce moment, tout me semble incertain.", native: { nl: "Op dit moment lijkt alles me onzeker.", en: "At the moment, everything seems uncertain to me." } }
+    - { id: fr-b2-t20-s04, target: "Les adultes nous répètent que la moitié des métiers que nous ferons n'ont pas encore été inventés, ce qui est passionnant, mais aussi un peu effrayant.", native: { nl: "Volwassenen herhalen voortdurend dat de helft van de beroepen die we zullen uitoefenen nog niet uitgevonden is, wat boeiend is, maar ook een beetje beangstigend.", en: "Adults keep telling us that half the jobs we'll do haven't been invented yet, which is exciting, but also a bit frightening." } }
+    - { id: fr-b2-t20-s05, target: "Je ne sais pas si tu es devenue vétérinaire, comme je le veux maintenant, ou si tu fais un métier que personne n'aurait pu prévoir.", native: { nl: "Ik weet niet of je dierenarts bent geworden, zoals ik nu wil, of dat je een beroep uitoefent dat niemand had kunnen voorzien.", en: "I don't know if you've become a vet, which is what I want now, or if you're doing a job nobody could have foreseen." } }
+  - - { id: fr-b2-t20-s06, target: "Quoi que tu fasses, j'espère que tu as gardé certaines choses.", native: { nl: "Wat je ook doet, ik hoop dat je een paar dingen hebt behouden.", en: "Whatever you're doing, I hope you've kept a few things." } }
+    - { id: fr-b2-t20-s07, target: "J'espère que tu es toujours curieuse, et que tu vas encore nager dans la mer en octobre, même si l'eau est très froide.", native: { nl: "Ik hoop dat je nog altijd nieuwsgierig bent, en dat je in oktober nog in zee gaat zwemmen, ook al is het water ijskoud.", en: "I hope you're still curious, and that you still go swimming in the sea in October, even if the water is very cold." } }
+    - { id: fr-b2-t20-s08, target: "J'espère que tu es restée amie avec Manon, parce qu'elle a toujours été là pour moi.", native: { nl: "Ik hoop dat je bevriend bent gebleven met Manon, omdat ze er altijd voor me geweest is.", en: "I hope you've stayed friends with Manon, because she has always been there for me." } }
+  - - { id: fr-b2-t20-s09, target: "Mais j'ai aussi quelques inquiétudes, surtout pour la planète.", native: { nl: "Maar ik heb ook een paar zorgen, vooral over de planeet.", en: "But I also have a few worries, especially about the planet." } }
+    - { id: fr-b2-t20-s10, target: "J'aimerais pouvoir te dire que le climat va bien, mais je ne suis pas très optimiste.", native: { nl: "Ik zou je graag vertellen dat het goed gaat met het klimaat, maar ik ben niet erg optimistisch.", en: "I'd like to be able to tell you that the climate is fine, but I'm not very optimistic." } }
+    - { id: fr-b2-t20-s11, target: "Si nous avions agi plus tôt, le problème serait plus petit aujourd'hui ; je crois pourtant que les gens peuvent changer quand ils y sont vraiment obligés.", native: { nl: "Als we eerder hadden ingegrepen, zou het probleem vandaag kleiner zijn; toch geloof ik dat mensen kunnen veranderen als ze echt moeten.", en: "If we had acted earlier, the problem would be smaller today; yet I believe that people can change when they really have to." } }
+  - - { id: fr-b2-t20-s12, target: "Pour finir, un conseil de celle que tu étais à seize ans.", native: { nl: "Tot slot nog een raad van wie je op je zestiende was.", en: "Finally, some advice from the person you were at sixteen." } }
+    - { id: fr-b2-t20-s13, target: "Ne sois pas trop sévère avec toi-même si tout ne s'est pas passé comme prévu.", native: { nl: "Wees niet te streng voor jezelf als niet alles volgens plan is gegaan.", en: "Don't be too hard on yourself if things haven't gone as planned." } }
+    - { id: fr-b2-t20-s14, target: "À long terme, ce qui compte, ce ne sont pas toutes les étapes que tu as atteintes, mais ta gentillesse et ton envie d'apprendre. À bientôt, moi à seize ans.", native: { nl: "Op lange termijn telt niet elke mijlpaal die je hebt bereikt, maar je vriendelijkheid en je zin om te leren. Tot gauw, ik op zestien.", en: "In the long term, what counts isn't all the stages you've reached, but your kindness and your eagerness to learn. See you soon, me at sixteen." } }
+items: [fr.accomplir, fr.reve, fr.espoir, fr.avenir, fr.incertain, fr.effrayant, fr.inquietude, fr.optimiste, fr.severe, fr.soi-meme, fr.a-long-terme, fr.etape, fr.gentillesse]
+gapped:
+  gaps: [fr-b2-t20-s03, fr-b2-t20-s06, fr-b2-t20-s09, fr-b2-t20-s12]
+  extra:
+    - { id: fr-b2-t20-x1, target: "Je viens de changer d'école et je ne connais encore personne.", native: { nl: "Ik ben net van school veranderd en ik ken nog niemand.", en: "I've just changed schools and I don't know anyone yet." } }
+openCloze:
+  - { sentence: fr-b2-t20-s01, word: quand, acceptAlso: [lorsque] }
+  - { sentence: fr-b2-t20-s05, word: comme }
+  - { sentence: fr-b2-t20-s07, word: même }
+  - { sentence: fr-b2-t20-s14, word: mais }
+wordForm:
+  - { sentence: fr-b2-t20-s01, word: rêves, stem: rêver }
+  - { sentence: fr-b2-t20-s04, word: passionnant, stem: passion }
+  - { sentence: fr-b2-t20-s14, word: gentillesse, stem: gentil }
+questions:
+  - { id: fr-b2-t20-q1, type: summary, options: ["Une élève de seize ans écrit à la personne qu'elle sera dans dix ans : elle parle de ses rêves, de ses inquiétudes pour l'avenir et lui donne un conseil.", "Une élève de seize ans écrit à son professeur pour lui expliquer pourquoi elle veut devenir vétérinaire.", "Une élève de seize ans écrit à une amie qui a déménagé : elle parle de ses rêves, de ses inquiétudes pour le climat et lui donne un conseil."], correct: 0 }
+  - { id: fr-b2-t20-q2, type: mc, question: "Pourquoi l'élève trouve-t-elle l'avenir un peu effrayant ?", options: ["Beaucoup de métiers futurs n'existent pas encore.", "Elle n'aime pas l'école.", "Son amie va déménager."], correct: 0 }
+  - { id: fr-b2-t20-q3, type: true_false_notgiven, statement: "Aujourd'hui, l'élève voudrait devenir vétérinaire.", answer: true }
+  - { id: fr-b2-t20-q4, type: true_false_notgiven, statement: "L'élève est très optimiste pour le climat.", answer: false }
+  - { id: fr-b2-t20-q5, type: true_false_notgiven, statement: "Manon et l'élève se connaissent depuis l'âge de six ans.", answer: not_given }
+  - { id: fr-b2-t20-q6, type: match_heading, paragraph: 3, options: ["Ce que j'espère que tu as gardé", "Mes inquiétudes", "Un dernier conseil"], correct: 0 }
+listeningQuestions:
+  - { id: fr-b2-t20-l1, type: complete, statement: "Quand elle lira la lettre, elle aura ___ ans.", answers: ["vingt-six", "26"] }
+  - { id: fr-b2-t20-l2, type: mc, question: "Avec qui espère-t-elle être restée amie ?", options: ["Avec Manon.", "Avec son professeur.", "Avec sa cousine."], correct: 0 }
+orderable: false

@@ -1,0 +1,47 @@
+id: nl-pre-a1-u11
+title: { en: Colours and clothes }
+icon: clothes
+topic: Colours and clothes
+vocabulary:
+  - { target: de kleur, native: { en: colour }, pos: noun, plural: kleuren, category: true }
+  - { target: rood, native: { en: red }, pos: adjective }
+  - { target: blauw, native: { en: blue }, pos: adjective }
+  - { target: groen, native: { en: green }, pos: adjective }
+  - { target: geel, native: { en: yellow }, pos: adjective }
+  - { target: zwart, native: { en: black }, pos: adjective, avoid: [nl.wit] }
+  - { target: wit, native: { en: white }, pos: adjective }
+  - { target: bruin, native: { en: brown }, pos: adjective }
+  - { target: grijs, native: { en: grey }, pos: adjective }
+  - { target: oranje, native: { en: orange }, pos: adjective }
+  - { target: roze, native: { en: pink }, pos: adjective }
+  - { target: dragen, native: { en: "to wear, to carry" }, pos: verb }
+  - { target: de broek, native: { en: trousers }, pos: noun, plural: broeken }
+  - { target: de jas, native: { en: coat }, pos: noun, plural: jassen }
+  - { target: het hemd, native: { en: shirt }, pos: noun, plural: hemden, alsoNL: het overhemd }
+  - { target: de trui, native: { en: jumper }, pos: noun, plural: truien }
+  - { target: de rok, native: { en: skirt }, pos: noun, plural: rokken }
+  - { target: het kleed, native: { en: dress }, pos: noun, plural: kleden, alsoNL: de jurk }
+  - { target: de schoen, native: { en: shoe }, pos: noun, plural: schoenen }
+  - { target: de sok, native: { en: sock }, pos: noun, plural: sokken }
+sentences:
+  - { id: s01, target: "Welke kleur heeft jouw trui?", native: { en: "What colour is your jumper?" }, items: [nl.kleur, nl.trui] }
+  - { id: s02, target: "De jas is rood.", native: { en: "The coat is red." }, items: [nl.rood, nl.jas] }
+  - { id: s03, target: "Ik draag een blauwe broek.", native: { en: "I'm wearing blue trousers." }, items: [nl.blauw, nl.broek, nl.dragen] }
+  - { id: s04, target: "Het park is groen.", native: { en: "The park is green." }, items: [nl.groen] }
+  - { id: s05, target: "Mijn fiets is geel.", native: { en: "My bike is yellow." }, items: [nl.geel] }
+  - { id: s06, target: "Ik draag zwarte schoenen.", native: { en: "I'm wearing black shoes." }, items: [nl.zwart, nl.schoen, nl.dragen] }
+  - { id: s07, target: "Het hemd is wit.", native: { en: "The shirt is white." }, items: [nl.wit, nl.hemd] }
+  - { id: s08, target: "De tafel is bruin.", native: { en: "The table is brown." }, items: [nl.bruin] }
+  - { id: s09, target: "Mijn trui is grijs.", native: { en: "My jumper is grey." }, items: [nl.grijs, nl.trui] }
+  - { id: s10, target: "De sokken zijn oranje.", native: { en: "The socks are orange." }, items: [nl.oranje, nl.sok] }
+  - { id: s11, target: "Het kleed is roze.", native: { en: "The dress is pink." }, items: [nl.roze, nl.kleed] }
+  - { id: s12, target: "Zij draagt een rok.", native: { en: "She's wearing a skirt." }, items: [nl.rok, nl.dragen] }
+  - { id: s13, target: "Ik draag een jas.", native: { en: "I'm wearing a coat." }, items: [nl.jas, nl.dragen] }
+  - { id: s14, target: "Het kleed is heel mooi.", native: { en: "The dress is very beautiful." }, items: [nl.kleed] }
+  - { id: s15, target: "De schoenen zijn nieuw.", native: { en: "The shoes are new." }, items: [nl.schoen] }
+  - { id: s16, target: "Hij draagt een wit hemd.", native: { en: "He's wearing a white shirt." }, items: [nl.hemd, nl.wit] }
+  - { id: s17, target: "De trui is groot.", native: { en: "The jumper is big." }, items: [nl.trui] }
+  - { id: s18, target: "Ik draag geen sokken.", native: { en: "I'm not wearing socks." }, items: [nl.sok] }
+  - { id: s19, target: "De broek is te klein.", native: { en: "The trousers are too small." }, items: [nl.broek] }
+  - { id: s20, target: "Welke kleur heeft de jas?", native: { en: "What colour is the coat?" }, items: [nl.kleur, nl.jas] }
+  - { id: s21, target: "U draagt een mooi kleed, mevrouw.", native: { en: "You're wearing a beautiful dress, madam." }, items: [nl.dragen, nl.kleed] }

@@ -1,0 +1,42 @@
+id: nl-b2-study-t01
+kind: dialogue
+title: { en: The first week }
+topic: Studying in higher education (a first-year student asks an older student for advice)
+level: B2
+speakers: { A: { name: Tom }, B: { name: Lisa } }
+turns:
+  - { id: nl-b2-study-t01-s01, speaker: A, target: "Lisa, mag ik je iets vragen? Ik zit nu een week aan de hogeschool en ik verdrink een beetje.", native: { en: "Lisa, can I ask you something? I've been at the university college for a week now and I'm drowning a bit." } }
+  - { id: nl-b2-study-t01-s02, speaker: B, target: "Dat is normaal, iedereen heeft dat in het begin. Wat vind je het moeilijkst?", native: { en: "That's normal, everyone feels like that at first. What do you find hardest?" } }
+  - { id: nl-b2-study-t01-s03, speaker: A, target: "De hoorcolleges. De docent praat anderhalf uur, en ik weet niet wat ik moet noteren.", native: { en: "The lectures. The lecturer talks for an hour and a half, and I don't know what I should write down." } }
+  - { id: nl-b2-study-t01-s04, speaker: B, target: "Noteer niet alles. Schrijf vooral op wat de docent herhaalt of op een dia toont, want dat komt meestal op het examen.", native: { en: "Don't write everything down. Write down above all what the lecturer repeats or shows on a slide, because that usually comes up in the exam." } }
+  - { id: nl-b2-study-t01-s05, speaker: A, target: "En de syllabus? Die is driehonderd bladzijden dik.", native: { en: "And the course notes? They're three hundred pages thick." } }
+  - { id: nl-b2-study-t01-s06, speaker: B, target: "Lees elke week het hoofdstuk van die week en maak er meteen een samenvatting van. Dan hoef je in de examenperiode niet alles opnieuw te lezen.", native: { en: "Read that week's chapter every week and make a summary of it straight away. Then you don't have to read everything again in the exam period." } }
+  - { id: nl-b2-study-t01-s07, speaker: A, target: "Dat klinkt als veel werk naast de werkcolleges.", native: { en: "That sounds like a lot of work on top of the seminars." } }
+  - { id: nl-b2-study-t01-s08, speaker: B, target: "In het begin wel. Maar wie in januari pas begint te blokken, heeft een groot probleem.", native: { en: "At first, yes. But anyone who only starts studying for exams in January has a big problem." } }
+  - { id: nl-b2-study-t01-s09, speaker: A, target: "Mijn ouders zeggen dat ik naast mijn studie ook een studentenjob moet zoeken.", native: { en: "My parents say I should also look for a student job alongside my studies." } }
+  - { id: nl-b2-study-t01-s10, speaker: B, target: "Dat kan, maar hou het beperkt tot een paar uur per week. In het eerste jaar is je studie belangrijker.", native: { en: "That's possible, but keep it to a few hours a week. In the first year your studies are more important." } }
+  - { id: nl-b2-study-t01-s11, speaker: A, target: "En als ik een opleidingsonderdeel echt niet begrijp?", native: { en: "And if I really don't understand a module?" } }
+  - { id: nl-b2-study-t01-s12, speaker: B, target: "Ga dan naar de assistent. Daar is die voor, maar de meeste studenten durven het niet. Dat is jammer.", native: { en: "Then go to the teaching assistant. That's what they're there for, but most students don't dare. That's a pity." } }
+  - { id: nl-b2-study-t01-s13, speaker: A, target: "Bedankt, Lisa. Mag ik je volgende week nog eens iets vragen?", native: { en: "Thanks, Lisa. Can I ask you something again next week?" } }
+  - { id: nl-b2-study-t01-s14, speaker: B, target: "Natuurlijk. Kom gerust langs op mijn kot, ik woon vlak bij de campus.", native: { en: "Of course. Feel free to drop by my student room, I live right next to the campus." } }
+glossary:
+  - { word: verdrink, native: { en: "am drowning (verdrinken)" } }
+  - { word: dia, native: { en: slide } }
+  - { word: bladzijden, native: { en: "pages (de bladzijde)" } }
+  - { word: studentenjob, native: { en: "student job (Belgian)" } }
+items: [nl.hoorcollege, nl.syllabus, nl.examenperiode, nl.werkcollege, nl.blokken, nl.opleidingsonderdeel, nl.assistent, nl.kot]
+questions:
+  - { id: nl-b2-study-t01-q1, type: summary, options: ["Een student die net begonnen is, vraagt een oudere student hoe hij moet studeren, en zij geeft hem tips.", "Twee studenten zoeken samen een studentenjob.", "Een student klaagt bij een docent over de hoorcolleges."], correct: 0 }
+  - { id: nl-b2-study-t01-q2, type: mc, question: "Wat moet Tom volgens Lisa vooral noteren?", options: ["Wat de docent herhaalt of op een dia toont.", "Alles wat de docent zegt.", "Alleen wat in de syllabus staat."], correct: 0 }
+  - { id: nl-b2-study-t01-q3, type: true_false_notgiven, statement: "Volgens Lisa moet Tom elke week een samenvatting maken.", answer: true }
+  - { id: nl-b2-study-t01-q4, type: true_false_notgiven, statement: "Lisa vindt dat Tom geen studentenjob mag nemen.", answer: false }
+  - { id: nl-b2-study-t01-q5, type: true_false_notgiven, statement: "Lisa heeft zelf ook een studentenjob.", answer: not_given }
+listeningQuestions:
+  - { id: nl-b2-study-t01-l1, type: complete, statement: "De syllabus is driehonderd ___ dik.", answers: [bladzijden] }
+  - { id: nl-b2-study-t01-l2, type: mc, question: "Naar wie moet de student gaan als hij iets niet begrijpt?", options: ["Naar de assistent.", "Naar zijn ouders.", "Naar de bibliotheek."], correct: 0 }
+openCloze:
+  - { sentence: nl-b2-study-t01-s04, word: want, acceptAlso: [en] }
+  - { sentence: nl-b2-study-t01-s06, word: hoef }
+  - { sentence: nl-b2-study-t01-s08, word: pas }
+  - { sentence: nl-b2-study-t01-s12, word: Daar }
+orderable: false

@@ -1,0 +1,48 @@
+id: fr-a1-u16
+title: { nl: Vrije tijd, en: "Free time" }
+icon: sport
+topic: Les loisirs; le sport; la musique
+vocabulary:
+  - { target: la danse, native: { nl: "het dansen, de dans", en: "dance, dancing" }, pos: noun, gender: f }
+  - { target: la natation, native: { nl: het zwemmen (de sport), en: "swimming (the sport)" }, pos: noun, gender: f }
+  - { target: le ski, native: { nl: het skiën, en: "skiing" }, pos: noun, gender: m }
+  - { target: le basket, native: { nl: het basketbal, en: "basketball" }, pos: noun, gender: m }
+  - { target: le volley, native: { nl: het volleybal, en: "volleyball" }, pos: noun, gender: m }
+  - { target: le judo, native: { nl: het judo, en: "judo" }, pos: noun, gender: m }
+  - { target: la randonnée, native: { nl: "de (lange) wandeling, de trektocht", en: "hike, long walk" }, pos: noun, gender: f }
+  - { target: la promenade, native: { nl: het wandelingetje, en: "walk, stroll" }, pos: noun, gender: f, avoid: [fr.randonnee] }
+  - { target: se promener, native: { nl: wandelen, en: "to go for a walk, to walk" }, pos: verb }
+  - { target: se baigner, native: { nl: "(buiten) zwemmen, een duik nemen", en: "to swim (outdoors), to go for a swim" }, pos: verb }
+  - { target: la guitare, native: { nl: de gitaar, en: "guitar" }, pos: noun, gender: f }
+  - { target: le piano, native: { nl: de piano, en: "piano" }, pos: noun, gender: m }
+  - { target: la photo, native: { nl: de foto, en: "photo" }, pos: noun, gender: f }
+  - { target: la bande dessinée, native: { nl: "het stripboek, de strip", en: "comic, comic book" }, pos: noun, gender: f }
+  - { target: la trottinette, native: { nl: de step, en: "scooter, kick scooter" }, pos: noun, gender: f }
+  - { target: pratiquer, native: { nl: "doen (een sport), beoefenen", en: "to do (a sport), to practise (a sport)" }, pos: verb }
+  - { target: visiter, native: { nl: "bezoeken (een plek), bezichtigen", en: "to visit (a place)" }, pos: verb }
+  - { target: la visite, native: { nl: het bezoek, en: "visit" }, pos: noun, gender: f, avoid: [fr.sortie] }
+  - { target: la sortie, native: { nl: het uitstapje, en: "trip, outing" }, pos: noun, gender: f }
+sentences:
+  - { id: s01, target: "La danse, c'est difficile.", native: { nl: "Dansen is moeilijk.", en: "Dancing is difficult." }, items: [fr.danse] }
+  - { id: s02, target: "Je fais de la natation le mercredi.", native: { nl: "Op woensdag zit ik op zwemmen.", en: "I go swimming on Wednesdays." }, items: [fr.natation] }
+  - { id: s03, target: "À la montagne, nous faisons du ski.", native: { nl: "In de bergen gaan we skiën.", en: "In the mountains we go skiing." }, items: [fr.ski] }
+  - { id: s04, target: "Mon frère joue au basket.", native: { nl: "Mijn broer speelt basketbal.", en: "My brother plays basketball." }, items: [fr.basket] }
+  - { id: s05, target: "On joue au volley sur la plage.", native: { nl: "We spelen volleybal op het strand.", en: "We play volleyball on the beach." }, items: [fr.volley] }
+  - { id: s06, target: "Je fais du judo avec mon cousin.", native: { nl: "Ik doe judo met mijn neef.", en: "I do judo with my cousin." }, items: [fr.judo] }
+  - { id: s07, target: "Je fais des randonnées avec ma sœur.", native: { nl: "Ik maak lange wandelingen met mijn zus.", en: "I go hiking with my sister." }, items: [fr.randonnee] }
+  - { id: s08, target: "On fait une promenade au parc ?", native: { nl: "Zullen we een stukje wandelen in het park?", en: "Shall we go for a walk in the park?" }, items: [fr.promenade] }
+  - { id: s09, target: "Le dimanche, nous nous promenons dans la forêt.", native: { nl: "Op zondag wandelen we in het bos.", en: "On Sundays we go for a walk in the forest." }, items: [fr.se-promener] }
+  - { id: s10, target: "On se baigne dans le lac ?", native: { nl: "Gaan we zwemmen in het meer?", en: "Shall we go swimming in the lake?" }, items: [fr.se-baigner] }
+  - { id: s11, target: "Mon père joue de la guitare.", native: { nl: "Mijn vader speelt gitaar.", en: "My father plays the guitar." }, items: [fr.guitare] }
+  - { id: s12, target: "J'apprends le piano.", native: { nl: "Ik leer pianospelen.", en: "I'm learning the piano." }, items: [fr.piano] }
+  - { id: s13, target: "Regarde ma photo !", native: { nl: "Kijk naar mijn foto!", en: "Look at my photo!" }, items: [fr.photo] }
+  - { id: s14, target: "Je lis une bande dessinée.", native: { nl: "Ik lees een stripboek.", en: "I'm reading a comic." }, items: [fr.bande-dessinee] }
+  - { id: s17, target: "Je vais au parc en trottinette.", native: { nl: "Ik ga met de step naar het park.", en: "I go to the park on my scooter." }, items: [fr.trottinette] }
+  - { id: s18, target: "Tu pratiques quel sport ?", native: { nl: "Welke sport doe jij?", en: "What sport do you do?" }, items: [fr.pratiquer] }
+  - { id: s19, target: "Nous visitons le musée.", native: { nl: "We bezoeken het museum.", en: "We're visiting the museum." }, items: [fr.visiter] }
+  - { id: s20, target: "La visite à la ferme, c'est jeudi.", native: { nl: "Het bezoek aan de boerderij is op donderdag.", en: "The visit to the farm is on Thursday." }, items: [fr.visite] }
+  - { id: s21, target: "Mercredi, nous faisons une sortie au cirque.", native: { nl: "Woensdag gaan we op uitstapje naar het circus.", en: "On Wednesday we're going on a trip to the circus." }, items: [fr.sortie] }
+lessons:
+  - { id: l01, title: { nl: Dansen en zwemmen, en: "Dancing and swimming" }, vocab: [fr.danse, fr.natation, fr.ski, fr.basket, fr.volley, fr.judo, fr.pratiquer] }
+  - { id: l02, title: { nl: Wandelen, en: "Going for a walk" }, vocab: [fr.randonnee, fr.promenade, fr.se-promener, fr.se-baigner, fr.visiter, fr.visite, fr.sortie] }
+  - { id: l03, title: { nl: Muziek en foto's, en: "Music and photos" }, vocab: [fr.guitare, fr.piano, fr.photo, fr.bande-dessinee, fr.trottinette] }

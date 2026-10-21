@@ -1,0 +1,40 @@
+id: nl-b1-t06
+kind: dialogue
+title: { en: The boiler has broken down }
+topic: The landlord and repairs (a tenant phones his landlady)
+level: B1
+speakers: { A: { name: Bram }, B: { name: Mevrouw Mertens } }
+turns:
+  - { id: nl-b1-t06-s01, speaker: A, target: "Dag mevrouw Mertens, met Bram, van het appartement op de tweede verdieping.", native: { en: "Hello Mrs Mertens, it's Bram, from the flat on the second floor." } }
+  - { id: nl-b1-t06-s02, speaker: B, target: "Dag Bram. Is er iets mis?", native: { en: "Hello Bram. Is something wrong?" } }
+  - { id: nl-b1-t06-s03, speaker: A, target: "Ja, de ketel is sinds gisteren kapot. We hebben geen warm water en de verwarming werkt niet.", native: { en: "Yes, the boiler has been broken since yesterday. We have no hot water and the heating isn't working." } }
+  - { id: nl-b1-t06-s04, speaker: B, target: "Oei, dat is vervelend, zeker nu het zo koud is. Hebt u al gekeken of er een lampje brandt?", native: { en: "Oh dear, that's annoying, especially now that it's so cold. Have you checked whether there's a light on?" } }
+  - { id: nl-b1-t06-s05, speaker: A, target: "Er brandt een rood lampje. Ik heb de ketel al twee keer opnieuw aangezet, maar dat helpt niet.", native: { en: "A red light is on. I've already restarted the boiler twice, but it hasn't helped." } }
+  - { id: nl-b1-t06-s06, speaker: B, target: "Dan moet er een vakman komen. De ketel werd vorig jaar nog onderhouden, dus dat is vreemd.", native: { en: "Then a technician has to come. The boiler was serviced only last year, so that's strange." } }
+  - { id: nl-b1-t06-s07, speaker: A, target: "Er is nog iets. In de badkamer zit er schimmel op het plafond.", native: { en: "There's something else. In the bathroom there's mould on the ceiling." } }
+  - { id: nl-b1-t06-s08, speaker: B, target: "Verlucht u de badkamer na het douchen? Dat is belangrijk tegen het vocht.", native: { en: "Do you air the bathroom after showering? That's important against damp." } }
+  - { id: nl-b1-t06-s09, speaker: A, target: "Ja, elke dag. Ik denk dat het vocht door het dak komt.", native: { en: "Yes, every day. I think the damp is coming through the roof." } }
+  - { id: nl-b1-t06-s10, speaker: B, target: "Goed, dan laat ik dat ook nakijken. Kan de vakman morgenvoormiddag langskomen?", native: { en: "All right, then I'll have that checked too. Can the technician come round tomorrow morning?" } }
+  - { id: nl-b1-t06-s11, speaker: A, target: "Morgen werk ik, maar mijn vriendin is thuis. Wie betaalt de herstelling eigenlijk?", native: { en: "Tomorrow I'm working, but my girlfriend is at home. Who actually pays for the repair?" } }
+  - { id: nl-b1-t06-s12, speaker: B, target: "Dat is voor mij, dat staat in het huurcontract. Ik bel u straks terug om het uur te bevestigen.", native: { en: "That's for me, it's in the lease. I'll call you back later to confirm the time." } }
+glossary:
+  - { word: oei, native: { en: "oh dear" } }
+  - { word: vakman, native: { en: "technician, tradesman" } }
+  - { word: verlucht, native: { en: "air (verluchten: to air a room; in the Netherlands: luchten)" } }
+  - { word: aangezet, native: { en: "switched on (aanzetten)" } }
+items: [nl.ketel, nl.schimmel, nl.vocht, nl.onderhouden, nl.nakijken, nl.langskomen, nl.huurcontract, nl.opnieuw, nl.plafond, nl.vreemd, nl.sinds, nl.branden, nl.bevestigen]
+questions:
+  - { id: nl-b1-t06-q1, type: mc, question: "Waarom belt Bram mevrouw Mertens?", options: ["De ketel werkt niet.", "Hij wil verhuizen.", "Hij kan de huur niet betalen."], correct: 0 }
+  - { id: nl-b1-t06-q2, type: true_false_notgiven, statement: "De ketel werd nog nooit onderhouden.", answer: false }
+  - { id: nl-b1-t06-q3, type: true_false_notgiven, statement: "Bram verlucht de badkamer elke dag.", answer: true }
+  - { id: nl-b1-t06-q4, type: true_false_notgiven, statement: "De vriendin van Bram is morgen thuis.", answer: true }
+  - { id: nl-b1-t06-q5, type: mc, question: "Wie betaalt de herstelling?", options: ["Mevrouw Mertens.", "Bram.", "De vakman."], correct: 0 }
+listeningQuestions:
+  - { id: nl-b1-t06-l1, type: mc, question: "Waar zit de schimmel?", options: ["Op het plafond van de badkamer.", "In de keuken.", "Op de muur van de slaapkamer."], correct: 0 }
+  - { id: nl-b1-t06-l2, type: true_false_notgiven, statement: "Mevrouw Mertens belt later terug.", answer: true }
+cloze:
+  - { sentence: nl-b1-t06-s03, word: werkt, kind: finite_verb, hint: { en: "werken (present)" } }
+  - { sentence: nl-b1-t06-s06, word: werd, kind: finite_verb, hint: { en: "worden (past)" } }
+  - { sentence: nl-b1-t06-s09, word: komt, kind: finite_verb, hint: { en: "komen (present)" } }
+  - { sentence: nl-b1-t06-s11, word: betaalt, kind: finite_verb, hint: { en: "betalen (present)" } }
+orderable: true

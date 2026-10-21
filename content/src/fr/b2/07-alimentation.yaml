@@ -1,0 +1,71 @@
+id: fr-b2-u07
+title: { nl: Voeding en eetgewoonten, en: "Food and eating habits" }
+icon: food
+topic: Les régimes et la nutrition, le goût, le gaspillage alimentaire et l'origine des produits, les allergies ; exprimer la quantité (la plupart de, la moitié de, trop de, peu de) et la nominalisation (la consommation, le gaspillage)
+vocabulary:
+  - { target: fade, native: { nl: "flauw, smakeloos", en: "bland, tasteless" }, pos: adjective, avoid: [fr.epice] }
+  - { target: bio, native: { nl: biologisch, en: "organic" }, pos: adjective }
+  - { target: transformé, native: { nl: "bewerkt (voedsel)", en: "processed" }, pos: adjective }
+  - { target: la malbouffe, native: { nl: "het ongezonde eten, de junkfood", en: "junk food" }, pos: noun, gender: f }
+  - { target: végétalien, native: { nl: veganistisch, en: "vegan" }, pos: adjective, avoid: [fr.vegetarien] }
+  - { target: la protéine, native: { nl: het eiwit, en: "protein" }, pos: noun, gender: f }
+  - { target: la vitamine, native: { nl: de vitamine, en: "vitamin" }, pos: noun, gender: f, noBlank: true }
+  - { target: la fibre, native: { nl: de vezel, en: "fibre" }, pos: noun, gender: f }
+  - { target: la portion, native: { nl: de portie, en: "portion" }, pos: noun, gender: f, noBlank: true }
+  - { target: l'appétit, native: { nl: de eetlust, en: "appetite" }, pos: noun, gender: m }
+  - { target: affamé, native: { nl: "uitgehongerd", en: "starving, famished" }, pos: adjective }
+  - { target: la récolte, native: { nl: de oogst, en: "harvest" }, pos: noun, gender: f }
+  - { target: les restes, native: { nl: "de restjes (eten)", en: "leftovers" }, pos: noun, gender: m }
+  - { target: l'emballage, native: { nl: de verpakking, en: "packaging, wrapping" }, pos: noun, gender: m }
+  - { target: de saison, native: { nl: "van het seizoen", en: "in season, seasonal" }, pos: adjective, typedAlso: { en: [saisonniers] } }
+  - { target: importé, native: { nl: "ingevoerd", en: "imported" }, pos: adjective }
+  - { target: l'allergie, native: { nl: de allergie, en: "allergy" }, pos: noun, gender: f, noBlank: true }
+  - { target: allergique, native: { nl: allergisch, en: "allergic" }, pos: adjective, noBlank: true }
+  - { target: les produits laitiers, native: { nl: de zuivelproducten, en: "dairy products" }, pos: noun, gender: m }
+  - { target: consommer, native: { nl: "consumeren, verbruiken", en: "to consume" }, pos: verb }
+  - { target: la consommation, native: { nl: "de consumptie, het verbruik", en: "consumption" }, pos: noun, gender: f }
+  - { target: la quantité, native: { nl: de hoeveelheid, en: "quantity, amount" }, pos: noun, gender: f }
+  - { target: l'agriculteur, native: { nl: de landbouwer, en: "farmer" }, pos: noun, gender: m }
+  - { target: la saveur, native: { nl: de smaak, en: "flavour, taste" }, pos: noun, gender: f, avoid: [fr.gout] }
+  - { target: la nourriture, native: { nl: "het voedsel, het eten", en: "food" }, pos: noun, gender: f, avoid: [fr.alimentation] }
+  - { target: le gaspillage alimentaire, native: { nl: de voedselverspilling, en: "food waste" }, pos: noun, gender: m }
+  - { target: contenir, native: { nl: bevatten, en: "to contain" }, pos: verb }
+  - { target: produire, native: { nl: "produceren, voortbrengen", en: "to produce" }, pos: verb }
+  - { target: heureusement, native: { nl: "gelukkig (maar)", en: "fortunately, luckily" }, pos: adverb }
+  - { target: la faim dans le monde, native: { nl: "de honger in de wereld", en: "world hunger" }, pos: noun, gender: f, typedAlso: { en: [faim mondiale] } }
+sentences:
+  - { id: s01, target: "La soupe était un peu fade, alors j'ai ajouté du sel.", native: { nl: "De soep was een beetje flauw, dus ik deed er zout bij.", en: "The soup was a bit bland, so I added some salt." }, items: [fr.fade] }
+  - { id: s02, target: "Les légumes bio sont plus chers, mais ils ont plus de goût.", native: { nl: "Biologische groenten zijn duurder, maar ze hebben meer smaak.", en: "Organic vegetables are more expensive, but they have more flavour." }, items: [fr.bio] }
+  - { id: s03, target: "Les produits transformés contiennent souvent trop de sel.", native: { nl: "Bewerkte producten bevatten vaak te veel zout.", en: "Processed foods often contain too much salt." }, items: [fr.transforme, fr.contenir] }
+  - { id: s04, target: "On mange de la malbouffe seulement quand on n'a pas le temps.", native: { nl: "We eten alleen junkfood als we geen tijd hebben.", en: "We only eat junk food when we haven't got time." }, items: [fr.malbouffe] }
+  - { id: s05, target: "Mon cousin est végétalien depuis deux ans.", native: { nl: "Mijn neef is al twee jaar veganist.", en: "My cousin has been vegan for two years." }, items: [fr.vegetalien] }
+  - { id: s06, target: "Les haricots sont riches en protéines.", native: { nl: "Bonen zijn rijk aan eiwitten.", en: "Beans are rich in protein." }, items: [fr.proteine] }
+  - { id: s07, target: "Les oranges contiennent beaucoup de vitamines.", native: { nl: "Sinaasappels bevatten veel vitaminen.", en: "Oranges contain a lot of vitamins." }, items: [fr.vitamine] }
+  - { id: s08, target: "Le pain complet contient plus de fibres que le pain blanc.", native: { nl: "Volkorenbrood bevat meer vezels dan wit brood.", en: "Wholemeal bread contains more fibre than white bread." }, items: [fr.fibre] }
+  - { id: s09, target: "Au restaurant, les portions sont souvent trop grandes pour les enfants.", native: { nl: "In het restaurant zijn de porties vaak te groot voor kinderen.", en: "In restaurants, portions are often too big for children." }, items: [fr.portion] }
+  - { id: s10, target: "Ne mange pas de bonbons avant le dîner, tu vas perdre l'appétit.", native: { nl: "Eet geen snoep voor het avondeten, anders verlies je je eetlust.", en: "Don't eat sweets before dinner, you'll lose your appetite." }, items: [fr.appetit] }
+  - { id: s11, target: "Après la randonnée, nous étions affamés.", native: { nl: "Na de wandeltocht waren we uitgehongerd.", en: "After the hike, we were starving." }, items: [fr.affame], acceptAlso: ["Nous étions affamés après la randonnée."] }
+  - { id: s12, target: "La pluie est arrivée juste avant la récolte.", native: { nl: "De regen kwam vlak voor de oogst.", en: "The rain came just before the harvest." }, items: [fr.recolte] }
+  - { id: s13, target: "Nous avons mangé les restes deux jours après.", native: { nl: "We aten de restjes twee dagen later.", en: "We ate the leftovers two days later." }, items: [fr.restes] }
+  - { id: s14, target: "Trop d'emballages en plastique finissent dans la mer.", native: { nl: "Te veel plastic verpakkingen komen in de zee terecht.", en: "Too much plastic packaging ends up in the sea." }, items: [fr.emballage] }
+  - { id: s15, target: "Les fruits de saison sont moins chers.", native: { nl: "Seizoensfruit is goedkoper.", en: "Fruit in season is cheaper." }, items: [fr.de-saison] }
+  - { id: s16, target: "Les fraises importées viennent souvent de très loin.", native: { nl: "Ingevoerde aardbeien komen vaak van heel ver.", en: "Imported strawberries often come from very far away." }, items: [fr.importe] }
+  - { id: s17, target: "Il a une allergie aux œufs.", native: { nl: "Hij heeft een allergie voor eieren.", en: "He has an allergy to eggs." }, items: [fr.allergie] }
+  - { id: s18, target: "Elle est allergique au lait.", native: { nl: "Ze is allergisch voor melk.", en: "She's allergic to milk." }, items: [fr.allergique] }
+  - { id: s19, target: "Les végétaliens ne mangent pas de produits laitiers.", native: { nl: "Veganisten eten geen zuivelproducten.", en: "Vegans don't eat dairy products." }, items: [fr.produits-laitiers] }
+  - { id: s20, target: "Les Européens consomment beaucoup de viande.", native: { nl: "Europeanen eten veel vlees.", en: "Europeans consume a lot of meat." }, items: [fr.consommer] }
+  - { id: s21, target: "Notre consommation de sucre a augmenté en cinquante ans.", native: { nl: "Ons suikerverbruik is in vijftig jaar gestegen.", en: "Our sugar consumption has risen over the last fifty years." }, items: [fr.consommation], form: { word: consommation, stem: consommer } }
+  - { id: s22, target: "On jette une grande quantité de nourriture chaque jour.", native: { nl: "Elke dag wordt er een grote hoeveelheid voedsel weggegooid.", en: "A large quantity of food is thrown away every day." }, items: [fr.quantite, fr.nourriture] }
+  - { id: s23, target: "Les agriculteurs vendent leurs légumes au marché.", native: { nl: "De landbouwers verkopen hun groenten op de markt.", en: "The farmers sell their vegetables at the market." }, items: [fr.agriculteur] }
+  - { id: s24, target: "J'aime la saveur des tomates en été.", native: { nl: "Ik hou van de smaak van tomaten in de zomer.", en: "I like the flavour of tomatoes in summer." }, items: [fr.saveur] }
+  - { id: s25, target: "La faim dans le monde n'a pas disparu.", native: { nl: "De honger in de wereld is niet verdwenen.", en: "World hunger hasn't disappeared." }, items: [fr.faim-dans-le-monde] }
+  - { id: s26, target: "À la cantine, la plupart des élèves ne mangent qu'une petite quantité de légumes.", native: { nl: "In de kantine eten de meeste leerlingen maar weinig groenten.", en: "In the canteen, most pupils eat only a small amount of vegetables." }, items: [fr.quantite], build: true }
+  - { id: s27, target: "Le gaspillage alimentaire coûte cher à tout le monde.", native: { nl: "Voedselverspilling kost iedereen veel geld.", en: "Food waste is costly for everyone." }, items: [fr.gaspillage-alimentaire], build: true }
+  - { id: s29, target: "La Belgique produit beaucoup de pommes de terre.", native: { nl: "België produceert veel aardappelen.", en: "Belgium produces a lot of potatoes." }, items: [fr.produire] }
+  - { id: s30, target: "Heureusement, personne n'est tombé malade après le repas.", native: { nl: "Gelukkig werd niemand ziek na de maaltijd.", en: "Fortunately, nobody fell ill after the meal." }, items: [fr.heureusement] }
+  - { id: s28, target: "Elle consomme peu de viande.", native: { nl: "Ze eet weinig vlees.", en: "She consumes very little meat." }, items: [fr.consommer], finite: { word: consomme, hint: { nl: "consommer (présent)", en: "consommer (present)" } } }
+transforms:
+  - { id: x01, from: "On jette beaucoup de nourriture, et ça coûte cher.", key: gaspillage, gapped: "Le ___ coûte cher.", answers: ["gaspillage de nourriture", "gaspillage de la nourriture", "gaspillage alimentaire"], items: [fr.nourriture], native: { en: "Food waste is costly." } }
+  - { id: x02, from: "Les œufs la rendent malade.", key: allergique, gapped: "Elle ___ œufs.", answers: ["est allergique aux"], items: [fr.allergique], native: { en: "She's allergic to eggs." } }
+  - { id: x03, from: "Presque tous les élèves mangent à la cantine.", key: plupart, gapped: "La ___ mangent à la cantine.", answers: ["plupart des élèves"], items: [fr.quantite], native: { en: "Most pupils eat in the canteen." } }
+texts: [fr-b2-t07]

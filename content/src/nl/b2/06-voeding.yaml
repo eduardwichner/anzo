@@ -1,0 +1,96 @@
+id: nl-b2-u06
+title: { en: Food and health }
+icon: food
+topic: Healthy food, labels, vegetarian diets, food waste; er in all its functions (er is, ik woon er, ik heb er twee, erover, er wordt …)
+vocabulary:
+  - { target: de voeding, native: { en: "food, nutrition (what you eat)" }, pos: noun, plural: "-", avoid: [nl.voedsel] }
+  - { target: het voedsel, native: { en: food }, pos: noun, plural: "-" }
+  - { target: de voedingswaarde, native: { en: nutritional value }, pos: noun, plural: voedingswaarden }
+  - { target: het etiket, native: { en: label }, pos: noun, plural: etiketten }
+  - { target: de calorie, native: { en: calorie }, pos: noun, plural: calorieën }
+  - { target: het eiwit, native: { en: protein }, pos: noun, plural: eiwitten }
+  - { target: de vitamine, native: { en: vitamin }, pos: noun, plural: vitaminen }
+  - { target: de vezel, native: { en: fibre }, pos: noun, plural: vezels }
+  - { target: het dieet, native: { en: diet (to lose weight) }, pos: noun, plural: diëten }
+  - { target: de veganist, native: { en: vegan }, pos: noun, plural: veganisten }
+  - { target: de vleesvervanger, native: { en: meat substitute }, pos: noun, plural: vleesvervangers }
+  - { target: het seizoen, native: { en: season }, pos: noun, plural: seizoenen }
+  - { target: de houdbaarheidsdatum, native: { en: "best-before date, expiry date" }, pos: noun, plural: houdbaarheidsdata }
+  - { target: de voedselverspilling, native: { en: food waste }, pos: noun, plural: "-" }
+  - { target: het restje, native: { en: leftover }, pos: noun, plural: restjes }
+  - { target: de portie, native: { en: portion }, pos: noun, plural: porties }
+  - { target: het tussendoortje, native: { en: snack (between meals) }, pos: noun, plural: tussendoortjes }
+  - { target: de frisdrank, native: { en: soft drink }, pos: noun, plural: frisdranken }
+  - { target: de verslaving, native: { en: addiction }, pos: noun, plural: verslavingen }
+  - { target: het fastfood, native: { en: fast food }, pos: noun, plural: "-" }
+  - { target: de smaak, native: { en: taste }, pos: noun, plural: smaken }
+  - { target: de diëtist, native: { en: dietitian }, pos: noun, plural: diëtisten }
+  - { target: de boer, native: { en: farmer }, pos: noun, plural: boeren }
+  - { target: de compost, native: { en: compost }, pos: noun, plural: "-" }
+  - { target: invriezen, native: { en: to freeze }, pos: verb }
+  - { target: ontdooien, native: { en: "to defrost, to thaw" }, pos: verb }
+  - { target: vegetarisch, native: { en: vegetarian }, pos: adjective }
+  - { target: biologisch, native: { en: organic }, pos: adjective }
+  - { target: lokaal, native: { en: local }, pos: adjective }
+  - { target: kant-en-klaar, native: { en: ready-made }, pos: adjective }
+  - { target: evenwichtig, native: { en: balanced }, pos: adjective }
+  - { target: gevarieerd, native: { en: varied }, pos: adjective }
+  - { target: matig, native: { en: "moderate; in moderation" }, pos: adjective }
+  - { target: schadelijk, native: { en: harmful }, pos: adjective }
+  - { target: bewerkt, native: { en: processed }, pos: adjective }
+  - { target: allebei, native: { en: both }, pos: pronoun }
+  - { target: de boon, native: { en: bean }, pos: noun, plural: bonen }
+  - { target: de noot, native: { en: nut }, pos: noun, plural: noten }
+  - { target: de schil, native: { en: "peel, skin" }, pos: noun, plural: schillen }
+  - { target: de vegetariër, native: { en: vegetarian }, pos: noun, plural: vegetariërs }
+  - { target: de zuivel, native: { en: dairy (products) }, pos: noun, plural: "-" }
+  - { target: de documentaire, native: { en: documentary }, pos: noun, plural: documentaires }
+  - { target: variëren, native: { en: to vary }, pos: verb }
+  - { target: vervoeren, native: { en: to transport }, pos: verb }
+  - { target: hoogstens, native: { en: at most }, pos: adverb }
+  - { target: rechtstreeks, native: { en: directly }, pos: adverb }
+sentences:
+  - { id: s01, target: "Gezonde voeding is de basis van een gezond leven.", native: { en: "Healthy food is the basis of a healthy life." }, items: [nl.voeding] }
+  - { id: s02, target: "Elk jaar wordt er heel veel voedsel weggegooid.", native: { en: "Every year a great deal of food is thrown away." }, items: [nl.voedsel], acceptAlso: ["Er wordt elk jaar heel veel voedsel weggegooid."], build: true }
+  - { id: s03, target: "De voedingswaarde staat op de verpakking.", native: { en: "The nutritional information is on the packaging." }, items: [nl.voedingswaarde] }
+  - { id: s04, target: "Lees het etiket voor je iets koopt: er staat veel op.", native: { en: "Read the label before you buy something: there's a lot on it." }, items: [nl.etiket] }
+  - { id: s05, target: "Een fles frisdrank bevat veel calorieën.", native: { en: "A bottle of soft drink contains a lot of calories." }, items: [nl.frisdrank, nl.calorie] }
+  - { id: s06, target: "In bonen en noten zitten veel eiwitten.", native: { en: "There is a lot of protein in beans and nuts." }, items: [nl.eiwit, nl.boon, nl.noot] }
+  - { id: s07, target: "In de winter neem ik extra vitaminen.", native: { en: "In winter I take extra vitamins." }, items: [nl.vitamine], acceptAlso: ["Ik neem in de winter extra vitaminen."] }
+  - { id: s08, target: "Bruin brood bevat veel vezels.", native: { en: "Brown bread contains a lot of fibre." }, items: [nl.vezel] }
+  - { id: s09, target: "Na de feestdagen volgt ze altijd een streng dieet.", native: { en: "After Christmas and New Year she always goes on a strict diet." }, items: [nl.dieet], acceptAlso: ["Ze volgt na de feestdagen altijd een streng dieet."] }
+  - { id: s10, target: "Een veganist eet geen vlees, geen vis en geen zuivel.", native: { en: "A vegan eats no meat, no fish and no dairy." }, items: [nl.veganist, nl.zuivel] }
+  - { id: s11, target: "Er zijn steeds meer vleesvervangers in de supermarkt.", native: { en: "There are more and more meat substitutes in the supermarket." }, items: [nl.vleesvervanger], acceptAlso: ["In de supermarkt zijn er steeds meer vleesvervangers.", "Er zijn in de supermarkt steeds meer vleesvervangers."] }
+  - { id: s12, target: "Koop groenten van het seizoen: ze zijn goedkoper en lekkerder.", native: { en: "Buy seasonal vegetables: they are cheaper and tastier." }, items: [nl.seizoen], acceptAlso: ["Koop groenten van het seizoen: ze zijn lekkerder en goedkoper."] }
+  - { id: s13, target: "Na de houdbaarheidsdatum kun je veel producten nog veilig eten.", native: { en: "After the best-before date you can still eat many products safely." }, items: [nl.houdbaarheidsdatum] }
+  - { id: s14, target: "Tegen voedselverspilling kun je zelf veel doen.", native: { en: "You can do a lot yourself about food waste." }, items: [nl.voedselverspilling] }
+  - { id: s15, target: "Van de restjes maak ik morgen soep.", native: { en: "I'll make soup from the leftovers tomorrow." }, items: [nl.restje], acceptAlso: ["Ik maak morgen soep van de restjes."] }
+  - { id: s16, target: "Kleinere porties helpen om minder te eten.", native: { en: "Smaller portions help you eat less." }, items: [nl.portie] }
+  - { id: s17, target: "Een appel is een gezond tussendoortje.", native: { en: "An apple is a healthy snack." }, items: [nl.tussendoortje] }
+  - { id: s18, target: "Suiker kan een soort verslaving worden.", native: { en: "Sugar can become a kind of addiction." }, items: [nl.verslaving] }
+  - { id: s19, target: "Fastfood eten we hoogstens één keer per maand.", native: { en: "We eat fast food once a month at most." }, items: [nl.fastfood, nl.hoogstens], acceptAlso: ["We eten hoogstens één keer per maand fastfood.", "Hoogstens één keer per maand eten we fastfood.", "We eten fastfood hoogstens één keer per maand."] }
+  - { id: s20, target: "De smaak van verse tomaten is veel sterker.", native: { en: "Fresh tomatoes have a much stronger taste." }, items: [nl.smaak] }
+  - { id: s21, target: "Een diëtist heeft me geholpen om mijn eetgewoontes te veranderen.", native: { en: "A dietitian helped me to change my eating habits." }, items: [nl.dietist] }
+  - { id: s22, target: "Op de markt koop ik groenten rechtstreeks van de boer.", native: { en: "At the market I buy vegetables directly from the farmer." }, items: [nl.boer, nl.rechtstreeks], acceptAlso: ["Ik koop op de markt groenten rechtstreeks van de boer."] }
+  - { id: s23, target: "De schillen gooien we niet weg: daar maken we compost van.", native: { en: "We don't throw the peelings away: we make compost from them." }, items: [nl.compost, nl.schil], acceptAlso: ["We gooien de schillen niet weg: daar maken we compost van.", "De schillen gooien we niet weg: we maken daar compost van.", "We gooien de schillen niet weg: we maken daar compost van."] }
+  - { id: s24, target: "Brood kun je perfect invriezen.", native: { en: "You can freeze bread perfectly well." }, items: [nl.invriezen] }
+  - { id: s25, target: "Laat het vlees in de koelkast ontdooien.", native: { en: "Let the meat defrost in the fridge." }, items: [nl.ontdooien] }
+  - { id: s26, target: "Twee keer per week koken we vegetarisch.", native: { en: "Twice a week we cook vegetarian food." }, items: [nl.vegetarisch], acceptAlso: ["We koken twee keer per week vegetarisch."] }
+  - { id: s27, target: "Biologische groenten zijn duurder, maar ik koop er toch veel.", native: { en: "Organic vegetables are more expensive, but I still buy a lot of them." }, items: [nl.biologisch], build: true, acceptAlso: ["Biologische groenten zijn duurder, maar toch koop ik er veel."] }
+  - { id: s28, target: "Lokale producten hoeven niet ver vervoerd te worden.", native: { en: "Local products don't have to be transported far." }, items: [nl.lokaal, nl.vervoeren] }
+  - { id: s29, target: "Kant-en-klare maaltijden bevatten vaak veel zout.", native: { en: "Ready-made meals often contain a lot of salt." }, items: [nl.kant-en-klaar], acceptAlso: ["Vaak bevatten kant-en-klare maaltijden veel zout."] }
+  - { id: s30, target: "Een evenwichtige maaltijd bevat groenten, eiwitten en vezels.", native: { en: "A balanced meal contains vegetables, protein and fibre." }, items: [nl.evenwichtig], form: { word: evenwichtige, stem: evenwicht } }
+  - { id: s31, target: "Hoe gevarieerder je eet, hoe beter.", native: { en: "The more varied your diet, the better." }, items: [nl.gevarieerd], form: { word: gevarieerder, stem: variëren } }
+  - { id: s32, target: "Alcohol drink je best matig.", native: { en: "It's best to drink alcohol in moderation." }, items: [nl.matig] }
+  - { id: s33, target: "Te veel suiker is schadelijk voor je tanden.", native: { en: "Too much sugar is harmful to your teeth." }, items: [nl.schadelijk], form: { word: schadelijk, stem: schade } }
+  - { id: s34, target: "Bewerkt vlees eet je beter niet elke dag.", native: { en: "It's better not to eat processed meat every day." }, items: [nl.bewerkt], acceptAlso: ["Je eet beter niet elke dag bewerkt vlees."] }
+  - { id: s35, target: "Ik heb drie tussendoortjes meegenomen, maar er zijn er al twee op.", native: { en: "I brought three snacks, but two of them have already been eaten." }, items: [nl.tussendoortje], build: true }
+  - { id: s36, target: "Over gezonde voeding wordt er veel gepraat.", native: { en: "There is a lot of talk about healthy food." }, items: [nl.voeding], acceptAlso: ["Er wordt veel gepraat over gezonde voeding."], finite: { word: wordt, hint: { en: "worden (present)" } } }
+  - { id: s37, target: "Mijn ouders zijn allebei vegetariër.", native: { en: "My parents are both vegetarians." }, items: [nl.allebei, nl.vegetarier] }
+  - { id: s38, target: "Ik heb gisteren een documentaire over voedselverspilling gezien.", native: { en: "Yesterday I saw a documentary about food waste." }, items: [nl.documentaire] }
+  - { id: s40, target: "Op zaterdag ga ik naar de markt: ik koop er groenten rechtstreeks van de boer.", native: { en: "On Saturdays I go to the market: I buy vegetables there directly from the farmer." }, items: [nl.seizoen] }
+transforms:
+  - { id: x01, from: "Men gooit elke dag veel brood weg.", key: er, gapped: "___ elke dag veel brood weggegooid.", answers: ["Er wordt"], items: [nl.voedselverspilling] }
+  - { id: x02, from: "Heb je nog tussendoortjes? — Ja, ik heb nog twee tussendoortjes.", key: er, gapped: "Heb je nog tussendoortjes? — Ja, ik ___.", answers: ["heb er nog twee"], items: [nl.tussendoortje] }
+  - { id: x03, from: "We hebben lang over dat dieet gepraat.", key: er, gapped: "Dat dieet? We ___.", answers: ["hebben er lang over gepraat"], items: [nl.dieet] }
+texts: [nl-b2-t07]

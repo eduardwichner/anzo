@@ -1,0 +1,69 @@
+id: en-a1-u06
+title: { nl: "Waar naartoe?" }
+icon: places
+topic: Places and directions; Transport
+vocabulary:
+  - { target: above, native: { nl: boven }, pos: preposition }
+  - { target: below, native: { nl: "onder, beneden" }, pos: preposition }
+  - { target: up, native: { nl: "omhoog, naar boven" }, pos: adverb }
+  - { target: down, native: { nl: "omlaag, neer" }, pos: adverb }
+  - { target: upstairs, native: { nl: "boven (op de verdieping)" }, pos: adverb, avoid: [en.above] }
+  - { target: downstairs, native: { nl: "beneden (op de begane grond)" }, pos: adverb, avoid: [en.below] }
+  - { target: round, native: { nl: "rond, om" }, pos: preposition }
+  - { target: inside, native: { nl: binnen }, pos: adverb }
+  - { target: outside, native: { nl: buiten }, pos: adverb }
+  - { target: into, native: { nl: "in (naar binnen)" }, pos: preposition }
+  - { target: out of, native: { nl: uit }, pos: preposition }
+  - { target: out, native: { nl: "uit, naar buiten" }, pos: adverb, avoid: [en.out-of, en.outside] }
+  - { target: "off", native: { nl: "af, van … af" }, pos: preposition }
+  - { target: near, native: { nl: dichtbij }, pos: preposition }
+  - { target: along, native: { nl: langs }, pos: preposition }
+  - { target: around, native: { nl: "om … heen, rond" }, pos: preposition, avoid: [en.round] }
+  - { target: opposite, native: { nl: tegenover }, pos: preposition }
+  - { target: by, native: { nl: "met (de bus), bij" }, pos: preposition }
+  - { target: move, native: { nl: "bewegen, verhuizen" }, pos: verb }
+  - { target: carry, native: { nl: dragen }, pos: verb }
+  - { target: drop, native: { nl: laten vallen }, pos: verb, avoid: [en.fall] }
+  - { target: ticket, native: { nl: kaartje }, pos: noun }
+  - { target: trip, native: { nl: "reisje, uitstapje" }, pos: noun }
+  - { target: travel, native: { nl: reizen }, pos: verb }
+  - { target: driver, native: { nl: "chauffeur, bestuurder" }, pos: noun }
+  - { target: fall, native: { nl: vallen }, pos: verb }
+  - { target: get on, native: { nl: instappen }, pos: verb }
+  - { target: get off, native: { nl: uitstappen }, pos: verb }
+sentences:
+  - { id: s01, target: "The bird is flying above the trees.", native: { nl: "De vogel vliegt boven de bomen." }, items: [en.above] }
+  - { id: s02, target: "The fish are swimming below the boat.", native: { nl: "De vissen zwemmen onder de boot." }, items: [en.below] }
+  - { id: s03, target: "Go up the stairs.", native: { nl: "Ga de trap op." }, items: [en.up] }
+  - { id: s04, target: "Sit down, please.", native: { nl: "Ga zitten, alsjeblieft." }, items: [en.down] }
+  - { id: s05, target: "My bedroom is upstairs.", native: { nl: "Mijn slaapkamer is boven." }, items: [en.upstairs] }
+  - { id: s06, target: "The kitchen is downstairs.", native: { nl: "De keuken is beneden." }, items: [en.downstairs] }
+  - { id: s07, target: "The children are dancing round the tree.", native: { nl: "De kinderen dansen rond de boom." }, items: [en.round] }
+  - { id: s08, target: "Let's play inside today.", native: { nl: "Laten we vandaag binnen spelen." }, items: [en.inside] }
+  - { id: s09, target: "The dog is waiting outside.", native: { nl: "De hond wacht buiten." }, items: [en.outside] }
+  - { id: s10, target: "The frog jumped into the water.", native: { nl: "De kikker sprong het water in." }, items: [en.into] }
+  - { id: s11, target: "Take the cake out of the box.", native: { nl: "Haal de taart uit de doos." }, items: [en.out-of] }
+  - { id: s12, target: "Hold your hands out.", native: { nl: "Steek je handen uit." }, items: [en.out] }
+  - { id: s13, target: "Jump off the wall!", native: { nl: "Spring van de muur af!" }, items: [en.off] }
+  - { id: s14, target: "Is the station near here?", native: { nl: "Is het station hier dichtbij?" }, items: [en.near] }
+  - { id: s15, target: "We walked along the river.", native: { nl: "We liepen langs de rivier." }, items: [en.along] }
+  - { id: s16, target: "Let's walk around the lake.", native: { nl: "Laten we om het meer heen lopen." }, items: [en.around] }
+  - { id: s17, target: "The library is opposite the station.", native: { nl: "De bibliotheek is tegenover het station." }, items: [en.opposite] }
+  - { id: s18, target: "We go to school by bus.", native: { nl: "Wij gaan met de bus naar school." }, items: [en.by] }
+  - { id: s19, target: "Don't move!", native: { nl: "Niet bewegen!" }, items: [en.move], acceptAlso: ["Do not move!"] }
+  - { id: s20, target: "We moved to a new house.", native: { nl: "We zijn naar een nieuw huis verhuisd." }, items: [en.move] }
+  - { id: s21, target: "Can you carry my bag?", native: { nl: "Kun jij mijn tas dragen?" }, items: [en.carry] }
+  - { id: s22, target: "Don't drop the eggs!", native: { nl: "Laat de eieren niet vallen!" }, items: [en.drop], acceptAlso: ["Do not drop the eggs!"] }
+  - { id: s23, target: "Here's your ticket.", native: { nl: "Hier is je kaartje." }, items: [en.ticket], acceptAlso: ["Here is your ticket."] }
+  - { id: s24, target: "We went on a school trip.", native: { nl: "We gingen op schoolreisje." }, items: [en.trip] }
+  - { id: s25, target: "I love to travel.", native: { nl: "Ik reis heel graag." }, items: [en.travel] }
+  - { id: s26, target: "The bus driver is very nice.", native: { nl: "De buschauffeur is heel aardig." }, items: [en.driver] }
+  - { id: s27, target: "Be careful! Don't fall!", native: { nl: "Pas op! Val niet!" }, items: [en.fall], acceptAlso: ["Be careful! Do not fall!"] }
+  - { id: s28, target: "The boy fell off his bike.", native: { nl: "De jongen viel van zijn fiets." }, items: [en.fall, en.off] }
+  - { id: s29, target: "Get on the bus, please.", native: { nl: "Stap in de bus, alsjeblieft." }, items: [en.get-on] }
+  - { id: s30, target: "Get off the train here.", native: { nl: "Stap hier uit de trein." }, items: [en.get-off] }
+lessons:
+  - { id: l01, title: { nl: Boven en onder }, vocab: [en.above, en.below, en.up, en.down, en.upstairs, en.downstairs, en.round] }
+  - { id: l02, title: { nl: Binnen en buiten }, vocab: [en.inside, en.outside, en.into, en.out-of, en.out, en.off, en.near] }
+  - { id: l03, title: { nl: Langs en om }, vocab: [en.along, en.around, en.opposite, en.by, en.move, en.carry, en.drop] }
+  - { id: l04, title: { nl: Op reis }, vocab: [en.ticket, en.trip, en.travel, en.driver, en.fall, en.get-on, en.get-off] }

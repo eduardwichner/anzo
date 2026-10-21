@@ -1,0 +1,63 @@
+id: fr-a1-1-u03
+title: { nl: Tellen tot twintig, en: "Counting to twenty" }
+icon: numbers
+topic: Les nombres de 0 à 20; l'âge
+vocabulary:
+  - { id: fr.zero, target: zéro, native: { nl: nul, en: "zero" }, pos: number }
+  - { id: fr.un, target: un, native: { nl: "een, één", en: "one" }, pos: number }
+  - { id: fr.deux, target: deux, native: { nl: twee, en: "two" }, pos: number }
+  - { id: fr.trois, target: trois, native: { nl: drie, en: "three" }, pos: number }
+  - { target: quatre, native: { nl: vier, en: "four" }, pos: number }
+  - { target: cinq, native: { nl: vijf, en: "five" }, pos: number }
+  - { target: six, native: { nl: zes, en: "six" }, pos: number }
+  - { target: sept, native: { nl: zeven, en: "seven" }, pos: number }
+  - { target: huit, native: { nl: acht, en: "eight" }, pos: number }
+  - { target: neuf, native: { nl: negen, en: "nine" }, pos: number }
+  - { target: dix, native: { nl: tien, en: "ten" }, pos: number }
+  - { target: onze, native: { nl: elf, en: "eleven" }, pos: number }
+  - { target: douze, native: { nl: twaalf, en: "twelve" }, pos: number }
+  - { target: treize, native: { nl: dertien, en: "thirteen" }, pos: number }
+  - { target: quatorze, native: { nl: veertien, en: "fourteen" }, pos: number }
+  - { target: quinze, native: { nl: vijftien, en: "fifteen" }, pos: number }
+  - { target: seize, native: { nl: zestien, en: "sixteen" }, pos: number }
+  - { target: dix-sept, native: { nl: zeventien, en: "seventeen" }, pos: number }
+  - { target: dix-huit, native: { nl: achttien, en: "eighteen" }, pos: number }
+  - { target: dix-neuf, native: { nl: negentien, en: "nineteen" }, pos: number }
+  - { target: vingt, native: { nl: twintig, en: "twenty" }, pos: number }
+  - { target: le nombre, native: { nl: "het getal, het aantal", en: "number (in maths)" }, pos: noun, gender: m }
+  - { target: le numéro, native: { nl: het nummer, en: "house number, phone number, bus number" }, pos: noun, gender: m }
+  - { target: compter, native: { nl: tellen, en: "to count" }, pos: verb }
+  - { target: "l'âge", native: { nl: de leeftijd, en: "age" }, pos: noun, gender: m }
+  - { target: "l'an", native: { nl: het jaar, en: "year (of age)" }, pos: noun, gender: m }
+sentences:
+  - { id: s01, target: "J'ai un chat et deux chiens.", native: { nl: "Ik heb één kat en twee honden.", en: "I have one cat and two dogs." }, items: [fr.un] }
+  - { id: s02, target: "Zéro, un, deux, trois !", native: { nl: "Nul, één, twee, drie!", en: "Zero, one, two, three!" }, items: [fr.zero, fr.un, fr.deux, fr.trois] }
+  - { id: s03, target: "J'ai deux frères et trois sœurs.", native: { nl: "Ik heb twee broers en drie zussen.", en: "I have two brothers and three sisters." }, items: [fr.deux, fr.trois] }
+  - { id: s04, target: "Il y a quatre chaises.", native: { nl: "Er staan vier stoelen.", en: "There are four chairs." }, items: [fr.quatre] }
+  - { id: s05, target: "Ma sœur a cinq ans.", native: { nl: "Mijn zus is vijf jaar.", en: "My sister is five years old." }, items: [fr.cinq] }
+  - { id: s06, target: "Il y a six chats dans le jardin.", native: { nl: "Er zijn zes katten in de tuin.", en: "There are six cats in the garden." }, items: [fr.six] }
+  - { id: s07, target: "Mon frère a sept ans.", native: { nl: "Mijn broer is zeven jaar.", en: "My brother is seven years old." }, items: [fr.sept] }
+  - { id: s08, target: "Le bus arrive à huit heures.", native: { nl: "De bus komt om acht uur.", en: "The bus arrives at eight o'clock." }, items: [fr.huit] }
+  - { id: s09, target: "J'ai neuf ans.", native: { nl: "Ik ben negen jaar.", en: "I'm nine years old." }, items: [fr.neuf] }
+  - { id: s10, target: "Et toi, tu as dix ans ?", native: { nl: "En jij, ben je tien jaar?", en: "What about you? Are you ten?" }, items: [fr.dix] }
+  - { id: s11, target: "Il y a onze livres sur la table.", native: { nl: "Er liggen elf boeken op de tafel.", en: "There are eleven books on the table." }, items: [fr.onze] }
+  - { id: s12, target: "Douze, treize, quatorze !", native: { nl: "Twaalf, dertien, veertien!", en: "Twelve, thirteen, fourteen!" }, items: [fr.douze, fr.treize, fr.quatorze] }
+  - { id: s13, target: "Mon voisin a treize ans.", native: { nl: "Mijn buurjongen is dertien jaar.", en: "My neighbour is thirteen." }, items: [fr.treize] }
+  - { id: s14, target: "Ma grande sœur a quatorze ans.", native: { nl: "Mijn grote zus is veertien jaar.", en: "My older sister is fourteen." }, items: [fr.quatorze] }
+  - { id: s15, target: "Il y a quinze élèves dans la classe.", native: { nl: "Er zitten vijftien leerlingen in de klas.", en: "There are fifteen pupils in the class." }, items: [fr.quinze] }
+  - { id: s16, target: "Seize et un, ça fait dix-sept.", native: { nl: "Zestien en één is zeventien.", en: "Sixteen and one make seventeen." }, items: [fr.seize, fr.dix-sept] }
+  - { id: s17, target: "Le film commence à dix-sept heures.", native: { nl: "De film begint om 17.00 uur.", en: "The film starts at 17:00." }, items: [fr.dix-sept] }
+  - { id: s18, target: "Mon père arrive à dix-huit heures.", native: { nl: "Mijn vader komt om 18.00 uur thuis.", en: "My father gets home at 18:00." }, items: [fr.dix-huit] }
+  - { id: s19, target: "Dix-neuf, vingt : j'arrive !", native: { nl: "Negentien, twintig: ik kom eraan!", en: "Nineteen, twenty, here I come!" }, items: [fr.dix-neuf, fr.vingt] }
+  - { id: s20, target: "Il y a vingt crayons dans la boîte.", native: { nl: "Er zitten twintig potloden in de doos.", en: "There are twenty pencils in the box." }, items: [fr.vingt] }
+  - { id: s21, target: "Quel est ton nombre préféré ?", native: { nl: "Wat is jouw lievelingsgetal?", en: "What's your favourite number?" }, items: [fr.nombre] }
+  - { id: s22, target: "Le bus numéro douze arrive.", native: { nl: "Bus nummer twaalf komt eraan.", en: "The number twelve bus is coming." }, items: [fr.numero, fr.douze] }
+  - { id: s23, target: "Je compte jusqu'à vingt.", native: { nl: "Ik tel tot twintig.", en: "I'm counting to twenty." }, items: [fr.compter, fr.vingt] }
+  - { id: s24, target: "Tu as quel âge ?", native: { nl: "Hoe oud ben je?", en: "How old are you?" }, items: [fr.age] }
+  - { id: s25, target: "J'ai huit ans.", native: { nl: "Ik ben acht jaar.", en: "I'm eight years old." }, items: [fr.huit, fr.an] }
+  - { id: s26, target: "Mon chat a deux ans.", native: { nl: "Mijn kat is twee jaar.", en: "My cat is two years old." }, items: [fr.an] }
+lessons:
+  - { id: l01, title: { nl: "Een, twee, drie", en: "One, two, three" }, vocab: [fr.zero, fr.un, fr.deux, fr.trois, fr.quatre, fr.cinq] }
+  - { id: l02, title: { nl: Zes tot tien, en: "Six to ten" }, vocab: [fr.six, fr.sept, fr.huit, fr.neuf, fr.dix, fr.an] }
+  - { id: l03, title: { nl: Elf tot vijftien, en: "Eleven to fifteen" }, vocab: [fr.onze, fr.douze, fr.treize, fr.quatorze, fr.quinze, fr.age] }
+  - { id: l04, title: { nl: Tot twintig, en: "Up to twenty" }, vocab: [fr.seize, fr.dix-sept, fr.dix-huit, fr.dix-neuf, fr.vingt, fr.nombre, fr.numero, fr.compter] }

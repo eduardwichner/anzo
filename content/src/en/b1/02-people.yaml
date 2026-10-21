@@ -1,0 +1,127 @@
+id: en-b1-u02
+title: { nl: "Mensen: uiterlijk en karakter" }
+icon: people
+topic: Describing people's appearance and character; adjective order, as … as, look like / be like
+vocabulary:
+  - { target: appearance, native: { nl: uiterlijk }, pos: noun }
+  - { target: describe, native: { nl: beschrijven }, pos: verb }
+  - { target: description, native: { nl: beschrijving }, pos: noun }
+  - { target: character, native: { nl: karakter }, pos: noun }
+  - { target: personal, native: { nl: persoonlijk }, pos: adjective }
+  - { target: recognise, native: { nl: herkennen }, pos: verb }
+  - { target: alike, native: { nl: "op elkaar lijkend, hetzelfde" }, pos: adverb }
+  - { target: figure, native: { nl: "figuur, gestalte" }, pos: noun }
+  - { target: attractive, native: { nl: aantrekkelijk }, pos: adjective }
+  - { target: good-looking, native: { nl: "knap, er goed uitziend" }, pos: adjective, avoid: [en.attractive] }
+  - { target: handsome, native: { nl: "knap, mooi (van een man)" }, pos: adjective, avoid: [en.attractive] }
+  - { target: gorgeous, native: { nl: "prachtig, beeldschoon" }, pos: adjective }
+  - { target: cute, native: { nl: "schattig, lief" }, pos: adjective }
+  - { target: beauty, native: { nl: schoonheid }, pos: noun }
+  - { target: slim, native: { nl: slank }, pos: adjective }
+  - { target: tiny, native: { nl: piepklein }, pos: adjective }
+  - { target: bald, native: { nl: kaal }, pos: adjective }
+  - { target: pale, native: { nl: "bleek, licht (van kleur)" }, pos: adjective }
+  - { target: golden, native: { nl: "goudkleurig, gouden" }, pos: adjective }
+  - { target: colourful, native: { nl: kleurrijk }, pos: adjective }
+  - { target: plain, native: { nl: "effen, eenvoudig" }, pos: adjective }
+  - { target: smart, native: { nl: "netjes, chic (gekleed)" }, pos: adjective }
+  - { target: blind, native: { nl: blind }, pos: adjective, avoid: [en.deaf] }
+  - { target: deaf, native: { nl: doof }, pos: adjective }
+  - { target: adult, native: { nl: volwassene }, pos: noun }
+  - { target: teenager, native: { nl: tiener }, pos: noun }
+  - { target: youth, native: { nl: jeugd }, pos: noun }
+  - { target: aged, native: { nl: "van … jaar oud" }, pos: adjective }
+  - { target: middle-aged, native: { nl: van middelbare leeftijd }, pos: adjective }
+  - { target: elderly, native: { nl: "bejaard, oud" }, pos: adjective }
+  - { target: lady, native: { nl: dame }, pos: noun }
+  - { target: female, native: { nl: vrouwelijk }, pos: adjective, avoid: [en.male] }
+  - { target: male, native: { nl: mannelijk }, pos: adjective }
+  - { target: honest, native: { nl: eerlijk }, pos: adjective }
+  - { target: polite, native: { nl: beleefd }, pos: adjective, avoid: [en.rude] }
+  - { target: rude, native: { nl: onbeleefd }, pos: adjective }
+  - { target: generous, native: { nl: gul }, pos: adjective, avoid: [en.selfish] }
+  - { target: selfish, native: { nl: egoïstisch }, pos: adjective }
+  - { target: gentle, native: { nl: zachtaardig }, pos: adjective }
+  - { target: cruel, native: { nl: wreed }, pos: adjective }
+  - { target: shy, native: { nl: verlegen }, pos: adjective }
+  - { target: bold, native: { nl: "moedig, gedurfd" }, pos: adjective }
+  - { target: sociable, native: { nl: "graag onder de mensen, gezellig" }, pos: adjective }
+  - { target: easygoing, native: { nl: makkelijk in de omgang }, pos: adjective }
+  - { target: bossy, native: { nl: bazig }, pos: adjective }
+  - { target: charming, native: { nl: charmant }, pos: adjective }
+  - { target: reliable, native: { nl: betrouwbaar }, pos: adjective }
+  - { target: sensible, native: { nl: verstandig }, pos: adjective, avoid: [en.wise] }
+  - { target: wise, native: { nl: wijs }, pos: adjective }
+  - { target: intelligent, native: { nl: intelligent }, pos: adjective }
+  - { target: bright, native: { nl: "pienter, slim" }, pos: adjective, avoid: [en.intelligent] }
+  - { target: stupid, native: { nl: dom }, pos: adjective }
+  - { target: fool, native: { nl: "dwaas, sukkel" }, pos: noun }
+  - { target: careless, native: { nl: slordig }, pos: adjective }
+  - { target: serious, native: { nl: serieus }, pos: adjective }
+  - { target: curious, native: { nl: nieuwsgierig }, pos: adjective }
+  - { target: curiously, native: { nl: nieuwsgierig (bijwoord) }, pos: adverb }
+  - { target: admire, native: { nl: bewonderen }, pos: verb }
+sentences:
+  - { id: s01, target: "Her appearance has changed a lot since last year.", native: { nl: "Haar uiterlijk is sinds vorig jaar erg veranderd." }, items: [en.appearance] }
+  - { id: s02, target: "Can you describe the man you saw?", native: { nl: "Kun je de man beschrijven die je hebt gezien?" }, items: [en.describe] }
+  - { id: s03, target: "The police asked for a description of the thief.", native: { nl: "De politie vroeg om een beschrijving van de dief." }, items: [en.description] }
+  - { id: s04, target: "My sister has a strong character.", native: { nl: "Mijn zus heeft een sterk karakter." }, items: [en.character] }
+  - { id: s05, target: "Can I ask you a personal question?", native: { nl: "Mag ik je een persoonlijke vraag stellen?" }, items: [en.personal] }
+  - { id: s06, target: "I didn't recognise you with your new glasses!", native: { nl: "Ik herkende je niet met je nieuwe bril!" }, items: [en.recognise] }
+  - { id: s07, target: "The twins look alike, but they don't think alike.", native: { nl: "De tweeling lijkt uiterlijk op elkaar, maar ze denken niet hetzelfde." }, items: [en.alike] }
+  - { id: s08, target: "I saw a tall figure at the end of the street.", native: { nl: "Ik zag een lange gestalte aan het eind van de straat." }, items: [en.figure] }
+  - { id: s09, target: "She has an attractive smile.", native: { nl: "Ze heeft een aantrekkelijke glimlach." }, items: [en.attractive] }
+  - { id: s10, target: "He's good-looking, but he isn't very friendly.", native: { nl: "Hij is knap, maar hij is niet erg vriendelijk." }, items: [en.good-looking] }
+  - { id: s11, target: "The prince in the film is tall and handsome.", native: { nl: "De prins in de film is lang en knap." }, items: [en.handsome] }
+  - { id: s12, target: "What a gorgeous dress!", native: { nl: "Wat een prachtige jurk!" }, items: [en.gorgeous] }
+  - { id: s13, target: "Look at that cute little puppy!", native: { nl: "Kijk eens naar dat schattige puppy'tje!" }, items: [en.cute] }
+  - { id: s14, target: "People come from all over the world to see the beauty of this island.", native: { nl: "Mensen komen van over de hele wereld om de schoonheid van dit eiland te zien." }, items: [en.beauty] }
+  - { id: s15, target: "My aunt is tall and slim with curly hair.", native: { nl: "Mijn tante is lang en slank met krullend haar." }, items: [en.slim] }
+  - { id: s16, target: "The baby has tiny hands.", native: { nl: "De baby heeft piepkleine handjes." }, items: [en.tiny] }
+  - { id: s17, target: "My grandfather went bald when he was forty.", native: { nl: "Mijn opa werd kaal toen hij veertig was." }, items: [en.bald], finite: { word: went, hint: { nl: "go (verleden tijd)" } } }
+  - { id: s18, target: "You look pale. Are you feeling all right?", native: { nl: "Je ziet bleek. Voel je je wel goed?" }, items: [en.pale] }
+  - { id: s19, target: "She has long golden hair.", native: { nl: "Ze heeft lang goudkleurig haar." }, items: [en.golden] }
+  - { id: s20, target: "He always wears colourful shirts.", native: { nl: "Hij draagt altijd kleurrijke overhemden." }, items: [en.colourful] }
+  - { id: s21, target: "I prefer plain T-shirts without pictures.", native: { nl: "Ik heb liever effen T-shirts zonder opdruk." }, items: [en.plain] }
+  - { id: s22, target: "You look very smart in that jacket.", native: { nl: "Je ziet er heel netjes uit in dat jasje." }, items: [en.smart] }
+  - { id: s23, target: "Her dog helps her because she is blind.", native: { nl: "Haar hond helpt haar omdat ze blind is." }, items: [en.blind] }
+  - { id: s24, target: "My grandmother is a bit deaf, so please speak loudly.", native: { nl: "Mijn oma is een beetje doof, dus praat alsjeblieft wat harder." }, items: [en.deaf] }
+  - { id: s25, target: "Tickets cost five pounds for adults and two pounds for children.", native: { nl: "Kaartjes kosten vijf pond voor volwassenen en twee pond voor kinderen." }, items: [en.adult] }
+  - { id: s26, target: "When I was a teenager, I wanted to be a singer.", native: { nl: "Toen ik een tiener was, wilde ik zangeres worden." }, items: [en.teenager], finite: { word: wanted, hint: { nl: "want (verleden tijd)" } } }
+  - { id: s27, target: "My grandparents met in their youth.", native: { nl: "Mijn grootouders hebben elkaar in hun jeugd ontmoet." }, items: [en.youth] }
+  - { id: s28, target: "The club is for children aged eight to twelve.", native: { nl: "De club is voor kinderen van acht tot twaalf jaar." }, items: [en.aged] }
+  - { id: s29, target: "A middle-aged woman was waiting at the bus stop.", native: { nl: "Een vrouw van middelbare leeftijd stond bij de bushalte te wachten." }, items: [en.middle-aged] }
+  - { id: s30, target: "We help an elderly neighbour with her shopping.", native: { nl: "We helpen een oudere buurvrouw met haar boodschappen." }, items: [en.elderly] }
+  - { id: s31, target: "A lady in a red coat asked me the way.", native: { nl: "Een dame in een rode jas vroeg me de weg." }, items: [en.lady], finite: { word: asked, hint: { nl: "ask (verleden tijd)" } } }
+  - { id: s32, target: "Are male and female birds the same colour?", native: { nl: "Hebben mannetjes- en vrouwtjesvogels dezelfde kleur?" }, items: [en.male, en.female] }
+  - { id: s33, target: "Please be honest with me.", native: { nl: "Wees alsjeblieft eerlijk tegen me." }, items: [en.honest] }
+  - { id: s34, target: "It's polite to say thank you.", native: { nl: "Het is beleefd om dank je wel te zeggen." }, items: [en.polite] }
+  - { id: s35, target: "Don't be rude to your sister!", native: { nl: "Doe niet zo onbeleefd tegen je zus!" }, items: [en.rude] }
+  - { id: s36, target: "My uncle is very generous: he always buys us presents.", native: { nl: "Mijn oom is heel gul: hij koopt altijd cadeaus voor ons." }, items: [en.generous] }
+  - { id: s37, target: "It was selfish of him to eat all the cake.", native: { nl: "Het was egoïstisch van hem om alle taart op te eten." }, items: [en.selfish] }
+  - { id: s38, target: "Our dog is big but very gentle with children.", native: { nl: "Onze hond is groot maar heel zachtaardig met kinderen." }, items: [en.gentle] }
+  - { id: s39, target: "It's cruel to keep a bird in such a small cage.", native: { nl: "Het is wreed om een vogel in zo'n kleine kooi te houden." }, items: [en.cruel] }
+  - { id: s40, target: "He was too shy to speak in front of the class.", native: { nl: "Hij was te verlegen om voor de klas te spreken." }, items: [en.shy] }
+  - { id: s41, target: "It was a bold idea, and it worked.", native: { nl: "Het was een gedurfd idee, en het werkte." }, items: [en.bold] }
+  - { id: s42, target: "She's very sociable and loves parties.", native: { nl: "Ze is graag onder de mensen en houdt van feestjes." }, items: [en.sociable] }
+  - { id: s43, target: "My dad is easygoing, but my mum is stricter.", native: { nl: "Mijn vader is makkelijk in de omgang, maar mijn moeder is strenger." }, items: [en.easygoing] }
+  - { id: s44, target: "Stop being so bossy! It's my turn.", native: { nl: "Doe niet zo bazig! Het is mijn beurt." }, items: [en.bossy] }
+  - { id: s45, target: "The hotel was in a charming old building.", native: { nl: "Het hotel zat in een charmant oud gebouw." }, items: [en.charming] }
+  - { id: s46, target: "She's a reliable friend: she never forgets a promise.", native: { nl: "Ze is een betrouwbare vriendin: ze vergeet nooit een belofte." }, items: [en.reliable] }
+  - { id: s47, target: "That's a sensible idea. Let's take an umbrella.", native: { nl: "Dat is een verstandig idee. Laten we een paraplu meenemen." }, items: [en.sensible] }
+  - { id: s48, target: "My grandmother is the wisest person I know.", native: { nl: "Mijn oma is de wijste persoon die ik ken." }, items: [en.wise] }
+  - { id: s49, target: "Dolphins are very intelligent animals.", native: { nl: "Dolfijnen zijn heel intelligente dieren." }, items: [en.intelligent] }
+  - { id: s50, target: "Maya is a bright student who learns quickly.", native: { nl: "Maya is een pientere leerling die snel leert." }, items: [en.bright] }
+  - { id: s51, target: "I felt stupid when I forgot my lines in the play.", native: { nl: "Ik voelde me dom toen ik mijn tekst vergat in het toneelstuk." }, items: [en.stupid], finite: { word: forgot, hint: { nl: "forget (verleden tijd)" } } }
+  - { id: s52, target: "Don't be a fool! You can't swim in that river.", native: { nl: "Doe niet zo dwaas! Je kunt niet in die rivier zwemmen." }, items: [en.fool] }
+  - { id: s53, target: "I made a careless mistake in the test.", native: { nl: "Ik heb een slordige fout gemaakt in de toets." }, items: [en.careless] }
+  - { id: s54, target: "He looks serious, but he's really very funny.", native: { nl: "Hij ziet er serieus uit, maar eigenlijk is hij heel grappig." }, items: [en.serious] }
+  - { id: s55, target: "Cats are curious animals.", native: { nl: "Katten zijn nieuwsgierige dieren." }, items: [en.curious] }
+  - { id: s56, target: "The little boy looked curiously at the robot.", native: { nl: "Het jongetje keek nieuwsgierig naar de robot." }, items: [en.curiously] }
+  - { id: s57, target: "I really admire my brother for his courage.", native: { nl: "Ik bewonder mijn broer echt om zijn moed." }, items: [en.admire] }
+  - { id: s58, target: "My brother isn't as sociable as me.", native: { nl: "Mijn broer is niet zo graag onder de mensen als ik." }, items: [en.sociable] }
+  - { id: s59, target: "What is your best friend like? She's honest and generous.", native: { nl: "Hoe is je beste vriendin? Ze is eerlijk en gul." }, items: [en.honest, en.generous] }
+  - { id: s60, target: "She looks like her mother, but her character is more like her father's.", native: { nl: "Ze lijkt uiterlijk op haar moeder, maar haar karakter lijkt meer op dat van haar vader." }, items: [en.character] }
+  - { id: s61, target: "My sister is as slim as my mum.", native: { nl: "Mijn zus is even slank als mijn moeder." }, items: [en.slim], build: true }
+  - { id: s62, target: "He isn't as shy as his brother.", native: { nl: "Hij is niet zo verlegen als zijn broer." }, items: [en.shy] }
+texts: [en-b1-t03]

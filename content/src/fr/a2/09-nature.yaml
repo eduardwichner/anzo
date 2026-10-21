@@ -1,0 +1,33 @@
+id: fr-a2-u09
+title: { nl: In de natuur, en: "In nature" }
+icon: nature
+topic: La nature; les paysages
+vocabulary:
+  - { target: la nature, native: { nl: de natuur, en: "nature" }, pos: noun, gender: f }
+  - { target: "l'île", native: { nl: het eiland, en: "island" }, pos: noun, gender: f }
+  - { target: la colline, native: { nl: de heuvel, en: "hill" }, pos: noun, gender: f }
+  - { target: "l'océan", native: { nl: de oceaan, en: "ocean" }, pos: noun, gender: m }
+  - { target: la vague, native: { nl: de golf (in het water), en: "wave" }, pos: noun, gender: f }
+  - { target: le désert, native: { nl: de woestijn, en: "desert" }, pos: noun, gender: m }
+  - { target: la grotte, native: { nl: de grot, en: "cave" }, pos: noun, gender: f }
+  - { target: le volcan, native: { nl: de vulkaan, en: "volcano" }, pos: noun, gender: m }
+  - { target: le rocher, native: { nl: de rots, en: "rock" }, pos: noun, gender: m }
+  - { target: la pierre, native: { nl: de steen, en: "stone" }, pos: noun, gender: f, avoid: [fr.rocher] }
+  - { target: le bois, native: { nl: "het hout, het bos", en: "wood, woods" }, pos: noun, gender: m }
+  - { target: grimper, native: { nl: klimmen, en: "to climb" }, pos: verb }
+sentences:
+  - { id: s01, target: "J'aime me promener dans la nature.", native: { nl: "Ik wandel graag in de natuur.", en: "I like walking in nature." }, items: [fr.nature] }
+  - { id: s02, target: "Nous avons passé une semaine sur une île.", native: { nl: "We hebben een week op een eiland doorgebracht.", en: "We spent a week on an island." }, items: [fr.ile] }
+  - { id: s03, target: "Le village est derrière la colline.", native: { nl: "Het dorp ligt achter de heuvel.", en: "The village is behind the hill." }, items: [fr.colline] }
+  - { id: s04, target: "La baleine nage dans l'océan.", native: { nl: "De walvis zwemt in de oceaan.", en: "The whale is swimming in the ocean." }, items: [fr.ocean] }
+  - { id: s05, target: "Les vagues sont très hautes aujourd'hui.", native: { nl: "De golven zijn vandaag heel hoog.", en: "The waves are very high today." }, items: [fr.vague] }
+  - { id: s06, target: "Il fait très chaud dans le désert.", native: { nl: "Het is heel heet in de woestijn.", en: "It's very hot in the desert." }, items: [fr.desert] }
+  - { id: s07, target: "Nous avons visité une grotte sombre.", native: { nl: "We hebben een donkere grot bezocht.", en: "We visited a dark cave." }, items: [fr.grotte] }
+  - { id: s08, target: "Le volcan est très haut.", native: { nl: "De vulkaan is heel hoog.", en: "The volcano is very high." }, items: [fr.volcan] }
+  - { id: s09, target: "Elle est assise sur un rocher.", native: { nl: "Ze zit op een rots.", en: "She's sitting on a rock." }, items: [fr.rocher] }
+  - { id: s10, target: "La maison est en pierre.", native: { nl: "Het huis is van steen.", en: "The house is made of stone." }, items: [fr.pierre] }
+  - { id: s11, target: "La table est en bois.", native: { nl: "De tafel is van hout.", en: "The table is made of wood." }, items: [fr.bois] }
+  - { id: s12, target: "Les enfants grimpent sur le rocher.", native: { nl: "De kinderen klimmen op de rots.", en: "The children are climbing on the rock." }, items: [fr.grimper, fr.rocher] }
+lessons:
+  - { id: l01, title: { nl: Eiland en zee, en: "Island and ocean" }, vocab: [fr.nature, fr.ile, fr.colline, fr.ocean, fr.vague, fr.desert] }
+  - { id: l02, title: { nl: Rots en steen, en: "Rock and stone" }, vocab: [fr.grotte, fr.volcan, fr.rocher, fr.pierre, fr.bois, fr.grimper] }

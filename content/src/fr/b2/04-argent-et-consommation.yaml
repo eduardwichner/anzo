@@ -1,0 +1,66 @@
+id: fr-b2-u04
+title: { nl: Geld en consumptie, en: "Money and spending" }
+icon: money
+topic: Le budget, l'épargne et les dettes, les achats et la publicité, la richesse et la pauvreté ; exprimer la cause (à cause de, grâce à, puisque, étant donné que, faute de, en raison de)
+vocabulary:
+  - { target: le budget, native: { nl: het budget, en: "budget" }, pos: noun, gender: m, noBlank: true }
+  - { target: abordable, native: { nl: betaalbaar, en: "affordable" }, pos: adjective }
+  - { target: la dépense, native: { nl: "de uitgave", en: "expense, spending" }, pos: noun, gender: f }
+  - { target: la dette, native: { nl: "de schuld (geld)", en: "debt" }, pos: noun, gender: f, avoid: [fr.faute] }
+  - { target: l'épargne, native: { nl: "het sparen, het spaargeld", en: "savings, saving" }, pos: noun, gender: f }
+  - { target: les économies, native: { nl: "het spaargeld", en: "savings" }, pos: noun, gender: f, avoid: [fr.epargne] }
+  - { target: l'achat, native: { nl: de aankoop, en: "purchase" }, pos: noun, gender: m }
+  - { target: impulsif, native: { nl: impulsief, en: "impulsive" }, pos: adjective }
+  - { target: le paiement, native: { nl: de betaling, en: "payment" }, pos: noun, gender: m }
+  - { target: sans contact, native: { nl: contactloos, en: "contactless" }, pos: adjective }
+  - { target: l'argent de poche, native: { nl: het zakgeld, en: "pocket money" }, pos: noun, gender: m }
+  - { target: le coût de la vie, native: { nl: "de kosten van levensonderhoud", en: "cost of living" }, pos: noun, gender: m }
+  - { target: le luxe, native: { nl: de luxe, en: "luxury" }, pos: noun, gender: m, noBlank: true }
+  - { target: la richesse, native: { nl: de rijkdom, en: "wealth, riches" }, pos: noun, gender: f }
+  - { target: la pauvreté, native: { nl: de armoede, en: "poverty" }, pos: noun, gender: f }
+  - { target: investir, native: { nl: investeren, en: "to invest" }, pos: verb }
+  - { target: l'investissement, native: { nl: de investering, en: "investment" }, pos: noun, gender: m }
+  - { target: le bénéfice, native: { nl: de winst, en: "profit" }, pos: noun, gender: m }
+  - { target: l'abonnement, native: { nl: het abonnement, en: "subscription" }, pos: noun, gender: m, noBlank: true }
+  - { target: la tentation, native: { nl: de verleiding, en: "temptation" }, pos: noun, gender: f }
+  - { target: l'enquête, native: { nl: "de enquête, het onderzoek", en: "survey, investigation" }, pos: noun, gender: f }
+  - { target: la facture, native: { nl: "de factuur, de rekening", en: "bill, invoice" }, pos: noun, gender: f }
+  - { target: épargner, native: { nl: sparen, en: "to save (money)" }, pos: verb }
+  - { target: à cause de, native: { nl: "door, vanwege (iets negatiefs)", en: "because of" }, pos: preposition, avoid: [fr.en-raison-de], noBlank: true }
+  - { target: étant donné que, native: { nl: "aangezien", en: "given that, since" }, pos: conjunction }
+  - { target: faute de, native: { nl: "bij gebrek aan", en: "for lack of" }, pos: preposition }
+  - { target: en raison de, native: { nl: "wegens (formeel)", en: "due to, owing to" }, pos: preposition, avoid: [fr.a-cause-de], noBlank: true }
+sentences:
+  - { id: s01, target: "Nous avons un budget de 200 euros par mois pour manger.", native: { nl: "We hebben een budget van 200 euro per maand om te eten.", en: "We have a budget of 200 euros a month for food." }, items: [fr.budget] }
+  - { id: s02, target: "Il est difficile de trouver un appartement abordable en ville.", native: { nl: "Het is moeilijk om in de stad een betaalbaar appartement te vinden.", en: "It's difficult to find an affordable flat in town." }, items: [fr.abordable] }
+  - { id: s03, target: "Le loyer est la plus grande dépense des étudiants.", native: { nl: "De huur is de grootste uitgave van studenten.", en: "Rent is students' biggest expense." }, items: [fr.depense], form: { word: dépense, stem: dépenser } }
+  - { id: s04, target: "Il a encore des dettes à cause de ses achats impulsifs.", native: { nl: "Hij heeft nog schulden door zijn impulsieve aankopen.", en: "He still has debts because of his impulsive purchases." }, items: [fr.dette, fr.a-cause-de] }
+  - { id: s05, target: "L'épargne des familles a augmenté cette année.", native: { nl: "Het spaargeld van de gezinnen is dit jaar gestegen.", en: "Family savings have risen this year." }, items: [fr.epargne] }
+  - { id: s06, target: "Elle a utilisé toutes ses économies pour acheter une voiture.", native: { nl: "Ze heeft al haar spaargeld gebruikt om een auto te kopen.", en: "She used all her savings to buy a car." }, items: [fr.economies] }
+  - { id: s07, target: "Garde le ticket si tu veux rendre ton achat.", native: { nl: "Bewaar het kasticket als je je aankoop wilt terugbrengen.", en: "Keep the receipt if you want to return your purchase." }, items: [fr.achat] }
+  - { id: s08, target: "J'ai fait un achat impulsif et maintenant je le regrette.", native: { nl: "Ik deed een impulsieve aankoop en nu heb ik er spijt van.", en: "I made an impulsive purchase and now I regret it." }, items: [fr.impulsif] }
+  - { id: s09, target: "Le paiement se fait en trois fois.", native: { nl: "De betaling gebeurt in drie keer.", en: "Payment is made in three instalments." }, items: [fr.paiement] }
+  - { id: s10, target: "Avec le paiement sans contact, on voit à peine ses dépenses.", native: { nl: "Met contactloos betalen zie je je uitgaven nauwelijks.", en: "With contactless payment, you hardly see your spending." }, items: [fr.sans-contact] }
+  - { id: s11, target: "Ses parents lui donnent un peu d'argent de poche chaque semaine.", native: { nl: "Haar ouders geven haar elke week een beetje zakgeld.", en: "Her parents give her a little pocket money every week." }, items: [fr.argent-de-poche] }
+  - { id: s12, target: "Le coût de la vie a beaucoup augmenté cette année.", native: { nl: "De kosten van levensonderhoud zijn dit jaar sterk gestegen.", en: "The cost of living has risen sharply this year." }, items: [fr.cout-de-la-vie] }
+  - { id: s13, target: "Pour beaucoup de familles, une voiture n'est pas un luxe.", native: { nl: "Voor veel gezinnen is een auto geen luxe.", en: "For many families, a car isn't a luxury." }, items: [fr.luxe] }
+  - { id: s14, target: "La richesse ne rend pas toujours heureux.", native: { nl: "Rijkdom maakt niet altijd gelukkig.", en: "Wealth doesn't always make you happy." }, items: [fr.richesse], form: { word: richesse, stem: riche } }
+  - { id: s15, target: "Des millions d'enfants vivent dans la pauvreté.", native: { nl: "Miljoenen kinderen leven in armoede.", en: "Millions of children live in poverty." }, items: [fr.pauvrete] }
+  - { id: s16, target: "Ma tante a investi son argent dans une petite entreprise.", native: { nl: "Mijn tante heeft haar geld in een klein bedrijf geïnvesteerd.", en: "My aunt has invested her money in a small business." }, items: [fr.investir] }
+  - { id: s17, target: "Une bonne formation est le meilleur investissement.", native: { nl: "Een goede opleiding is de beste investering.", en: "A good education is the best investment." }, items: [fr.investissement] }
+  - { id: s18, target: "Le magasin a fait des bénéfices pour la première fois.", native: { nl: "De winkel heeft voor het eerst winst gemaakt.", en: "The shop has made a profit for the first time." }, items: [fr.benefice] }
+  - { id: s19, target: "J'ai annulé mon abonnement parce que je ne l'utilisais jamais.", native: { nl: "Ik heb mijn abonnement opgezegd omdat ik het nooit gebruikte.", en: "I cancelled my subscription because I never used it." }, items: [fr.abonnement] }
+  - { id: s20, target: "Les soldes sont une grande tentation.", native: { nl: "De solden zijn een grote verleiding.", en: "The sales are a big temptation." }, items: [fr.tentation] }
+  - { id: s21, target: "Selon une enquête, la plupart des jeunes épargnent.", native: { nl: "Volgens een enquête sparen de meeste jongeren.", en: "According to a survey, most young people save." }, items: [fr.enquete] }
+  - { id: s22, target: "La facture de téléphone est arrivée ce matin.", native: { nl: "De telefoonrekening is vanochtend aangekomen.", en: "The phone bill arrived this morning." }, items: [fr.facture] }
+  - { id: s28, target: "Elle épargne un peu chaque mois pour ses études.", native: { nl: "Ze spaart elke maand een beetje voor haar studie.", en: "She saves a little every month for her studies." }, items: [fr.epargner] }
+  - { id: s23, target: "Étant donné que les prix augmentent, nous dépensons moins.", native: { nl: "Aangezien de prijzen stijgen, geven we minder uit.", en: "Given that prices are rising, we're spending less." }, items: [fr.etant-donne-que], build: true, acceptAlso: ["Nous dépensons moins, étant donné que les prix augmentent."] }
+  - { id: s24, target: "Faute d'argent, il n'a pas pu partir en vacances.", native: { nl: "Bij gebrek aan geld kon hij niet op vakantie gaan.", en: "For lack of money, he couldn't go on holiday." }, items: [fr.faute-de], build: true, acceptAlso: ["Il n'a pas pu partir en vacances faute d'argent.", "Il n'a pas pu partir en vacances, faute d'argent."] }
+  - { id: s25, target: "Le magasin est fermé en raison de travaux.", native: { nl: "De winkel is gesloten wegens werken.", en: "The shop is closed due to building work." }, items: [fr.en-raison-de] }
+  - { id: s26, target: "Grâce à ses économies, elle a pu acheter un vélo.", native: { nl: "Dankzij haar spaargeld kon ze een fiets kopen.", en: "Thanks to her savings, she was able to buy a bike." }, items: [fr.economies], build: true, acceptAlso: ["Elle a pu acheter un vélo grâce à ses économies."] }
+  - { id: s27, target: "Elle investit une partie de son salaire chaque mois.", native: { nl: "Ze investeert elke maand een deel van haar loon.", en: "She invests part of her salary every month." }, items: [fr.investir], finite: { word: investit, hint: { nl: "investir (présent)", en: "investir (present)" } } }
+transforms:
+  - { id: x01, from: "Comme il n'avait pas d'argent, il est resté à la maison.", key: faute, gapped: "___, il est resté à la maison.", answers: ["Faute d'argent"], items: [fr.faute-de], native: { en: "For lack of money, he stayed at home." } }
+  - { id: x02, from: "Les prix augmentent, donc nous dépensons moins.", key: étant, gapped: "___ augmentent, nous dépensons moins.", answers: ["Étant donné que les prix"], items: [fr.etant-donne-que], native: { en: "Given that prices are rising, we're spending less." } }
+  - { id: x03, from: "Le musée est fermé parce qu'il y a des travaux.", key: raison, gapped: "Le musée est fermé ___ travaux.", answers: ["en raison de", "en raison des"], items: [fr.en-raison-de], native: { en: "The museum is closed due to building work." } }
+texts: [fr-b2-t04]

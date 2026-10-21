@@ -1,0 +1,55 @@
+id: fr-a1-1-u13
+title: { nl: Uitjes en feestjes, en: "Outings and parties" }
+icon: party
+topic: Les sorties; la fête et l'anniversaire; les transports
+vocabulary:
+  - { target: le parc, native: { nl: het park, en: "park" }, pos: noun, gender: m }
+  - { target: la plage, native: { nl: het strand, en: "beach" }, pos: noun, gender: f }
+  - { target: la mer, native: { nl: de zee, en: "sea" }, pos: noun, gender: f }
+  - { target: la montagne, native: { nl: "de berg, de bergen", en: "mountain, the mountains" }, pos: noun, gender: f }
+  - { target: le soleil, native: { nl: de zon, en: "sun" }, pos: noun, gender: m }
+  - { target: "l'arbre", native: { nl: de boom, en: "tree" }, pos: noun, gender: m }
+  - { target: la fleur, native: { nl: de bloem, en: "flower" }, pos: noun, gender: f }
+  - { target: le village, native: { nl: het dorp, en: "village" }, pos: noun, gender: m }
+  - { target: le bus, native: { nl: de bus, en: "bus" }, pos: noun, gender: m }
+  - { target: le bateau, native: { nl: de boot, en: "boat" }, pos: noun, gender: m }
+  - { target: la voiture, native: { nl: de auto, en: "car" }, pos: noun, gender: f }
+  - { target: le cinéma, native: { nl: de bioscoop, en: "cinema" }, pos: noun, gender: m }
+  - { target: le film, native: { nl: de film, en: "film" }, pos: noun, gender: m }
+  - { target: le dessin animé, native: { nl: de tekenfilm, en: "cartoon" }, pos: noun, gender: m }
+  - { target: la télévision, native: { nl: de televisie, en: "television" }, pos: noun, gender: f }
+  - { target: le concert, native: { nl: het concert, en: "concert" }, pos: noun, gender: m }
+  - { target: les vacances, native: { nl: de vakantie, en: "holidays, holiday" }, pos: noun, gender: f }
+  - { target: la fête, native: { nl: het feest, en: "party" }, pos: noun, gender: f }
+  - { target: "l'anniversaire", native: { nl: de verjaardag, en: "birthday" }, pos: noun, gender: m }
+  - { target: "l'invitation", native: { nl: de uitnodiging, en: "invitation" }, pos: noun, gender: f }
+  - { target: inviter, native: { nl: uitnodigen, en: "to invite" }, pos: verb }
+  - { target: la carte, native: { nl: de kaart, en: "card, map" }, pos: noun, gender: f }
+sentences:
+  - { id: s01, target: "Le parc est loin de la maison.", native: { nl: "Het park is ver van huis.", en: "The park is a long way from home." }, items: [fr.parc] }
+  - { id: s02, target: "J'adore jouer sur la plage.", native: { nl: "Ik speel heel graag op het strand.", en: "I love playing on the beach." }, items: [fr.plage] }
+  - { id: s03, target: "Je préfère la mer.", native: { nl: "Ik hou meer van de zee.", en: "I prefer the sea." }, items: [fr.mer] }
+  - { id: s04, target: "Tu aimes aller à la montagne ?", native: { nl: "Ga jij graag naar de bergen?", en: "Do you like going to the mountains?" }, items: [fr.montagne] }
+  - { id: s05, target: "Il y a du soleil.", native: { nl: "De zon schijnt.", en: "It's sunny." }, items: [fr.soleil] }
+  - { id: s06, target: "Il y a un grand arbre dans le jardin.", native: { nl: "Er staat een grote boom in de tuin.", en: "There's a big tree in the garden." }, items: [fr.arbre] }
+  - { id: s07, target: "Elle adore les fleurs.", native: { nl: "Ze is gek op bloemen.", en: "She loves flowers." }, items: [fr.fleur] }
+  - { id: s08, target: "J'habite dans un petit village.", native: { nl: "Ik woon in een klein dorp.", en: "I live in a small village." }, items: [fr.village] }
+  - { id: s09, target: "Le bus est jaune.", native: { nl: "De bus is geel.", en: "The bus is yellow." }, items: [fr.bus] }
+  - { id: s10, target: "Nous faisons du bateau sur la mer.", native: { nl: "We varen met een boot op zee.", en: "We go out in a boat on the sea." }, items: [fr.bateau] }
+  - { id: s11, target: "La voiture de papa est grise.", native: { nl: "De auto van papa is grijs.", en: "Dad's car is grey." }, items: [fr.voiture] }
+  - { id: s12, target: "Tu aimes aller au cinéma ?", native: { nl: "Ga jij graag naar de bioscoop?", en: "Do you like going to the cinema?" }, items: [fr.cinema] }
+  - { id: s13, target: "Quel est ton film préféré ?", native: { nl: "Wat is jouw lievelingsfilm?", en: "What's your favourite film?" }, items: [fr.film] }
+  - { id: s14, target: "Je regarde un dessin animé.", native: { nl: "Ik kijk naar een tekenfilm.", en: "I'm watching a cartoon." }, items: [fr.dessin-anime] }
+  - { id: s15, target: "Je regarde la télévision.", native: { nl: "Ik kijk televisie.", en: "I'm watching television." }, items: [fr.television] }
+  - { id: s16, target: "Samedi, il y a un concert au parc.", native: { nl: "Zaterdag is er een concert in het park.", en: "On Saturday there's a concert in the park." }, items: [fr.concert] }
+  - { id: s17, target: "Je suis en vacances chez mon grand-père.", native: { nl: "Ik ben op vakantie bij mijn opa.", en: "I'm on holiday at my grandfather's." }, items: [fr.vacances] }
+  - { id: s18, target: "Je t'invite à ma fête !", native: { nl: "Ik nodig je uit voor mijn feest!", en: "I'm inviting you to my party!" }, items: [fr.fete, fr.inviter] }
+  - { id: s19, target: "Samedi, c'est mon anniversaire.", native: { nl: "Zaterdag is het mijn verjaardag.", en: "It's my birthday on Saturday." }, items: [fr.anniversaire] }
+  - { id: s20, target: "C'est une invitation pour samedi.", native: { nl: "Dit is een uitnodiging voor zaterdag.", en: "It's an invitation for Saturday." }, items: [fr.invitation] }
+  - { id: s21, target: "Tu invites ton amie Rose ?", native: { nl: "Nodig jij je vriendin Rose uit?", en: "Are you inviting your friend Rose?" }, items: [fr.inviter] }
+  - { id: s22, target: "J'écris une carte pour l'anniversaire de Rose.", native: { nl: "Ik schrijf een kaart voor de verjaardag van Rose.", en: "I'm writing a card for Rose's birthday." }, items: [fr.carte] }
+lessons:
+  - { id: l01, title: { nl: Naar buiten, en: "Out and about" }, vocab: [fr.parc, fr.plage, fr.mer, fr.montagne, fr.soleil, fr.arbre, fr.fleur] }
+  - { id: l02, title: { nl: Met de bus, en: "Getting around" }, vocab: [fr.village, fr.bus, fr.bateau, fr.voiture, fr.vacances] }
+  - { id: l03, title: { nl: Naar de film, en: "Going to the cinema" }, vocab: [fr.cinema, fr.film, fr.dessin-anime, fr.television, fr.concert] }
+  - { id: l04, title: { nl: Feest!, en: "Party!" }, vocab: [fr.fete, fr.anniversaire, fr.invitation, fr.inviter, fr.carte] }

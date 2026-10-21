@@ -1,0 +1,48 @@
+id: en-b2-t20
+kind: reading
+title: { nl: Een brief aan mijn toekomstige zelf }
+topic: Looking ahead (a letter written for a school project, to be opened in ten years)
+level: B2
+paragraphs:
+  - - { id: en-b2-t20-s01, target: "Dear me, by the time you read this letter, you will be twenty-six, and I hope you will have accomplished at least some of the things I dream about today.", native: { nl: "Beste ik, tegen de tijd dat je deze brief leest, ben je zesentwintig, en ik hoop dat je minstens een paar van de dingen waarvan ik vandaag droom, zult hebben bereikt." } }
+    - { id: en-b2-t20-s02, target: "Our teacher has asked us to write about our hopes for the future, so here they are.", native: { nl: "Onze leraar vroeg ons te schrijven over wat we van de toekomst hopen, dus hier komt het." } }
+  - - { id: en-b2-t20-s03, target: "Right now, everything feels uncertain.", native: { nl: "Op dit moment voelt alles onzeker." } }
+    - { id: en-b2-t20-s04, target: "Adults keep telling us that half the jobs we will do haven't been invented yet, which is exciting but also a little frightening.", native: { nl: "Volwassenen blijven ons vertellen dat de helft van de banen die we zullen doen nog niet bestaat, wat spannend maar ook een beetje beangstigend is." } }
+    - { id: en-b2-t20-s05, target: "I don't know if you are working as a vet, as I want to now, or doing something nobody could have foreseen.", native: { nl: "Ik weet niet of je als dierenarts werkt, zoals ik nu wil, of iets doet wat niemand had kunnen voorzien." } }
+  - - { id: en-b2-t20-s06, target: "Whatever you are doing, I hope some things have not changed.", native: { nl: "Wat je ook doet, ik hoop dat sommige dingen niet veranderd zijn." } }
+    - { id: en-b2-t20-s07, target: "I hope you are still curious, and that you still go swimming in the sea in October, even though it is freezing.", native: { nl: "Ik hoop dat je nog altijd nieuwsgierig bent, en dat je nog altijd in oktober in zee gaat zwemmen, ook al is het ijskoud." } }
+    - { id: en-b2-t20-s08, target: "I hope you have stayed friends with Ruby, because she has been there for me through everything.", native: { nl: "Ik hoop dat je bevriend bent gebleven met Ruby, want ze is er altijd voor me geweest." } }
+  - - { id: en-b2-t20-s09, target: "I also have a few worries about the planet.", native: { nl: "Ik maak me ook wat zorgen over de planeet." } }
+    - { id: en-b2-t20-s10, target: "I wish I could tell you that the climate is fine, but I am not very optimistic.", native: { nl: "Ik wou dat ik je kon vertellen dat het klimaat in orde is, maar ik ben niet erg optimistisch." } }
+    - { id: en-b2-t20-s11, target: "If we had acted earlier, the problem would be smaller now; still, I believe people can change when they really have to.", native: { nl: "Als we eerder hadden gehandeld, was het probleem nu kleiner; toch geloof ik dat mensen kunnen veranderen als het echt moet." } }
+  - - { id: en-b2-t20-s12, target: "Finally, a piece of advice from your younger self.", native: { nl: "Tot slot nog een raad van je jongere zelf." } }
+    - { id: en-b2-t20-s13, target: "Don't be too hard on yourself if things haven't gone to plan.", native: { nl: "Wees niet te streng voor jezelf als niet alles volgens plan is gegaan." } }
+    - { id: en-b2-t20-s14, target: "In the long run, what matters is not how many milestones you have reached, but whether you have been kind and kept learning.", native: { nl: "Op de lange duur gaat het er niet om hoeveel mijlpalen je hebt bereikt, maar of je vriendelijk bent geweest en bent blijven leren." } }
+    - { id: en-b2-t20-s15, target: "Love, me at sixteen.", native: { nl: "Liefs, ik op mijn zestiende." } }
+glossary:
+  - { word: self, native: { nl: "zelf (your younger self: je jongere ik)" } }
+items: [en.accomplish, en.uncertain, en.foresee, en.optimistic, en.in-the-long-run, en.milestone]
+gapped:
+  gaps: [en-b2-t20-s03, en-b2-t20-s06, en-b2-t20-s09, en-b2-t20-s12]
+  extra:
+    - { id: en-b2-t20-x1, target: "I have just moved to a new school in the city.", native: { nl: "Ik ben net naar een nieuwe school in de stad verhuisd." } }
+openCloze:
+  - { sentence: en-b2-t20-s01, word: by }
+  - { sentence: en-b2-t20-s05, word: if, acceptAlso: [whether] }
+  - { sentence: en-b2-t20-s07, word: though, acceptAlso: [if] }
+  - { sentence: en-b2-t20-s13, word: on }
+wordForm:
+  - { sentence: en-b2-t20-s02, word: teacher, stem: teach }
+  - { sentence: en-b2-t20-s03, word: uncertain, stem: certain }
+  - { sentence: en-b2-t20-s12, word: Finally, stem: final }
+questions:
+  - { id: en-b2-t20-q1, type: summary, options: ["A sixteen-year-old writes to their future self in ten years about their hopes, the things they want to keep, their worries about the climate and some advice.", "A sixteen-year-old writes to a teacher to explain why they do not want to think about the future at all, and why the letter is a waste of time.", "A twenty-six-year-old writes back to the person they were at sixteen about their job as a vet."], correct: 0 }
+  - { id: en-b2-t20-q2, type: mc, question: "What job does the writer want now?", options: ["To be a vet.", "To be a teacher.", "To be a scientist."], correct: 0 }
+  - { id: en-b2-t20-q3, type: true_false_notgiven, statement: "The writer is very optimistic about the climate.", answer: false }
+  - { id: en-b2-t20-q4, type: true_false_notgiven, statement: "Ruby has supported the writer through difficult times.", answer: true }
+  - { id: en-b2-t20-q5, type: true_false_notgiven, statement: "The letter will be opened at a party at the school.", answer: not_given }
+  - { id: en-b2-t20-q6, type: match_heading, paragraph: 4, options: ["Some worries", "Things to keep", "An uncertain future"], correct: 0 }
+listeningQuestions:
+  - { id: en-b2-t20-l1, type: complete, statement: "When she reads the letter, the writer will be ___.", answers: [twenty-six, "26"] }
+  - { id: en-b2-t20-l2, type: mc, question: "When does the writer go swimming in the sea?", options: ["In October.", "Only in summer.", "Every weekend."], correct: 0 }
+orderable: false

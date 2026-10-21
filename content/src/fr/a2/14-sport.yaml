@@ -1,0 +1,45 @@
+id: fr-a2-u14
+title: { nl: Sport en wedstrijden, en: "Sport and matches" }
+icon: sport
+topic: Le sport; les matchs
+vocabulary:
+  - { target: le match, native: { nl: de wedstrijd, en: "match" }, pos: noun, gender: m }
+  - { target: "l'équipe", native: { nl: "het team, de ploeg", en: "team" }, pos: noun, gender: f }
+  - { target: le joueur, native: { nl: de speler, en: "player" }, pos: noun, gender: m }
+  - { target: le but, native: { nl: "het doelpunt, het doel", en: "goal" }, pos: noun, gender: m }
+  - { target: le stade, native: { nl: het stadion, en: "stadium" }, pos: noun, gender: m }
+  - { target: la course, native: { nl: "de race, de hardloopwedstrijd", en: "race" }, pos: noun, gender: f, avoid: [fr.match] }
+  - { target: gagner, native: { nl: winnen, en: "to win" }, pos: verb }
+  - { target: marquer, native: { nl: scoren, en: "to score" }, pos: verb }
+  - { target: sauter, native: { nl: springen, en: "to jump" }, pos: verb }
+  - { target: lancer, native: { nl: gooien, en: "to throw" }, pos: verb, avoid: [fr.jeter] }
+  - { target: attraper, native: { nl: vangen, en: "to catch" }, pos: verb }
+  - { target: "s'entraîner", native: { nl: trainen, en: "to train" }, pos: verb }
+  - { target: la gymnastique, native: { nl: "de gymnastiek, het turnen", en: "gymnastics" }, pos: noun, gender: f }
+  - { target: "l'équitation", native: { nl: het paardrijden, en: "horse riding" }, pos: noun, gender: f }
+  - { target: le foot, native: { nl: het voetbal, en: "football" }, pos: noun, gender: m }
+  - { target: la balle, native: { nl: het balletje, en: "ball (small)" }, pos: noun, gender: f }
+  - { target: le roller, native: { nl: "het skeeleren, het rolschaatsen", en: "rollerblading, roller skating" }, pos: noun, gender: m }
+  - { target: le skateboard, native: { nl: het skateboard, en: "skateboard" }, pos: noun, gender: m }
+  - { target: le patin, native: { nl: de schaats, en: "skate" }, pos: noun, gender: m }
+sentences:
+  - { id: s01, target: "Dimanche, il y a un match de tennis au stade.", native: { nl: "Zondag is er een tenniswedstrijd in het stadion.", en: "On Sunday there's a tennis match at the stadium." }, items: [fr.match, fr.stade] }
+  - { id: s02, target: "Notre équipe a gagné le match !", native: { nl: "Ons team heeft de wedstrijd gewonnen!", en: "Our team won the match!" }, items: [fr.equipe, fr.gagner] }
+  - { id: s03, target: "C'est le meilleur joueur de l'équipe.", native: { nl: "Hij is de beste speler van het team.", en: "He's the best player in the team." }, items: [fr.joueur] }
+  - { id: s04, target: "J'ai marqué un but !", native: { nl: "Ik heb gescoord!", en: "I scored a goal!" }, items: [fr.but, fr.marquer] }
+  - { id: s05, target: "Le stade est près de chez moi.", native: { nl: "Het stadion is dicht bij mijn huis.", en: "The stadium is near my house." }, items: [fr.stade] }
+  - { id: s06, target: "Lucas a gagné la course.", native: { nl: "Lucas heeft de race gewonnen.", en: "Lucas won the race." }, items: [fr.course] }
+  - { id: s07, target: "Le chat saute sur la table.", native: { nl: "De kat springt op de tafel.", en: "The cat jumps onto the table." }, items: [fr.sauter] }
+  - { id: s08, target: "Lance la balle !", native: { nl: "Gooi het balletje!", en: "Throw the ball!" }, items: [fr.lancer, fr.balle] }
+  - { id: s09, target: "Le chien attrape la balle.", native: { nl: "De hond vangt het balletje.", en: "The dog catches the ball." }, items: [fr.attraper, fr.balle] }
+  - { id: s10, target: "Je m'entraîne le mercredi.", native: { nl: "Ik train elke woensdag.", en: "I train on Wednesdays." }, items: [fr.s-entrainer] }
+  - { id: s11, target: "Ma sœur fait de la gymnastique.", native: { nl: "Mijn zus doet aan turnen.", en: "My sister does gymnastics." }, items: [fr.gymnastique] }
+  - { id: s12, target: "J'aime les chevaux, je fais de l'équitation.", native: { nl: "Ik hou van paarden, ik doe aan paardrijden.", en: "I like horses, so I go horse riding." }, items: [fr.equitation] }
+  - { id: s13, target: "Georges et Ismaël jouent au foot.", native: { nl: "Georges en Ismaël voetballen.", en: "Georges and Ismaël are playing football." }, items: [fr.foot] }
+  - { id: s14, target: "Je fais du roller dans le parc.", native: { nl: "Ik skeeler in het park.", en: "I go rollerblading in the park." }, items: [fr.roller] }
+  - { id: s15, target: "Mon frère a un nouveau skateboard.", native: { nl: "Mijn broer heeft een nieuw skateboard.", en: "My brother has a new skateboard." }, items: [fr.skateboard] }
+  - { id: s16, target: "Où sont mes patins ?", native: { nl: "Waar zijn mijn schaatsen?", en: "Where are my skates?" }, items: [fr.patin] }
+lessons:
+  - { id: l01, title: { nl: De wedstrijd, en: "The match" }, vocab: [fr.match, fr.equipe, fr.joueur, fr.but, fr.stade, fr.marquer, fr.gagner] }
+  - { id: l02, title: { nl: Springen en vangen, en: "Jumping and catching" }, vocab: [fr.sauter, fr.lancer, fr.attraper, fr.balle, fr.s-entrainer, fr.gymnastique] }
+  - { id: l03, title: { nl: Paardrijden en skaten, en: "Riding and skating" }, vocab: [fr.equitation, fr.foot, fr.roller, fr.skateboard, fr.patin, fr.course] }

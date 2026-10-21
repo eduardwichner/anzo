@@ -1,0 +1,76 @@
+id: fr-b2-u01
+title: { nl: Karakter en ambities, en: "Character and ambitions" }
+icon: star
+topic: La personnalité, le talent et les ambitions, surmonter un échec ; les pronoms relatifs dont, lequel, auquel
+vocabulary:
+  - { target: ambitieux, native: { nl: ambitieus, en: "ambitious" }, pos: adjective }
+  - { target: l'ambition, native: { nl: de ambitie, en: "ambition" }, pos: noun, gender: f }
+  - { target: déterminé, native: { nl: vastberaden, en: "determined" }, pos: adjective }
+  - { target: la détermination, native: { nl: de vastberadenheid, en: "determination" }, pos: noun, gender: f }
+  - { target: la bourse, native: { nl: "de studiebeurs", en: "grant, scholarship" }, pos: noun, gender: f }
+  - { target: doué, native: { nl: "begaafd, getalenteerd", en: "gifted, talented" }, pos: adjective }
+  - { target: le talent, native: { nl: het talent, en: "talent" }, pos: noun, gender: m }
+  - { target: la personnalité, native: { nl: de persoonlijkheid, en: "personality" }, pos: noun, gender: f }
+  - { target: sensible, native: { nl: gevoelig, en: "sensitive" }, pos: adjective }
+  - { target: têtu, native: { nl: koppig, en: "stubborn" }, pos: adjective }
+  - { target: modeste, native: { nl: bescheiden, en: "modest" }, pos: adjective }
+  - { target: impatient, native: { nl: ongeduldig, en: "impatient" }, pos: adjective }
+  - { target: la motivation, native: { nl: de motivatie, en: "motivation" }, pos: noun, gender: f }
+  - { target: la réussite, native: { nl: "het succes, het slagen", en: "success" }, pos: noun, gender: f, avoid: [fr.echec] }
+  - { target: surmonter, native: { nl: overwinnen, en: "to overcome" }, pos: verb }
+  - { target: par hasard, native: { nl: "toevallig, bij toeval", en: "by chance" }, pos: adverb }
+  - { target: le modèle, native: { nl: "het voorbeeld, het rolmodel", en: "role model" }, pos: noun, gender: m }
+  - { target: passionné, native: { nl: "gepassioneerd, vol passie", en: "passionate" }, pos: adjective }
+  - { target: remarquable, native: { nl: opmerkelijk, en: "remarkable" }, pos: adjective }
+  - { target: peu à peu, native: { nl: "geleidelijk, beetje bij beetje", en: "little by little, gradually" }, pos: adverb }
+  - { target: admirer, native: { nl: bewonderen, en: "to admire" }, pos: verb }
+  - { target: l'obstacle, native: { nl: het obstakel, en: "obstacle" }, pos: noun, gender: m }
+  - { target: persévérer, native: { nl: volhouden, en: "to persevere, to keep going" }, pos: verb }
+  - { target: le courage, native: { nl: de moed, en: "courage" }, pos: noun, gender: m }
+  - { target: courageux, native: { nl: moedig, en: "brave, courageous" }, pos: adjective }
+  - { target: la fierté, native: { nl: de trots, en: "pride" }, pos: noun, gender: f }
+  - { target: remarquer, native: { nl: opmerken, en: "to notice" }, pos: verb }
+  - { target: recommencer, native: { nl: opnieuw beginnen, en: "to start again" }, pos: verb }
+  - { target: auquel, native: { nl: "waaraan, waarop (à + lequel)", en: "to which, on which (as in: the club to which I belong)" }, pos: pronoun }
+  - { target: encourager, native: { nl: aanmoedigen, en: "to encourage" }, pos: verb }
+  - { target: la persévérance, native: { nl: het doorzettingsvermogen, en: "perseverance" }, pos: noun, gender: f }
+sentences:
+  - { id: s01, target: "Ma sœur est très ambitieuse : elle veut devenir médecin.", native: { nl: "Mijn zus is heel ambitieus: ze wil dokter worden.", en: "My sister is very ambitious: she wants to become a doctor." }, items: [fr.ambitieux] }
+  - { id: s02, target: "Son ambition, c'est d'ouvrir son propre restaurant.", native: { nl: "Zijn ambitie is om een eigen restaurant te openen.", en: "His ambition is to open his own restaurant." }, items: [fr.ambition] }
+  - { id: s03, target: "Elle était déterminée à finir la course.", native: { nl: "Ze was vastberaden de wedstrijd uit te lopen.", en: "She was determined to finish the race." }, items: [fr.determine] }
+  - { id: s04, target: "Avec de la détermination, on peut tout apprendre.", native: { nl: "Met vastberadenheid kun je alles leren.", en: "With determination, you can learn anything." }, items: [fr.determination] }
+  - { id: s05, target: "Il a reçu une bourse pour étudier à l'étranger.", native: { nl: "Hij kreeg een studiebeurs om in het buitenland te studeren.", en: "He got a grant to study abroad." }, items: [fr.bourse] }
+  - { id: s06, target: "Les élèves doués s'ennuient parfois en classe.", native: { nl: "Begaafde leerlingen vervelen zich soms in de klas.", en: "Gifted pupils sometimes get bored in class." }, items: [fr.doue] }
+  - { id: s07, target: "Elle a un vrai talent pour la musique.", native: { nl: "Ze heeft echt talent voor muziek.", en: "She has a real talent for music." }, items: [fr.talent] }
+  - { id: s08, target: "Sa personnalité est très différente de celle de son frère.", native: { nl: "Haar persoonlijkheid is heel anders dan die van haar broer.", en: "Her personality is very different from her brother's." }, items: [fr.personnalite] }
+  - { id: s09, target: "Fais attention à ce que tu dis : il est très sensible.", native: { nl: "Let op wat je zegt: hij is heel gevoelig.", en: "Be careful what you say: he's very sensitive." }, items: [fr.sensible] }
+  - { id: s10, target: "Mon grand-père est si têtu qu'il ne change jamais d'avis.", native: { nl: "Mijn opa is zo koppig dat hij nooit van mening verandert.", en: "My grandfather is so stubborn that he never changes his mind." }, items: [fr.tetu] }
+  - { id: s11, target: "Bien qu'elle soit la meilleure joueuse, elle reste modeste.", native: { nl: "Hoewel ze de beste speelster is, blijft ze bescheiden.", en: "Although she's the best player, she remains modest." }, items: [fr.modeste] }
+  - { id: s12, target: "Ne sois pas si impatient, le film commence dans cinq minutes.", native: { nl: "Wees niet zo ongeduldig, de film begint over vijf minuten.", en: "Don't be so impatient, the film starts in five minutes." }, items: [fr.impatient] }
+  - { id: s13, target: "Le manque de motivation est le plus grand problème des élèves.", native: { nl: "Gebrek aan motivatie is het grootste probleem van de leerlingen.", en: "Lack of motivation is the biggest problem for pupils." }, items: [fr.motivation] }
+  - { id: s14, target: "Sa réussite à l'examen a surpris tout le monde.", native: { nl: "Dat hij voor het examen slaagde, verraste iedereen.", en: "His success in the exam surprised everyone." }, items: [fr.reussite] }
+  - { id: s15, target: "Elle a surmonté sa peur de l'eau.", native: { nl: "Ze heeft haar angst voor het water overwonnen.", en: "She has overcome her fear of water." }, items: [fr.surmonter] }
+  - { id: s16, target: "Je suis devenu cuisinier tout à fait par hasard.", native: { nl: "Ik ben helemaal toevallig kok geworden.", en: "I became a cook quite by chance." }, items: [fr.par-hasard] }
+  - { id: s17, target: "Ma tante a toujours été mon modèle.", native: { nl: "Mijn tante is altijd mijn voorbeeld geweest.", en: "My aunt has always been my role model." }, items: [fr.modele] }
+  - { id: s18, target: "C'est un professeur passionné par son métier.", native: { nl: "Het is een leraar met passie voor zijn vak.", en: "He's a teacher who is passionate about his job." }, items: [fr.passionne] }
+  - { id: s19, target: "C'était un résultat remarquable pour quelqu'un de si jeune.", native: { nl: "Het was een opmerkelijk resultaat voor iemand die zo jong is.", en: "It was a remarkable result for someone so young." }, items: [fr.remarquable] }
+  - { id: s20, target: "Peu à peu, le garçon timide a pris confiance.", native: { nl: "Beetje bij beetje kreeg de verlegen jongen zelfvertrouwen.", en: "Little by little, the shy boy gained confidence." }, items: [fr.peu-a-peu] }
+  - { id: s21, target: "J'admire les gens qui disent ce qu'ils pensent.", native: { nl: "Ik bewonder mensen die zeggen wat ze denken.", en: "I admire people who say what they think." }, items: [fr.admirer] }
+  - { id: s22, target: "Le plus grand obstacle, c'était la langue.", native: { nl: "Het grootste obstakel was de taal.", en: "The biggest obstacle was the language." }, items: [fr.obstacle] }
+  - { id: s23, target: "Il faut persévérer même quand c'est difficile.", native: { nl: "Je moet volhouden, ook als het moeilijk is.", en: "You have to persevere even when it's difficult." }, items: [fr.perseverer] }
+  - { id: s24, target: "Il faut du courage pour parler devant toute la classe.", native: { nl: "Er is moed voor nodig om voor de hele klas te spreken.", en: "It takes courage to speak in front of the whole class." }, items: [fr.courage] }
+  - { id: s25, target: "Elle a été très courageuse après l'accident.", native: { nl: "Ze was heel moedig na het ongeluk.", en: "She was very brave after the accident." }, items: [fr.courageux], form: { word: courageuse, stem: courage } }
+  - { id: s26, target: "Ses parents regardaient le spectacle avec fierté.", native: { nl: "Haar ouders keken met trots naar de voorstelling.", en: "Her parents watched the show with pride." }, items: [fr.fierte], form: { word: fierté, stem: fier } }
+  - { id: s27, target: "Le professeur a remarqué qu'elle chantait très bien.", native: { nl: "De leraar merkte op dat ze heel goed zong.", en: "The teacher noticed that she sang very well." }, items: [fr.remarquer] }
+  - { id: s28, target: "Son gâteau n'était pas réussi, alors il a recommencé.", native: { nl: "Zijn taart was niet gelukt, dus hij begon opnieuw.", en: "His cake hadn't turned out well, so he started again." }, items: [fr.recommencer] }
+  - { id: s33, target: "Ses parents l'ont toujours encouragée.", native: { nl: "Haar ouders hebben haar altijd aangemoedigd.", en: "Her parents have always encouraged her." }, items: [fr.encourager] }
+  - { id: s34, target: "Avec de la persévérance, elle a fini par réussir.", native: { nl: "Met doorzettingsvermogen is ze er uiteindelijk in geslaagd.", en: "With perseverance, she succeeded in the end." }, items: [fr.perseverance] }
+  - { id: s29, target: "C'est la réussite dont elle rêvait depuis longtemps.", native: { nl: "Het is het succes waar ze al lang van droomde.", en: "It's the success she had been dreaming of for a long time." }, items: [fr.reussite], build: true }
+  - { id: s30, target: "Voici l'école dans laquelle elle a découvert son talent.", native: { nl: "Dit is de school waar ze haar talent heeft ontdekt.", en: "This is the school in which she discovered her talent." }, items: [fr.talent], build: true }
+  - { id: s31, target: "C'est un obstacle auquel je ne m'attendais pas.", native: { nl: "Het is een obstakel waarop ik niet had gerekend.", en: "It's an obstacle I wasn't expecting." }, items: [fr.obstacle, fr.auquel] }
+  - { id: s32, target: "Elle admire beaucoup sa grand-mère.", native: { nl: "Ze bewondert haar oma heel erg.", en: "She admires her grandmother very much." }, items: [fr.admirer], finite: { word: admire, hint: { nl: "admirer (présent)", en: "admirer (present)" } } }
+transforms:
+  - { id: x01, from: "Elle rêvait de ce concours depuis longtemps.", key: dont, gapped: "C'est le concours ___ depuis longtemps.", answers: ["dont elle rêvait"], items: [fr.ambition], native: { en: "It's the competition she had been dreaming of for a long time." } }
+  - { id: x02, from: "Il a continué, même si c'était difficile.", key: persévéré, gapped: "Il a ___ c'était difficile.", answers: ["persévéré même si", "persévéré même quand"], items: [fr.perseverer], native: { en: "He persevered, even though it was difficult." } }
+  - { id: x03, from: "Elle a eu son examen, et tout le monde était surpris.", key: réussite, gapped: "Sa ___ a surpris tout le monde.", answers: ["réussite à l'examen", "réussite à son examen"], items: [fr.reussite], native: { en: "Her success in the exam surprised everyone." } }
+texts: [fr-b2-t01]

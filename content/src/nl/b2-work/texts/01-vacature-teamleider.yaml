@@ -1,0 +1,44 @@
+id: nl-b2-work-t01
+kind: reading
+title: { en: "Vacancy: team leader" }
+topic: Applying for a job (a job advert on a company website)
+level: B2
+paragraphs:
+  - - { id: nl-b2-work-t01-s01, target: "Ons bedrijf in Gent levert al dertig jaar verse groenten en fruit aan restaurants en scholen in heel Vlaanderen.", native: { en: "For thirty years our company in Ghent has been supplying fresh vegetables and fruit to restaurants and schools all over Flanders." } }
+    - { id: nl-b2-work-t01-s02, target: "Omdat we sterk groeien, willen we een teamleider aanwerven voor ons magazijn.", native: { en: "Because we are growing fast, we want to hire a team leader for our warehouse." } }
+  - - { id: nl-b2-work-t01-s03, target: "Als teamleider ben je verantwoordelijk voor een team van vijftien arbeiders.", native: { en: "As team leader you are responsible for a team of fifteen workers." } }
+    - { id: nl-b2-work-t01-s04, target: "Je maakt de planning, je verdeelt de taken en je zorgt ervoor dat elke bestelling op tijd vertrekt.", native: { en: "You make the schedule, you divide the tasks and you make sure that every order leaves on time." } }
+    - { id: nl-b2-work-t01-s05, target: "Daarnaast overleg je elke week met de verkoopafdeling en de chauffeurs.", native: { en: "In addition, you consult the sales department and the drivers every week." } }
+  - - { id: nl-b2-work-t01-s06, target: "Wie zoeken we?", native: { en: "Who are we looking for?" } }
+    - { id: nl-b2-work-t01-s07, target: "Je hebt minstens drie jaar ervaring in een magazijn of in de logistiek, en je hebt al eerder een team geleid.", native: { en: "You have at least three years' experience in a warehouse or in logistics, and you have led a team before." } }
+    - { id: nl-b2-work-t01-s08, target: "Een diploma hoger onderwijs is geen vereiste, maar kennis van het Frans is een troef.", native: { en: "A higher education diploma is not a requirement, but knowledge of French is a plus." } }
+    - { id: nl-b2-work-t01-s09, target: "Je bent stressbestendig, flexibel en je kunt goed luisteren.", native: { en: "You can work under pressure, you are flexible and you can listen well." } }
+  - - { id: nl-b2-work-t01-s10, target: "Wat bieden we?", native: { en: "What do we offer?" } }
+    - { id: nl-b2-work-t01-s11, target: "Je krijgt meteen een voltijds arbeidscontract van onbepaalde duur.", native: { en: "You get a full-time permanent employment contract straight away." } }
+    - { id: nl-b2-work-t01-s12, target: "Naast een goed loon krijg je maaltijdcheques, een vergoeding voor je reiskosten en twintig vakantiedagen.", native: { en: "As well as a good salary you get meal vouchers, an allowance for your travel costs and twenty days' holiday." } }
+  - - { id: nl-b2-work-t01-s13, target: "Ben je geïnteresseerd?", native: { en: "Are you interested?" } }
+    - { id: nl-b2-work-t01-s14, target: "Stel je dan kandidaat voor 15 november met een cv en een korte motivatiebrief.", native: { en: "Then apply before 15 November with a CV and a short motivation letter." } }
+    - { id: nl-b2-work-t01-s15, target: "De selectieprocedure bestaat uit een gesprek met de personeelsdienst en een ochtend in het magazijn.", native: { en: "The selection procedure consists of an interview with the HR department and a morning in the warehouse." } }
+glossary:
+  - { word: verkoopafdeling, native: { en: "sales department" } }
+  - { word: logistiek, native: { en: logistics } }
+  - { word: stressbestendig, native: { en: "able to work under pressure" } }
+  - { word: onbepaalde duur, native: { en: "(van onbepaalde duur: permanent, open-ended)" } }
+  - { word: vakantiedagen, native: { en: "days of holiday" } }
+items: [nl.aanwerven, nl.teamleider, nl.leiden, nl.arbeider, nl.vereiste, nl.troef, nl.arbeidscontract, nl.zich-kandidaat-stellen, nl.motivatiebrief, nl.selectieprocedure, nl.personeelsdienst]
+questions:
+  - { id: nl-b2-work-t01-q1, type: summary, options: ["Een bedrijf zoekt een teamleider voor zijn magazijn en beschrijft de taken, het profiel en wat het biedt.", "Een bedrijf zoekt chauffeurs die Frans spreken.", "Een teamleider vertelt waarom hij zijn job in het magazijn verlaat."], correct: 0 }
+  - { id: nl-b2-work-t01-q2, type: mc, question: "Wat is geen vereiste voor de job?", options: ["Een diploma hoger onderwijs.", "Ervaring in een magazijn of in de logistiek.", "Ervaring met het leiden van een team."], correct: 0 }
+  - { id: nl-b2-work-t01-q3, type: true_false_notgiven, statement: "De teamleider overlegt elke week met de chauffeurs.", answer: true }
+  - { id: nl-b2-work-t01-q4, type: true_false_notgiven, statement: "De teamleider krijgt eerst een tijdelijk contract.", answer: false }
+  - { id: nl-b2-work-t01-q5, type: true_false_notgiven, statement: "Het bedrijf heeft ook een magazijn in Antwerpen.", answer: not_given }
+  - { id: nl-b2-work-t01-q6, type: match_heading, paragraph: 4, options: ["Wat het bedrijf biedt", "Het profiel van de kandidaat", "De taken van de teamleider"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-work-t01-l1, type: complete, statement: "De teamleider is verantwoordelijk voor een team van ___ arbeiders.", answers: [vijftien, "15"] }
+  - { id: nl-b2-work-t01-l2, type: mc, question: "Tot wanneer kun je je kandidaat stellen?", options: ["Tot 15 november.", "Tot 15 oktober.", "Tot 15 december."], correct: 0 }
+openCloze:
+  - { sentence: nl-b2-work-t01-s02, word: Omdat, acceptAlso: [Aangezien, Nu] }
+  - { sentence: nl-b2-work-t01-s04, word: ervoor }
+  - { sentence: nl-b2-work-t01-s15, word: uit }
+  - { sentence: nl-b2-work-t01-s03, word: Als }
+orderable: false

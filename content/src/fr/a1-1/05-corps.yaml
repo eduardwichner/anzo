@@ -1,0 +1,44 @@
+id: fr-a1-1-u05
+title: { nl: Mijn lichaam, en: "My body" }
+icon: body
+topic: Le corps; décrire une personne
+vocabulary:
+  - { target: la tête, native: { nl: het hoofd, en: "head" }, pos: noun, gender: f }
+  - { target: les cheveux, native: { nl: het haar, en: "hair" }, pos: noun, gender: m }
+  - { target: les yeux, native: { nl: de ogen, en: "eyes" }, pos: noun, gender: m }
+  - { target: le nez, native: { nl: de neus, en: "nose" }, pos: noun, gender: m }
+  - { target: la bouche, native: { nl: de mond, en: "mouth" }, pos: noun, gender: f }
+  - { target: "l'oreille", native: { nl: het oor, en: "ear" }, pos: noun, gender: f }
+  - { target: la main, native: { nl: de hand, en: "hand" }, pos: noun, gender: f }
+  - { target: le bras, native: { nl: de arm, en: "arm" }, pos: noun, gender: m }
+  - { target: la jambe, native: { nl: het been, en: "leg" }, pos: noun, gender: f }
+  - { target: le pied, native: { nl: de voet, en: "foot" }, pos: noun, gender: m }
+  - { target: blond, native: { nl: blond, en: "blond, fair-haired" }, pos: adjective }
+  - { target: grand, native: { nl: "groot, lang", en: "big, tall" }, pos: adjective }
+  - { target: petit, native: { nl: klein, en: "small, little, short" }, pos: adjective }
+  - { target: jeune, native: { nl: jong, en: "young" }, pos: adjective }
+  - { target: vieux, native: { nl: oud, en: "old" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Le chapeau est sur ma tête.", native: { nl: "De hoed zit op mijn hoofd.", en: "The hat is on my head." }, items: [fr.tete] }
+  - { id: s02, target: "Elle a les cheveux noirs.", native: { nl: "Ze heeft zwart haar.", en: "She has black hair." }, items: [fr.cheveux] }
+  - { id: s03, target: "Tu as de jolis cheveux !", native: { nl: "Je hebt mooi haar!", en: "You have lovely hair!" }, items: [fr.cheveux] }
+  - { id: s04, target: "J'ai les yeux bleus.", native: { nl: "Ik heb blauwe ogen.", en: "I have blue eyes." }, items: [fr.yeux] }
+  - { id: s05, target: "Le chien a le nez noir.", native: { nl: "De hond heeft een zwarte neus.", en: "The dog has a black nose." }, items: [fr.nez] }
+  - { id: s06, target: "Ouvre la bouche !", native: { nl: "Doe je mond open!", en: "Open your mouth!" }, items: [fr.bouche] }
+  - { id: s07, target: "Le lapin a de grandes oreilles.", native: { nl: "Het konijn heeft grote oren.", en: "The rabbit has big ears." }, items: [fr.oreille] }
+  - { id: s08, target: "Lave tes mains au savon.", native: { nl: "Was je handen met zeep.", en: "Wash your hands with soap." }, items: [fr.main] }
+  - { id: s09, target: "Montre ta main.", native: { nl: "Laat je hand zien.", en: "Show me your hand." }, items: [fr.main] }
+  - { id: s10, target: "Le singe a de grands bras.", native: { nl: "De aap heeft lange armen.", en: "The monkey has long arms." }, items: [fr.bras] }
+  - { id: s11, target: "J'ai deux bras et deux jambes.", native: { nl: "Ik heb twee armen en twee benen.", en: "I have two arms and two legs." }, items: [fr.jambe, fr.bras] }
+  - { id: s12, target: "Mon pied est dans l'eau.", native: { nl: "Mijn voet staat in het water.", en: "My foot is in the water." }, items: [fr.pied] }
+  - { id: s13, target: "Il est blond et il a des lunettes.", native: { nl: "Hij is blond en hij heeft een bril.", en: "He's blond and he wears glasses." }, items: [fr.blond] }
+  - { id: s14, target: "Mon frère est très grand.", native: { nl: "Mijn broer is heel lang.", en: "My brother is very tall." }, items: [fr.grand] }
+  - { id: s15, target: "C'est un grand jardin.", native: { nl: "Dat is een grote tuin.", en: "It's a big garden." }, items: [fr.grand] }
+  - { id: s16, target: "Le petit garçon a cinq ans.", native: { nl: "Het jongetje is vijf jaar.", en: "The little boy is five years old." }, items: [fr.petit] }
+  - { id: s17, target: "Ma grand-mère n'est pas vieille.", native: { nl: "Mijn oma is niet oud.", en: "My grandmother isn't old." }, items: [fr.vieux] }
+  - { id: s18, target: "Mon chien est vieux.", native: { nl: "Mijn hond is oud.", en: "My dog is old." }, items: [fr.vieux] }
+  - { id: s19, target: "Ma maman est jeune.", native: { nl: "Mijn mama is jong.", en: "My mum is young." }, items: [fr.jeune] }
+lessons:
+  - { id: l01, title: { nl: Mijn hoofd, en: "My head" }, vocab: [fr.tete, fr.cheveux, fr.yeux, fr.nez, fr.bouche] }
+  - { id: l02, title: { nl: Handen en voeten, en: "Hands and feet" }, vocab: [fr.oreille, fr.main, fr.bras, fr.jambe, fr.pied] }
+  - { id: l03, title: { nl: Groot en klein, en: "Big and small" }, vocab: [fr.blond, fr.grand, fr.petit, fr.jeune, fr.vieux] }

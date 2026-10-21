@@ -1,0 +1,52 @@
+id: fr-b2-t16
+kind: reading
+title: { nl: Samenwonen op twintig en op tachtig, en: "Living together at twenty and at eighty" }
+topic: Société et générations (un article dans un magazine belge)
+level: B2
+paragraphs:
+  - - { id: fr-b2-t16-s01, target: "À Liège, Simone, quatre-vingt-deux ans, partage sa maison avec Yanis, un étudiant de vingt et un ans.", native: { nl: "In Luik deelt Simone, tweeëntachtig, haar huis met Yanis, een student van eenentwintig.", en: "In Liège, Simone, eighty-two, shares her house with Yanis, a twenty-one-year-old student." } }
+    - { id: fr-b2-t16-s02, target: "Il ne paie presque pas de loyer ; en échange, il lui tient compagnie le soir et l'aide à faire les courses.", native: { nl: "Hij betaalt bijna geen huur; in ruil houdt hij haar 's avonds gezelschap en helpt hij haar met de boodschappen.", en: "He pays almost no rent; in exchange, he keeps her company in the evenings and helps her with the shopping." } }
+    - { id: fr-b2-t16-s03, target: "Ce type de logement intergénérationnel connaît un succès croissant en Belgique.", native: { nl: "Dit soort intergenerationeel wonen kent een groeiend succes in België.", en: "This kind of intergenerational housing is becoming more and more popular in Belgium." } }
+  - - { id: fr-b2-t16-s04, target: "Les raisons sont simples.", native: { nl: "De redenen zijn eenvoudig.", en: "The reasons are simple." } }
+    - { id: fr-b2-t16-s05, target: "D'un côté, l'espérance de vie augmente, si bien que de plus en plus de personnes âgées vivent seules dans une maison trop grande.", native: { nl: "Enerzijds stijgt de levensverwachting, zodat steeds meer ouderen alleen in een te groot huis wonen.", en: "On the one hand, life expectancy is rising, so more and more elderly people live alone in a house that is too big." } }
+    - { id: fr-b2-t16-s06, target: "De l'autre, les loyers dans les villes où il y a une université sont tellement chers que beaucoup d'étudiants ont du mal à trouver une chambre.", native: { nl: "Anderzijds zijn de huurprijzen in de universiteitssteden zo hoog dat veel studenten moeilijk een kamer vinden.", en: "On the other, rents in university towns are so high that many students struggle to find a room." } }
+    - { id: fr-b2-t16-s07, target: "En moyenne, un kot coûte aujourd'hui plus de quatre cent cinquante euros par mois.", native: { nl: "Gemiddeld kost een kot vandaag meer dan vierhonderdvijftig euro per maand.", en: "On average, a student room now costs more than four hundred and fifty euros a month." } }
+  - - { id: fr-b2-t16-s08, target: "Pour que la vie ensemble réussisse, une association met les deux générations en contact.", native: { nl: "Om het samenwonen te laten slagen, brengt een vereniging de twee generaties met elkaar in contact.", en: "To make living together work, an association puts the two generations in touch." } }
+    - { id: fr-b2-t16-s09, target: "Elle rencontre chaque candidat, vérifie que les caractères et les habitudes vont bien ensemble, et écrit avec eux une sorte de contrat.", native: { nl: "Ze spreekt met elke kandidaat, gaat na of de karakters en gewoonten goed samengaan, en stelt met hen een soort contract op.", en: "It meets each candidate, checks that their personalities and habits go well together, and writes a kind of contract with them." } }
+    - { id: fr-b2-t16-s10, target: "Chez Simone, par exemple, les fêtes sont interdites, mais Yanis est libre de recevoir des amis le week-end.", native: { nl: "Bij Simone zijn feestjes bijvoorbeeld verboden, maar Yanis mag in het weekend vrienden ontvangen.", en: "At Simone's, for example, parties are forbidden, but Yanis is free to have friends round at the weekend." } }
+  - - { id: fr-b2-t16-s11, target: "Les résultats dépassent souvent les attentes.", native: { nl: "De resultaten overtreffen vaak de verwachtingen.", en: "The results often exceed expectations." } }
+    - { id: fr-b2-t16-s12, target: "« Depuis que Yanis est là, je n'ai plus peur de tomber dans l'escalier la nuit, et mes enfants sont rassurés », explique Simone.", native: { nl: "\"Sinds Yanis er is, ben ik niet meer bang om 's nachts van de trap te vallen, en mijn kinderen zijn gerustgesteld,\" legt Simone uit.", en: "\"Since Yanis has been here, I'm no longer afraid of falling on the stairs at night, and my children are reassured,\" explains Simone." } }
+    - { id: fr-b2-t16-s13, target: "Yanis, lui, a découvert une autre façon de voir la vie : « Elle m'a appris à cuisiner, et moi, je lui ai appris à envoyer des photos à ses petits-enfants. »", native: { nl: "Yanis heeft dan weer een andere kijk op het leven ontdekt: \"Zij heeft me leren koken, en ik heb haar geleerd foto's naar haar kleinkinderen te sturen.\"", en: "Yanis, for his part, has discovered another way of seeing life: \"She taught me to cook, and I taught her to send photos to her grandchildren.\"" } }
+  - - { id: fr-b2-t16-s14, target: "Bien sûr, ce modèle ne résoudra pas seul le problème du logement.", native: { nl: "Natuurlijk zal dit model het woonprobleem niet alleen oplossen.", en: "Of course, this model won't solve the housing problem on its own." } }
+    - { id: fr-b2-t16-s15, target: "Il montre toutefois que le vieillissement de la population n'est pas seulement un problème d'argent : c'est aussi une occasion de créer de nouveaux liens entre les générations.", native: { nl: "Het toont echter dat de vergrijzing niet alleen een geldprobleem is: ze is ook een kans om nieuwe banden te smeden tussen de generaties.", en: "It does show, however, that the ageing of the population is not just a money problem: it's also an opportunity to create new bonds between the generations." } }
+glossary:
+  - { word: croissant, native: { nl: "groeiend (croître)", en: "growing (croître)" } }
+  - { word: kot, native: { nl: "kot, studentenkamer (Belgisch)", en: "student room (Belgian)" } }
+  - { word: attentes, native: { nl: "verwachtingen (une attente)", en: "expectations (une attente)" } }
+  - { word: rassurés, native: { nl: "gerustgesteld (rassurer)", en: "reassured (rassurer)" } }
+  - { word: petits-enfants, native: { nl: kleinkinderen, en: "grandchildren" } }
+items: [fr.intergenerationnel, fr.tenir-compagnie, fr.esperance-de-vie, fr.si-bien-que, fr.en-moyenne, fr.vieillissement, fr.toutefois]
+gapped:
+  gaps: [fr-b2-t16-s04, fr-b2-t16-s08, fr-b2-t16-s11, fr-b2-t16-s14]
+  extra:
+    - { id: fr-b2-t16-x1, target: "Les parents de Yanis paient son loyer.", native: { nl: "De ouders van Yanis betalen zijn huur.", en: "Yanis's parents pay his rent." } }
+openCloze:
+  - { sentence: fr-b2-t16-s02, word: échange }
+  - { sentence: fr-b2-t16-s05, word: bien }
+  - { sentence: fr-b2-t16-s06, word: tellement, acceptAlso: [si] }
+  - { sentence: fr-b2-t16-s12, word: Depuis, acceptAlso: [Maintenant] }
+wordForm:
+  - { sentence: fr-b2-t16-s01, word: étudiant, stem: étudier }
+  - { sentence: fr-b2-t16-s13, word: cuisiner, stem: cuisine }
+  - { sentence: fr-b2-t16-s15, word: vieillissement, stem: vieillir }
+questions:
+  - { id: fr-b2-t16-q1, type: summary, options: ["Des étudiants vivent chez des personnes âgées pour un petit loyer en échange d'aide, ce qui aide les deux générations et crée des liens entre elles.", "Les personnes âgées louent leur maison très cher aux étudiants, ce qui provoque des conflits entre les générations.", "Des étudiants vivent chez des personnes âgées sans payer de loyer, mais ce modèle crée surtout des conflits entre les deux générations."], correct: 0 }
+  - { id: fr-b2-t16-q2, type: mc, question: "Que fait l'association ?", options: ["Elle met les deux générations en contact et aide à écrire une sorte de contrat.", "Elle paie le loyer des étudiants.", "Elle construit des logements sociaux."], correct: 0 }
+  - { id: fr-b2-t16-q3, type: true_false_notgiven, statement: "Yanis peut organiser des fêtes chez Simone.", answer: false }
+  - { id: fr-b2-t16-q4, type: true_false_notgiven, statement: "Les enfants de Simone sont rassurés depuis que Yanis habite chez elle.", answer: true }
+  - { id: fr-b2-t16-q5, type: true_false_notgiven, statement: "Yanis veut rester chez Simone après ses études.", answer: not_given }
+  - { id: fr-b2-t16-q6, type: match_heading, paragraph: 2, options: ["Pourquoi ce modèle se développe", "Comment vivent Simone et Yanis", "Ce qu'ils ont appris l'un de l'autre"], correct: 0 }
+listeningQuestions:
+  - { id: fr-b2-t16-l1, type: complete, statement: "Simone a ___ ans.", answers: ["quatre-vingt-deux", "82"] }
+  - { id: fr-b2-t16-l2, type: mc, question: "Qu'est-ce que Simone a appris à Yanis ?", options: ["À cuisiner.", "À envoyer des photos.", "À conduire."], correct: 0 }
+orderable: false

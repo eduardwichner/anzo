@@ -1,0 +1,13 @@
+id: nl-b2-work
+cefr: B2
+native: en
+# The optional work branch of B2 (manifest branch: true, after: nl-b2). Units 1–8 (PLAN.md, B2 branches).
+finiteVerbFill: true
+source: >-
+  Dutch as spoken in Flanders (standard Belgian Dutch), level B2, for adults who use Dutch at work: applying, meetings, formal
+  e-mails, teams and leadership, health at work, customers, diversity, contracts and conditions. The units follow the tasks of
+  the CNaVT B2 profile Zakelijk Professioneel (PROF; content/reference/dutch/b2/: an e-mail to a head of department, a request
+  for training, a conversation with a colleague about a motivating workplace, self-managing teams, a wrong delivery, working from
+  home) and Richtgraad 3 (beroepsgericht domein). Every word is in the derived Dutch word list (content/src/nl/WORDLIST.md) at B2
+  or below — the branch groups e01–e08 — or in a text's glossary. The texts are original (exam papers are models for text types
+  only); English meanings written by the content author.

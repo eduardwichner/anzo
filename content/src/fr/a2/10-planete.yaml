@@ -1,0 +1,33 @@
+id: fr-a2-u10
+title: { nl: Onze planeet, en: "Our planet" }
+icon: world
+topic: L'environnement; l'espace
+vocabulary:
+  - { target: "l'environnement", native: { nl: het milieu, en: "environment" }, pos: noun, gender: m }
+  - { target: la planète, native: { nl: de planeet, en: "planet" }, pos: noun, gender: f }
+  - { target: la Terre, native: { nl: de aarde, en: "Earth" }, pos: noun, gender: f }
+  - { target: "l'espace", native: { nl: de ruimte, en: "space" }, pos: noun, gender: m }
+  - { target: la fusée, native: { nl: de raket, en: "rocket" }, pos: noun, gender: f }
+  - { target: "l'astronaute", native: { nl: de astronaut, en: "astronaut" }, pos: noun, gender: m }
+  - { target: la poubelle, native: { nl: de vuilnisbak, en: "bin" }, pos: noun, gender: f }
+  - { id: fr.dechet, target: les déchets, native: { nl: het afval, en: "rubbish, waste" }, pos: noun, gender: m }
+  - { target: la pollution, native: { nl: de vervuiling, en: "pollution" }, pos: noun, gender: f }
+  - { target: protéger, native: { nl: beschermen, en: "to protect" }, pos: verb }
+  - { target: jeter, native: { nl: "weggooien, gooien", en: "to throw away, to throw" }, pos: verb }
+  - { target: recycler, native: { nl: recyclen, en: "to recycle" }, pos: verb }
+  - { target: le papier, native: { nl: het papier, en: "paper" }, pos: noun, gender: m }
+sentences:
+  - { id: s01, target: "Il faut protéger l'environnement.", native: { nl: "We moeten het milieu beschermen.", en: "We must protect the environment." }, items: [fr.environnement, fr.proteger] }
+  - { id: s02, target: "La Terre est une planète.", native: { nl: "De aarde is een planeet.", en: "The Earth is a planet." }, items: [fr.planete, fr.terre] }
+  - { id: s03, target: "Notre planète est très belle.", native: { nl: "Onze planeet is heel mooi.", en: "Our planet is very beautiful." }, items: [fr.planete] }
+  - { id: s04, target: "L'astronaute est allé dans l'espace.", native: { nl: "De astronaut is naar de ruimte gegaan.", en: "The astronaut went into space." }, items: [fr.astronaute, fr.espace] }
+  - { id: s05, target: "La fusée part ce soir.", native: { nl: "De raket vertrekt vanavond.", en: "The rocket leaves tonight." }, items: [fr.fusee] }
+  - { id: s06, target: "Plus tard, je serai astronaute !", native: { nl: "Later word ik astronaut!", en: "Later on, I'll be an astronaut!" }, items: [fr.astronaute] }
+  - { id: s07, target: "Mets les déchets dans la poubelle.", native: { nl: "Gooi het afval in de vuilnisbak.", en: "Put the rubbish in the bin." }, items: [fr.dechet, fr.poubelle] }
+  - { id: s08, target: "Il y a trop de pollution en ville.", native: { nl: "Er is te veel vervuiling in de stad.", en: "There's too much pollution in town." }, items: [fr.pollution] }
+  - { id: s09, target: "Ne jette pas tes papiers dans la rue !", native: { nl: "Gooi je papiertjes niet op straat!", en: "Don't throw your bits of paper in the street!" }, items: [fr.jeter] }
+  - { id: s10, target: "À l'école, nous recyclons le papier.", native: { nl: "Op school recyclen we papier.", en: "At school we recycle paper." }, items: [fr.recycler, fr.papier] }
+  - { id: s11, target: "On peut recycler les bouteilles.", native: { nl: "Je kunt flessen recyclen.", en: "You can recycle bottles." }, items: [fr.recycler] }
+lessons:
+  - { id: l01, title: { nl: In de ruimte, en: "In space" }, vocab: [fr.planete, fr.terre, fr.espace, fr.fusee, fr.astronaute, fr.environnement] }
+  - { id: l02, title: { nl: Afval scheiden, en: "Sorting rubbish" }, vocab: [fr.poubelle, fr.dechet, fr.pollution, fr.proteger, fr.jeter, fr.recycler, fr.papier] }

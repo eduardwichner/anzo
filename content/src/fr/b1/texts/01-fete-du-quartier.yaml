@@ -1,0 +1,31 @@
+id: fr-b1-t01
+kind: reading
+title: { nl: Het buurtfeest, en: "The neighbourhood party" }
+topic: Le quartier (a short story)
+level: B1
+paragraphs:
+  - - { id: fr-b1-t01-s01, target: "Samedi dernier, il y avait une grande fête dans notre quartier.", native: { nl: "Afgelopen zaterdag was er een groot feest in onze buurt.", en: "Last Saturday there was a big party in our neighbourhood." } }
+    - { id: fr-b1-t01-s02, target: "Toutes les familles de la rue étaient invitées.", native: { nl: "Alle gezinnen uit de straat waren uitgenodigd.", en: "All the families in the street were invited." } }
+  - - { id: fr-b1-t01-s03, target: "Le matin, les enfants ont décoré la place avec des ballons.", native: { nl: "'s Ochtends versierden de kinderen het plein met ballonnen.", en: "In the morning the children decorated the square with balloons." } }
+    - { id: fr-b1-t01-s04, target: "Les parents ont installé de longues tables sous les arbres.", native: { nl: "De ouders zetten lange tafels neer onder de bomen.", en: "The parents set up long tables under the trees." } }
+  - - { id: fr-b1-t01-s05, target: "À midi, chaque famille a apporté un plat à partager.", native: { nl: "Om twaalf uur bracht elk gezin een gerecht mee om te delen.", en: "At midday each family brought a dish to share." } }
+    - { id: fr-b1-t01-s06, target: "Il y avait des salades, des gâteaux et aussi une soupe.", native: { nl: "Er waren salades, taarten en ook een soep.", en: "There were salads, cakes and some soup too." } }
+  - - { id: fr-b1-t01-s07, target: "L'après-midi, il y avait un concours de dessin pour les enfants.", native: { nl: "'s Middags was er een tekenwedstrijd voor de kinderen.", en: "In the afternoon there was a drawing competition for the children." } }
+    - { id: fr-b1-t01-s08, target: "Le soir, tout le monde était fatigué mais très content.", native: { nl: "'s Avonds was iedereen moe maar heel blij.", en: "In the evening everyone was tired but very happy." } }
+glossary: []
+items: [fr.decorer, fr.installer, fr.concours]
+questions:
+  - { id: fr-b1-t01-q1, type: mc, question: "Qui était invité à la fête ?", options: ["Toutes les familles de la rue.", "Seulement les enfants.", "Les élèves de l'école."], correct: 0 }
+  - { id: fr-b1-t01-q2, type: true_false_notgiven, statement: "La fête était un dimanche.", answer: false }
+  - { id: fr-b1-t01-q3, type: true_false_notgiven, statement: "Chaque famille a apporté quelque chose à manger.", answer: true }
+  - { id: fr-b1-t01-q4, type: true_false_notgiven, statement: "Il a plu l'après-midi.", answer: not_given }
+  - { id: fr-b1-t01-q5, type: match_heading, paragraph: 3, options: ["Un repas ensemble", "On prépare la fête", "Le soir dans le quartier"], correct: 0 }
+listeningQuestions:
+  - { id: fr-b1-t01-l1, type: mc, question: "Où étaient les tables ?", options: ["Sous les arbres.", "Dans l'école.", "Dans la cuisine."], correct: 0 }
+  - { id: fr-b1-t01-l2, type: true_false_notgiven, statement: "Le soir, les gens étaient contents.", answer: true }
+cloze:
+  - { sentence: fr-b1-t01-s01, word: avait, kind: finite_verb, hint: { nl: "avoir (imparfait)", en: "avoir (imperfect: il y …)" } }
+  - { sentence: fr-b1-t01-s02, word: étaient, kind: finite_verb, hint: { nl: "être (imparfait)", en: "être (imperfect)" } }
+  - { sentence: fr-b1-t01-s05, word: plat, hint: { nl: gerecht, en: "dish" } }
+  - { sentence: fr-b1-t01-s08, word: était, kind: finite_verb, hint: { nl: "être (imparfait)", en: "être (imperfect)" } }
+orderable: true

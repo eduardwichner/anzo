@@ -1,0 +1,14 @@
+id: en-b2
+cefr: B2
+# English B2 (B2 First for Schools), units 1–20, one text each.
+finiteVerbFill: true
+transformsFirst: true
+source: >-
+  English for Dutch-speaking learners (from about 13 to adult), level B2. Cambridge publishes no B2 vocabulary list, so the
+  course uses a derived list (content/src/en/WORDLIST.md): every word is on the Cambridge YLE word list, the B1 Preliminary
+  and Preliminary for Schools Vocabulary List (August 2025), or a B2 group of content/src/en/wordlist-b2-sources.yaml
+  (attested in the B2 First for Schools sample paper 1, or a topic word with its justification), or is a name or a text's
+  glossary word. Units follow the B2 First for Schools handbook (2026; the writing topics "health and fitness, sport, music
+  and so on", the reading and listening text types) and the topics of the Dutch and French B2 courses; the exam's task
+  types are the exercise kinds (open cloze, word formation, key word transformation, gapped text, multiple matching). The
+  texts are original; Dutch meanings written by the content author.

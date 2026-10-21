@@ -1,0 +1,108 @@
+id: en-b1-u12
+title: { nl: Vrije tijd en hobby's }
+icon: hobby
+topic: Hobbies, going out and leisure activities; verbs followed by -ing or to (enjoy, fancy, look forward to, decide to)
+vocabulary:
+  - { target: leisure, native: { nl: vrije tijd }, pos: noun, avoid: [en.spare] }
+  - { target: activity, native: { nl: activiteit }, pos: noun }
+  - { target: interest, native: { nl: interesse }, pos: noun }
+  - { target: keen, native: { nl: "enthousiast, dol (op)" }, pos: adjective }
+  - { target: spare, native: { nl: "vrij (tijd); reserve-" }, pos: adjective }
+  - { target: take up, native: { nl: beginnen met (een hobby) }, pos: phrase }
+  - { target: take part, native: { nl: "deelnemen, meedoen" }, pos: phrase, avoid: [en.compete] }
+  - { target: membership, native: { nl: lidmaatschap }, pos: noun }
+  - { target: fancy, native: { nl: zin hebben in }, pos: verb, avoid: [en.feel-like], noBlank: true }
+  - { target: feel like, native: { nl: zin hebben om }, pos: phrase, avoid: [en.fancy] }
+  - { target: look forward to, native: { nl: uitkijken naar }, pos: phrase }
+  - { target: enjoyable, native: { nl: plezierig }, pos: adjective }
+  - { target: relax, native: { nl: ontspannen (zich) }, pos: verb, avoid: [en.relaxed] }
+  - { target: relaxation, native: { nl: ontspanning }, pos: noun }
+  - { target: chill out, native: { nl: chillen }, pos: phrase }
+  - { target: hang out, native: { nl: rondhangen (met vrienden) }, pos: phrase }
+  - { target: sunbathe, native: { nl: zonnebaden }, pos: verb }
+  - { target: indoor, native: { nl: binnen- (overdekt) }, pos: adjective, avoid: [en.outdoor, en.indoors] }
+  - { target: outdoor, native: { nl: buiten- (in de open lucht) }, pos: adjective, avoid: [en.outdoors] }
+  - { target: indoors, native: { nl: binnen }, pos: adverb, avoid: [en.outdoors] }
+  - { target: outdoors, native: { nl: buiten }, pos: adverb }
+  - { target: walking, native: { nl: wandelen (het wandelen) }, pos: noun, avoid: [en.hike] }
+  - { target: hike, native: { nl: "een (lange) wandeling maken, trekken" }, pos: verb }
+  - { target: climbing, native: { nl: klimmen }, pos: noun }
+  - { target: rope, native: { nl: touw }, pos: noun }
+  - { target: camping, native: { nl: kamperen }, pos: noun }
+  - { target: campsite, native: { nl: camping }, pos: noun }
+  - { target: sailing, native: { nl: zeilen (het zeilen) }, pos: noun }
+  - { target: riding, native: { nl: "paardrijden, het rijden" }, pos: noun }
+  - { target: horse-riding, native: { nl: paardrijden }, pos: noun }
+  - { target: rider, native: { nl: ruiter }, pos: noun }
+  - { target: hire, native: { nl: huren (voor korte tijd) }, pos: verb }
+  - { target: slide, native: { nl: glijbaan }, pos: noun }
+  - { target: video game, native: { nl: videospel }, pos: noun }
+  - { target: collection, native: { nl: verzameling }, pos: noun }
+  - { target: photograph, native: { nl: foto }, pos: noun }
+  - { target: photography, native: { nl: fotografie }, pos: noun }
+  - { target: pottery, native: { nl: pottenbakken }, pos: noun }
+  - { target: sculpture, native: { nl: beeldhouwwerk }, pos: noun }
+  - { target: knit, native: { nl: breien }, pos: verb, avoid: [en.sew] }
+  - { target: sew, native: { nl: naaien }, pos: verb }
+  - { target: gallery, native: { nl: galerie }, pos: noun }
+  - { target: exhibition, native: { nl: tentoonstelling }, pos: noun }
+  - { target: admission, native: { nl: "toegang, toegangsprijs" }, pos: noun, avoid: [en.access, en.entry] }
+  - { target: event, native: { nl: evenement }, pos: noun }
+  - { target: atmosphere, native: { nl: sfeer }, pos: noun }
+  - { target: dancing, native: { nl: dansen (het dansen) }, pos: noun }
+  - { target: disco, native: { nl: disco }, pos: noun }
+  - { target: nightclub, native: { nl: nachtclub }, pos: noun }
+  - { target: nightlife, native: { nl: uitgaansleven }, pos: noun }
+sentences:
+  - { id: s01, target: "What do you like doing in your leisure time?", native: { nl: "Wat doe je graag in je vrije tijd?" }, items: [en.leisure] }
+  - { id: s02, target: "The club offers lots of activities for teenagers.", native: { nl: "De club biedt veel activiteiten voor tieners." }, items: [en.activity] }
+  - { id: s03, target: "We share an interest in old films.", native: { nl: "We hebben allebei interesse in oude films." }, items: [en.interest] }
+  - { id: s04, target: "My brother is very keen on cycling.", native: { nl: "Mijn broer is heel dol op fietsen." }, items: [en.keen] }
+  - { id: s05, target: "What do you do in your spare time?", native: { nl: "Wat doe je in je vrije tijd?" }, items: [en.spare] }
+  - { id: s06, target: "Last year I took up the guitar.", native: { nl: "Vorig jaar ben ik met gitaar begonnen." }, items: [en.take-up], finite: { word: took, hint: { nl: "take (verleden tijd: … up)" } } }
+  - { id: s07, target: "Everybody in the class took part in the concert.", native: { nl: "Iedereen in de klas deed mee aan het concert." }, items: [en.take-part] }
+  - { id: s08, target: "Membership of the club costs ten pounds a year.", native: { nl: "Het lidmaatschap van de club kost tien pond per jaar." }, items: [en.membership] }
+  - { id: s09, target: "Do you fancy going to the cinema tonight?", native: { nl: "Heb je zin om vanavond naar de bioscoop te gaan?" }, items: [en.fancy] }
+  - { id: s10, target: "I don't feel like going out. I'm too tired.", native: { nl: "Ik heb geen zin om uit te gaan. Ik ben te moe." }, items: [en.feel-like] }
+  - { id: s11, target: "I'm really looking forward to the holidays.", native: { nl: "Ik kijk echt uit naar de vakantie." }, items: [en.look-forward-to] }
+  - { id: s12, target: "It was an enjoyable evening.", native: { nl: "Het was een plezierige avond." }, items: [en.enjoyable] }
+  - { id: s13, target: "On Sundays I just relax at home.", native: { nl: "Op zondag ontspan ik gewoon thuis." }, items: [en.relax], acceptAlso: ["I just relax at home on Sundays."] }
+  - { id: s14, target: "Reading is my favourite form of relaxation.", native: { nl: "Lezen is mijn favoriete vorm van ontspanning." }, items: [en.relaxation] }
+  - { id: s15, target: "After the exams we went to the beach to chill out.", native: { nl: "Na de examens gingen we naar het strand om te chillen." }, items: [en.chill-out] }
+  - { id: s16, target: "We usually hang out at the park after school.", native: { nl: "We hangen na school meestal rond in het park." }, items: [en.hang-out], acceptAlso: ["After school we usually hang out at the park."] }
+  - { id: s17, target: "Don't sunbathe in the middle of the day.", native: { nl: "Ga niet midden op de dag zonnebaden." }, items: [en.sunbathe] }
+  - { id: s18, target: "The town has a new indoor pool.", native: { nl: "De stad heeft een nieuw binnenzwembad." }, items: [en.indoor] }
+  - { id: s19, target: "There's an outdoor concert in the park on Saturday.", native: { nl: "Er is zaterdag een openluchtconcert in het park." }, items: [en.outdoor] }
+  - { id: s20, target: "It's raining, so let's play indoors.", native: { nl: "Het regent, dus laten we binnen spelen." }, items: [en.indoors] }
+  - { id: s21, target: "I love sleeping outdoors in summer.", native: { nl: "Ik slaap in de zomer graag buiten." }, items: [en.outdoors] }
+  - { id: s22, target: "Walking is a great way to see the countryside.", native: { nl: "Wandelen is een geweldige manier om het platteland te zien." }, items: [en.walking] }
+  - { id: s23, target: "We hiked for six hours in the mountains.", native: { nl: "We hebben zes uur in de bergen gewandeld." }, items: [en.hike], finite: { word: hiked, hint: { nl: "hike (verleden tijd)" } } }
+  - { id: s24, target: "Climbing is more fun with friends.", native: { nl: "Klimmen is leuker met vrienden." }, items: [en.climbing] }
+  - { id: s25, target: "Hold the rope with both hands.", native: { nl: "Houd het touw met beide handen vast." }, items: [en.rope] }
+  - { id: s26, target: "We went camping in Wales last summer.", native: { nl: "We gingen vorige zomer kamperen in Wales." }, items: [en.camping] }
+  - { id: s27, target: "The campsite was next to a beautiful lake.", native: { nl: "De camping lag naast een prachtig meer." }, items: [en.campsite] }
+  - { id: s28, target: "My grandfather taught me everything I know about sailing.", native: { nl: "Mijn opa heeft me alles over zeilen geleerd." }, items: [en.sailing] }
+  - { id: s29, target: "She has riding lessons on Saturday mornings.", native: { nl: "Ze heeft op zaterdagochtend paardrijles." }, items: [en.riding], acceptAlso: ["On Saturday mornings she has riding lessons."] }
+  - { id: s30, target: "Horse-riding is popular in our village.", native: { nl: "Paardrijden is populair in ons dorp." }, items: [en.horse-riding] }
+  - { id: s31, target: "The rider fell off, but she wasn't hurt.", native: { nl: "De ruiter viel eraf, maar ze was niet gewond." }, items: [en.rider] }
+  - { id: s32, target: "We hired bikes for the day.", native: { nl: "We huurden fietsen voor een dag." }, items: [en.hire] }
+  - { id: s33, target: "The children went down the slide again and again.", native: { nl: "De kinderen gingen keer op keer van de glijbaan." }, items: [en.slide] }
+  - { id: s34, target: "He spends too much time playing video games.", native: { nl: "Hij besteedt te veel tijd aan videospelletjes." }, items: [en.video-game] }
+  - { id: s35, target: "My uncle has a huge collection of comics.", native: { nl: "Mijn oom heeft een enorme verzameling strips." }, items: [en.collection] }
+  - { id: s36, target: "This photograph was taken in 1965.", native: { nl: "Deze foto is in 1965 gemaakt." }, items: [en.photograph] }
+  - { id: s37, target: "She's doing a photography course.", native: { nl: "Ze volgt een cursus fotografie." }, items: [en.photography] }
+  - { id: s38, target: "I made this bowl in my pottery class.", native: { nl: "Ik heb deze kom gemaakt op de les pottenbakken." }, items: [en.pottery] }
+  - { id: s39, target: "There's a huge sculpture in the middle of the square.", native: { nl: "Er staat een enorm beeld midden op het plein." }, items: [en.sculpture] }
+  - { id: s40, target: "My grandmother knitted me a scarf.", native: { nl: "Mijn oma heeft een sjaal voor me gebreid." }, items: [en.knit] }
+  - { id: s41, target: "Can you sew a button on my shirt?", native: { nl: "Kun je een knoop aan mijn overhemd naaien?" }, items: [en.sew] }
+  - { id: s42, target: "Her paintings are in a gallery in London.", native: { nl: "Haar schilderijen hangen in een galerie in Londen." }, items: [en.gallery] }
+  - { id: s43, target: "We went to an exhibition about dinosaurs.", native: { nl: "We gingen naar een tentoonstelling over dinosaurussen." }, items: [en.exhibition] }
+  - { id: s44, target: "Admission is free for children under five.", native: { nl: "De toegang is gratis voor kinderen onder de vijf." }, items: [en.admission] }
+  - { id: s45, target: "The festival is the biggest event of the year.", native: { nl: "Het festival is het grootste evenement van het jaar." }, items: [en.event] }
+  - { id: s46, target: "The atmosphere at the concert was amazing.", native: { nl: "De sfeer op het concert was geweldig." }, items: [en.atmosphere] }
+  - { id: s47, target: "There will be music and dancing after dinner.", native: { nl: "Na het eten is er muziek en wordt er gedanst." }, items: [en.dancing] }
+  - { id: s48, target: "There's a school disco on Friday night.", native: { nl: "Er is vrijdagavond een schooldisco." }, items: [en.disco], acceptAlso: ["On Friday night there's a school disco."] }
+  - { id: s49, target: "You have to be eighteen to go into a nightclub.", native: { nl: "Je moet achttien zijn om naar een nachtclub te gaan." }, items: [en.nightclub] }
+  - { id: s50, target: "The city is famous for its nightlife.", native: { nl: "De stad is beroemd om zijn uitgaansleven." }, items: [en.nightlife] }
+  - { id: s51, target: "I enjoy painting, but I've decided to take up dancing too.", native: { nl: "Ik schilder graag, maar ik heb besloten ook te beginnen met dansen." }, items: [en.take-up] }
+texts: [en-b1-t13]

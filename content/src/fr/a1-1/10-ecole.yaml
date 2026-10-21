@@ -1,0 +1,52 @@
+id: fr-a1-1-u10
+title: { nl: Op school, en: "At school" }
+icon: school
+topic: L'école; les objets de la classe
+vocabulary:
+  - { target: "l'école", native: { nl: de school, en: "school" }, pos: noun, gender: f }
+  - { target: la classe, native: { nl: de klas, en: "class, classroom" }, pos: noun, gender: f }
+  - { target: le professeur, native: { nl: de leraar, en: "teacher" }, pos: noun, gender: m }
+  - { target: la maîtresse, native: { nl: de juf, en: "primary school teacher, teacher (female)" }, pos: noun, gender: f }
+  - { target: "l'élève", native: { nl: de leerling, en: "pupil" }, pos: noun, gender: m }
+  - { target: le cours, native: { nl: de les, en: "lesson, class" }, pos: noun, gender: m }
+  - { target: la bibliothèque, native: { nl: de bibliotheek, en: "library" }, pos: noun, gender: f }
+  - { target: le livre, native: { nl: het boek, en: "book" }, pos: noun, gender: m }
+  - { target: le cahier, native: { nl: het schrift, en: "exercise book" }, pos: noun, gender: m }
+  - { target: le crayon, native: { nl: het potlood, en: "pencil" }, pos: noun, gender: m }
+  - { target: le stylo, native: { nl: de pen, en: "pen" }, pos: noun, gender: m }
+  - { target: la gomme, native: { nl: de gum, en: "rubber, eraser" }, pos: noun, gender: f }
+  - { target: la règle, native: { nl: "de liniaal, de regel", en: "ruler, rule" }, pos: noun, gender: f }
+  - { target: les ciseaux, native: { nl: de schaar, en: "scissors" }, pos: noun, gender: m }
+  - { target: la feuille, native: { nl: "het blad papier, het vel", en: "sheet of paper" }, pos: noun, gender: f }
+  - { target: la trousse, native: { nl: het etui, en: "pencil case" }, pos: noun, gender: f }
+  - { target: le sac, native: { nl: de tas, en: "bag" }, pos: noun, gender: m }
+  - { target: le tableau, native: { nl: het schoolbord, en: "board (in a classroom)" }, pos: noun, gender: m }
+  - { target: "l'objet", native: { nl: "het voorwerp, het ding", en: "object, thing" }, pos: noun, gender: m }
+  - { target: les affaires, native: { nl: de spullen, en: "things, belongings" }, pos: noun, gender: f, avoid: [fr.objet] }
+sentences:
+  - { id: s01, target: "L'école commence à huit heures.", native: { nl: "De school begint om acht uur.", en: "School starts at eight o'clock." }, items: [fr.ecole] }
+  - { id: s02, target: "Je vais à l'école en bus.", native: { nl: "Ik ga met de bus naar school.", en: "I go to school by bus." }, items: [fr.ecole] }
+  - { id: s03, target: "Il y a vingt élèves dans ma classe.", native: { nl: "Er zitten twintig leerlingen in mijn klas.", en: "There are twenty pupils in my class." }, items: [fr.classe, fr.eleve] }
+  - { id: s04, target: "Ma classe est grande.", native: { nl: "Mijn klas is groot.", en: "My classroom is big." }, items: [fr.classe] }
+  - { id: s05, target: "Le professeur s'appelle monsieur Martin.", native: { nl: "De leraar heet meneer Martin.", en: "The teacher is called Mr Martin." }, items: [fr.professeur] }
+  - { id: s06, target: "La maîtresse est jeune.", native: { nl: "De juf is jong.", en: "The teacher is young." }, items: [fr.maitresse] }
+  - { id: s07, target: "Paul est un nouvel élève.", native: { nl: "Paul is een nieuwe leerling.", en: "Paul is a new pupil." }, items: [fr.eleve] }
+  - { id: s08, target: "J'aime le cours de dessin.", native: { nl: "Ik vind de tekenles leuk.", en: "I like drawing lessons." }, items: [fr.cours] }
+  - { id: s09, target: "Je vais à la bibliothèque.", native: { nl: "Ik ga naar de bibliotheek.", en: "I'm going to the library." }, items: [fr.bibliotheque] }
+  - { id: s10, target: "Je lis un livre.", native: { nl: "Ik lees een boek.", en: "I'm reading a book." }, items: [fr.livre] }
+  - { id: s11, target: "Ton cahier est sur la table.", native: { nl: "Je schrift ligt op de tafel.", en: "Your exercise book is on the table." }, items: [fr.cahier] }
+  - { id: s12, target: "J'ai des crayons de couleur.", native: { nl: "Ik heb kleurpotloden.", en: "I have some coloured pencils." }, items: [fr.crayon] }
+  - { id: s13, target: "Mon stylo est bleu.", native: { nl: "Mijn pen is blauw.", en: "My pen is blue." }, items: [fr.stylo] }
+  - { id: s14, target: "Tu as une gomme ?", native: { nl: "Heb je een gum?", en: "Have you got a rubber?" }, items: [fr.gomme] }
+  - { id: s15, target: "J'apporte une règle et des ciseaux.", native: { nl: "Ik neem een liniaal en een schaar mee.", en: "I'm bringing a ruler and some scissors." }, items: [fr.regle, fr.ciseaux] }
+  - { id: s16, target: "Les ciseaux sont dans la boîte.", native: { nl: "De schaar ligt in de doos.", en: "The scissors are in the box." }, items: [fr.ciseaux] }
+  - { id: s17, target: "Prends une feuille, s'il te plaît.", native: { nl: "Pak een blad papier, alsjeblieft.", en: "Take a sheet of paper, please." }, items: [fr.feuille] }
+  - { id: s18, target: "Mon stylo est dans ma trousse.", native: { nl: "Mijn pen zit in mijn etui.", en: "My pen is in my pencil case." }, items: [fr.trousse, fr.stylo] }
+  - { id: s19, target: "Je prépare mon sac pour l'école.", native: { nl: "Ik pak mijn tas in voor school.", en: "I'm packing my bag for school." }, items: [fr.sac] }
+  - { id: s20, target: "Regarde le tableau !", native: { nl: "Kijk naar het schoolbord!", en: "Look at the board!" }, items: [fr.tableau] }
+  - { id: s21, target: "Il y a quatre objets sur la table.", native: { nl: "Er liggen vier voorwerpen op de tafel.", en: "There are four objects on the table." }, items: [fr.objet] }
+  - { id: s22, target: "Je prends mes affaires.", native: { nl: "Ik pak mijn spullen.", en: "I'm taking my things." }, items: [fr.affaires] }
+lessons:
+  - { id: l01, title: { nl: In de klas, en: "In the classroom" }, vocab: [fr.ecole, fr.classe, fr.professeur, fr.maitresse, fr.eleve, fr.cours, fr.bibliotheque] }
+  - { id: l02, title: { nl: Mijn etui, en: "My pencil case" }, vocab: [fr.livre, fr.cahier, fr.crayon, fr.stylo, fr.gomme, fr.regle, fr.ciseaux] }
+  - { id: l03, title: { nl: Mijn tas, en: "My bag" }, vocab: [fr.feuille, fr.trousse, fr.sac, fr.tableau, fr.objet, fr.affaires] }

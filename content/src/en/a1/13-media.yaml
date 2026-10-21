@@ -1,0 +1,51 @@
+id: en-a1-u13
+title: { nl: Computers en media }
+icon: toys
+topic: Sports and leisure (music, films, computers); communication
+vocabulary:
+  - { target: band, native: { nl: "band (muziek)" }, pos: noun }
+  - { target: CD, native: { nl: cd }, pos: noun }
+  - { target: DVD, native: { nl: dvd }, pos: noun }
+  - { target: film, native: { nl: film }, pos: noun }
+  - { target: video, native: { nl: "video, filmpje" }, pos: noun, avoid: [en.film] }
+  - { target: comic, native: { nl: strip }, pos: noun }
+  - { target: comic book, native: { nl: stripboek }, pos: noun, avoid: [en.comic] }
+  - { target: email, native: { nl: e-mail }, pos: noun }
+  - { target: internet, native: { nl: internet }, pos: noun }
+  - { target: app, native: { nl: app }, pos: noun }
+  - { target: laptop, native: { nl: laptop }, pos: noun }
+  - { target: website, native: { nl: website }, pos: noun }
+  - { target: e-book, native: { nl: e-book }, pos: noun }
+  - { target: text, native: { nl: "sms'je, berichtje" }, pos: noun, avoid: [en.message] }
+  - { target: message, native: { nl: bericht }, pos: noun }
+  - { target: call, native: { nl: "bellen, opbellen" }, pos: verb }
+  - { target: send, native: { nl: sturen }, pos: verb }
+  - { target: laugh, native: { nl: lachen }, pos: verb }
+  - { target: shout, native: { nl: schreeuwen }, pos: verb }
+  - { target: cry, native: { nl: huilen }, pos: verb }
+sentences:
+  - { id: s01, target: "My brother plays in a band.", native: { nl: "Mijn broer speelt in een band." }, items: [en.band] }
+  - { id: s02, target: "I listened to a new CD.", native: { nl: "Ik luisterde naar een nieuwe cd." }, items: [en.cd] }
+  - { id: s03, target: "Let's watch a DVD!", native: { nl: "Laten we een dvd kijken!" }, items: [en.dvd] }
+  - { id: s04, target: "This film is very funny.", native: { nl: "Deze film is heel grappig." }, items: [en.film] }
+  - { id: s05, target: "Dad made a video of the party.", native: { nl: "Papa maakte een video van het feest." }, items: [en.video] }
+  - { id: s06, target: "I read a comic before bed.", native: { nl: "Ik lees een strip voor het slapengaan." }, items: [en.comic] }
+  - { id: s07, target: "This comic book is about a robot.", native: { nl: "Dit stripboek gaat over een robot." }, items: [en.comic-book] }
+  - { id: s08, target: "I sent Grandma an email.", native: { nl: "Ik heb oma een e-mail gestuurd." }, items: [en.email, en.send] }
+  - { id: s09, target: "We can find it on the internet.", native: { nl: "We kunnen het op internet vinden." }, items: [en.internet] }
+  - { id: s10, target: "This app is fun.", native: { nl: "Deze app is leuk." }, items: [en.app] }
+  - { id: s11, target: "My laptop is new.", native: { nl: "Mijn laptop is nieuw." }, items: [en.laptop] }
+  - { id: s12, target: "Look at this website.", native: { nl: "Kijk eens naar deze website." }, items: [en.website] }
+  - { id: s13, target: "I'm reading an e-book on my tablet.", native: { nl: "Ik lees een e-book op mijn tablet." }, items: [en.e-book], acceptAlso: ["I am reading an e-book on my tablet."] }
+  - { id: s14, target: "Mum sent me a text.", native: { nl: "Mama stuurde me een berichtje." }, items: [en.text, en.send] }
+  - { id: s15, target: "I've got a message for you.", native: { nl: "Ik heb een bericht voor je." }, items: [en.message], acceptAlso: ["I have got a message for you."] }
+  - { id: s16, target: "Can you call me after school?", native: { nl: "Kun je me na school bellen?" }, items: [en.call] }
+  - { id: s17, target: "Please send me a photo.", native: { nl: "Stuur me alsjeblieft een foto." }, items: [en.send] }
+  - { id: s18, target: "We laughed at the funny clown.", native: { nl: "We lachten om de grappige clown." }, items: [en.laugh] }
+  - { id: s19, target: "Don't shout! The baby is sleeping.", native: { nl: "Niet schreeuwen! De baby slaapt." }, items: [en.shout], acceptAlso: ["Do not shout! The baby is sleeping."] }
+  - { id: s20, target: "Why is the baby crying?", native: { nl: "Waarom huilt de baby?" }, items: [en.cry] }
+  - { id: s21, target: "Did you laugh at the film?", native: { nl: "Moest je lachen om de film?" }, items: [en.laugh, en.film] }
+lessons:
+  - { id: l01, title: { nl: Muziek en film }, vocab: [en.band, en.cd, en.dvd, en.film, en.video, en.comic, en.comic-book] }
+  - { id: l02, title: { nl: Online }, vocab: [en.email, en.internet, en.app, en.laptop, en.website, en.e-book, en.text] }
+  - { id: l03, title: { nl: Bellen en sturen }, vocab: [en.message, en.call, en.send, en.laugh, en.shout, en.cry] }

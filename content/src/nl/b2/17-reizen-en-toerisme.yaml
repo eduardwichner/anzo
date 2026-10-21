@@ -1,0 +1,87 @@
+id: nl-b2-u17
+title: { en: Travel and tourism }
+icon: plane
+topic: Sustainable travel, mass tourism and its effects on the people who live there, travelling slowly; relative clauses with wat, wie and waar (alles wat je ziet, wie reist, die …, de stad waar ik woon)
+vocabulary:
+  - { target: het toerisme, native: { en: tourism }, pos: noun, plural: "-" }
+  - { target: het massatoerisme, native: { en: mass tourism }, pos: noun, plural: "-", avoid: [nl.toerisme] }
+  - { target: de reiziger, native: { en: traveller }, pos: noun, plural: reizigers }
+  - { target: de vakantieganger, native: { en: holidaymaker }, pos: noun, plural: vakantiegangers }
+  - { target: de accommodatie, native: { en: accommodation }, pos: noun, plural: accommodaties }
+  - { target: verblijven, native: { en: "to stay (somewhere)" }, pos: verb }
+  - { target: overnachten, native: { en: "to stay the night" }, pos: verb }
+  - { target: verkennen, native: { en: "to explore" }, pos: verb, avoid: [nl.ontdekken] }
+  - { target: de rugzak, native: { en: rucksack }, pos: noun, plural: rugzakken }
+  - { target: de cruise, native: { en: cruise }, pos: noun, plural: cruises }
+  - { target: het cruiseschip, native: { en: cruise ship }, pos: noun, plural: cruiseschepen }
+  - { target: de vliegreis, native: { en: "trip by plane, flight" }, pos: noun, plural: vliegreizen, noBlank: true }
+  - { target: de treinreis, native: { en: train journey }, pos: noun, plural: treinreizen }
+  - { target: het hoogseizoen, native: { en: high season }, pos: noun, plural: "-" }
+  - { target: het laagseizoen, native: { en: low season }, pos: noun, plural: "-" }
+  - { target: overvol, native: { en: overcrowded }, pos: adjective }
+  - { target: de voetafdruk, native: { en: "footprint (as in: ecological footprint)" }, pos: noun, plural: voetafdrukken }
+  - { target: ecologisch, native: { en: ecological }, pos: adjective }
+  - { target: compenseren, native: { en: "to compensate, to offset" }, pos: verb }
+  - { target: de impact, native: { en: impact }, pos: noun, plural: "-" }
+  - { target: het evenwicht, native: { en: balance }, pos: noun, plural: "-" }
+  - { target: de beperking, native: { en: "limit, restriction" }, pos: noun, plural: beperkingen }
+  - { target: spreiden, native: { en: "to spread (out)" }, pos: verb }
+  - { target: de inkomsten, native: { en: "income, revenue" }, pos: noun, plural: "-" }
+  - { target: economisch, native: { en: economic }, pos: adjective }
+  - { target: het natuurgebied, native: { en: nature reserve }, pos: noun, plural: natuurgebieden }
+  - { target: de berg, native: { en: mountain }, pos: noun, plural: bergen }
+  - { target: authentiek, native: { en: authentic }, pos: adjective }
+  - { target: gastvrij, native: { en: hospitable }, pos: adjective }
+  - { target: de gastvrijheid, native: { en: hospitality }, pos: noun, plural: "-" }
+  - { target: de cultuurschok, native: { en: culture shock }, pos: noun, plural: cultuurschokken }
+  - { target: de ergernis, native: { en: "annoyance, irritation" }, pos: noun, plural: ergernissen }
+  - { target: het verlangen, native: { en: "longing, desire" }, pos: noun, plural: verlangens }
+sentences:
+  - { id: s01, target: "Het toerisme is belangrijk voor de economie van de kust.", native: { en: "Tourism is important for the economy of the coast." }, items: [nl.toerisme], acceptAlso: ["Voor de economie van de kust is het toerisme belangrijk."] }
+  - { id: s02, target: "Door het massatoerisme is wonen in sommige steden bijna onmogelijk.", native: { en: "Because of mass tourism, living in some cities is almost impossible." }, items: [nl.massatoerisme] }
+  - { id: s03, target: "Reizigers met een rugzak zoeken vaak goedkope accommodatie.", native: { en: "Travellers with a rucksack often look for cheap accommodation." }, items: [nl.reiziger, nl.rugzak, nl.accommodatie], acceptAlso: ["Vaak zoeken reizigers met een rugzak goedkope accommodatie."] }
+  - { id: s04, target: "In augustus zijn de stranden vol vakantiegangers.", native: { en: "In August the beaches are full of holidaymakers." }, items: [nl.vakantieganger], acceptAlso: ["De stranden zijn in augustus vol vakantiegangers."] }
+  - { id: s05, target: "We verblijven twee weken in een klein dorp in de bergen.", native: { en: "We are staying for two weeks in a small village in the mountains." }, items: [nl.verblijven, nl.berg], acceptAlso: ["Twee weken verblijven we in een klein dorp in de bergen.", "In een klein dorp in de bergen verblijven we twee weken."] }
+  - { id: s06, target: "Op weg naar Italië overnachten we in Zwitserland.", native: { en: "On the way to Italy we stay the night in Switzerland." }, items: [nl.overnachten] }
+  - { id: s07, target: "We verkenden de stad met de fiets.", native: { en: "We explored the city by bike." }, items: [nl.verkennen] }
+  - { id: s08, target: "Een cruise is niet goed voor het milieu.", native: { en: "A cruise is not good for the environment." }, items: [nl.cruise], acceptAlso: ["Voor het milieu is een cruise niet goed."] }
+  - { id: s09, target: "Elke dag komen er drie cruiseschepen in de haven aan.", native: { en: "Every day three cruise ships arrive in the port." }, items: [nl.cruiseschip], acceptAlso: ["Elke dag komen er drie cruiseschepen aan in de haven.", "Er komen elke dag drie cruiseschepen in de haven aan.", "Er komen elke dag drie cruiseschepen aan in de haven."] }
+  - { id: s10, target: "Een vliegreis stoot veel meer uit dan een treinreis.", native: { en: "A flight causes far more emissions than a train journey." }, items: [nl.vliegreis, nl.treinreis] }
+  - { id: s11, target: "In het hoogseizoen zijn de prijzen hoger.", native: { en: "In high season prices are higher." }, items: [nl.hoogseizoen] }
+  - { id: s12, target: "Wie in het laagseizoen reist, betaalt minder.", native: { en: "Anyone who travels in low season pays less." }, items: [nl.laagseizoen], acceptAlso: ["Wie reist in het laagseizoen, betaalt minder."] }
+  - { id: s13, target: "Het museum was overvol.", native: { en: "The museum was overcrowded." }, items: [nl.overvol] }
+  - { id: s14, target: "Door minder te vliegen verklein je je ecologische voetafdruk.", native: { en: "By flying less you reduce your ecological footprint." }, items: [nl.voetafdruk, nl.ecologisch] }
+  - { id: s15, target: "Je kunt de uitstoot van je vlucht compenseren door bomen te laten planten.", native: { en: "You can offset the emissions of your flight by having trees planted." }, items: [nl.compenseren] }
+  - { id: s16, target: "Het toerisme heeft een grote impact op de natuur.", native: { en: "Tourism has a big impact on nature." }, items: [nl.impact] }
+  - { id: s17, target: "De stad zoekt een evenwicht tussen toeristen en bewoners.", native: { en: "The city is looking for a balance between tourists and residents." }, items: [nl.evenwicht] }
+  - { id: s18, target: "Er komt een beperking op het aantal bezoekers.", native: { en: "There will be a limit on the number of visitors." }, items: [nl.beperking], form: { word: beperking, stem: beperken }, acceptAlso: ["Op het aantal bezoekers komt er een beperking."] }
+  - { id: s19, target: "Veel gezinnen spreiden hun vakanties over het jaar.", native: { en: "Many families spread their holidays over the year." }, items: [nl.spreiden] }
+  - { id: s20, target: "De inkomsten uit het toerisme zijn gestegen.", native: { en: "Income from tourism has risen." }, items: [nl.inkomsten] }
+  - { id: s21, target: "Het toerisme heeft een groot economisch belang.", native: { en: "Tourism has great economic importance." }, items: [nl.economisch] }
+  - { id: s22, target: "In het natuurgebied mag je geen lawaai maken.", native: { en: "You mustn't make any noise in the nature reserve." }, items: [nl.natuurgebied] }
+  - { id: s23, target: "We aten in een klein, authentiek restaurant.", native: { en: "We ate in a small, authentic restaurant." }, items: [nl.authentiek], finite: { word: aten, hint: { en: "eten (past)" } } }
+  - { id: s24, target: "De mensen in het dorp waren heel gastvrij.", native: { en: "The people in the village were very hospitable." }, items: [nl.gastvrij], acceptAlso: ["In het dorp waren de mensen heel gastvrij."] }
+  - { id: s25, target: "We zijn hun gastvrijheid nooit vergeten.", native: { en: "We have never forgotten their hospitality." }, items: [nl.gastvrijheid], form: { word: gastvrijheid, stem: gastvrij } }
+  - { id: s26, target: "In het begin had ik een grote cultuurschok.", native: { en: "At first I had quite a culture shock." }, items: [nl.cultuurschok] }
+  - { id: s27, target: "Het lawaai van de toeristen is een grote ergernis voor de bewoners.", native: { en: "The noise of the tourists is a major irritation for residents." }, items: [nl.ergernis] }
+  - { id: s28, target: "Het verlangen om te reizen is heel menselijk.", native: { en: "The longing to travel is very human." }, items: [nl.verlangen] }
+  - { id: s29, target: "Alles wat we op onze treinreis zagen, was nieuw voor ons.", native: { en: "Everything we saw on our train journey was new to us." }, items: [nl.treinreis], build: true, acceptAlso: ["Alles wat we op onze treinreis zagen, was voor ons nieuw.", "Voor ons was alles wat we op onze treinreis zagen nieuw."] }
+  - { id: s30, target: "Het enige wat ik op een cruise mis, is mijn eigen bed.", native: { en: "The only thing I miss on a cruise is my own bed." }, items: [nl.cruise], acceptAlso: ["Mijn eigen bed is het enige wat ik op een cruise mis."] }
+  - { id: s31, target: "Wie een treinreis maakt, ziet meer van het land.", native: { en: "Anyone who travels by train sees more of the country." }, items: [nl.treinreis] }
+  - { id: s32, target: "Dat is het dorp in de bergen waar mijn grootouders vandaan komen.", native: { en: "That is the village in the mountains my grandparents come from." }, items: [nl.berg], build: true }
+  - { id: s33, target: "De stad, waar vroeger weinig toeristen kwamen, is nu overvol.", native: { en: "The city, where few tourists used to come, is now overcrowded." }, items: [nl.overvol], acceptAlso: ["Nu is de stad, waar vroeger weinig toeristen kwamen, overvol."] }
+  - { id: s34, target: "De reiziger vertelde iets wat ik nog niet wist.", native: { en: "The traveller said something I didn't know yet." }, items: [nl.reiziger] }
+  - { id: s35, target: "Het was een heel toeristische stad.", native: { en: "It was a very touristy city." }, items: [nl.toerisme], form: { word: toeristische, stem: toerist } }
+  - { id: s36, target: "Het zijn heel gastvrije mensen.", native: { en: "They are very hospitable people." }, items: [nl.gastvrij] }
+  - { id: s37, target: "Er is een groot economisch verschil tussen de stad en het dorp.", native: { en: "There is a big economic difference between the city and the village." }, items: [nl.economisch], acceptAlso: ["Tussen de stad en het dorp is er een groot economisch verschil."] }
+  - { id: s38, target: "Steeds meer reizigers nemen de trein; het vliegtuig daarentegen blijft populair voor lange reizen.", native: { en: "More and more travellers take the train; the plane, on the other hand, remains popular for long journeys." }, items: [nl.daarentegen, nl.reiziger] }
+  - { id: s39, target: "Het museum is volgende week gesloten wegens werken.", native: { en: "The museum is closed next week because of building work." }, items: [nl.wegens] }
+  - { id: s40, target: "Het toerisme is weliswaar goed voor de economie, maar de bewoners betalen de prijs.", native: { en: "Tourism is admittedly good for the economy, but the residents pay the price." }, items: [nl.weliswaar] }
+  - { id: s41, target: "Als reiziger raak je snel gewend aan een nieuw land.", native: { en: "As a traveller you quickly get used to a new country." }, items: [nl.reiziger] }
+  - { id: s42, target: "Je kunt je reis gratis annuleren, mits je het binnen veertien dagen doet.", native: { en: "You can cancel your trip free of charge, provided you do it within fourteen days." }, items: [nl.mits] }
+  - { id: s43, target: "Je krijgt je geld terug, tenzij je te laat annuleert.", native: { en: "You get your money back, unless you cancel too late." }, items: [nl.tenzij] }
+transforms:
+  - { id: x01, from: "De reizigers zagen veel dingen en die waren allemaal nieuw.", key: wat, gapped: "Alles ___ zagen, was nieuw.", answers: ["wat de reizigers"], items: [nl.reiziger] }
+  - { id: x02, from: "In dat dorp in de bergen zijn de mensen heel gastvrij.", key: waar, gapped: "Dat is het dorp in de bergen ___ heel gastvrij zijn.", answers: ["waar de mensen"], items: [nl.berg] }
+  - { id: x03, from: "Als je een treinreis maakt, zie je meer van het land.", key: wie, gapped: "___ maakt, ziet meer van het land.", answers: ["Wie een treinreis"], items: [nl.treinreis] }
+texts: [nl-b2-t18]

@@ -1,0 +1,51 @@
+id: nl-a1-u01
+title: { en: Numbers to a thousand }
+icon: numbers
+topic: Numbers 30-1000, ordinals, amounts
+vocabulary:
+  - { target: dertig, native: { en: thirty }, pos: number }
+  - { target: veertig, native: { en: forty }, pos: number }
+  - { target: vijftig, native: { en: fifty }, pos: number }
+  - { target: zestig, native: { en: sixty }, pos: number }
+  - { target: zeventig, native: { en: seventy }, pos: number }
+  - { target: tachtig, native: { en: eighty }, pos: number }
+  - { target: negentig, native: { en: ninety }, pos: number }
+  - { target: honderd, native: { en: hundred }, pos: number }
+  - { target: duizend, native: { en: thousand }, pos: number }
+  - { target: het getal, native: { en: "number (figure)" }, pos: noun, plural: getallen, avoid: [nl.nummer] }
+  - { target: eerste, native: { en: "first (the first …)" }, pos: number }
+  - { target: tweede, native: { en: "second (the second …)" }, pos: number }
+  - { target: derde, native: { en: third }, pos: number }
+  - { target: vierde, native: { en: fourth }, pos: number }
+  - { target: vijfde, native: { en: fifth }, pos: number }
+  - { target: laatste, native: { en: "last (the last …)" }, pos: adjective }
+  - { target: de helft, native: { en: "half (a half)" }, pos: noun, plural: helften }
+  - { target: ongeveer, native: { en: "about, approximately" }, pos: adverb, avoid: [nl.precies] }
+  - { target: precies, native: { en: exactly }, pos: adverb }
+  - { target: samen, native: { en: together }, pos: adverb }
+  - { target: meer, native: { en: more }, pos: adverb, avoid: [nl.minder] }
+  - { target: minder, native: { en: less }, pos: adverb }
+sentences:
+  - { id: s01, target: "Mijn moeder is dertig jaar.", native: { en: "My mother is thirty." }, items: [nl.dertig] }
+  - { id: s02, target: "Ik woon op nummer veertig.", native: { en: "I live at number forty." }, items: [nl.veertig] }
+  - { id: s03, target: "Het kost vijftig euro.", native: { en: "It costs fifty euros." }, items: [nl.vijftig] }
+  - { id: s04, target: "Mijn vader is zestig.", native: { en: "My father is sixty." }, items: [nl.zestig] }
+  - { id: s05, target: "Mijn oma is zeventig jaar.", native: { en: "My grandmother is seventy." }, items: [nl.zeventig] }
+  - { id: s06, target: "De bus heeft tachtig stoelen.", native: { en: "The bus has eighty seats." }, items: [nl.tachtig] }
+  - { id: s07, target: "Ik heb negentig euro.", native: { en: "I have ninety euros." }, items: [nl.negentig] }
+  - { id: s08, target: "Honderd euro is veel geld.", native: { en: "A hundred euros is a lot of money." }, items: [nl.honderd] }
+  - { id: s09, target: "De computer kost duizend euro.", native: { en: "The computer costs a thousand euros." }, items: [nl.duizend] }
+  - { id: s10, target: "Welk getal is het?", native: { en: "Which number is it?" }, items: [nl.getal] }
+  - { id: s11, target: "Dit is mijn eerste les.", native: { en: "This is my first lesson." }, items: [nl.eerste] }
+  - { id: s12, target: "Ik woon op de tweede verdieping.", native: { en: "I live on the second floor." }, items: [nl.tweede] }
+  - { id: s13, target: "Het is de derde straat links.", native: { en: "It's the third street on the left." }, items: [nl.derde] }
+  - { id: s14, target: "De vierde dag van de week is donderdag.", native: { en: "The fourth day of the week is Thursday." }, items: [nl.vierde] }
+  - { id: s15, target: "De vijfde dag is vrijdag.", native: { en: "The fifth day is Friday." }, items: [nl.vijfde] }
+  - { id: s16, target: "Dit is de laatste bus.", native: { en: "This is the last bus." }, items: [nl.laatste] }
+  - { id: s17, target: "De helft is voor jou.", native: { en: "Half of it is for you." }, items: [nl.helft] }
+  - { id: s18, target: "Het is ongeveer tien minuten.", native: { en: "It's about ten minutes." }, items: [nl.ongeveer] }
+  - { id: s19, target: "Het is precies acht uur.", native: { en: "It's exactly eight o'clock." }, items: [nl.precies] }
+  - { id: s20, target: "Samen is dat vijfenveertig euro.", native: { en: "That's forty-five euros altogether." }, items: [nl.samen] }
+  - { id: s21, target: "Ik wil graag meer koffie.", native: { en: "I'd like more coffee." }, items: [nl.meer] }
+  - { id: s22, target: "Ik werk nu minder.", native: { en: "I work less now." }, items: [nl.minder], acceptAlso: ["Nu werk ik minder."] }
+  - { id: s23, target: "Tweehonderd euro is te duur.", native: { en: "Two hundred euros is too expensive." }, items: [nl.honderd] }

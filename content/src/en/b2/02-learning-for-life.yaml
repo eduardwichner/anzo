@@ -1,0 +1,75 @@
+id: en-b2-u02
+title: { nl: Een leven lang leren }
+icon: school
+topic: Studying effectively, assignments and deadlines, feedback, online and classroom learning; verbs with the gerund or the infinitive (avoid doing, decide to do, stop doing / to do, remember doing / to do)
+vocabulary:
+  - { target: lifelong, native: { nl: levenslang }, pos: adjective }
+  - { target: assignment, native: { nl: "opdracht, taak (voor school)" }, pos: noun }
+  - { target: deadline, native: { nl: deadline }, pos: noun, noBlank: true }
+  - { target: memorise, native: { nl: "uit het hoofd leren" }, pos: verb }
+  - { target: concentration, native: { nl: concentratie }, pos: noun }
+  - { target: distraction, native: { nl: afleiding }, pos: noun }
+  - { target: focus, native: { nl: "zich concentreren (op), focussen" }, pos: verb, avoid: [en.concentrate], noBlank: true }
+  - { target: attendance, native: { nl: "aanwezigheid (op school, in de les)" }, pos: noun }
+  - { target: tutor, native: { nl: "privéleraar, begeleider" }, pos: noun }
+  - { target: academic, native: { nl: "academisch (van studie en schoolvakken)" }, pos: adjective }
+  - { target: practical, native: { nl: praktisch }, pos: adjective }
+  - { target: theoretical, native: { nl: theoretisch }, pos: adjective }
+  - { target: discourage, native: { nl: ontmoedigen }, pos: verb, avoid: [en.encourage] }
+  - { target: compulsory, native: { nl: verplicht }, pos: adjective, avoid: [en.optional] }
+  - { target: optional, native: { nl: "keuze-, niet verplicht" }, pos: adjective, avoid: [en.compulsory] }
+  - { target: plagiarism, native: { nl: plagiaat }, pos: noun }
+  - { target: assess, native: { nl: "beoordelen, evalueren" }, pos: verb }
+  - { target: assessment, native: { nl: "beoordeling, evaluatie" }, pos: noun }
+  - { target: feedback, native: { nl: feedback }, pos: noun, noBlank: true }
+  - { target: mentor, native: { nl: mentor }, pos: noun, noBlank: true }
+  - { target: curiosity, native: { nl: nieuwsgierigheid }, pos: noun }
+  - { target: discipline, native: { nl: discipline }, pos: noun, noBlank: true }
+  - { target: take notes, native: { nl: "notities maken" }, pos: phrase, noBlank: true }
+  - { target: figure out, native: { nl: "uitzoeken, snappen" }, pos: phrase }
+  - { target: catch up, native: { nl: "bijwerken, inhalen (+ on)" }, pos: phrase, avoid: [en.overtake, en.upgrade] }
+  - { target: fall behind, native: { nl: "achteropraken" }, pos: phrase }
+  - { target: keep up with, native: { nl: "bijhouden, bijbenen" }, pos: phrase }
+  - { target: drop out, native: { nl: "afhaken, stoppen met een opleiding" }, pos: phrase }
+  - { target: broaden, native: { nl: verbreden }, pos: verb }
+  - { target: effective, native: { nl: "doeltreffend, effectief" }, pos: adjective }
+sentences:
+  - { id: s01, target: "My grandmother believes in lifelong learning: she started Spanish at seventy.", native: { nl: "Mijn oma gelooft in levenslang leren: ze begon op haar zeventigste met Spaans." }, items: [en.lifelong] }
+  - { id: s02, target: "We have to hand in the history assignment on Friday.", native: { nl: "We moeten de opdracht voor geschiedenis vrijdag inleveren." }, items: [en.assignment], acceptAlso: ["On Friday we have to hand in the history assignment."] }
+  - { id: s03, target: "I always leave everything until the day before the deadline.", native: { nl: "Ik laat alles altijd liggen tot de dag voor de deadline." }, items: [en.deadline] }
+  - { id: s04, target: "Some students memorise whole pages without understanding them.", native: { nl: "Sommige leerlingen leren hele bladzijden uit het hoofd zonder ze te begrijpen." }, items: [en.memorise] }
+  - { id: s05, target: "Loud music is bad for your concentration.", native: { nl: "Luide muziek is slecht voor je concentratie." }, items: [en.concentration], form: { word: concentration, stem: concentrate } }
+  - { id: s06, target: "Your phone is the biggest distraction when you are studying.", native: { nl: "Je telefoon is de grootste afleiding als je aan het studeren bent." }, items: [en.distraction] }
+  - { id: s07, target: "It is hard to focus when the room is noisy.", native: { nl: "Het is moeilijk je te concentreren als er lawaai is in de kamer." }, items: [en.focus] }
+  - { id: s08, target: "Good attendance is important if you want to pass.", native: { nl: "Goed aanwezig zijn is belangrijk als je wilt slagen." }, items: [en.attendance], form: { word: attendance, stem: attend } }
+  - { id: s09, target: "My parents found a tutor to help me with chemistry.", native: { nl: "Mijn ouders vonden een privéleraar om me met scheikunde te helpen." }, items: [en.tutor] }
+  - { id: s10, target: "She is good at academic subjects but prefers sport.", native: { nl: "Ze is goed in de theoretische vakken, maar ze houdt meer van sport." }, items: [en.academic] }
+  - { id: s11, target: "The course has a practical part and a theoretical part.", native: { nl: "De cursus heeft een praktisch en een theoretisch deel." }, items: [en.practical, en.theoretical] }
+  - { id: s12, target: "Bad marks shouldn't discourage you from trying again.", native: { nl: "Slechte cijfers mogen je niet ontmoedigen om het opnieuw te proberen." }, items: [en.discourage] }
+  - { id: s13, target: "Sport at school is compulsory until the age of sixteen.", native: { nl: "Sport op school is verplicht tot de leeftijd van zestien." }, items: [en.compulsory] }
+  - { id: s14, target: "The extra maths lessons are optional.", native: { nl: "De extra lessen wiskunde zijn niet verplicht." }, items: [en.optional] }
+  - { id: s15, target: "Copying text from the internet without saying where it comes from is plagiarism.", native: { nl: "Tekst van het internet overnemen zonder te zeggen waar die vandaan komt, is plagiaat." }, items: [en.plagiarism] }
+  - { id: s16, target: "Teachers assess our work in different ways.", native: { nl: "Leraren beoordelen ons werk op verschillende manieren." }, items: [en.assess] }
+  - { id: s17, target: "The final assessment is a presentation in front of the class.", native: { nl: "De eindbeoordeling is een presentatie voor de klas." }, items: [en.assessment] }
+  - { id: s18, target: "Her feedback helped me to improve my essay.", native: { nl: "Haar feedback hielp me om mijn essay te verbeteren." }, items: [en.feedback] }
+  - { id: s19, target: "Every new student has an older student as a mentor.", native: { nl: "Elke nieuwe leerling heeft een oudere leerling als mentor." }, items: [en.mentor] }
+  - { id: s20, target: "Curiosity is the best reason to learn something new.", native: { nl: "Nieuwsgierigheid is de beste reden om iets nieuws te leren." }, items: [en.curiosity] }
+  - { id: s21, target: "Studying at home takes a lot of discipline.", native: { nl: "Thuis studeren vraagt veel discipline." }, items: [en.discipline] }
+  - { id: s22, target: "Don't write everything down: just take notes on the main points.", native: { nl: "Schrijf niet alles op: maak alleen notities van de belangrijkste punten." }, items: [en.take-notes] }
+  - { id: s23, target: "I can't figure out how this calculator works.", native: { nl: "Ik snap niet hoe deze rekenmachine werkt." }, items: [en.figure-out] }
+  - { id: s24, target: "I was ill last week, so I need to catch up on my homework.", native: { nl: "Ik was vorige week ziek, dus ik moet mijn huiswerk inhalen." }, items: [en.catch-up] }
+  - { id: s25, target: "If you miss too many lessons, you will fall behind.", native: { nl: "Als je te veel lessen mist, raak je achterop." }, items: [en.fall-behind], acceptAlso: ["You will fall behind if you miss too many lessons."] }
+  - { id: s26, target: "It is difficult to keep up with the rest of the class.", native: { nl: "Het is moeilijk om de rest van de klas bij te houden." }, items: [en.keep-up-with] }
+  - { id: s27, target: "He dropped out of university after one year.", native: { nl: "Hij stopte na één jaar met de universiteit." }, items: [en.drop-out], acceptAlso: ["After one year he dropped out of university."] }
+  - { id: s28, target: "Travelling broadens your mind.", native: { nl: "Reizen verruimt je blik." }, items: [en.broaden] }
+  - { id: s29, target: "Testing yourself is a more effective way to learn than reading your notes again.", native: { nl: "Jezelf testen is een doeltreffendere manier om te leren dan je notities opnieuw lezen." }, items: [en.effective] }
+  - { id: s30, target: "I avoid looking at my phone while I am revising.", native: { nl: "Ik vermijd het om op mijn telefoon te kijken terwijl ik studeer." }, items: [en.distraction], build: true, acceptAlso: ["While I am revising, I avoid looking at my phone."] }
+  - { id: s31, target: "She decided to enrol on an online course in photography.", native: { nl: "Ze besloot zich in te schrijven voor een online cursus fotografie." }, items: [en.enrol] }
+  - { id: s32, target: "Remember to switch your phone to silent before the exam.", native: { nl: "Vergeet niet je telefoon op stil te zetten voor het examen." }, items: [en.distraction], build: true, acceptAlso: ["Before the exam, remember to switch your phone to silent."] }
+  - { id: s33, target: "I stopped taking notes because the teacher put everything online.", native: { nl: "Ik stopte met notities maken omdat de leraar alles online zette." }, items: [en.take-notes], acceptAlso: ["Because the teacher put everything online, I stopped taking notes."] }
+  - { id: s34, target: "He regrets not studying harder for his exams.", native: { nl: "Hij heeft er spijt van dat hij niet harder voor zijn examens heeft gestudeerd." }, items: [en.assessment], finite: { word: regrets, hint: { nl: "regret (tegenwoordige tijd)" } } }
+transforms:
+  - { id: x01, from: "It's not a good idea to study with the television on.", key: avoid, gapped: "You should ___ the television on.", answers: ["avoid studying with", "avoid having"], items: [en.distraction] }
+  - { id: x02, from: "Students don't have to take the extra lessons.", key: optional, gapped: "The extra lessons ___ students.", answers: ["are optional for"], items: [en.optional] }
+  - { id: x03, from: "I missed two weeks of school, so I am now behind the others.", key: fallen, gapped: "I missed two weeks of school, so I have ___ the others.", answers: ["fallen behind", "now fallen behind"], items: [en.fall-behind] }
+texts: [en-b2-t02]

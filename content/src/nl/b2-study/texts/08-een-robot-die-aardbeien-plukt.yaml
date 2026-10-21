@@ -1,0 +1,51 @@
+id: nl-b2-study-t08
+kind: reading
+title: { en: A robot that picks strawberries }
+topic: Design (a researcher explains a design project on the website for future students)
+level: B2
+paragraphs:
+  - - { id: nl-b2-study-t08-s01, target: "Aardbeien plukken is zwaar werk.", native: { en: "Picking strawberries is hard work." } }
+    - { id: nl-b2-study-t08-s02, target: "Elk jaar zoeken Vlaamse boeren meer dan duizend mensen om te helpen, en het wordt steeds moeilijker om ze te vinden.", native: { en: "Every year Flemish farmers look for more than a thousand people to help, and it is getting harder and harder to find them." } }
+    - { id: nl-b2-study-t08-s03, target: "Daarom werkt ons team aan de universiteit aan een robot die dat werk kan doen.", native: { en: "That is why our team at the university is working on a robot that can do that work." } }
+  - - { id: nl-b2-study-t08-s04, target: "De eerste stap was leren kijken.", native: { en: "The first step was learning to see." } }
+    - { id: nl-b2-study-t08-s05, target: "Een mens ziet meteen of een aardbei rijp is, maar een computer moet dat leren.", native: { en: "A person can see straight away whether a strawberry is ripe, but a computer has to learn that." } }
+    - { id: nl-b2-study-t08-s06, target: "We hebben de robot daarom meer dan tienduizend foto's van aardbeien laten zien, tot hij rijpe aardbeien zelf kon herkennen.", native: { en: "So we showed the robot more than ten thousand photos of strawberries, until it could recognise ripe strawberries by itself." } }
+  - - { id: nl-b2-study-t08-s07, target: "Daarna kwam het ontwerp van de hand.", native: { en: "Then came the design of the hand." } }
+    - { id: nl-b2-study-t08-s08, target: "Een aardbei is zacht en gaat snel kapot.", native: { en: "A strawberry is soft and is easily damaged." } }
+    - { id: nl-b2-study-t08-s09, target: "Onze ontwerpers hebben veel schetsen gemaakt en vijf prototypes getest, met vingers van verschillende materialen.", native: { en: "Our designers made a lot of sketches and tested five prototypes, with fingers of different materials." } }
+    - { id: nl-b2-study-t08-s10, target: "Het beste materiaal bleek een zachte kunststof, die de aardbei heel voorzichtig vasthoudt.", native: { en: "The best material turned out to be a soft plastic, which holds the strawberry very gently." } }
+  - - { id: nl-b2-study-t08-s11, target: "De laatste stap is testen in de serre van een boer.", native: { en: "The last step is testing in a farmer's greenhouse." } }
+    - { id: nl-b2-study-t08-s12, target: "Daar is alles anders dan in het labo: het licht verandert, en de aardbeien hangen soms achter de bladeren.", native: { en: "There everything is different from the lab: the light changes, and the strawberries sometimes hang behind the leaves." } }
+    - { id: nl-b2-study-t08-s13, target: "Vandaag plukt de robot ongeveer de helft van de rijpe aardbeien; een mens plukt ze bijna allemaal.", native: { en: "Today the robot picks about half of the ripe strawberries; a person picks almost all of them." } }
+  - - { id: nl-b2-study-t08-s14, target: "Gaat de robot de mens vervangen?", native: { en: "Is the robot going to replace people?" } }
+    - { id: nl-b2-study-t08-s15, target: "Volgens ons niet. Hij kan 's nachts werken en het zware werk doen, terwijl de boer en zijn mensen de moeilijkste aardbeien plukken.", native: { en: "We don't think so. It can work at night and do the heavy work, while the farmer and his people pick the most difficult strawberries." } }
+    - { id: nl-b2-study-t08-s16, target: "Een goed ontwerp vervangt de mens niet, maar maakt zijn werk lichter. Later kan dezelfde robot ook andere soorten fruit herkennen.", native: { en: "A good design doesn't replace people, but makes their work lighter. Later the same robot will be able to recognise other kinds of fruit too." } }
+glossary:
+  - { word: labo, native: { en: "lab (Belgian, het labo)" } }
+  - { word: bladeren, native: { en: "leaves (het blad)" } }
+  - { word: vasthoudt, native: { en: "holds (vasthouden)" } }
+items: [nl.aardbei, nl.plukken, nl.rijp, nl.ontwerp, nl.ontwerper, nl.schets, nl.prototype, nl.testen, nl.materiaal, nl.kunststof, nl.serre]
+gapped:
+  gaps: [nl-b2-study-t08-s04, nl-b2-study-t08-s07, nl-b2-study-t08-s11, nl-b2-study-t08-s14]
+  extra:
+    - { id: nl-b2-study-t08-x1, target: "Aardbeien zijn in juni het goedkoopst.", native: { en: "Strawberries are cheapest in June." } }
+openCloze:
+  - { sentence: nl-b2-study-t08-s05, word: of, acceptAlso: [wanneer] }
+  - { sentence: nl-b2-study-t08-s06, word: tot, acceptAlso: [totdat, zodat] }
+  - { sentence: nl-b2-study-t08-s12, word: dan }
+  - { sentence: nl-b2-study-t08-s15, word: terwijl }
+wordForm:
+  - { sentence: nl-b2-study-t08-s06, word: herkennen, stem: kennen }
+  - { sentence: nl-b2-study-t08-s09, word: ontwerpers, stem: ontwerpen }
+  - { sentence: nl-b2-study-t08-s13, word: helft, stem: half }
+questions:
+  - { id: nl-b2-study-t08-q1, type: summary, options: ["Een team ontwerpt in drie stappen een robot die aardbeien plukt; hij werkt al, maar zal de mens niet vervangen.", "Een boer vertelt waarom hij geen robots in zijn serre wil.", "Studenten leren hoe je aardbeien plukt in een serre."], correct: 0 }
+  - { id: nl-b2-study-t08-q2, type: mc, question: "Waarom werkt het team aan een robot die aardbeien plukt?", options: ["Boeren vinden steeds moeilijker mensen om te helpen.", "Aardbeien zijn te duur geworden.", "De boeren willen 's nachts niet meer werken."], correct: 0 }
+  - { id: nl-b2-study-t08-q3, type: true_false_notgiven, statement: "De ontwerpers hebben vijf prototypes getest.", answer: true }
+  - { id: nl-b2-study-t08-q4, type: true_false_notgiven, statement: "De robot plukt vandaag al bijna alle rijpe aardbeien.", answer: false }
+  - { id: nl-b2-study-t08-q5, type: true_false_notgiven, statement: "De robot kost meer dan honderdduizend euro.", answer: not_given }
+  - { id: nl-b2-study-t08-q6, type: match_heading, paragraph: 3, options: ["Een hand voor een zachte aardbei", "Leren kijken", "Testen in de serre"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-study-t08-l1, type: complete, statement: "Het beste materiaal voor de hand bleek een zachte ___.", answers: [kunststof] }
+  - { id: nl-b2-study-t08-l2, type: mc, question: "Wat kan de robot volgens het team doen?", options: ["'s Nachts werken en het zware werk doen.", "Alle aardbeien plukken.", "De boer helpen met de verkoop."], correct: 0 }
+orderable: false

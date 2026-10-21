@@ -1,0 +1,57 @@
+id: en-a2-u16
+title: { nl: Mensen beschrijven }
+icon: people
+topic: Family and friends; describing people and things
+vocabulary:
+  - { target: friendly, native: { nl: vriendelijk }, pos: adjective, avoid: [en.kind-adj, en.lovely] }
+  - { target: unfriendly, native: { nl: onvriendelijk }, pos: adjective }
+  - { id: en.kind-adj, target: kind, native: { nl: aardig }, pos: adjective }
+  - { target: unkind, native: { nl: onaardig }, pos: adjective, avoid: [en.unfriendly] }
+  - { target: lazy, native: { nl: lui }, pos: adjective }
+  - { target: popular, native: { nl: populair }, pos: adjective }
+  - { target: married, native: { nl: getrouwd }, pos: adjective }
+  - { target: husband, native: { nl: "man (echtgenoot)" }, pos: noun }
+  - { target: wife, native: { nl: "vrouw (echtgenote)" }, pos: noun }
+  - { target: poor, native: { nl: arm }, pos: adjective }
+  - { target: rich, native: { nl: rijk }, pos: adjective }
+  - { target: lovely, native: { nl: "heerlijk, lief" }, pos: adjective, avoid: [en.dear, en.kind-adj] }
+  - { target: wonderful, native: { nl: prachtig }, pos: adjective, avoid: [en.amazing] }
+  - { target: amazing, native: { nl: "verbazingwekkend, geweldig" }, pos: adjective }
+  - { target: excellent, native: { nl: uitstekend }, pos: adjective }
+  - { target: interesting, native: { nl: interessant }, pos: adjective, avoid: [en.interested] }
+  - { target: important, native: { nl: belangrijk }, pos: adjective }
+  - { target: special, native: { nl: "bijzonder, speciaal" }, pos: adjective }
+  - { target: horrible, native: { nl: "vreselijk, afschuwelijk" }, pos: adjective }
+  - { target: frightening, native: { nl: "eng, beangstigend" }, pos: adjective }
+  - { target: enormous, native: { nl: enorm }, pos: adjective }
+  - { target: unhappy, native: { nl: "niet blij, ongelukkig" }, pos: adjective }
+  - { target: unusual, native: { nl: ongewoon }, pos: adjective, avoid: [en.special] }
+sentences:
+  - { id: s01, target: "The new teacher is very friendly.", native: { nl: "De nieuwe juf is heel vriendelijk." }, items: [en.friendly] }
+  - { id: s02, target: "That dog looks unfriendly.", native: { nl: "Die hond ziet er onvriendelijk uit." }, items: [en.unfriendly] }
+  - { id: s03, target: "My teacher is always very kind.", native: { nl: "Mijn juf is altijd heel aardig." }, items: [en.kind-adj] }
+  - { id: s04, target: "Don't be unkind to your sister.", native: { nl: "Doe niet onaardig tegen je zus." }, items: [en.unkind], acceptAlso: ["Do not be unkind to your sister."] }
+  - { id: s05, target: "My cat is very lazy.", native: { nl: "Mijn kat is heel lui." }, items: [en.lazy] }
+  - { id: s06, target: "She is the most popular girl in our class.", native: { nl: "Zij is het populairste meisje van onze klas." }, items: [en.popular] }
+  - { id: s07, target: "My aunt is married to a pilot.", native: { nl: "Mijn tante is getrouwd met een piloot." }, items: [en.married] }
+  - { id: s08, target: "Her husband is a doctor.", native: { nl: "Haar man is dokter." }, items: [en.husband] }
+  - { id: s09, target: "His wife works at the hospital.", native: { nl: "Zijn vrouw werkt in het ziekenhuis." }, items: [en.wife] }
+  - { id: s10, target: "The poor man had no money.", native: { nl: "De arme man had geen geld." }, items: [en.poor] }
+  - { id: s11, target: "The king is very rich.", native: { nl: "De koning is heel rijk." }, items: [en.rich] }
+  - { id: s12, target: "It's a lovely day.", native: { nl: "Het is een heerlijke dag." }, items: [en.lovely], acceptAlso: ["It is a lovely day."] }
+  - { id: s13, target: "The view was wonderful.", native: { nl: "Het uitzicht was prachtig." }, items: [en.wonderful] }
+  - { id: s14, target: "That's amazing!", native: { nl: "Dat is geweldig!" }, items: [en.amazing], acceptAlso: ["That is amazing!"] }
+  - { id: s15, target: "Your English is excellent.", native: { nl: "Je Engels is uitstekend." }, items: [en.excellent] }
+  - { id: s16, target: "This book is very interesting.", native: { nl: "Dit boek is heel interessant." }, items: [en.interesting] }
+  - { id: s17, target: "It's important to drink water.", native: { nl: "Het is belangrijk om water te drinken." }, items: [en.important], acceptAlso: ["It is important to drink water."] }
+  - { id: s18, target: "Today is a special day.", native: { nl: "Vandaag is een bijzondere dag." }, items: [en.special] }
+  - { id: s19, target: "The weather was horrible.", native: { nl: "Het weer was vreselijk." }, items: [en.horrible] }
+  - { id: s20, target: "The film was a bit frightening.", native: { nl: "De film was een beetje eng." }, items: [en.frightening] }
+  - { id: s21, target: "Elephants are enormous.", native: { nl: "Olifanten zijn enorm." }, items: [en.enormous] }
+  - { id: s22, target: "Why are you unhappy?", native: { nl: "Waarom ben je ongelukkig?" }, items: [en.unhappy] }
+  - { id: s23, target: "That is an unusual bird.", native: { nl: "Dat is een ongewone vogel." }, items: [en.unusual] }
+lessons:
+  - { id: l01, title: { nl: Aardig en onaardig }, vocab: [en.friendly, en.unfriendly, en.kind-adj, en.unkind, en.lazy, en.popular] }
+  - { id: l02, title: { nl: Getrouwd }, vocab: [en.married, en.husband, en.wife, en.poor, en.rich, en.lovely] }
+  - { id: l03, title: { nl: Geweldig! }, vocab: [en.wonderful, en.amazing, en.excellent, en.interesting, en.important, en.special] }
+  - { id: l04, title: { nl: Eng en vreemd }, vocab: [en.horrible, en.frightening, en.enormous, en.unhappy, en.unusual] }

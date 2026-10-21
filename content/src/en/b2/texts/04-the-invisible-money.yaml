@@ -1,0 +1,53 @@
+id: en-b2-t04
+kind: reading
+title: { nl: Het onzichtbare geld }
+topic: Money and spending (an article on a news website for young people)
+level: B2
+paragraphs:
+  - - { id: en-b2-t04-s01, target: "When did you last pay for something with coins?", native: { nl: "Wanneer betaalde je voor het laatst iets met munten?" } }
+    - { id: en-b2-t04-s02, target: "For many teenagers the answer is \"I can't remember\": most of their spending now happens with a card or a phone.", native: { nl: "Voor veel tieners is het antwoord \"Ik weet het niet meer\": de meeste van hun uitgaven gebeuren nu met een kaart of een telefoon." } }
+    - { id: en-b2-t04-s03, target: "Contactless payment is fast and safe, but experts warn that it also makes money invisible.", native: { nl: "Contactloos betalen is snel en veilig, maar experts waarschuwen dat het geld ook onzichtbaar maakt." } }
+  - - { id: en-b2-t04-s04, target: "The figures support their concern.", native: { nl: "De cijfers bevestigen hun bezorgdheid." } }
+    - { id: en-b2-t04-s05, target: "In a recent survey of two thousand young people, almost half said they had run out of money before the end of the month at least once.", native: { nl: "In een recente enquête bij tweeduizend jongeren zei bijna de helft dat hun geld minstens één keer op was vóór het einde van de maand." } }
+    - { id: en-b2-t04-s06, target: "One in three admitted buying things on impulse that they did not really need, and many could not say how much they spent on subscriptions.", native: { nl: "Een op de drie gaf toe dingen in een opwelling te kopen die ze niet echt nodig hadden, en velen konden niet zeggen hoeveel ze aan abonnementen uitgaven." } }
+  - - { id: en-b2-t04-s07, target: "Why does it matter how we pay?", native: { nl: "Waarom maakt het uit hoe we betalen?" } }
+    - { id: en-b2-t04-s08, target: "Scientists have found that people who pay with cash usually spend less, because handing over notes feels like losing something.", native: { nl: "Wetenschappers hebben ontdekt dat mensen die contant betalen meestal minder uitgeven, omdat biljetten afgeven aanvoelt als iets verliezen." } }
+    - { id: en-b2-t04-s09, target: "A tap of the phone, on the other hand, hardly feels like a purchase at all.", native: { nl: "Een tik met de telefoon daarentegen voelt nauwelijks als een aankoop." } }
+    - { id: en-b2-t04-s10, target: "Online shops know this, and their advertising is designed to make buying as easy as possible.", native: { nl: "Webwinkels weten dat, en hun reclame is erop gericht om kopen zo makkelijk mogelijk te maken." } }
+  - - { id: en-b2-t04-s11, target: "So what can you do?", native: { nl: "Wat kun je dan doen?" } }
+    - { id: en-b2-t04-s12, target: "Financial advisers suggest a few simple habits.", native: { nl: "Financiële adviseurs stellen een paar eenvoudige gewoonten voor." } }
+    - { id: en-b2-t04-s13, target: "Make a budget at the start of each month and check your account once a week.", native: { nl: "Maak aan het begin van elke maand een budget en controleer je rekening één keer per week." } }
+    - { id: en-b2-t04-s14, target: "Wait twenty-four hours before any purchase over a certain amount: often the temptation disappears.", native: { nl: "Wacht vierentwintig uur voor elke aankoop boven een bepaald bedrag: vaak verdwijnt de verleiding." } }
+    - { id: en-b2-t04-s15, target: "And save a fixed part of your allowance or wages before you start spending, rather than what is left at the end.", native: { nl: "En spaar een vast deel van je toelage of loon voordat je begint uit te geven, in plaats van wat er op het einde overblijft." } }
+  - - { id: en-b2-t04-s16, target: "None of this means you should never splash out.", native: { nl: "Dat betekent niet dat je nooit eens veel geld mag uitgeven." } }
+    - { id: en-b2-t04-s17, target: "But as one nineteen-year-old in the survey put it: \"I wish someone had told me earlier that small amounts add up.\"", native: { nl: "Maar zoals een negentienjarige in de enquête het zei: \"Ik wou dat iemand me eerder had verteld dat kleine bedragen oplopen.\"" } }
+glossary:
+  - { word: invisible, native: { nl: onzichtbaar } }
+  - { word: concern, native: { nl: bezorgdheid } }
+  - { word: advisers, native: { nl: "adviseurs (adviser)" } }
+  - { word: add up, native: { nl: "oplopen, optellen" } }
+items: [en.spending, en.contactless, en.payment, en.survey, en.run-out-of, en.impulse, en.subscription, en.purchase, en.advertising, en.budget, en.temptation, en.allowance, en.splash-out]
+gapped:
+  gaps: [en-b2-t04-s04, en-b2-t04-s07, en-b2-t04-s11, en-b2-t04-s16]
+  extra:
+    - { id: en-b2-t04-x1, target: "Cash will probably disappear completely within ten years.", native: { nl: "Contant geld zal waarschijnlijk binnen tien jaar helemaal verdwijnen." } }
+openCloze:
+  - { sentence: en-b2-t04-s05, word: at }
+  - { sentence: en-b2-t04-s08, word: because, acceptAlso: [as, since] }
+  - { sentence: en-b2-t04-s10, word: as }
+  - { sentence: en-b2-t04-s15, word: before }
+wordForm:
+  - { sentence: en-b2-t04-s06, word: really, stem: real }
+  - { sentence: en-b2-t04-s08, word: usually, stem: usual }
+  - { sentence: en-b2-t04-s14, word: disappears, stem: appear }
+questions:
+  - { id: en-b2-t04-q1, type: summary, options: ["Paying by card or phone makes it harder to feel how much we spend, so young people often run out of money, but a few simple habits can help.", "Paying by card or phone is dangerous because criminals can easily steal your money online, so the advisers say young people should always pay with cash.", "Young people today are better with money than their parents, because they check their bank account on their phone every day."], correct: 0 }
+  - { id: en-b2-t04-q2, type: mc, question: "Why do people who pay with cash usually spend less?", options: ["Handing over notes feels like losing something.", "Shops give a discount for cash payments.", "Cash payments take longer at the till."], correct: 0 }
+  - { id: en-b2-t04-q3, type: true_false_notgiven, statement: "Almost half of the young people in the survey had run out of money at least once before the end of the month.", answer: true }
+  - { id: en-b2-t04-q4, type: true_false_notgiven, statement: "Most young people in the survey had a part-time job.", answer: not_given }
+  - { id: en-b2-t04-q5, type: true_false_notgiven, statement: "The advisers say you should save what is left at the end of the month.", answer: false }
+  - { id: en-b2-t04-q6, type: match_heading, paragraph: 4, options: ["Some useful habits", "Why the way we pay matters", "What the figures show"], correct: 0 }
+listeningQuestions:
+  - { id: en-b2-t04-l1, type: complete, statement: "Most of their spending now happens with a card or a ___.", answers: [phone] }
+  - { id: en-b2-t04-l2, type: mc, question: "How long should you wait before a bigger purchase?", options: ["Twenty-four hours.", "One week.", "Until the end of the month."], correct: 0 }
+orderable: false

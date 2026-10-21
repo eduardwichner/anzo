@@ -1,0 +1,40 @@
+id: fr-b2-t19
+kind: dialogue
+title: { nl: Moet school later beginnen?, en: "Should school start later?" }
+topic: Débat et argumentation (deux élèves préparent un débat au lycée)
+level: B2
+speakers: { A: { name: Sarah }, B: { name: Thomas } }
+turns:
+  - { id: fr-b2-t19-s01, speaker: B, target: "Sarah, le débat, c'est demain. On défend quelle position, déjà ?", native: { nl: "Sarah, het debat is morgen. Welk standpunt verdedigen we ook alweer?", en: "Sarah, the debate is tomorrow. Which position are we defending again?" } }
+  - { id: fr-b2-t19-s02, speaker: A, target: "Nous sommes pour une école qui commence une heure plus tard. L'autre équipe est contre.", native: { nl: "Wij zijn voor een school die een uur later begint. De andere ploeg is ertegen.", en: "We're in favour of a school day that starts an hour later. The other team is against it." } }
+  - { id: fr-b2-t19-s03, speaker: B, target: "D'accord. Alors, quel est notre argument le plus fort ?", native: { nl: "Oké. Wat is dan ons sterkste argument?", en: "OK. So what's our strongest argument?" } }
+  - { id: fr-b2-t19-s04, speaker: A, target: "Le sommeil. D'une part, les chercheurs sont d'accord : les ados ont besoin de plus de sommeil que les adultes, et leur corps veut se coucher plus tard.", native: { nl: "Slaap. Enerzijds zijn de onderzoekers het erover eens: tieners hebben meer slaap nodig dan volwassenen, en hun lichaam wil later gaan slapen.", en: "Sleep. For one thing, researchers agree: teenagers need more sleep than adults, and their bodies want to go to bed later." } }
+  - { id: fr-b2-t19-s05, speaker: B, target: "Et par conséquent, ils sont fatigués pendant les premiers cours. C'est un bon argument.", native: { nl: "En daardoor zijn ze moe tijdens de eerste lessen. Dat is een goed argument.", en: "And as a result, they're tired during the first lessons. That's a good argument." } }
+  - { id: fr-b2-t19-s06, speaker: A, target: "D'autre part, les écoles qui l'ont essayé disent que les élèves sont moins souvent absents et que les notes se sont améliorées.", native: { nl: "Anderzijds zeggen scholen die het geprobeerd hebben dat de leerlingen minder vaak afwezig zijn en dat de cijfers verbeterd zijn.", en: "For another, schools that have tried it say that pupils are absent less often and that marks have improved." } }
+  - { id: fr-b2-t19-s07, speaker: B, target: "Mais ils vont dire que l'école finirait plus tard, si bien qu'il y aurait moins de temps pour le sport et les petits boulots.", native: { nl: "Maar zij gaan zeggen dat de school later zou eindigen, zodat er minder tijd zou zijn voor sport en bijbaantjes.", en: "But they'll say that school would finish later, so there'd be less time for sport and part-time jobs." } }
+  - { id: fr-b2-t19-s08, speaker: A, target: "Certes, c'est un inconvénient. Mais ce qui compte le plus, c'est ce que les élèves apprennent vraiment.", native: { nl: "Dat is weliswaar een nadeel. Maar waar het het meest om gaat, is wat de leerlingen echt leren.", en: "Admittedly, that's a disadvantage. But what matters most is what pupils really learn." } }
+  - { id: fr-b2-t19-s09, speaker: B, target: "Ils pourraient aussi répondre que les parents doivent partir tôt au travail.", native: { nl: "Ze zouden ook kunnen inbrengen dat ouders vroeg naar hun werk moeten vertrekken.", en: "They could also argue that parents have to leave early for work." } }
+  - { id: fr-b2-t19-s10, speaker: A, target: "Alors nous proposons un compromis : l'école pourrait ouvrir tôt pour les élèves qui en ont besoin, avec une salle calme pour lire.", native: { nl: "Dan stellen wij een compromis voor: de school zou vroeg open kunnen gaan voor leerlingen die het nodig hebben, met een rustige ruimte om te lezen.", en: "Then we'll propose a compromise: the school could open early for pupils who need it, with a quiet room for reading." } }
+  - { id: fr-b2-t19-s11, speaker: B, target: "Bonne idée. Et il ne faut pas exagérer : une heure ne va pas résoudre tous les problèmes.", native: { nl: "Goed idee. En we moeten niet overdrijven: één uur gaat niet alle problemen oplossen.", en: "Good idea. And we mustn't exaggerate: one hour isn't going to solve every problem." } }
+  - { id: fr-b2-t19-s12, speaker: A, target: "Tout à fait. Si nous sommes honnêtes sur les inconvénients, notre thèse sera plus convaincante.", native: { nl: "Helemaal. Als we eerlijk zijn over de nadelen, zal onze stelling overtuigender zijn.", en: "Absolutely. If we're honest about the disadvantages, our thesis will be more convincing." } }
+  - { id: fr-b2-t19-s13, speaker: B, target: "Je fais la conclusion, alors ? Tu es meilleure que moi pour prendre la parole au début.", native: { nl: "Doe ik dan het slot? Jij kunt beter dan ik als eerste het woord nemen.", en: "Shall I do the conclusion, then? You're better than me at speaking first." } }
+  - { id: fr-b2-t19-s14, speaker: A, target: "D'accord, Thomas. On s'entraîne encore une fois après le déjeuner.", native: { nl: "Oké, Thomas. We oefenen nog één keer na de lunch.", en: "OK, Thomas. Let's practise once more after lunch." } }
+glossary:
+  - { word: boulots, native: { nl: "baantjes (un boulot, familiaar)", en: "jobs (un boulot: informal)" } }
+  - { word: exagérer, native: { nl: overdrijven, en: "to exaggerate" } }
+items: [fr.position, fr.d-une-part, fr.d-autre-part, fr.certes, fr.compromis, fr.these, fr.convaincant, fr.parole]
+questions:
+  - { id: fr-b2-t19-q1, type: summary, options: ["Deux élèves préparent leurs arguments pour un débat pour une école qui commence plus tard, et réfléchissent à ce que l'autre équipe va répondre.", "Deux élèves ne sont pas d'accord sur l'heure de l'école et décident de ne pas participer au débat.", "Deux élèves préparent un débat contre une école qui commence plus tard et décident de cacher les inconvénients de leur position."], correct: 0 }
+  - { id: fr-b2-t19-q2, type: mc, question: "Quel compromis proposent-ils pour les parents qui partent tôt ?", options: ["L'école pourrait ouvrir tôt, avec une salle calme.", "Les parents pourraient travailler à la maison.", "Les élèves pourraient prendre un bus plus tard."], correct: 0 }
+  - { id: fr-b2-t19-q3, type: true_false_notgiven, statement: "Sarah et Thomas sont contre une école qui commence plus tard.", answer: false }
+  - { id: fr-b2-t19-q4, type: true_false_notgiven, statement: "Le débat aura lieu dans la grande salle du lycée.", answer: not_given }
+  - { id: fr-b2-t19-q5, type: true_false_notgiven, statement: "Selon Sarah, être honnête sur les inconvénients rend leur thèse plus convaincante.", answer: true }
+listeningQuestions:
+  - { id: fr-b2-t19-l1, type: complete, statement: "Selon Sarah, le corps des ados veut se coucher plus ___.", answers: ["tard"] }
+  - { id: fr-b2-t19-l2, type: mc, question: "Qui va faire la conclusion ?", options: ["Thomas.", "Sarah.", "Le professeur."], correct: 0 }
+openCloze:
+  - { sentence: fr-b2-t19-s04, word: part }
+  - { sentence: fr-b2-t19-s07, word: bien }
+  - { sentence: fr-b2-t19-s09, word: aussi, acceptAlso: [également, encore] }
+  - { sentence: fr-b2-t19-s12, word: Si, acceptAlso: [Quand] }
+orderable: false

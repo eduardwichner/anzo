@@ -1,0 +1,34 @@
+id: fr-b1-t21
+kind: dialogue
+title: { nl: Een klasproject, en: "A class project" }
+topic: L'école (deux élèves préparent un projet de classe)
+level: B1
+speakers: { A: { name: Emma }, B: { name: Noé } }
+turns:
+  - { id: fr-b1-t21-s01, speaker: A, target: "Noé, le professeur veut notre proposition pour le projet avant vendredi.", native: { nl: "Noé, de leraar wil ons voorstel voor het project voor vrijdag.", en: "Noé, the teacher wants our proposal for the project before Friday." } }
+  - { id: fr-b1-t21-s02, speaker: B, target: "J'ai une idée : un circuit à vélo pour découvrir les monuments de la ville.", native: { nl: "Ik heb een idee: een fietstocht om de monumenten van de stad te ontdekken.", en: "I have an idea: a cycling tour to discover the town's monuments." } }
+  - { id: fr-b1-t21-s03, speaker: A, target: "C'est intéressant, mais est-ce que c'est réaliste ? Certains élèves n'ont pas de vélo.", native: { nl: "Dat is interessant, maar is het realistisch? Sommige leerlingen hebben geen fiets.", en: "That's interesting, but is it realistic? Some pupils haven't got a bike." } }
+  - { id: fr-b1-t21-s04, speaker: B, target: "Tu as raison. Dans ce cas, on pourrait faire le même circuit à pied.", native: { nl: "Je hebt gelijk. In dat geval zouden we dezelfde tocht te voet kunnen doen.", en: "You're right. In that case, we could do the same tour on foot." } }
+  - { id: fr-b1-t21-s05, speaker: A, target: "Oui, c'est plus simple. Et chaque groupe pourrait présenter un monument.", native: { nl: "Ja, dat is eenvoudiger. En elke groep zou een monument kunnen voorstellen.", en: "Yes, that's simpler. And each group could present a monument." } }
+  - { id: fr-b1-t21-s06, speaker: B, target: "Parfait ! Le groupe d'Inès peut prendre l'église, celui de Tom le vieux pont.", native: { nl: "Perfect! De groep van Inès kan de kerk nemen, die van Tom de oude brug.", en: "Perfect! Inès's group can take the church, Tom's the old bridge." } }
+  - { id: fr-b1-t21-s07, speaker: A, target: "Et nous, on prend le château. Je voudrais savoir quelle est l'origine de son nom.", native: { nl: "En wij nemen het kasteel. Ik wil graag weten wat de oorsprong van zijn naam is.", en: "And we'll take the castle. I'd like to know the origin of its name." } }
+  - { id: fr-b1-t21-s08, speaker: B, target: "D'accord. Il faut que nous écrivions un petit rapport pour le professeur.", native: { nl: "Oké. We moeten een klein verslag voor de leraar schrijven.", en: "OK. We have to write a short report for the teacher." } }
+  - { id: fr-b1-t21-s09, speaker: A, target: "Je le commence ce soir, et tu le termines demain. C'est juste, non ?", native: { nl: "Ik begin er vanavond aan, en jij maakt het morgen af. Dat is eerlijk, toch?", en: "I'll start it this evening, and you can finish it tomorrow. That's fair, isn't it?" } }
+  - { id: fr-b1-t21-s10, speaker: B, target: "Tout à fait. C'est la solution idéale !", native: { nl: "Helemaal. Dat is de ideale oplossing!", en: "Absolutely. That's the ideal solution!" } }
+items: [fr.proposition, fr.projet, fr.circuit, fr.monument, fr.realiste, fr.certain, fr.cas, fr.meme, fr.simple, fr.groupe, fr.celui, fr.origine, fr.il-faut-que, fr.rapport, fr.terminer, fr.juste, fr.solution, fr.ideal, fr.decouvrir]
+questions:
+  - { id: fr-b1-t21-q1, type: mc, question: "Quelle est la première idée de Noé ?", options: ["Un circuit à vélo.", "Une exposition de photos.", "Un voyage à l'étranger."], correct: 0 }
+  - { id: fr-b1-t21-q2, type: true_false_notgiven, statement: "Noé a déjà fait ce circuit à vélo.", answer: not_given }
+  - { id: fr-b1-t21-q3, type: true_false_notgiven, statement: "Chaque groupe va présenter un monument.", answer: true }
+  - { id: fr-b1-t21-q4, type: true_false_notgiven, statement: "Le professeur a déjà choisi les groupes.", answer: not_given }
+  - { id: fr-b1-t21-q5, type: mc, question: "Quel monument Emma et Noé vont-ils présenter ?", options: ["Le château.", "L'église.", "Le vieux pont."], correct: 0 }
+listeningQuestions:
+  - { id: fr-b1-t21-l1, type: mc, question: "Quand faut-il donner la proposition ?", options: ["Avant vendredi.", "Avant lundi.", "Ce soir."], correct: 0 }
+  - { id: fr-b1-t21-l2, type: true_false_notgiven, statement: "Emma va écrire tout le rapport seule.", answer: false }
+cloze:
+  - { sentence: fr-b1-t21-s01, word: veut, kind: finite_verb, hint: { nl: "vouloir (présent)", en: "vouloir (present)" } }
+  - { sentence: fr-b1-t21-s04, word: pourrait, kind: finite_verb, hint: { nl: "pouvoir (conditionnel)", en: "pouvoir (conditional)" } }
+  - { sentence: fr-b1-t21-s06, word: peut, kind: finite_verb, hint: { nl: "pouvoir (présent)", en: "pouvoir (present)" } }
+  - { sentence: fr-b1-t21-s08, word: écrivions, kind: finite_verb, hint: { nl: "écrire (subjonctif)", en: "écrire (subjunctive)" } }
+  - { sentence: fr-b1-t21-s09, word: termines, kind: finite_verb, hint: { nl: "terminer (présent)", en: "terminer (present)" } }
+orderable: true

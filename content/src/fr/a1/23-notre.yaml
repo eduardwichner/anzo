@@ -1,0 +1,42 @@
+id: fr-a1-u23
+title: { nl: Ons en jullie, en: "Our, your and their" }
+icon: people
+topic: Les possessifs; vous; les petits mots
+vocabulary:
+  - { target: notre, native: { nl: "ons, onze", en: "our" }, pos: determiner }
+  - { target: votre, native: { nl: "jullie, uw", en: "your (formal or plural)" }, pos: determiner }
+  - { target: leur, native: { nl: hun, en: "their" }, pos: determiner }
+  - { target: vous, native: { nl: "jullie, u", en: "you (formal or plural)" }, pos: pronoun }
+  - { target: tout, native: { nl: "alles, helemaal", en: "everything, all" }, pos: pronoun }
+  - { target: ensemble, native: { nl: samen, en: "together" }, pos: adverb }
+  - { target: un peu, native: { nl: een beetje, en: "a bit, a little bit" }, pos: adverb }
+  - { target: assez, native: { nl: genoeg, en: "enough" }, pos: adverb }
+  - { target: trop, native: { nl: "te, te veel", en: "too, too much, too many" }, pos: adverb }
+  - { target: mieux, native: { nl: beter, en: "better" }, pos: adverb }
+  - { target: mal, native: { nl: slecht (niet goed), en: "badly" }, pos: adverb, avoid: [fr.mauvais] }
+  - { target: bien sûr, native: { nl: natuurlijk, en: "of course" }, pos: adverb }
+  - { target: voici, native: { nl: "hier is, dit is", en: "here is, here it is, this is" }, pos: adverb }
+  - { target: là, native: { nl: daar, en: "there" }, pos: adverb }
+  - { target: rien, native: { nl: niets, en: "nothing" }, pos: pronoun }
+  - { target: quelque chose, native: { nl: iets, en: "something" }, pos: pronoun }
+sentences:
+  - { id: s01, target: "Notre maison est petite.", native: { nl: "Ons huis is klein.", en: "Our house is small." }, items: [fr.notre] }
+  - { id: s02, target: "Voici votre ballon, Paul et Rose !", native: { nl: "Hier is jullie bal, Paul en Rose!", en: "Here's your ball, Paul and Rose!" }, items: [fr.votre, fr.voici] }
+  - { id: s03, target: "Les enfants appellent leurs parents.", native: { nl: "De kinderen bellen hun ouders.", en: "The children are calling their parents." }, items: [fr.leur] }
+  - { id: s04, target: "Vous pouvez voir des animaux.", native: { nl: "Jullie kunnen dieren zien.", en: "You can see animals." }, items: [fr.vous] }
+  - { id: s05, target: "Bonjour madame, vous avez un menu enfant ?", native: { nl: "Dag mevrouw, heeft u een kindermenu?", en: "Hello, madam, have you got a children's menu?" }, items: [fr.vous] }
+  - { id: s06, target: "C'est tout ?", native: { nl: "Is dat alles?", en: "Is that all?" }, items: [fr.tout] }
+  - { id: s07, target: "On fait nos devoirs ensemble ?", native: { nl: "Zullen we samen ons huiswerk maken?", en: "Shall we do our homework together?" }, items: [fr.ensemble] }
+  - { id: s08, target: "Je parle un peu français.", native: { nl: "Ik spreek een beetje Frans.", en: "I speak a little French." }, items: [fr.un-peu] }
+  - { id: s09, target: "Tu as assez d'eau ?", native: { nl: "Heb je genoeg water?", en: "Have you got enough water?" }, items: [fr.assez] }
+  - { id: s10, target: "Tu manges trop de bonbons !", native: { nl: "Je eet te veel snoep!", en: "You eat too many sweets!" }, items: [fr.trop] }
+  - { id: s11, target: "Ça va mieux aujourd'hui ?", native: { nl: "Gaat het vandaag beter?", en: "Are you feeling better today?" }, items: [fr.mieux] }
+  - { id: s12, target: "Je chante mal.", native: { nl: "Ik zing slecht.", en: "I sing badly." }, items: [fr.mal] }
+  - { id: s13, target: "Tu viens ? Bien sûr !", native: { nl: "Kom je? Natuurlijk!", en: "Are you coming? Of course!" }, items: [fr.bien-sur] }
+  - { id: s14, target: "Mon chat est là, sous la table.", native: { nl: "Mijn kat zit daar, onder de tafel.", en: "My cat is there, under the table." }, items: [fr.la] }
+  - { id: s15, target: "Je ne vois rien.", native: { nl: "Ik zie niets.", en: "I can't see anything." }, items: [fr.rien] }
+  - { id: s16, target: "Tu veux boire quelque chose ?", native: { nl: "Wil je iets drinken?", en: "Would you like something to drink?" }, items: [fr.quelque-chose] }
+lessons:
+  - { id: l01, title: { nl: Ons en hun, en: "Our and their" }, vocab: [fr.notre, fr.votre, fr.leur, fr.vous, fr.tout, fr.ensemble] }
+  - { id: l02, title: { nl: Een beetje, en: "A little" }, vocab: [fr.un-peu, fr.assez, fr.trop, fr.mieux, fr.mal] }
+  - { id: l03, title: { nl: Iets of niets, en: "Something or nothing" }, vocab: [fr.bien-sur, fr.voici, fr.la, fr.rien, fr.quelque-chose] }

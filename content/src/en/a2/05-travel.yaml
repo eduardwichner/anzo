@@ -1,0 +1,78 @@
+id: en-a2-u05
+title: { nl: Onderweg }
+icon: places
+topic: Transport; Places and directions
+vocabulary:
+  - { target: bicycle, native: { nl: fiets }, pos: noun }
+  - { target: ambulance, native: { nl: ambulance }, pos: noun }
+  - { target: fire engine, native: { nl: brandweerauto }, pos: noun }
+  - { target: taxi, native: { nl: taxi }, pos: noun }
+  - { target: engine, native: { nl: motor }, pos: noun }
+  - { target: wheel, native: { nl: wiel }, pos: noun }
+  - { target: tyre, native: { nl: "band (van een wiel)" }, pos: noun, avoid: [en.wheel] }
+  - { target: passenger, native: { nl: passagier }, pos: noun }
+  - { target: platform, native: { nl: perron }, pos: noun }
+  - { target: railway, native: { nl: "spoorweg, spoorlijn" }, pos: noun }
+  - { target: motorway, native: { nl: snelweg }, pos: noun }
+  - { target: traffic, native: { nl: verkeer }, pos: noun }
+  - { target: timetable, native: { nl: "dienstregeling, rooster" }, pos: noun }
+  - { target: suitcase, native: { nl: koffer }, pos: noun }
+  - { target: path, native: { nl: pad }, pos: noun }
+  - { target: way, native: { nl: "weg, manier" }, pos: noun }
+  - { target: corner, native: { nl: hoek }, pos: noun }
+  - { target: straight on, native: { nl: rechtdoor }, pos: adverb }
+  - { target: far, native: { nl: ver }, pos: adverb }
+  - { target: across, native: { nl: naar de overkant }, pos: preposition }
+  - { target: through, native: { nl: door }, pos: preposition }
+  - { target: north, native: { nl: noorden }, pos: noun }
+  - { target: south, native: { nl: zuiden }, pos: noun }
+  - { target: east, native: { nl: oosten }, pos: noun }
+  - { target: west, native: { nl: westen }, pos: noun }
+  - { target: journey, native: { nl: reis }, pos: noun }
+  - { target: tour, native: { nl: "rondleiding, rondreis" }, pos: noun, avoid: [en.journey] }
+  - { target: land, native: { nl: landen }, pos: verb }
+  - { target: arrive, native: { nl: aankomen }, pos: verb }
+  - { target: leave, native: { nl: "vertrekken, weggaan" }, pos: verb }
+  - { target: get to, native: { nl: komen bij }, pos: verb, avoid: [en.arrive] }
+  - { target: cycle, native: { nl: fietsen }, pos: verb }
+  - { target: hurry, native: { nl: "opschieten, haasten" }, pos: verb }
+sentences:
+  - { id: s01, target: "My bicycle is red and blue.", native: { nl: "Mijn fiets is rood en blauw." }, items: [en.bicycle] }
+  - { id: s02, target: "The ambulance took the man to hospital.", native: { nl: "De ambulance bracht de man naar het ziekenhuis." }, items: [en.ambulance] }
+  - { id: s03, target: "The fire engine is very loud.", native: { nl: "De brandweerauto is heel luid." }, items: [en.fire-engine] }
+  - { id: s04, target: "Let's take a taxi to the station.", native: { nl: "Laten we een taxi naar het station nemen." }, items: [en.taxi] }
+  - { id: s05, target: "The car's engine is broken.", native: { nl: "De motor van de auto is kapot." }, items: [en.engine] }
+  - { id: s06, target: "A bicycle has got two wheels.", native: { nl: "Een fiets heeft twee wielen." }, items: [en.wheel, en.bicycle] }
+  - { id: s07, target: "I need a new tyre for my bike.", native: { nl: "Ik heb een nieuwe band voor mijn fiets nodig." }, items: [en.tyre] }
+  - { id: s08, target: "All the passengers are on the train.", native: { nl: "Alle passagiers zitten in de trein." }, items: [en.passenger] }
+  - { id: s09, target: "Our train leaves from platform two.", native: { nl: "Onze trein vertrekt van perron twee." }, items: [en.platform] }
+  - { id: s10, target: "Don't play near the railway.", native: { nl: "Speel niet bij de spoorlijn." }, items: [en.railway], acceptAlso: ["Do not play near the railway."] }
+  - { id: s11, target: "We drove on the motorway.", native: { nl: "We reden over de snelweg." }, items: [en.motorway] }
+  - { id: s12, target: "There is a lot of traffic today.", native: { nl: "Er is vandaag veel verkeer." }, items: [en.traffic] }
+  - { id: s13, target: "Look at the timetable.", native: { nl: "Kijk op de dienstregeling." }, items: [en.timetable] }
+  - { id: s14, target: "My suitcase is very heavy.", native: { nl: "Mijn koffer is heel zwaar." }, items: [en.suitcase] }
+  - { id: s15, target: "Walk along the path.", native: { nl: "Loop over het pad." }, items: [en.path] }
+  - { id: s16, target: "Is this the way to the beach?", native: { nl: "Is dit de weg naar het strand?" }, items: [en.way] }
+  - { id: s17, target: "The library is on the corner.", native: { nl: "De bibliotheek is op de hoek." }, items: [en.corner] }
+  - { id: s18, target: "Go straight on.", native: { nl: "Ga rechtdoor." }, items: [en.straight-on] }
+  - { id: s19, target: "Is the museum far from here?", native: { nl: "Is het museum ver van hier?" }, items: [en.far] }
+  - { id: s20, target: "We swam across the river.", native: { nl: "We zwommen naar de overkant van de rivier." }, items: [en.across] }
+  - { id: s21, target: "We walked through the forest.", native: { nl: "We liepen door het bos." }, items: [en.through] }
+  - { id: s22, target: "Birds fly south in winter.", native: { nl: "Vogels vliegen in de winter naar het zuiden." }, items: [en.south] }
+  - { id: s23, target: "The wind is coming from the north.", native: { nl: "De wind komt uit het noorden." }, items: [en.north] }
+  - { id: s24, target: "The sun comes up in the east.", native: { nl: "De zon komt op in het oosten." }, items: [en.east] }
+  - { id: s25, target: "We drove west to the sea.", native: { nl: "We reden naar het westen, naar de zee." }, items: [en.west] }
+  - { id: s26, target: "The journey took three hours.", native: { nl: "De reis duurde drie uur." }, items: [en.journey] }
+  - { id: s27, target: "We went on a tour of the castle.", native: { nl: "We kregen een rondleiding door het kasteel." }, items: [en.tour] }
+  - { id: s28, target: "The plane will land in ten minutes.", native: { nl: "Het vliegtuig landt over tien minuten." }, items: [en.land] }
+  - { id: s29, target: "What time does the train arrive?", native: { nl: "Hoe laat komt de trein aan?" }, items: [en.arrive] }
+  - { id: s30, target: "The bus leaves at eight o'clock.", native: { nl: "De bus vertrekt om acht uur." }, items: [en.leave] }
+  - { id: s31, target: "How do I get to the station?", native: { nl: "Hoe kom ik bij het station?" }, items: [en.get-to] }
+  - { id: s32, target: "I cycle to school every day.", native: { nl: "Ik fiets elke dag naar school." }, items: [en.cycle] }
+  - { id: s33, target: "Hurry up! The bus is coming!", native: { nl: "Schiet op! De bus komt eraan!" }, items: [en.hurry] }
+lessons:
+  - { id: l01, title: { nl: Voertuigen }, vocab: [en.bicycle, en.ambulance, en.fire-engine, en.taxi, en.engine, en.wheel, en.tyre] }
+  - { id: l02, title: { nl: Trein en snelweg }, vocab: [en.passenger, en.platform, en.railway, en.motorway, en.traffic, en.timetable, en.suitcase] }
+  - { id: l03, title: { nl: De weg wijzen }, vocab: [en.path, en.way, en.corner, en.straight-on, en.far, en.across, en.through] }
+  - { id: l04, title: { nl: Windrichtingen }, vocab: [en.north, en.south, en.east, en.west, en.journey, en.tour, en.land] }
+  - { id: l05, title: { nl: Aankomen en vertrekken }, vocab: [en.arrive, en.leave, en.get-to, en.cycle, en.hurry] }

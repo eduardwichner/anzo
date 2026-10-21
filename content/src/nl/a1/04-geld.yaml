@@ -1,0 +1,42 @@
+id: nl-a1-u04
+title: { en: Money }
+icon: money
+topic: Money, prices, paying
+vocabulary:
+  - { id: nl.geld, target: het geld, native: { en: money }, pos: noun, plural: "-" }
+  - { target: de cent, native: { en: cent }, pos: noun, plural: centen }
+  - { target: de prijs, native: { en: price }, pos: noun, plural: prijzen }
+  - { target: kosten, native: { en: to cost }, pos: verb }
+  - { target: hoeveel kost, native: { en: how much is }, pos: phrase }
+  - { target: de kassa, native: { en: "till, checkout" }, pos: noun, plural: "kassa's" }
+  - { target: de bankkaart, native: { en: bank card }, pos: noun, plural: bankkaarten, alsoNL: de pinpas }
+  - { target: cash, native: { en: in cash }, pos: adverb }
+  - { target: het kasticket, native: { en: receipt }, pos: noun, plural: kastickets, alsoNL: de kassabon }
+  - { target: de portemonnee, native: { en: "purse" }, pos: noun, plural: portemonnees }
+  - { target: het briefje, native: { en: banknote }, pos: noun, plural: briefjes }
+  - { target: de korting, native: { en: discount }, pos: noun, plural: kortingen }
+  - { target: gratis, native: { en: "free (no charge)" }, pos: adjective, avoid: [nl.vrij] }
+  - { target: geven, native: { en: to give }, pos: verb }
+  - { target: krijgen, native: { en: "to get, to receive" }, pos: verb }
+  - { target: nemen, native: { en: to take }, pos: verb }
+  - { target: tellen, native: { en: to count }, pos: verb }
+  - { target: terug, native: { en: "back (in return)" }, pos: adverb }
+sentences:
+  - { id: s01, target: "Ik heb geen geld bij me.", native: { en: "I don't have any money on me." }, items: [nl.geld] }
+  - { id: s02, target: "Het kost vijftig cent.", native: { en: "It costs fifty cents." }, items: [nl.cent, nl.kosten] }
+  - { id: s03, target: "Dat is een goede prijs.", native: { en: "That's a good price." }, items: [nl.prijs] }
+  - { id: s04, target: "Hoeveel kost het brood?", native: { en: "How much is the bread?" }, items: [nl.hoeveel-kost] }
+  - { id: s05, target: "Wat kosten de appels?", native: { en: "How much are the apples?" }, items: [nl.kosten] }
+  - { id: s06, target: "U betaalt aan de kassa.", native: { en: "You pay at the till." }, items: [nl.kassa], acceptAlso: ["Aan de kassa betaalt u."] }
+  - { id: s07, target: "Kan ik met de bankkaart betalen?", native: { en: "Can I pay by card?" }, items: [nl.bankkaart] }
+  - { id: s08, target: "Ik betaal cash.", native: { en: "I'll pay in cash." }, items: [nl.cash] }
+  - { id: s09, target: "Wilt u het kasticket?", native: { en: "Would you like your receipt?" }, items: [nl.kasticket] }
+  - { id: s10, target: "Mijn portemonnee zit in mijn tas.", native: { en: "My purse is in my bag." }, items: [nl.portemonnee], acceptAlso: ["In mijn tas zit mijn portemonnee."] }
+  - { id: s11, target: "Hebt u een briefje van tien?", native: { en: "Do you have a ten-euro note?" }, items: [nl.briefje] }
+  - { id: s12, target: "Is er korting op de jassen?", native: { en: "Is there a discount on the coats?" }, items: [nl.korting] }
+  - { id: s13, target: "De koffie is gratis.", native: { en: "The coffee is free." }, items: [nl.gratis] }
+  - { id: s14, target: "Ik geef u twintig euro.", native: { en: "I'll give you twenty euros." }, items: [nl.geven] }
+  - { id: s15, target: "U krijgt drie euro terug.", native: { en: "You get three euros back." }, items: [nl.krijgen, nl.terug] }
+  - { id: s16, target: "Ik neem de rode jas.", native: { en: "I'll take the red coat." }, items: [nl.nemen] }
+  - { id: s17, target: "Ik tel het geld.", native: { en: "I'm counting the money." }, items: [nl.tellen, nl.geld] }
+  - { id: s18, target: "Vandaag krijg ik mijn geld.", native: { en: "I get my money today." }, items: [nl.krijgen, nl.geld], acceptAlso: ["Ik krijg vandaag mijn geld."] }

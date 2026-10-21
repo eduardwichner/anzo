@@ -1,0 +1,31 @@
+id: fr-a2-u08
+title: { nl: Het weerbericht, en: "The weather forecast" }
+icon: weather
+topic: La météo; l'hiver
+vocabulary:
+  - { target: la météo, native: { nl: het weerbericht, en: "weather forecast" }, pos: noun, gender: f }
+  - { target: nuageux, native: { nl: bewolkt, en: "cloudy" }, pos: adjective }
+  - { target: ensoleillé, native: { nl: zonnig, en: "sunny" }, pos: adjective }
+  - { target: "l'orage", native: { nl: het onweer, en: "storm, thunderstorm" }, pos: noun, gender: m }
+  - { target: le brouillard, native: { nl: de mist, en: "fog" }, pos: noun, gender: m }
+  - { target: la température, native: { nl: de temperatuur, en: "temperature" }, pos: noun, gender: f }
+  - { target: le degré, native: { nl: de graad, en: "degree" }, pos: noun, gender: m }
+  - { target: "l'arc-en-ciel", native: { nl: de regenboog, en: "rainbow" }, pos: noun, gender: m }
+  - { target: la boule de neige, native: { nl: de sneeuwbal, en: "snowball" }, pos: noun, gender: f }
+  - { target: le bonhomme de neige, native: { nl: de sneeuwpop, en: "snowman" }, pos: noun, gender: m }
+  - { target: la luge, native: { nl: de slee, en: "sledge" }, pos: noun, gender: f }
+sentences:
+  - { id: s01, target: "Qu'est-ce que dit la météo pour demain ?", native: { nl: "Wat zegt het weerbericht voor morgen?", en: "What does the weather forecast say for tomorrow?" }, items: [fr.meteo], acceptAlso: ["Qu'est-ce que la météo dit pour demain ?"] }
+  - { id: s02, target: "Le ciel est nuageux ce matin.", native: { nl: "Vanochtend is de lucht bewolkt.", en: "The sky is cloudy this morning." }, items: [fr.nuageux] }
+  - { id: s03, target: "Demain, le temps va être ensoleillé.", native: { nl: "Morgen wordt het zonnig weer.", en: "Tomorrow it's going to be sunny." }, items: [fr.ensoleille] }
+  - { id: s04, target: "Il y a eu un orage cette nuit.", native: { nl: "Er was vannacht onweer.", en: "There was a storm last night." }, items: [fr.orage] }
+  - { id: s05, target: "Avec le brouillard, je ne vois rien.", native: { nl: "Met die mist zie ik niets.", en: "I can't see anything in this fog." }, items: [fr.brouillard] }
+  - { id: s06, target: "Quelle est la température aujourd'hui ?", native: { nl: "Wat is de temperatuur vandaag?", en: "What's the temperature today?" }, items: [fr.temperature] }
+  - { id: s07, target: "Il fait vingt degrés.", native: { nl: "Het is twintig graden.", en: "It's twenty degrees." }, items: [fr.degre] }
+  - { id: s08, target: "Regarde, un arc-en-ciel !", native: { nl: "Kijk, een regenboog!", en: "Look, a rainbow!" }, items: [fr.arc-en-ciel] }
+  - { id: s09, target: "Paul m'a lancé une boule de neige !", native: { nl: "Paul heeft een sneeuwbal naar me gegooid!", en: "Paul threw a snowball at me!" }, items: [fr.boule-de-neige] }
+  - { id: s10, target: "Nous avons fait un grand bonhomme de neige.", native: { nl: "We hebben een grote sneeuwpop gemaakt.", en: "We made a big snowman." }, items: [fr.bonhomme-de-neige] }
+  - { id: s11, target: "On fait de la luge à la montagne.", native: { nl: "We gaan sleeën in de bergen.", en: "We go sledging in the mountains." }, items: [fr.luge] }
+lessons:
+  - { id: l01, title: { nl: Zon en wolken, en: "Sun and clouds" }, vocab: [fr.meteo, fr.nuageux, fr.ensoleille, fr.orage, fr.brouillard, fr.temperature] }
+  - { id: l02, title: { nl: Sneeuwpret, en: "Fun in the snow" }, vocab: [fr.degre, fr.arc-en-ciel, fr.boule-de-neige, fr.bonhomme-de-neige, fr.luge] }

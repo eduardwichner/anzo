@@ -1,0 +1,61 @@
+id: nl-a2-u05
+title: { en: People and things }
+icon: people
+topic: Everyday core words
+vocabulary:
+  - { target: de mens, native: { en: "person, human being" }, pos: noun, plural: mensen }
+  - { target: de ouders, native: { en: parents }, pos: noun, plural: "-" }
+  - { target: de leeftijd, native: { en: age }, pos: noun, plural: leeftijden }
+  - { target: aardig, native: { en: "nice, kind" }, pos: adjective }
+  - { target: beleefd, native: { en: polite }, pos: adjective }
+  - { target: lelijk, native: { en: ugly }, pos: adjective }
+  - { target: het dorp, native: { en: village }, pos: noun, plural: dorpen }
+  - { target: de plaats, native: { en: "place, seat" }, pos: noun, plural: plaatsen }
+  - { target: het ding, native: { en: thing }, pos: noun, plural: dingen }
+  - { target: de manier, native: { en: way }, pos: noun, plural: manieren }
+  - { target: het woord, native: { en: word }, pos: noun, plural: woorden }
+  - { target: de zin, native: { en: "sentence; wish (zin hebben in)" }, pos: noun, plural: zinnen }
+  - { target: de hulp, native: { en: help }, pos: noun, plural: "-" }
+  - { target: het dier, native: { en: animal }, pos: noun, plural: dieren, category: true }
+  - { target: de hond, native: { en: dog }, pos: noun, plural: honden }
+  - { target: de kat, native: { en: cat }, pos: noun, plural: katten }
+  - { target: de boom, native: { en: tree }, pos: noun, plural: bomen }
+  - { target: blijven, native: { en: to stay }, pos: verb }
+  - { target: praten, native: { en: to talk }, pos: verb }
+  - { target: leven, native: { en: "to live (be alive)" }, pos: verb }
+  - { target: houden, native: { en: "to keep, to hold; to love (houden van)" }, pos: verb }
+  - { target: laten, native: { en: "to let, to leave" }, pos: verb }
+  - { target: tonen, native: { en: to show }, pos: verb, alsoNL: laten zien }
+  - { target: openen, native: { en: to open }, pos: verb, avoid: [nl.sluiten] }
+  - { target: sluiten, native: { en: to close }, pos: verb }
+  - { target: horen, native: { en: to hear }, pos: verb }
+  - { target: echt, native: { en: "really, real" }, pos: adverb }
+sentences:
+  - { id: s01, target: "Er waren veel mensen op het feest.", native: { en: "There were a lot of people at the party." }, items: [nl.mens], acceptAlso: ["Op het feest waren er veel mensen.", "Er waren op het feest veel mensen."] }
+  - { id: s02, target: "Mijn ouders wonen nog in Engeland.", native: { en: "My parents still live in England." }, items: [nl.ouders] }
+  - { id: s03, target: "Wat is de leeftijd van uw kinderen?", native: { en: "How old are your children?" }, items: [nl.leeftijd] }
+  - { id: s04, target: "Onze nieuwe buren zijn heel aardig.", native: { en: "Our new neighbours are very nice." }, items: [nl.aardig] }
+  - { id: s05, target: "De kinderen waren heel beleefd.", native: { en: "The children were very polite." }, items: [nl.beleefd] }
+  - { id: s06, target: "Ik vind die jas lelijk.", native: { en: "I think that coat is ugly." }, items: [nl.lelijk], acceptAlso: ["Die jas vind ik lelijk."] }
+  - { id: s07, target: "We wonen in een klein dorp bij Gent.", native: { en: "We live in a small village near Ghent." }, items: [nl.dorp] }
+  - { id: s08, target: "Is deze plaats vrij?", native: { en: "Is this seat free?" }, items: [nl.plaats] }
+  - { id: s09, target: "Ik moet nog wat dingen kopen.", native: { en: "I still have to buy some things." }, items: [nl.ding] }
+  - { id: s10, target: "Op deze manier is het makkelijker.", native: { en: "It's easier this way." }, items: [nl.manier] }
+  - { id: s11, target: "Wat is dit woord in het Engels?", native: { en: "What's this word in English?" }, items: [nl.woord] }
+  - { id: s12, target: "Lees de zin nog een keer.", native: { en: "Read the sentence again." }, items: [nl.zin] }
+  - { id: s13, target: "Hebt u zin in koffie?", native: { en: "Would you like some coffee?" }, items: [nl.zin] }
+  - { id: s14, target: "Bedankt voor uw hulp!", native: { en: "Thank you for your help!" }, items: [nl.hulp] }
+  - { id: s15, target: "Hebben jullie dieren thuis?", native: { en: "Do you have any animals at home?" }, items: [nl.dier] }
+  - { id: s16, target: "Onze hond speelt graag in het park.", native: { en: "Our dog likes playing in the park." }, items: [nl.hond] }
+  - { id: s17, target: "De kat slaapt op de zetel.", native: { en: "The cat is sleeping on the sofa." }, items: [nl.kat] }
+  - { id: s18, target: "In het park staan grote bomen.", native: { en: "There are big trees in the park." }, items: [nl.boom] }
+  - { id: s19, target: "We zijn twee dagen in Brugge gebleven.", native: { en: "We stayed in Bruges for two days." }, items: [nl.blijven], acceptAlso: ["Twee dagen zijn we in Brugge gebleven.", "In Brugge zijn we twee dagen gebleven."] }
+  - { id: s20, target: "We hebben lang met de buren gepraat.", native: { en: "We talked to the neighbours for a long time." }, items: [nl.praten], acceptAlso: ["Met de buren hebben we lang gepraat.", "We hebben met de buren lang gepraat."] }
+  - { id: s21, target: "Mijn opa leeft nog.", native: { en: "My grandpa is still alive." }, items: [nl.leven] }
+  - { id: s22, target: "Ik hou van Gent.", native: { en: "I love Ghent." }, items: [nl.houden] }
+  - { id: s23, target: "Laat de deur open, alsjeblieft.", native: { en: "Leave the door open, please." }, items: [nl.laten] }
+  - { id: s24, target: "Kunt u me de weg tonen?", native: { en: "Could you show me the way?" }, items: [nl.tonen] }
+  - { id: s25, target: "De winkel opent om negen uur.", native: { en: "The shop opens at nine o'clock." }, items: [nl.openen], acceptAlso: ["Om negen uur opent de winkel."] }
+  - { id: s26, target: "Het museum sluit om vijf uur.", native: { en: "The museum closes at five o'clock." }, items: [nl.sluiten], acceptAlso: ["Om vijf uur sluit het museum."] }
+  - { id: s27, target: "Hoor je die muziek?", native: { en: "Can you hear that music?" }, items: [nl.horen] }
+  - { id: s28, target: "Dat is echt lekker!", native: { en: "That's really tasty!" }, items: [nl.echt] }

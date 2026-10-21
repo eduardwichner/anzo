@@ -1,0 +1,53 @@
+id: nl-a2-u07
+title: { en: Looking for a home }
+icon: house
+topic: Renting a flat in Flanders
+vocabulary:
+  - { target: het immokantoor, native: { en: "estate agent's" }, pos: noun, plural: immokantoren, alsoNL: het makelaarskantoor }
+  - { target: het zoekertje, native: { en: "small ad, classified ad" }, pos: noun, plural: zoekertjes, alsoNL: de advertentie }
+  - { target: de huurprijs, native: { en: "rent (price)" }, pos: noun, plural: huurprijzen }
+  - { target: de waarborg, native: { en: deposit }, pos: noun, plural: waarborgen, alsoNL: de borg }
+  - { target: het contract, native: { en: contract }, pos: noun, plural: contracten }
+  - { target: de huurder, native: { en: tenant }, pos: noun, plural: huurders, avoid: [nl.eigenaar] }
+  - { target: de eigenaar, native: { en: owner }, pos: noun, plural: eigenaars }
+  - { target: verhuren, native: { en: "to let (rent out)" }, pos: verb }
+  - { target: bezichtigen, native: { en: "to view (a house)" }, pos: verb }
+  - { target: de rijwoning, native: { en: terraced house }, pos: noun, plural: rijwoningen, alsoNL: het rijtjeshuis }
+  - { target: de studio, native: { en: studio flat }, pos: noun, plural: "studio's" }
+  - { target: de oppervlakte, native: { en: "surface area, size" }, pos: noun, plural: oppervlaktes }
+  - { target: de berging, native: { en: storeroom }, pos: noun, plural: bergingen }
+  - { target: het terras, native: { en: "terrace, patio" }, pos: noun, plural: terrassen }
+  - { target: gemeubeld, native: { en: furnished }, pos: adjective, alsoNL: gemeubileerd }
+  - { target: centraal, native: { en: central }, pos: adjective }
+sentences:
+  - { id: s01, target: "Ik ben naar het immokantoor gegaan.", native: { en: "I went to the estate agent's." }, items: [nl.immokantoor] }
+  - { id: s02, target: "Ik heb een zoekertje op internet gezien.", native: { en: "I saw a small ad on the internet." }, items: [nl.zoekertje], acceptAlso: ["Ik heb op internet een zoekertje gezien."] }
+  - { id: s03, target: "De huurprijs is zevenhonderd euro per maand.", native: { en: "The rent is seven hundred euros a month." }, items: [nl.huurprijs] }
+  - { id: s04, target: "De waarborg is twee maanden huur.", native: { en: "The deposit is two months' rent." }, items: [nl.waarborg] }
+  - { id: s05, target: "Wanneer kunnen we het contract tekenen?", native: { en: "When can we sign the contract?" }, items: [nl.contract] }
+  - { id: s06, target: "De vorige huurder is vorige maand verhuisd.", native: { en: "The previous tenant moved out last month." }, items: [nl.huurder] }
+  - { id: s07, target: "De eigenaar woont in Brussel.", native: { en: "The owner lives in Brussels." }, items: [nl.eigenaar] }
+  - { id: s08, target: "Zij verhuren een appartement aan zee.", native: { en: "They let a flat by the sea." }, items: [nl.verhuren] }
+  - { id: s09, target: "Mogen we het huis zaterdag bezichtigen?", native: { en: "May we view the house on Saturday?" }, items: [nl.bezichtigen] }
+  - { id: s10, target: "We hebben een rijwoning met een kleine tuin gehuurd.", native: { en: "We've rented a terraced house with a small garden." }, items: [nl.rijwoning] }
+  - { id: s11, target: "Een studio is goedkoper dan een appartement.", native: { en: "A studio is cheaper than a flat." }, items: [nl.studio] }
+  - { id: s12, target: "Wat is de oppervlakte van de woonkamer?", native: { en: "How big is the living room?" }, items: [nl.oppervlakte] }
+  - { id: s13, target: "De fietsen staan in de berging.", native: { en: "The bikes are in the storeroom." }, items: [nl.berging] }
+  - { id: s14, target: "In de zomer eten we op het terras.", native: { en: "In summer we eat on the terrace." }, items: [nl.terras], acceptAlso: ["We eten in de zomer op het terras.", "Op het terras eten we in de zomer."] }
+  - { id: s15, target: "Is het appartement gemeubeld?", native: { en: "Is the flat furnished?" }, items: [nl.gemeubeld] }
+  - { id: s16, target: "Het huis ligt heel centraal.", native: { en: "The house is very central." }, items: [nl.centraal] }
+  - { id: s17, target: "Ik zoek een studio omdat mijn appartement te duur is.", native: { en: "I'm looking for a studio flat because my flat is too expensive." }, items: [nl.studio], acceptAlso: ["Omdat mijn appartement te duur is, zoek ik een studio."] }
+  - { id: s18, target: "Kunt u me het contract sturen?", native: { en: "Could you send me the contract?" }, items: [nl.contract] }
+# Added after the unit's exercises were locked — its own lesson, new ids.
+append:
+  - lesson: { id: l03, title: { en: Before you move in } }
+    why: "Belgian tenancy: the plaatsbeschrijving at the start of the lease and the tenant's fire insurance. plaatsbeschrijving has no alsoNL: the Netherlands has no single fixed term (opleveringsrapport, proces-verbaal van oplevering, inspectierapport), so a note could mislead; brandverzekering is the same word there."
+    vocabulary:
+      - { target: de plaatsbeschrijving, native: { en: "inventory (check-in report)" }, pos: noun, plural: plaatsbeschrijvingen }
+      - { target: de brandverzekering, native: { en: fire insurance }, pos: noun, plural: brandverzekeringen }
+    sentences:
+      - { id: s19, target: "We maken samen een plaatsbeschrijving.", native: { en: "We draw up an inventory together." }, items: [nl.plaatsbeschrijving] }
+      - { id: s20, target: "De huurder moet een brandverzekering hebben.", native: { en: "The tenant must have fire insurance." }, items: [nl.huurder, nl.brandverzekering] }
+      - { id: s21, target: "Heb je de plaatsbeschrijving al getekend?", native: { en: "Have you signed the inventory yet?" }, items: [nl.plaatsbeschrijving] }
+      - { id: s22, target: "De brandverzekering kost honderd euro per jaar.", native: { en: "The fire insurance costs a hundred euros a year." }, items: [nl.brandverzekering] }
+      - { id: s23, target: "De eigenaar en de huurder tekenen de plaatsbeschrijving.", native: { en: "The owner and the tenant sign the inventory." }, items: [nl.eigenaar, nl.huurder, nl.plaatsbeschrijving] }

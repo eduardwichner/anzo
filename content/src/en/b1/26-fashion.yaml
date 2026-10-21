@@ -1,0 +1,113 @@
+id: en-b1-u26
+title: { nl: Kleding en mode }
+icon: clothes
+topic: Clothes, fashion and appearance; adjective order, too / enough, it suits you, try on
+vocabulary:
+  - { target: clothing, native: { nl: kleding }, pos: noun }
+  - { target: fashion, native: { nl: mode }, pos: noun }
+  - { target: fashionable, native: { nl: modieus }, pos: adjective, avoid: [en.old-fashioned] }
+  - { target: old-fashioned, native: { nl: ouderwets }, pos: adjective }
+  - { target: style, native: { nl: stijl }, pos: noun }
+  - { target: stylish, native: { nl: stijlvol }, pos: adjective }
+  - { target: trend, native: { nl: trend }, pos: noun }
+  - { target: casual, native: { nl: "informeel, vrijetijds-" }, pos: adjective }
+  - { target: well-dressed, native: { nl: goedgekleed }, pos: adjective }
+  - { target: dressed, native: { nl: gekleed (aangekleed) }, pos: adjective }
+  - { target: suit, native: { nl: pak (kostuum) }, pos: noun, avoid: [en.packet] }
+  - { target: tie, native: { nl: das }, pos: noun }
+  - { target: blouse, native: { nl: blouse }, pos: noun }
+  - { target: jumper, native: { nl: trui }, pos: noun }
+  - { target: pullover, native: { nl: "pullover, trui" }, pos: noun }
+  - { target: sweatshirt, native: { nl: sweater (sweatshirt) }, pos: noun, avoid: [en.jumper, en.pullover, en.hoodie] }
+  - { target: hoodie, native: { nl: hoodie }, pos: noun }
+  - { target: raincoat, native: { nl: regenjas }, pos: noun }
+  - { target: bathing suit, native: { nl: badpak (zwempak) }, pos: noun, noBlank: true }
+  - { target: underwear, native: { nl: ondergoed }, pos: noun }
+  - { target: underpants, native: { nl: onderbroek }, pos: noun, avoid: [en.underwear], noBlank: true }
+  - { target: tights, native: { nl: panty }, pos: noun }
+  - { target: cap, native: { nl: pet }, pos: noun }
+  - { target: boot, native: { nl: laars }, pos: noun }
+  - { target: sandal, native: { nl: sandaal }, pos: noun }
+  - { target: heel, native: { nl: hak }, pos: noun }
+  - { target: sleeve, native: { nl: mouw }, pos: noun }
+  - { target: sleeveless, native: { nl: mouwloos }, pos: adjective }
+  - { target: collar, native: { nl: kraag }, pos: noun }
+  - { target: button, native: { nl: knoop }, pos: noun }
+  - { target: pattern, native: { nl: patroon }, pos: noun }
+  - { target: label, native: { nl: etiket }, pos: noun }
+  - { target: logo, native: { nl: logo }, pos: noun }
+  - { target: size, native: { nl: maat }, pos: noun }
+  - { target: tight, native: { nl: strak (nauw) }, pos: adjective, avoid: [en.loose] }
+  - { target: loose, native: { nl: los (wijd) }, pos: adjective }
+  - { target: try on, native: { nl: passen (kleren) }, pos: phrase }
+  - { target: wear out, native: { nl: verslijten }, pos: phrase }
+  - { target: cotton, native: { nl: katoen }, pos: noun }
+  - { target: silk, native: { nl: zijde }, pos: noun }
+  - { target: leather, native: { nl: leer }, pos: noun }
+  - { target: navy blue, native: { nl: marineblauw }, pos: adjective }
+  - { target: jewellery, native: { nl: sieraden }, pos: noun }
+  - { target: chain, native: { nl: ketting (schakels) }, pos: noun, noBlank: true }
+  - { target: earring, native: { nl: oorbel }, pos: noun }
+  - { target: purse, native: { nl: portemonnee }, pos: noun, avoid: [en.wallet], noBlank: true }
+  - { target: wallet, native: { nl: portefeuille }, pos: noun }
+  - { target: handkerchief, native: { nl: zakdoek }, pos: noun }
+  - { target: perfume, native: { nl: parfum }, pos: noun }
+  - { target: make-up, native: { nl: make-up }, pos: noun }
+  - { target: haircut, native: { nl: kapsel (knipbeurt) }, pos: noun }
+  - { target: shave, native: { nl: scheren }, pos: verb }
+sentences:
+  - { id: s01, target: "Take warm clothing for the mountains.", native: { nl: "Neem warme kleding mee voor de bergen." }, items: [en.clothing] }
+  - { id: s02, target: "She's interested in fashion and wants to be a designer.", native: { nl: "Ze is geïnteresseerd in mode en wil ontwerpster worden." }, items: [en.fashion] }
+  - { id: s03, target: "Big glasses are very fashionable at the moment.", native: { nl: "Grote brillen zijn op dit moment heel modieus." }, items: [en.fashionable], acceptAlso: ["At the moment big glasses are very fashionable."] }
+  - { id: s04, target: "My dad's jacket is so old-fashioned!", native: { nl: "Het jasje van mijn vader is zo ouderwets!" }, items: [en.old-fashioned] }
+  - { id: s05, target: "I like your style.", native: { nl: "Ik vind je stijl mooi." }, items: [en.style] }
+  - { id: s06, target: "She always looks very stylish.", native: { nl: "Ze ziet er altijd heel stijlvol uit." }, items: [en.stylish] }
+  - { id: s07, target: "Wearing second-hand clothes is a big trend.", native: { nl: "Tweedehandskleren dragen is een grote trend." }, items: [en.trend] }
+  - { id: s08, target: "On Fridays we can wear casual clothes to school.", native: { nl: "Op vrijdag mogen we in vrijetijdskleding naar school." }, items: [en.casual], acceptAlso: ["We can wear casual clothes to school on Fridays."] }
+  - { id: s09, target: "Everyone at the wedding was well-dressed.", native: { nl: "Iedereen op de bruiloft was goedgekleed." }, items: [en.well-dressed] }
+  - { id: s10, target: "Are you dressed yet? The taxi's here.", native: { nl: "Ben je al aangekleed? De taxi is er." }, items: [en.dressed] }
+  - { id: s11, target: "He wore a dark suit to the interview.", native: { nl: "Hij droeg een donker pak naar het sollicitatiegesprek." }, items: [en.suit] }
+  - { id: s12, target: "Can you help me tie my tie?", native: { nl: "Kun je me helpen mijn das te knopen?" }, items: [en.tie] }
+  - { id: s13, target: "She was wearing a white silk blouse.", native: { nl: "Ze droeg een witte zijden blouse." }, items: [en.blouse, en.silk] }
+  - { id: s14, target: "Put on a jumper. It's cold outside.", native: { nl: "Trek een trui aan. Het is koud buiten." }, items: [en.jumper], acceptAlso: ["Put a jumper on. It's cold outside."] }
+  - { id: s15, target: "Grandma knitted me a red pullover.", native: { nl: "Oma heeft een rode pullover voor me gebreid." }, items: [en.pullover] }
+  - { id: s16, target: "Our team has new sweatshirts with the club's name on them.", native: { nl: "Ons team heeft nieuwe sweaters met de naam van de club erop." }, items: [en.sweatshirt] }
+  - { id: s17, target: "He always wears a hoodie and jeans.", native: { nl: "Hij draagt altijd een hoodie en een spijkerbroek." }, items: [en.hoodie] }
+  - { id: s18, target: "Take your raincoat. It's going to rain.", native: { nl: "Neem je regenjas mee. Het gaat regenen." }, items: [en.raincoat] }
+  - { id: s19, target: "I've left my bathing suit at home!", native: { nl: "Ik heb mijn badpak thuis laten liggen!" }, items: [en.bathing-suit] }
+  - { id: s20, target: "Pack enough underwear for a week.", native: { nl: "Pak genoeg ondergoed in voor een week." }, items: [en.underwear] }
+  - { id: s21, target: "These underpants are too small.", native: { nl: "Deze onderbroek is te klein." }, items: [en.underpants] }
+  - { id: s22, target: "She wore black tights under her skirt.", native: { nl: "Ze droeg een zwarte panty onder haar rok." }, items: [en.tights] }
+  - { id: s23, target: "He wears a cap to keep the sun off his face.", native: { nl: "Hij draagt een pet om de zon van zijn gezicht te houden." }, items: [en.cap] }
+  - { id: s24, target: "I need new boots for the winter.", native: { nl: "Ik heb nieuwe laarzen nodig voor de winter." }, items: [en.boot] }
+  - { id: s25, target: "In summer I wear sandals every day.", native: { nl: "In de zomer draag ik elke dag sandalen." }, items: [en.sandal], acceptAlso: ["I wear sandals every day in summer."] }
+  - { id: s26, target: "I can't walk in high heels.", native: { nl: "Ik kan niet op hoge hakken lopen." }, items: [en.heel] }
+  - { id: s27, target: "The sleeves are too long. Can I try a smaller size?", native: { nl: "De mouwen zijn te lang. Mag ik een kleinere maat passen?" }, items: [en.sleeve, en.size] }
+  - { id: s28, target: "It's so hot that I'm wearing a sleeveless top.", native: { nl: "Het is zo warm dat ik een mouwloos topje draag." }, items: [en.sleeveless] }
+  - { id: s29, target: "There's some dirt on the collar of your shirt.", native: { nl: "Er zit wat vuil op de kraag van je overhemd." }, items: [en.collar] }
+  - { id: s30, target: "A button has come off my coat.", native: { nl: "Er is een knoop van mijn jas afgevallen." }, items: [en.button] }
+  - { id: s31, target: "I like the pattern on your dress.", native: { nl: "Ik vind het patroon op je jurk mooi." }, items: [en.pattern] }
+  - { id: s32, target: "Read the label before you wash it.", native: { nl: "Lees het etiket voordat je het wast." }, items: [en.label] }
+  - { id: s33, target: "Our school's logo is on every jumper.", native: { nl: "Het logo van onze school staat op elke trui." }, items: [en.logo] }
+  - { id: s34, target: "What size are you?", native: { nl: "Welke maat heb je?" }, items: [en.size] }
+  - { id: s35, target: "These jeans are too tight.", native: { nl: "Deze spijkerbroek zit te strak." }, items: [en.tight] }
+  - { id: s36, target: "I prefer loose clothes when I travel.", native: { nl: "Ik draag liever wijde kleren als ik reis." }, items: [en.loose] }
+  - { id: s37, target: "Can I try on these shoes, please?", native: { nl: "Mag ik deze schoenen passen, alstublieft?" }, items: [en.try-on], acceptAlso: ["Can I try these shoes on, please?"] }
+  - { id: s38, target: "You'll wear out your trainers if you play football in them.", native: { nl: "Je verslijt je sportschoenen als je erin voetbalt." }, items: [en.wear-out], acceptAlso: ["You'll wear your trainers out if you play football in them."] }
+  - { id: s39, target: "This T-shirt is made of cotton.", native: { nl: "Dit T-shirt is van katoen." }, items: [en.cotton] }
+  - { id: s40, target: "The scarf is made of pure silk.", native: { nl: "De sjaal is van pure zijde." }, items: [en.silk] }
+  - { id: s41, target: "I'd like a leather jacket.", native: { nl: "Ik zou graag een leren jas hebben." }, items: [en.leather] }
+  - { id: s42, target: "The school uniform is navy blue.", native: { nl: "Het schooluniform is marineblauw." }, items: [en.navy-blue] }
+  - { id: s43, target: "She makes her own jewellery.", native: { nl: "Ze maakt haar eigen sieraden." }, items: [en.jewellery] }
+  - { id: s44, target: "He wears a gold chain around his neck.", native: { nl: "Hij draagt een gouden ketting om zijn nek." }, items: [en.chain] }
+  - { id: s45, target: "I've lost one of my earrings.", native: { nl: "Ik ben een van mijn oorbellen kwijt." }, items: [en.earring] }
+  - { id: s46, target: "My purse was in my bag.", native: { nl: "Mijn portemonnee zat in mijn tas." }, items: [en.purse] }
+  - { id: s47, target: "Dad keeps his money and cards in his wallet.", native: { nl: "Papa bewaart zijn geld en pasjes in zijn portefeuille." }, items: [en.wallet] }
+  - { id: s48, target: "Grandpa always has a handkerchief in his pocket.", native: { nl: "Opa heeft altijd een zakdoek in zijn zak." }, items: [en.handkerchief] }
+  - { id: s49, target: "I bought my mum some perfume for her birthday.", native: { nl: "Ik heb parfum voor mijn moeder gekocht voor haar verjaardag." }, items: [en.perfume], acceptAlso: ["For her birthday I bought my mum some perfume."] }
+  - { id: s50, target: "The actors put on their make-up before the show.", native: { nl: "De acteurs deden hun make-up op voor de voorstelling." }, items: [en.make-up], acceptAlso: ["The actors put their make-up on before the show.", "Before the show the actors put on their make-up."] }
+  - { id: s51, target: "I like your new haircut!", native: { nl: "Ik vind je nieuwe kapsel mooi!" }, items: [en.haircut] }
+  - { id: s52, target: "My brother has started to shave.", native: { nl: "Mijn broer is begonnen zich te scheren." }, items: [en.shave] }
+  - { id: s53, target: "That style really suits you.", native: { nl: "Die stijl staat je echt goed." }, items: [en.style] }
+  - { id: s54, target: "She bought a lovely long red cotton dress.", native: { nl: "Ze kocht een mooie lange rode katoenen jurk." }, items: [en.cotton], build: true }
+texts: [en-b1-t27]

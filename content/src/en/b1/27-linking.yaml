@@ -1,0 +1,163 @@
+id: en-b1-u27
+title: { nl: Zinnen verbinden }
+icon: link
+topic: Linking words, adverbs of degree and quantity; although, despite, however, unless, in case, so that, in order to
+vocabulary:
+  - { target: although, native: { nl: hoewel }, pos: conjunction }
+  - { target: though, native: { nl: "hoewel; toch" }, pos: conjunction, avoid: [en.however, en.anyway] }
+  - { target: even though, native: { nl: "ook al, hoewel" }, pos: conjunction }
+  - { target: despite, native: { nl: ondanks }, pos: preposition, avoid: [en.spite] }
+  - { target: spite, native: { nl: "ondanks (in … of)" }, pos: noun, noBlank: true }
+  - { target: however, native: { nl: echter }, pos: adverb }
+  - { target: therefore, native: { nl: daarom }, pos: adverb, noBlank: true }
+  - { target: otherwise, native: { nl: anders }, pos: adverb }
+  - { target: unless, native: { nl: tenzij }, pos: conjunction }
+  - { target: in case, native: { nl: voor het geval dat }, pos: conjunction }
+  - { target: as long as, native: { nl: zolang }, pos: conjunction }
+  - { target: whether, native: { nl: of (al dan niet) }, pos: conjunction, noBlank: true }
+  - { target: whatever, native: { nl: wat … ook }, pos: pronoun }
+  - { target: whenever, native: { nl: wanneer … ook }, pos: conjunction }
+  - { target: wherever, native: { nl: waar … ook }, pos: conjunction }
+  - { target: because of, native: { nl: vanwege }, pos: preposition, avoid: [en.due-to], noBlank: true }
+  - { target: due to, native: { nl: door (als gevolg van) }, pos: preposition, noBlank: true }
+  - { target: in order to, native: { nl: om … te }, pos: phrase, noBlank: true }
+  - { target: in order, native: { nl: op volgorde }, pos: phrase }
+  - { target: lead, native: { nl: "leiden (naar)" }, pos: verb }
+  - { target: besides, native: { nl: "bovendien, behalve" }, pos: preposition }
+  - { target: except, native: { nl: behalve }, pos: preposition }
+  - { target: apart from, native: { nl: afgezien van }, pos: preposition, avoid: [en.besides, en.except] }
+  - { target: as well, native: { nl: ook }, pos: adverb }
+  - { target: addition, native: { nl: "bovendien (in …)" }, pos: noun, avoid: [en.besides], noBlank: true }
+  - { target: instance, native: { nl: "bijvoorbeeld (for …)" }, pos: noun, noBlank: true }
+  - { target: either, native: { nl: "ook niet (na ontkenning); een van beide" }, pos: adverb, avoid: [en.neither] }
+  - { target: neither, native: { nl: geen van beide (ook niet) }, pos: adverb }
+  - { target: none, native: { nl: "geen enkele, geen van" }, pos: pronoun, avoid: [en.nobody] }
+  - { target: whole, native: { nl: heel (geheel) }, pos: adjective }
+  - { target: few, native: { nl: weinig }, pos: determiner }
+  - { target: less, native: { nl: minder }, pos: determiner }
+  - { target: least, native: { nl: minst }, pos: determiner }
+  - { target: plenty, native: { nl: genoeg (ruim voldoende) }, pos: pronoun, noBlank: true }
+  - { target: lack, native: { nl: gebrek (tekort) }, pos: noun }
+  - { target: at all, native: { nl: helemaal (niet) }, pos: phrase }
+  - { target: at least, native: { nl: minstens }, pos: phrase }
+  - { target: up to, native: { nl: tot (maximaal) }, pos: phrase, avoid: [en.till] }
+  - { target: among, native: { nl: tussen (te midden van) }, pos: preposition, noBlank: true }
+  - { target: almost, native: { nl: bijna }, pos: adverb }
+  - { target: nearly, native: { nl: "bijna, haast" }, pos: adverb }
+  - { target: hardly, native: { nl: nauwelijks }, pos: adverb }
+  - { target: rather, native: { nl: nogal (vrij) }, pos: adverb, noBlank: true }
+  - { target: fairly, native: { nl: vrij (redelijk) }, pos: adverb, avoid: [en.rather, en.reasonably], noBlank: true }
+  - { target: slightly, native: { nl: een beetje (iets) }, pos: adverb, noBlank: true }
+  - { target: partly, native: { nl: gedeeltelijk }, pos: adverb }
+  - { target: mostly, native: { nl: meestal (grotendeels) }, pos: adverb, noBlank: true }
+  - { target: mainly, native: { nl: voornamelijk }, pos: adverb, avoid: [en.especially, en.mostly], noBlank: true }
+  - { target: main, native: { nl: belangrijkste (hoofd-) }, pos: adjective }
+  - { target: especially, native: { nl: vooral }, pos: adverb, noBlank: true }
+  - { target: specially, native: { nl: speciaal }, pos: adverb }
+  - { target: particular, native: { nl: bepaald (specifiek) }, pos: adjective }
+  - { target: particularly, native: { nl: in het bijzonder }, pos: adverb, avoid: [en.especially], noBlank: true }
+  - { target: extremely, native: { nl: uiterst }, pos: adverb }
+  - { target: terribly, native: { nl: verschrikkelijk (bijwoord) }, pos: adverb }
+  - { target: incredibly, native: { nl: ongelooflijk (bijwoord) }, pos: adverb }
+  - { target: totally, native: { nl: totaal }, pos: adverb, avoid: [en.completely, en.fully] }
+  - { target: completely, native: { nl: "helemaal, volledig" }, pos: adverb, noBlank: true }
+  - { target: fully, native: { nl: volledig }, pos: adverb }
+  - { target: exact, native: { nl: precies (exact) }, pos: adjective }
+  - { target: exactly, native: { nl: precies }, pos: adverb, avoid: [en.exact], noBlank: true }
+  - { target: even, native: { nl: zelfs }, pos: adverb }
+  - { target: indeed, native: { nl: inderdaad }, pos: adverb }
+  - { target: in fact, native: { nl: eigenlijk (in feite) }, pos: phrase, noBlank: true }
+  - { target: anyway, native: { nl: hoe dan ook }, pos: adverb }
+  - { target: anymore, native: { nl: niet meer (meer) }, pos: adverb }
+  - { target: somehow, native: { nl: op een of andere manier }, pos: adverb }
+  - { target: further, native: { nl: verder }, pos: adverb }
+  - { target: sort, native: { nl: soort }, pos: noun }
+  - { target: side, native: { nl: kant }, pos: noun }
+  - { target: by accident, native: { nl: per ongeluk }, pos: phrase, avoid: [en.by-mistake], noBlank: true }
+  - { target: by mistake, native: { nl: per vergissing }, pos: phrase, noBlank: true }
+  - { target: continue, native: { nl: doorgaan }, pos: verb, avoid: [en.carry-on, en.go-on, en.keep-on], noBlank: true }
+  - { target: carry on, native: { nl: doorgaan (met) }, pos: phrase, avoid: [en.go-on, en.keep-on, en.get-on-with] }
+  - { target: go on, native: { nl: verdergaan (doorgaan) }, pos: phrase, avoid: [en.keep-on] }
+  - { target: keep on, native: { nl: blijven (iets doen) }, pos: phrase, avoid: [en.remain] }
+  - { target: remain, native: { nl: blijven }, pos: verb }
+sentences:
+  - { id: s01, target: "Although it was raining, we went for a walk.", native: { nl: "Hoewel het regende, gingen we wandelen." }, items: [en.although], acceptAlso: ["We went for a walk although it was raining."] }
+  - { id: s02, target: "It was cold. We enjoyed the day, though.", native: { nl: "Het was koud. We hebben toch van de dag genoten." }, items: [en.though] }
+  - { id: s03, target: "She went to school even though she felt ill.", native: { nl: "Ze ging naar school, ook al voelde ze zich ziek." }, items: [en.even-though] }
+  - { id: s04, target: "Despite the rain, the match went on.", native: { nl: "Ondanks de regen ging de wedstrijd door." }, items: [en.despite, en.go-on], acceptAlso: ["The match went on despite the rain."], finite: { word: went, hint: { nl: "go (verleden tijd: … on)" } } }
+  - { id: s05, target: "In spite of the traffic, we arrived on time.", native: { nl: "Ondanks het verkeer kwamen we op tijd aan." }, items: [en.spite], acceptAlso: ["We arrived on time in spite of the traffic."] }
+  - { id: s06, target: "The hotel was lovely. However, the food was terrible.", native: { nl: "Het hotel was prachtig. Het eten was echter verschrikkelijk." }, items: [en.however] }
+  - { id: s07, target: "The road was closed. Therefore, we took the train.", native: { nl: "De weg was afgesloten. Daarom namen we de trein." }, items: [en.therefore] }
+  - { id: s08, target: "Hurry up, otherwise we'll miss the bus.", native: { nl: "Schiet op, anders missen we de bus." }, items: [en.otherwise] }
+  - { id: s09, target: "You can't go out unless you finish your homework.", native: { nl: "Je mag niet weg, tenzij je je huiswerk afmaakt." }, items: [en.unless] }
+  - { id: s10, target: "Take an umbrella in case it rains.", native: { nl: "Neem een paraplu mee voor het geval het regent." }, items: [en.in-case] }
+  - { id: s11, target: "You can borrow my bike as long as you bring it back tonight.", native: { nl: "Je mag mijn fiets lenen zolang je hem vanavond terugbrengt." }, items: [en.as-long-as] }
+  - { id: s12, target: "I don't know whether she's coming.", native: { nl: "Ik weet niet of ze komt." }, items: [en.whether] }
+  - { id: s13, target: "Whatever you do, don't tell Mum!", native: { nl: "Wat je ook doet, zeg het niet tegen mama!" }, items: [en.whatever] }
+  - { id: s14, target: "Come and see us whenever you like.", native: { nl: "Kom ons opzoeken wanneer je maar wilt." }, items: [en.whenever] }
+  - { id: s15, target: "My dog follows me wherever I go.", native: { nl: "Mijn hond volgt me waar ik ook heen ga." }, items: [en.wherever] }
+  - { id: s16, target: "The game was cancelled because of the snow.", native: { nl: "De wedstrijd werd afgelast vanwege de sneeuw." }, items: [en.because-of], acceptAlso: ["Because of the snow the game was cancelled."] }
+  - { id: s17, target: "The train was late due to a problem with the signals.", native: { nl: "De trein had vertraging door een probleem met de seinen." }, items: [en.due-to] }
+  - { id: s18, target: "I got up early in order to catch the first train.", native: { nl: "Ik stond vroeg op om de eerste trein te halen." }, items: [en.in-order-to] }
+  - { id: s19, target: "Put the pictures in order.", native: { nl: "Leg de plaatjes op volgorde." }, items: [en.in-order] }
+  - { id: s20, target: "The teacher led the children to the bus.", native: { nl: "De juf leidde de kinderen naar de bus." }, items: [en.lead] }
+  - { id: s21, target: "Besides English, she speaks French and Spanish.", native: { nl: "Behalve Engels spreekt ze ook Frans en Spaans." }, items: [en.besides] }
+  - { id: s22, target: "Everyone came except Tom.", native: { nl: "Iedereen kwam behalve Tom." }, items: [en.except] }
+  - { id: s23, target: "Apart from the weather, it was a great holiday.", native: { nl: "Afgezien van het weer was het een geweldige vakantie." }, items: [en.apart-from], acceptAlso: ["It was a great holiday apart from the weather."] }
+  - { id: s24, target: "Can I come as well?", native: { nl: "Mag ik ook komen?" }, items: [en.as-well] }
+  - { id: s25, target: "The room is big. In addition, it has a lovely view.", native: { nl: "De kamer is groot. Bovendien heeft hij een prachtig uitzicht." }, items: [en.addition] }
+  - { id: s26, target: "I love winter sports, for instance skiing and skating.", native: { nl: "Ik hou van wintersporten, bijvoorbeeld skiën en schaatsen." }, items: [en.instance] }
+  - { id: s27, target: "I don't like coffee, and my sister doesn't either.", native: { nl: "Ik hou niet van koffie, en mijn zus ook niet." }, items: [en.either] }
+  - { id: s28, target: "She's not tall, and neither am I.", native: { nl: "Zij is niet lang, en ik ook niet." }, items: [en.neither] }
+  - { id: s29, target: "None of my friends can come.", native: { nl: "Geen van mijn vrienden kan komen." }, items: [en.none] }
+  - { id: s30, target: "I ate the whole pizza!", native: { nl: "Ik heb de hele pizza opgegeten!" }, items: [en.whole] }
+  - { id: s31, target: "Very few people came to the meeting.", native: { nl: "Er kwamen heel weinig mensen naar de vergadering." }, items: [en.few] }
+  - { id: s32, target: "I spend less time on my phone now.", native: { nl: "Ik besteed nu minder tijd aan mijn telefoon." }, items: [en.less] }
+  - { id: s33, target: "Who did the least work?", native: { nl: "Wie heeft het minste werk gedaan?" }, items: [en.least] }
+  - { id: s34, target: "Don't worry, we have plenty of time.", native: { nl: "Maak je geen zorgen, we hebben ruim de tijd." }, items: [en.plenty] }
+  - { id: s35, target: "The plants died because of a lack of water.", native: { nl: "De planten gingen dood door gebrek aan water." }, items: [en.lack] }
+  - { id: s36, target: "I didn't sleep at all last night.", native: { nl: "Ik heb vannacht helemaal niet geslapen." }, items: [en.at-all], acceptAlso: ["Last night I didn't sleep at all."] }
+  - { id: s37, target: "You should drink at least two litres of water a day.", native: { nl: "Je zou minstens twee liter water per dag moeten drinken." }, items: [en.at-least] }
+  - { id: s38, target: "The car can carry up to five people.", native: { nl: "Er kunnen maximaal vijf mensen in de auto." }, items: [en.up-to] }
+  - { id: s39, target: "I found my keys among the books on my desk.", native: { nl: "Ik vond mijn sleutels tussen de boeken op mijn bureau." }, items: [en.among] }
+  - { id: s40, target: "It's almost time to go.", native: { nl: "Het is bijna tijd om te gaan." }, items: [en.almost] }
+  - { id: s41, target: "I nearly forgot your birthday.", native: { nl: "Ik was je verjaardag bijna vergeten." }, items: [en.nearly] }
+  - { id: s42, target: "I could hardly hear the music.", native: { nl: "Ik kon de muziek nauwelijks horen." }, items: [en.hardly] }
+  - { id: s43, target: "She's rather tall for her age.", native: { nl: "Ze is nogal lang voor haar leeftijd." }, items: [en.rather] }
+  - { id: s44, target: "The test was fairly easy.", native: { nl: "De toets was vrij makkelijk." }, items: [en.fairly] }
+  - { id: s45, target: "I feel slightly better today.", native: { nl: "Ik voel me vandaag iets beter." }, items: [en.slightly], acceptAlso: ["Today I feel slightly better."] }
+  - { id: s46, target: "The story is partly true.", native: { nl: "Het verhaal is gedeeltelijk waar." }, items: [en.partly] }
+  - { id: s47, target: "The students were mostly from Spain.", native: { nl: "De studenten kwamen grotendeels uit Spanje." }, items: [en.mostly] }
+  - { id: s48, target: "We mainly eat vegetables and fish.", native: { nl: "We eten voornamelijk groenten en vis." }, items: [en.mainly] }
+  - { id: s49, target: "The main problem is money.", native: { nl: "Het belangrijkste probleem is geld." }, items: [en.main] }
+  - { id: s50, target: "I love fruit, especially strawberries.", native: { nl: "Ik hou van fruit, vooral van aardbeien." }, items: [en.especially] }
+  - { id: s51, target: "This cake was made specially for you.", native: { nl: "Deze taart is speciaal voor jou gemaakt." }, items: [en.specially], acceptAlso: ["This cake was specially made for you."] }
+  - { id: s52, target: "Is there a particular book you'd like?", native: { nl: "Is er een bepaald boek dat je graag wilt?" }, items: [en.particular] }
+  - { id: s53, target: "I'm not particularly hungry.", native: { nl: "Ik heb niet bijzonder veel honger." }, items: [en.particularly] }
+  - { id: s54, target: "It's extremely hot today.", native: { nl: "Het is vandaag extreem heet." }, items: [en.extremely] }
+  - { id: s55, target: "I'm terribly sorry I'm late.", native: { nl: "Het spijt me verschrikkelijk dat ik te laat ben." }, items: [en.terribly] }
+  - { id: s56, target: "The team played incredibly well.", native: { nl: "Het team speelde ongelooflijk goed." }, items: [en.incredibly] }
+  - { id: s57, target: "I totally agree with you.", native: { nl: "Ik ben het helemaal met je eens." }, items: [en.totally] }
+  - { id: s58, target: "I completely forgot about the test!", native: { nl: "Ik was de toets helemaal vergeten!" }, items: [en.completely] }
+  - { id: s59, target: "The hotel is fully booked.", native: { nl: "Het hotel is volgeboekt." }, items: [en.fully] }
+  - { id: s60, target: "What's the exact time?", native: { nl: "Hoe laat is het precies?" }, items: [en.exact] }
+  - { id: s61, target: "That's exactly what I wanted!", native: { nl: "Dat is precies wat ik wilde!" }, items: [en.exactly] }
+  - { id: s62, target: "He couldn't even ride a bike.", native: { nl: "Hij kon niet eens fietsen." }, items: [en.even] }
+  - { id: s63, target: "It was a very difficult question indeed.", native: { nl: "Het was inderdaad een heel moeilijke vraag." }, items: [en.indeed], acceptAlso: ["It was indeed a very difficult question."] }
+  - { id: s64, target: "She seems shy, but in fact she's very funny.", native: { nl: "Ze lijkt verlegen, maar eigenlijk is ze heel grappig." }, items: [en.in-fact] }
+  - { id: s65, target: "It's raining, but let's go anyway.", native: { nl: "Het regent, maar laten we toch gaan." }, items: [en.anyway] }
+  - { id: s66, target: "My grandma doesn't drive anymore.", native: { nl: "Mijn oma rijdt niet meer." }, items: [en.anymore] }
+  - { id: s67, target: "Somehow, we found our way home.", native: { nl: "Op een of andere manier vonden we de weg naar huis." }, items: [en.somehow], acceptAlso: ["We found our way home somehow."] }
+  - { id: s68, target: "We walked a bit further along the beach.", native: { nl: "We liepen een stukje verder langs het strand." }, items: [en.further] }
+  - { id: s69, target: "What sort of music do you like?", native: { nl: "Van wat voor soort muziek hou je?" }, items: [en.sort] }
+  - { id: s70, target: "Our house is on the other side of the river.", native: { nl: "Ons huis staat aan de andere kant van de rivier." }, items: [en.side] }
+  - { id: s71, target: "I broke the glass by accident.", native: { nl: "Ik brak het glas per ongeluk." }, items: [en.by-accident] }
+  - { id: s72, target: "I took your bag by mistake.", native: { nl: "Ik nam per vergissing jouw tas mee." }, items: [en.by-mistake] }
+  - { id: s73, target: "Please continue reading.", native: { nl: "Ga alsjeblieft verder met lezen." }, items: [en.continue] }
+  - { id: s74, target: "He carried on walking despite the rain.", native: { nl: "Hij liep door ondanks de regen." }, items: [en.carry-on], acceptAlso: ["Despite the rain he carried on walking."] }
+  - { id: s75, target: "The meeting went on until six.", native: { nl: "De vergadering duurde tot zes uur." }, items: [en.go-on] }
+  - { id: s76, target: "She kept on talking during the film.", native: { nl: "Ze bleef praten tijdens de film." }, items: [en.keep-on], acceptAlso: ["During the film she kept on talking."] }
+  - { id: s77, target: "Please remain in your seats.", native: { nl: "Blijf alstublieft zitten." }, items: [en.remain] }
+  - { id: s78, target: "We left early in order to get good seats.", native: { nl: "We vertrokken vroeg om goede plaatsen te krijgen." }, items: [en.in-order-to], build: true }
+  - { id: s79, target: "We left early so that we could avoid the traffic, although it was raining.", native: { nl: "We vertrokken vroeg zodat we het verkeer konden vermijden, hoewel het regende." }, items: [en.although] }
+texts: [en-b1-t28]

@@ -1,0 +1,54 @@
+id: nl-b2-study-t03
+kind: reading
+title: { en: How often do we lie? }
+topic: Research and surveys (a report of a psychology lecture in the student magazine)
+level: B2
+paragraphs:
+  - - { id: nl-b2-study-t03-s01, target: "Liegen doen we allemaal, ook al zeggen we graag dat we het nooit doen.", native: { en: "We all lie, even though we like to say that we never do." } }
+    - { id: nl-b2-study-t03-s02, target: "Dat bleek vorige week tijdens een lezing van psycholoog Hanne Claes in de grote aula, waar meer dan driehonderd studenten kwamen luisteren.", native: { en: "That became clear last week during a talk by psychologist Hanne Claes in the big lecture hall, where more than three hundred students came to listen." } }
+  - - { id: nl-b2-study-t03-s03, target: "Claes en haar collega's lieten duizend Vlamingen een week lang een anonieme vragenlijst invullen.", native: { en: "Claes and her colleagues had a thousand Flemish people fill in an anonymous questionnaire for a week." } }
+    - { id: nl-b2-study-t03-s04, target: "Elke avond noteerden de respondenten hoe vaak ze die dag gelogen hadden, tegen wie en waarom.", native: { en: "Every evening the respondents noted how often they had lied that day, to whom and why." } }
+    - { id: nl-b2-study-t03-s05, target: "Omdat de steekproef representatief was, kunnen de onderzoekers iets zeggen over alle Vlamingen.", native: { en: "Because the sample was representative, the researchers can say something about all Flemish people." } }
+  - - { id: nl-b2-study-t03-s06, target: "De resultaten zijn verrassend.", native: { en: "The results are surprising." } }
+    - { id: nl-b2-study-t03-s07, target: "Gemiddeld liegen we ongeveer twee keer per dag, maar dat gemiddelde zegt niet alles.", native: { en: "On average we lie about twice a day, but that average doesn't tell the whole story." } }
+    - { id: nl-b2-study-t03-s08, target: "De meeste mensen liegen bijna nooit, terwijl een kleine minderheid heel vaak liegt.", native: { en: "Most people hardly ever lie, while a small minority lie very often." } }
+    - { id: nl-b2-study-t03-s09, target: "Volgens de tabel die Claes toonde, is vijf procent van de respondenten verantwoordelijk voor bijna de helft van alle leugens.", native: { en: "According to the table Claes showed, five per cent of the respondents are responsible for almost half of all the lies." } }
+  - - { id: nl-b2-study-t03-s10, target: "Ook de reden waarom we liegen, is niet altijd dezelfde.", native: { en: "The reason why we lie is not always the same either." } }
+    - { id: nl-b2-study-t03-s11, target: "Veel leugens zijn klein en vriendelijk: we zeggen dat we een cadeau mooi vinden, om de ander niet te kwetsen.", native: { en: "Many lies are small and kind: we say that we like a present, so as not to hurt the other person." } }
+    - { id: nl-b2-study-t03-s12, target: "Andere leugens beschermen ons: we hebben de e-mail \"niet gezien\", of de trein \"had vertraging\".", native: { en: "Other lies protect us: we \"didn't see\" the e-mail, or the train \"was delayed\"." } }
+  - - { id: nl-b2-study-t03-s13, target: "Kunnen we leugens herkennen?", native: { en: "Can we recognise lies?" } }
+    - { id: nl-b2-study-t03-s14, target: "Minder goed dan we denken, zegt Claes.", native: { en: "Less well than we think, says Claes." } }
+    - { id: nl-b2-study-t03-s15, target: "In een experiment moesten proefpersonen naar filmpjes kijken en zeggen wie loog; ze hadden maar bij de helft van de filmpjes het juiste antwoord, niet beter dan wie een munt opgooit.", native: { en: "In an experiment participants had to watch short videos and say who was lying; they only got the right answer for half of the videos, no better than someone tossing a coin." } }
+    - { id: nl-b2-study-t03-s16, target: "Wie wegkijkt of met zijn handen speelt, liegt niet noodzakelijk: misschien is hij gewoon zenuwachtig.", native: { en: "Someone who looks away or fiddles with their hands is not necessarily lying: maybe they are just nervous." } }
+  - - { id: nl-b2-study-t03-s17, target: "Na de lezing was er tijd voor vragen.", native: { en: "After the talk there was time for questions." } }
+    - { id: nl-b2-study-t03-s18, target: "Een student wilde weten of liegen altijd slecht is.", native: { en: "One student wanted to know whether lying is always bad." } }
+    - { id: nl-b2-study-t03-s19, target: "\"Een samenleving zonder kleine leugens zou heel hard zijn\", antwoordde Claes. \"Maar eerlijkheid blijft de basis van vertrouwen.\"", native: { en: "\"A society without small lies would be very harsh\", Claes answered. \"But honesty remains the basis of trust.\"" } }
+glossary:
+  - { word: filmpjes, native: { en: "short videos, clips (het filmpje)" } }
+  - { word: opgooit, native: { en: "tosses (opgooien)" } }
+  - { word: wegkijkt, native: { en: "looks away (wegkijken)" } }
+items: [nl.lezing, nl.vragenlijst, nl.anoniem, nl.respondent, nl.steekproef, nl.representatief, nl.tabel, nl.kwetsen, nl.proefpersoon, nl.liegen, nl.eerlijkheid]
+gapped:
+  gaps: [nl-b2-study-t03-s06, nl-b2-study-t03-s10, nl-b2-study-t03-s13, nl-b2-study-t03-s17]
+  extra:
+    - { id: nl-b2-study-t03-x1, target: "Ook dieren kunnen liegen, zeggen sommige onderzoekers.", native: { en: "Animals can lie too, some researchers say." } }
+openCloze:
+  - { sentence: nl-b2-study-t03-s07, word: maar, acceptAlso: [en] }
+  - { sentence: nl-b2-study-t03-s08, word: terwijl }
+  - { sentence: nl-b2-study-t03-s10, word: waarom, acceptAlso: [dat] }
+  - { sentence: nl-b2-study-t03-s15, word: dan }
+wordForm:
+  - { sentence: nl-b2-study-t03-s08, word: minderheid, stem: minder }
+  - { sentence: nl-b2-study-t03-s09, word: leugens, stem: liegen }
+  - { sentence: nl-b2-study-t03-s11, word: vriendelijk, stem: vriend }
+questions:
+  - { id: nl-b2-study-t03-q1, type: summary, options: ["Een psycholoog vertelde over een onderzoek naar liegen: we liegen allemaal, maar een kleine minderheid veel vaker, en leugens herkennen is moeilijk.", "Een psycholoog legde uit hoe je met een vragenlijst altijd een leugen kunt herkennen.", "Studenten vertelden tijdens een lezing waarom ze tegen hun docenten liegen."], correct: 0 }
+  - { id: nl-b2-study-t03-q2, type: mc, question: "Hoe vaak liegen we volgens het onderzoek gemiddeld?", options: ["Ongeveer twee keer per dag.", "Ongeveer twee keer per week.", "Bijna nooit."], correct: 0 }
+  - { id: nl-b2-study-t03-q3, type: true_false_notgiven, statement: "De respondenten vulden een week lang elke avond de vragenlijst in.", answer: true }
+  - { id: nl-b2-study-t03-q4, type: true_false_notgiven, statement: "De meeste mensen liegen elke dag een paar keer.", answer: false }
+  - { id: nl-b2-study-t03-q5, type: true_false_notgiven, statement: "Hanne Claes geeft ook les aan de universiteit van Gent.", answer: not_given }
+  - { id: nl-b2-study-t03-q6, type: match_heading, paragraph: 5, options: ["Leugens herkennen is moeilijk", "Waarom we liegen", "Hoe het onderzoek werkte"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-study-t03-l1, type: complete, statement: "Vijf ___ van de respondenten is verantwoordelijk voor bijna de helft van alle leugens.", answers: [procent] }
+  - { id: nl-b2-study-t03-l2, type: mc, question: "Wat moesten de proefpersonen in het experiment doen?", options: ["Naar filmpjes kijken en zeggen wie loog.", "Een week lang niet liegen.", "Een cadeau kopen."], correct: 0 }
+orderable: false

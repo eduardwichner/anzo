@@ -1,0 +1,46 @@
+id: nl-a2-u06
+title: { en: Problems at home }
+icon: tools
+topic: Repairs, the landlord, complaints about noise
+vocabulary:
+  - { target: het lek, native: { en: leak }, pos: noun, plural: lekken }
+  - { target: lekken, native: { en: to leak }, pos: verb }
+  - { target: de kraan, native: { en: tap }, pos: noun, plural: kranen }
+  - { target: de radiator, native: { en: radiator }, pos: noun, plural: radiatoren }
+  - { target: het stopcontact, native: { en: socket }, pos: noun, plural: stopcontacten }
+  - { target: het dak, native: { en: roof }, pos: noun, plural: daken }
+  - { target: de gang, native: { en: "hall, corridor" }, pos: noun, plural: gangen }
+  - { target: defect, native: { en: "faulty, out of order" }, pos: adjective, avoid: [nl.kapot] }
+  - { target: de schade, native: { en: damage }, pos: noun, plural: "-" }
+  - { target: de technieker, native: { en: technician }, pos: noun, plural: techniekers, alsoNL: de monteur }
+  - { target: de loodgieter, native: { en: plumber }, pos: noun, plural: loodgieters }
+  - { target: herstellen, native: { en: "to repair, to fix" }, pos: verb, alsoNL: repareren, avoid: [nl.repareren] }
+  - { target: repareren, native: { en: to repair }, pos: verb }
+  - { target: de herstelling, native: { en: repair }, pos: noun, plural: herstellingen }
+  - { target: controleren, native: { en: to check }, pos: verb }
+  - { target: oplossen, native: { en: to solve }, pos: verb }
+  - { target: het lawaai, native: { en: noise }, pos: noun, plural: "-" }
+  - { target: luid, native: { en: loud }, pos: adjective, avoid: [nl.stil] }
+  - { target: stil, native: { en: quiet }, pos: adjective }
+  - { target: klagen, native: { en: to complain }, pos: verb }
+sentences:
+  - { id: s01, target: "Er is een lek in de badkamer.", native: { en: "There's a leak in the bathroom." }, items: [nl.lek] }
+  - { id: s02, target: "De kraan in de keuken lekt.", native: { en: "The kitchen tap is leaking." }, items: [nl.kraan, nl.lekken] }
+  - { id: s03, target: "De radiator in de slaapkamer is koud.", native: { en: "The radiator in the bedroom is cold." }, items: [nl.radiator] }
+  - { id: s04, target: "Het stopcontact werkt niet meer.", native: { en: "The socket doesn't work any more." }, items: [nl.stopcontact] }
+  - { id: s05, target: "Na de storm lekte het dak.", native: { en: "The roof leaked after the storm." }, items: [nl.dak], acceptAlso: ["Het dak lekte na de storm."] }
+  - { id: s06, target: "Het licht in de gang is kapot.", native: { en: "The light in the hall is broken." }, items: [nl.gang] }
+  - { id: s07, target: "De wasmachine is defect.", native: { en: "The washing machine is out of order." }, items: [nl.defect] }
+  - { id: s08, target: "Wie betaalt de schade?", native: { en: "Who pays for the damage?" }, items: [nl.schade] }
+  - { id: s09, target: "De technieker komt morgen om tien uur.", native: { en: "The technician is coming tomorrow at ten." }, items: [nl.technieker], acceptAlso: ["Morgen komt de technieker om tien uur."] }
+  - { id: s10, target: "We hebben een loodgieter gebeld.", native: { en: "We called a plumber." }, items: [nl.loodgieter] }
+  - { id: s11, target: "Kunt u de verwarming herstellen?", native: { en: "Can you fix the heating?" }, items: [nl.herstellen] }
+  - { id: s12, target: "Hij heeft de deur gerepareerd.", native: { en: "He repaired the door." }, items: [nl.repareren] }
+  - { id: s13, target: "De herstelling heeft drie dagen geduurd.", native: { en: "The repair took three days." }, items: [nl.herstelling] }
+  - { id: s14, target: "Ik heb de ramen gecontroleerd.", native: { en: "I checked the windows." }, items: [nl.controleren] }
+  - { id: s15, target: "Is het probleem opgelost?", native: { en: "Has the problem been solved?" }, items: [nl.oplossen] }
+  - { id: s16, target: "De huisbaas lost het probleem op.", native: { en: "The landlord is sorting out the problem." }, items: [nl.oplossen] }
+  - { id: s17, target: "De buren maken veel lawaai.", native: { en: "The neighbours make a lot of noise." }, items: [nl.lawaai] }
+  - { id: s18, target: "De muziek is te luid.", native: { en: "The music is too loud." }, items: [nl.luid] }
+  - { id: s19, target: "Na tien uur moet het stil zijn.", native: { en: "After ten o'clock it has to be quiet." }, items: [nl.stil], acceptAlso: ["Het moet na tien uur stil zijn."] }
+  - { id: s20, target: "Ik heb bij de huisbaas geklaagd.", native: { en: "I complained to the landlord." }, items: [nl.klagen] }

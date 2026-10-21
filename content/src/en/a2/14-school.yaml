@@ -1,0 +1,48 @@
+id: en-a2-u14
+title: { nl: School en leren }
+icon: school
+topic: School
+vocabulary:
+  - { target: geography, native: { nl: aardrijkskunde }, pos: noun }
+  - { target: history, native: { nl: geschiedenis }, pos: noun }
+  - { target: maths, native: { nl: "rekenen, wiskunde" }, pos: noun }
+  - { target: science, native: { nl: natuuronderwijs }, pos: noun }
+  - { target: language, native: { nl: taal }, pos: noun }
+  - { target: subject, native: { nl: "vak (op school)" }, pos: noun, category: true }
+  - { target: project, native: { nl: "project, werkstuk" }, pos: noun }
+  - { target: dictionary, native: { nl: woordenboek }, pos: noun }
+  - { target: information, native: { nl: informatie }, pos: noun }
+  - { target: study, native: { nl: "leren, studeren" }, pos: verb }
+  - { target: explain, native: { nl: uitleggen }, pos: verb }
+  - { target: repeat, native: { nl: herhalen }, pos: verb }
+  - { target: improve, native: { nl: verbeteren }, pos: verb }
+  - { target: problem, native: { nl: probleem }, pos: noun }
+  - { target: surname, native: { nl: achternaam }, pos: noun }
+  - { target: member, native: { nl: lid }, pos: noun }
+  - { target: group, native: { nl: groep }, pos: noun }
+  - { target: piece, native: { nl: stuk }, pos: noun }
+  - { target: bit, native: { nl: "beetje, stukje" }, pos: noun, avoid: [en.piece] }
+sentences:
+  - { id: s01, target: "In geography we learn about countries.", native: { nl: "Bij aardrijkskunde leren we over landen." }, items: [en.geography] }
+  - { id: s02, target: "History is about the past.", native: { nl: "Geschiedenis gaat over het verleden." }, items: [en.history] }
+  - { id: s03, target: "We've got maths every morning.", native: { nl: "We hebben elke ochtend rekenen." }, items: [en.maths], acceptAlso: ["We have got maths every morning."] }
+  - { id: s04, target: "In science we learn about plants.", native: { nl: "Bij natuuronderwijs leren we over planten." }, items: [en.science] }
+  - { id: s05, target: "Which language do you speak at home?", native: { nl: "Welke taal spreek jij thuis?" }, items: [en.language] }
+  - { id: s06, target: "My favourite subject is music.", native: { nl: "Mijn lievelingsvak is muziek." }, items: [en.subject] }
+  - { id: s07, target: "We're doing a project about the moon.", native: { nl: "We doen een project over de maan." }, items: [en.project], acceptAlso: ["We are doing a project about the moon."] }
+  - { id: s08, target: "Look up the word in the dictionary.", native: { nl: "Zoek het woord op in het woordenboek." }, items: [en.dictionary] }
+  - { id: s09, target: "I found the information on the internet.", native: { nl: "Ik vond de informatie op internet." }, items: [en.information] }
+  - { id: s10, target: "I have to study tonight.", native: { nl: "Ik moet vanavond leren." }, items: [en.study] }
+  - { id: s11, target: "Can you explain this to me?", native: { nl: "Kun je dit aan mij uitleggen?" }, items: [en.explain] }
+  - { id: s12, target: "Please repeat the question.", native: { nl: "Herhaal de vraag, alsjeblieft." }, items: [en.repeat] }
+  - { id: s13, target: "Practise every day to improve your English.", native: { nl: "Oefen elke dag om je Engels te verbeteren." }, items: [en.improve] }
+  - { id: s14, target: "We have got a problem.", native: { nl: "We hebben een probleem." }, items: [en.problem] }
+  - { id: s15, target: "What's your surname?", native: { nl: "Wat is jouw achternaam?" }, items: [en.surname], acceptAlso: ["What is your surname?"] }
+  - { id: s16, target: "I'm a member of the swimming club.", native: { nl: "Ik ben lid van de zwemclub." }, items: [en.member], acceptAlso: ["I am a member of the swimming club."] }
+  - { id: s17, target: "Work in a group of four.", native: { nl: "Werk in een groep van vier." }, items: [en.group] }
+  - { id: s18, target: "Can I have a piece of cake?", native: { nl: "Mag ik een stuk taart?" }, items: [en.piece] }
+  - { id: s19, target: "I'm a bit tired.", native: { nl: "Ik ben een beetje moe." }, items: [en.bit], acceptAlso: ["I am a bit tired."] }
+lessons:
+  - { id: l01, title: { nl: Schoolvakken }, vocab: [en.geography, en.history, en.maths, en.science, en.language, en.subject, en.project] }
+  - { id: l02, title: { nl: Leren }, vocab: [en.dictionary, en.information, en.study, en.explain, en.repeat, en.improve] }
+  - { id: l03, title: { nl: In de groep }, vocab: [en.problem, en.surname, en.member, en.group, en.piece, en.bit] }

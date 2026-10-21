@@ -1,0 +1,89 @@
+id: nl-b2-u04
+title: { en: Housing }
+icon: home
+topic: Renting or buying, the housing market, renovating and energy; om … te, door te, zonder te, in plaats van te
+vocabulary:
+  - { target: de woningmarkt, native: { en: housing market }, pos: noun, plural: woningmarkten }
+  - { target: de huurmarkt, native: { en: rental market }, pos: noun, plural: huurmarkten }
+  - { target: de renovatie, native: { en: renovation }, pos: noun, plural: renovaties }
+  - { target: de energiefactuur, native: { en: energy bill }, pos: noun, plural: energiefacturen, alsoNL: de energierekening }
+  - { target: de warmtepomp, native: { en: heat pump }, pos: noun, plural: warmtepompen }
+  - { target: de woonlening, native: { en: "home loan, mortgage" }, pos: noun, plural: woonleningen, alsoNL: de hypotheek }
+  - { target: de notaris, native: { en: notary }, pos: noun, plural: notarissen }
+  - { target: de akte, native: { en: "deed (legal document)" }, pos: noun, plural: akten }
+  - { target: het bod, native: { en: "bid, offer" }, pos: noun, plural: biedingen }
+  - { target: de schatting, native: { en: "estimate, valuation" }, pos: noun, plural: schattingen, alsoNL: de taxatie }
+  - { target: de huurwaarborg, native: { en: "rental deposit" }, pos: noun, plural: huurwaarborgen, alsoNL: de borg }
+  - { target: de leegstand, native: { en: "vacancy (empty buildings)" }, pos: noun, plural: "-" }
+  - { target: de makelaar, native: { en: estate agent }, pos: noun, plural: makelaars }
+  - { target: de koper, native: { en: buyer }, pos: noun, plural: kopers }
+  - { target: het rijhuis, native: { en: "terraced house (= rijwoning)" }, pos: noun, plural: rijhuizen, alsoNL: het rijtjeshuis, noBlank: true }
+  - { target: de woonst, native: { en: "home (Belgian, rather formal)" }, pos: noun, plural: woonsten }
+  - { target: de omgevingsvergunning, native: { en: "planning permission (building permit)" }, pos: noun, plural: omgevingsvergunningen }
+  - { target: de bouwgrond, native: { en: building plot }, pos: noun, plural: bouwgronden, alsoNL: de bouwkavel }
+  - { target: de gevel, native: { en: "front, façade" }, pos: noun, plural: gevels }
+  - { target: het eigendom, native: { en: property (what you own) }, pos: noun, plural: eigendommen }
+  - { target: de bezichtiging, native: { en: viewing (of a house) }, pos: noun, plural: bezichtigingen }
+  - { target: de investering, native: { en: investment }, pos: noun, plural: investeringen }
+  - { target: de schaarste, native: { en: shortage }, pos: noun, plural: "-" }
+  - { target: de nieuwbouw, native: { en: new building(s) }, pos: noun, plural: "-" }
+  - { target: de verkaveling, native: { en: housing estate (land divided into plots) }, pos: noun, plural: verkavelingen, alsoNL: de nieuwbouwwijk }
+  - { target: het appartementsgebouw, native: { en: block of flats }, pos: noun, plural: appartementsgebouwen, alsoNL: het appartementencomplex }
+  - { target: de renteverhoging, native: { en: interest rate rise }, pos: noun, plural: renteverhogingen }
+  - { target: renoveren, native: { en: to renovate }, pos: verb, avoid: [nl.verbouwen] }
+  - { target: verbouwen, native: { en: "to convert, to do building work on" }, pos: verb }
+  - { target: bieden, native: { en: "to bid, to offer" }, pos: verb }
+  - { target: aflossen, native: { en: to pay off (a loan) }, pos: verb, avoid: [nl.afbetalen] }
+  - { target: investeren, native: { en: to invest }, pos: verb }
+  - { target: schaars, native: { en: scarce }, pos: adjective }
+  - { target: energiezuinig, native: { en: energy-efficient }, pos: adjective }
+  - { target: hypothecair, native: { en: "mortgage (adjective, as in: a mortgage loan)" }, pos: adjective }
+  - { target: bedragen, native: { en: "to amount to, to be (a sum)" }, pos: verb }
+  - { target: schatten, native: { en: "to estimate, to value" }, pos: verb }
+  - { target: lukken, native: { en: "to succeed, to work out" }, pos: verb }
+  - { target: maximaal, native: { en: "maximum; at most" }, pos: adjective }
+  - { target: volledig, native: { en: "complete; completely" }, pos: adjective }
+  - { target: waard, native: { en: worth }, pos: adjective }
+  - { target: prettig, native: { en: "pleasant, nice" }, pos: adjective, noBlank: true }
+  - { target: de dood, native: { en: death }, pos: noun, plural: "-" }
+sentences:
+  - { id: s01, target: "Op de woningmarkt zijn de prijzen opnieuw gestegen.", native: { en: "House prices have risen again." }, items: [nl.woningmarkt], acceptAlso: ["De prijzen zijn op de woningmarkt opnieuw gestegen.", "De prijzen op de woningmarkt zijn opnieuw gestegen."] }
+  - { id: s02, target: "Jonge gezinnen vinden op de huurmarkt bijna niets betaalbaars.", native: { en: "Young families find almost nothing affordable on the rental market." }, items: [nl.huurmarkt] }
+  - { id: s03, target: "De renovatie van het dak heeft drie maanden geduurd.", native: { en: "The renovation of the roof took three months." }, items: [nl.renovatie] }
+  - { id: s04, target: "Door het huis te isoleren, besparen we veel op onze energiefactuur.", native: { en: "By insulating the house, we save a lot on our energy bill." }, items: [nl.energiefactuur], build: true, acceptAlso: ["We besparen veel op onze energiefactuur door het huis te isoleren."] }
+  - { id: s05, target: "Een warmtepomp is duur, maar je bespaart veel op lange termijn.", native: { en: "A heat pump is expensive, but you save a lot in the long term." }, items: [nl.warmtepomp], acceptAlso: ["Een warmtepomp is duur, maar je bespaart op lange termijn veel."] }
+  - { id: s06, target: "Om een woonlening te krijgen, moet je een vast inkomen hebben.", native: { en: "To get a home loan, you need a regular income." }, items: [nl.woonlening], acceptAlso: ["Je moet een vast inkomen hebben om een woonlening te krijgen."], build: true }
+  - { id: s07, target: "De notaris leest de akte voor en daarna tekenen we.", native: { en: "The notary reads out the deed and then we sign." }, items: [nl.notaris, nl.akte], acceptAlso: ["De notaris leest de akte voor en we tekenen daarna."] }
+  - { id: s08, target: "We hebben een bod gedaan zonder het huis een tweede keer te bezoeken.", native: { en: "We made an offer without going back for a second viewing." }, items: [nl.bod], build: true, acceptAlso: ["Zonder het huis een tweede keer te bezoeken, hebben we een bod gedaan."] }
+  - { id: s09, target: "Volgens de schatting is het huis meer waard dan we dachten.", native: { en: "According to the valuation the house is worth more than we thought." }, items: [nl.schatting], acceptAlso: ["Het huis is volgens de schatting meer waard dan we dachten."] }
+  - { id: s10, target: "De huurwaarborg bedraagt maximaal drie maanden huur.", native: { en: "The rental deposit can be no more than three months' rent." }, items: [nl.huurwaarborg] }
+  - { id: s11, target: "De stad wil de leegstand in het centrum aanpakken.", native: { en: "The city wants to tackle the problem of empty buildings in the centre." }, items: [nl.leegstand] }
+  - { id: s12, target: "Via een makelaar vonden we snel een koper.", native: { en: "Through an estate agent we quickly found a buyer." }, items: [nl.makelaar, nl.koper], acceptAlso: ["We vonden via een makelaar snel een koper."] }
+  - { id: s13, target: "We wonen in een rijhuis met een kleine tuin.", native: { en: "We live in a terraced house with a small garden." }, items: [nl.rijhuis] }
+  - { id: s14, target: "Een geschikte woonst in Leuven vinden is niet gemakkelijk.", native: { en: "Finding a suitable home in Leuven isn't easy." }, items: [nl.woonst], acceptAlso: ["Een geschikte woonst vinden in Leuven is niet gemakkelijk."] }
+  - { id: s15, target: "Voor een nieuwe garage heb je een omgevingsvergunning nodig.", native: { en: "For a new garage you need planning permission." }, items: [nl.omgevingsvergunning] }
+  - { id: s16, target: "Ze hebben een bouwgrond gekocht in een rustige verkaveling.", native: { en: "They bought a building plot on a quiet housing estate." }, items: [nl.bouwgrond, nl.verkaveling] }
+  - { id: s17, target: "De gevel van het oude huis wordt gerenoveerd.", native: { en: "The front of the old house is being renovated." }, items: [nl.gevel, nl.renoveren], finite: { word: wordt, hint: { en: "worden (present)" } } }
+  - { id: s18, target: "Het huis is nu volledig ons eigendom.", native: { en: "The house is now entirely our property." }, items: [nl.eigendom] }
+  - { id: s19, target: "Na de bezichtiging wisten we meteen dat we wilden kopen.", native: { en: "After the viewing we knew at once that we wanted to buy." }, items: [nl.bezichtiging], acceptAlso: ["We wisten na de bezichtiging meteen dat we wilden kopen."] }
+  - { id: s20, target: "Zonnepanelen zijn een goede investering voor de toekomst.", native: { en: "Solar panels are a good investment for the future." }, items: [nl.investering], form: { word: investering, stem: investeren } }
+  - { id: s21, target: "Door de schaarste aan woningen stijgen de huurprijzen.", native: { en: "Because of the shortage of housing, rents are rising." }, items: [nl.schaarste], acceptAlso: ["De huurprijzen stijgen door de schaarste aan woningen."], form: { word: schaarste, stem: schaars } }
+  - { id: s22, target: "In de nieuwbouw zijn alle appartementen energiezuinig.", native: { en: "In the new development, all the flats are energy-efficient." }, items: [nl.nieuwbouw, nl.energiezuinig], acceptAlso: ["Alle appartementen zijn in de nieuwbouw energiezuinig."] }
+  - { id: s23, target: "In ons appartementsgebouw is er geen lift.", native: { en: "In our block of flats there is no lift." }, items: [nl.appartementsgebouw], acceptAlso: ["Er is geen lift in ons appartementsgebouw."] }
+  - { id: s24, target: "Door de renteverhoging betalen we nu meer per maand.", native: { en: "Because of the interest rate rise we now pay more per month." }, items: [nl.renteverhoging], acceptAlso: ["We betalen nu meer per maand door de renteverhoging."] }
+  - { id: s25, target: "In plaats van te verhuizen, verbouwen we de zolder.", native: { en: "Instead of moving, we're converting the attic." }, items: [nl.verbouwen], build: true, acceptAlso: ["We verbouwen de zolder in plaats van te verhuizen."] }
+  - { id: s26, target: "Hoeveel zou je voor dat rijhuis willen bieden?", native: { en: "How much would you be prepared to offer for that terraced house?" }, items: [nl.bieden, nl.rijhuis] }
+  - { id: s27, target: "Over twintig jaar hebben we de lening volledig afgelost.", native: { en: "In twenty years we will have paid off the loan completely." }, items: [nl.aflossen], acceptAlso: ["We hebben de lening over twintig jaar volledig afgelost.", "We hebben over twintig jaar de lening volledig afgelost."] }
+  - { id: s28, target: "De gemeente investeert in betaalbare woningen voor jonge gezinnen.", native: { en: "The municipality is investing in affordable homes for young families." }, items: [nl.investeren], finite: { word: investeert, hint: { en: "investeren (present)" } } }
+  - { id: s29, target: "Bouwgronden in de stad zijn schaars en duur.", native: { en: "Building plots in the city are scarce and expensive." }, items: [nl.schaars, nl.bouwgrond] }
+  - { id: s30, target: "Voor een hypothecaire lening ga je naar de bank.", native: { en: "For a mortgage loan you go to the bank." }, items: [nl.hypothecair] }
+  - { id: s31, target: "Het oude huis werd volledig gerenoveerd om het energiezuiniger te maken.", native: { en: "The old house was completely renovated to make it more energy-efficient." }, items: [nl.renoveren], build: true }
+  - { id: s32, target: "De makelaar schat het huis op 300.000 euro.", native: { en: "The estate agent values the house at €300,000." }, items: [nl.schatten, nl.makelaar] }
+  - { id: s33, target: "Het is ons eindelijk gelukt om een huis te kopen.", native: { en: "We have finally managed to buy a house." }, items: [nl.lukken], acceptAlso: ["Eindelijk is het ons gelukt om een huis te kopen."] }
+  - { id: s34, target: "Na de dood van haar moeder verkocht ze het huis.", native: { en: "After her mother's death she sold the house." }, items: [nl.dood], acceptAlso: ["Ze verkocht het huis na de dood van haar moeder."] }
+  - { id: s35, target: "Het is prettig wonen in deze rustige straat.", native: { en: "It's pleasant living in this quiet street." }, items: [nl.prettig] }
+transforms:
+  - { id: x01, from: "We isoleerden het dak en zo bespaarden we veel energie.", key: door, gapped: "___ bespaarden we veel energie.", answers: ["Door het dak te isoleren"], items: [nl.energiefactuur] }
+  - { id: x02, from: "Hij tekende het contract, maar hij had het niet gelezen.", key: zonder, gapped: "Hij tekende het contract ___.", answers: ["zonder het te lezen", "zonder het gelezen te hebben", "zonder dat hij het gelezen had", "zonder dat hij het had gelezen", "zonder het eerst te lezen"], items: [nl.akte] }
+  - { id: x03, from: "We verhuizen niet; we verbouwen liever de zolder.", key: plaats, gapped: "___ verbouwen we de zolder.", answers: ["In plaats van te verhuizen", "In de plaats van te verhuizen"], items: [nl.verbouwen] }
+texts: [nl-b2-t05]

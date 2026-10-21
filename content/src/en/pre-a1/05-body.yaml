@@ -1,0 +1,72 @@
+id: en-pre-a1-u05
+title: { nl: Mijn lichaam }
+icon: body
+topic: Body and face
+vocabulary:
+  - { target: head, native: { nl: hoofd }, pos: noun }
+  - { target: face, native: { nl: gezicht }, pos: noun }
+  - { target: eye, native: { nl: oog }, pos: noun }
+  - { target: ear, native: { nl: oor }, pos: noun }
+  - { target: nose, native: { nl: neus }, pos: noun }
+  - { target: mouth, native: { nl: mond }, pos: noun }
+  - { target: hair, native: { nl: haar }, pos: noun }
+  - { target: body, native: { nl: lichaam }, pos: noun }
+  - { target: arm, native: { nl: arm }, pos: noun }
+  - { target: hand, native: { nl: hand }, pos: noun }
+  - { target: leg, native: { nl: been }, pos: noun }
+  - { target: foot, native: { nl: voet }, pos: noun }
+  - { target: feet, native: { nl: voeten }, pos: noun }
+  - { target: long, native: { nl: lang }, pos: adjective }
+  - { target: short, native: { nl: kort }, pos: adjective }
+  - { target: beautiful, native: { nl: mooi }, pos: adjective }
+  - { target: ugly, native: { nl: lelijk }, pos: adjective }
+  - { target: young, native: { nl: jong }, pos: adjective }
+  - { target: old, native: { nl: oud }, pos: adjective }
+  - { target: happy, native: { nl: blij }, pos: adjective }
+  - { target: sad, native: { nl: verdrietig }, pos: adjective }
+  - { target: angry, native: { nl: boos }, pos: adjective }
+  - { target: funny, native: { nl: grappig }, pos: adjective }
+  - { target: scary, native: { nl: eng }, pos: adjective }
+  - { target: silly, native: { nl: gek }, pos: adjective }
+  - { target: smile, native: { nl: "glimlach, glimlachen" }, pos: noun }
+sentences:
+  - { id: s01, target: "Point to your head.", native: { nl: "Wijs naar je hoofd." }, items: [en.head] }
+  - { id: s02, target: "Look at my face!", native: { nl: "Kijk naar mijn gezicht!" }, items: [en.face] }
+  - { id: s03, target: "I've got two blue eyes.", native: { nl: "Ik heb twee blauwe ogen." }, items: [en.eye, en.blue], acceptAlso: ["I have got two blue eyes."] }
+  - { id: s04, target: "I can see with my eyes.", native: { nl: "Ik kan zien met mijn ogen." }, items: [en.eye] }
+  - { id: s05, target: "The donkey has got long ears.", native: { nl: "De ezel heeft lange oren." }, items: [en.ear, en.donkey] }
+  - { id: s06, target: "My nose is small.", native: { nl: "Mijn neus is klein." }, items: [en.nose, en.small] }
+  - { id: s07, target: "Open your mouth, please.", native: { nl: "Doe je mond open, alsjeblieft." }, items: [en.mouth, en.please] }
+  - { id: s08, target: "She has got brown hair.", native: { nl: "Ze heeft bruin haar." }, items: [en.hair, en.brown] }
+  - { id: s09, target: "This is my body.", native: { nl: "Dit is mijn lichaam." }, items: [en.body] }
+  - { id: s10, target: "The monkey has got long arms.", native: { nl: "De aap heeft lange armen." }, items: [en.arm, en.monkey] }
+  - { id: s11, target: "Clap your hands!", native: { nl: "Klap in je handen!" }, items: [en.hand] }
+  - { id: s12, target: "I've got a ball in my hand.", native: { nl: "Ik heb een bal in mijn hand." }, items: [en.hand], acceptAlso: ["I have got a ball in my hand."] }
+  - { id: s13, target: "Wave your hand.", native: { nl: "Zwaai met je hand." }, items: [en.hand] }
+  - { id: s14, target: "Stand on one leg!", native: { nl: "Sta op één been!" }, items: [en.leg, en.one] }
+  - { id: s15, target: "My foot is in the water.", native: { nl: "Mijn voet staat in het water." }, items: [en.foot] }
+  - { id: s16, target: "Your feet are dirty!", native: { nl: "Je voeten zijn vies!" }, items: [en.feet] }
+  - { id: s17, target: "Snakes are long.", native: { nl: "Slangen zijn lang." }, items: [en.long, en.snake] }
+  - { id: s18, target: "My hair is short.", native: { nl: "Mijn haar is kort." }, items: [en.short, en.hair] }
+  - { id: s19, target: "The flower is beautiful.", native: { nl: "De bloem is mooi." }, items: [en.beautiful] }
+  - { id: s20, target: "That's an ugly monster!", native: { nl: "Dat is een lelijk monster!" }, items: [en.ugly], acceptAlso: ["That is an ugly monster!"] }
+  - { id: s21, target: "My grandpa is old.", native: { nl: "Mijn opa is oud." }, items: [en.old, en.grandpa] }
+  - { id: s22, target: "The baby is very young.", native: { nl: "De baby is heel jong." }, items: [en.young, en.baby] }
+  - { id: s23, target: "She has got long hair.", native: { nl: "Ze heeft lang haar." }, items: [en.long, en.hair] }
+  - { id: s24, target: "I'm happy today.", native: { nl: "Ik ben blij vandaag." }, items: [en.happy], acceptAlso: ["I am happy today.", "Today I'm happy.", "Today I am happy."] }
+  - { id: s25, target: "The boy is sad.", native: { nl: "De jongen is verdrietig." }, items: [en.sad, en.boy] }
+  - { id: s26, target: "Mum is angry with me.", native: { nl: "Mama is boos op mij." }, items: [en.angry, en.mum] }
+  - { id: s27, target: "My dad is very funny.", native: { nl: "Mijn papa is heel grappig." }, items: [en.funny, en.dad] }
+  - { id: s28, target: "That monster is scary.", native: { nl: "Dat monster is eng." }, items: [en.scary] }
+  - { id: s29, target: "Don't be silly!", native: { nl: "Doe niet zo gek!" }, items: [en.silly], acceptAlso: ["Do not be silly!"] }
+  - { id: s30, target: "The baby has got a big smile.", native: { nl: "De baby heeft een grote glimlach." }, items: [en.smile, en.baby, en.big] }
+  - { id: s31, target: "She has got a happy face.", native: { nl: "Ze heeft een blij gezicht." }, items: [en.happy, en.face] }
+  - { id: s33, target: "Close one eye.", native: { nl: "Doe één oog dicht." }, items: [en.eye, en.one] }
+  - { id: s34, target: "Put the pencil behind your ear.", native: { nl: "Doe het potlood achter je oor." }, items: [en.ear] }
+  - { id: s35, target: "Point to your arm.", native: { nl: "Wijs naar je arm." }, items: [en.arm] }
+  - { id: s32, target: "Smile at the camera, please!", native: { nl: "Glimlach eens naar de camera, alsjeblieft!" }, items: [en.smile, en.please] }
+lessons:
+  - { id: l01, title: { nl: Mijn hoofd }, vocab: [en.head, en.face, en.eye, en.ear, en.nose, en.mouth, en.hair] }
+  - { id: l02, title: { nl: Armen en benen }, vocab: [en.body, en.arm, en.hand, en.leg, en.foot, en.feet] }
+  - { id: l03, title: { nl: "Hoe zie je eruit?" }, vocab: [en.long, en.short, en.beautiful, en.ugly, en.young, en.old] }
+  - { id: l04, title: { nl: "Hoe voel je je?" }, vocab: [en.happy, en.sad, en.angry, en.funny, en.scary, en.silly, en.smile] }

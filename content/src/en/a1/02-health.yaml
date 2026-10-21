@@ -1,0 +1,71 @@
+id: en-a1-u02
+title: { nl: Ziek en beter }
+icon: health
+topic: Health; Body and face
+vocabulary:
+  - { target: back, native: { nl: rug }, pos: noun }
+  - { target: neck, native: { nl: nek }, pos: noun }
+  - { target: shoulder, native: { nl: schouder }, pos: noun }
+  - { target: stomach, native: { nl: "buik, maag" }, pos: noun }
+  - { target: tooth, native: { nl: tand }, pos: noun }
+  - { target: teeth, native: { nl: tanden }, pos: noun }
+  - { target: beard, native: { nl: baard }, pos: noun }
+  - { target: moustache, native: { nl: snor }, pos: noun }
+  - { target: hurt, native: { nl: "pijn doen, bezeren" }, pos: verb }
+  - { target: cough, native: { nl: "hoest, hoesten" }, pos: noun }
+  - { target: earache, native: { nl: oorpijn }, pos: noun }
+  - { target: headache, native: { nl: hoofdpijn }, pos: noun }
+  - { target: stomach-ache, native: { nl: buikpijn }, pos: noun }
+  - { target: toothache, native: { nl: "tandpijn, kiespijn" }, pos: noun }
+  - { target: temperature, native: { nl: "koorts, temperatuur" }, pos: noun }
+  - { target: cold, native: { nl: "koud, verkoudheid" }, pos: adjective }
+  - { target: ill, native: { nl: ziek }, pos: adjective }
+  - { target: sick, native: { nl: ziek }, pos: adjective }
+  - { target: doctor, native: { nl: dokter }, pos: noun }
+  - { target: dentist, native: { nl: tandarts }, pos: noun }
+  - { target: nurse, native: { nl: verpleegkundige }, pos: noun }
+  - { target: hospital, native: { nl: ziekenhuis }, pos: noun }
+  - { target: matter, native: { nl: "probleem (wat is er?)" }, pos: noun }
+  - { target: fine, native: { nl: "goed, prima" }, pos: adjective, avoid: [en.well] }
+  - { target: fat, native: { nl: dik }, pos: adjective }
+  - { target: thin, native: { nl: dun }, pos: adjective }
+  - { target: blond, native: { nl: blond }, pos: adjective }
+  - { target: curly, native: { nl: krullend }, pos: adjective }
+  - { target: straight, native: { nl: "steil, recht" }, pos: adjective }
+sentences:
+  - { id: s01, target: "I've got a bag on my back.", native: { nl: "Ik heb een tas op mijn rug." }, items: [en.back], acceptAlso: ["I have got a bag on my back."] }
+  - { id: s02, target: "The giraffe has got a very long neck.", native: { nl: "De giraf heeft een heel lange nek." }, items: [en.neck] }
+  - { id: s03, target: "The parrot is sitting on his shoulder.", native: { nl: "De papegaai zit op zijn schouder." }, items: [en.shoulder, en.parrot] }
+  - { id: s04, target: "Put your hand on your stomach.", native: { nl: "Leg je hand op je buik." }, items: [en.stomach] }
+  - { id: s05, target: "The baby has got one tooth.", native: { nl: "De baby heeft één tandje." }, items: [en.tooth] }
+  - { id: s06, target: "Clean your teeth every day.", native: { nl: "Poets elke dag je tanden." }, items: [en.teeth] }
+  - { id: s07, target: "Grandpa has got a white beard.", native: { nl: "Opa heeft een witte baard." }, items: [en.beard] }
+  - { id: s08, target: "My uncle has got a black moustache.", native: { nl: "Mijn oom heeft een zwarte snor." }, items: [en.moustache] }
+  - { id: s09, target: "My arm hurts.", native: { nl: "Mijn arm doet pijn." }, items: [en.hurt] }
+  - { id: s10, target: "Did you hurt your leg?", native: { nl: "Heb je je been bezeerd?" }, items: [en.hurt] }
+  - { id: s11, target: "He's got a bad cough.", native: { nl: "Hij heeft een flinke hoest." }, items: [en.cough], acceptAlso: ["He has got a bad cough."] }
+  - { id: s12, target: "I've got an earache.", native: { nl: "Ik heb oorpijn." }, items: [en.earache], acceptAlso: ["I have got an earache."] }
+  - { id: s13, target: "Mum has got a headache.", native: { nl: "Mama heeft hoofdpijn." }, items: [en.headache] }
+  - { id: s14, target: "I've got a stomach-ache.", native: { nl: "Ik heb buikpijn." }, items: [en.stomach-ache], acceptAlso: ["I have got a stomach-ache."] }
+  - { id: s15, target: "The dentist helped me with my toothache.", native: { nl: "De tandarts hielp me met mijn tandpijn." }, items: [en.toothache, en.dentist] }
+  - { id: s16, target: "She's got a temperature.", native: { nl: "Ze heeft koorts." }, items: [en.temperature], acceptAlso: ["She has got a temperature."] }
+  - { id: s17, target: "I've got a cold.", native: { nl: "Ik ben verkouden." }, items: [en.cold], acceptAlso: ["I have got a cold."] }
+  - { id: s18, target: "It's very cold today.", native: { nl: "Het is erg koud vandaag." }, items: [en.cold], acceptAlso: ["It is very cold today."] }
+  - { id: s19, target: "I was ill yesterday.", native: { nl: "Ik was gisteren ziek." }, items: [en.ill], acceptAlso: ["Yesterday I was ill."] }
+  - { id: s20, target: "The sick girl is in bed.", native: { nl: "Het zieke meisje ligt in bed." }, items: [en.sick] }
+  - { id: s21, target: "You must go to the doctor.", native: { nl: "Je moet naar de dokter." }, items: [en.doctor] }
+  - { id: s22, target: "The nurse works in a hospital.", native: { nl: "De verpleegkundige werkt in een ziekenhuis." }, items: [en.nurse, en.hospital] }
+  - { id: s23, target: "Grandma is in hospital.", native: { nl: "Oma ligt in het ziekenhuis." }, items: [en.hospital] }
+  - { id: s24, target: "What's the matter?", native: { nl: "Wat is er aan de hand?" }, items: [en.matter], acceptAlso: ["What is the matter?"] }
+  - { id: s25, target: "How are you? I'm fine, thanks.", native: { nl: "Hoe gaat het? Goed, dank je." }, items: [en.fine], acceptAlso: ["How are you? I am fine, thanks."] }
+  - { id: s26, target: "The cat is very fat.", native: { nl: "De kat is heel dik." }, items: [en.fat] }
+  - { id: s27, target: "This book is very thin.", native: { nl: "Dit boek is heel dun." }, items: [en.thin] }
+  - { id: s28, target: "She has got long blond hair.", native: { nl: "Ze heeft lang blond haar." }, items: [en.blond] }
+  - { id: s29, target: "His hair is curly.", native: { nl: "Hij heeft krullend haar." }, items: [en.curly] }
+  - { id: s30, target: "My sister has got straight hair.", native: { nl: "Mijn zus heeft steil haar." }, items: [en.straight] }
+  - { id: s31, target: "The dentist looked at my teeth.", native: { nl: "De tandarts keek naar mijn tanden." }, items: [en.dentist, en.teeth] }
+lessons:
+  - { id: l01, title: { nl: Rug en schouders }, vocab: [en.back, en.neck, en.shoulder, en.stomach, en.tooth, en.teeth, en.beard, en.moustache] }
+  - { id: l02, title: { nl: Au! }, vocab: [en.hurt, en.cough, en.earache, en.headache, en.stomach-ache, en.toothache, en.temperature, en.cold] }
+  - { id: l03, title: { nl: Naar de dokter }, vocab: [en.ill, en.sick, en.doctor, en.dentist, en.nurse, en.hospital, en.matter] }
+  - { id: l04, title: { nl: "Hoe zie je eruit?" }, vocab: [en.fine, en.fat, en.thin, en.blond, en.curly, en.straight] }

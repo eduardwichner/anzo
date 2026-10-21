@@ -1,0 +1,35 @@
+id: en-b1-t23
+kind: reading
+title: { nl: Fietsen in de stad }
+topic: Getting around (a notice from the city council about a new bike scheme)
+level: B1
+paragraphs:
+  - - { id: en-b1-t23-s01, target: "From 1 April, you can hire a city bike at forty stations in the town centre.", native: { nl: "Vanaf 1 april kun je een stadsfiets huren bij veertig stations in het stadscentrum." } }
+    - { id: en-b1-t23-s02, target: "The bikes are a cheap and healthy way to get around, and they help to reduce traffic jams and pollution.", native: { nl: "De fietsen zijn een goedkope en gezonde manier om je te verplaatsen, en ze helpen om files en vervuiling te verminderen." } }
+  - - { id: en-b1-t23-s03, target: "To use the bikes, download the City Bikes app and sign up with your credit card.", native: { nl: "Om de fietsen te gebruiken, download je de City Bikes-app en meld je je aan met je kredietkaart." } }
+    - { id: en-b1-t23-s04, target: "The first thirty minutes of every ride are free.", native: { nl: "De eerste dertig minuten van elke rit zijn gratis." } }
+    - { id: en-b1-t23-s05, target: "After that, it costs one pound for every extra half hour.", native: { nl: "Daarna kost het één pond voor elk extra halfuur." } }
+  - - { id: en-b1-t23-s06, target: "Please ride safely. Always use the cycle lanes, and never ride on the pavement.", native: { nl: "Fiets alsjeblieft veilig. Gebruik altijd de fietspaden, en fiets nooit op de stoep." } }
+    - { id: en-b1-t23-s07, target: "Give way to pedestrians at crossings, and stop at red traffic lights.", native: { nl: "Geef voorrang aan voetgangers bij oversteekplaatsen, en stop bij rode verkeerslichten." } }
+    - { id: en-b1-t23-s08, target: "Children under fourteen must ride with an adult.", native: { nl: "Kinderen onder de veertien moeten met een volwassene fietsen." } }
+  - - { id: en-b1-t23-s09, target: "If a bike breaks down, leave it at the nearest station and report the problem in the app.", native: { nl: "Als een fiets kapotgaat, laat hem dan bij het dichtstbijzijnde station achter en meld het probleem in de app." } }
+    - { id: en-b1-t23-s10, target: "Our team checks every bike once a week, so most problems are fixed quickly.", native: { nl: "Ons team controleert elke fiets één keer per week, dus de meeste problemen worden snel opgelost." } }
+glossary:
+  - { word: cycle lanes, native: { nl: fietspaden } }
+items: [en.hire, en.traffic-jam, en.pollution, en.download, en.sign-up, en.credit-card, en.extra, en.safely, en.pavement, en.give-way, en.pedestrian, en.crossing, en.traffic-light, en.adult, en.break-down, en.report, en.reduce, en.healthy, en.cost, en.pound]
+questions:
+  - { id: en-b1-t23-q1, type: mc, question: "Where can you hire a city bike?", options: ["At forty stations in the town centre.", "Only at the railway station.", "At any shop in the town."], correct: 0 }
+  - { id: en-b1-t23-q2, type: true_false_notgiven, statement: "You have to pay for the first thirty minutes.", answer: false }
+  - { id: en-b1-t23-q3, type: true_false_notgiven, statement: "The bikes are electric.", answer: not_given }
+  - { id: en-b1-t23-q4, type: true_false_notgiven, statement: "Young children cannot ride a city bike alone.", answer: true }
+  - { id: en-b1-t23-q5, type: mc, question: "What should you do if a bike breaks down?", options: ["Leave it at a station and report it.", "Repair it yourself.", "Phone the police."], correct: 0 }
+  - { id: en-b1-t23-q6, type: match_heading, paragraph: 3, options: ["Rules of the road", "How much it costs", "When something goes wrong"], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t23-l1, type: mc, question: "How much does an extra half hour cost?", options: ["One pound.", "Thirty pence.", "Four pounds."], correct: 0 }
+  - { id: en-b1-t23-l2, type: true_false_notgiven, statement: "Every bike is checked once a week.", answer: true }
+cloze:
+  - { sentence: en-b1-t23-s04, word: are, kind: finite_verb, hint: { nl: "be (tegenwoordige tijd, meervoud)" } }
+  - { sentence: en-b1-t23-s05, word: costs, kind: finite_verb, hint: { nl: "cost (tegenwoordige tijd)" } }
+  - { sentence: en-b1-t23-s09, word: breaks, kind: finite_verb, hint: { nl: "break (tegenwoordige tijd: … down)" } }
+  - { sentence: en-b1-t23-s10, word: checks, kind: finite_verb, hint: { nl: "check (tegenwoordige tijd)" } }
+orderable: false

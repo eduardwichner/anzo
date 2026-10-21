@@ -1,0 +1,12 @@
+[Unit]
+Description=Anzo weekly cleanup (temp leftovers, expired logins, old spool files)
+Documentation=file:///opt/anzo/README.md
+
+[Service]
+Type=oneshot
+# root: the leftovers belong to the developer account, anzo and root; expired logins are deleted as anzo.
+WorkingDirectory=/opt/anzo
+ExecStart=/usr/bin/node scripts/ops/cleanup.js
+# A hung run must not block every later run of its timer.
+TimeoutStartSec=10min
+Nice=10

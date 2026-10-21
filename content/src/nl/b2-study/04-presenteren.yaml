@@ -1,0 +1,46 @@
+id: nl-b2-study-u04
+title: { en: Giving a presentation }
+icon: chat
+topic: Preparing and giving a presentation with slides, speaking to an audience, working on a group task; advice and purpose (zodat, om … te) and hoe … hoe
+vocabulary:
+  - { target: de dia, native: { en: "slide (in a presentation)" }, pos: noun, plural: "dia's" }
+  - { target: de spreker, native: { en: speaker }, pos: noun, plural: sprekers }
+  - { target: de toehoorder, native: { en: "listener, member of the audience" }, pos: noun, plural: toehoorders }
+  - { target: het oogcontact, native: { en: eye contact }, pos: noun, plural: "-" }
+  - { target: het tempo, native: { en: "pace, speed" }, pos: noun, plural: "tempo's" }
+  - { target: de microfoon, native: { en: microphone }, pos: noun, plural: microfoons }
+  - { target: illustreren, native: { en: to illustrate }, pos: verb }
+  - { target: visueel, native: { en: visual }, pos: adjective }
+  - { target: bondig, native: { en: "brief, to the point" }, pos: adjective }
+  - { target: de medestudent, native: { en: fellow student }, pos: noun, plural: medestudenten }
+  - { target: het trefwoord, native: { en: keyword }, pos: noun, plural: trefwoorden }
+  - { target: ingewikkeld, native: { en: "complicated, complex" }, pos: adjective }
+  - { target: begrijpelijk, native: { en: "understandable, easy to understand" }, pos: adjective }
+  - { target: voorlezen, native: { en: "to read out (aloud)" }, pos: verb }
+  - { target: hardop, native: { en: "aloud, out loud" }, pos: adverb }
+sentences:
+  - { id: s01, target: "Op elke dia staan maar een paar woorden.", native: { en: "There are only a few words on each slide." }, items: [nl.dia] }
+  - { id: s02, target: "De spreker praatte zo snel dat niemand hem kon volgen.", native: { en: "The speaker talked so fast that nobody could follow him." }, items: [nl.spreker] }
+  - { id: s03, target: "Een goede spreker kijkt naar de toehoorders, niet naar zijn laptop.", native: { en: "A good speaker looks at the audience, not at their laptop." }, items: [nl.spreker, nl.toehoorder] }
+  - { id: s04, target: "Oogcontact met het publiek is heel belangrijk.", native: { en: "Eye contact with the audience is very important." }, items: [nl.oogcontact] }
+  - { id: s05, target: "Spreek in een rustig tempo, zodat iedereen je kan volgen.", native: { en: "Speak at a calm pace, so that everyone can follow you." }, items: [nl.tempo] }
+  - { id: s06, target: "Werkt de microfoon in de grote aula?", native: { en: "Does the microphone work in the big lecture hall?" }, items: [nl.microfoon] }
+  - { id: s07, target: "Een grafiek illustreert de cijfers beter dan een lange tekst.", native: { en: "A graph illustrates the figures better than a long text." }, items: [nl.illustreren, nl.grafiek] }
+  - { id: s08, target: "Visuele informatie onthouden we beter dan woorden.", native: { en: "We remember visual information better than words." }, items: [nl.visueel], acceptAlso: ["We onthouden visuele informatie beter dan woorden."] }
+  - { id: s09, target: "Hou je antwoord bondig: het publiek heeft weinig tijd.", native: { en: "Keep your answer brief: the audience has little time." }, items: [nl.bondig] }
+  - { id: s10, target: "Ik bereid de presentatie voor met twee medestudenten.", native: { en: "I am preparing the presentation with two fellow students." }, items: [nl.medestudent], acceptAlso: ["Ik bereid met twee medestudenten de presentatie voor.", "Met twee medestudenten bereid ik de presentatie voor."] }
+  - { id: s11, target: "Schrijf geen volledige zinnen op je papier, alleen trefwoorden.", native: { en: "Don't write full sentences on your paper, only keywords." }, items: [nl.trefwoord] }
+  - { id: s12, target: "Die uitleg is te ingewikkeld voor de meeste toehoorders.", native: { en: "That explanation is too complicated for most of the audience." }, items: [nl.ingewikkeld, nl.toehoorder], form: { word: uitleg, stem: uitleggen } }
+  - { id: s13, target: "Leg het uit in begrijpelijke taal.", native: { en: "Explain it in language that is easy to understand." }, items: [nl.begrijpelijk], form: { word: begrijpelijke, stem: begrijpen } }
+  - { id: s14, target: "Lees je tekst niet voor, maar vertel het verhaal.", native: { en: "Don't read your text out, but tell the story." }, items: [nl.voorlezen] }
+  - { id: s15, target: "Oefen je presentatie een paar keer hardop.", native: { en: "Practise your presentation out loud a few times." }, items: [nl.hardop] }
+  - { id: s16, target: "Hoe vaker je hardop oefent, hoe minder zenuwachtig je bent.", native: { en: "The more often you practise out loud, the less nervous you are." }, items: [nl.hardop], build: true }
+  - { id: s17, target: "Gebruik weinig dia's, zodat het publiek naar jou kijkt.", native: { en: "Use few slides, so that the audience looks at you." }, items: [nl.dia] }
+  - { id: s18, target: "Ze sprak heel duidelijk in de microfoon.", native: { en: "She spoke very clearly into the microphone." }, items: [nl.microfoon], finite: { word: sprak, hint: { en: "spreken (past)" } } }
+  - { id: s19, target: "Elke spreker kreeg tien minuten om zijn onderzoek voor te stellen.", native: { en: "Each speaker got ten minutes to present their research." }, items: [nl.spreker], build: true, acceptAlso: ["Om zijn onderzoek voor te stellen kreeg elke spreker tien minuten."] }
+  - { id: s20, target: "De sprekers van vandaag zijn allemaal studenten.", native: { en: "Today's speakers are all students." }, items: [nl.spreker] }
+transforms:
+  - { id: x01, from: "Als je je beter voorbereidt, ben je rustiger.", key: hoe, gapped: "___ voorbereidt, hoe rustiger je bent.", answers: ["Hoe beter je je"], items: [nl.medestudent] }
+  - { id: x02, from: "Ik herhaal de belangrijkste punten. Dan onthoudt iedereen ze beter.", key: zodat, gapped: "Ik herhaal de belangrijkste punten, ___ beter onthoudt.", answers: ["zodat iedereen ze"], items: [nl.toehoorder] }
+  - { id: x03, from: "Ik oefen hardop, want ik wil minder zenuwachtig zijn.", key: om, gapped: "Ik oefen hardop ___ zenuwachtig te zijn.", answers: ["om minder"], items: [nl.hardop] }
+texts: [nl-b2-study-t04]

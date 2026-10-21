@@ -1,0 +1,90 @@
+id: nl-b2-u16
+title: { en: Family and relationships }
+icon: family
+topic: Families in all shapes, raising teenagers, grandparents and caring for ageing parents, keeping in touch; conditional and time conjunctions (tenzij, mits, zodra, zolang, totdat)
+vocabulary:
+  - { target: de echtscheiding, native: { en: divorce }, pos: noun, plural: echtscheidingen }
+  - { target: alleenstaand, native: { en: "single, living alone (as in: a single parent)" }, pos: adjective }
+  - { target: het kleinkind, native: { en: grandchild }, pos: noun, plural: kleinkinderen }
+  - { target: de schoonvader, native: { en: father-in-law }, pos: noun, plural: schoonvaders }
+  - { target: het pleeggezin, native: { en: foster family }, pos: noun, plural: pleeggezinnen }
+  - { target: het ouderschap, native: { en: parenthood }, pos: noun, plural: "-" }
+  - { target: de tiener, native: { en: teenager }, pos: noun, plural: tieners }
+  - { target: de puberteit, native: { en: puberty }, pos: noun, plural: "-" }
+  - { target: de generatiekloof, native: { en: generation gap }, pos: noun, plural: generatiekloven }
+  - { target: de zelfstandigheid, native: { en: independence }, pos: noun, plural: "-" }
+  - { target: de ruimte, native: { en: "space, room" }, pos: noun, plural: ruimtes }
+  - { target: het zakgeld, native: { en: pocket money }, pos: noun, plural: "-" }
+  - { target: de beloning, native: { en: reward }, pos: noun, plural: beloningen }
+  - { target: de band, native: { en: "bond, tie" }, pos: noun, plural: banden }
+  - { target: de verbondenheid, native: { en: "connectedness, solidarity, feeling close" }, pos: noun, plural: "-" }
+  - { target: de jaloezie, native: { en: jealousy }, pos: noun, plural: "-" }
+  - { target: de communicatie, native: { en: communication }, pos: noun, plural: "-" }
+  - { target: de waardering, native: { en: appreciation }, pos: noun, plural: "-" }
+  - { target: het geluk, native: { en: "happiness; luck" }, pos: noun, plural: "-" }
+  - { target: de stilte, native: { en: silence }, pos: noun, plural: stilten }
+  - { target: het rusthuis, native: { en: "care home, old people's home (Belgian)" }, pos: noun, plural: rusthuizen, avoid: [nl.woonzorgcentrum], alsoNL: het bejaardenhuis }
+  - { target: de dementie, native: { en: dementia }, pos: noun, plural: "-" }
+  - { target: communiceren, native: { en: to communicate }, pos: verb }
+  - { target: steunen, native: { en: to support }, pos: verb, avoid: [nl.ondersteunen] }
+  - { target: opvangen, native: { en: "to take in, to look after (children); to catch" }, pos: verb }
+  - { target: verwennen, native: { en: to spoil }, pos: verb }
+  - { target: zich bemoeien, native: { en: "to interfere (+ met)" }, pos: verb }
+  - { target: vergeven, native: { en: to forgive }, pos: verb }
+  - { target: bewonderen, native: { en: to admire }, pos: verb }
+  - { target: waarderen, native: { en: to appreciate }, pos: verb }
+  - { target: tenzij, native: { en: unless }, pos: conjunction }
+  - { target: mits, native: { en: "provided that, on condition that" }, pos: conjunction, avoid: [nl.zolang], noBlank: true }
+  - { target: zodra, native: { en: "as soon as" }, pos: conjunction }
+  - { target: zolang, native: { en: "as long as" }, pos: conjunction, avoid: [nl.mits] }
+  - { target: totdat, native: { en: until }, pos: conjunction }
+  - { target: de mama, native: { en: "mum, mummy" }, pos: noun, plural: "mama's" }
+  - { target: de papa, native: { en: "dad, daddy" }, pos: noun, plural: "papa's" }
+sentences:
+  - { id: s01, target: "Na de echtscheiding wonen de kinderen om de week bij een andere ouder.", native: { en: "After the divorce the children live with each parent in alternate weeks." }, items: [nl.echtscheiding] }
+  - { id: s02, target: "Alleenstaande ouders hebben het vaak moeilijk.", native: { en: "Single parents often have a hard time." }, items: [nl.alleenstaand] }
+  - { id: s03, target: "Mijn ouders passen elke woensdag op hun kleinkinderen.", native: { en: "My parents look after their grandchildren every Wednesday." }, items: [nl.kleinkind], acceptAlso: ["Elke woensdag passen mijn ouders op hun kleinkinderen."] }
+  - { id: s04, target: "Ze heeft vijf kleinkinderen.", native: { en: "She has five grandchildren." }, items: [nl.kleinkind] }
+  - { id: s05, target: "Mijn schoonvader helpt ons met de werken aan ons huis.", native: { en: "My father-in-law is helping us with the work on our house." }, items: [nl.schoonvader] }
+  - { id: s06, target: "Het meisje woont al twee jaar in een pleeggezin.", native: { en: "The girl has been living with a foster family for two years." }, items: [nl.pleeggezin] }
+  - { id: s07, target: "Het ouderschap verandert je leven.", native: { en: "Parenthood changes your life." }, items: [nl.ouderschap] }
+  - { id: s08, target: "Tieners willen vaak meer vrijheid.", native: { en: "Teenagers often want more freedom." }, items: [nl.tiener] }
+  - { id: s09, target: "In de puberteit veranderen kinderen snel.", native: { en: "In puberty children change quickly." }, items: [nl.puberteit], acceptAlso: ["Kinderen veranderen snel in de puberteit.", "Kinderen veranderen in de puberteit snel."] }
+  - { id: s10, target: "Tussen mij en mijn grootvader is er een grote generatiekloof.", native: { en: "There is a big generation gap between me and my grandfather." }, items: [nl.generatiekloof] }
+  - { id: s11, target: "Ouders moeten de zelfstandigheid van hun kinderen steunen.", native: { en: "Parents should support their children's independence." }, items: [nl.zelfstandigheid], form: { word: zelfstandigheid, stem: zelfstandig } }
+  - { id: s12, target: "Een tiener heeft ruimte nodig om te ontdekken wie hij is.", native: { en: "A teenager needs room to discover who they are." }, items: [nl.ruimte] }
+  - { id: s13, target: "Hoeveel zakgeld krijg jij per maand?", native: { en: "How much pocket money do you get a month?" }, items: [nl.zakgeld] }
+  - { id: s14, target: "Een beloning werkt beter dan een straf.", native: { en: "A reward works better than a punishment." }, items: [nl.beloning] }
+  - { id: s15, target: "Ze heeft een sterke band met haar broer.", native: { en: "She has a strong bond with her brother." }, items: [nl.band] }
+  - { id: s16, target: "Een familiefeest geeft een gevoel van verbondenheid.", native: { en: "A family gathering gives you a sense of togetherness." }, items: [nl.verbondenheid] }
+  - { id: s17, target: "Jaloezie tussen broers en zussen is normaal.", native: { en: "Jealousy between brothers and sisters is normal." }, items: [nl.jaloezie] }
+  - { id: s18, target: "Goede communicatie is de basis van elke relatie.", native: { en: "Good communication is the basis of every relationship." }, items: [nl.communicatie] }
+  - { id: s19, target: "Mantelzorgers verdienen meer waardering.", native: { en: "Carers deserve more appreciation." }, items: [nl.waardering] }
+  - { id: s20, target: "Geld maakt niet altijd gelukkig, maar geluk zit in kleine dingen.", native: { en: "Money doesn't always make you happy, but happiness is in small things." }, items: [nl.geluk], acceptAlso: ["Geld maakt niet altijd gelukkig, maar in kleine dingen zit geluk."] }
+  - { id: s21, target: "Na de ruzie was er een lange stilte.", native: { en: "After the quarrel there was a long silence." }, items: [nl.stilte], acceptAlso: ["Er was na de ruzie een lange stilte."] }
+  - { id: s22, target: "Mijn oma woont al twee jaar in een rusthuis in de buurt.", native: { en: "My grandma has been living in a care home nearby for two years." }, items: [nl.rusthuis], acceptAlso: ["Al twee jaar woont mijn oma in een rusthuis in de buurt."] }
+  - { id: s23, target: "Mijn grootvader heeft dementie en herkent ons soms niet meer.", native: { en: "My grandfather has dementia and sometimes doesn't recognise us any more." }, items: [nl.dementie] }
+  - { id: s24, target: "Met tieners moet je veel communiceren.", native: { en: "With teenagers you have to communicate a lot." }, items: [nl.communiceren] }
+  - { id: s25, target: "Mijn ouders hebben me altijd gesteund.", native: { en: "My parents have always supported me." }, items: [nl.steunen] }
+  - { id: s26, target: "De buurvrouw vangt de kinderen op na school.", native: { en: "The neighbour looks after the children after school." }, items: [nl.opvangen] }
+  - { id: s27, target: "Grootouders verwennen hun kleinkinderen graag.", native: { en: "Grandparents like to spoil their grandchildren." }, items: [nl.verwennen, nl.kleinkind] }
+  - { id: s28, target: "Mijn schoonmoeder bemoeit zich met alles.", native: { en: "My mother-in-law interferes in everything." }, items: [nl.zich-bemoeien] }
+  - { id: s29, target: "Kun je hem vergeven wat hij gezegd heeft?", native: { en: "Can you forgive him for what he said?" }, items: [nl.vergeven], acceptAlso: ["Kun je hem vergeven wat hij heeft gezegd?"] }
+  - { id: s30, target: "Ik bewonder mijn moeder om haar geduld.", native: { en: "I admire my mother for her patience." }, items: [nl.bewonderen] }
+  - { id: s31, target: "Ik waardeer het dat je altijd naar me luistert.", native: { en: "I appreciate that you always listen to me." }, items: [nl.waarderen], finite: { word: waardeer, hint: { en: "waarderen (present)" } } }
+  - { id: s32, target: "Je mag uitgaan, tenzij je morgen een examen hebt.", native: { en: "You can go out, unless you have an exam tomorrow." }, items: [nl.tenzij] }
+  - { id: s33, target: "Je mag naar het feest, mits je voor twaalf uur thuis bent.", native: { en: "You can go to the party, provided you are home before twelve." }, items: [nl.mits], build: true, acceptAlso: ["Mits je voor twaalf uur thuis bent, mag je naar het feest."] }
+  - { id: s34, target: "Bel me zodra je thuis bent.", native: { en: "Call me as soon as you are home." }, items: [nl.zodra] }
+  - { id: s35, target: "Zolang je bij ons woont, help je in het huishouden.", native: { en: "As long as you live with us, you'll help with the housework." }, items: [nl.zolang] }
+  - { id: s36, target: "We wachten met eten totdat papa thuis is.", native: { en: "We'll wait to eat until Dad is home." }, items: [nl.totdat, nl.papa], build: true, acceptAlso: ["Totdat papa thuis is, wachten we met eten."] }
+  - { id: s37, target: "Zelfstandigheid is belangrijk voor tieners.", native: { en: "Independence is important for teenagers." }, items: [nl.zelfstandigheid] }
+  - { id: s38, target: "Zijn jaloezie zorgt voor veel ruzie.", native: { en: "His jealousy causes a lot of arguments." }, items: [nl.jaloezie] }
+  - { id: s39, target: "Wat een gelukkig gezin!", native: { en: "What a happy family!" }, items: [nl.geluk], form: { word: gelukkig, stem: geluk } }
+  - { id: s40, target: "Mama, mag ik vanavond bij een vriendin blijven slapen?", native: { en: "Mum, can I sleep over at a friend's tonight?" }, items: [nl.mama] }
+  - { id: s41, target: "Ouders zijn verantwoordelijk voor de opvoeding van hun tieners.", native: { en: "Parents are responsible for bringing up their teenagers." }, items: [nl.tiener] }
+  - { id: s42, target: "Mijn mama stond elke ochtend in de keuken te koken.", native: { en: "My mum stood cooking in the kitchen every morning." }, items: [nl.mama], build: true }
+transforms:
+  - { id: x01, from: "Als je je huiswerk niet maakt, mag je geen televisie kijken.", key: tenzij, gapped: "Je mag geen televisie kijken, ___.", answers: ["tenzij je je huiswerk maakt", "tenzij jij je huiswerk maakt"], items: [nl.tenzij] }
+  - { id: x02, from: "Je mag de auto lenen als je voorzichtig rijdt.", key: mits, gapped: "Je mag de auto lenen, ___ voorzichtig rijdt.", answers: ["mits je", "mits jij"], items: [nl.mits] }
+  - { id: x03, from: "Ik bel je meteen wanneer ik aankom.", key: zodra, gapped: "Ik bel je ___.", answers: ["zodra ik aankom", "zodra ik aangekomen ben", "zodra ik ben aangekomen"], items: [nl.zodra] }
+texts: [nl-b2-t17]

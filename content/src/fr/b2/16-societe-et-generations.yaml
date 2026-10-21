@@ -1,0 +1,71 @@
+id: fr-b2-u16
+title: { nl: Samenleving en generaties, en: "Society and generations" }
+icon: city
+topic: Les inégalités et la discrimination, le vieillissement de la population, les services publics, vivre ensemble entre générations ; exprimer la conséquence (par conséquent, si bien que, c'est pourquoi, tellement … que, entraîner, provoquer)
+vocabulary:
+  - { target: l'inégalité, native: { nl: de ongelijkheid, en: "inequality" }, pos: noun, gender: f, avoid: [fr.egalite] }
+  - { target: l'égalité, native: { nl: de gelijkheid, en: "equality" }, pos: noun, gender: f, avoid: [fr.inegalite] }
+  - { target: la discrimination, native: { nl: de discriminatie, en: "discrimination" }, pos: noun, gender: f, noBlank: true }
+  - { target: le racisme, native: { nl: het racisme, en: "racism" }, pos: noun, gender: m, noBlank: true }
+  - { target: la tolérance, native: { nl: de verdraagzaamheid, en: "tolerance" }, pos: noun, gender: f }
+  - { target: la diversité, native: { nl: "de diversiteit, de verscheidenheid", en: "diversity" }, pos: noun, gender: f }
+  - { target: le vieillissement, native: { nl: "de vergrijzing, het ouder worden", en: "ageing, growing old" }, pos: noun, gender: m }
+  - { target: vieillir, native: { nl: "ouder worden", en: "to get older, to grow old" }, pos: verb }
+  - { target: l'espérance de vie, native: { nl: de levensverwachting, en: "life expectancy" }, pos: noun, gender: f }
+  - { id: fr.retraite-m, target: le retraité, native: { nl: de gepensioneerde, en: "pensioner, retired person" }, pos: noun, gender: m }
+  - { target: l'impôt, native: { nl: de belasting, en: "tax" }, pos: noun, gender: m }
+  - { target: le service public, native: { nl: de openbare dienst, en: "public service" }, pos: noun, gender: m }
+  - { target: le logement social, native: { nl: de sociale woning, en: "social housing, council housing" }, pos: noun, gender: m }
+  - { target: intergénérationnel, native: { nl: "tussen generaties, intergenerationeel", en: "intergenerational, between generations" }, pos: adjective }
+  - { target: cohabiter, native: { nl: "samenwonen, samenleven", en: "to live together" }, pos: verb }
+  - { target: rendre service, native: { nl: "helpen, een dienst bewijzen", en: "to do a favour, to help out" }, pos: verb }
+  - { target: tenir compagnie, native: { nl: "gezelschap houden (+ à: iemand)", en: "to keep (someone) company (+ à)" }, pos: verb }
+  - { target: défavorisé, native: { nl: kansarm, en: "disadvantaged, deprived" }, pos: adjective }
+  - { target: favoriser, native: { nl: "bevorderen, bevoordelen", en: "to encourage, to promote, to favour" }, pos: verb }
+  - { target: handicapé, native: { nl: "met een beperking", en: "disabled" }, pos: adjective }
+  - { target: accessible, native: { nl: toegankelijk, en: "accessible" }, pos: adjective, noBlank: true }
+  - { target: par conséquent, native: { nl: "bijgevolg, daardoor", en: "consequently, as a result" }, pos: adverb, avoid: [fr.c-est-pourquoi], noBlank: true }
+  - { target: si bien que, native: { nl: "zodat (gevolg)", en: "so that (result), with the result that" }, pos: conjunction, avoid: [fr.de-sorte-que, fr.afin-que, fr.pour-que], noBlank: true }
+  - { target: c'est pourquoi, native: { nl: daarom, en: "that's why" }, pos: adverb, avoid: [fr.par-consequent], noBlank: true }
+  - { target: entraîner, native: { nl: "leiden tot, met zich meebrengen", en: "to lead to, to bring about" }, pos: verb, avoid: [fr.provoquer] }
+  - { target: provoquer, native: { nl: veroorzaken, en: "to cause, to provoke" }, pos: verb, avoid: [fr.entrainer] }
+  - { target: la tendance, native: { nl: "de trend, de neiging", en: "trend, tendency" }, pos: noun, gender: f }
+  - { target: la majorité, native: { nl: de meerderheid, en: "majority" }, pos: noun, gender: f, avoid: [fr.minorite] }
+  - { target: la minorité, native: { nl: de minderheid, en: "minority" }, pos: noun, gender: f, avoid: [fr.majorite] }
+  - { target: en moyenne, native: { nl: gemiddeld, en: "on average" }, pos: adverb }
+sentences:
+  - { id: s01, target: "Les inégalités entre riches et pauvres augmentent.", native: { nl: "De ongelijkheid tussen rijk en arm neemt toe.", en: "Inequalities between rich and poor are increasing." }, items: [fr.inegalite] }
+  - { id: s02, target: "L'égalité entre les filles et les garçons est importante à l'école.", native: { nl: "De gelijkheid tussen meisjes en jongens is belangrijk op school.", en: "Equality between girls and boys is important at school." }, items: [fr.egalite] }
+  - { id: s03, target: "La discrimination au travail est interdite par la loi.", native: { nl: "Discriminatie op het werk is bij wet verboden.", en: "Discrimination at work is forbidden by law." }, items: [fr.discrimination] }
+  - { id: s04, target: "Le club de foot s'engage contre le racisme dans le sport.", native: { nl: "De voetbalclub strijdt tegen racisme in de sport.", en: "The football club is committed to fighting racism in sport." }, items: [fr.racisme] }
+  - { id: s05, target: "La tolérance s'apprend dès l'enfance.", native: { nl: "Verdraagzaamheid leer je al als kind.", en: "Tolerance is learnt from childhood." }, items: [fr.tolerance] }
+  - { id: s06, target: "La diversité de notre classe est une richesse.", native: { nl: "De diversiteit in onze klas is een rijkdom.", en: "The diversity of our class is a real asset." }, items: [fr.diversite] }
+  - { id: s07, target: "Le vieillissement de la population coûte cher.", native: { nl: "De vergrijzing van de bevolking kost veel geld.", en: "Population ageing is costly." }, items: [fr.vieillissement] }
+  - { id: s08, target: "Mes grands-parents vieillissent, mais ils restent très actifs.", native: { nl: "Mijn grootouders worden ouder, maar ze blijven heel actief.", en: "My grandparents are getting older, but they're still very active." }, items: [fr.vieillir], finite: { word: vieillissent, hint: { nl: "vieillir (présent)", en: "vieillir (present)" } } }
+  - { id: s09, target: "En Belgique, l'espérance de vie est de plus de quatre-vingts ans.", native: { nl: "In België ligt de levensverwachting boven de tachtig jaar.", en: "In Belgium, life expectancy is over eighty." }, items: [fr.esperance-de-vie] }
+  - { id: s10, target: "Beaucoup de retraités font du bénévolat.", native: { nl: "Veel gepensioneerden doen vrijwilligerswerk.", en: "Many pensioners do voluntary work." }, items: [fr.retraite-m] }
+  - { id: s11, target: "Les impôts servent à payer les écoles et les hôpitaux.", native: { nl: "Met de belastingen worden de scholen en de ziekenhuizen betaald.", en: "Taxes are used to pay for schools and hospitals." }, items: [fr.impot] }
+  - { id: s12, target: "La poste est un service public.", native: { nl: "De post is een openbare dienst.", en: "The post office is a public service." }, items: [fr.service-public] }
+  - { id: s13, target: "La ville construit de nouveaux logements sociaux.", native: { nl: "De stad bouwt nieuwe sociale woningen.", en: "The town is building new social housing." }, items: [fr.logement-social] }
+  - { id: s14, target: "Ce projet intergénérationnel réunit des étudiants et des retraités.", native: { nl: "Dit intergenerationele project brengt studenten en gepensioneerden samen.", en: "This intergenerational project brings students and pensioners together." }, items: [fr.intergenerationnel] }
+  - { id: s15, target: "Trois générations cohabitent dans cette maison.", native: { nl: "In dit huis wonen drie generaties samen.", en: "Three generations live together in this house." }, items: [fr.cohabiter] }
+  - { id: s16, target: "Mon voisin me rend souvent service.", native: { nl: "Mijn buurman helpt me vaak.", en: "My neighbour often helps me out." }, items: [fr.rendre-service] }
+  - { id: s17, target: "Le soir, il tient compagnie à sa grand-mère.", native: { nl: "'s Avonds houdt hij zijn oma gezelschap.", en: "In the evening, he keeps his grandmother company." }, items: [fr.tenir-compagnie] }
+  - { id: s18, target: "Cette association aide les familles défavorisées.", native: { nl: "Deze vereniging helpt kansarme gezinnen.", en: "This association helps disadvantaged families." }, items: [fr.defavorise] }
+  - { id: s19, target: "Le sport favorise les contacts entre les habitants.", native: { nl: "Sport bevordert de contacten tussen de inwoners.", en: "Sport encourages contact between residents." }, items: [fr.favoriser] }
+  - { id: s20, target: "La gare doit être accessible aux personnes handicapées.", native: { nl: "Het station moet toegankelijk zijn voor mensen met een beperking.", en: "The station must be accessible to disabled people." }, items: [fr.handicape, fr.accessible], form: { word: accessible, stem: accès } }
+  - { id: s21, target: "Les loyers sont trop chers ; par conséquent, beaucoup de jeunes restent chez leurs parents.", native: { nl: "De huurprijzen zijn te hoog; daardoor blijven veel jongeren bij hun ouders wonen.", en: "Rents are too high; as a result, many young people stay with their parents." }, items: [fr.par-consequent] }
+  - { id: s22, target: "Il a beaucoup neigé, si bien que l'école était fermée.", native: { nl: "Het heeft veel gesneeuwd, zodat de school dicht was.", en: "It snowed a lot, with the result that the school was closed." }, items: [fr.si-bien-que] }
+  - { id: s23, target: "Elle vit seule ; c'est pourquoi elle cherche une colocataire.", native: { nl: "Ze woont alleen; daarom zoekt ze een huisgenote.", en: "She lives alone; that's why she's looking for a flatmate." }, items: [fr.c-est-pourquoi] }
+  - { id: s24, target: "Le chômage peut entraîner de sérieux problèmes de santé.", native: { nl: "Werkloosheid kan tot ernstige gezondheidsproblemen leiden.", en: "Unemployment can lead to serious health problems." }, items: [fr.entrainer] }
+  - { id: s25, target: "La nouvelle loi a provoqué des manifestations.", native: { nl: "De nieuwe wet heeft betogingen veroorzaakt.", en: "The new law has caused demonstrations." }, items: [fr.provoquer] }
+  - { id: s26, target: "Il y a une tendance à vivre seul de plus en plus longtemps.", native: { nl: "Er is een trend om steeds langer alleen te wonen.", en: "There's a trend towards living alone for longer and longer." }, items: [fr.tendance] }
+  - { id: s27, target: "La majorité des habitants a voté pour le projet.", native: { nl: "De meerderheid van de inwoners heeft voor het project gestemd.", en: "The majority of residents voted for the project." }, items: [fr.majorite] }
+  - { id: s28, target: "Seule une minorité d'élèves vient à l'école en voiture.", native: { nl: "Slechts een minderheid van de leerlingen komt met de auto naar school.", en: "Only a minority of pupils come to school by car." }, items: [fr.minorite] }
+  - { id: s29, target: "En moyenne, les élèves passent trois heures par jour devant un écran.", native: { nl: "Gemiddeld brengen leerlingen drie uur per dag voor een scherm door.", en: "On average, pupils spend three hours a day in front of a screen." }, items: [fr.en-moyenne] }
+  - { id: s30, target: "Les loyers sont tellement chers que les retraités ont du mal à payer.", native: { nl: "De huurprijzen zijn zo hoog dat gepensioneerden moeilijk kunnen betalen.", en: "Rents are so high that pensioners struggle to pay." }, items: [fr.retraite-m], build: true }
+transforms:
+  - { id: x01, from: "Il a beaucoup neigé. L'école était donc fermée.", key: bien, gapped: "Il a beaucoup neigé, ___ fermée.", answers: ["si bien que l'école était", "si bien que l'école a été"], items: [fr.si-bien-que], native: { en: "It snowed a lot, with the result that the school was closed." } }
+  - { id: x02, from: "Les impôts augmentent beaucoup, donc les retraités ont peur.", key: tellement, gapped: "Les impôts augmentent ___ les retraités ont peur.", answers: ["tellement que"], items: [fr.impot, fr.retraite-m], native: { en: "Taxes are rising so much that pensioners are worried." } }
+  - { id: x03, from: "Le chômage peut provoquer des problèmes de santé.", key: entraîner, gapped: "Le chômage peut ___ santé.", answers: ["entraîner des problèmes de"], items: [fr.entrainer], native: { en: "Unemployment can lead to health problems." } }
+texts: [fr-b2-t16]

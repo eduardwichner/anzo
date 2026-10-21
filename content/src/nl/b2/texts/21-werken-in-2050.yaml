@@ -1,0 +1,76 @@
+id: nl-b2-t21
+kind: reading
+title: { en: Working in 2050 }
+topic: The future (a long feature article in a weekend magazine)
+level: B2
+paragraphs:
+  - - { id: nl-b2-t21-s01, target: "Hoe zal een gewone werkdag in 2050 verlopen?", native: { en: "How will an ordinary working day go in 2050?" } }
+    - { id: nl-b2-t21-s02, target: "Wie die vraag aan tien experts stelt, krijgt tien verschillende antwoorden.", native: { en: "Anyone who asks ten experts that question gets ten different answers." } }
+    - { id: nl-b2-t21-s03, target: "Toch zijn er twee ontwikkelingen waarover bijna iedereen het eens is: we worden ouder, en machines nemen steeds meer taken over.", native: { en: "Yet there are two developments that nearly everyone agrees on: we are getting older, and machines are taking over more and more tasks." } }
+  - - { id: nl-b2-t21-s04, target: "Begin met de cijfers.", native: { en: "Start with the figures." } }
+    - { id: nl-b2-t21-s05, target: "In 2050 zal ongeveer één op de vier Belgen ouder zijn dan vijfenzestig.", native: { en: "In 2050 about one in four Belgians will be over sixty-five." } }
+    - { id: nl-b2-t21-s06, target: "Tegelijk wordt de beroepsbevolking kleiner, omdat er minder kinderen geboren worden dan vroeger.", native: { en: "At the same time the working population is getting smaller, because fewer children are being born than in the past." } }
+    - { id: nl-b2-t21-s07, target: "Minder mensen zullen dus moeten werken voor meer gepensioneerden, en in de zorg is er nu al een groot tekort aan personeel.", native: { en: "So fewer people will have to work for more retired people, and in care there is already a big shortage of staff." } }
+  - - { id: nl-b2-t21-s08, target: "Hier komt de technologie in beeld.", native: { en: "This is where technology comes into the picture." } }
+    - { id: nl-b2-t21-s09, target: "Robots en kunstmatige intelligentie kunnen veel routinewerk overnemen, van de boekhouding tot het sorteren van pakjes.", native: { en: "Robots and artificial intelligence can take over a lot of routine work, from bookkeeping to sorting parcels." } }
+    - { id: nl-b2-t21-s10, target: "Volgens een optimistisch scenario lossen ze zo het tekort aan werkkrachten op, en houden we meer tijd over voor wat echt menselijk is.", native: { en: "According to an optimistic scenario they solve the shortage of workers in this way, and we have more time left for what is truly human." } }
+    - { id: nl-b2-t21-s11, target: "Een verpleegkundige die geen formulieren meer hoeft in te vullen, kan langer bij een patiënt blijven.", native: { en: "A nurse who no longer has to fill in forms can stay with a patient longer." } }
+    - { id: nl-b2-t21-s23, target: "In sommige rusthuizen helpen robots nu al om bewoners uit bed te tillen of om 's nachts te controleren of iedereen goed slaapt.", native: { en: "In some care homes robots already help to lift residents out of bed or to check at night whether everyone is sleeping well." } }
+    - { id: nl-b2-t21-s24, target: "De verpleegkundigen die we spraken, waren daar tevreden over, op voorwaarde dat de machine helpt en de mens niet vervangt.", native: { en: "The nurses we spoke to were happy with that, on condition that the machine helps and does not replace people." } }
+  - - { id: nl-b2-t21-s12, target: "Niet iedereen deelt dat optimisme.", native: { en: "Not everyone shares that optimism." } }
+    - { id: nl-b2-t21-s13, target: "Pessimisten vrezen dat de automatisering vooral jobs voor laaggeschoolden zal doen verdwijnen, terwijl de winst bij een klein aantal mensen terechtkomt.", native: { en: "Pessimists fear that automation will mainly make jobs for low-skilled people disappear, while the profits end up with a small number of people." } }
+    - { id: nl-b2-t21-s14, target: "Zonder drastische maatregelen, zoals grote investeringen in opleiding, zou de kloof tussen arm en rijk groter kunnen worden.", native: { en: "Without drastic measures, such as large investment in training, the gap between rich and poor could grow." } }
+    - { id: nl-b2-t21-s25, target: "Een econoom van de universiteit van Gent vergelijkt het met de komst van de computer in de jaren tachtig.", native: { en: "An economist from Ghent University compares it with the arrival of the computer in the eighties." } }
+    - { id: nl-b2-t21-s26, target: "\"Ook toen dacht men dat er massaal jobs zouden verdwijnen. Er zijn er inderdaad veel verdwenen, maar er zijn er nog meer bijgekomen, die we ons vooraf niet konden voorstellen.\"", native: { en: "\"Then too people thought that jobs would disappear on a massive scale. Many did indeed disappear, but even more were added, which we could not have imagined beforehand.\"" } }
+    - { id: nl-b2-t21-s15, target: "De vraag is dus niet alleen wat machines kunnen, maar ook wie ervan profiteert.", native: { en: "So the question is not only what machines can do, but also who benefits from it." } }
+  - - { id: nl-b2-t21-s16, target: "Ook de manier waarop we werken, verandert.", native: { en: "The way in which we work is changing too." } }
+    - { id: nl-b2-t21-s17, target: "Sinds de coronacrisis telewerken veel bedienden een paar dagen per week, en sommige bedrijven proberen een vierdagenweek uit.", native: { en: "Since the coronavirus crisis many office workers have been working from home a few days a week, and some companies are trying out a four-day week." } }
+    - { id: nl-b2-t21-s18, target: "Wie flexibel werkt, heeft meer tijd voor zijn gezin, maar loopt ook het risico dat het werk nooit echt stopt.", native: { en: "Anyone who works flexibly has more time for their family, but also runs the risk that work never really stops." } }
+    - { id: nl-b2-t21-s27, target: "Daarom hebben sommige bedrijven afspraken gemaakt: na zeven uur 's avonds stuurt niemand nog een e-mail, en wie op vakantie is, hoeft niet bereikbaar te zijn.", native: { en: "That is why some companies have made agreements: after seven in the evening nobody sends an e-mail any more, and anyone on holiday does not have to be reachable." } }
+    - { id: nl-b2-t21-s28, target: "Ook de overheid heeft regels gemaakt over het recht om offline te zijn.", native: { en: "The government has also made rules on the right to be offline." } }
+  - - { id: nl-b2-t21-s19, target: "Eén ding lijkt onvermijdelijk.", native: { en: "One thing seems inevitable." } }
+    - { id: nl-b2-t21-s20, target: "Een job voor het leven bestaat niet meer, en wie vandaag van school komt, zal zich in de loop van zijn loopbaan meermaals moeten omscholen.", native: { en: "A job for life no longer exists, and anyone leaving school today will have to retrain several times in the course of their career." } }
+    - { id: nl-b2-t21-s21, target: "De belangrijkste vaardigheid van de toekomst is daarom misschien geen technische, maar veerkracht: het vermogen om te blijven leren en je aan te passen.", native: { en: "So the most important skill of the future may not be a technical one, but resilience: the ability to keep learning and to adapt." } }
+    - { id: nl-b2-t21-s22, target: "Wat machines ook kunnen, empathie, creativiteit en samenwerking blijven voorlopig mensenwerk.", native: { en: "Whatever machines can do, empathy, creativity and cooperation remain human work for the time being." } }
+glossary:
+  - { word: experts, native: { en: "experts (de expert)" } }
+  - { word: routinewerk, native: { en: routine work } }
+  - { word: boekhouding, native: { en: bookkeeping } }
+  - { word: werkkrachten, native: { en: "workers (de werkkracht)" } }
+  - { word: laaggeschoolden, native: { en: "low-skilled people" } }
+  - { word: winst, native: { en: profit } }
+  - { word: terechtkomt, native: { en: "ends up (terechtkomen)" } }
+  - { word: kloof, native: { en: gap } }
+  - { word: profiteert, native: { en: "benefits (profiteren)" } }
+  - { word: coronacrisis, native: { en: "the coronavirus crisis" } }
+  - { word: bedienden, native: { en: "office workers, white-collar employees (de bediende)" } }
+  - { word: meermaals, native: { en: "several times" } }
+  - { word: vermogen, native: { en: "ability, capacity" } }
+  - { word: voorlopig, native: { en: "for the time being" } }
+  - { word: tillen, native: { en: "to lift" } }
+  - { word: econoom, native: { en: economist } }
+  - { word: komst, native: { en: arrival } }
+  - { word: massaal, native: { en: "on a massive scale, en masse" } }
+  - { word: offline, native: { en: offline } }
+items: [nl.beroepsbevolking, nl.gepensioneerd, nl.tekort, nl.scenario, nl.optimistisch, nl.optimisme, nl.vrezen, nl.automatisering, nl.drastisch, nl.telewerken, nl.vierdagenweek, nl.onvermijdelijk, nl.veerkracht, nl.empathie, nl.samenwerking]
+gapped:
+  gaps: [nl-b2-t21-s04, nl-b2-t21-s08, nl-b2-t21-s12, nl-b2-t21-s16, nl-b2-t21-s19]
+  extra:
+    - { id: nl-b2-t21-x1, target: "Daarom zal niemand in 2050 nog werken.", native: { en: "That is why nobody will still be working in 2050." } }
+openCloze:
+  - { sentence: nl-b2-t21-s03, word: waarover }
+  - { sentence: nl-b2-t21-s07, word: dus, acceptAlso: [daarom, bijgevolg, dan, straks, later] }
+  - { sentence: nl-b2-t21-s13, word: terwijl, acceptAlso: [zodat] }
+  - { sentence: nl-b2-t21-s15, word: alleen, acceptAlso: [enkel] }
+  - { sentence: nl-b2-t21-s18, word: maar, acceptAlso: [en] }
+questions:
+  - { id: nl-b2-t21-q1, type: summary, options: ["Door de vergrijzing en de technologie verandert het werk; dat biedt kansen, maar ook risico's, en wie wil blijven werken, moet blijven leren.", "Door de vergrijzing en de technologie verandert het werk; robots nemen alle jobs over, en daarom heeft blijven leren geen zin meer.", "Telewerken is de belangrijkste verandering van de laatste vijftig jaar."], correct: 0 }
+  - { id: nl-b2-t21-q2, type: mc, question: "Waarom wordt de beroepsbevolking kleiner?", options: ["Er worden minder kinderen geboren dan vroeger.", "Veel mensen verhuizen naar het buitenland.", "Robots nemen alle jobs over."], correct: 0 }
+  - { id: nl-b2-t21-q3, type: true_false_notgiven, statement: "Bedrijven met een vierdagenweek hebben minder zieke werknemers.", answer: not_given }
+  - { id: nl-b2-t21-q4, type: true_false_notgiven, statement: "Alle experts zijn het erover eens hoe een werkdag in 2050 verloopt.", answer: false }
+  - { id: nl-b2-t21-q5, type: true_false_notgiven, statement: "Volgens het optimistische scenario hebben verpleegkundigen meer tijd voor hun patiënten.", answer: true }
+  - { id: nl-b2-t21-q6, type: match_heading, paragraph: 4, options: ["De zorgen van de pessimisten", "Wat robots allemaal kunnen", "De cijfers van de vergrijzing"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-t21-l1, type: complete, statement: "De belangrijkste vaardigheid van de toekomst is misschien ___.", answers: [veerkracht] }
+  - { id: nl-b2-t21-l2, type: mc, question: "Welk risico heeft flexibel werken volgens de tekst?", options: ["Het werk stopt nooit echt.", "Je verdient minder.", "Je ziet je collega's niet meer."], correct: 0 }
+orderable: false

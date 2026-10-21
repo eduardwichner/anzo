@@ -1,0 +1,50 @@
+id: fr-a1-u17
+title: { nl: Schoolvakken, en: "School subjects" }
+icon: school
+topic: L'école; les matières
+vocabulary:
+  - { target: la matière, native: { nl: het (school)vak, en: "subject (at school)" }, pos: noun, gender: f, category: true }
+  - { target: les maths, native: { nl: "rekenen, wiskunde", en: "maths" }, pos: noun, gender: f }
+  - { target: la géographie, native: { nl: aardrijkskunde, en: "geography" }, pos: noun, gender: f }
+  - { target: les sciences, native: { nl: "natuur, biologie", en: "science" }, pos: noun, gender: f }
+  - { target: "l'histoire", native: { nl: "het verhaal, de geschiedenis", en: "story, history" }, pos: noun, gender: f }
+  - { target: "l'anglais", native: { nl: het Engels, en: "English" }, pos: noun, gender: m }
+  - { target: la lecture, native: { nl: het lezen, en: "reading" }, pos: noun, gender: f }
+  - { target: la leçon, native: { nl: de les, en: "lesson" }, pos: noun, gender: f, avoid: [fr.cours] }
+  - { target: les devoirs, native: { nl: het huiswerk, en: "homework" }, pos: noun, gender: m }
+  - { target: la récréation, native: { nl: "de pauze, het speelkwartier", en: "break, playtime" }, pos: noun, gender: f }
+  - { target: la cantine, native: { nl: "de kantine, de schoolkantine", en: "canteen" }, pos: noun, gender: f }
+  - { target: le dictionnaire, native: { nl: het woordenboek, en: "dictionary" }, pos: noun, gender: m }
+  - { target: la page, native: { nl: de bladzijde, en: "page" }, pos: noun, gender: f }
+  - { target: le crayon de couleur, native: { nl: het kleurpotlood, en: "coloured pencil" }, pos: noun, gender: m }
+  - { target: la colle, native: { nl: de lijm, en: "glue" }, pos: noun, gender: f }
+  - { target: découper, native: { nl: uitknippen, en: "to cut out" }, pos: verb }
+  - { target: coller, native: { nl: plakken, en: "to stick" }, pos: verb }
+  - { target: apprendre, native: { nl: leren, en: "to learn" }, pos: verb }
+  - { target: répéter, native: { nl: herhalen, en: "to repeat" }, pos: verb }
+  - { target: difficile, native: { nl: moeilijk, en: "difficult, hard" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Quelle est ta matière préférée ?", native: { nl: "Wat is jouw lievelingsvak?", en: "What's your favourite subject?" }, items: [fr.matiere] }
+  - { id: s02, target: "J'aime les maths, c'est super.", native: { nl: "Ik vind rekenen leuk, dat is super.", en: "I like maths, it's great." }, items: [fr.maths] }
+  - { id: s03, target: "En géographie, on regarde des cartes.", native: { nl: "Bij aardrijkskunde kijken we naar kaarten.", en: "In geography we look at maps." }, items: [fr.geographie] }
+  - { id: s04, target: "En sciences, on observe des plantes.", native: { nl: "Bij natuur bekijken we planten.", en: "In science we look closely at plants." }, items: [fr.sciences] }
+  - { id: s05, target: "J'adore lire de belles histoires.", native: { nl: "Ik lees heel graag mooie verhalen.", en: "I love reading good stories." }, items: [fr.histoire] }
+  - { id: s06, target: "Je parle anglais et un peu français.", native: { nl: "Ik spreek Engels en een beetje Frans.", en: "I speak English and a little French." }, items: [fr.anglais] }
+  - { id: s07, target: "Ma matière préférée, c'est la lecture.", native: { nl: "Mijn lievelingsvak is lezen.", en: "My favourite subject is reading." }, items: [fr.lecture] }
+  - { id: s08, target: "Les leçons sont trop difficiles.", native: { nl: "De lessen zijn te moeilijk.", en: "The lessons are too difficult." }, items: [fr.lecon, fr.difficile] }
+  - { id: s09, target: "Je fais mes devoirs après l'école.", native: { nl: "Ik maak mijn huiswerk na school.", en: "I do my homework after school." }, items: [fr.devoirs] }
+  - { id: s10, target: "À la récréation, je joue au ballon.", native: { nl: "In de pauze speel ik met de bal.", en: "At break I play with a ball." }, items: [fr.recreation] }
+  - { id: s11, target: "À midi, je mange à la cantine.", native: { nl: "Tussen de middag eet ik in de kantine.", en: "At lunchtime I eat in the canteen." }, items: [fr.cantine] }
+  - { id: s12, target: "Cherche le mot dans le dictionnaire.", native: { nl: "Zoek het woord op in het woordenboek.", en: "Look up the word in the dictionary." }, items: [fr.dictionnaire] }
+  - { id: s13, target: "Ouvre ton livre à la page dix.", native: { nl: "Doe je boek open op bladzijde tien.", en: "Open your book at page ten." }, items: [fr.page] }
+  - { id: s14, target: "Dessine un chat avec tes crayons de couleur.", native: { nl: "Teken een kat met je kleurpotloden.", en: "Draw a cat with your coloured pencils." }, items: [fr.crayon-de-couleur] }
+  - { id: s15, target: "Tu as de la colle ?", native: { nl: "Heb je lijm?", en: "Have you got any glue?" }, items: [fr.colle] }
+  - { id: s16, target: "Découpe des images dans un magazine.", native: { nl: "Knip plaatjes uit een tijdschrift.", en: "Cut out some pictures from a magazine." }, items: [fr.decouper] }
+  - { id: s17, target: "Colle les images sur la feuille.", native: { nl: "Plak de plaatjes op het vel.", en: "Stick the pictures on the sheet of paper." }, items: [fr.coller] }
+  - { id: s18, target: "En sport, j'apprends à nager.", native: { nl: "Bij gym leer ik zwemmen.", en: "In sport I'm learning to swim." }, items: [fr.apprendre] }
+  - { id: s19, target: "Tu peux répéter, s'il te plaît ?", native: { nl: "Kun je dat herhalen, alsjeblieft?", en: "Can you repeat that, please?" }, items: [fr.repeter] }
+  - { id: s20, target: "Le judo, c'est difficile pour moi.", native: { nl: "Judo is moeilijk voor mij.", en: "Judo is difficult for me." }, items: [fr.difficile] }
+lessons:
+  - { id: l01, title: { nl: Mijn lievelingsvak, en: "My favourite subject" }, vocab: [fr.matiere, fr.maths, fr.geographie, fr.sciences, fr.histoire, fr.anglais, fr.lecture] }
+  - { id: l02, title: { nl: Huiswerk en pauze, en: "Homework and break time" }, vocab: [fr.lecon, fr.devoirs, fr.recreation, fr.cantine, fr.dictionnaire, fr.page, fr.difficile] }
+  - { id: l03, title: { nl: Knippen en plakken, en: "Cutting and sticking" }, vocab: [fr.crayon-de-couleur, fr.colle, fr.decouper, fr.coller, fr.apprendre, fr.repeter] }

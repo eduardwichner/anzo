@@ -1,0 +1,73 @@
+id: nl-b1-u12
+title: { en: Money and the bank }
+icon: money
+topic: Accounts, payments, debts, fraud; the conditional and indirect questions
+vocabulary:
+  - { target: de zichtrekening, native: { en: current account }, pos: noun, plural: zichtrekeningen, alsoNL: de betaalrekening }
+  - { target: de spaarrekening, native: { en: savings account }, pos: noun, plural: spaarrekeningen }
+  - { target: sparen, native: { en: to save (money) }, pos: verb }
+  - { target: het spaargeld, native: { en: savings }, pos: noun, plural: "-" }
+  - { target: het saldo, native: { en: balance (of an account) }, pos: noun, plural: saldo's }
+  - { target: de domiciliëring, native: { en: direct debit }, pos: noun, plural: domiciliëringen, alsoNL: de automatische incasso }
+  - { target: de uitgave, native: { en: expense }, pos: noun, plural: uitgaven }
+  - { target: het inkomen, native: { en: income }, pos: noun, plural: inkomens }
+  - { target: het budget, native: { en: budget }, pos: noun, plural: budgetten }
+  - { target: de schuld, native: { en: "debt; fault" }, pos: noun, plural: schulden }
+  - { target: de lening, native: { en: loan }, pos: noun, plural: leningen }
+  - { target: de intrest, native: { en: interest (on money) }, pos: noun, plural: "-", alsoNL: de rente }
+  - { target: de pincode, native: { en: PIN }, pos: noun, plural: pincodes, avoid: [nl.code] }
+  - { target: de code, native: { en: code }, pos: noun, plural: codes }
+  - { target: blokkeren, native: { en: "to block, to stop (a card)" }, pos: verb }
+  - { target: de fraude, native: { en: fraud }, pos: noun, plural: "-" }
+  - { target: de oplichter, native: { en: "con man, fraudster" }, pos: noun, plural: oplichters }
+  - { target: verdacht, native: { en: suspicious }, pos: adjective }
+  - { target: de gegevens, native: { en: "details, data" }, pos: noun, plural: "-" }
+  - { target: beveiligen, native: { en: "to secure, to protect" }, pos: verb }
+  - { target: bankieren, native: { en: to bank (online) }, pos: verb }
+  - { target: contant, native: { en: "in cash" }, pos: adverb }
+  - { target: de munt, native: { en: coin }, pos: noun, plural: munten }
+  - { target: het biljet, native: { en: "(bank)note" }, pos: noun, plural: biljetten, alsoNL: het bankbiljet }
+  - { target: besparen, native: { en: "to save (on), to cut back" }, pos: verb }
+  - { target: maandelijks, native: { en: monthly }, pos: adjective }
+  - { target: jaarlijks, native: { en: "yearly, annual" }, pos: adjective }
+  - { target: de aanmaning, native: { en: "reminder (to pay), final demand" }, pos: noun, plural: aanmaningen }
+  - { target: de achterstand, native: { en: arrears }, pos: noun, plural: achterstanden }
+  - { target: afbetalen, native: { en: "to pay off" }, pos: verb }
+  - { target: het voorschot, native: { en: "advance (payment), down payment" }, pos: noun, plural: voorschotten }
+  - { target: via, native: { en: "via, through" }, pos: preposition }
+  - { target: de sms, native: { en: text message }, pos: noun, plural: "sms'en" }
+  - { target: storten, native: { en: "to pay in, to deposit (money)" }, pos: verb }
+sentences:
+  - { id: s01, target: "Mijn loon wordt op mijn zichtrekening gestort.", native: { en: "My wages are paid into my current account." }, items: [nl.zichtrekening, nl.storten], acceptAlso: ["Op mijn zichtrekening wordt mijn loon gestort."], finite: { word: wordt, hint: { en: "worden (present)" } } }
+  - { id: s02, target: "Elke maand zet ik vijftig euro op mijn spaarrekening.", native: { en: "Every month I put fifty euros into my savings account." }, items: [nl.spaarrekening], acceptAlso: ["Ik zet elke maand vijftig euro op mijn spaarrekening.", "Op mijn spaarrekening zet ik elke maand vijftig euro."] }
+  - { id: s03, target: "We sparen voor een nieuwe auto.", native: { en: "We're saving for a new car." }, items: [nl.sparen] }
+  - { id: s04, target: "Met ons spaargeld willen we later een huis kopen.", native: { en: "With our savings we want to buy a house later." }, items: [nl.spaargeld], acceptAlso: ["We willen later met ons spaargeld een huis kopen.", "Later willen we met ons spaargeld een huis kopen.", "We willen met ons spaargeld later een huis kopen."] }
+  - { id: s05, target: "In de app zie je meteen je saldo.", native: { en: "In the app you can see your balance straight away." }, items: [nl.saldo] }
+  - { id: s06, target: "De huur wordt via domiciliëring betaald.", native: { en: "The rent is paid by direct debit." }, items: [nl.domiciliering, nl.via] }
+  - { id: s07, target: "Schrijf al je uitgaven op, dan weet je waar je geld naartoe gaat.", native: { en: "Write down all your expenses, then you'll know where your money goes." }, items: [nl.uitgave] }
+  - { id: s08, target: "Met één inkomen is het moeilijk om alles te betalen.", native: { en: "With one income it's hard to pay for everything." }, items: [nl.inkomen] }
+  - { id: s09, target: "We hebben een vast budget voor eten.", native: { en: "We have a fixed budget for food." }, items: [nl.budget], acceptAlso: ["Voor eten hebben we een vast budget."] }
+  - { id: s10, target: "Als je schulden hebt, kun je bij het OCMW hulp vragen.", native: { en: "If you have debts, you can ask the social welfare centre for help." }, items: [nl.schuld, nl.ocmw], acceptAlso: ["Als je schulden hebt, kun je hulp vragen bij het OCMW."] }
+  - { id: s11, target: "Ze hebben een lening voor hun huis.", native: { en: "They have a loan for their house." }, items: [nl.lening], acceptAlso: ["Voor hun huis hebben ze een lening."] }
+  - { id: s12, target: "De intrest op een spaarrekening is niet hoog.", native: { en: "The interest on a savings account isn't high." }, items: [nl.intrest, nl.spaarrekening] }
+  - { id: s13, target: "Geef je pincode nooit aan iemand anders.", native: { en: "Never give your PIN to anyone else." }, items: [nl.pincode] }
+  - { id: s14, target: "U krijgt een code per sms.", native: { en: "You'll get a code by text message." }, items: [nl.code, nl.sms], acceptAlso: ["U krijgt per sms een code.", "Per sms krijgt u een code."] }
+  - { id: s15, target: "Ik heb mijn bankkaart laten blokkeren omdat ik ze verloren was.", native: { en: "I had my bank card stopped because I had lost it." }, items: [nl.blokkeren], acceptAlso: ["Omdat ik ze verloren was, heb ik mijn bankkaart laten blokkeren.", "Ik heb mijn bankkaart laten blokkeren omdat ik ze was verloren.", "Omdat ik ze was verloren, heb ik mijn bankkaart laten blokkeren."] }
+  - { id: s16, target: "De bank onderzoekt of het om fraude gaat.", native: { en: "The bank is investigating whether it's fraud." }, items: [nl.fraude] }
+  - { id: s17, target: "De oplichter had gezegd dat hij van de bank was.", native: { en: "The fraudster had said he was from the bank." }, items: [nl.oplichter], finite: { word: had, hint: { en: "hebben (past)" } } }
+  - { id: s18, target: "Ik kreeg een verdacht bericht met een link.", native: { en: "I got a suspicious message with a link." }, items: [nl.verdacht], finite: { word: kreeg, hint: { en: "krijgen (past)" } } }
+  - { id: s19, target: "Vul nooit je gegevens in via een link in een bericht.", native: { en: "Never fill in your details through a link in a message." }, items: [nl.gegevens, nl.via] }
+  - { id: s20, target: "Beveilig je gsm met een goede code.", native: { en: "Protect your mobile phone with a good code." }, items: [nl.beveiligen, nl.code] }
+  - { id: s21, target: "Steeds meer mensen bankieren met hun gsm.", native: { en: "More and more people bank with their mobile phone." }, items: [nl.bankieren, nl.steeds] }
+  - { id: s22, target: "Kan ik contant betalen of moet het met de kaart?", native: { en: "Can I pay in cash or does it have to be by card?" }, items: [nl.contant] }
+  - { id: s23, target: "Hebt u ook munten van twee euro?", native: { en: "Do you also have two-euro coins?" }, items: [nl.munt] }
+  - { id: s24, target: "De bankautomaat geeft alleen biljetten van twintig euro.", native: { en: "The cash machine only gives twenty-euro notes." }, items: [nl.biljet] }
+  - { id: s25, target: "We besparen op energie door de verwarming lager te zetten.", native: { en: "We save on energy by turning the heating down." }, items: [nl.besparen] }
+  - { id: s26, target: "De maandelijkse kosten van mijn gsm zijn te hoog.", native: { en: "The monthly costs of my mobile are too high." }, items: [nl.maandelijks] }
+  - { id: s27, target: "De jaarlijkse bijdrage wordt in januari betaald.", native: { en: "The annual fee is paid in January." }, items: [nl.jaarlijks, nl.bijdrage] }
+  - { id: s28, target: "Ik heb een aanmaning gekregen omdat ik de factuur vergeten was.", native: { en: "I got a reminder because I'd forgotten to pay the bill." }, items: [nl.aanmaning], acceptAlso: ["Omdat ik de factuur vergeten was, heb ik een aanmaning gekregen."] }
+  - { id: s29, target: "Ze hebben een achterstand van drie maanden huur.", native: { en: "They're three months behind with the rent." }, items: [nl.achterstand] }
+  - { id: s30, target: "Ik zou de schuld graag in kleine bedragen afbetalen.", native: { en: "I'd like to pay off the debt in small amounts." }, items: [nl.afbetalen, nl.schuld], acceptAlso: ["Ik zou graag de schuld in kleine bedragen afbetalen.", "Graag zou ik de schuld in kleine bedragen afbetalen.", "De schuld zou ik graag in kleine bedragen afbetalen."] }
+  - { id: s31, target: "Voor de keuken betaal je een voorschot van tien procent.", native: { en: "For the kitchen you make a ten per cent down payment." }, items: [nl.voorschot] }
+  - { id: s32, target: "Zou u mijn kaart kunnen blokkeren?", native: { en: "Could you block my card?" }, items: [nl.blokkeren] }
+texts: [nl-b1-t13]

@@ -1,0 +1,62 @@
+id: nl-a1-u13
+title: { en: Where I live }
+icon: house
+topic: Housing, the building, the neighbours
+vocabulary:
+  - { target: de woning, native: { en: "home, dwelling" }, pos: noun, plural: woningen }
+  - { target: huren, native: { en: to rent }, pos: verb }
+  - { target: de huur, native: { en: rent }, pos: noun, plural: huren }
+  - { target: de huisbaas, native: { en: landlord }, pos: noun, plural: huisbazen }
+  - { target: verhuizen, native: { en: to move (house) }, pos: verb }
+  - { target: de buurt, native: { en: neighbourhood }, pos: noun, plural: buurten }
+  - { target: de buur, native: { en: neighbour }, pos: noun, plural: buren }
+  - { target: de verdieping, native: { en: floor (storey) }, pos: noun, plural: verdiepingen }
+  - { target: de lift, native: { en: lift }, pos: noun, plural: liften }
+  - { target: de kelder, native: { en: cellar }, pos: noun, plural: kelders }
+  - { target: de zolder, native: { en: attic }, pos: noun, plural: zolders }
+  - { target: de garage, native: { en: garage }, pos: noun, plural: garages }
+  - { target: het balkon, native: { en: balcony }, pos: noun, plural: balkons }
+  - { target: de muur, native: { en: wall }, pos: noun, plural: muren }
+  - { target: de vloer, native: { en: floor }, pos: noun, plural: vloeren }
+  - { target: de sleutel, native: { en: key }, pos: noun, plural: sleutels }
+  - { target: de verwarming, native: { en: heating }, pos: noun, plural: verwarmingen }
+  - { id: nl.licht-n, target: het licht, native: { en: light }, pos: noun, plural: lichten }
+  - { target: de koelkast, native: { en: fridge }, pos: noun, plural: koelkasten }
+  - { target: ruim, native: { en: spacious }, pos: adjective }
+  - { target: donker, native: { en: dark }, pos: adjective }
+  - { target: proper, native: { en: clean }, pos: adjective, alsoNL: schoon, avoid: [nl.vuil] }
+  - { target: vuil, native: { en: dirty }, pos: adjective }
+  - { target: zetten, native: { en: "to put (upright)" }, pos: verb, avoid: [nl.leggen, nl.hangen] }
+  - { target: leggen, native: { en: "to lay, to put (flat)" }, pos: verb, avoid: [nl.hangen] }
+  - { target: hangen, native: { en: to hang }, pos: verb }
+  - { target: staan, native: { en: to stand }, pos: verb, avoid: [nl.liggen, nl.zitten] }
+  - { target: liggen, native: { en: to lie }, pos: verb, avoid: [nl.zitten] }
+  - { target: zitten, native: { en: "to sit, to be (in)" }, pos: verb }
+sentences:
+  - { id: s01, target: "Wij zoeken een nieuwe woning.", native: { en: "We're looking for a new home." }, items: [nl.woning] }
+  - { id: s02, target: "Ik huur een appartement in Gent.", native: { en: "I rent a flat in Ghent." }, items: [nl.huren], acceptAlso: ["In Gent huur ik een appartement."] }
+  - { id: s03, target: "De huur is achthonderd euro per maand.", native: { en: "The rent is eight hundred euros a month." }, items: [nl.huur] }
+  - { id: s04, target: "Ik bel de huisbaas.", native: { en: "I'm calling the landlord." }, items: [nl.huisbaas] }
+  - { id: s05, target: "Volgende maand verhuizen we.", native: { en: "We're moving next month." }, items: [nl.verhuizen], acceptAlso: ["We verhuizen volgende maand."] }
+  - { id: s06, target: "Het is een rustige buurt.", native: { en: "It's a quiet neighbourhood." }, items: [nl.buurt] }
+  - { id: s07, target: "Mijn buren zijn heel vriendelijk.", native: { en: "My neighbours are very friendly." }, items: [nl.buur] }
+  - { id: s08, target: "Wij wonen op de derde verdieping.", native: { en: "We live on the third floor." }, items: [nl.verdieping] }
+  - { id: s09, target: "Is er een lift?", native: { en: "Is there a lift?" }, items: [nl.lift] }
+  - { id: s10, target: "De fietsen staan in de kelder.", native: { en: "The bikes are in the cellar." }, items: [nl.kelder, nl.staan] }
+  - { id: s11, target: "De oude kast staat op zolder.", native: { en: "The old wardrobe is in the attic." }, items: [nl.zolder, nl.staan], acceptAlso: ["Op zolder staat de oude kast."] }
+  - { id: s12, target: "De auto staat in de garage.", native: { en: "The car is in the garage." }, items: [nl.garage], acceptAlso: ["In de garage staat de auto."] }
+  - { id: s13, target: "Het appartement heeft een groot balkon.", native: { en: "The flat has a big balcony." }, items: [nl.balkon] }
+  - { id: s14, target: "De muren zijn wit.", native: { en: "The walls are white." }, items: [nl.muur] }
+  - { id: s15, target: "De vloer is vuil.", native: { en: "The floor is dirty." }, items: [nl.vloer, nl.vuil] }
+  - { id: s16, target: "Ik kan mijn sleutel niet vinden.", native: { en: "I can't find my key." }, items: [nl.sleutel] }
+  - { id: s17, target: "De verwarming werkt niet.", native: { en: "The heating isn't working." }, items: [nl.verwarming] }
+  - { id: s18, target: "Doe het licht aan, alsjeblieft.", native: { en: "Turn the light on, please." }, items: [nl.licht-n] }
+  - { id: s19, target: "De melk staat in de koelkast.", native: { en: "The milk is in the fridge." }, items: [nl.koelkast], acceptAlso: ["In de koelkast staat de melk."] }
+  - { id: s20, target: "Het huis is ruim en licht.", native: { en: "The house is spacious and bright." }, items: [nl.ruim] }
+  - { id: s21, target: "De kelder is donker.", native: { en: "The cellar is dark." }, items: [nl.donker] }
+  - { id: s22, target: "De keuken is proper.", native: { en: "The kitchen is clean." }, items: [nl.proper] }
+  - { id: s23, target: "Zet de tafel bij het raam.", native: { en: "Put the table by the window." }, items: [nl.zetten] }
+  - { id: s24, target: "Leg het boek op de tafel.", native: { en: "Put the book on the table." }, items: [nl.leggen] }
+  - { id: s25, target: "Ik hang de foto aan de muur.", native: { en: "I'm hanging the photo on the wall." }, items: [nl.hangen, nl.muur] }
+  - { id: s26, target: "Het boek ligt op de tafel.", native: { en: "The book is on the table." }, items: [nl.liggen] }
+  - { id: s27, target: "De sleutels zitten in mijn tas.", native: { en: "The keys are in my bag." }, items: [nl.zitten, nl.sleutel] }

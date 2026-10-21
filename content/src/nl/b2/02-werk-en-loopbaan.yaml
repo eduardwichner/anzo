@@ -1,0 +1,96 @@
+id: nl-b2-u02
+title: { en: Work and career }
+icon: work
+topic: A career change, training, working conditions; zou + infinitive (advice, hypotheses, politeness)
+vocabulary:
+  - { target: de loopbaan, native: { en: career }, pos: noun, plural: loopbanen, avoid: [nl.carriere] }
+  - { target: de omscholing, native: { en: retraining }, pos: noun, plural: omscholingen }
+  - { target: de arbeidsmarkt, native: { en: labour market }, pos: noun, plural: arbeidsmarkten }
+  - { target: de ambitie, native: { en: ambition }, pos: noun, plural: ambities }
+  - { target: de burn-out, native: { en: burnout }, pos: noun, plural: burn-outs }
+  - { target: de werkdruk, native: { en: "pressure of work, workload" }, pos: noun, plural: "-" }
+  - { target: de promotie, native: { en: promotion }, pos: noun, plural: promoties }
+  - { target: het ontslag, native: { en: "dismissal; resignation" }, pos: noun, plural: ontslagen }
+  - { target: de werkloosheid, native: { en: unemployment }, pos: noun, plural: "-" }
+  - { target: de bijscholing, native: { en: "further training, refresher course" }, pos: noun, plural: bijscholingen }
+  - { target: de coach, native: { en: coach }, pos: noun, plural: coaches }
+  - { target: de zelfstandige, native: { en: self-employed person }, pos: noun, plural: zelfstandigen }
+  - { target: de ondernemer, native: { en: "entrepreneur, business owner" }, pos: noun, plural: ondernemers }
+  - { target: het functioneringsgesprek, native: { en: appraisal interview }, pos: noun, plural: functioneringsgesprekken }
+  - { target: de feedback, native: { en: feedback }, pos: noun, plural: "-" }
+  - { target: het pensioen, native: { en: "pension; retirement" }, pos: noun, plural: pensioenen }
+  - { target: het tijdskrediet, native: { en: "career break (leave with a state allowance, Belgium)" }, pos: noun, plural: tijdskredieten }
+  - { target: het ouderschapsverlof, native: { en: parental leave }, pos: noun, plural: "-" }
+  - { target: het takenpakket, native: { en: "duties, range of tasks" }, pos: noun, plural: takenpakketten }
+  - { target: de werkzoekende, native: { en: jobseeker }, pos: noun, plural: werkzoekenden }
+  - { target: de werkweek, native: { en: working week }, pos: noun, plural: werkweken }
+  - { target: de werkgelegenheid, native: { en: employment (jobs available) }, pos: noun, plural: "-" }
+  - { target: de opzegtermijn, native: { en: "notice period" }, pos: noun, plural: opzegtermijnen }
+  - { target: de zekerheid, native: { en: "certainty, security" }, pos: noun, plural: zekerheden }
+  - { target: de onzekerheid, native: { en: uncertainty }, pos: noun, plural: onzekerheden }
+  - { target: de loonsverhoging, native: { en: pay rise }, pos: noun, plural: loonsverhogingen }
+  - { target: de deadline, native: { en: deadline }, pos: noun, plural: deadlines }
+  - { target: de tip, native: { en: "tip, piece of advice" }, pos: noun, plural: tips }
+  - { target: de luisteraar, native: { en: listener }, pos: noun, plural: luisteraars }
+  - { target: de overstap, native: { en: "switch, change (of job)" }, pos: noun, plural: overstappen }
+  - { target: starten, native: { en: to start }, pos: verb, avoid: [nl.beginnen] }
+  - { target: evalueren, native: { en: to evaluate }, pos: verb }
+  - { target: presteren, native: { en: to perform (well) }, pos: verb }
+  - { target: zich omscholen, native: { en: to retrain }, pos: verb }
+  - { target: zich afvragen, native: { en: to wonder }, pos: verb }
+  - { target: doorgroeien, native: { en: "to move up, to progress (in a job)" }, pos: verb }
+  - { target: voorbereiden, native: { en: to prepare }, pos: verb }
+  - { target: zinvol, native: { en: meaningful }, pos: adjective }
+  - { target: haalbaar, native: { en: "feasible, achievable" }, pos: adjective }
+  - { target: veeleisend, native: { en: demanding }, pos: adjective, avoid: [nl.uitdagend] }
+  - { target: uitdagend, native: { en: challenging }, pos: adjective }
+  - { target: eventueel, native: { en: "possibly; possible" }, pos: adjective }
+  - { target: de leidinggevende, native: { en: "manager, supervisor" }, pos: noun, plural: leidinggevenden }
+  - { target: het project, native: { en: project }, pos: noun, plural: projecten }
+  - { target: de regio, native: { en: region }, pos: noun, plural: "regio's" }
+  - { target: ideaal, native: { en: ideal }, pos: adjective }
+  - { target: nerveus, native: { en: nervous }, pos: adjective }
+sentences:
+  - { id: s01, target: "Na twintig jaar wilde ze haar loopbaan een nieuwe richting geven.", native: { en: "After twenty years she wanted to give her career a new direction." }, items: [nl.loopbaan], acceptAlso: ["Ze wilde na twintig jaar haar loopbaan een nieuwe richting geven."] }
+  - { id: s02, target: "Een omscholing tot verpleegkundige duurt ongeveer drie jaar.", native: { en: "Retraining as a nurse takes about three years." }, items: [nl.omscholing] }
+  - { id: s03, target: "Op de arbeidsmarkt is er veel vraag naar verpleegkundigen.", native: { en: "On the labour market there is a lot of demand for nurses." }, items: [nl.arbeidsmarkt], acceptAlso: ["Er is veel vraag naar verpleegkundigen op de arbeidsmarkt."] }
+  - { id: s04, target: "Hij heeft weinig ambitie om leidinggevende te worden.", native: { en: "He has little ambition to become a manager." }, items: [nl.ambitie] }
+  - { id: s05, target: "Door de hoge werkdruk kreeg ze een burn-out.", native: { en: "Because of the high pressure of work she ended up with burnout." }, items: [nl.werkdruk, nl.burn-out], acceptAlso: ["Ze kreeg een burn-out door de hoge werkdruk."] }
+  - { id: s06, target: "Na vijf jaar kreeg hij eindelijk promotie.", native: { en: "After five years he finally got a promotion." }, items: [nl.promotie], acceptAlso: ["Hij kreeg na vijf jaar eindelijk promotie.", "Eindelijk kreeg hij na vijf jaar promotie."] }
+  - { id: s07, target: "Ze heeft ontslag genomen omdat ze een betere job vond.", native: { en: "She resigned because she found a better job." }, items: [nl.ontslag], acceptAlso: ["Omdat ze een betere job vond, heeft ze ontslag genomen."] }
+  - { id: s08, target: "De werkloosheid is dit jaar licht gedaald.", native: { en: "Unemployment has fallen slightly this year." }, items: [nl.werkloosheid], form: { word: werkloosheid, stem: werkloos }, acceptAlso: ["Dit jaar is de werkloosheid licht gedaald."] }
+  - { id: s09, target: "Elk jaar volgen we een bijscholing over nieuwe apps.", native: { en: "Every year we take a refresher course on new apps." }, items: [nl.bijscholing], acceptAlso: ["We volgen elk jaar een bijscholing over nieuwe apps."] }
+  - { id: s10, target: "Een coach kan je helpen om je sterke punten te ontdekken.", native: { en: "A coach can help you to discover your strong points." }, items: [nl.coach, nl.ontdekken] }
+  - { id: s11, target: "Als zelfstandige moet je je eigen pensioen regelen.", native: { en: "As a self-employed person you have to arrange your own pension." }, items: [nl.zelfstandige, nl.pensioen], acceptAlso: ["Je moet als zelfstandige je eigen pensioen regelen.", "Je eigen pensioen moet je als zelfstandige regelen."] }
+  - { id: s12, target: "Veel jonge ondernemers starten met een klein budget.", native: { en: "Many young entrepreneurs start with a small budget." }, items: [nl.ondernemer, nl.starten], acceptAlso: ["Met een klein budget starten veel jonge ondernemers."] }
+  - { id: s13, target: "Tijdens het functioneringsgesprek bespreken we je doelen.", native: { en: "During the appraisal interview we discuss your goals." }, items: [nl.functioneringsgesprek], acceptAlso: ["We bespreken je doelen tijdens het functioneringsgesprek.", "Je doelen bespreken we tijdens het functioneringsgesprek."] }
+  - { id: s14, target: "Mijn baas geeft me altijd eerlijke feedback.", native: { en: "My boss always gives me honest feedback." }, items: [nl.feedback], finite: { word: geeft, hint: { en: "geven (present)" } } }
+  - { id: s15, target: "Ze neemt een jaar tijdskrediet om een opleiding te volgen.", native: { en: "She is taking a year's career break to follow a course." }, items: [nl.tijdskrediet], acceptAlso: ["Om een opleiding te volgen neemt ze een jaar tijdskrediet."] }
+  - { id: s16, target: "Na de geboorte nam hij drie maanden ouderschapsverlof.", native: { en: "After the birth he took three months' parental leave." }, items: [nl.ouderschapsverlof], acceptAlso: ["Hij nam na de geboorte drie maanden ouderschapsverlof."] }
+  - { id: s17, target: "Mijn takenpakket is het laatste jaar sterk veranderd.", native: { en: "My set of tasks has changed a lot over the past year." }, items: [nl.takenpakket] }
+  - { id: s18, target: "De VDAB helpt werkzoekenden om werk te vinden.", native: { en: "The VDAB (Flemish employment service) helps jobseekers to find work." }, items: [nl.werkzoekende] }
+  - { id: s19, target: "Een werkweek van vier dagen zou voor veel mensen ideaal zijn.", native: { en: "A four-day working week would be ideal for many people." }, items: [nl.werkweek], build: true, acceptAlso: ["Voor veel mensen zou een werkweek van vier dagen ideaal zijn.", "Een werkweek van vier dagen zou ideaal zijn voor veel mensen."] }
+  - { id: s20, target: "De nieuwe fabriek zorgt voor veel werkgelegenheid in de regio.", native: { en: "The new factory is creating a lot of jobs in the region." }, items: [nl.werkgelegenheid], acceptAlso: ["In de regio zorgt de nieuwe fabriek voor veel werkgelegenheid."] }
+  - { id: s21, target: "Mijn opzegtermijn is drie maanden.", native: { en: "My notice period is three months." }, items: [nl.opzegtermijn] }
+  - { id: s22, target: "Een vast contract geeft je meer zekerheid.", native: { en: "A permanent contract gives you more security." }, items: [nl.zekerheid], form: { word: zekerheid, stem: zeker } }
+  - { id: s23, target: "De onzekerheid over de toekomst maakt veel werknemers nerveus.", native: { en: "The uncertainty about the future makes many employees nervous." }, items: [nl.onzekerheid] }
+  - { id: s24, target: "Zou ik dit jaar een loonsverhoging kunnen vragen?", native: { en: "Could I ask for a pay rise this year?" }, items: [nl.loonsverhoging], build: true }
+  - { id: s25, target: "We halen de deadline alleen als iedereen helpt.", native: { en: "We'll only meet the deadline if everyone helps." }, items: [nl.deadline] }
+  - { id: s26, target: "Heb je nog een tip voor mijn sollicitatie?", native: { en: "Do you have another tip for my application?" }, items: [nl.tip] }
+  - { id: s27, target: "Veel luisteraars belden met hun vragen naar de radio.", native: { en: "Many listeners phoned the radio station with their questions." }, items: [nl.luisteraar], acceptAlso: ["Veel luisteraars belden naar de radio met hun vragen.", "Met hun vragen belden veel luisteraars naar de radio."] }
+  - { id: s28, target: "De overstap naar een andere sector was niet gemakkelijk.", native: { en: "The switch to another sector wasn't easy." }, items: [nl.overstap] }
+  - { id: s29, target: "We evalueren het project na zes maanden.", native: { en: "We'll evaluate the project after six months." }, items: [nl.evalueren] }
+  - { id: s30, target: "Onder stress presteert hij minder goed.", native: { en: "Under stress he performs less well." }, items: [nl.presteren], acceptAlso: ["Hij presteert minder goed onder stress."], finite: { word: presteert, hint: { en: "presteren (present)" } } }
+  - { id: s31, target: "Toen ze veertig was, heeft ze zich tot leerkracht omgeschoold.", native: { en: "When she was forty, she retrained as a teacher." }, items: [nl.zich-omscholen], acceptAlso: ["Ze heeft zich tot leerkracht omgeschoold toen ze veertig was.", "Toen ze veertig was, heeft ze zich omgeschoold tot leerkracht.", "Ze heeft zich omgeschoold tot leerkracht toen ze veertig was."] }
+  - { id: s32, target: "Ik vraag me af of ik de juiste keuze heb gemaakt.", native: { en: "I wonder whether I have made the right choice." }, items: [nl.zich-afvragen], acceptAlso: ["Ik vraag me af of ik de juiste keuze gemaakt heb."] }
+  - { id: s33, target: "In dit bedrijf kun je snel doorgroeien naar een hogere functie.", native: { en: "In this company you can quickly move up to a higher position." }, items: [nl.doorgroeien] }
+  - { id: s34, target: "Je zou je goed op het gesprek moeten voorbereiden.", native: { en: "You should prepare well for the interview." }, items: [nl.voorbereiden], build: true, acceptAlso: ["Je zou je goed moeten voorbereiden op het gesprek.", "Je zou je op het gesprek goed moeten voorbereiden.", "Op het gesprek zou je je goed moeten voorbereiden."] }
+  - { id: s35, target: "Ik wil werk doen dat ik zinvol vind.", native: { en: "I want to do work that I find meaningful." }, items: [nl.zinvol] }
+  - { id: s36, target: "Is dat plan wel haalbaar binnen een jaar?", native: { en: "Is that plan really achievable within a year?" }, items: [nl.haalbaar] }
+  - { id: s37, target: "Het is een veeleisende job, maar ook erg uitdagend.", native: { en: "It's a demanding job, but also very challenging." }, items: [nl.veeleisend, nl.uitdagend] }
+  - { id: s38, target: "Eventuele vragen kunt u na de vergadering stellen.", native: { en: "You can ask any questions after the meeting." }, items: [nl.eventueel], acceptAlso: ["U kunt eventuele vragen na de vergadering stellen.", "Na de vergadering kunt u eventuele vragen stellen."] }
+transforms:
+  - { id: x01, from: "Misschien verdien je minder als je van job verandert.", key: kunnen, gapped: "Je ___ als je van job verandert.", answers: ["zou minder kunnen verdienen", "zou misschien minder kunnen verdienen"], items: [nl.overstap], native: { en: "You might earn less if you change jobs." } }
+  - { id: x02, from: "Ik raad je aan om eerst een plan te maken.", key: moeten, gapped: "Je ___ maken.", answers: ["zou eerst een plan moeten", "zou best eerst een plan moeten"], items: [nl.voorbereiden], native: { en: "You should make a plan first." } }
+  - { id: x03, from: "Het is beter dat je niet te snel ontslag neemt.", key: zou, gapped: "Ik ___ ontslag nemen.", answers: ["zou niet te snel", "zou niet zo snel"], items: [nl.ontslag], native: { en: "I wouldn't resign too quickly." } }
+texts: [nl-b2-t03]

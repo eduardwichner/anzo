@@ -1,0 +1,36 @@
+id: fr-b2-t15
+kind: dialogue
+title: { nl: Een nieuwe stad, en: "A new town" }
+topic: Amitié et relations (deux cousins se téléphonent)
+level: B2
+speakers: { A: { name: Chloé }, B: { name: Lucas } }
+turns:
+  - { id: fr-b2-t15-s01, speaker: B, target: "Salut Chloé ! Alors, la vie dans ta nouvelle ville ? Tu t'y es habituée ?", native: { nl: "Hoi Chloé! En, hoe is het leven in je nieuwe stad? Ben je er al aan gewend?", en: "Hi Chloé! So, how's life in your new town? Have you got used to it?" } }
+  - { id: fr-b2-t15-s02, speaker: A, target: "Pas vraiment, Lucas. Je n'ai toujours pas l'habitude d'être celle que personne ne connaît.", native: { nl: "Niet echt, Lucas. Ik ben er nog altijd niet aan gewend dat niemand me kent.", en: "Not really, Lucas. I'm still not used to being the one nobody knows." } }
+  - { id: fr-b2-t15-s03, speaker: B, target: "Tu ne t'es pas fait d'amis au lycée ?", native: { nl: "Heb je op school nog geen vrienden gemaakt?", en: "Haven't you made any friends at lycée?" } }
+  - { id: fr-b2-t15-s04, speaker: A, target: "Quelques connaissances, mais personne à qui je peux vraiment me confier. Ils se connaissent tous depuis l'âge de cinq ans.", native: { nl: "Een paar kennissen, maar niemand die ik echt in vertrouwen kan nemen. Ze kennen elkaar allemaal sinds ze vijf zijn.", en: "A few acquaintances, but nobody I can really confide in. They've all known each other since they were five." } }
+  - { id: fr-b2-t15-s05, speaker: B, target: "C'est dur. Dans notre ancienne ville, tu connaissais tout le monde.", native: { nl: "Dat is moeilijk. In onze vroegere stad kende je iedereen.", en: "That's hard. In our old town, you knew everybody." } }
+  - { id: fr-b2-t15-s06, speaker: A, target: "Exactement. Parfois je me sens vraiment seule, surtout le week-end.", native: { nl: "Precies. Soms voel ik me echt eenzaam, vooral in het weekend.", en: "Exactly. Sometimes I feel really lonely, especially at weekends." } }
+  - { id: fr-b2-t15-s07, speaker: B, target: "Et si tu entrais dans un club ? Avant, tu adorais jouer au foot.", native: { nl: "En als je nu eens bij een club ging? Vroeger speelde je zo graag voetbal.", en: "What if you joined a club? You used to love playing football." } }
+  - { id: fr-b2-t15-s08, speaker: A, target: "J'y ai pensé, mais j'ai peur qu'elles soient toutes meilleures que moi.", native: { nl: "Ik heb eraan gedacht, maar ik ben bang dat ze allemaal beter zijn dan ik.", en: "I've thought about it, but I'm afraid they'll all be better than me." } }
+  - { id: fr-b2-t15-s09, speaker: B, target: "Et alors ? Dans une équipe, personne ne fait attention à ça. Et c'est la façon la plus facile de rencontrer des gens.", native: { nl: "Wat dan nog? In een ploeg let niemand daarop. En het is de makkelijkste manier om mensen te leren kennen.", en: "So what? In a team, nobody pays attention to that. And it's the easiest way to meet people." } }
+  - { id: fr-b2-t15-s10, speaker: A, target: "Tu as peut-être raison. Il y a une fille dans ma classe qui joue. Elle a l'air très sympa.", native: { nl: "Misschien heb je gelijk. Er is een meisje in mijn klas dat speelt. Ze lijkt heel leuk.", en: "Maybe you're right. There's a girl in my class who plays. She seems really nice." } }
+  - { id: fr-b2-t15-s11, speaker: B, target: "Alors demande-lui quand elles s'entraînent. Au pire, elle te dira non.", native: { nl: "Vraag haar dan wanneer ze trainen. In het slechtste geval zegt ze nee.", en: "Then ask her when they train. At worst, she'll say no." } }
+  - { id: fr-b2-t15-s12, speaker: A, target: "D'accord, je le lui demanderai demain. Merci, Lucas. Je peux toujours compter sur toi.", native: { nl: "Oké, ik vraag het haar morgen. Bedankt, Lucas. Ik kan altijd op je rekenen.", en: "OK, I'll ask her tomorrow. Thanks, Lucas. I can always count on you." } }
+  - { id: fr-b2-t15-s13, speaker: B, target: "C'est à ça que servent les cousins. Et appelle-moi après le premier entraînement, d'accord ?", native: { nl: "Daar zijn neven en nichten voor. En bel me na de eerste training, oké?", en: "That's what cousins are for. And call me after the first training session, OK?" } }
+items: [fr.avoir-l-habitude-de, fr.se-confier, fr.se-sentir-seul, fr.compter-sur]
+questions:
+  - { id: fr-b2-t15-q1, type: summary, options: ["Chloé se sent seule dans sa nouvelle ville, et son cousin l'encourage à entrer dans un club de foot et à parler à une fille de sa classe.", "Chloé est heureuse dans sa nouvelle ville et elle a déjà beaucoup d'amis au club de foot.", "Chloé se sent seule dans sa nouvelle ville, et son cousin lui conseille de revenir dans leur ancienne ville pour retrouver ses amis."], correct: 0 }
+  - { id: fr-b2-t15-q2, type: mc, question: "Pourquoi est-il difficile pour Chloé de se faire des amis ?", options: ["Les autres se connaissent depuis qu'ils sont petits.", "Elle a trop de devoirs.", "Personne au lycée ne parle français."], correct: 0 }
+  - { id: fr-b2-t15-q3, type: true_false_notgiven, statement: "Avant, Chloé adorait jouer au foot.", answer: true }
+  - { id: fr-b2-t15-q4, type: true_false_notgiven, statement: "Le nouveau lycée de Chloé est plus grand que l'ancien.", answer: not_given }
+  - { id: fr-b2-t15-q5, type: true_false_notgiven, statement: "Chloé se sent surtout seule pendant la semaine.", answer: false }
+listeningQuestions:
+  - { id: fr-b2-t15-l1, type: complete, statement: "Les autres élèves se connaissent depuis l'âge de ___ ans.", answers: [cinq, "5"] }
+  - { id: fr-b2-t15-l2, type: mc, question: "Quand Chloé va-t-elle parler à la fille de sa classe ?", options: ["Demain.", "Ce soir.", "Le week-end prochain."], correct: 0 }
+openCloze:
+  - { sentence: fr-b2-t15-s04, word: qui }
+  - { sentence: fr-b2-t15-s08, word: peur }
+  - { sentence: fr-b2-t15-s09, word: plus }
+  - { sentence: fr-b2-t15-s12, word: sur }
+orderable: false

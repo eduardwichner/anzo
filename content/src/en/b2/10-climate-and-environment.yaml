@@ -1,0 +1,72 @@
+id: en-b2-u10
+title: { nl: Klimaat en milieu }
+icon: leaf
+topic: Climate change and its causes, extreme weather, plastic and waste, protest and campaigns; the third conditional (If we had acted earlier, … would have …)
+vocabulary:
+  - { target: greenhouse gas, native: { nl: broeikasgas }, pos: noun }
+  - { target: carbon, native: { nl: koolstof }, pos: noun }
+  - { target: emissions, native: { nl: "uitstoot" }, pos: noun }
+  - { target: carbon footprint, native: { nl: "CO2-voetafdruk, koolstofvoetafdruk" }, pos: noun }
+  - { target: fossil fuels, native: { nl: "fossiele brandstoffen" }, pos: noun }
+  - { target: coal, native: { nl: steenkool }, pos: noun }
+  - { target: pollute, native: { nl: vervuilen }, pos: verb }
+  - { target: eco-friendly, native: { nl: milieuvriendelijk }, pos: adjective }
+  - { target: reuse, native: { nl: hergebruiken }, pos: verb, avoid: [en.recycle] }
+  - { target: single-use, native: { nl: "wegwerp-, voor eenmalig gebruik" }, pos: adjective }
+  - { target: biodegradable, native: { nl: "biologisch afbreekbaar" }, pos: adjective }
+  - { target: landfill, native: { nl: "vuilnisbelt, stortplaats" }, pos: noun }
+  - { target: drought, native: { nl: droogte }, pos: noun }
+  - { target: heatwave, native: { nl: hittegolf }, pos: noun }
+  - { target: extreme, native: { nl: extreem }, pos: adjective, noBlank: true }
+  - { target: sea level, native: { nl: zeespiegel }, pos: noun }
+  - { target: melt, native: { nl: smelten }, pos: verb }
+  - { target: glacier, native: { nl: gletsjer }, pos: noun }
+  - { target: deforestation, native: { nl: ontbossing }, pos: noun }
+  - { target: biodiversity, native: { nl: biodiversiteit }, pos: noun, noBlank: true }
+  - { target: protest, native: { nl: "protesteren" }, pos: verb }
+  - { target: campaign, native: { nl: "campagne, actie" }, pos: noun, noBlank: true }
+  - { target: activist, native: { nl: "activist, actievoerder" }, pos: noun }
+  - { target: ban, native: { nl: "verbieden; verbod" }, pos: verb }
+  - { target: impact, native: { nl: "invloed, impact" }, pos: noun }
+  - { target: threat, native: { nl: bedreiging }, pos: noun }
+  - { target: threaten, native: { nl: bedreigen }, pos: verb }
+  - { target: crisis, native: { nl: crisis }, pos: noun, noBlank: true }
+  - { target: disaster, native: { nl: ramp }, pos: noun }
+sentences:
+  - { id: s01, target: "Greenhouse gases keep heat in the air around the earth.", native: { nl: "Broeikasgassen houden warmte vast in de lucht rond de aarde." }, items: [en.greenhouse-gas] }
+  - { id: s02, target: "Trees take carbon out of the air.", native: { nl: "Bomen halen koolstof uit de lucht." }, items: [en.carbon] }
+  - { id: s03, target: "The city wants to cut its emissions by half before 2035.", native: { nl: "De stad wil haar uitstoot voor 2035 halveren." }, items: [en.emissions] }
+  - { id: s04, target: "Flying less is the easiest way to reduce your carbon footprint.", native: { nl: "Minder vliegen is de makkelijkste manier om je ecologische voetafdruk te verkleinen." }, items: [en.carbon-footprint] }
+  - { id: s05, target: "Most of our electricity still comes from fossil fuels.", native: { nl: "Het grootste deel van onze elektriciteit komt nog altijd uit fossiele brandstoffen." }, items: [en.fossil-fuels] }
+  - { id: s06, target: "Many countries have closed their last coal mines.", native: { nl: "Veel landen hebben hun laatste steenkoolmijnen gesloten." }, items: [en.coal] }
+  - { id: s07, target: "Factories that pollute the river will have to pay.", native: { nl: "Fabrieken die de rivier vervuilen, zullen moeten betalen." }, items: [en.pollute] }
+  - { id: s08, target: "Cycling to school is an eco-friendly way to travel.", native: { nl: "Naar school fietsen is een milieuvriendelijke manier om je te verplaatsen." }, items: [en.eco-friendly] }
+  - { id: s09, target: "We reuse glass jars to keep food in.", native: { nl: "We hergebruiken glazen potten om eten in te bewaren." }, items: [en.reuse] }
+  - { id: s10, target: "Single-use plastic bags are no longer free in our shops.", native: { nl: "Plastic wegwerpzakjes zijn in onze winkels niet meer gratis." }, items: [en.single-use] }
+  - { id: s11, target: "Is this cup really biodegradable?", native: { nl: "Is deze beker echt biologisch afbreekbaar?" }, items: [en.biodegradable] }
+  - { id: s12, target: "Most of our rubbish still ends up in landfill.", native: { nl: "Het meeste van ons afval belandt nog altijd op de vuilnisbelt." }, items: [en.landfill] }
+  - { id: s13, target: "The drought destroyed the farmers' crops.", native: { nl: "De droogte vernietigde de oogst van de boeren." }, items: [en.drought] }
+  - { id: s14, target: "During the heatwave, temperatures reached forty degrees.", native: { nl: "Tijdens de hittegolf liep de temperatuur op tot veertig graden." }, items: [en.heatwave], acceptAlso: ["Temperatures reached forty degrees during the heatwave."] }
+  - { id: s15, target: "Extreme weather is becoming more common.", native: { nl: "Extreem weer komt steeds vaker voor." }, items: [en.extreme] }
+  - { id: s16, target: "Rising sea levels threaten towns on the coast.", native: { nl: "Een stijgende zeespiegel bedreigt steden aan de kust." }, items: [en.sea-level, en.threaten] }
+  - { id: s17, target: "The ice is melting faster than scientists expected.", native: { nl: "Het ijs smelt sneller dan wetenschappers verwachtten." }, items: [en.melt] }
+  - { id: s18, target: "This glacier has lost half of its ice in fifty years.", native: { nl: "Deze gletsjer heeft in vijftig jaar de helft van zijn ijs verloren." }, items: [en.glacier] }
+  - { id: s19, target: "Deforestation is one of the main causes of climate change.", native: { nl: "Ontbossing is een van de belangrijkste oorzaken van klimaatverandering." }, items: [en.deforestation] }
+  - { id: s20, target: "Gardens full of flowers are good for biodiversity.", native: { nl: "Tuinen vol bloemen zijn goed voor de biodiversiteit." }, items: [en.biodiversity] }
+  - { id: s21, target: "Thousands of students protested in front of the government building.", native: { nl: "Duizenden leerlingen protesteerden voor het regeringsgebouw." }, items: [en.protest] }
+  - { id: s22, target: "The campaign wants to get plastic out of schools.", native: { nl: "De campagne wil plastic uit de scholen halen." }, items: [en.campaign] }
+  - { id: s23, target: "Young activists have changed the discussion about the climate.", native: { nl: "Jonge activisten hebben het debat over het klimaat veranderd." }, items: [en.activist] }
+  - { id: s24, target: "Several countries have banned plastic bags.", native: { nl: "Verschillende landen hebben plastic zakjes verboden." }, items: [en.ban] }
+  - { id: s25, target: "Our food choices have a big impact on the environment.", native: { nl: "Onze voedselkeuzes hebben een grote invloed op het milieu." }, items: [en.impact] }
+  - { id: s26, target: "Climate change is a threat to people and animals.", native: { nl: "Klimaatverandering is een bedreiging voor mensen en dieren." }, items: [en.threat] }
+  - { id: s27, target: "Some scientists speak of a climate crisis.", native: { nl: "Sommige wetenschappers spreken van een klimaatcrisis." }, items: [en.crisis] }
+  - { id: s28, target: "The floods were the worst disaster in the region's history.", native: { nl: "De overstromingen waren de ergste ramp in de geschiedenis van de regio." }, items: [en.disaster] }
+  - { id: s29, target: "If we had acted earlier, the floods wouldn't have been such a disaster.", native: { nl: "Als we eerder hadden gehandeld, waren de overstromingen niet zo'n ramp geweest." }, items: [en.disaster], build: true, acceptAlso: ["The floods wouldn't have been such a disaster if we had acted earlier."] }
+  - { id: s30, target: "The glacier wouldn't have melted so quickly if the summers hadn't been so hot.", native: { nl: "De gletsjer zou niet zo snel gesmolten zijn als de zomers niet zo heet waren geweest." }, items: [en.glacier], build: true, acceptAlso: ["If the summers hadn't been so hot, the glacier wouldn't have melted so quickly."] }
+  - { id: s31, target: "What would you have done if you had been one of the activists?", native: { nl: "Wat zou jij gedaan hebben als jij een van de activisten was geweest?" }, items: [en.activist], acceptAlso: ["If you had been one of the activists, what would you have done?"] }
+  - { id: s32, target: "Most of the pollution in this river comes from one factory.", native: { nl: "Het grootste deel van de vervuiling in deze rivier komt van één fabriek." }, items: [en.pollute], form: { word: pollution, stem: pollute } }
+transforms:
+  - { id: x01, from: "We didn't recycle, so the bins were full.", key: recycled, gapped: "If we ___, the bins wouldn't have been full.", answers: ["had recycled"], items: [en.reuse] }
+  - { id: x02, from: "Plastic bags are not allowed in the market any more.", key: banned, gapped: "Plastic bags ___ in the market.", answers: ["have been banned", "are banned", "are now banned", "have now been banned"], items: [en.ban] }
+  - { id: x03, from: "Fossil fuels have a huge effect on the climate.", key: impact, gapped: "Fossil fuels ___ the climate.", answers: ["have a huge impact on", "have an enormous impact on", "have a great impact on"], items: [en.impact] }
+texts: [en-b2-t10]

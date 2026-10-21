@@ -1,0 +1,46 @@
+id: nl-a2-u14
+title: { en: A day out }
+icon: sport
+topic: Outings, nature, opening hours
+vocabulary:
+  - { target: de activiteit, native: { en: activity }, pos: noun, plural: activiteiten }
+  - { target: het pretpark, native: { en: theme park }, pos: noun, plural: pretparken }
+  - { target: de toegang, native: { en: "admission, entry" }, pos: noun, plural: "-", avoid: [nl.ingang] }
+  - { target: de ingang, native: { en: entrance }, pos: noun, plural: ingangen, avoid: [nl.uitgang] }
+  - { target: de uitgang, native: { en: exit }, pos: noun, plural: uitgangen }
+  - { target: de openingsuren, native: { en: opening hours }, pos: noun, plural: "-", alsoNL: de openingstijden }
+  - { target: de natuur, native: { en: nature }, pos: noun, plural: "-" }
+  - { target: de wandeling, native: { en: walk }, pos: noun, plural: wandelingen }
+  - { target: de fietstocht, native: { en: bike ride }, pos: noun, plural: fietstochten }
+  - { target: de picknick, native: { en: picnic }, pos: noun, plural: picknicks }
+  - { target: de rivier, native: { en: river }, pos: noun, plural: rivieren }
+  - { target: de boot, native: { en: boat }, pos: noun, plural: boten }
+  - { target: varen, native: { en: "to sail, to go by boat" }, pos: verb }
+  - { target: de haven, native: { en: "harbour, port" }, pos: noun, plural: havens }
+  - { target: het eiland, native: { en: island }, pos: noun, plural: eilanden }
+  - { target: klimmen, native: { en: to climb }, pos: verb }
+  - { target: kamperen, native: { en: to camp }, pos: verb }
+  - { target: het ijsje, native: { en: ice cream }, pos: noun, plural: ijsjes }
+  - { target: genieten, native: { en: to enjoy }, pos: verb }
+  - { target: spannend, native: { en: exciting }, pos: adjective }
+  - { target: avontuurlijk, native: { en: adventurous }, pos: adjective }
+sentences:
+  - { id: s01, target: "Er zijn veel activiteiten voor kinderen.", native: { en: "There are lots of activities for children." }, items: [nl.activiteit] }
+  - { id: s02, target: "Zaterdag zijn we naar een pretpark geweest.", native: { en: "On Saturday we went to a theme park." }, items: [nl.pretpark], acceptAlso: ["We zijn zaterdag naar een pretpark geweest."] }
+  - { id: s03, target: "Hoeveel kost de toegang?", native: { en: "How much is admission?" }, items: [nl.toegang] }
+  - { id: s04, target: "We wachten aan de ingang.", native: { en: "We'll wait at the entrance." }, items: [nl.ingang] }
+  - { id: s05, target: "Waar is de uitgang?", native: { en: "Where is the exit?" }, items: [nl.uitgang] }
+  - { id: s06, target: "Wat zijn de openingsuren van het museum?", native: { en: "What are the museum's opening hours?" }, items: [nl.openingsuren] }
+  - { id: s07, target: "In het weekend wandelen we graag in de natuur.", native: { en: "At the weekend we like walking in the countryside." }, items: [nl.natuur], acceptAlso: ["We wandelen in het weekend graag in de natuur."] }
+  - { id: s08, target: "Na de wandeling hadden we honger.", native: { en: "After the walk we were hungry." }, items: [nl.wandeling], acceptAlso: ["We hadden honger na de wandeling.", "We hadden na de wandeling honger."] }
+  - { id: s09, target: "We hebben een lange fietstocht gemaakt.", native: { en: "We went on a long bike ride." }, items: [nl.fietstocht] }
+  - { id: s10, target: "Als het mooi weer is, maken we een picknick.", native: { en: "If the weather is nice, we'll have a picnic." }, items: [nl.picknick], acceptAlso: ["We maken een picknick als het mooi weer is."] }
+  - { id: s11, target: "We fietsen langs de rivier.", native: { en: "We're cycling along the river." }, items: [nl.rivier] }
+  - { id: s12, target: "We zijn met de boot naar het eiland gevaren.", native: { en: "We went to the island by boat." }, items: [nl.boot, nl.varen, nl.eiland] }
+  - { id: s13, target: "De haven van Antwerpen is heel groot.", native: { en: "The port of Antwerp is very big." }, items: [nl.haven] }
+  - { id: s14, target: "De kinderen klimmen graag.", native: { en: "The children like climbing." }, items: [nl.klimmen] }
+  - { id: s15, target: "Vorige zomer hebben we in Frankrijk gekampeerd.", native: { en: "Last summer we went camping in France." }, items: [nl.kamperen], acceptAlso: ["We hebben vorige zomer in Frankrijk gekampeerd.", "In Frankrijk hebben we vorige zomer gekampeerd."] }
+  - { id: s16, target: "Mag ik een ijsje, alstublieft?", native: { en: "May I have an ice cream, please?" }, items: [nl.ijsje] }
+  - { id: s17, target: "We hebben van de dag genoten.", native: { en: "We enjoyed the day." }, items: [nl.genieten] }
+  - { id: s18, target: "De film was heel spannend.", native: { en: "The film was very exciting." }, items: [nl.spannend] }
+  - { id: s19, target: "Mijn broer is avontuurlijker dan ik.", native: { en: "My brother is more adventurous than me." }, items: [nl.avontuurlijk] }

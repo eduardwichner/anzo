@@ -1,0 +1,36 @@
+id: nl-b1-t01
+kind: reading
+title: { en: The repair café }
+topic: Living in the neighbourhood (a local newsletter)
+level: B1
+paragraphs:
+  - - { id: nl-b1-t01-s01, target: "Vorige maand ging de koffiemachine van Sofie kapot.", native: { en: "Last month Sofie's coffee machine broke down." } }
+    - { id: nl-b1-t01-s02, target: "Een nieuwe kopen vond ze te duur, en de oude weggooien vond ze zonde.", native: { en: "She thought buying a new one was too expensive, and throwing the old one away a waste." } }
+  - - { id: nl-b1-t01-s03, target: "Toen las ze in het stadsblad over het repaircafé in haar buurt.", native: { en: "Then she read in the local paper about the repair café in her neighbourhood." } }
+    - { id: nl-b1-t01-s04, target: "Elke eerste zaterdag van de maand helpen vrijwilligers daar gratis met herstellingen.", native: { en: "Every first Saturday of the month volunteers help with repairs there, free of charge." } }
+  - - { id: nl-b1-t01-s05, target: "Die zaterdag nam ze de machine mee naar het buurthuis.", native: { en: "That Saturday she took the machine to the community centre." } }
+    - { id: nl-b1-t01-s06, target: "Eerst moest ze even wachten, maar daarna ging een vrijwilliger met haar aan tafel zitten.", native: { en: "First she had to wait a little, but then a volunteer sat down at a table with her." } }
+    - { id: nl-b1-t01-s07, target: "Samen vonden ze het probleem: een kapot onderdeel van een paar euro.", native: { en: "Together they found the problem: a broken part that cost a few euros." } }
+    - { id: nl-b1-t01-s10, target: "Het onderdeel moest besteld worden.", native: { en: "The part had to be ordered." } }
+  - - { id: nl-b1-t01-s08, target: "Twee weken later werkte de machine weer.", native: { en: "Two weeks later the machine worked again." } }
+    - { id: nl-b1-t01-s09, target: "Sofie was zo blij dat ze nu zelf af en toe komt helpen.", native: { en: "Sofie was so pleased that she now helps out there herself from time to time." } }
+  - - { id: nl-b1-t01-s11, target: "Het repaircafé is open van tien tot vier uur. Iedereen is welkom.", native: { en: "The repair café is open from ten to four. Everyone is welcome." } }
+glossary:
+  - { word: stadsblad, native: { en: "local newspaper (from the town)" } }
+  - { word: repaircafé, native: { en: "repair café (volunteers repair things for free)" } }
+items: [nl.vrijwilliger, nl.buurthuis, nl.onderdeel, nl.weggooien]
+questions:
+  - { id: nl-b1-t01-q1, type: mc, question: "Waarom ging Sofie naar het repaircafé?", options: ["Ze wilde haar machine niet weggooien.", "Ze wilde een nieuwe machine kopen.", "Ze werkte er al als vrijwilliger."], correct: 0 }
+  - { id: nl-b1-t01-q2, type: true_false_notgiven, statement: "Het repaircafé is elke zaterdag open.", answer: false }
+  - { id: nl-b1-t01-q3, type: true_false_notgiven, statement: "De vrijwilligers vragen geld voor hun hulp.", answer: false }
+  - { id: nl-b1-t01-q4, type: true_false_notgiven, statement: "Het buurthuis ligt vlak bij het station.", answer: not_given }
+  - { id: nl-b1-t01-q5, type: match_heading, paragraph: 3, options: ["Een probleem thuis", "Samen aan tafel", "Een nieuwe hobby"], correct: 1 }
+listeningQuestions:
+  - { id: nl-b1-t01-l1, type: mc, question: "Wat was er kapot?", options: ["De koffiemachine.", "De wasmachine.", "De fiets."], correct: 0 }
+  - { id: nl-b1-t01-l2, type: true_false_notgiven, statement: "Sofie helpt nu zelf af en toe in het repaircafé.", answer: true }
+cloze:
+  - { sentence: nl-b1-t01-s01, word: ging, kind: finite_verb, hint: { en: "gaan (past)" } }
+  - { sentence: nl-b1-t01-s05, word: nam, kind: finite_verb, hint: { en: "nemen (past)" } }
+  - { sentence: nl-b1-t01-s07, word: onderdeel, hint: { en: "part (of a machine)" } }
+  - { sentence: nl-b1-t01-s08, word: werkte, kind: finite_verb, hint: { en: "werken (past)" } }
+orderable: true

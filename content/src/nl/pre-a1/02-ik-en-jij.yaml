@@ -1,0 +1,47 @@
+id: nl-pre-a1-u02
+title: { en: Me and you }
+icon: people
+topic: Personal pronouns, my / your, geen
+vocabulary:
+  - { target: ik, native: { en: I }, pos: pronoun }
+  - { target: mij, native: { en: me }, pos: pronoun, avoid: [nl.me] }
+  - { target: me, native: { en: "me (unstressed)" }, pos: pronoun }
+  - { target: jij, native: { en: "you (subject)" }, pos: pronoun, avoid: [nl.je, nl.u, nl.jou, nl.jullie] }
+  - { target: je, native: { en: "you (unstressed)" }, pos: pronoun, avoid: [nl.u, nl.jou, nl.jouw, nl.uw, nl.jullie] }
+  - { target: jou, native: { en: "you (object)" }, pos: pronoun, avoid: [nl.u, nl.jullie, nl.jouw] }
+  - { target: u, native: { en: "you (formal)" }, pos: pronoun }
+  - { target: hij, native: { en: he }, pos: pronoun }
+  - { target: hem, native: { en: him }, pos: pronoun }
+  - { target: zij, native: { en: "she, they" }, pos: pronoun, avoid: [nl.ze] }
+  - { target: ze, native: { en: "she, they (unstressed)" }, pos: pronoun }
+  - { target: wij, native: { en: we }, pos: pronoun, avoid: [nl.we] }
+  - { target: we, native: { en: "we (unstressed)" }, pos: pronoun }
+  - { target: jullie, native: { en: "you (plural)" }, pos: pronoun }
+  - { target: mijn, native: { en: my }, pos: determiner }
+  - { target: jouw, native: { en: your }, pos: determiner, avoid: [nl.uw] }
+  - { target: uw, native: { en: "your (formal)" }, pos: determiner }
+  - { target: geen, native: { en: "not a, not any" }, pos: determiner }
+  - { target: dit, native: { en: this }, pos: determiner, avoid: [nl.dat] }
+  - { target: dat, native: { en: that }, pos: determiner }
+  - { target: bellen, native: { en: "to call, to phone" }, pos: verb }
+sentences:
+  - { id: s01, target: "Ik ben Ahmed.", native: { en: "I'm Ahmed." }, items: [nl.ik] }
+  - { id: s02, target: "Hallo, ik ben het!", native: { en: "Hello, it's me!" }, items: [nl.ik] }
+  - { id: s03, target: "Bel mij!", native: { en: "Call me!" }, items: [nl.mij] }
+  - { id: s04, target: "Help me, alstublieft.", native: { en: "Help me, please." }, items: [nl.me] }
+  - { id: s05, target: "Ben jij Sara?", native: { en: "Are you Sara?" }, items: [nl.jij] }
+  - { id: s06, target: "Woon je in Leuven?", native: { en: "Do you live in Leuven?" }, items: [nl.je] }
+  - { id: s07, target: "Ik bel jou, niet hem.", native: { en: "I'm calling you, not him." }, items: [nl.jou, nl.bellen] }
+  - { id: s08, target: "Spreekt u Nederlands?", native: { en: "Do you speak Dutch?" }, items: [nl.u] }
+  - { id: s09, target: "Hij woont in Gent.", native: { en: "He lives in Ghent." }, items: [nl.hij] }
+  - { id: s10, target: "Ik bel hem.", native: { en: "I'll call him." }, items: [nl.hem] }
+  - { id: s11, target: "Zij komt uit Turkije.", native: { en: "She comes from Turkey." }, items: [nl.zij] }
+  - { id: s12, target: "Ze spreekt Engels.", native: { en: "She speaks English." }, items: [nl.ze] }
+  - { id: s13, target: "Wij wonen in Brugge.", native: { en: "We live in Bruges." }, items: [nl.wij] }
+  - { id: s14, target: "We leren Nederlands.", native: { en: "We are learning Dutch." }, items: [nl.we] }
+  - { id: s15, target: "Wonen jullie in Gent?", native: { en: "Do you all live in Ghent?" }, items: [nl.jullie] }
+  - { id: s16, target: "Dit is mijn vrouw.", native: { en: "This is my wife." }, items: [nl.mijn, nl.dit] }
+  - { id: s17, target: "Is dat jouw broer?", native: { en: "Is that your brother?" }, items: [nl.jouw, nl.dat] }
+  - { id: s18, target: "Wat is uw adres?", native: { en: "What's your address?" }, items: [nl.uw] }
+  - { id: s19, target: "Ik heb geen kinderen.", native: { en: "I don't have any children." }, items: [nl.geen] }
+  - { id: s20, target: "Zij hebben geen gsm.", native: { en: "They don't have a mobile phone." }, items: [nl.geen, nl.zij] }

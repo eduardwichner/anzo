@@ -1,0 +1,156 @@
+id: en-b1-u22
+title: { nl: Onderweg }
+icon: transport
+topic: Transport, roads, traffic and directions; modals of possibility (might, may, could, must be, can't be) and rules (must, mustn't)
+vocabulary:
+  - { target: transport, native: { nl: vervoer }, pos: noun, avoid: [en.public-transport] }
+  - { target: public transport, native: { nl: openbaar vervoer }, pos: noun }
+  - { target: service, native: { nl: dienst (verbinding) }, pos: noun, avoid: [en.connection] }
+  - { target: vehicle, native: { nl: voertuig }, pos: noun }
+  - { target: van, native: { nl: bestelwagen }, pos: noun }
+  - { target: cab, native: { nl: taxi }, pos: noun, noBlank: true }
+  - { target: tram, native: { nl: tram }, pos: noun }
+  - { target: underground, native: { nl: metro }, pos: noun }
+  - { target: rail, native: { nl: spoor (trein) }, pos: noun }
+  - { target: ferry, native: { nl: veerboot }, pos: noun }
+  - { target: aeroplane, native: { nl: vliegtuig }, pos: noun, avoid: [en.jet] }
+  - { target: jet, native: { nl: straalvliegtuig }, pos: noun }
+  - { target: motorcycle, native: { nl: motorfiets }, pos: noun }
+  - { target: scooter, native: { nl: scooter }, pos: noun }
+  - { target: cyclist, native: { nl: fietser }, pos: noun, avoid: [en.pedestrian] }
+  - { target: pedestrian, native: { nl: voetganger }, pos: noun }
+  - { target: handlebars, native: { nl: stuur (van een fiets) }, pos: noun }
+  - { target: brake, native: { nl: rem }, pos: noun }
+  - { target: windscreen, native: { nl: voorruit }, pos: noun }
+  - { target: seat belt, native: { nl: veiligheidsgordel }, pos: noun }
+  - { target: fasten, native: { nl: vastmaken }, pos: verb }
+  - { target: fuel, native: { nl: brandstof }, pos: noun }
+  - { target: petrol, native: { nl: benzine }, pos: noun }
+  - { target: petrol station, native: { nl: tankstation }, pos: noun }
+  - { target: pump, native: { nl: pomp }, pos: noun }
+  - { target: fill up, native: { nl: voltanken (vullen) }, pos: phrase }
+  - { target: driving licence, native: { nl: rijbewijs }, pos: noun }
+  - { target: licence, native: { nl: vergunning }, pos: noun }
+  - { target: fare, native: { nl: ritprijs }, pos: noun }
+  - { target: on time, native: { nl: op tijd }, pos: phrase, avoid: [en.in-time] }
+  - { target: on foot, native: { nl: te voet }, pos: phrase }
+  - { target: hitchhike, native: { nl: liften }, pos: verb }
+  - { target: get in, native: { nl: binnenkomen (instappen) }, pos: phrase }
+  - { target: onto, native: { nl: op (naar boven op) }, pos: preposition }
+  - { target: route, native: { nl: route }, pos: noun }
+  - { target: direction, native: { nl: richting }, pos: noun }
+  - { target: direct, native: { nl: direct (rechtstreeks) }, pos: adjective }
+  - { target: directly, native: { nl: rechtstreeks }, pos: adverb }
+  - { target: distance, native: { nl: afstand }, pos: noun }
+  - { target: furthest, native: { nl: verst }, pos: adjective }
+  - { target: reach, native: { nl: bereiken (aankomen bij) }, pos: verb }
+  - { target: approach, native: { nl: naderen }, pos: verb }
+  - { target: ahead, native: { nl: verderop (voor ons) }, pos: adverb, avoid: [en.forward] }
+  - { target: forward, native: { nl: "naar voren, vooruit" }, pos: adverb, avoid: [en.backwards] }
+  - { target: backwards, native: { nl: achteruit }, pos: adverb }
+  - { target: towards, native: { nl: "naar … toe" }, pos: preposition }
+  - { target: step forward, native: { nl: naar voren stappen }, pos: phrase }
+  - { target: step over, native: { nl: over iets heen stappen }, pos: phrase }
+  - { target: left-hand, native: { nl: linker- }, pos: adjective, avoid: [en.right-hand], noBlank: true }
+  - { target: right-hand, native: { nl: rechter- }, pos: adjective, noBlank: true }
+  - { target: turning, native: { nl: afslag (zijstraat) }, pos: noun }
+  - { target: crossroads, native: { nl: kruispunt }, pos: noun }
+  - { target: roundabout, native: { nl: rotonde }, pos: noun }
+  - { target: crossing, native: { nl: oversteekplaats }, pos: noun }
+  - { target: traffic light, native: { nl: verkeerslicht }, pos: noun }
+  - { target: traffic jam, native: { nl: file }, pos: noun }
+  - { target: give way, native: { nl: voorrang geven }, pos: phrase }
+  - { target: pass, native: { nl: voorbijgaan (passeren) }, pos: verb }
+  - { target: speed, native: { nl: snelheid }, pos: noun }
+  - { target: limit, native: { nl: limiet (grens) }, pos: noun, avoid: [en.border] }
+  - { target: sign, native: { nl: bord }, pos: noun }
+  - { target: signpost, native: { nl: wegwijzer }, pos: noun }
+  - { target: signal, native: { nl: signaal }, pos: noun }
+  - { target: pavement, native: { nl: stoep }, pos: noun }
+  - { target: tunnel, native: { nl: tunnel }, pos: noun }
+  - { target: parking, native: { nl: parkeren }, pos: noun }
+  - { target: rough, native: { nl: ruw (hobbelig) }, pos: adjective, avoid: [en.smooth] }
+  - { target: smooth, native: { nl: "effen, glad (niet hobbelig)" }, pos: adjective, avoid: [en.icy] }
+  - { target: convenient, native: { nl: handig (gelegen) }, pos: adjective }
+  - { target: safely, native: { nl: veilig (bijwoord) }, pos: adverb }
+  - { target: crash, native: { nl: botsing }, pos: noun }
+  - { target: knock down, native: { nl: aanrijden (omverrijden) }, pos: phrase }
+  - { target: break down, native: { nl: pech krijgen (kapotgaan) }, pos: phrase }
+  - { target: hold up, native: { nl: ophouden (vertragen) }, pos: phrase }
+sentences:
+  - { id: s01, target: "What's the best form of transport in the city?", native: { nl: "Wat is het beste vervoermiddel in de stad?" }, items: [en.transport] }
+  - { id: s02, target: "We use public transport every day.", native: { nl: "We gebruiken elke dag het openbaar vervoer." }, items: [en.public-transport], acceptAlso: ["Every day we use public transport."] }
+  - { id: s03, target: "There's a bus service every twenty minutes.", native: { nl: "Er rijdt elke twintig minuten een bus." }, items: [en.service] }
+  - { id: s04, target: "No vehicles are allowed in the town centre.", native: { nl: "Er zijn geen voertuigen toegestaan in het stadscentrum." }, items: [en.vehicle] }
+  - { id: s05, target: "The men put the furniture in a van.", native: { nl: "De mannen zetten de meubels in een bestelwagen." }, items: [en.van] }
+  - { id: s06, target: "Let's take a cab to the station.", native: { nl: "Laten we een taxi naar het station nemen." }, items: [en.cab] }
+  - { id: s07, target: "You can get to the museum by tram.", native: { nl: "Je kunt met de tram naar het museum." }, items: [en.tram] }
+  - { id: s08, target: "The London Underground is very old.", native: { nl: "De Londense metro is heel oud." }, items: [en.underground] }
+  - { id: s09, target: "It's cheaper to travel by rail.", native: { nl: "Het is goedkoper om met de trein te reizen." }, items: [en.rail] }
+  - { id: s10, target: "We took the ferry from Dover.", native: { nl: "We namen de veerboot vanuit Dover." }, items: [en.ferry] }
+  - { id: s11, target: "The children made paper aeroplanes.", native: { nl: "De kinderen maakten papieren vliegtuigjes." }, items: [en.aeroplane] }
+  - { id: s12, target: "A jet flew low over the town.", native: { nl: "Een straalvliegtuig vloog laag over de stad." }, items: [en.jet] }
+  - { id: s13, target: "My uncle rides a big red motorcycle.", native: { nl: "Mijn oom rijdt op een grote rode motorfiets." }, items: [en.motorcycle] }
+  - { id: s14, target: "She goes to work on an electric scooter.", native: { nl: "Ze gaat op een elektrische scooter naar haar werk." }, items: [en.scooter] }
+  - { id: s15, target: "There are more and more cyclists in the city.", native: { nl: "Er zijn steeds meer fietsers in de stad." }, items: [en.cyclist] }
+  - { id: s16, target: "This street is only for pedestrians.", native: { nl: "Deze straat is alleen voor voetgangers." }, items: [en.pedestrian] }
+  - { id: s17, target: "Hold the handlebars with both hands.", native: { nl: "Houd het stuur met beide handen vast." }, items: [en.handlebars] }
+  - { id: s18, target: "The brakes on my bike don't work.", native: { nl: "De remmen van mijn fiets werken niet." }, items: [en.brake] }
+  - { id: s19, target: "A stone hit the windscreen.", native: { nl: "Een steen raakte de voorruit." }, items: [en.windscreen] }
+  - { id: s20, target: "Please fasten your seat belts.", native: { nl: "Doe alstublieft uw veiligheidsgordel om." }, items: [en.fasten, en.seat-belt] }
+  - { id: s21, target: "The car is running out of fuel.", native: { nl: "De auto heeft bijna geen brandstof meer." }, items: [en.fuel] }
+  - { id: s22, target: "Petrol is very expensive at the moment.", native: { nl: "Benzine is op dit moment heel duur." }, items: [en.petrol], acceptAlso: ["At the moment petrol is very expensive."] }
+  - { id: s23, target: "We stopped at a petrol station on the motorway.", native: { nl: "We stopten bij een tankstation op de snelweg." }, items: [en.petrol-station] }
+  - { id: s24, target: "I need a pump for my bike tyres.", native: { nl: "Ik heb een pomp nodig voor mijn fietsbanden." }, items: [en.pump] }
+  - { id: s25, target: "Dad filled up the car before the trip.", native: { nl: "Papa tankte de auto vol voor de reis." }, items: [en.fill-up] }
+  - { id: s26, target: "You can get a driving licence when you're eighteen.", native: { nl: "Je kunt een rijbewijs halen als je achttien bent." }, items: [en.driving-licence], acceptAlso: ["When you're eighteen you can get a driving licence."] }
+  - { id: s27, target: "You need a licence to fish in this river.", native: { nl: "Je hebt een vergunning nodig om in deze rivier te vissen." }, items: [en.licence] }
+  - { id: s28, target: "The return fare to London is twenty-six pounds.", native: { nl: "Een retourtje naar Londen kost zesentwintig pond." }, items: [en.fare] }
+  - { id: s29, target: "Trains in Switzerland are always on time.", native: { nl: "Treinen in Zwitserland zijn altijd op tijd." }, items: [en.on-time] }
+  - { id: s30, target: "It's quicker to go on foot.", native: { nl: "Het is sneller om te voet te gaan." }, items: [en.on-foot] }
+  - { id: s31, target: "It isn't safe to hitchhike.", native: { nl: "Het is niet veilig om te liften." }, items: [en.hitchhike] }
+  - { id: s32, target: "We couldn't get in because the door was locked.", native: { nl: "We konden niet binnen omdat de deur op slot was." }, items: [en.get-in], finite: { word: was, hint: { nl: "be (verleden tijd: … locked)" } } }
+  - { id: s33, target: "The cat jumped onto the table.", native: { nl: "De kat sprong op de tafel." }, items: [en.onto] }
+  - { id: s34, target: "Which route is the shortest?", native: { nl: "Welke route is de kortste?" }, items: [en.route] }
+  - { id: s35, target: "Are we going in the right direction?", native: { nl: "Gaan we in de goede richting?" }, items: [en.direction] }
+  - { id: s36, target: "Is there a direct train to Edinburgh?", native: { nl: "Is er een rechtstreekse trein naar Edinburgh?" }, items: [en.direct] }
+  - { id: s37, target: "This bus goes directly to the airport.", native: { nl: "Deze bus gaat rechtstreeks naar de luchthaven." }, items: [en.directly] }
+  - { id: s38, target: "What's the distance from here to the coast?", native: { nl: "Wat is de afstand van hier naar de kust?" }, items: [en.distance] }
+  - { id: s39, target: "Which planet is furthest from the sun?", native: { nl: "Welke planeet staat het verst van de zon?" }, items: [en.furthest] }
+  - { id: s40, target: "We reached the top of the hill at noon.", native: { nl: "We bereikten de top van de heuvel om twaalf uur 's middags." }, items: [en.reach], acceptAlso: ["At noon we reached the top of the hill."] }
+  - { id: s41, target: "The train is now approaching the station.", native: { nl: "De trein nadert nu het station." }, items: [en.approach] }
+  - { id: s42, target: "There's a traffic jam ahead.", native: { nl: "Er staat verderop een file." }, items: [en.ahead, en.traffic-jam] }
+  - { id: s43, target: "Move forward a little, please.", native: { nl: "Ga een beetje naar voren, alsjeblieft." }, items: [en.forward], acceptAlso: ["Please move forward a little."] }
+  - { id: s44, target: "He walked backwards into the room.", native: { nl: "Hij liep achteruit de kamer in." }, items: [en.backwards] }
+  - { id: s45, target: "A big dog ran towards us.", native: { nl: "Een grote hond rende naar ons toe." }, items: [en.towards] }
+  - { id: s46, target: "Please step forward when your name is called.", native: { nl: "Stap alsjeblieft naar voren als je naam wordt genoemd." }, items: [en.step-forward] }
+  - { id: s47, target: "Step over the bags on the floor, please.", native: { nl: "Stap alsjeblieft over de tassen op de vloer." }, items: [en.step-over], acceptAlso: ["Please step over the bags on the floor."] }
+  - { id: s48, target: "Take the left-hand turning at the end of the street.", native: { nl: "Neem aan het eind van de straat de afslag links." }, items: [en.left-hand] }
+  - { id: s49, target: "In Britain, the driver sits on the right-hand side of the car.", native: { nl: "In Groot-Brittannië zit de bestuurder aan de rechterkant van de auto." }, items: [en.right-hand], acceptAlso: ["The driver sits on the right-hand side of the car in Britain."] }
+  - { id: s50, target: "Take the first turning on the left.", native: { nl: "Neem de eerste afslag links." }, items: [en.turning] }
+  - { id: s51, target: "Turn right at the crossroads.", native: { nl: "Sla rechtsaf bij het kruispunt." }, items: [en.crossroads] }
+  - { id: s52, target: "At the roundabout, take the second exit.", native: { nl: "Neem op de rotonde de tweede afslag." }, items: [en.roundabout], acceptAlso: ["Take the second exit at the roundabout."] }
+  - { id: s53, target: "Cross the road at the crossing.", native: { nl: "Steek de weg over bij de oversteekplaats." }, items: [en.crossing] }
+  - { id: s54, target: "Wait until the traffic light is green.", native: { nl: "Wacht tot het verkeerslicht groen is." }, items: [en.traffic-light] }
+  - { id: s55, target: "We were stuck in a traffic jam for an hour.", native: { nl: "We stonden een uur in de file." }, items: [en.traffic-jam] }
+  - { id: s56, target: "You must give way to traffic on the roundabout.", native: { nl: "Je moet voorrang geven aan verkeer op de rotonde." }, items: [en.give-way] }
+  - { id: s57, target: "Several cars passed us on the narrow road.", native: { nl: "Verschillende auto's haalden ons in op de smalle weg." }, items: [en.pass] }
+  - { id: s58, target: "The train travels at a speed of 300 kilometres an hour.", native: { nl: "De trein rijdt met een snelheid van 300 kilometer per uur." }, items: [en.speed] }
+  - { id: s59, target: "The speed limit here is thirty miles an hour.", native: { nl: "De maximumsnelheid hier is dertig mijl per uur." }, items: [en.limit] }
+  - { id: s60, target: "The sign says 'No parking'.", native: { nl: "Op het bord staat 'Niet parkeren'." }, items: [en.sign, en.parking] }
+  - { id: s61, target: "Follow the signposts to the castle.", native: { nl: "Volg de wegwijzers naar het kasteel." }, items: [en.signpost] }
+  - { id: s62, target: "There's no signal on my phone in the tunnel.", native: { nl: "Ik heb geen bereik op mijn telefoon in de tunnel." }, items: [en.signal, en.tunnel] }
+  - { id: s63, target: "Don't ride your bike on the pavement.", native: { nl: "Fiets niet op de stoep." }, items: [en.pavement] }
+  - { id: s64, target: "The road through the forest is very rough.", native: { nl: "De weg door het bos is heel hobbelig." }, items: [en.rough] }
+  - { id: s65, target: "The new road is wide and smooth.", native: { nl: "De nieuwe weg is breed en vlak." }, items: [en.smooth] }
+  - { id: s66, target: "The hotel is in a convenient place near the station.", native: { nl: "Het hotel ligt handig vlak bij het station." }, items: [en.convenient] }
+  - { id: s67, target: "Text me when you've arrived safely.", native: { nl: "Stuur me een berichtje als je veilig bent aangekomen." }, items: [en.safely] }
+  - { id: s68, target: "Nobody was hurt in the crash.", native: { nl: "Niemand raakte gewond bij de botsing." }, items: [en.crash] }
+  - { id: s69, target: "He was knocked down by a car, but he's all right.", native: { nl: "Hij werd aangereden door een auto, maar het gaat goed met hem." }, items: [en.knock-down] }
+  - { id: s70, target: "Our car broke down on the way to the beach.", native: { nl: "Onze auto kreeg pech op weg naar het strand." }, items: [en.break-down] }
+  - { id: s71, target: "Sorry I'm late. I was held up in traffic.", native: { nl: "Sorry dat ik laat ben. Ik zat vast in het verkeer." }, items: [en.hold-up] }
+  - { id: s72, target: "The bus service is late. It might be stuck in traffic.", native: { nl: "De busdienst is laat. Misschien staat de bus vast in het verkeer." }, items: [en.service] }
+  - { id: s73, target: "That can't be our train: it's going in the wrong direction.", native: { nl: "Dat kan onze trein niet zijn: hij rijdt in de verkeerde richting." }, items: [en.direction] }
+  - { id: s74, target: "You're too young to get a driving licence.", native: { nl: "Je bent te jong om een rijbewijs te halen." }, items: [en.driving-licence] }
+  - { id: s75, target: "She's old enough to ride a scooter.", native: { nl: "Ze is oud genoeg om met een scooter te rijden." }, items: [en.scooter], build: true }
+texts: [en-b1-t23]

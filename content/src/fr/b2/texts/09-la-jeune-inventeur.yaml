@@ -1,0 +1,48 @@
+id: fr-b2-t09
+kind: reading
+title: { nl: De jonge uitvinder, en: "The young inventor" }
+topic: Sciences et technologies (un portrait dans un magazine scientifique pour adolescents)
+level: B2
+paragraphs:
+  - - { id: fr-b2-t09-s01, target: "Quand Camille avait quatorze ans, sa grand-mère est tombée chez elle et n'a pas pu atteindre le téléphone.", native: { nl: "Toen Camille veertien was, viel haar oma thuis en kon ze niet bij de telefoon.", en: "When Camille was fourteen, her grandmother fell at home and couldn't reach the phone." } }
+    - { id: fr-b2-t09-s02, target: "Elle est restée par terre dans la cuisine pendant trois heures avant qu'un voisin la trouve.", native: { nl: "Ze bleef drie uur op de keukenvloer liggen voor een buurman haar vond.", en: "She lay on the kitchen floor for three hours before a neighbour found her." } }
+    - { id: fr-b2-t09-s03, target: "« Cet après-midi-là, j'ai décidé que cela ne devait plus jamais arriver », raconte Camille, qui a aujourd'hui dix-sept ans.", native: { nl: "\"Die middag besloot ik dat het nooit meer mocht gebeuren,\" vertelt Camille, die nu zeventien is.", en: "\"That afternoon, I decided it must never happen again,\" says Camille, who is now seventeen." } }
+  - - { id: fr-b2-t09-s04, target: "Sa solution est étonnamment simple.", native: { nl: "Haar oplossing is verrassend eenvoudig.", en: "Her solution is surprisingly simple." } }
+    - { id: fr-b2-t09-s05, target: "Elle a conçu un petit appareil sans fil qu'on porte au poignet comme une montre.", native: { nl: "Ze ontwierp een klein draadloos toestel dat je om je pols draagt zoals een horloge.", en: "She designed a small wireless device that you wear on your wrist like a watch." } }
+    - { id: fr-b2-t09-s06, target: "Si la personne qui le porte tombe et reste par terre pendant une minute, un message est envoyé à trois membres de sa famille.", native: { nl: "Als de persoon die het draagt valt en een minuut op de grond blijft liggen, wordt er een bericht gestuurd naar drie familieleden.", en: "If the person wearing it falls and stays on the floor for a minute, a message is sent to three members of their family." } }
+  - - { id: fr-b2-t09-s07, target: "Construire l'appareil a été plus difficile que prévu.", native: { nl: "Het bouwen was moeilijker dan verwacht.", en: "Building the device was harder than expected." } }
+    - { id: fr-b2-t09-s08, target: "Son premier prototype était si grand qu'il fallait le porter dans un sac, et la batterie était vide après deux heures.", native: { nl: "Haar eerste prototype was zo groot dat het in een tas moest worden gedragen, en de batterij was na twee uur leeg.", en: "Her first prototype was so big that it had to be carried in a bag, and the battery was flat after two hours." } }
+    - { id: fr-b2-t09-s09, target: "Il lui a fallu un an de soirées et de week-ends, et l'aide d'un ingénieur d'une entreprise de la région, pour le rendre assez petit.", native: { nl: "Ze had een jaar lang avonden en weekends nodig, en de hulp van een ingenieur van een bedrijf uit de streek, om het klein genoeg te maken.", en: "It took her a year of evenings and weekends, and the help of an engineer from a local company, to make it small enough." } }
+  - - { id: fr-b2-t09-s10, target: "Aujourd'hui, son invention est testée par cinquante personnes âgées de sa ville.", native: { nl: "Vandaag wordt haar uitvinding getest door vijftig ouderen in haar stad.", en: "Today her invention is being tested by fifty elderly people in her town." } }
+    - { id: fr-b2-t09-s11, target: "Les premiers résultats sont bons : l'appareil a déjà appelé à l'aide quatre fois, et chaque fois, la personne a été retrouvée en moins de vingt minutes.", native: { nl: "De eerste resultaten zijn goed: het toestel heeft al vier keer om hulp geroepen, en elke keer werd de persoon binnen twintig minuten gevonden.", en: "The first results are good: the device has already called for help four times, and each time the person was found in less than twenty minutes." } }
+    - { id: fr-b2-t09-s12, target: "Camille a demandé un brevet, et deux entreprises veulent déjà travailler avec elle.", native: { nl: "Camille heeft een octrooi aangevraagd, en twee bedrijven willen al met haar samenwerken.", en: "Camille has applied for a patent, and two companies already want to work with her." } }
+  - - { id: fr-b2-t09-s13, target: "Veut-elle faire des études d'ingénieur ?", native: { nl: "Wil ze ingenieur studeren?", en: "Does she want to study engineering?" } }
+    - { id: fr-b2-t09-s14, target: "« Peut-être, dit-elle. Mais j'ai appris que les meilleures inventions ne commencent pas par la technologie. Elles commencent par un problème qui compte pour toi. »", native: { nl: "\"Misschien,\" zegt ze. \"Maar ik heb geleerd dat de beste uitvindingen niet met technologie beginnen. Ze beginnen met een probleem dat voor jou belangrijk is.\"", en: "\"Maybe,\" she says. \"But I've learnt that the best inventions don't start with technology. They start with a problem that matters to you.\"" } }
+glossary:
+  - { word: poignet, native: { nl: pols, en: "wrist" } }
+  - { word: étonnamment, native: { nl: "verrassend, verbazend (étonnant)", en: "surprisingly, astonishingly (étonnant)" } }
+items: [fr.concevoir, fr.sans-fil, fr.prototype, fr.invention, fr.tester, fr.brevet]
+gapped:
+  gaps: [fr-b2-t09-s04, fr-b2-t09-s07, fr-b2-t09-s10, fr-b2-t09-s13]
+  extra:
+    - { id: fr-b2-t09-x1, target: "Ses parents lui ont acheté son premier ordinateur à douze ans.", native: { nl: "Haar ouders kochten haar eerste computer toen ze twaalf was.", en: "Her parents bought her first computer for her when she was twelve." } }
+openCloze:
+  - { sentence: fr-b2-t09-s02, word: avant }
+  - { sentence: fr-b2-t09-s06, word: Si, acceptAlso: [Quand, Lorsque] }
+  - { sentence: fr-b2-t09-s05, word: comme }
+  - { sentence: fr-b2-t09-s11, word: moins }
+wordForm:
+  - { sentence: fr-b2-t09-s04, word: étonnamment, stem: étonnant }
+  - { sentence: fr-b2-t09-s10, word: invention, stem: inventer }
+  - { sentence: fr-b2-t09-s12, word: travailler, stem: travail }
+questions:
+  - { id: fr-b2-t09-q1, type: summary, options: ["Après la chute de sa grand-mère, une adolescente a conçu un petit appareil qui appelle à l'aide, et il est maintenant testé dans sa ville.", "Une adolescente a acheté une montre pour sa grand-mère, qui ne sait pas utiliser le téléphone.", "Une entreprise de la région a conçu un appareil pour les personnes âgées et l'a vendu à Camille."], correct: 0 }
+  - { id: fr-b2-t09-q2, type: mc, question: "Pourquoi le premier prototype n'était-il pas pratique ?", options: ["Il était trop grand et la batterie était vite vide.", "Il était trop cher.", "Il n'envoyait pas de messages."], correct: 0 }
+  - { id: fr-b2-t09-q3, type: true_false_notgiven, statement: "L'appareil envoie un message à un voisin.", answer: false }
+  - { id: fr-b2-t09-q4, type: true_false_notgiven, statement: "L'appareil envoie un message dès que la personne tombe.", answer: false }
+  - { id: fr-b2-t09-q5, type: true_false_notgiven, statement: "La grand-mère de Camille porte maintenant l'appareil.", answer: not_given }
+  - { id: fr-b2-t09-q6, type: match_heading, paragraph: 4, options: ["Les premiers résultats", "Un problème de batterie", "Ce qui s'est passé un après-midi"], correct: 0 }
+listeningQuestions:
+  - { id: fr-b2-t09-l1, type: complete, statement: "Le message est envoyé à trois ___ de sa famille.", answers: ["membres"] }
+  - { id: fr-b2-t09-l2, type: mc, question: "Combien de personnes testent l'appareil aujourd'hui ?", options: ["Cinquante.", "Quinze.", "Cinq."], correct: 0 }
+orderable: false

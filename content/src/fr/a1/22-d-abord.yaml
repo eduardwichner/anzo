@@ -1,0 +1,33 @@
+id: fr-a1-u22
+title: { nl: Eerst en dan, en: "First, then, finally" }
+icon: questions
+topic: Raconter dans l'ordre; dire souvent ou jamais
+vocabulary:
+  - { target: "d'abord", native: { nl: eerst, en: "first of all, at first" }, pos: adverb }
+  - { target: ensuite, native: { nl: "daarna, vervolgens", en: "then, next" }, pos: adverb, avoid: [fr.alors] }
+  - { target: puis, native: { nl: "dan, toen", en: "then" }, pos: adverb, avoid: [fr.ensuite, fr.alors] }
+  - { target: enfin, native: { nl: "ten slotte, eindelijk", en: "finally, at last" }, pos: adverb }
+  - { target: alors, native: { nl: "dus, dan", en: "so, then" }, pos: adverb }
+  - { target: donc, native: { nl: dus, en: "so, therefore" }, pos: conjunction }
+  - { target: mais, native: { nl: maar, en: "but" }, pos: conjunction }
+  - { target: parce que, native: { nl: "omdat, want", en: "because" }, pos: conjunction }
+  - { target: toujours, native: { nl: altijd, en: "always" }, pos: adverb }
+  - { target: jamais, native: { nl: nooit, en: "never" }, pos: adverb }
+  - { target: souvent, native: { nl: vaak, en: "often" }, pos: adverb }
+  - { target: parfois, native: { nl: soms, en: "sometimes" }, pos: adverb }
+sentences:
+  - { id: s01, target: "D'abord, je mange. Ensuite, je fais mes devoirs.", native: { nl: "Eerst eet ik. Daarna maak ik mijn huiswerk.", en: "First I eat. Then I do my homework." }, items: [fr.d-abord, fr.ensuite] }
+  - { id: s02, target: "Lis d'abord les questions.", native: { nl: "Lees eerst de vragen.", en: "Read the questions first." }, items: [fr.d-abord] }
+  - { id: s03, target: "Je me lève, puis je m'habille.", native: { nl: "Ik sta op en dan kleed ik me aan.", en: "I get up, then I get dressed." }, items: [fr.puis] }
+  - { id: s04, target: "Enfin, les vacances !", native: { nl: "Eindelijk vakantie!", en: "At last, the holidays!" }, items: [fr.enfin] }
+  - { id: s05, target: "Il pleut, alors je fais des crêpes.", native: { nl: "Het regent, dus bak ik pannenkoeken.", en: "It's raining, so I'm making pancakes." }, items: [fr.alors] }
+  - { id: s06, target: "Il fait froid, donc je prends mon manteau.", native: { nl: "Het is koud, dus neem ik mijn jas mee.", en: "It's cold, so I'm taking my coat." }, items: [fr.donc] }
+  - { id: s07, target: "J'aime la piscine, mais je n'aime pas la danse.", native: { nl: "Ik hou van het zwembad, maar niet van dansen.", en: "I like the swimming pool, but I don't like dancing." }, items: [fr.mais] }
+  - { id: s08, target: "J'aime l'été parce que je joue au parc.", native: { nl: "Ik hou van de zomer, omdat ik dan in het park speel.", en: "I like summer because I play in the park." }, items: [fr.parce-que] }
+  - { id: s09, target: "Je prends toujours le bus.", native: { nl: "Ik neem altijd de bus.", en: "I always take the bus." }, items: [fr.toujours] }
+  - { id: s10, target: "Je ne regarde jamais la télévision.", native: { nl: "Ik kijk nooit televisie.", en: "I never watch television." }, items: [fr.jamais] }
+  - { id: s11, target: "Je vais souvent à la bibliothèque.", native: { nl: "Ik ga vaak naar de bibliotheek.", en: "I often go to the library." }, items: [fr.souvent] }
+  - { id: s12, target: "Parfois, je joue avec mon voisin.", native: { nl: "Soms speel ik met mijn buurjongen.", en: "Sometimes I play with my neighbour." }, items: [fr.parfois] }
+lessons:
+  - { id: l01, title: { nl: "Eerst, dan, daarna", en: "First, then, next" }, vocab: [fr.d-abord, fr.ensuite, fr.puis, fr.enfin, fr.alors, fr.donc] }
+  - { id: l02, title: { nl: Altijd of nooit, en: "Always or never" }, vocab: [fr.mais, fr.parce-que, fr.toujours, fr.jamais, fr.souvent, fr.parfois] }

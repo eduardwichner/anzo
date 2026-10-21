@@ -1,0 +1,40 @@
+id: fr-a2-u30
+title: { nl: Kleine woordjes, en: "Little words" }
+icon: questions
+topic: Les petits mots
+vocabulary:
+  - { target: avoir besoin de, native: { nl: nodig hebben, en: "to need" }, pos: phrase }
+  - { target: avoir envie de, native: { nl: zin hebben in, en: "to feel like, to want" }, pos: phrase }
+  - { target: presque, native: { nl: bijna, en: "almost, nearly" }, pos: adverb }
+  - { target: vraiment, native: { nl: echt, en: "really, truly" }, pos: adverb, avoid: [fr.vrai] }
+  - { target: seulement, native: { nl: "alleen maar, slechts", en: "only, just" }, pos: adverb }
+  - { target: peu, native: { nl: weinig, en: "few, not much, not many" }, pos: adverb }
+  - { target: peut-être, native: { nl: misschien, en: "maybe, perhaps" }, pos: adverb }
+  - { target: chacun, native: { nl: "iedereen, ieder", en: "each one, everyone" }, pos: pronoun }
+  - { target: eux, native: { nl: "hen, zij (meervoud, met nadruk)", en: "them (stressed)" }, pos: pronoun }
+  - { target: sans, native: { nl: zonder, en: "without" }, pos: preposition }
+  - { target: contre, native: { nl: tegen, en: "against" }, pos: preposition }
+  - { target: vers, native: { nl: "naar ... toe, rond (tijd)", en: "towards, around (a time)" }, pos: preposition }
+  - { target: la chance, native: { nl: het geluk, en: "luck" }, pos: noun, gender: f }
+  - { id: fr.attention, target: attention, native: { nl: "let op!, pas op!", en: "careful, watch out" }, pos: exclamation }
+  - { target: bon week-end, native: { nl: fijn weekend, en: "have a nice weekend" }, pos: exclamation }
+sentences:
+  - { id: s01, target: "J'ai besoin de mon livre de géographie.", native: { nl: "Ik heb mijn aardrijkskundeboek nodig.", en: "I need my geography book." }, items: [fr.avoir-besoin-de] }
+  - { id: s02, target: "Vous n'avez pas besoin d'apporter votre cahier.", native: { nl: "Jullie hoeven jullie schrift niet mee te nemen.", en: "You don't need to bring your exercise book." }, items: [fr.avoir-besoin-de] }
+  - { id: s03, target: "J'ai envie de manger une glace.", native: { nl: "Ik heb zin in een ijsje.", en: "I feel like eating an ice cream." }, items: [fr.avoir-envie-de] }
+  - { id: s04, target: "J'ai presque fini mes devoirs.", native: { nl: "Ik ben bijna klaar met mijn huiswerk.", en: "I've almost finished my homework." }, items: [fr.presque] }
+  - { id: s05, target: "Ton dessin est vraiment beau.", native: { nl: "Je tekening is echt mooi.", en: "Your drawing is really beautiful." }, items: [fr.vraiment] }
+  - { id: s06, target: "J'ai seulement deux euros.", native: { nl: "Ik heb maar twee euro.", en: "I only have two euros." }, items: [fr.seulement] }
+  - { id: s07, target: "Il y a peu d'élèves aujourd'hui.", native: { nl: "Er zijn vandaag weinig leerlingen.", en: "There aren't many pupils today." }, items: [fr.peu] }
+  - { id: s08, target: "Peut-être qu'il va pleuvoir.", native: { nl: "Misschien gaat het regenen.", en: "Maybe it's going to rain." }, items: [fr.peut-etre] }
+  - { id: s09, target: "Chacun prend un crayon.", native: { nl: "Iedereen pakt een potlood.", en: "Everyone takes a pencil." }, items: [fr.chacun] }
+  - { id: s10, target: "Mes cousins sont là, je joue avec eux.", native: { nl: "Mijn neven zijn er, ik speel met hen.", en: "My cousins are here, so I'm playing with them." }, items: [fr.eux] }
+  - { id: s11, target: "Je ne pars jamais sans mon sac.", native: { nl: "Ik ga nooit weg zonder mijn tas.", en: "I never leave without my bag." }, items: [fr.sans] }
+  - { id: s12, target: "Mon vélo est contre le mur.", native: { nl: "Mijn fiets staat tegen de muur.", en: "My bike is against the wall." }, items: [fr.contre] }
+  - { id: s13, target: "Le chien court vers moi.", native: { nl: "De hond rent naar me toe.", en: "The dog is running towards me." }, items: [fr.vers] }
+  - { id: s14, target: "Tu as de la chance !", native: { nl: "Jij boft!", en: "You're lucky!" }, items: [fr.chance] }
+  - { id: s15, target: "Attention, la route est dangereuse !", native: { nl: "Let op, de weg is gevaarlijk!", en: "Careful, the road is dangerous!" }, items: [fr.attention] }
+  - { id: s16, target: "Merci et bon week-end !", native: { nl: "Bedankt en fijn weekend!", en: "Thank you and have a nice weekend!" }, items: [fr.bon-week-end] }
+lessons:
+  - { id: l01, title: { nl: Bijna!, en: "Almost!" }, vocab: [fr.avoir-besoin-de, fr.avoir-envie-de, fr.presque, fr.vraiment, fr.seulement, fr.peu, fr.peut-etre, fr.chacun] }
+  - { id: l02, title: { nl: Zonder en tegen, en: "Without and against" }, vocab: [fr.eux, fr.sans, fr.contre, fr.vers, fr.chance, fr.attention, fr.bon-week-end] }

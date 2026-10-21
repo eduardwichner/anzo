@@ -1,0 +1,49 @@
+id: fr-a1-1-u16
+title: { nl: Wat doe je graag?, en: "What do you like doing?" }
+icon: actions
+topic: Exprimer ses goûts; les actions de tous les jours
+vocabulary:
+  - { target: aimer, native: { nl: "houden van, leuk vinden", en: "to like, to love" }, pos: verb }
+  - { target: adorer, native: { nl: dol zijn op, en: "to adore, to love" }, pos: verb }
+  - { target: préférer, native: { nl: "liever hebben, het leukst vinden", en: "to prefer" }, pos: verb }
+  - { target: beaucoup, native: { nl: "veel, heel erg", en: "a lot, very much" }, pos: adverb, avoid: [fr.tres] }
+  - { target: apporter, native: { nl: meebrengen, en: "to bring" }, pos: verb }
+  - { target: arriver, native: { nl: aankomen, en: "to arrive" }, pos: verb, avoid: [fr.venir] }
+  - { target: commencer, native: { nl: beginnen, en: "to start, to begin" }, pos: verb }
+  - { target: finir, native: { nl: "afmaken, eindigen", en: "to finish" }, pos: verb }
+  - { target: dormir, native: { nl: slapen, en: "to sleep" }, pos: verb }
+  - { target: marcher, native: { nl: "lopen, wandelen", en: "to walk" }, pos: verb }
+  - { target: laver, native: { nl: wassen, en: "to wash" }, pos: verb }
+  - { target: rester, native: { nl: blijven, en: "to stay" }, pos: verb }
+  - { target: laisser, native: { nl: "laten, achterlaten", en: "to let, to leave (something) behind" }, pos: verb, avoid: [fr.montrer] }
+  - { target: préparer, native: { nl: "klaarmaken, voorbereiden", en: "to prepare, to make (food)" }, pos: verb }
+  - { target: choisir, native: { nl: kiezen, en: "to choose" }, pos: verb }
+  - { target: connaître, native: { nl: kennen, en: "to know (be familiar with)" }, pos: verb }
+  - { target: entendre, native: { nl: horen, en: "to hear" }, pos: verb }
+  - { target: prêt, native: { nl: klaar, en: "ready" }, pos: adjective }
+sentences:
+  - { id: s01, target: "J'aime les animaux.", native: { nl: "Ik hou van dieren.", en: "I like animals." }, items: [fr.aimer] }
+  - { id: s02, target: "Tu aimes le chocolat ?", native: { nl: "Hou jij van chocola?", en: "Do you like chocolate?" }, items: [fr.aimer] }
+  - { id: s03, target: "J'adore la musique !", native: { nl: "Ik ben dol op muziek!", en: "I love music!" }, items: [fr.adorer] }
+  - { id: s04, target: "Je préfère les chiens.", native: { nl: "Ik vind honden leuker.", en: "I prefer dogs." }, items: [fr.preferer] }
+  - { id: s05, target: "Je préfère jouer avec mon frère.", native: { nl: "Ik speel liever met mijn broer.", en: "I prefer playing with my brother." }, items: [fr.preferer] }
+  - { id: s06, target: "J'aime beaucoup les chats.", native: { nl: "Ik hou heel erg van katten.", en: "I like cats a lot." }, items: [fr.aimer, fr.beaucoup] }
+  - { id: s07, target: "Tu apportes des crayons ?", native: { nl: "Neem jij potloden mee?", en: "Are you bringing any pencils?" }, items: [fr.apporter] }
+  - { id: s08, target: "Mon ami arrive demain.", native: { nl: "Mijn vriend komt morgen aan.", en: "My friend is arriving tomorrow." }, items: [fr.arriver] }
+  - { id: s09, target: "Le film commence à six heures.", native: { nl: "De film begint om zes uur.", en: "The film starts at six o'clock." }, items: [fr.commencer] }
+  - { id: s10, target: "Je finis mon dessin.", native: { nl: "Ik maak mijn tekening af.", en: "I'm finishing my drawing." }, items: [fr.finir] }
+  - { id: s11, target: "Le chat dort sur la chaise.", native: { nl: "De kat slaapt op de stoel.", en: "The cat is sleeping on the chair." }, items: [fr.dormir] }
+  - { id: s12, target: "Je marche avec mon chien.", native: { nl: "Ik wandel met mijn hond.", en: "I'm walking with my dog." }, items: [fr.marcher] }
+  - { id: s13, target: "Lave tes mains, s'il te plaît.", native: { nl: "Was je handen, alsjeblieft.", en: "Wash your hands, please." }, items: [fr.laver] }
+  - { id: s14, target: "Je reste à la maison.", native: { nl: "Ik blijf thuis.", en: "I'm staying at home." }, items: [fr.rester] }
+  - { id: s15, target: "Je laisse mon vélo dans le jardin.", native: { nl: "Ik laat mijn fiets in de tuin staan.", en: "I leave my bike in the garden." }, items: [fr.laisser] }
+  - { id: s16, target: "Papa prépare un gâteau.", native: { nl: "Papa maakt een taart.", en: "Dad is making a cake." }, items: [fr.preparer] }
+  - { id: s17, target: "Choisis une image.", native: { nl: "Kies een plaatje.", en: "Choose a picture." }, items: [fr.choisir] }
+  - { id: s18, target: "Tu connais ce sport ?", native: { nl: "Ken jij deze sport?", en: "Do you know this sport?" }, items: [fr.connaitre] }
+  - { id: s19, target: "Tu entends le chien ?", native: { nl: "Hoor jij de hond?", en: "Can you hear the dog?" }, items: [fr.entendre] }
+  - { id: s20, target: "Je suis prête !", native: { nl: "Ik ben klaar!", en: "I'm ready!" }, items: [fr.pret] }
+  - { id: s21, target: "Le gâteau est prêt.", native: { nl: "De taart is klaar.", en: "The cake is ready." }, items: [fr.pret] }
+lessons:
+  - { id: l01, title: { nl: Ik hou van..., en: "I like..." }, vocab: [fr.aimer, fr.adorer, fr.preferer, fr.beaucoup, fr.apporter, fr.arriver] }
+  - { id: l02, title: { nl: Slapen en lopen, en: "Sleeping and walking" }, vocab: [fr.commencer, fr.finir, fr.dormir, fr.marcher, fr.laver, fr.rester] }
+  - { id: l03, title: { nl: Klaar?, en: "Ready?" }, vocab: [fr.laisser, fr.preparer, fr.choisir, fr.connaitre, fr.entendre, fr.pret] }

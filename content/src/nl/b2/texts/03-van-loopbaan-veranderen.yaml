@@ -1,0 +1,39 @@
+id: nl-b2-t03
+kind: dialogue
+title: { en: Changing careers }
+topic: Work and career (a radio interview with a career coach)
+level: B2
+speakers: { A: { name: Pieter }, B: { name: Els } }
+turns:
+  - { id: nl-b2-t03-s01, speaker: A, target: "Els, jij begeleidt mensen die van loopbaan willen veranderen. Waarom doen steeds meer mensen dat?", native: { en: "Els, you guide people who want to change careers. Why are more and more people doing that?" } }
+  - { id: nl-b2-t03-s02, speaker: B, target: "Vaak door de werkdruk. Veel mensen werken lang in een veeleisende job en vragen zich op een dag af of hun werk nog zinvol is.", native: { en: "Often because of the pressure of work. Many people work for a long time in a demanding job and one day they wonder whether their work is still meaningful." } }
+  - { id: nl-b2-t03-s03, speaker: A, target: "Wanneer zou jij iemand aanraden om echt over te stappen?", native: { en: "When would you advise someone to really make the switch?" } }
+  - { id: nl-b2-t03-s04, speaker: B, target: "Als iemand al lang ontevreden is en ook na een functioneringsgesprek geen verandering ziet. Dan zou ik eerst samen bekijken wat haalbaar is.", native: { en: "When someone has been unhappy for a long time and sees no change even after an appraisal interview. Then I would first look together at what is achievable." } }
+  - { id: nl-b2-t03-s05, speaker: A, target: "Is een omscholing dan altijd nodig?", native: { en: "Is retraining always necessary, then?" } }
+  - { id: nl-b2-t03-s06, speaker: B, target: "Niet altijd. Soms is een korte bijscholing genoeg om binnen hetzelfde bedrijf door te groeien.", native: { en: "Not always. Sometimes a short training course is enough to move up within the same company." } }
+  - { id: nl-b2-t03-s07, speaker: A, target: "Veel luisteraars zullen denken: met veertig is het te laat om opnieuw te beginnen.", native: { en: "Many listeners will think: at forty it is too late to start again." } }
+  - { id: nl-b2-t03-s08, speaker: B, target: "Dat hoor ik vaak, maar het klopt niet. Op de arbeidsmarkt is er veel vraag naar mensen met ervaring.", native: { en: "I hear that a lot, but it isn't true. On the labour market there is a lot of demand for people with experience." } }
+  - { id: nl-b2-t03-s09, speaker: A, target: "En het geld? Je zou toch minder kunnen verdienen.", native: { en: "And the money? You might earn less, after all." } }
+  - { id: nl-b2-t03-s10, speaker: B, target: "Dat klopt. Net daarom is mijn advies om eerst een plan te maken. In België kun je bijvoorbeeld tijdskrediet nemen om een opleiding te volgen.", native: { en: "That's right. That is exactly why my advice is to make a plan first. In Belgium you can, for example, take a career break to follow a course." } }
+  - { id: nl-b2-t03-s11, speaker: A, target: "Wat is de grootste fout die mensen maken?", native: { en: "What is the biggest mistake people make?" } }
+  - { id: nl-b2-t03-s12, speaker: B, target: "Dat ze te snel ontslag nemen, zonder te weten wat ze willen. Een overstap moet je goed voorbereiden.", native: { en: "That they resign too quickly, without knowing what they want. You have to prepare a switch well." } }
+  - { id: nl-b2-t03-s13, speaker: A, target: "Heb je nog een laatste tip voor wie twijfelt?", native: { en: "Do you have one last tip for anyone who is in doubt?" } }
+  - { id: nl-b2-t03-s14, speaker: B, target: "Praat met mensen die al in de sector werken. Hun ervaring zegt je meer dan elke test.", native: { en: "Talk to people who already work in the sector. Their experience tells you more than any test." } }
+glossary:
+  - { word: twijfelt, native: { en: "doubts, is unsure (twijfelen)" } }
+items: [nl.loopbaan, nl.werkdruk, nl.zich-afvragen, nl.zinvol, nl.veeleisend, nl.functioneringsgesprek, nl.haalbaar, nl.omscholing, nl.bijscholing, nl.doorgroeien, nl.luisteraar, nl.arbeidsmarkt, nl.tijdskrediet, nl.ontslag, nl.overstap, nl.voorbereiden, nl.tip]
+questions:
+  - { id: nl-b2-t03-q1, type: summary, options: ["Een coach legt uit waarom mensen van loopbaan veranderen en hoe ze dat het best voorbereiden.", "Een coach legt uit waarom mensen van loopbaan veranderen en waarom ze dat beter zonder veel voorbereiding doen.", "Een coach zegt dat je boven de veertig beter niet meer van job verandert."], correct: 0 }
+  - { id: nl-b2-t03-q2, type: mc, question: "Waarom veranderen volgens Els veel mensen van loopbaan?", options: ["Door de werkdruk en de vraag of hun werk nog zinvol is.", "Omdat ze in een andere sector meer kunnen verdienen.", "Omdat hun bedrijf moet sluiten."], correct: 0 }
+  - { id: nl-b2-t03-q3, type: true_false_notgiven, statement: "Volgens Els is een omscholing altijd nodig.", answer: false }
+  - { id: nl-b2-t03-q4, type: true_false_notgiven, statement: "Els heeft zelf vroeger in een fabriek gewerkt.", answer: not_given }
+  - { id: nl-b2-t03-q5, type: true_false_notgiven, statement: "Volgens Els zoeken werkgevers ook oudere werknemers met ervaring.", answer: true }
+listeningQuestions:
+  - { id: nl-b2-t03-l1, type: complete, statement: "In België kun je ___ nemen om een opleiding te volgen.", answers: [tijdskrediet] }
+  - { id: nl-b2-t03-l2, type: mc, question: "Wat is volgens Els de grootste fout?", options: ["Te snel ontslag nemen.", "Te lang in dezelfde job blijven.", "Niet met een coach praten."], correct: 0 }
+openCloze:
+  - { sentence: nl-b2-t03-s02, word: door, acceptAlso: [wegens] }
+  - { sentence: nl-b2-t03-s06, word: om }
+  - { sentence: nl-b2-t03-s12, word: zonder }
+  - { sentence: nl-b2-t03-s14, word: dan }
+orderable: false

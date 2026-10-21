@@ -1,0 +1,31 @@
+id: fr-a2-u26
+title: { nl: Beroemd en rijk, en: "Rich and famous" }
+icon: people
+topic: Décrire les personnes et les choses
+vocabulary:
+  - { target: célèbre, native: { nl: beroemd, en: "famous" }, pos: adjective }
+  - { target: riche, native: { nl: rijk, en: "rich" }, pos: adjective }
+  - { target: pauvre, native: { nl: arm, en: "poor" }, pos: adjective }
+  - { target: paresseux, native: { nl: lui, en: "lazy" }, pos: adjective }
+  - { target: intelligent, native: { nl: slim, en: "clever, intelligent" }, pos: adjective }
+  - { target: poli, native: { nl: beleefd, en: "polite" }, pos: adjective }
+  - { target: étrange, native: { nl: vreemd, en: "strange, odd" }, pos: adjective }
+  - { target: bizarre, native: { nl: raar, en: "weird, odd" }, pos: adjective, avoid: [fr.etrange] }
+  - { target: incroyable, native: { nl: ongelooflijk, en: "incredible, unbelievable" }, pos: adjective }
+  - { target: dangereux, native: { nl: gevaarlijk, en: "dangerous" }, pos: adjective }
+  - { target: magnifique, native: { nl: prachtig, en: "magnificent, beautiful" }, pos: adjective }
+sentences:
+  - { id: s01, target: "C'est un chanteur très célèbre.", native: { nl: "Dat is een heel beroemde zanger.", en: "He's a very famous singer." }, items: [fr.celebre] }
+  - { id: s02, target: "Le roi est très riche.", native: { nl: "De koning is heel rijk.", en: "The king is very rich." }, items: [fr.riche] }
+  - { id: s03, target: "Cette famille est pauvre, elle n'a pas d'argent.", native: { nl: "Die familie is arm, ze hebben geen geld.", en: "This family is poor: they have no money." }, items: [fr.pauvre] }
+  - { id: s04, target: "Mon chat est paresseux, il dort toute la journée.", native: { nl: "Mijn kat is lui, hij slaapt de hele dag.", en: "My cat is lazy: he sleeps all day." }, items: [fr.paresseux] }
+  - { id: s05, target: "Ma sœur est très intelligente.", native: { nl: "Mijn zus is heel slim.", en: "My sister is very clever." }, items: [fr.intelligent] }
+  - { id: s06, target: "Sois poli : dis merci !", native: { nl: "Wees beleefd: zeg dank je!", en: "Be polite: say thank you!" }, items: [fr.poli] }
+  - { id: s07, target: "Ce chat a des yeux étranges.", native: { nl: "Die kat heeft vreemde ogen.", en: "This cat has strange eyes." }, items: [fr.etrange] }
+  - { id: s08, target: "Ce chapeau est bizarre !", native: { nl: "Die hoed is raar!", en: "This hat is weird!" }, items: [fr.bizarre] }
+  - { id: s09, target: "C'est incroyable, j'ai gagné !", native: { nl: "Ongelooflijk, ik heb gewonnen!", en: "It's incredible, I've won!" }, items: [fr.incroyable] }
+  - { id: s10, target: "Le requin est un animal dangereux.", native: { nl: "De haai is een gevaarlijk dier.", en: "The shark is a dangerous animal." }, items: [fr.dangereux] }
+  - { id: s11, target: "La montagne est magnifique en hiver.", native: { nl: "De berg is prachtig in de winter.", en: "The mountain is magnificent in winter." }, items: [fr.magnifique] }
+lessons:
+  - { id: l01, title: { nl: Rijk en arm, en: "Rich and poor" }, vocab: [fr.celebre, fr.riche, fr.pauvre, fr.paresseux, fr.intelligent, fr.poli] }
+  - { id: l02, title: { nl: Vreemd!, en: "How strange!" }, vocab: [fr.etrange, fr.bizarre, fr.incroyable, fr.dangereux, fr.magnifique] }

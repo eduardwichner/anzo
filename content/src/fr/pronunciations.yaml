@@ -1,0 +1,35 @@
+# Pronunciation lexicon for the French voice (fr_FR-siwis-medium) (format: content/src/nl/pronunciations.yaml).
+
+words:
+  # espeak reads the verb ending -ouent as the glide w with no vowel: jouent → ʒw, louent → lˈw (heard as wrong).
+  # Said /ʒu/, /lu/. A scan of every French word in -[vowel]ent: only these two are wrong.
+  jouent: ʒˈu
+  louent: lˈu
+  # Espeak's plˈy is how the voice says *plus* — 190-320 ms of hiss
+  # after the y in every one of 14 renders (its plˈys: 195-240; bu, vu: none). The long vowel has none (0 ms in 14 renders,
+  # alone and in "il a beaucoup plu.").
+  plu: plˈyː
+  # --- Listen check: "jury" heard as "juai": espeak's French reads some words as English (jury → dʒˈʊəɹi, with
+  # an English r). Scan of every French word whose phonemes have English sounds (ɹ ʊə æ ʌ ɜ θ ð ɪ eɪ aɪ əʊ): all 14 below.
+  # English loans are said the French way (camping, parking, jogging, t-shirt), the others as French words.
+  assieds-toi: asjetwˈa
+  bruns: bʁˈœ̃
+  camping: kɑ̃pˈiŋ
+  camping-car: kɑ̃piŋkˈaʁ
+  fleury: flœʁˈi
+  high-tech: ajtˈɛk
+  jogging: dʒɔɡˈiŋ
+  jury: ʒyʁˈi
+  mail: mˈɛl
+  parking: paʁkˈiŋ
+  puzzle: pˈœzl
+  skateboard: skɛtbˈɔʁd
+  stress: stʁˈɛs
+  t-shirt: tiʃˈœʁt
+
+initial:
+  # At the start of a sentence espeak stresses Entre (ˈɑ̃tʁ) and the voice
+  # says the nasal mark as a hiss before the t — 70-100 ms of hiss in 6 of 6 seeded renders of "Entre, s'il te plaît !",
+  # 0 ms unstressed (ɑ̃tʁ) in 6 of 6. Inside a sentence (entre les chaises) and alone after the carrier it has no hiss: only as
+  # a clip's first word.
+  entre: ɑ̃tʁ

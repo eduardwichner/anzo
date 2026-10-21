@@ -1,0 +1,16 @@
+# /etc/sudoers.d/anzo-jobs — what the developer account (ANZO_DEV_USER) may do without a password and without full sudo.
+# Installed by scripts/install-ops.sh (0440). Every non-interactive `sudo -n` in the scripts has its rule here.
+#
+# As root: reload the lessons after a correction (the content job) and restart the app.
+@DEV_USER@ ALL=(root) NOPASSWD: /usr/bin/systemctl reload anzo, /usr/bin/systemctl restart anzo
+#
+# As the service user `anzo`, the only account that can read data/ (750):
+#  - npm run check:integrity: a consistent copy of the live database into /tmp (.backup), the copy switched to a plain
+#    rollback journal, and the copy removed again;
+#  - npm run publish:check and audio:check: read-only queries of the live database (-readonly).
+# Argument patterns limit what is asked, not what sqlite3 can do: the account `anzo` owns nothing but the data, and the
+# developer account already runs code as `anzo` (it owns the code the service starts).
+@DEV_USER@ ALL=(anzo) NOPASSWD: /usr/bin/sqlite3 /opt/anzo/data/anzo.sqlite .backup '/tmp/anzo-integrity-*', \
+    /usr/bin/sqlite3 /tmp/anzo-integrity-* PRAGMA journal_mode\=DELETE;, \
+    /usr/bin/rm -f /tmp/anzo-integrity-*, \
+    /usr/bin/sqlite3 -readonly *

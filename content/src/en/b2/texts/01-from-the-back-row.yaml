@@ -1,0 +1,50 @@
+id: en-b2-t01
+kind: reading
+title: { nl: Van de achterste rij naar het podium }
+topic: Personality and ambition (an article in a school magazine)
+level: B2
+paragraphs:
+  - - { id: en-b2-t01-s01, target: "Two years ago, Leo Hart had never sung in public.", native: { nl: "Twee jaar geleden had Leo Hart nog nooit in het openbaar gezongen." } }
+    - { id: en-b2-t01-s02, target: "He was the quiet boy at the back of the class, the one who hoped the teacher would not ask him anything.", native: { nl: "Hij was de stille jongen achter in de klas, degene die hoopte dat de leraar hem niets zou vragen." } }
+    - { id: en-b2-t01-s03, target: "Today he is preparing for the lead role in the school's spring musical, and he has been practising every evening for six weeks.", native: { nl: "Vandaag bereidt hij zich voor op de hoofdrol in de lentemusical van de school, en hij oefent al zes weken elke avond." } }
+  - - { id: en-b2-t01-s04, target: "It all happened by chance.", native: { nl: "Het gebeurde allemaal toevallig." } }
+    - { id: en-b2-t01-s05, target: "A friend needed someone to help carry equipment to the audition, so Leo went along.", native: { nl: "Een vriend had iemand nodig om spullen naar de auditie te helpen dragen, dus Leo ging mee." } }
+    - { id: en-b2-t01-s06, target: "While he was waiting, the music teacher heard him singing quietly to himself and asked him to try.", native: { nl: "Terwijl hij wachtte, hoorde de muziekleraar hem zachtjes in zichzelf zingen en vroeg ze hem het te proberen." } }
+    - { id: en-b2-t01-s07, target: "\"I was terrified,\" he laughs. \"But I didn't want to say no, so I sang.\"", native: { nl: "\"Ik was doodsbang,\" lacht hij. \"Maar ik wilde geen nee zeggen, dus ik zong.\"" } }
+  - - { id: en-b2-t01-s08, target: "The first months were not easy.", native: { nl: "De eerste maanden waren niet makkelijk." } }
+    - { id: en-b2-t01-s09, target: "Leo struggled with his nerves, and twice he nearly gave up.", native: { nl: "Leo worstelde met zijn zenuwen, en twee keer gaf hij het bijna op." } }
+    - { id: en-b2-t01-s10, target: "What kept him going was the support of the other actors, who never laughed at his mistakes.", native: { nl: "Wat hem deed volhouden, was de steun van de andere acteurs, die nooit om zijn fouten lachten." } }
+    - { id: en-b2-t01-s11, target: "Gradually his confidence grew, and he began to enjoy being on stage.", native: { nl: "Langzaamaan groeide zijn zelfvertrouwen, en hij begon ervan te genieten op het podium te staan." } }
+  - - { id: en-b2-t01-s12, target: "His story is not unusual, says the music teacher, Ms Okafor.", native: { nl: "Zijn verhaal is niet ongewoon, zegt de muziekleraar, mevrouw Okafor." } }
+    - { id: en-b2-t01-s13, target: "\"Many young people have potential that nobody, including themselves, has noticed. Sometimes all they need is one opportunity.\"", native: { nl: "\"Veel jongeren hebben mogelijkheden die niemand, ook zijzelf niet, heeft opgemerkt. Soms hebben ze maar één kans nodig.\"" } }
+    - { id: en-b2-t01-s14, target: "She believes schools should offer more activities where students can discover hidden talents, because failure in one subject says little about a person's abilities.", native: { nl: "Ze vindt dat scholen meer activiteiten moeten aanbieden waarin leerlingen verborgen talenten kunnen ontdekken, omdat falen in één vak weinig zegt over iemands capaciteiten." } }
+  - - { id: en-b2-t01-s15, target: "And what about Leo's own plans?", native: { nl: "En wat zijn Leo's eigen plannen?" } }
+    - { id: en-b2-t01-s16, target: "He is not sure yet whether he wants a career on the stage, but he has applied for a scholarship at a summer theatre school.", native: { nl: "Hij weet nog niet zeker of hij een carrière op het podium wil, maar hij heeft een studiebeurs aangevraagd voor een zomerschool voor theater." } }
+    - { id: en-b2-t01-s17, target: "\"Whatever happens,\" he says, \"I've learnt that you never know what you can do until you try.\"", native: { nl: "\"Wat er ook gebeurt,\" zegt hij, \"ik heb geleerd dat je nooit weet wat je kunt tot je het probeert.\"" } }
+glossary:
+  - { word: nerves, native: { nl: "zenuwen" } }
+items: [en.by-chance, en.audition, en.struggle, en.gradually, en.confidence, en.potential, en.failure, en.scholarship]
+gapped:
+  gaps: [en-b2-t01-s04, en-b2-t01-s08, en-b2-t01-s12, en-b2-t01-s15]
+  extra:
+    - { id: en-b2-t01-x1, target: "Leo's parents are both professional singers.", native: { nl: "Leo's ouders zijn allebei beroepszangers." } }
+openCloze:
+  - { sentence: en-b2-t01-s02, word: who, acceptAlso: [that] }
+  - { sentence: en-b2-t01-s06, word: While, acceptAlso: [As, When] }
+  - { sentence: en-b2-t01-s10, word: What }
+  - { sentence: en-b2-t01-s16, word: whether, acceptAlso: [if] }
+wordForm:
+  - { sentence: en-b2-t01-s06, word: quietly, stem: quiet }
+  - { sentence: en-b2-t01-s12, word: unusual, stem: usual }
+  - { sentence: en-b2-t01-s14, word: activities, stem: active }
+questions:
+  - { id: en-b2-t01-q1, type: summary, options: ["A shy student discovered by chance that he could sing, and with the support of others he gained the confidence to take a lead role.", "A shy student always wanted to be a singer, and after years of lessons his parents finally let him join the school musical.", "A music teacher explains why students who fail at school should spend more time on singing and acting."], correct: 0 }
+  - { id: en-b2-t01-q2, type: mc, question: "How did Leo first get involved in the musical?", options: ["He went to the audition to help a friend.", "He saw a poster about the audition at school.", "He wanted to become less shy."], correct: 0 }
+  - { id: en-b2-t01-q3, type: true_false_notgiven, statement: "Ms Okafor has worked at the school for many years.", answer: not_given }
+  - { id: en-b2-t01-q4, type: true_false_notgiven, statement: "Two years ago, Leo often sang in public.", answer: false }
+  - { id: en-b2-t01-q5, type: true_false_notgiven, statement: "Leo almost stopped twice during the first months.", answer: true }
+  - { id: en-b2-t01-q6, type: match_heading, paragraph: 3, options: ["A difficult beginning", "How it started", "A teacher's view"], correct: 0 }
+listeningQuestions:
+  - { id: en-b2-t01-l1, type: complete, statement: "Leo has been practising every evening for six ___.", answers: [weeks] }
+  - { id: en-b2-t01-l2, type: mc, question: "Why did Leo go to the audition at first?", options: ["To help a friend carry equipment.", "To sing for the music teacher.", "To watch the other actors."], correct: 0 }
+orderable: false

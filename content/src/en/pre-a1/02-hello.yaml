@@ -1,0 +1,67 @@
+id: en-pre-a1-u02
+title: { nl: Hallo! }
+icon: greetings
+topic: Family and friends (greetings and classroom expressions)
+vocabulary:
+  - { target: hello, native: { nl: hallo }, pos: exclamation }
+  - { target: hi, native: { nl: "hoi, hallo" }, pos: exclamation }
+  - { target: goodbye, native: { nl: tot ziens }, pos: exclamation }
+  - { target: bye, native: { nl: "doei, tot ziens" }, pos: exclamation }
+  - { target: see you, native: { nl: tot later }, pos: exclamation }
+  - { target: good, native: { nl: goed }, pos: adjective }
+  - { target: please, native: { nl: alsjeblieft }, pos: exclamation }
+  - { target: thank you, native: { nl: dank je wel }, pos: exclamation }
+  - { target: thanks, native: { nl: "bedankt, dank je wel" }, pos: exclamation }
+  - { target: sorry, native: { nl: sorry }, pos: exclamation }
+  - { target: "yes", native: { nl: ja }, pos: adverb }
+  - { target: "no", native: { nl: nee }, pos: adverb }
+  - { target: OK, native: { nl: oké }, pos: exclamation }
+  - { target: nice, native: { nl: "leuk, aardig" }, pos: adjective }
+  - { target: great, native: { nl: geweldig }, pos: adjective }
+  - { target: cool, native: { nl: "gaaf, cool" }, pos: adjective }
+  - { target: fantastic, native: { nl: "fantastisch, geweldig" }, pos: adjective }
+  - { target: wow, native: { nl: wauw }, pos: exclamation }
+  - { target: hooray, native: { nl: hoera }, pos: exclamation }
+  - { target: well done, native: { nl: goed gedaan }, pos: exclamation }
+  - { target: me too, native: { nl: ik ook }, pos: phrase }
+  - { target: "don't worry", native: { nl: maak je geen zorgen }, pos: phrase }
+  - { target: oh dear, native: { nl: o jee }, pos: exclamation }
+  - { target: pardon, native: { nl: "pardon?" }, pos: exclamation }
+sentences:
+  - { id: s01, target: "Hello! I'm Anna.", native: { nl: "Hallo! Ik ben Anna." }, items: [en.hello], acceptAlso: ["Hello! I am Anna."] }
+  - { id: s02, target: "Hi, Tom! How are you?", native: { nl: "Hoi Tom! Hoe gaat het?" }, items: [en.hi] }
+  - { id: s03, target: "Goodbye, Ben!", native: { nl: "Tot ziens, Ben!" }, items: [en.goodbye] }
+  - { id: s04, target: "Bye, Mum!", native: { nl: "Doei, mama!" }, items: [en.bye] }
+  - { id: s05, target: "Bye, Sam! See you!", native: { nl: "Doei, Sam! Tot later!" }, items: [en.bye, en.see-you] }
+  - { id: s06, target: "You are a good friend.", native: { nl: "Je bent een goede vriend." }, items: [en.good], acceptAlso: ["You're a good friend."] }
+  - { id: s07, target: "Good morning, children!", native: { nl: "Goedemorgen, kinderen!" }, items: [en.good] }
+  - { id: s08, target: "Hi! I'm Pat. What's your name?", native: { nl: "Hoi! Ik ben Pat. Hoe heet jij?" }, items: [en.hi], acceptAlso: ["Hi! I am Pat. What is your name?"] }
+  - { id: s09, target: "Can I have an apple, please?", native: { nl: "Mag ik een appel, alsjeblieft?" }, items: [en.please] }
+  - { id: s10, target: "Thank you for the cake.", native: { nl: "Dank je wel voor de taart." }, items: [en.thank-you] }
+  - { id: s11, target: "Thanks, Dad!", native: { nl: "Bedankt, papa!" }, items: [en.thanks] }
+  - { id: s12, target: "Sorry, I can't find it.", native: { nl: "Sorry, ik kan het niet vinden." }, items: [en.sorry], acceptAlso: ["Sorry, I cannot find it."] }
+  - { id: s13, target: "Is it a dog? Yes, it is.", native: { nl: "Is het een hond? Ja." }, items: [en.yes, en.dog] }
+  - { id: s14, target: "No, it isn't a cat.", native: { nl: "Nee, het is geen kat." }, items: [en.no, en.cat], acceptAlso: ["No, it is not a cat."] }
+  - { id: s15, target: "Yes, please!", native: { nl: "Ja, graag!" }, items: [en.yes, en.please] }
+  - { id: s16, target: "No, thank you.", native: { nl: "Nee, dank je wel." }, items: [en.no, en.thank-you] }
+  - { id: s17, target: "I'm sorry, Grace.", native: { nl: "Het spijt me, Grace." }, items: [en.sorry], acceptAlso: ["I am sorry, Grace."] }
+  - { id: s18, target: "Is that OK?", native: { nl: "Is dat oké?" }, items: [en.ok] }
+  - { id: s19, target: "Your friend is very nice.", native: { nl: "Je vriend is heel aardig." }, items: [en.nice] }
+  - { id: s20, target: "Your drawing is great!", native: { nl: "Je tekening is geweldig!" }, items: [en.great] }
+  - { id: s21, target: "Cool! I like your bike.", native: { nl: "Gaaf! Ik vind je fiets leuk." }, items: [en.cool] }
+  - { id: s22, target: "Your song is fantastic!", native: { nl: "Jouw liedje is fantastisch!" }, items: [en.fantastic] }
+  - { id: s23, target: "Wow! Look at that big ship!", native: { nl: "Wauw! Kijk eens naar dat grote schip!" }, items: [en.wow, en.big] }
+  - { id: s24, target: "Thank you, Lucy. That's very nice!", native: { nl: "Dank je wel, Lucy. Dat is heel aardig!" }, items: [en.thank-you, en.nice], acceptAlso: ["Thank you, Lucy. That is very nice!"] }
+  - { id: s25, target: "Hooray! It's my birthday!", native: { nl: "Hoera! Ik ben jarig!" }, items: [en.hooray], acceptAlso: ["Hooray! It is my birthday!"] }
+  - { id: s26, target: "Well done, Nick!", native: { nl: "Goed gedaan, Nick!" }, items: [en.well-done] }
+  - { id: s27, target: "I like ice cream. Me too!", native: { nl: "Ik vind ijs lekker. Ik ook!" }, items: [en.me-too] }
+  - { id: s28, target: "Don't worry, it's OK.", native: { nl: "Maak je geen zorgen, het is oké." }, items: [en.don-t-worry, en.ok], acceptAlso: ["Don't worry, it is OK."] }
+  - { id: s29, target: "Oh dear! My kite is in the tree.", native: { nl: "O jee! Mijn vlieger zit in de boom." }, items: [en.oh-dear] }
+  - { id: s30, target: "Pardon? Can you say that again?", native: { nl: "Pardon? Kun je dat nog een keer zeggen?" }, items: [en.pardon] }
+  - { id: s31, target: "The cat is cool and the dog is great!", native: { nl: "De kat is gaaf en de hond is geweldig!" }, items: [en.cool, en.great, en.cat, en.dog] }
+  - { id: s32, target: "Well done! That's fantastic!", native: { nl: "Goed gedaan! Dat is fantastisch!" }, items: [en.well-done, en.fantastic], acceptAlso: ["Well done! That is fantastic!"] }
+lessons:
+  - { id: l01, title: { nl: Hallo en doei }, vocab: [en.hello, en.hi, en.goodbye, en.bye, en.see-you, en.good] }
+  - { id: l02, title: { nl: Alsjeblieft en dank je }, vocab: [en.please, en.thank-you, en.thanks, en.sorry, en.yes, en.no] }
+  - { id: l03, title: { nl: Goed zo! }, vocab: [en.ok, en.nice, en.great, en.cool, en.fantastic, en.wow] }
+  - { id: l04, title: { nl: "Hoera en o jee" }, vocab: [en.hooray, en.well-done, en.me-too, en.don-t-worry, en.oh-dear, en.pardon] }

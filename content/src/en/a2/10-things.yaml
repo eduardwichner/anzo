@@ -1,0 +1,74 @@
+id: en-a2-u10
+title: { nl: Spullen }
+icon: clothes
+topic: Clothes; Materials; The home
+vocabulary:
+  - { target: belt, native: { nl: riem }, pos: noun }
+  - { target: glove, native: { nl: handschoen }, pos: noun }
+  - { target: pocket, native: { nl: "zak (in je kleren)" }, pos: noun }
+  - { target: trainers, native: { nl: sportschoenen }, pos: noun }
+  - { target: pyjamas, native: { nl: pyjama }, pos: noun }
+  - { target: rucksack, native: { nl: rugzak }, pos: noun }
+  - { target: umbrella, native: { nl: paraplu }, pos: noun }
+  - { target: bracelet, native: { nl: armband }, pos: noun }
+  - { target: necklace, native: { nl: ketting }, pos: noun }
+  - { target: ring, native: { nl: ring }, pos: noun }
+  - { target: crown, native: { nl: kroon }, pos: noun }
+  - { target: costume, native: { nl: "kostuum, verkleedpak" }, pos: noun }
+  - { target: sunglasses, native: { nl: zonnebril }, pos: noun }
+  - { target: envelope, native: { nl: envelop }, pos: noun }
+  - { target: stamp, native: { nl: postzegel }, pos: noun }
+  - { target: postcard, native: { nl: ansichtkaart }, pos: noun }
+  - { id: en.letter-mail, target: letter, native: { nl: brief }, pos: noun }
+  - { target: key, native: { nl: sleutel }, pos: noun }
+  - { target: file, native: { nl: bestand }, pos: noun }
+  - { target: bin, native: { nl: prullenbak }, pos: noun }
+  - { target: cushion, native: { nl: kussen }, pos: noun }
+  - { target: shelf, native: { nl: plank }, pos: noun }
+  - { target: scissors, native: { nl: schaar }, pos: noun }
+  - { target: glue, native: { nl: lijm }, pos: noun }
+  - { target: torch, native: { nl: zaklamp }, pos: noun }
+  - { target: wool, native: { nl: wol }, pos: noun }
+  - { target: plastic, native: { nl: plastic }, pos: noun }
+  - { target: metal, native: { nl: metaal }, pos: noun, category: true }
+  - { target: gold, native: { nl: goud }, pos: noun }
+  - { target: silver, native: { nl: zilver }, pos: noun }
+  - { id: en.glass-material, target: glass, native: { nl: "glas (materiaal)" }, pos: noun }
+sentences:
+  - { id: s01, target: "I need a belt for these trousers.", native: { nl: "Ik heb een riem nodig voor deze broek." }, items: [en.belt] }
+  - { id: s02, target: "I lost a glove.", native: { nl: "Ik ben een handschoen kwijt." }, items: [en.glove] }
+  - { id: s03, target: "I've got a sweet in my pocket.", native: { nl: "Ik heb een snoepje in mijn zak." }, items: [en.pocket], acceptAlso: ["I have got a sweet in my pocket."] }
+  - { id: s04, target: "I need new trainers for sport.", native: { nl: "Ik heb nieuwe sportschoenen nodig voor gym." }, items: [en.trainers] }
+  - { id: s05, target: "Put on your pyjamas, it's late.", native: { nl: "Trek je pyjama aan, het is laat." }, items: [en.pyjamas], acceptAlso: ["Put on your pyjamas, it is late."] }
+  - { id: s06, target: "Put the books in your rucksack.", native: { nl: "Doe de boeken in je rugzak." }, items: [en.rucksack] }
+  - { id: s07, target: "Take an umbrella, it's raining.", native: { nl: "Neem een paraplu mee, het regent." }, items: [en.umbrella], acceptAlso: ["Take an umbrella, it is raining."] }
+  - { id: s08, target: "I made a bracelet for my mum.", native: { nl: "Ik heb een armband voor mijn moeder gemaakt." }, items: [en.bracelet] }
+  - { id: s09, target: "That necklace is beautiful.", native: { nl: "Die ketting is prachtig." }, items: [en.necklace] }
+  - { id: s10, target: "Grandma has got a ring on her finger.", native: { nl: "Oma heeft een ring om haar vinger." }, items: [en.ring] }
+  - { id: s11, target: "The queen is wearing a crown.", native: { nl: "De koningin draagt een kroon." }, items: [en.crown] }
+  - { id: s12, target: "I wore a pirate costume to the party.", native: { nl: "Ik droeg een piratenkostuum op het feest." }, items: [en.costume] }
+  - { id: s13, target: "Wear your sunglasses on the beach.", native: { nl: "Draag je zonnebril op het strand." }, items: [en.sunglasses] }
+  - { id: s14, target: "Write the address on the envelope.", native: { nl: "Schrijf het adres op de envelop." }, items: [en.envelope] }
+  - { id: s15, target: "You need a stamp for this letter.", native: { nl: "Je hebt een postzegel nodig voor deze brief." }, items: [en.stamp, en.letter-mail] }
+  - { id: s16, target: "We sent Grandma a postcard from the beach.", native: { nl: "We stuurden oma een ansichtkaart van het strand." }, items: [en.postcard] }
+  - { id: s17, target: "I wrote a letter to my cousin.", native: { nl: "Ik schreef een brief aan mijn neef." }, items: [en.letter-mail] }
+  - { id: s18, target: "I can't find the key.", native: { nl: "Ik kan de sleutel niet vinden." }, items: [en.key], acceptAlso: ["I cannot find the key."] }
+  - { id: s19, target: "Save the file on the computer.", native: { nl: "Sla het bestand op de computer op." }, items: [en.file] }
+  - { id: s20, target: "Put the paper in the bin.", native: { nl: "Gooi het papier in de prullenbak." }, items: [en.bin] }
+  - { id: s21, target: "Sit on this cushion.", native: { nl: "Ga op dit kussen zitten." }, items: [en.cushion] }
+  - { id: s22, target: "The books are on the shelf.", native: { nl: "De boeken staan op de plank." }, items: [en.shelf] }
+  - { id: s23, target: "Cut the paper with scissors.", native: { nl: "Knip het papier met een schaar." }, items: [en.scissors] }
+  - { id: s24, target: "Put some glue on the paper.", native: { nl: "Doe wat lijm op het papier." }, items: [en.glue] }
+  - { id: s25, target: "We need a torch in the cave.", native: { nl: "We hebben een zaklamp nodig in de grot." }, items: [en.torch] }
+  - { id: s26, target: "This sweater is made of wool.", native: { nl: "Deze trui is van wol." }, items: [en.wool] }
+  - { id: s27, target: "This bottle is made of plastic.", native: { nl: "Deze fles is van plastic." }, items: [en.plastic] }
+  - { id: s28, target: "The bridge is made of metal.", native: { nl: "De brug is van metaal." }, items: [en.metal] }
+  - { id: s29, target: "The crown is made of gold.", native: { nl: "De kroon is van goud." }, items: [en.gold, en.crown] }
+  - { id: s30, target: "She won a silver cup.", native: { nl: "Zij won een zilveren beker." }, items: [en.silver] }
+  - { id: s31, target: "The table is made of glass.", native: { nl: "De tafel is van glas." }, items: [en.glass-material] }
+lessons:
+  - { id: l01, title: { nl: Aankleden }, vocab: [en.belt, en.glove, en.pocket, en.trainers, en.pyjamas, en.rucksack, en.umbrella] }
+  - { id: l02, title: { nl: Sieraden en verkleden }, vocab: [en.bracelet, en.necklace, en.ring, en.crown, en.costume, en.sunglasses] }
+  - { id: l03, title: { nl: "Post, sleutel en bestand" }, vocab: [en.envelope, en.stamp, en.postcard, en.letter-mail, en.key, en.file] }
+  - { id: l04, title: { nl: Spullen in huis }, vocab: [en.bin, en.cushion, en.shelf, en.scissors, en.glue, en.torch] }
+  - { id: l05, title: { nl: "Waar is het van gemaakt?" }, vocab: [en.wool, en.plastic, en.metal, en.gold, en.silver, en.glass-material] }

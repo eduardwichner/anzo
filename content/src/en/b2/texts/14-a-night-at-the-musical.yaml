@@ -1,0 +1,49 @@
+id: en-b2-t14
+kind: reading
+title: { nl: Een avond in de musical }
+topic: Music, film and the arts (a review on a school website)
+level: B2
+paragraphs:
+  - - { id: en-b2-t14-s01, target: "When I heard that our school was going to put on a musical version of a famous old play, I was not very excited.", native: { nl: "Toen ik hoorde dat onze school een musicalversie van een bekend oud toneelstuk zou opvoeren, was ik niet erg enthousiast." } }
+    - { id: en-b2-t14-s02, target: "I expected two long hours of students forgetting their lines.", native: { nl: "Ik verwachtte twee lange uren met leerlingen die hun tekst vergaten." } }
+    - { id: en-b2-t14-s03, target: "I could not have been more wrong.", native: { nl: "Ik zat er helemaal naast." } }
+  - - { id: en-b2-t14-s04, target: "The story will be familiar to many people.", native: { nl: "Het verhaal zal voor veel mensen bekend zijn." } }
+    - { id: en-b2-t14-s05, target: "Two young people fall in love, although their families have hated each other for years.", native: { nl: "Twee jongeren worden verliefd, hoewel hun families elkaar al jaren haten." } }
+    - { id: en-b2-t14-s06, target: "In this version, however, the families are two rival bands, and the lovers meet at a gig in their town.", native: { nl: "In deze versie zijn de families echter twee rivaliserende bands, en de geliefden ontmoeten elkaar op een optreden in hun stad." } }
+  - - { id: en-b2-t14-s07, target: "The music is the real star of the show.", native: { nl: "De muziek is de echte ster van de voorstelling." } }
+    - { id: en-b2-t14-s08, target: "Every song was written by students, and some of the melodies are still in my head a week later.", native: { nl: "Elk lied werd door leerlingen geschreven, en sommige melodieën zitten een week later nog in mijn hoofd." } }
+    - { id: en-b2-t14-s09, target: "The lyrics are clever and often very funny, whereas the final song is so moving that half of the audience was in tears.", native: { nl: "De songteksten zijn slim en vaak heel grappig, terwijl het laatste lied zo ontroerend is dat de helft van het publiek in tranen was." } }
+  - - { id: en-b2-t14-s10, target: "The show is not perfect, of course.", native: { nl: "De voorstelling is natuurlijk niet perfect." } }
+    - { id: en-b2-t14-s11, target: "The first half is too long, and in spite of good microphones, some of the quieter singers were hard to hear.", native: { nl: "De eerste helft is te lang, en ondanks goede microfoons waren sommige stillere zangers moeilijk te horen." } }
+    - { id: en-b2-t14-s12, target: "Nevertheless, the cast's energy more than makes up for these small problems.", native: { nl: "Toch maakt de energie van de cast deze kleine problemen ruimschoots goed." } }
+  - - { id: en-b2-t14-s13, target: "Should you go?", native: { nl: "Moet je gaan?" } }
+    - { id: en-b2-t14-s14, target: "Definitely, if you can get a ticket: the first three nights were sold out, and the applause at the end lasted almost ten minutes.", native: { nl: "Zeker, als je een ticket kunt krijgen: de eerste drie avonden waren uitverkocht, en het applaus op het einde duurde bijna tien minuten." } }
+    - { id: en-b2-t14-s15, target: "Even if musicals are not your favourite genre, this one is worth seeing.", native: { nl: "Zelfs als musicals niet je favoriete genre zijn, is deze de moeite waard." } }
+glossary:
+  - { word: lovers, native: { nl: "geliefden (lover)" } }
+  - { word: makes up for, native: { nl: "goedmaken (make up for)" } }
+items: [en.rival, en.gig, en.melody, en.lyrics, en.whereas, en.moving, en.in-spite-of, en.nevertheless, en.cast, en.sold-out, en.applause, en.genre]
+gapped:
+  gaps: [en-b2-t14-s04, en-b2-t14-s07, en-b2-t14-s10, en-b2-t14-s13]
+  extra:
+    - { id: en-b2-t14-x1, target: "The actors had only two weeks to learn their lines.", native: { nl: "De acteurs hadden maar twee weken om hun tekst te leren." } }
+openCloze:
+  - { sentence: en-b2-t14-s01, word: going, acceptAlso: [planning, about, hoping, due] }
+  - { sentence: en-b2-t14-s05, word: each }
+  - { sentence: en-b2-t14-s09, word: so }
+  - { sentence: en-b2-t14-s15, word: worth }
+wordForm:
+  - { sentence: en-b2-t14-s15, word: favourite, stem: favour }
+  - { sentence: en-b2-t14-s09, word: funny, stem: fun }
+  - { sentence: en-b2-t14-s11, word: singers, stem: sing }
+questions:
+  - { id: en-b2-t14-q1, type: summary, options: ["The writer expected little from the school musical but was surprised by its excellent music and energy, despite a few small problems.", "The writer enjoyed the school musical but thinks it should not have used an old play, because the story is too familiar.", "The writer explains how the students wrote the songs for the musical over two years."], correct: 0 }
+  - { id: en-b2-t14-q2, type: mc, question: "How is this version different from the old play?", options: ["The families are two rival bands.", "The lovers are old people.", "The story has a happy ending."], correct: 0 }
+  - { id: en-b2-t14-q3, type: true_false_notgiven, statement: "Teachers wrote most of the songs.", answer: false }
+  - { id: en-b2-t14-q4, type: true_false_notgiven, statement: "Some singers were difficult to hear.", answer: true }
+  - { id: en-b2-t14-q5, type: true_false_notgiven, statement: "The writer plays in the school orchestra.", answer: not_given }
+  - { id: en-b2-t14-q6, type: match_heading, paragraph: 4, options: ["A few problems", "The best part", "Advice for readers"], correct: 0 }
+listeningQuestions:
+  - { id: en-b2-t14-l1, type: complete, statement: "The applause at the end lasted almost ___ minutes.", answers: [ten, "10"] }
+  - { id: en-b2-t14-l2, type: mc, question: "Where do the lovers meet in this version?", options: ["At a gig in their town.", "At school.", "At a party."], correct: 0 }
+orderable: false

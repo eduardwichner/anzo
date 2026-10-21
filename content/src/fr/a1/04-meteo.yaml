@@ -1,0 +1,43 @@
+id: fr-a1-u04
+title: { nl: Het weer, en: "The weather" }
+icon: weather
+topic: La météo; le ciel
+vocabulary:
+  - { target: le temps, native: { nl: "het weer, de tijd", en: "weather, time" }, pos: noun, gender: m }
+  - { target: il fait beau, native: { nl: het is mooi weer, en: "the weather is nice" }, pos: phrase }
+  - { target: il fait chaud, native: { nl: het is warm, en: "it's hot, it's warm (weather)" }, pos: phrase }
+  - { target: il fait froid, native: { nl: het is koud, en: "it's cold (weather)" }, pos: phrase }
+  - { target: pleuvoir, native: { nl: regenen, en: "to rain" }, pos: verb }
+  - { target: neiger, native: { nl: sneeuwen, en: "to snow" }, pos: verb }
+  - { target: la pluie, native: { nl: de regen, en: "rain" }, pos: noun, gender: f }
+  - { target: la neige, native: { nl: de sneeuw, en: "snow" }, pos: noun, gender: f }
+  - { target: le vent, native: { nl: de wind, en: "wind" }, pos: noun, gender: m }
+  - { target: le nuage, native: { nl: de wolk, en: "cloud" }, pos: noun, gender: m }
+  - { target: le ciel, native: { nl: "de lucht, de hemel", en: "sky" }, pos: noun, gender: m }
+  - { target: "l'étoile", native: { nl: de ster, en: "star" }, pos: noun, gender: f }
+  - { target: la lune, native: { nl: de maan, en: "moon" }, pos: noun, gender: f }
+  - { target: chaud, native: { nl: "warm, heet", en: "hot, warm" }, pos: adjective, avoid: [fr.il-fait-chaud] }
+  - { target: froid, native: { nl: koud, en: "cold" }, pos: adjective, avoid: [fr.il-fait-froid] }
+  - { target: mauvais, native: { nl: slecht, en: "bad" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Il fait quel temps aujourd'hui ?", native: { nl: "Wat voor weer is het vandaag?", en: "What's the weather like today?" }, items: [fr.temps] }
+  - { id: s02, target: "Aujourd'hui, il fait beau.", native: { nl: "Vandaag is het mooi weer.", en: "Today the weather is nice." }, items: [fr.il-fait-beau] }
+  - { id: s03, target: "Il fait beau, on va à la plage ?", native: { nl: "Het is mooi weer, gaan we naar het strand?", en: "The weather's nice, shall we go to the beach?" }, items: [fr.il-fait-beau] }
+  - { id: s04, target: "En été, il fait chaud.", native: { nl: "In de zomer is het warm.", en: "In summer it's hot." }, items: [fr.il-fait-chaud] }
+  - { id: s05, target: "Il fait froid, mets ton manteau !", native: { nl: "Het is koud, doe je jas aan!", en: "It's cold, put your coat on!" }, items: [fr.il-fait-froid] }
+  - { id: s06, target: "Il pleut, je reste à la maison.", native: { nl: "Het regent, ik blijf thuis.", en: "It's raining, I'm staying at home." }, items: [fr.pleuvoir] }
+  - { id: s07, target: "Il neige ! On joue dehors ?", native: { nl: "Het sneeuwt! Gaan we buiten spelen?", en: "It's snowing! Shall we play outside?" }, items: [fr.neiger] }
+  - { id: s08, target: "Ce matin, il y a de la pluie.", native: { nl: "Vanochtend regent het.", en: "There's rain this morning." }, items: [fr.pluie] }
+  - { id: s09, target: "J'adore jouer dans la neige.", native: { nl: "Ik speel heel graag in de sneeuw.", en: "I love playing in the snow." }, items: [fr.neige] }
+  - { id: s10, target: "Il y a beaucoup de vent.", native: { nl: "Het waait hard.", en: "It's very windy." }, items: [fr.vent] }
+  - { id: s11, target: "Regarde le gros nuage noir !", native: { nl: "Kijk naar die grote zwarte wolk!", en: "Look at the big black cloud!" }, items: [fr.nuage] }
+  - { id: s12, target: "Le ciel est bleu.", native: { nl: "De lucht is blauw.", en: "The sky is blue." }, items: [fr.ciel] }
+  - { id: s13, target: "Le soir, je regarde les étoiles.", native: { nl: "'s Avonds kijk ik naar de sterren.", en: "In the evening I look at the stars." }, items: [fr.etoile] }
+  - { id: s14, target: "La lune est blanche ce soir.", native: { nl: "Vanavond is de maan wit.", en: "The moon is white tonight." }, items: [fr.lune] }
+  - { id: s15, target: "Mon chocolat est trop chaud !", native: { nl: "Mijn chocolademelk is te heet!", en: "My hot chocolate is too hot!" }, items: [fr.chaud] }
+  - { id: s16, target: "L'eau de la mer est froide.", native: { nl: "Het zeewater is koud.", en: "The water in the sea is cold." }, items: [fr.froid] }
+  - { id: s17, target: "Il fait mauvais aujourd'hui.", native: { nl: "Het is slecht weer vandaag.", en: "The weather is bad today." }, items: [fr.mauvais] }
+lessons:
+  - { id: l01, title: { nl: Mooi weer, en: "Nice weather" }, vocab: [fr.temps, fr.il-fait-beau, fr.il-fait-chaud, fr.il-fait-froid, fr.pleuvoir, fr.neiger] }
+  - { id: l02, title: { nl: Regen en sneeuw, en: "Rain and snow" }, vocab: [fr.pluie, fr.neige, fr.vent, fr.nuage, fr.ciel] }
+  - { id: l03, title: { nl: Sterren en maan, en: "The stars and the moon" }, vocab: [fr.etoile, fr.lune, fr.chaud, fr.froid, fr.mauvais] }

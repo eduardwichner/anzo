@@ -1,0 +1,36 @@
+id: en-b1-t03
+kind: reading
+title: { nl: Mijn eerste week op een nieuwe school }
+topic: Describing people (a blog post by a teenager)
+level: B1
+paragraphs:
+  - - { id: en-b1-t03-s01, target: "Last month my family moved to Bristol, so I had to start at a new school in the middle of the year.", native: { nl: "Vorige maand zijn we naar Bristol verhuisd, dus moest ik midden in het schooljaar op een nieuwe school beginnen." } }
+    - { id: en-b1-t03-s02, target: "I was really nervous on the first morning, because I'm quite shy with people I don't know.", native: { nl: "Ik was echt zenuwachtig op de eerste ochtend, omdat ik best verlegen ben bij mensen die ik niet ken." } }
+  - - { id: en-b1-t03-s03, target: "Luckily, my teacher asked a girl in my class called Ruby to look after me.", native: { nl: "Gelukkig vroeg mijn leraar aan een meisje uit mijn klas, Ruby, om me op te vangen." } }
+    - { id: en-b1-t03-s04, target: "Ruby is tiny, with short golden hair and a big smile, and she is the most sociable person I have ever met.", native: { nl: "Ruby is piepklein, met kort goudkleurig haar en een grote glimlach, en ze is de gezelligste persoon die ik ooit heb ontmoet." } }
+    - { id: en-b1-t03-s05, target: "By lunchtime she had introduced me to half the class!", native: { nl: "Tegen lunchtijd had ze me aan de halve klas voorgesteld!" } }
+  - - { id: en-b1-t03-s06, target: "Not everyone was so friendly.", native: { nl: "Niet iedereen was zo vriendelijk." } }
+    - { id: en-b1-t03-s07, target: "A tall boy at the back of the room laughed at my accent, which I thought was rude.", native: { nl: "Een lange jongen achterin de klas lachte om mijn accent, wat ik onbeleefd vond." } }
+    - { id: en-b1-t03-s08, target: "But on Thursday he lent me his calculator in the maths lesson and said sorry, so maybe he isn't as unkind as he looks.", native: { nl: "Maar donderdag leende hij me tijdens de wiskundeles zijn rekenmachine en zei sorry, dus misschien is hij niet zo onaardig als hij eruitziet." } }
+  - - { id: en-b1-t03-s09, target: "After one week, I already feel much more relaxed.", native: { nl: "Na één week voel ik me al veel ontspannener." } }
+    - { id: en-b1-t03-s10, target: "I still miss my old friends, but I'm sure I'll recognise everyone's face by next Friday.", native: { nl: "Ik mis mijn oude vrienden nog steeds, maar ik weet zeker dat ik tegen volgende vrijdag iedereen herken." } }
+glossary:
+  - { word: introduced, native: { nl: voorgesteld } }
+items: [en.shy, en.tiny, en.golden, en.sociable, en.rude, en.recognise, en.nervous, en.luckily, en.lunchtime, en.accent, en.lend, en.calculator, en.maybe, en.relaxed]
+questions:
+  - { id: en-b1-t03-q1, type: mc, question: "Why did the writer feel nervous on the first morning?", options: ["The writer is shy with new people.", "The writer was late for school.", "The writer didn't like the teacher."], correct: 0 }
+  - { id: en-b1-t03-q2, type: true_false_notgiven, statement: "Ruby has long dark hair.", answer: false }
+  - { id: en-b1-t03-q3, type: true_false_notgiven, statement: "Ruby is in the same class as the writer.", answer: true }
+  - { id: en-b1-t03-q4, type: true_false_notgiven, statement: "The tall boy is good at maths.", answer: not_given }
+  - { id: en-b1-t03-q5, type: mc, question: "What does the writer think about the tall boy at the end of the week?", options: ["He may be nicer than the writer thought.", "He is still very rude.", "He is the writer's best friend now."], correct: 0 }
+  - { id: en-b1-t03-q6, type: match_heading, paragraph: 3, options: ["A difficult start with one classmate", "A friendly guide", "Feeling at home"], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t03-l1, type: mc, question: "Who did the teacher ask to help the writer?", options: ["A girl called Ruby.", "A tall boy.", "The writer's old friends."], correct: 0 }
+  - { id: en-b1-t03-l2, type: true_false_notgiven, statement: "The writer feels more relaxed after a week.", answer: true }
+cloze:
+  - { sentence: en-b1-t03-s01, word: moved, kind: finite_verb, hint: { nl: "move (verleden tijd)" } }
+  - { sentence: en-b1-t03-s02, word: was, kind: finite_verb, hint: { nl: "be (verleden tijd)" } }
+  - { sentence: en-b1-t03-s03, word: asked, kind: finite_verb, hint: { nl: "ask (verleden tijd)" } }
+  - { sentence: en-b1-t03-s07, word: laughed, kind: finite_verb, hint: { nl: "laugh (verleden tijd)" } }
+  - { sentence: en-b1-t03-s08, word: lent, kind: finite_verb, hint: { nl: "lend (verleden tijd)" } }
+orderable: true

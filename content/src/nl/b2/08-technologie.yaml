@@ -1,0 +1,100 @@
+id: nl-b2-u08
+title: { en: Technology }
+icon: phone
+topic: Digital life, privacy, smart devices and artificial intelligence; relative clauses with waar + preposition (de app waarmee je betaalt, het apparaat waarvan ik de naam vergeten ben)
+vocabulary:
+  - { target: de technologie, native: { en: technology }, pos: noun, plural: technologieën }
+  - { target: het apparaat, native: { en: "device, appliance" }, pos: noun, plural: apparaten, avoid: [nl.toestel] }
+  - { target: de software, native: { en: software }, pos: noun, plural: "-" }
+  - { target: de robot, native: { en: robot }, pos: noun, plural: robots }
+  - { target: de intelligentie, native: { en: "intelligence (as in: artificial intelligence)" }, pos: noun, plural: "-" }
+  - { target: de toepassing, native: { en: "application, use" }, pos: noun, plural: toepassingen }
+  - { target: de ontwikkeling, native: { en: development }, pos: noun, plural: ontwikkelingen }
+  - { target: de uitvinding, native: { en: invention }, pos: noun, plural: uitvindingen }
+  - { target: het virus, native: { en: virus }, pos: noun, plural: virussen }
+  - { target: het bestand, native: { en: file }, pos: noun, plural: bestanden }
+  - { target: de batterij, native: { en: battery }, pos: noun, plural: batterijen }
+  - { target: de verbinding, native: { en: connection }, pos: noun, plural: verbindingen }
+  - { target: de gebruiker, native: { en: user }, pos: noun, plural: gebruikers }
+  - { target: het misbruik, native: { en: "abuse, misuse" }, pos: noun, plural: "-" }
+  - { target: de sensor, native: { en: sensor }, pos: noun, plural: sensoren }
+  - { target: de stroom, native: { en: "electricity, power; stream" }, pos: noun, plural: stromen }
+  - { target: de innovatie, native: { en: innovation }, pos: noun, plural: innovaties, avoid: [nl.uitvinding] }
+  - { target: de zoekmachine, native: { en: search engine }, pos: noun, plural: zoekmachines }
+  - { target: de hacker, native: { en: hacker }, pos: noun, plural: hackers }
+  - { target: de wifi, native: { en: wifi }, pos: noun, plural: "-" }
+  - { target: de eeuw, native: { en: century }, pos: noun, plural: eeuwen }
+  - { target: het gebrek, native: { en: "lack, shortage" }, pos: noun, plural: gebreken }
+  - { target: de basis, native: { en: "basis, base" }, pos: noun, plural: bases }
+  - { target: de soort, native: { en: "kind, sort, type" }, pos: noun, plural: soorten }
+  - { target: het moment, native: { en: moment }, pos: noun, plural: momenten }
+  - { target: uitvinden, native: { en: to invent }, pos: verb }
+  - { target: installeren, native: { en: to install }, pos: verb }
+  - { target: updaten, native: { en: to update }, pos: verb }
+  - { target: opslaan, native: { en: "to save, to store" }, pos: verb }
+  - { target: verzamelen, native: { en: "to collect, to gather" }, pos: verb }
+  - { target: misbruiken, native: { en: "to abuse, to misuse" }, pos: verb }
+  - { target: hacken, native: { en: to hack }, pos: verb }
+  - { target: meten, native: { en: to measure }, pos: verb }
+  - { target: berekenen, native: { en: to calculate }, pos: verb }
+  - { target: kunstmatig, native: { en: artificial }, pos: adjective }
+  - { target: automatisch, native: { en: automatic }, pos: adjective }
+  - { target: nuttig, native: { en: useful }, pos: adjective, avoid: [nl.handig] }
+  - { target: afhankelijk, native: { en: "dependent (+ van)" }, pos: adjective }
+  - { target: elektrisch, native: { en: electric }, pos: adjective }
+  - { target: wereldwijd, native: { en: worldwide }, pos: adjective }
+  - { target: perfect, native: { en: perfect }, pos: adjective }
+  - { target: de update, native: { en: update }, pos: noun, plural: updates }
+  - { target: de cloud, native: { en: "the cloud (online storage)" }, pos: noun, plural: "-" }
+  - { target: de thermostaat, native: { en: thermostat }, pos: noun, plural: thermostaten }
+  - { target: verbinden, native: { en: "to connect" }, pos: verb }
+sentences:
+  - { id: s01, target: "Technologie verandert ons leven elke dag.", native: { en: "Technology changes our lives every day." }, items: [nl.technologie], acceptAlso: ["Elke dag verandert technologie ons leven.", "Technologie verandert elke dag ons leven."] }
+  - { id: s02, target: "In onze keuken staan veel elektrische apparaten.", native: { en: "There are a lot of electrical appliances in our kitchen." }, items: [nl.apparaat, nl.elektrisch] }
+  - { id: s03, target: "De software van mijn laptop is te oud.", native: { en: "The software on my laptop is too old." }, items: [nl.software] }
+  - { id: s04, target: "In die fabriek doen robots het zware werk.", native: { en: "In that factory robots do the heavy work." }, items: [nl.robot] }
+  - { id: s05, target: "Kunstmatige intelligentie kan teksten schrijven en beelden maken.", native: { en: "Artificial intelligence can write texts and create images." }, items: [nl.intelligentie, nl.kunstmatig] }
+  - { id: s06, target: "Deze toepassing helpt mensen die slecht zien om de weg te vinden.", native: { en: "This application helps people who can't see well find their way." }, items: [nl.toepassing] }
+  - { id: s07, target: "De ontwikkeling van nieuwe medicijnen duurt jaren.", native: { en: "The development of new medicines takes years." }, items: [nl.ontwikkeling], form: { word: ontwikkeling, stem: ontwikkelen } }
+  - { id: s08, target: "De computer is een van de belangrijkste uitvindingen van de vorige eeuw.", native: { en: "The computer is one of the most important inventions of the last century." }, items: [nl.uitvinding, nl.eeuw] }
+  - { id: s09, target: "Een virus heeft al mijn bestanden kapotgemaakt.", native: { en: "A virus has destroyed all my files." }, items: [nl.virus, nl.bestand] }
+  - { id: s10, target: "Mijn batterij is bijna leeg.", native: { en: "My battery is almost flat." }, items: [nl.batterij] }
+  - { id: s11, target: "In de trein is de verbinding vaak slecht.", native: { en: "The connection is often poor on the train." }, items: [nl.verbinding], acceptAlso: ["De verbinding is in de trein vaak slecht.", "Vaak is de verbinding in de trein slecht.", "De verbinding is vaak slecht in de trein."] }
+  - { id: s12, target: "De app heeft wereldwijd meer dan een miljoen gebruikers.", native: { en: "The app has more than a million users worldwide." }, items: [nl.gebruiker, nl.wereldwijd], acceptAlso: ["Wereldwijd heeft de app meer dan een miljoen gebruikers.", "De app heeft meer dan een miljoen gebruikers wereldwijd."] }
+  - { id: s13, target: "Het misbruik van persoonlijke gegevens is een groot probleem.", native: { en: "The misuse of personal data is a big problem." }, items: [nl.misbruik], form: { word: persoonlijke, stem: persoon } }
+  - { id: s14, target: "Een sensor meet de temperatuur in de kamer.", native: { en: "A sensor measures the temperature in the room." }, items: [nl.sensor, nl.meten] }
+  - { id: s15, target: "Een elektrische auto rijdt op stroom.", native: { en: "An electric car runs on electricity." }, items: [nl.stroom, nl.elektrisch] }
+  - { id: s16, target: "Ons bedrijf investeert veel in innovatie.", native: { en: "Our company invests a lot in innovation." }, items: [nl.innovatie] }
+  - { id: s17, target: "Welke zoekmachine gebruik jij?", native: { en: "Which search engine do you use?" }, items: [nl.zoekmachine] }
+  - { id: s18, target: "Hackers hebben de website van de stad gehackt.", native: { en: "Hackers have hacked the city's website." }, items: [nl.hacker, nl.hacken] }
+  - { id: s19, target: "Is er gratis wifi in het hotel?", native: { en: "Is there free wifi in the hotel?" }, items: [nl.wifi] }
+  - { id: s20, target: "Door een gebrek aan tijd heb ik de update nog niet geïnstalleerd.", native: { en: "Because of a lack of time I haven't installed the update yet." }, items: [nl.gebrek, nl.installeren, nl.update] }
+  - { id: s21, target: "Een goed wachtwoord is de basis van je veiligheid online.", native: { en: "A good password is the foundation of your online security." }, items: [nl.basis], form: { word: veiligheid, stem: veilig } }
+  - { id: s22, target: "Wat voor soort laptop zoek je?", native: { en: "What kind of laptop are you looking for?" }, items: [nl.soort] }
+  - { id: s23, target: "Op dit moment werkt de website niet.", native: { en: "At the moment the website isn't working." }, items: [nl.moment], acceptAlso: ["De website werkt op dit moment niet."] }
+  - { id: s24, target: "Wie heeft de computer uitgevonden?", native: { en: "Who invented the computer?" }, items: [nl.uitvinden] }
+  - { id: s25, target: "Je moet de app eerst installeren.", native: { en: "You have to install the app first." }, items: [nl.installeren] }
+  - { id: s26, target: "Vergeet niet om je gsm regelmatig te updaten.", native: { en: "Don't forget to update your mobile phone regularly." }, items: [nl.updaten] }
+  - { id: s27, target: "Ik sla mijn foto's op in de cloud.", native: { en: "I save my photos in the cloud." }, items: [nl.opslaan, nl.cloud], finite: { word: sla, hint: { en: "opslaan (present)" } } }
+  - { id: s28, target: "Die app verzamelt veel gegevens over zijn gebruikers.", native: { en: "That app collects a lot of data about its users." }, items: [nl.verzamelen, nl.gebruiker], finite: { word: verzamelt, hint: { en: "verzamelen (present)" } } }
+  - { id: s29, target: "Sommige bedrijven misbruiken je gegevens.", native: { en: "Some companies misuse your data." }, items: [nl.misbruiken] }
+  - { id: s30, target: "De app berekent hoeveel stappen je per dag zet.", native: { en: "The app calculates how many steps you take per day." }, items: [nl.berekenen], acceptAlso: ["De app berekent hoeveel stappen je zet per dag."] }
+  - { id: s31, target: "De lamp gaat automatisch aan als je binnenkomt.", native: { en: "The lamp switches on automatically when you come in." }, items: [nl.automatisch] }
+  - { id: s32, target: "Dat is een heel nuttige app voor studenten.", native: { en: "That is a very useful app for students." }, items: [nl.nuttig], acceptAlso: ["Dat is voor studenten een heel nuttige app."] }
+  - { id: s33, target: "Veel jongeren zijn afhankelijk van hun smartphone.", native: { en: "Many young people are dependent on their smartphones." }, items: [nl.afhankelijk] }
+  - { id: s34, target: "Geen enkel systeem is perfect.", native: { en: "No system is perfect." }, items: [nl.perfect] }
+  - { id: s35, target: "Dit is de app waarmee ik mijn rekeningen betaal.", native: { en: "This is the app I pay my bills with." }, items: [nl.gebruiker], build: true }
+  - { id: s36, target: "Het apparaat waarover ik je vertelde, is nu te koop.", native: { en: "The device I told you about is now for sale." }, items: [nl.apparaat] }
+  - { id: s37, target: "De robot waarvan je de foto zag, kan zelf koken.", native: { en: "The robot whose photo you saw can cook by itself." }, items: [nl.robot], build: true }
+  - { id: s38, target: "Dat is een ontwikkeling waardoor veel jobs verdwijnen.", native: { en: "That is a development that is causing a lot of jobs to disappear." }, items: [nl.ontwikkeling] }
+  - { id: s39, target: "Het bestand waarin alle namen staan, is verdwenen.", native: { en: "The file with all the names in it has disappeared." }, items: [nl.bestand] }
+  - { id: s40, target: "Een slimme thermostaat bespaart energie.", native: { en: "A smart thermostat saves energy." }, items: [nl.thermostaat] }
+  - { id: s41, target: "Een computer kan sneller rekenen dan een mens, maar begrijpt niets.", native: { en: "A computer can calculate faster than a person, but understands nothing." }, items: [nl.robot] }
+  - { id: s42, target: "De uitvinding van het internet veranderde de wereld.", native: { en: "The invention of the internet changed the world." }, items: [nl.uitvinding] }
+  - { id: s43, target: "Deze apparaten zijn niet erg gebruiksvriendelijk.", native: { en: "These devices are not very user-friendly." }, items: [nl.apparaat] }
+  - { id: s44, target: "Is je laptop met de wifi verbonden?", native: { en: "Is your laptop connected to the wifi?" }, items: [nl.verbinden, nl.wifi], acceptAlso: ["Is je laptop verbonden met de wifi?"] }
+transforms:
+  - { id: x01, from: "Ik kan niet zonder mijn gsm.", key: afhankelijk, gapped: "Ik ben ___ mijn gsm.", answers: ["afhankelijk van", "volledig afhankelijk van", "helemaal afhankelijk van"], items: [nl.afhankelijk] }
+  - { id: x02, from: "Met deze app betaal ik mijn rekeningen.", key: waarmee, gapped: "Dit is de app ___ rekeningen betaal.", answers: ["waarmee ik mijn"], items: [nl.gebruiker] }
+  - { id: x03, from: "We hebben te weinig tijd.", key: gebrek, gapped: "Er is een ___ tijd.", answers: ["gebrek aan"], items: [nl.gebrek] }
+texts: [nl-b2-t09]

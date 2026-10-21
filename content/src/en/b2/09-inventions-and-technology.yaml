@@ -1,0 +1,70 @@
+id: en-b2-u09
+title: { nl: Uitvindingen en technologie }
+icon: tech
+topic: Inventions and inventors, devices, artificial intelligence and automation, online security; the passive in all tenses (is being developed, has been invented, will be replaced)
+vocabulary:
+  - { target: device, native: { nl: "apparaat, toestel" }, pos: noun, avoid: [en.gadget] }
+  - { target: gadget, native: { nl: "snufje, handig apparaatje" }, pos: noun, avoid: [en.device] }
+  - { target: prototype, native: { nl: prototype }, pos: noun, noBlank: true }
+  - { target: ingenious, native: { nl: "vernuftig, ingenieus" }, pos: adjective }
+  - { target: innovation, native: { nl: "vernieuwing, innovatie" }, pos: noun }
+  - { target: innovative, native: { nl: "vernieuwend, innovatief" }, pos: adjective, avoid: [en.cutting-edge] }
+  - { target: breakthrough, native: { nl: doorbraak }, pos: noun }
+  - { target: artificial intelligence, native: { nl: "kunstmatige intelligentie" }, pos: noun }
+  - { target: automation, native: { nl: automatisering }, pos: noun }
+  - { target: algorithm, native: { nl: algoritme }, pos: noun, noBlank: true }
+  - { target: upgrade, native: { nl: "upgraden, bijwerken (naar een nieuwere versie)" }, pos: verb, avoid: [en.catch-up], noBlank: true }
+  - { target: wireless, native: { nl: draadloos }, pos: adjective }
+  - { target: user-friendly, native: { nl: gebruiksvriendelijk }, pos: adjective }
+  - { target: virtual, native: { nl: virtueel }, pos: adjective, noBlank: true }
+  - { target: patent, native: { nl: "octrooi, patent" }, pos: noun }
+  - { target: manufacture, native: { nl: "vervaardigen, produceren" }, pos: verb }
+  - { target: mechanism, native: { nl: mechanisme }, pos: noun, noBlank: true }
+  - { target: solar, native: { nl: "zonne-" }, pos: adjective }
+  - { target: renewable, native: { nl: "hernieuwbaar" }, pos: adjective }
+  - { target: cutting-edge, native: { nl: "allernieuwste, ultramodern" }, pos: adjective, avoid: [en.innovative], noBlank: true }
+  - { target: obsolete, native: { nl: "verouderd, in onbruik" }, pos: adjective, avoid: [en.outdated] }
+  - { target: outdated, native: { nl: "verouderd, achterhaald" }, pos: adjective, avoid: [en.obsolete] }
+  - { target: technological, native: { nl: technologisch }, pos: adjective }
+  - { target: hacker, native: { nl: hacker }, pos: noun, noBlank: true }
+  - { target: function, native: { nl: "functie" }, pos: noun }
+  - { target: depend on, native: { nl: "afhangen van, afhankelijk zijn van" }, pos: phrase, avoid: [en.rely-on] }
+  - { target: come up with, native: { nl: "bedenken (een idee, een oplossing)" }, pos: phrase }
+sentences:
+  - { id: s01, target: "Most people check their device as soon as they wake up.", native: { nl: "De meeste mensen kijken op hun toestel zodra ze wakker worden." }, items: [en.device], acceptAlso: ["As soon as they wake up, most people check their device."] }
+  - { id: s02, target: "My uncle loves gadgets and always buys the latest ones.", native: { nl: "Mijn oom houdt van snufjes en koopt altijd de nieuwste." }, items: [en.gadget] }
+  - { id: s03, target: "The students built a prototype of a robot that sorts rubbish.", native: { nl: "De leerlingen bouwden een prototype van een robot die afval sorteert." }, items: [en.prototype] }
+  - { id: s04, target: "It's an ingenious idea, but will it work?", native: { nl: "Het is een vernuftig idee, maar zal het werken?" }, items: [en.ingenious] }
+  - { id: s05, target: "The smartphone was one of the greatest innovations of the century.", native: { nl: "De smartphone was een van de grootste vernieuwingen van de eeuw." }, items: [en.innovation] }
+  - { id: s06, target: "The company is famous for its innovative designs.", native: { nl: "Het bedrijf is bekend om zijn vernieuwende ontwerpen." }, items: [en.innovative] }
+  - { id: s07, target: "Scientists hope for a breakthrough in battery technology.", native: { nl: "Wetenschappers hopen op een doorbraak in batterijtechnologie." }, items: [en.breakthrough] }
+  - { id: s08, target: "Artificial intelligence can now write poems and paint pictures.", native: { nl: "Kunstmatige intelligentie kan nu gedichten schrijven en schilderijen maken." }, items: [en.artificial-intelligence] }
+  - { id: s09, target: "Automation has changed the way cars are made.", native: { nl: "Automatisering heeft de manier veranderd waarop auto's worden gemaakt." }, items: [en.automation] }
+  - { id: s10, target: "The app uses an algorithm to choose the videos you see.", native: { nl: "De app gebruikt een algoritme om de video's te kiezen die je ziet." }, items: [en.algorithm] }
+  - { id: s11, target: "You should upgrade your software to the latest version.", native: { nl: "Je moet je software naar de nieuwste versie upgraden." }, items: [en.upgrade] }
+  - { id: s12, target: "Wireless headphones are easy to lose.", native: { nl: "Draadloze koptelefoons verlies je makkelijk." }, items: [en.wireless] }
+  - { id: s13, target: "The new website is much more user-friendly.", native: { nl: "De nieuwe website is veel gebruiksvriendelijker." }, items: [en.user-friendly] }
+  - { id: s14, target: "With virtual reality you can visit a museum from your sofa.", native: { nl: "Met virtual reality kun je vanuit je zetel een museum bezoeken." }, items: [en.virtual] }
+  - { id: s15, target: "She applied for a patent for her invention.", native: { nl: "Ze vroeg een octrooi aan voor haar uitvinding." }, items: [en.patent] }
+  - { id: s16, target: "These phones are manufactured in several countries.", native: { nl: "Deze telefoons worden in verschillende landen geproduceerd." }, items: [en.manufacture] }
+  - { id: s17, target: "A simple mechanism opens the door when you come near.", native: { nl: "Een eenvoudig mechanisme opent de deur als je dichterbij komt." }, items: [en.mechanism] }
+  - { id: s18, target: "Solar energy can heat the water in your house.", native: { nl: "Zonne-energie kan het water in je huis verwarmen." }, items: [en.solar] }
+  - { id: s19, target: "Wind and sun are renewable sources of energy.", native: { nl: "Wind en zon zijn hernieuwbare energiebronnen." }, items: [en.renewable] }
+  - { id: s20, target: "The hospital uses cutting-edge equipment.", native: { nl: "Het ziekenhuis gebruikt de allernieuwste apparatuur." }, items: [en.cutting-edge] }
+  - { id: s21, target: "Mobile phones quickly become obsolete.", native: { nl: "Gsm's raken snel in onbruik." }, items: [en.obsolete] }
+  - { id: s22, target: "The information in this book is outdated.", native: { nl: "De informatie in dit boek is achterhaald." }, items: [en.outdated] }
+  - { id: s23, target: "We live in a time of very fast technological change.", native: { nl: "We leven in een tijd van heel snelle technologische verandering." }, items: [en.technological], form: { word: technological, stem: technology } }
+  - { id: s24, target: "A hacker stole the passwords of thousands of users.", native: { nl: "Een hacker stal de wachtwoorden van duizenden gebruikers." }, items: [en.hacker] }
+  - { id: s25, target: "This button has two functions.", native: { nl: "Deze knop heeft twee functies." }, items: [en.function] }
+  - { id: s26, target: "Whether we go cycling depends on the weather.", native: { nl: "Of we gaan fietsen, hangt af van het weer." }, items: [en.depend-on] }
+  - { id: s27, target: "She came up with the idea while she was cycling to school.", native: { nl: "Ze bedacht het idee terwijl ze naar school fietste." }, items: [en.come-up-with] }
+  - { id: s29, target: "A new kind of battery is being developed at our university.", native: { nl: "Er wordt aan onze universiteit een nieuw soort batterij ontwikkeld." }, items: [en.breakthrough], build: true, acceptAlso: ["At our university a new kind of battery is being developed."] }
+  - { id: s30, target: "The telephone was invented in the nineteenth century.", native: { nl: "De telefoon werd in de negentiende eeuw uitgevonden." }, items: [en.innovation], build: true, acceptAlso: ["In the nineteenth century the telephone was invented."] }
+  - { id: s31, target: "Many jobs will be replaced by automation in the future.", native: { nl: "Veel banen zullen in de toekomst door automatisering vervangen worden." }, items: [en.automation], build: true, acceptAlso: ["In the future many jobs will be replaced by automation."] }
+  - { id: s32, target: "Hackers have stolen my password twice this year.", native: { nl: "Hackers hebben dit jaar twee keer mijn wachtwoord gestolen." }, items: [en.hacker] }
+  - { id: s33, target: "Engineers are designing devices that can help older people.", native: { nl: "Ingenieurs ontwerpen toestellen die oudere mensen kunnen helpen." }, items: [en.device] }
+transforms:
+  - { id: x01, from: "Someone has stolen my bike.", key: been, gapped: "My bike ___.", answers: ["has been stolen", "has been stolen by someone"], items: [en.device] }
+  - { id: x02, from: "They are building a new factory near the town.", key: being, gapped: "A new factory ___ near the town.", answers: ["is being built"], items: [en.manufacture] }
+  - { id: x03, from: "Who first had the idea for the internet?", key: came, gapped: "Who first ___ the idea for the internet?", answers: ["came up with"], items: [en.come-up-with] }
+texts: [en-b2-t09]

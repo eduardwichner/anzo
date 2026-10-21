@@ -1,0 +1,38 @@
+id: en-b1-t04
+kind: dialogue
+title: { nl: Na het toneelstuk }
+topic: Feelings (two friends after the school play)
+level: B1
+speakers: { A: { name: Sophie }, B: { name: Josh } }
+turns:
+  - { id: en-b1-t04-s01, speaker: A, target: "Josh, can I talk to you? I feel awful about tonight.", native: { nl: "Josh, kan ik even met je praten? Ik voel me rot over vanavond." } }
+  - { id: en-b1-t04-s02, speaker: B, target: "Why? The play was great! Everyone was clapping at the end.", native: { nl: "Waarom? Het toneelstuk was geweldig! Iedereen klapte aan het eind." } }
+  - { id: en-b1-t04-s03, speaker: A, target: "But I forgot my lines in the second scene. I was so embarrassed that I wanted to run off the stage.", native: { nl: "Maar ik vergat mijn tekst in de tweede scène. Ik voelde me zo opgelaten dat ik van het podium wilde rennen." } }
+  - { id: en-b1-t04-s04, speaker: B, target: "Honestly, I didn't notice. You just waited a moment and then carried on.", native: { nl: "Eerlijk gezegd merkte ik het niet. Je wachtte gewoon even en ging toen verder." } }
+  - { id: en-b1-t04-s05, speaker: A, target: "It felt like ten minutes to me! I was terrified.", native: { nl: "Voor mij voelde het als tien minuten! Ik was doodsbang." } }
+  - { id: en-b1-t04-s06, speaker: B, target: "Everybody gets nervous on stage. Last year I dropped a whole tray of cups during the song.", native: { nl: "Iedereen wordt zenuwachtig op het podium. Vorig jaar liet ik tijdens het lied een heel dienblad met bekers vallen." } }
+  - { id: en-b1-t04-s07, speaker: A, target: "Really? What did you do?", native: { nl: "Echt? Wat deed je toen?" } }
+  - { id: en-b1-t04-s08, speaker: B, target: "I laughed, and the audience laughed too. Mr Turner said it was the best part of the show!", native: { nl: "Ik lachte, en het publiek lachte ook. Meneer Turner zei dat het het beste deel van de voorstelling was!" } }
+  - { id: en-b1-t04-s09, speaker: A, target: "That makes me feel a bit better. But my parents must be disappointed.", native: { nl: "Daar voel ik me een beetje beter door. Maar mijn ouders moeten wel teleurgesteld zijn." } }
+  - { id: en-b1-t04-s10, speaker: B, target: "Are you joking? Your mum was taking photos all the time. She looked really proud of you.", native: { nl: "Maak je een grapje? Je moeder nam de hele tijd foto's. Ze leek echt trots op je." } }
+  - { id: en-b1-t04-s11, speaker: A, target: "Oh, I'm so relieved. Thanks, Josh. You always know what to say.", native: { nl: "O, ik ben zo opgelucht. Bedankt, Josh. Jij weet altijd wat je moet zeggen." } }
+glossary:
+  - { word: lines, native: { nl: "tekst (van een toneelspeler)" } }
+  - { word: tray, native: { nl: dienblad } }
+items: [en.awful, en.embarrassed, en.terrified, en.nervous, en.disappointed, en.proud, en.relieved, en.scene, en.audience, en.honestly, en.carry-on, en.moment, en.everybody, en.joke]
+questions:
+  - { id: en-b1-t04-q1, type: mc, question: "Why does Sophie feel awful?", options: ["She forgot what to say in the play.", "She fell off the stage.", "Her parents didn't come."], correct: 0 }
+  - { id: en-b1-t04-q2, type: true_false_notgiven, statement: "Mr Turner is the head teacher.", answer: not_given }
+  - { id: en-b1-t04-q3, type: true_false_notgiven, statement: "Josh dropped something during last year's show.", answer: true }
+  - { id: en-b1-t04-q4, type: true_false_notgiven, statement: "Josh noticed Sophie's mistake immediately.", answer: false }
+  - { id: en-b1-t04-q5, type: mc, question: "How does Sophie feel at the end?", options: ["Relieved.", "Angry with Josh.", "Still terrified."], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t04-l1, type: mc, question: "What did Josh drop last year?", options: ["A tray of cups.", "His phone.", "A camera."], correct: 0 }
+  - { id: en-b1-t04-l2, type: true_false_notgiven, statement: "Sophie's mum took photos during the play.", answer: true }
+cloze:
+  - { sentence: en-b1-t04-s03, word: forgot, kind: finite_verb, hint: { nl: "forget (verleden tijd)" } }
+  - { sentence: en-b1-t04-s04, word: waited, kind: finite_verb, hint: { nl: "wait (verleden tijd)" } }
+  - { sentence: en-b1-t04-s06, word: dropped, kind: finite_verb, hint: { nl: "drop (verleden tijd)" } }
+  - { sentence: en-b1-t04-s08, word: said, kind: finite_verb, hint: { nl: "say (verleden tijd)" } }
+  - { sentence: en-b1-t04-s10, word: looked, kind: finite_verb, hint: { nl: "look (verleden tijd)" } }
+orderable: true

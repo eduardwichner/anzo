@@ -1,0 +1,98 @@
+id: nl-b2-u05
+title: { en: Health care }
+icon: health
+topic: The health system, prevention, mental health, care for older people; the passive in all tenses (wordt, werd, is/was + participle, zal … worden)
+vocabulary:
+  - { target: de gezondheidszorg, native: { en: health care }, pos: noun, plural: "-" }
+  - { target: de preventie, native: { en: prevention }, pos: noun, plural: "-" }
+  - { target: de inenting, native: { en: "vaccination, jab" }, pos: noun, plural: inentingen, avoid: [nl.vaccinatie] }
+  - { target: de wachtlijst, native: { en: waiting list }, pos: noun, plural: wachtlijsten }
+  - { target: de therapie, native: { en: therapy }, pos: noun, plural: therapieën }
+  - { target: de therapeut, native: { en: therapist }, pos: noun, plural: therapeuten }
+  - { target: de psychiater, native: { en: psychiatrist }, pos: noun, plural: psychiaters }
+  - { target: de depressie, native: { en: depression }, pos: noun, plural: depressies }
+  - { target: de stoornis, native: { en: disorder }, pos: noun, plural: stoornissen }
+  - { target: het welzijn, native: { en: well-being }, pos: noun, plural: "-" }
+  - { target: de verwijzing, native: { en: referral (to a specialist) }, pos: noun, plural: verwijzingen }
+  - { target: de diagnose, native: { en: diagnosis }, pos: noun, plural: diagnoses }
+  - { target: het herstel, native: { en: recovery }, pos: noun, plural: "-" }
+  - { target: de revalidatie, native: { en: rehabilitation }, pos: noun, plural: "-" }
+  - { target: de zorgverlener, native: { en: care provider }, pos: noun, plural: zorgverleners, avoid: [nl.hulpverlener] }
+  - { target: de mantelzorg, native: { en: "informal care (by family or friends)" }, pos: noun, plural: "-" }
+  - { target: de mantelzorger, native: { en: "carer (a family member or friend)" }, pos: noun, plural: mantelzorgers }
+  - { target: de thuisverpleging, native: { en: home nursing }, pos: noun, plural: "-" }
+  - { target: het woonzorgcentrum, native: { en: "care home (for older people)" }, pos: noun, plural: woonzorgcentra, alsoNL: het verzorgingshuis }
+  - { target: de vergrijzing, native: { en: ageing (of the population) }, pos: noun, plural: "-" }
+  - { target: de levensverwachting, native: { en: life expectancy }, pos: noun, plural: levensverwachtingen }
+  - { target: het overgewicht, native: { en: being overweight }, pos: noun, plural: "-" }
+  - { target: de slapeloosheid, native: { en: insomnia }, pos: noun, plural: "-" }
+  - { target: het taboe, native: { en: taboo }, pos: noun, plural: taboes }
+  - { target: de hulpverlener, native: { en: "care worker, counsellor" }, pos: noun, plural: hulpverleners }
+  - { target: de oorzaak, native: { en: cause }, pos: noun, plural: oorzaken }
+  - { target: het gevolg, native: { en: consequence }, pos: noun, plural: gevolgen }
+  - { target: het risico, native: { en: risk }, pos: noun, plural: "risico's" }
+  - { target: de bevolking, native: { en: population }, pos: noun, plural: bevolkingen }
+  - { target: opereren, native: { en: to operate (on) }, pos: verb }
+  - { target: voorkomen, native: { en: to prevent }, pos: verb }
+  - { target: ondersteunen, native: { en: to support }, pos: verb }
+  - { target: verhogen, native: { en: "to raise, to increase" }, pos: verb, avoid: [nl.stijgen] }
+  - { target: verlagen, native: { en: "to lower, to reduce" }, pos: verb, avoid: [nl.dalen, nl.verminderen] }
+  - { target: mentaal, native: { en: mental }, pos: adjective, avoid: [nl.psychisch] }
+  - { target: chronisch, native: { en: chronic }, pos: adjective }
+  - { target: psychisch, native: { en: "psychological, mental (illness)" }, pos: adjective }
+  - { target: preventief, native: { en: preventive }, pos: adjective }
+  - { target: lichamelijk, native: { en: physical }, pos: adjective }
+  - { target: kwetsbaar, native: { en: vulnerable }, pos: adjective }
+  - { target: toegankelijk, native: { en: accessible }, pos: adjective }
+  - { target: gemiddeld, native: { en: average }, pos: adjective }
+  - { target: de diabetes, native: { en: diabetes }, pos: noun, plural: "-" }
+  - { target: de oudere, native: { en: older person }, pos: noun, plural: ouderen }
+  - { target: de arts, native: { en: doctor }, pos: noun, plural: artsen, avoid: [nl.dokter] }
+  - { target: herkennen, native: { en: to recognise }, pos: verb }
+  - { target: inenten, native: { en: to vaccinate }, pos: verb }
+  - { target: omgaan, native: { en: "to deal (with), to cope (with) (+ met)" }, pos: verb }
+  - { target: opsporen, native: { en: "to detect, to track down" }, pos: verb, avoid: [nl.herkennen] }
+  - { target: grotendeels, native: { en: "largely, for the most part" }, pos: adverb }
+sentences:
+  - { id: s01, target: "De gezondheidszorg in België wordt grotendeels door de overheid betaald.", native: { en: "Health care in Belgium is largely paid for by the government." }, items: [nl.gezondheidszorg], finite: { word: wordt, hint: { en: "worden (present)" } } }
+  - { id: s02, target: "Preventie is beter dan genezen.", native: { en: "Prevention is better than cure." }, items: [nl.preventie] }
+  - { id: s03, target: "Alle kinderen worden gratis ingeënt.", native: { en: "All children are vaccinated free of charge." }, items: [nl.inenting, nl.inenten] }
+  - { id: s04, target: "Voor een afspraak bij de psychiater staat ze al maanden op een wachtlijst.", native: { en: "She has been on a waiting list for an appointment with a psychiatrist for months." }, items: [nl.wachtlijst, nl.psychiater], acceptAlso: ["Ze staat al maanden op een wachtlijst voor een afspraak bij de psychiater."] }
+  - { id: s05, target: "Na de therapie voelde hij zich veel beter.", native: { en: "After the therapy he felt much better." }, items: [nl.therapie], acceptAlso: ["Hij voelde zich na de therapie veel beter."] }
+  - { id: s06, target: "Mijn therapeut leert me hoe ik met stress kan omgaan.", native: { en: "My therapist is teaching me how to deal with stress." }, items: [nl.therapeut] }
+  - { id: s07, target: "Een depressie wordt vaak te laat herkend.", native: { en: "Depression is often recognised too late." }, items: [nl.depressie], acceptAlso: ["Vaak wordt een depressie te laat herkend."] }
+  - { id: s08, target: "Een angststoornis kan goed behandeld worden.", native: { en: "An anxiety disorder can be treated effectively." }, items: [nl.stoornis], acceptAlso: ["Een angststoornis kan goed worden behandeld."], build: true }
+  - { id: s09, target: "Sport is goed voor je lichamelijke en mentale welzijn.", native: { en: "Sport is good for your physical and mental well-being." }, items: [nl.welzijn, nl.lichamelijk, nl.mentaal], form: { word: lichamelijke, stem: lichaam } }
+  - { id: s10, target: "Met een verwijzing van de huisarts betaal je minder bij de specialist.", native: { en: "With a referral from your GP you pay less at the specialist's." }, items: [nl.verwijzing], acceptAlso: ["Met een verwijzing van de huisarts betaal je bij de specialist minder.", "Bij de specialist betaal je met een verwijzing van de huisarts minder."] }
+  - { id: s11, target: "De diagnose werd pas na veel onderzoeken gesteld.", native: { en: "The diagnosis was only made after many tests." }, items: [nl.diagnose], finite: { word: werd, hint: { en: "worden (past)" } } }
+  - { id: s12, target: "Het herstel na de operatie verliep sneller dan verwacht.", native: { en: "The recovery after the operation was quicker than expected." }, items: [nl.herstel] }
+  - { id: s13, target: "Na het ongeval volgde hij zes maanden revalidatie.", native: { en: "After the accident he had six months of rehabilitation." }, items: [nl.revalidatie], acceptAlso: ["Hij volgde na het ongeval zes maanden revalidatie."] }
+  - { id: s14, target: "Zorgverleners hebben te weinig tijd voor elke patiënt.", native: { en: "Care providers have too little time for each patient." }, items: [nl.zorgverlener] }
+  - { id: s15, target: "Zonder mantelzorg zou het systeem niet werken.", native: { en: "Without informal care the system wouldn't work." }, items: [nl.mantelzorg], acceptAlso: ["Het systeem zou zonder mantelzorg niet werken.", "Het systeem zou niet werken zonder mantelzorg."] }
+  - { id: s16, target: "Als mantelzorger zorgt ze elke dag voor haar moeder.", native: { en: "As a carer she looks after her mother every day." }, items: [nl.mantelzorger], acceptAlso: ["Ze zorgt als mantelzorger elke dag voor haar moeder."] }
+  - { id: s17, target: "De thuisverpleging komt elke ochtend langs.", native: { en: "The home nurses come round every morning." }, items: [nl.thuisverpleging] }
+  - { id: s18, target: "Mijn grootvader woont sinds vorig jaar in een woonzorgcentrum.", native: { en: "My grandfather has been living in a care home since last year." }, items: [nl.woonzorgcentrum], acceptAlso: ["Sinds vorig jaar woont mijn grootvader in een woonzorgcentrum."] }
+  - { id: s19, target: "Door de vergrijzing zullen er meer verpleegkundigen nodig zijn.", native: { en: "Because of the ageing population, more nurses will be needed." }, items: [nl.vergrijzing] }
+  - { id: s20, target: "De levensverwachting is de laatste honderd jaar sterk gestegen.", native: { en: "Life expectancy has risen sharply over the last hundred years." }, items: [nl.levensverwachting] }
+  - { id: s21, target: "Overgewicht verhoogt het risico op hartproblemen.", native: { en: "Being overweight increases the risk of heart problems." }, items: [nl.overgewicht, nl.verhogen, nl.risico], finite: { word: verhoogt, hint: { en: "verhogen (present)" } } }
+  - { id: s22, target: "Slapeloosheid heeft vaak een psychische oorzaak.", native: { en: "Insomnia often has a psychological cause." }, items: [nl.slapeloosheid, nl.psychisch, nl.oorzaak] }
+  - { id: s23, target: "Over psychische problemen praten is nog altijd een taboe.", native: { en: "Talking about mental health problems is still taboo." }, items: [nl.taboe] }
+  - { id: s24, target: "Een hulpverlener van het CAW ondersteunt jongeren in moeilijke situaties.", native: { en: "A counsellor from the CAW (general welfare centre) supports young people in difficult situations." }, items: [nl.hulpverlener, nl.ondersteunen] }
+  - { id: s25, target: "Te weinig slaap kan ernstige gevolgen hebben.", native: { en: "Too little sleep can have serious consequences." }, items: [nl.gevolg] }
+  - { id: s26, target: "Twintig procent van de bevolking is ouder dan vijfenzestig.", native: { en: "Twenty per cent of the population is older than sixty-five." }, items: [nl.bevolking] }
+  - { id: s27, target: "Hij werd gisteren aan zijn knie geopereerd.", native: { en: "He had an operation on his knee yesterday." }, items: [nl.opereren], acceptAlso: ["Gisteren werd hij aan zijn knie geopereerd."] }
+  - { id: s28, target: "Veel ziektes kunnen door gezond te leven voorkomen worden.", native: { en: "Many diseases can be prevented by living healthily." }, items: [nl.voorkomen], acceptAlso: ["Veel ziektes kunnen worden voorkomen door gezond te leven.", "Door gezond te leven kunnen veel ziektes voorkomen worden.", "Veel ziektes kunnen voorkomen worden door gezond te leven.", "Door gezond te leven kunnen veel ziektes worden voorkomen.", "Veel ziektes kunnen door gezond te leven worden voorkomen."], build: true }
+  - { id: s29, target: "De regering wil het remgeld verlagen.", native: { en: "The government wants to lower the patient's share of the cost." }, items: [nl.verlagen] }
+  - { id: s30, target: "Diabetes is een chronische ziekte.", native: { en: "Diabetes is a chronic disease." }, items: [nl.chronisch, nl.diabetes] }
+  - { id: s31, target: "Een preventief onderzoek kan een ziekte vroeg opsporen.", native: { en: "A preventive check-up can detect a disease early." }, items: [nl.preventief] }
+  - { id: s32, target: "Ouderen zijn kwetsbaarder in de winter.", native: { en: "Older people are more vulnerable in winter." }, items: [nl.kwetsbaar] }
+  - { id: s33, target: "De zorg moet voor iedereen toegankelijk blijven.", native: { en: "Care must remain accessible for everyone." }, items: [nl.toegankelijk], form: { word: toegankelijk, stem: toegang }, acceptAlso: ["De zorg moet toegankelijk blijven voor iedereen.", "Voor iedereen moet de zorg toegankelijk blijven."] }
+  - { id: s34, target: "Gemiddeld wacht je drie maanden op een afspraak.", native: { en: "On average you wait three months for an appointment." }, items: [nl.gemiddeld], acceptAlso: ["Je wacht gemiddeld drie maanden op een afspraak."] }
+  - { id: s35, target: "De nieuwe afdeling is vorig jaar door de minister geopend.", native: { en: "The new ward was opened by the minister last year." }, items: [nl.gezondheidszorg], build: true, acceptAlso: ["Vorig jaar is de nieuwe afdeling door de minister geopend.", "Door de minister is de nieuwe afdeling vorig jaar geopend.", "De nieuwe afdeling is vorig jaar geopend door de minister."] }
+  - { id: s36, target: "Ouderen vragen vaak niet graag om hulp.", native: { en: "Older people often don't like asking for help." }, items: [nl.oudere] }
+  - { id: s37, target: "Bij de arts moet je vaak lang wachten.", native: { en: "At the doctor's you often have to wait a long time." }, items: [nl.arts] }
+transforms:
+  - { id: x01, from: "De dokter heeft hem gisteren geopereerd.", key: is, gapped: "Hij ___.", answers: ["is gisteren door de dokter geopereerd", "is gisteren geopereerd door de dokter"], items: [nl.opereren] }
+  - { id: x02, from: "Ze zullen het nieuwe ziekenhuis volgend jaar openen.", key: worden, gapped: "Het nieuwe ziekenhuis ___.", answers: ["zal volgend jaar geopend worden", "zal volgend jaar worden geopend"], items: [nl.gezondheidszorg] }
+  - { id: x03, from: "Men moet psychische problemen sneller herkennen.", key: worden, gapped: "Psychische problemen ___.", answers: ["moeten sneller herkend worden", "moeten sneller worden herkend"], items: [nl.psychisch] }
+texts: [nl-b2-t06]

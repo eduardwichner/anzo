@@ -1,0 +1,61 @@
+id: nl-a2-u15
+title: { en: "How do you feel?" }
+icon: heart
+topic: Feelings; reflexive verbs
+vocabulary:
+  - { target: het gevoel, native: { en: feeling }, pos: noun, plural: gevoelens }
+  - { target: gelukkig, native: { en: happy }, pos: adjective, avoid: [nl.ongelukkig, nl.tevreden] }
+  - { target: ongelukkig, native: { en: unhappy }, pos: adjective, avoid: [nl.verdrietig] }
+  - { target: tevreden, native: { en: satisfied }, pos: adjective }
+  - { target: verdrietig, native: { en: sad }, pos: adjective }
+  - { target: het verdriet, native: { en: "sorrow, grief" }, pos: noun, plural: "-" }
+  - { target: de vreugde, native: { en: joy }, pos: noun, plural: "-" }
+  - { target: bang, native: { en: afraid }, pos: adjective }
+  - { target: de angst, native: { en: fear }, pos: noun, plural: angsten }
+  - { target: boos, native: { en: angry }, pos: adjective, avoid: [nl.kwaad] }
+  - { target: kwaad, native: { en: "angry, cross" }, pos: adjective }
+  - { target: eenzaam, native: { en: lonely }, pos: adjective }
+  - { target: zenuwachtig, native: { en: nervous }, pos: adjective }
+  - { target: de stress, native: { en: stress }, pos: noun, plural: "-" }
+  - { target: verliefd, native: { en: "in love" }, pos: adjective }
+  - { target: trots, native: { en: proud }, pos: adjective }
+  - { target: jaloers, native: { en: jealous }, pos: adjective }
+  - { target: lachen, native: { en: "to laugh, to smile" }, pos: verb }
+  - { target: huilen, native: { en: to cry }, pos: verb, avoid: [nl.schreeuwen] }
+  - { target: schreeuwen, native: { en: "to shout, to scream" }, pos: verb }
+  - { target: zich, native: { en: "himself, herself, yourself (u), themselves (reflexive)" }, pos: pronoun }
+  - { target: zich vervelen, native: { en: to be bored }, pos: verb }
+  - { target: zich haasten, native: { en: to hurry }, pos: verb }
+  - { target: zich zorgen maken, native: { en: to worry }, pos: verb }
+  - { target: zich ergeren, native: { en: to be annoyed }, pos: verb }
+  - { target: zich amuseren, native: { en: to have fun }, pos: verb }
+lessons:
+  - { id: l01, title: { en: Happy and sad }, vocab: [nl.gevoel, nl.gelukkig, nl.ongelukkig, nl.tevreden, nl.verdrietig, nl.verdriet, nl.vreugde, nl.lachen, nl.huilen] }
+  - { id: l02, title: { en: Afraid and angry }, vocab: [nl.bang, nl.angst, nl.boos, nl.kwaad, nl.schreeuwen, nl.eenzaam, nl.zenuwachtig, nl.stress] }
+  - { id: l03, title: { en: In love and proud }, vocab: [nl.verliefd, nl.trots, nl.jaloers, nl.zich-amuseren, nl.zich-vervelen] }
+  - { id: l04, title: { en: "Hurry, worry" }, vocab: [nl.zich, nl.zich-haasten, nl.zich-zorgen-maken, nl.zich-ergeren] }
+sentences:
+  - { id: s01, target: "Ik heb een goed gevoel over de nieuwe job.", native: { en: "I have a good feeling about the new job." }, items: [nl.gevoel] }
+  - { id: s02, target: "Ik ben heel gelukkig in België.", native: { en: "I'm very happy in Belgium." }, items: [nl.gelukkig] }
+  - { id: s03, target: "Hij is ongelukkig in zijn job.", native: { en: "He's unhappy in his job." }, items: [nl.ongelukkig] }
+  - { id: s04, target: "Bent u tevreden over het hotel?", native: { en: "Are you satisfied with the hotel?" }, items: [nl.tevreden], acceptAlso: ["Bent u over het hotel tevreden?"] }
+  - { id: s05, target: "Ze is verdrietig omdat haar oma ziek is.", native: { en: "She's sad because her grandma is ill." }, items: [nl.verdrietig], acceptAlso: ["Omdat haar oma ziek is, is ze verdrietig."] }
+  - { id: s06, target: "Hij huilt van verdriet.", native: { en: "He's crying with grief." }, items: [nl.verdriet, nl.huilen] }
+  - { id: s07, target: "De kinderen schreeuwen van vreugde.", native: { en: "The children are screaming with joy." }, items: [nl.vreugde, nl.schreeuwen] }
+  - { id: s08, target: "Mijn dochter is bang van het donker.", native: { en: "My daughter is afraid of the dark." }, items: [nl.bang] }
+  - { id: s09, target: "Hij heeft angst om te vliegen.", native: { en: "He's afraid of flying." }, items: [nl.angst] }
+  - { id: s10, target: "Waarom ben je boos op mij?", native: { en: "Why are you angry with me?" }, items: [nl.boos] }
+  - { id: s11, target: "De buurman werd kwaad.", native: { en: "The neighbour got cross." }, items: [nl.kwaad] }
+  - { id: s12, target: "In het begin was ik vaak eenzaam.", native: { en: "At first I was often lonely." }, items: [nl.eenzaam] }
+  - { id: s13, target: "Voor het examen was ik heel zenuwachtig.", native: { en: "Before the exam I was very nervous." }, items: [nl.zenuwachtig], acceptAlso: ["Ik was heel zenuwachtig voor het examen."] }
+  - { id: s14, target: "Ik heb veel stress op het werk.", native: { en: "I have a lot of stress at work." }, items: [nl.stress], acceptAlso: ["Op het werk heb ik veel stress."] }
+  - { id: s15, target: "Ze is verliefd op haar collega.", native: { en: "She's in love with her colleague." }, items: [nl.verliefd] }
+  - { id: s16, target: "Ik ben trots op mijn kinderen.", native: { en: "I'm proud of my children." }, items: [nl.trots] }
+  - { id: s17, target: "Mijn zoon is jaloers op zijn zus.", native: { en: "My son is jealous of his sister." }, items: [nl.jaloers] }
+  - { id: s18, target: "We hebben veel gelachen.", native: { en: "We laughed a lot." }, items: [nl.lachen] }
+  - { id: s19, target: "Op zondag verveel ik me.", native: { en: "On Sundays I get bored." }, items: [nl.zich-vervelen], acceptAlso: ["Ik verveel me op zondag."] }
+  - { id: s20, target: "Haast je, de bus komt!", native: { en: "Hurry up, the bus is coming!" }, items: [nl.zich-haasten] }
+  - { id: s21, target: "Ik maak me zorgen over mijn moeder.", native: { en: "I'm worried about my mother." }, items: [nl.zich-zorgen-maken] }
+  - { id: s22, target: "Ik erger me aan het lawaai.", native: { en: "The noise annoys me." }, items: [nl.zich-ergeren] }
+  - { id: s24, target: "Ze maakt zich zorgen over haar zoon.", native: { en: "She's worried about her son." }, items: [nl.zich] }
+  - { id: s23, target: "De kinderen hebben zich goed geamuseerd.", native: { en: "The children had a great time." }, items: [nl.zich-amuseren] }

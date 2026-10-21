@@ -1,0 +1,33 @@
+id: fr-a1-u13
+title: { nl: Beroepen, en: "Jobs" }
+icon: work
+topic: Les métiers
+vocabulary:
+  - { target: le métier, native: { nl: het beroep, en: "job, occupation" }, pos: noun, gender: m, category: true, avoid: [fr.travail] }
+  - { target: le travail, native: { nl: het werk, en: "work" }, pos: noun, gender: m }
+  - { target: travailler, native: { nl: werken, en: "to work" }, pos: verb }
+  - { target: le médecin, native: { nl: "de arts, de dokter", en: "doctor" }, pos: noun, gender: m }
+  - { target: le docteur, native: { nl: de dokter, en: "doctor" }, pos: noun, gender: m, avoid: [fr.medecin] }
+  - { target: le policier, native: { nl: de politieagent, en: "police officer" }, pos: noun, gender: m }
+  - { target: le pompier, native: { nl: de brandweerman, en: "firefighter" }, pos: noun, gender: m }
+  - { target: le boulanger, native: { nl: de bakker, en: "baker" }, pos: noun, gender: m }
+  - { target: le vendeur, native: { nl: de verkoper, en: "shop assistant, salesman" }, pos: noun, gender: m }
+  - { target: le facteur, native: { nl: de postbode, en: "postman" }, pos: noun, gender: m }
+  - { target: le cuisinier, native: { nl: de kok, en: "cook, chef" }, pos: noun, gender: m }
+  - { target: le chanteur, native: { nl: de zanger, en: "singer" }, pos: noun, gender: m }
+sentences:
+  - { id: s01, target: "Quel est le métier de ton papa ?", native: { nl: "Wat voor werk doet je papa?", en: "What's your dad's job?" }, items: [fr.metier] }
+  - { id: s02, target: "Mon père part tôt pour son travail.", native: { nl: "Mijn vader vertrekt vroeg naar zijn werk.", en: "My father leaves early for work." }, items: [fr.travail] }
+  - { id: s03, target: "Est-ce que tes parents travaillent ?", native: { nl: "Werken je ouders?", en: "Do your parents work?" }, items: [fr.travailler] }
+  - { id: s04, target: "Ma maman est médecin.", native: { nl: "Mijn mama is arts.", en: "My mum is a doctor." }, items: [fr.medecin] }
+  - { id: s05, target: "Je vais chez le docteur.", native: { nl: "Ik ga naar de dokter.", en: "I'm going to the doctor's." }, items: [fr.docteur] }
+  - { id: s06, target: "Le policier est devant la gare.", native: { nl: "De politieagent staat voor het station.", en: "The police officer is in front of the station." }, items: [fr.policier] }
+  - { id: s07, target: "Mon oncle est pompier.", native: { nl: "Mijn oom is brandweerman.", en: "My uncle is a firefighter." }, items: [fr.pompier] }
+  - { id: s08, target: "Le boulanger fait du pain.", native: { nl: "De bakker bakt brood.", en: "The baker makes bread." }, items: [fr.boulanger] }
+  - { id: s09, target: "Le vendeur est très gentil.", native: { nl: "De verkoper is heel aardig.", en: "The shop assistant is very kind." }, items: [fr.vendeur] }
+  - { id: s10, target: "Le facteur apporte une lettre.", native: { nl: "De postbode brengt een brief.", en: "The postman is bringing a letter." }, items: [fr.facteur] }
+  - { id: s11, target: "Le cuisinier prépare la soupe.", native: { nl: "De kok maakt de soep.", en: "The cook is making the soup." }, items: [fr.cuisinier] }
+  - { id: s12, target: "Mon chanteur préféré chante en anglais.", native: { nl: "Mijn lievelingszanger zingt in het Engels.", en: "My favourite singer sings in English." }, items: [fr.chanteur] }
+lessons:
+  - { id: l01, title: { nl: Welk beroep?, en: "Which job?" }, vocab: [fr.metier, fr.travail, fr.travailler, fr.medecin, fr.docteur, fr.policier] }
+  - { id: l02, title: { nl: Bakker en postbode, en: "Bakers and postmen" }, vocab: [fr.pompier, fr.boulanger, fr.vendeur, fr.facteur, fr.cuisinier, fr.chanteur] }

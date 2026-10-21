@@ -1,0 +1,81 @@
+id: fr-b1-u09
+title: { nl: Media en technologie, en: "Media and technology" }
+icon: phone
+topic: Les médias, Internet et la technologie ; le discours indirect au présent (il dit que…)
+vocabulary:
+  - { target: l'actualité, native: { nl: het nieuws (actualiteit), en: "the news, current affairs" }, pos: noun, gender: f }
+  - { target: la publicité, native: { nl: de reclame, en: "advertising, advert" }, pos: noun, gender: f, avoid: [fr.annonce] }
+  - { target: l'émission, native: { nl: het programma (op tv of radio), en: "programme (on TV or radio)" }, pos: noun, gender: f, avoid: [fr.programme] }
+  - { target: le journalisme, native: { nl: de journalistiek, en: "journalism" }, pos: noun, gender: m }
+  - { target: l'information, native: { nl: de informatie, en: "information" }, pos: noun, gender: f }
+  - { target: le sondage, native: { nl: de enquête (peiling), en: "survey, poll" }, pos: noun, gender: m }
+  - { target: le courriel, native: { nl: de e-mail, en: "email" }, pos: noun, gender: m }
+  - { target: le clavier, native: { nl: het toetsenbord, en: "keyboard" }, pos: noun, gender: m }
+  - { target: taper, native: { nl: typen, en: "to type" }, pos: verb }
+  - { target: l'écriture, native: { nl: het schrijven (handschrift), en: "handwriting, writing" }, pos: noun, gender: f }
+  - { target: le manuel, native: { nl: "het handboek, het leerboek", en: "textbook" }, pos: noun, gender: m }
+  - { target: télécharger, native: { nl: downloaden, en: "to download" }, pos: verb }
+  - { target: le mot de passe, native: { nl: het wachtwoord, en: "password" }, pos: noun, gender: m }
+  - { target: le logiciel, native: { nl: de software, en: "software" }, pos: noun, gender: m }
+  - { target: l'application, native: { nl: de app, en: "app" }, pos: noun, gender: f }
+  - { target: l'imprimante, native: { nl: de printer, en: "printer" }, pos: noun, gender: f }
+  - { target: imprimer, native: { nl: afdrukken, en: "to print" }, pos: verb }
+  - { target: cliquer, native: { nl: klikken, en: "to click" }, pos: verb }
+  - { target: numérique, native: { nl: digitaal, en: "digital" }, pos: adjective }
+  - { target: la connexion, native: { nl: de verbinding, en: "connection" }, pos: noun, gender: f }
+  - { target: le wi-fi, native: { nl: de wifi, en: "Wi-Fi" }, pos: noun, gender: m }
+  - { target: le site, native: { nl: de website, en: "website" }, pos: noun, gender: m }
+  - { target: le réseau, native: { nl: het netwerk, en: "network" }, pos: noun, gender: m }
+  - { target: la technologie, native: { nl: de technologie, en: "technology" }, pos: noun, gender: f }
+  - { target: high-tech, native: { nl: hightech, en: "high-tech" }, pos: adjective }
+  - { target: le contenu, native: { nl: de inhoud, en: "content" }, pos: noun, gender: m }
+  - { target: la révolution, native: { nl: de revolutie, en: "revolution" }, pos: noun, gender: f }
+  - { target: l'annonce, native: { nl: "de advertentie, de aankondiging", en: "advert, ad, announcement" }, pos: noun, gender: f }
+  - { target: la source, native: { nl: de bron, en: "source" }, pos: noun, gender: f }
+  - { target: dénoncer, native: { nl: aanklagen (openlijk), en: "to expose, to denounce" }, pos: verb, avoid: [fr.indiquer, fr.signaler] }
+  - { target: l'utilisation, native: { nl: het gebruik, en: "use" }, pos: noun, gender: f }
+  - { target: la liste, native: { nl: de lijst, en: "list" }, pos: noun, gender: f }
+  - { target: progressivement, native: { nl: geleidelijk, en: "gradually" }, pos: adverb }
+  - { target: indiquer, native: { nl: aangeven, en: "to point to, to indicate" }, pos: verb }
+  - { target: signaler, native: { nl: melden, en: "to report" }, pos: verb, avoid: [fr.indiquer] }
+  - { target: interroger, native: { nl: ondervragen, en: "to question, to interview" }, pos: verb }
+  - { target: évoquer, native: { nl: oproepen (doen denken aan), en: "to bring back (a memory), to evoke" }, pos: verb }
+sentences:
+  - { id: s01, target: "Je suis l'actualité tous les soirs à la télévision.", native: { nl: "Ik volg elke avond het nieuws op tv.", en: "I follow the news on television every evening." }, items: [fr.actualite] }
+  - { id: s02, target: "Il y a trop de publicité avant les vidéos.", native: { nl: "Er is te veel reclame voor de video's.", en: "There's too much advertising before the videos." }, items: [fr.publicite] }
+  - { id: s03, target: "Cette émission de radio parle de musique.", native: { nl: "Dit radioprogramma gaat over muziek.", en: "This radio programme is about music." }, items: [fr.emission] }
+  - { id: s04, target: "Ma cousine veut faire des études de journalisme.", native: { nl: "Mijn nicht wil journalistiek studeren.", en: "My cousin wants to study journalism." }, items: [fr.journalisme] }
+  - { id: s05, target: "Pour plus d'informations, allez sur notre site.", native: { nl: "Kijk voor meer informatie op onze website.", en: "For more information, go to our website." }, items: [fr.information, fr.site] }
+  - { id: s06, target: "Selon un sondage, les jeunes lisent moins de journaux.", native: { nl: "Volgens een peiling lezen jongeren minder kranten.", en: "According to a survey, young people read fewer newspapers." }, items: [fr.sondage] }
+  - { id: s07, target: "Je t'envoie un courriel avec les photos.", native: { nl: "Ik stuur je een e-mail met de foto's.", en: "I'm sending you an email with the photos." }, items: [fr.courriel] }
+  - { id: s08, target: "Le clavier de mon ordinateur ne marche plus.", native: { nl: "Het toetsenbord van mijn computer werkt niet meer.", en: "My computer keyboard doesn't work any more." }, items: [fr.clavier] }
+  - { id: s09, target: "Ma grand-mère tape très vite à l'ordinateur.", native: { nl: "Mijn oma typt heel snel op de computer.", en: "My grandmother types very fast on the computer." }, items: [fr.taper], finite: { word: tape, hint: { nl: "taper (présent)", en: "taper (present)" } } }
+  - { id: s10, target: "Ton écriture est difficile à lire.", native: { nl: "Je handschrift is moeilijk te lezen.", en: "Your handwriting is hard to read." }, items: [fr.ecriture] }
+  - { id: s11, target: "J'ai oublié mon manuel de français à la maison.", native: { nl: "Ik ben mijn handboek Frans thuis vergeten.", en: "I've left my French textbook at home." }, items: [fr.manuel] }
+  - { id: s12, target: "Tu peux télécharger les photos sur le site de l'école.", native: { nl: "Je kunt de foto's downloaden op de website van de school.", en: "You can download the photos from the school website." }, items: [fr.telecharger], acceptAlso: ["Sur le site de l'école, tu peux télécharger les photos."] }
+  - { id: s13, target: "N'oublie pas ton mot de passe !", native: { nl: "Vergeet je wachtwoord niet!", en: "Don't forget your password!" }, items: [fr.mot-de-passe] }
+  - { id: s14, target: "Ce logiciel est gratuit pour les élèves.", native: { nl: "Deze software is gratis voor leerlingen.", en: "This software is free for pupils." }, items: [fr.logiciel] }
+  - { id: s15, target: "J'ai une application pour apprendre le français.", native: { nl: "Ik heb een app om Frans te leren.", en: "I have an app for learning French." }, items: [fr.application] }
+  - { id: s16, target: "L'imprimante n'a plus de papier.", native: { nl: "De printer heeft geen papier meer.", en: "The printer has run out of paper." }, items: [fr.imprimante] }
+  - { id: s17, target: "Tu peux imprimer ton devoir à la bibliothèque.", native: { nl: "Je kunt je huiswerk afdrukken in de bibliotheek.", en: "You can print your homework at the library." }, items: [fr.imprimer] }
+  - { id: s18, target: "Cliquez ici pour commencer.", native: { nl: "Klik hier om te beginnen.", en: "Click here to start." }, items: [fr.cliquer] }
+  - { id: s19, target: "Beaucoup d'écoles utilisent des livres numériques.", native: { nl: "Veel scholen gebruiken digitale boeken.", en: "A lot of schools use digital books." }, items: [fr.numerique] }
+  - { id: s20, target: "La connexion est très lente aujourd'hui.", native: { nl: "De verbinding is vandaag heel traag.", en: "The connection is very slow today." }, items: [fr.connexion] }
+  - { id: s21, target: "Il n'y a pas de wi-fi dans le train.", native: { nl: "Er is geen wifi in de trein.", en: "There's no Wi-Fi on the train." }, items: [fr.wi-fi] }
+  - { id: s22, target: "Les réseaux sociaux prennent beaucoup de temps.", native: { nl: "Sociale media kosten veel tijd.", en: "Social networks take up a lot of time." }, items: [fr.reseau] }
+  - { id: s23, target: "La technologie change notre vie quotidienne.", native: { nl: "Technologie verandert ons dagelijks leven.", en: "Technology is changing our daily lives." }, items: [fr.technologie], finite: { word: change, hint: { nl: "changer (présent)", en: "changer (present)" } } }
+  - { id: s24, target: "Mon oncle travaille dans une entreprise high-tech.", native: { nl: "Mijn oom werkt in een hightechbedrijf.", en: "My uncle works for a high-tech company." }, items: [fr.high-tech] }
+  - { id: s25, target: "Les parents doivent vérifier le contenu des jeux vidéo.", native: { nl: "Ouders moeten de inhoud van videospelletjes controleren.", en: "Parents must check the content of video games." }, items: [fr.contenu] }
+  - { id: s26, target: "Internet a été une vraie révolution.", native: { nl: "Het internet was een echte revolutie.", en: "The internet was a real revolution." }, items: [fr.revolution] }
+  - { id: s27, target: "J'ai trouvé mon vélo grâce à une petite annonce.", native: { nl: "Ik heb mijn fiets gevonden dankzij een zoekertje.", en: "I found my bike thanks to a small ad." }, items: [fr.annonce], acceptAlso: ["Grâce à une petite annonce, j'ai trouvé mon vélo."] }
+  - { id: s28, target: "Un bon journaliste vérifie toujours ses sources.", native: { nl: "Een goede journalist controleert altijd zijn bronnen.", en: "A good journalist always checks their sources." }, items: [fr.source] }
+  - { id: s29, target: "L'article dénonce les problèmes de la ville.", native: { nl: "Het artikel klaagt de problemen van de stad aan.", en: "The article exposes the town's problems." }, items: [fr.denoncer] }
+  - { id: s30, target: "L'utilisation du téléphone est interdite en classe.", native: { nl: "Het gebruik van de telefoon is verboden in de klas.", en: "The use of phones is forbidden in class." }, items: [fr.utilisation], acceptAlso: ["En classe, l'utilisation du téléphone est interdite."] }
+  - { id: s31, target: "Fais une liste de ce qu'il faut acheter.", native: { nl: "Maak een lijst van wat we moeten kopen.", en: "Make a list of what we need to buy." }, items: [fr.liste] }
+  - { id: s32, target: "Les prix augmentent progressivement.", native: { nl: "De prijzen stijgen geleidelijk.", en: "Prices are gradually going up." }, items: [fr.progressivement] }
+  - { id: s33, target: "Le professeur indique la page du livre.", native: { nl: "De leraar geeft de bladzijde van het boek aan.", en: "The teacher points to the page in the book." }, items: [fr.indiquer], finite: { word: indique, hint: { nl: "indiquer (présent)", en: "indiquer (present)" } } }
+  - { id: s34, target: "Si tu vois un problème, signale-le au professeur.", native: { nl: "Als je een probleem ziet, meld het dan aan de leraar.", en: "If you see a problem, report it to the teacher." }, items: [fr.signaler] }
+  - { id: s35, target: "Le journaliste a interrogé les habitants du quartier.", native: { nl: "De journalist heeft de bewoners van de buurt ondervraagd.", en: "The journalist interviewed the residents of the neighbourhood." }, items: [fr.interroger] }
+  - { id: s36, target: "Cette chanson évoque mes vacances en Espagne.", native: { nl: "Dit liedje doet me denken aan mijn vakantie in Spanje.", en: "This song brings back memories of my holiday in Spain." }, items: [fr.evoquer] }
+  - { id: s37, target: "Le journaliste dit que l'émission commence à huit heures.", native: { nl: "De journalist zegt dat het programma om acht uur begint.", en: "The journalist says the programme starts at eight o'clock." }, items: [fr.emission], build: true }
+texts: [fr-b1-t10]

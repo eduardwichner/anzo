@@ -1,0 +1,14 @@
+[Unit]
+Description=Anzo disk space check
+Documentation=file:///opt/anzo/README.md
+
+[Service]
+Type=oneshot
+User=@DEV_USER@
+Group=@DEV_GROUP@
+SupplementaryGroups=anzo-ops
+WorkingDirectory=/opt/anzo
+ExecStart=/usr/bin/node scripts/ops/disk-check.js
+# A hung run must not block every later run of its timer.
+TimeoutStartSec=5min
+NoNewPrivileges=true

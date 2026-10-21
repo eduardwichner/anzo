@@ -1,0 +1,78 @@
+id: en-pre-a1-u11
+title: { nl: Leren }
+icon: learn
+topic: School (classroom instructions)
+vocabulary:
+  - { target: read, native: { nl: lezen }, pos: verb }
+  - { target: write, native: { nl: schrijven }, pos: verb }
+  - { target: letter, native: { nl: letter }, pos: noun }
+  - { target: word, native: { nl: woord }, pos: noun }
+  - { target: sentence, native: { nl: zin }, pos: noun }
+  - { target: alphabet, native: { nl: alfabet }, pos: noun }
+  - { target: spell, native: { nl: spellen }, pos: verb }
+  - { target: look, native: { nl: kijken }, pos: verb }
+  - { target: look at, native: { nl: kijken naar }, pos: verb, avoid: [en.look] }
+  - { target: listen, native: { nl: luisteren }, pos: verb }
+  - { target: point, native: { nl: wijzen }, pos: verb }
+  - { target: show, native: { nl: laten zien }, pos: verb }
+  - { target: line, native: { nl: "lijn, streep" }, pos: noun }
+  - { target: ask, native: { nl: vragen }, pos: verb }
+  - { target: answer, native: { nl: "antwoord, antwoorden" }, pos: noun }
+  - { target: question, native: { nl: vraag }, pos: noun }
+  - { target: tell, native: { nl: vertellen }, pos: verb }
+  - { target: know, native: { nl: weten }, pos: verb }
+  - { target: understand, native: { nl: begrijpen }, pos: verb }
+  - { target: learn, native: { nl: leren }, pos: verb }
+  - { target: right, native: { nl: "goed, juist" }, pos: adjective }
+  - { target: correct, native: { nl: "juist, correct" }, pos: adjective }
+  - { target: cross, native: { nl: kruisje }, pos: noun }
+  - { target: tick, native: { nl: vinkje }, pos: noun }
+  - { target: complete, native: { nl: "afmaken, invullen" }, pos: verb }
+  - { target: draw, native: { nl: tekenen }, pos: verb }
+  - { target: drawing, native: { nl: tekening }, pos: noun }
+  - { target: paint, native: { nl: "schilderen, verf" }, pos: verb }
+  - { target: painting, native: { nl: schilderij }, pos: noun }
+  - { target: choose, native: { nl: kiezen }, pos: verb }
+  - { target: find, native: { nl: vinden }, pos: verb, avoid: [en.like] }
+  - { target: example, native: { nl: voorbeeld }, pos: noun }
+  - { target: part, native: { nl: deel }, pos: noun }
+sentences:
+  - { id: s01, target: "Can you read this book?", native: { nl: "Kun jij dit boek lezen?" }, items: [en.read, en.book] }
+  - { id: s02, target: "Write your name here.", native: { nl: "Schrijf je naam hier." }, items: [en.write, en.name] }
+  - { id: s03, target: "C, A, T. That's three letters.", native: { nl: "C, A, T. Dat zijn drie letters." }, items: [en.letter, en.three], acceptAlso: ["C, A, T. That is three letters."] }
+  - { id: s04, target: "What's this word?", native: { nl: "Wat is dit woord?" }, items: [en.word], acceptAlso: ["What is this word?"] }
+  - { id: s05, target: "Read the sentence, please.", native: { nl: "Lees de zin, alsjeblieft." }, items: [en.sentence, en.read, en.please] }
+  - { id: s06, target: "Say the alphabet!", native: { nl: "Zeg het alfabet op!" }, items: [en.alphabet] }
+  - { id: s07, target: "How do you spell your name?", native: { nl: "Hoe spel je jouw naam?" }, items: [en.spell, en.name] }
+  - { id: s08, target: "Look at the picture.", native: { nl: "Kijk naar het plaatje." }, items: [en.look-at, en.picture] }
+  - { id: s09, target: "Look! The cat is on the table.", native: { nl: "Kijk! De kat zit op de tafel." }, items: [en.look, en.cat] }
+  - { id: s10, target: "Listen to the song.", native: { nl: "Luister naar het liedje." }, items: [en.listen] }
+  - { id: s11, target: "Point to the door.", native: { nl: "Wijs naar de deur." }, items: [en.point, en.door] }
+  - { id: s12, target: "Show me your hands.", native: { nl: "Laat me je handen zien." }, items: [en.show, en.hand] }
+  - { id: s13, target: "Put a line under the word.", native: { nl: "Zet een streep onder het woord." }, items: [en.line, en.word] }
+  - { id: s14, target: "Can I ask a question?", native: { nl: "Mag ik een vraag stellen?" }, items: [en.ask, en.question] }
+  - { id: s15, target: "What's the answer?", native: { nl: "Wat is het antwoord?" }, items: [en.answer], acceptAlso: ["What is the answer?"] }
+  - { id: s16, target: "Answer the question, please.", native: { nl: "Beantwoord de vraag, alsjeblieft." }, items: [en.answer, en.question] }
+  - { id: s17, target: "Tell me a story.", native: { nl: "Vertel me een verhaal." }, items: [en.tell] }
+  - { id: s18, target: "I don't know.", native: { nl: "Ik weet het niet." }, items: [en.know], acceptAlso: ["I do not know."] }
+  - { id: s19, target: "Do you understand?", native: { nl: "Begrijp je het?" }, items: [en.understand] }
+  - { id: s20, target: "We learn English at school.", native: { nl: "Wij leren Engels op school." }, items: [en.learn, en.english] }
+  - { id: s21, target: "That's right!", native: { nl: "Dat klopt!" }, items: [en.right], acceptAlso: ["That is right!"] }
+  - { id: s22, target: "Is this answer correct?", native: { nl: "Is dit antwoord juist?" }, items: [en.correct, en.answer] }
+  - { id: s23, target: "Put a cross in the box.", native: { nl: "Zet een kruisje in het vakje." }, items: [en.cross, en.box] }
+  - { id: s24, target: "Put a tick next to the right answer.", native: { nl: "Zet een vinkje bij het goede antwoord." }, items: [en.tick, en.right, en.answer] }
+  - { id: s25, target: "Complete the sentences.", native: { nl: "Maak de zinnen af." }, items: [en.complete, en.sentence] }
+  - { id: s26, target: "I can draw a horse.", native: { nl: "Ik kan een paard tekenen." }, items: [en.draw, en.horse] }
+  - { id: s27, target: "This is my drawing.", native: { nl: "Dit is mijn tekening." }, items: [en.drawing] }
+  - { id: s28, target: "Let's paint a picture!", native: { nl: "Laten we een plaatje schilderen!" }, items: [en.paint, en.picture] }
+  - { id: s29, target: "Look at that beautiful painting.", native: { nl: "Kijk eens naar dat mooie schilderij." }, items: [en.painting, en.look-at, en.beautiful] }
+  - { id: s30, target: "Choose a colour.", native: { nl: "Kies een kleur." }, items: [en.choose, en.colour] }
+  - { id: s31, target: "I can't find my pen.", native: { nl: "Ik kan mijn pen niet vinden." }, items: [en.find, en.pen], acceptAlso: ["I cannot find my pen."] }
+  - { id: s32, target: "Look at the example.", native: { nl: "Kijk naar het voorbeeld." }, items: [en.example, en.look-at] }
+  - { id: s33, target: "Read part one.", native: { nl: "Lees deel één." }, items: [en.part, en.read, en.one] }
+lessons:
+  - { id: l01, title: { nl: Lezen en schrijven }, vocab: [en.read, en.write, en.letter, en.word, en.sentence, en.alphabet, en.spell] }
+  - { id: l02, title: { nl: Kijken en luisteren }, vocab: [en.look, en.look-at, en.listen, en.point, en.show, en.line] }
+  - { id: l03, title: { nl: Vragen en antwoorden }, vocab: [en.ask, en.answer, en.question, en.tell, en.know, en.understand] }
+  - { id: l04, title: { nl: Kruisjes en vinkjes }, vocab: [en.learn, en.right, en.correct, en.cross, en.tick, en.complete] }
+  - { id: l05, title: { nl: Tekenen en kiezen }, vocab: [en.draw, en.drawing, en.paint, en.painting, en.choose, en.find, en.example, en.part] }

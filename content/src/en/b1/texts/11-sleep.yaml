@@ -1,0 +1,38 @@
+id: en-b1-t11
+kind: reading
+title: { nl: Beter slapen }
+topic: Health (an article in a school newsletter by the school nurse)
+level: B1
+paragraphs:
+  - - { id: en-b1-t11-s01, target: "Do you often feel sleepy in your first lesson?", native: { nl: "Voel je je vaak slaperig in je eerste les?" } }
+    - { id: en-b1-t11-s02, target: "You are not alone: in a survey last term, more than half of our students said they were tired in the morning.", native: { nl: "Je bent niet de enige: in een enquête vorig trimester zei meer dan de helft van onze leerlingen dat ze 's ochtends moe waren." } }
+  - - { id: en-b1-t11-s03, target: "Teenagers need between eight and ten hours of sleep a night, but many get only six or seven.", native: { nl: "Tieners hebben acht tot tien uur slaap per nacht nodig, maar velen krijgen er maar zes of zeven." } }
+    - { id: en-b1-t11-s04, target: "Not getting enough sleep is bad for your health.", native: { nl: "Niet genoeg slaap krijgen is slecht voor je gezondheid." } }
+    - { id: en-b1-t11-s05, target: "It makes it harder to concentrate, and tired students have more accidents in sports lessons.", native: { nl: "Het maakt het moeilijker om je te concentreren, en moeie leerlingen hebben meer ongelukken tijdens de gymles." } }
+  - - { id: en-b1-t11-s06, target: "So what can you do? First, try to avoid screens for an hour before bed.", native: { nl: "Wat kun je dan doen? Probeer ten eerste een uur voor het slapengaan geen schermen te gebruiken." } }
+    - { id: en-b1-t11-s07, target: "The light from phones keeps your brain awake.", native: { nl: "Het licht van telefoons houdt je hersenen wakker." } }
+    - { id: en-b1-t11-s08, target: "Second, go to bed at the same time every night, even at the weekend.", native: { nl: "Ten tweede: ga elke avond op hetzelfde tijdstip naar bed, zelfs in het weekend." } }
+    - { id: en-b1-t11-s09, target: "A regular routine is one of the healthiest habits you can have.", native: { nl: "Een vaste routine is een van de gezondste gewoontes die je kunt hebben." } }
+  - - { id: en-b1-t11-s10, target: "If you still have problems sleeping after a few weeks, come and see me in the medical room.", native: { nl: "Als je na een paar weken nog steeds slaapproblemen hebt, kom dan langs in de ziekenkamer." } }
+    - { id: en-b1-t11-s11, target: "You don't need an appointment.", native: { nl: "Je hebt geen afspraak nodig." } }
+    - { id: en-b1-t11-s12, target: "Mrs Evans, School Nurse", native: { nl: "Mevrouw Evans, schoolverpleegkundige" } }
+glossary:
+  - { word: survey, native: { nl: enquête } }
+  - { word: medical room, native: { nl: ziekenkamer (op school) } }
+items: [en.sleepy, en.term, en.teenager, en.health, en.concentrate, en.accident, en.avoid, en.brain, en.regular, en.routine, en.habit, en.appointment, en.few]
+questions:
+  - { id: en-b1-t11-q1, type: mc, question: "What did the survey show?", options: ["Many students are tired in the morning.", "Students sleep more than ten hours.", "Students have too much homework."], correct: 0 }
+  - { id: en-b1-t11-q2, type: true_false_notgiven, statement: "Teenagers need less than eight hours of sleep.", answer: false }
+  - { id: en-b1-t11-q3, type: true_false_notgiven, statement: "Mrs Evans has worked at the school for many years.", answer: not_given }
+  - { id: en-b1-t11-q4, type: true_false_notgiven, statement: "Tired students have more accidents in sport.", answer: true }
+  - { id: en-b1-t11-q5, type: mc, question: "Why should you avoid screens before bed?", options: ["The light keeps your brain awake.", "Phones are expensive.", "Your eyes get tired."], correct: 0 }
+  - { id: en-b1-t11-q6, type: match_heading, paragraph: 3, options: ["Two simple tips", "Why sleep matters", "Where to get help"], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t11-l1, type: mc, question: "When should you go to bed?", options: ["At the same time every night.", "Later at the weekend.", "Straight after dinner."], correct: 0 }
+  - { id: en-b1-t11-l2, type: true_false_notgiven, statement: "You need an appointment to see Mrs Evans.", answer: false }
+cloze:
+  - { sentence: en-b1-t11-s02, word: said, kind: finite_verb, hint: { nl: "say (verleden tijd)" } }
+  - { sentence: en-b1-t11-s04, word: is, kind: finite_verb, hint: { nl: "be (tegenwoordige tijd)" } }
+  - { sentence: en-b1-t11-s05, word: makes, kind: finite_verb, hint: { nl: "make (tegenwoordige tijd)" } }
+  - { sentence: en-b1-t11-s07, word: keeps, kind: finite_verb, hint: { nl: "keep (tegenwoordige tijd)" } }
+orderable: true

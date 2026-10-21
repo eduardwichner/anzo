@@ -1,0 +1,51 @@
+id: nl-a2-u22
+title: { en: Sport and a healthy life }
+icon: sport
+topic: Exercise, matches, healthy habits
+vocabulary:
+  - { id: nl.gezondheid-n, target: de gezondheid, native: { en: health }, pos: noun, plural: "-" }
+  - { target: ongezond, native: { en: unhealthy }, pos: adjective }
+  - { target: de beweging, native: { en: "exercise, movement" }, pos: noun, plural: bewegingen, avoid: [nl.fitness] }
+  - { target: bewegen, native: { en: "to move, to exercise" }, pos: verb }
+  - { target: sportief, native: { en: sporty }, pos: adjective }
+  - { target: fit, native: { en: fit }, pos: adjective }
+  - { target: de fitness, native: { en: "gym, fitness training" }, pos: noun, plural: "-", alsoNL: de sportschool }
+  - { target: trainen, native: { en: to train }, pos: verb, avoid: [nl.bewegen] }
+  - { target: regelmatig, native: { en: regularly }, pos: adjective }
+  - { target: de spier, native: { en: muscle }, pos: noun, plural: spieren }
+  - { target: de wedstrijd, native: { en: match }, pos: noun, plural: wedstrijden }
+  - { target: de speler, native: { en: player }, pos: noun, plural: spelers }
+  - { target: winnen, native: { en: to win }, pos: verb }
+  - { target: het gewicht, native: { en: weight }, pos: noun, plural: gewichten }
+  - { target: afvallen, native: { en: "to lose weight" }, pos: verb }
+  - { target: vet, native: { en: "fat, greasy" }, pos: adjective }
+  - { target: roken, native: { en: to smoke }, pos: verb }
+  - { target: de sigaret, native: { en: cigarette }, pos: noun, plural: sigaretten }
+  - { target: de alcohol, native: { en: alcohol }, pos: noun, plural: "-" }
+  - { target: de rust, native: { en: rest }, pos: noun, plural: "-" }
+  - { target: ontspannen, native: { en: to relax }, pos: verb }
+  - { target: de energie, native: { en: energy }, pos: noun, plural: "-" }
+sentences:
+  - { id: s01, target: "Sport is goed voor je gezondheid.", native: { en: "Sport is good for your health." }, items: [nl.gezondheid-n] }
+  - { id: s02, target: "Frietjes zijn lekker, maar ongezond.", native: { en: "Chips are tasty, but unhealthy." }, items: [nl.ongezond] }
+  - { id: s03, target: "Je hebt meer beweging nodig.", native: { en: "You need more exercise." }, items: [nl.beweging] }
+  - { id: s04, target: "Ik beweeg elke dag een half uur.", native: { en: "I exercise for half an hour every day." }, items: [nl.bewegen], acceptAlso: ["Elke dag beweeg ik een half uur."] }
+  - { id: s05, target: "Mijn zus is heel sportief.", native: { en: "My sister is very sporty." }, items: [nl.sportief] }
+  - { id: s06, target: "Ik voel me fit.", native: { en: "I feel fit." }, items: [nl.fit] }
+  - { id: s07, target: "Twee keer per week ga ik naar de fitness.", native: { en: "Twice a week I go to the gym." }, items: [nl.fitness], acceptAlso: ["Ik ga twee keer per week naar de fitness."] }
+  - { id: s08, target: "Na het werk doe ik aan fitness.", native: { en: "After work I do fitness training." }, items: [nl.fitness], acceptAlso: ["Ik doe na het werk aan fitness."] }
+  - { id: s09, target: "Het team traint op woensdag.", native: { en: "The team trains on Wednesdays." }, items: [nl.trainen], acceptAlso: ["Op woensdag traint het team."] }
+  - { id: s10, target: "Ik zwem regelmatig.", native: { en: "I swim regularly." }, items: [nl.regelmatig] }
+  - { id: s11, target: "Na het sporten doen mijn spieren pijn.", native: { en: "After sport my muscles ache." }, items: [nl.spier], acceptAlso: ["Mijn spieren doen pijn na het sporten."] }
+  - { id: s12, target: "Gaan we zondag naar de wedstrijd kijken?", native: { en: "Shall we go and watch the match on Sunday?" }, items: [nl.wedstrijd] }
+  - { id: s13, target: "Hij is de beste speler van het team.", native: { en: "He's the best player in the team." }, items: [nl.speler] }
+  - { id: s14, target: "Wie heeft gewonnen?", native: { en: "Who won?" }, items: [nl.winnen] }
+  - { id: s15, target: "Mijn gewicht is goed.", native: { en: "My weight is fine." }, items: [nl.gewicht] }
+  - { id: s16, target: "Ik ben vijf kilo afgevallen.", native: { en: "I've lost five kilos." }, items: [nl.afvallen] }
+  - { id: s17, target: "Dit vlees is te vet.", native: { en: "This meat is too fatty." }, items: [nl.vet] }
+  - { id: s18, target: "Vroeger rookte ik, maar nu niet meer.", native: { en: "I used to smoke, but not any more." }, items: [nl.roken], acceptAlso: ["Ik rookte vroeger, maar nu niet meer."] }
+  - { id: s19, target: "Hij rookt tien sigaretten per dag.", native: { en: "He smokes ten cigarettes a day." }, items: [nl.sigaret] }
+  - { id: s20, target: "Ik drink geen alcohol.", native: { en: "I don't drink alcohol." }, items: [nl.alcohol] }
+  - { id: s21, target: "Je hebt rust nodig.", native: { en: "You need rest." }, items: [nl.rust] }
+  - { id: s22, target: "In het weekend wil ik ontspannen.", native: { en: "At the weekend I want to relax." }, items: [nl.ontspannen], acceptAlso: ["Ik wil in het weekend ontspannen."] }
+  - { id: s23, target: "Na een wandeling heb ik meer energie.", native: { en: "After a walk I have more energy." }, items: [nl.energie], acceptAlso: ["Ik heb meer energie na een wandeling."] }

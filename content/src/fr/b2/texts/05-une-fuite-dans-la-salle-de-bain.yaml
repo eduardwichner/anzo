@@ -1,0 +1,40 @@
+id: fr-b2-t05
+kind: dialogue
+title: { nl: Een lek in de badkamer, en: "A leak in the bathroom" }
+topic: Logement (une locataire téléphone à son propriétaire)
+level: B2
+speakers: { A: { name: Manon }, B: { name: Monsieur Dubois } }
+turns:
+  - { id: fr-b2-t05-s01, speaker: A, target: "Bonjour, Monsieur Dubois ? C'est Manon, la locataire du troisième étage.", native: { nl: "Hallo, meneer Dubois? Met Manon, de huurster van de derde verdieping.", en: "Hello, Mr Dubois? It's Manon, the tenant on the third floor." } }
+  - { id: fr-b2-t05-s02, speaker: B, target: "Bonjour, Manon. Vous êtes bien installée ?", native: { nl: "Dag, Manon. Hebt u zich goed geïnstalleerd?", en: "Hello, Manon. Have you settled in well?" } }
+  - { id: fr-b2-t05-s03, speaker: A, target: "Oui, mais il y a un problème : de l'eau coule du plafond de la salle de bain.", native: { nl: "Ja, maar er is een probleem: er loopt water uit het plafond van de badkamer.", en: "Yes, but there's a problem: water is coming through the bathroom ceiling." } }
+  - { id: fr-b2-t05-s04, speaker: B, target: "Ah, ça doit être une fuite chez les voisins du dessus. Depuis quand ?", native: { nl: "Ah, dat moet een lek bij de bovenburen zijn. Sinds wanneer?", en: "Ah, that must be a leak at the upstairs neighbours'. Since when?" } }
+  - { id: fr-b2-t05-s05, speaker: A, target: "Depuis hier soir. J'ai mis un seau, mais c'est de pire en pire.", native: { nl: "Sinds gisteravond. Ik heb er een emmer onder gezet, maar het wordt alsmaar erger.", en: "Since last night. I've put a bucket under it, but it's getting worse and worse." } }
+  - { id: fr-b2-t05-s06, speaker: B, target: "N'essayez pas de la réparer vous-même. Je vais faire venir un plombier cet après-midi.", native: { nl: "Probeer het niet zelf te herstellen. Ik laat vanmiddag een loodgieter komen.", en: "Don't try to repair it yourself. I'll get a plumber to come this afternoon." } }
+  - { id: fr-b2-t05-s07, speaker: A, target: "Merci. Il y a autre chose : la lumière du couloir s'éteint toute seule.", native: { nl: "Bedankt. Er is nog iets: het licht in de gang gaat vanzelf uit.", en: "Thank you. There's something else: the light in the hall keeps switching itself off." } }
+  - { id: fr-b2-t05-s08, speaker: B, target: "C'est peut-être à cause de l'eau. Je préfère qu'un électricien vérifie avant que vous l'utilisiez.", native: { nl: "Dat komt misschien door het water. Ik heb liever dat een elektricien het controleert voor u het gebruikt.", en: "That may be because of the water. I'd rather an electrician checked it before you use it." } }
+  - { id: fr-b2-t05-s09, speaker: A, target: "D'accord. Est-ce que je devrai payer quelque chose ? Mon contrat dit que les petites réparations sont pour le locataire.", native: { nl: "Akkoord. Zal ik iets moeten betalen? In mijn contract staat dat kleine herstellingen voor de huurder zijn.", en: "All right. Will I have to pay anything? My contract says small repairs are down to the tenant." } }
+  - { id: fr-b2-t05-s10, speaker: B, target: "Non, une fuite, ce n'est pas votre faute. C'est ma responsabilité de propriétaire.", native: { nl: "Nee, een lek is niet uw schuld. Dat is mijn verantwoordelijkheid als eigenaar.", en: "No, a leak isn't your fault. It's my responsibility as the landlord." } }
+  - { id: fr-b2-t05-s11, speaker: A, target: "Très bien. Je suis là jusqu'à seize heures. Le plombier pourra venir avant ?", native: { nl: "Prima. Ik ben thuis tot vier uur. Kan de loodgieter voor die tijd komen?", en: "Fine. I'm in until four o'clock. Will the plumber be able to come before then?" } }
+  - { id: fr-b2-t05-s12, speaker: B, target: "Je l'appelle tout de suite et je vous envoie un message. Merci de m'avoir prévenu si vite.", native: { nl: "Ik bel hem meteen en stuur u een bericht. Bedankt dat u me zo snel hebt verwittigd.", en: "I'll ring him straight away and send you a message. Thank you for letting me know so quickly." } }
+glossary:
+  - { word: coule, native: { nl: "loopt, stroomt (couler)", en: "is running, is flowing (couler)" } }
+  - { word: seau, native: { nl: emmer, en: "bucket" } }
+  - { word: s'éteint, native: { nl: "gaat uit (s'éteindre)", en: "goes off, switches off (s'éteindre)" } }
+  - { word: prévenu, native: { nl: "verwittigd (prévenir)", en: "told, warned (prévenir)" } }
+items: [fr.locataire, fr.s-installer, fr.fuite, fr.plombier, fr.lumiere, fr.electricien, fr.reparation]
+questions:
+  - { id: fr-b2-t05-q1, type: summary, options: ["Une locataire signale une fuite et un problème de lumière, et le propriétaire va faire venir un plombier et un électricien, car la fuite est sa responsabilité.", "Une locataire se plaint parce que le propriétaire n'a toujours pas réparé une fuite qui dure depuis des semaines.", "Un propriétaire téléphone à sa locataire parce que l'eau de sa salle de bain coule chez les voisins."], correct: 0 }
+  - { id: fr-b2-t05-q2, type: mc, question: "D'où vient l'eau, selon Monsieur Dubois ?", options: ["De chez les voisins du dessus.", "Du toit de l'immeuble.", "De la cuisine."], correct: 0 }
+  - { id: fr-b2-t05-q3, type: true_false_notgiven, statement: "Manon devra payer la réparation.", answer: false }
+  - { id: fr-b2-t05-q4, type: true_false_notgiven, statement: "Manon habite avec une amie.", answer: not_given }
+  - { id: fr-b2-t05-q5, type: true_false_notgiven, statement: "L'eau coule depuis hier soir.", answer: true }
+listeningQuestions:
+  - { id: fr-b2-t05-l1, type: complete, statement: "Manon est là jusqu'à ___ heures.", answers: [seize, "16"] }
+  - { id: fr-b2-t05-l2, type: mc, question: "Pourquoi Monsieur Dubois veut-il faire venir un électricien ?", options: ["La lumière du couloir s'éteint toute seule.", "Le chauffage ne marche pas.", "Manon veut une nouvelle lampe."], correct: 0 }
+openCloze:
+  - { sentence: fr-b2-t05-s04, word: chez }
+  - { sentence: fr-b2-t05-s08, word: avant }
+  - { sentence: fr-b2-t05-s09, word: pour }
+  - { sentence: fr-b2-t05-s12, word: si, acceptAlso: [aussi, tellement] }
+orderable: false

@@ -1,0 +1,50 @@
+id: en-a2-u18
+title: { nl: Praten en delen }
+icon: greetings
+topic: Communication; Money; Visiting
+vocabulary:
+  - { target: chat, native: { nl: kletsen }, pos: verb }
+  - { target: speak, native: { nl: spreken }, pos: verb }
+  - { target: whisper, native: { nl: fluisteren }, pos: verb }
+  - { target: conversation, native: { nl: gesprek }, pos: noun }
+  - { target: telephone, native: { nl: telefoon }, pos: noun }
+  - { target: hear, native: { nl: horen }, pos: verb }
+  - { target: sound, native: { nl: geluid }, pos: noun }
+  - { target: money, native: { nl: geld }, pos: noun }
+  - { target: spend, native: { nl: uitgeven }, pos: verb }
+  - { target: save, native: { nl: "sparen, redden" }, pos: verb, avoid: [en.keep] }
+  - { target: sell, native: { nl: verkopen }, pos: verb }
+  - { target: borrow, native: { nl: lenen }, pos: verb }
+  - { target: keep, native: { nl: "houden, bewaren" }, pos: verb }
+  - { target: collect, native: { nl: verzamelen }, pos: verb }
+  - { target: thank, native: { nl: bedanken }, pos: verb }
+  - { target: post, native: { nl: op de post doen }, pos: verb }
+  - { target: join, native: { nl: "meedoen, lid worden" }, pos: verb }
+  - { target: meet, native: { nl: ontmoeten }, pos: verb }
+  - { target: visit, native: { nl: "bezoeken, op bezoek gaan" }, pos: verb }
+  - { target: stay, native: { nl: "blijven, logeren" }, pos: verb }
+sentences:
+  - { id: s01, target: "I like to chat with my friends.", native: { nl: "Ik klets graag met mijn vrienden." }, items: [en.chat] }
+  - { id: s02, target: "Do you speak English?", native: { nl: "Spreek jij Engels?" }, items: [en.speak] }
+  - { id: s03, target: "Don't whisper in class!", native: { nl: "Niet fluisteren in de klas!" }, items: [en.whisper], acceptAlso: ["Do not whisper in class!"] }
+  - { id: s04, target: "We had a long conversation.", native: { nl: "We hadden een lang gesprek." }, items: [en.conversation] }
+  - { id: s05, target: "Dad is talking on the telephone.", native: { nl: "Papa praat aan de telefoon." }, items: [en.telephone] }
+  - { id: s06, target: "Can you hear the birds?", native: { nl: "Hoor jij de vogels?" }, items: [en.hear] }
+  - { id: s07, target: "What's that sound?", native: { nl: "Wat is dat voor geluid?" }, items: [en.sound], acceptAlso: ["What is that sound?"] }
+  - { id: s08, target: "I haven't got any money.", native: { nl: "Ik heb geen geld." }, items: [en.money], acceptAlso: ["I have not got any money."] }
+  - { id: s09, target: "Don't spend all your money!", native: { nl: "Geef niet al je geld uit!" }, items: [en.spend], acceptAlso: ["Do not spend all your money!"] }
+  - { id: s10, target: "Save your money for a bike.", native: { nl: "Spaar je geld voor een fiets." }, items: [en.save] }
+  - { id: s11, target: "They sell ice cream at the beach.", native: { nl: "Ze verkopen ijs op het strand." }, items: [en.sell] }
+  - { id: s12, target: "Can I borrow your pencil?", native: { nl: "Mag ik je potlood lenen?" }, items: [en.borrow] }
+  - { id: s13, target: "You can keep the book.", native: { nl: "Je mag het boek houden." }, items: [en.keep] }
+  - { id: s14, target: "I like to collect shells.", native: { nl: "Ik verzamel graag schelpen." }, items: [en.collect] }
+  - { id: s15, target: "Don't forget to thank Grandma.", native: { nl: "Vergeet niet oma te bedanken." }, items: [en.thank], acceptAlso: ["Do not forget to thank Grandma."] }
+  - { id: s16, target: "Can you post this letter?", native: { nl: "Kun jij deze brief op de post doen?" }, items: [en.post] }
+  - { id: s17, target: "Do you want to join our team?", native: { nl: "Wil jij lid worden van ons team?" }, items: [en.join] }
+  - { id: s18, target: "Nice to meet you!", native: { nl: "Leuk je te ontmoeten!" }, items: [en.meet] }
+  - { id: s19, target: "We will visit Grandma on Sunday.", native: { nl: "Op zondag gaan we bij oma op bezoek." }, items: [en.visit] }
+  - { id: s20, target: "Can I stay at your house this weekend?", native: { nl: "Mag ik dit weekend bij jou logeren?" }, items: [en.stay] }
+lessons:
+  - { id: l01, title: { nl: Praten en horen }, vocab: [en.chat, en.speak, en.whisper, en.conversation, en.telephone, en.hear, en.sound] }
+  - { id: l02, title: { nl: Geld en spullen }, vocab: [en.money, en.spend, en.save, en.sell, en.borrow, en.keep, en.collect] }
+  - { id: l03, title: { nl: Bedanken en bezoeken }, vocab: [en.thank, en.post, en.join, en.meet, en.visit, en.stay] }

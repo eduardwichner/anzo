@@ -1,0 +1,47 @@
+id: nl-b2-study-u08
+title: { en: Design }
+icon: tool
+topic: Industrial design — from sketch and prototype to product, materials, users and clients, testing; a design project for agriculture (a strawberry-picking robot); zo … mogelijk, zowel … als and the passive with door
+vocabulary:
+  - { target: de ontwerper, native: { en: designer }, pos: noun, plural: ontwerpers }
+  - { target: ontwerpen, native: { en: to design }, pos: verb }
+  - { target: het ontwerp, native: { en: design }, pos: noun, plural: ontwerpen }
+  - { target: het prototype, native: { en: prototype }, pos: noun, plural: prototypes }
+  - { target: gebruiksvriendelijk, native: { en: user-friendly }, pos: adjective }
+  - { target: het materiaal, native: { en: material }, pos: noun, plural: materialen }
+  - { target: functioneel, native: { en: functional }, pos: adjective }
+  - { target: de productie, native: { en: production }, pos: noun, plural: producties }
+  - { target: de schets, native: { en: sketch }, pos: noun, plural: schetsen }
+  - { target: testen, native: { en: to test }, pos: verb }
+  - { target: de opdrachtgever, native: { en: "client (who commissions the work)" }, pos: noun, plural: opdrachtgevers, noBlank: true }
+  - { target: innovatief, native: { en: innovative }, pos: adjective }
+  - { target: de kunststof, native: { en: "plastic, synthetic material" }, pos: noun, plural: kunststoffen }
+  - { target: zowel, native: { en: "both (zowel … als: both … and)" }, pos: conjunction }
+  - { target: de aardbei, native: { en: strawberry }, pos: noun, plural: aardbeien }
+  - { target: plukken, native: { en: "to pick (fruit)" }, pos: verb }
+  - { target: rijp, native: { en: ripe }, pos: adjective }
+  - { target: de serre, native: { en: "greenhouse (Belgian)" }, pos: noun, plural: serres, alsoNL: de kas }
+sentences:
+  - { id: s01, target: "Een ontwerper denkt na over hoe een product werkt en voor wie het is.", native: { en: "A designer thinks about how a product works and who it is for." }, items: [nl.ontwerper] }
+  - { id: s02, target: "Ze heeft een nieuwe fiets voor kinderen ontworpen.", native: { en: "She has designed a new bike for children." }, items: [nl.ontwerpen], acceptAlso: ["Ze heeft voor kinderen een nieuwe fiets ontworpen.", "Ze heeft een nieuwe fiets ontworpen voor kinderen.", "Voor kinderen heeft ze een nieuwe fiets ontworpen."] }
+  - { id: s03, target: "Het eerste ontwerp was te zwaar en te duur.", native: { en: "The first design was too heavy and too expensive." }, items: [nl.ontwerp] }
+  - { id: s04, target: "Met een prototype kun je testen of het idee werkt.", native: { en: "With a prototype you can test whether the idea works." }, items: [nl.prototype, nl.testen] }
+  - { id: s05, target: "Een goede app is zo gebruiksvriendelijk dat je geen uitleg nodig hebt.", native: { en: "A good app is so user-friendly that you don't need any explanation." }, items: [nl.gebruiksvriendelijk] }
+  - { id: s06, target: "Glas is een duurzaam materiaal.", native: { en: "Glass is a sustainable material." }, items: [nl.materiaal] }
+  - { id: s07, target: "Een stoel moet niet alleen mooi, maar ook functioneel zijn.", native: { en: "A chair must be not only beautiful but also functional." }, items: [nl.functioneel] }
+  - { id: s08, target: "De productie van één stoel duurt twee uur.", native: { en: "Producing one chair takes two hours." }, items: [nl.productie] }
+  - { id: s09, target: "Ze maakt eerst een schets op papier.", native: { en: "First she makes a sketch on paper." }, items: [nl.schets], acceptAlso: ["Eerst maakt ze een schets op papier."] }
+  - { id: s10, target: "Het nieuwe model wordt eerst door honderd gebruikers getest.", native: { en: "The new model is first tested by a hundred users." }, items: [nl.testen], build: true, acceptAlso: ["Het nieuwe model wordt eerst getest door honderd gebruikers.", "Eerst wordt het nieuwe model door honderd gebruikers getest.", "Eerst wordt het nieuwe model getest door honderd gebruikers."] }
+  - { id: s11, target: "De opdrachtgever wil dat het product goedkoop en licht is.", native: { en: "The client wants the product to be cheap and light." }, items: [nl.opdrachtgever] }
+  - { id: s12, target: "Het bedrijf is bekend om zijn innovatieve producten.", native: { en: "The company is known for its innovative products." }, items: [nl.innovatief] }
+  - { id: s13, target: "Deze lamp is gemaakt van oude kunststof.", native: { en: "This lamp is made of old plastic." }, items: [nl.kunststof] }
+  - { id: s14, target: "In juni plukken we de aardbeien in de serre.", native: { en: "In June we pick the strawberries in the greenhouse." }, items: [nl.plukken, nl.aardbei, nl.serre], acceptAlso: ["We plukken de aardbeien in juni in de serre.", "De aardbeien plukken we in juni in de serre.", "In de serre plukken we de aardbeien in juni."] }
+  - { id: s15, target: "Een robot kan zien of een aardbei rijp is.", native: { en: "A robot can see whether a strawberry is ripe." }, items: [nl.rijp, nl.aardbei] }
+  - { id: s16, target: "Een ontwerper probeert een product zo eenvoudig mogelijk te maken.", native: { en: "A designer tries to make a product as simple as possible." }, items: [nl.ontwerper], build: true }
+  - { id: s17, target: "Het ontwerp moet zowel mooi als praktisch zijn.", native: { en: "The design has to be both beautiful and practical." }, items: [nl.ontwerp, nl.zowel], build: true }
+  - { id: s18, target: "Ontwerpers testen hun ideeën met veel gebruikers.", native: { en: "Designers test their ideas with lots of users." }, items: [nl.testen], form: { word: gebruikers, stem: gebruiken } }
+  - { id: s19, target: "Ze ontwierp de stoel in drie maanden.", native: { en: "She designed the chair in three months." }, items: [nl.ontwerpen], finite: { word: ontwierp, hint: { en: "ontwerpen (past)" } }, acceptAlso: ["In drie maanden ontwierp ze de stoel."] }
+transforms:
+  - { id: x01, from: "De opdrachtgever wil dat de stoel zo goedkoop is als het kan.", key: mogelijk, gapped: "De opdrachtgever wil dat de stoel ___ is.", answers: ["zo goedkoop mogelijk"], native: { en: "The client wants the chair to be as cheap as possible." }, items: [nl.opdrachtgever] }
+  - { id: x02, from: "Honderd gebruikers hebben het prototype getest.", key: door, gapped: "Het prototype ___ getest.", answers: ["is door honderd gebruikers", "is door 100 gebruikers"], native: { en: "The prototype has been tested by a hundred users." }, items: [nl.prototype] }
+texts: [nl-b2-study-t08]

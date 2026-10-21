@@ -1,0 +1,34 @@
+id: en-b1-t27
+kind: reading
+title: { nl: Mode van de tweede hand }
+topic: Fashion (a magazine article written by a teenager)
+level: B1
+paragraphs:
+  - - { id: en-b1-t27-s01, target: "A year ago, I made a decision: I wasn't going to buy any new clothes for twelve months.", native: { nl: "Een jaar geleden nam ik een beslissing: ik zou twaalf maanden lang geen nieuwe kleren kopen." } }
+    - { id: en-b1-t27-s02, target: "My friends thought I was crazy, because I've always loved fashion.", native: { nl: "Mijn vrienden vonden me gek, omdat ik altijd van mode heb gehouden." } }
+  - - { id: en-b1-t27-s03, target: "I had read an article about how much water is needed to make one cotton T-shirt, and I was shocked.", native: { nl: "Ik had een artikel gelezen over hoeveel water er nodig is om één katoenen T-shirt te maken, en ik was geschokt." } }
+    - { id: en-b1-t27-s04, target: "I also realised that half the clothes in my wardrobe were things I had only worn once or twice.", native: { nl: "Ik besefte ook dat de helft van de kleren in mijn kledingkast dingen waren die ik maar een of twee keer had gedragen." } }
+  - - { id: en-b1-t27-s05, target: "So instead of going to the shopping centre, I started looking in second-hand shops and online.", native: { nl: "Dus in plaats van naar het winkelcentrum te gaan, begon ik in tweedehandswinkels en online te zoeken." } }
+    - { id: en-b1-t27-s06, target: "I found a stylish leather jacket for fifteen pounds and some amazing old-fashioned dresses.", native: { nl: "Ik vond een stijlvol leren jasje voor vijftien pond en een paar geweldige ouderwetse jurken." } }
+    - { id: en-b1-t27-s07, target: "When something didn't fit, my grandmother showed me how to make it smaller, and I even learned to sew buttons on properly.", native: { nl: "Als iets niet paste, liet mijn oma me zien hoe ik het kleiner kon maken, en ik leerde zelfs knopen goed aan te naaien." } }
+  - - { id: en-b1-t27-s08, target: "My year is over now, but I don't think I'll go back.", native: { nl: "Mijn jaar is nu voorbij, maar ik denk niet dat ik nog nieuwe kleren ga kopen." } }
+    - { id: en-b1-t27-s09, target: "I've saved a lot of money, my style is more original, and lots of my friends have started doing the same thing.", native: { nl: "Ik heb veel geld gespaard, mijn stijl is origineler, en veel van mijn vrienden zijn hetzelfde gaan doen." } }
+glossary: []
+items: [en.decision, en.crazy, en.fashion, en.article, en.cotton, en.shocked, en.realise, en.wardrobe, en.second-hand, en.stylish, en.leather, en.old-fashioned, en.sew, en.button, en.properly, en.be-over, en.style, en.original, en.pound]
+questions:
+  - { id: en-b1-t27-q1, type: mc, question: "What did the writer decide a year ago?", options: ["Not to buy new clothes for a year.", "To start a fashion blog.", "To make all her own clothes."], correct: 0 }
+  - { id: en-b1-t27-q2, type: true_false_notgiven, statement: "The writer's friends thought it was a good idea at first.", answer: false }
+  - { id: en-b1-t27-q3, type: true_false_notgiven, statement: "Many of her clothes had hardly been worn.", answer: true }
+  - { id: en-b1-t27-q4, type: true_false_notgiven, statement: "She bought the leather jacket online.", answer: not_given }
+  - { id: en-b1-t27-q5, type: mc, question: "How does the writer feel now?", options: ["She wants to continue buying second-hand.", "She is happy to buy new clothes again.", "She is sorry about her decision."], correct: 0 }
+  - { id: en-b1-t27-q6, type: match_heading, paragraph: 3, options: ["Finding new places to shop", "Why I decided to change", "Looking back"], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t27-l1, type: mc, question: "How much did the leather jacket cost?", options: ["Fifteen pounds.", "Fifty pounds.", "Five pounds."], correct: 0 }
+  - { id: en-b1-t27-l2, type: true_false_notgiven, statement: "Her grandmother showed her how to make clothes smaller.", answer: true }
+cloze:
+  - { sentence: en-b1-t27-s02, word: thought, kind: finite_verb, hint: { nl: "think (verleden tijd)" } }
+  - { sentence: en-b1-t27-s04, word: realised, kind: finite_verb, hint: { nl: "realise (verleden tijd)" } }
+  - { sentence: en-b1-t27-s05, word: started, kind: finite_verb, hint: { nl: "start (verleden tijd)" } }
+  - { sentence: en-b1-t27-s06, word: found, kind: finite_verb, hint: { nl: "find (verleden tijd)" } }
+  - { sentence: en-b1-t27-s07, word: showed, kind: finite_verb, hint: { nl: "show (verleden tijd)" } }
+orderable: true

@@ -1,0 +1,73 @@
+id: en-b2-u06
+title: { nl: Gezondheid en fitheid }
+icon: health
+topic: Physical and mental health, exercise and injuries, healthy habits and screen time; advice and obligation (should, ought to, had better, don't have to, needn't)
+vocabulary:
+  - { target: physical, native: { nl: lichamelijk }, pos: adjective, avoid: [en.mental] }
+  - { target: mental, native: { nl: "geestelijk, mentaal" }, pos: adjective, avoid: [en.physical] }
+  - { target: wellbeing, native: { nl: welzijn }, pos: noun }
+  - { target: stretch, native: { nl: "(zich) rekken, strekken" }, pos: verb }
+  - { target: muscle, native: { nl: spier }, pos: noun }
+  - { target: injury, native: { nl: "blessure, verwonding" }, pos: noun }
+  - { target: recovery, native: { nl: herstel }, pos: noun }
+  - { target: symptom, native: { nl: symptoom }, pos: noun }
+  - { target: treatment, native: { nl: behandeling }, pos: noun }
+  - { target: treat, native: { nl: behandelen }, pos: verb }
+  - { target: therapy, native: { nl: therapie }, pos: noun, noBlank: true }
+  - { target: prevention, native: { nl: preventie }, pos: noun }
+  - { target: nutrition, native: { nl: "voeding (wat je lichaam nodig heeft)" }, pos: noun }
+  - { target: balanced, native: { nl: evenwichtig }, pos: adjective }
+  - { target: lifestyle, native: { nl: levensstijl }, pos: noun }
+  - { target: sedentary, native: { nl: "zittend (met weinig beweging)" }, pos: adjective }
+  - { target: overweight, native: { nl: "te zwaar, met overgewicht" }, pos: adjective }
+  - { target: anxiety, native: { nl: "angst, bezorgdheid" }, pos: noun }
+  - { target: burnout, native: { nl: burn-out }, pos: noun, noBlank: true }
+  - { target: meditation, native: { nl: meditatie }, pos: noun }
+  - { target: screen time, native: { nl: schermtijd }, pos: noun }
+  - { target: addicted, native: { nl: verslaafd }, pos: adjective }
+  - { target: addiction, native: { nl: verslaving }, pos: noun }
+  - { target: heart rate, native: { nl: hartslag }, pos: noun }
+  - { target: stamina, native: { nl: "uithoudingsvermogen" }, pos: noun }
+  - { target: cause, native: { nl: veroorzaken }, pos: verb }
+  - { target: warm up, native: { nl: "opwarmen (voor het sporten)" }, pos: phrase }
+  - { target: get into shape, native: { nl: "in vorm komen" }, pos: phrase }
+  - { target: cut down on, native: { nl: "minderen met" }, pos: phrase }
+sentences:
+  - { id: s01, target: "Physical activity is good for both your body and your mind.", native: { nl: "Lichaamsbeweging is goed voor zowel je lichaam als je geest." }, items: [en.physical] }
+  - { id: s02, target: "Talking to a friend can be good for your mental health.", native: { nl: "Met een vriend praten kan goed zijn voor je geestelijke gezondheid." }, items: [en.mental] }
+  - { id: s03, target: "Schools are paying more attention to students' wellbeing.", native: { nl: "Scholen besteden meer aandacht aan het welzijn van leerlingen." }, items: [en.wellbeing] }
+  - { id: s04, target: "Always stretch your muscles after a long run.", native: { nl: "Rek altijd je spieren na een lange looptraining." }, items: [en.stretch] }
+  - { id: s05, target: "My muscles were sore for days after the match.", native: { nl: "Mijn spieren deden dagen pijn na de wedstrijd." }, items: [en.muscle] }
+  - { id: s06, target: "A knee injury kept him out of the team for months.", native: { nl: "Door een knieblessure stond hij maanden buiten het team." }, items: [en.injury] }
+  - { id: s07, target: "The doctors were surprised by her quick recovery.", native: { nl: "De dokters waren verrast door haar snelle herstel." }, items: [en.recovery], form: { word: recovery, stem: recover } }
+  - { id: s08, target: "A high temperature is one of the symptoms of flu.", native: { nl: "Een hoge temperatuur is een van de symptomen van griep." }, items: [en.symptom] }
+  - { id: s09, target: "The treatment lasted six weeks.", native: { nl: "De behandeling duurde zes weken." }, items: [en.treatment], form: { word: treatment, stem: treat } }
+  - { id: s10, target: "This illness is easy to treat if you see a doctor early.", native: { nl: "Deze ziekte is makkelijk te behandelen als je vroeg naar een dokter gaat." }, items: [en.treat] }
+  - { id: s11, target: "After the accident he needed therapy to walk again.", native: { nl: "Na het ongeluk had hij therapie nodig om weer te kunnen lopen." }, items: [en.therapy], acceptAlso: ["He needed therapy to walk again after the accident."] }
+  - { id: s12, target: "Prevention is better than cure.", native: { nl: "Voorkomen is beter dan genezen." }, items: [en.prevention] }
+  - { id: s13, target: "Good nutrition is especially important for growing children.", native: { nl: "Goede voeding is vooral belangrijk voor kinderen in de groei." }, items: [en.nutrition] }
+  - { id: s14, target: "A balanced diet includes fruit, vegetables and fish.", native: { nl: "Een evenwichtig dieet bevat fruit, groenten en vis." }, items: [en.balanced] }
+  - { id: s15, target: "Small changes to your lifestyle can make a big difference.", native: { nl: "Kleine veranderingen in je levensstijl kunnen een groot verschil maken." }, items: [en.lifestyle] }
+  - { id: s16, target: "A sedentary job is bad for your back.", native: { nl: "Zittend werk is slecht voor je rug." }, items: [en.sedentary] }
+  - { id: s17, target: "More and more children are overweight.", native: { nl: "Steeds meer kinderen hebben overgewicht." }, items: [en.overweight] }
+  - { id: s18, target: "Exams cause a lot of anxiety for some students.", native: { nl: "Examens veroorzaken bij sommige leerlingen veel angst." }, items: [en.anxiety, en.cause] }
+  - { id: s19, target: "Working long hours without a break can lead to burnout.", native: { nl: "Lange dagen werken zonder pauze kan tot een burn-out leiden." }, items: [en.burnout] }
+  - { id: s20, target: "Ten minutes of meditation a day helps me to relax.", native: { nl: "Tien minuten meditatie per dag helpt me om te ontspannen." }, items: [en.meditation] }
+  - { id: s21, target: "Parents worry about how much screen time their children have.", native: { nl: "Ouders maken zich zorgen over hoeveel schermtijd hun kinderen hebben." }, items: [en.screen-time] }
+  - { id: s22, target: "Some teenagers are almost addicted to their phones.", native: { nl: "Sommige tieners zijn bijna verslaafd aan hun telefoon." }, items: [en.addicted] }
+  - { id: s23, target: "Addiction to games is now treated as an illness.", native: { nl: "Verslaving aan games wordt nu als een ziekte behandeld." }, items: [en.addiction] }
+  - { id: s24, target: "Your heart rate goes up when you exercise.", native: { nl: "Je hartslag gaat omhoog als je sport." }, items: [en.heart-rate] }
+  - { id: s25, target: "Long-distance runners need a lot of stamina.", native: { nl: "Langeafstandslopers hebben veel uithoudingsvermogen nodig." }, items: [en.stamina] }
+  - { id: s26, target: "Warm up for ten minutes before you start running.", native: { nl: "Warm tien minuten op voor je begint te lopen." }, items: [en.warm-up] }
+  - { id: s27, target: "I want to get into shape before the summer.", native: { nl: "Ik wil voor de zomer in vorm komen." }, items: [en.get-into-shape] }
+  - { id: s28, target: "The doctor told him to cut down on sugar.", native: { nl: "De dokter zei hem minder suiker te eten." }, items: [en.cut-down-on] }
+  - { id: s29, target: "You had better see a doctor about that injury.", native: { nl: "Je kunt maar beter met die blessure naar een dokter gaan." }, items: [en.injury], build: true }
+  - { id: s30, target: "You don't have to join a gym to get into shape.", native: { nl: "Je hoeft niet lid te worden van een sportschool om in vorm te komen." }, items: [en.get-into-shape], build: true }
+  - { id: s31, target: "You ought to warm up before every training session.", native: { nl: "Je zou voor elke training moeten opwarmen." }, items: [en.warm-up] }
+  - { id: s33, target: "You needn't warm up for a short walk.", native: { nl: "Voor een korte wandeling hoef je niet op te warmen." }, items: [en.warm-up] }
+  - { id: s32, target: "She stretches every morning before breakfast.", native: { nl: "Ze rekt zich elke ochtend voor het ontbijt." }, items: [en.stretch], finite: { word: stretches, hint: { nl: "stretch (tegenwoordige tijd)" } } }
+transforms:
+  - { id: x01, from: "It would be a good idea to rest your knee for a week.", key: better, gapped: "You ___ your knee for a week.", answers: ["had better rest"], items: [en.injury] }
+  - { id: x02, from: "It isn't necessary to buy expensive trainers.", key: have, gapped: "You don't ___ expensive trainers.", answers: ["have to buy"], items: [en.get-into-shape] }
+  - { id: x03, from: "I eat less chocolate than before.", key: cut, gapped: "I have ___ chocolate.", answers: ["cut down on", "cut down on eating", "cut back on"], items: [en.cut-down-on] }
+texts: [en-b2-t06]

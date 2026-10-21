@@ -1,0 +1,42 @@
+id: fr-b2-t03
+kind: reading
+title: { nl: Mijn eerste baan, en: "My first job" }
+topic: Travail et carrière (quatre jeunes racontent leur premier emploi sur un site d'orientation)
+level: B2
+paragraphs:
+  - - { id: fr-b2-t03-s01, target: "Jade : J'ai commencé comme apprentie chez un coiffeur à dix-sept ans.", native: { nl: "Jade: Ik begon op mijn zeventiende als leerling bij een kapper.", en: "Jade: I started as an apprentice at a hairdresser's at seventeen." } }
+    - { id: fr-b2-t03-s02, target: "Au début, je lavais les cheveux et je nettoyais le salon, ce qui n'était pas vraiment mon rêve.", native: { nl: "In het begin waste ik het haar van de klanten en maakte ik het kapsalon schoon, wat niet echt mijn droom was.", en: "At first, I washed hair and cleaned the salon, which wasn't really my dream." } }
+    - { id: fr-b2-t03-s03, target: "Mais ma patronne m'a beaucoup aidée, et après un an, elle m'a laissée couper seule.", native: { nl: "Maar mijn bazin heeft me veel geholpen, en na een jaar liet ze me alleen knippen.", en: "But my boss helped me a lot, and after a year she let me cut hair on my own." } }
+  - - { id: fr-b2-t03-s04, target: "Yanis : Mon premier vrai travail, c'était la nuit, dans une grande usine.", native: { nl: "Yanis: Mijn eerste echte baan was 's nachts, in een grote fabriek.", en: "Yanis: My first real job was at night, in a big factory." } }
+    - { id: fr-b2-t03-s05, target: "Le salaire était bon, mais dormir la journée était difficile, et je ne voyais presque plus mes amis.", native: { nl: "Het loon was goed, maar overdag slapen was moeilijk, en ik zag mijn vrienden bijna niet meer.", en: "The pay was good, but sleeping during the day was hard, and I hardly saw my friends any more." } }
+    - { id: fr-b2-t03-s06, target: "Après huit mois, j'ai démissionné et j'ai recommencé à étudier. J'aurais dû le faire plus tôt !", native: { nl: "Na acht maanden nam ik ontslag en begon ik opnieuw te studeren. Ik had het eerder moeten doen!", en: "After eight months, I resigned and went back to studying. I should have done it sooner!" } }
+  - - { id: fr-b2-t03-s07, target: "Sarah : Je suis indépendante depuis la fin de mes études.", native: { nl: "Sarah: Ik ben zelfstandig sinds het einde van mijn studie.", en: "Sarah: I've been self-employed since I finished my studies." } }
+    - { id: fr-b2-t03-s08, target: "Je crée des sites pour de petites entreprises, et je travaille surtout à la maison.", native: { nl: "Ik maak websites voor kleine bedrijven, en ik werk vooral thuis.", en: "I create websites for small businesses, and I mostly work at home." } }
+    - { id: fr-b2-t03-s09, target: "Les horaires flexibles, c'est génial, mais certains mois, mes revenus sont très bas, et ce qui me manque le plus, ce sont les collègues.", native: { nl: "De flexibele uren zijn geweldig, maar sommige maanden is mijn inkomen heel laag, en wat ik het meest mis, zijn collega's.", en: "Flexible hours are great, but some months my income is very low, and what I miss most is having colleagues." } }
+  - - { id: fr-b2-t03-s10, target: "Hugo : J'ai fait un stage dans un journal pendant ma dernière année de lycée.", native: { nl: "Hugo: Ik liep stage bij een krant tijdens mijn laatste jaar middelbare school.", en: "Hugo: I did a work placement at a newspaper in my last year at lycée." } }
+    - { id: fr-b2-t03-s11, target: "Je n'étais pas payé, mais les journalistes me traitaient comme un membre de l'équipe.", native: { nl: "Ik werd niet betaald, maar de journalisten behandelden me als lid van het team.", en: "I wasn't paid, but the journalists treated me like a member of the team." } }
+    - { id: fr-b2-t03-s12, target: "L'année d'après, quand ils ont voulu recruter quelqu'un, ils ont pensé à moi et ils m'ont embauché.", native: { nl: "Het jaar daarop, toen ze iemand wilden aanwerven, dachten ze aan mij en namen ze me aan.", en: "The following year, when they wanted to recruit someone, they thought of me and took me on." } }
+glossary:
+  - { word: patronne, native: { nl: "de bazin (patron)", en: "boss (female; patron)" } }
+  - { word: traitaient, native: { nl: "behandelden (traiter)", en: "treated (traiter)" } }
+items: [fr.apprenti, fr.demissionner, fr.independant, fr.horaires, fr.flexible, fr.revenu, fr.recruter]
+questions:
+  - id: fr-b2-t03-q1
+    type: match_texts
+    labels: [Jade, Yanis, Sarah, Hugo]
+    statements:
+      - { id: fr-b2-t03-q1-a, statement: "Cette personne n'était pas payée pour sa première expérience.", paragraph: 4 }
+      - { id: fr-b2-t03-q1-b, statement: "Cette personne voyait rarement ses amis.", paragraph: 2 }
+      - { id: fr-b2-t03-q1-c, statement: "Cette personne faisait d'abord des tâches simples.", paragraph: 1 }
+      - { id: fr-b2-t03-q1-d, statement: "Cette personne regrette de ne pas avoir de collègues.", paragraph: 3 }
+      - { id: fr-b2-t03-q1-e, statement: "Cette personne a trouvé un emploi grâce à son stage.", paragraph: 4 }
+      - { id: fr-b2-t03-q1-f, statement: "Cette personne pense qu'elle aurait dû changer plus tôt.", paragraph: 2 }
+  - { id: fr-b2-t03-q2, type: summary, options: ["Quatre jeunes racontent ce qu'ils ont appris de leur premier emploi, de l'apprentissage au travail indépendant.", "Quatre jeunes expliquent pourquoi ils ne veulent jamais travailler pour une grande entreprise.", "Quatre jeunes se plaignent que les employeurs ne recrutent pas de jeunes sans diplôme."], correct: 0 }
+listeningQuestions:
+  - { id: fr-b2-t03-l1, type: complete, statement: "Yanis travaillait la ___ dans une usine.", answers: [nuit] }
+  - { id: fr-b2-t03-l2, type: mc, question: "Où Hugo a-t-il fait son stage ?", options: ["Dans un journal.", "Dans une usine.", "Chez un coiffeur."], correct: 0 }
+wordForm:
+  - { sentence: fr-b2-t03-s01, word: apprentie, stem: apprendre }
+  - { sentence: fr-b2-t03-s08, word: surtout, stem: tout }
+  - { sentence: fr-b2-t03-s11, word: journalistes, stem: journal }
+orderable: false

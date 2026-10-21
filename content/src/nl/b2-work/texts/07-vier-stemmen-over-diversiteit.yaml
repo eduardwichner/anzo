@@ -1,0 +1,43 @@
+id: nl-b2-work-t07
+kind: reading
+title: { en: Four voices on diversity at work }
+topic: Diversity at work (four employees in a company magazine)
+level: B2
+paragraphs:
+  - - { id: nl-b2-work-t07-s01, target: "Toen ik hier begon, sprak ik nog geen woord Nederlands.", native: { en: "When I started here, I didn't speak a word of Dutch yet." } }
+    - { id: nl-b2-work-t07-s02, target: "Mijn mentor heeft me de eerste maanden alles uitgelegd, in het Engels en met veel geduld.", native: { en: "My mentor explained everything to me in the first months, in English and with a lot of patience." } }
+    - { id: nl-b2-work-t07-s03, target: "Nu volg ik twee avonden per week een cursus, en het bedrijf betaalt het inschrijvingsgeld.", native: { en: "Now I take a course two evenings a week, and the company pays the registration fee." } }
+  - - { id: nl-b2-work-t07-s04, target: "Ik zit al twintig jaar in een rolstoel.", native: { en: "I have been in a wheelchair for twenty years." } }
+    - { id: nl-b2-work-t07-s05, target: "Toen ik solliciteerde, was het gebouw nog niet aangepast, maar de directie heeft meteen een lift laten plaatsen.", native: { en: "When I applied, the building had not yet been adapted, but the management had a lift installed straight away." } }
+    - { id: nl-b2-work-t07-s06, target: "Ik wil niet als een uitzondering behandeld worden, maar gewoon als een collega die zijn werk goed doet.", native: { en: "I don't want to be treated as an exception, just as a colleague who does his job well." } }
+  - - { id: nl-b2-work-t07-s07, target: "Als vakbondsafgevaardigde hoor ik ook de kritiek.", native: { en: "As a union representative I also hear the criticism." } }
+    - { id: nl-b2-work-t07-s08, target: "Sommige collega's vinden dat er te veel over diversiteit gepraat wordt en te weinig over het loon.", native: { en: "Some colleagues think there is too much talk about diversity and too little about pay." } }
+    - { id: nl-b2-work-t07-s09, target: "Enerzijds begrijp ik dat, anderzijds gaan die twee volgens mij samen: wie zich niet welkom voelt, presteert ook minder goed.", native: { en: "On the one hand I understand that; on the other, in my view the two go together: anyone who doesn't feel welcome also performs less well." } }
+  - - { id: nl-b2-work-t07-s10, target: "Ik ben vijftig en werd vorig jaar aangeworven, na bijna een jaar zonder werk.", native: { en: "I'm fifty and was hired last year, after almost a year without work." } }
+    - { id: nl-b2-work-t07-s11, target: "Bij andere bedrijven hoorde ik vaak dat ik te veel ervaring had, wat eigenlijk betekende dat ik te oud was.", native: { en: "At other companies I often heard that I had too much experience, which really meant that I was too old." } }
+    - { id: nl-b2-work-t07-s12, target: "Hier telde alleen wat ik kon, en dat heeft me mijn zelfvertrouwen teruggegeven.", native: { en: "Here only what I could do counted, and that gave me back my self-confidence." } }
+glossary:
+  - { word: rolstoel, native: { en: wheelchair } }
+  - { word: uitzondering, native: { en: exception } }
+  - { word: plaatsen, native: { en: "to install, to put in" } }
+items: [nl.mentor, nl.vakbondsafgevaardigde, nl.aanwerven]
+questions:
+  - id: nl-b2-work-t07-q1
+    type: match_texts
+    labels: [Arjun, Wim, Karin, Luc]
+    statements:
+      - { id: nl-b2-work-t07-q1-a, statement: "Deze persoon kreeg eerst hulp in een andere taal.", paragraph: 1 }
+      - { id: nl-b2-work-t07-q1-b, statement: "Voor deze persoon werd het gebouw aangepast.", paragraph: 2 }
+      - { id: nl-b2-work-t07-q1-c, statement: "Deze persoon vertelt wat andere collega's niet goed vinden.", paragraph: 3 }
+      - { id: nl-b2-work-t07-q1-d, statement: "Deze persoon vond lang geen nieuwe job.", paragraph: 4 }
+      - { id: nl-b2-work-t07-q1-e, statement: "Deze persoon wil geen speciale behandeling.", paragraph: 2 }
+      - { id: nl-b2-work-t07-q1-f, statement: "Volgens deze persoon werk je beter als je je welkom voelt.", paragraph: 3 }
+  - { id: nl-b2-work-t07-q2, type: summary, options: ["Vier werknemers vertellen hoe diversiteit in hun bedrijf werkt en wat ze ervan vinden.", "Vier werknemers klagen over hun loon.", "Vier sollicitanten vertellen waarom ze geen job vonden."], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-work-t07-l1, type: complete, statement: "De eerste persoon volgt twee avonden per week een ___.", answers: [cursus] }
+  - { id: nl-b2-work-t07-l2, type: true_false_notgiven, statement: "De laatste persoon werd vorig jaar aangeworven.", answer: true }
+wordForm:
+  - { sentence: nl-b2-work-t07-s03, word: inschrijvingsgeld, stem: inschrijven }
+  - { sentence: nl-b2-work-t07-s08, word: diversiteit, stem: divers }
+  - { sentence: nl-b2-work-t07-s11, word: ervaring, stem: ervaren }
+orderable: false

@@ -1,0 +1,72 @@
+id: nl-b1-u07
+title: { en: The doctor and appointments }
+icon: health
+topic: The GP's practice, symptoms, treatment, referrals; verbs with fixed prepositions
+vocabulary:
+  - { target: de praktijk, native: { en: "(doctor's) practice" }, pos: noun, plural: praktijken }
+  - { target: het onthaal, native: { en: "reception (desk)" }, pos: noun, plural: "-", alsoNL: de receptie }
+  - { target: het secretariaat, native: { en: "office, secretary's office" }, pos: noun, plural: secretariaten }
+  - { target: de raadpleging, native: { en: "(doctor's) surgery hours, consultation" }, pos: noun, plural: raadplegingen, alsoNL: het spreekuur }
+  - { target: het huisbezoek, native: { en: home visit }, pos: noun, plural: huisbezoeken }
+  - { target: de wachtdienst, native: { en: "out-of-hours (doctor's) service" }, pos: noun, plural: wachtdiensten, alsoNL: de huisartsenpost }
+  - { target: het symptoom, native: { en: symptom }, pos: noun, plural: symptomen }
+  - { target: de hoest, native: { en: cough }, pos: noun, plural: "-" }
+  - { target: duizelig, native: { en: dizzy }, pos: adjective }
+  - { target: allergisch, native: { en: allergic }, pos: adjective }
+  - { target: de ontsteking, native: { en: inflammation }, pos: noun, plural: ontstekingen, avoid: [nl.infectie] }
+  - { target: de infectie, native: { en: infection }, pos: noun, plural: infecties }
+  - { target: besmettelijk, native: { en: contagious }, pos: adjective }
+  - { target: het vaccin, native: { en: vaccine }, pos: noun, plural: vaccins, avoid: [nl.vaccinatie] }
+  - { target: de vaccinatie, native: { en: vaccination }, pos: noun, plural: vaccinaties }
+  - { target: doorverwijzen, native: { en: "to refer (to a specialist)" }, pos: verb }
+  - { target: voorschrijven, native: { en: to prescribe }, pos: verb }
+  - { target: de behandeling, native: { en: treatment }, pos: noun, plural: behandelingen }
+  - { target: behandelen, native: { en: to treat }, pos: verb, avoid: [nl.verzorgen] }
+  - { target: verzorgen, native: { en: "to look after, to dress (a wound)" }, pos: verb }
+  - { target: de bloeddruk, native: { en: blood pressure }, pos: noun, plural: "-" }
+  - { target: de long, native: { en: lung }, pos: noun, plural: longen }
+  - { target: de enkel, native: { en: ankle }, pos: noun, plural: enkels }
+  - { target: verstuiken, native: { en: "to sprain" }, pos: verb }
+  - { target: het gips, native: { en: plaster (cast) }, pos: noun, plural: "-" }
+  - { target: aanmelden, native: { en: "to register, to report (reflexive)" }, pos: verb }
+  - { target: verplaatsen, native: { en: "to move, to reschedule" }, pos: verb }
+  - { target: merken, native: { en: to notice }, pos: verb }
+  - { target: pijnlijk, native: { en: painful }, pos: adjective }
+  - { target: verdwijnen, native: { en: "to disappear, to go away" }, pos: verb }
+  - { target: ademen, native: { en: to breathe }, pos: verb }
+  - { target: diep, native: { en: deep }, pos: adjective }
+  - { target: de lijst, native: { en: list }, pos: noun, plural: lijsten }
+sentences:
+  - { id: s01, target: "De praktijk is op zaterdag gesloten.", native: { en: "The practice is closed on Saturdays." }, items: [nl.praktijk] }
+  - { id: s02, target: "Meld u eerst aan bij het onthaal.", native: { en: "Please report to reception first." }, items: [nl.onthaal, nl.aanmelden], acceptAlso: ["Meld u eerst bij het onthaal aan."] }
+  - { id: s03, target: "Het secretariaat is elke voormiddag open.", native: { en: "The office is open every morning." }, items: [nl.secretariaat] }
+  - { id: s04, target: "De raadpleging begint om vier uur, maar je moet een afspraak maken.", native: { en: "Surgery hours start at four, but you have to make an appointment." }, items: [nl.raadpleging], acceptAlso: ["Om vier uur begint de raadpleging, maar je moet een afspraak maken."] }
+  - { id: s05, target: "Mijn moeder is te ziek om te komen. Kan de dokter op huisbezoek komen?", native: { en: "My mother is too ill to come. Can the doctor make a home visit?" }, items: [nl.huisbezoek] }
+  - { id: s06, target: "In het weekend moet je de wachtdienst bellen.", native: { en: "At the weekend you have to call the out-of-hours service." }, items: [nl.wachtdienst], acceptAlso: ["Je moet in het weekend de wachtdienst bellen."] }
+  - { id: s07, target: "Welke symptomen hebt u?", native: { en: "What symptoms do you have?" }, items: [nl.symptoom] }
+  - { id: s08, target: "Ik heb al een week last van een droge hoest.", native: { en: "I've had a dry cough for a week." }, items: [nl.hoest] }
+  - { id: s09, target: "Als ik opsta, word ik duizelig.", native: { en: "When I get up, I get dizzy." }, items: [nl.duizelig], acceptAlso: ["Ik word duizelig als ik opsta."] }
+  - { id: s10, target: "Ik ben allergisch voor katten.", native: { en: "I'm allergic to cats." }, items: [nl.allergisch] }
+  - { id: s11, target: "U hebt een ontsteking in uw oor.", native: { en: "Your ear is inflamed." }, items: [nl.ontsteking] }
+  - { id: s12, target: "Is deze infectie besmettelijk?", native: { en: "Is this infection contagious?" }, items: [nl.infectie, nl.besmettelijk] }
+  - { id: s13, target: "Het vaccin tegen griep wordt elk jaar aangepast.", native: { en: "The flu vaccine is adjusted every year." }, items: [nl.vaccin], finite: { word: wordt, hint: { en: "worden (present)" } } }
+  - { id: s14, target: "De vaccinatie is gratis voor kinderen.", native: { en: "The vaccination is free for children." }, items: [nl.vaccinatie], acceptAlso: ["Voor kinderen is de vaccinatie gratis."] }
+  - { id: s15, target: "De huisarts heeft me naar een specialist doorverwezen.", native: { en: "The GP has referred me to a specialist." }, items: [nl.doorverwijzen], acceptAlso: ["Naar een specialist heeft de huisarts me doorverwezen.", "De huisarts heeft me doorverwezen naar een specialist."] }
+  - { id: s16, target: "De dokter schreef een zalf voor.", native: { en: "The doctor prescribed an ointment." }, items: [nl.voorschrijven], finite: { word: schreef, hint: { en: "voorschrijven (past)" } } }
+  - { id: s17, target: "De behandeling duurt drie weken.", native: { en: "The treatment lasts three weeks." }, items: [nl.behandeling] }
+  - { id: s18, target: "Die infectie wordt met een zalf behandeld.", native: { en: "That infection is treated with an ointment." }, items: [nl.behandelen, nl.infectie] }
+  - { id: s19, target: "De verpleegkundige verzorgt de wonde elke dag.", native: { en: "The nurse dresses the wound every day." }, items: [nl.verzorgen], acceptAlso: ["Elke dag verzorgt de verpleegkundige de wonde.", "De verpleegkundige verzorgt elke dag de wonde."] }
+  - { id: s20, target: "Uw bloeddruk is een beetje te hoog.", native: { en: "Your blood pressure is a bit too high." }, items: [nl.bloeddruk] }
+  - { id: s21, target: "Roken is slecht voor je longen.", native: { en: "Smoking is bad for your lungs." }, items: [nl.long] }
+  - { id: s22, target: "Ik heb mijn enkel verstuikt tijdens het sporten.", native: { en: "I sprained my ankle doing sport." }, items: [nl.enkel, nl.verstuiken] }
+  - { id: s23, target: "Zijn been zit al zes weken in het gips.", native: { en: "His leg has been in plaster for six weeks." }, items: [nl.gips] }
+  - { id: s24, target: "Kan ik mijn afspraak naar volgende week verplaatsen?", native: { en: "Can I move my appointment to next week?" }, items: [nl.verplaatsen] }
+  - { id: s25, target: "Ik merkte dat mijn knie dik werd.", native: { en: "I noticed that my knee was swelling up." }, items: [nl.merken], finite: { word: merkte, hint: { en: "merken (past)" } } }
+  - { id: s26, target: "Slikken is heel pijnlijk.", native: { en: "Swallowing is very painful." }, items: [nl.pijnlijk] }
+  - { id: s27, target: "De pijn is na twee dagen verdwenen.", native: { en: "The pain went away after two days." }, items: [nl.verdwijnen] }
+  - { id: s28, target: "Adem diep in en weer uit.", native: { en: "Breathe in deeply and out again." }, items: [nl.ademen, nl.diep] }
+  - { id: s29, target: "Iedereen in de praktijk wacht op de dokter.", native: { en: "Everyone in the practice is waiting for the doctor." }, items: [nl.praktijk] }
+  - { id: s30, target: "Denk eraan dat je tijdens de behandeling geen alcohol drinkt.", native: { en: "Remember not to drink alcohol during the treatment." }, items: [nl.behandeling, nl.tijdens] }
+  - { id: s31, target: "Het vaccin waarvoor ik een afspraak heb, is gratis.", native: { en: "The vaccine I have an appointment for is free." }, items: [nl.vaccin], build: true }
+  - { id: s32, target: "De dokter geeft je een lijst met medicijnen.", native: { en: "The doctor gives you a list of medicines." }, items: [nl.lijst] }
+texts: [nl-b1-t08]

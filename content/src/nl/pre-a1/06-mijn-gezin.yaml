@@ -1,0 +1,51 @@
+id: nl-pre-a1-u06
+title: { en: My family }
+icon: family
+topic: Family
+vocabulary:
+  - { target: de familie, native: { en: family }, pos: noun, plural: families, avoid: [nl.gezin] }
+  - { target: het gezin, native: { en: "family (household)" }, pos: noun, plural: gezinnen }
+  - { target: hebben, native: { en: to have }, pos: verb }
+  - { target: de man, native: { en: "man, husband" }, pos: noun, plural: mannen }
+  - { target: de vrouw, native: { en: "woman, wife" }, pos: noun, plural: vrouwen }
+  - { target: getrouwd, native: { en: married }, pos: adjective }
+  - { target: de partner, native: { en: partner }, pos: noun, plural: partners, avoid: [nl.vriend, nl.vriendin, nl.man, nl.vrouw] }
+  - { target: het kind, native: { en: child }, pos: noun, plural: kinderen }
+  - { target: de zoon, native: { en: son }, pos: noun, plural: zonen }
+  - { target: de dochter, native: { en: daughter }, pos: noun, plural: dochters }
+  - { target: de baby, native: { en: baby }, pos: noun, plural: "baby's" }
+  - { target: de moeder, native: { en: mother }, pos: noun, plural: moeders }
+  - { target: de vader, native: { en: father }, pos: noun, plural: vaders }
+  - { target: de ouder, native: { en: parent }, pos: noun, plural: ouders }
+  - { target: de broer, native: { en: brother }, pos: noun, plural: broers }
+  - { target: de zus, native: { en: sister }, pos: noun, plural: zussen }
+  - { target: de jongen, native: { en: boy }, pos: noun, plural: jongens }
+  - { target: het meisje, native: { en: girl }, pos: noun, plural: meisjes }
+  - { target: de vriend, native: { en: "friend, boyfriend" }, pos: noun, plural: vrienden }
+  - { target: de vriendin, native: { en: "friend (female), girlfriend" }, pos: noun, plural: vriendinnen }
+  - { target: alleen, native: { en: "alone, only" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Mijn familie woont in Polen.", native: { en: "My family lives in Poland." }, items: [nl.familie] }
+  - { id: s02, target: "Ik heb een groot gezin.", native: { en: "I have a big family." }, items: [nl.gezin, nl.hebben] }
+  - { id: s03, target: "Hebt u kinderen?", native: { en: "Do you have children?" }, items: [nl.hebben, nl.kind] }
+  - { id: s04, target: "Mijn man heet Marc.", native: { en: "My husband is called Marc." }, items: [nl.man] }
+  - { id: s05, target: "De man spreekt Frans.", native: { en: "The man speaks French." }, items: [nl.man] }
+  - { id: s06, target: "Mijn vrouw komt uit Gent.", native: { en: "My wife comes from Ghent." }, items: [nl.vrouw] }
+  - { id: s07, target: "Ben je getrouwd?", native: { en: "Are you married?" }, items: [nl.getrouwd] }
+  - { id: s08, target: "Ja, ik ben getrouwd.", native: { en: "Yes, I'm married." }, items: [nl.getrouwd] }
+  - { id: s09, target: "Mijn partner werkt in Brussel.", native: { en: "My partner works in Brussels." }, items: [nl.partner] }
+  - { id: s10, target: "Ik heb twee kinderen.", native: { en: "I have two children." }, items: [nl.kind, nl.hebben] }
+  - { id: s11, target: "Mijn zoon is twaalf.", native: { en: "My son is twelve." }, items: [nl.zoon] }
+  - { id: s12, target: "Mijn dochter heet Emma.", native: { en: "My daughter is called Emma." }, items: [nl.dochter] }
+  - { id: s13, target: "De baby is één jaar.", native: { en: "The baby is one year old." }, items: [nl.baby] }
+  - { id: s14, target: "Mijn moeder woont in Roemenië.", native: { en: "My mother lives in Romania." }, items: [nl.moeder] }
+  - { id: s15, target: "Mijn vader heet Ali.", native: { en: "My father is called Ali." }, items: [nl.vader] }
+  - { id: s16, target: "Mijn ouders spreken geen Nederlands.", native: { en: "My parents don't speak Dutch." }, items: [nl.ouder] }
+  - { id: s17, target: "Ik heb een broer en een zus.", native: { en: "I have a brother and a sister." }, items: [nl.broer, nl.zus] }
+  - { id: s18, target: "Mijn zus is getrouwd.", native: { en: "My sister is married." }, items: [nl.zus, nl.getrouwd] }
+  - { id: s19, target: "Mijn broer heet Karim.", native: { en: "My brother is called Karim." }, items: [nl.broer] }
+  - { id: s20, target: "De jongen is mijn zoon.", native: { en: "The boy is my son." }, items: [nl.jongen, nl.zoon] }
+  - { id: s21, target: "Het meisje heet Nina.", native: { en: "The girl is called Nina." }, items: [nl.meisje] }
+  - { id: s22, target: "Tom is een vriend.", native: { en: "Tom is a friend." }, items: [nl.vriend] }
+  - { id: s23, target: "Mijn vriendin woont in Mechelen.", native: { en: "My friend lives in Mechelen." }, items: [nl.vriendin] }
+  - { id: s24, target: "Ik woon alleen.", native: { en: "I live alone." }, items: [nl.alleen] }

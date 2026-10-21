@@ -1,0 +1,131 @@
+id: en-b1-u10
+title: { nl: Gezondheid en het lichaam }
+icon: health
+topic: The body, illness, injuries and healthy habits; past continuous interrupted by the past simple, should for advice
+vocabulary:
+  - { target: health, native: { nl: gezondheid }, pos: noun }
+  - { target: healthy, native: { nl: gezond }, pos: adjective, avoid: [en.unhealthy] }
+  - { target: unhealthy, native: { nl: ongezond }, pos: adjective }
+  - { target: unfit, native: { nl: "in slechte conditie, slecht in vorm" }, pos: adjective, avoid: [en.unwell] }
+  - { target: unwell, native: { nl: niet lekker (ziek) }, pos: adjective, avoid: [en.unfit], noBlank: true }
+  - { target: human, native: { nl: "mens; menselijk" }, pos: noun }
+  - { target: brain, native: { nl: hersenen }, pos: noun }
+  - { target: heart, native: { nl: hart }, pos: noun }
+  - { target: blood, native: { nl: bloed }, pos: noun }
+  - { target: bone, native: { nl: bot }, pos: noun }
+  - { target: skin, native: { nl: huid }, pos: noun }
+  - { target: cheek, native: { nl: wang }, pos: noun, avoid: [en.chin] }
+  - { target: chin, native: { nl: kin }, pos: noun }
+  - { target: lip, native: { nl: lip }, pos: noun }
+  - { target: tongue, native: { nl: tong }, pos: noun }
+  - { target: throat, native: { nl: keel }, pos: noun }
+  - { target: thumb, native: { nl: duim }, pos: noun }
+  - { target: ankle, native: { nl: enkel }, pos: noun }
+  - { target: sight, native: { nl: "zicht, gezichtsvermogen" }, pos: noun, noBlank: true }
+  - { target: breath, native: { nl: adem }, pos: noun }
+  - { target: breathe, native: { nl: ademen }, pos: verb }
+  - { target: illness, native: { nl: ziekte }, pos: noun, avoid: [en.disease] }
+  - { target: disease, native: { nl: ziekte (aandoening) }, pos: noun, avoid: [en.illness] }
+  - { target: flu, native: { nl: griep }, pos: noun }
+  - { target: fever, native: { nl: koorts }, pos: noun }
+  - { target: ache, native: { nl: pijn (zeurend) }, pos: noun, avoid: [en.pain] }
+  - { target: pain, native: { nl: pijn }, pos: noun, avoid: [en.ache] }
+  - { target: painful, native: { nl: pijnlijk }, pos: adjective }
+  - { target: suffer, native: { nl: lijden (aan) }, pos: verb }
+  - { target: accident, native: { nl: ongeluk }, pos: noun }
+  - { target: slip, native: { nl: uitglijden }, pos: verb }
+  - { target: injure, native: { nl: verwonden }, pos: verb }
+  - { target: bleed, native: { nl: bloeden }, pos: verb }
+  - { target: tissue, native: { nl: papieren zakdoekje }, pos: noun }
+  - { target: lie down, native: { nl: gaan liggen }, pos: phrase }
+  - { target: rest, native: { nl: rust }, pos: noun }
+  - { target: sleepy, native: { nl: slaperig }, pos: adjective }
+  - { target: tiring, native: { nl: vermoeiend }, pos: adjective }
+  - { target: exhausted, native: { nl: uitgeput }, pos: adjective }
+  - { target: stress, native: { nl: stress }, pos: noun }
+  - { target: undress, native: { nl: (zich) uitkleden }, pos: verb, noBlank: true }
+  - { target: appointment, native: { nl: afspraak (bij dokter e.d.) }, pos: noun }
+  - { target: waiting room, native: { nl: wachtkamer }, pos: noun }
+  - { target: clinic, native: { nl: kliniek }, pos: noun }
+  - { target: patient, native: { nl: patiënt }, pos: noun }
+  - { target: check, native: { nl: controle }, pos: noun }
+  - { target: operation, native: { nl: operatie }, pos: noun }
+  - { target: operate, native: { nl: opereren }, pos: verb }
+  - { target: cure, native: { nl: "genezen (iemand, een ziekte)" }, pos: verb, avoid: [en.recover] }
+  - { target: recover, native: { nl: herstellen }, pos: verb, avoid: [en.cure] }
+  - { target: pharmacy, native: { nl: apotheek }, pos: noun }
+  - { target: prescription, native: { nl: recept (van de dokter) }, pos: noun, avoid: [en.recipe] }
+  - { target: pill, native: { nl: pil }, pos: noun }
+  - { target: aspirin, native: { nl: aspirine }, pos: noun }
+  - { target: wheelchair, native: { nl: rolstoel }, pos: noun }
+  - { target: disabled, native: { nl: "gehandicapt, met een beperking" }, pos: adjective }
+  - { target: habit, native: { nl: gewoonte }, pos: noun, avoid: [en.custom, en.routine] }
+  - { target: smoke, native: { nl: roken }, pos: verb }
+  - { target: smoking, native: { nl: het roken }, pos: noun }
+  - { target: avoid, native: { nl: vermijden }, pos: verb }
+  - { target: prevent, native: { nl: voorkomen }, pos: verb }
+sentences:
+  - { id: s01, target: "Sleep is very important for your health.", native: { nl: "Slaap is heel belangrijk voor je gezondheid." }, items: [en.health] }
+  - { id: s02, target: "We should eat more healthy food.", native: { nl: "We zouden gezonder moeten eten." }, items: [en.healthy] }
+  - { id: s03, target: "Sitting all day is unhealthy.", native: { nl: "De hele dag zitten is ongezond." }, items: [en.unhealthy] }
+  - { id: s04, target: "I'm so unfit that I can't run for the bus.", native: { nl: "Ik ben zo slecht in vorm dat ik niet naar de bus kan rennen." }, items: [en.unfit] }
+  - { id: s05, target: "She felt unwell, so she went home early.", native: { nl: "Ze voelde zich niet lekker, dus ging ze vroeg naar huis." }, items: [en.unwell], finite: { word: felt, hint: { nl: "feel (verleden tijd)" } } }
+  - { id: s06, target: "All humans need water to live.", native: { nl: "Alle mensen hebben water nodig om te leven." }, items: [en.human] }
+  - { id: s07, target: "The brain controls the whole body.", native: { nl: "De hersenen besturen het hele lichaam." }, items: [en.brain] }
+  - { id: s08, target: "My heart was beating fast before the race.", native: { nl: "Mijn hart klopte snel voor de race." }, items: [en.heart] }
+  - { id: s09, target: "There was blood on his knee after he fell.", native: { nl: "Er zat bloed op zijn knie nadat hij gevallen was." }, items: [en.blood] }
+  - { id: s10, target: "She broke a bone in her arm.", native: { nl: "Ze brak een bot in haar arm." }, items: [en.bone], finite: { word: broke, hint: { nl: "break (verleden tijd)" } } }
+  - { id: s11, target: "Use sun cream to protect your skin.", native: { nl: "Gebruik zonnebrandcrème om je huid te beschermen." }, items: [en.skin] }
+  - { id: s12, target: "Grandma kissed me on the cheek.", native: { nl: "Oma gaf me een kus op mijn wang." }, items: [en.cheek] }
+  - { id: s13, target: "He had a bit of chocolate on his chin.", native: { nl: "Hij had een beetje chocola op zijn kin." }, items: [en.chin] }
+  - { id: s14, target: "My lips are dry because of the wind.", native: { nl: "Mijn lippen zijn droog door de wind." }, items: [en.lip] }
+  - { id: s15, target: "The doctor asked me to put out my tongue.", native: { nl: "De dokter vroeg me mijn tong uit te steken." }, items: [en.tongue] }
+  - { id: s16, target: "I have a sore throat and a cough.", native: { nl: "Ik heb keelpijn en ik hoest." }, items: [en.throat] }
+  - { id: s17, target: "He hurt his thumb when he closed the door.", native: { nl: "Hij bezeerde zijn duim toen hij de deur dichtdeed." }, items: [en.thumb] }
+  - { id: s18, target: "She hurt her ankle while she was playing football.", native: { nl: "Ze bezeerde haar enkel terwijl ze aan het voetballen was." }, items: [en.ankle] }
+  - { id: s19, target: "My grandfather's sight is getting worse.", native: { nl: "Mijn opa ziet steeds slechter." }, items: [en.sight] }
+  - { id: s20, target: "I was out of breath after climbing the stairs.", native: { nl: "Ik was buiten adem nadat ik de trap op was geklommen." }, items: [en.breath], acceptAlso: ["After climbing the stairs I was out of breath."] }
+  - { id: s21, target: "Breathe in slowly through your nose.", native: { nl: "Adem langzaam in door je neus." }, items: [en.breathe] }
+  - { id: s22, target: "He missed school for a week because of illness.", native: { nl: "Hij miste een week school door ziekte." }, items: [en.illness] }
+  - { id: s23, target: "Doctors are still looking for a cure for this disease.", native: { nl: "Artsen zoeken nog steeds een geneesmiddel voor deze ziekte." }, items: [en.disease] }
+  - { id: s24, target: "Half of my class has got flu.", native: { nl: "De helft van mijn klas heeft griep." }, items: [en.flu] }
+  - { id: s25, target: "The baby has a fever, so we're taking her to the doctor.", native: { nl: "De baby heeft koorts, dus we gaan met haar naar de dokter." }, items: [en.fever] }
+  - { id: s26, target: "I've got an ache in my back.", native: { nl: "Ik heb pijn in mijn rug." }, items: [en.ache] }
+  - { id: s27, target: "I ate too much cake and got stomach ache.", native: { nl: "Ik at te veel taart en kreeg buikpijn." }, items: [en.ache] }
+  - { id: s28, target: "Tell the nurse if you're in pain.", native: { nl: "Zeg het tegen de verpleegkundige als je pijn hebt." }, items: [en.pain], acceptAlso: ["If you're in pain tell the nurse."] }
+  - { id: s29, target: "My knee is still very painful.", native: { nl: "Mijn knie is nog steeds heel pijnlijk." }, items: [en.painful] }
+  - { id: s30, target: "My uncle suffers from back pain.", native: { nl: "Mijn oom heeft last van rugpijn." }, items: [en.suffer] }
+  - { id: s31, target: "There was an accident on the motorway this morning.", native: { nl: "Er was vanochtend een ongeluk op de snelweg." }, items: [en.accident], acceptAlso: ["This morning there was an accident on the motorway."] }
+  - { id: s32, target: "Be careful not to slip on the ice.", native: { nl: "Pas op dat je niet uitglijdt op het ijs." }, items: [en.slip] }
+  - { id: s33, target: "Two people were injured in the accident.", native: { nl: "Twee mensen raakten gewond bij het ongeluk." }, items: [en.injure, en.accident] }
+  - { id: s34, target: "Your finger is bleeding. Here's a tissue.", native: { nl: "Je vinger bloedt. Hier is een papieren zakdoekje." }, items: [en.bleed] }
+  - { id: s35, target: "Have you got a tissue? I've got a cold.", native: { nl: "Heb je een papieren zakdoekje? Ik ben verkouden." }, items: [en.tissue] }
+  - { id: s36, target: "If you feel unwell, lie down for a while.", native: { nl: "Als je je niet lekker voelt, ga dan even liggen." }, items: [en.lie-down] }
+  - { id: s37, target: "The doctor said I need a week of rest.", native: { nl: "De dokter zei dat ik een week rust nodig heb." }, items: [en.rest] }
+  - { id: s38, target: "I always feel sleepy after lunch.", native: { nl: "Ik voel me altijd slaperig na de lunch." }, items: [en.sleepy] }
+  - { id: s39, target: "It was a long, tiring day.", native: { nl: "Het was een lange, vermoeiende dag." }, items: [en.tiring] }
+  - { id: s40, target: "After the long race, the runners were exhausted.", native: { nl: "Na de lange race waren de lopers uitgeput." }, items: [en.exhausted] }
+  - { id: s41, target: "Many students feel a lot of stress before exams.", native: { nl: "Veel leerlingen voelen veel stress voor examens." }, items: [en.stress] }
+  - { id: s42, target: "The nurse asked him to undress behind the curtain.", native: { nl: "De verpleegkundige vroeg hem zich achter het gordijn uit te kleden." }, items: [en.undress] }
+  - { id: s43, target: "I've got an appointment with the dentist at four.", native: { nl: "Ik heb om vier uur een afspraak bij de tandarts." }, items: [en.appointment] }
+  - { id: s44, target: "We waited in the waiting room for an hour.", native: { nl: "We wachtten een uur in de wachtkamer." }, items: [en.waiting-room], finite: { word: waited, hint: { nl: "wait (verleden tijd)" } }, acceptAlso: ["We waited for an hour in the waiting room."] }
+  - { id: s45, target: "The new clinic opens on Monday.", native: { nl: "De nieuwe kliniek gaat maandag open." }, items: [en.clinic], acceptAlso: ["On Monday the new clinic opens."] }
+  - { id: s46, target: "The doctor has twenty patients this morning.", native: { nl: "De dokter heeft vanochtend twintig patiënten." }, items: [en.patient] }
+  - { id: s47, target: "The dentist did a quick check of my teeth.", native: { nl: "De tandarts controleerde snel mijn tanden." }, items: [en.check] }
+  - { id: s48, target: "After the operation, she stayed in hospital for three days.", native: { nl: "Na de operatie bleef ze drie dagen in het ziekenhuis." }, items: [en.operation] }
+  - { id: s49, target: "The doctors operated on his knee.", native: { nl: "De artsen hebben zijn knie geopereerd." }, items: [en.operate] }
+  - { id: s50, target: "There's no medicine that can cure a cold.", native: { nl: "Er is geen medicijn dat verkoudheid kan genezen." }, items: [en.cure] }
+  - { id: s51, target: "It took him months to recover from the accident.", native: { nl: "Het duurde maanden voor hij hersteld was van het ongeluk." }, items: [en.recover] }
+  - { id: s52, target: "You can get this medicine at any pharmacy.", native: { nl: "Je kunt dit medicijn bij elke apotheek krijgen." }, items: [en.pharmacy] }
+  - { id: s53, target: "You need a prescription for these pills.", native: { nl: "Je hebt een recept nodig voor deze pillen." }, items: [en.prescription, en.pill] }
+  - { id: s54, target: "Dad took an aspirin and went to bed.", native: { nl: "Papa nam een aspirine en ging naar bed." }, items: [en.aspirin] }
+  - { id: s55, target: "The museum has a lift for people in wheelchairs.", native: { nl: "Het museum heeft een lift voor mensen in een rolstoel." }, items: [en.wheelchair] }
+  - { id: s56, target: "All the buses have space for disabled passengers.", native: { nl: "Alle bussen hebben ruimte voor passagiers met een beperking." }, items: [en.disabled] }
+  - { id: s57, target: "Eating sweets every day is a bad habit.", native: { nl: "Elke dag snoep eten is een slechte gewoonte." }, items: [en.habit] }
+  - { id: s58, target: "My grandfather stopped smoking twenty years ago.", native: { nl: "Mijn opa is twintig jaar geleden gestopt met roken." }, items: [en.smoke], finite: { word: stopped, hint: { nl: "stop (verleden tijd)" } }, acceptAlso: ["Twenty years ago my grandfather stopped smoking."] }
+  - { id: s59, target: "Smoking is not allowed in this building.", native: { nl: "Roken is niet toegestaan in dit gebouw." }, items: [en.smoking] }
+  - { id: s60, target: "Try to avoid drinks with a lot of sugar.", native: { nl: "Probeer drankjes met veel suiker te vermijden." }, items: [en.avoid] }
+  - { id: s61, target: "Washing your hands can prevent many illnesses.", native: { nl: "Je handen wassen kan veel ziektes voorkomen." }, items: [en.prevent, en.illness] }
+  - { id: s62, target: "I was riding my bike when I slipped and fell.", native: { nl: "Ik was aan het fietsen toen ik uitgleed en viel." }, items: [en.slip] }
+  - { id: s63, target: "We were having dinner when my brother started to bleed.", native: { nl: "We zaten te eten toen mijn broer begon te bloeden." }, items: [en.bleed], build: true }
+texts: [en-b1-t11]

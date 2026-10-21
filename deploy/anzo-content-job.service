@@ -1,0 +1,21 @@
+[Unit]
+Description=Anzo content job (admin corrections: YAML, generate, checks, audio, git, reload)
+Documentation=file:///opt/anzo/docs/developer/operations.md
+After=anzo.service
+
+[Service]
+# One at a time by construction (a unit never runs twice); requests are handled oldest first (FIFO).
+Type=oneshot
+User=@DEV_USER@
+Group=@DEV_GROUP@
+SupplementaryGroups=anzo-ops
+WorkingDirectory=/opt/anzo
+Environment=HOME=@DEV_HOME@
+Environment=NODE_ENV=production
+ExecStart=/usr/bin/node scripts/jobs/content-job.js
+# The job writes the repository (content/, audio/, .git), the spool and jobs.log; never data/.
+# It calls `sudo systemctl reload anzo` (allowed by /etc/sudoers.d/anzo-jobs), so NoNewPrivileges stays off.
+TimeoutStartSec=30min
+# Standing rule 13: renders and checks run at low CPU and idle I/O priority.
+Nice=10
+IOSchedulingClass=idle

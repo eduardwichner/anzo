@@ -1,0 +1,56 @@
+id: nl-b2-study-t02
+kind: reading
+title: { en: Five mistakes in your first paper }
+topic: Academic writing (a guide from the study advice service of a university college)
+level: B2
+paragraphs:
+  - - { id: nl-b2-study-t02-s01, target: "Je eerste paper schrijven is voor veel studenten een grote stap.", native: { en: "Writing your first paper is a big step for many students." } }
+    - { id: nl-b2-study-t02-s02, target: "In het secundair schreef je vooral korte teksten, maar aan de hogeschool verwacht men een tekst van tien tot vijftien bladzijden, met een duidelijke vraag en betrouwbare bronnen.", native: { en: "At secondary school you mostly wrote short texts, but at university college people expect a text of ten to fifteen pages, with a clear question and reliable sources." } }
+    - { id: nl-b2-study-t02-s03, target: "De studiebegeleiders van onze hogeschool lezen elk jaar heel veel papers en zien steeds dezelfde fouten terugkomen.", native: { en: "The study advisers at our university college read a great many papers every year and see the same mistakes coming back again and again." } }
+  - - { id: nl-b2-study-t02-s04, target: "De eerste fout is dat studenten te laat beginnen.", native: { en: "The first mistake is that students start too late." } }
+    - { id: nl-b2-study-t02-s05, target: "Een goede paper schrijf je niet in één nacht: je moet bronnen zoeken, ze lezen, notities nemen en de tekst daarna nog een paar keer herschrijven.", native: { en: "You don't write a good paper in one night: you have to find sources, read them, take notes and then rewrite the text a few more times." } }
+    - { id: nl-b2-study-t02-s06, target: "Wie drie weken voor de deadline begint, heeft nog tijd om de tekst een paar dagen te laten liggen en hem daarna met frisse ogen te herlezen.", native: { en: "Anyone who starts three weeks before the deadline still has time to leave the text for a few days and then reread it with fresh eyes." } }
+  - - { id: nl-b2-study-t02-s07, target: "Een tweede probleem is de structuur.", native: { en: "A second problem is the structure." } }
+    - { id: nl-b2-study-t02-s08, target: "Veel teksten springen van idee naar idee, zonder dat de lezer begrijpt waarom.", native: { en: "Many texts jump from idea to idea, without the reader understanding why." } }
+    - { id: nl-b2-study-t02-s09, target: "Een goede paper heeft een vaste opbouw: een inleiding die zegt waarover de tekst gaat, een kern met verschillende alinea's en een besluit dat op de vraag van de inleiding antwoordt.", native: { en: "A good paper has a fixed structure: an introduction that says what the text is about, a main body with several paragraphs and a conclusion that answers the question of the introduction." } }
+    - { id: nl-b2-study-t02-s10, target: "Elke alinea behandelt één idee, en de eerste zin zegt meteen welk idee dat is.", native: { en: "Each paragraph deals with one idea, and the first sentence immediately says which idea that is." } }
+  - - { id: nl-b2-study-t02-s11, target: "De derde fout is de ernstigste.", native: { en: "The third mistake is the most serious." } }
+    - { id: nl-b2-study-t02-s12, target: "Wie zinnen van een website kopieert zonder bronvermelding, pleegt plagiaat, ook als dat niet de bedoeling was.", native: { en: "Anyone who copies sentences from a website without giving the source is committing plagiarism, even if that was not the intention." } }
+    - { id: nl-b2-study-t02-s13, target: "Onze hogeschool controleert elke paper met een programma dat zulke zinnen meteen herkent.", native: { en: "Our university college checks every paper with a program that recognises such sentences straight away." } }
+    - { id: nl-b2-study-t02-s14, target: "Citeer dus altijd correct, of parafraseer: schrijf het idee van de auteur in je eigen woorden en vermeld waar het vandaan komt.", native: { en: "So always quote correctly, or paraphrase: write the author's idea in your own words and state where it comes from." } }
+  - - { id: nl-b2-study-t02-s15, target: "Ook de taal verdient aandacht.", native: { en: "The language deserves attention too." } }
+    - { id: nl-b2-study-t02-s16, target: "Academische teksten zijn formeel en precies: je vermijdt woorden die je alleen met vrienden gebruikt, en je formuleert elke bewering zo duidelijk mogelijk.", native: { en: "Academic texts are formal and precise: you avoid words that you only use with friends, and you formulate every claim as clearly as possible." } }
+    - { id: nl-b2-study-t02-s17, target: "En de laatste fout? Vergeten om de tekst te herlezen. Een paper vol fouten maakt een slechte indruk, hoe goed hij ook is.", native: { en: "And the last mistake? Forgetting to reread the text. A paper full of mistakes makes a bad impression, however good it is." } }
+  - - { id: nl-b2-study-t02-s18, target: "Twijfel je? Maak dan een afspraak met de studiebegeleiding. We helpen je graag, van de eerste vraag tot de bibliografie.", native: { en: "Not sure? Then make an appointment with the study advice service. We are happy to help you, from the first question to the bibliography." } }
+glossary:
+  - { word: bladzijden, native: { en: "pages (de bladzijde)" } }
+  - { word: studiebegeleiders, native: { en: "study advisers (de studiebegeleider)" } }
+  - { word: studiebegeleiding, native: { en: "study advice service" } }
+  - { word: besluit, native: { en: "conclusion (of a text; Belgian)" } }
+  - { word: behandelt, native: { en: "deals with (behandelen)" } }
+  - { word: verdient, native: { en: "deserves (verdienen)" } }
+  - { word: springen, native: { en: "jump (springen)" } }
+  - { word: pleegt, native: { en: "commits (plegen)" } }
+  - { word: bedoeling, native: { en: intention } }
+  - { word: zulke, native: { en: such } }
+items: [nl.paper, nl.herschrijven, nl.opbouw, nl.inleiding, nl.alinea, nl.structuur, nl.bronvermelding, nl.kopieren, nl.plagiaat, nl.citeren, nl.parafraseren, nl.vermelden, nl.academisch, nl.formuleren, nl.bibliografie, nl.correct]
+gapped:
+  gaps: [nl-b2-study-t02-s04, nl-b2-study-t02-s07, nl-b2-study-t02-s11, nl-b2-study-t02-s15]
+  extra:
+    - { id: nl-b2-study-t02-x1, target: "Een vierde fout is een inleiding die te lang is.", native: { en: "A fourth mistake is an introduction that is too long." } }
+openCloze:
+  - { sentence: nl-b2-study-t02-s06, word: om }
+  - { sentence: nl-b2-study-t02-s08, word: zonder }
+  - { sentence: nl-b2-study-t02-s13, word: dat }
+  - { sentence: nl-b2-study-t02-s17, word: hoe }
+questions:
+  - { id: nl-b2-study-t02-q1, type: summary, options: ["De studiebegeleiding beschrijft de fouten die studenten vaak maken in hun eerste paper, en hoe je ze vermijdt.", "De hogeschool legt uit waarom plagiaat de enige fout in een paper is.", "Studenten vertellen hoe ze hun eerste paper in één nacht geschreven hebben."], correct: 0 }
+  - { id: nl-b2-study-t02-q2, type: mc, question: "Waarom moet je volgens de tekst op tijd beginnen?", options: ["Zodat je de tekst later met frisse ogen kunt herlezen.", "Omdat de bibliotheek in de examenperiode gesloten is.", "Omdat de docent elke week een deel van de tekst wil zien."], correct: 0 }
+  - { id: nl-b2-study-t02-q3, type: true_false_notgiven, statement: "De hogeschool controleert de papers met een programma.", answer: true }
+  - { id: nl-b2-study-t02-q4, type: true_false_notgiven, statement: "Volgens de tekst is plagiaat alleen een fout als je het bewust doet.", answer: false }
+  - { id: nl-b2-study-t02-q5, type: true_false_notgiven, statement: "De studiebegeleiding is ook in het weekend open.", answer: not_given }
+  - { id: nl-b2-study-t02-q6, type: match_heading, paragraph: 4, options: ["Kopiëren is geen schrijven", "Een vaste opbouw", "Op tijd beginnen"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-study-t02-l1, type: complete, statement: "Wie drie ___ voor de deadline begint, heeft nog tijd om de tekst te laten liggen.", answers: [weken] }
+  - { id: nl-b2-study-t02-l2, type: mc, question: "Waarover gaat elke alinea?", options: ["Over één idee.", "Over twee bronnen.", "Over de vraag van het besluit."], correct: 0 }
+orderable: false

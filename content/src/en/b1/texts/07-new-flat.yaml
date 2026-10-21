@@ -1,0 +1,36 @@
+id: en-b1-t07
+kind: reading
+title: { nl: Ons nieuwe appartement }
+topic: Homes (an email to a friend after moving house)
+level: B1
+paragraphs:
+  - - { id: en-b1-t07-s01, target: "Hi Zoe, we finally moved into our new flat last weekend, and I wanted to tell you all about it.", native: { nl: "Hoi Zoe, we zijn afgelopen weekend eindelijk naar ons nieuwe appartement verhuisd, en ik wilde je er alles over vertellen." } }
+    - { id: en-b1-t07-s02, target: "It's on the sixth floor of a modern apartment building near the river, so we have a great view.", native: { nl: "Het is op de zesde verdieping van een modern flatgebouw bij de rivier, dus we hebben een prachtig uitzicht." } }
+  - - { id: en-b1-t07-s03, target: "The best news is that I have my own room at last!", native: { nl: "Het beste nieuws is dat ik eindelijk mijn eigen kamer heb!" } }
+    - { id: en-b1-t07-s04, target: "It's quite small, but it's really cosy, and there's a big wardrobe for all my clothes.", native: { nl: "Hij is vrij klein, maar heel gezellig, en er is een grote kledingkast voor al mijn kleren." } }
+    - { id: en-b1-t07-s05, target: "Yesterday Dad helped me hang some pictures, and I put my books on the new bookshelf.", native: { nl: "Gisteren hielp papa me een paar schilderijtjes op te hangen, en ik zette mijn boeken op de nieuwe boekenplank." } }
+  - - { id: en-b1-t07-s06, target: "There's one problem: the flat is very warm, because the central heating doesn't switch off properly.", native: { nl: "Er is één probleem: het appartement is erg warm, omdat de centrale verwarming niet goed uitgaat." } }
+    - { id: en-b1-t07-s07, target: "Mum has called the owner, and he says someone will come to repair it on Monday.", native: { nl: "Mama heeft de eigenaar gebeld, en hij zegt dat er maandag iemand komt om het te repareren." } }
+  - - { id: en-b1-t07-s08, target: "Our neighbours seem nice. An elderly lady from the flat opposite knocked on our door and brought us a cake.", native: { nl: "Onze buren lijken aardig. Een oudere dame van de overkant klopte op onze deur en bracht ons een taart." } }
+    - { id: en-b1-t07-s09, target: "Why don't you come and stay with us in the holidays? We have a sofa bed in the sitting room.", native: { nl: "Waarom kom je niet bij ons logeren in de vakantie? We hebben een slaapbank in de zitkamer." } }
+    - { id: en-b1-t07-s10, target: "Love, Isla", native: { nl: "Liefs, Isla" } }
+glossary:
+  - { word: sofa bed, native: { nl: slaapbank } }
+items: [en.modern, en.apartment-building, en.own, en.cosy, en.wardrobe, en.hang, en.bookshelf, en.central-heating, en.properly, en.owner, en.neighbour, en.elderly, en.knock, en.sitting-room, en.finally, en.seem, en.lady]
+questions:
+  - { id: en-b1-t07-q1, type: mc, question: "What is Isla happiest about?", options: ["She has her own room.", "The flat is near her school.", "Her neighbours are young."], correct: 0 }
+  - { id: en-b1-t07-q2, type: true_false_notgiven, statement: "The owner of the flat lives in the same building.", answer: not_given }
+  - { id: en-b1-t07-q3, type: true_false_notgiven, statement: "The heating in the flat does not work properly.", answer: true }
+  - { id: en-b1-t07-q4, type: true_false_notgiven, statement: "Isla's room is very big.", answer: false }
+  - { id: en-b1-t07-q5, type: mc, question: "What did the elderly lady do?", options: ["She brought them a cake.", "She repaired the heating.", "She helped them hang pictures."], correct: 0 }
+  - { id: en-b1-t07-q6, type: match_heading, paragraph: 3, options: ["A problem in the new flat", "Isla's new room", "An invitation"], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t07-l1, type: mc, question: "Which floor is the flat on?", options: ["The sixth floor.", "The second floor.", "The top floor."], correct: 0 }
+  - { id: en-b1-t07-l2, type: true_false_notgiven, statement: "Isla invites Zoe to stay in the holidays.", answer: true }
+cloze:
+  - { sentence: en-b1-t07-s01, word: moved, kind: finite_verb, hint: { nl: "move (verleden tijd)" } }
+  - { sentence: en-b1-t07-s05, word: helped, kind: finite_verb, hint: { nl: "help (verleden tijd)" } }
+  - { sentence: en-b1-t07-s07, word: says, kind: finite_verb, hint: { nl: "say (tegenwoordige tijd)" } }
+  - { sentence: en-b1-t07-s08, word: knocked, kind: finite_verb, hint: { nl: "knock (verleden tijd)" } }
+  - { sentence: en-b1-t07-s08, word: brought, kind: finite_verb, hint: { nl: "bring (verleden tijd)" } }
+orderable: false

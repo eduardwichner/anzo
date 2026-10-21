@@ -1,0 +1,104 @@
+id: nl-b2-u10
+title: { en: Climate and energy }
+icon: leaf
+topic: Climate change, extreme weather, the energy transition at home and in politics; connectors of argument (bovendien, echter, desondanks, aangezien, immers, daarentegen, weliswaar … maar)
+vocabulary:
+  - { target: de opwarming, native: { en: "warming (as in: global warming)" }, pos: noun, plural: "-" }
+  - { target: de aarde, native: { en: "the earth" }, pos: noun, plural: "-" }
+  - { target: de planeet, native: { en: planet }, pos: noun, plural: planeten }
+  - { target: het broeikasgas, native: { en: greenhouse gas }, pos: noun, plural: broeikasgassen }
+  - { target: de stijging, native: { en: "rise, increase" }, pos: noun, plural: stijgingen }
+  - { target: de zeespiegel, native: { en: sea level }, pos: noun, plural: "-" }
+  - { target: de droogte, native: { en: drought }, pos: noun, plural: droogtes }
+  - { target: de hittegolf, native: { en: heatwave }, pos: noun, plural: hittegolven }
+  - { target: de overstroming, native: { en: flood }, pos: noun, plural: overstromingen }
+  - { target: de dijk, native: { en: "dyke, sea wall" }, pos: noun, plural: dijken }
+  - { target: de luchtvervuiling, native: { en: air pollution }, pos: noun, plural: "-" }
+  - { target: het fijnstof, native: { en: "fine dust, particulate matter" }, pos: noun, plural: "-" }
+  - { target: de brandstof, native: { en: fuel }, pos: noun, plural: brandstoffen }
+  - { target: de steenkool, native: { en: coal }, pos: noun, plural: "-" }
+  - { target: de kernenergie, native: { en: nuclear energy }, pos: noun, plural: "-" }
+  - { target: de kerncentrale, native: { en: nuclear power station }, pos: noun, plural: kerncentrales }
+  - { target: de windturbine, native: { en: wind turbine }, pos: noun, plural: windturbines, avoid: [nl.windmolen] }
+  - { target: de duurzaamheid, native: { en: sustainability }, pos: noun, plural: "-" }
+  - { target: de biodiversiteit, native: { en: biodiversity }, pos: noun, plural: "-" }
+  - { target: de maatregel, native: { en: measure }, pos: noun, plural: maatregelen }
+  - { target: het beleid, native: { en: policy }, pos: noun, plural: "-" }
+  - { target: de doelstelling, native: { en: "target, objective" }, pos: noun, plural: doelstellingen }
+  - { target: het effect, native: { en: effect }, pos: noun, plural: effecten }
+  - { target: de invloed, native: { en: influence }, pos: noun, plural: invloeden }
+  - { target: het protest, native: { en: protest }, pos: noun, plural: protesten }
+  - { target: de betoging, native: { en: "demonstration (march)" }, pos: noun, plural: betogingen, avoid: [nl.protest] }
+  - { target: overstromen, native: { en: "to flood, to overflow" }, pos: verb }
+  - { target: verbruiken, native: { en: "to use, to consume (energy)" }, pos: verb }
+  - { target: uitsterven, native: { en: "to die out, to become extinct" }, pos: verb }
+  - { target: bedreigen, native: { en: to threaten }, pos: verb }
+  - { target: toenemen, native: { en: "to increase, to grow" }, pos: verb, avoid: [nl.stijgen] }
+  - { target: afnemen, native: { en: "to decrease, to decline" }, pos: verb, avoid: [nl.dalen] }
+  - { target: fossiel, native: { en: fossil }, pos: adjective }
+  - { target: hernieuwbaar, native: { en: renewable }, pos: adjective }
+  - { target: extreem, native: { en: extreme }, pos: adjective }
+  - { target: echter, native: { en: however }, pos: adverb, avoid: [nl.desondanks, nl.daarentegen] }
+  - { target: desondanks, native: { en: "nevertheless, in spite of that" }, pos: adverb }
+  - { target: daarentegen, native: { en: "on the other hand, by contrast" }, pos: adverb }
+  - { target: immers, native: { en: "after all" }, pos: adverb }
+  - { target: weliswaar, native: { en: "admittedly, it is true (… but)" }, pos: adverb }
+  - { target: aangezien, native: { en: "since, as (reason)" }, pos: conjunction, avoid: [nl.omdat] }
+  - { target: de warmte, native: { en: "warmth, heat" }, pos: noun, plural: "-" }
+  - { target: de hitte, native: { en: "(great) heat" }, pos: noun, plural: "-" }
+  - { target: de oogst, native: { en: harvest }, pos: noun, plural: oogsten }
+  - { target: uitstoten, native: { en: "to emit, to give off" }, pos: verb }
+  - { target: dreigen, native: { en: "to threaten (to), to be in danger of" }, pos: verb, avoid: [nl.bedreigen] }
+  - { target: schoon, native: { en: "clean (in Flanders also: proper)" }, pos: adjective, avoid: [nl.proper], noBlank: true }
+  - { target: ten eerste, native: { en: "first(ly), in the first place" }, pos: phrase }
+  - { target: ten tweede, native: { en: "second(ly)" }, pos: phrase }
+sentences:
+  - { id: s01, target: "De opwarming van de aarde gaat sneller dan verwacht.", native: { en: "Global warming is happening faster than expected." }, items: [nl.opwarming, nl.aarde] }
+  - { id: s02, target: "We hebben maar één planeet.", native: { en: "We only have one planet." }, items: [nl.planeet] }
+  - { id: s03, target: "Broeikasgassen houden de warmte in de lucht vast.", native: { en: "Greenhouse gases trap heat in the air." }, items: [nl.broeikasgas, nl.warmte], acceptAlso: ["Broeikasgassen houden de warmte vast in de lucht."] }
+  - { id: s04, target: "Door de stijging van de zeespiegel is de kust in gevaar.", native: { en: "Because of the rise in sea level the coast is in danger." }, items: [nl.stijging, nl.zeespiegel] }
+  - { id: s05, target: "Na maanden van droogte was de grond heel hard.", native: { en: "After months of drought the ground was very hard." }, items: [nl.droogte] }
+  - { id: s06, target: "Tijdens de hittegolf moesten ouderen binnenblijven.", native: { en: "During the heatwave elderly people had to stay indoors." }, items: [nl.hittegolf] }
+  - { id: s07, target: "Na de overstroming stonden veel huizen onder water.", native: { en: "After the flood a lot of houses were under water." }, items: [nl.overstroming] }
+  - { id: s08, target: "De dijk moet de stad tegen de zee beschermen.", native: { en: "The dike has to protect the town against the sea." }, items: [nl.dijk], acceptAlso: ["De dijk moet de stad beschermen tegen de zee."] }
+  - { id: s09, target: "In de grote steden is de luchtvervuiling een probleem.", native: { en: "In the big cities air pollution is a problem." }, items: [nl.luchtvervuiling] }
+  - { id: s10, target: "Fijnstof is slecht voor je longen.", native: { en: "Fine particles are bad for your lungs." }, items: [nl.fijnstof] }
+  - { id: s11, target: "Fossiele brandstoffen zoals steenkool en gas vervuilen de lucht.", native: { en: "Fossil fuels such as coal and gas pollute the air." }, items: [nl.fossiel, nl.brandstof, nl.steenkool] }
+  - { id: s12, target: "Over kernenergie zijn de meningen verdeeld.", native: { en: "Opinions are divided on nuclear energy." }, items: [nl.kernenergie] }
+  - { id: s13, target: "België wil twee kerncentrales langer openhouden.", native: { en: "Belgium wants to keep two nuclear power stations open longer." }, items: [nl.kerncentrale] }
+  - { id: s14, target: "Op zee komen er steeds meer windturbines bij.", native: { en: "More and more wind turbines are being added at sea." }, items: [nl.windturbine], acceptAlso: ["Er komen op zee steeds meer windturbines bij."] }
+  - { id: s15, target: "Steeds meer bedrijven letten op duurzaamheid.", native: { en: "More and more companies pay attention to sustainability." }, items: [nl.duurzaamheid], form: { word: duurzaamheid, stem: duurzaam } }
+  - { id: s16, target: "Door de opwarming van de aarde gaat er veel biodiversiteit verloren.", native: { en: "Because of global warming, a lot of biodiversity is being lost." }, items: [nl.biodiversiteit] }
+  - { id: s17, target: "De regering neemt nieuwe maatregelen tegen de uitstoot.", native: { en: "The government is taking new measures against emissions." }, items: [nl.maatregel] }
+  - { id: s18, target: "Het beleid van de stad is niet ambitieus genoeg.", native: { en: "The city's policy is not ambitious enough." }, items: [nl.beleid] }
+  - { id: s19, target: "Europa heeft een duidelijke doelstelling voor 2050.", native: { en: "Europe has a clear target for 2050." }, items: [nl.doelstelling], acceptAlso: ["Europa heeft voor 2050 een duidelijke doelstelling.", "Voor 2050 heeft Europa een duidelijke doelstelling."] }
+  - { id: s20, target: "Een warmtepomp heeft een groot effect op je energiefactuur.", native: { en: "A heat pump has a big effect on your energy bill." }, items: [nl.effect] }
+  - { id: s21, target: "De mens heeft een grote invloed op het klimaat.", native: { en: "Humans have a big influence on the climate." }, items: [nl.invloed] }
+  - { id: s22, target: "Veel jongeren kwamen naar de betoging in Brussel.", native: { en: "A lot of young people came to the demonstration in Brussels." }, items: [nl.betoging] }
+  - { id: s23, target: "Het protest tegen de nieuwe weg duurt al maanden.", native: { en: "The protest against the new road has been going on for months." }, items: [nl.protest] }
+  - { id: s24, target: "Na de zware regen overstroomde de rivier.", native: { en: "After the heavy rain the river flooded." }, items: [nl.overstromen], acceptAlso: ["De rivier overstroomde na de zware regen."] }
+  - { id: s25, target: "Een oude koelkast verbruikt veel stroom.", native: { en: "An old fridge uses a lot of electricity." }, items: [nl.verbruiken, nl.stroom], finite: { word: verbruikt, hint: { en: "verbruiken (present)" } } }
+  - { id: s26, target: "Veel soorten dreigen uit te sterven.", native: { en: "Many species are in danger of dying out." }, items: [nl.uitsterven, nl.soort, nl.dreigen] }
+  - { id: s27, target: "De droogte bedreigt de oogst van de boeren.", native: { en: "The drought threatens the farmers' harvest." }, items: [nl.bedreigen, nl.droogte, nl.oogst] }
+  - { id: s28, target: "Het aantal hittegolven neemt toe.", native: { en: "The number of heatwaves is increasing." }, items: [nl.toenemen] }
+  - { id: s29, target: "De uitstoot van broeikasgassen nam vorig jaar af.", native: { en: "Greenhouse gas emissions decreased last year." }, items: [nl.afnemen] }
+  - { id: s30, target: "Energie van de zon en de wind is hernieuwbaar.", native: { en: "Energy from the sun and the wind is renewable." }, items: [nl.hernieuwbaar] }
+  - { id: s31, target: "Extreem weer komt steeds vaker voor.", native: { en: "Extreme weather happens more and more often." }, items: [nl.extreem], acceptAlso: ["Steeds vaker komt extreem weer voor."] }
+  - { id: s32, target: "Zonnepanelen zijn duur; je bespaart echter veel geld.", native: { en: "Solar panels are expensive; however, you save a lot of money." }, items: [nl.echter] }
+  - { id: s33, target: "Het regende hard; desondanks ging de betoging door.", native: { en: "It was raining hard; nevertheless the demonstration went ahead." }, items: [nl.desondanks], acceptAlso: ["Het regende hard; de betoging ging desondanks door."] }
+  - { id: s34, target: "In de stad is de lucht vuil; op het platteland daarentegen is ze schoon.", native: { en: "In the city the air is dirty; in the countryside, by contrast, it is clean." }, items: [nl.daarentegen, nl.schoon] }
+  - { id: s35, target: "We moeten nu iets doen: het is immers onze toekomst.", native: { en: "We have to do something now: it is our future, after all." }, items: [nl.immers], acceptAlso: ["Nu moeten we iets doen: het is immers onze toekomst."] }
+  - { id: s36, target: "Een warmtepomp is weliswaar duur, maar je bespaart veel energie.", native: { en: "A heat pump is admittedly expensive, but you save a lot of energy." }, items: [nl.weliswaar] }
+  - { id: s37, target: "Aangezien de prijzen stijgen, isoleren veel mensen hun huis.", native: { en: "Since prices are rising, many people are insulating their homes." }, items: [nl.aangezien] }
+  - { id: s38, target: "Bovendien verbruik je in een goed geïsoleerd huis minder energie.", native: { en: "Moreover, you use less energy in a well-insulated house." }, items: [nl.verbruiken], build: true, acceptAlso: ["Bovendien verbruik je minder energie in een goed geïsoleerd huis.", "In een goed geïsoleerd huis verbruik je bovendien minder energie."] }
+  - { id: s39, target: "Het is een erg duurzame oplossing.", native: { en: "It is a very sustainable solution." }, items: [nl.hernieuwbaar] }
+  - { id: s40, target: "De stijging van de temperatuur is gevaarlijk.", native: { en: "The rise in temperature is dangerous." }, items: [nl.stijging], form: { word: stijging, stem: stijgen } }
+  - { id: s41, target: "Het verbruik van elektriciteit neemt toe.", native: { en: "Electricity consumption is rising." }, items: [nl.toenemen], form: { word: verbruik, stem: verbruiken } }
+  - { id: s42, target: "Tijdens de hittegolf was de hitte in de stad bijna niet te verdragen.", native: { en: "During the heatwave the heat in the city was almost unbearable." }, items: [nl.hitte], acceptAlso: ["De hitte in de stad was tijdens de hittegolf bijna niet te verdragen.", "In de stad was de hitte tijdens de hittegolf bijna niet te verdragen."] }
+  - { id: s43, target: "België stoot elk jaar minder broeikasgassen uit.", native: { en: "Belgium emits fewer greenhouse gases every year." }, items: [nl.uitstoten] }
+  - { id: s44, target: "Ten eerste is het duur, ten tweede is het niet nodig en ten slotte wil niemand het.", native: { en: "Firstly it is expensive, secondly it isn't necessary and finally nobody wants it." }, items: [nl.ten-eerste, nl.ten-tweede] }
+transforms:
+  - { id: x01, from: "Het was koud, maar we gingen toch naar de betoging.", key: desondanks, gapped: "Het was koud; ___ naar de betoging.", answers: ["desondanks gingen we", "we gingen desondanks"], items: [nl.desondanks] }
+  - { id: x02, from: "Omdat de energie duurder wordt, isoleren we ons huis.", key: aangezien, gapped: "___ duurder wordt, isoleren we ons huis.", answers: ["Aangezien de energie", "Aangezien energie"], items: [nl.aangezien] }
+  - { id: x03, from: "Het aantal overstromingen stijgt elk jaar.", key: neemt, gapped: "Het aantal overstromingen ___.", answers: ["neemt elk jaar toe", "neemt ieder jaar toe", "neemt jaarlijks toe"], items: [nl.toenemen] }
+texts: [nl-b2-t11]

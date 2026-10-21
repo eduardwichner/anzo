@@ -1,0 +1,173 @@
+id: en-b1-u24
+title: { nl: "Natuur, weer en milieu" }
+icon: nature
+topic: Nature, wildlife, weather and the environment; the first conditional, the passive, will for predictions
+vocabulary:
+  - { target: nature, native: { nl: natuur }, pos: noun }
+  - { target: natural, native: { nl: natuurlijk }, pos: adjective }
+  - { target: wildlife, native: { nl: wilde dieren (en planten) }, pos: noun, avoid: [en.nature] }
+  - { target: species, native: { nl: soort (diersoort) }, pos: noun, avoid: [en.sort] }
+  - { target: alive, native: { nl: levend }, pos: adjective }
+  - { target: exist, native: { nl: bestaan }, pos: verb }
+  - { target: rare, native: { nl: zeldzaam }, pos: adjective }
+  - { target: hunt, native: { nl: jagen }, pos: verb }
+  - { target: kill, native: { nl: doden }, pos: verb }
+  - { target: bite, native: { nl: bijten }, pos: verb }
+  - { target: bull, native: { nl: stier }, pos: noun }
+  - { target: calf, native: { nl: kalf }, pos: noun }
+  - { target: cattle, native: { nl: vee (runderen) }, pos: noun }
+  - { target: pig, native: { nl: varken }, pos: noun }
+  - { target: ant, native: { nl: mier }, pos: noun }
+  - { target: mosquito, native: { nl: mug }, pos: noun }
+  - { target: bug, native: { nl: beestje (insect) }, pos: noun, noBlank: true }
+  - { target: bush, native: { nl: struik }, pos: noun }
+  - { target: branch, native: { nl: tak }, pos: noun }
+  - { target: rose, native: { nl: roos }, pos: noun }
+  - { target: pick, native: { nl: plukken }, pos: verb }
+  - { target: dig, native: { nl: graven }, pos: verb }
+  - { target: crop, native: { nl: gewas (oogst) }, pos: noun }
+  - { target: produce, native: { nl: produceren }, pos: verb }
+  - { target: farming, native: { nl: landbouw }, pos: noun }
+  - { target: farmland, native: { nl: landbouwgrond }, pos: noun }
+  - { target: landscape, native: { nl: landschap }, pos: noun, noBlank: true }
+  - { target: rainforest, native: { nl: regenwoud }, pos: noun }
+  - { target: range, native: { nl: (berg)keten }, pos: noun }
+  - { target: peak, native: { nl: bergtop }, pos: noun }
+  - { target: cliff, native: { nl: klif }, pos: noun }
+  - { target: coast, native: { nl: kust }, pos: noun }
+  - { target: shore, native: { nl: oever (strand) }, pos: noun }
+  - { target: bay, native: { nl: baai }, pos: noun }
+  - { target: flow, native: { nl: stromen }, pos: verb }
+  - { target: float, native: { nl: drijven }, pos: verb }
+  - { target: flood, native: { nl: overstroming }, pos: noun }
+  - { target: universe, native: { nl: heelal }, pos: noun }
+  - { target: sunrise, native: { nl: zonsopgang }, pos: noun, avoid: [en.sunset] }
+  - { target: sunset, native: { nl: zonsondergang }, pos: noun }
+  - { target: sunshine, native: { nl: zonneschijn }, pos: noun }
+  - { target: shine, native: { nl: schijnen }, pos: verb }
+  - { target: rise, native: { nl: "opkomen, stijgen" }, pos: verb, avoid: [en.increase] }
+  - { target: shade, native: { nl: schaduw (koele plek) }, pos: noun, avoid: [en.shadow] }
+  - { target: shadow, native: { nl: schaduw (van iets) }, pos: noun }
+  - { target: climate, native: { nl: klimaat }, pos: noun }
+  - { target: weather forecast, native: { nl: weerbericht }, pos: noun }
+  - { target: forecast, native: { nl: voorspelling }, pos: noun }
+  - { target: predict, native: { nl: voorspellen }, pos: verb }
+  - { target: mild, native: { nl: zacht (van het weer) }, pos: adjective }
+  - { target: humid, native: { nl: vochtig }, pos: adjective }
+  - { target: breeze, native: { nl: bries }, pos: noun }
+  - { target: blow, native: { nl: waaien }, pos: verb }
+  - { target: gale, native: { nl: storm (harde wind) }, pos: noun, noBlank: true }
+  - { target: thunder, native: { nl: donder }, pos: noun, avoid: [en.lightning] }
+  - { target: lightning, native: { nl: bliksem }, pos: noun }
+  - { target: thunderstorm, native: { nl: onweer }, pos: noun, noBlank: true }
+  - { target: snowfall, native: { nl: sneeuwval }, pos: noun, noBlank: true }
+  - { target: icy, native: { nl: ijzig (glad) }, pos: adjective }
+  - { target: freezing, native: { nl: ijskoud }, pos: adjective }
+  - { target: freeze, native: { nl: bevriezen }, pos: verb }
+  - { target: centigrade, native: { nl: Celsius (graden) }, pos: adjective }
+  - { target: turn into, native: { nl: veranderen in }, pos: phrase }
+  - { target: environmental, native: { nl: milieu- }, pos: adjective }
+  - { target: pollution, native: { nl: vervuiling }, pos: noun }
+  - { target: pure, native: { nl: zuiver }, pos: adjective }
+  - { target: climate change, native: { nl: klimaatverandering }, pos: noun }
+  - { target: global warming, native: { nl: opwarming van de aarde }, pos: noun }
+  - { target: affect, native: { nl: beïnvloeden }, pos: verb }
+  - { target: effect, native: { nl: effect (gevolg) }, pos: noun }
+  - { target: protect, native: { nl: beschermen }, pos: verb }
+  - { target: power, native: { nl: "kracht, energie (stroom)" }, pos: noun, noBlank: true }
+  - { target: powerful, native: { nl: krachtig }, pos: adjective }
+  - { target: waste, native: { nl: afval }, pos: noun }
+  - { target: rubbish, native: { nl: "vuilnis, afval" }, pos: noun }
+  - { target: litter, native: { nl: zwerfvuil }, pos: noun }
+  - { target: recycle, native: { nl: recyclen }, pos: verb }
+  - { target: recycled, native: { nl: gerecycled }, pos: adjective }
+  - { target: recycling, native: { nl: recycling }, pos: noun }
+  - { target: bottle bank, native: { nl: glasbak }, pos: noun }
+  - { target: scientist, native: { nl: wetenschapper }, pos: noun }
+  - { target: scientific, native: { nl: wetenschappelijk }, pos: adjective }
+  - { target: discover, native: { nl: ontdekken }, pos: verb }
+  - { target: discovery, native: { nl: ontdekking }, pos: noun }
+sentences:
+  - { id: s01, target: "I love walking in nature.", native: { nl: "Ik wandel graag in de natuur." }, items: [en.nature] }
+  - { id: s02, target: "This soap is made from natural products.", native: { nl: "Deze zeep is gemaakt van natuurlijke producten." }, items: [en.natural] }
+  - { id: s03, target: "The island is famous for its wildlife.", native: { nl: "Het eiland is beroemd om zijn wilde dieren." }, items: [en.wildlife] }
+  - { id: s04, target: "Scientists have discovered a new species of frog.", native: { nl: "Wetenschappers hebben een nieuwe kikkersoort ontdekt." }, items: [en.species, en.discover] }
+  - { id: s05, target: "Is the fish still alive?", native: { nl: "Leeft de vis nog?" }, items: [en.alive] }
+  - { id: s06, target: "Do you think aliens exist?", native: { nl: "Denk je dat aliens bestaan?" }, items: [en.exist] }
+  - { id: s07, target: "This bird is very rare.", native: { nl: "Deze vogel is heel zeldzaam." }, items: [en.rare] }
+  - { id: s08, target: "Some birds hunt at night.", native: { nl: "Sommige vogels jagen 's nachts." }, items: [en.hunt] }
+  - { id: s09, target: "The cold winter killed many of the plants.", native: { nl: "Door de koude winter zijn veel planten doodgegaan." }, items: [en.kill] }
+  - { id: s10, target: "Don't worry, the dog won't bite.", native: { nl: "Maak je geen zorgen, de hond bijt niet." }, items: [en.bite] }
+  - { id: s11, target: "Stay away from the bull in that field.", native: { nl: "Blijf uit de buurt van de stier in dat veld." }, items: [en.bull] }
+  - { id: s12, target: "The cow and her calf were in the field.", native: { nl: "De koe en haar kalf stonden in de wei." }, items: [en.calf] }
+  - { id: s13, target: "The farmer has three hundred cattle.", native: { nl: "De boer heeft driehonderd runderen." }, items: [en.cattle] }
+  - { id: s14, target: "Pigs are very intelligent animals.", native: { nl: "Varkens zijn heel intelligente dieren." }, items: [en.pig] }
+  - { id: s15, target: "There are ants in the kitchen!", native: { nl: "Er zitten mieren in de keuken!" }, items: [en.ant] }
+  - { id: s16, target: "I was bitten by a mosquito.", native: { nl: "Ik ben gestoken door een mug." }, items: [en.mosquito] }
+  - { id: s17, target: "He found a little bug in his salad.", native: { nl: "Hij vond een beestje in zijn salade." }, items: [en.bug] }
+  - { id: s18, target: "The cat is hiding behind a bush.", native: { nl: "De kat verstopt zich achter een struik." }, items: [en.bush] }
+  - { id: s19, target: "A bird is sitting on a branch of the tree.", native: { nl: "Er zit een vogel op een tak van de boom." }, items: [en.branch] }
+  - { id: s20, target: "She grows red roses in her garden.", native: { nl: "Ze kweekt rode rozen in haar tuin." }, items: [en.rose] }
+  - { id: s21, target: "We picked strawberries at a farm.", native: { nl: "We plukten aardbeien op een boerderij." }, items: [en.pick] }
+  - { id: s22, target: "The dog dug a hole in the garden.", native: { nl: "De hond groef een gat in de tuin." }, items: [en.dig], finite: { word: dug, hint: { nl: "dig (verleden tijd)" } } }
+  - { id: s23, target: "The dry weather is bad for the crops.", native: { nl: "Het droge weer is slecht voor de gewassen." }, items: [en.crop] }
+  - { id: s24, target: "This region produces a lot of apples.", native: { nl: "Deze regio produceert veel appels." }, items: [en.produce] }
+  - { id: s25, target: "Farming is hard work.", native: { nl: "Landbouw is zwaar werk." }, items: [en.farming] }
+  - { id: s26, target: "The new houses were built on farmland.", native: { nl: "De nieuwe huizen werden op landbouwgrond gebouwd." }, items: [en.farmland] }
+  - { id: s27, target: "The landscape here is flat and green.", native: { nl: "Het landschap hier is vlak en groen." }, items: [en.landscape] }
+  - { id: s28, target: "Rainforests are home to many species.", native: { nl: "In regenwouden leven veel soorten." }, items: [en.rainforest] }
+  - { id: s29, target: "The Alps are a mountain range in Europe.", native: { nl: "De Alpen zijn een bergketen in Europa." }, items: [en.range] }
+  - { id: s30, target: "There's snow on the peaks all year.", native: { nl: "Er ligt het hele jaar sneeuw op de bergtoppen." }, items: [en.peak] }
+  - { id: s31, target: "Don't walk too close to the edge of the cliff.", native: { nl: "Loop niet te dicht bij de rand van het klif." }, items: [en.cliff] }
+  - { id: s32, target: "We drove along the coast.", native: { nl: "We reden langs de kust." }, items: [en.coast] }
+  - { id: s33, target: "The boat came slowly to the shore.", native: { nl: "De boot kwam langzaam naar de oever." }, items: [en.shore] }
+  - { id: s34, target: "The hotel looks out over the bay.", native: { nl: "Het hotel kijkt uit op de baai." }, items: [en.bay] }
+  - { id: s35, target: "The river flows into the sea.", native: { nl: "De rivier mondt uit in zee." }, items: [en.flow] }
+  - { id: s36, target: "Leaves were floating on the water.", native: { nl: "Er dreven bladeren op het water." }, items: [en.float] }
+  - { id: s37, target: "After the heavy rain, there were floods in the town.", native: { nl: "Na de hevige regen waren er overstromingen in de stad." }, items: [en.flood] }
+  - { id: s38, target: "How big is the universe?", native: { nl: "Hoe groot is het heelal?" }, items: [en.universe] }
+  - { id: s39, target: "We got up early to watch the sunrise.", native: { nl: "We stonden vroeg op om de zonsopgang te zien." }, items: [en.sunrise] }
+  - { id: s40, target: "The sunset over the sea was beautiful.", native: { nl: "De zonsondergang boven de zee was prachtig." }, items: [en.sunset] }
+  - { id: s41, target: "We sat in the sunshine all afternoon.", native: { nl: "We zaten de hele middag in de zon." }, items: [en.sunshine], acceptAlso: ["All afternoon we sat in the sunshine."] }
+  - { id: s42, target: "The sun is shining at last!", native: { nl: "De zon schijnt eindelijk!" }, items: [en.shine] }
+  - { id: s43, target: "The sun rises in the east.", native: { nl: "De zon komt op in het oosten." }, items: [en.rise] }
+  - { id: s44, target: "It's too hot. Let's sit in the shade.", native: { nl: "Het is te warm. Laten we in de schaduw gaan zitten." }, items: [en.shade] }
+  - { id: s45, target: "In the evening our shadows were very long.", native: { nl: "'s Avonds waren onze schaduwen heel lang." }, items: [en.shadow], acceptAlso: ["Our shadows were very long in the evening."] }
+  - { id: s46, target: "Spain has a warm climate.", native: { nl: "Spanje heeft een warm klimaat." }, items: [en.climate] }
+  - { id: s47, target: "Have you heard the weather forecast for tomorrow?", native: { nl: "Heb je het weerbericht voor morgen gehoord?" }, items: [en.weather-forecast] }
+  - { id: s48, target: "The forecast says it'll be sunny.", native: { nl: "Volgens de voorspelling wordt het zonnig." }, items: [en.forecast] }
+  - { id: s49, target: "Scientists predict hotter summers in the future.", native: { nl: "Wetenschappers voorspellen warmere zomers in de toekomst." }, items: [en.predict, en.scientist] }
+  - { id: s50, target: "We had a mild winter this year.", native: { nl: "We hadden dit jaar een zachte winter." }, items: [en.mild] }
+  - { id: s51, target: "The air was hot and humid.", native: { nl: "De lucht was warm en vochtig." }, items: [en.humid] }
+  - { id: s52, target: "A cool breeze came from the sea.", native: { nl: "Er kwam een koele bries van de zee." }, items: [en.breeze] }
+  - { id: s53, target: "The wind blew my hat off.", native: { nl: "De wind blies mijn hoed af." }, items: [en.blow], finite: { word: blew, hint: { nl: "blow (verleden tijd)" } } }
+  - { id: s54, target: "The boats stayed in the harbour because of the gale.", native: { nl: "De boten bleven in de haven vanwege de storm." }, items: [en.gale] }
+  - { id: s55, target: "The thunder was so loud that the baby woke up.", native: { nl: "De donder was zo luid dat de baby wakker werd." }, items: [en.thunder] }
+  - { id: s56, target: "Lightning hit the old tree.", native: { nl: "De bliksem sloeg in de oude boom." }, items: [en.lightning] }
+  - { id: s57, target: "There was a big thunderstorm last night.", native: { nl: "Er was gisternacht een zwaar onweer." }, items: [en.thunderstorm], acceptAlso: ["Last night there was a big thunderstorm."] }
+  - { id: s58, target: "Heavy snowfall closed the roads.", native: { nl: "Door zware sneeuwval waren de wegen afgesloten." }, items: [en.snowfall] }
+  - { id: s59, target: "Drive carefully. The roads are icy.", native: { nl: "Rij voorzichtig. De wegen zijn glad." }, items: [en.icy] }
+  - { id: s60, target: "It's freezing outside. Wear a warm coat.", native: { nl: "Het is ijskoud buiten. Draag een warme jas." }, items: [en.freezing] }
+  - { id: s61, target: "Water freezes at zero degrees.", native: { nl: "Water bevriest bij nul graden." }, items: [en.freeze] }
+  - { id: s62, target: "It was thirty degrees centigrade yesterday.", native: { nl: "Het was gisteren dertig graden Celsius." }, items: [en.centigrade], acceptAlso: ["Yesterday it was thirty degrees centigrade."] }
+  - { id: s63, target: "In winter the lake turns into ice.", native: { nl: "In de winter verandert het meer in ijs." }, items: [en.turn-into], acceptAlso: ["The lake turns into ice in winter."] }
+  - { id: s64, target: "Plastic in the sea is a big environmental problem.", native: { nl: "Plastic in de zee is een groot milieuprobleem." }, items: [en.environmental] }
+  - { id: s65, target: "Air pollution is bad in big cities.", native: { nl: "De luchtvervuiling is erg in grote steden." }, items: [en.pollution], acceptAlso: ["In big cities air pollution is bad."] }
+  - { id: s66, target: "The water in the mountains is very pure.", native: { nl: "Het water in de bergen is heel zuiver." }, items: [en.pure] }
+  - { id: s67, target: "Climate change is affecting the whole planet.", native: { nl: "Klimaatverandering heeft invloed op de hele planeet." }, items: [en.climate-change, en.affect] }
+  - { id: s68, target: "Global warming is a danger to polar bears.", native: { nl: "De opwarming van de aarde is een gevaar voor ijsberen." }, items: [en.global-warming] }
+  - { id: s69, target: "The new park has had a good effect on the neighbourhood.", native: { nl: "Het nieuwe park heeft een goede invloed gehad op de buurt." }, items: [en.effect] }
+  - { id: s70, target: "We must protect the forests.", native: { nl: "We moeten de bossen beschermen." }, items: [en.protect] }
+  - { id: s71, target: "Many houses get their power from the sun.", native: { nl: "Veel huizen halen hun stroom uit de zon." }, items: [en.power] }
+  - { id: s72, target: "The storm was very powerful.", native: { nl: "De storm was heel krachtig." }, items: [en.powerful] }
+  - { id: s73, target: "There's too much plastic waste.", native: { nl: "Er is te veel plastic afval." }, items: [en.waste] }
+  - { id: s74, target: "Put the rubbish in the bin.", native: { nl: "Gooi het afval in de vuilnisbak." }, items: [en.rubbish] }
+  - { id: s75, target: "Our class picked up litter on the beach.", native: { nl: "Onze klas raapte zwerfvuil op het strand op." }, items: [en.litter] }
+  - { id: s76, target: "We recycle all our paper and glass.", native: { nl: "We recyclen al ons papier en glas." }, items: [en.recycle] }
+  - { id: s77, target: "This notebook is made of recycled paper.", native: { nl: "Dit schrift is gemaakt van gerecycled papier." }, items: [en.recycled] }
+  - { id: s78, target: "Recycling is easy if you have the right bins.", native: { nl: "Recyclen is makkelijk als je de juiste bakken hebt." }, items: [en.recycling] }
+  - { id: s79, target: "Take the empty bottles to the bottle bank.", native: { nl: "Breng de lege flessen naar de glasbak." }, items: [en.bottle-bank] }
+  - { id: s80, target: "There have been many scientific discoveries this century.", native: { nl: "Er zijn deze eeuw veel wetenschappelijke ontdekkingen gedaan." }, items: [en.scientific, en.discovery] }
+  - { id: s81, target: "If we don't protect the oceans, many fish will disappear.", native: { nl: "Als we de oceanen niet beschermen, zullen veel vissen verdwijnen." }, items: [en.protect], build: true, acceptAlso: ["Many fish will disappear if we don't protect the oceans."] }
+  - { id: s82, target: "If there's a flood, we'll leave the village.", native: { nl: "Als er een overstroming komt, verlaten we het dorp." }, items: [en.flood], build: true }
+texts: [en-b1-t25]

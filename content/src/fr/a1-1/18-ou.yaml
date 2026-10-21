@@ -1,0 +1,35 @@
+id: fr-a1-1-u18
+title: { nl: Waar is het?, en: "Where is it?" }
+icon: where
+topic: Situer dans l'espace
+vocabulary:
+  - { target: dans, native: { nl: in, en: "in" }, pos: preposition }
+  - { target: sur, native: { nl: op, en: "on" }, pos: preposition }
+  - { target: sous, native: { nl: onder, en: "under" }, pos: preposition }
+  - { target: devant, native: { nl: voor, en: "in front of" }, pos: preposition }
+  - { target: derrière, native: { nl: achter, en: "behind" }, pos: preposition }
+  - { target: à côté de, native: { nl: naast, en: "next to" }, pos: preposition }
+  - { target: chez, native: { nl: bij (iemand thuis), en: "at or to (someone's house)" }, pos: preposition }
+  - { target: avec, native: { nl: met, en: "with" }, pos: preposition }
+  - { target: pour, native: { nl: "voor (iemand), om te", en: "for, in order to" }, pos: preposition, avoid: [fr.devant] }
+  - { target: loin, native: { nl: ver, en: "far" }, pos: adverb }
+  - { target: il y a, native: { nl: "er is, er zijn", en: "there is, there are" }, pos: phrase }
+sentences:
+  - { id: s01, target: "Le chat est dans la boîte.", native: { nl: "De kat zit in de doos.", en: "The cat is in the box." }, items: [fr.dans] }
+  - { id: s02, target: "Le livre est sur la table.", native: { nl: "Het boek ligt op de tafel.", en: "The book is on the table." }, items: [fr.sur] }
+  - { id: s03, target: "Le chien est sous la table.", native: { nl: "De hond ligt onder de tafel.", en: "The dog is under the table." }, items: [fr.sous] }
+  - { id: s04, target: "Le bus est devant l'école.", native: { nl: "De bus staat voor de school.", en: "The bus is in front of the school." }, items: [fr.devant] }
+  - { id: s05, target: "Le jardin est derrière la maison.", native: { nl: "De tuin ligt achter het huis.", en: "The garden is behind the house." }, items: [fr.derriere] }
+  - { id: s06, target: "Je suis à côté de Chloé.", native: { nl: "Ik zit naast Chloé.", en: "I'm next to Chloé." }, items: [fr.a-cote-de] }
+  - { id: s07, target: "Je suis chez mon grand-père.", native: { nl: "Ik ben bij mijn opa.", en: "I'm at my grandfather's." }, items: [fr.chez] }
+  - { id: s08, target: "Tu viens chez moi ?", native: { nl: "Kom je naar mijn huis?", en: "Are you coming to my house?" }, items: [fr.chez] }
+  - { id: s09, target: "Je joue avec mes copains.", native: { nl: "Ik speel met mijn vriendjes.", en: "I'm playing with my mates." }, items: [fr.avec] }
+  - { id: s10, target: "C'est une fleur pour toi.", native: { nl: "Dit is een bloem voor jou.", en: "This is a flower for you." }, items: [fr.pour] }
+  - { id: s11, target: "J'habite loin d'ici.", native: { nl: "Ik woon ver hiervandaan.", en: "I live far from here." }, items: [fr.loin] }
+  - { id: s12, target: "Il y a deux chats.", native: { nl: "Er zijn twee katten.", en: "There are two cats." }, items: [fr.il-y-a] }
+  - { id: s13, target: "Il y a une poupée sur le lit.", native: { nl: "Er ligt een pop op het bed.", en: "There's a doll on the bed." }, items: [fr.il-y-a] }
+  - { id: s15, target: "Dans ma chambre, il y a un lit.", native: { nl: "In mijn slaapkamer staat een bed.", en: "In my bedroom there's a bed." }, items: [fr.il-y-a] }
+  - { id: s14, target: "Il y a un oiseau dans l'arbre.", native: { nl: "Er zit een vogel in de boom.", en: "There's a bird in the tree." }, items: [fr.il-y-a, fr.dans] }
+lessons:
+  - { id: l01, title: { nl: In en op, en: "In and on" }, vocab: [fr.dans, fr.sur, fr.sous, fr.devant, fr.derriere, fr.a-cote-de] }
+  - { id: l02, title: { nl: Bij mij, en: "At my house" }, vocab: [fr.chez, fr.avec, fr.pour, fr.loin, fr.il-y-a] }

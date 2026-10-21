@@ -1,0 +1,67 @@
+id: nl-a1-u03
+title: { en: "His, her, our; often, never" }
+icon: people
+topic: Possessives, demonstratives, someone/something, how often
+vocabulary:
+  - { id: nl.zijn-det, target: zijn, native: { en: his }, pos: determiner, avoid: [nl.haar-det, nl.hun] }
+  - { id: nl.haar-det, target: haar, native: { en: her }, pos: determiner, avoid: [nl.hun] }
+  - { target: onze, native: { en: "our (with de-words, plurals)" }, pos: determiner, avoid: [nl.ons] }
+  - { target: ons, native: { en: "our (with het-words)" }, pos: determiner }
+  - { target: hun, native: { en: their }, pos: determiner }
+  - { target: deze, native: { en: "this, these (with de-words, plurals)" }, pos: determiner, avoid: [nl.die] }
+  - { target: die, native: { en: "that, those (with de-words, plurals)" }, pos: determiner }
+  - { target: elk, native: { en: "each, every" }, pos: determiner, avoid: [nl.ieder, nl.alle] }
+  - { target: ieder, native: { en: "each, every" }, pos: determiner, avoid: [nl.alle] }
+  - { target: alle, native: { en: all }, pos: determiner }
+  - { target: iemand, native: { en: someone }, pos: pronoun, avoid: [nl.niemand] }
+  - { target: niemand, native: { en: no one }, pos: pronoun }
+  - { target: iets, native: { en: something }, pos: pronoun, avoid: [nl.niets, nl.alles] }
+  - { target: niets, native: { en: nothing }, pos: pronoun }
+  - { target: alles, native: { en: everything }, pos: pronoun }
+  - { target: iedereen, native: { en: everyone }, pos: pronoun }
+  - { target: elkaar, native: { en: each other }, pos: pronoun }
+  - { target: per, native: { en: "per, a" }, pos: preposition }
+  - { target: vaak, native: { en: often }, pos: adverb, avoid: [nl.nooit] }
+  - { target: nooit, native: { en: never }, pos: adverb }
+  - { target: bijna, native: { en: almost }, pos: adverb }
+  - { target: gisteren, native: { en: yesterday }, pos: adverb }
+  - { target: later, native: { en: later }, pos: adverb }
+  - { target: eens, native: { en: "once, some time" }, pos: adverb }
+  - { target: de keer, native: { en: "time (occasion)" }, pos: noun, plural: keren }
+  - { target: vorige, native: { en: "previous, last" }, pos: adjective, avoid: [nl.volgende] }
+  - { target: volgende, native: { en: next }, pos: adjective }
+  - { target: vorige week, native: { en: last week }, pos: phrase, avoid: [nl.volgende-week] }
+  - { target: volgende week, native: { en: next week }, pos: phrase }
+  - { target: elke week, native: { en: every week }, pos: phrase }
+sentences:
+  - { id: s01, target: "Tom en zijn vrouw wonen in Gent.", native: { en: "Tom and his wife live in Ghent." }, items: [nl.zijn-det] }
+  - { id: s02, target: "Sara belt haar moeder.", native: { en: "Sara is calling her mother." }, items: [nl.haar-det] }
+  - { id: s03, target: "Onze kinderen gaan naar school.", native: { en: "Our children go to school." }, items: [nl.onze] }
+  - { id: s04, target: "Ons huis is klein.", native: { en: "Our house is small." }, items: [nl.ons] }
+  - { id: s05, target: "Mijn buren en hun kinderen zijn op vakantie.", native: { en: "My neighbours and their children are on holiday." }, items: [nl.hun] }
+  - { id: s06, target: "Deze trui is mooi.", native: { en: "This jumper is nice." }, items: [nl.deze] }
+  - { id: s07, target: "Die man is mijn buurman.", native: { en: "That man is my neighbour." }, items: [nl.die] }
+  - { id: s08, target: "Elk huis heeft een tuin.", native: { en: "Every house has a garden." }, items: [nl.elk] }
+  - { id: s09, target: "Ieder kind krijgt een cadeau.", native: { en: "Every child gets a present." }, items: [nl.ieder] }
+  - { id: s10, target: "Alle winkels zijn dicht.", native: { en: "All the shops are closed." }, items: [nl.alle] }
+  - { id: s11, target: "Er is iemand aan de deur.", native: { en: "There's someone at the door." }, items: [nl.iemand] }
+  - { id: s12, target: "Er is niemand thuis.", native: { en: "There's no one at home." }, items: [nl.niemand] }
+  - { id: s13, target: "Wil je iets drinken?", native: { en: "Would you like something to drink?" }, items: [nl.iets] }
+  - { id: s14, target: "Nee, bedankt, ik hoef niets.", native: { en: "No, thanks, I don't need anything." }, items: [nl.niets] }
+  - { id: s15, target: "Alles is goed.", native: { en: "Everything is fine." }, items: [nl.alles] }
+  - { id: s16, target: "Iedereen is welkom.", native: { en: "Everyone is welcome." }, items: [nl.iedereen] }
+  - { id: s17, target: "We zien elkaar morgen.", native: { en: "We'll see each other tomorrow." }, items: [nl.elkaar], acceptAlso: ["Morgen zien we elkaar."] }
+  - { id: s18, target: "De appels kosten twee euro per kilo.", native: { en: "The apples cost two euros a kilo." }, items: [nl.per] }
+  - { id: s20, target: "Ik ga vaak naar de markt.", native: { en: "I often go to the market." }, items: [nl.vaak] }
+  - { id: s21, target: "Hij is nooit op tijd.", native: { en: "He's never on time." }, items: [nl.nooit] }
+  - { id: s22, target: "Het is bijna vijf uur.", native: { en: "It's almost five o'clock." }, items: [nl.bijna] }
+  - { id: s23, target: "De brief is van gisteren.", native: { en: "The letter is from yesterday." }, items: [nl.gisteren] }
+  - { id: s24, target: "Ik bel je later.", native: { en: "I'll call you later." }, items: [nl.later], acceptAlso: ["Later bel ik je."] }
+  - { id: s25, target: "Kom eens langs!", native: { en: "Come round some time!" }, items: [nl.eens] }
+  - { id: s26, target: "De foto is van vorige week.", native: { en: "The photo is from last week." }, items: [nl.vorige-week] }
+  - { id: s27, target: "Volgende week heb ik vakantie.", native: { en: "Next week I'm on holiday." }, items: [nl.volgende-week], acceptAlso: ["Ik heb volgende week vakantie."] }
+  - { id: s29, target: "Ik ga twee keer per week zwemmen.", native: { en: "I go swimming twice a week." }, items: [nl.keer], acceptAlso: ["Twee keer per week ga ik zwemmen."] }
+  - { id: s30, target: "Wat is uw vorige adres?", native: { en: "What was your previous address?" }, items: [nl.vorige] }
+  - { id: s31, target: "Ik neem de volgende trein.", native: { en: "I'll take the next train." }, items: [nl.volgende] }
+  - { id: s28, target: "Ik zwem elke week.", native: { en: "I swim every week." }, items: [nl.elke-week], acceptAlso: ["Elke week zwem ik."] }
+  - { id: s32, target: "Wil je iets lekkers?", native: { en: "Would you like something nice?" }, items: [nl.iets] }

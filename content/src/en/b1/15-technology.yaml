@@ -1,0 +1,154 @@
+id: en-b1-u15
+title: { nl: "Telefoon, computer en internet" }
+icon: computer
+topic: Phones, computers, the internet and keeping in touch; the present passive (is used for), instructions, phrasal verbs (ring back, hang up)
+vocabulary:
+  - { target: technology, native: { nl: technologie }, pos: noun }
+  - { target: invention, native: { nl: uitvinding }, pos: noun }
+  - { target: inventor, native: { nl: uitvinder }, pos: noun }
+  - { target: electronic, native: { nl: elektronisch }, pos: adjective }
+  - { target: digital, native: { nl: digitaal }, pos: adjective }
+  - { target: digital camera, native: { nl: digitale camera }, pos: noun }
+  - { target: hand-held, native: { nl: draagbaar (in de hand) }, pos: adjective }
+  - { target: smartphone, native: { nl: smartphone }, pos: noun, avoid: [en.mobile] }
+  - { target: mobile, native: { nl: mobieltje (gsm) }, pos: noun }
+  - { target: battery, native: { nl: batterij }, pos: noun }
+  - { target: cable, native: { nl: kabel }, pos: noun }
+  - { target: PC, native: { nl: pc }, pos: noun }
+  - { target: hardware, native: { nl: hardware }, pos: noun, avoid: [en.software] }
+  - { target: software, native: { nl: software }, pos: noun }
+  - { target: system, native: { nl: systeem }, pos: noun }
+  - { target: install, native: { nl: installeren }, pos: verb }
+  - { target: update, native: { nl: update (nieuwe versie) }, pos: noun }
+  - { target: version, native: { nl: versie }, pos: noun }
+  - { target: virus, native: { nl: virus }, pos: noun }
+  - { target: data, native: { nl: gegevens }, pos: noun }
+  - { target: server, native: { nl: server }, pos: noun }
+  - { target: network, native: { nl: netwerk }, pos: noun }
+  - { target: connect, native: { nl: "verbinden, aansluiten" }, pos: verb }
+  - { target: connection, native: { nl: verbinding }, pos: noun }
+  - { target: access, native: { nl: toegang }, pos: noun, avoid: [en.admission, en.entry] }
+  - { target: user, native: { nl: gebruiker }, pos: noun }
+  - { target: password, native: { nl: wachtwoord }, pos: noun }
+  - { target: sign up, native: { nl: zich aanmelden }, pos: phrase, avoid: [en.register], noBlank: true }
+  - { target: web, native: { nl: web (internet) }, pos: noun }
+  - { target: web page, native: { nl: webpagina }, pos: noun, avoid: [en.homepage, en.site] }
+  - { target: homepage, native: { nl: homepagina }, pos: noun, avoid: [en.site], noBlank: true }
+  - { target: site, native: { nl: site (website) }, pos: noun }
+  - { target: link, native: { nl: link }, pos: noun }
+  - { target: dot, native: { nl: punt (in een webadres) }, pos: noun, avoid: [en.full-stop] }
+  - { target: click, native: { nl: klikken }, pos: verb }
+  - { target: select, native: { nl: selecteren }, pos: verb }
+  - { target: drag, native: { nl: slepen }, pos: verb }
+  - { target: press, native: { nl: drukken (op) }, pos: verb, noBlank: true }
+  - { target: type, native: { nl: typen }, pos: verb }
+  - { target: delete, native: { nl: wissen }, pos: verb, avoid: [en.remove] }
+  - { target: folder, native: { nl: map (op de computer) }, pos: noun }
+  - { target: disc, native: { nl: "schijf, schijfje" }, pos: noun }
+  - { target: download, native: { nl: downloaden }, pos: verb, avoid: [en.upload] }
+  - { target: upload, native: { nl: uploaden }, pos: verb }
+  - { target: attach, native: { nl: bijvoegen }, pos: verb }
+  - { target: print, native: { nl: printen }, pos: verb }
+  - { target: printer, native: { nl: printer }, pos: noun }
+  - { target: graphics, native: { nl: graphics (beeld) }, pos: noun }
+  - { target: control, native: { nl: bediening (van een apparaat) }, pos: noun, avoid: [en.remote-control, en.check] }
+  - { target: social media, native: { nl: sociale media }, pos: noun }
+  - { target: blog, native: { nl: blog }, pos: noun }
+  - { target: blogger, native: { nl: blogger }, pos: noun }
+  - { target: podcast, native: { nl: podcast }, pos: noun }
+  - { target: video clip, native: { nl: videoclip }, pos: noun, noBlank: true }
+  - { target: webcam, native: { nl: webcam }, pos: noun }
+  - { target: selfie, native: { nl: selfie }, pos: noun }
+  - { target: share, native: { nl: delen }, pos: verb, avoid: [en.divide] }
+  - { target: comment, native: { nl: reageren (online) }, pos: verb, avoid: [en.react] }
+  - { target: chatroom, native: { nl: chatroom }, pos: noun }
+  - { target: text message, native: { nl: sms-bericht }, pos: noun, noBlank: true }
+  - { target: mail, native: { nl: post }, pos: noun, noBlank: true }
+  - { target: parcel, native: { nl: pakket }, pos: noun, avoid: [en.packet], noBlank: true }
+  - { target: receive, native: { nl: ontvangen }, pos: verb, noBlank: true }
+  - { target: reply, native: { nl: antwoord }, pos: noun }
+  - { target: regards, native: { nl: groeten }, pos: noun, avoid: [en.greeting], noBlank: true }
+  - { target: sincerely, native: { nl: hoogachtend (in een brief) }, pos: adverb }
+  - { target: fax, native: { nl: fax }, pos: noun }
+  - { target: operator, native: { nl: telefonist }, pos: noun }
+  - { target: dial, native: { nl: (een nummer) kiezen }, pos: verb, noBlank: true }
+  - { target: dial up, native: { nl: inbellen }, pos: phrase }
+  - { target: ring up, native: { nl: opbellen }, pos: phrase }
+  - { target: ring back, native: { nl: terugbellen }, pos: phrase }
+  - { target: hang up, native: { nl: ophangen (de telefoon) }, pos: phrase }
+  - { target: put through, native: { nl: doorverbinden }, pos: phrase }
+  - { target: pass on, native: { nl: doorgeven }, pos: phrase }
+  - { target: answerphone, native: { nl: antwoordapparaat }, pos: noun }
+sentences:
+  - { id: s01, target: "Technology changes very quickly.", native: { nl: "Technologie verandert heel snel." }, items: [en.technology] }
+  - { id: s02, target: "The telephone was an important invention.", native: { nl: "De telefoon was een belangrijke uitvinding." }, items: [en.invention] }
+  - { id: s03, target: "Who was the inventor of the computer?", native: { nl: "Wie was de uitvinder van de computer?" }, items: [en.inventor] }
+  - { id: s04, target: "Please switch off all electronic equipment.", native: { nl: "Schakel alstublieft alle elektronische apparatuur uit." }, items: [en.electronic] }
+  - { id: s05, target: "We use digital books at school.", native: { nl: "We gebruiken digitale boeken op school." }, items: [en.digital], acceptAlso: ["At school we use digital books."] }
+  - { id: s06, target: "Grandad bought a digital camera for his holiday.", native: { nl: "Opa kocht een digitale camera voor zijn vakantie." }, items: [en.digital-camera] }
+  - { id: s07, target: "Hand-held games were very popular thirty years ago.", native: { nl: "Draagbare spelcomputers waren dertig jaar geleden heel populair." }, items: [en.hand-held], acceptAlso: ["Thirty years ago hand-held games were very popular."] }
+  - { id: s08, target: "Almost everyone in my class has a smartphone.", native: { nl: "Bijna iedereen in mijn klas heeft een smartphone." }, items: [en.smartphone], acceptAlso: ["In my class almost everyone has a smartphone."] }
+  - { id: s09, target: "Call me on my mobile.", native: { nl: "Bel me op mijn mobieltje." }, items: [en.mobile] }
+  - { id: s10, target: "My battery is nearly dead.", native: { nl: "Mijn batterij is bijna leeg." }, items: [en.battery] }
+  - { id: s11, target: "I need a cable to connect the printer.", native: { nl: "Ik heb een kabel nodig om de printer aan te sluiten." }, items: [en.cable, en.connect] }
+  - { id: s12, target: "There are thirty PCs in the computer room.", native: { nl: "Er staan dertig pc's in het computerlokaal." }, items: [en.pc], acceptAlso: ["In the computer room there are thirty PCs."] }
+  - { id: s13, target: "The software is fine, but the hardware is old.", native: { nl: "De software is goed, maar de hardware is oud." }, items: [en.hardware, en.software] }
+  - { id: s14, target: "The school has a new computer system.", native: { nl: "De school heeft een nieuw computersysteem." }, items: [en.system] }
+  - { id: s15, target: "Ask your parents before you install an app.", native: { nl: "Vraag het je ouders voordat je een app installeert." }, items: [en.install], acceptAlso: ["Before you install an app, ask your parents."] }
+  - { id: s16, target: "My phone needs an update.", native: { nl: "Mijn telefoon heeft een update nodig." }, items: [en.update] }
+  - { id: s17, target: "The new version of the game is much faster.", native: { nl: "De nieuwe versie van het spel is veel sneller." }, items: [en.version] }
+  - { id: s18, target: "Don't open that email. It might contain a virus.", native: { nl: "Open die e-mail niet. Er zou een virus in kunnen zitten." }, items: [en.virus] }
+  - { id: s19, target: "Websites collect a lot of data about their users.", native: { nl: "Websites verzamelen veel gegevens over hun gebruikers." }, items: [en.data, en.user] }
+  - { id: s20, target: "The server is down, so the website isn't working.", native: { nl: "De server ligt plat, dus de website werkt niet." }, items: [en.server] }
+  - { id: s21, target: "The school network is very slow today.", native: { nl: "Het schoolnetwerk is vandaag heel traag." }, items: [en.network], acceptAlso: ["Today the school network is very slow."] }
+  - { id: s22, target: "The internet connection in the hotel was terrible.", native: { nl: "De internetverbinding in het hotel was vreselijk." }, items: [en.connection] }
+  - { id: s23, target: "All rooms have free internet access.", native: { nl: "Alle kamers hebben gratis internettoegang." }, items: [en.access] }
+  - { id: s24, target: "Never tell anyone your password.", native: { nl: "Vertel nooit iemand je wachtwoord." }, items: [en.password] }
+  - { id: s25, target: "I signed up for an online Spanish course.", native: { nl: "Ik heb me aangemeld voor een online cursus Spaans." }, items: [en.sign-up] }
+  - { id: s26, target: "You can find everything on the web these days.", native: { nl: "Je kunt tegenwoordig alles op het web vinden." }, items: [en.web], acceptAlso: ["These days you can find everything on the web."] }
+  - { id: s27, target: "This web page has information about the museum.", native: { nl: "Op deze webpagina staat informatie over het museum." }, items: [en.web-page] }
+  - { id: s28, target: "Go back to the homepage and click on the first link.", native: { nl: "Ga terug naar de homepagina en klik op de eerste link." }, items: [en.homepage, en.click, en.link] }
+  - { id: s29, target: "It's a great site for learning languages.", native: { nl: "Het is een geweldige site om talen te leren." }, items: [en.site] }
+  - { id: s30, target: "I'll send you the link.", native: { nl: "Ik stuur je de link." }, items: [en.link] }
+  - { id: s31, target: "There's a dot between the two parts of the address.", native: { nl: "Er staat een punt tussen de twee delen van het adres." }, items: [en.dot] }
+  - { id: s32, target: "Select the photos you want to print.", native: { nl: "Selecteer de foto's die je wilt printen." }, items: [en.select, en.print] }
+  - { id: s33, target: "Drag the file into the folder.", native: { nl: "Sleep het bestand naar de map." }, items: [en.drag, en.folder] }
+  - { id: s34, target: "Press the green button to start.", native: { nl: "Druk op de groene knop om te beginnen." }, items: [en.press], acceptAlso: ["To start, press the green button."] }
+  - { id: s35, target: "She can type very fast.", native: { nl: "Ze kan heel snel typen." }, items: [en.type] }
+  - { id: s36, target: "I deleted the photo by mistake.", native: { nl: "Ik heb de foto per ongeluk gewist." }, items: [en.delete] }
+  - { id: s37, target: "The film is on a disc.", native: { nl: "De film staat op een schijfje." }, items: [en.disc] }
+  - { id: s38, target: "You can download the app for free.", native: { nl: "Je kunt de app gratis downloaden." }, items: [en.download] }
+  - { id: s39, target: "I uploaded the video last night.", native: { nl: "Ik heb de video gisteravond geüpload." }, items: [en.upload], acceptAlso: ["Last night I uploaded the video."] }
+  - { id: s40, target: "Please attach a photo to your email.", native: { nl: "Voeg alsjeblieft een foto bij je e-mail." }, items: [en.attach] }
+  - { id: s41, target: "The printer has run out of paper.", native: { nl: "De printer heeft geen papier meer." }, items: [en.printer] }
+  - { id: s42, target: "The graphics in this game are amazing.", native: { nl: "De graphics in dit spel zijn geweldig." }, items: [en.graphics] }
+  - { id: s43, target: "Where's the remote control for the TV?", native: { nl: "Waar is de afstandsbediening van de tv?" }, items: [en.control] }
+  - { id: s44, target: "I don't spend much time on social media.", native: { nl: "Ik breng niet veel tijd door op sociale media." }, items: [en.social-media] }
+  - { id: s45, target: "She writes a blog about her travels.", native: { nl: "Ze schrijft een blog over haar reizen." }, items: [en.blog] }
+  - { id: s46, target: "The blogger has thousands of readers.", native: { nl: "De blogger heeft duizenden lezers." }, items: [en.blogger] }
+  - { id: s47, target: "I listen to a science podcast on the bus.", native: { nl: "Ik luister in de bus naar een wetenschapspodcast." }, items: [en.podcast], acceptAlso: ["On the bus I listen to a science podcast."] }
+  - { id: s48, target: "Watch this funny video clip!", native: { nl: "Kijk deze grappige videoclip!" }, items: [en.video-clip] }
+  - { id: s49, target: "We talked to Grandma using the webcam.", native: { nl: "We praatten met oma via de webcam." }, items: [en.webcam] }
+  - { id: s50, target: "Let's take a selfie in front of the castle!", native: { nl: "Laten we een selfie maken voor het kasteel!" }, items: [en.selfie] }
+  - { id: s51, target: "Don't share photos of other people without asking.", native: { nl: "Deel geen foto's van andere mensen zonder het te vragen." }, items: [en.share] }
+  - { id: s52, target: "Lots of people commented on her post.", native: { nl: "Veel mensen reageerden op haar bericht." }, items: [en.comment] }
+  - { id: s53, target: "Be careful who you talk to in a chatroom.", native: { nl: "Pas op met wie je praat in een chatroom." }, items: [en.chatroom] }
+  - { id: s54, target: "I got a text message from my brother.", native: { nl: "Ik kreeg een sms'je van mijn broer." }, items: [en.text-message] }
+  - { id: s55, target: "Has the mail arrived yet?", native: { nl: "Is de post al gekomen?" }, items: [en.mail] }
+  - { id: s56, target: "A parcel came for you this morning.", native: { nl: "Er kwam vanochtend een pakket voor je." }, items: [en.parcel], acceptAlso: ["This morning a parcel came for you."] }
+  - { id: s57, target: "Did you receive my email?", native: { nl: "Heb je mijn e-mail ontvangen?" }, items: [en.receive] }
+  - { id: s58, target: "I'm still waiting for a reply.", native: { nl: "Ik wacht nog steeds op antwoord." }, items: [en.reply] }
+  - { id: s59, target: "Best regards, Daniel", native: { nl: "Met vriendelijke groeten, Daniel" }, items: [en.regards] }
+  - { id: s60, target: "Yours sincerely, Anna Taylor", native: { nl: "Hoogachtend, Anna Taylor" }, items: [en.sincerely] }
+  - { id: s61, target: "Some offices still use a fax machine.", native: { nl: "Sommige kantoren gebruiken nog een faxapparaat." }, items: [en.fax] }
+  - { id: s62, target: "The operator connected me to the hotel.", native: { nl: "De telefonist verbond me door met het hotel." }, items: [en.operator] }
+  - { id: s63, target: "In an emergency, dial 112.", native: { nl: "Bel in een noodgeval 112." }, items: [en.dial], acceptAlso: ["Dial 112 in an emergency."] }
+  - { id: s64, target: "Thirty years ago, you had to dial up to get online.", native: { nl: "Dertig jaar geleden moest je inbellen om online te gaan." }, items: [en.dial-up], acceptAlso: ["You had to dial up to get online thirty years ago."] }
+  - { id: s65, target: "I'll ring you up tomorrow.", native: { nl: "Ik bel je morgen op." }, items: [en.ring-up], acceptAlso: ["Tomorrow I'll ring you up."] }
+  - { id: s66, target: "She's busy at the moment. Can she ring you back?", native: { nl: "Ze is op dit moment bezig. Kan ze je terugbellen?" }, items: [en.ring-back] }
+  - { id: s67, target: "He hung up before I could say goodbye.", native: { nl: "Hij hing op voordat ik gedag kon zeggen." }, items: [en.hang-up], finite: { word: hung, hint: { nl: "hang (verleden tijd: … up)" } }, acceptAlso: ["Before I could say goodbye, he hung up."] }
+  - { id: s68, target: "Can you put me through to the manager, please?", native: { nl: "Kunt u me doorverbinden met de manager, alstublieft?" }, items: [en.put-through] }
+  - { id: s69, target: "Could you pass on a message to your mum?", native: { nl: "Kun je een boodschap aan je moeder doorgeven?" }, items: [en.pass-on] }
+  - { id: s70, target: "Leave a message on the answerphone.", native: { nl: "Laat een bericht achter op het antwoordapparaat." }, items: [en.answerphone] }
+  - { id: s71, target: "Smartphones are used for much more than calls.", native: { nl: "Smartphones worden voor veel meer gebruikt dan bellen." }, items: [en.smartphone] }
+texts: [en-b1-t16]

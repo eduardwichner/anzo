@@ -1,0 +1,51 @@
+id: en-b2-t06
+kind: reading
+title: { nl: Kleine stappen }
+topic: Health and fitness (a magazine article about exercise and mental health)
+level: B2
+paragraphs:
+  - - { id: en-b2-t06-s01, target: "For years, Jamie Clarke thought exercise was only for people who loved sport.", native: { nl: "Jarenlang dacht Jamie Clarke dat bewegen alleen iets was voor mensen die van sport hielden." } }
+    - { id: en-b2-t06-s02, target: "He spent most of the day sitting at a desk, and in the evenings he relaxed in front of a screen.", native: { nl: "Hij bracht het grootste deel van de dag aan een bureau door, en 's avonds ontspande hij voor een scherm." } }
+    - { id: en-b2-t06-s03, target: "Then, at twenty-eight, he started to suffer from anxiety and could hardly sleep.", native: { nl: "Toen hij achtentwintig was, begon hij te lijden aan angst en kon hij bijna niet meer slapen." } }
+  - - { id: en-b2-t06-s04, target: "His doctor's advice surprised him.", native: { nl: "Het advies van zijn dokter verraste hem." } }
+    - { id: en-b2-t06-s05, target: "Instead of giving him pills, she suggested a walk of thirty minutes every day.", native: { nl: "In plaats van hem pillen te geven, stelde ze voor om elke dag dertig minuten te wandelen." } }
+    - { id: en-b2-t06-s06, target: "\"You don't have to run a marathon,\" she told him. \"But your body and your mind are connected, and both need to move.\"", native: { nl: "\"Je hoeft geen marathon te lopen,\" zei ze tegen hem. \"Maar je lichaam en je geest zijn met elkaar verbonden, en ze moeten allebei bewegen.\"" } }
+  - - { id: en-b2-t06-s07, target: "Scientists agree with her.", native: { nl: "Wetenschappers zijn het met haar eens." } }
+    - { id: en-b2-t06-s08, target: "Studies show that regular physical activity reduces stress and improves sleep, and for mild anxiety it can be as effective as some treatments.", native: { nl: "Studies tonen aan dat regelmatige lichaamsbeweging stress vermindert en de slaap verbetert, en bij lichte angst kan ze even doeltreffend zijn als sommige behandelingen." } }
+    - { id: en-b2-t06-s09, target: "The good news is that small amounts already help: even ten minutes of walking raises your heart rate and improves your mood.", native: { nl: "Het goede nieuws is dat kleine hoeveelheden al helpen: zelfs tien minuten wandelen verhoogt je hartslag en verbetert je humeur." } }
+  - - { id: en-b2-t06-s10, target: "Jamie's first weeks were hard work.", native: { nl: "Jamies eerste weken waren zwaar." } }
+    - { id: en-b2-t06-s11, target: "His legs hurt, it rained almost every day, and some evenings he nearly stayed at home.", native: { nl: "Zijn benen deden pijn, het regende bijna elke dag, en sommige avonden bleef hij bijna thuis." } }
+    - { id: en-b2-t06-s12, target: "But gradually his stamina improved, and the walks became the part of the day he looked forward to most.", native: { nl: "Maar langzaamaan verbeterde zijn uithoudingsvermogen, en de wandelingen werden het deel van de dag waar hij het meest naar uitkeek." } }
+    - { id: en-b2-t06-s13, target: "After six months he joined a running club, and last spring he finished his first ten-kilometre race.", native: { nl: "Na zes maanden werd hij lid van een loopclub, en afgelopen lente liep hij zijn eerste wedstrijd van tien kilometer uit." } }
+  - - { id: en-b2-t06-s14, target: "What would he say to people who feel the same as he did?", native: { nl: "Wat zou hij zeggen tegen mensen die zich voelen zoals hij zich voelde?" } }
+    - { id: en-b2-t06-s15, target: "\"Don't wait until you feel motivated, because that moment may never come. Start small, and be patient with yourself.\"", native: { nl: "\"Wacht niet tot je je gemotiveerd voelt, want dat moment komt misschien nooit. Begin klein, en wees geduldig met jezelf.\"" } }
+glossary:
+  - { word: marathon, native: { nl: marathon } }
+  - { word: connected, native: { nl: verbonden } }
+  - { word: mild, native: { nl: "licht, mild" } }
+  - { word: mood, native: { nl: humeur } }
+items: [en.anxiety, en.physical, en.treatment, en.heart-rate, en.stamina]
+gapped:
+  gaps: [en-b2-t06-s04, en-b2-t06-s07, en-b2-t06-s10, en-b2-t06-s14]
+  extra:
+    - { id: en-b2-t06-x1, target: "Running is the most popular sport in the country.", native: { nl: "Lopen is de populairste sport van het land." } }
+openCloze:
+  - { sentence: en-b2-t06-s05, word: of }
+  - { sentence: en-b2-t06-s08, word: as }
+  - { sentence: en-b2-t06-s12, word: to }
+  - { sentence: en-b2-t06-s15, word: until, acceptAlso: [till] }
+wordForm:
+  - { sentence: en-b2-t06-s03, word: anxiety, stem: anxious }
+  - { sentence: en-b2-t06-s08, word: effective, stem: effect }
+  - { sentence: en-b2-t06-s11, word: nearly, stem: near }
+questions:
+  - { id: en-b2-t06-q1, type: summary, options: ["A man with anxiety started walking every day on his doctor's advice, and slowly exercise became a part of his life that he enjoys.", "A man with anxiety refused his doctor's advice to take pills and decided to train for a marathon in a few months.", "A doctor explains why people who suffer from anxiety should avoid any kind of sport until they feel better."], correct: 0 }
+  - { id: en-b2-t06-q2, type: mc, question: "What did Jamie's doctor suggest?", options: ["A thirty-minute walk every day.", "Running a marathon.", "Taking pills for a month."], correct: 0 }
+  - { id: en-b2-t06-q3, type: true_false_notgiven, statement: "Jamie spent most of his day being physically active.", answer: false }
+  - { id: en-b2-t06-q4, type: true_false_notgiven, statement: "Jamie's doctor goes running every morning herself.", answer: not_given }
+  - { id: en-b2-t06-q5, type: true_false_notgiven, statement: "In the first weeks, Jamie sometimes almost stayed at home.", answer: true }
+  - { id: en-b2-t06-q6, type: match_heading, paragraph: 3, options: ["What the research says", "A surprising piece of advice", "A slow start"], correct: 0 }
+listeningQuestions:
+  - { id: en-b2-t06-l1, type: complete, statement: "Jamie finished his first ___-kilometre race last spring.", answers: [ten, "10"] }
+  - { id: en-b2-t06-l2, type: mc, question: "What is Jamie's advice?", options: ["Start small and be patient with yourself.", "Wait until you feel motivated.", "Join a club from the first day."], correct: 0 }
+orderable: false

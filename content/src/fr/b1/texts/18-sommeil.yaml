@@ -1,0 +1,36 @@
+id: fr-b1-t18
+kind: reading
+title: { nl: Slapen tieners genoeg?, en: "Do teenagers get enough sleep?" }
+topic: Le temps et les mesures (les résultats d'une enquête d'une classe)
+level: B1
+paragraphs:
+  - - { id: fr-b1-t18-s01, target: "Durant une quinzaine de jours, notre classe a fait une enquête sur le sommeil des élèves.", native: { nl: "Gedurende een veertiental dagen heeft onze klas een onderzoek gedaan naar de slaap van de leerlingen.", en: "For about two weeks, our class did a survey on pupils' sleep." } }
+    - { id: fr-b1-t18-s02, target: "Chaque matin, 200 élèves ont écrit à quelle heure ils s'étaient couchés.", native: { nl: "Elke ochtend hebben 200 leerlingen opgeschreven hoe laat ze naar bed waren gegaan.", en: "Every morning, 200 pupils wrote down what time they had gone to bed." } }
+  - - { id: fr-b1-t18-s03, target: "Les résultats sont inquiétants : la moitié des élèves dorment moins de huit heures.", native: { nl: "De resultaten zijn verontrustend: de helft van de leerlingen slaapt minder dan acht uur.", en: "The results are worrying: half the pupils sleep less than eight hours." } }
+    - { id: fr-b1-t18-s04, target: "Selon les médecins, un ado a besoin d'un minimum de neuf heures de sommeil.", native: { nl: "Volgens artsen heeft een tiener minstens negen uur slaap nodig.", en: "According to doctors, a teenager needs a minimum of nine hours' sleep." } }
+    - { id: fr-b1-t18-s05, target: "Quatre-vingts pour cent des élèves regardent leur téléphone au lit.", native: { nl: "Tachtig procent van de leerlingen kijkt in bed op hun telefoon.", en: "Eighty per cent of the pupils look at their phones in bed." } }
+  - - { id: fr-b1-t18-s06, target: "Ce n'était pas comme ça autrefois : les jeunes se couchaient plus tôt, parce qu'il n'y avait pas d'écrans dans les chambres.", native: { nl: "Dat was vroeger niet zo: jongeren gingen eerder naar bed, omdat er geen schermen in de slaapkamers waren.", en: "It wasn't like that in the past: young people went to bed earlier, because there were no screens in bedrooms." } }
+    - { id: fr-b1-t18-s07, target: "Actuellement, beaucoup d'élèves sont fatigués dès le début de la matinée.", native: { nl: "Momenteel zijn veel leerlingen al moe vanaf het begin van de ochtend.", en: "At the moment, a lot of pupils are tired from the very start of the morning." } }
+  - - { id: fr-b1-t18-s08, target: "Désormais, notre classe a une règle : le téléphone reste dans la cuisine la nuit.", native: { nl: "Voortaan heeft onze klas een regel: de telefoon blijft 's nachts in de keuken.", en: "From now on, our class has a rule: the phone stays in the kitchen at night." } }
+    - { id: fr-b1-t18-s09, target: "Nous allons faire une nouvelle enquête à la fin de l'année pour comparer les résultats.", native: { nl: "We gaan aan het einde van het jaar een nieuw onderzoek doen om de resultaten te vergelijken.", en: "We're going to do a new survey at the end of the year to compare the results." } }
+glossary:
+  - { word: enquête, native: { nl: onderzoek (vragenlijst), en: "survey (questionnaire)" } }
+  - { word: sommeil, native: { nl: slaap, en: "sleep" } }
+items: [fr.durant, fr.quinzaine, fr.resultat, fr.inquietant, fr.moitie, fr.minimum, fr.pour-cent, fr.autrefois, fr.actuellement, fr.des, fr.debut, fr.matinee, fr.desormais, fr.fin, fr.comparer, fr.ado, fr.selon]
+questions:
+  - { id: fr-b1-t18-q1, type: mc, question: "Sur quoi la classe a-t-elle fait une enquête ?", options: ["Sur le sommeil des élèves.", "Sur les repas à l'école.", "Sur le sport."], correct: 0 }
+  - { id: fr-b1-t18-q2, type: true_false_notgiven, statement: "La plupart des élèves dorment plus de neuf heures.", answer: false }
+  - { id: fr-b1-t18-q3, type: true_false_notgiven, statement: "Beaucoup d'élèves utilisent leur téléphone au lit.", answer: true }
+  - { id: fr-b1-t18-q4, type: true_false_notgiven, statement: "Les professeurs ont aussi répondu à l'enquête.", answer: not_given }
+  - { id: fr-b1-t18-q5, type: mc, question: "Quelle est la nouvelle règle de la classe ?", options: ["Le téléphone reste dans la cuisine la nuit.", "On se couche à neuf heures.", "On ne regarde plus la télévision."], correct: 0 }
+  - { id: fr-b1-t18-q6, type: match_heading, paragraph: 3, options: ["Hier et aujourd'hui", "Des résultats inquiétants", "Une nouvelle règle"], correct: 0 }
+listeningQuestions:
+  - { id: fr-b1-t18-l1, type: mc, question: "Combien d'heures de sommeil faut-il au minimum à un ado ?", options: ["Neuf heures.", "Huit heures.", "Sept heures."], correct: 0 }
+  - { id: fr-b1-t18-l2, type: true_false_notgiven, statement: "La classe va faire une nouvelle enquête à la fin de l'année.", answer: true }
+cloze:
+  - { sentence: fr-b1-t18-s01, word: fait, kind: finite_verb, hint: { nl: "faire (passé composé: a …)", en: "faire (passé composé: a …)" } }
+  - { sentence: fr-b1-t18-s05, word: regardent, kind: finite_verb, hint: { nl: "regarder (présent)", en: "regarder (present)" } }
+  - { sentence: fr-b1-t18-s06, word: couchaient, kind: finite_verb, hint: { nl: "se coucher (imparfait)", en: "se coucher (imperfect)" } }
+  - { sentence: fr-b1-t18-s07, word: sont, kind: finite_verb, hint: { nl: "être (présent)", en: "être (present)" } }
+  - { sentence: fr-b1-t18-s08, word: reste, kind: finite_verb, hint: { nl: "rester (présent)", en: "rester (present)" } }
+orderable: true

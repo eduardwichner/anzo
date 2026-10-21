@@ -1,0 +1,105 @@
+id: fr-b1-u03
+title: { nl: Gevoelens en meningen, en: "Feelings and opinions" }
+icon: heart
+topic: Émotions et opinions ; je pense que / je ne pense pas que + subjonctif
+vocabulary:
+  - { target: jaloux, native: { nl: jaloers, en: "jealous" }, pos: adjective }
+  - { target: soulagé, native: { nl: opgelucht, en: "relieved" }, pos: adjective }
+  - { target: stressé, native: { nl: gestrest, en: "stressed" }, pos: adjective }
+  - { target: gêné, native: { nl: "opgelaten, gegeneerd", en: "embarrassed, awkward" }, pos: adjective }
+  - { target: la honte, native: { nl: de schaamte, en: "shame" }, pos: noun, gender: f }
+  - { target: la colère, native: { nl: de woede, en: "anger" }, pos: noun, gender: f }
+  - { target: la tristesse, native: { nl: het verdriet, en: "sadness" }, pos: noun, gender: f }
+  - { target: nerveux, native: { nl: zenuwachtig, en: "nervous" }, pos: adjective, avoid: [fr.stresse] }
+  - { target: s'inquiéter, native: { nl: zich zorgen maken, en: "to worry" }, pos: verb }
+  - { target: inquiétant, native: { nl: verontrustend, en: "worrying" }, pos: adjective }
+  - { target: étonné, native: { nl: verbaasd, en: "surprised, astonished" }, pos: adjective }
+  - { target: enthousiaste, native: { nl: enthousiast, en: "enthusiastic" }, pos: adjective }
+  - { target: confiant, native: { nl: "zelfverzekerd, vol vertrouwen", en: "confident" }, pos: adjective }
+  - { target: décevoir, native: { nl: teleurstellen, en: "to disappoint" }, pos: verb }
+  - { target: énerver, native: { nl: "ergeren, op de zenuwen werken", en: "to annoy, to get on someone's nerves" }, pos: verb }
+  - { target: le bonheur, native: { nl: het geluk, en: "happiness" }, pos: noun, gender: m }
+  - { target: le plaisir, native: { nl: het plezier, en: "pleasure" }, pos: noun, gender: m }
+  - { target: le stress, native: { nl: de stress, en: "stress" }, pos: noun, gender: m }
+  - { target: l'avis, native: { nl: "de mening, het idee", en: "opinion, view" }, pos: noun, gender: m }
+  - { target: l'opinion, native: { nl: de mening, en: "opinion" }, pos: noun, gender: f }
+  - { target: à mon avis, native: { nl: volgens mij, en: "in my opinion" }, pos: phrase }
+  - { target: l'argument, native: { nl: het argument, en: "argument (for or against)" }, pos: noun, gender: m }
+  - { target: l'avantage, native: { nl: het voordeel, en: "advantage" }, pos: noun, gender: m, avoid: [fr.inconvenient] }
+  - { target: l'inconvénient, native: { nl: het nadeel, en: "disadvantage, drawback" }, pos: noun, gender: m }
+  - { target: le point, native: { nl: het punt, en: "point" }, pos: noun, gender: m }
+  - { target: probablement, native: { nl: waarschijnlijk, en: "probably" }, pos: adverb }
+  - { target: certainement, native: { nl: zeker, en: "certainly" }, pos: adverb }
+  - { target: évidemment, native: { nl: "vanzelfsprekend, natuurlijk", en: "obviously, of course" }, pos: adverb }
+  - { target: apparemment, native: { nl: blijkbaar, en: "apparently" }, pos: adverb }
+  - { target: sembler, native: { nl: lijken, en: "to seem, to appear" }, pos: verb }
+  - { target: le doute, native: { nl: de twijfel, en: "doubt" }, pos: noun, gender: m }
+  - { target: la raison, native: { nl: de reden, en: "reason" }, pos: noun, gender: f }
+  - { target: le sens, native: { nl: de zin (betekenis), en: "meaning, sense" }, pos: noun, gender: m }
+  - { target: la réaction, native: { nl: de reactie, en: "reaction" }, pos: noun, gender: f }
+  - { target: le refus, native: { nl: de weigering, en: "refusal" }, pos: noun, gender: m }
+  - { target: le mécontentement, native: { nl: de ontevredenheid, en: "dissatisfaction" }, pos: noun, gender: m }
+  - { target: protester, native: { nl: protesteren, en: "to protest" }, pos: verb }
+  - { target: rigoler, native: { nl: lachen (informeel), en: "to laugh (informal), to have a laugh" }, pos: verb, noBlank: true }
+  - { target: passionnant, native: { nl: boeiend, en: "gripping, exciting" }, pos: adjective, avoid: [fr.motivant] }
+  - { target: motivant, native: { nl: motiverend, en: "motivating" }, pos: adjective }
+  - { target: motivé, native: { nl: gemotiveerd, en: "motivated" }, pos: adjective }
+  - { target: motiver, native: { nl: motiveren, en: "to motivate" }, pos: verb }
+  - { target: indifférent, native: { nl: onverschillig, en: "indifferent" }, pos: adjective }
+  - { target: la discussion, native: { nl: de discussie, en: "discussion" }, pos: noun, gender: f }
+  - { target: négatif, native: { nl: negatief, en: "negative" }, pos: adjective, avoid: [fr.positif] }
+  - { target: positif, native: { nl: positief, en: "positive" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Mon petit frère est jaloux de mon nouveau vélo.", native: { nl: "Mijn kleine broertje is jaloers op mijn nieuwe fiets.", en: "My little brother is jealous of my new bike." }, items: [fr.jaloux] }
+  - { id: s02, target: "J'étais soulagée quand j'ai vu mes résultats.", native: { nl: "Ik was opgelucht toen ik mijn resultaten zag.", en: "I was relieved when I saw my results." }, items: [fr.soulage] }
+  - { id: s03, target: "Avant les examens, tout le monde est stressé.", native: { nl: "Voor de examens is iedereen gestrest.", en: "Before the exams, everyone is stressed." }, items: [fr.stresse] }
+  - { id: s04, target: "Il était gêné parce qu'il avait oublié le nom de sa voisine.", native: { nl: "Hij voelde zich opgelaten omdat hij de naam van zijn buurvrouw vergeten was.", en: "He was embarrassed because he had forgotten his neighbour's name." }, items: [fr.gene] }
+  - { id: s05, target: "Elle est devenue toute rouge de honte.", native: { nl: "Ze werd helemaal rood van schaamte.", en: "She went bright red with shame." }, items: [fr.honte] }
+  - { id: s06, target: "Il a crié de colère et il est parti.", native: { nl: "Hij schreeuwde van woede en ging weg.", en: "He shouted in anger and left." }, items: [fr.colere] }
+  - { id: s07, target: "On voyait la tristesse dans ses yeux.", native: { nl: "Je zag het verdriet in haar ogen.", en: "You could see the sadness in her eyes." }, items: [fr.tristesse] }
+  - { id: s08, target: "Je suis toujours nerveux avant un match.", native: { nl: "Ik ben altijd zenuwachtig voor een wedstrijd.", en: "I'm always nervous before a match." }, items: [fr.nerveux], acceptAlso: ["Avant un match, je suis toujours nerveux."] }
+  - { id: s09, target: "Ne t'inquiète pas, tout va bien se passer.", native: { nl: "Maak je geen zorgen, alles komt goed.", en: "Don't worry, everything will be fine." }, items: [fr.s-inquieter] }
+  - { id: s10, target: "Mes parents s'inquiètent quand je rentre tard.", native: { nl: "Mijn ouders maken zich zorgen als ik laat thuiskom.", en: "My parents worry when I come home late." }, items: [fr.s-inquieter], acceptAlso: ["Quand je rentre tard, mes parents s'inquiètent."] }
+  - { id: s11, target: "Les nouvelles de ce matin sont inquiétantes.", native: { nl: "Het nieuws van vanochtend is verontrustend.", en: "This morning's news is worrying." }, items: [fr.inquietant] }
+  - { id: s12, target: "J'ai été étonné par sa réponse.", native: { nl: "Ik was verbaasd over zijn antwoord.", en: "I was surprised by his answer." }, items: [fr.etonne] }
+  - { id: s13, target: "Les élèves sont très enthousiastes pour le voyage.", native: { nl: "De leerlingen zijn heel enthousiast over de reis.", en: "The pupils are very enthusiastic about the trip." }, items: [fr.enthousiaste] }
+  - { id: s14, target: "Après beaucoup d'entraînement, elle était confiante.", native: { nl: "Na veel oefenen was ze vol vertrouwen.", en: "After a lot of practice, she was confident." }, items: [fr.confiant], acceptAlso: ["Elle était confiante après beaucoup d'entraînement."] }
+  - { id: s15, target: "Le film m'a déçu : la fin était vraiment mauvaise.", native: { nl: "De film viel me tegen: het einde was echt slecht.", en: "The film disappointed me: the ending was really bad." }, items: [fr.decevoir] }
+  - { id: s16, target: "Je ne veux pas décevoir mes parents.", native: { nl: "Ik wil mijn ouders niet teleurstellen.", en: "I don't want to disappoint my parents." }, items: [fr.decevoir] }
+  - { id: s17, target: "Ce bruit m'énerve !", native: { nl: "Dat lawaai werkt op mijn zenuwen!", en: "That noise is getting on my nerves!" }, items: [fr.enerver] }
+  - { id: s18, target: "Pour moi, le bonheur, c'est être avec ma famille.", native: { nl: "Voor mij betekent geluk: bij mijn familie zijn.", en: "For me, happiness is being with my family." }, items: [fr.bonheur] }
+  - { id: s19, target: "Je lis pour le plaisir.", native: { nl: "Ik lees voor mijn plezier.", en: "I read for pleasure." }, items: [fr.plaisir] }
+  - { id: s20, target: "Le sport m'aide à oublier le stress.", native: { nl: "Sport helpt me de stress te vergeten.", en: "Sport helps me forget the stress." }, items: [fr.stress] }
+  - { id: s21, target: "Quel est ton avis sur ce livre ?", native: { nl: "Wat is jouw mening over dit boek?", en: "What's your opinion of this book?" }, items: [fr.avis] }
+  - { id: s22, target: "Chacun a le droit d'avoir son opinion.", native: { nl: "Iedereen heeft recht op zijn eigen mening.", en: "Everyone has the right to their own opinion." }, items: [fr.opinion] }
+  - { id: s23, target: "À mon avis, ce film est trop long.", native: { nl: "Volgens mij is deze film te lang.", en: "In my opinion, this film is too long." }, items: [fr.a-mon-avis] }
+  - { id: s24, target: "C'est un bon argument, mais je ne suis pas d'accord.", native: { nl: "Dat is een goed argument, maar ik ben het er niet mee eens.", en: "That's a good argument, but I don't agree." }, items: [fr.argument] }
+  - { id: s25, target: "Habiter en ville a beaucoup d'avantages.", native: { nl: "In de stad wonen heeft veel voordelen.", en: "Living in town has a lot of advantages." }, items: [fr.avantage] }
+  - { id: s26, target: "Le seul inconvénient, c'est le bruit.", native: { nl: "Het enige nadeel is het lawaai.", en: "The only drawback is the noise." }, items: [fr.inconvenient] }
+  - { id: s27, target: "Sur ce point, tu as raison.", native: { nl: "Op dat punt heb je gelijk.", en: "On that point, you're right." }, items: [fr.point] }
+  - { id: s28, target: "Il va probablement pleuvoir ce soir.", native: { nl: "Het gaat vanavond waarschijnlijk regenen.", en: "It's probably going to rain this evening." }, items: [fr.probablement] }
+  - { id: s29, target: "Elle viendra certainement à ta fête.", native: { nl: "Ze komt zeker naar je feest.", en: "She'll certainly come to your party." }, items: [fr.certainement] }
+  - { id: s30, target: "Évidemment, je vais t'aider !", native: { nl: "Natuurlijk ga ik je helpen!", en: "Of course I'll help you!" }, items: [fr.evidemment] }
+  - { id: s31, target: "Apparemment, le magasin est fermé aujourd'hui.", native: { nl: "Blijkbaar is de winkel vandaag gesloten.", en: "Apparently the shop is closed today." }, items: [fr.apparemment] }
+  - { id: s32, target: "Tu sembles fatigué ce matin.", native: { nl: "Je lijkt moe vanochtend.", en: "You seem tired this morning." }, items: [fr.sembler], finite: { word: sembles, hint: { nl: "sembler (présent)", en: "sembler (present)" } }, acceptAlso: ["Ce matin, tu sembles fatigué."] }
+  - { id: s33, target: "Il n'y a aucun doute : c'est elle la meilleure.", native: { nl: "Er is geen twijfel: zij is de beste.", en: "There's no doubt: she's the best." }, items: [fr.doute] }
+  - { id: s34, target: "Pour quelle raison es-tu en retard ?", native: { nl: "Om welke reden ben je te laat?", en: "What's the reason you're late?" }, items: [fr.raison] }
+  - { id: s35, target: "Cette phrase n'a pas de sens.", native: { nl: "Deze zin heeft geen betekenis.", en: "This sentence doesn't make sense." }, items: [fr.sens] }
+  - { id: s36, target: "Sa réaction m'a beaucoup étonnée.", native: { nl: "Zijn reactie verbaasde me erg.", en: "His reaction really surprised me." }, items: [fr.reaction] }
+  - { id: s37, target: "J'ai été triste après son refus.", native: { nl: "Ik was verdrietig na zijn weigering.", en: "I was sad after his refusal." }, items: [fr.refus] }
+  - { id: s38, target: "Les élèves ont montré leur mécontentement au directeur.", native: { nl: "De leerlingen lieten de directeur hun ontevredenheid zien.", en: "The pupils showed the head teacher their dissatisfaction." }, items: [fr.mecontentement] }
+  - { id: s39, target: "Les habitants protestent contre le nouveau parking.", native: { nl: "De bewoners protesteren tegen de nieuwe parking.", en: "The residents are protesting against the new car park." }, items: [fr.protester], finite: { word: protestent, hint: { nl: "protester (présent)", en: "protester (present)" } } }
+  - { id: s40, target: "On a bien rigolé pendant le voyage.", native: { nl: "We hebben veel gelachen tijdens de reis.", en: "We had a good laugh on the trip." }, items: [fr.rigoler], acceptAlso: ["Pendant le voyage, on a bien rigolé."] }
+  - { id: s41, target: "C'est un livre passionnant : je l'ai lu en deux jours.", native: { nl: "Het is een boeiend boek: ik heb het in twee dagen gelezen.", en: "It's a gripping book: I read it in two days." }, items: [fr.passionnant] }
+  - { id: s42, target: "Travailler en équipe, c'est motivant.", native: { nl: "In een team werken is motiverend.", en: "Working in a team is motivating." }, items: [fr.motivant] }
+  - { id: s43, target: "Cette année, je suis très motivé pour réussir.", native: { nl: "Dit jaar ben ik erg gemotiveerd om te slagen.", en: "This year I'm very motivated to succeed." }, items: [fr.motive] }
+  - { id: s44, target: "Notre professeur sait bien motiver ses élèves.", native: { nl: "Onze leraar kan zijn leerlingen goed motiveren.", en: "Our teacher knows how to motivate his pupils." }, items: [fr.motiver] }
+  - { id: s45, target: "Il reste indifférent à tout ce qu'on lui dit.", native: { nl: "Hij blijft onverschillig voor alles wat je hem zegt.", en: "He remains indifferent to everything people tell him." }, items: [fr.indifferent], finite: { word: reste, hint: { nl: "rester (présent)", en: "rester (present)" } } }
+  - { id: s46, target: "Nous avons eu une longue discussion sur l'école.", native: { nl: "We hebben een lange discussie over school gehad.", en: "We had a long discussion about school." }, items: [fr.discussion] }
+  - { id: s47, target: "Ne sois pas si négatif, Paul !", native: { nl: "Wees niet zo negatief!", en: "Don't be so negative, Paul!" }, items: [fr.negatif] }
+  - { id: s48, target: "Il faut rester positif, même quand c'est difficile.", native: { nl: "Je moet positief blijven, ook als het moeilijk is.", en: "You have to stay positive, even when it's difficult." }, items: [fr.positif] }
+  - { id: s49, target: "Je ne pense pas que ce soit une bonne raison.", native: { nl: "Ik denk niet dat dat een goede reden is.", en: "I don't think that's a good reason." }, items: [fr.raison], build: true, finite: { word: soit, hint: { nl: "être (subjonctif)", en: "être (subjunctive)" } } }
+  - { id: s50, target: "Je suis content que tu sois là : c'est un vrai plaisir.", native: { nl: "Ik ben blij dat je er bent: het is echt een plezier.", en: "I'm glad you're here: it's a real pleasure." }, items: [fr.plaisir], build: true, finite: { word: sois, hint: { nl: "être (subjonctif)", en: "être (subjunctive)" } } }
+  - { id: s51, target: "Je ne crois pas que ce soit un bon argument.", native: { nl: "Ik geloof niet dat dat een goed argument is.", en: "I don't believe that's a good argument." }, items: [fr.argument] }
+  - { id: s52, target: "Je suis déçu que tu ne viennes pas à ma fête.", native: { nl: "Ik ben teleurgesteld dat je niet naar mijn feest komt.", en: "I'm disappointed that you're not coming to my party." }, items: [fr.decevoir], finite: { word: viennes, hint: { nl: "venir (subjonctif)", en: "venir (subjunctive)" } } }
+texts: [fr-b1-t04]

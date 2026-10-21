@@ -1,0 +1,52 @@
+id: nl-b2-study-t06
+kind: reading
+title: { en: A buy button in our brain? }
+topic: Behaviour and the brain (an article on a study platform for marketing students)
+level: B2
+paragraphs:
+  - - { id: nl-b2-study-t06-s01, target: "Elk bedrijf wil zijn producten verkopen, en daarvoor investeert het veel in marketing.", native: { en: "Every company wants to sell its products, and for that it invests a lot in marketing." } }
+    - { id: nl-b2-study-t06-s02, target: "Een nieuwe en omstreden vorm daarvan is neuromarketing: onderzoek naar wat er in ons brein gebeurt als we iets kopen.", native: { en: "A new and controversial form of it is neuromarketing: research into what happens in our brain when we buy something." } }
+  - - { id: nl-b2-study-t06-s03, target: "Hoe werkt dat?", native: { en: "How does that work?" } }
+    - { id: nl-b2-study-t06-s04, target: "Proefpersonen kijken naar reclame of naar producten in een winkel, terwijl een hersenscan meet welke delen van hun brein actief worden.", native: { en: "Participants look at adverts or at products in a shop, while a brain scan measures which parts of their brain become active." } }
+    - { id: nl-b2-study-t06-s05, target: "Zo zien onderzoekers wat een klant voelt, nog voor hij het zelf weet.", native: { en: "In this way researchers see what a customer feels, even before they know it themselves." } }
+    - { id: nl-b2-study-t06-s06, target: "Volgens de bedrijven die dat onderzoek verkopen, vertellen hersenscans meer dan een enquête, omdat mensen in een vragenlijst niet altijd eerlijk antwoorden.", native: { en: "According to the companies that sell this research, brain scans tell you more than a survey, because people don't always answer honestly in a questionnaire." } }
+  - - { id: nl-b2-study-t06-s07, target: "De resultaten zijn soms verrassend.", native: { en: "The results are sometimes surprising." } }
+    - { id: nl-b2-study-t06-s08, target: "In een bekend experiment dronken proefpersonen twee soorten cola zonder te weten welk merk het was.", native: { en: "In a well-known experiment participants drank two kinds of cola without knowing which brand it was." } }
+    - { id: nl-b2-study-t06-s09, target: "Zolang ze het merk niet kenden, vonden de meeste proefpersonen beide even lekker; zodra ze het logo zagen, reageerde hun brein veel sterker op het bekende merk.", native: { en: "As long as they didn't know the brand, most found both equally good; as soon as they saw the logo, their brain reacted much more strongly to the well-known brand." } }
+    - { id: nl-b2-study-t06-s10, target: "Onze keuzes zijn dus minder rationeel dan we denken: emoties, kleuren en geuren spelen een grote rol.", native: { en: "So our choices are less rational than we think: emotions, colours and smells play a big part." } }
+  - - { id: nl-b2-study-t06-s11, target: "Niet iedereen is enthousiast.", native: { en: "Not everyone is enthusiastic." } }
+    - { id: nl-b2-study-t06-s12, target: "Tegenstanders vinden het niet ethisch om onbewuste prikkels te gebruiken voor commerciële doelen.", native: { en: "Opponents think it is not ethical to use unconscious stimuli for commercial purposes." } }
+    - { id: nl-b2-study-t06-s13, target: "Als een bedrijf precies weet hoe ons brein reageert, is dat dan nog reclame, of al manipulatie?", native: { en: "If a company knows exactly how our brain reacts, is that still advertising, or already manipulation?" } }
+    - { id: nl-b2-study-t06-s14, target: "Ze vrezen ook dat de gegevens van proefpersonen voor andere doelen gebruikt worden.", native: { en: "They also fear that participants' data will be used for other purposes." } }
+  - - { id: nl-b2-study-t06-s15, target: "Toch moeten we niet te snel bang zijn.", native: { en: "Still, we shouldn't be too quick to worry." } }
+    - { id: nl-b2-study-t06-s16, target: "Een koopknop bestaat niet echt: het brein is veel te ingewikkeld, en wie geen honger heeft, koopt ook na de beste reclame geen chocolade.", native: { en: "A buy button doesn't really exist: the brain is far too complicated, and someone who isn't hungry won't buy chocolate even after the best advert." } }
+    - { id: nl-b2-study-t06-s17, target: "Wel is het nuttig om te weten hoe reclame werkt. Wie dat begrijpt, kiest bewuster.", native: { en: "It is useful, though, to know how advertising works. Anyone who understands that chooses more consciously." } }
+glossary:
+  - { word: omstreden, native: { en: controversial } }
+  - { word: neuromarketing, native: { en: neuromarketing } }
+  - { word: koopknop, native: { en: "buy button" } }
+items: [nl.marketing, nl.brein, nl.hersenscan, nl.logo, nl.rationeel, nl.geur, nl.ethisch, nl.onbewust, nl.prikkel, nl.commercieel, nl.manipulatie]
+gapped:
+  gaps: [nl-b2-study-t06-s03, nl-b2-study-t06-s07, nl-b2-study-t06-s11, nl-b2-study-t06-s15]
+  extra:
+    - { id: nl-b2-study-t06-x1, target: "Daarom kopen we vandaag minder dan vroeger.", native: { en: "That is why we buy less today than in the past." } }
+openCloze:
+  - { sentence: nl-b2-study-t06-s04, word: terwijl, acceptAlso: [en] }
+  - { sentence: nl-b2-study-t06-s06, word: omdat, acceptAlso: [aangezien, doordat] }
+  - { sentence: nl-b2-study-t06-s08, word: zonder }
+  - { sentence: nl-b2-study-t06-s09, word: zodra, acceptAlso: [toen, als, wanneer] }
+wordForm:
+  - { sentence: nl-b2-study-t06-s07, word: verrassend, stem: verrassen }
+  - { sentence: nl-b2-study-t06-s12, word: onbewuste, stem: bewust }
+  - { sentence: nl-b2-study-t06-s13, word: manipulatie, stem: manipuleren }
+questions:
+  - { id: nl-b2-study-t06-q1, type: summary, options: ["Neuromarketing onderzoekt met hersenscans hoe we kiezen; het toont dat we minder rationeel zijn dan we denken, maar tegenstanders vinden het niet ethisch.", "Neuromarketing is een nieuwe manier om producten goedkoper te maken.", "Hersenscans tonen dat reclame geen invloed heeft op wat we kopen."], correct: 0 }
+  - { id: nl-b2-study-t06-q2, type: mc, question: "Waarom vertellen hersenscans volgens de bedrijven meer dan een enquête?", options: ["Mensen antwoorden in een vragenlijst niet altijd eerlijk.", "Een enquête is duurder.", "Een hersenscan duurt minder lang."], correct: 0 }
+  - { id: nl-b2-study-t06-q3, type: true_false_notgiven, statement: "In het experiment reageerde het brein sterker zodra de proefpersonen het merk kenden.", answer: true }
+  - { id: nl-b2-study-t06-q4, type: true_false_notgiven, statement: "Volgens de tekst bestaat er echt een koopknop in ons brein.", answer: false }
+  - { id: nl-b2-study-t06-q5, type: true_false_notgiven, statement: "Neuromarketing is in België verboden.", answer: not_given }
+  - { id: nl-b2-study-t06-q6, type: match_heading, paragraph: 4, options: ["De kritiek van de tegenstanders", "Hoe het onderzoek werkt", "Een bekend experiment"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-study-t06-l1, type: complete, statement: "Een hersenscan meet welke delen van het ___ actief worden.", answers: [brein] }
+  - { id: nl-b2-study-t06-l2, type: mc, question: "Wat dronken de proefpersonen in het experiment?", options: ["Twee soorten cola.", "Koffie en thee.", "Water."], correct: 0 }
+orderable: false

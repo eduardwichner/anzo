@@ -1,0 +1,47 @@
+id: fr-a2-u01
+title: { nl: Gisteren en morgen, en: "Yesterday and tomorrow" }
+icon: calendar
+topic: Raconter au passé; parler du temps
+vocabulary:
+  - { target: hier, native: { nl: gisteren, en: "yesterday" }, pos: adverb }
+  - { target: avant-hier, native: { nl: eergisteren, en: "the day before yesterday" }, pos: adverb }
+  - { target: après-demain, native: { nl: overmorgen, en: "the day after tomorrow" }, pos: adverb }
+  - { target: déjà, native: { nl: al, en: "already" }, pos: adverb }
+  - { target: longtemps, native: { nl: lang (een lange tijd), en: "for a long time" }, pos: adverb }
+  - { target: plus tard, native: { nl: later, en: "later" }, pos: adverb }
+  - { target: "d'habitude", native: { nl: "meestal, normaal gesproken", en: "usually" }, pos: adverb }
+  - { target: soudain, native: { nl: "plotseling, ineens", en: "suddenly" }, pos: adverb }
+  - { target: tout à coup, native: { nl: "ineens, plotseling", en: "all of a sudden, suddenly" }, pos: adverb, avoid: [fr.soudain] }
+  - { target: à tout à l'heure, native: { nl: tot straks, en: "see you later" }, pos: exclamation }
+  - { target: depuis, native: { nl: sinds, en: "since, for (a length of time)" }, pos: preposition, avoid: [fr.deja] }
+  - { target: tard, native: { nl: laat, en: "late (not early)" }, pos: adverb }
+  - { target: "à l'heure", native: { nl: op tijd, en: "on time" }, pos: adverb }
+  - { target: prochain, native: { nl: volgend, en: "next" }, pos: adjective }
+  - { target: dernier, native: { nl: "laatst, vorig", en: "last" }, pos: adjective }
+  - { target: naître, native: { nl: geboren worden, en: "to be born" }, pos: verb }
+sentences:
+  - { id: s01, target: "Hier, je suis allé à la piscine.", native: { nl: "Gisteren ben ik naar het zwembad gegaan.", en: "Yesterday I went to the swimming pool." }, items: [fr.hier] }
+  - { id: s02, target: "Hier, notre maîtresse a apporté un poisson.", native: { nl: "Gisteren heeft onze juf een vis meegebracht.", en: "Yesterday our teacher brought a fish." }, items: [fr.hier] }
+  - { id: s03, target: "Avant-hier, il a beaucoup plu.", native: { nl: "Eergisteren heeft het veel geregend.", en: "The day before yesterday it rained a lot." }, items: [fr.avant-hier] }
+  - { id: s04, target: "Après-demain, nous partons en vacances.", native: { nl: "Overmorgen gaan we op vakantie.", en: "The day after tomorrow we're going on holiday." }, items: [fr.apres-demain] }
+  - { id: s05, target: "J'ai déjà fait mes devoirs.", native: { nl: "Ik heb mijn huiswerk al gemaakt.", en: "I've already done my homework." }, items: [fr.deja] }
+  - { id: s06, target: "Nous avons attendu longtemps.", native: { nl: "We hebben lang gewacht.", en: "We waited for a long time." }, items: [fr.longtemps] }
+  - { id: s07, target: "Plus tard, j'aimerais être pilote.", native: { nl: "Later zou ik graag piloot worden.", en: "Later on, I'd like to be a pilot." }, items: [fr.plus-tard] }
+  - { id: s08, target: "D'habitude, je prends le bus.", native: { nl: "Meestal neem ik de bus.", en: "I usually take the bus." }, items: [fr.d-habitude] }
+  - { id: s09, target: "Soudain, le chien est parti.", native: { nl: "Plotseling liep de hond weg.", en: "Suddenly the dog ran off." }, items: [fr.soudain] }
+  - { id: s10, target: "Tout à coup, il a commencé à pleuvoir.", native: { nl: "Ineens begon het te regenen.", en: "All of a sudden it started to rain." }, items: [fr.tout-a-coup] }
+  - { id: s11, target: "Salut, à tout à l'heure !", native: { nl: "Hoi, tot straks!", en: "Bye, see you later!" }, items: [fr.a-tout-a-l-heure] }
+  - { id: s12, target: "J'habite ici depuis deux ans.", native: { nl: "Ik woon hier al twee jaar.", en: "I've lived here for two years." }, items: [fr.depuis] }
+  - { id: s13, target: "Il est tard, va dormir !", native: { nl: "Het is laat, ga slapen!", en: "It's late, go to sleep!" }, items: [fr.tard] }
+  - { id: s14, target: "Le train est arrivé à l'heure.", native: { nl: "De trein kwam op tijd aan.", en: "The train arrived on time." }, items: [fr.a-l-heure] }
+  - { id: s15, target: "La semaine prochaine, je vais aller chez ma grand-mère.", native: { nl: "Volgende week ga ik naar mijn oma.", en: "Next week I'm going to go to my grandmother's." }, items: [fr.prochain] }
+  - { id: s16, target: "L'an dernier, Natacha a trouvé un petit chien.", native: { nl: "Vorig jaar heeft Natacha een hondje gevonden.", en: "Last year Natacha found a little dog." }, items: [fr.dernier] }
+  - { id: s17, target: "Je suis née en mai.", native: { nl: "Ik ben in mei geboren.", en: "I was born in May." }, items: [fr.naitre] }
+  - { id: s18, target: "Mon petit frère est né en hiver.", native: { nl: "Mijn broertje is in de winter geboren.", en: "My little brother was born in winter." }, items: [fr.naitre] }
+  - { id: s19, target: "Hier, je n'ai pas aimé le film.", native: { nl: "Gisteren vond ik de film niet leuk.", en: "I didn't like the film yesterday." }, items: [fr.hier] }
+  - { id: s20, target: "Avant-hier, j'ai beaucoup aimé la piscine.", native: { nl: "Eergisteren vond ik het zwembad heel leuk.", en: "The day before yesterday I really enjoyed the swimming pool." }, items: [fr.avant-hier] }
+  - { id: s21, target: "Je suis née le trois mai.", native: { nl: "Ik ben op drie mei geboren.", en: "I was born on the third of May." }, items: [fr.naitre] }
+lessons:
+  - { id: l01, title: { nl: Gisteren, en: "Yesterday" }, vocab: [fr.hier, fr.avant-hier, fr.apres-demain, fr.deja, fr.longtemps, fr.plus-tard] }
+  - { id: l02, title: { nl: Ineens!, en: "All of a sudden!" }, vocab: [fr.d-habitude, fr.soudain, fr.tout-a-coup, fr.a-tout-a-l-heure, fr.depuis] }
+  - { id: l03, title: { nl: Op tijd, en: "On time" }, vocab: [fr.tard, fr.a-l-heure, fr.prochain, fr.dernier, fr.naitre] }

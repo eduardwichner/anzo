@@ -1,0 +1,51 @@
+id: en-a1-u03
+title: { nl: Het weer }
+icon: weather
+topic: Weather; The world around us (sky, plants)
+vocabulary:
+  - { target: weather, native: { nl: weer }, pos: noun }
+  - { target: sunny, native: { nl: zonnig }, pos: adjective }
+  - { target: cloud, native: { nl: wolk }, pos: noun }
+  - { target: cloudy, native: { nl: bewolkt }, pos: adjective }
+  - { target: rain, native: { nl: "regen, regenen" }, pos: noun }
+  - { target: rainbow, native: { nl: regenboog }, pos: noun }
+  - { target: wind, native: { nl: wind }, pos: noun }
+  - { target: windy, native: { nl: winderig }, pos: adjective }
+  - { target: snow, native: { nl: "sneeuw, sneeuwen" }, pos: noun }
+  - { target: ice, native: { nl: ijs }, pos: noun }
+  - { target: wet, native: { nl: nat }, pos: adjective }
+  - { target: dry, native: { nl: droog }, pos: adjective }
+  - { target: hot, native: { nl: "heet, warm" }, pos: adjective }
+  - { target: sky, native: { nl: lucht }, pos: noun }
+  - { target: star, native: { nl: ster }, pos: noun }
+  - { target: moon, native: { nl: maan }, pos: noun }
+  - { target: plant, native: { nl: "plant, planten" }, pos: noun }
+  - { target: leaf, native: { nl: blad }, pos: noun }
+  - { target: leaves, native: { nl: bladeren }, pos: noun, avoid: [en.leaf] }
+sentences:
+  - { id: s01, target: "What's the weather like today?", native: { nl: "Wat voor weer is het vandaag?" }, items: [en.weather], acceptAlso: ["What is the weather like today?"] }
+  - { id: s02, target: "It's sunny today.", native: { nl: "Het is zonnig vandaag." }, items: [en.sunny], acceptAlso: ["It is sunny today.", "Today it's sunny.", "Today it is sunny."] }
+  - { id: s03, target: "Look at that big cloud!", native: { nl: "Kijk eens naar die grote wolk!" }, items: [en.cloud] }
+  - { id: s04, target: "It was cloudy yesterday.", native: { nl: "Het was gisteren bewolkt." }, items: [en.cloudy], acceptAlso: ["Yesterday it was cloudy."] }
+  - { id: s05, target: "I don't like rain.", native: { nl: "Ik hou niet van regen." }, items: [en.rain], acceptAlso: ["I do not like rain."] }
+  - { id: s06, target: "It's raining again!", native: { nl: "Het regent alweer!" }, items: [en.rain], acceptAlso: ["It is raining again!"] }
+  - { id: s07, target: "Look! There's a rainbow!", native: { nl: "Kijk! Een regenboog!" }, items: [en.rainbow], acceptAlso: ["Look! There is a rainbow!"] }
+  - { id: s08, target: "The wind is very strong today.", native: { nl: "De wind is heel sterk vandaag." }, items: [en.wind] }
+  - { id: s09, target: "It's windy. Let's fly our kites!", native: { nl: "Het is winderig. Laten we onze vliegers oplaten!" }, items: [en.windy], acceptAlso: ["It is windy. Let's fly our kites!"] }
+  - { id: s10, target: "The children are playing in the snow.", native: { nl: "De kinderen spelen in de sneeuw." }, items: [en.snow] }
+  - { id: s11, target: "Be careful! There's ice on the road.", native: { nl: "Pas op! Er ligt ijs op de weg." }, items: [en.ice], acceptAlso: ["Be careful! There is ice on the road."] }
+  - { id: s12, target: "My shoes are wet.", native: { nl: "Mijn schoenen zijn nat." }, items: [en.wet] }
+  - { id: s13, target: "Is your T-shirt dry now?", native: { nl: "Is je T-shirt nu droog?" }, items: [en.dry] }
+  - { id: s14, target: "It's too hot today!", native: { nl: "Het is te warm vandaag!" }, items: [en.hot], acceptAlso: ["It is too hot today!"] }
+  - { id: s15, target: "Is it hotter today than yesterday?", native: { nl: "Is het vandaag warmer dan gisteren?" }, items: [en.hot] }
+  - { id: s16, target: "The sky is blue.", native: { nl: "De lucht is blauw." }, items: [en.sky] }
+  - { id: s17, target: "I can see a lot of stars.", native: { nl: "Ik zie heel veel sterren." }, items: [en.star] }
+  - { id: s18, target: "The moon is beautiful.", native: { nl: "De maan is mooi." }, items: [en.moon] }
+  - { id: s19, target: "There are a lot of plants in our classroom.", native: { nl: "Er staan veel planten in ons klaslokaal." }, items: [en.plant] }
+  - { id: s20, target: "This plant needs water.", native: { nl: "Deze plant heeft water nodig." }, items: [en.plant] }
+  - { id: s21, target: "A leaf fell from the tree.", native: { nl: "Er viel een blad van de boom." }, items: [en.leaf] }
+  - { id: s22, target: "The leaves are yellow and brown.", native: { nl: "De bladeren zijn geel en bruin." }, items: [en.leaves] }
+lessons:
+  - { id: l01, title: { nl: Zon en regen }, vocab: [en.weather, en.sunny, en.cloud, en.cloudy, en.rain, en.rainbow] }
+  - { id: l02, title: { nl: Wind en sneeuw }, vocab: [en.wind, en.windy, en.snow, en.ice, en.wet, en.dry, en.hot] }
+  - { id: l03, title: { nl: Lucht en planten }, vocab: [en.sky, en.star, en.moon, en.plant, en.leaf, en.leaves] }

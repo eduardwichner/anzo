@@ -1,0 +1,8 @@
+{
+  "about": "Offline speech recognizers for npm run audio:check (authoring time only; the app never loads them). Licences as stated on the model list https://alphacephei.com/vosk/models. sha256: of the zip as first downloaded; fetch-models.sh refuses a zip that differs.",
+  "models": {
+    "en": { "name": "vosk-model-small-en-us-0.15", "sha256": "30f26242c4eb449f948e42cb302dd7a686cb29a3423a8367f99ff41780942498", "url": "https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip", "licence": "Apache 2.0", "wer": "9.85 (librispeech test-clean)" },
+    "fr": { "name": "vosk-model-small-fr-0.22", "sha256": "cabf6180e177eb9b3a9a9d43a437bd5e549f3a7d09525e5d69a3fed787be12ad", "url": "https://alphacephei.com/vosk/models/vosk-model-small-fr-0.22.zip", "licence": "Apache 2.0", "wer": "23.95 (cv test)" },
+    "nl": { "name": "vosk-model-small-nl-0.22", "sha256": "039811c3b829de64e4f123a9f684a53784005b212a346ac0b899dc7efce2ed0a", "url": "https://alphacephei.com/vosk/models/vosk-model-small-nl-0.22.zip", "licence": "Apache 2.0", "wer": "22.45 (cv test)" }
+  }
+}

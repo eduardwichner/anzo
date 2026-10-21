@@ -1,0 +1,206 @@
+/* Design tokens: the only place colours are written (server/test/colour-literals.test.js; exceptions in
+   client/colour-literals.allow.json). One accent per course: data-track="en|fr|fr-en|nl|admin" on <html>.
+   Theme: data-theme="light|dark" on <html>, set before the first paint by public/theme.js (Settings → Theme). */
+:root {
+  color-scheme: light;
+
+  /* Track accents: white button text on each is ≥ 4.5:1 (en 4.65, fr 4.62, nl 4.77, admin 5.95). */
+  --color-en: #1e74d5;
+  --color-en-dark: #1255a5;
+  --color-en-soft: #dcebff;
+  --color-en-text: var(--color-en-dark);
+  --color-fr: #d9390f;
+  --color-fr-dark: #982f13;
+  --color-fr-soft: #ffe3d9;
+  --color-fr-text: var(--color-fr-dark);
+  --color-nl: #8c52e0;
+  --color-nl-dark: #6a2fc0;
+  --color-nl-soft: #efe5ff;
+  --color-nl-text: var(--color-nl-dark);
+  --color-admin: #5b5f97;
+  --color-admin-dark: #43467a;
+  --color-admin-soft: #e6e7f5;
+  --color-admin-text: var(--color-admin-dark);
+
+  /* accent = a fill under white text; -dark = its shadow; -soft = a selected background; -text = accent-coloured text on
+     the page or a surface; -fg = accent-coloured icons and outlines */
+  --accent: var(--color-en);
+  --accent-dark: var(--color-en-dark);
+  --accent-soft: var(--color-en-soft);
+  --accent-text: var(--color-en-text);
+  --accent-fg: var(--accent);
+  --on-accent: #ffffff; /* text and icons on an accent, success or error fill */
+  --on-accent-veil: rgba(255, 255, 255, 0.25);
+  --focus-ring: var(--accent);
+
+  --success: #22a95b;
+  --success-dark: #178044;
+  --success-soft: #dcf6e6;
+  --success-text: #157a40; /* 4.7:1 on --success-soft (the shadow colour --success-dark was 4.4) */
+  --success-fill: var(--success-dark); /* a green fill under white text (4.99:1) */
+  --success-shadow: #0f5c30;
+  --error: #ff6b61;
+  --error-dark: #c0392f; /* 5.4:1 under white text, 4.5:1 on --error-soft */
+  --error-soft: #ffe4e1;
+  --error-text: var(--error-dark);
+  --error-shadow: #a82e25;
+  --amber: #f0a500;
+  --amber-dark: #a86f00;
+  --amber-soft: #fff1cc;
+  --amber-text: #8a5b00;
+  --on-amber: #1d2340; /* text on an amber fill: 7.4:1 in both themes */
+  --flame: #ff9f1c;
+  --xp: #f5b400;
+
+  /* Avatar backgrounds (users.avatar_bg stores the name after --avatar-). The pictures are drawn for these pastels: they
+     stay the same in the dark theme. */
+  --avatar-sky: #cfe3ff;
+  --avatar-mint: #c9f0d9;
+  --avatar-sun: #ffe9a8;
+  --avatar-peach: #ffd8c7;
+  --avatar-lilac: #dcd9f7;
+  --avatar-rose: #ffd3e0;
+  --avatar-sand: #efe4d2;
+  --avatar-teal: #c3ecec;
+
+  --theme-color: #1f7ae0; /* the browser's toolbar (meta theme-color, index.html) */
+  --bg: #f4f6fb;
+  --surface: #ffffff;
+  --surface-2: #eef1f8;
+  --surface-muted: #eceff6; /* a level row that is not playable yet */
+  --text: #1d2340;
+  --text-muted: #5e6687;
+  --segmented-text: #535b7a; /* an unpressed segment on --border: 5.2:1 */
+  --border: #dde2ee;
+  --locked: #cfd5e3;
+  --locked-text: #4f5775; /* ≥ 4.5:1 on the page and grey chips (4.8 on --locked) */
+  --locked-shadow: #b9c0d2;
+  --badge-planned-bg: #fff3d6;
+  --badge-planned-text: #805800; /* 5.7:1 on --badge-planned-bg */
+  --badge-roadmap-bg: #e3e6ef;
+  --icon-highlight: #ffffff; /* the light inner detail of a few icons (flame, turtle, pencil) */
+  --badge-locked-opacity: 0.5; /* a badge not earned yet, drawn grey */
+  --mascot-backdrop: transparent; /* the dark theme puts a soft disc behind the mascots */
+
+  /* Admin progress chart (dataviz pair: CVD ΔE 29, normal 35) */
+  --chart-lessons: #3b6fd6;
+  --chart-practice: #e8862a;
+  --chart-baseline: #b9c0d2;
+  --chart-hover: rgba(29, 35, 64, 0.06);
+
+  /* Confetti at the end of a lesson */
+  --confetti-1: #ffc83d;
+  --confetti-2: #ff8fab;
+  --confetti-3: #5ec8f2;
+  --confetti-4: #7ad38b;
+  --confetti-5: #b49cff;
+  --confetti-6: #ff9f1c;
+
+  --shadow-color: rgba(29, 35, 64, 0.12);
+  --shadow: 0 4px 0 var(--shadow-color);
+  --shadow-press: 0 1px 0 var(--shadow-color);
+  --shadow-float: 0 6px 18px rgba(29, 35, 64, 0.25);
+  --shadow-drag: 0 10px 24px rgba(0, 0, 0, 0.22);
+  --shadow-crown: rgba(29, 35, 64, 0.35);
+  --backdrop: rgba(29, 35, 64, 0.45);
+
+  --radius-sm: 10px;
+  --radius: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+
+  --font: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --fs-sm: 0.9rem;
+  --fs: 1.125rem;
+  --fs-lg: 1.375rem;
+  --fs-xl: 1.75rem;
+  --fs-xxl: 2.25rem;
+
+  --tap: 48px;
+  /* Floating "current lesson" button: height and distance from the bottom edge (the path keeps clear of it). */
+  --fab-height: 48px;
+  --fab-offset: 18px;
+  --gap: 12px;
+  --page-pad: 16px;
+  --max-width: 560px;
+}
+
+/* Dark theme: every colour token again. Text ≥ 4.5:1 on --bg, --surface, --surface-2 and every -soft background (muted
+   text 5.8:1 at worst, track text 6.3:1); fills under white text keep their light values. */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --color-en-soft: #1c3354;
+  --color-en-text: #8ab8ff;
+  --color-fr-soft: #43231a;
+  --color-fr-text: #ff9a7a;
+  --color-nl-soft: #33264d;
+  --color-nl-text: #c3a2ff;
+  --color-admin: #6a6fae; /* a border or focus ring on the dark page ≥ 3:1 (3.5), white text 4.7:1 */
+  --color-admin-soft: #2a2c45;
+  --color-admin-text: #b3b6e8;
+
+  --accent-fg: var(--accent-text);
+  --focus-ring: var(--accent-text);
+  --on-accent-veil: rgba(255, 255, 255, 0.2);
+
+  --success-soft: #163826;
+  --success-text: #6ad99a;
+  --error-soft: #45201d;
+  --error-text: #ff8f86;
+  --error-shadow: #7a221c;
+  --amber-soft: #3d3014;
+  --amber-text: #f5c35a;
+
+  --theme-color: #11141d;
+  --bg: #11141d;
+  --surface: #1b2030;
+  --surface-2: #252b3e;
+  --surface-muted: #171b28;
+  --text: #e9ecf6;
+  --text-muted: #a6aecb;
+  --segmented-text: #b4bbd4;
+  --border: #363e57;
+  --locked: #2b3247;
+  --locked-text: #a0a8c4;
+  --locked-shadow: #1f2434;
+  --badge-planned-bg: #3d3014;
+  --badge-planned-text: #f5c35a;
+  --badge-roadmap-bg: #252b3e;
+  --icon-highlight: #ffffff;
+  --badge-locked-opacity: 0.75;
+  --mascot-backdrop: #2b3247;
+
+  --chart-lessons: #6f9cf0;
+  --chart-practice: #f0a05a;
+  --chart-baseline: #4a536e;
+  --chart-hover: rgba(255, 255, 255, 0.06);
+
+  --shadow-color: rgba(0, 0, 0, 0.45);
+  --shadow-float: 0 6px 18px rgba(0, 0, 0, 0.55);
+  --shadow-drag: 0 10px 24px rgba(0, 0, 0, 0.6);
+  --shadow-crown: rgba(0, 0, 0, 0.6);
+  --backdrop: rgba(0, 0, 0, 0.6);
+}
+
+:root[data-track='fr'],
+:root[data-track='fr-en'] {
+  --accent: var(--color-fr);
+  --accent-dark: var(--color-fr-dark);
+  --accent-soft: var(--color-fr-soft);
+  --accent-text: var(--color-fr-text);
+}
+
+:root[data-track='nl'] {
+  --accent: var(--color-nl);
+  --accent-dark: var(--color-nl-dark);
+  --accent-soft: var(--color-nl-soft);
+  --accent-text: var(--color-nl-text);
+}
+
+:root[data-track='admin'] {
+  --accent: var(--color-admin);
+  --accent-dark: var(--color-admin-dark);
+  --accent-soft: var(--color-admin-soft);
+  --accent-text: var(--color-admin-text);
+}

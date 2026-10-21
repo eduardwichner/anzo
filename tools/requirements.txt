@@ -1,0 +1,10 @@
+flatbuffers==25.12.19
+ml_dtypes==0.6.0
+numpy==2.4.6
+onnx==1.23.2
+onnxruntime==1.30.0
+packaging==26.3
+pathvalidate==3.3.1
+piper-tts==1.8.0
+protobuf==7.36.2
+typing_extensions==4.16.0

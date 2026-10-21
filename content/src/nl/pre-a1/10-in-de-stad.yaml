@@ -1,0 +1,54 @@
+id: nl-pre-a1-u10
+title: { en: In town }
+icon: city
+topic: Places in town; going somewhere
+vocabulary:
+  - { target: gaan, native: { en: to go }, pos: verb }
+  - { target: naar, native: { en: to }, pos: preposition }
+  - { target: naartoe, native: { en: "to (where … to)" }, pos: adverb }
+  - { target: de winkel, native: { en: shop }, pos: noun, plural: winkels, category: true }
+  - { target: de supermarkt, native: { en: supermarket }, pos: noun, plural: supermarkten }
+  - { target: de bakker, native: { en: "baker, bakery" }, pos: noun, plural: bakkers }
+  - { target: de markt, native: { en: market }, pos: noun, plural: markten }
+  - { target: de bank, native: { en: bank }, pos: noun, plural: banken }
+  - { target: de apotheek, native: { en: pharmacy }, pos: noun, plural: apotheken }
+  - { target: de dokter, native: { en: doctor }, pos: noun, plural: dokters }
+  - { target: bij, native: { en: "at, near, at (someone's place)" }, pos: preposition, avoid: [nl.met] }
+  - { target: het ziekenhuis, native: { en: hospital }, pos: noun, plural: ziekenhuizen }
+  - { target: de school, native: { en: school }, pos: noun, plural: scholen }
+  - { target: het station, native: { en: station }, pos: noun, plural: stations }
+  - { target: de bus, native: { en: bus }, pos: noun, plural: bussen }
+  - { target: de bushalte, native: { en: bus stop }, pos: noun, plural: bushaltes }
+  - { target: voor, native: { en: "for, in front of" }, pos: preposition }
+  - { target: aan, native: { en: "to, at, on" }, pos: preposition }
+  - { target: het café, native: { en: "café, pub" }, pos: noun, plural: cafés }
+  - { target: het restaurant, native: { en: restaurant }, pos: noun, plural: restaurants }
+  - { target: het park, native: { en: park }, pos: noun, plural: parken }
+  - { target: de kerk, native: { en: church }, pos: noun, plural: kerken }
+sentences:
+  - { id: s01, target: "Ik ga naar Gent.", native: { en: "I'm going to Ghent." }, items: [nl.gaan, nl.naar] }
+  - { id: s02, target: "Waar ga je naartoe?", native: { en: "Where are you going?" }, items: [nl.gaan, nl.naartoe] }
+  - { id: s03, target: "De winkel is klein.", native: { en: "The shop is small." }, items: [nl.winkel] }
+  - { id: s04, target: "Ik ga naar de supermarkt.", native: { en: "I'm going to the supermarket." }, items: [nl.supermarkt, nl.naar] }
+  - { id: s05, target: "De bakker is daar.", native: { en: "The bakery is over there." }, items: [nl.bakker], acceptAlso: ["Daar is de bakker."] }
+  - { id: s06, target: "Wij gaan naar de markt.", native: { en: "We're going to the market." }, items: [nl.markt] }
+  - { id: s07, target: "Waar is de bank?", native: { en: "Where is the bank?" }, items: [nl.bank] }
+  - { id: s08, target: "De apotheek is hier.", native: { en: "The pharmacy is here." }, items: [nl.apotheek], acceptAlso: ["Hier is de apotheek."] }
+  - { id: s09, target: "Ik ga naar de dokter.", native: { en: "I'm going to the doctor." }, items: [nl.dokter] }
+  - { id: s10, target: "Ik ben bij de dokter.", native: { en: "I'm at the doctor's." }, items: [nl.bij, nl.dokter] }
+  - { id: s11, target: "Mijn vader is in het ziekenhuis.", native: { en: "My father is in hospital." }, items: [nl.ziekenhuis] }
+  - { id: s12, target: "De school is groot.", native: { en: "The school is big." }, items: [nl.school] }
+  - { id: s13, target: "Waar is het station?", native: { en: "Where is the station?" }, items: [nl.station] }
+  - { id: s14, target: "Ik ga met de bus.", native: { en: "I'm going by bus." }, items: [nl.bus, nl.met] }
+  - { id: s15, target: "De bushalte is daar.", native: { en: "The bus stop is over there." }, items: [nl.bushalte], acceptAlso: ["Daar is de bushalte."] }
+  - { id: s16, target: "Ik ga met mijn zus.", native: { en: "I'm going with my sister." }, items: [nl.met] }
+  - { id: s17, target: "Het boek is op de tafel.", native: { en: "The book is on the table." }, items: [nl.op] }
+  - { id: s18, target: "Ik drink koffie in het café.", native: { en: "I'm having coffee in the café." }, items: [nl.cafe] }
+  - { id: s19, target: "Het restaurant is mooi.", native: { en: "The restaurant is nice." }, items: [nl.restaurant] }
+  - { id: s20, target: "Wij gaan naar het park.", native: { en: "We're going to the park." }, items: [nl.park] }
+  - { id: s21, target: "De kerk is oud.", native: { en: "The church is old." }, items: [nl.kerk] }
+  - { id: s22, target: "Ik woon bij de kerk.", native: { en: "I live near the church." }, items: [nl.bij, nl.kerk] }
+  - { id: s23, target: "De bus is voor het station.", native: { en: "The bus is in front of the station." }, items: [nl.voor, nl.bus] }
+  - { id: s24, target: "Tom wacht aan de bushalte.", native: { en: "Tom is waiting at the bus stop." }, items: [nl.aan, nl.bushalte] }
+  - { id: s25, target: "Waar is het station, alstublieft?", native: { en: "Where is the station, please?" }, items: [nl.station] }
+  - { id: s26, target: "Gaat u naar Gent?", native: { en: "Are you going to Ghent?" }, items: [nl.gaan] }

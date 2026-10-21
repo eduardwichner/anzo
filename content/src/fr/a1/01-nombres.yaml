@@ -1,0 +1,39 @@
+id: fr-a1-u01
+title: { nl: Tellen tot honderd, en: "Counting to a hundred" }
+icon: numbers
+topic: Les nombres jusqu'à 100; premier, deuxième
+vocabulary:
+  - { target: vingt et un, native: { nl: eenentwintig, en: "twenty-one" }, pos: number }
+  - { target: trente, native: { nl: dertig, en: "thirty" }, pos: number }
+  - { target: quarante, native: { nl: veertig, en: "forty" }, pos: number }
+  - { target: cinquante, native: { nl: vijftig, en: "fifty" }, pos: number }
+  - { target: soixante, native: { nl: zestig, en: "sixty" }, pos: number }
+  - { target: soixante-dix, native: { nl: zeventig, en: "seventy" }, pos: number }
+  - { target: quatre-vingts, native: { nl: tachtig, en: "eighty" }, pos: number }
+  - { target: quatre-vingt-dix, native: { nl: negentig, en: "ninety" }, pos: number }
+  - { target: cent, native: { nl: honderd, en: "a hundred" }, pos: number }
+  - { target: mille, native: { nl: duizend, en: "a thousand" }, pos: number }
+  - { target: premier, native: { nl: eerste, en: "first" }, pos: adjective }
+  - { target: deuxième, native: { nl: tweede, en: "second" }, pos: adjective }
+  - { target: troisième, native: { nl: derde, en: "third" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Mon père a trente ans.", native: { nl: "Mijn vader is dertig jaar.", en: "My father is thirty." }, items: [fr.trente] }
+  - { id: s02, target: "Ma grand-mère a soixante ans.", native: { nl: "Mijn oma is zestig jaar.", en: "My grandmother is sixty." }, items: [fr.soixante] }
+  - { id: s03, target: "Il y a vingt et un élèves dans ma classe.", native: { nl: "Er zitten eenentwintig leerlingen in mijn klas.", en: "There are twenty-one pupils in my class." }, items: [fr.vingt-et-un] }
+  - { id: s04, target: "Ma maman a quarante ans.", native: { nl: "Mijn mama is veertig jaar.", en: "My mum is forty." }, items: [fr.quarante] }
+  - { id: s05, target: "Le livre a cinquante pages.", native: { nl: "Het boek heeft vijftig bladzijden.", en: "The book has fifty pages." }, items: [fr.cinquante] }
+  - { id: s06, target: "Mon grand-père a soixante-dix ans.", native: { nl: "Mijn opa is zeventig jaar.", en: "My grandfather is seventy." }, items: [fr.soixante-dix] }
+  - { id: s07, target: "Il y a quatre-vingts personnes au concert.", native: { nl: "Er zijn tachtig mensen op het concert.", en: "There are eighty people at the concert." }, items: [fr.quatre-vingts] }
+  - { id: s08, target: "J'habite au numéro quatre-vingt-dix.", native: { nl: "Ik woon op nummer negentig.", en: "I live at number ninety." }, items: [fr.quatre-vingt-dix] }
+  - { id: s09, target: "Je compte jusqu'à cent !", native: { nl: "Ik tel tot honderd!", en: "I'm counting to a hundred!" }, items: [fr.cent] }
+  - { id: s10, target: "Il y a mille livres à la bibliothèque.", native: { nl: "Er zijn duizend boeken in de bibliotheek.", en: "There are a thousand books in the library." }, items: [fr.mille] }
+  - { id: s11, target: "Aujourd'hui, c'est le premier jour d'école.", native: { nl: "Vandaag is het de eerste schooldag.", en: "Today is the first day of school." }, items: [fr.premier] }
+  - { id: s12, target: "J'habite au deuxième étage.", native: { nl: "Ik woon op de tweede verdieping.", en: "I live on the second floor." }, items: [fr.deuxieme] }
+  - { id: s13, target: "Le troisième jour des vacances, il pleut.", native: { nl: "Op de derde vakantiedag regent het.", en: "On the third day of the holidays, it rains." }, items: [fr.troisieme] }
+  - { id: s14, target: "Mon ami habite au troisième étage.", native: { nl: "Mijn vriend woont op de derde verdieping.", en: "My friend lives on the third floor." }, items: [fr.troisieme] }
+  - { id: s15, target: "Mon grand-père a soixante-douze ans.", native: { nl: "Mijn opa is tweeënzeventig jaar.", en: "My grandfather is seventy-two." }, items: [fr.soixante-dix] }
+  - { id: s16, target: "J'habite au numéro quatre-vingt-quinze.", native: { nl: "Ik woon op nummer vijfennegentig.", en: "I live at number ninety-five." }, items: [fr.quatre-vingt-dix] }
+  - { id: s17, target: "Lis la première page.", native: { nl: "Lees de eerste bladzijde.", en: "Read the first page." }, items: [fr.premier] }
+lessons:
+  - { id: l01, title: { nl: Dertig en veertig, en: "Twenty-one to eighty" }, vocab: [fr.vingt-et-un, fr.trente, fr.quarante, fr.cinquante, fr.soixante, fr.soixante-dix, fr.quatre-vingts] }
+  - { id: l02, title: { nl: Tot honderd, en: "Ninety to a thousand; first, second, third" }, vocab: [fr.quatre-vingt-dix, fr.cent, fr.mille, fr.premier, fr.deuxieme, fr.troisieme] }

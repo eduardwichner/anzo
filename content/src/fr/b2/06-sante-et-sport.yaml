@@ -1,0 +1,65 @@
+id: fr-b2-u06
+title: { nl: Gezondheid en sport, en: "Health and sport" }
+icon: health
+topic: La santé physique et mentale, le sport et les blessures, les habitudes saines et les écrans ; le gérondif (en marchant, en faisant du sport)
+vocabulary:
+  - { target: mental, native: { nl: "geestelijk, mentaal", en: "mental" }, pos: adjective }
+  - { target: le bien-être, native: { nl: het welzijn, en: "well-being" }, pos: noun, gender: m }
+  - { target: s'étirer, native: { nl: "zich rekken, stretchen", en: "to stretch" }, pos: verb }
+  - { target: le muscle, native: { nl: de spier, en: "muscle" }, pos: noun, gender: m }
+  - { target: la guérison, native: { nl: de genezing, en: "recovery, healing" }, pos: noun, gender: f }
+  - { target: le symptôme, native: { nl: het symptoom, en: "symptom" }, pos: noun, gender: m, noBlank: true }
+  - { target: la thérapie, native: { nl: de therapie, en: "therapy" }, pos: noun, gender: f, noBlank: true }
+  - { target: la prévention, native: { nl: de preventie, en: "prevention" }, pos: noun, gender: f, noBlank: true }
+  - { target: l'alimentation, native: { nl: de voeding, en: "diet, nutrition" }, pos: noun, gender: f }
+  - { id: fr.equilibre-adj, target: équilibré, native: { nl: evenwichtig, en: "balanced" }, pos: adjective }
+  - { target: le mode de vie, native: { nl: de levensstijl, en: "lifestyle, way of life" }, pos: noun, gender: m, typedAlso: { en: [style de vie] } }
+  - { target: sédentaire, native: { nl: "zittend (met weinig beweging)", en: "sedentary, inactive" }, pos: adjective }
+  - { target: le surpoids, native: { nl: het overgewicht, en: "excess weight, being overweight" }, pos: noun, gender: m }
+  - { target: l'anxiété, native: { nl: "de angst, de bezorgdheid", en: "anxiety" }, pos: noun, gender: f, avoid: [fr.inquietude] }
+  - { target: l'épuisement, native: { nl: de uitputting, en: "exhaustion" }, pos: noun, gender: m }
+  - { target: épuisé, native: { nl: uitgeput, en: "exhausted" }, pos: adjective }
+  - { target: la méditation, native: { nl: de meditatie, en: "meditation" }, pos: noun, gender: f, noBlank: true }
+  - { target: dépendant, native: { nl: "verslaafd, afhankelijk", en: "addicted, dependent" }, pos: adjective }
+  - { target: la dépendance, native: { nl: "de verslaving, de afhankelijkheid", en: "addiction, dependence" }, pos: noun, gender: f }
+  - { target: le rythme cardiaque, native: { nl: de hartslag, en: "heart rate" }, pos: noun, gender: m }
+  - { target: l'endurance, native: { nl: het uithoudingsvermogen, en: "endurance, stamina" }, pos: noun, gender: f }
+  - { target: s'échauffer, native: { nl: "opwarmen (voor het sporten)", en: "to warm up" }, pos: verb }
+  - { target: réduire, native: { nl: "verminderen, beperken", en: "to reduce, to cut down (on)" }, pos: verb }
+  - { target: le sommeil, native: { nl: de slaap, en: "sleep" }, pos: noun, gender: m }
+  - { target: transpirer, native: { nl: zweten, en: "to sweat" }, pos: verb }
+  - { target: la grippe, native: { nl: de griep, en: "flu" }, pos: noun, gender: f }
+sentences:
+  - { id: s01, target: "Parler à un ami fait du bien à la santé mentale.", native: { nl: "Met een vriend praten is goed voor je geestelijke gezondheid.", en: "Talking to a friend is good for your mental health." }, items: [fr.mental] }
+  - { id: s02, target: "Les écoles font plus attention au bien-être des élèves.", native: { nl: "De scholen letten meer op het welzijn van de leerlingen.", en: "Schools pay more attention to pupils' well-being." }, items: [fr.bien-etre] }
+  - { id: s03, target: "Étire-toi toujours après une longue course.", native: { nl: "Rek je altijd uit na een lange loopbeurt.", en: "Always stretch after a long run." }, items: [fr.s-etirer] }
+  - { id: s04, target: "J'ai eu mal aux muscles pendant trois jours après le match.", native: { nl: "Mijn spieren deden drie dagen pijn na de wedstrijd.", en: "My muscles ached for three days after the match." }, items: [fr.muscle] }
+  - { id: s05, target: "Les médecins ont été surpris par sa guérison rapide.", native: { nl: "De dokters waren verrast door haar snelle genezing.", en: "The doctors were surprised by her quick recovery." }, items: [fr.guerison], form: { word: guérison, stem: guérir } }
+  - { id: s06, target: "La fièvre est un des symptômes de la grippe.", native: { nl: "Koorts is een van de symptomen van griep.", en: "Fever is one of the symptoms of flu." }, items: [fr.symptome, fr.grippe] }
+  - { id: s07, target: "Après l'accident, il a suivi une thérapie pour marcher à nouveau.", native: { nl: "Na het ongeluk volgde hij een therapie om opnieuw te kunnen stappen.", en: "After the accident, he had therapy so that he could walk again." }, items: [fr.therapie] }
+  - { id: s08, target: "La prévention est plus efficace que le traitement.", native: { nl: "Preventie is doeltreffender dan behandeling.", en: "Prevention is more effective than treatment." }, items: [fr.prevention] }
+  - { id: s09, target: "Une alimentation équilibrée est importante pour les enfants.", native: { nl: "Evenwichtige voeding is belangrijk voor kinderen.", en: "A balanced diet is important for children." }, items: [fr.alimentation, fr.equilibre-adj] }
+  - { id: s10, target: "De petites choses dans ton mode de vie peuvent tout changer.", native: { nl: "Kleine dingen in je levensstijl kunnen alles veranderen.", en: "Small things in your lifestyle can change everything." }, items: [fr.mode-de-vie] }
+  - { id: s11, target: "Un travail sédentaire est mauvais pour le dos.", native: { nl: "Zittend werk is slecht voor de rug.", en: "A sedentary job is bad for your back." }, items: [fr.sedentaire] }
+  - { id: s12, target: "De plus en plus d'enfants sont en surpoids.", native: { nl: "Steeds meer kinderen hebben overgewicht.", en: "More and more children are overweight." }, items: [fr.surpoids] }
+  - { id: s13, target: "Beaucoup d'élèves ont de l'anxiété avant les examens.", native: { nl: "Veel leerlingen hebben last van angst vóór de examens.", en: "Many pupils suffer from anxiety before exams." }, items: [fr.anxiete] }
+  - { id: s14, target: "Si on travaille sans pause, l'épuisement arrive vite.", native: { nl: "Als je zonder pauze werkt, komt de uitputting snel.", en: "If you work without a break, exhaustion soon sets in." }, items: [fr.epuisement] }
+  - { id: s15, target: "Après la course, elle était complètement épuisée.", native: { nl: "Na de loopwedstrijd was ze helemaal uitgeput.", en: "After the race, she was completely exhausted." }, items: [fr.epuise] }
+  - { id: s16, target: "Dix minutes de méditation par jour m'aident à me sentir mieux.", native: { nl: "Tien minuten meditatie per dag helpen me om me beter te voelen.", en: "Ten minutes of meditation a day helps me feel better." }, items: [fr.meditation] }
+  - { id: s17, target: "Certains adolescents sont presque dépendants de leur téléphone.", native: { nl: "Sommige tieners zijn bijna verslaafd aan hun telefoon.", en: "Some teenagers are almost addicted to their phones." }, items: [fr.dependant] }
+  - { id: s18, target: "La dépendance aux jeux vidéo est aujourd'hui considérée comme une maladie.", native: { nl: "Verslaving aan videogames wordt vandaag als een ziekte beschouwd.", en: "Video game addiction is now considered an illness." }, items: [fr.dependance], form: { word: dépendance, stem: dépendant } }
+  - { id: s19, target: "Le rythme cardiaque augmente pendant l'effort.", native: { nl: "De hartslag stijgt tijdens de inspanning.", en: "Your heart rate goes up during exercise." }, items: [fr.rythme-cardiaque] }
+  - { id: s20, target: "Pour courir quarante kilomètres, il faut beaucoup d'endurance.", native: { nl: "Om veertig kilometer te lopen heb je veel uithoudingsvermogen nodig.", en: "To run forty kilometres, you need a lot of endurance." }, items: [fr.endurance] }
+  - { id: s21, target: "Échauffe-toi pendant dix minutes avant de courir.", native: { nl: "Warm tien minuten op voor je gaat lopen.", en: "Warm up for ten minutes before you run." }, items: [fr.s-echauffer] }
+  - { id: s22, target: "Le médecin lui a dit de réduire le sucre.", native: { nl: "De dokter zei hem minder suiker te eten.", en: "The doctor told him to cut down on sugar." }, items: [fr.reduire] }
+  - { id: s23, target: "Le sommeil est important pour bien apprendre.", native: { nl: "Slaap is belangrijk om goed te leren.", en: "Sleep is important for learning well." }, items: [fr.sommeil] }
+  - { id: s24, target: "On transpire beaucoup quand il fait chaud.", native: { nl: "Je zweet veel als het warm is.", en: "You sweat a lot when it's hot." }, items: [fr.transpirer] }
+  - { id: s25, target: "C'est en marchant tous les jours qu'il a changé de mode de vie.", native: { nl: "Door elke dag te wandelen heeft hij zijn levensstijl veranderd.", en: "It was by walking every day that he changed his lifestyle." }, items: [fr.mode-de-vie], build: true }
+  - { id: s26, target: "En améliorant ton sommeil, tu seras moins stressé.", native: { nl: "Door beter te slapen zul je minder gestrest zijn.", en: "By improving your sleep, you'll be less stressed." }, items: [fr.sommeil], build: true, acceptAlso: ["Tu seras moins stressé en améliorant ton sommeil."] }
+  - { id: s27, target: "Elle améliore son endurance en courant tous les jours.", native: { nl: "Ze verbetert haar uithoudingsvermogen door elke dag te lopen.", en: "She's improving her endurance by running every day." }, items: [fr.endurance] }
+  - { id: s28, target: "Il réduit le sel dans tous ses plats.", native: { nl: "Hij gebruikt minder zout in al zijn gerechten.", en: "He reduces the salt in all his dishes." }, items: [fr.reduire], finite: { word: réduit, hint: { nl: "réduire (présent)", en: "réduire (present)" } } }
+transforms:
+  - { id: x01, from: "Si tu fais du sport, tu dormiras mieux.", key: faisant, gapped: "___, tu dormiras mieux.", answers: ["En faisant du sport"], items: [fr.sommeil], native: { en: "By doing sport, you'll sleep better." } }
+  - { id: x02, from: "Il mange moins de sucre qu'avant.", key: réduit, gapped: "Il a ___ sucre.", answers: ["réduit le", "réduit son"], items: [fr.reduire], native: { en: "He has cut down on sugar." } }
+  - { id: x03, from: "Après la course, elle était extrêmement fatiguée.", key: épuisée, gapped: "Après la course, elle ___.", answers: ["était épuisée", "était complètement épuisée", "était vraiment épuisée", "était totalement épuisée", "était très épuisée"], items: [fr.epuise], native: { en: "After the race, she was exhausted." } }
+texts: [fr-b2-t06]

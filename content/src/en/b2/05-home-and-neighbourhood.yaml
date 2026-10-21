@@ -1,0 +1,69 @@
+id: en-b2-u05
+title: { nl: Wonen en de buurt }
+icon: home
+topic: Renting and buying a home, types of houses, repairs and improvements, living in a neighbourhood; the causative (have / get something done)
+vocabulary:
+  - { target: landlord, native: { nl: "verhuurder, huisbaas" }, pos: noun, avoid: [en.tenant] }
+  - { target: tenant, native: { nl: huurder }, pos: noun, avoid: [en.landlord] }
+  - { target: rent out, native: { nl: verhuren }, pos: phrase }
+  - { target: mortgage, native: { nl: hypotheek }, pos: noun }
+  - { target: estate agent, native: { nl: makelaar }, pos: noun }
+  - { target: detached, native: { nl: "vrijstaand" }, pos: adjective, avoid: [en.terraced] }
+  - { target: terraced, native: { nl: "rij- (een rijhuis)" }, pos: adjective, avoid: [en.detached] }
+  - { target: spacious, native: { nl: ruim }, pos: adjective, avoid: [en.cramped] }
+  - { target: cramped, native: { nl: "krap, te klein" }, pos: adjective, avoid: [en.spacious] }
+  - { target: resident, native: { nl: "bewoner, inwoner" }, pos: noun }
+  - { target: community, native: { nl: "gemeenschap" }, pos: noun }
+  - { target: suburb, native: { nl: "voorstad, buitenwijk" }, pos: noun, avoid: [en.outskirts] }
+  - { target: outskirts, native: { nl: "rand (van een stad)" }, pos: noun, avoid: [en.suburb], noBlank: true }
+  - { target: run-down, native: { nl: "vervallen, verwaarloosd" }, pos: adjective }
+  - { target: renovate, native: { nl: "renoveren, verbouwen" }, pos: verb }
+  - { target: plumber, native: { nl: loodgieter }, pos: noun }
+  - { target: electrician, native: { nl: elektricien }, pos: noun }
+  - { target: leak, native: { nl: lek }, pos: noun }
+  - { target: extension, native: { nl: "aanbouw, uitbreiding" }, pos: noun }
+  - { target: attic, native: { nl: zolder }, pos: noun }
+  - { target: move in, native: { nl: "intrekken, er komen wonen" }, pos: phrase, avoid: [en.move-out] }
+  - { target: move out, native: { nl: "uit huis gaan, eruit trekken" }, pos: phrase, avoid: [en.move-in] }
+  - { target: settle in, native: { nl: "zich thuis gaan voelen, wennen" }, pos: phrase, avoid: [en.get-used-to] }
+  - { target: household, native: { nl: huishouden }, pos: noun }
+  - { target: chores, native: { nl: "klusjes, huishoudelijk werk" }, pos: noun }
+  - { target: clutter, native: { nl: "rommel, troep" }, pos: noun, avoid: [en.mess] }
+  - { target: furnished, native: { nl: gemeubileerd }, pos: adjective }
+  - { target: insulation, native: { nl: isolatie }, pos: noun }
+sentences:
+  - { id: s01, target: "Our landlord lives in the flat downstairs.", native: { nl: "Onze verhuurder woont in de flat beneden." }, items: [en.landlord] }
+  - { id: s02, target: "As a tenant, you have the right to a safe home.", native: { nl: "Als huurder heb je recht op een veilige woning." }, items: [en.tenant] }
+  - { id: s03, target: "They rent out their flat to students.", native: { nl: "Ze verhuren hun flat aan studenten." }, items: [en.rent-out], acceptAlso: ["They rent their flat out to students."] }
+  - { id: s04, target: "It will take them thirty years to pay off the mortgage.", native: { nl: "Ze zullen dertig jaar nodig hebben om de hypotheek af te betalen." }, items: [en.mortgage] }
+  - { id: s05, target: "The estate agent showed us three houses in one afternoon.", native: { nl: "De makelaar liet ons op één middag drie huizen zien." }, items: [en.estate-agent], acceptAlso: ["In one afternoon the estate agent showed us three houses."] }
+  - { id: s06, target: "They live in a detached house with a big garden.", native: { nl: "Ze wonen in een vrijstaand huis met een grote tuin." }, items: [en.detached] }
+  - { id: s07, target: "Most of the houses in this part of town are terraced.", native: { nl: "De meeste huizen in dit deel van de stad zijn rijhuizen." }, items: [en.terraced] }
+  - { id: s08, target: "The new flat is much more spacious than the old one.", native: { nl: "De nieuwe flat is veel ruimer dan de oude." }, items: [en.spacious] }
+  - { id: s09, target: "Five people in two rooms is very cramped.", native: { nl: "Vijf mensen in twee kamers is heel krap." }, items: [en.cramped] }
+  - { id: s10, target: "The residents are against the new car park.", native: { nl: "De bewoners zijn tegen de nieuwe parking." }, items: [en.resident] }
+  - { id: s11, target: "There is a strong sense of community in our village.", native: { nl: "Er is een sterk gemeenschapsgevoel in ons dorp." }, items: [en.community] }
+  - { id: s12, target: "Many families move to the suburbs when they have children.", native: { nl: "Veel gezinnen verhuizen naar de buitenwijken als ze kinderen hebben." }, items: [en.suburb] }
+  - { id: s13, target: "The new stadium is on the outskirts of the city.", native: { nl: "Het nieuwe stadion ligt aan de rand van de stad." }, items: [en.outskirts] }
+  - { id: s14, target: "They bought a run-down house in the country and renovated it themselves.", native: { nl: "Ze kochten een vervallen huis op het platteland en renoveerden het zelf." }, items: [en.run-down, en.renovate] }
+  - { id: s15, target: "We had to call a plumber because of a leak in the bathroom.", native: { nl: "We moesten een loodgieter bellen door een lek in de badkamer." }, items: [en.plumber, en.leak] }
+  - { id: s16, target: "Electrical repairs in a house should only be done by a qualified electrician.", native: { nl: "Elektrische herstellingen in een huis zouden alleen door een gediplomeerde elektricien moeten gebeuren." }, items: [en.electrician] }
+  - { id: s17, target: "They are building an extension at the back of the house.", native: { nl: "Ze zetten een aanbouw aan de achterkant van het huis." }, items: [en.extension] }
+  - { id: s18, target: "We keep our old toys and books in the attic.", native: { nl: "We bewaren ons oude speelgoed en onze boeken op zolder." }, items: [en.attic] }
+  - { id: s19, target: "The new neighbours moved in last weekend.", native: { nl: "De nieuwe buren zijn vorig weekend ingetrokken." }, items: [en.move-in], acceptAlso: ["Last weekend the new neighbours moved in."] }
+  - { id: s20, target: "We have to move out before the end of the month.", native: { nl: "We moeten voor het einde van de maand verhuizen." }, items: [en.move-out] }
+  - { id: s21, target: "It took us a few months to settle in after the move.", native: { nl: "Het duurde een paar maanden voor we ons na de verhuizing thuis voelden." }, items: [en.settle-in], acceptAlso: ["After the move it took us a few months to settle in."] }
+  - { id: s22, target: "In our household everyone does their own washing.", native: { nl: "In ons huishouden doet iedereen zijn eigen was." }, items: [en.household], acceptAlso: ["Everyone does their own washing in our household."] }
+  - { id: s23, target: "Sharing the chores fairly is not always easy.", native: { nl: "De klusjes eerlijk verdelen is niet altijd makkelijk." }, items: [en.chores] }
+  - { id: s24, target: "Getting rid of clutter makes a small room look bigger.", native: { nl: "Rommel wegdoen laat een kleine kamer groter lijken." }, items: [en.clutter] }
+  - { id: s25, target: "The flat is fully furnished, so you only need to bring your clothes.", native: { nl: "De flat is volledig gemeubileerd, dus je hoeft alleen je kleren mee te brengen." }, items: [en.furnished] }
+  - { id: s26, target: "Good insulation keeps your heating bills low.", native: { nl: "Goede isolatie houdt je verwarmingskosten laag." }, items: [en.insulation] }
+  - { id: s27, target: "We had the kitchen renovated last year.", native: { nl: "We hebben vorig jaar de keuken laten renoveren." }, items: [en.renovate], build: true, acceptAlso: ["Last year we had the kitchen renovated."] }
+  - { id: s28, target: "You should get the leak fixed before it gets worse.", native: { nl: "Je moet het lek laten herstellen voor het erger wordt." }, items: [en.leak], build: true }
+  - { id: s29, target: "The landlord is having new windows put in.", native: { nl: "De verhuurder laat nieuwe ramen plaatsen." }, items: [en.landlord] }
+  - { id: s30, target: "Living in a small community has both advantages and disadvantages.", native: { nl: "Wonen in een kleine gemeenschap heeft zowel voordelen als nadelen." }, items: [en.community] }
+transforms:
+  - { id: x01, from: "A plumber repaired our heating yesterday.", key: had, gapped: "We ___ yesterday.", answers: ["had our heating repaired", "had the heating repaired", "had a plumber repair our heating", "had a plumber repair the heating"], items: [en.plumber] }
+  - { id: x02, from: "The house is too small for a family of six.", key: enough, gapped: "The house isn't ___ for a family of six.", answers: ["big enough", "spacious enough", "large enough"], items: [en.spacious] }
+  - { id: x03, from: "She left her parents' house when she was nineteen.", key: moved, gapped: "She ___ her parents' house when she was nineteen.", answers: ["moved out of", "moved away from"], items: [en.move-out] }
+texts: [en-b2-t05]

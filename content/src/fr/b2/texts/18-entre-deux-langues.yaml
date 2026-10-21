@@ -1,0 +1,45 @@
+id: fr-b2-t18
+kind: reading
+title: { nl: Tussen twee talen, en: "Between two languages" }
+topic: Langues et communication (un témoignage dans le magazine d'une école bruxelloise)
+level: B2
+paragraphs:
+  - - { id: fr-b2-t18-s01, target: "Je m'appelle Jade, j'ai seize ans et j'habite à Bruxelles.", native: { nl: "Ik heet Jade, ik ben zestien en ik woon in Brussel.", en: "My name is Jade, I'm sixteen and I live in Brussels." } }
+    - { id: fr-b2-t18-s02, target: "Mon père est flamand, ma mère vient de Namur, et à la maison, nous avons toujours parlé les deux langues.", native: { nl: "Mijn vader is Vlaming, mijn moeder komt uit Namen, en thuis hebben we altijd beide talen gesproken.", en: "My father is Flemish, my mother comes from Namur, and at home we've always spoken both languages." } }
+    - { id: fr-b2-t18-s03, target: "Pendant mon enfance, je passais de l'une à l'autre sans y penser, parfois au milieu d'une phrase.", native: { nl: "In mijn kindertijd ging ik zonder erbij na te denken van de ene naar de andere over, soms midden in een zin.", en: "When I was a child, I switched from one to the other without thinking, sometimes in the middle of a sentence." } }
+  - - { id: fr-b2-t18-s04, target: "À l'école, les choses étaient moins simples.", native: { nl: "Op school was het minder eenvoudig.", en: "At school, things were less simple." } }
+    - { id: fr-b2-t18-s05, target: "Mes parents m'ont inscrite dans une école néerlandophone, dans laquelle je n'osais presque pas parler la première année, de peur que les autres se moquent de mon accent.", native: { nl: "Mijn ouders schreven me in een Nederlandstalige school in, waar ik het eerste jaar bijna niet durfde te praten, uit vrees dat de anderen mijn accent zouden uitlachen.", en: "My parents enrolled me in a Dutch-speaking school, where I hardly dared to speak in the first year, for fear that the others would make fun of my accent." } }
+    - { id: fr-b2-t18-s06, target: "Ne connaissant pas certains mots de l'école, je les traduisais dans ma tête, ce qui me rendait très lente.", native: { nl: "Omdat ik sommige schoolwoorden niet kende, vertaalde ik ze in mijn hoofd, wat me heel traag maakte.", en: "Not knowing some school words, I translated them in my head, which made me very slow." } }
+  - - { id: fr-b2-t18-s07, target: "Peu à peu, j'ai progressé.", native: { nl: "Beetje bij beetje ging ik vooruit.", en: "Little by little, I made progress." } }
+    - { id: fr-b2-t18-s08, target: "En lisant beaucoup et en regardant des séries dans les deux langues, j'ai appris beaucoup de mots, et aujourd'hui je les maîtrise toutes les deux.", native: { nl: "Door veel te lezen en series in beide talen te kijken, heb ik veel woorden geleerd, en vandaag beheers ik ze allebei.", en: "By reading a lot and watching series in both languages, I learnt lots of words, and today I've mastered both of them." } }
+    - { id: fr-b2-t18-s09, target: "L'orthographe française reste difficile pour moi, mais personne n'est parfait.", native: { nl: "De Franse spelling blijft moeilijk voor mij, maar niemand is perfect.", en: "French spelling is still difficult for me, but nobody's perfect." } }
+  - - { id: fr-b2-t18-s10, target: "Être bilingue, ce n'est pas seulement parler deux langues.", native: { nl: "Tweetalig zijn is niet alleen twee talen spreken.", en: "Being bilingual isn't just speaking two languages." } }
+    - { id: fr-b2-t18-s11, target: "Certaines expressions n'existent que dans une langue, et chaque langue me donne une façon différente de voir le monde.", native: { nl: "Sommige uitdrukkingen bestaan maar in één taal, en elke taal geeft me een andere manier om naar de wereld te kijken.", en: "Some expressions only exist in one language, and each language gives me a different way of seeing the world." } }
+    - { id: fr-b2-t18-s12, target: "Quand on me demande si je me sens plutôt flamande ou francophone, je réponds que je suis les deux : c'est mon identité.", native: { nl: "Als iemand me vraagt of ik me eerder Vlaamse of Franstalige voel, antwoord ik dat ik allebei ben: dat is mijn identiteit.", en: "When people ask me whether I feel more Flemish or French-speaking, I answer that I'm both: that's my identity." } }
+  - - { id: fr-b2-t18-s13, target: "Mon conseil à ceux qui apprennent une langue étrangère ?", native: { nl: "Mijn raad aan wie een vreemde taal leert?", en: "My advice to people learning a foreign language?" } }
+    - { id: fr-b2-t18-s14, target: "Osez parler, même avec des fautes. On progresse beaucoup plus rapidement en se trompant qu'en restant silencieux.", native: { nl: "Durf te spreken, ook met fouten. Je gaat veel sneller vooruit door je te vergissen dan door te zwijgen.", en: "Dare to speak, even with mistakes. You make progress much faster by getting things wrong than by staying silent." } }
+items: [fr.flamand, fr.enfance, fr.neerlandophone, fr.oser, fr.accent, fr.traduire, fr.progresser, fr.vocabulaire, fr.maitriser, fr.orthographe, fr.bilingue, fr.expression, fr.identite, fr.langue-etrangere]
+gapped:
+  gaps: [fr-b2-t18-s04, fr-b2-t18-s07, fr-b2-t18-s10, fr-b2-t18-s13]
+  extra:
+    - { id: fr-b2-t18-x1, target: "Mes grands-parents ne parlaient qu'une seule langue.", native: { nl: "Mijn grootouders spraken maar één taal.", en: "My grandparents only spoke one language." } }
+openCloze:
+  - { sentence: fr-b2-t18-s03, word: sans }
+  - { sentence: fr-b2-t18-s05, word: peur }
+  - { sentence: fr-b2-t18-s08, word: En }
+  - { sentence: fr-b2-t18-s12, word: si }
+wordForm:
+  - { sentence: fr-b2-t18-s03, word: enfance, stem: enfant }
+  - { sentence: fr-b2-t18-s14, word: rapidement, stem: rapide }
+  - { sentence: fr-b2-t18-s11, word: expressions, stem: exprimer }
+questions:
+  - { id: fr-b2-t18-q1, type: summary, options: ["Une jeune fille de Bruxelles raconte comment elle a grandi avec deux langues, les difficultés qu'elle a eues à l'école et pourquoi les deux langues font partie de son identité.", "Une jeune fille de Bruxelles explique pourquoi elle préfère le néerlandais au français.", "Une jeune fille de Bruxelles raconte comment elle a appris le néerlandais à l'école, parce que ses parents ne parlaient que le français à la maison."], correct: 0 }
+  - { id: fr-b2-t18-q2, type: mc, question: "Pourquoi Jade n'osait-elle pas parler pendant sa première année d'école ?", options: ["Elle avait peur qu'on se moque de son accent.", "Elle ne comprenait rien.", "Ses professeurs le lui interdisaient."], correct: 0 }
+  - { id: fr-b2-t18-q3, type: true_false_notgiven, statement: "La mère de Jade vient de Namur.", answer: true }
+  - { id: fr-b2-t18-q4, type: true_false_notgiven, statement: "Pour Jade, l'orthographe française est facile.", answer: false }
+  - { id: fr-b2-t18-q5, type: true_false_notgiven, statement: "Jade veut devenir traductrice.", answer: not_given }
+  - { id: fr-b2-t18-q6, type: match_heading, paragraph: 2, options: ["Les débuts difficiles à l'école", "Une enfance entre deux langues", "Un conseil pour apprendre"], correct: 0 }
+listeningQuestions:
+  - { id: fr-b2-t18-l1, type: complete, statement: "Jade a ___ ans.", answers: [seize, "16"] }
+  - { id: fr-b2-t18-l2, type: mc, question: "Comment Jade a-t-elle appris de nouveaux mots ?", options: ["En lisant et en regardant des séries.", "En prenant des cours le soir.", "En voyageant en France."], correct: 0 }
+orderable: false

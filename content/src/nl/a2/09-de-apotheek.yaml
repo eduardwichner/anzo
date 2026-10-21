@@ -1,0 +1,42 @@
+id: nl-a2-u09
+title: { en: At the pharmacy }
+icon: health
+topic: Medicine, instructions, side effects
+vocabulary:
+  - { target: de tablet, native: { en: tablet }, pos: noun, plural: tabletten }
+  - { target: de siroop, native: { en: syrup }, pos: noun, plural: siropen }
+  - { target: de zalf, native: { en: ointment }, pos: noun, plural: zalven }
+  - { target: de crème, native: { en: cream }, pos: noun, plural: crèmes, avoid: [nl.zonnebrand, nl.zalf] }
+  - { target: de zonnebrand, native: { en: sun cream }, pos: noun, plural: "-" }
+  - { target: innemen, native: { en: "to take (medicine)" }, pos: verb }
+  - { target: slikken, native: { en: to swallow }, pos: verb }
+  - { target: smeren, native: { en: "to spread, to rub on" }, pos: verb }
+  - { target: gebruiken, native: { en: to use }, pos: verb }
+  - { target: de dosis, native: { en: dose }, pos: noun, plural: dosissen }
+  - { target: de maaltijd, native: { en: meal }, pos: noun, plural: maaltijden }
+  - { target: de bijwerking, native: { en: side effect }, pos: noun, plural: bijwerkingen }
+  - { target: slaperig, native: { en: sleepy }, pos: adjective }
+  - { target: de maag, native: { en: stomach }, pos: noun, plural: magen }
+  - { target: de mug, native: { en: mosquito }, pos: noun, plural: muggen }
+  - { target: de verpakking, native: { en: "packet, packaging" }, pos: noun, plural: verpakkingen }
+  - { target: leeg, native: { en: empty }, pos: adjective }
+sentences:
+  - { id: s01, target: "Neem twee tabletten per dag.", native: { en: "Take two tablets a day." }, items: [nl.tablet] }
+  - { id: s02, target: "Ik hoest veel. Hebt u een siroop?", native: { en: "I'm coughing a lot. Do you have a cough syrup?" }, items: [nl.siroop] }
+  - { id: s03, target: "Smeer de zalf twee keer per dag op de wonde.", native: { en: "Put the ointment on the wound twice a day." }, items: [nl.zalf, nl.smeren] }
+  - { id: s04, target: "Deze crème is voor droge handen.", native: { en: "This cream is for dry hands." }, items: [nl.creme] }
+  - { id: s05, target: "Vergeet de zonnebrand niet!", native: { en: "Don't forget the sun cream!" }, items: [nl.zonnebrand] }
+  - { id: s06, target: "U moet dit medicijn na het eten innemen.", native: { en: "You must take this medicine after eating." }, items: [nl.innemen] }
+  - { id: s07, target: "Ik heb mijn tablet al ingenomen.", native: { en: "I've already taken my tablet." }, items: [nl.innemen] }
+  - { id: s08, target: "De tablet is te groot, ik kan hem niet slikken.", native: { en: "The tablet is too big, I can't swallow it." }, items: [nl.slikken] }
+  - { id: s09, target: "Hoe moet ik deze crème gebruiken?", native: { en: "How should I use this cream?" }, items: [nl.gebruiken] }
+  - { id: s10, target: "Neem niet meer dan de normale dosis.", native: { en: "Don't take more than the normal dose." }, items: [nl.dosis] }
+  - { id: s11, target: "Neem de tablet bij de maaltijd.", native: { en: "Take the tablet with a meal." }, items: [nl.maaltijd] }
+  - { id: s12, target: "Heeft dit medicijn bijwerkingen?", native: { en: "Does this medicine have side effects?" }, items: [nl.bijwerking] }
+  - { id: s13, target: "Van die siroop word je slaperig.", native: { en: "That syrup makes you sleepy." }, items: [nl.slaperig] }
+  - { id: s14, target: "Ik heb pijn in mijn maag.", native: { en: "I have a stomach ache." }, items: [nl.maag] }
+  - { id: s15, target: "'s Nachts heb ik last van de muggen.", native: { en: "At night the mosquitoes bother me." }, items: [nl.mug] }
+  - { id: s16, target: "Lees eerst wat er op de verpakking staat.", native: { en: "Read what it says on the packet first." }, items: [nl.verpakking] }
+  - { id: s17, target: "De fles is leeg.", native: { en: "The bottle is empty." }, items: [nl.leeg] }
+  - { id: s18, target: "Als de verpakking leeg is, moet u een nieuwe kopen.", native: { en: "When the packet is empty, you must buy a new one." }, items: [nl.verpakking, nl.leeg] }
+  - { id: s19, target: "Neem de tablet voordat je gaat slapen.", native: { en: "Take the tablet before you go to sleep." }, items: [nl.tablet] }

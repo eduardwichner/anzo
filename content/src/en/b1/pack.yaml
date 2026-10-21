@@ -1,0 +1,31 @@
+id: en-b1
+cefr: B1
+# Unit 1 is the pilot unit (its two texts locked); units 2–28 have one text each.
+extraLessons: true
+# The full level. Finite-verb fill-ins in the review lessons; homophones.yaml applies (no legacyListenType).
+finiteVerbFill: true
+source: >-
+  English for Dutch-speaking learners (from about 11 to adult), level B1. Every word is on the Cambridge YLE word list
+  (149681-yle-flyers-word-list.pdf) or the B1 Preliminary and Preliminary for Schools Vocabulary List, August 2025
+  (506887-b1-preliminary-vocabulary-list.pdf), or is a name (content/src/en/wordlist-b1-names.yaml) or a text's glossary
+  word. Units follow the topic lists of the vocabulary list and the B1 Preliminary for Schools handbook (2024, revised 2020
+  exam); grammar after its language specifications; text types after the B1 Preliminary for Schools sample tests
+  (notices, messages, emails, articles, stories, conversations). The texts are original; Dutch meanings written by the
+  content author.
+offList:
+  - { word: gardener, reason: "pilot unit word (en-b1-u01, locked by its text exercises); not on the B1 Preliminary list" }
+  - { word: soil, reason: "pilot unit word (en-b1-u01, locked by its text exercises); not on the B1 Preliminary list" }
+# Deliberate omissions from the B1 Preliminary list; every other new B1 headword is taught in u02–u28.
+omit:
+  - { word: bomb, reason: "weapons: the B1 course is family-safe for learners from about 11 (violence is not a topic)" }
+  - { word: gun, reason: "weapons: the B1 course is family-safe for learners from about 11 (violence is not a topic)" }
+  - { word: sex, reason: "listed in the sense 'the male/female sex': male and female (u02) cover forms; the word is left out of a children's course" }
+  - { word: cell phone, reason: "American English (the course is British English; mobile and smartphone are taught)" }
+  - { word: railroad, reason: "American English (railway is a YLE word; rail is taught)" }
+  - { word: on vacation, reason: "American English (on holiday is taught)" }
+  - { word: jewelry, reason: "American spelling of jewellery (taught in u26)" }
+  - { word: driver's licence, reason: "same meaning as driving licence (taught in u22); one British form is enough" }
+  - { word: disc jockey, reason: "same meaning as DJ (taught in u13), the form people use" }
+  - { word: hi-fi, reason: "dated (topic list only): speakers and headphones are taught" }
+  - { word: no one, reason: "spelling variant of no-one, taught at A2 Flyers (en.no-one)" }
+  - { word: stomach ache, reason: "spelling variant of stomach-ache, taught at A1 Movers (en.stomach-ache)" }

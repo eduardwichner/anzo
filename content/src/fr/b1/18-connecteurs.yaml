@@ -1,0 +1,95 @@
+id: fr-b1-u18
+title: { nl: Verbindingswoorden, en: "Linking words" }
+icon: link
+topic: Les connecteurs (cause, conséquence, opposition, but) ; bien que, pour que, avant que + subjonctif
+vocabulary:
+  - { target: cependant, native: { nl: echter, en: "however" }, pos: adverb, avoid: [fr.pourtant] }
+  - { target: pourtant, native: { nl: toch (nochtans), en: "yet, however (and yet)" }, pos: adverb }
+  - { target: alors que, native: { nl: terwijl (tegenstelling), en: "whereas, while" }, pos: conjunction }
+  - { target: malgré, native: { nl: ondanks, en: "despite, in spite of" }, pos: preposition }
+  - { target: bien que, native: { nl: hoewel, en: "although" }, pos: conjunction, avoid: [fr.meme-si] }
+  - { target: même si, native: { nl: zelfs als, en: "even if" }, pos: conjunction }
+  - { target: par exemple, native: { nl: bijvoorbeeld, en: "for example" }, pos: phrase }
+  - { target: en effet, native: { nl: inderdaad (immers), en: "indeed, in fact" }, pos: phrase }
+  - { target: pour que, native: { nl: opdat (zodat), en: "so that" }, pos: conjunction, avoid: [fr.afin-de] }
+  - { target: avant que, native: { nl: voordat, en: "before (+ subjunctive)" }, pos: conjunction }
+  - { target: vouloir que, native: { nl: willen dat, en: "to want (someone to do something)" }, pos: phrase }
+  - { target: il faut que, native: { nl: het is nodig dat (moeten), en: "must, it is necessary that" }, pos: phrase }
+  - { target: afin de, native: { nl: om te (met als doel), en: "in order to" }, pos: phrase, noBlank: true }
+  - { target: car, native: { nl: want, en: "because, as" }, pos: conjunction, avoid: [fr.puisque] }
+  - { target: puisque, native: { nl: aangezien, en: "since (because)" }, pos: conjunction }
+  - { target: lorsque, native: { nl: wanneer (op het moment dat), en: "when" }, pos: conjunction, noBlank: true }
+  - { target: or, native: { nl: nu (welnu), en: "but (in an argument), now" }, pos: conjunction }
+  - { target: sinon, native: { nl: anders, en: "otherwise, or else" }, pos: conjunction }
+  - { target: ainsi, native: { nl: zo (op die manier), en: "so, in this way, thus" }, pos: adverb }
+  - { target: également, native: { nl: ook (eveneens), en: "also, as well" }, pos: adverb, noBlank: true }
+  - { target: davantage, native: { nl: meer (nog meer), en: "more" }, pos: adverb, noBlank: true }
+  - { target: surtout, native: { nl: vooral, en: "especially, above all, mainly" }, pos: adverb }
+  - { target: autant, native: { nl: evenveel (zoveel), en: "as much, so much" }, pos: adverb }
+  - { target: tellement, native: { nl: zo (zozeer), en: "so, so much" }, pos: adverb, noBlank: true }
+  - { target: totalement, native: { nl: totaal, en: "totally" }, pos: adverb, avoid: [fr.completement, fr.entierement], noBlank: true }
+  - { target: complètement, native: { nl: helemaal, en: "completely" }, pos: adverb, avoid: [fr.entierement], noBlank: true }
+  - { target: entièrement, native: { nl: volledig, en: "entirely, fully" }, pos: adverb, noBlank: true }
+  - { target: extrêmement, native: { nl: uiterst, en: "extremely" }, pos: adverb, noBlank: true }
+  - { target: parfaitement, native: { nl: perfect (bijwoord), en: "perfectly" }, pos: adverb }
+  - { target: simplement, native: { nl: eenvoudig (gewoon), en: "simply, just" }, pos: adverb }
+  - { target: facilement, native: { nl: gemakkelijk (bijwoord), en: "easily" }, pos: adverb }
+  - { target: réellement, native: { nl: werkelijk, en: "really, actually" }, pos: adverb, noBlank: true }
+  - { target: différemment, native: { nl: anders (op een andere manier), en: "differently" }, pos: adverb, avoid: [fr.autrement, fr.sinon] }
+  - { target: autrement, native: { nl: "anders; zo niet", en: "otherwise, differently" }, pos: adverb, avoid: [fr.sinon] }
+  - { target: finalement, native: { nl: uiteindelijk, en: "in the end, finally" }, pos: adverb }
+  - { target: normalement, native: { nl: normaal gezien, en: "normally, usually" }, pos: adverb }
+  - { target: exactement, native: { nl: precies, en: "exactly" }, pos: adverb }
+  - { target: selon, native: { nl: volgens, en: "according to" }, pos: preposition }
+  - { target: concernant, native: { nl: betreffende, en: "about, concerning, regarding" }, pos: preposition }
+  - { target: face à, native: { nl: tegenover (geconfronteerd met), en: "faced with, in the face of" }, pos: preposition }
+  - { target: via, native: { nl: via, en: "via" }, pos: preposition }
+  - { id: fr.grace, target: grâce à, native: { nl: dankzij, en: "thanks to" }, pos: phrase }
+  - { target: malheureusement, native: { nl: helaas, en: "unfortunately" }, pos: adverb }
+  - { target: la peine, native: { nl: "de moeite; (à peine) nauwelijks", en: "effort, trouble; hardly (as in: I hardly slept)" }, pos: noun, gender: f }
+sentences:
+  - { id: s01, target: "Le film était long ; cependant, il était passionnant.", native: { nl: "De film was lang; hij was echter boeiend.", en: "The film was long; however, it was gripping." }, items: [fr.cependant] }
+  - { id: s02, target: "Il a beaucoup travaillé, et pourtant il a échoué.", native: { nl: "Hij heeft veel gewerkt, en toch is hij niet geslaagd.", en: "He worked hard, and yet he failed." }, items: [fr.pourtant] }
+  - { id: s03, target: "Mon frère aime le sport, alors que moi, je préfère lire.", native: { nl: "Mijn broer houdt van sport, terwijl ik liever lees.", en: "My brother likes sport, whereas I prefer reading." }, items: [fr.alors-que] }
+  - { id: s04, target: "Nous sommes sortis malgré la pluie.", native: { nl: "We zijn naar buiten gegaan ondanks de regen.", en: "We went out despite the rain." }, items: [fr.malgre], acceptAlso: ["Malgré la pluie, nous sommes sortis."] }
+  - { id: s05, target: "Bien qu'il soit fatigué, il continue à travailler.", native: { nl: "Hoewel hij moe is, blijft hij werken.", en: "Although he's tired, he keeps on working." }, items: [fr.bien-que], acceptAlso: ["Il continue à travailler bien qu'il soit fatigué."] }
+  - { id: s06, target: "Je viendrai même s'il pleut.", native: { nl: "Ik kom, zelfs als het regent.", en: "I'll come even if it rains." }, items: [fr.meme-si], acceptAlso: ["Même s'il pleut, je viendrai."] }
+  - { id: s07, target: "J'aime les fruits, par exemple les pommes et les fraises.", native: { nl: "Ik hou van fruit, bijvoorbeeld appels en aardbeien.", en: "I like fruit, for example apples and strawberries." }, items: [fr.par-exemple] }
+  - { id: s08, target: "Il est fatigué ; en effet, il a très peu dormi.", native: { nl: "Hij is moe; hij heeft immers heel weinig geslapen.", en: "He's tired; indeed, he slept very little." }, items: [fr.en-effet] }
+  - { id: s09, target: "Je t'explique encore une fois pour que tu comprennes.", native: { nl: "Ik leg het je nog een keer uit, zodat je het begrijpt.", en: "I'll explain it to you once more so that you understand." }, items: [fr.pour-que], finite: { word: comprennes, hint: { nl: "comprendre (subjonctif)", en: "comprendre (subjunctive)" } } }
+  - { id: s10, target: "Rentre avant qu'il fasse nuit.", native: { nl: "Kom naar huis voordat het donker wordt.", en: "Come home before it gets dark." }, items: [fr.avant-que] }
+  - { id: s11, target: "Mes parents veulent que je fasse mes devoirs.", native: { nl: "Mijn ouders willen dat ik mijn huiswerk maak.", en: "My parents want me to do my homework." }, items: [fr.vouloir-que] }
+  - { id: s12, target: "Il faut que tu sois à l'heure demain.", native: { nl: "Je moet morgen op tijd zijn.", en: "You must be on time tomorrow." }, items: [fr.il-faut-que], acceptAlso: ["Demain, il faut que tu sois à l'heure."], finite: { word: sois, hint: { nl: "être (subjonctif)", en: "être (subjunctive)" } } }
+  - { id: s13, target: "Elle économise afin de partir en voyage.", native: { nl: "Ze spaart om op reis te gaan.", en: "She's saving in order to go travelling." }, items: [fr.afin-de] }
+  - { id: s14, target: "Je reste à la maison, car je suis malade.", native: { nl: "Ik blijf thuis, want ik ben ziek.", en: "I'm staying at home because I'm ill." }, items: [fr.car] }
+  - { id: s15, target: "Puisque tu es là, tu peux m'aider.", native: { nl: "Aangezien je hier bent, kun je me helpen.", en: "Since you're here, you can help me." }, items: [fr.puisque] }
+  - { id: s16, target: "Lorsque je suis arrivé, tout le monde dormait.", native: { nl: "Toen ik aankwam, sliep iedereen.", en: "When I arrived, everyone was asleep." }, items: [fr.lorsque], acceptAlso: ["Tout le monde dormait lorsque je suis arrivé."] }
+  - { id: s17, target: "Il voulait acheter le vélo ; or, il n'avait pas assez d'argent.", native: { nl: "Hij wilde de fiets kopen; maar hij had niet genoeg geld.", en: "He wanted to buy the bike, but he didn't have enough money." }, items: [fr.or] }
+  - { id: s18, target: "Dépêche-toi, sinon le bus va partir sans nous.", native: { nl: "Haast je, anders vertrekt de bus zonder ons.", en: "Hurry up, otherwise the bus will leave without us." }, items: [fr.sinon] }
+  - { id: s19, target: "Le cours est gratuit ; ainsi, tout le monde peut participer.", native: { nl: "De les is gratis; zo kan iedereen deelnemen.", en: "The course is free, so everyone can take part." }, items: [fr.ainsi] }
+  - { id: s20, target: "Ma sœur parle anglais et également espagnol.", native: { nl: "Mijn zus spreekt Engels en ook Spaans.", en: "My sister speaks English and Spanish as well." }, items: [fr.egalement] }
+  - { id: s21, target: "Il faut lire davantage pour améliorer ton français.", native: { nl: "Je moet meer lezen om je Frans te verbeteren.", en: "You need to read more to improve your French." }, items: [fr.davantage] }
+  - { id: s22, target: "J'aime tous les sports, surtout le tennis.", native: { nl: "Ik hou van alle sporten, vooral tennis.", en: "I like all sports, especially tennis." }, items: [fr.surtout] }
+  - { id: s23, target: "Je n'ai jamais autant travaillé.", native: { nl: "Ik heb nog nooit zoveel gewerkt.", en: "I've never worked so much." }, items: [fr.autant] }
+  - { id: s24, target: "J'étais tellement fatigué que je me suis endormi.", native: { nl: "Ik was zo moe dat ik in slaap viel.", en: "I was so tired that I fell asleep." }, items: [fr.tellement] }
+  - { id: s25, target: "Je suis totalement d'accord avec toi.", native: { nl: "Ik ben het totaal met je eens.", en: "I totally agree with you." }, items: [fr.totalement] }
+  - { id: s26, target: "J'ai complètement oublié ton anniversaire !", native: { nl: "Ik ben je verjaardag helemaal vergeten!", en: "I completely forgot your birthday!" }, items: [fr.completement] }
+  - { id: s27, target: "La maison a été entièrement rénovée.", native: { nl: "Het huis is volledig gerenoveerd.", en: "The house has been entirely renovated." }, items: [fr.entierement] }
+  - { id: s28, target: "Ce sport est extrêmement dangereux.", native: { nl: "Deze sport is uiterst gevaarlijk.", en: "This sport is extremely dangerous." }, items: [fr.extremement] }
+  - { id: s29, target: "Elle parle parfaitement français.", native: { nl: "Ze spreekt perfect Frans.", en: "She speaks French perfectly." }, items: [fr.parfaitement] }
+  - { id: s30, target: "Explique-moi simplement ce que tu veux.", native: { nl: "Leg me gewoon uit wat je wilt.", en: "Just explain to me what you want." }, items: [fr.simplement] }
+  - { id: s31, target: "On trouve facilement des informations sur Internet.", native: { nl: "Je vindt gemakkelijk informatie op het internet.", en: "You can easily find information on the internet." }, items: [fr.facilement], acceptAlso: ["Sur Internet, on trouve facilement des informations."] }
+  - { id: s32, target: "Est-ce que tu as réellement vu un loup ?", native: { nl: "Heb je werkelijk een wolf gezien?", en: "Did you really see a wolf?" }, items: [fr.reellement] }
+  - { id: s33, target: "Chaque élève apprend différemment.", native: { nl: "Elke leerling leert op een andere manier.", en: "Every pupil learns differently." }, items: [fr.differemment] }
+  - { id: s34, target: "Fais tes devoirs maintenant, autrement tu n'auras pas le temps.", native: { nl: "Maak nu je huiswerk, anders heb je geen tijd.", en: "Do your homework now, otherwise you won't have time." }, items: [fr.autrement] }
+  - { id: s35, target: "Finalement, nous avons pris le train.", native: { nl: "Uiteindelijk hebben we de trein genomen.", en: "In the end, we took the train." }, items: [fr.finalement], acceptAlso: ["Nous avons finalement pris le train."] }
+  - { id: s36, target: "Normalement, le bus passe toutes les dix minutes.", native: { nl: "Normaal gezien komt de bus om de tien minuten.", en: "Normally the bus comes every ten minutes." }, items: [fr.normalement], acceptAlso: ["Le bus passe normalement toutes les dix minutes."] }
+  - { id: s37, target: "C'est exactement ce que je voulais.", native: { nl: "Dat is precies wat ik wilde.", en: "That's exactly what I wanted." }, items: [fr.exactement] }
+  - { id: s38, target: "Selon la météo, il va neiger demain.", native: { nl: "Volgens het weerbericht gaat het morgen sneeuwen.", en: "According to the weather forecast, it's going to snow tomorrow." }, items: [fr.selon], acceptAlso: ["Il va neiger demain, selon la météo."] }
+  - { id: s39, target: "J'ai une question concernant le voyage.", native: { nl: "Ik heb een vraag over de reis.", en: "I have a question about the trip." }, items: [fr.concernant] }
+  - { id: s40, target: "Face à ce problème, nous devons agir ensemble.", native: { nl: "Nu we voor dit probleem staan, moeten we samen in actie komen.", en: "Faced with this problem, we must act together." }, items: [fr.face-a] }
+  - { id: s41, target: "Je t'envoie les photos via mon téléphone.", native: { nl: "Ik stuur je de foto's via mijn telefoon.", en: "I'm sending you the photos via my phone." }, items: [fr.via] }
+  - { id: s42, target: "J'ai réussi grâce à ton aide.", native: { nl: "Ik ben geslaagd dankzij jouw hulp.", en: "I passed thanks to your help." }, items: [fr.grace] }
+  - { id: s43, target: "Malheureusement, le concert est annulé.", native: { nl: "Helaas is het concert geannuleerd.", en: "Unfortunately, the concert has been cancelled." }, items: [fr.malheureusement], acceptAlso: ["Le concert est malheureusement annulé."] }
+  - { id: s44, target: "Ce n'est pas la peine de venir.", native: { nl: "Het is de moeite niet om te komen.", en: "It's not worth the trouble of coming." }, items: [fr.peine] }
+texts: [fr-b1-t19]

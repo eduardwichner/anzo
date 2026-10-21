@@ -1,0 +1,59 @@
+{
+  "tracks": [
+    {
+      "id": "en",
+      "name": {
+        "nl": "Engels"
+      },
+      "native": "nl",
+      "mascot": "otter",
+      "packs": [
+        {
+          "id": "en-old-prompt",
+          "file": "en/old-prompt.json",
+          "cefr": "Pre-A1",
+          "title": {
+            "nl": "old-prompt"
+          },
+          "status": "available"
+        },
+        {
+          "id": "en-no-schema-version",
+          "file": "en/no-schema-version.json",
+          "cefr": "Pre-A1",
+          "title": {
+            "nl": "no-schema-version"
+          },
+          "status": "available"
+        },
+        {
+          "id": "en-missing-nl",
+          "file": "en/missing-nl.json",
+          "cefr": "Pre-A1",
+          "title": {
+            "nl": "missing-nl"
+          },
+          "status": "available"
+        },
+        {
+          "id": "en-unknown-instruction",
+          "file": "en/unknown-instruction.json",
+          "cefr": "Pre-A1",
+          "title": {
+            "nl": "unknown-instruction"
+          },
+          "status": "available"
+        },
+        {
+          "id": "en-mc-sides",
+          "file": "en/mc-sides.json",
+          "cefr": "Pre-A1",
+          "title": {
+            "nl": "mc-sides"
+          },
+          "status": "available"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+id: fr-b1-t03
+kind: reading
+title: { nl: Wat is een echte vriend?, en: "What is a real friend?" }
+topic: L'amitié (des lecteurs d'un magazine pour ados répondent à une question)
+level: B1
+paragraphs:
+  - - { id: fr-b1-t03-s01, target: "Ce mois-ci, nous avons demandé à des jeunes : « Pour vous, qu'est-ce qu'un vrai ami ? »", native: { nl: "Deze maand vroegen we aan jongeren: \"Wat is volgens jullie een echte vriend?\"", en: "This month we asked young people: \"What is a real friend, in your view?\"" } }
+    - { id: fr-b1-t03-s02, target: "Voici trois réponses que nous avons reçues.", native: { nl: "Hier zijn drie antwoorden die we hebben ontvangen.", en: "Here are three answers we received." } }
+  - - { id: fr-b1-t03-s03, target: "Inès, 14 ans : « Pour moi, un vrai ami est quelqu'un d'honnête, qui me dit la vérité même quand elle n'est pas agréable. »", native: { nl: "Inès, 14 jaar: \"Voor mij is een echte vriend iemand die eerlijk is, die me de waarheid zegt, zelfs als die niet leuk is.\"", en: "Inès, 14: \"For me, a real friend is someone honest, who tells me the truth even when it isn't pleasant.\"" } }
+    - { id: fr-b1-t03-s04, target: "« L'année dernière, ma meilleure amie et moi, nous nous sommes disputées, mais nous en avons parlé et notre amitié est devenue plus forte. »", native: { nl: "\"Vorig jaar hadden mijn beste vriendin en ik ruzie, maar we hebben erover gepraat en onze vriendschap is sterker geworden.\"", en: "\"Last year my best friend and I had an argument, but we talked about it and our friendship became stronger.\"" } }
+  - - { id: fr-b1-t03-s05, target: "Théo, 16 ans : « Mon meilleur ami habite maintenant à Montréal, mais nous sommes en contact tous les jours. »", native: { nl: "Théo, 16 jaar: \"Mijn beste vriend woont nu in Montréal, maar we hebben elke dag contact.\"", en: "Théo, 16: \"My best friend lives in Montreal now, but we're in contact every day.\"" } }
+    - { id: fr-b1-t03-s06, target: "« Il habite loin, mais ça ne change rien : j'ai toujours confiance en lui et il me soutient quand j'ai des problèmes. »", native: { nl: "\"Hij woont ver weg, maar dat verandert niets: ik heb nog altijd vertrouwen in hem en hij steunt me als ik problemen heb.\"", en: "\"He lives a long way away, but that doesn't change anything: I still trust him, and he supports me when I have problems.\"" } }
+  - - { id: fr-b1-t03-s07, target: "Camille, 15 ans : « Un vrai ami, c'est quelqu'un qui respecte tes choix, même s'il ne pense pas comme toi. »", native: { nl: "Camille, 15 jaar: \"Een echte vriend is iemand die je keuzes respecteert, ook als hij niet hetzelfde denkt als jij.\"", en: "Camille, 15: \"A real friend is someone who respects your choices, even if they don't think the way you do.\"" } }
+    - { id: fr-b1-t03-s08, target: "« Mes amis sont très différents de moi, et c'est exactement ce que j'aime. »", native: { nl: "\"Mijn vrienden zijn heel anders dan ik, en dat is nu net wat ik leuk vind.\"", en: "\"My friends are very different from me, and that's exactly what I like.\"" } }
+glossary:
+  - { word: vérité, native: { nl: waarheid, en: "truth" } }
+  - { word: agréable, native: { nl: aangenaam, en: "pleasant" } }
+  - { word: Montréal, native: { nl: "Montréal (stad in Canada)", en: "Montreal (a city in Canada)" } }
+items: [fr.honnete, fr.se-disputer, fr.amitie, fr.contact, fr.confiance, fr.soutenir, fr.respecter, fr.choix, fr.meme-si, fr.respect, fr.exactement, fr.meme]
+questions:
+  - { id: fr-b1-t03-q1, type: mc, question: "Pour Inès, un vrai ami…", options: ["dit la vérité.", "est toujours d'accord avec elle.", "habite près de chez elle."], correct: 0 }
+  - { id: fr-b1-t03-q2, type: true_false_notgiven, statement: "Inès ne parle plus à sa meilleure amie.", answer: false }
+  - { id: fr-b1-t03-q3, type: true_false_notgiven, statement: "Le meilleur ami de Théo habite loin de lui.", answer: true }
+  - { id: fr-b1-t03-q4, type: true_false_notgiven, statement: "Théo va rendre visite à son ami cet été.", answer: not_given }
+  - { id: fr-b1-t03-q5, type: mc, question: "Qu'est-ce que Camille aime chez ses amis ?", options: ["Ils sont différents d'elle.", "Ils pensent comme elle.", "Ils sont très bavards."], correct: 0 }
+  - { id: fr-b1-t03-q6, type: match_heading, paragraph: 3, options: ["Un ami loin, mais toujours proche", "Une dispute qui finit bien", "Des amis très différents"], correct: 0 }
+listeningQuestions:
+  - { id: fr-b1-t03-l1, type: mc, question: "Où habite le meilleur ami de Théo ?", options: ["À Montréal.", "À Paris.", "En Belgique."], correct: 0 }
+  - { id: fr-b1-t03-l2, type: true_false_notgiven, statement: "Les amis de Camille sont très différents d'elle.", answer: true }
+cloze:
+  - { sentence: fr-b1-t03-s03, word: dit, kind: finite_verb, hint: { nl: "dire (présent)", en: "dire (present)" } }
+  - { sentence: fr-b1-t03-s05, word: habite, kind: finite_verb, hint: { nl: "habiter (présent)", en: "habiter (present)" } }
+  - { sentence: fr-b1-t03-s06, word: soutient, kind: finite_verb, hint: { nl: "soutenir (présent)", en: "soutenir (present)" } }
+  - { sentence: fr-b1-t03-s07, word: respecte, kind: finite_verb, hint: { nl: "respecter (présent)", en: "respecter (present)" } }
+orderable: false

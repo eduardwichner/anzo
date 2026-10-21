@@ -1,0 +1,192 @@
+id: en-b1-u17
+title: { nl: Denken en meningen }
+icon: idea
+topic: Opinions, certainty and possibility; modals of possibility (might, may, could, must be, can't be), I think / I'm not sure / it depends
+vocabulary:
+  - { target: opinion, native: { nl: mening }, pos: noun }
+  - { target: thought, native: { nl: gedachte }, pos: noun }
+  - { target: personally, native: { nl: persoonlijk (wat mij betreft) }, pos: adverb, avoid: [en.personal] }
+  - { target: honestly, native: { nl: eerlijk gezegd }, pos: adverb }
+  - { target: seriously, native: { nl: serieus (echt) }, pos: adverb, avoid: [en.serious], noBlank: true }
+  - { target: suppose, native: { nl: veronderstellen }, pos: verb }
+  - { target: imagine, native: { nl: zich voorstellen }, pos: verb }
+  - { target: wonder, native: { nl: zich afvragen }, pos: verb }
+  - { target: realise, native: { nl: beseffen }, pos: verb }
+  - { target: seem, native: { nl: lijken (de indruk geven) }, pos: verb }
+  - { target: expect, native: { nl: verwachten }, pos: verb }
+  - { target: consider, native: { nl: overwegen }, pos: verb }
+  - { target: compare, native: { nl: vergelijken }, pos: verb }
+  - { target: depend, native: { nl: afhangen (van) }, pos: verb }
+  - { target: persuade, native: { nl: overhalen }, pos: verb, avoid: [en.convince] }
+  - { target: convince, native: { nl: overtuigen }, pos: verb }
+  - { target: prove, native: { nl: bewijzen }, pos: verb }
+  - { target: doubt, native: { nl: twijfel }, pos: noun }
+  - { target: decision, native: { nl: beslissing }, pos: noun }
+  - { target: option, native: { nl: optie }, pos: noun }
+  - { target: reason, native: { nl: reden }, pos: noun }
+  - { target: purpose, native: { nl: "doel; opzet" }, pos: noun, avoid: [en.aim] }
+  - { target: conclusion, native: { nl: conclusie }, pos: noun }
+  - { target: fact, native: { nl: feit }, pos: noun }
+  - { target: detail, native: { nl: detail }, pos: noun }
+  - { target: sense, native: { nl: "zin, gevoel (voor)" }, pos: noun, avoid: [en.feeling] }
+  - { target: reality, native: { nl: werkelijkheid }, pos: noun }
+  - { target: situation, native: { nl: situatie }, pos: noun }
+  - { target: difficulty, native: { nl: "moeilijkheid, moeite" }, pos: noun }
+  - { target: solution, native: { nl: oplossing }, pos: noun }
+  - { target: solve, native: { nl: oplossen }, pos: verb }
+  - { target: chance, native: { nl: kans }, pos: noun, avoid: [en.opportunity] }
+  - { target: possibility, native: { nl: mogelijkheid }, pos: noun }
+  - { target: advantage, native: { nl: voordeel }, pos: noun, avoid: [en.disadvantage, en.benefit], noBlank: true }
+  - { target: disadvantage, native: { nl: nadeel }, pos: noun }
+  - { target: importance, native: { nl: belang }, pos: noun }
+  - { target: possible, native: { nl: mogelijk }, pos: adjective, avoid: [en.impossible] }
+  - { target: impossible, native: { nl: onmogelijk }, pos: adjective }
+  - { target: possibly, native: { nl: mogelijk(erwijs) }, pos: adverb }
+  - { target: probably, native: { nl: waarschijnlijk }, pos: adverb, avoid: [en.likely] }
+  - { target: maybe, native: { nl: misschien }, pos: adverb, avoid: [en.possibly] }
+  - { target: likely, native: { nl: waarschijnlijk (te verwachten) }, pos: adjective, avoid: [en.unlikely] }
+  - { target: unlikely, native: { nl: onwaarschijnlijk }, pos: adjective }
+  - { target: certain, native: { nl: zeker }, pos: adjective, avoid: [en.certainly] }
+  - { target: certainly, native: { nl: zeker (beslist) }, pos: adverb, noBlank: true }
+  - { target: definitely, native: { nl: "beslist, zeker weten" }, pos: adverb, avoid: [en.absolutely, en.certainly, en.certain] }
+  - { target: absolutely, native: { nl: absoluut }, pos: adverb, avoid: [en.certainly] }
+  - { target: obvious, native: { nl: duidelijk (vanzelfsprekend) }, pos: adjective, avoid: [en.clear, en.clearly], noBlank: true }
+  - { target: obviously, native: { nl: natuurlijk (duidelijk) }, pos: adverb, avoid: [en.clearly, en.natural] }
+  - { target: clear, native: { nl: duidelijk }, pos: adjective, avoid: [en.clearly] }
+  - { target: clearly, native: { nl: duidelijk (bijwoord) }, pos: adverb }
+  - { target: "true", native: { nl: waar }, pos: adjective }
+  - { target: real, native: { nl: echt }, pos: adjective }
+  - { target: realistic, native: { nl: realistisch }, pos: adjective }
+  - { target: positive, native: { nl: positief }, pos: adjective, avoid: [en.negative] }
+  - { target: negative, native: { nl: negatief }, pos: adjective }
+  - { target: perfect, native: { nl: perfect }, pos: adjective, avoid: [en.perfectly] }
+  - { target: perfectly, native: { nl: perfect (bijwoord) }, pos: adverb }
+  - { target: proper, native: { nl: "echt, behoorlijk" }, pos: adjective }
+  - { target: suitable, native: { nl: geschikt }, pos: adjective }
+  - { target: acceptable, native: { nl: aanvaardbaar }, pos: adjective }
+  - { target: satisfactory, native: { nl: voldoende (bevredigend) }, pos: adjective }
+  - { target: accurate, native: { nl: nauwkeurig }, pos: adjective }
+  - { target: necessary, native: { nl: nodig (noodzakelijk) }, pos: adjective, avoid: [en.unnecessary] }
+  - { target: unnecessary, native: { nl: onnodig }, pos: adjective }
+  - { target: essential, native: { nl: essentieel }, pos: adjective }
+  - { target: unimportant, native: { nl: onbelangrijk }, pos: adjective }
+  - { target: basic, native: { nl: basis- (eenvoudig) }, pos: adjective }
+  - { target: simple, native: { nl: eenvoudig }, pos: adjective, avoid: [en.complicated] }
+  - { target: complicated, native: { nl: ingewikkeld }, pos: adjective }
+  - { target: general, native: { nl: algemeen }, pos: adjective }
+  - { target: generally, native: { nl: over het algemeen }, pos: adverb, avoid: [en.typically], noBlank: true }
+  - { target: common, native: { nl: "gewoon, veel voorkomend" }, pos: adjective, avoid: [en.ordinary] }
+  - { target: ordinary, native: { nl: gewoon (alledaags) }, pos: adjective }
+  - { target: normal, native: { nl: normaal }, pos: adjective }
+  - { target: usual, native: { nl: gebruikelijk }, pos: adjective }
+  - { target: typical, native: { nl: typisch }, pos: adjective, avoid: [en.typically] }
+  - { target: typically, native: { nl: typisch (bijwoord) }, pos: adverb, avoid: [en.generally], noBlank: true }
+  - { target: similar, native: { nl: gelijkaardig }, pos: adjective }
+  - { target: separate, native: { nl: apart }, pos: adjective }
+  - { target: various, native: { nl: verschillende (diverse) }, pos: adjective }
+  - { target: familiar, native: { nl: bekend (vertrouwd) }, pos: adjective, avoid: [en.well-known] }
+  - { target: unexpected, native: { nl: onverwacht }, pos: adjective }
+  - { target: extraordinary, native: { nl: buitengewoon }, pos: adjective }
+  - { target: able, native: { nl: in staat }, pos: adjective, avoid: [en.unable] }
+  - { target: unable, native: { nl: niet in staat }, pos: adjective }
+  - { target: easily, native: { nl: gemakkelijk (bijwoord) }, pos: adverb }
+  - { target: fortunately, native: { nl: gelukkig (bijwoord) }, pos: adverb, avoid: [en.unfortunately] }
+  - { target: unfortunately, native: { nl: helaas }, pos: adverb }
+  - { target: luckily, native: { nl: gelukkig (bijwoord) }, pos: adverb }
+  - { target: hopefully, native: { nl: hopelijk }, pos: adverb }
+sentences:
+  - { id: s01, target: "In my opinion, the book is better than the film.", native: { nl: "Naar mijn mening is het boek beter dan de film." }, items: [en.opinion] }
+  - { id: s02, target: "What are your thoughts about the new timetable?", native: { nl: "Wat zijn je gedachten over het nieuwe rooster?" }, items: [en.thought] }
+  - { id: s03, target: "Personally, I prefer the countryside to the city.", native: { nl: "Persoonlijk heb ik liever het platteland dan de stad." }, items: [en.personally] }
+  - { id: s04, target: "Honestly, I don't know where she is.", native: { nl: "Eerlijk gezegd weet ik niet waar ze is." }, items: [en.honestly] }
+  - { id: s05, target: "Are you seriously going to wear that hat?", native: { nl: "Ga je serieus die hoed dragen?" }, items: [en.seriously] }
+  - { id: s06, target: "I suppose you're right.", native: { nl: "Ik neem aan dat je gelijk hebt." }, items: [en.suppose] }
+  - { id: s07, target: "Imagine you could fly. Where would you go?", native: { nl: "Stel je voor dat je kon vliegen. Waar zou je naartoe gaan?" }, items: [en.imagine] }
+  - { id: s08, target: "I wonder what he's doing now.", native: { nl: "Ik vraag me af wat hij nu doet." }, items: [en.wonder] }
+  - { id: s09, target: "I didn't realise it was so late.", native: { nl: "Ik besefte niet dat het al zo laat was." }, items: [en.realise] }
+  - { id: s10, target: "She seems tired today.", native: { nl: "Ze lijkt vandaag moe." }, items: [en.seem], acceptAlso: ["Today she seems tired."] }
+  - { id: s11, target: "We expect the bus to arrive at ten.", native: { nl: "We verwachten dat de bus om tien uur aankomt." }, items: [en.expect] }
+  - { id: s12, target: "We're considering moving to the countryside.", native: { nl: "We overwegen om naar het platteland te verhuizen." }, items: [en.consider] }
+  - { id: s13, target: "Compare your answers with your partner's.", native: { nl: "Vergelijk je antwoorden met die van je partner." }, items: [en.compare] }
+  - { id: s14, target: "Are you coming tomorrow? It depends on the weather.", native: { nl: "Kom je morgen? Het hangt af van het weer." }, items: [en.depend] }
+  - { id: s15, target: "I persuaded my dad to buy a dog.", native: { nl: "Ik heb mijn vader overgehaald om een hond te kopen." }, items: [en.persuade] }
+  - { id: s16, target: "She convinced me that she was right.", native: { nl: "Ze overtuigde me dat ze gelijk had." }, items: [en.convince] }
+  - { id: s17, target: "Can you prove it?", native: { nl: "Kun je het bewijzen?" }, items: [en.prove] }
+  - { id: s18, target: "There's no doubt that she's the best player.", native: { nl: "Het lijdt geen twijfel dat zij de beste speelster is." }, items: [en.doubt] }
+  - { id: s19, target: "It was a difficult decision.", native: { nl: "Het was een moeilijke beslissing." }, items: [en.decision] }
+  - { id: s20, target: "We have two options: the train or the bus.", native: { nl: "We hebben twee opties: de trein of de bus." }, items: [en.option] }
+  - { id: s21, target: "What's the reason for the delay?", native: { nl: "Wat is de reden voor de vertraging?" }, items: [en.reason] }
+  - { id: s22, target: "What's the purpose of your visit?", native: { nl: "Wat is het doel van je bezoek?" }, items: [en.purpose] }
+  - { id: s93, target: "The purpose of the meeting is to choose a new captain.", native: { nl: "Het doel van de vergadering is een nieuwe kapitein kiezen." }, items: [en.purpose] }
+  - { id: s23, target: "Write a short conclusion at the end of your essay.", native: { nl: "Schrijf een korte conclusie aan het eind van je opstel." }, items: [en.conclusion], acceptAlso: ["At the end of your essay write a short conclusion."] }
+  - { id: s24, target: "Is that a fact or just your opinion?", native: { nl: "Is dat een feit of alleen je mening?" }, items: [en.fact] }
+  - { id: s25, target: "Tell me every detail!", native: { nl: "Vertel me elk detail!" }, items: [en.detail] }
+  - { id: s26, target: "He has a good sense of direction.", native: { nl: "Hij heeft een goed richtingsgevoel." }, items: [en.sense] }
+  - { id: s27, target: "In reality, the hotel was much smaller than in the photos.", native: { nl: "In werkelijkheid was het hotel veel kleiner dan op de foto's." }, items: [en.reality] }
+  - { id: s28, target: "What would you do in this situation?", native: { nl: "Wat zou jij doen in deze situatie?" }, items: [en.situation] }
+  - { id: s29, target: "I had some difficulty finding the hotel.", native: { nl: "Ik had wat moeite om het hotel te vinden." }, items: [en.difficulty] }
+  - { id: s30, target: "We need to find a solution quickly.", native: { nl: "We moeten snel een oplossing vinden." }, items: [en.solution] }
+  - { id: s31, target: "Can you solve this puzzle?", native: { nl: "Kun je deze puzzel oplossen?" }, items: [en.solve] }
+  - { id: s32, target: "There's a good chance that it will rain.", native: { nl: "Er is een goede kans dat het gaat regenen." }, items: [en.chance] }
+  - { id: s33, target: "Is there any possibility of getting tickets?", native: { nl: "Is er een mogelijkheid om kaartjes te krijgen?" }, items: [en.possibility] }
+  - { id: s34, target: "One advantage of living in a city is the public transport.", native: { nl: "Een voordeel van in een stad wonen is het openbaar vervoer." }, items: [en.advantage] }
+  - { id: s35, target: "The disadvantage is that it's very expensive.", native: { nl: "Het nadeel is dat het heel duur is." }, items: [en.disadvantage] }
+  - { id: s36, target: "Never forget the importance of sleep.", native: { nl: "Vergeet nooit het belang van slaap." }, items: [en.importance] }
+  - { id: s37, target: "Is it possible to visit the castle on Sundays?", native: { nl: "Is het mogelijk om het kasteel op zondag te bezoeken?" }, items: [en.possible] }
+  - { id: s38, target: "It's impossible to sleep with this noise.", native: { nl: "Het is onmogelijk om te slapen met dit lawaai." }, items: [en.impossible] }
+  - { id: s39, target: "Could you possibly help me with these bags?", native: { nl: "Zou je me misschien met deze tassen kunnen helpen?" }, items: [en.possibly] }
+  - { id: s40, target: "It will probably snow tonight.", native: { nl: "Het gaat vannacht waarschijnlijk sneeuwen." }, items: [en.probably], acceptAlso: ["Tonight it will probably snow."] }
+  - { id: s41, target: "Maybe we can meet next week.", native: { nl: "Misschien kunnen we elkaar volgende week zien." }, items: [en.maybe] }
+  - { id: s42, target: "It's likely that the shop will be closed.", native: { nl: "Het is waarschijnlijk dat de winkel dicht is." }, items: [en.likely] }
+  - { id: s43, target: "It's unlikely that he'll come now.", native: { nl: "Het is onwaarschijnlijk dat hij nu nog komt." }, items: [en.unlikely] }
+  - { id: s44, target: "Are you certain that the door is locked?", native: { nl: "Weet je zeker dat de deur op slot is?" }, items: [en.certain] }
+  - { id: s45, target: "It will certainly rain tomorrow.", native: { nl: "Het gaat morgen zeker regenen." }, items: [en.certainly] }
+  - { id: s46, target: "I'll definitely be there on Saturday.", native: { nl: "Ik ben er zaterdag zeker." }, items: [en.definitely], acceptAlso: ["On Saturday I'll definitely be there."] }
+  - { id: s47, target: "The film was absolutely awful.", native: { nl: "De film was echt vreselijk." }, items: [en.absolutely] }
+  - { id: s48, target: "It's obvious that she's very happy.", native: { nl: "Het is duidelijk dat ze heel blij is." }, items: [en.obvious] }
+  - { id: s49, target: "Obviously, we can't go to the beach in this weather.", native: { nl: "Natuurlijk kunnen we met dit weer niet naar het strand." }, items: [en.obviously] }
+  - { id: s50, target: "Is everything clear?", native: { nl: "Is alles duidelijk?" }, items: [en.clear] }
+  - { id: s51, target: "Please speak clearly and slowly.", native: { nl: "Spreek alsjeblieft duidelijk en langzaam." }, items: [en.clearly] }
+  - { id: s52, target: "Is it true that you're moving to Spain?", native: { nl: "Is het waar dat je naar Spanje verhuist?" }, items: [en.true] }
+  - { id: s53, target: "Is that real gold?", native: { nl: "Is dat echt goud?" }, items: [en.real] }
+  - { id: s54, target: "Be realistic. We can't do it all in one day.", native: { nl: "Wees realistisch. We kunnen het niet allemaal op één dag doen." }, items: [en.realistic] }
+  - { id: s55, target: "Try to stay positive.", native: { nl: "Probeer positief te blijven." }, items: [en.positive] }
+  - { id: s56, target: "Don't be so negative about everything!", native: { nl: "Wees niet zo negatief over alles!" }, items: [en.negative] }
+  - { id: s57, target: "It's the perfect day for a picnic.", native: { nl: "Het is de perfecte dag voor een picknick." }, items: [en.perfect] }
+  - { id: s58, target: "The dress fits perfectly.", native: { nl: "De jurk past perfect." }, items: [en.perfectly] }
+  - { id: s59, target: "Let's have a proper meal, not just a sandwich.", native: { nl: "Laten we een echte maaltijd eten, niet alleen een broodje." }, items: [en.proper] }
+  - { id: s60, target: "This film isn't suitable for young children.", native: { nl: "Deze film is niet geschikt voor jonge kinderen." }, items: [en.suitable] }
+  - { id: s61, target: "Is it acceptable to wear jeans to school?", native: { nl: "Is het aanvaardbaar om een spijkerbroek naar school te dragen?" }, items: [en.acceptable] }
+  - { id: s62, target: "Your work is satisfactory, but it could be better.", native: { nl: "Je werk is voldoende, maar het kan beter." }, items: [en.satisfactory] }
+  - { id: s63, target: "The old clock in the kitchen isn't very accurate.", native: { nl: "De oude klok in de keuken loopt niet erg gelijk." }, items: [en.accurate] }
+  - { id: s64, target: "Is it necessary to book in advance?", native: { nl: "Is het nodig om vooraf te reserveren?" }, items: [en.necessary] }
+  - { id: s65, target: "Don't buy unnecessary things.", native: { nl: "Koop geen onnodige dingen." }, items: [en.unnecessary] }
+  - { id: s66, target: "Water is essential for life.", native: { nl: "Water is essentieel voor het leven." }, items: [en.essential] }
+  - { id: s67, target: "It's an unimportant detail. Let's talk about the main problem.", native: { nl: "Het is een onbelangrijk detail. Laten we het over het grootste probleem hebben." }, items: [en.unimportant] }
+  - { id: s68, target: "You only need basic computer skills for this job.", native: { nl: "Je hebt voor deze baan alleen basiskennis van computers nodig." }, items: [en.basic] }
+  - { id: s69, target: "The answer is very simple.", native: { nl: "Het antwoord is heel eenvoudig." }, items: [en.simple] }
+  - { id: s70, target: "The rules of the game are too complicated.", native: { nl: "De regels van het spel zijn te ingewikkeld." }, items: [en.complicated] }
+  - { id: s71, target: "The museum is open to the general public.", native: { nl: "Het museum is open voor het grote publiek." }, items: [en.general] }
+  - { id: s72, target: "I generally get home at about six.", native: { nl: "Over het algemeen ben ik rond zes uur thuis." }, items: [en.generally] }
+  - { id: s73, target: "Smith is a very common surname.", native: { nl: "Smith is een heel gewone achternaam." }, items: [en.common] }
+  - { id: s74, target: "It was just an ordinary day.", native: { nl: "Het was gewoon een gewone dag." }, items: [en.ordinary] }
+  - { id: s75, target: "It's normal to feel nervous before an exam.", native: { nl: "Het is normaal om zenuwachtig te zijn voor een examen." }, items: [en.normal] }
+  - { id: s76, target: "Let's meet at the usual place.", native: { nl: "Laten we op de vaste plek afspreken." }, items: [en.usual] }
+  - { id: s77, target: "It was a typical English breakfast.", native: { nl: "Het was een typisch Engels ontbijt." }, items: [en.typical] }
+  - { id: s78, target: "It was a typically British day: tea and rain.", native: { nl: "Het was een typisch Britse dag: thee en regen." }, items: [en.typically] }
+  - { id: s79, target: "My bag is similar to yours.", native: { nl: "Mijn tas lijkt op de jouwe." }, items: [en.similar] }
+  - { id: s80, target: "The boys and girls have separate changing rooms.", native: { nl: "De jongens en meisjes hebben aparte kleedkamers." }, items: [en.separate] }
+  - { id: s81, target: "The shop sells various kinds of tea.", native: { nl: "De winkel verkoopt verschillende soorten thee." }, items: [en.various] }
+  - { id: s82, target: "Her face looks familiar.", native: { nl: "Haar gezicht komt me bekend voor." }, items: [en.familiar] }
+  - { id: s83, target: "We had an unexpected visit from my uncle.", native: { nl: "We kregen een onverwacht bezoek van mijn oom." }, items: [en.unexpected] }
+  - { id: s84, target: "She has an extraordinary memory.", native: { nl: "Ze heeft een buitengewoon geheugen." }, items: [en.extraordinary] }
+  - { id: s85, target: "Will you be able to come to the party?", native: { nl: "Kun je naar het feest komen?" }, items: [en.able] }
+  - { id: s86, target: "I'm sorry, I'm unable to help you today.", native: { nl: "Het spijt me, ik kan je vandaag niet helpen." }, items: [en.unable] }
+  - { id: s87, target: "You can easily walk there in ten minutes.", native: { nl: "Je kunt er gemakkelijk in tien minuten naartoe lopen." }, items: [en.easily] }
+  - { id: s88, target: "Fortunately, nobody was hurt.", native: { nl: "Gelukkig raakte niemand gewond." }, items: [en.fortunately] }
+  - { id: s89, target: "Unfortunately, the concert was cancelled.", native: { nl: "Helaas werd het concert afgelast." }, items: [en.unfortunately] }
+  - { id: s90, target: "Luckily, I had an umbrella with me.", native: { nl: "Gelukkig had ik een paraplu bij me." }, items: [en.luckily] }
+  - { id: s91, target: "Hopefully the weather will be better tomorrow.", native: { nl: "Hopelijk is het weer morgen beter." }, items: [en.hopefully], acceptAlso: ["Hopefully tomorrow the weather will be better."] }
+  - { id: s92, target: "He can't be at school. I saw him in town five minutes ago. He must be ill.", native: { nl: "Hij kan niet op school zijn. Ik zag hem vijf minuten geleden in de stad. Hij moet wel ziek zijn." }, items: [en.certain] }
+  - { id: s94, target: "She might be at the library. It's possible.", native: { nl: "Ze is misschien in de bibliotheek. Het kan." }, items: [en.possible] }
+texts: [en-b1-t18]

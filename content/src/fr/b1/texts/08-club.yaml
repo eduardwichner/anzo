@@ -1,0 +1,35 @@
+id: fr-b1-t08
+kind: dialogue
+title: { nl: Een nieuwe sport, en: "A new sport" }
+topic: Les loisirs (deux amis choisissent une activité sportive)
+level: B1
+speakers: { A: { name: Emma }, B: { name: Tom } }
+turns:
+  - { id: fr-b1-t08-s01, speaker: A, target: "Tom, tu fais toujours du foot le mercredi ?", native: { nl: "Tom, voetbal je nog altijd op woensdag?", en: "Tom, do you still play football on Wednesdays?" } }
+  - { id: fr-b1-t08-s02, speaker: B, target: "Non, j'ai arrêté. Notre entraîneur criait tout le temps, et je n'aimais plus la compétition.", native: { nl: "Nee, ik ben gestopt. Onze trainer schreeuwde de hele tijd, en ik had geen zin meer in wedstrijden.", en: "No, I've given it up. Our coach shouted all the time, and I didn't enjoy competing any more." } }
+  - { id: fr-b1-t08-s03, speaker: A, target: "Moi, je cherche un nouveau sport. Je veux être plus active.", native: { nl: "Ik zoek een nieuwe sport. Ik wil actiever zijn.", en: "I'm looking for a new sport. I want to be more active." } }
+  - { id: fr-b1-t08-s04, speaker: B, target: "Tu connais le club de natation près de la gare ? Je suis devenu membre le mois dernier.", native: { nl: "Ken jij de zwemclub bij het station? Ik ben vorige maand lid geworden.", en: "Do you know the swimming club near the station? I became a member last month." } }
+  - { id: fr-b1-t08-s05, speaker: A, target: "La natation ? Je ne nage pas très bien, et l'eau froide me fait un peu peur.", native: { nl: "Zwemmen? Ik zwem niet zo goed, en ik ben een beetje bang voor koud water.", en: "Swimming? I don't swim very well, and cold water scares me a bit." } }
+  - { id: fr-b1-t08-s06, speaker: B, target: "Ce n'est pas un problème ! L'eau est chaude, et on apprend tout avec un entraîneur très gentil.", native: { nl: "Dat is geen probleem! Het water is warm, en je leert alles met een heel vriendelijke trainer.", en: "That's not a problem! The water is warm, and you learn everything from a very kind coach." } }
+  - { id: fr-b1-t08-s07, speaker: A, target: "Et c'est un sport individuel ou collectif ?", native: { nl: "En is het een individuele sport of een teamsport?", en: "And is it an individual sport or a team sport?" } }
+  - { id: fr-b1-t08-s08, speaker: B, target: "Les deux ! Chacun nage seul, mais on apprend beaucoup en nageant avec les autres.", native: { nl: "Allebei! Iedereen zwemt alleen, maar je leert veel door met de anderen te zwemmen.", en: "Both! Everyone swims on their own, but you learn a lot by swimming with the others." } }
+  - { id: fr-b1-t08-s09, speaker: A, target: "Ça me plaît. Il y a un entraînement pour les débutants ?", native: { nl: "Dat bevalt me. Is er een training voor beginners?", en: "I like that. Is there a training session for beginners?" } }
+  - { id: fr-b1-t08-s10, speaker: B, target: "Oui, le samedi matin. Et le premier cours est gratuit.", native: { nl: "Ja, op zaterdagochtend. En de eerste les is gratis.", en: "Yes, on Saturday mornings. And the first lesson is free." } }
+  - { id: fr-b1-t08-s11, speaker: A, target: "Super ! Je viendrai samedi. C'est un vrai défi pour moi.", native: { nl: "Super! Ik kom zaterdag. Het is een echte uitdaging voor mij.", en: "Great! I'll come on Saturday. It's a real challenge for me." } }
+items: [fr.entraineur, fr.competition, fr.actif, fr.membre, fr.debutant, fr.gratuit, fr.arreter, fr.probleme, fr.individuel, fr.collectif, fr.entrainement, fr.defi]
+questions:
+  - { id: fr-b1-t08-q1, type: mc, question: "Pourquoi Tom a-t-il arrêté le foot ?", options: ["Il n'aimait plus la compétition.", "Il s'est cassé la jambe.", "Le club a fermé."], correct: 0 }
+  - { id: fr-b1-t08-q2, type: true_false_notgiven, statement: "Tom est membre du club de natation depuis un an.", answer: false }
+  - { id: fr-b1-t08-q3, type: true_false_notgiven, statement: "Le club de natation a aussi un restaurant.", answer: not_given }
+  - { id: fr-b1-t08-q4, type: true_false_notgiven, statement: "Au début, Emma a un peu peur de l'eau froide.", answer: true }
+  - { id: fr-b1-t08-q5, type: mc, question: "Quand ont lieu les cours pour les débutants ?", options: ["Le samedi matin.", "Le mercredi soir.", "Le dimanche."], correct: 0 }
+listeningQuestions:
+  - { id: fr-b1-t08-l1, type: mc, question: "Où est le club de natation ?", options: ["Près de la gare.", "Près de l'école.", "Dans le parc."], correct: 0 }
+  - { id: fr-b1-t08-l2, type: true_false_notgiven, statement: "Le premier cours coûte dix euros.", answer: false }
+cloze:
+  - { sentence: fr-b1-t08-s01, word: fais, kind: finite_verb, hint: { nl: "faire (présent)", en: "faire (present)" } }
+  - { sentence: fr-b1-t08-s03, word: veux, kind: finite_verb, hint: { nl: "vouloir (présent)", en: "vouloir (present)" } }
+  - { sentence: fr-b1-t08-s06, word: apprend, kind: finite_verb, hint: { nl: "apprendre (présent)", en: "apprendre (present)" } }
+  - { sentence: fr-b1-t08-s08, word: nage, kind: finite_verb, hint: { nl: "nager (présent)", en: "nager (present)" } }
+  - { sentence: fr-b1-t08-s11, word: viendrai, kind: finite_verb, hint: { nl: "venir (futur)", en: "venir (future)" } }
+orderable: true

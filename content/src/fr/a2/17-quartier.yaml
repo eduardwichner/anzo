@@ -1,0 +1,31 @@
+id: fr-a2-u17
+title: { nl: Mijn wijk, en: "My neighbourhood" }
+icon: town
+topic: La ville; le quartier
+vocabulary:
+  - { target: le quartier, native: { nl: "de wijk, de buurt", en: "neighbourhood, area" }, pos: noun, gender: m }
+  - { target: le centre, native: { nl: het centrum, en: "centre" }, pos: noun, gender: m }
+  - { target: culturel, native: { nl: cultureel, en: "cultural" }, pos: adjective }
+  - { target: la mairie, native: { nl: het gemeentehuis, en: "town hall" }, pos: noun, gender: f }
+  - { target: le pont, native: { nl: de brug, en: "bridge" }, pos: noun, gender: m }
+  - { target: la banque, native: { nl: de bank (voor geld), en: "bank" }, pos: noun, gender: f }
+  - { target: le château, native: { nl: het kasteel, en: "castle" }, pos: noun, gender: m }
+  - { target: "l'église", native: { nl: de kerk, en: "church" }, pos: noun, gender: f }
+  - { target: la police, native: { nl: de politie, en: "police" }, pos: noun, gender: f }
+  - { target: "l'usine", native: { nl: de fabriek, en: "factory" }, pos: noun, gender: f }
+  - { target: interdit, native: { nl: verboden, en: "forbidden, not allowed" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Mon école est dans ce quartier.", native: { nl: "Mijn school staat in deze wijk.", en: "My school is in this neighbourhood." }, items: [fr.quartier] }
+  - { id: s02, target: "Le musée est au centre de la ville.", native: { nl: "Het museum is in het centrum van de stad.", en: "The museum is in the town centre." }, items: [fr.centre] }
+  - { id: s03, target: "Je vais à la bibliothèque du centre culturel.", native: { nl: "Ik ga naar de bibliotheek van het culturele centrum.", en: "I go to the library at the cultural centre." }, items: [fr.culturel, fr.centre] }
+  - { id: s04, target: "La mairie est sur la place.", native: { nl: "Het gemeentehuis staat op het plein.", en: "The town hall is in the square." }, items: [fr.mairie] }
+  - { id: s05, target: "Nous avons traversé un grand pont.", native: { nl: "We zijn over een grote brug gegaan.", en: "We crossed a big bridge." }, items: [fr.pont] }
+  - { id: s06, target: "Papa va à la banque.", native: { nl: "Papa gaat naar de bank.", en: "Dad is going to the bank." }, items: [fr.banque] }
+  - { id: s07, target: "Nous avons visité un vieux château.", native: { nl: "We hebben een oud kasteel bezocht.", en: "We visited an old castle." }, items: [fr.chateau] }
+  - { id: s08, target: "L'église est à côté de la mairie.", native: { nl: "De kerk staat naast het gemeentehuis.", en: "The church is next to the town hall." }, items: [fr.eglise] }
+  - { id: s09, target: "La police est devant la mairie.", native: { nl: "De politie staat voor het gemeentehuis.", en: "The police are in front of the town hall." }, items: [fr.police] }
+  - { id: s10, target: "Mon oncle travaille dans une usine.", native: { nl: "Mijn oom werkt in een fabriek.", en: "My uncle works in a factory." }, items: [fr.usine] }
+  - { id: s11, target: "C'est interdit de jouer ici.", native: { nl: "Het is verboden om hier te spelen.", en: "Playing here is not allowed." }, items: [fr.interdit] }
+lessons:
+  - { id: l01, title: { nl: In het centrum, en: "In the centre" }, vocab: [fr.quartier, fr.centre, fr.culturel, fr.mairie, fr.pont, fr.banque] }
+  - { id: l02, title: { nl: Kasteel en kerk, en: "Castle and church" }, vocab: [fr.chateau, fr.eglise, fr.police, fr.usine, fr.interdit] }

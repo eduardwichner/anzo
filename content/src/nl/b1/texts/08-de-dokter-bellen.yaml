@@ -1,0 +1,38 @@
+id: nl-b1-t08
+kind: dialogue
+title: { en: Phoning the doctor's practice }
+topic: The doctor and appointments (a phone call to the GP's practice)
+level: B1
+speakers: { A: { name: Ali }, B: { name: Els (onthaal) } }
+turns:
+  - { id: nl-b1-t08-s01, speaker: B, target: "Huisartsenpraktijk De Linde, goedemorgen, u spreekt met Els.", native: { en: "De Linde GP practice, good morning, Els speaking." } }
+  - { id: nl-b1-t08-s02, speaker: A, target: "Goedemorgen, met Ali Benali. Ik zou graag vandaag nog een afspraak maken bij dokter Claes.", native: { en: "Good morning, this is Ali Benali. I'd like to make an appointment with Dr Claes today, if possible." } }
+  - { id: nl-b1-t08-s03, speaker: B, target: "Dokter Claes heeft vandaag helaas geen plaats meer. Wat zijn uw klachten?", native: { en: "Unfortunately Dr Claes is fully booked today. What are your symptoms?" } }
+  - { id: nl-b1-t08-s04, speaker: A, target: "Ik heb al drie dagen koorts en een zware hoest. Vannacht kon ik bijna niet ademen.", native: { en: "I've had a fever and a bad cough for three days. Last night I could hardly breathe." } }
+  - { id: nl-b1-t08-s05, speaker: B, target: "Dat klinkt niet goed. Hebt u ook pijn in de borst?", native: { en: "That doesn't sound good. Do you also have pain in your chest?" } }
+  - { id: nl-b1-t08-s06, speaker: A, target: "Een beetje, vooral als ik hoest.", native: { en: "A little, especially when I cough." } }
+  - { id: nl-b1-t08-s07, speaker: B, target: "Dan wil ik u toch vandaag laten onderzoeken. Dokter Peeters kan u om kwart na vier zien. Past dat?", native: { en: "Then I do want you to be examined today. Dr Peeters can see you at a quarter past four. Is that all right?" } }
+  - { id: nl-b1-t08-s08, speaker: A, target: "Ja, dat past. Moet ik iets meebrengen?", native: { en: "Yes, that's fine. Do I need to bring anything?" } }
+  - { id: nl-b1-t08-s09, speaker: B, target: "Uw identiteitskaart, en de lijst van de medicijnen die u nu neemt.", native: { en: "Your identity card, and the list of the medicines you're taking now." } }
+  - { id: nl-b1-t08-s10, speaker: A, target: "Goed. En wat moet ik doen als het vanavond erger wordt?", native: { en: "All right. And what should I do if it gets worse this evening?" } }
+  - { id: nl-b1-t08-s11, speaker: B, target: "Na zeven uur belt u de wachtdienst. Bij ernstige problemen belt u natuurlijk 112.", native: { en: "After seven you phone the out-of-hours service. For serious problems you of course call 112." } }
+  - { id: nl-b1-t08-s12, speaker: A, target: "Dank u wel. Tot straks dan.", native: { en: "Thank you. See you later, then." } }
+glossary:
+  - { word: huisartsenpraktijk, native: { en: "GP practice" } }
+  - { word: borst, native: { en: chest } }
+items: [nl.hoest, nl.ademen, nl.wachtdienst, nl.lijst, nl.wel, nl.vooral, nl.klinken, nl.helaas]
+questions:
+  - { id: nl-b1-t08-q1, type: mc, question: "Waarom belt Ali naar de praktijk?", options: ["Hij is ziek en wil vandaag een afspraak.", "Hij wil een afspraak verplaatsen.", "Hij heeft een voorschrift nodig."], correct: 0 }
+  - { id: nl-b1-t08-q3, type: true_false_notgiven, statement: "Ali heeft pijn in de borst als hij hoest.", answer: true }
+  - { id: nl-b1-t08-q2, type: true_false_notgiven, statement: "Ali krijgt een afspraak bij dokter Claes.", answer: false }
+  - { id: nl-b1-t08-q4, type: true_false_notgiven, statement: "Ali is allergisch voor medicijnen.", answer: not_given }
+  - { id: nl-b1-t08-q5, type: mc, question: "Wie moet Ali na zeven uur bellen als het erger wordt?", options: ["De wachtdienst.", "Dokter Claes.", "Het onthaal van de praktijk."], correct: 0 }
+listeningQuestions:
+  - { id: nl-b1-t08-l1, type: mc, question: "Hoe laat is de afspraak?", options: ["Om kwart na vier.", "Om zeven uur.", "Om half vier."], correct: 0 }
+  - { id: nl-b1-t08-l2, type: true_false_notgiven, statement: "Ali moet zijn identiteitskaart meebrengen.", answer: true }
+cloze:
+  - { sentence: nl-b1-t08-s02, word: zou, kind: finite_verb, hint: { en: "zullen (conditional)" } }
+  - { sentence: nl-b1-t08-s04, word: kon, kind: finite_verb, hint: { en: "kunnen (past)" } }
+  - { sentence: nl-b1-t08-s07, word: kan, kind: finite_verb, hint: { en: "kunnen (present)" } }
+  - { sentence: nl-b1-t08-s10, word: wordt, kind: finite_verb, hint: { en: "worden (present)" } }
+orderable: true

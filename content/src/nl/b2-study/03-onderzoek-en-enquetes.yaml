@@ -1,0 +1,47 @@
+id: nl-b2-study-u03
+title: { en: Research and surveys }
+icon: chart
+topic: Surveys and questionnaires, samples, qualitative and quantitative research, reading tables and graphs, a lecture on lying; reporting results (Uit … blijkt dat …, twee op de drie) and indirect questions (vroegen hoe vaak …)
+vocabulary:
+  - { target: de enquête, native: { en: survey }, pos: noun, plural: enquêtes, avoid: [nl.vragenlijst] }
+  - { target: de vragenlijst, native: { en: questionnaire }, pos: noun, plural: vragenlijsten, noBlank: true }
+  - { target: de respondent, native: { en: respondent }, pos: noun, plural: respondenten }
+  - { target: de steekproef, native: { en: "sample (in research)" }, pos: noun, plural: steekproeven }
+  - { target: representatief, native: { en: representative }, pos: adjective }
+  - { target: de onderzoeksvraag, native: { en: research question }, pos: noun, plural: onderzoeksvragen }
+  - { target: de grafiek, native: { en: graph }, pos: noun, plural: grafieken }
+  - { target: de tabel, native: { en: table }, pos: noun, plural: tabellen }
+  - { target: anoniem, native: { en: anonymous }, pos: adjective }
+  - { target: kwalitatief, native: { en: qualitative }, pos: adjective }
+  - { target: kwantitatief, native: { en: quantitative }, pos: adjective }
+  - { target: de proefpersoon, native: { en: "test subject, participant (in an experiment)" }, pos: noun, plural: proefpersonen }
+  - { target: liegen, native: { en: to lie }, pos: verb }
+  - { target: de lezing, native: { en: "talk, lecture (to an audience)" }, pos: noun, plural: lezingen, avoid: [nl.hoorcollege] }
+  - { target: kwetsen, native: { en: "to hurt (someone's feelings)" }, pos: verb }
+  - { target: de eerlijkheid, native: { en: honesty }, pos: noun, plural: "-" }
+sentences:
+  - { id: s01, target: "De studenten vulden een enquête over hun slaap in.", native: { en: "The students filled in a survey about their sleep." }, items: [nl.enquete], acceptAlso: ["De studenten vulden een enquête in over hun slaap."] }
+  - { id: s02, target: "De vragenlijst bestaat uit twintig vragen.", native: { en: "The questionnaire consists of twenty questions." }, items: [nl.vragenlijst] }
+  - { id: s03, target: "Meer dan duizend respondenten hebben de vragenlijst ingevuld.", native: { en: "More than a thousand respondents have filled in the questionnaire." }, items: [nl.respondent] }
+  - { id: s04, target: "De onderzoekers kozen een steekproef van vijfhonderd studenten.", native: { en: "The researchers chose a sample of five hundred students." }, items: [nl.steekproef], form: { word: onderzoekers, stem: onderzoeken } }
+  - { id: s05, target: "Een steekproef van alleen jonge mensen is niet representatief.", native: { en: "A sample of only young people is not representative." }, items: [nl.representatief] }
+  - { id: s06, target: "Wat is precies je onderzoeksvraag?", native: { en: "What exactly is your research question?" }, items: [nl.onderzoeksvraag] }
+  - { id: s07, target: "Op de grafiek zie je dat het aantal studenten stijgt.", native: { en: "On the graph you can see that the number of students is rising." }, items: [nl.grafiek] }
+  - { id: s08, target: "In de tabel staan de resultaten per leeftijd.", native: { en: "The table shows the results by age." }, items: [nl.tabel], acceptAlso: ["De resultaten per leeftijd staan in de tabel."] }
+  - { id: s09, target: "De enquête is anoniem: niemand weet wat jij hebt geantwoord.", native: { en: "The survey is anonymous: nobody knows what you answered." }, items: [nl.anoniem], acceptAlso: ["De enquête is anoniem: niemand weet wat jij geantwoord hebt."] }
+  - { id: s10, target: "Met kwalitatief onderzoek wil je begrijpen waarom mensen iets doen.", native: { en: "With qualitative research you want to understand why people do something." }, items: [nl.kwalitatief] }
+  - { id: s11, target: "Kwantitatief onderzoek werkt met cijfers en veel deelnemers.", native: { en: "Quantitative research works with figures and many participants." }, items: [nl.kwantitatief] }
+  - { id: s12, target: "Elke proefpersoon kreeg tien euro voor het experiment.", native: { en: "Each participant got ten euros for the experiment." }, items: [nl.proefpersoon], acceptAlso: ["Voor het experiment kreeg elke proefpersoon tien euro."] }
+  - { id: s13, target: "Volgens het onderzoek liegen we gemiddeld twee keer per dag.", native: { en: "According to the research we lie on average twice a day." }, items: [nl.liegen] }
+  - { id: s14, target: "Gisteren heeft hij tegen zijn ouders gelogen.", native: { en: "Yesterday he lied to his parents." }, items: [nl.liegen], acceptAlso: ["Hij heeft gisteren tegen zijn ouders gelogen."] }
+  - { id: s15, target: "Na de lezing konden de studenten vragen stellen.", native: { en: "After the talk the students could ask questions." }, items: [nl.lezing], acceptAlso: ["De studenten konden na de lezing vragen stellen."] }
+  - { id: s16, target: "Veel mensen liegen om iemand anders niet te kwetsen.", native: { en: "Many people lie so as not to hurt someone else." }, items: [nl.kwetsen, nl.liegen] }
+  - { id: s17, target: "In een vriendschap is eerlijkheid het belangrijkste.", native: { en: "In a friendship honesty is the most important thing." }, items: [nl.eerlijkheid], form: { word: eerlijkheid, stem: eerlijk }, acceptAlso: ["Eerlijkheid is in een vriendschap het belangrijkste."] }
+  - { id: s18, target: "Uit de enquête blijkt dat twee op de drie studenten te weinig slapen.", native: { en: "The survey shows that two out of three students sleep too little." }, items: [nl.enquete], build: true, acceptAlso: ["Dat twee op de drie studenten te weinig slapen, blijkt uit de enquête."] }
+  - { id: s19, target: "De onderzoekers vroegen hoe vaak de proefpersonen per week logen.", native: { en: "The researchers asked how often the participants lied per week." }, items: [nl.proefpersoon, nl.liegen], build: true, acceptAlso: ["Hoe vaak de proefpersonen per week logen, vroegen de onderzoekers."] }
+  - { id: s20, target: "Ze vulde de vragenlijst meteen in.", native: { en: "She filled in the questionnaire straight away." }, items: [nl.vragenlijst], finite: { word: vulde, hint: { en: "invullen (past)" } } }
+transforms:
+  - { id: x01, from: "Volgens de enquête slapen de meeste studenten te weinig.", key: blijkt, gapped: "Uit de enquête ___ studenten te weinig slapen.", answers: ["blijkt dat de meeste"], items: [nl.enquete] }
+  - { id: x02, from: "\"Hoeveel keer per week liegen jullie?\", vroegen de onderzoekers aan de studenten.", key: vaak, gapped: "De onderzoekers vroegen de studenten ___ per week logen.", answers: ["hoe vaak ze", "hoe vaak zij"], items: [nl.liegen] }
+  - { id: x03, from: "\"Is liegen altijd slecht?\", vroeg een student.", key: of, gapped: "Een student vroeg ___ altijd slecht is.", answers: ["of liegen"], items: [nl.liegen] }
+texts: [nl-b2-study-t03]

@@ -1,0 +1,57 @@
+id: en-a1-u05
+title: { nl: In de stad }
+icon: town
+topic: Places and directions
+vocabulary:
+  - { target: city, native: { nl: "grote stad" }, pos: noun, avoid: [en.town] }
+  - { target: town, native: { nl: "stad, stadje" }, pos: noun }
+  - { target: centre, native: { nl: "midden, centrum" }, pos: noun, avoid: [en.city-centre, en.town-centre] }
+  - { target: city centre, native: { nl: centrum (van een grote stad) }, pos: noun, avoid: [en.town-centre] }
+  - { target: town centre, native: { nl: centrum (van een stadje) }, pos: noun }
+  - { target: building, native: { nl: gebouw }, pos: noun }
+  - { target: square, native: { nl: "plein, vierkant" }, pos: noun }
+  - { target: market, native: { nl: markt }, pos: noun }
+  - { target: supermarket, native: { nl: supermarkt }, pos: noun, avoid: [en.market] }
+  - { target: shopping centre, native: { nl: winkelcentrum }, pos: noun }
+  - { target: café, native: { nl: "lunchroom, café" }, pos: noun }
+  - { target: library, native: { nl: bibliotheek }, pos: noun }
+  - { target: cinema, native: { nl: bioscoop }, pos: noun }
+  - { target: circus, native: { nl: circus }, pos: noun }
+  - { target: funfair, native: { nl: kermis }, pos: noun }
+  - { target: sports centre, native: { nl: sportcentrum }, pos: noun }
+  - { target: swimming pool, native: { nl: zwembad }, pos: noun }
+  - { target: station, native: { nl: station }, pos: noun }
+  - { target: bus station, native: { nl: busstation }, pos: noun, avoid: [en.station] }
+  - { target: bus stop, native: { nl: bushalte }, pos: noun }
+  - { target: car park, native: { nl: parkeerplaats }, pos: noun }
+  - { target: road, native: { nl: weg }, pos: noun }
+  - { target: map, native: { nl: "kaart, plattegrond" }, pos: noun }
+sentences:
+  - { id: s01, target: "This city is very big.", native: { nl: "Deze stad is heel groot." }, items: [en.city] }
+  - { id: s02, target: "We live in a small town.", native: { nl: "Wij wonen in een klein stadje." }, items: [en.town] }
+  - { id: s03, target: "The shop is in the centre of the village.", native: { nl: "De winkel is in het midden van het dorp." }, items: [en.centre] }
+  - { id: s04, target: "Let's go to the city centre.", native: { nl: "Laten we naar het centrum gaan." }, items: [en.city-centre] }
+  - { id: s05, target: "There are a lot of shops in the town centre.", native: { nl: "Er zijn veel winkels in het centrum." }, items: [en.town-centre] }
+  - { id: s06, target: "That building is very tall.", native: { nl: "Dat gebouw is heel hoog." }, items: [en.building] }
+  - { id: s07, target: "There's a market in the square.", native: { nl: "Er is een markt op het plein." }, items: [en.square, en.market], acceptAlso: ["There is a market in the square."] }
+  - { id: s08, target: "Draw a square.", native: { nl: "Teken een vierkant." }, items: [en.square] }
+  - { id: s09, target: "We buy fruit at the market.", native: { nl: "Wij kopen fruit op de markt." }, items: [en.market] }
+  - { id: s10, target: "Mum is at the supermarket.", native: { nl: "Mama is in de supermarkt." }, items: [en.supermarket] }
+  - { id: s11, target: "The shopping centre is closed on Sunday.", native: { nl: "Het winkelcentrum is op zondag dicht." }, items: [en.shopping-centre] }
+  - { id: s12, target: "Let's have a drink in the café.", native: { nl: "Laten we iets drinken in het café." }, items: [en.cafe] }
+  - { id: s13, target: "I got a book from the library.", native: { nl: "Ik heb een boek uit de bibliotheek gehaald." }, items: [en.library] }
+  - { id: s14, target: "We watched a film at the cinema.", native: { nl: "We hebben een film gekeken in de bioscoop." }, items: [en.cinema] }
+  - { id: s15, target: "There's a funny clown at the circus.", native: { nl: "Er is een grappige clown in het circus." }, items: [en.circus], acceptAlso: ["There is a funny clown at the circus."] }
+  - { id: s16, target: "We went to the funfair yesterday.", native: { nl: "We zijn gisteren naar de kermis geweest." }, items: [en.funfair], acceptAlso: ["Yesterday we went to the funfair."] }
+  - { id: s17, target: "I play basketball at the sports centre.", native: { nl: "Ik speel basketbal in het sportcentrum." }, items: [en.sports-centre] }
+  - { id: s18, target: "The swimming pool is near my house.", native: { nl: "Het zwembad is dicht bij mijn huis." }, items: [en.swimming-pool] }
+  - { id: s19, target: "The train is at the station.", native: { nl: "De trein staat op het station." }, items: [en.station] }
+  - { id: s20, target: "Where's the bus station?", native: { nl: "Waar is het busstation?" }, items: [en.bus-station], acceptAlso: ["Where is the bus station?"] }
+  - { id: s21, target: "Wait at the bus stop.", native: { nl: "Wacht bij de bushalte." }, items: [en.bus-stop] }
+  - { id: s22, target: "Our car is in the car park.", native: { nl: "Onze auto staat op de parkeerplaats." }, items: [en.car-park] }
+  - { id: s23, target: "Don't play on the road!", native: { nl: "Speel niet op de weg!" }, items: [en.road], acceptAlso: ["Do not play on the road!"] }
+  - { id: s24, target: "Can you show me on the map?", native: { nl: "Kun je het me op de kaart laten zien?" }, items: [en.map] }
+lessons:
+  - { id: l01, title: { nl: In het centrum }, vocab: [en.city, en.town, en.centre, en.city-centre, en.town-centre, en.building, en.square, en.market] }
+  - { id: l02, title: { nl: Winkelen en uitgaan }, vocab: [en.supermarket, en.shopping-centre, en.cafe, en.library, en.cinema, en.circus, en.funfair, en.sports-centre] }
+  - { id: l03, title: { nl: "Waar is het station?" }, vocab: [en.swimming-pool, en.station, en.bus-station, en.bus-stop, en.car-park, en.road, en.map] }

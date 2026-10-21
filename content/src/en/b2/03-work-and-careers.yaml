@@ -1,0 +1,71 @@
+id: en-b2-u03
+title: { nl: Werk en loopbaan }
+icon: work
+topic: Applying for jobs, internships and apprenticeships, working conditions, being self-employed; the future continuous and the future perfect (will be working, will have finished)
+vocabulary:
+  - { target: recruit, native: { nl: "aanwerven, rekruteren" }, pos: verb }
+  - { target: vacancy, native: { nl: "vacature" }, pos: noun }
+  - { target: applicant, native: { nl: "sollicitant, kandidaat" }, pos: noun, avoid: [en.candidate] }
+  - { target: internship, native: { nl: "stage (bij een bedrijf)" }, pos: noun, avoid: [en.apprenticeship] }
+  - { target: apprenticeship, native: { nl: "leerlingplaats, opleiding in de praktijk" }, pos: noun, avoid: [en.internship] }
+  - { target: freelance, native: { nl: "als freelancer, freelance" }, pos: adjective, noBlank: true }
+  - { target: self-employed, native: { nl: "zelfstandig (met een eigen zaak)" }, pos: adjective }
+  - { target: income, native: { nl: inkomen }, pos: noun, avoid: [en.salary, en.wage] }
+  - { target: promotion, native: { nl: "promotie, bevordering" }, pos: noun }
+  - { target: resign, native: { nl: "ontslag nemen" }, pos: verb }
+  - { target: supervisor, native: { nl: "leidinggevende, begeleider" }, pos: noun }
+  - { target: workplace, native: { nl: "werkplek" }, pos: noun }
+  - { target: workload, native: { nl: "werkdruk, werklast" }, pos: noun }
+  - { target: overtime, native: { nl: "overuren" }, pos: noun }
+  - { target: shift, native: { nl: "ploeg, dienst (werktijd)" }, pos: noun }
+  - { target: commute, native: { nl: "pendelen (naar het werk)" }, pos: verb }
+  - { target: flexible, native: { nl: flexibel }, pos: adjective }
+  - { target: flexibility, native: { nl: flexibiliteit }, pos: noun }
+  - { target: remote, native: { nl: "op afstand (bijvoorbeeld van thuis uit)" }, pos: adjective }
+  - { target: responsibility, native: { nl: verantwoordelijkheid }, pos: noun }
+  - { target: demanding, native: { nl: "veeleisend, zwaar" }, pos: adjective }
+  - { target: rewarding, native: { nl: "dankbaar, voldoening gevend" }, pos: adjective }
+  - { target: skilled, native: { nl: "geschoold, vakkundig" }, pos: adjective }
+  - { target: shortage, native: { nl: tekort }, pos: noun }
+  - { target: reference, native: { nl: "referentie, aanbeveling" }, pos: noun }
+  - { target: entrepreneur, native: { nl: "ondernemer" }, pos: noun }
+  - { target: take on, native: { nl: "aannemen (personeel, werk)" }, pos: phrase, avoid: [en.assume] }
+  - { target: take over, native: { nl: "overnemen" }, pos: phrase }
+  - { target: be in charge of, native: { nl: "de leiding hebben over, verantwoordelijk zijn voor" }, pos: phrase }
+sentences:
+  - { id: s01, target: "The hospital is trying to recruit more nurses.", native: { nl: "Het ziekenhuis probeert meer verpleegkundigen aan te werven." }, items: [en.recruit] }
+  - { id: s02, target: "There is a vacancy for a waiter at the new cafe.", native: { nl: "Er is een vacature voor een ober in het nieuwe café." }, items: [en.vacancy] }
+  - { id: s03, target: "More than fifty applicants sent in their CVs for the job.", native: { nl: "Meer dan vijftig sollicitanten stuurden hun cv voor de baan." }, items: [en.applicant] }
+  - { id: s04, target: "She did a three-month internship at a design company.", native: { nl: "Ze liep drie maanden stage bij een ontwerpbureau." }, items: [en.internship] }
+  - { id: s05, target: "An apprenticeship lets you earn money while you learn a trade.", native: { nl: "Met een leerlingplaats verdien je geld terwijl je een vak leert." }, items: [en.apprenticeship] }
+  - { id: s06, target: "My uncle works as a freelance photographer.", native: { nl: "Mijn oom werkt als freelance fotograaf." }, items: [en.freelance] }
+  - { id: s07, target: "Being self-employed means you are your own boss.", native: { nl: "Zelfstandig zijn betekent dat je je eigen baas bent." }, items: [en.self-employed] }
+  - { id: s08, target: "Their income is not enough to pay the rent.", native: { nl: "Hun inkomen is niet genoeg om de huur te betalen." }, items: [en.income] }
+  - { id: s09, target: "After two years he got a promotion and a higher salary.", native: { nl: "Na twee jaar kreeg hij promotie en een hoger salaris." }, items: [en.promotion], acceptAlso: ["He got a promotion and a higher salary after two years."] }
+  - { id: s10, target: "She resigned because she wanted to start her own business.", native: { nl: "Ze nam ontslag omdat ze haar eigen zaak wilde beginnen." }, items: [en.resign], finite: { word: resigned, hint: { nl: "resign (verleden tijd)" } } }
+  - { id: s11, target: "Ask your supervisor if you can leave early.", native: { nl: "Vraag je leidinggevende of je vroeger weg mag." }, items: [en.supervisor] }
+  - { id: s12, target: "A safe workplace is the employer's responsibility.", native: { nl: "Een veilige werkplek is de verantwoordelijkheid van de werkgever." }, items: [en.workplace, en.responsibility] }
+  - { id: s13, target: "Her workload has doubled since her colleague left.", native: { nl: "Haar werkdruk is verdubbeld sinds haar collega vertrokken is." }, items: [en.workload] }
+  - { id: s14, target: "Do you get paid for overtime?", native: { nl: "Krijg je overuren betaald?" }, items: [en.overtime] }
+  - { id: s15, target: "Nurses often work night shifts.", native: { nl: "Verpleegkundigen werken vaak nachtdiensten." }, items: [en.shift] }
+  - { id: s16, target: "Thousands of people commute to the city every day.", native: { nl: "Duizenden mensen pendelen elke dag naar de stad." }, items: [en.commute] }
+  - { id: s17, target: "I'd like a job with flexible working hours.", native: { nl: "Ik zou graag een baan met flexibele werkuren hebben." }, items: [en.flexible] }
+  - { id: s18, target: "Working from home gives you more flexibility.", native: { nl: "Thuiswerken geeft je meer flexibiliteit." }, items: [en.flexibility], form: { word: flexibility, stem: flexible } }
+  - { id: s19, target: "More and more companies offer remote working.", native: { nl: "Steeds meer bedrijven bieden thuiswerken aan." }, items: [en.remote] }
+  - { id: s20, target: "Being a teacher is demanding but very rewarding.", native: { nl: "Leraar zijn is zwaar, maar het geeft veel voldoening." }, items: [en.demanding, en.rewarding] }
+  - { id: s21, target: "Because of the hot summer, there was a water shortage.", native: { nl: "Door de hete zomer was er een watertekort." }, items: [en.shortage] }
+  - { id: s31, target: "My grandfather is very skilled at repairing old furniture.", native: { nl: "Mijn opa is heel vakkundig in het herstellen van oude meubels." }, items: [en.skilled] }
+  - { id: s22, target: "My former teacher wrote me a reference.", native: { nl: "Mijn vroegere leraar schreef een aanbeveling voor me." }, items: [en.reference] }
+  - { id: s23, target: "At nineteen, she was already a successful entrepreneur.", native: { nl: "Op haar negentiende was ze al een succesvolle ondernemer." }, items: [en.entrepreneur], acceptAlso: ["She was already a successful entrepreneur at nineteen."] }
+  - { id: s24, target: "The cafe is taking on two new staff for the summer.", native: { nl: "Het café neemt voor de zomer twee nieuwe medewerkers aan." }, items: [en.take-on] }
+  - { id: s25, target: "When her father retired, she took over the family business.", native: { nl: "Toen haar vader met pensioen ging, nam ze het familiebedrijf over." }, items: [en.take-over], acceptAlso: ["She took over the family business when her father retired."] }
+  - { id: s26, target: "Who is in charge of the new project?", native: { nl: "Wie heeft de leiding over het nieuwe project?" }, items: [en.be-in-charge-of] }
+  - { id: s27, target: "This time next year I will be working in London.", native: { nl: "Volgend jaar om deze tijd werk ik in Londen." }, items: [en.commute], build: true, acceptAlso: ["I will be working in London this time next year."] }
+  - { id: s28, target: "By the end of the internship, I will have learnt a lot.", native: { nl: "Tegen het einde van de stage zal ik veel geleerd hebben." }, items: [en.internship], build: true, acceptAlso: ["I will have learnt a lot by the end of the internship."] }
+  - { id: s29, target: "Will you be needing a reference from your last employer?", native: { nl: "Heb je straks een referentie van je laatste werkgever nodig?" }, items: [en.reference] }
+  - { id: s30, target: "By 2030, robots will have taken over many factory jobs.", native: { nl: "Tegen 2030 zullen robots veel fabrieksbanen hebben overgenomen." }, items: [en.take-over] }
+transforms:
+  - { id: x01, from: "I hope to finish my apprenticeship before I'm twenty.", key: finished, gapped: "I hope I ___ apprenticeship before I'm twenty.", answers: ["will have finished my", "have finished my"], items: [en.apprenticeship] }
+  - { id: x02, from: "She is the manager of the sales team.", key: charge, gapped: "She ___ the sales team.", answers: ["is in charge of"], items: [en.be-in-charge-of] }
+  - { id: x03, from: "He left his job because the hours were too long.", key: resigned, gapped: "He ___ the hours were too long.", answers: ["resigned because", "resigned from his job because", "resigned as", "resigned since", "resigned from his job as"], items: [en.resign] }
+texts: [en-b2-t03]

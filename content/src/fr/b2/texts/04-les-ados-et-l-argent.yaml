@@ -1,0 +1,46 @@
+id: fr-b2-t04
+kind: reading
+title: { nl: Tieners en geld, en: "Teenagers and money" }
+topic: Argent et consommation (un article dans un magazine pour jeunes)
+level: B2
+paragraphs:
+  - - { id: fr-b2-t04-s01, target: "Quand avez-vous payé avec des pièces pour la dernière fois ?", native: { nl: "Wanneer heb je voor het laatst met munten betaald?", en: "When did you last pay with coins?" } }
+    - { id: fr-b2-t04-s02, target: "Pour beaucoup d'adolescents, la réponse est « je ne sais plus » : la plupart de leurs dépenses se font avec une carte ou un téléphone.", native: { nl: "Voor veel tieners is het antwoord \"ik weet het niet meer\": de meeste van hun uitgaven gebeuren met een kaart of een telefoon.", en: "For many teenagers the answer is \"I can't remember\": most of their spending is done with a card or a phone." } }
+  - - { id: fr-b2-t04-s03, target: "Une enquête récente montre les effets de ces nouvelles habitudes.", native: { nl: "Een recente enquête toont de gevolgen van deze nieuwe gewoonten.", en: "A recent survey shows the effects of these new habits." } }
+    - { id: fr-b2-t04-s04, target: "Près de la moitié des jeunes interrogés disent avoir déjà manqué d'argent avant la fin du mois.", native: { nl: "Bijna de helft van de ondervraagde jongeren zegt al eens geld tekort te zijn gekomen voor het einde van de maand.", en: "Nearly half of the young people questioned say they have run out of money before the end of the month at least once." } }
+    - { id: fr-b2-t04-s05, target: "Un sur trois reconnaît faire des achats impulsifs, et beaucoup ne savent pas combien leur coûtent leurs abonnements.", native: { nl: "Een op de drie geeft toe impulsieve aankopen te doen, en velen weten niet hoeveel hun abonnementen kosten.", en: "One in three admits to making impulsive purchases, and many don't know how much their subscriptions cost them." } }
+  - - { id: fr-b2-t04-s06, target: "Pourquoi le moyen de paiement change-t-il nos habitudes ?", native: { nl: "Waarom verandert de manier van betalen onze gewoonten?", en: "Why does the way we pay change our habits?" } }
+    - { id: fr-b2-t04-s07, target: "Selon les chercheurs, ceux qui paient en liquide dépensent moins, parce que donner des billets, c'est un peu comme perdre quelque chose.", native: { nl: "Volgens de onderzoekers geven mensen die cash betalen minder uit, omdat biljetten afgeven een beetje is als iets verliezen.", en: "According to researchers, people who pay in cash spend less, because handing over notes is a bit like losing something." } }
+    - { id: fr-b2-t04-s08, target: "Avec le paiement sans contact, par contre, on voit à peine l'argent partir.", native: { nl: "Met contactloos betalen zie je het geld daarentegen nauwelijks vertrekken.", en: "With contactless payment, on the other hand, you hardly see the money go." } }
+  - - { id: fr-b2-t04-s09, target: "Que faire, alors ?", native: { nl: "Wat kun je dan doen?", en: "So what can you do?" } }
+    - { id: fr-b2-t04-s10, target: "On peut prendre quelques habitudes simples : faire un budget au début du mois, vérifier ses dépenses chaque semaine et attendre vingt-quatre heures avant un gros achat.", native: { nl: "Je kunt een paar eenvoudige gewoonten aannemen: aan het begin van de maand een budget maken, elke week je uitgaven controleren en vierentwintig uur wachten voor een grote aankoop.", en: "You can adopt a few simple habits: make a budget at the start of the month, check your spending every week and wait twenty-four hours before a big purchase." } }
+    - { id: fr-b2-t04-s11, target: "Souvent, la tentation disparaît d'elle-même.", native: { nl: "Vaak verdwijnt de verleiding vanzelf.", en: "Often the temptation disappears by itself." } }
+    - { id: fr-b2-t04-s12, target: "Comme le dit une lycéenne de dix-sept ans : « J'aurais aimé qu'on me dise plus tôt que les petites dépenses finissent par coûter cher. »", native: { nl: "Zoals een scholiere van zeventien het zegt: \"Ik had graag gehad dat iemand me eerder had gezegd dat kleine uitgaven uiteindelijk duur uitvallen.\"", en: "As one seventeen-year-old lycée pupil puts it: \"I wish someone had told me earlier that small expenses end up costing a lot.\"" } }
+glossary:
+  - { word: lycéenne, native: { nl: "scholiere (middelbare school)", en: "lycée pupil (female)" } }
+  - { word: pièces, native: { nl: "munten (une pièce)", en: "coins (une pièce)" } }
+  - { word: billets, native: { nl: "biljetten (un billet)", en: "notes (un billet)" } }
+items: [fr.depense, fr.enquete, fr.achat, fr.impulsif, fr.abonnement, fr.paiement, fr.sans-contact, fr.budget, fr.tentation, fr.reconnaitre, fr.chercheur]
+gapped:
+  gaps: [fr-b2-t04-s03, fr-b2-t04-s06, fr-b2-t04-s09]
+  extra:
+    - { id: fr-b2-t04-x1, target: "Les pièces de monnaie vont bientôt disparaître.", native: { nl: "Muntstukken zullen binnenkort verdwijnen.", en: "Coins will soon disappear." } }
+openCloze:
+  - { sentence: fr-b2-t04-s04, word: avant, acceptAlso: [à, vers] }
+  - { sentence: fr-b2-t04-s07, word: ceux }
+  - { sentence: fr-b2-t04-s08, word: par }
+  - { sentence: fr-b2-t04-s05, word: sur }
+wordForm:
+  - { sentence: fr-b2-t04-s02, word: réponse, stem: répondre }
+  - { sentence: fr-b2-t04-s07, word: chercheurs, stem: chercher }
+  - { sentence: fr-b2-t04-s12, word: lycéenne, stem: lycée }
+questions:
+  - { id: fr-b2-t04-q1, type: summary, options: ["Avec les paiements par carte et par téléphone, les jeunes voient moins ce qu'ils dépensent, mais quelques habitudes simples peuvent les aider.", "Les jeunes d'aujourd'hui dépensent mieux leur argent que leurs parents, parce qu'ils vérifient leur compte sur leur téléphone chaque jour.", "Les banques vont bientôt refuser le paiement en liquide pour protéger les jeunes."], correct: 0 }
+  - { id: fr-b2-t04-q2, type: mc, question: "Pourquoi ceux qui paient en liquide dépensent-ils moins ?", options: ["Donner des billets, c'est un peu comme perdre quelque chose.", "Les magasins font une réduction.", "Le paiement en liquide prend plus de temps."], correct: 0 }
+  - { id: fr-b2-t04-q3, type: true_false_notgiven, statement: "La plupart des jeunes interrogés ont un travail le week-end.", answer: not_given }
+  - { id: fr-b2-t04-q4, type: true_false_notgiven, statement: "Près de la moitié des jeunes ont déjà manqué d'argent avant la fin du mois.", answer: true }
+  - { id: fr-b2-t04-q5, type: true_false_notgiven, statement: "Le texte conseille d'acheter tout de suite ce qu'on veut.", answer: false }
+listeningQuestions:
+  - { id: fr-b2-t04-l1, type: complete, statement: "Le texte conseille de faire un ___ au début du mois.", answers: ["budget"] }
+  - { id: fr-b2-t04-l2, type: mc, question: "Quel âge a la lycéenne à la fin du texte ?", options: ["Dix-sept ans.", "Quinze ans.", "Dix-neuf ans."], correct: 0 }
+orderable: false

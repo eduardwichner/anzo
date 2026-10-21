@@ -1,0 +1,67 @@
+id: en-b2-u16
+title: { nl: Samenleving en vrijwilligerswerk }
+icon: heart
+topic: Volunteering and charity, helping people in need, equality and diversity in the community; mixed conditionals (If I had …, I would now …; If I were …, I would have …)
+vocabulary:
+  - { target: donate, native: { nl: "doneren, schenken" }, pos: verb }
+  - { target: donation, native: { nl: "gift, donatie" }, pos: noun }
+  - { target: fundraising, native: { nl: "geldinzameling" }, pos: noun }
+  - { target: voluntary, native: { nl: "vrijwillig" }, pos: adjective }
+  - { target: homeless, native: { nl: dakloos }, pos: adjective }
+  - { target: food bank, native: { nl: voedselbank }, pos: noun }
+  - { target: disability, native: { nl: "beperking, handicap" }, pos: noun }
+  - { target: vulnerable, native: { nl: kwetsbaar }, pos: adjective }
+  - { target: inequality, native: { nl: ongelijkheid }, pos: noun }
+  - { target: equality, native: { nl: gelijkheid }, pos: noun }
+  - { target: minority, native: { nl: minderheid }, pos: noun }
+  - { target: diversity, native: { nl: diversiteit }, pos: noun, noBlank: true }
+  - { target: inclusive, native: { nl: "inclusief, waar iedereen welkom is" }, pos: adjective }
+  - { target: discrimination, native: { nl: discriminatie }, pos: noun, noBlank: true }
+  - { target: prejudice, native: { nl: vooroordeel }, pos: noun, avoid: [en.bias] }
+  - { target: tolerant, native: { nl: verdraagzaam }, pos: adjective }
+  - { target: citizen, native: { nl: burger }, pos: noun }
+  - { target: council, native: { nl: "gemeenteraad, gemeente" }, pos: noun }
+  - { target: petition, native: { nl: petitie }, pos: noun, noBlank: true }
+  - { target: initiative, native: { nl: initiatief }, pos: noun, noBlank: true }
+  - { target: contribute, native: { nl: "bijdragen" }, pos: verb }
+  - { target: contribution, native: { nl: bijdrage }, pos: noun }
+  - { target: make a difference, native: { nl: "het verschil maken" }, pos: phrase }
+  - { target: commitment, native: { nl: "inzet, toewijding" }, pos: noun }
+  - { target: beneficial, native: { nl: "gunstig, nuttig" }, pos: adjective }
+  - { target: community centre, native: { nl: buurthuis }, pos: noun }
+sentences:
+  - { id: s01, target: "We donated our old clothes to a charity shop.", native: { nl: "We schonken onze oude kleren aan een kringwinkel." }, items: [en.donate] }
+  - { id: s02, target: "Every donation, however small, helps.", native: { nl: "Elke gift, hoe klein ook, helpt." }, items: [en.donation], form: { word: donation, stem: donate } }
+  - { id: s03, target: "The school's fundraising day raised two thousand pounds.", native: { nl: "De inzameldag van de school bracht tweeduizend pond op." }, items: [en.fundraising] }
+  - { id: s04, target: "The work is voluntary, so nobody gets paid.", native: { nl: "Het werk is vrijwillig, dus niemand wordt betaald." }, items: [en.voluntary] }
+  - { id: s05, target: "Volunteers bring hot meals to homeless people every night.", native: { nl: "Vrijwilligers brengen elke avond warme maaltijden naar dakloze mensen." }, items: [en.homeless] }
+  - { id: s06, target: "More families need help from the food bank than last year.", native: { nl: "Meer gezinnen hebben hulp van de voedselbank nodig dan vorig jaar." }, items: [en.food-bank] }
+  - { id: s07, target: "People with a disability should have the same chances at work.", native: { nl: "Mensen met een beperking zouden op het werk dezelfde kansen moeten hebben." }, items: [en.disability] }
+  - { id: s08, target: "Elderly people who live alone are often the most vulnerable.", native: { nl: "Ouderen die alleen wonen, zijn vaak het kwetsbaarst." }, items: [en.vulnerable] }
+  - { id: s09, target: "The gap between rich and poor is a form of inequality.", native: { nl: "De kloof tussen rijk en arm is een vorm van ongelijkheid." }, items: [en.inequality] }
+  - { id: s10, target: "The campaign fights for equality between men and women.", native: { nl: "De campagne vecht voor gelijkheid tussen mannen en vrouwen." }, items: [en.equality], form: { word: equality, stem: equal } }
+  - { id: s11, target: "Minorities don't always get a voice on television.", native: { nl: "Minderheden komen niet altijd aan het woord op televisie." }, items: [en.minority] }
+  - { id: s12, target: "Our class is proud of its diversity: we speak twelve languages.", native: { nl: "Onze klas is trots op haar diversiteit: we spreken twaalf talen." }, items: [en.diversity] }
+  - { id: s13, target: "The sports club wants to be an inclusive place for children of all backgrounds.", native: { nl: "De sportclub wil open staan voor kinderen van elke achtergrond." }, items: [en.inclusive] }
+  - { id: s14, target: "Discrimination at work is against the law.", native: { nl: "Discriminatie op het werk is tegen de wet." }, items: [en.discrimination] }
+  - { id: s15, target: "Getting to know people is the best way to fight prejudice.", native: { nl: "Mensen leren kennen is de beste manier om vooroordelen te bestrijden." }, items: [en.prejudice] }
+  - { id: s16, target: "A tolerant society accepts people who are different.", native: { nl: "Een verdraagzame samenleving aanvaardt mensen die anders zijn." }, items: [en.tolerant] }
+  - { id: s17, target: "Every adult citizen has the right to vote.", native: { nl: "Elke volwassen burger heeft stemrecht." }, items: [en.citizen] }
+  - { id: s18, target: "The council has promised to repair the playground.", native: { nl: "De gemeente heeft beloofd de speeltuin te herstellen." }, items: [en.council] }
+  - { id: s19, target: "Over five hundred people signed the petition.", native: { nl: "Meer dan vijfhonderd mensen ondertekenden de petitie." }, items: [en.petition] }
+  - { id: s20, target: "The idea for the park was a local initiative.", native: { nl: "Het idee voor het park was een plaatselijk initiatief." }, items: [en.initiative] }
+  - { id: s21, target: "Everyone can contribute something, even if it is only an hour a week.", native: { nl: "Iedereen kan iets bijdragen, ook al is het maar een uur per week." }, items: [en.contribute] }
+  - { id: s22, target: "Her contribution to the project was enormous.", native: { nl: "Haar bijdrage aan het project was enorm." }, items: [en.contribution], form: { word: contribution, stem: contribute } }
+  - { id: s23, target: "You don't have to be rich to make a difference.", native: { nl: "Je hoeft niet rijk te zijn om het verschil te maken." }, items: [en.make-a-difference] }
+  - { id: s24, target: "Volunteering requires time and commitment.", native: { nl: "Vrijwilligerswerk vraagt tijd en inzet." }, items: [en.commitment] }
+  - { id: s25, target: "Helping others is beneficial for your own mental health.", native: { nl: "Anderen helpen is goed voor je eigen geestelijke gezondheid." }, items: [en.beneficial] }
+  - { id: s26, target: "The community centre offers free English lessons.", native: { nl: "Het buurthuis biedt gratis Engelse lessen aan." }, items: [en.community-centre] }
+  - { id: s27, target: "If I weren't so busy, I would have joined the project last year.", native: { nl: "Als ik niet zo druk bezig was, was ik vorig jaar bij het project gekomen." }, items: [en.commitment], build: true }
+  - { id: s28, target: "If she hadn't volunteered at the shelter, she wouldn't be a nurse now.", native: { nl: "Als ze geen vrijwilligerswerk in het opvangcentrum had gedaan, was ze nu geen verpleegkundige." }, items: [en.voluntary], build: true }
+  - { id: s29, target: "If the council had listened to the residents, the park would still be open today.", native: { nl: "Als de gemeente naar de bewoners had geluisterd, was het park vandaag nog open." }, items: [en.council] }
+  - { id: s30, target: "She donates part of her pocket money every month.", native: { nl: "Ze schenkt elke maand een deel van haar zakgeld weg." }, items: [en.donate], finite: { word: donates, hint: { nl: "donate (tegenwoordige tijd)" } } }
+transforms:
+  - { id: x01, from: "I didn't go to the meeting, so I don't know what was decided.", key: would, gapped: "If I had gone to the meeting, I ___ what was decided.", answers: ["would know", "would know now", "would now know"], items: [en.council] }
+  - { id: x02, from: "Their help changed a lot for the families.", key: difference, gapped: "Their help ___ for the families.", answers: ["made a big difference", "made a real difference", "made a difference", "made a huge difference", "made a lot of difference", "made a great difference"], items: [en.make-a-difference] }
+  - { id: x03, from: "Students give money to the food bank every year.", key: donate, gapped: "Every year students ___ the food bank.", answers: ["donate money to", "donate to"], items: [en.donate] }
+texts: [en-b2-t16]

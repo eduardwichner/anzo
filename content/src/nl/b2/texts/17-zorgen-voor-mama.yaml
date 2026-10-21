@@ -1,0 +1,44 @@
+id: nl-b2-t17
+kind: dialogue
+title: { en: Looking after Mum }
+topic: Family and relationships (a brother and sister talk about caring for their mother)
+level: B2
+speakers: { A: { name: Bart }, B: { name: Ellen } }
+turns:
+  - { id: nl-b2-t17-s01, speaker: B, target: "Bart, ik ben blij dat je even tijd hebt. Ik wil het met je over mama hebben.", native: { en: "Bart, I'm glad you have a moment. I want to talk to you about Mum." } }
+  - { id: nl-b2-t17-s02, speaker: A, target: "Is er iets gebeurd? Toen ik haar gisteren belde, klonk ze nog heel opgewekt.", native: { en: "Has something happened? When I called her yesterday, she still sounded very cheerful." } }
+  - { id: nl-b2-t17-s03, speaker: B, target: "Als je haar belt, merk je het nog niet. Maar vorige week had ze het gas laten branden, en ze vergeet steeds vaker haar medicijnen.", native: { en: "When you call her, you can't tell yet. But last week she had left the gas on, and she forgets her medicines more and more often." } }
+  - { id: nl-b2-t17-s04, speaker: A, target: "Dat wist ik niet. Waarom heb je me dat niet eerder verteld?", native: { en: "I didn't know that. Why didn't you tell me earlier?" } }
+  - { id: nl-b2-t17-s05, speaker: B, target: "Omdat jij zo ver woont en het al zo druk hebt met je werk. Ik wilde je niet ongerust maken.", native: { en: "Because you live so far away and you're already so busy with your work. I didn't want to worry you." } }
+  - { id: nl-b2-t17-s06, speaker: A, target: "Ellen, ze is ook mijn moeder. Ik wil je steunen, maar dan moet je me wel op de hoogte houden.", native: { en: "Ellen, she's my mother too. I want to support you, but then you have to keep me informed." } }
+  - { id: nl-b2-t17-s07, speaker: B, target: "Je hebt gelijk. Eerlijk gezegd ben ik moe. Ik ga drie keer per week bij haar langs, naast mijn job en de kinderen.", native: { en: "You're right. To be honest, I'm tired. I go round three times a week, on top of my job and the children." } }
+  - { id: nl-b2-t17-s08, speaker: A, target: "Dat is te veel voor één mantelzorger. Wat zegt de huisarts?", native: { en: "That's too much for one carer. What does the GP say?" } }
+  - { id: nl-b2-t17-s09, speaker: B, target: "Hij denkt dat het misschien dementie is. Hij raadt aan om thuiszorg te regelen, zodra mama daarmee akkoord gaat.", native: { en: "He thinks it may be dementia. He advises arranging home care as soon as Mum agrees to it." } }
+  - { id: nl-b2-t17-s10, speaker: A, target: "En een rusthuis? Ze zou daar nooit alleen zijn.", native: { en: "And a care home? She would never be alone there." } }
+  - { id: nl-b2-t17-s11, speaker: B, target: "Daar wil ze niet van horen. Zolang ze zelf kan beslissen, wil ze in haar eigen huis blijven.", native: { en: "She won't hear of it. As long as she can decide for herself, she wants to stay in her own house." } }
+  - { id: nl-b2-t17-s12, speaker: A, target: "Dat begrijp ik. Dan stel ik voor dat ik elk weekend kom, tenzij het echt niet lukt.", native: { en: "I understand that. Then I suggest I come every weekend, unless I really can't make it." } }
+  - { id: nl-b2-t17-s13, speaker: B, target: "Elk weekend? Dat is drie uur rijden.", native: { en: "Every weekend? That's three hours' drive." } }
+  - { id: nl-b2-t17-s14, speaker: A, target: "Dan neem ik de trein en werk ik onderweg. En ik bel de mutualiteit voor informatie over thuiszorg.", native: { en: "Then I'll take the train and work on the way. And I'll call the health insurance fund for information about home care." } }
+  - { id: nl-b2-t17-s15, speaker: B, target: "Dank je, Bart. Ik had niet gedacht dat het me zo zou opluchten om erover te praten.", native: { en: "Thank you, Bart. I didn't think it would be such a relief to talk about it." } }
+  - { id: nl-b2-t17-s16, speaker: A, target: "Daar zijn broers en zussen toch voor. Volgende keer bel je me meteen, beloofd?", native: { en: "That's what brothers and sisters are for. Next time you call me straight away, promise?" } }
+glossary:
+  - { word: opgewekt, native: { en: cheerful } }
+  - { word: ongerust, native: { en: "worried, anxious" } }
+  - { word: thuiszorg, native: { en: home care } }
+  - { word: opluchten, native: { en: "to relieve (opgelucht: relieved)" } }
+items: [nl.steunen, nl.hoogte, nl.dementie, nl.zodra, nl.rusthuis, nl.zolang, nl.tenzij, nl.mantelzorger]
+questions:
+  - { id: nl-b2-t17-q1, type: summary, options: ["Ellen vertelt Bart dat de zorg voor hun moeder te zwaar wordt, en samen zoeken ze een oplossing.", "Bart wil dat zijn moeder bij hem komt wonen, maar Ellen vindt dat geen goed idee.", "Ellen en Bart plannen een verrassingsfeest voor hun moeder."], correct: 0 }
+  - { id: nl-b2-t17-q2, type: mc, question: "Waarom had Ellen het niet eerder aan Bart verteld?", options: ["Ze wilde hem niet ongerust maken.", "Ze wist het zelf ook niet.", "Bart wilde er niet over praten."], correct: 0 }
+  - { id: nl-b2-t17-q3, type: true_false_notgiven, statement: "Ellen heeft twee kinderen.", answer: not_given }
+  - { id: nl-b2-t17-q4, type: true_false_notgiven, statement: "Bart woont vlak bij zijn moeder.", answer: false }
+  - { id: nl-b2-t17-q5, type: true_false_notgiven, statement: "Hun moeder wil in haar eigen huis blijven.", answer: true }
+listeningQuestions:
+  - { id: nl-b2-t17-l1, type: complete, statement: "Bart belt de ___ voor informatie over thuiszorg.", answers: [mutualiteit] }
+  - { id: nl-b2-t17-l2, type: mc, question: "Hoe gaat Bart in het weekend naar zijn moeder?", options: ["Met de trein.", "Met de auto.", "Met de fiets."], correct: 0 }
+openCloze:
+  - { sentence: nl-b2-t17-s03, word: steeds, acceptAlso: [ook] }
+  - { sentence: nl-b2-t17-s06, word: op }
+  - { sentence: nl-b2-t17-s11, word: Zolang, acceptAlso: [Als, Wanneer] }
+  - { sentence: nl-b2-t17-s15, word: zo, acceptAlso: [echt, erg] }
+orderable: false

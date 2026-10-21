@@ -1,0 +1,38 @@
+id: en-b1-t14
+kind: dialogue
+title: { nl: Welke film? }
+topic: Entertainment (two friends choosing a film)
+level: B1
+speakers: { A: { name: Grace }, B: { name: Daniel } }
+turns:
+  - { id: en-b1-t14-s01, speaker: A, target: "Do you fancy going to the cinema on Friday? There are three good films on.", native: { nl: "Heb je zin om vrijdag naar de bioscoop te gaan? Er draaien drie goede films." } }
+  - { id: en-b1-t14-s02, speaker: B, target: "Sure. What are they?", native: { nl: "Tuurlijk. Welke zijn dat?" } }
+  - { id: en-b1-t14-s03, speaker: A, target: "There's a horror film about a haunted hotel, a romantic comedy, and the new superhero film.", native: { nl: "Er is een horrorfilm over een spookhotel, een romantische komedie, en de nieuwe superheldenfilm." } }
+  - { id: en-b1-t14-s04, speaker: B, target: "Not the horror film, please. The last one I saw gave me nightmares for a week!", native: { nl: "Niet de horrorfilm, alsjeblieft. Van de laatste die ik zag had ik een week lang nachtmerries!" } }
+  - { id: en-b1-t14-s05, speaker: A, target: "OK. What about the comedy? The actress who plays the main role is brilliant, and everyone says the ending is really funny.", native: { nl: "Oké. En de komedie? De actrice die de hoofdrol speelt is geweldig, en iedereen zegt dat het einde echt grappig is." } }
+  - { id: en-b1-t14-s06, speaker: B, target: "Well, I'm not very keen on romantic films. I'd prefer the superhero one. It has amazing action scenes.", native: { nl: "Tja, ik ben niet zo dol op romantische films. Ik heb liever die superheldenfilm. Die heeft geweldige actiescènes." } }
+  - { id: en-b1-t14-s07, speaker: A, target: "But it's almost three hours long, and the plot sounds a bit silly.", native: { nl: "Maar hij duurt bijna drie uur, en het verhaal klinkt een beetje flauw." } }
+  - { id: en-b1-t14-s08, speaker: B, target: "There's an interval in the middle, so we can buy some popcorn.", native: { nl: "Er is een pauze halverwege, dus we kunnen popcorn kopen." } }
+  - { id: en-b1-t14-s09, speaker: A, target: "All right, you win. But next time, I choose!", native: { nl: "Goed, jij wint. Maar de volgende keer kies ik!" } }
+  - { id: en-b1-t14-s10, speaker: B, target: "Deal. I'll book the tickets online. Shall I get seats in the back row?", native: { nl: "Afgesproken. Ik reserveer de kaartjes online. Zal ik plaatsen op de achterste rij nemen?" } }
+  - { id: en-b1-t14-s11, speaker: A, target: "Yes, please. I hate sitting too close to the screen.", native: { nl: "Ja, graag. Ik vind het vreselijk om te dicht bij het scherm te zitten." } }
+glossary:
+  - { word: deal, native: { nl: afgesproken } }
+  - { word: haunted, native: { nl: spook- (waar het spookt) } }
+  - { word: popcorn, native: { nl: popcorn } }
+items: [en.fancy, en.horror, en.romantic, en.comedy, en.superhero, en.nightmare, en.actress, en.role, en.ending, en.keen, en.action, en.scene, en.plot, en.interval, en.row, en.almost]
+questions:
+  - { id: en-b1-t14-q1, type: mc, question: "Why doesn't Daniel want to see the horror film?", options: ["The last one gave him bad dreams.", "It is too long.", "He has already seen it."], correct: 0 }
+  - { id: en-b1-t14-q2, type: true_false_notgiven, statement: "Daniel loves romantic films.", answer: false }
+  - { id: en-b1-t14-q3, type: true_false_notgiven, statement: "The tickets for the superhero film are expensive.", answer: not_given }
+  - { id: en-b1-t14-q4, type: true_false_notgiven, statement: "The superhero film is nearly three hours long.", answer: true }
+  - { id: en-b1-t14-q5, type: mc, question: "Which film do they decide to see?", options: ["The superhero film.", "The romantic comedy.", "The horror film."], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t14-l1, type: mc, question: "When are they going to the cinema?", options: ["On Friday.", "On Saturday.", "Tonight."], correct: 0 }
+  - { id: en-b1-t14-l2, type: true_false_notgiven, statement: "Grace wants to sit close to the screen.", answer: false }
+cloze:
+  - { sentence: en-b1-t14-s04, word: saw, kind: finite_verb, hint: { nl: "see (verleden tijd)" } }
+  - { sentence: en-b1-t14-s04, word: gave, kind: finite_verb, hint: { nl: "give (verleden tijd)" } }
+  - { sentence: en-b1-t14-s05, word: plays, kind: finite_verb, hint: { nl: "play (tegenwoordige tijd)" } }
+  - { sentence: en-b1-t14-s07, word: sounds, kind: finite_verb, hint: { nl: "sound (tegenwoordige tijd)" } }
+orderable: true

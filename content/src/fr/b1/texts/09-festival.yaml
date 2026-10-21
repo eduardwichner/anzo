@@ -1,0 +1,36 @@
+id: fr-b1-t09
+kind: reading
+title: { nl: Een festival in de stad, en: "A festival in town" }
+topic: La culture (un article sur un festival de jeunes artistes)
+level: B1
+paragraphs:
+  - - { id: fr-b1-t09-s01, target: "Le week-end dernier, la ville a organisé son festival des jeunes artistes.", native: { nl: "Vorig weekend heeft de stad haar festival van jonge kunstenaars georganiseerd.", en: "Last weekend the town held its festival of young artists." } }
+    - { id: fr-b1-t09-s02, target: "Pendant trois jours, des élèves de toute la région ont présenté leur travail au public.", native: { nl: "Drie dagen lang hebben leerlingen uit de hele regio hun werk aan het publiek getoond.", en: "For three days, pupils from all over the region presented their work to the public." } }
+  - - { id: fr-b1-t09-s03, target: "Le vendredi, dans la salle des fêtes, il y avait une exposition de photographies sur le thème de la ville.", native: { nl: "Vrijdag was er in de feestzaal een fototentoonstelling met de stad als thema.", en: "On Friday, in the community hall, there was an exhibition of photographs on the theme of the town." } }
+    - { id: fr-b1-t09-s04, target: "Les photos ont été prises par des collégiens pendant toute une année.", native: { nl: "De foto's zijn een heel jaar lang door jonge scholieren gemaakt.", en: "The photos were taken by collège pupils over a whole year." } }
+  - - { id: fr-b1-t09-s05, target: "Le samedi soir, l'orchestre du lycée a joué de la musique classique et du jazz sur la grande scène.", native: { nl: "Zaterdagavond speelde het orkest van het lycée klassieke muziek en jazz op het grote podium.", en: "On Saturday evening, the lycée orchestra played classical music and jazz on the main stage." } }
+    - { id: fr-b1-t09-s06, target: "Les musiciens avaient fait beaucoup de répétitions, et le public a adoré le concert.", native: { nl: "De muzikanten hadden veel gerepeteerd, en het publiek was dol op het concert.", en: "The musicians had done a lot of rehearsals, and the audience loved the concert." } }
+  - - { id: fr-b1-t09-s07, target: "Le dimanche, une jeune écrivaine a lu des poèmes qu'elle a écrits quand elle avait quinze ans.", native: { nl: "Zondag las een jonge schrijfster gedichten voor die ze geschreven had toen ze vijftien was.", en: "On Sunday, a young writer read poems she had written when she was fifteen." } }
+    - { id: fr-b1-t09-s08, target: "Elle a expliqué aux élèves comment créer une histoire à partir d'un souvenir.", native: { nl: "Ze legde de leerlingen uit hoe je een verhaal maakt vanuit een herinnering.", en: "She explained to the pupils how to create a story from a memory." } }
+  - - { id: fr-b1-t09-s09, target: "Plus de deux mille personnes sont venues cette année.", native: { nl: "Dit jaar kwamen er meer dan tweeduizend mensen.", en: "More than two thousand people came this year." } }
+    - { id: fr-b1-t09-s10, target: "La prochaine édition aura lieu en mai, et on peut déjà s'inscrire.", native: { nl: "De volgende editie vindt plaats in mei, en je kunt je al inschrijven.", en: "The next edition will take place in May, and you can already sign up." } }
+glossary:
+  - { word: salle des fêtes, native: { nl: feestzaal, en: "community hall" } }
+items: [fr.festival, fr.exposition, fr.photographie, fr.theme, fr.orchestre, fr.lycee, fr.classique, fr.jazz, fr.scene, fr.musicien, fr.repetition, fr.ecrivain, fr.poeme, fr.creer, fr.edition, fr.collegien, fr.salle, fr.inscrire, fr.region]
+questions:
+  - { id: fr-b1-t09-q1, type: mc, question: "Quand le festival a-t-il eu lieu ?", options: ["Le week-end dernier.", "En mai.", "Pendant les vacances."], correct: 0 }
+  - { id: fr-b1-t09-q2, type: true_false_notgiven, statement: "Les photos de l'exposition ont été prises par des professionnels.", answer: false }
+  - { id: fr-b1-t09-q3, type: true_false_notgiven, statement: "L'orchestre a joué du jazz.", answer: true }
+  - { id: fr-b1-t09-q4, type: true_false_notgiven, statement: "L'écrivaine a gagné un prix pour ses poèmes.", answer: not_given }
+  - { id: fr-b1-t09-q5, type: mc, question: "Qu'est-ce que l'écrivaine a expliqué ?", options: ["Comment écrire une histoire à partir d'un souvenir.", "Comment prendre de belles photos.", "Comment organiser un festival."], correct: 0 }
+  - { id: fr-b1-t09-q6, type: match_heading, paragraph: 4, options: ["Des poèmes et des souvenirs", "Un concert sur la grande scène", "La ville en photos"], correct: 0 }
+listeningQuestions:
+  - { id: fr-b1-t09-l1, type: mc, question: "Combien de personnes sont venues au festival ?", options: ["Plus de deux mille.", "Moins de mille.", "Mille."], correct: 0 }
+  - { id: fr-b1-t09-l2, type: true_false_notgiven, statement: "La prochaine édition aura lieu en mai.", answer: true }
+cloze:
+  - { sentence: fr-b1-t09-s03, word: avait, kind: finite_verb, hint: { nl: "avoir (imparfait: il y …)", en: "avoir (imperfect: il y …)" } }
+  - { sentence: fr-b1-t09-s04, word: ont, kind: finite_verb, hint: { nl: "avoir (présent: … été prises)", en: "avoir (present: … été prises)" } }
+  - { sentence: fr-b1-t09-s06, word: avaient, kind: finite_verb, hint: { nl: "avoir (imparfait: … fait)", en: "avoir (imperfect: … fait)" } }
+  - { sentence: fr-b1-t09-s09, word: sont, kind: finite_verb, hint: { nl: "être (présent: … venues)", en: "être (present: … venues)" } }
+  - { sentence: fr-b1-t09-s10, word: aura, kind: finite_verb, hint: { nl: "avoir (futur: … lieu)", en: "avoir (future: … lieu)" } }
+orderable: true

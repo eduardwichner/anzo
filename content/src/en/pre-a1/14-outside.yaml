@@ -1,0 +1,62 @@
+id: en-pre-a1-u14
+title: { nl: Buiten en op straat }
+icon: outside
+topic: Transport; Places; The world around us
+vocabulary:
+  - { target: car, native: { nl: auto }, pos: noun }
+  - { target: bus, native: { nl: bus }, pos: noun }
+  - { target: train, native: { nl: trein }, pos: noun }
+  - { target: plane, native: { nl: vliegtuig }, pos: noun }
+  - { target: boat, native: { nl: boot }, pos: noun }
+  - { target: ship, native: { nl: schip }, pos: noun, avoid: [en.boat] }
+  - { target: helicopter, native: { nl: helikopter }, pos: noun }
+  - { target: lorry, native: { nl: vrachtwagen }, pos: noun }
+  - { target: motorbike, native: { nl: motor }, pos: noun }
+  - { target: drive, native: { nl: "rijden, besturen" }, pos: verb, avoid: [en.ride] }
+  - { target: street, native: { nl: straat }, pos: noun }
+  - { target: shop, native: { nl: winkel }, pos: noun }
+  - { target: bookshop, native: { nl: boekwinkel }, pos: noun, avoid: [en.shop] }
+  - { target: park, native: { nl: park }, pos: noun }
+  - { target: playground, native: { nl: speeltuin }, pos: noun }
+  - { target: zoo, native: { nl: dierentuin }, pos: noun }
+  - { target: tree, native: { nl: boom }, pos: noun }
+  - { target: flower, native: { nl: bloem }, pos: noun }
+  - { target: bee, native: { nl: bij }, pos: noun }
+  - { target: beach, native: { nl: strand }, pos: noun }
+  - { target: sea, native: { nl: zee }, pos: noun }
+  - { target: sand, native: { nl: zand }, pos: noun }
+  - { target: shell, native: { nl: schelp }, pos: noun }
+  - { target: sun, native: { nl: zon }, pos: noun }
+  - { target: jellyfish, native: { nl: kwal }, pos: noun }
+sentences:
+  - { id: s01, target: "Dad's car is blue.", native: { nl: "De auto van papa is blauw." }, items: [en.car, en.blue] }
+  - { id: s02, target: "The bus is big and red.", native: { nl: "De bus is groot en rood." }, items: [en.bus, en.big, en.red] }
+  - { id: s03, target: "I can see a train!", native: { nl: "Ik zie een trein!" }, items: [en.train] }
+  - { id: s04, target: "Look at the plane!", native: { nl: "Kijk naar het vliegtuig!" }, items: [en.plane, en.look-at] }
+  - { id: s05, target: "The boat is small.", native: { nl: "De boot is klein." }, items: [en.boat, en.small] }
+  - { id: s06, target: "That ship is very big.", native: { nl: "Dat schip is heel groot." }, items: [en.ship, en.big] }
+  - { id: s07, target: "The helicopter can fly.", native: { nl: "De helikopter kan vliegen." }, items: [en.helicopter, en.fly] }
+  - { id: s08, target: "The lorry is in the street.", native: { nl: "De vrachtwagen staat op straat." }, items: [en.lorry, en.street] }
+  - { id: s09, target: "My cousin has got a black motorbike.", native: { nl: "Mijn neef heeft een zwarte motor." }, items: [en.motorbike, en.cousin, en.black] }
+  - { id: s10, target: "Mum can drive a lorry.", native: { nl: "Mama kan vrachtwagen rijden." }, items: [en.drive, en.lorry, en.mum] }
+  - { id: s11, target: "I live in this street.", native: { nl: "Ik woon in deze straat." }, items: [en.street, en.live] }
+  - { id: s12, target: "The shop is closed.", native: { nl: "De winkel is dicht." }, items: [en.shop] }
+  - { id: s13, target: "Let's go to the bookshop.", native: { nl: "Laten we naar de boekwinkel gaan." }, items: [en.bookshop] }
+  - { id: s14, target: "The children are in the park.", native: { nl: "De kinderen zijn in het park." }, items: [en.park, en.children] }
+  - { id: s15, target: "We're playing in the playground.", native: { nl: "Wij spelen in de speeltuin." }, items: [en.playground], acceptAlso: ["We are playing in the playground."] }
+  - { id: s16, target: "There are elephants at the zoo.", native: { nl: "Er zijn olifanten in de dierentuin." }, items: [en.zoo, en.elephant] }
+  - { id: s17, target: "The bird is in the tree.", native: { nl: "De vogel zit in de boom." }, items: [en.tree, en.bird] }
+  - { id: s18, target: "This flower is pink.", native: { nl: "Deze bloem is roze." }, items: [en.flower, en.pink] }
+  - { id: s19, target: "The bee is on the flower.", native: { nl: "De bij zit op de bloem." }, items: [en.bee, en.flower] }
+  - { id: s20, target: "We're at the beach.", native: { nl: "Wij zijn op het strand." }, items: [en.beach], acceptAlso: ["We are at the beach."] }
+  - { id: s21, target: "The sea is blue.", native: { nl: "De zee is blauw." }, items: [en.sea, en.blue] }
+  - { id: s22, target: "I'm playing in the sand.", native: { nl: "Ik speel in het zand." }, items: [en.sand], acceptAlso: ["I am playing in the sand."] }
+  - { id: s23, target: "Look at this beautiful shell!", native: { nl: "Kijk eens naar deze mooie schelp!" }, items: [en.shell, en.beautiful] }
+  - { id: s24, target: "The sun is yellow.", native: { nl: "De zon is geel." }, items: [en.sun, en.yellow] }
+  - { id: s25, target: "There's a jellyfish in the water!", native: { nl: "Er zwemt een kwal in het water!" }, items: [en.jellyfish], acceptAlso: ["There is a jellyfish in the water!"] }
+  - { id: s26, target: "There's a boat on the sea.", native: { nl: "Er vaart een boot op zee." }, items: [en.boat, en.sea], acceptAlso: ["There is a boat on the sea."] }
+lessons:
+  - { id: l01, title: { nl: Vervoer }, vocab: [en.car, en.bus, en.train, en.plane, en.boat, en.ship, en.helicopter] }
+  - { id: l02, title: { nl: Op straat }, vocab: [en.lorry, en.motorbike, en.drive, en.street, en.shop, en.bookshop] }
+  - { id: l03, title: { nl: In het park }, vocab: [en.park, en.playground, en.zoo, en.tree, en.flower, en.bee] }
+  - { id: l04, title: { nl: Aan zee }, vocab: [en.beach, en.sea, en.sand, en.shell, en.sun, en.jellyfish] }

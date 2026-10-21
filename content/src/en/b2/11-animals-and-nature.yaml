@@ -1,0 +1,71 @@
+id: en-b2-u11
+title: { nl: Dieren en de natuur }
+icon: animal
+topic: Wild animals and their habitats, endangered species and conservation, research in nature; non-defining relative clauses (which, who, whose, where) and relative pronouns after prepositions
+vocabulary:
+  - { target: habitat, native: { nl: "leefgebied, habitat" }, pos: noun }
+  - { target: endangered, native: { nl: "bedreigd (met uitsterven)" }, pos: adjective }
+  - { target: extinction, native: { nl: uitsterven }, pos: noun }
+  - { target: conservation, native: { nl: "natuurbehoud, bescherming" }, pos: noun }
+  - { target: predator, native: { nl: roofdier }, pos: noun, avoid: [en.prey] }
+  - { target: prey, native: { nl: prooi }, pos: noun, avoid: [en.predator] }
+  - { target: migrate, native: { nl: "trekken (van dieren), migreren" }, pos: verb }
+  - { target: migration, native: { nl: "trek, migratie" }, pos: noun }
+  - { target: breed, native: { nl: "(zich) voortplanten, kweken" }, pos: verb }
+  - { target: hibernate, native: { nl: "een winterslaap houden" }, pos: verb }
+  - { target: mammal, native: { nl: zoogdier }, pos: noun }
+  - { target: reptile, native: { nl: reptiel }, pos: noun }
+  - { target: survive, native: { nl: overleven }, pos: verb }
+  - { target: survival, native: { nl: overleving }, pos: noun }
+  - { target: adapt, native: { nl: "(zich) aanpassen" }, pos: verb }
+  - { target: captivity, native: { nl: gevangenschap }, pos: noun }
+  - { target: sanctuary, native: { nl: "opvangcentrum, reservaat" }, pos: noun }
+  - { target: instinct, native: { nl: instinct }, pos: noun, noBlank: true }
+  - { target: herd, native: { nl: kudde }, pos: noun, avoid: [en.flock] }
+  - { target: flock, native: { nl: "zwerm, kudde (vogels, schapen)" }, pos: noun, avoid: [en.herd] }
+  - { target: colony, native: { nl: kolonie }, pos: noun }
+  - { target: feather, native: { nl: veer }, pos: noun }
+  - { target: beak, native: { nl: snavel }, pos: noun }
+  - { target: feed on, native: { nl: "zich voeden met, eten (van dieren)" }, pos: phrase }
+  - { target: thrive, native: { nl: "gedijen, het goed doen" }, pos: verb }
+  - { target: observe, native: { nl: "observeren, waarnemen" }, pos: verb }
+  - { target: researcher, native: { nl: onderzoeker }, pos: noun }
+  - { target: decline, native: { nl: "achteruitgaan, afnemen" }, pos: verb }
+  - { target: rapidly, native: { nl: "snel, in snel tempo" }, pos: adverb }
+sentences:
+  - { id: s01, target: "Cutting down forests destroys the habitat of many animals.", native: { nl: "Bossen kappen vernietigt het leefgebied van veel dieren." }, items: [en.habitat] }
+  - { id: s02, target: "The tiger is an endangered species.", native: { nl: "De tijger is een bedreigde diersoort." }, items: [en.endangered] }
+  - { id: s03, target: "Without help, these frogs face extinction.", native: { nl: "Zonder hulp worden deze kikkers met uitsterven bedreigd." }, items: [en.extinction], acceptAlso: ["These frogs face extinction without help."] }
+  - { id: s04, target: "Conservation projects have saved several species of birds.", native: { nl: "Natuurbeschermingsprojecten hebben verschillende vogelsoorten gered." }, items: [en.conservation] }
+  - { id: s05, target: "The lion is the biggest predator in the area.", native: { nl: "De leeuw is het grootste roofdier in de streek." }, items: [en.predator] }
+  - { id: s06, target: "Small birds are easy prey for cats.", native: { nl: "Kleine vogels zijn een makkelijke prooi voor katten." }, items: [en.prey] }
+  - { id: s07, target: "Every autumn these birds migrate to Africa.", native: { nl: "Elke herfst trekken deze vogels naar Afrika." }, items: [en.migrate], acceptAlso: ["These birds migrate to Africa every autumn."] }
+  - { id: s08, target: "The migration of the whales can be seen from the coast.", native: { nl: "De trek van de walvissen is vanaf de kust te zien." }, items: [en.migration] }
+  - { id: s09, target: "Some animals only breed once every two years.", native: { nl: "Sommige dieren planten zich maar om de twee jaar voort." }, items: [en.breed] }
+  - { id: s10, target: "Bears hibernate during the coldest months.", native: { nl: "Beren houden een winterslaap tijdens de koudste maanden." }, items: [en.hibernate] }
+  - { id: s11, target: "Whales are mammals, not fish.", native: { nl: "Walvissen zijn zoogdieren, geen vissen." }, items: [en.mammal] }
+  - { id: s12, target: "Snakes and crocodiles are reptiles.", native: { nl: "Slangen en krokodillen zijn reptielen." }, items: [en.reptile] }
+  - { id: s13, target: "Camels can survive for weeks without water.", native: { nl: "Kamelen kunnen weken zonder water overleven." }, items: [en.survive] }
+  - { id: s14, target: "Their survival depends on clean water.", native: { nl: "Hun overleving hangt af van zuiver water." }, items: [en.survival], form: { word: survival, stem: survive } }
+  - { id: s15, target: "Some birds have adapted to life in big cities.", native: { nl: "Sommige vogels hebben zich aangepast aan het leven in grote steden." }, items: [en.adapt] }
+  - { id: s16, target: "Animals born in captivity often cannot live in the wild.", native: { nl: "Dieren die in gevangenschap geboren zijn, kunnen vaak niet in het wild leven." }, items: [en.captivity] }
+  - { id: s17, target: "The injured animals are taken to a sanctuary.", native: { nl: "De gewonde dieren worden naar een opvangcentrum gebracht." }, items: [en.sanctuary] }
+  - { id: s18, target: "Birds know how to build a nest by instinct.", native: { nl: "Vogels weten instinctief hoe ze een nest moeten bouwen." }, items: [en.instinct] }
+  - { id: s19, target: "A herd of elephants crossed the river.", native: { nl: "Een kudde olifanten stak de rivier over." }, items: [en.herd] }
+  - { id: s20, target: "A huge flock of birds flew over the lake.", native: { nl: "Een enorme zwerm vogels vloog over het meer." }, items: [en.flock] }
+  - { id: s21, target: "The island is home to a colony of thousands of birds.", native: { nl: "Op het eiland leeft een kolonie van duizenden vogels." }, items: [en.colony] }
+  - { id: s22, target: "Birds clean their feathers every day.", native: { nl: "Vogels maken elke dag hun veren schoon." }, items: [en.feather] }
+  - { id: s23, target: "The bird uses its long beak to catch fish.", native: { nl: "De vogel gebruikt zijn lange snavel om vis te vangen." }, items: [en.beak] }
+  - { id: s24, target: "Giraffes feed on leaves from tall trees.", native: { nl: "Giraffen voeden zich met bladeren van hoge bomen." }, items: [en.feed-on] }
+  - { id: s25, target: "Some birds thrive in towns because there is so much food.", native: { nl: "Sommige vogels doen het goed in steden omdat er zoveel eten is." }, items: [en.thrive] }
+  - { id: s26, target: "The students observed the birds for three weeks.", native: { nl: "De leerlingen observeerden de vogels drie weken lang." }, items: [en.observe] }
+  - { id: s27, target: "Every spring the researchers count the animals.", native: { nl: "Elke lente tellen de onderzoekers de dieren." }, items: [en.researcher], form: { word: researchers, stem: research } }
+  - { id: s28, target: "The number of bees has declined rapidly.", native: { nl: "Het aantal bijen is snel afgenomen." }, items: [en.decline, en.rapidly] }
+  - { id: s29, target: "The giraffe, which lives in Africa, is the tallest animal in the world.", native: { nl: "De giraf, die in Afrika leeft, is het hoogste dier ter wereld." }, items: [en.habitat], build: true }
+  - { id: s30, target: "The researcher whose team discovered the frog works in our town.", native: { nl: "De onderzoeker van wie het team de kikker ontdekte, werkt in onze stad." }, items: [en.researcher], build: true }
+  - { id: s31, target: "The forest, which is the bears' habitat, is now protected.", native: { nl: "Het bos, dat de leefomgeving van de beren is, is nu beschermd." }, items: [en.habitat] }
+transforms:
+  - { id: x01, from: "Camels live in the desert. They can go without water for days.", key: which, gapped: "Camels, ___ in the desert, can go without water for days.", answers: ["which live"], items: [en.survive] }
+  - { id: x02, from: "These frogs may disappear for ever.", key: extinct, gapped: "These frogs may ___.", answers: ["become extinct", "go extinct"], items: [en.extinction] }
+  - { id: x03, from: "The number of wild bees is going down quickly.", key: declining, gapped: "The number of wild bees ___.", answers: ["is declining rapidly", "is rapidly declining", "is declining quickly", "is quickly declining", "is declining fast", "is declining very quickly"], items: [en.decline] }
+texts: [en-b2-t11]

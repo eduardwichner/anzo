@@ -1,0 +1,97 @@
+id: nl-b2-u15
+title: { en: Culture }
+icon: theatre
+topic: Art, theatre, books, music and heritage; writing and reading a review; prepositions of reason and concession in formal texts (gezien, wegens, dankzij, ondanks)
+vocabulary:
+  - { target: de kunst, native: { en: art }, pos: noun, plural: kunsten }
+  - { target: de kunstenaar, native: { en: artist }, pos: noun, plural: kunstenaars }
+  - { target: het schilderij, native: { en: painting }, pos: noun, plural: schilderijen }
+  - { target: het theater, native: { en: theatre }, pos: noun, plural: theaters }
+  - { target: de première, native: { en: "première, opening night" }, pos: noun, plural: premières }
+  - { target: de acteur, native: { en: actor }, pos: noun, plural: acteurs }
+  - { target: de regisseur, native: { en: "director (theatre, film)" }, pos: noun, plural: regisseurs }
+  - { target: de regie, native: { en: "direction (of a play or film)" }, pos: noun, plural: "-" }
+  - { target: het applaus, native: { en: applause }, pos: noun, plural: "-" }
+  - { target: de recensie, native: { en: review }, pos: noun, plural: recensies }
+  - { target: de recensent, native: { en: "reviewer, critic" }, pos: noun, plural: recensenten }
+  - { target: de kritiek, native: { en: criticism }, pos: noun, plural: kritieken }
+  - { target: de roman, native: { en: novel }, pos: noun, plural: romans }
+  - { target: de schrijver, native: { en: writer }, pos: noun, plural: schrijvers, avoid: [nl.auteur], noBlank: true }
+  - { target: de dichter, native: { en: poet }, pos: noun, plural: dichters }
+  - { target: het gedicht, native: { en: poem }, pos: noun, plural: gedichten }
+  - { target: de poëzie, native: { en: poetry }, pos: noun, plural: "-" }
+  - { target: het personage, native: { en: character (in a story) }, pos: noun, plural: personages }
+  - { target: de reeks, native: { en: "(TV) series (Belgian); series" }, pos: noun, plural: reeksen, alsoNL: de serie }
+  - { target: het orkest, native: { en: orchestra }, pos: noun, plural: orkesten }
+  - { target: de muzikant, native: { en: musician }, pos: noun, plural: muzikanten }
+  - { target: de zanger, native: { en: singer }, pos: noun, plural: zangers }
+  - { target: de zaal, native: { en: "hall, auditorium" }, pos: noun, plural: zalen }
+  - { target: het erfgoed, native: { en: heritage }, pos: noun, plural: "-" }
+  - { target: het monument, native: { en: monument }, pos: noun, plural: monumenten }
+  - { target: de architectuur, native: { en: architecture }, pos: noun, plural: "-" }
+  - { target: de creativiteit, native: { en: creativity }, pos: noun, plural: "-" }
+  - { target: de inspiratie, native: { en: inspiration }, pos: noun, plural: "-" }
+  - { target: de verbeelding, native: { en: imagination }, pos: noun, plural: "-" }
+  - { target: de teleurstelling, native: { en: disappointment }, pos: noun, plural: teleurstellingen }
+  - { target: inspireren, native: { en: to inspire }, pos: verb }
+  - { target: uitverkocht, native: { en: sold out }, pos: adjective }
+  - { target: klassiek, native: { en: classical }, pos: adjective }
+  - { target: hedendaags, native: { en: contemporary }, pos: adjective }
+  - { target: origineel, native: { en: original }, pos: adjective }
+  - { target: creatief, native: { en: creative }, pos: adjective }
+  - { target: indrukwekkend, native: { en: impressive }, pos: adjective }
+  - { target: ontroerend, native: { en: moving }, pos: adjective }
+  - { target: boeiend, native: { en: "fascinating, gripping" }, pos: adjective }
+  - { target: teleurstellend, native: { en: disappointing }, pos: adjective }
+  - { target: verrassend, native: { en: surprising }, pos: adjective }
+  - { target: gezien, native: { en: "given, in view of (+ noun)" }, pos: preposition }
+  - { target: wegens, native: { en: "because of, owing to" }, pos: preposition, avoid: [nl.door] }
+sentences:
+  - { id: s01, target: "Kunst hoeft niet altijd mooi te zijn.", native: { en: "Art doesn't always have to be beautiful." }, items: [nl.kunst] }
+  - { id: s02, target: "De kunstenaar werkte drie jaar aan dit schilderij.", native: { en: "The artist worked on this painting for three years." }, items: [nl.kunstenaar, nl.schilderij] }
+  - { id: s03, target: "We gaan zaterdag naar het theater.", native: { en: "We're going to the theatre on Saturday." }, items: [nl.theater], acceptAlso: ["Zaterdag gaan we naar het theater."] }
+  - { id: s04, target: "Na de première dronk het publiek iets met de acteurs.", native: { en: "After the première the audience had a drink with the actors." }, items: [nl.premiere] }
+  - { id: s05, target: "De acteurs speelden hun rol met veel energie.", native: { en: "The actors played their parts with a lot of energy." }, items: [nl.acteur], acceptAlso: ["De acteurs speelden met veel energie hun rol.", "Met veel energie speelden de acteurs hun rol."] }
+  - { id: s06, target: "De regisseur heeft het oude stuk naar vandaag verplaatst.", native: { en: "The director has moved the old play to the present day." }, items: [nl.regisseur] }
+  - { id: s07, target: "De regie is sterk, maar het verhaal is zwak.", native: { en: "The direction is strong, but the story is weak." }, items: [nl.regie] }
+  - { id: s08, target: "Aan het einde kregen ze een lang applaus.", native: { en: "At the end they got a long round of applause." }, items: [nl.applaus] }
+  - { id: s09, target: "In de krant stond een goede recensie van de film.", native: { en: "There was a good review of the film in the paper." }, items: [nl.recensie] }
+  - { id: s10, target: "Volgens de recensent is het boek te lang.", native: { en: "According to the reviewer the book is too long." }, items: [nl.recensent], acceptAlso: ["Het boek is volgens de recensent te lang.", "Het boek is te lang volgens de recensent."] }
+  - { id: s11, target: "De voorstelling kreeg veel kritiek.", native: { en: "The performance got a lot of criticism." }, items: [nl.kritiek] }
+  - { id: s12, target: "Haar nieuwe roman gaat over een familie in Oostende.", native: { en: "Her new novel is about a family in Ostend." }, items: [nl.roman] }
+  - { id: s13, target: "Hij is een bekende schrijver in Vlaanderen.", native: { en: "He is a well-known writer in Flanders." }, items: [nl.schrijver] }
+  - { id: s14, target: "De dichter las een gedicht over zijn moeder.", native: { en: "The poet read a poem about his mother." }, items: [nl.dichter, nl.gedicht] }
+  - { id: s15, target: "Poëzie moet je langzaam lezen.", native: { en: "You have to read poetry slowly." }, items: [nl.poezie], acceptAlso: ["Je moet poëzie langzaam lezen."] }
+  - { id: s16, target: "Het hoofdpersonage van de reeks is een jonge vrouw bij de politie.", native: { en: "The main character of the series is a young policewoman." }, items: [nl.personage, nl.reeks] }
+  - { id: s17, target: "Het orkest speelt vanavond klassieke muziek.", native: { en: "The orchestra is playing classical music tonight." }, items: [nl.orkest, nl.klassiek], acceptAlso: ["Vanavond speelt het orkest klassieke muziek."] }
+  - { id: s18, target: "De muzikanten oefenen elke woensdag.", native: { en: "The musicians practise every Wednesday." }, items: [nl.muzikant], acceptAlso: ["Elke woensdag oefenen de muzikanten."] }
+  - { id: s19, target: "De zanger had een heel mooie stem.", native: { en: "The singer had a very beautiful voice." }, items: [nl.zanger] }
+  - { id: s20, target: "De zaal was helemaal uitverkocht.", native: { en: "The hall was completely sold out." }, items: [nl.zaal, nl.uitverkocht] }
+  - { id: s21, target: "Oude gebouwen zijn een belangrijk deel van ons erfgoed.", native: { en: "Old buildings are an important part of our heritage." }, items: [nl.erfgoed] }
+  - { id: s22, target: "Op Open Monumentendag kun je veel beschermde monumenten gratis bezoeken.", native: { en: "On Open Monuments Day you can visit many listed monuments for free." }, items: [nl.monument], acceptAlso: ["Op Open Monumentendag kun je gratis veel beschermde monumenten bezoeken."] }
+  - { id: s23, target: "Ik hou van de architectuur van die nieuwe bibliotheek.", native: { en: "I love the architecture of that new library." }, items: [nl.architectuur] }
+  - { id: s24, target: "Kinderen hebben veel creativiteit.", native: { en: "Children have a lot of creativity." }, items: [nl.creativiteit], form: { word: creativiteit, stem: creatief } }
+  - { id: s25, target: "Waar haal je je inspiratie vandaan?", native: { en: "Where do you get your inspiration from?" }, items: [nl.inspiratie] }
+  - { id: s26, target: "Een goed boek is goed voor je verbeelding.", native: { en: "A good book is good for your imagination." }, items: [nl.verbeelding] }
+  - { id: s27, target: "Het concert was een grote teleurstelling.", native: { en: "The concert was a big disappointment." }, items: [nl.teleurstelling] }
+  - { id: s28, target: "Haar reizen inspireren haar om te schrijven.", native: { en: "Her travels inspire her to write." }, items: [nl.inspireren] }
+  - { id: s29, target: "Het museum toont hedendaagse kunst.", native: { en: "The museum shows contemporary art." }, items: [nl.hedendaags] }
+  - { id: s30, target: "Het idee is heel origineel.", native: { en: "The idea is very original." }, items: [nl.origineel] }
+  - { id: s31, target: "Ze is een heel creatief iemand.", native: { en: "She is a very creative person." }, items: [nl.creatief] }
+  - { id: s32, target: "De nieuwe tentoonstelling is indrukwekkend.", native: { en: "The new exhibition is impressive." }, items: [nl.indrukwekkend] }
+  - { id: s33, target: "Het einde van de film was erg ontroerend.", native: { en: "The end of the film was very moving." }, items: [nl.ontroerend] }
+  - { id: s34, target: "Het was een boeiende voorstelling.", native: { en: "It was a fascinating performance." }, items: [nl.boeiend] }
+  - { id: s35, target: "Het tweede deel van de reeks is teleurstellend.", native: { en: "The second part of the series is disappointing." }, items: [nl.teleurstellend] }
+  - { id: s36, target: "Het einde van het boek is verrassend.", native: { en: "The end of the book is surprising." }, items: [nl.verrassend] }
+  - { id: s37, target: "Gezien het succes komt er een tweede reeks.", native: { en: "Given its success there will be a second series." }, items: [nl.gezien] }
+  - { id: s38, target: "Het concert gaat wegens ziekte niet door.", native: { en: "The concert is not going ahead because of illness." }, items: [nl.wegens] }
+  - { id: s39, target: "Ondanks de slechte recensies was de zaal vol.", native: { en: "Despite the bad reviews the hall was full." }, items: [nl.recensie], build: true, acceptAlso: ["De zaal was ondanks de slechte recensies vol.", "De zaal was vol ondanks de slechte recensies."] }
+  - { id: s40, target: "Dankzij een subsidie kan het theater open blijven.", native: { en: "Thanks to a subsidy the theatre can stay open." }, items: [nl.theater], acceptAlso: ["Het theater kan dankzij een subsidie open blijven.", "Het theater kan open blijven dankzij een subsidie."] }
+  - { id: s41, target: "Ze maakt mooie schilderijen.", native: { en: "She makes beautiful paintings." }, items: [nl.schilderij], form: { word: schilderijen, stem: schilderen } }
+  - { id: s42, target: "Het is een heel creatieve oplossing.", native: { en: "It is a very creative solution." }, items: [nl.creatief] }
+  - { id: s43, target: "De voorstelling was echt indrukwekkend.", native: { en: "The performance was really impressive." }, items: [nl.indrukwekkend], form: { word: indrukwekkend, stem: indruk } }
+transforms:
+  - { id: x01, from: "Het concert gaat niet door omdat de zanger ziek is.", key: wegens, gapped: "Het concert gaat niet door ___ de zanger.", answers: ["wegens ziekte van", "wegens de ziekte van"], items: [nl.wegens] }
+  - { id: x02, from: "Omdat de film zo veel succes had, komt er een tweede deel.", key: gezien, gapped: "___ de film komt er een tweede deel.", answers: ["Gezien het succes van", "Gezien het grote succes van"], items: [nl.gezien] }
+  - { id: x03, from: "De recensies waren slecht, maar toch was de zaal vol.", key: ondanks, gapped: "De zaal was vol ___ recensies.", answers: ["ondanks de slechte"], items: [nl.recensie] }
+texts: [nl-b2-t16]

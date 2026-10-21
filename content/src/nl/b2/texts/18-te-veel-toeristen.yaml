@@ -1,0 +1,48 @@
+id: nl-b2-t18
+kind: reading
+title: { en: Too many tourists? }
+topic: Travel and tourism (a feature article in a weekend supplement)
+level: B2
+paragraphs:
+  - - { id: nl-b2-t18-s01, target: "Op een zaterdag in juli is het in het centrum van Brugge bijna onmogelijk om nog een stap te zetten.", native: { en: "On a Saturday in July it is almost impossible to take another step in the centre of Bruges." } }
+    - { id: nl-b2-t18-s02, target: "Toeristen volgen een gids met een paraplu, cruisepassagiers uit Zeebrugge zoeken een plaats voor een foto, en tussen al die mensen probeert een bewoner met haar boodschappen naar huis te fietsen.", native: { en: "Tourists follow a guide with an umbrella, cruise passengers from Zeebrugge look for a spot for a photo, and between all those people a resident tries to cycle home with her shopping." } }
+    - { id: nl-b2-t18-s03, target: "\"Ik hou van mijn stad\", zegt ze, \"maar in de zomer is ze niet meer van ons.\"", native: { en: "\"I love my city\", she says, \"but in summer it isn't ours any more.\"" } }
+  - - { id: nl-b2-t18-s04, target: "Brugge is niet de enige stad die met dat probleem worstelt.", native: { en: "Bruges is not the only city struggling with that problem." } }
+    - { id: nl-b2-t18-s05, target: "Van Venetië tot Barcelona klagen bewoners over hoge huurprijzen, omdat appartementen aan toeristen verhuurd worden, en over winkels die alleen nog souvenirs verkopen.", native: { en: "From Venice to Barcelona residents complain about high rents, because flats are let to tourists, and about shops that only sell souvenirs any more." } }
+    - { id: nl-b2-t18-s06, target: "Wat ooit een authentieke buurt was, wordt een decor.", native: { en: "What was once an authentic neighbourhood becomes a stage set." } }
+  - - { id: nl-b2-t18-s07, target: "Toch is het toerisme voor veel steden een belangrijke bron van inkomsten.", native: { en: "Yet tourism is an important source of income for many cities." } }
+    - { id: nl-b2-t18-s08, target: "Hotels, restaurants en musea bieden werk aan veel mensen.", native: { en: "Hotels, restaurants and museums provide work for a lot of people." } }
+    - { id: nl-b2-t18-s09, target: "Een stad die haar bezoekers wegjaagt, snijdt dus ook in haar eigen economie.", native: { en: "So a city that drives its visitors away is also cutting into its own economy." } }
+  - - { id: nl-b2-t18-s10, target: "Daarom zoeken steden naar een evenwicht.", native: { en: "That is why cities are looking for a balance." } }
+    - { id: nl-b2-t18-s11, target: "Brugge beperkt het aantal cruiseschepen dat per dag mag aanmeren, en Amsterdam verbiedt nieuwe hotels in het centrum.", native: { en: "Bruges limits the number of cruise ships that may dock per day, and Amsterdam bans new hotels in the centre." } }
+    - { id: nl-b2-t18-s12, target: "Andere steden proberen de bezoekers te spreiden, met campagnes voor minder bekende wijken of voor het laagseizoen.", native: { en: "Other cities try to spread the visitors, with campaigns for lesser-known districts or for the low season." } }
+  - - { id: nl-b2-t18-s13, target: "Ook de reiziger zelf kan iets doen.", native: { en: "The traveller can also do something." } }
+    - { id: nl-b2-t18-s14, target: "Wie buiten het hoogseizoen vertrekt, een paar dagen langer blijft en in een kleine accommodatie verblijft, laat meer geld achter bij de lokale bevolking en minder ergernis.", native: { en: "Anyone who travels outside high season, stays a few days longer and chooses small-scale accommodation leaves more money with the local population, and less annoyance." } }
+    - { id: nl-b2-t18-s15, target: "En wie de trein neemt in plaats van het vliegtuig, maakt bovendien zijn ecologische voetafdruk kleiner.", native: { en: "And anyone who takes the train instead of the plane also reduces their ecological footprint." } }
+  - - { id: nl-b2-t18-s16, target: "Reizen is een verlangen dat zo oud is als de mens.", native: { en: "Travelling is a longing as old as humanity." } }
+    - { id: nl-b2-t18-s17, target: "Het komt erop aan om dat verlangen te verzoenen met het recht van de bewoners om in hun eigen stad te leven.", native: { en: "What matters is reconciling that longing with the residents' right to live in their own city." } }
+glossary:
+  - { word: cruisepassagiers, native: { en: "cruise passengers" } }
+  - { word: worstelt, native: { en: "struggles (worstelen)" } }
+  - { word: decor, native: { en: "stage set, scenery" } }
+  - { word: wegjaagt, native: { en: "drives away (wegjagen)" } }
+  - { word: snijdt, native: { en: "cuts (snijden in: to cut into)" } }
+  - { word: aanmeren, native: { en: "to dock, to moor" } }
+  - { word: verzoenen, native: { en: "to reconcile" } }
+  - { word: komt erop aan, native: { en: "(het komt erop aan: what matters is)" } }
+items: [nl.cruiseschip, nl.authentiek, nl.inkomsten, nl.evenwicht, nl.spreiden, nl.laagseizoen, nl.reiziger, nl.hoogseizoen, nl.accommodatie, nl.verblijven, nl.ergernis, nl.voetafdruk, nl.ecologisch, nl.verlangen]
+questions:
+  - { id: nl-b2-t18-q1, type: summary, options: ["Steden met veel toeristen zoeken een evenwicht tussen de inkomsten uit het toerisme en het leven van hun bewoners, en ook reizigers kunnen helpen.", "Steden met veel toeristen willen minder bezoekers, en daarom verbieden Brugge en Venetië cruiseschepen in de buurt van hun centrum.", "Het artikel geeft tips voor een goedkope vakantie in Venetië."], correct: 0 }
+  - { id: nl-b2-t18-q2, type: match_heading, paragraph: 3, options: ["Waarom steden toeristen ook nodig hebben", "Wat de reiziger zelf kan doen", "Een zaterdag in Brugge"], correct: 0 }
+  - { id: nl-b2-t18-q3, type: match_heading, paragraph: 5, options: ["Wat de reiziger zelf kan doen", "Waarom steden toeristen ook nodig hebben", "Hoe Amsterdam hotels verbiedt"], correct: 0 }
+  - { id: nl-b2-t18-q4, type: true_false_notgiven, statement: "In Venetië en Barcelona zijn de huurprijzen hoog doordat appartementen aan toeristen verhuurd worden.", answer: true }
+  - { id: nl-b2-t18-q5, type: true_false_notgiven, statement: "Brugge verbiedt alle cruiseschepen.", answer: false }
+  - { id: nl-b2-t18-q6, type: true_false_notgiven, statement: "De vrouw uit Brugge werkt zelf in een hotel.", answer: not_given }
+listeningQuestions:
+  - { id: nl-b2-t18-l1, type: complete, statement: "Amsterdam verbiedt nieuwe ___ in het centrum.", answers: [hotels] }
+  - { id: nl-b2-t18-l2, type: mc, question: "Wat zegt de vrouw uit Brugge over haar stad in de zomer?", options: ["Ze is niet meer van de bewoners.", "Ze is mooier dan ooit.", "Ze is te stil."], correct: 0 }
+wordForm:
+  - { sentence: nl-b2-t18-s07, word: belangrijke, stem: belang }
+  - { sentence: nl-b2-t18-s13, word: reiziger, stem: reizen }
+  - { sentence: nl-b2-t18-s02, word: bewoner, stem: wonen, acceptAlso: [inwoner] }
+orderable: false

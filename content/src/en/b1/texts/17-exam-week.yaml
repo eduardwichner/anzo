@@ -1,0 +1,36 @@
+id: en-b1-t17
+kind: reading
+title: { nl: Een bericht over de examenweek }
+topic: School (an email from a head of year to students)
+level: B1
+paragraphs:
+  - - { id: en-b1-t17-s01, target: "Dear students, the end-of-year examinations start on Monday 9 June, so here is some important information.", native: { nl: "Beste leerlingen, de examens aan het eind van het jaar beginnen op maandag 9 juni, dus hier is wat belangrijke informatie." } }
+  - - { id: en-b1-t17-s02, target: "Every exam takes place in the sports hall.", native: { nl: "Elk examen vindt plaats in de sporthal." } }
+    - { id: en-b1-t17-s03, target: "You must arrive ten minutes before the start and wait outside in silence.", native: { nl: "Je moet tien minuten voor het begin aankomen en buiten in stilte wachten." } }
+    - { id: en-b1-t17-s04, target: "Phones are not allowed in the hall, so please leave yours in your locker.", native: { nl: "Telefoons zijn niet toegestaan in de zaal, dus laat hem in je kluisje liggen." } }
+  - - { id: en-b1-t17-s05, target: "Bring two black pens, because all answers must be written in ink.", native: { nl: "Neem twee zwarte pennen mee, want alle antwoorden moeten met inkt geschreven worden." } }
+    - { id: en-b1-t17-s06, target: "You don't need to bring a calculator for the maths exam: the school will give you one.", native: { nl: "Je hoeft geen rekenmachine mee te nemen voor het wiskunde-examen: de school zorgt voor een rekenmachine." } }
+    - { id: en-b1-t17-s07, target: "Put everything in a clear plastic pencil case.", native: { nl: "Doe alles in een doorzichtig plastic etui." } }
+  - - { id: en-b1-t17-s08, target: "If you are ill on the day of an exam, your parents should phone the school office before nine o'clock.", native: { nl: "Als je ziek bent op de dag van een examen, moeten je ouders voor negen uur het schoolsecretariaat bellen." } }
+    - { id: en-b1-t17-s09, target: "Students who are absent without a good reason will fail that exam.", native: { nl: "Leerlingen die zonder geldige reden afwezig zijn, zakken voor dat examen." } }
+  - - { id: en-b1-t17-s10, target: "Results will be given out on the last day of term.", native: { nl: "De resultaten worden uitgedeeld op de laatste dag van het trimester." } }
+    - { id: en-b1-t17-s11, target: "Good luck with your revision! Mr Hughes, Head of Year 9", native: { nl: "Succes met het leren! Meneer Hughes, jaarcoördinator van het derde jaar (Year 9)" } }
+glossary:
+  - { word: Head of Year, native: { nl: "jaarcoördinator (leraar die verantwoordelijk is voor een leerjaar)" } }
+items: [en.examination, en.take-place, en.silence, en.locker, en.in-ink, en.calculator, en.pencil-case, en.absent, en.fail, en.result, en.give-out, en.term, en.revision, en.luck, en.allow, en.written, en.ink, en.clear, en.reason]
+questions:
+  - { id: en-b1-t17-q1, type: mc, question: "Where will the exams take place?", options: ["In the sports hall.", "In the classrooms.", "In the library."], correct: 0 }
+  - { id: en-b1-t17-q2, type: true_false_notgiven, statement: "Students can keep their phones in the exam hall.", answer: false }
+  - { id: en-b1-t17-q3, type: true_false_notgiven, statement: "The maths exam is on the first day.", answer: not_given }
+  - { id: en-b1-t17-q4, type: true_false_notgiven, statement: "Students do not have to bring a calculator.", answer: true }
+  - { id: en-b1-t17-q5, type: mc, question: "What should parents do if their child is ill?", options: ["Phone the school before nine.", "Write an email after the exam.", "Bring the child to school later."], correct: 0 }
+  - { id: en-b1-t17-q6, type: match_heading, paragraph: 3, options: ["What to bring", "On the day", "After the exams"], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t17-l1, type: mc, question: "When do the exams start?", options: ["On Monday 9 June.", "On the last day of term.", "Next Friday."], correct: 0 }
+  - { id: en-b1-t17-l2, type: true_false_notgiven, statement: "Answers can be written in pencil.", answer: false }
+cloze:
+  - { sentence: en-b1-t17-s01, word: is, kind: finite_verb, hint: { nl: "be (tegenwoordige tijd: here … some information)" } }
+  - { sentence: en-b1-t17-s02, word: takes, kind: finite_verb, hint: { nl: "take (tegenwoordige tijd: … place)" } }
+  - { sentence: en-b1-t17-s06, word: "don't", kind: finite_verb, hint: { nl: "do (tegenwoordige tijd, ontkenning: … need)" } }
+  - { sentence: en-b1-t17-s08, word: are, kind: finite_verb, hint: { nl: "be (tegenwoordige tijd)" } }
+orderable: false

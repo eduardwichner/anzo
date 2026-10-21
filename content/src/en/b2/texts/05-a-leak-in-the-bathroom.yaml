@@ -1,0 +1,39 @@
+id: en-b2-t05
+kind: dialogue
+title: { nl: Een lek in de badkamer }
+topic: Home and neighbourhood (a tenant phones her landlord)
+level: B2
+speakers: { A: { name: Hannah }, B: { name: Mr Dawson } }
+turns:
+  - { id: en-b2-t05-s01, speaker: A, target: "Hello, Mr Dawson? It's Hannah, from the flat on Mill Road.", native: { nl: "Hallo, meneer Dawson? Met Hannah, van de flat aan Mill Road." } }
+  - { id: en-b2-t05-s02, speaker: B, target: "Hello, Hannah. Is everything all right? Have you settled in?", native: { nl: "Hallo, Hannah. Is alles in orde? Voel je je al thuis?" } }
+  - { id: en-b2-t05-s03, speaker: A, target: "Mostly, yes. But there's a problem: water is coming through the bathroom ceiling.", native: { nl: "Meestal wel, ja. Maar er is een probleem: er komt water door het plafond van de badkamer." } }
+  - { id: en-b2-t05-s04, speaker: B, target: "Oh dear. That must be a leak from the flat upstairs. How long has it been happening?", native: { nl: "O jee. Dat moet een lek uit de flat erboven zijn. Hoelang gebeurt het al?" } }
+  - { id: en-b2-t05-s05, speaker: A, target: "Since last night. I put a bucket under it, but it's getting worse.", native: { nl: "Sinds gisteravond. Ik heb er een emmer onder gezet, maar het wordt erger." } }
+  - { id: en-b2-t05-s06, speaker: B, target: "Right. Don't try to fix it yourself. I'll have a plumber come round this afternoon.", native: { nl: "Goed. Probeer het niet zelf te herstellen. Ik laat vanmiddag een loodgieter langskomen." } }
+  - { id: en-b2-t05-s07, speaker: A, target: "Thank you. There's something else too. The light in the hall keeps going off.", native: { nl: "Dank u. Er is ook nog iets anders. Het licht in de gang valt steeds uit." } }
+  - { id: en-b2-t05-s08, speaker: B, target: "That could be the water as well. I'd rather an electrician checked it before you use it again.", native: { nl: "Dat kan ook door het water komen. Ik heb liever dat een elektricien het controleert voor je het opnieuw gebruikt." } }
+  - { id: en-b2-t05-s09, speaker: A, target: "OK. Will I have to pay for any of this? My contract says tenants are responsible for small repairs.", native: { nl: "Oké. Moet ik hier iets van betalen? In mijn contract staat dat huurders verantwoordelijk zijn voor kleine herstellingen." } }
+  - { id: en-b2-t05-s10, speaker: B, target: "No, a leak isn't your fault. As your landlord, I'm responsible for that.", native: { nl: "Nee, een lek is niet jouw schuld. Als verhuurder ben ik daarvoor verantwoordelijk." } }
+  - { id: en-b2-t05-s11, speaker: A, target: "That's a relief. I'll be at home until four. Will the plumber be here before then?", native: { nl: "Dat is een opluchting. Ik ben thuis tot vier uur. Is de loodgieter er voor die tijd?" } }
+  - { id: en-b2-t05-s12, speaker: B, target: "I'll call him now and text you a time. And thank you for telling me so quickly.", native: { nl: "Ik bel hem nu en stuur je een berichtje met een tijdstip. En bedankt dat je het me zo snel hebt laten weten." } }
+glossary:
+  - { word: ceiling, native: { nl: plafond } }
+  - { word: bucket, native: { nl: emmer } }
+  - { word: relief, native: { nl: opluchting } }
+items: [en.settle-in, en.leak, en.plumber, en.electrician, en.tenant, en.landlord]
+questions:
+  - { id: en-b2-t05-q1, type: summary, options: ["A tenant calls her landlord about a leak and a problem with a light, and he arranges for a plumber and an electrician to come at his own expense.", "A tenant calls her landlord to complain that he has still not repaired the leak in her bathroom, which started several weeks ago, and she refuses to pay.", "A landlord calls his tenant because water from her bathroom has damaged the flat below hers."], correct: 0 }
+  - { id: en-b2-t05-q2, type: mc, question: "Where does the water come from, according to Mr Dawson?", options: ["The flat upstairs.", "The roof of the building.", "The kitchen next to the bathroom."], correct: 0 }
+  - { id: en-b2-t05-q3, type: true_false_notgiven, statement: "The plumber will come before four o'clock.", answer: not_given }
+  - { id: en-b2-t05-q4, type: true_false_notgiven, statement: "The water started coming through the ceiling last night.", answer: true }
+  - { id: en-b2-t05-q5, type: true_false_notgiven, statement: "Hannah shares the flat with a friend.", answer: not_given }
+listeningQuestions:
+  - { id: en-b2-t05-l1, type: complete, statement: "Hannah will be at home until ___.", answers: [four, "4"] }
+  - { id: en-b2-t05-l2, type: mc, question: "Why does Mr Dawson want an electrician to come?", options: ["The light in the hall keeps going off.", "The heating doesn't work.", "Hannah wants a new lamp."], correct: 0 }
+openCloze:
+  - { sentence: en-b2-t05-s04, word: from, acceptAlso: [in] }
+  - { sentence: en-b2-t05-s06, word: yourself, acceptAlso: [alone, now] }
+  - { sentence: en-b2-t05-s09, word: for }
+  - { sentence: en-b2-t05-s12, word: for }
+orderable: false

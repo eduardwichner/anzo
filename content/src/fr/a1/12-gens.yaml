@@ -1,0 +1,31 @@
+id: fr-a1-u12
+title: { nl: Mensen, en: "People" }
+icon: people
+topic: Les personnes; la famille
+vocabulary:
+  - { target: "l'homme", native: { nl: de man, en: "man" }, pos: noun, gender: m }
+  - { target: la femme, native: { nl: de vrouw, en: "woman" }, pos: noun, gender: f }
+  - { target: "l'enfant", native: { nl: het kind, en: "child" }, pos: noun, gender: m }
+  - { target: le bébé, native: { nl: de baby, en: "baby" }, pos: noun, gender: m }
+  - { target: les gens, native: { nl: de mensen, en: "people" }, pos: noun, gender: m }
+  - { target: "l'oncle", native: { nl: de oom, en: "uncle" }, pos: noun, gender: m }
+  - { target: la tante, native: { nl: de tante, en: "aunt" }, pos: noun, gender: f }
+  - { target: le cousin, native: { nl: de neef, en: "cousin (male)" }, pos: noun, gender: m }
+  - { target: la cousine, native: { nl: de nicht, en: "cousin (female)" }, pos: noun, gender: f }
+  - { target: tout le monde, native: { nl: iedereen, en: "everyone, everybody" }, pos: pronoun }
+  - { target: "quelqu'un", native: { nl: iemand, en: "someone, somebody" }, pos: pronoun }
+sentences:
+  - { id: s01, target: "Il y a un homme devant la porte.", native: { nl: "Er staat een man voor de deur.", en: "There's a man in front of the door." }, items: [fr.homme] }
+  - { id: s02, target: "La femme porte une robe bleue.", native: { nl: "De vrouw draagt een blauwe jurk.", en: "The woman is wearing a blue dress." }, items: [fr.femme] }
+  - { id: s03, target: "Les enfants jouent dans le parc.", native: { nl: "De kinderen spelen in het park.", en: "The children are playing in the park." }, items: [fr.enfant] }
+  - { id: s04, target: "Le bébé dort.", native: { nl: "De baby slaapt.", en: "The baby is sleeping." }, items: [fr.bebe] }
+  - { id: s05, target: "Il y a trop de gens au cinéma.", native: { nl: "Er zijn te veel mensen in de bioscoop.", en: "There are too many people at the cinema." }, items: [fr.gens] }
+  - { id: s06, target: "Mon oncle habite à Bruxelles.", native: { nl: "Mijn oom woont in Brussel.", en: "My uncle lives in Brussels." }, items: [fr.oncle] }
+  - { id: s07, target: "Ma tante a deux enfants.", native: { nl: "Mijn tante heeft twee kinderen.", en: "My aunt has two children." }, items: [fr.tante] }
+  - { id: s08, target: "Mon cousin a douze ans.", native: { nl: "Mijn neef is twaalf jaar.", en: "My cousin is twelve." }, items: [fr.cousin] }
+  - { id: s09, target: "Je joue avec ma cousine.", native: { nl: "Ik speel met mijn nicht.", en: "I'm playing with my cousin." }, items: [fr.cousine] }
+  - { id: s10, target: "Bonjour tout le monde !", native: { nl: "Hallo allemaal!", en: "Hello, everyone!" }, items: [fr.tout-le-monde] }
+  - { id: s11, target: "Il y a quelqu'un à la porte.", native: { nl: "Er is iemand aan de deur.", en: "There's someone at the door." }, items: [fr.quelqu-un] }
+lessons:
+  - { id: l01, title: { nl: Man en vrouw, en: "Men and women" }, vocab: [fr.homme, fr.femme, fr.enfant, fr.bebe, fr.gens, fr.tout-le-monde] }
+  - { id: l02, title: { nl: Oom en tante, en: "Aunts and uncles" }, vocab: [fr.oncle, fr.tante, fr.cousin, fr.cousine, fr.quelqu-un] }

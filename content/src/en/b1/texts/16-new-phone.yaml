@@ -1,0 +1,35 @@
+id: en-b1-t16
+kind: dialogue
+title: { nl: Oma's nieuwe telefoon }
+topic: Technology (a grandmother and her grandson set up a smartphone)
+level: B1
+speakers: { A: { name: Grandma }, B: { name: Noah } }
+turns:
+  - { id: en-b1-t16-s01, speaker: A, target: "Noah, thank you for coming. Your mum gave me this smartphone for my birthday, and I don't know where to start.", native: { nl: "Noah, bedankt dat je gekomen bent. Je moeder heeft me deze smartphone voor mijn verjaardag gegeven, en ik weet niet waar ik moet beginnen." } }
+  - { id: en-b1-t16-s02, speaker: B, target: "Don't worry, Grandma. It's easier than it looks. First, we need to connect it to your wifi.", native: { nl: "Maak je geen zorgen, oma. Het is makkelijker dan het lijkt. Eerst moeten we hem met je wifi verbinden." } }
+  - { id: en-b1-t16-s03, speaker: A, target: "The password is on a piece of paper next to the router. I wrote it down.", native: { nl: "Het wachtwoord staat op een papiertje naast de router. Ik heb het opgeschreven." } }
+  - { id: en-b1-t16-s04, speaker: B, target: "Great. Now you press here and type it in. There, you're connected!", native: { nl: "Mooi. Nu druk je hier en typ je het in. Zo, je bent verbonden!" } }
+  - { id: en-b1-t16-s05, speaker: A, target: "Wonderful. Can I use it to talk to your aunt in Canada?", native: { nl: "Heerlijk. Kan ik hem gebruiken om met je tante in Canada te praten?" } }
+  - { id: en-b1-t16-s06, speaker: B, target: "Yes, with a video call. I'll install the app for you. Then you just click on her name.", native: { nl: "Ja, met een videogesprek. Ik installeer de app voor je. Dan klik je gewoon op haar naam." } }
+  - { id: en-b1-t16-s07, speaker: A, target: "And what about photos? Your cousin shares hers online, but I've never seen them.", native: { nl: "En foto's? Je nicht zet haar foto's online, maar ik heb ze nooit gezien." } }
+  - { id: en-b1-t16-s08, speaker: B, target: "I'll show you. But be careful: never give your password to anyone, even if they ring you up and say they're from the bank.", native: { nl: "Ik laat het je zien. Maar pas op: geef je wachtwoord nooit aan iemand, ook niet als ze je opbellen en zeggen dat ze van de bank zijn." } }
+  - { id: en-b1-t16-s09, speaker: A, target: "Don't worry, I'm old, but I'm not silly! Now, how do I take one of those selfies?", native: { nl: "Maak je geen zorgen, ik ben oud, maar ik ben niet dom! Hoe maak ik zo'n selfie?" } }
+  - { id: en-b1-t16-s10, speaker: B, target: "Hold the phone up, smile and press the button. Let's take one together and send it to Mum.", native: { nl: "Houd de telefoon omhoog, lach en druk op de knop. Laten we er samen eentje maken en naar mama sturen." } }
+glossary:
+  - { word: router, native: { nl: router } }
+items: [en.smartphone, en.connect, en.password, en.write-down, en.press, en.type, en.install, en.click, en.share, en.ring-up, en.selfie, en.worry, en.button]
+questions:
+  - { id: en-b1-t16-q1, type: mc, question: "Who gave Grandma the smartphone?", options: ["Noah's mum.", "Noah.", "Noah's aunt."], correct: 0 }
+  - { id: en-b1-t16-q2, type: true_false_notgiven, statement: "Grandma's phone was very expensive.", answer: not_given }
+  - { id: en-b1-t16-q3, type: true_false_notgiven, statement: "Noah's aunt lives in another country.", answer: true }
+  - { id: en-b1-t16-q4, type: true_false_notgiven, statement: "Grandma has lost her wifi password.", answer: false }
+  - { id: en-b1-t16-q5, type: mc, question: "What does Noah warn Grandma about?", options: ["Giving her password to people who call her.", "Taking too many selfies.", "Spending too much money online."], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t16-l1, type: mc, question: "How will Grandma talk to Noah's aunt in Canada?", options: ["With a video call.", "By email.", "With text messages."], correct: 0 }
+  - { id: en-b1-t16-l2, type: true_false_notgiven, statement: "Noah wants to send a selfie to his mum.", answer: true }
+cloze:
+  - { sentence: en-b1-t16-s01, word: gave, kind: finite_verb, hint: { nl: "give (verleden tijd)" } }
+  - { sentence: en-b1-t16-s02, word: looks, kind: finite_verb, hint: { nl: "look (tegenwoordige tijd)" } }
+  - { sentence: en-b1-t16-s03, word: wrote, kind: finite_verb, hint: { nl: "write (verleden tijd: … it down)" } }
+  - { sentence: en-b1-t16-s07, word: shares, kind: finite_verb, hint: { nl: "share (tegenwoordige tijd)" } }
+orderable: true

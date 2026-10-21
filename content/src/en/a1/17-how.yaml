@@ -1,0 +1,47 @@
+id: en-a1-u17
+title: { nl: Hoe doe je het? }
+icon: actions
+topic: Grammar (adverbs, comparatives and superlatives, modal verbs)
+vocabulary:
+  - { target: well, native: { nl: "goed (hoe je iets doet)" }, pos: adverb }
+  - { target: badly, native: { nl: "slecht (hoe je iets doet)" }, pos: adverb, avoid: [en.bad] }
+  - { target: bad, native: { nl: slecht }, pos: adjective }
+  - { target: terrible, native: { nl: verschrikkelijk }, pos: adjective }
+  - { target: better, native: { nl: beter }, pos: adjective }
+  - { target: worse, native: { nl: "slechter, erger" }, pos: adjective }
+  - { target: best, native: { nl: beste }, pos: adjective, avoid: [en.better] }
+  - { target: worst, native: { nl: "slechtste, ergste" }, pos: adjective, avoid: [en.worse] }
+  - { target: carefully, native: { nl: "voorzichtig (hoe je iets doet)" }, pos: adverb, avoid: [en.careful] }
+  - { target: loudly, native: { nl: "hard, luid (hoe je iets doet)" }, pos: adverb, avoid: [en.loud] }
+  - { target: quickly, native: { nl: "snel (hoe je iets doet)" }, pos: adverb, avoid: [en.quick] }
+  - { target: quietly, native: { nl: zachtjes }, pos: adverb, avoid: [en.quiet] }
+  - { target: slowly, native: { nl: "langzaam (hoe je iets doet)" }, pos: adverb, avoid: [en.slow] }
+  - { target: could, native: { nl: "kon, kunnen" }, pos: verb }
+  - { target: must, native: { nl: moeten }, pos: verb }
+  - { target: shall, native: { nl: "zal, zullen" }, pos: verb }
+  - { target: have to, native: { nl: moeten }, pos: verb }
+  - { target: would, native: { nl: "zou, zouden" }, pos: verb }
+sentences:
+  - { id: s01, target: "She sings very well.", native: { nl: "Zij zingt heel goed." }, items: [en.well] }
+  - { id: s02, target: "He plays the piano badly.", native: { nl: "Hij speelt slecht piano." }, items: [en.badly] }
+  - { id: s03, target: "The weather was bad yesterday.", native: { nl: "Het weer was gisteren slecht." }, items: [en.bad] }
+  - { id: s04, target: "That film was terrible!", native: { nl: "Die film was verschrikkelijk!" }, items: [en.terrible] }
+  - { id: s05, target: "Your drawing is better than mine.", native: { nl: "Jouw tekening is beter dan die van mij." }, items: [en.better] }
+  - { id: s06, target: "My cough is worse today.", native: { nl: "Mijn hoest is vandaag erger." }, items: [en.worse] }
+  - { id: s07, target: "You are my best friend.", native: { nl: "Jij bent mijn beste vriend." }, items: [en.best], acceptAlso: ["You're my best friend."] }
+  - { id: s08, target: "That was the worst day of the holiday.", native: { nl: "Dat was de slechtste dag van de vakantie." }, items: [en.worst] }
+  - { id: s09, target: "Carry the eggs carefully.", native: { nl: "Draag de eieren voorzichtig." }, items: [en.carefully] }
+  - { id: s10, target: "The children sang loudly.", native: { nl: "De kinderen zongen hard." }, items: [en.loudly] }
+  - { id: s11, target: "Come here quickly!", native: { nl: "Kom snel hier!" }, items: [en.quickly] }
+  - { id: s12, target: "Close the door quietly.", native: { nl: "Doe de deur zachtjes dicht." }, items: [en.quietly] }
+  - { id: s13, target: "The old man walks slowly.", native: { nl: "De oude man loopt langzaam." }, items: [en.slowly] }
+  - { id: s14, target: "I could swim when I was five.", native: { nl: "Ik kon zwemmen toen ik vijf was." }, items: [en.could] }
+  - { id: s15, target: "You must wash your hands.", native: { nl: "Je moet je handen wassen." }, items: [en.must] }
+  - { id: s16, target: "Shall I open the window?", native: { nl: "Zal ik het raam opendoen?" }, items: [en.shall] }
+  - { id: s17, target: "We have to go to school.", native: { nl: "We moeten naar school." }, items: [en.have-to] }
+  - { id: s18, target: "I had to clean my room.", native: { nl: "Ik moest mijn kamer opruimen." }, items: [en.have-to] }
+  - { id: s19, target: "What would you like to eat?", native: { nl: "Wat zou je willen eten?" }, items: [en.would] }
+lessons:
+  - { id: l01, title: { nl: Goed en slecht }, vocab: [en.well, en.badly, en.bad, en.terrible, en.better, en.worse, en.best, en.worst] }
+  - { id: l02, title: { nl: Snel en zachtjes }, vocab: [en.carefully, en.loudly, en.quickly, en.quietly, en.slowly] }
+  - { id: l03, title: { nl: Moeten en kunnen }, vocab: [en.could, en.must, en.shall, en.have-to, en.would] }

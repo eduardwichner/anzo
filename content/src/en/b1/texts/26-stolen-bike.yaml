@@ -1,0 +1,37 @@
+id: en-b1-t26
+kind: dialogue
+title: { nl: Een gestolen fiets }
+topic: Safety and the police (reporting a stolen bike at a police station)
+level: B1
+speakers: { A: { name: Officer Green }, B: { name: Max } }
+turns:
+  - { id: en-b1-t26-s01, speaker: A, target: "Good afternoon. How can I help you?", native: { nl: "Goedemiddag. Waarmee kan ik je helpen?" } }
+  - { id: en-b1-t26-s02, speaker: B, target: "I'd like to report a crime. Someone has stolen my bike.", native: { nl: "Ik wil graag aangifte doen. Iemand heeft mijn fiets gestolen." } }
+  - { id: en-b1-t26-s03, speaker: A, target: "I'm sorry to hear that. When did it happen?", native: { nl: "Dat spijt me te horen. Wanneer is het gebeurd?" } }
+  - { id: en-b1-t26-s04, speaker: B, target: "This morning, outside the sports centre. I had locked it, but when I came out after my training, it had gone.", native: { nl: "Vanochtend, buiten het sportcentrum. Ik had hem op slot gezet, maar toen ik na mijn training naar buiten kwam, was hij weg." } }
+  - { id: en-b1-t26-s05, speaker: A, target: "Can you describe the bike?", native: { nl: "Kun je de fiets beschrijven?" } }
+  - { id: en-b1-t26-s06, speaker: B, target: "It's a blue mountain bike with black handlebars. There's a sticker of a dolphin on the back.", native: { nl: "Het is een blauwe mountainbike met een zwart stuur. Er zit een sticker van een dolfijn op de achterkant." } }
+  - { id: en-b1-t26-s07, speaker: A, target: "That's useful. Did anybody see the thief?", native: { nl: "Dat is nuttig. Heeft iemand de dief gezien?" } }
+  - { id: en-b1-t26-s08, speaker: B, target: "Yes, a woman at the bus stop saw a young man with a big bag. He cut the lock and rode away very fast.", native: { nl: "Ja, een vrouw bij de bushalte zag een jonge man met een grote tas. Hij knipte het slot door en reed heel snel weg." } }
+  - { id: en-b1-t26-s09, speaker: A, target: "There are security cameras near the sports centre, so we may be able to identify him.", native: { nl: "Er hangen beveiligingscamera's bij het sportcentrum, dus misschien kunnen we hem identificeren." } }
+  - { id: en-b1-t26-s10, speaker: B, target: "Do you think I'll get it back?", native: { nl: "Denk je dat ik hem terugkrijg?" } }
+  - { id: en-b1-t26-s11, speaker: A, target: "I can't promise, but we often find stolen bikes. Please fill in this form, and we'll contact you if we hear anything.", native: { nl: "Ik kan het niet beloven, maar we vinden vaak gestolen fietsen terug. Vul alsjeblieft dit formulier in, dan nemen we contact met je op als we iets horen." } }
+glossary:
+  - { word: sticker, native: { nl: sticker } }
+  - { word: report, native: { nl: aangeven (bij de politie) } }
+items: [en.crime, en.steal, en.lock, en.describe, en.handlebars, en.useful, en.thief, en.security, en.identify, en.fill-in, en.form, en.contact, en.training, en.anybody, en.able, en.promise]
+questions:
+  - { id: en-b1-t26-q1, type: mc, question: "Where was Max's bike stolen?", options: ["Outside the sports centre.", "At the bus stop.", "Outside his school."], correct: 0 }
+  - { id: en-b1-t26-q2, type: true_false_notgiven, statement: "Max forgot to lock his bike.", answer: false }
+  - { id: en-b1-t26-q3, type: true_false_notgiven, statement: "The bike was a birthday present.", answer: not_given }
+  - { id: en-b1-t26-q4, type: true_false_notgiven, statement: "Somebody saw the thief.", answer: true }
+  - { id: en-b1-t26-q5, type: mc, question: "How might the police find the thief?", options: ["With security cameras.", "With the dolphin sticker.", "By asking at the school."], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t26-l1, type: mc, question: "What colour is Max's bike?", options: ["Blue.", "Black.", "Red."], correct: 0 }
+  - { id: en-b1-t26-l2, type: true_false_notgiven, statement: "The police officer promises that Max will get his bike back.", answer: false }
+cloze:
+  - { sentence: en-b1-t26-s04, word: came, kind: finite_verb, hint: { nl: "come (verleden tijd)" } }
+  - { sentence: en-b1-t26-s08, word: saw, kind: finite_verb, hint: { nl: "see (verleden tijd)" } }
+  - { sentence: en-b1-t26-s08, word: rode, kind: finite_verb, hint: { nl: "ride (verleden tijd)" } }
+  - { sentence: en-b1-t26-s09, word: are, kind: finite_verb, hint: { nl: "be (tegenwoordige tijd, meervoud)" } }
+orderable: true

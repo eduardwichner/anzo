@@ -1,0 +1,54 @@
+id: en-pre-a1-u10
+title: { nl: In de klas }
+icon: school
+topic: School (the classroom)
+vocabulary:
+  - { target: school, native: { nl: school }, pos: noun }
+  - { target: class, native: { nl: klas }, pos: noun }
+  - { target: classroom, native: { nl: klaslokaal }, pos: noun, avoid: [en.class] }
+  - { target: teacher, native: { nl: "juf, meester" }, pos: noun }
+  - { target: classmate, native: { nl: klasgenoot }, pos: noun }
+  - { target: lesson, native: { nl: les }, pos: noun }
+  - { target: English, native: { nl: Engels }, pos: noun }
+  - { target: book, native: { nl: boek }, pos: noun }
+  - { target: pen, native: { nl: pen }, pos: noun }
+  - { target: pencil, native: { nl: potlood }, pos: noun }
+  - { target: crayon, native: { nl: waskrijtje }, pos: noun, avoid: [en.pencil] }
+  - { target: rubber, native: { nl: gum }, pos: noun }
+  - { target: ruler, native: { nl: liniaal }, pos: noun }
+  - { target: paper, native: { nl: papier }, pos: noun }
+  - { target: page, native: { nl: bladzijde }, pos: noun }
+  - { target: board, native: { nl: bord }, pos: noun }
+  - { target: desk, native: { nl: "bureau, tafeltje" }, pos: noun, avoid: [en.table] }
+  - { target: computer, native: { nl: computer }, pos: noun }
+  - { target: keyboard, native: { nl: toetsenbord }, pos: noun }
+  - { target: tablet, native: { nl: tablet }, pos: noun }
+  - { target: poster, native: { nl: poster }, pos: noun }
+sentences:
+  - { id: s01, target: "My school is big.", native: { nl: "Mijn school is groot." }, items: [en.school, en.big] }
+  - { id: s02, target: "There are twenty children in my class.", native: { nl: "Er zitten twintig kinderen in mijn klas." }, items: [en.class, en.twenty, en.children] }
+  - { id: s03, target: "Our classroom is very nice.", native: { nl: "Ons klaslokaal is heel leuk." }, items: [en.classroom, en.nice] }
+  - { id: s04, target: "Our teacher is Mrs Brown.", native: { nl: "Onze juf is mevrouw Brown." }, items: [en.teacher, en.mrs] }
+  - { id: s05, target: "Tom is my classmate.", native: { nl: "Tom is mijn klasgenoot." }, items: [en.classmate] }
+  - { id: s06, target: "We've got an English lesson today.", native: { nl: "We hebben vandaag Engelse les." }, items: [en.lesson, en.english], acceptAlso: ["We have got an English lesson today.", "Today we've got an English lesson.", "Today we have got an English lesson."] }
+  - { id: s07, target: "I'm learning English.", native: { nl: "Ik leer Engels." }, items: [en.english], acceptAlso: ["I am learning English."] }
+  - { id: s08, target: "Open your book, please.", native: { nl: "Doe je boek open, alsjeblieft." }, items: [en.book, en.please] }
+  - { id: s09, target: "Can I have a pen?", native: { nl: "Mag ik een pen?" }, items: [en.pen] }
+  - { id: s10, target: "Where's my pencil?", native: { nl: "Waar is mijn potlood?" }, items: [en.pencil], acceptAlso: ["Where is my pencil?"] }
+  - { id: s11, target: "I've got ten crayons.", native: { nl: "Ik heb tien waskrijtjes." }, items: [en.crayon, en.ten], acceptAlso: ["I have got ten crayons."] }
+  - { id: s12, target: "Can I have your rubber, please?", native: { nl: "Mag ik je gum, alsjeblieft?" }, items: [en.rubber, en.please] }
+  - { id: s13, target: "The ruler is long.", native: { nl: "De liniaal is lang." }, items: [en.ruler, en.long] }
+  - { id: s14, target: "Draw on the paper.", native: { nl: "Teken op het papier." }, items: [en.paper] }
+  - { id: s15, target: "The pen and the pencil are in my bag.", native: { nl: "De pen en het potlood zitten in mijn tas." }, items: [en.pen, en.pencil, en.bag], acceptAlso: ["The pencil and the pen are in my bag."] }
+  - { id: s16, target: "Look at page eleven.", native: { nl: "Kijk op bladzijde elf." }, items: [en.page, en.eleven] }
+  - { id: s17, target: "Write your name on the board.", native: { nl: "Schrijf je naam op het bord." }, items: [en.board, en.name] }
+  - { id: s18, target: "My desk is next to the window.", native: { nl: "Mijn tafeltje staat naast het raam." }, items: [en.desk, en.window] }
+  - { id: s19, target: "The computer is on the desk.", native: { nl: "De computer staat op het bureau." }, items: [en.computer, en.desk] }
+  - { id: s20, target: "Where's the keyboard?", native: { nl: "Waar is het toetsenbord?" }, items: [en.keyboard], acceptAlso: ["Where is the keyboard?"] }
+  - { id: s21, target: "I play games on my tablet.", native: { nl: "Ik speel spelletjes op mijn tablet." }, items: [en.tablet] }
+  - { id: s22, target: "There's a big poster on the wall.", native: { nl: "Er hangt een grote poster aan de muur." }, items: [en.poster, en.big, en.wall], acceptAlso: ["There is a big poster on the wall."] }
+  - { id: s23, target: "Our teacher has got a new computer.", native: { nl: "Onze juf heeft een nieuwe computer." }, items: [en.teacher, en.computer, en.new] }
+lessons:
+  - { id: l01, title: { nl: Op school }, vocab: [en.school, en.class, en.classroom, en.teacher, en.classmate, en.lesson, en.english] }
+  - { id: l02, title: { nl: In mijn etui }, vocab: [en.book, en.pen, en.pencil, en.crayon, en.rubber, en.ruler, en.paper] }
+  - { id: l03, title: { nl: In het lokaal }, vocab: [en.page, en.board, en.desk, en.computer, en.keyboard, en.tablet, en.poster] }

@@ -1,0 +1,49 @@
+id: en-b2-t11
+kind: reading
+title: { nl: Het eiland van de zeevogels }
+topic: Animals and nature (a report from a researcher on a small island)
+level: B2
+paragraphs:
+  - - { id: en-b2-t11-s01, target: "For six weeks every summer, Dr Eva Lund lives on a small island off the coast of Scotland, where nobody else lives.", native: { nl: "Elke zomer woont dr. Eva Lund zes weken op een klein eiland voor de kust van Schotland, waar verder niemand woont." } }
+    - { id: en-b2-t11-s02, target: "There is no shop and no internet, and the only sound is the noise of the wind and the birds.", native: { nl: "Er is geen winkel en geen internet, en het enige geluid is dat van de wind en de vogels." } }
+  - - { id: en-b2-t11-s03, target: "She is not there for a holiday.", native: { nl: "Ze is er niet op vakantie." } }
+    - { id: en-b2-t11-s04, target: "The island is home to one of the biggest seabird colonies in Europe, and her job is to count the birds and observe how many young ones survive.", native: { nl: "Op het eiland leeft een van de grootste zeevogelkolonies van Europa, en haar werk is de vogels tellen en observeren hoeveel jonge vogels overleven." } }
+    - { id: en-b2-t11-s05, target: "\"The birds come back to exactly the same place every year to breed,\" she explains. \"Some of them have been coming here for over twenty years.\"", native: { nl: "\"De vogels komen elk jaar terug naar precies dezelfde plek om te broeden,\" legt ze uit. \"Sommige komen hier al meer dan twintig jaar.\"" } }
+  - - { id: en-b2-t11-s06, target: "Unfortunately, the news is not good.", native: { nl: "Helaas is het nieuws niet goed." } }
+    - { id: en-b2-t11-s07, target: "Since she started her research, the number of birds has declined by almost half.", native: { nl: "Sinds ze met haar onderzoek begon, is het aantal vogels met bijna de helft afgenomen." } }
+    - { id: en-b2-t11-s08, target: "The main reason is food: the small fish on which the birds feed are moving north, because the sea is getting warmer.", native: { nl: "De belangrijkste reden is voedsel: de kleine vissen waarvan de vogels leven, trekken naar het noorden, omdat de zee warmer wordt." } }
+    - { id: en-b2-t11-s09, target: "Parents have to fly much further to find food, and many young birds do not get enough to survive.", native: { nl: "Ouders moeten veel verder vliegen om voedsel te vinden, en veel jonge vogels krijgen niet genoeg om te overleven." } }
+  - - { id: en-b2-t11-s10, target: "Is there anything that can be done?", native: { nl: "Kan er iets gedaan worden?" } }
+    - { id: en-b2-t11-s11, target: "Dr Lund believes so, although she admits there is no simple solution.", native: { nl: "Dr. Lund denkt van wel, al geeft ze toe dat er geen eenvoudige oplossing is." } }
+    - { id: en-b2-t11-s12, target: "Protecting the areas where the fish breed, and limiting fishing near the colonies, would give the birds a better chance.", native: { nl: "De gebieden beschermen waar de vissen zich voortplanten, en het vissen in de buurt van de kolonies beperken, zou de vogels een betere kans geven." } }
+    - { id: en-b2-t11-s13, target: "\"Animals are very good at adapting, but only if we give them time,\" she says.", native: { nl: "\"Dieren kunnen zich heel goed aanpassen, maar alleen als we ze de tijd geven,\" zegt ze." } }
+  - - { id: en-b2-t11-s14, target: "What keeps her coming back?", native: { nl: "Wat zorgt ervoor dat ze blijft terugkomen?" } }
+    - { id: en-b2-t11-s15, target: "\"Every year I'm afraid of what I'll find. But when I see the first young birds leave the cliffs and fly out to sea, I know it's worth it.\"", native: { nl: "\"Elk jaar ben ik bang voor wat ik zal vinden. Maar als ik de eerste jonge vogels van de rotsen zie vertrekken en naar zee zie vliegen, weet ik dat het de moeite waard is.\"" } }
+glossary:
+  - { word: Scotland, native: { nl: Schotland } }
+  - { word: seabird, native: { nl: zeevogel } }
+items: [en.colony, en.observe, en.survive, en.breed, en.decline, en.feed-on, en.adapt]
+gapped:
+  gaps: [en-b2-t11-s03, en-b2-t11-s06, en-b2-t11-s10, en-b2-t11-s14]
+  extra:
+    - { id: en-b2-t11-x1, target: "Most tourists visit the island in winter.", native: { nl: "De meeste toeristen bezoeken het eiland in de winter." } }
+openCloze:
+  - { sentence: en-b2-t11-s01, word: where }
+  - { sentence: en-b2-t11-s07, word: by }
+  - { sentence: en-b2-t11-s08, word: which }
+  - { sentence: en-b2-t11-s11, word: although, acceptAlso: [though, but, while] }
+wordForm:
+  - { sentence: en-b2-t11-s12, word: fishing, stem: fish }
+  - { sentence: en-b2-t11-s05, word: exactly, stem: exact }
+  - { sentence: en-b2-t11-s11, word: solution, stem: solve }
+questions:
+  - { id: en-b2-t11-q1, type: summary, options: ["A researcher who counts birds on a small island has seen their number fall by almost half, mainly because the fish they eat are moving north.", "A researcher who counts birds on a small island has seen their number almost double, mainly because tourists have not been allowed on the island since last year.", "A researcher explains why she would like more people to come and live on the island where the birds breed."], correct: 0 }
+  - { id: en-b2-t11-q2, type: mc, question: "Why do many young birds not survive?", options: ["Their parents cannot find enough food near the island.", "Predators eat them.", "The winters are too cold."], correct: 0 }
+  - { id: en-b2-t11-q3, type: true_false_notgiven, statement: "Some birds have been coming back to the island for more than twenty years.", answer: true }
+  - { id: en-b2-t11-q4, type: true_false_notgiven, statement: "Dr Lund lives on the island all year.", answer: false }
+  - { id: en-b2-t11-q5, type: true_false_notgiven, statement: "Dr Lund works for a university in Scotland.", answer: not_given }
+  - { id: en-b2-t11-q6, type: match_heading, paragraph: 3, options: ["Bad news", "What can be done", "Why she is there"], correct: 0 }
+listeningQuestions:
+  - { id: en-b2-t11-l1, type: complete, statement: "Dr Lund lives on the island for six ___ every summer.", answers: [weeks] }
+  - { id: en-b2-t11-l2, type: mc, question: "Why are the small fish moving north?", options: ["The sea is getting warmer.", "There are too many boats.", "The birds eat too many of them."], correct: 0 }
+orderable: false

@@ -1,0 +1,37 @@
+id: fr-b1-t12
+kind: dialogue
+title: { nl: Een vakantiejob, en: "A summer job" }
+topic: Le travail (un entretien pour un emploi d'été)
+level: B1
+speakers: { A: { name: Madame Lefèvre }, B: { name: Théo } }
+turns:
+  - { id: fr-b1-t12-s01, speaker: A, target: "Bonjour Théo, asseyez-vous. Merci pour votre candidature.", native: { nl: "Goedendag Théo, gaat u zitten. Bedankt voor uw sollicitatie.", en: "Hello Théo, please sit down. Thank you for your application." } }
+  - { id: fr-b1-t12-s02, speaker: B, target: "Bonjour, madame. Merci de me recevoir.", native: { nl: "Goedendag, mevrouw. Bedankt dat u me ontvangt.", en: "Hello. Thank you for seeing me." } }
+  - { id: fr-b1-t12-s03, speaker: A, target: "Dans votre CV, je vois que vous avez déjà fait un stage dans un magasin.", native: { nl: "In uw cv zie ik dat u al stage hebt gelopen in een winkel.", en: "In your CV I see that you've already done a work placement in a shop." } }
+  - { id: fr-b1-t12-s04, speaker: B, target: "Oui, l'année dernière, j'ai travaillé deux semaines dans un magasin de sport. J'aidais les clients.", native: { nl: "Ja, vorig jaar heb ik twee weken in een sportwinkel gewerkt. Ik hielp de klanten.", en: "Yes, last year I worked in a sports shop for two weeks. I helped the customers." } }
+  - { id: fr-b1-t12-s05, speaker: A, target: "Très bien. Ici, au camping, le travail est différent : vous serez responsable de la piscine et des jeux pour les enfants.", native: { nl: "Heel goed. Hier, op de camping, is het werk anders: u zult verantwoordelijk zijn voor het zwembad en de spelletjes voor de kinderen.", en: "Very good. Here at the campsite the work is different: you'll be responsible for the swimming pool and the children's games." } }
+  - { id: fr-b1-t12-s06, speaker: B, target: "Ça me plaît beaucoup. J'ai un diplôme de sauveteur, et j'adore travailler avec les enfants.", native: { nl: "Dat lijkt me heel leuk. Ik heb een brevet van redder, en ik werk heel graag met kinderen.", en: "I'd like that very much. I have a lifeguard certificate, and I love working with children." } }
+  - { id: fr-b1-t12-s07, speaker: A, target: "Parfait. Vous pourriez commencer le premier juillet ?", native: { nl: "Perfect. Zou u op één juli kunnen beginnen?", en: "Perfect. Could you start on the first of July?" } }
+  - { id: fr-b1-t12-s08, speaker: B, target: "Oui, sans problème. Est-ce que je pourrais savoir quel est le salaire ?", native: { nl: "Ja, geen probleem. Mag ik vragen hoeveel het loon is?", en: "Yes, no problem. May I ask what the salary is?" } }
+  - { id: fr-b1-t12-s09, speaker: A, target: "Dix euros de l'heure, et vous bénéficiez d'un repas gratuit à midi.", native: { nl: "Tien euro per uur, en u krijgt 's middags een gratis maaltijd.", en: "Ten euros an hour, and you get a free meal at lunchtime." } }
+  - { id: fr-b1-t12-s10, speaker: B, target: "C'est très bien. Quand est-ce que je saurai si je suis embauché ?", native: { nl: "Dat is heel goed. Wanneer weet ik of ik aangenomen ben?", en: "That's very good. When will I know whether I've been taken on?" } }
+  - { id: fr-b1-t12-s11, speaker: A, target: "Je vous téléphonerai vendredi. Il faut encore que je parle avec le patron.", native: { nl: "Ik bel u vrijdag. Ik moet nog met de baas praten.", en: "I'll phone you on Friday. I still have to talk to the boss." } }
+glossary:
+  - { word: sauveteur, native: { nl: redder (zwembad), en: "lifeguard" } }
+items: [fr.candidature, fr.cv, fr.stage, fr.responsable, fr.diplome, fr.salaire, fr.beneficier, fr.patron, fr.embaucher, fr.gratuit, fr.probleme]
+questions:
+  - { id: fr-b1-t12-q1, type: mc, question: "Où Théo a-t-il fait son stage ?", options: ["Dans un magasin de sport.", "Dans un camping.", "Dans une piscine."], correct: 0 }
+  - { id: fr-b1-t12-q2, type: true_false_notgiven, statement: "Théo a travaillé un mois dans le magasin de sport.", answer: false }
+  - { id: fr-b1-t12-q3, type: true_false_notgiven, statement: "Théo a un diplôme pour travailler à la piscine.", answer: true }
+  - { id: fr-b1-t12-q4, type: true_false_notgiven, statement: "Le camping est près de la mer.", answer: not_given }
+  - { id: fr-b1-t12-q5, type: mc, question: "Qu'est-ce que Théo reçoit en plus du salaire ?", options: ["Un repas à midi.", "Une chambre.", "Un vélo."], correct: 0 }
+listeningQuestions:
+  - { id: fr-b1-t12-l1, type: mc, question: "Combien Théo va-t-il gagner par heure ?", options: ["Dix euros.", "Huit euros.", "Douze euros."], correct: 0 }
+  - { id: fr-b1-t12-l2, type: true_false_notgiven, statement: "Madame Lefèvre embauche Théo tout de suite.", answer: false }
+cloze:
+  - { sentence: fr-b1-t12-s03, word: vois, kind: finite_verb, hint: { nl: "voir (présent)", en: "voir (present)" } }
+  - { sentence: fr-b1-t12-s05, word: serez, kind: finite_verb, hint: { nl: "être (futur)", en: "être (future)" } }
+  - { sentence: fr-b1-t12-s07, word: pourriez, kind: finite_verb, hint: { nl: "pouvoir (conditionnel)", en: "pouvoir (conditional)" } }
+  - { sentence: fr-b1-t12-s10, word: saurai, kind: finite_verb, hint: { nl: "savoir (futur)", en: "savoir (future)" } }
+  - { sentence: fr-b1-t12-s11, word: téléphonerai, kind: finite_verb, hint: { nl: "téléphoner (futur)", en: "téléphoner (future)" } }
+orderable: true

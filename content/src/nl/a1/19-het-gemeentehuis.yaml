@@ -1,0 +1,42 @@
+id: nl-a1-u19
+title: { en: At the town hall }
+icon: form
+topic: Registering, forms, the post
+vocabulary:
+  - { target: het gemeentehuis, native: { en: town hall }, pos: noun, plural: gemeentehuizen }
+  - { target: de gemeente, native: { en: "municipality, council" }, pos: noun, plural: gemeenten }
+  - { target: het loket, native: { en: "counter (window)" }, pos: noun, plural: loketten }
+  - { target: het formulier, native: { en: form }, pos: noun, plural: formulieren }
+  - { target: invullen, native: { en: to fill in }, pos: verb }
+  - { target: inschrijven, native: { en: to register }, pos: verb }
+  - { target: de identiteitskaart, native: { en: identity card }, pos: noun, plural: identiteitskaarten }
+  - { target: de geboortedatum, native: { en: date of birth }, pos: noun, plural: geboortedata }
+  - { target: de handtekening, native: { en: signature }, pos: noun, plural: handtekeningen }
+  - { target: de postcode, native: { en: postcode }, pos: noun, plural: postcodes }
+  - { target: de brief, native: { en: letter }, pos: noun, plural: brieven }
+  - { target: de postbode, native: { en: postman }, pos: noun, plural: postbodes }
+  - { target: het pakje, native: { en: parcel }, pos: noun, plural: pakjes }
+  - { target: nodig, native: { en: needed }, pos: adjective }
+  - { target: belangrijk, native: { en: important }, pos: adjective }
+  - { target: open, native: { en: open }, pos: adjective, avoid: [nl.dicht, nl.gesloten] }
+  - { target: dicht, native: { en: "closed, shut" }, pos: adjective, avoid: [nl.gesloten] }
+  - { target: gesloten, native: { en: closed }, pos: adjective }
+sentences:
+  - { id: s01, target: "Het gemeentehuis is naast de kerk.", native: { en: "The town hall is next to the church." }, items: [nl.gemeentehuis] }
+  - { id: s02, target: "Ik krijg een brief van de gemeente.", native: { en: "I've got a letter from the council." }, items: [nl.gemeente, nl.brief] }
+  - { id: s03, target: "U moet naar loket drie gaan.", native: { en: "You have to go to counter three." }, items: [nl.loket] }
+  - { id: s04, target: "Vul dit formulier in, alstublieft.", native: { en: "Fill in this form, please." }, items: [nl.formulier, nl.invullen] }
+  - { id: s05, target: "Ik vul het formulier in.", native: { en: "I'm filling in the form." }, items: [nl.invullen] }
+  - { id: s06, target: "Ik wil mijn dochter inschrijven.", native: { en: "I want to register my daughter." }, items: [nl.inschrijven] }
+  - { id: s07, target: "Mag ik uw identiteitskaart?", native: { en: "May I have your identity card?" }, items: [nl.identiteitskaart] }
+  - { id: s08, target: "Wat is uw geboortedatum?", native: { en: "What's your date of birth?" }, items: [nl.geboortedatum] }
+  - { id: s09, target: "Hier is uw handtekening nodig.", native: { en: "Your signature is needed here." }, items: [nl.handtekening, nl.nodig], acceptAlso: ["Uw handtekening is hier nodig."] }
+  - { id: s10, target: "Wat is uw postcode?", native: { en: "What's your postcode?" }, items: [nl.postcode] }
+  - { id: s11, target: "Ik schrijf een brief aan mijn moeder.", native: { en: "I'm writing a letter to my mother." }, items: [nl.brief] }
+  - { id: s12, target: "De postbode komt om tien uur.", native: { en: "The postman comes at ten o'clock." }, items: [nl.postbode] }
+  - { id: s13, target: "Er is een pakje voor jou.", native: { en: "There's a parcel for you." }, items: [nl.pakje] }
+  - { id: s14, target: "Wat heb ik nodig?", native: { en: "What do I need?" }, items: [nl.nodig] }
+  - { id: s15, target: "Deze brief is belangrijk.", native: { en: "This letter is important." }, items: [nl.belangrijk] }
+  - { id: s16, target: "Het loket is open van negen tot twaalf.", native: { en: "The counter is open from nine to twelve." }, items: [nl.open], acceptAlso: ["Het loket is van negen tot twaalf open."] }
+  - { id: s17, target: "Doe de deur dicht, alsjeblieft.", native: { en: "Shut the door, please." }, items: [nl.dicht] }
+  - { id: s18, target: "Op zondag is het gemeentehuis gesloten.", native: { en: "On Sundays the town hall is closed." }, items: [nl.gesloten], acceptAlso: ["Het gemeentehuis is op zondag gesloten."] }

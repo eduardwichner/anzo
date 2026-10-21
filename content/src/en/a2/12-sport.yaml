@@ -1,0 +1,59 @@
+id: en-a2-u12
+title: { nl: Sport en spel }
+icon: sport
+topic: Sports and leisure
+vocabulary:
+  - { target: ski, native: { nl: "skiën, ski" }, pos: verb }
+  - { target: snowboard, native: { nl: snowboard }, pos: noun }
+  - { target: snowboarding, native: { nl: snowboarden }, pos: noun, avoid: [en.snowboard] }
+  - { target: sledge, native: { nl: slee }, pos: noun }
+  - { target: snowball, native: { nl: sneeuwbal }, pos: noun }
+  - { target: snowman, native: { nl: sneeuwpop }, pos: noun }
+  - { target: chess, native: { nl: schaken }, pos: noun }
+  - { target: golf, native: { nl: golf }, pos: noun }
+  - { target: volleyball, native: { nl: volleybal }, pos: noun }
+  - { target: gym, native: { nl: "gym, gymles" }, pos: noun }
+  - { target: club, native: { nl: "club, vereniging" }, pos: noun }
+  - { target: team, native: { nl: team }, pos: noun }
+  - { target: race, native: { nl: "race, wedloop" }, pos: noun }
+  - { target: racing, native: { nl: race- }, pos: adjective, avoid: [en.race] }
+  - { target: competition, native: { nl: "wedstrijd, competitie" }, pos: noun }
+  - { target: match, native: { nl: sportwedstrijd }, pos: noun, avoid: [en.competition] }
+  - { target: prize, native: { nl: prijs }, pos: noun }
+  - { target: winner, native: { nl: winnaar }, pos: noun }
+  - { target: win, native: { nl: winnen }, pos: verb }
+  - { target: whistle, native: { nl: fluiten }, pos: verb }
+  - { target: swing, native: { nl: schommel }, pos: noun }
+  - { target: puzzle, native: { nl: puzzel }, pos: noun }
+  - { target: quiz, native: { nl: quiz }, pos: noun }
+  - { target: card, native: { nl: "speelkaart, kaart" }, pos: noun }
+sentences:
+  - { id: s01, target: "Can you ski?", native: { nl: "Kun jij skiën?" }, items: [en.ski] }
+  - { id: s02, target: "I want a new snowboard.", native: { nl: "Ik wil een nieuw snowboard." }, items: [en.snowboard] }
+  - { id: s03, target: "I think snowboarding is more exciting than skiing.", native: { nl: "Ik vind snowboarden spannender dan skiën." }, items: [en.snowboarding] }
+  - { id: s04, target: "We went down the hill on a sledge.", native: { nl: "We gingen op een slee de heuvel af." }, items: [en.sledge] }
+  - { id: s05, target: "He threw a snowball at me.", native: { nl: "Hij gooide een sneeuwbal naar me." }, items: [en.snowball] }
+  - { id: s06, target: "Let's build a snowman!", native: { nl: "Laten we een sneeuwpop maken!" }, items: [en.snowman] }
+  - { id: s07, target: "My grandpa taught me to play chess.", native: { nl: "Mijn opa heeft me leren schaken." }, items: [en.chess] }
+  - { id: s08, target: "Dad plays golf on Saturdays.", native: { nl: "Papa speelt op zaterdag golf." }, items: [en.golf] }
+  - { id: s09, target: "We play volleyball on the beach.", native: { nl: "We spelen volleybal op het strand." }, items: [en.volleyball] }
+  - { id: s10, target: "We have gym on Tuesday.", native: { nl: "Op dinsdag hebben we gym." }, items: [en.gym] }
+  - { id: s11, target: "I joined a football club.", native: { nl: "Ik ben lid geworden van een voetbalclub." }, items: [en.club] }
+  - { id: s12, target: "There are eleven players in a football team.", native: { nl: "Er zitten elf spelers in een voetbalteam." }, items: [en.team] }
+  - { id: s13, target: "Who won the race?", native: { nl: "Wie heeft de race gewonnen?" }, items: [en.race] }
+  - { id: s14, target: "My uncle is a racing driver.", native: { nl: "Mijn oom is autocoureur." }, items: [en.racing] }
+  - { id: s15, target: "She won the drawing competition.", native: { nl: "Zij won de tekenwedstrijd." }, items: [en.competition] }
+  - { id: s16, target: "The football match starts at three.", native: { nl: "De voetbalwedstrijd begint om drie uur." }, items: [en.match] }
+  - { id: s17, target: "The first prize is a bike!", native: { nl: "De eerste prijs is een fiets!" }, items: [en.prize] }
+  - { id: s18, target: "Sarah is the winner!", native: { nl: "Sarah is de winnaar!" }, items: [en.winner] }
+  - { id: s19, target: "I hope our team will win.", native: { nl: "Ik hoop dat ons team wint." }, items: [en.win, en.team] }
+  - { id: s20, target: "Can you whistle?", native: { nl: "Kun jij fluiten?" }, items: [en.whistle] }
+  - { id: s21, target: "The children are on the swing.", native: { nl: "De kinderen zitten op de schommel." }, items: [en.swing] }
+  - { id: s22, target: "This puzzle is difficult.", native: { nl: "Deze puzzel is moeilijk." }, items: [en.puzzle] }
+  - { id: s23, target: "We had a quiz in class today.", native: { nl: "We hadden vandaag een quiz in de klas." }, items: [en.quiz] }
+  - { id: s24, target: "Let's play a card game.", native: { nl: "Laten we een kaartspel doen." }, items: [en.card] }
+lessons:
+  - { id: l01, title: { nl: In de sneeuw }, vocab: [en.ski, en.snowboard, en.snowboarding, en.sledge, en.snowball, en.snowman] }
+  - { id: l02, title: { nl: Sporten }, vocab: [en.chess, en.golf, en.volleyball, en.gym, en.club, en.team] }
+  - { id: l03, title: { nl: Winnen! }, vocab: [en.race, en.racing, en.competition, en.match, en.prize, en.winner, en.win] }
+  - { id: l04, title: { nl: Spelletjes }, vocab: [en.whistle, en.swing, en.puzzle, en.quiz, en.card] }

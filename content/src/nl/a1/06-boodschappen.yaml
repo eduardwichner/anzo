@@ -1,0 +1,54 @@
+id: nl-a1-u06
+title: { en: Groceries }
+icon: food
+topic: Groceries and meals
+vocabulary:
+  - { target: de boodschap, native: { en: "errand, shopping" }, pos: noun, plural: boodschappen }
+  - { target: de aardappel, native: { en: potato }, pos: noun, plural: aardappelen }
+  - { target: de tomaat, native: { en: tomato }, pos: noun, plural: tomaten }
+  - { target: de ui, native: { en: onion }, pos: noun, plural: uien }
+  - { target: de wortel, native: { en: carrot }, pos: noun, plural: wortels }
+  - { target: de sla, native: { en: lettuce }, pos: noun, plural: "-" }
+  - { target: de rijst, native: { en: rice }, pos: noun, plural: "-" }
+  - { target: de pasta, native: { en: pasta }, pos: noun, plural: "pasta's" }
+  - { target: de peer, native: { en: pear }, pos: noun, plural: peren }
+  - { target: de sinaasappel, native: { en: orange }, pos: noun, plural: sinaasappels }
+  - { target: de citroen, native: { en: lemon }, pos: noun, plural: citroenen }
+  - { target: zonder, native: { en: without }, pos: preposition }
+  - { target: de suiker, native: { en: sugar }, pos: noun, plural: "-", avoid: [nl.zout] }
+  - { target: het zout, native: { en: salt }, pos: noun, plural: "-" }
+  - { target: de confituur, native: { en: jam }, pos: noun, plural: confituren, alsoNL: de jam }
+  - { target: de chocolade, native: { en: chocolate }, pos: noun, plural: "-" }
+  - { target: de taart, native: { en: "cake, tart" }, pos: noun, plural: taarten, avoid: [nl.koekje] }
+  - { target: het koekje, native: { en: biscuit }, pos: noun, plural: koekjes }
+  - { target: het sap, native: { en: juice }, pos: noun, plural: sappen }
+  - { target: de cola, native: { en: cola }, pos: noun, plural: "cola's" }
+  - { target: het ontbijt, native: { en: breakfast }, pos: noun, plural: ontbijten, avoid: [nl.lunch, nl.avondeten] }
+  - { target: ontbijten, native: { en: to have breakfast }, pos: verb }
+  - { target: de lunch, native: { en: lunch }, pos: noun, plural: lunches, avoid: [nl.avondeten] }
+  - { target: het avondeten, native: { en: dinner }, pos: noun, plural: "-" }
+sentences:
+  - { id: s01, target: "Ik doe boodschappen in de supermarkt.", native: { en: "I do the shopping at the supermarket." }, items: [nl.boodschap] }
+  - { id: s02, target: "Wij eten vandaag aardappelen.", native: { en: "We're having potatoes today." }, items: [nl.aardappel], acceptAlso: ["Vandaag eten wij aardappelen."] }
+  - { id: s03, target: "De tomaten zijn rood.", native: { en: "The tomatoes are red." }, items: [nl.tomaat] }
+  - { id: s04, target: "Ik koop twee uien.", native: { en: "I'm buying two onions." }, items: [nl.ui] }
+  - { id: s05, target: "De kinderen eten graag wortels.", native: { en: "The children like eating carrots." }, items: [nl.wortel] }
+  - { id: s06, target: "Ik eet sla met tomaten.", native: { en: "I'm eating lettuce with tomatoes." }, items: [nl.sla, nl.tomaat] }
+  - { id: s07, target: "Vanavond eten we rijst met kip.", native: { en: "Tonight we're having chicken with rice." }, items: [nl.rijst], acceptAlso: ["We eten vanavond rijst met kip."] }
+  - { id: s08, target: "Mijn zoon eet graag pasta.", native: { en: "My son likes eating pasta." }, items: [nl.pasta] }
+  - { id: s09, target: "Deze peren zijn lekker.", native: { en: "These pears are tasty." }, items: [nl.peer] }
+  - { id: s10, target: "Ik eet een sinaasappel.", native: { en: "I'm eating an orange." }, items: [nl.sinaasappel] }
+  - { id: s23, target: "Ik drink een glas sap.", native: { en: "I'm drinking a glass of juice." }, items: [nl.sap] }
+  - { id: s11, target: "Thee met citroen, alstublieft.", native: { en: "Tea with lemon, please." }, items: [nl.citroen] }
+  - { id: s12, target: "Ik drink koffie zonder suiker.", native: { en: "I drink coffee without sugar." }, items: [nl.suiker, nl.zonder] }
+  - { id: s13, target: "Er zit te veel zout in de soep.", native: { en: "There's too much salt in the soup." }, items: [nl.zout] }
+  - { id: s14, target: "Een boterham met confituur, graag.", native: { en: "A slice of bread and jam, please." }, items: [nl.confituur] }
+  - { id: s15, target: "Belgische chocolade is heel lekker.", native: { en: "Belgian chocolate is very tasty." }, items: [nl.chocolade] }
+  - { id: s16, target: "Ik koop een taart voor mijn moeder.", native: { en: "I'm buying a cake for my mother." }, items: [nl.taart], acceptAlso: ["Voor mijn moeder koop ik een taart."] }
+  - { id: s17, target: "Wil je een koekje bij de koffie?", native: { en: "Would you like a biscuit with your coffee?" }, items: [nl.koekje] }
+  - { id: s18, target: "Een cola, alstublieft.", native: { en: "A cola, please." }, items: [nl.cola] }
+  - { id: s19, target: "Het ontbijt is om zeven uur.", native: { en: "Breakfast is at seven o'clock." }, items: [nl.ontbijt], acceptAlso: ["Om zeven uur is het ontbijt."] }
+  - { id: s20, target: "Wij ontbijten om half acht.", native: { en: "We have breakfast at half past seven." }, items: [nl.ontbijten], acceptAlso: ["Om half acht ontbijten wij."] }
+  - { id: s21, target: "Ik eet mijn lunch op het werk.", native: { en: "I eat my lunch at work." }, items: [nl.lunch], acceptAlso: ["Op het werk eet ik mijn lunch."] }
+  - { id: s22, target: "Het avondeten is klaar!", native: { en: "Dinner is ready!" }, items: [nl.avondeten] }
+  - { id: s24, target: "Een stukje taart, graag.", native: { en: "A small piece of cake, please." }, items: [nl.taart] }

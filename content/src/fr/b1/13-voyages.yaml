@@ -1,0 +1,80 @@
+id: fr-b1-u13
+title: { nl: Reizen, en: "Travel" }
+icon: travel
+topic: Les voyages et les séjours à l'étranger ; le pronom relatif où, le futur simple
+vocabulary:
+  - { target: le vol, native: { nl: de vlucht, en: "flight" }, pos: noun, gender: m }
+  - { target: la réservation, native: { nl: "de reservatie, de reservering", en: "booking, reservation" }, pos: noun, gender: f }
+  - { target: l'auberge de jeunesse, native: { nl: de jeugdherberg, en: "youth hostel" }, pos: noun, gender: f }
+  - { target: le retard, native: { nl: de vertraging, en: "delay" }, pos: noun, gender: m }
+  - { target: la douane, native: { nl: de douane, en: "customs" }, pos: noun, gender: f }
+  - { target: la frontière, native: { nl: de grens, en: "border" }, pos: noun, gender: f }
+  - { target: le séjour, native: { nl: het verblijf, en: "stay" }, pos: noun, gender: m }
+  - { target: le touriste, native: { nl: de toerist, en: "tourist" }, pos: noun, gender: m }
+  - { target: le tourisme, native: { nl: het toerisme, en: "tourism" }, pos: noun, gender: m }
+  - { target: touristique, native: { nl: toeristisch, en: "touristy, popular with tourists" }, pos: adjective }
+  - { target: le voyageur, native: { nl: de reiziger, en: "traveller, passenger" }, pos: noun, gender: m }
+  - { target: étranger, native: { nl: buitenlands, en: "foreign" }, pos: adjective }
+  - { target: la découverte, native: { nl: de ontdekking, en: "discovery" }, pos: noun, gender: f }
+  - { target: découvrir, native: { nl: ontdekken, en: "to discover" }, pos: verb }
+  - { target: annuler, native: { nl: annuleren, en: "to cancel" }, pos: verb }
+  - { target: prolonger, native: { nl: verlengen, en: "to extend" }, pos: verb }
+  - { target: le guide, native: { nl: de gids, en: "guide" }, pos: noun, gender: m }
+  - { target: guider, native: { nl: begeleiden (de weg wijzen), en: "to guide, to show the way" }, pos: verb }
+  - { target: l'agence, native: { nl: het agentschap (reisbureau), en: "agency, travel agent's" }, pos: noun, gender: f }
+  - { target: accueillir, native: { nl: ontvangen (verwelkomen), en: "to welcome, to receive" }, pos: verb }
+  - { target: l'altitude, native: { nl: de hoogte (boven zee), en: "altitude, height (above sea level)" }, pos: noun, gender: f }
+  - { target: européen, native: { nl: Europees, en: "European" }, pos: adjective }
+  - { target: indien, native: { nl: Indiaas, en: "Indian" }, pos: adjective }
+  - { target: l'ouest, native: { nl: het westen, en: "west" }, pos: noun, gender: m }
+  - { target: le sud-ouest, native: { nl: het zuidwesten, en: "south-west" }, pos: noun, gender: m }
+  - { target: ailleurs, native: { nl: ergens anders, en: "somewhere else, elsewhere" }, pos: adverb }
+  - { target: partout, native: { nl: overal, en: "everywhere" }, pos: adverb }
+  - { target: emmener, native: { nl: meenemen (iemand), en: "to take (someone somewhere)" }, pos: verb }
+  - { target: quitter, native: { nl: verlaten, en: "to leave" }, pos: verb }
+  - { target: linguistique, native: { nl: taal- (zoals in taalreis), en: "language (as in: a language trip), linguistic" }, pos: adjective }
+  - { target: l'échange, native: { nl: de uitwisseling, en: "exchange" }, pos: noun, gender: m }
+  - { target: échanger, native: { nl: uitwisselen (ruilen), en: "to exchange, to swap" }, pos: verb }
+  - { target: organiser, native: { nl: organiseren, en: "to organise" }, pos: verb }
+  - { target: l'organisation, native: { nl: de organisatie, en: "organisation" }, pos: noun, gender: f }
+  - { target: accompagner, native: { nl: begeleiden (meegaan met), en: "to go with, to accompany" }, pos: verb, avoid: [fr.guider] }
+sentences:
+  - { id: s01, target: "Notre vol pour Lisbonne part à sept heures.", native: { nl: "Onze vlucht naar Lissabon vertrekt om zeven uur.", en: "Our flight to Lisbon leaves at seven o'clock." }, items: [fr.vol] }
+  - { id: s02, target: "J'ai fait une réservation pour deux nuits.", native: { nl: "Ik heb een reservatie gemaakt voor twee nachten.", en: "I've made a booking for two nights." }, items: [fr.reservation] }
+  - { id: s03, target: "Nous avons dormi dans une auberge de jeunesse à Bruxelles.", native: { nl: "We hebben in een jeugdherberg in Brussel geslapen.", en: "We slept in a youth hostel in Brussels." }, items: [fr.auberge-de-jeunesse] }
+  - { id: s04, target: "Le train a une heure de retard.", native: { nl: "De trein heeft een uur vertraging.", en: "The train is delayed by an hour." }, items: [fr.retard] }
+  - { id: s05, target: "À la douane, nous avons dû ouvrir nos valises.", native: { nl: "Bij de douane moesten we onze koffers openmaken.", en: "At customs we had to open our suitcases." }, items: [fr.douane], acceptAlso: ["Nous avons dû ouvrir nos valises à la douane."] }
+  - { id: s06, target: "Nous avons passé la frontière sans problème.", native: { nl: "We zijn zonder problemen de grens overgestoken.", en: "We crossed the border without any problems." }, items: [fr.frontiere] }
+  - { id: s07, target: "Pendant mon séjour en France, j'ai beaucoup parlé français.", native: { nl: "Tijdens mijn verblijf in Frankrijk heb ik veel Frans gesproken.", en: "During my stay in France, I spoke a lot of French." }, items: [fr.sejour], acceptAlso: ["J'ai beaucoup parlé français pendant mon séjour en France."] }
+  - { id: s08, target: "En été, il y a beaucoup de touristes à la plage.", native: { nl: "In de zomer zijn er veel toeristen op het strand.", en: "In summer there are lots of tourists on the beach." }, items: [fr.touriste], acceptAlso: ["Il y a beaucoup de touristes à la plage en été."] }
+  - { id: s09, target: "Le tourisme fait vivre cette petite île.", native: { nl: "Dit kleine eiland leeft van het toerisme.", en: "Tourism keeps this little island alive." }, items: [fr.tourisme] }
+  - { id: s10, target: "Ce petit village est devenu très touristique.", native: { nl: "Dit kleine dorp is heel toeristisch geworden.", en: "This little village has become very touristy." }, items: [fr.touristique] }
+  - { id: s11, target: "Les voyageurs attendent le bus devant la gare.", native: { nl: "De reizigers wachten op de bus voor het station.", en: "The travellers are waiting for the bus outside the station." }, items: [fr.voyageur] }
+  - { id: s12, target: "J'aime goûter les plats étrangers.", native: { nl: "Ik proef graag buitenlandse gerechten.", en: "I like tasting foreign dishes." }, items: [fr.etranger] }
+  - { id: s13, target: "Ce voyage a été une belle découverte.", native: { nl: "Deze reis was een mooie ontdekking.", en: "This trip was a wonderful discovery." }, items: [fr.decouverte] }
+  - { id: s14, target: "Pendant les vacances, nous avons découvert une ville magnifique.", native: { nl: "Tijdens de vakantie hebben we een prachtige stad ontdekt.", en: "During the holidays we discovered a magnificent city." }, items: [fr.decouvrir], acceptAlso: ["Nous avons découvert une ville magnifique pendant les vacances."] }
+  - { id: s15, target: "Le vol a été annulé à cause de la neige.", native: { nl: "De vlucht is geannuleerd door de sneeuw.", en: "The flight was cancelled because of the snow." }, items: [fr.annuler] }
+  - { id: s16, target: "Nous voulons prolonger notre séjour de deux jours.", native: { nl: "We willen ons verblijf met twee dagen verlengen.", en: "We want to extend our stay by two days." }, items: [fr.prolonger] }
+  - { id: s17, target: "Le guide nous a montré la vieille ville.", native: { nl: "De gids heeft ons de oude stad getoond.", en: "The guide showed us the old town." }, items: [fr.guide] }
+  - { id: s18, target: "Un habitant nous a guidés jusqu'au musée.", native: { nl: "Een bewoner heeft ons de weg naar het museum gewezen.", en: "A local resident guided us to the museum." }, items: [fr.guider] }
+  - { id: s19, target: "Nous avons réservé le voyage dans une agence.", native: { nl: "We hebben de reis bij een reisbureau geboekt.", en: "We booked the trip at a travel agency." }, items: [fr.agence] }
+  - { id: s20, target: "La famille m'a accueilli comme un fils.", native: { nl: "Het gezin heeft me als een zoon ontvangen.", en: "The family welcomed me like a son." }, items: [fr.accueillir] }
+  - { id: s21, target: "Ce village est situé à deux mille mètres d'altitude.", native: { nl: "Dit dorp ligt op tweeduizend meter hoogte.", en: "This village is at an altitude of two thousand metres." }, items: [fr.altitude] }
+  - { id: s22, target: "La Belgique est un pays européen.", native: { nl: "België is een Europees land.", en: "Belgium is a European country." }, items: [fr.europeen] }
+  - { id: s23, target: "Nous avons mangé dans un restaurant indien.", native: { nl: "We hebben in een Indiaas restaurant gegeten.", en: "We ate in an Indian restaurant." }, items: [fr.indien] }
+  - { id: s24, target: "La Bretagne est dans l'ouest de la France.", native: { nl: "Bretagne ligt in het westen van Frankrijk.", en: "Brittany is in the west of France." }, items: [fr.ouest] }
+  - { id: s25, target: "Il fait souvent beau dans le sud-ouest.", native: { nl: "Het is vaak mooi weer in het zuidwesten.", en: "The weather is often good in the south-west." }, items: [fr.sud-ouest] }
+  - { id: s26, target: "Il n'y a plus de chambre dans cet hôtel, cherchons ailleurs.", native: { nl: "Er is geen kamer meer in dit hotel, laten we ergens anders zoeken.", en: "There are no rooms left in this hotel, so let's look somewhere else." }, items: [fr.ailleurs] }
+  - { id: s27, target: "Il y avait des touristes partout.", native: { nl: "Er waren overal toeristen.", en: "There were tourists everywhere." }, items: [fr.partout] }
+  - { id: s28, target: "Mes parents m'emmènent à la mer ce week-end.", native: { nl: "Mijn ouders nemen me dit weekend mee naar zee.", en: "My parents are taking me to the seaside this weekend." }, items: [fr.emmener], acceptAlso: ["Ce week-end, mes parents m'emmènent à la mer."] }
+  - { id: s29, target: "Nous quittons l'hôtel à dix heures.", native: { nl: "We verlaten het hotel om tien uur.", en: "We're leaving the hotel at ten o'clock." }, items: [fr.quitter], finite: { word: quittons, hint: { nl: "quitter (présent)", en: "quitter (present)" } } }
+  - { id: s30, target: "Elle fait un séjour linguistique en Angleterre.", native: { nl: "Ze gaat op taalreis naar Engeland.", en: "She's on a language trip in England." }, items: [fr.linguistique] }
+  - { id: s31, target: "Notre classe fait un échange avec une école de Québec.", native: { nl: "Onze klas doet een uitwisseling met een school uit Québec.", en: "Our class is doing an exchange with a school in Quebec City." }, items: [fr.echange] }
+  - { id: s32, target: "Nous avons échangé nos adresses avant de partir.", native: { nl: "We hebben onze adressen uitgewisseld voor we vertrokken.", en: "We exchanged addresses before we left." }, items: [fr.echanger], acceptAlso: ["Avant de partir, nous avons échangé nos adresses."] }
+  - { id: s33, target: "Qui organise le voyage de fin d'année ?", native: { nl: "Wie organiseert de eindejaarsreis?", en: "Who's organising the end-of-year trip?" }, items: [fr.organiser], finite: { word: organise, hint: { nl: "organiser (présent)", en: "organiser (present)" } } }
+  - { id: s34, target: "Merci pour la bonne organisation du voyage !", native: { nl: "Bedankt voor de goede organisatie van de reis!", en: "Thanks for the excellent organisation of the trip!" }, items: [fr.organisation] }
+  - { id: s35, target: "Deux professeurs accompagnent les élèves.", native: { nl: "Twee leraren gaan mee met de leerlingen.", en: "Two teachers are going with the pupils." }, items: [fr.accompagner], finite: { word: accompagnent, hint: { nl: "accompagner (présent)", en: "accompagner (present)" } } }
+  - { id: s36, target: "C'est l'agence où nous avons réservé le voyage.", native: { nl: "Dat is het reisbureau waar we de reis geboekt hebben.", en: "That's the agency where we booked the trip." }, items: [fr.agence], build: true }
+  - { id: s37, target: "L'année prochaine, nous ferons un séjour en Espagne.", native: { nl: "Volgend jaar verblijven we een tijdje in Spanje.", en: "Next year we'll be staying in Spain for a while." }, items: [fr.sejour], build: true, acceptAlso: ["Nous ferons un séjour en Espagne l'année prochaine."] }
+  - { id: s38, target: "Si j'avais le choix, je ferais un séjour au Canada.", native: { nl: "Als ik de keuze had, zou ik een tijdje in Canada verblijven.", en: "If I had the choice, I'd go and stay in Canada for a while." }, items: [fr.sejour] }
+texts: [fr-b1-t14]

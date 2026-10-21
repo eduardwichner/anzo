@@ -1,0 +1,65 @@
+id: en-a2-u02
+title: { nl: Hoe laat? }
+icon: day
+topic: Time
+vocabulary:
+  - { target: hour, native: { nl: uur }, pos: noun }
+  - { target: minute, native: { nl: minuut }, pos: noun }
+  - { target: quarter, native: { nl: kwart }, pos: noun }
+  - { target: half, native: { nl: half }, pos: noun }
+  - { target: past, native: { nl: "over (bij de tijd)" }, pos: preposition }
+  - { target: midnight, native: { nl: middernacht }, pos: noun }
+  - { target: midday, native: { nl: twaalf uur 's middags }, pos: noun }
+  - { target: a.m., native: { nl: "'s ochtends (voor twaalf uur)" }, pos: other }
+  - { target: p.m., native: { nl: "'s middags of 's avonds (na twaalf uur)" }, pos: other, avoid: [en.midday] }
+  - { target: time, native: { nl: tijd }, pos: noun }
+  - { target: early, native: { nl: vroeg }, pos: adverb }
+  - { target: late, native: { nl: laat }, pos: adverb }
+  - { target: later, native: { nl: later }, pos: adverb, avoid: [en.late] }
+  - { target: soon, native: { nl: "zo, binnenkort" }, pos: adverb }
+  - { target: tomorrow, native: { nl: morgen }, pos: adverb }
+  - { target: tonight, native: { nl: vanavond }, pos: adverb }
+  - { target: ago, native: { nl: geleden }, pos: adverb }
+  - { target: already, native: { nl: al }, pos: adverb }
+  - { target: yet, native: { nl: "al, nog (niet)" }, pos: adverb }
+  - { target: ever, native: { nl: ooit }, pos: adverb }
+  - { target: once, native: { nl: één keer }, pos: adverb }
+  - { target: twice, native: { nl: twee keer }, pos: adverb }
+  - { target: until, native: { nl: tot }, pos: preposition }
+  - { target: since, native: { nl: sinds }, pos: preposition }
+  - { target: during, native: { nl: tijdens }, pos: preposition }
+  - { target: at the moment, native: { nl: op dit moment }, pos: phrase }
+  - { target: in a minute, native: { nl: zo meteen }, pos: phrase, avoid: [en.minute, en.soon] }
+sentences:
+  - { id: s01, target: "The film is two hours long.", native: { nl: "De film duurt twee uur." }, items: [en.hour] }
+  - { id: s02, target: "I waited for an hour.", native: { nl: "Ik heb een uur gewacht." }, items: [en.hour] }
+  - { id: s03, target: "Wait a minute!", native: { nl: "Wacht een minuut!" }, items: [en.minute] }
+  - { id: s04, target: "It's a quarter past three.", native: { nl: "Het is kwart over drie." }, items: [en.quarter, en.past], acceptAlso: ["It is a quarter past three."] }
+  - { id: s05, target: "It's half past seven.", native: { nl: "Het is half acht." }, items: [en.half, en.past], acceptAlso: ["It is half past seven."] }
+  - { id: s06, target: "We went to bed at midnight.", native: { nl: "We gingen om middernacht naar bed." }, items: [en.midnight] }
+  - { id: s07, target: "We have lunch at midday.", native: { nl: "We lunchen om twaalf uur 's middags." }, items: [en.midday] }
+  - { id: s08, target: "The museum opens at ten a.m.", native: { nl: "Het museum gaat om tien uur 's ochtends open." }, items: [en.a-m] }
+  - { id: s09, target: "The party starts at four p.m.", native: { nl: "Het feest begint om vier uur 's middags." }, items: [en.p-m] }
+  - { id: s10, target: "What time is it?", native: { nl: "Hoe laat is het?" }, items: [en.time] }
+  - { id: s11, target: "I got up early this morning.", native: { nl: "Ik ben vanochtend vroeg opgestaan." }, items: [en.early] }
+  - { id: s12, target: "Hurry up, we're late!", native: { nl: "Schiet op, we zijn te laat!" }, items: [en.late], acceptAlso: ["Hurry up, we are late!"] }
+  - { id: s13, target: "I'll do my homework later.", native: { nl: "Ik maak mijn huiswerk later." }, items: [en.later], acceptAlso: ["I will do my homework later."] }
+  - { id: s14, target: "Grandma will be here soon.", native: { nl: "Oma is er zo." }, items: [en.soon] }
+  - { id: s15, target: "See you tomorrow!", native: { nl: "Tot morgen!" }, items: [en.tomorrow] }
+  - { id: s16, target: "What will you do tonight?", native: { nl: "Wat ga je vanavond doen?" }, items: [en.tonight] }
+  - { id: s17, target: "We moved here two years ago.", native: { nl: "We zijn twee jaar geleden hierheen verhuisd." }, items: [en.ago] }
+  - { id: s18, target: "I've already finished my lunch.", native: { nl: "Ik heb mijn lunch al op." }, items: [en.already], acceptAlso: ["I have already finished my lunch."] }
+  - { id: s19, target: "I haven't finished yet.", native: { nl: "Ik ben nog niet klaar." }, items: [en.yet], acceptAlso: ["I have not finished yet."] }
+  - { id: s20, target: "Have you ever seen a whale?", native: { nl: "Heb jij ooit een walvis gezien?" }, items: [en.ever] }
+  - { id: s21, target: "I've been to London once.", native: { nl: "Ik ben één keer in Londen geweest." }, items: [en.once], acceptAlso: ["I have been to London once."] }
+  - { id: s22, target: "We go swimming twice a week.", native: { nl: "We gaan twee keer per week zwemmen." }, items: [en.twice] }
+  - { id: s23, target: "Wait here until I come back.", native: { nl: "Wacht hier tot ik terugkom." }, items: [en.until] }
+  - { id: s24, target: "I have lived here since I was three.", native: { nl: "Ik woon hier sinds ik drie was." }, items: [en.since] }
+  - { id: s25, target: "Don't talk during the film.", native: { nl: "Niet praten tijdens de film." }, items: [en.during], acceptAlso: ["Do not talk during the film."] }
+  - { id: s26, target: "Dad is cooking at the moment.", native: { nl: "Papa is op dit moment aan het koken." }, items: [en.at-the-moment] }
+  - { id: s27, target: "I'll be there in a minute!", native: { nl: "Ik ben er zo meteen!" }, items: [en.in-a-minute], acceptAlso: ["I will be there in a minute!"] }
+lessons:
+  - { id: l01, title: { nl: Klokkijken }, vocab: [en.hour, en.minute, en.quarter, en.half, en.past, en.midnight, en.midday] }
+  - { id: l02, title: { nl: Vroeg en laat }, vocab: [en.a-m, en.p-m, en.time, en.early, en.late, en.later, en.soon] }
+  - { id: l03, title: { nl: Morgen en vanavond }, vocab: [en.tomorrow, en.tonight, en.ago, en.already, en.yet, en.ever, en.once] }
+  - { id: l04, title: { nl: Hoe lang? }, vocab: [en.twice, en.until, en.since, en.during, en.at-the-moment, en.in-a-minute] }

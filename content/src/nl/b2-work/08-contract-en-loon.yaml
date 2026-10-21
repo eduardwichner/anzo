@@ -1,0 +1,45 @@
+id: nl-b2-work-u08
+title: { en: Contract and pay }
+icon: money
+topic: Gross and net pay, the payslip, Belgian benefits (meal vouchers, holiday pay, end-of-year bonus, indexation), working hours, leave and dismissal; conditions and consequences (indien, mits, als … dan)
+vocabulary:
+  - { target: het brutoloon, native: { en: "gross pay" }, pos: noun, plural: brutolonen }
+  - { target: het nettoloon, native: { en: "net pay, take-home pay" }, pos: noun, plural: nettolonen }
+  - { target: de loonbrief, native: { en: "payslip (Belgian)" }, pos: noun, plural: loonbrieven, alsoNL: de loonstrook }
+  - { target: de eindejaarspremie, native: { en: "end-of-year bonus (Belgian; thirteenth month)" }, pos: noun, plural: eindejaarspremies }
+  - { target: het vakantiegeld, native: { en: "holiday pay" }, pos: noun, plural: "-" }
+  - { target: de indexering, native: { en: "indexation (pay rising with prices)" }, pos: noun, plural: indexeringen }
+  - { target: de anciënniteit, native: { en: "seniority, length of service" }, pos: noun, plural: "-" }
+  - { target: de arbeidsduur, native: { en: "working hours (per week)" }, pos: noun, plural: "-" }
+  - { target: het ploegenwerk, native: { en: "shift work" }, pos: noun, plural: "-" }
+  - { target: de uitzendkracht, native: { en: "agency worker, temp" }, pos: noun, plural: uitzendkrachten }
+  - { target: de opzeggingstermijn, native: { en: "period of notice (in law)" }, pos: noun, plural: opzeggingstermijnen, avoid: [nl.opzegtermijn], noBlank: true }
+  - { target: de ontslagvergoeding, native: { en: "severance pay" }, pos: noun, plural: ontslagvergoedingen }
+  - { target: het statuut, native: { en: "status (as employee or self-employed)" }, pos: noun, plural: statuten }
+  - { target: indien, native: { en: "if, in case (formal)" }, pos: conjunction, avoid: [nl.als] }
+  - { target: de arbeidsvoorwaarden, native: { en: "terms of employment" }, pos: noun, plural: "-" }
+sentences:
+  - { id: s01, target: "Op je brutoloon betaal je belastingen en sociale bijdragen.", native: { en: "You pay taxes and social security contributions on your gross pay." }, items: [nl.brutoloon] }
+  - { id: s02, target: "Mijn nettoloon is ongeveer tweeduizend euro per maand.", native: { en: "My net pay is about two thousand euros a month." }, items: [nl.nettoloon] }
+  - { id: s03, target: "Op je loonbrief zie je hoeveel je verdient.", native: { en: "On your payslip you can see how much you earn." }, items: [nl.loonbrief] }
+  - { id: s04, target: "In december krijgen we een eindejaarspremie.", native: { en: "In December we get an end-of-year bonus." }, items: [nl.eindejaarspremie], acceptAlso: ["We krijgen in december een eindejaarspremie."] }
+  - { id: s05, target: "Met het vakantiegeld betalen we onze reis.", native: { en: "We pay for our trip with the holiday pay." }, items: [nl.vakantiegeld], acceptAlso: ["We betalen onze reis met het vakantiegeld."] }
+  - { id: s06, target: "Door de indexering stijgen de lonen als de prijzen stijgen.", native: { en: "Because of indexation, wages rise when prices rise." }, items: [nl.indexering], acceptAlso: ["De lonen stijgen door de indexering als de prijzen stijgen.", "Als de prijzen stijgen, stijgen de lonen door de indexering."] }
+  - { id: s07, target: "Met meer anciënniteit krijg je een hoger loon.", native: { en: "With longer service you get a higher wage." }, items: [nl.ancienniteit], form: { word: hoger, stem: hoog } }
+  - { id: s08, target: "De wettelijke arbeidsduur is achtendertig uur per week.", native: { en: "The legal working week is thirty-eight hours." }, items: [nl.arbeidsduur] }
+  - { id: s09, target: "In de fabriek doen ze ploegenwerk.", native: { en: "In the factory they do shift work." }, items: [nl.ploegenwerk] }
+  - { id: s10, target: "In de zomer werken er veel uitzendkrachten in het magazijn.", native: { en: "In summer many agency workers work in the warehouse." }, items: [nl.uitzendkracht], acceptAlso: ["Er werken in de zomer veel uitzendkrachten in het magazijn.", "In het magazijn werken er in de zomer veel uitzendkrachten."] }
+  - { id: s11, target: "Hoe lang is de opzeggingstermijn na vijf jaar?", native: { en: "How long is the notice period after five years?" }, items: [nl.opzeggingstermijn] }
+  - { id: s12, target: "Na zijn ontslag kreeg hij een ontslagvergoeding.", native: { en: "After his dismissal he got severance pay." }, items: [nl.ontslagvergoeding] }
+  - { id: s13, target: "Als zelfstandige heb je een ander statuut dan een bediende.", native: { en: "As a self-employed person you have a different status from an employee." }, items: [nl.statuut], finite: { word: heb, hint: { en: "hebben (present)" } } }
+  - { id: s14, target: "Indien u ziek bent, verwittigt u de werkgever voor negen uur.", native: { en: "If you are ill, inform your employer before nine o'clock." }, items: [nl.indien], acceptAlso: ["U verwittigt de werkgever voor negen uur indien u ziek bent."] }
+  - { id: s15, target: "Als je meer uren werkt, dan stijgt ook je brutoloon.", native: { en: "If you work more hours, your gross pay rises too." }, items: [nl.brutoloon], build: true }
+  - { id: s16, target: "U krijgt de volledige eindejaarspremie, mits u het hele jaar gewerkt hebt.", native: { en: "You get the full end-of-year bonus, provided you have worked the whole year." }, items: [nl.eindejaarspremie], acceptAlso: ["U krijgt de volledige eindejaarspremie, mits u het hele jaar hebt gewerkt.", "Mits u het hele jaar gewerkt hebt, krijgt u de volledige eindejaarspremie.", "Mits u het hele jaar hebt gewerkt, krijgt u de volledige eindejaarspremie."] }
+  - { id: s17, target: "Voor ploegenwerk krijg je een premie.", native: { en: "You get an allowance for shift work." }, items: [nl.ploegenwerk] }
+  - { id: s18, target: "De arbeidsvoorwaarden staan in je contract.", native: { en: "The terms of employment are in your contract." }, items: [nl.arbeidsvoorwaarden], acceptAlso: ["In je contract staan de arbeidsvoorwaarden."] }
+  - { id: s19, target: "Wie ontslagen wordt zonder opzeggingstermijn, krijgt een vergoeding.", native: { en: "Anyone who is dismissed without notice gets compensation." }, items: [nl.opzeggingstermijn], form: { word: vergoeding, stem: vergoeden } }
+transforms:
+  - { id: x01, from: "Als u ziek bent, moet u de werkgever bellen.", key: Indien, gapped: "___ ziek bent, moet u de werkgever bellen.", answers: ["Indien u"], items: [nl.indien] }
+  - { id: x02, from: "Uitzendkrachten mogen thuiswerken als hun leidinggevende akkoord gaat.", key: mits, gapped: "Uitzendkrachten mogen thuiswerken, ___ akkoord gaat.", answers: ["mits hun leidinggevende"], items: [nl.uitzendkracht] }
+  - { id: x03, from: "Hoe lang de opzeggingstermijn is, is afhankelijk van je anciënniteit.", key: hangt, gapped: "De opzeggingstermijn ___ je anciënniteit.", answers: ["hangt af van"], items: [nl.ancienniteit] }
+texts: [nl-b2-work-t08]

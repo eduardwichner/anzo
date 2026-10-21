@@ -1,0 +1,38 @@
+id: fr-a1-u15
+title: { nl: "Au, mijn rug!", en: "Ow, my back!" }
+icon: body
+topic: Le corps; la santé; les vêtements
+vocabulary:
+  - { target: le corps, native: { nl: het lichaam, en: "body" }, pos: noun, gender: m }
+  - { target: le visage, native: { nl: het gezicht, en: "face" }, pos: noun, gender: m }
+  - { target: la dent, native: { nl: de tand, en: "tooth" }, pos: noun, gender: f }
+  - { target: le ventre, native: { nl: de buik, en: "stomach, tummy" }, pos: noun, gender: m }
+  - { target: le dos, native: { nl: de rug, en: "back" }, pos: noun, gender: m }
+  - { target: le cou, native: { nl: "de nek, de hals", en: "neck" }, pos: noun, gender: m }
+  - { target: avoir mal, native: { nl: pijn hebben, en: "to hurt, to be in pain" }, pos: phrase }
+  - { target: la fièvre, native: { nl: de koorts, en: "temperature, fever" }, pos: noun, gender: f }
+  - { target: la chemise, native: { nl: het overhemd, en: "shirt" }, pos: noun, gender: f }
+  - { target: la chaussette, native: { nl: de sok, en: "sock" }, pos: noun, gender: f }
+  - { target: la casquette, native: { nl: de pet, en: "cap" }, pos: noun, gender: f }
+  - { target: le maillot de bain, native: { nl: "het zwempak, de zwembroek", en: "swimsuit, swimming trunks" }, pos: noun, gender: m }
+  - { target: le vêtement, native: { nl: "het kledingstuk, de kleren", en: "piece of clothing, clothes" }, pos: noun, gender: m, category: true }
+  - { target: "s'habiller", native: { nl: zich aankleden, en: "to get dressed" }, pos: verb }
+sentences:
+  - { id: s01, target: "Le corps a deux bras et deux jambes.", native: { nl: "Het lichaam heeft twee armen en twee benen.", en: "The body has two arms and two legs." }, items: [fr.corps] }
+  - { id: s02, target: "Lave ton visage !", native: { nl: "Was je gezicht!", en: "Wash your face!" }, items: [fr.visage] }
+  - { id: s03, target: "Le bébé a deux dents.", native: { nl: "De baby heeft twee tanden.", en: "The baby has two teeth." }, items: [fr.dent] }
+  - { id: s04, target: "J'ai mal au ventre.", native: { nl: "Ik heb buikpijn.", en: "I have a stomach ache." }, items: [fr.ventre, fr.avoir-mal] }
+  - { id: s05, target: "Mon grand-père a mal au dos.", native: { nl: "Mijn opa heeft rugpijn.", en: "My grandfather's back hurts." }, items: [fr.dos, fr.avoir-mal] }
+  - { id: s06, target: "La girafe a un long cou.", native: { nl: "De giraf heeft een lange nek.", en: "The giraffe has a long neck." }, items: [fr.cou] }
+  - { id: s07, target: "Tu as mal où ?", native: { nl: "Waar doet het pijn?", en: "Where does it hurt?" }, items: [fr.avoir-mal] }
+  - { id: s08, target: "J'ai de la fièvre, je reste au lit.", native: { nl: "Ik heb koorts, ik blijf in bed.", en: "I have a temperature, I'm staying in bed." }, items: [fr.fievre] }
+  - { id: s09, target: "Papa porte une chemise blanche.", native: { nl: "Papa draagt een wit overhemd.", en: "Dad is wearing a white shirt." }, items: [fr.chemise] }
+  - { id: s10, target: "Où sont mes chaussettes ?", native: { nl: "Waar zijn mijn sokken?", en: "Where are my socks?" }, items: [fr.chaussette] }
+  - { id: s11, target: "Il fait beau, prends ta casquette.", native: { nl: "Het is mooi weer, neem je pet mee.", en: "The weather's nice, take your cap." }, items: [fr.casquette] }
+  - { id: s12, target: "Prends ton maillot de bain !", native: { nl: "Neem je zwempak mee!", en: "Take your swimsuit!" }, items: [fr.maillot-de-bain] }
+  - { id: s13, target: "Mes vêtements sont dans mon sac.", native: { nl: "Mijn kleren zitten in mijn tas.", en: "My clothes are in my bag." }, items: [fr.vetement] }
+  - { id: s14, target: "Tu aimes t'habiller comment ?", native: { nl: "Hoe kleed jij je graag?", en: "How do you like to dress?" }, items: [fr.s-habiller] }
+  - { id: s15, target: "Le matin, je m'habille vite.", native: { nl: "'s Ochtends kleed ik me snel aan.", en: "In the morning I get dressed quickly." }, items: [fr.s-habiller] }
+lessons:
+  - { id: l01, title: { nl: Au!, en: "Ow!" }, vocab: [fr.corps, fr.visage, fr.dent, fr.ventre, fr.dos, fr.cou, fr.avoir-mal] }
+  - { id: l02, title: { nl: "Koorts, sokken en pet", en: "A temperature, socks and a cap" }, vocab: [fr.fievre, fr.chemise, fr.chaussette, fr.casquette, fr.maillot-de-bain, fr.vetement, fr.s-habiller] }

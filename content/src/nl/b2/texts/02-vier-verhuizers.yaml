@@ -1,0 +1,39 @@
+id: nl-b2-t02
+kind: reading
+title: { en: Four people who moved }
+topic: A new chapter (four short posts on a forum about moving)
+level: B2
+paragraphs:
+  - - { id: nl-b2-t02-s01, target: "Ik ben voor mijn werk naar Antwerpen verhuisd.", native: { en: "I moved to Antwerp for my work." } }
+    - { id: nl-b2-t02-s02, target: "Aanvankelijk miste ik de rust van het platteland, maar inmiddels geniet ik van de drukte.", native: { en: "At first I missed the peace of the countryside, but by now I enjoy the bustle." } }
+    - { id: nl-b2-t02-s03, target: "Er is altijd wel iets te beleven.", native: { en: "There's always something going on." } }
+  - - { id: nl-b2-t02-s04, target: "Mijn moedertaal is Frans en ik woon nu twee jaar in Leuven.", native: { en: "My mother tongue is French and I've been living in Leuven for two years now." } }
+    - { id: nl-b2-t02-s05, target: "Het moeilijkste vond ik de taal, want iedereen sprak zo snel.", native: { en: "I found the language the hardest thing, because everyone spoke so fast." } }
+    - { id: nl-b2-t02-s06, target: "Een avondcursus Nederlands heeft me enorm geholpen.", native: { en: "An evening course in Dutch helped me enormously." } }
+  - - { id: nl-b2-t02-s07, target: "Ik ben spontaan naar Brussel verhuisd, zonder echt een plan.", native: { en: "I moved to Brussels on the spur of the moment, without a real plan." } }
+    - { id: nl-b2-t02-s08, target: "Achteraf gezien was dat niet zo slim, want het duurde maanden voor ik een betaalbaar appartement vond.", native: { en: "In hindsight that wasn't very clever, because it took months before I found an affordable flat." } }
+  - - { id: nl-b2-t02-s09, target: "Na twintig jaar in het buitenland ben ik teruggekeerd naar Brugge.", native: { en: "After twenty years abroad I went back to Bruges." } }
+    - { id: nl-b2-t02-s10, target: "Gek genoeg voelde mijn eigen stad onbekend aan.", native: { en: "Strangely enough, my own town felt unknown." } }
+    - { id: nl-b2-t02-s11, target: "Ik moest alles opnieuw ontdekken, zelfs de weg naar de bakker.", native: { en: "I had to discover everything again, even the way to the baker's." } }
+items: [nl.aanvankelijk, nl.inmiddels, nl.drukte, nl.beleven, nl.moedertaal, nl.spontaan, nl.achteraf, nl.onbekend, nl.ontdekken, nl.betaalbaar]
+questions:
+  - id: nl-b2-t02-q1
+    type: match_texts
+    labels: [Tom, Leila, Bram, Ines]
+    statements:
+      - { id: nl-b2-t02-q1-a, statement: "Deze persoon vond het moeilijk om een woning te vinden.", paragraph: 3 }
+      - { id: nl-b2-t02-q1-b, statement: "Deze persoon kende de stad al van vroeger.", paragraph: 4 }
+      - { id: nl-b2-t02-q1-c, statement: "Voor deze persoon was de taal het grootste probleem.", paragraph: 2 }
+      - { id: nl-b2-t02-q1-d, statement: "Deze persoon vindt het nu leuk dat er veel mensen op straat zijn.", paragraph: 1 }
+      - { id: nl-b2-t02-q1-e, statement: "Deze persoon heeft de verhuizing niet goed voorbereid.", paragraph: 3 }
+      - { id: nl-b2-t02-q1-f, statement: "Deze persoon heeft lessen gevolgd.", paragraph: 2 }
+  - { id: nl-b2-t02-q2, type: mc, question: "Wat hebben de vier personen gemeen?", options: ["Ze zijn allemaal verhuisd.", "Ze hebben allemaal een nieuwe job.", "Ze komen allemaal uit het buitenland."], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-t02-l1, type: mc, question: "Waarom verhuisde de eerste persoon naar Antwerpen?", options: ["Voor zijn werk.", "Voor de liefde.", "Voor zijn studie."], correct: 0 }
+  - { id: nl-b2-t02-l2, type: complete, statement: "De laatste persoon woonde ___ jaar in het buitenland.", answers: [twintig, "20"] }
+openCloze:
+  - { sentence: nl-b2-t02-s01, word: voor, acceptAlso: [door, wegens] }
+  - { sentence: nl-b2-t02-s03, word: iets, acceptAlso: [wat, veel] }
+  - { sentence: nl-b2-t02-s05, word: zo, acceptAlso: [heel, erg, te, echt] }
+  - { sentence: nl-b2-t02-s11, word: zelfs, acceptAlso: [ook, zoals, bijvoorbeeld] }
+orderable: false

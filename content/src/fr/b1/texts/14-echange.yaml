@@ -1,0 +1,35 @@
+id: fr-b1-t14
+kind: reading
+title: { nl: Twee weken in Québec, en: "Two weeks in Quebec City" }
+topic: Les voyages (une élève raconte son échange linguistique)
+level: B1
+paragraphs:
+  - - { id: fr-b1-t14-s01, target: "En avril, notre classe a fait un échange avec une école de Québec, au Canada.", native: { nl: "In april deed onze klas een uitwisseling met een school in Québec, in Canada.", en: "In April our class did an exchange with a school in Quebec City, Canada." } }
+    - { id: fr-b1-t14-s02, target: "Le voyage a mal commencé : notre vol avait trois heures de retard.", native: { nl: "De reis begon slecht: onze vlucht had drie uur vertraging.", en: "The trip got off to a bad start: our flight was three hours late." } }
+  - - { id: fr-b1-t14-s03, target: "Mais à l'arrivée, ma nouvelle famille m'attendait avec un grand sourire.", native: { nl: "Maar bij aankomst stond mijn nieuwe gezin me met een grote glimlach op te wachten.", en: "But when we arrived, my new family was waiting for me with a big smile." } }
+    - { id: fr-b1-t14-s04, target: "Ils m'ont accueillie comme leur propre fille, et j'ai partagé la chambre de Maëlle, qui a mon âge.", native: { nl: "Ze ontvingen me als hun eigen dochter, en ik deelde de kamer van Maëlle, die even oud is als ik.", en: "They welcomed me like their own daughter, and I shared a room with Maëlle, who's my age." } }
+  - - { id: fr-b1-t14-s05, target: "Pendant mon séjour, j'allais à l'école avec Maëlle tous les matins.", native: { nl: "Tijdens mijn verblijf ging ik elke ochtend met Maëlle naar school.", en: "During my stay, I went to school with Maëlle every morning." } }
+    - { id: fr-b1-t14-s06, target: "Le week-end, ses parents nous emmenaient découvrir la région : les lacs, les forêts et la vieille ville.", native: { nl: "In het weekend namen haar ouders ons mee om de streek te ontdekken: de meren, de bossen en de oude stad.", en: "At weekends her parents took us out to discover the region: the lakes, the forests and the old town." } }
+    - { id: fr-b1-t14-s07, target: "Les gens parlent français partout, mais avec un accent et des mots différents.", native: { nl: "De mensen spreken overal Frans, maar met een accent en andere woorden.", en: "People speak French everywhere, but with an accent and different words." } }
+  - - { id: fr-b1-t14-s08, target: "Quand j'ai quitté Québec, j'étais triste, mais Maëlle viendra chez nous en octobre.", native: { nl: "Toen ik Québec verliet, was ik verdrietig, maar Maëlle komt in oktober bij ons.", en: "When I left Quebec City I was sad, but Maëlle is coming to stay with us in October." } }
+    - { id: fr-b1-t14-s09, target: "Je lui ferai découvrir la Belgique !", native: { nl: "Ik zal haar België laten ontdekken!", en: "I'll show her Belgium!" } }
+glossary:
+  - { word: accent, native: { nl: accent, en: "accent" } }
+items: [fr.echange, fr.vol, fr.retard, fr.accueillir, fr.sejour, fr.emmener, fr.decouvrir, fr.region, fr.partout, fr.quitter]
+questions:
+  - { id: fr-b1-t14-q1, type: mc, question: "Pourquoi le voyage a-t-il mal commencé ?", options: ["Le vol avait du retard.", "La valise était perdue.", "Il neigeait à Québec."], correct: 0 }
+  - { id: fr-b1-t14-q2, type: true_false_notgiven, statement: "L'élève dormait seule dans une chambre.", answer: false }
+  - { id: fr-b1-t14-q3, type: true_false_notgiven, statement: "La famille de Québec a bien accueilli l'élève.", answer: true }
+  - { id: fr-b1-t14-q4, type: true_false_notgiven, statement: "Le week-end, la famille montrait la région aux deux filles.", answer: true }
+  - { id: fr-b1-t14-q5, type: mc, question: "Que va-t-il se passer en octobre ?", options: ["Maëlle va venir en Belgique.", "La classe va faire un autre voyage.", "L'élève va changer d'école."], correct: 0 }
+  - { id: fr-b1-t14-q6, type: match_heading, paragraph: 3, options: ["La vie à Québec", "Un départ difficile", "Une nouvelle visite"], correct: 0 }
+listeningQuestions:
+  - { id: fr-b1-t14-l1, type: mc, question: "Combien d'heures de retard avait le vol ?", options: ["Trois.", "Deux.", "Six."], correct: 0 }
+  - { id: fr-b1-t14-l2, type: true_false_notgiven, statement: "À Québec, les gens parlent avec le même accent que nous.", answer: false }
+cloze:
+  - { sentence: fr-b1-t14-s01, word: fait, kind: finite_verb, hint: { nl: "faire (passé composé: a …)", en: "faire (passé composé: a …)" } }
+  - { sentence: fr-b1-t14-s02, word: avait, kind: finite_verb, hint: { nl: "avoir (imparfait)", en: "avoir (imperfect)" } }
+  - { sentence: fr-b1-t14-s06, word: emmenaient, kind: finite_verb, hint: { nl: "emmener (imparfait)", en: "emmener (imperfect)" } }
+  - { sentence: fr-b1-t14-s07, word: parlent, kind: finite_verb, hint: { nl: "parler (présent)", en: "parler (present)" } }
+  - { sentence: fr-b1-t14-s08, word: viendra, kind: finite_verb, hint: { nl: "venir (futur)", en: "venir (future)" } }
+orderable: true

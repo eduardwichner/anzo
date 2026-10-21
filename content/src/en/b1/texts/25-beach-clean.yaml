@@ -1,0 +1,36 @@
+id: en-b1-t25
+kind: reading
+title: { nl: Het strand schoonmaken }
+topic: The environment (a school project reported on a local news website)
+level: B1
+paragraphs:
+  - - { id: en-b1-t25-s01, target: "Last Saturday, sixty students from Westfield School spent the morning on Sandy Bay beach, picking up litter.", native: { nl: "Afgelopen zaterdag brachten zestig leerlingen van Westfield School de ochtend door op het strand van Sandy Bay, waar ze zwerfvuil opraapten." } }
+    - { id: en-b1-t25-s02, target: "The idea came from two Year 9 students, who were shocked by the plastic they saw on a walk along the coast.", native: { nl: "Het idee kwam van twee leerlingen van ongeveer veertien, die geschokt waren door het plastic dat ze zagen tijdens een wandeling langs de kust." } }
+  - - { id: en-b1-t25-s03, target: "In just three hours, the students filled more than eighty bags with rubbish.", native: { nl: "In slechts drie uur vulden de leerlingen meer dan tachtig zakken met afval." } }
+    - { id: en-b1-t25-s04, target: "They found bottles, food packets, fishing nets and even an old bike.", native: { nl: "Ze vonden flessen, etensverpakkingen, visnetten en zelfs een oude fiets." } }
+    - { id: en-b1-t25-s05, target: "Everything was sorted, and most of the bottles and cans were taken to the recycling centre.", native: { nl: "Alles werd gesorteerd, en de meeste flessen en blikjes werden naar het recyclingcentrum gebracht." } }
+  - - { id: en-b1-t25-s06, target: "Afterwards, a scientist from the local university explained to the students why the work is so important.", native: { nl: "Daarna legde een wetenschapper van de plaatselijke universiteit de leerlingen uit waarom het werk zo belangrijk is." } }
+    - { id: en-b1-t25-s07, target: "\"Plastic doesn't disappear,\" she said. \"It breaks into tiny pieces, and fish and birds eat them. If we don't do something now, many rare species will be affected.\"", native: { nl: "\"Plastic verdwijnt niet,\" zei ze. \"Het breekt in piepkleine stukjes, en vissen en vogels eten die op. Als we nu niets doen, zullen veel zeldzame soorten getroffen worden.\"" } }
+  - - { id: en-b1-t25-s08, target: "The students now plan to clean the beach every month, and they hope other schools will join them.", native: { nl: "De leerlingen willen nu elke maand het strand schoonmaken, en ze hopen dat andere scholen zullen meedoen." } }
+    - { id: en-b1-t25-s09, target: "\"It was hard work, but it was really satisfying,\" said one of them.", native: { nl: "\"Het was hard werken, maar het gaf echt voldoening,\" zei een van hen." } }
+glossary:
+  - { word: satisfying, native: { nl: voldoening gevend } }
+  - { word: sorted, native: { nl: gesorteerd } }
+  - { word: cans, native: { nl: blikjes } }
+items: [en.litter, en.shocked, en.coast, en.rubbish, en.packet, en.recycling, en.scientist, en.local, en.rare, en.species, en.affect, en.tiny, en.bay, en.fill, en.afterwards, en.plan]
+questions:
+  - { id: en-b1-t25-q1, type: mc, question: "Whose idea was the beach clean?", options: ["Two students.", "A scientist.", "The head teacher."], correct: 0 }
+  - { id: en-b1-t25-q2, type: true_false_notgiven, statement: "It rained during the beach clean.", answer: not_given }
+  - { id: en-b1-t25-q3, type: true_false_notgiven, statement: "Most of the bottles were taken to the recycling centre.", answer: true }
+  - { id: en-b1-t25-q4, type: true_false_notgiven, statement: "The students worked on the beach for a whole day.", answer: false }
+  - { id: en-b1-t25-q5, type: mc, question: "According to the scientist, why is plastic dangerous?", options: ["Animals eat the small pieces.", "It is too heavy for the beach.", "It smells bad."], correct: 0 }
+  - { id: en-b1-t25-q6, type: match_heading, paragraph: 4, options: ["Plans for the future", "What they found", "An expert explains"], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t25-l1, type: mc, question: "How many bags of rubbish did they fill?", options: ["More than eighty.", "Sixty.", "Eighteen."], correct: 0 }
+  - { id: en-b1-t25-l2, type: true_false_notgiven, statement: "The students want to clean the beach every month.", answer: true }
+cloze:
+  - { sentence: en-b1-t25-s01, word: spent, kind: finite_verb, hint: { nl: "spend (verleden tijd)" } }
+  - { sentence: en-b1-t25-s03, word: filled, kind: finite_verb, hint: { nl: "fill (verleden tijd)" } }
+  - { sentence: en-b1-t25-s04, word: found, kind: finite_verb, hint: { nl: "find (verleden tijd)" } }
+  - { sentence: en-b1-t25-s06, word: explained, kind: finite_verb, hint: { nl: "explain (verleden tijd)" } }
+orderable: true

@@ -1,0 +1,12 @@
+id: en-b1-u01
+title: { nl: Samen op school }
+icon: school
+topic: School life and projects
+vocabulary:
+  - { target: gardener, native: { nl: "tuinman, tuinier" }, pos: noun }
+  - { target: soil, native: { nl: aarde }, pos: noun }
+  - { target: proud, native: { nl: trots }, pos: adjective }
+  - { target: permission, native: { nl: toestemming }, pos: noun }
+  - { target: bake, native: { nl: bakken }, pos: verb }
+  - { target: coin, native: { nl: munt }, pos: noun }
+texts: [en-b1-t01, en-b1-t02]

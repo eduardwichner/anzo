@@ -1,0 +1,67 @@
+id: en-b2-u12
+title: { nl: Reizen en avontuur }
+icon: travel
+topic: Planning trips, travel problems, adventure in the mountains, culture shock and homesickness; narrative tenses (past continuous, past perfect, past perfect continuous)
+vocabulary:
+  - { target: itinerary, native: { nl: "reisplan, reisschema" }, pos: noun }
+  - { target: landmark, native: { nl: "bezienswaardigheid, herkenningspunt" }, pos: noun }
+  - { target: slope, native: { nl: "helling, (ski)piste" }, pos: noun }
+  - { target: slippery, native: { nl: glad }, pos: adjective }
+  - { target: trek, native: { nl: "trektocht; een trektocht maken" }, pos: noun }
+  - { target: adventurous, native: { nl: avontuurlijk }, pos: adjective }
+  - { target: wander, native: { nl: "rondzwerven, rondslenteren" }, pos: verb }
+  - { target: voyage, native: { nl: "(lange) reis over zee" }, pos: noun, avoid: [en.journey] }
+  - { target: jet lag, native: { nl: jetlag }, pos: noun, noBlank: true }
+  - { target: cancellation, native: { nl: annulering }, pos: noun }
+  - { target: breathtaking, native: { nl: adembenemend }, pos: adjective }
+  - { target: off the beaten track, native: { nl: "afgelegen, buiten de gebaande paden" }, pos: phrase }
+  - { target: culture shock, native: { nl: cultuurschok }, pos: noun }
+  - { target: homesick, native: { nl: "met heimwee (heimwee hebben)" }, pos: adjective }
+  - { target: spontaneous, native: { nl: spontaan }, pos: adjective }
+  - { target: compass, native: { nl: kompas }, pos: noun }
+  - { target: overland, native: { nl: "over land" }, pos: adverb }
+  - { target: summit, native: { nl: "top (van een berg)" }, pos: noun, avoid: [en.peak] }
+  - { target: trail, native: { nl: "pad, wandelpad" }, pos: noun, avoid: [en.path] }
+  - { target: mist, native: { nl: "nevel, mist" }, pos: noun, avoid: [en.fog] }
+  - { target: shelter, native: { nl: "schuilplaats, beschutting" }, pos: noun }
+  - { target: rescuer, native: { nl: "redder, reddingswerker" }, pos: noun }
+  - { target: panic, native: { nl: "in paniek raken" }, pos: verb }
+  - { target: dawn, native: { nl: dageraad }, pos: noun, avoid: [en.dusk] }
+  - { target: dusk, native: { nl: schemering }, pos: noun, avoid: [en.dawn] }
+  - { target: echo, native: { nl: echo }, pos: noun, noBlank: true }
+sentences:
+  - { id: s01, target: "Our itinerary includes three days in Rome and two by the sea.", native: { nl: "In ons reisplan staan drie dagen in Rome en twee aan zee." }, items: [en.itinerary] }
+  - { id: s02, target: "The tower is the city's most famous landmark.", native: { nl: "De toren is de bekendste bezienswaardigheid van de stad." }, items: [en.landmark] }
+  - { id: s03, target: "Beginners should stay on the easy slopes.", native: { nl: "Beginners moeten op de makkelijke pistes blijven." }, items: [en.slope] }
+  - { id: s04, target: "Be careful: the path is slippery after the rain.", native: { nl: "Voorzichtig: het pad is glad na de regen." }, items: [en.slippery] }
+  - { id: s05, target: "The trek through the mountains takes five days.", native: { nl: "De trektocht door de bergen duurt vijf dagen." }, items: [en.trek] }
+  - { id: s06, target: "My sister is more adventurous than me: she has climbed three mountains in one summer.", native: { nl: "Mijn zus is avontuurlijker dan ik: ze heeft in één zomer drie bergen beklommen." }, items: [en.adventurous] }
+  - { id: s07, target: "We spent the afternoon wandering around the old town.", native: { nl: "We brachten de middag door met rondslenteren in de oude stad." }, items: [en.wander] }
+  - { id: s08, target: "The voyage across the ocean took three weeks.", native: { nl: "De reis over de oceaan duurde drie weken." }, items: [en.voyage] }
+  - { id: s09, target: "After a long flight I always suffer from jet lag.", native: { nl: "Na een lange vlucht heb ik altijd last van jetlag." }, items: [en.jet-lag] }
+  - { id: s10, target: "Because of the storm there were many cancellations.", native: { nl: "Door de storm waren er veel annuleringen." }, items: [en.cancellation], form: { word: cancellations, stem: cancel }, acceptAlso: ["There were many cancellations because of the storm."] }
+  - { id: s11, target: "The view from the top was breathtaking.", native: { nl: "Het uitzicht vanaf de top was adembenemend." }, items: [en.breathtaking] }
+  - { id: s12, target: "We stayed in a small village off the beaten track.", native: { nl: "We verbleven in een klein, afgelegen dorp." }, items: [en.off-the-beaten-track] }
+  - { id: s13, target: "Living in Japan was a real culture shock for her.", native: { nl: "In Japan wonen was een echte cultuurschok voor haar." }, items: [en.culture-shock] }
+  - { id: s14, target: "He felt homesick during his first weeks abroad.", native: { nl: "Hij had heimwee tijdens zijn eerste weken in het buitenland." }, items: [en.homesick] }
+  - { id: s15, target: "We didn't plan anything: the trip was completely spontaneous.", native: { nl: "We hadden niets gepland: de reis was helemaal spontaan." }, items: [en.spontaneous] }
+  - { id: s16, target: "Without a compass we would never have found the way.", native: { nl: "Zonder kompas zouden we de weg nooit gevonden hebben." }, items: [en.compass] }
+  - { id: s17, target: "They travelled overland from London to Rome.", native: { nl: "Ze reisden over land van Londen naar Rome." }, items: [en.overland] }
+  - { id: s18, target: "We reached the summit just before noon.", native: { nl: "We bereikten de top net voor de middag." }, items: [en.summit] }
+  - { id: s19, target: "Follow the trail along the river for two kilometres.", native: { nl: "Volg twee kilometer lang het pad langs de rivier." }, items: [en.trail] }
+  - { id: s20, target: "In the morning the valley was full of mist.", native: { nl: "'s Morgens hing er nevel in de vallei." }, items: [en.mist], acceptAlso: ["The valley was full of mist in the morning."] }
+  - { id: s21, target: "We found shelter from the rain under a big rock.", native: { nl: "We vonden beschutting tegen de regen onder een grote rots." }, items: [en.shelter] }
+  - { id: s22, target: "The rescuers searched for the missing walkers all night.", native: { nl: "De redders zochten de hele nacht naar de vermiste wandelaars." }, items: [en.rescuer] }
+  - { id: s23, target: "Don't panic if you get lost: stay where you are.", native: { nl: "Raak niet in paniek als je verdwaalt: blijf waar je bent." }, items: [en.panic] }
+  - { id: s24, target: "We set off at dawn to avoid the heat.", native: { nl: "We vertrokken bij dageraad om de hitte te vermijden." }, items: [en.dawn] }
+  - { id: s25, target: "By dusk we had arrived at the hut.", native: { nl: "Bij het vallen van de avond waren we bij de hut aangekomen." }, items: [en.dusk] }
+  - { id: s26, target: "We could hear the echo of our voices in the valley.", native: { nl: "We konden de echo van onze stemmen in de vallei horen." }, items: [en.echo] }
+  - { id: s27, target: "We had been walking along the trail for six hours when the storm started.", native: { nl: "We waren al zes uur langs het pad aan het wandelen toen de storm begon." }, items: [en.trail], build: true, acceptAlso: ["When the storm started, we had been walking along the trail for six hours."] }
+  - { id: s28, target: "By the time the rescuers arrived, the walkers had found shelter.", native: { nl: "Tegen de tijd dat de redders aankwamen, hadden de wandelaars een schuilplaats gevonden." }, items: [en.rescuer], build: true, acceptAlso: ["The walkers had found shelter by the time the rescuers arrived."] }
+  - { id: s29, target: "While we were wandering through the market, someone stole my bag.", native: { nl: "Terwijl we over de markt slenterden, stal iemand mijn tas." }, items: [en.wander] }
+  - { id: s30, target: "She panicked when she realised her passport was missing.", native: { nl: "Ze raakte in paniek toen ze besefte dat haar paspoort weg was." }, items: [en.panic], finite: { word: panicked, hint: { nl: "panic (verleden tijd)" } } }
+transforms:
+  - { id: x01, from: "We started walking at six and we were still walking at noon when it began to rain.", key: been, gapped: "We ___ for six hours when it began to rain.", answers: ["had been walking"], items: [en.trek] }
+  - { id: x02, from: "Their flight was cancelled because of the snow.", key: cancellation, gapped: "The snow ___ their flight.", answers: ["caused the cancellation of", "led to the cancellation of"], items: [en.cancellation] }
+  - { id: x03, from: "The flight arrived; then we noticed that our bags were missing.", key: had, gapped: "When we noticed that our bags were missing, the flight ___.", answers: ["had arrived", "had already arrived", "had landed", "had already landed"], items: [en.itinerary] }
+texts: [en-b2-t12]

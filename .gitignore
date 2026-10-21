@@ -1,0 +1,54 @@
+node_modules/
+client/dist/
+client/dist-e2e/
+client/dev-dist/
+# the database folders at the root only (client/src/data/ holds the compiled rules page: tracked)
+/data/
+/data-dev/
+models/*
+!models/README.md
+!models/manifest.json
+/audio/
+tools/piper-venv/
+tools/vosk-venv/
+.env
+# the reference documents and their extracted text (copyright of their publishers): docs/developer/content.md → Reference files
+content/reference/
+e2e/screenshots/
+e2e/test-results/
+/test-results/
+e2e/playwright-report/
+*.log
+__pycache__/
+# this installation's own seed accounts (real names, passwords): config/seed.example.json is the committed template
+config/seed.local.json
+# the real names and domains publish:check looks for
+config/publish.local.json
+# any other environment file; only the template is committed
+.env.*
+!.env.example
+# databases and their WAL files anywhere (the live one is data/anzo.sqlite)
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite.gz
+# test and coverage output
+coverage/
+server/coverage/
+playwright-report/
+*.part
+
+# Local only, never published (kept on the installation that develops Anzo, and in its full archive: LOCAL_DOCS in
+# scripts/ops/archive-lib.js). Public docs describe the current state only; development history goes to docs/review/.
+# the installation's own notes
+docs/README-private.md
+# notes for development sessions on that server
+CLAUDE.md
+docs/gotchas.md
+server/test/local-*.test.js
+# its publishing notes
+docs/publishing.md
+# the development history and the working papers (reviews, reviewer briefs, the per-unit status)
+docs/review/
+content/review/
+content/STATUS.md

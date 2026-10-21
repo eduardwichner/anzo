@@ -1,0 +1,35 @@
+id: en-b1-t10
+kind: dialogue
+title: { nl: In het restaurant }
+topic: Eating out (a waitress and a customer)
+level: B1
+speakers: { A: { name: Waitress }, B: { name: Mr Lee } }
+turns:
+  - { id: en-b1-t10-s01, speaker: A, target: "Good evening. Here's the menu. Can I get you something to drink first?", native: { nl: "Goedenavond. Hier is de menukaart. Kan ik u eerst iets te drinken brengen?" } }
+  - { id: en-b1-t10-s02, speaker: B, target: "Yes, a bottle of sparkling mineral water, please. And could we have a jug of tap water for my daughter?", native: { nl: "Ja, een fles bruisend mineraalwater, alstublieft. En mogen we een kan kraanwater voor mijn dochter?" } }
+  - { id: en-b1-t10-s03, speaker: A, target: "Of course. Are you ready to order, or would you like a few minutes?", native: { nl: "Natuurlijk. Bent u klaar om te bestellen, of wilt u nog een paar minuten?" } }
+  - { id: en-b1-t10-s04, speaker: B, target: "We're almost ready. My daughter is a vegetarian. Which dishes would you recommend?", native: { nl: "We zijn bijna klaar. Mijn dochter is vegetariër. Welke gerechten zou u aanraden?" } }
+  - { id: en-b1-t10-s05, speaker: A, target: "The vegetable curry is very popular, but it's quite spicy. The mushroom omelette is a good choice too.", native: { nl: "De groentecurry is heel populair, maar hij is vrij pittig. De champignonomelet is ook een goede keuze." } }
+  - { id: en-b1-t10-s06, speaker: B, target: "She doesn't like hot food, so she'll have the omelette. And I'd like the steak, medium, with chips.", native: { nl: "Ze houdt niet van pittig eten, dus ze neemt de omelet. En ik wil graag de biefstuk, half doorbakken, met friet." } }
+  - { id: en-b1-t10-s07, speaker: A, target: "I'm sorry, we've run out of steak tonight. The chef suggests the grilled salmon instead.", native: { nl: "Het spijt me, de biefstuk is vanavond op. De kok stelt in plaats daarvan de gegrilde zalm voor." } }
+  - { id: en-b1-t10-s08, speaker: B, target: "Oh, what a pity. All right, I'll try the salmon.", native: { nl: "O, wat jammer. Goed, dan probeer ik de zalm." } }
+  - { id: en-b1-t10-s09, speaker: A, target: "Good choice. And would you like to order a dessert now, or later?", native: { nl: "Goede keuze. En wilt u nu al een nagerecht bestellen, of straks?" } }
+  - { id: en-b1-t10-s10, speaker: B, target: "Later, thank you. We'll see how hungry we are after the main course.", native: { nl: "Straks, dank u. We kijken hoeveel honger we nog hebben na het hoofdgerecht." } }
+glossary:
+  - { word: tap water, native: { nl: kraanwater } }
+items: [en.menu, en.sparkling, en.mineral-water, en.jug, en.order, en.vegetarian, en.dish, en.recommend, en.curry, en.spicy, en.mushroom, en.omelette, en.steak, en.medium, en.chip, en.run-out, en.chef, en.suggest, en.grilled, en.salmon, en.pity, en.dessert, en.main-course, en.few, en.almost, en.choice]
+questions:
+  - { id: en-b1-t10-q1, type: mc, question: "Why does Mr Lee ask the waitress for advice?", options: ["His daughter doesn't eat meat.", "He doesn't understand the menu.", "He is in a hurry."], correct: 0 }
+  - { id: en-b1-t10-q2, type: true_false_notgiven, statement: "The restaurant is full tonight.", answer: not_given }
+  - { id: en-b1-t10-q3, type: true_false_notgiven, statement: "Mr Lee cannot have the dish he wanted first.", answer: true }
+  - { id: en-b1-t10-q4, type: true_false_notgiven, statement: "Mr Lee's daughter likes spicy food.", answer: false }
+  - { id: en-b1-t10-q5, type: mc, question: "What does Mr Lee finally order for himself?", options: ["Grilled salmon.", "Steak with chips.", "Vegetable curry."], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t10-l1, type: mc, question: "What will Mr Lee's daughter eat?", options: ["The mushroom omelette.", "The vegetable curry.", "The grilled salmon."], correct: 0 }
+  - { id: en-b1-t10-l2, type: true_false_notgiven, statement: "They order their dessert at the start.", answer: false }
+cloze:
+  - { sentence: en-b1-t10-s04, word: is, kind: finite_verb, hint: { nl: "be (tegenwoordige tijd)" } }
+  - { sentence: en-b1-t10-s06, word: doesn't, kind: finite_verb, hint: { nl: "do (tegenwoordige tijd, ontkenning: … like)" } }
+  - { sentence: en-b1-t10-s07, word: suggests, kind: finite_verb, hint: { nl: "suggest (tegenwoordige tijd)" } }
+  - { sentence: en-b1-t10-s10, word: are, kind: finite_verb, hint: { nl: "be (tegenwoordige tijd)" } }
+orderable: true

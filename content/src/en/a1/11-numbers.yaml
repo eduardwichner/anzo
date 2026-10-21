@@ -1,0 +1,70 @@
+id: en-a1-u11
+title: { nl: Getallen }
+icon: colours
+topic: Numbers (21-100, ordinals 1st-20th)
+vocabulary:
+  - { target: thirty, native: { nl: dertig }, pos: number }
+  - { target: forty, native: { nl: veertig }, pos: number }
+  - { target: fifty, native: { nl: vijftig }, pos: number }
+  - { target: sixty, native: { nl: zestig }, pos: number }
+  - { target: seventy, native: { nl: zeventig }, pos: number }
+  - { target: eighty, native: { nl: tachtig }, pos: number }
+  - { target: ninety, native: { nl: negentig }, pos: number }
+  - { target: hundred, native: { nl: honderd }, pos: number }
+  - { target: first, native: { nl: eerste }, pos: adjective }
+  - { target: second, native: { nl: tweede }, pos: adjective }
+  - { target: third, native: { nl: derde }, pos: adjective }
+  - { target: fourth, native: { nl: vierde }, pos: adjective }
+  - { target: fifth, native: { nl: vijfde }, pos: adjective }
+  - { target: sixth, native: { nl: zesde }, pos: adjective }
+  - { target: seventh, native: { nl: zevende }, pos: adjective }
+  - { target: eighth, native: { nl: achtste }, pos: adjective }
+  - { target: ninth, native: { nl: negende }, pos: adjective }
+  - { target: tenth, native: { nl: tiende }, pos: adjective }
+  - { target: eleventh, native: { nl: elfde }, pos: adjective }
+  - { target: twelfth, native: { nl: twaalfde }, pos: adjective }
+  - { target: thirteenth, native: { nl: dertiende }, pos: adjective }
+  - { target: fourteenth, native: { nl: veertiende }, pos: adjective }
+  - { target: fifteenth, native: { nl: vijftiende }, pos: adjective }
+  - { target: sixteenth, native: { nl: zestiende }, pos: adjective }
+  - { target: seventeenth, native: { nl: zeventiende }, pos: adjective }
+  - { target: eighteenth, native: { nl: achttiende }, pos: adjective }
+  - { target: nineteenth, native: { nl: negentiende }, pos: adjective }
+  - { target: twentieth, native: { nl: twintigste }, pos: adjective }
+sentences:
+  - { id: s01, target: "My grandpa is seventy.", native: { nl: "Mijn opa is zeventig." }, items: [en.seventy] }
+  - { id: s02, target: "There are thirty children in our class.", native: { nl: "Er zitten dertig kinderen in onze klas." }, items: [en.thirty] }
+  - { id: s03, target: "My mum is forty years old.", native: { nl: "Mijn moeder is veertig jaar." }, items: [en.forty] }
+  - { id: s04, target: "Fifty and fifty is a hundred.", native: { nl: "Vijftig en vijftig is honderd." }, items: [en.fifty, en.hundred] }
+  - { id: s05, target: "This book has got sixty pages.", native: { nl: "Dit boek heeft zestig bladzijden." }, items: [en.sixty] }
+  - { id: s06, target: "Eighty people came to the party.", native: { nl: "Er kwamen tachtig mensen naar het feest." }, items: [en.eighty] }
+  - { id: s07, target: "The old man is ninety.", native: { nl: "De oude man is negentig." }, items: [en.ninety] }
+  - { id: s08, target: "Sixty, seventy, eighty, ninety, a hundred!", native: { nl: "Zestig, zeventig, tachtig, negentig, honderd!" }, items: [en.sixty, en.seventy, en.eighty, en.ninety, en.hundred] }
+  - { id: s09, target: "There are a hundred sweets in the bag!", native: { nl: "Er zitten honderd snoepjes in de zak!" }, items: [en.hundred] }
+  - { id: s10, target: "Tom was first and I was second.", native: { nl: "Tom werd eerste en ik werd tweede." }, items: [en.first, en.second] }
+  - { id: s11, target: "Monday is the first day of the week.", native: { nl: "Maandag is de eerste dag van de week." }, items: [en.first] }
+  - { id: s12, target: "Our flat is on the third floor.", native: { nl: "Onze flat is op de derde verdieping." }, items: [en.third] }
+  - { id: s13, target: "This is my fourth ice cream today!", native: { nl: "Dit is al mijn vierde ijsje vandaag!" }, items: [en.fourth] }
+  - { id: s14, target: "She came fifth.", native: { nl: "Zij werd vijfde." }, items: [en.fifth] }
+  - { id: s15, target: "Today is my sixth day at the new school.", native: { nl: "Vandaag is mijn zesde dag op de nieuwe school." }, items: [en.sixth] }
+  - { id: s16, target: "Sunday is the seventh day of the week.", native: { nl: "Zondag is de zevende dag van de week." }, items: [en.seventh] }
+  - { id: s17, target: "He is eighth in the line.", native: { nl: "Hij staat als achtste in de rij." }, items: [en.eighth] }
+  - { id: s18, target: "My ninth birthday was great.", native: { nl: "Mijn negende verjaardag was geweldig." }, items: [en.ninth] }
+  - { id: s19, target: "We live in the tenth house in this street.", native: { nl: "Wij wonen in het tiende huis in deze straat." }, items: [en.tenth] }
+  - { id: s20, target: "It's my eleventh birthday today.", native: { nl: "Vandaag is mijn elfde verjaardag." }, items: [en.eleventh], acceptAlso: ["It is my eleventh birthday today."] }
+  - { id: s21, target: "The twelfth book is my favourite.", native: { nl: "Het twaalfde boek is mijn favoriet." }, items: [en.twelfth] }
+  - { id: s22, target: "It's the thirteenth day of the holiday.", native: { nl: "Het is de dertiende dag van de vakantie." }, items: [en.thirteenth], acceptAlso: ["It is the thirteenth day of the holiday."] }
+  - { id: s23, target: "We live on the fourteenth floor.", native: { nl: "Wij wonen op de veertiende verdieping." }, items: [en.fourteenth] }
+  - { id: s24, target: "This is my fifteenth drawing.", native: { nl: "Dit is mijn vijftiende tekening." }, items: [en.fifteenth] }
+  - { id: s25, target: "The sixteenth question is difficult.", native: { nl: "De zestiende vraag is moeilijk." }, items: [en.sixteenth] }
+  - { id: s26, target: "Look at the seventeenth picture.", native: { nl: "Kijk naar het zeventiende plaatje." }, items: [en.seventeenth] }
+  - { id: s27, target: "My cousin had his eighteenth birthday.", native: { nl: "Mijn neef vierde zijn achttiende verjaardag." }, items: [en.eighteenth] }
+  - { id: s28, target: "Can you read the nineteenth sentence?", native: { nl: "Kun jij de negentiende zin lezen?" }, items: [en.nineteenth] }
+  - { id: s30, target: "My dad is fifty.", native: { nl: "Mijn vader is vijftig." }, items: [en.fifty] }
+  - { id: s31, target: "Grandma is eighty today!", native: { nl: "Oma wordt vandaag tachtig!" }, items: [en.eighty] }
+  - { id: s29, target: "This is my twentieth lesson!", native: { nl: "Dit is mijn twintigste les!" }, items: [en.twentieth] }
+lessons:
+  - { id: l01, title: { nl: Tientallen }, vocab: [en.thirty, en.forty, en.fifty, en.sixty, en.seventy, en.eighty, en.ninety] }
+  - { id: l02, title: { nl: Eerste tot zesde }, vocab: [en.hundred, en.first, en.second, en.third, en.fourth, en.fifth, en.sixth] }
+  - { id: l03, title: { nl: Zevende tot dertiende }, vocab: [en.seventh, en.eighth, en.ninth, en.tenth, en.eleventh, en.twelfth, en.thirteenth] }
+  - { id: l04, title: { nl: Veertiende tot twintigste }, vocab: [en.fourteenth, en.fifteenth, en.sixteenth, en.seventeenth, en.eighteenth, en.nineteenth, en.twentieth] }

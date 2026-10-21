@@ -1,0 +1,50 @@
+id: en-a1-u04
+title: { nl: In de natuur }
+icon: nature
+topic: The world around us
+vocabulary:
+  - { target: countryside, native: { nl: platteland }, pos: noun }
+  - { target: village, native: { nl: dorp }, pos: noun }
+  - { target: farm, native: { nl: boerderij }, pos: noun }
+  - { target: farmer, native: { nl: boer }, pos: noun }
+  - { target: tractor, native: { nl: tractor }, pos: noun }
+  - { target: field, native: { nl: "veld, weiland" }, pos: noun }
+  - { target: forest, native: { nl: bos }, pos: noun }
+  - { target: grass, native: { nl: gras }, pos: noun }
+  - { target: ground, native: { nl: grond }, pos: noun }
+  - { target: rock, native: { nl: rots }, pos: noun }
+  - { target: picnic, native: { nl: picknick }, pos: noun }
+  - { target: jungle, native: { nl: jungle }, pos: noun, avoid: [en.forest] }
+  - { target: lake, native: { nl: meer }, pos: noun }
+  - { target: river, native: { nl: rivier }, pos: noun }
+  - { target: waterfall, native: { nl: waterval }, pos: noun }
+  - { target: mountain, native: { nl: berg }, pos: noun }
+  - { target: island, native: { nl: eiland }, pos: noun }
+  - { target: world, native: { nl: wereld }, pos: noun }
+  - { target: country, native: { nl: land }, pos: noun, avoid: [en.field, en.ground, en.countryside] }
+sentences:
+  - { id: s01, target: "My grandparents live in the countryside.", native: { nl: "Mijn opa en oma wonen op het platteland." }, items: [en.countryside] }
+  - { id: s02, target: "Our village is very small.", native: { nl: "Ons dorp is heel klein." }, items: [en.village] }
+  - { id: s03, target: "There are cows and sheep on the farm.", native: { nl: "Er zijn koeien en schapen op de boerderij." }, items: [en.farm] }
+  - { id: s04, target: "The farmer has got a big tractor.", native: { nl: "De boer heeft een grote tractor." }, items: [en.farmer, en.tractor] }
+  - { id: s05, target: "The horses are in the field.", native: { nl: "De paarden staan in het weiland." }, items: [en.field] }
+  - { id: s06, target: "The farmer's dog is helping her.", native: { nl: "De hond van de boerin helpt haar." }, items: [en.farmer] }
+  - { id: s07, target: "We walked in the forest.", native: { nl: "We hebben in het bos gewandeld." }, items: [en.forest] }
+  - { id: s08, target: "The grass is green and wet.", native: { nl: "Het gras is groen en nat." }, items: [en.grass] }
+  - { id: s09, target: "The apple fell on the ground.", native: { nl: "De appel viel op de grond." }, items: [en.ground] }
+  - { id: s10, target: "Don't climb on that rock!", native: { nl: "Klim niet op die rots!" }, items: [en.rock], acceptAlso: ["Do not climb on that rock!"] }
+  - { id: s11, target: "Let's have a picnic in the park!", native: { nl: "Laten we een picknick houden in het park!" }, items: [en.picnic] }
+  - { id: s12, target: "There are a lot of monkeys in the jungle.", native: { nl: "Er zijn veel apen in de jungle." }, items: [en.jungle] }
+  - { id: s13, target: "We swam in the lake.", native: { nl: "We hebben in het meer gezwommen." }, items: [en.lake] }
+  - { id: s14, target: "The river goes to the sea.", native: { nl: "De rivier stroomt naar de zee." }, items: [en.river] }
+  - { id: s15, target: "The waterfall is very loud.", native: { nl: "De waterval maakt veel lawaai." }, items: [en.waterfall] }
+  - { id: s16, target: "We climbed a big mountain.", native: { nl: "We zijn een grote berg op geklommen." }, items: [en.mountain] }
+  - { id: s17, target: "They live on a small island.", native: { nl: "Zij wonen op een klein eiland." }, items: [en.island] }
+  - { id: s18, target: "The world is beautiful.", native: { nl: "De wereld is mooi." }, items: [en.world] }
+  - { id: s19, target: "There's a village next to the river.", native: { nl: "Er ligt een dorp naast de rivier." }, items: [en.village, en.river], acceptAlso: ["There is a village next to the river."] }
+  - { id: s20, target: "Which is the biggest country in the world?", native: { nl: "Wat is het grootste land ter wereld?" }, items: [en.country, en.world] }
+  - { id: s21, target: "We live in a small country.", native: { nl: "Wij wonen in een klein land." }, items: [en.country] }
+lessons:
+  - { id: l01, title: { nl: Op het platteland }, vocab: [en.countryside, en.village, en.farm, en.farmer, en.tractor, en.field] }
+  - { id: l02, title: { nl: In het bos }, vocab: [en.forest, en.grass, en.ground, en.rock, en.picnic, en.jungle] }
+  - { id: l03, title: { nl: Water en bergen }, vocab: [en.lake, en.river, en.waterfall, en.mountain, en.island, en.world, en.country] }

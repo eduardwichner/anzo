@@ -1,0 +1,85 @@
+id: nl-b2-u13
+title: { en: Politics and government }
+icon: vote
+topic: How Belgium is governed (federal state, regions and communities, municipalities), elections and compulsory voting, democracy and its rights and duties; the passive with modals, also in the past (moet goedgekeurd worden, had beter uitgelegd moeten worden)
+vocabulary:
+  - { target: de politiek, native: { en: politics }, pos: noun, plural: "-" }
+  - { target: de politicus, native: { en: politician }, pos: noun, plural: politici }
+  - { target: de democratie, native: { en: democracy }, pos: noun, plural: democratieën }
+  - { target: democratisch, native: { en: democratic }, pos: adjective }
+  - { target: de dictatuur, native: { en: dictatorship }, pos: noun, plural: dictaturen }
+  - { target: de staat, native: { en: state }, pos: noun, plural: staten }
+  - { target: federaal, native: { en: federal }, pos: adjective }
+  - { target: het gewest, native: { en: "region (Flemish, Walloon or Brussels Region)" }, pos: noun, plural: gewesten }
+  - { target: de provincie, native: { en: province }, pos: noun, plural: provincies }
+  - { target: Vlaams, native: { en: Flemish }, pos: adjective, noBlank: true }
+  - { target: Waals, native: { en: Walloon }, pos: adjective, noBlank: true }
+  - { target: Brussels, native: { en: "Brussels (adjective)" }, pos: adjective, noBlank: true }
+  - { target: het parlement, native: { en: parliament }, pos: noun, plural: parlementen }
+  - { target: de premier, native: { en: "prime minister" }, pos: noun, plural: premiers }
+  - { target: de koning, native: { en: king }, pos: noun, plural: koningen }
+  - { target: de monarchie, native: { en: monarchy }, pos: noun, plural: monarchieën }
+  - { target: de grondwet, native: { en: constitution }, pos: noun, plural: grondwetten }
+  - { target: het wetsvoorstel, native: { en: "bill (proposed law)" }, pos: noun, plural: wetsvoorstellen }
+  - { target: de begroting, native: { en: budget (of a government) }, pos: noun, plural: begrotingen }
+  - { target: de hervorming, native: { en: reform }, pos: noun, plural: hervormingen }
+  - { target: de bevoegdheid, native: { en: "power, competence (what a government may decide on)" }, pos: noun, plural: bevoegdheden }
+  - { target: bevoegd, native: { en: "responsible (for), authorised (+ voor)" }, pos: adjective }
+  - { target: de macht, native: { en: power }, pos: noun, plural: machten }
+  - { target: de coalitie, native: { en: coalition }, pos: noun, plural: coalities }
+  - { target: de oppositie, native: { en: opposition }, pos: noun, plural: "-" }
+  - { target: de meerderheid, native: { en: majority }, pos: noun, plural: meerderheden }
+  - { target: de minderheid, native: { en: minority }, pos: noun, plural: minderheden }
+  - { target: de campagne, native: { en: campaign }, pos: noun, plural: campagnes }
+  - { target: de kiezer, native: { en: voter }, pos: noun, plural: kiezers }
+  - { target: de stem, native: { en: "vote; voice" }, pos: noun, plural: stemmen }
+  - { target: de stemplicht, native: { en: compulsory voting }, pos: noun, plural: "-" }
+  - { target: de burger, native: { en: citizen }, pos: noun, plural: burgers }
+  - { target: de plicht, native: { en: duty }, pos: noun, plural: plichten }
+  - { target: het debat, native: { en: debate }, pos: noun, plural: debatten }
+  - { target: de onderhandeling, native: { en: negotiation }, pos: noun, plural: onderhandelingen }
+  - { target: vanzelfsprekend, native: { en: "obvious, self-evident, taken for granted" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Veel jongeren vinden politiek niet interessant.", native: { en: "Many young people don't find politics interesting." }, items: [nl.politiek] }
+  - { id: s02, target: "Politici moeten beter naar de burgers luisteren.", native: { en: "Politicians need to listen to citizens better." }, items: [nl.politicus, nl.burger], acceptAlso: ["Politici moeten beter luisteren naar de burgers."] }
+  - { id: s03, target: "In een democratie kiezen de burgers hun politici.", native: { en: "In a democracy the citizens choose their politicians." }, items: [nl.democratie] }
+  - { id: s04, target: "De beslissing werd op een democratische manier genomen.", native: { en: "The decision was taken in a democratic way." }, items: [nl.democratisch] }
+  - { id: s05, target: "In een dictatuur is er geen vrije pers.", native: { en: "In a dictatorship there is no free press." }, items: [nl.dictatuur], acceptAlso: ["Er is in een dictatuur geen vrije pers.", "Er is geen vrije pers in een dictatuur."] }
+  - { id: s06, target: "België is een federale staat.", native: { en: "Belgium is a federal state." }, items: [nl.staat, nl.federaal] }
+  - { id: s07, target: "België heeft drie gewesten: het Vlaams, het Waals en het Brussels Gewest.", native: { en: "Belgium has three regions: the Flemish, the Walloon and the Brussels Region." }, items: [nl.gewest, nl.vlaams, nl.waals, nl.brussels] }
+  - { id: s08, target: "Vlaanderen telt vijf provincies.", native: { en: "Flanders has five provinces." }, items: [nl.provincie] }
+  - { id: s09, target: "Het parlement stemt volgende week over de nieuwe wet.", native: { en: "Parliament votes on the new law next week." }, items: [nl.parlement] }
+  - { id: s10, target: "De premier sprak gisteren in het parlement.", native: { en: "The prime minister spoke in parliament yesterday." }, items: [nl.premier], acceptAlso: ["Gisteren sprak de premier in het parlement.", "In het parlement sprak de premier gisteren."] }
+  - { id: s11, target: "De koning heeft in België weinig macht.", native: { en: "The king has little power in Belgium." }, items: [nl.koning, nl.macht] }
+  - { id: s12, target: "België is een monarchie, maar ook een democratie.", native: { en: "Belgium is a monarchy, but also a democracy." }, items: [nl.monarchie] }
+  - { id: s13, target: "Volgens de grondwet zijn alle Belgen gelijk.", native: { en: "According to the constitution all Belgians are equal." }, items: [nl.grondwet], acceptAlso: ["Alle Belgen zijn volgens de grondwet gelijk."] }
+  - { id: s14, target: "Het wetsvoorstel moet nog goedgekeurd worden.", native: { en: "The bill still has to be approved." }, items: [nl.wetsvoorstel], acceptAlso: ["Het wetsvoorstel moet nog worden goedgekeurd."] }
+  - { id: s15, target: "De regering moet besparen op de begroting.", native: { en: "The government has to make savings in the budget." }, items: [nl.begroting] }
+  - { id: s16, target: "Over de hervorming van de pensioenen wordt al jaren gepraat.", native: { en: "The pension reform has been talked about for years." }, items: [nl.hervorming] }
+  - { id: s17, target: "Onderwijs is een bevoegdheid van de gemeenschappen.", native: { en: "Education is the responsibility of the communities." }, items: [nl.bevoegdheid], form: { word: bevoegdheid, stem: bevoegd } }
+  - { id: s18, target: "De gemeente is bevoegd voor de straten en de parken.", native: { en: "The municipality is responsible for the streets and the parks." }, items: [nl.bevoegd], acceptAlso: ["De gemeente is voor de straten en de parken bevoegd."] }
+  - { id: s19, target: "Na de verkiezingen kwam er een nieuwe coalitie.", native: { en: "After the elections there was a new coalition." }, items: [nl.coalitie], acceptAlso: ["Er kwam na de verkiezingen een nieuwe coalitie.", "Er kwam een nieuwe coalitie na de verkiezingen."] }
+  - { id: s20, target: "De oppositie is het niet eens met het plan.", native: { en: "The opposition does not agree with the plan." }, items: [nl.oppositie], acceptAlso: ["De oppositie is het met het plan niet eens.", "De oppositie is het niet met het plan eens.", "Met het plan is de oppositie het niet eens."] }
+  - { id: s21, target: "De partij kreeg geen meerderheid.", native: { en: "The party did not get a majority." }, items: [nl.meerderheid], finite: { word: kreeg, hint: { en: "krijgen (past)" } } }
+  - { id: s22, target: "Ook de rechten van een minderheid moeten beschermd worden.", native: { en: "The rights of a minority must also be protected." }, items: [nl.minderheid], acceptAlso: ["Ook de rechten van een minderheid moeten worden beschermd."] }
+  - { id: s23, target: "Tijdens de campagne bezoeken de kandidaten veel markten.", native: { en: "During the campaign the candidates visit a lot of markets." }, items: [nl.campagne], acceptAlso: ["De kandidaten bezoeken tijdens de campagne veel markten."] }
+  - { id: s24, target: "De kiezers zijn moe van de ruzies tussen de partijen.", native: { en: "Voters are tired of the parties' squabbling." }, items: [nl.kiezer] }
+  - { id: s25, target: "Elke stem telt.", native: { en: "Every vote counts." }, items: [nl.stem] }
+  - { id: s26, target: "In België is er stemplicht voor de verkiezingen van het parlement.", native: { en: "In Belgium voting is compulsory for the parliamentary elections." }, items: [nl.stemplicht], acceptAlso: ["Er is in België stemplicht voor de verkiezingen van het parlement.", "Voor de verkiezingen van het parlement is er in België stemplicht.", "In België is er voor de verkiezingen van het parlement stemplicht.", "Er is in België voor de verkiezingen van het parlement stemplicht."] }
+  - { id: s27, target: "Als burger heb je rechten, maar ook plichten.", native: { en: "As a citizen you have rights, but also duties." }, items: [nl.plicht, nl.burger] }
+  - { id: s28, target: "Op televisie was er een debat tussen de kandidaten.", native: { en: "On television there was a debate between the candidates." }, items: [nl.debat] }
+  - { id: s29, target: "De onderhandelingen over de nieuwe regering duurden maanden.", native: { en: "The negotiations to form the new government took months." }, items: [nl.onderhandeling], form: { word: onderhandelingen, stem: onderhandelen } }
+  - { id: s30, target: "Vrije verkiezingen zijn niet in elk land vanzelfsprekend.", native: { en: "Free elections cannot be taken for granted in every country." }, items: [nl.vanzelfsprekend], acceptAlso: ["Vrije verkiezingen zijn niet vanzelfsprekend in elk land."] }
+  - { id: s31, target: "Het wetsvoorstel had beter uitgelegd moeten worden.", native: { en: "The bill should have been explained better." }, items: [nl.wetsvoorstel], build: true, acceptAlso: ["Het wetsvoorstel had beter moeten worden uitgelegd.", "Het wetsvoorstel had beter moeten uitgelegd worden."] }
+  - { id: s32, target: "Het probleem kon zonder de oppositie niet opgelost worden.", native: { en: "The problem could not be solved without the opposition." }, items: [nl.oppositie], build: true, acceptAlso: ["Het probleem kon zonder de oppositie niet worden opgelost.", "Zonder de oppositie kon het probleem niet opgelost worden.", "Zonder de oppositie kon het probleem niet worden opgelost.", "Het probleem kon niet opgelost worden zonder de oppositie.", "Het probleem kon niet worden opgelost zonder de oppositie.", "Het probleem kon niet zonder de oppositie opgelost worden.", "Het probleem kon niet zonder de oppositie worden opgelost."] }
+  - { id: s33, target: "Er moet nog veel beslist worden voor de begroting klaar is.", native: { en: "A lot still has to be decided before the budget is ready." }, items: [nl.begroting] }
+  - { id: s34, target: "De burgers hadden eerst gehoord moeten worden.", native: { en: "The citizens should have been heard first." }, items: [nl.burger], acceptAlso: ["De burgers hadden eerst moeten worden gehoord.", "De burgers hadden eerst moeten gehoord worden."] }
+  - { id: s35, target: "Volgens sommige politici zou de stemplicht afgeschaft moeten worden.", native: { en: "According to some politicians compulsory voting should be abolished." }, items: [nl.stemplicht] }
+  - { id: s36, target: "De macht van de koning is beperkt door de grondwet.", native: { en: "The king's power is limited by the constitution." }, items: [nl.grondwet] }
+  - { id: s38, target: "Als politicus heeft ze een grote verantwoordelijkheid.", native: { en: "As a politician she has a great deal of responsibility." }, items: [nl.politicus] }
+  - { id: s39, target: "De kiezer stemt elke vijf jaar voor het parlement.", native: { en: "Voters vote for parliament every five years." }, items: [nl.kiezer] }
+transforms:
+  - { id: x01, from: "Iemand moet het wetsvoorstel nog bespreken.", key: worden, gapped: "Het wetsvoorstel moet nog ___.", answers: ["besproken worden", "worden besproken"], items: [nl.wetsvoorstel] }
+  - { id: x02, from: "Het was beter geweest als ze de burgers eerst gehoord hadden.", key: moeten, gapped: "De burgers hadden eerst ___ worden.", answers: ["gehoord moeten", "moeten gehoord"], items: [nl.burger] }
+  - { id: x03, from: "Over het onderwijs beslissen de gemeenschappen.", key: bevoegd, gapped: "De gemeenschappen zijn ___ het onderwijs.", answers: ["bevoegd voor"], items: [nl.bevoegd] }
+texts: [nl-b2-t14]

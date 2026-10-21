@@ -1,0 +1,35 @@
+id: en-b1-t08
+kind: dialogue
+title: { nl: Wie doet wat in huis? }
+topic: Housework (a sister and brother sharing jobs at home)
+level: B1
+speakers: { A: { name: Olivia }, B: { name: Ryan } }
+turns:
+  - { id: en-b1-t08-s01, speaker: A, target: "Ryan, Mum and Dad are coming home at six, and the house is a complete mess.", native: { nl: "Ryan, mama en papa komen om zes uur thuis, en het huis is één grote rommel." } }
+  - { id: en-b1-t08-s02, speaker: B, target: "I know. I spilt cola on the carpet during the film. Sorry!", native: { nl: "Weet ik. Ik heb cola op het tapijt gemorst tijdens de film. Sorry!" } }
+  - { id: en-b1-t08-s03, speaker: A, target: "Let's make a list. Someone needs to do the washing-up, and someone needs to tidy up the sitting room.", native: { nl: "Laten we een lijst maken. Iemand moet de afwas doen, en iemand moet de zitkamer opruimen." } }
+  - { id: en-b1-t08-s04, speaker: B, target: "Can't we just put everything in the dishwasher?", native: { nl: "Kunnen we niet gewoon alles in de vaatwasser zetten?" } }
+  - { id: en-b1-t08-s05, speaker: A, target: "It's out of order, remember? The man is coming to repair it on Thursday.", native: { nl: "Die is kapot, weet je nog? De man komt hem donderdag repareren." } }
+  - { id: en-b1-t08-s06, speaker: B, target: "Oh no. OK, I'll wash up if you clean the carpet.", native: { nl: "O nee. Oké, ik was af als jij de vloerbedekking schoonmaakt." } }
+  - { id: en-b1-t08-s07, speaker: A, target: "Fine. Where do we keep the bucket?", native: { nl: "Goed. Waar bewaren we de emmer?" } }
+  - { id: en-b1-t08-s08, speaker: B, target: "In the cabinet under the sink. And there's some carpet cleaner next to the washing powder.", native: { nl: "In het kastje onder de gootsteen. En er staat wat tapijtreiniger naast het waspoeder." } }
+  - { id: en-b1-t08-s09, speaker: A, target: "Got it. What about that pile of clothes on the stairs?", native: { nl: "Begrepen. En die stapel kleren op de trap?" } }
+  - { id: en-b1-t08-s10, speaker: B, target: "Those are mine. I'll fold them and put them away when I've finished in the kitchen.", native: { nl: "Die zijn van mij. Ik vouw ze op en berg ze op als ik klaar ben in de keuken." } }
+  - { id: en-b1-t08-s11, speaker: A, target: "Great. If we work together, it'll take less than an hour.", native: { nl: "Mooi. Als we samenwerken, kost het minder dan een uur." } }
+glossary:
+  - { word: carpet cleaner, native: { nl: tapijtreiniger } }
+items: [en.mess, en.spill, en.carpet, en.list, en.washing-up, en.tidy-up, en.sitting-room, en.dishwasher, en.out-of-order, en.wash-up, en.bucket, en.cabinet, en.sink, en.powder, en.pile, en.fold, en.put-away, en.cola, en.less]
+questions:
+  - { id: en-b1-t08-q1, type: mc, question: "Why do Olivia and Ryan need to clean the house?", options: ["Their parents are coming home soon.", "Guests are coming for dinner.", "Their grandmother is visiting."], correct: 0 }
+  - { id: en-b1-t08-q2, type: true_false_notgiven, statement: "Ryan spilt some juice on the carpet.", answer: false }
+  - { id: en-b1-t08-q3, type: true_false_notgiven, statement: "Olivia often cleans the house.", answer: not_given }
+  - { id: en-b1-t08-q4, type: true_false_notgiven, statement: "The dishwasher is not working at the moment.", answer: true }
+  - { id: en-b1-t08-q5, type: mc, question: "What will Ryan do first?", options: ["The washing-up.", "Clean the carpet.", "Fold his clothes."], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t08-l1, type: mc, question: "When is the repair man coming?", options: ["On Thursday.", "This evening at six.", "Tomorrow morning."], correct: 0 }
+  - { id: en-b1-t08-l2, type: true_false_notgiven, statement: "The clothes on the stairs belong to Ryan.", answer: true }
+cloze:
+  - { sentence: en-b1-t08-s01, word: are, kind: finite_verb, hint: { nl: "be (tegenwoordige tijd: … coming)" } }
+  - { sentence: en-b1-t08-s05, word: is, kind: finite_verb, hint: { nl: "be (tegenwoordige tijd: … coming)" } }
+  - { sentence: en-b1-t08-s10, word: finished, kind: finite_verb, hint: { nl: "finish (voltooide tijd: I've …)" } }
+orderable: true

@@ -1,0 +1,33 @@
+id: en-b1-t28
+kind: dialogue
+title: { nl: Plannen voor het weekend }
+topic: Linking ideas (two friends make plans that depend on the weather)
+level: B1
+speakers: { A: { name: Daisy }, B: { name: Jack } }
+turns:
+  - { id: en-b1-t28-s01, speaker: A, target: "Are we still going to the lake on Saturday?", native: { nl: "Gaan we zaterdag nog steeds naar het meer?" } }
+  - { id: en-b1-t28-s02, speaker: B, target: "I hope so, but it depends on the weather. The forecast says it might rain in the afternoon.", native: { nl: "Ik hoop het, maar het hangt van het weer af. Volgens de voorspelling gaat het 's middags misschien regenen." } }
+  - { id: en-b1-t28-s03, speaker: A, target: "Then let's leave early in order to have the whole morning at the lake.", native: { nl: "Laten we dan vroeg vertrekken om de hele ochtend bij het meer te zijn." } }
+  - { id: en-b1-t28-s04, speaker: B, target: "Good idea. I'll bring my raincoat in case it rains anyway.", native: { nl: "Goed idee. Ik neem mijn regenjas mee voor het geval het toch regent." } }
+  - { id: en-b1-t28-s05, speaker: A, target: "And what if it's really bad? I don't want to cycle there in a storm.", native: { nl: "En als het echt slecht weer is? Ik wil er niet in een storm naartoe fietsen." } }
+  - { id: en-b1-t28-s06, speaker: B, target: "Unless it's terrible, we should go. Although it's only April, the water isn't too cold.", native: { nl: "Tenzij het verschrikkelijk is, moeten we gaan. Hoewel het pas april is, is het water niet te koud." } }
+  - { id: en-b1-t28-s07, speaker: A, target: "I'm not going swimming, though! I'll just walk around the lake.", native: { nl: "Maar ik ga niet zwemmen, hoor! Ik loop gewoon rond het meer." } }
+  - { id: en-b1-t28-s08, speaker: B, target: "Fine. And if the weather is really awful, we can go to the cinema instead.", native: { nl: "Prima. En als het weer echt vreselijk is, kunnen we in plaats daarvan naar de bioscoop gaan." } }
+  - { id: en-b1-t28-s09, speaker: A, target: "OK. Shall I ask Maya as well? She hardly ever goes out at weekends.", native: { nl: "Oké. Zal ik Maya ook vragen? Ze gaat in het weekend bijna nooit uit." } }
+  - { id: en-b1-t28-s10, speaker: B, target: "Sure, as long as she's ready at nine. I'm not waiting for anyone this time!", native: { nl: "Tuurlijk, zolang ze om negen uur klaar is. Ik wacht deze keer op niemand!" } }
+glossary: []
+items: [en.depend, en.forecast, en.in-order-to, en.whole, en.raincoat, en.in-case, en.anyway, en.unless, en.although, en.though, en.as-well, en.hardly, en.as-long-as, en.swimming, en.awful]
+questions:
+  - { id: en-b1-t28-q1, type: mc, question: "Why do they want to leave early on Saturday?", options: ["It might rain later.", "The lake closes at noon.", "Maya can only come in the morning."], correct: 0 }
+  - { id: en-b1-t28-q2, type: true_false_notgiven, statement: "Maya has been to the lake before.", answer: not_given }
+  - { id: en-b1-t28-q3, type: true_false_notgiven, statement: "They are planning to cycle to the lake.", answer: true }
+  - { id: en-b1-t28-q4, type: true_false_notgiven, statement: "Daisy wants to swim in the lake.", answer: false }
+  - { id: en-b1-t28-q5, type: mc, question: "What will they do if the weather is very bad?", options: ["Go to the cinema.", "Stay at home.", "Go to the lake on Sunday."], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t28-l1, type: mc, question: "What will Jack take with him?", options: ["His raincoat.", "His swimming things.", "A map."], correct: 0 }
+  - { id: en-b1-t28-l2, type: true_false_notgiven, statement: "Jack is happy to wait for Maya if she is late.", answer: false }
+cloze:
+  - { sentence: en-b1-t28-s02, word: depends, kind: finite_verb, hint: { nl: "depend (tegenwoordige tijd)" } }
+  - { sentence: en-b1-t28-s02, word: says, kind: finite_verb, hint: { nl: "say (tegenwoordige tijd)" } }
+  - { sentence: en-b1-t28-s09, word: goes, kind: finite_verb, hint: { nl: "go (tegenwoordige tijd)" } }
+orderable: false

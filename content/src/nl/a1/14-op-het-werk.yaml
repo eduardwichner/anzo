@@ -1,0 +1,49 @@
+id: nl-a1-u14
+title: { en: At work }
+icon: work
+topic: Jobs, colleagues, the working day
+vocabulary:
+  - { target: de job, native: { en: job }, pos: noun, plural: jobs, alsoNL: de baan }
+  - { target: het beroep, native: { en: "profession, occupation" }, pos: noun, plural: beroepen }
+  - { target: de collega, native: { en: colleague }, pos: noun, plural: "collega's" }
+  - { target: de baas, native: { en: boss }, pos: noun, plural: bazen }
+  - { target: het kantoor, native: { en: office }, pos: noun, plural: kantoren }
+  - { target: de fabriek, native: { en: factory }, pos: noun, plural: fabrieken }
+  - { target: het bedrijf, native: { en: company }, pos: noun, plural: bedrijven }
+  - { target: de bouw, native: { en: building trade }, pos: noun, plural: "-" }
+  - { target: de poetsvrouw, native: { en: "cleaner (woman)" }, pos: noun, plural: poetsvrouwen, alsoNL: de schoonmaakster }
+  - { target: de schilder, native: { en: painter }, pos: noun, plural: schilders }
+  - { target: de kok, native: { en: cook }, pos: noun, plural: koks }
+  - { target: de verkoopster, native: { en: "shop assistant (woman)" }, pos: noun, plural: verkoopsters }
+  - { target: de pauze, native: { en: break }, pos: noun, plural: pauzes }
+  - { target: het uurrooster, native: { en: "timetable, rota" }, pos: noun, plural: uurroosters, alsoNL: het rooster }
+  - { target: verdienen, native: { en: to earn }, pos: verb }
+  - { target: poetsen, native: { en: to clean }, pos: verb }
+  - { target: sorteren, native: { en: to sort }, pos: verb }
+  - { target: moeilijk, native: { en: difficult }, pos: adjective, avoid: [nl.makkelijk] }
+  - { target: makkelijk, native: { en: easy }, pos: adjective }
+  - { target: interessant, native: { en: interesting }, pos: adjective }
+  - { target: vrij, native: { en: "free, off (work)" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Ik heb een nieuwe job.", native: { en: "I've got a new job." }, items: [nl.job] }
+  - { id: s02, target: "Wat is uw beroep?", native: { en: "What's your occupation?" }, items: [nl.beroep] }
+  - { id: s03, target: "Mijn collega's zijn heel vriendelijk.", native: { en: "My colleagues are very friendly." }, items: [nl.collega] }
+  - { id: s04, target: "Mijn baas heet Peeters.", native: { en: "My boss's name is Peeters." }, items: [nl.baas] }
+  - { id: s05, target: "Ik werk op een kantoor in Brussel.", native: { en: "I work in an office in Brussels." }, items: [nl.kantoor], acceptAlso: ["In Brussel werk ik op een kantoor.", "Ik werk in Brussel op een kantoor."] }
+  - { id: s06, target: "Mijn vrouw werkt in een fabriek.", native: { en: "My wife works in a factory." }, items: [nl.fabriek] }
+  - { id: s07, target: "Het bedrijf is groot.", native: { en: "The company is big." }, items: [nl.bedrijf] }
+  - { id: s08, target: "Mijn zus werkt in de bouw.", native: { en: "My sister works in the building trade." }, items: [nl.bouw] }
+  - { id: s09, target: "Ik ben poetsvrouw.", native: { en: "I'm a cleaner." }, items: [nl.poetsvrouw] }
+  - { id: s10, target: "De schilder komt morgen.", native: { en: "The painter is coming tomorrow." }, items: [nl.schilder], acceptAlso: ["Morgen komt de schilder."] }
+  - { id: s11, target: "Zij is kok in een restaurant.", native: { en: "She's a cook in a restaurant." }, items: [nl.kok] }
+  - { id: s12, target: "Zij is verkoopster in een winkel.", native: { en: "She's a shop assistant." }, items: [nl.verkoopster] }
+  - { id: s13, target: "Om twaalf uur hebben we pauze.", native: { en: "At twelve o'clock we have a break." }, items: [nl.pauze], acceptAlso: ["We hebben om twaalf uur pauze."] }
+  - { id: s14, target: "Wat is je uurrooster deze week?", native: { en: "What's your rota this week?" }, items: [nl.uurrooster] }
+  - { id: s15, target: "Hoeveel verdien je per maand?", native: { en: "How much do you earn a month?" }, items: [nl.verdienen] }
+  - { id: s16, target: "Ik poets drie keer per week.", native: { en: "I clean three times a week." }, items: [nl.poetsen] }
+  - { id: s17, target: "In de fabriek sorteer ik pakjes.", native: { en: "In the factory I sort parcels." }, items: [nl.sorteren], acceptAlso: ["Ik sorteer pakjes in de fabriek."] }
+  - { id: s18, target: "Het werk is moeilijk.", native: { en: "The work is difficult." }, items: [nl.moeilijk] }
+  - { id: s19, target: "Nederlands is niet makkelijk.", native: { en: "Dutch isn't easy." }, items: [nl.makkelijk] }
+  - { id: s20, target: "Mijn job is heel interessant.", native: { en: "My job is very interesting." }, items: [nl.interessant] }
+  - { id: s21, target: "Morgen ben ik vrij.", native: { en: "I'm off tomorrow." }, items: [nl.vrij], acceptAlso: ["Ik ben morgen vrij."] }
+  - { id: s22, target: "Ik ben ziek, ik kan niet komen werken.", native: { en: "I'm ill, I can't come to work." }, items: [nl.kunnen] }

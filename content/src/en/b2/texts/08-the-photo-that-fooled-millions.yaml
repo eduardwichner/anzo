@@ -1,0 +1,53 @@
+id: en-b2-t08
+kind: reading
+title: { nl: De foto die miljoenen mensen voor de gek hield }
+topic: News and media (an article on a website about the media)
+level: B2
+paragraphs:
+  - - { id: en-b2-t08-s01, target: "Last spring, a photo of a shark swimming down a flooded motorway went viral.", native: { nl: "Afgelopen lente ging een foto viraal van een haai die over een overstroomde snelweg zwom." } }
+    - { id: en-b2-t08-s02, target: "Within a day it had been shared more than a million times, and several news websites published it as breaking news.", native: { nl: "Binnen een dag was ze meer dan een miljoen keer gedeeld, en verschillende nieuwswebsites publiceerden ze als laatste nieuws." } }
+    - { id: en-b2-t08-s03, target: "There was only one problem: the photo was fake.", native: { nl: "Er was maar één probleem: de foto was nep." } }
+  - - { id: en-b2-t08-s04, target: "How could so many people be misled?", native: { nl: "Hoe konden zoveel mensen misleid worden?" } }
+    - { id: en-b2-t08-s05, target: "Scientists say that we are most likely to believe stories that make us feel something strongly, whether it is fear, anger or surprise.", native: { nl: "Wetenschappers zeggen dat we het meest geneigd zijn verhalen te geloven die ons iets sterk laten voelen, of het nu angst, woede of verbazing is." } }
+    - { id: en-b2-t08-s06, target: "A sensational picture makes us want to share it at once, before we have had time to think.", native: { nl: "Een sensationele foto geeft ons zin om hem meteen te delen, voor we tijd hebben gehad om na te denken." } }
+  - - { id: en-b2-t08-s07, target: "The websites that published the photo later apologised.", native: { nl: "De websites die de foto publiceerden, verontschuldigden zich later." } }
+    - { id: en-b2-t08-s08, target: "One editor admitted that nobody had checked the source, because the story was \"too good to miss\".", native: { nl: "Een hoofdredacteur gaf toe dat niemand de bron had gecontroleerd, omdat het verhaal \"te goed was om te missen\"." } }
+    - { id: en-b2-t08-s09, target: "Others claimed that they had only repeated what was already online, which is exactly how misinformation spreads.", native: { nl: "Anderen beweerden dat ze alleen hadden herhaald wat al online stond, en dat is precies hoe valse informatie zich verspreidt." } }
+  - - { id: en-b2-t08-s10, target: "So how can you tell what is real?", native: { nl: "Hoe kun je dan zien wat echt is?" } }
+    - { id: en-b2-t08-s11, target: "Experts suggest asking three questions before you share anything.", native: { nl: "Experts raden aan om drie vragen te stellen voor je iets deelt." } }
+    - { id: en-b2-t08-s12, target: "Who published it first, and are they trustworthy?", native: { nl: "Wie heeft het als eerste gepubliceerd, en zijn ze betrouwbaar?" } }
+    - { id: en-b2-t08-s13, target: "Do other reliable sources report the same story?", native: { nl: "Brengen andere betrouwbare bronnen hetzelfde verhaal?" } }
+    - { id: en-b2-t08-s14, target: "And does the story seem designed to make you angry or afraid?", native: { nl: "En lijkt het verhaal gemaakt om je boos of bang te maken?" } }
+  - - { id: en-b2-t08-s15, target: "This doesn't mean that you shouldn't trust anything.", native: { nl: "Dit betekent niet dat je niets meer moet vertrouwen." } }
+    - { id: en-b2-t08-s16, target: "But as the editor put it afterwards, \"A story that is shared a million times is not more true than one that is shared once.\"", native: { nl: "Maar zoals de hoofdredacteur het achteraf zei: \"Een verhaal dat een miljoen keer gedeeld wordt, is niet meer waar dan een verhaal dat één keer gedeeld wordt.\"" } }
+glossary:
+  - { word: shark, native: { nl: haai } }
+  - { word: flooded, native: { nl: overstroomd } }
+  - { word: fake, native: { nl: nep } }
+  - { word: anger, native: { nl: woede } }
+  - { word: apologised, native: { nl: "verontschuldigden zich (apologise)" } }
+items: [en.viral, en.breaking-news, en.mislead, en.sensational, en.editor, en.source, en.claim, en.misinformation, en.trustworthy]
+gapped:
+  gaps: [en-b2-t08-s04, en-b2-t08-s07, en-b2-t08-s10, en-b2-t08-s15]
+  extra:
+    - { id: en-b2-t08-x1, target: "Sharks are not dangerous to people in most parts of the world.", native: { nl: "Haaien zijn in de meeste delen van de wereld niet gevaarlijk voor mensen." } }
+openCloze:
+  - { sentence: en-b2-t08-s02, word: Within, acceptAlso: [In, After] }
+  - { sentence: en-b2-t08-s05, word: whether }
+  - { sentence: en-b2-t08-s09, word: which }
+  - { sentence: en-b2-t08-s16, word: than }
+wordForm:
+  - { sentence: en-b2-t08-s05, word: strongly, stem: strong }
+  - { sentence: en-b2-t08-s13, word: reliable, stem: rely }
+  - { sentence: en-b2-t08-s16, word: afterwards, stem: after }
+questions:
+  - { id: en-b2-t08-q1, type: summary, options: ["A fake photo was shared by millions and even published by news websites, which shows how strong feelings make us believe stories and why we should check sources.", "A real photo of a shark on a flooded motorway was wrongly called fake by several news websites, which later had to apologise to the photographer and his readers.", "News websites have decided to stop publishing photos from social media after a fake picture of a shark went viral."], correct: 0 }
+  - { id: en-b2-t08-q2, type: mc, question: "Why do people share sensational pictures so quickly?", options: ["They make us feel something strongly, so we share them before we think.", "News websites pay people to share them.", "They are always shared by famous influencers."], correct: 0 }
+  - { id: en-b2-t08-q3, type: true_false_notgiven, statement: "The photo was taken by a well-known photographer.", answer: not_given }
+  - { id: en-b2-t08-q4, type: true_false_notgiven, statement: "One editor said that the source had been checked carefully.", answer: false }
+  - { id: en-b2-t08-q5, type: true_false_notgiven, statement: "The writer thinks you should never trust anything online.", answer: false }
+  - { id: en-b2-t08-q6, type: match_heading, paragraph: 4, options: ["Three questions to ask", "Why we believe it", "What the websites said"], correct: 0 }
+listeningQuestions:
+  - { id: en-b2-t08-l1, type: complete, statement: "Within a day the photo had been shared more than a ___ times.", answers: [million] }
+  - { id: en-b2-t08-l2, type: mc, question: "How many questions do the experts suggest asking?", options: ["Three.", "Two.", "Five."], correct: 0 }
+orderable: false

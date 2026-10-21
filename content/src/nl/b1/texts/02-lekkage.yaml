@@ -1,0 +1,33 @@
+id: nl-b1-t02
+kind: dialogue
+title: { en: Water through the ceiling }
+topic: Living in a building (a problem between neighbours)
+level: B1
+speakers: { A: { name: Karim }, B: { name: Lien } }
+turns:
+  - { id: nl-b1-t02-s01, speaker: A, target: "Dag Lien, sorry dat ik stoor. Er komt water door het plafond van mijn badkamer.", native: { en: "Hello Lien, sorry to disturb you. Water is coming through the ceiling of my bathroom." } }
+  - { id: nl-b1-t02-s02, speaker: B, target: "Echt? Dat is vervelend. Komt het van mijn appartement?", native: { en: "Really? That's a nuisance. Is it coming from my flat?" } }
+  - { id: nl-b1-t02-s03, speaker: A, target: "Ik denk het wel. Jouw badkamer ligt precies boven de mijne.", native: { en: "I think so. Your bathroom is right above mine." } }
+  - { id: nl-b1-t02-s04, speaker: B, target: "Ik heb vanmorgen gedoucht, maar ik heb niets vreemds gezien. Wil je even komen kijken?", native: { en: "I had a shower this morning, but I didn't see anything strange. Do you want to come and have a look?" } }
+  - { id: nl-b1-t02-s05, speaker: A, target: "Graag. Als het een lek is, moeten we de huisbaas meteen bellen.", native: { en: "Yes, please. If it's a leak, we have to call the landlord straight away." } }
+  - { id: nl-b1-t02-s06, speaker: B, target: "Inderdaad. Ik heb zijn nummer. Zal ik hem nu al een bericht sturen?", native: { en: "Yes, you're right. I've got his number. Shall I text him now?" } }
+  - { id: nl-b1-t02-s07, speaker: A, target: "Ja, doe maar. En misschien moeten we ook foto's maken voor de verzekering.", native: { en: "Yes, go ahead. And maybe we should take photos for the insurance too." } }
+  - { id: nl-b1-t02-s08, speaker: B, target: "Goed idee. Kom binnen, dan kijken we samen.", native: { en: "Good idea. Come in, then we'll have a look together." } }
+glossary:
+  - { word: stoor, native: { en: "disturb (storen)" } }
+items: [nl.plafond, nl.verzekering, nl.meteen]
+questions:
+  - { id: nl-b1-t02-q1, type: mc, question: "Wat is het probleem van Karim?", options: ["Er komt water door het plafond.", "Zijn douche is kapot.", "Hij heeft geen warm water."], correct: 0 }
+  - { id: nl-b1-t02-q2, type: true_false_notgiven, statement: "Lien wist al dat er een lek was.", answer: false }
+  - { id: nl-b1-t02-q3, type: true_false_notgiven, statement: "De badkamer van Lien ligt boven die van Karim.", answer: true }
+  - { id: nl-b1-t02-q4, type: true_false_notgiven, statement: "De huisbaas komt morgen langs.", answer: not_given }
+  - { id: nl-b1-t02-q5, type: mc, question: "Waarom willen ze foto's maken?", options: ["Voor de verzekering.", "Voor de buren.", "Voor een zoekertje."], correct: 0 }
+listeningQuestions:
+  - { id: nl-b1-t02-l1, type: mc, question: "Aan wie stuurt Lien een bericht?", options: ["De huisbaas.", "Karim.", "De verzekering."], correct: 0 }
+  - { id: nl-b1-t02-l2, type: true_false_notgiven, statement: "Karim komt bij Lien binnen.", answer: true }
+cloze:
+  - { sentence: nl-b1-t02-s01, word: komt, kind: finite_verb, hint: { en: "komen (present)" } }
+  - { sentence: nl-b1-t02-s01, word: plafond, hint: { en: ceiling } }
+  - { sentence: nl-b1-t02-s03, word: ligt, kind: finite_verb, hint: { en: "liggen (present)" } }
+  - { sentence: nl-b1-t02-s07, word: verzekering, hint: { en: insurance } }
+orderable: true

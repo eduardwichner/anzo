@@ -1,0 +1,33 @@
+id: en-b1-t24
+kind: dialogue
+title: { nl: Dorp of stad? }
+topic: Places (two cousins compare living in a village and in a city)
+level: B1
+speakers: { A: { name: Ella }, B: { name: Jacob } }
+turns:
+  - { id: en-b1-t24-s01, speaker: A, target: "I love visiting you here, Jacob. Your village is so peaceful.", native: { nl: "Ik vind het heerlijk om je hier te bezoeken, Jacob. Je dorp is zo rustig." } }
+  - { id: en-b1-t24-s02, speaker: B, target: "Peaceful? It's boring! There's one shop, one bus an hour, and nothing to do in the evenings.", native: { nl: "Rustig? Het is saai! Er is één winkel, één bus per uur, en 's avonds is er niets te doen." } }
+  - { id: en-b1-t24-s03, speaker: A, target: "But look at the scenery! You can walk to the valley and swim in the river in summer.", native: { nl: "Maar kijk naar het landschap! Je kunt naar de vallei wandelen en 's zomers in de rivier zwemmen." } }
+  - { id: en-b1-t24-s04, speaker: B, target: "That's true. But you live in the capital. There are museums, cinemas and concerts within ten minutes of your flat.", native: { nl: "Dat is waar. Maar jij woont in de hoofdstad. Er zijn musea, bioscopen en concerten op tien minuten van je appartement." } }
+  - { id: en-b1-t24-s05, speaker: A, target: "Yes, but our district gets really crowded, and the streets are noisy all night.", native: { nl: "Ja, maar onze wijk wordt echt druk, en de straten zijn de hele nacht lawaaierig." } }
+  - { id: en-b1-t24-s06, speaker: B, target: "I'd still prefer that. When I'm older, I want to live in a lively city.", native: { nl: "Ik zou dat toch liever hebben. Als ik ouder ben, wil ik in een levendige stad wonen." } }
+  - { id: en-b1-t24-s07, speaker: A, target: "And I'd like a little cottage on the edge of a forest!", native: { nl: "En ik zou graag een klein huisje aan de rand van een bos willen!" } }
+  - { id: en-b1-t24-s08, speaker: B, target: "Maybe we should exchange homes for a month.", native: { nl: "Misschien moeten we een maand van huis ruilen." } }
+  - { id: en-b1-t24-s09, speaker: A, target: "Good idea! You could stay with my parents in July, and I could stay here with yours.", native: { nl: "Goed idee! Jij zou in juli bij mijn ouders kunnen logeren, en ik hier bij de jouwe." } }
+  - { id: en-b1-t24-s10, speaker: B, target: "Let's ask them tonight. I'm sure they'll say yes.", native: { nl: "Laten we het ze vanavond vragen. Ik weet zeker dat ze ja zeggen." } }
+glossary: []
+items: [en.peaceful, en.scenery, en.valley, en.capital, en.within, en.district, en.crowded, en.lively, en.cottage, en.edge, en.exchange, en.true, en.maybe]
+questions:
+  - { id: en-b1-t24-q1, type: mc, question: "What does Jacob think about his village?", options: ["It's boring.", "It's too crowded.", "It's very lively."], correct: 0 }
+  - { id: en-b1-t24-q2, type: true_false_notgiven, statement: "There are lots of buses in Jacob's village.", answer: false }
+  - { id: en-b1-t24-q3, type: true_false_notgiven, statement: "Ella lives in the capital.", answer: true }
+  - { id: en-b1-t24-q4, type: true_false_notgiven, statement: "Ella's parents have a car.", answer: not_given }
+  - { id: en-b1-t24-q5, type: mc, question: "What do the cousins plan to do?", options: ["Exchange homes for a month.", "Move to the countryside together.", "Visit a museum tonight."], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t24-l1, type: mc, question: "Where would Ella like to live?", options: ["In a cottage near a forest.", "In a flat in the city.", "By the sea."], correct: 0 }
+  - { id: en-b1-t24-l2, type: true_false_notgiven, statement: "Jacob wants to live in a city when he is older.", answer: true }
+cloze:
+  - { sentence: en-b1-t24-s01, word: is, kind: finite_verb, hint: { nl: "be (tegenwoordige tijd)" } }
+  - { sentence: en-b1-t24-s04, word: are, kind: finite_verb, hint: { nl: "be (tegenwoordige tijd, meervoud: there …)" } }
+  - { sentence: en-b1-t24-s05, word: gets, kind: finite_verb, hint: { nl: "get (tegenwoordige tijd)" } }
+orderable: true

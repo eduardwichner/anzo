@@ -1,0 +1,13 @@
+id: nl-b1-u01
+title: { en: Living together }
+icon: house
+topic: Neighbours, repairs, the building
+vocabulary:
+  - { target: de vrijwilliger, native: { en: volunteer }, pos: noun, plural: vrijwilligers }
+  - { target: het buurthuis, native: { en: community centre }, pos: noun, plural: buurthuizen }
+  - { target: het onderdeel, native: { en: "part (of a machine)" }, pos: noun, plural: onderdelen }
+  - { target: weggooien, native: { en: to throw away }, pos: verb }
+  - { target: het plafond, native: { en: ceiling }, pos: noun, plural: plafonds }
+  - { target: de verzekering, native: { en: insurance }, pos: noun, plural: verzekeringen }
+  - { target: meteen, native: { en: "straight away, at once" }, pos: adverb }
+texts: [nl-b1-t01, nl-b1-t02]

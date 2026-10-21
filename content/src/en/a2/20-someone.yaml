@@ -1,0 +1,57 @@
+id: en-a2-u20
+title: { nl: Iemand en niemand }
+icon: questions
+topic: Grammar (pronouns, determiners, adverbs)
+vocabulary:
+  - { target: anyone, native: { nl: "iemand, wie dan ook" }, pos: pronoun }
+  - { target: anything, native: { nl: "iets, wat dan ook" }, pos: pronoun }
+  - { target: no-one, native: { nl: niemand }, pos: pronoun }
+  - { target: each, native: { nl: "elk, ieder" }, pos: determiner }
+  - { target: other, native: { nl: "ander, andere" }, pos: determiner }
+  - { target: several, native: { nl: "verschillende, een aantal" }, pos: determiner }
+  - { target: anywhere, native: { nl: "ergens, waar dan ook" }, pos: adverb }
+  - { target: everywhere, native: { nl: overal }, pos: adverb }
+  - { target: nowhere, native: { nl: nergens }, pos: adverb }
+  - { target: somewhere, native: { nl: ergens }, pos: adverb, avoid: [en.anywhere] }
+  - { target: else, native: { nl: "nog meer, anders" }, pos: adverb, avoid: [en.other] }
+  - { target: away, native: { nl: weg }, pos: adverb }
+  - { target: a few, native: { nl: een paar }, pos: determiner, avoid: [en.several] }
+  - { target: a little, native: { nl: een beetje }, pos: determiner, avoid: [en.bit] }
+  - { target: much, native: { nl: veel }, pos: determiner }
+  - { target: such, native: { nl: "zo'n, zulke" }, pos: determiner }
+  - { target: enough, native: { nl: genoeg }, pos: determiner }
+  - { target: over, native: { nl: "voorbij, afgelopen" }, pos: adverb }
+  - { target: alone, native: { nl: alleen }, pos: adjective }
+  - { target: by myself, native: { nl: "(ik) zelf, zonder hulp" }, pos: phrase, avoid: [en.alone] }
+  - { target: by yourself, native: { nl: "(jij) zelf, zonder hulp" }, pos: phrase, avoid: [en.alone, en.by-myself] }
+  - { target: together, native: { nl: samen }, pos: adverb }
+  - { target: without, native: { nl: zonder }, pos: preposition }
+sentences:
+  - { id: s01, target: "Is anyone at home?", native: { nl: "Is er iemand thuis?" }, items: [en.anyone] }
+  - { id: s02, target: "Do you want anything to eat?", native: { nl: "Wil je iets eten?" }, items: [en.anything] }
+  - { id: s03, target: "No-one knows the answer.", native: { nl: "Niemand weet het antwoord." }, items: [en.no-one], acceptAlso: ["No one knows the answer."] }
+  - { id: s04, target: "Each child has got a book.", native: { nl: "Elk kind heeft een boek." }, items: [en.each] }
+  - { id: s05, target: "Where are the other children?", native: { nl: "Waar zijn de andere kinderen?" }, items: [en.other] }
+  - { id: s06, target: "I've got several pencils.", native: { nl: "Ik heb verschillende potloden." }, items: [en.several], acceptAlso: ["I have got several pencils."] }
+  - { id: s07, target: "Have you seen my cat anywhere?", native: { nl: "Heb je mijn kat ergens gezien?" }, items: [en.anywhere] }
+  - { id: s08, target: "I looked everywhere for my key.", native: { nl: "Ik heb overal naar mijn sleutel gezocht." }, items: [en.everywhere] }
+  - { id: s09, target: "There is nowhere to sit.", native: { nl: "Er is nergens plek om te zitten." }, items: [en.nowhere] }
+  - { id: s10, target: "My bag is somewhere in this room.", native: { nl: "Mijn tas is ergens in deze kamer." }, items: [en.somewhere] }
+  - { id: s11, target: "What else do you need?", native: { nl: "Wat heb je nog meer nodig?" }, items: [en.else] }
+  - { id: s12, target: "The birds flew away.", native: { nl: "De vogels vlogen weg." }, items: [en.away] }
+  - { id: s13, target: "I've got a few sweets.", native: { nl: "Ik heb een paar snoepjes." }, items: [en.a-few], acceptAlso: ["I have got a few sweets."] }
+  - { id: s14, target: "Can I have a little milk?", native: { nl: "Mag ik een beetje melk?" }, items: [en.a-little] }
+  - { id: s15, target: "I haven't got much time.", native: { nl: "Ik heb niet veel tijd." }, items: [en.much], acceptAlso: ["I have not got much time."] }
+  - { id: s16, target: "It was such a good film!", native: { nl: "Het was zo'n goede film!" }, items: [en.such] }
+  - { id: s17, target: "We haven't got enough chairs.", native: { nl: "We hebben niet genoeg stoelen." }, items: [en.enough], acceptAlso: ["We have not got enough chairs."] }
+  - { id: s18, target: "The holiday is over.", native: { nl: "De vakantie is voorbij." }, items: [en.over] }
+  - { id: s19, target: "The old man lives alone.", native: { nl: "De oude man woont alleen." }, items: [en.alone] }
+  - { id: s20, target: "I did my homework by myself.", native: { nl: "Ik heb mijn huiswerk zelf gemaakt, zonder hulp." }, items: [en.by-myself] }
+  - { id: s21, target: "Can you do it by yourself?", native: { nl: "Kun je het zelf?" }, items: [en.by-yourself] }
+  - { id: s22, target: "Let's play together!", native: { nl: "Laten we samen spelen!" }, items: [en.together] }
+  - { id: s23, target: "I can't see without my glasses.", native: { nl: "Ik kan niet zien zonder mijn bril." }, items: [en.without], acceptAlso: ["I cannot see without my glasses."] }
+lessons:
+  - { id: l01, title: { nl: Iemand en niemand }, vocab: [en.anyone, en.anything, en.no-one, en.each, en.other, en.several] }
+  - { id: l02, title: { nl: Overal en nergens }, vocab: [en.anywhere, en.everywhere, en.nowhere, en.somewhere, en.else, en.away] }
+  - { id: l03, title: { nl: Een paar en genoeg }, vocab: [en.a-few, en.a-little, en.much, en.such, en.enough, en.over] }
+  - { id: l04, title: { nl: Alleen of samen }, vocab: [en.alone, en.by-myself, en.by-yourself, en.together, en.without] }

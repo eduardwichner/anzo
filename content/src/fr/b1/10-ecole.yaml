@@ -1,0 +1,91 @@
+id: fr-b1-u10
+title: { nl: School en studie, en: "School and studying" }
+icon: school
+topic: L'école, les études et l'apprentissage ; le plus-que-parfait
+vocabulary:
+  - { target: le lycée, native: { nl: de bovenbouw van het middelbaar (lycée), en: "upper secondary school (lycée)" }, pos: noun, gender: m, noBlank: true }
+  - { target: la chimie, native: { nl: de scheikunde, en: "chemistry" }, pos: noun, gender: f }
+  - { target: la physique, native: { nl: de natuurkunde, en: "physics" }, pos: noun, gender: f }
+  - { target: le lycéen, native: { nl: de leerling van het lycée, en: "lycée pupil" }, pos: noun, gender: m, noBlank: true }
+  - { target: le collège, native: { nl: de onderbouw van het middelbaar (collège), en: "lower secondary school (collège)" }, pos: noun, gender: m, noBlank: true }
+  - { target: le collégien, native: { nl: de leerling van het collège, en: "collège pupil" }, pos: noun, gender: m, noBlank: true }
+  - { target: l'étudiant, native: { nl: de student, en: "student" }, pos: noun, gender: m }
+  - { target: l'enseignant, native: { nl: "de leraar, de leerkracht", en: "teacher" }, pos: noun, gender: m }
+  - { target: enseigner, native: { nl: lesgeven, en: "to teach" }, pos: verb }
+  - { target: l'éducation, native: { nl: "het onderwijs, de opvoeding", en: "education, upbringing" }, pos: noun, gender: f }
+  - { target: éduquer, native: { nl: opvoeden, en: "to bring up, to educate" }, pos: verb }
+  - { target: l'apprentissage, native: { nl: het leren, en: "learning" }, pos: noun, gender: m, avoid: [fr.etude] }
+  - { target: la biologie, native: { nl: de biologie, en: "biology" }, pos: noun, gender: f }
+  - { target: le bulletin, native: { nl: het rapport (van school), en: "school report" }, pos: noun, gender: m }
+  - { target: échouer, native: { nl: "mislukken, zakken", en: "to fail" }, pos: verb, avoid: [fr.reussir] }
+  - { target: réussir, native: { nl: slagen, en: "to succeed, to pass (an exam)" }, pos: verb }
+  - { target: le diplôme, native: { nl: het diploma, en: "diploma, qualification, certificate" }, pos: noun, gender: m, typedAlso: { en: [certificat] } }
+  - { target: le baccalauréat, native: { nl: het eindexamen (in Frankrijk), en: "baccalaureate (the French school-leaving exam)" }, pos: noun, gender: m }
+  - { target: l'université, native: { nl: de universiteit, en: "university" }, pos: noun, gender: f }
+  - { target: la formation, native: { nl: de opleiding, en: "training (for a job), training course" }, pos: noun, gender: f }
+  - { target: scolaire, native: { nl: school-, en: "school (as in: the school year)" }, pos: adjective }
+  - { target: extrascolaire, native: { nl: buitenschools, en: "extracurricular, after-school" }, pos: adjective }
+  - { target: le niveau, native: { nl: het niveau, en: "level" }, pos: noun, gender: m }
+  - { target: le résultat, native: { nl: het resultaat, en: "result" }, pos: noun, gender: m }
+  - { target: la difficulté, native: { nl: de moeilijkheid, en: "difficulty" }, pos: noun, gender: f }
+  - { target: l'échec, native: { nl: de mislukking, en: "failure" }, pos: noun, gender: m }
+  - { target: la méthode, native: { nl: de methode, en: "method" }, pos: noun, gender: f }
+  - { target: pédagogique, native: { nl: pedagogisch, en: "educational" }, pos: adjective, typedAlso: { en: [éducatif] } }
+  - { target: le débutant, native: { nl: de beginner, en: "beginner" }, pos: noun, gender: m }
+  - { target: la connaissance, native: { nl: de kennis, en: "knowledge" }, pos: noun, gender: f }
+  - { target: l'étude, native: { nl: de studie, en: "study, studies" }, pos: noun, gender: f, avoid: [fr.formation] }
+  - { target: la recherche, native: { nl: het onderzoek, en: "research" }, pos: noun, gender: f }
+  - { target: rechercher, native: { nl: opzoeken, en: "to look up, to research" }, pos: verb }
+  - { target: l'oral, native: { nl: het mondeling examen, en: "oral exam" }, pos: noun, gender: m }
+  - { target: logique, native: { nl: logisch, en: "logical" }, pos: adjective }
+  - { target: correct, native: { nl: juist, en: "correct" }, pos: adjective }
+  - { target: inutile, native: { nl: nutteloos, en: "useless, pointless" }, pos: adjective, avoid: [fr.utile] }
+  - { target: utile, native: { nl: nuttig, en: "useful" }, pos: adjective }
+  - { target: compétent, native: { nl: bekwaam, en: "competent, capable" }, pos: adjective }
+  - { target: la note, native: { nl: het cijfer (punten), en: "mark (at school)" }, pos: noun, gender: f }
+  - { target: la pause, native: { nl: de pauze, en: "break" }, pos: noun, gender: f }
+  - { target: inscrire, native: { nl: inschrijven, en: "to enrol, to sign up" }, pos: verb }
+sentences:
+  - { id: s01, target: "L'année prochaine, j'irai au lycée.", native: { nl: "Volgend jaar ga ik naar het lycée.", en: "Next year I'll go to lycée." }, items: [fr.lycee] }
+  - { id: s02, target: "Les lycéens préparent le baccalauréat.", native: { nl: "De leerlingen van het lycée bereiden het eindexamen voor.", en: "Lycée pupils are preparing for the baccalaureate." }, items: [fr.lyceen, fr.baccalaureat] }
+  - { id: s03, target: "Mon petit frère entre au collège en septembre.", native: { nl: "Mijn broertje begint in september aan het collège.", en: "My little brother starts at collège in September." }, items: [fr.college] }
+  - { id: s04, target: "Les collégiens portent des sacs très lourds.", native: { nl: "De leerlingen van het collège dragen heel zware tassen.", en: "Collège pupils carry very heavy bags." }, items: [fr.collegien] }
+  - { id: s05, target: "Mon frère est étudiant à l'université de Liège.", native: { nl: "Mijn broer is student aan de universiteit van Luik.", en: "My brother is a student at the University of Liège." }, items: [fr.etudiant, fr.universite] }
+  - { id: s06, target: "Les enseignants ont une réunion ce soir.", native: { nl: "De leerkrachten hebben vanavond een vergadering.", en: "The teachers have a meeting this evening." }, items: [fr.enseignant], acceptAlso: ["Ce soir, les enseignants ont une réunion."] }
+  - { id: s07, target: "Ma mère enseigne les mathématiques dans un collège.", native: { nl: "Mijn moeder geeft wiskunde in een collège.", en: "My mother teaches maths at a collège." }, items: [fr.enseigner], finite: { word: enseigne, hint: { nl: "enseigner (présent)", en: "enseigner (present)" } } }
+  - { id: s08, target: "L'éducation est gratuite en Belgique.", native: { nl: "Onderwijs is gratis in België.", en: "Education is free in Belgium." }, items: [fr.education] }
+  - { id: s09, target: "Les grands-parents aident à éduquer les enfants.", native: { nl: "De grootouders helpen de kinderen op te voeden.", en: "Grandparents help to bring up the children." }, items: [fr.eduquer] }
+  - { id: s10, target: "L'apprentissage d'une langue demande du temps.", native: { nl: "Een taal leren vraagt tijd.", en: "Learning a language takes time." }, items: [fr.apprentissage] }
+  - { id: s11, target: "En biologie, nous étudions les plantes.", native: { nl: "Bij biologie bestuderen we planten.", en: "In biology we study plants." }, items: [fr.biologie], acceptAlso: ["Nous étudions les plantes en biologie."] }
+  - { id: s12, target: "Le cours de chimie a lieu le jeudi.", native: { nl: "De les scheikunde is op donderdag.", en: "The chemistry lesson is on Thursdays." }, items: [fr.chimie] }
+  - { id: s13, target: "La physique est ma matière préférée.", native: { nl: "Natuurkunde is mijn lievelingsvak.", en: "Physics is my favourite subject." }, items: [fr.physique] }
+  - { id: s14, target: "Mes parents ont lu mon bulletin hier soir.", native: { nl: "Mijn ouders hebben gisteravond mijn rapport gelezen.", en: "My parents read my school report last night." }, items: [fr.bulletin] }
+  - { id: s15, target: "Il a échoué à son examen de conduite.", native: { nl: "Hij is niet geslaagd voor zijn rijexamen.", en: "He failed his driving test." }, items: [fr.echouer] }
+  - { id: s16, target: "Si tu travailles bien, tu vas réussir.", native: { nl: "Als je goed werkt, ga je slagen.", en: "If you work hard, you'll succeed." }, items: [fr.reussir] }
+  - { id: s17, target: "Elle a reçu son diplôme en juin.", native: { nl: "Ze kreeg haar diploma in juni.", en: "She got her diploma in June." }, items: [fr.diplome] }
+  - { id: s18, target: "Il fait une formation pour devenir cuisinier.", native: { nl: "Hij volgt een opleiding om kok te worden.", en: "He's doing a training course to become a cook." }, items: [fr.formation] }
+  - { id: s19, target: "La rentrée scolaire est en septembre.", native: { nl: "Het nieuwe schooljaar begint in september.", en: "The new school year starts in September." }, items: [fr.scolaire] }
+  - { id: s20, target: "Je fais du théâtre comme activité extrascolaire.", native: { nl: "Ik doe aan toneel als buitenschoolse activiteit.", en: "I do drama as an after-school activity." }, items: [fr.extrascolaire] }
+  - { id: s21, target: "Quel est ton niveau en anglais ?", native: { nl: "Wat is je niveau in het Engels?", en: "What's your level in English?" }, items: [fr.niveau] }
+  - { id: s22, target: "Les résultats des examens arrivent vendredi.", native: { nl: "De resultaten van de examens komen vrijdag.", en: "The exam results come out on Friday." }, items: [fr.resultat] }
+  - { id: s23, target: "J'ai des difficultés en mathématiques.", native: { nl: "Ik heb moeite met wiskunde.", en: "I'm having difficulties with maths." }, items: [fr.difficulte] }
+  - { id: s24, target: "Un échec, ce n'est pas la fin du monde.", native: { nl: "Een mislukking is het einde van de wereld niet.", en: "A failure isn't the end of the world." }, items: [fr.echec] }
+  - { id: s25, target: "Notre professeur a une très bonne méthode.", native: { nl: "Onze leraar heeft een heel goede methode.", en: "Our teacher has a very good method." }, items: [fr.methode] }
+  - { id: s26, target: "Ce jeu pédagogique aide les enfants à compter.", native: { nl: "Dit pedagogische spel helpt kinderen tellen.", en: "This educational game helps children to count." }, items: [fr.pedagogique] }
+  - { id: s27, target: "Ce cours de guitare est pour les débutants.", native: { nl: "Deze gitaarles is voor beginners.", en: "This guitar course is for beginners." }, items: [fr.debutant] }
+  - { id: s28, target: "Il a de bonnes connaissances en histoire.", native: { nl: "Hij heeft een goede kennis van geschiedenis.", en: "He has a good knowledge of history." }, items: [fr.connaissance] }
+  - { id: s29, target: "Après ses études, elle est partie à l'étranger.", native: { nl: "Na haar studie is ze naar het buitenland vertrokken.", en: "After her studies, she went abroad." }, items: [fr.etude], acceptAlso: ["Elle est partie à l'étranger après ses études."] }
+  - { id: s30, target: "Les médecins font des recherches sur cette maladie.", native: { nl: "De artsen doen onderzoek naar deze ziekte.", en: "Doctors are doing research on this disease." }, items: [fr.recherche] }
+  - { id: s31, target: "Je recherche des informations sur Internet pour mon exposé.", native: { nl: "Ik zoek informatie op internet op voor mijn spreekbeurt.", en: "I'm looking up information on the internet for my presentation." }, items: [fr.rechercher] }
+  - { id: s32, target: "Demain, j'ai l'oral de français.", native: { nl: "Morgen heb ik het mondeling examen Frans.", en: "Tomorrow I have my French oral." }, items: [fr.oral] }
+  - { id: s33, target: "Ta réponse n'est pas logique.", native: { nl: "Je antwoord is niet logisch.", en: "Your answer isn't logical." }, items: [fr.logique] }
+  - { id: s34, target: "Toutes tes réponses sont correctes. Bravo !", native: { nl: "Al je antwoorden zijn juist. Proficiat!", en: "All your answers are correct. Well done!" }, items: [fr.correct] }
+  - { id: s35, target: "Ne prends pas ce livre, il est inutile.", native: { nl: "Neem dat boek niet, het is nutteloos.", en: "Don't take that book, it's useless." }, items: [fr.inutile] }
+  - { id: s36, target: "Ce dictionnaire est très utile.", native: { nl: "Dit woordenboek is heel nuttig.", en: "This dictionary is very useful." }, items: [fr.utile] }
+  - { id: s37, target: "Notre nouvelle directrice est très compétente.", native: { nl: "Onze nieuwe directrice is heel bekwaam.", en: "Our new head teacher is very competent." }, items: [fr.competent] }
+  - { id: s38, target: "J'ai eu une bonne note en géographie.", native: { nl: "Ik heb een goed cijfer voor aardrijkskunde gehaald.", en: "I got a good mark in geography." }, items: [fr.note] }
+  - { id: s39, target: "On fait une pause de dix minutes.", native: { nl: "We nemen tien minuten pauze.", en: "We're taking a ten-minute break." }, items: [fr.pause] }
+  - { id: s40, target: "Je me suis inscrit au cours de théâtre.", native: { nl: "Ik heb me ingeschreven voor de toneelles.", en: "I've signed up for the drama course." }, items: [fr.inscrire] }
+  - { id: s41, target: "Quand je suis arrivé, la pause avait déjà commencé.", native: { nl: "Toen ik aankwam, was de pauze al begonnen.", en: "When I arrived, the break had already started." }, items: [fr.pause], build: true, acceptAlso: ["La pause avait déjà commencé quand je suis arrivé."] }
+  - { id: s42, target: "Elle avait bien étudié, alors elle a réussi.", native: { nl: "Ze had goed gestudeerd, dus is ze geslaagd.", en: "She had studied hard, so she passed." }, items: [fr.reussir], build: true }
+texts: [fr-b1-t11]

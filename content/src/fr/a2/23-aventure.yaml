@@ -1,0 +1,34 @@
+id: fr-a2-u23
+title: { nl: Kunst en avontuur, en: "Art and adventure" }
+icon: party
+topic: La musique; la peinture; l'aventure
+vocabulary:
+  - { target: la peinture, native: { nl: "het schilderen, de verf", en: "painting, paint" }, pos: noun, gender: f }
+  - { target: peindre, native: { nl: schilderen, en: "to paint" }, pos: verb }
+  - { target: "l'instrument", native: { nl: het instrument, en: "instrument" }, pos: noun, gender: m, category: true }
+  - { target: le violon, native: { nl: de viool, en: "violin" }, pos: noun, gender: m }
+  - { target: la batterie, native: { nl: het drumstel, en: "drums, drum kit" }, pos: noun, gender: f }
+  - { target: jouer de, native: { nl: (een instrument) spelen, en: "to play (an instrument)" }, pos: phrase }
+  - { target: la passion, native: { nl: "de passie, de grote hobby", en: "passion" }, pos: noun, gender: f }
+  - { target: "l'aventure", native: { nl: het avontuur, en: "adventure" }, pos: noun, gender: f }
+  - { target: explorer, native: { nl: "verkennen, ontdekken", en: "to explore" }, pos: verb }
+  - { target: le trésor, native: { nl: de schat, en: "treasure" }, pos: noun, gender: m }
+  - { target: imaginer, native: { nl: "zich iets voorstellen, bedenken", en: "to imagine" }, pos: verb }
+  - { target: inventer, native: { nl: "verzinnen, uitvinden", en: "to make up, to invent" }, pos: verb, avoid: [fr.imaginer] }
+  - { target: rêver, native: { nl: dromen, en: "to dream" }, pos: verb }
+sentences:
+  - { id: s01, target: "Le dessin, c'est ma passion.", native: { nl: "Tekenen is mijn grote hobby.", en: "Drawing is my passion." }, items: [fr.passion] }
+  - { id: s02, target: "J'adore la peinture.", native: { nl: "Ik ben gek op schilderen.", en: "I love painting." }, items: [fr.peinture] }
+  - { id: s03, target: "Je vais peindre ma chambre en bleu.", native: { nl: "Ik ga mijn kamer blauw schilderen.", en: "I'm going to paint my bedroom blue." }, items: [fr.peindre] }
+  - { id: s04, target: "Tu joues d'un instrument ?", native: { nl: "Speel jij een instrument?", en: "Do you play an instrument?" }, items: [fr.instrument, fr.jouer-de] }
+  - { id: s05, target: "Ma sœur joue du violon.", native: { nl: "Mijn zus speelt viool.", en: "My sister plays the violin." }, items: [fr.violon, fr.jouer-de] }
+  - { id: s06, target: "La batterie, c'est très bruyant !", native: { nl: "Het drumstel maakt heel veel lawaai!", en: "The drums are very noisy!" }, items: [fr.batterie] }
+  - { id: s07, target: "Nous avons vécu une grande aventure.", native: { nl: "We hebben een groot avontuur beleefd.", en: "We had a big adventure." }, items: [fr.aventure] }
+  - { id: s08, target: "On va explorer la grotte !", native: { nl: "We gaan de grot verkennen!", en: "We're going to explore the cave!" }, items: [fr.explorer] }
+  - { id: s09, target: "Le roi a caché son trésor dans le château.", native: { nl: "De koning heeft zijn schat in het kasteel verstopt.", en: "The king hid his treasure in the castle." }, items: [fr.tresor] }
+  - { id: s10, target: "Imagine une maison dans un arbre !", native: { nl: "Stel je een huis in een boom voor!", en: "Imagine a house in a tree!" }, items: [fr.imaginer] }
+  - { id: s11, target: "J'ai inventé une histoire.", native: { nl: "Ik heb een verhaal verzonnen.", en: "I made up a story." }, items: [fr.inventer] }
+  - { id: s12, target: "Cette nuit, j'ai rêvé d'un loup.", native: { nl: "Vannacht heb ik over een wolf gedroomd.", en: "Last night I dreamt about a wolf." }, items: [fr.rever] }
+lessons:
+  - { id: l01, title: { nl: Muziek en verf, en: "Music and painting" }, vocab: [fr.passion, fr.peinture, fr.peindre, fr.instrument, fr.violon, fr.batterie, fr.jouer-de] }
+  - { id: l02, title: { nl: Op avontuur, en: "Off on an adventure" }, vocab: [fr.aventure, fr.explorer, fr.tresor, fr.imaginer, fr.inventer, fr.rever] }

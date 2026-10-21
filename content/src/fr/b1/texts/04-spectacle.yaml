@@ -1,0 +1,35 @@
+id: fr-b1-t04
+kind: dialogue
+title: { nl: Zingen voor de hele school, en: "Singing in front of the whole school" }
+topic: Les émotions (deux amis parlent du spectacle de fin d'année)
+level: B1
+speakers: { A: { name: Léa }, B: { name: Hugo } }
+turns:
+  - { id: fr-b1-t04-s01, speaker: A, target: "Salut Hugo ! Tu sembles très content aujourd'hui.", native: { nl: "Hoi Hugo! Je lijkt erg blij vandaag.", en: "Hi Hugo! You seem very happy today." } }
+  - { id: fr-b1-t04-s02, speaker: B, target: "Oui ! Le professeur de musique m'a choisi pour chanter au spectacle de fin d'année.", native: { nl: "Ja! De muziekleraar heeft me gekozen om te zingen op de eindejaarsvoorstelling.", en: "Yes! The music teacher has chosen me to sing in the end-of-year show." } }
+  - { id: fr-b1-t04-s03, speaker: A, target: "Bravo ! Moi, je ne pourrais jamais chanter devant toute l'école. Je serais trop nerveuse.", native: { nl: "Proficiat! Ik zou nooit voor de hele school kunnen zingen. Ik zou veel te zenuwachtig zijn.", en: "Well done! I could never sing in front of the whole school. I'd be far too nervous." } }
+  - { id: fr-b1-t04-s04, speaker: B, target: "Moi aussi, j'étais stressé au début. Mais à mon avis, c'est surtout une question d'entraînement.", native: { nl: "Ik was in het begin ook gestrest. Maar volgens mij is het vooral een kwestie van oefenen.", en: "I was stressed at the beginning too. But in my opinion, it's mainly a question of practice." } }
+  - { id: fr-b1-t04-s05, speaker: A, target: "Et si tu oublies tout ? Tu n'as pas peur d'avoir honte ?", native: { nl: "En als je alles vergeet? Ben je niet bang dat je je zult schamen?", en: "And what if you forget everything? Aren't you afraid of being embarrassed?" } }
+  - { id: fr-b1-t04-s06, speaker: B, target: "Un peu, mais les autres seront là pour m'aider. Et les gens sont toujours gentils.", native: { nl: "Een beetje, maar de anderen zullen er zijn om me te helpen. En de mensen zijn altijd vriendelijk.", en: "A bit, but the others will be there to help me. And people are always kind." } }
+  - { id: fr-b1-t04-s07, speaker: A, target: "C'est vrai. L'année dernière, quand Nina a fait une erreur, tout le monde a rigolé avec elle, pas d'elle.", native: { nl: "Dat is waar. Vorig jaar, toen Nina een fout maakte, lachte iedereen met haar, niet om haar.", en: "That's true. Last year, when Nina made a mistake, everyone laughed with her, not at her." } }
+  - { id: fr-b1-t04-s08, speaker: B, target: "Tu vois ! Pourquoi tu ne viens pas avec nous ? On cherche encore quelqu'un pour jouer du piano.", native: { nl: "Zie je wel! Waarom kom je niet mee? We zoeken nog iemand om piano te spelen.", en: "You see! Why don't you come with us? We're still looking for someone to play the piano." } }
+  - { id: fr-b1-t04-s09, speaker: A, target: "Du piano ? Je joue depuis six ans, mais seulement à la maison.", native: { nl: "Piano? Ik speel al zes jaar, maar alleen thuis.", en: "The piano? I've been playing for six years, but only at home." } }
+  - { id: fr-b1-t04-s10, speaker: B, target: "Alors c'est parfait ! Tu peux venir mercredi après les cours, juste pour voir.", native: { nl: "Perfect, dan! Je kunt woensdag na de lessen komen, gewoon om te kijken.", en: "That's perfect, then! You can come on Wednesday after school, just to have a look." } }
+  - { id: fr-b1-t04-s11, speaker: A, target: "D'accord, je viendrai. Mais je ne promets rien !", native: { nl: "Oké, ik kom. Maar ik beloof niets!", en: "OK, I'll come. But I'm not promising anything!" } }
+  - { id: fr-b1-t04-s12, speaker: B, target: "Pas de problème. Je suis sûr que tu vas adorer.", native: { nl: "Geen probleem. Ik weet zeker dat je het geweldig gaat vinden.", en: "No problem. I'm sure you're going to love it." } }
+items: [fr.sembler, fr.nerveux, fr.stresse, fr.a-mon-avis, fr.honte, fr.rigoler, fr.promettre, fr.entrainement, fr.debut, fr.fin, fr.surtout, fr.probleme, fr.sur-adj, fr.avis]
+questions:
+  - { id: fr-b1-t04-q1, type: mc, question: "Pourquoi Hugo est-il content ?", options: ["Il va chanter au spectacle.", "Il a gagné un concours.", "Il a eu une bonne note en musique."], correct: 0 }
+  - { id: fr-b1-t04-q2, type: true_false_notgiven, statement: "Hugo n'a jamais été stressé.", answer: false }
+  - { id: fr-b1-t04-q3, type: true_false_notgiven, statement: "Hugo va chanter avec Nina.", answer: not_given }
+  - { id: fr-b1-t04-q4, type: true_false_notgiven, statement: "Nina a fait une erreur l'année dernière.", answer: true }
+  - { id: fr-b1-t04-q5, type: mc, question: "Que va faire Léa mercredi ?", options: ["Venir voir le groupe.", "Chanter devant l'école.", "Prendre un cours de piano."], correct: 0 }
+listeningQuestions:
+  - { id: fr-b1-t04-l1, type: mc, question: "Depuis combien de temps Léa joue-t-elle du piano ?", options: ["Six ans.", "Deux ans.", "Un an."], correct: 0 }
+  - { id: fr-b1-t04-l2, type: true_false_notgiven, statement: "Léa promet de jouer au spectacle.", answer: false }
+cloze:
+  - { sentence: fr-b1-t04-s01, word: sembles, kind: finite_verb, hint: { nl: "sembler (présent)", en: "sembler (present)" } }
+  - { sentence: fr-b1-t04-s06, word: seront, kind: finite_verb, hint: { nl: "être (futur)", en: "être (future)" } }
+  - { sentence: fr-b1-t04-s09, word: joue, kind: finite_verb, hint: { nl: "jouer (présent)", en: "jouer (present)" } }
+  - { sentence: fr-b1-t04-s11, word: viendrai, kind: finite_verb, hint: { nl: "venir (futur)", en: "venir (future)" } }
+orderable: true

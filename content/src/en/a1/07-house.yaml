@@ -1,0 +1,48 @@
+id: en-a1-u07
+title: { nl: In huis }
+icon: home
+topic: The home
+vocabulary:
+  - { target: balcony, native: { nl: balkon }, pos: noun }
+  - { target: basement, native: { nl: kelder }, pos: noun }
+  - { target: roof, native: { nl: dak }, pos: noun }
+  - { target: lift, native: { nl: lift }, pos: noun }
+  - { target: stairs, native: { nl: trap }, pos: noun }
+  - { target: stair, native: { nl: "trede, traptrede" }, pos: noun, avoid: [en.stairs] }
+  - { target: bowl, native: { nl: kom }, pos: noun }
+  - { target: cup, native: { nl: kopje }, pos: noun }
+  - { target: glass, native: { nl: glas }, pos: noun }
+  - { target: plate, native: { nl: "bord, eetbord" }, pos: noun }
+  - { target: bottle, native: { nl: fles }, pos: noun }
+  - { target: machine, native: { nl: machine }, pos: noun }
+  - { target: blanket, native: { nl: deken }, pos: noun }
+  - { target: seat, native: { nl: "zitplaats, plek" }, pos: noun }
+  - { target: address, native: { nl: adres }, pos: noun }
+  - { target: model, native: { nl: "model, schaalmodel" }, pos: noun }
+  - { target: shower, native: { nl: douche }, pos: noun }
+  - { target: towel, native: { nl: handdoek }, pos: noun }
+sentences:
+  - { id: s01, target: "We have breakfast on the balcony.", native: { nl: "We ontbijten op het balkon." }, items: [en.balcony] }
+  - { id: s02, target: "There are old toys in the basement.", native: { nl: "Er ligt oud speelgoed in de kelder." }, items: [en.basement] }
+  - { id: s03, target: "There's a cat on the roof!", native: { nl: "Er zit een kat op het dak!" }, items: [en.roof], acceptAlso: ["There is a cat on the roof!"] }
+  - { id: s04, target: "Let's take the lift.", native: { nl: "Laten we de lift nemen." }, items: [en.lift] }
+  - { id: s05, target: "Walk up the stairs, please.", native: { nl: "Loop de trap op, alsjeblieft." }, items: [en.stairs] }
+  - { id: s06, target: "The baby sat on the bottom stair.", native: { nl: "De baby zat op de onderste trede." }, items: [en.stair] }
+  - { id: s07, target: "Can I have a bowl of soup?", native: { nl: "Mag ik een kom soep?" }, items: [en.bowl] }
+  - { id: s08, target: "Would you like a cup of tea?", native: { nl: "Wil je een kopje thee?" }, items: [en.cup] }
+  - { id: s09, target: "The cups are in the cupboard.", native: { nl: "De kopjes staan in de kast." }, items: [en.cup] }
+  - { id: s10, target: "I drank a glass of milk.", native: { nl: "Ik dronk een glas melk." }, items: [en.glass] }
+  - { id: s11, target: "Put the plates on the table.", native: { nl: "Zet de borden op tafel." }, items: [en.plate] }
+  - { id: s12, target: "There's water in the bottle.", native: { nl: "Er zit water in de fles." }, items: [en.bottle], acceptAlso: ["There is water in the bottle."] }
+  - { id: s13, target: "This machine makes ice cream.", native: { nl: "Deze machine maakt ijs." }, items: [en.machine] }
+  - { id: s14, target: "I'm cold. Can I have a blanket?", native: { nl: "Ik heb het koud. Mag ik een deken?" }, items: [en.blanket], acceptAlso: ["I am cold. Can I have a blanket?"] }
+  - { id: s15, target: "Please sit in your seat.", native: { nl: "Ga alsjeblieft op je plek zitten." }, items: [en.seat] }
+  - { id: s16, target: "What's your address?", native: { nl: "Wat is je adres?" }, items: [en.address], acceptAlso: ["What is your address?"] }
+  - { id: s17, target: "My brother made a model plane.", native: { nl: "Mijn broer heeft een modelvliegtuig gemaakt." }, items: [en.model] }
+  - { id: s18, target: "I have a shower every morning.", native: { nl: "Ik neem elke ochtend een douche." }, items: [en.shower] }
+  - { id: s19, target: "Here's a towel for you.", native: { nl: "Hier is een handdoek voor jou." }, items: [en.towel], acceptAlso: ["Here is a towel for you."] }
+  - { id: s20, target: "The towel is wet after my shower.", native: { nl: "De handdoek is nat na mijn douche." }, items: [en.towel, en.shower] }
+lessons:
+  - { id: l01, title: { nl: Van kelder tot dak }, vocab: [en.balcony, en.basement, en.roof, en.lift, en.stairs, en.stair] }
+  - { id: l02, title: { nl: In de keuken }, vocab: [en.bowl, en.cup, en.glass, en.plate, en.bottle, en.machine] }
+  - { id: l03, title: { nl: Deken en handdoek }, vocab: [en.blanket, en.seat, en.address, en.model, en.shower, en.towel] }

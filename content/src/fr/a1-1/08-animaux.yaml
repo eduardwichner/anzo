@@ -1,0 +1,39 @@
+id: fr-a1-1-u08
+title: { nl: Dieren, en: "Animals" }
+icon: animals
+topic: Les animaux
+vocabulary:
+  - { target: "l'animal", native: { nl: het dier, en: "animal, pet" }, pos: noun, gender: m, category: true }
+  - { target: le chat, native: { nl: de kat, en: "cat" }, pos: noun, gender: m }
+  - { target: le chien, native: { nl: de hond, en: "dog" }, pos: noun, gender: m }
+  - { target: le poisson, native: { nl: de vis, en: "fish" }, pos: noun, gender: m }
+  - { target: "l'oiseau", native: { nl: de vogel, en: "bird" }, pos: noun, gender: m }
+  - { target: le cheval, native: { nl: het paard, en: "horse" }, pos: noun, gender: m }
+  - { target: le lapin, native: { nl: het konijn, en: "rabbit" }, pos: noun, gender: m }
+  - { target: la souris, native: { nl: de muis, en: "mouse" }, pos: noun, gender: f }
+  - { target: "l'éléphant", native: { nl: de olifant, en: "elephant" }, pos: noun, gender: m }
+  - { target: la girafe, native: { nl: de giraf, en: "giraffe" }, pos: noun, gender: f }
+  - { target: le lion, native: { nl: de leeuw, en: "lion" }, pos: noun, gender: m }
+  - { target: le singe, native: { nl: de aap, en: "monkey" }, pos: noun, gender: m }
+  - { target: le tigre, native: { nl: de tijger, en: "tiger" }, pos: noun, gender: m }
+sentences:
+  - { id: s01, target: "Tu as un animal ?", native: { nl: "Heb jij een huisdier?", en: "Have you got a pet?" }, items: [fr.animal] }
+  - { id: s02, target: "Tu aimes les animaux ?", native: { nl: "Hou jij van dieren?", en: "Do you like animals?" }, items: [fr.animal] }
+  - { id: s03, target: "J'ai un chat. Il s'appelle Bulle.", native: { nl: "Ik heb een kat. Hij heet Bulle.", en: "I have a cat. He's called Bulle." }, items: [fr.chat] }
+  - { id: s04, target: "Le chat est petit et noir.", native: { nl: "De kat is klein en zwart.", en: "The cat is small and black." }, items: [fr.chat] }
+  - { id: s05, target: "Mon chien est grand.", native: { nl: "Mijn hond is groot.", en: "My dog is big." }, items: [fr.chien] }
+  - { id: s06, target: "Il est comment, ton chien ?", native: { nl: "Hoe ziet je hond eruit?", en: "What's your dog like?" }, items: [fr.chien] }
+  - { id: s07, target: "Le poisson est orange.", native: { nl: "De vis is oranje.", en: "The fish is orange." }, items: [fr.poisson] }
+  - { id: s08, target: "L'oiseau est bleu et jaune.", native: { nl: "De vogel is blauw en geel.", en: "The bird is blue and yellow." }, items: [fr.oiseau] }
+  - { id: s09, target: "Le cheval est marron.", native: { nl: "Het paard is bruin.", en: "The horse is brown." }, items: [fr.cheval] }
+  - { id: s10, target: "Mon lapin s'appelle Côme.", native: { nl: "Mijn konijn heet Côme.", en: "My rabbit is called Côme." }, items: [fr.lapin] }
+  - { id: s11, target: "Le chat regarde la souris.", native: { nl: "De kat kijkt naar de muis.", en: "The cat is looking at the mouse." }, items: [fr.souris, fr.chat] }
+  - { id: s12, target: "La souris mange du fromage.", native: { nl: "De muis eet kaas.", en: "The mouse is eating cheese." }, items: [fr.souris] }
+  - { id: s13, target: "L'éléphant est très grand.", native: { nl: "De olifant is heel groot.", en: "The elephant is very big." }, items: [fr.elephant] }
+  - { id: s14, target: "La girafe mange des fleurs.", native: { nl: "De giraf eet bloemen.", en: "The giraffe is eating flowers." }, items: [fr.girafe] }
+  - { id: s15, target: "Le lion est jaune.", native: { nl: "De leeuw is geel.", en: "The lion is yellow." }, items: [fr.lion] }
+  - { id: s16, target: "Le singe mange une banane.", native: { nl: "De aap eet een banaan.", en: "The monkey is eating a banana." }, items: [fr.singe] }
+  - { id: s17, target: "Le tigre est orange et noir.", native: { nl: "De tijger is oranje en zwart.", en: "The tiger is orange and black." }, items: [fr.tigre] }
+lessons:
+  - { id: l01, title: { nl: Huisdieren, en: "Pets" }, vocab: [fr.animal, fr.chat, fr.chien, fr.poisson, fr.oiseau, fr.lapin] }
+  - { id: l02, title: { nl: Van muis tot tijger, en: "From mice to tigers" }, vocab: [fr.souris, fr.cheval, fr.elephant, fr.girafe, fr.lion, fr.singe, fr.tigre] }

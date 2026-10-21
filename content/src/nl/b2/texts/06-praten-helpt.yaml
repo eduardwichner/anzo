@@ -1,0 +1,51 @@
+id: nl-b2-t06
+kind: reading
+title: { en: Talking helps }
+topic: Health care (an article about mental health)
+level: B2
+paragraphs:
+  - - { id: nl-b2-t06-s01, target: "Een op de vier mensen krijgt ooit in zijn leven te maken met psychische problemen.", native: { en: "One in four people will have to deal with mental health problems at some point in their life." } }
+    - { id: nl-b2-t06-s02, target: "Toch wordt er nog weinig over gepraat.", native: { en: "Yet it is still rarely talked about." } }
+    - { id: nl-b2-t06-s03, target: "Wie een gebroken been heeft, krijgt bloemen en bezoek.", native: { en: "Anyone with a broken leg gets flowers and visitors." } }
+    - { id: nl-b2-t06-s04, target: "Wie een depressie heeft, durft het vaak niet te zeggen.", native: { en: "Anyone who has depression often doesn't dare to say so." } }
+  - - { id: nl-b2-t06-s05, target: "Volgens hulpverleners is dat taboe een van de belangrijkste redenen waarom mensen pas laat hulp zoeken.", native: { en: "According to counsellors that taboo is one of the main reasons why people only look for help late." } }
+    - { id: nl-b2-t06-s06, target: "Gemiddeld wachten mensen meer dan een jaar voor ze met iemand over hun klachten praten.", native: { en: "On average people wait more than a year before they talk to someone about their symptoms." } }
+    - { id: nl-b2-t06-s07, target: "In die tijd kunnen de problemen erger worden, met gevolgen voor het werk, de relatie en de lichamelijke gezondheid.", native: { en: "In that time the problems can get worse, with consequences for work, the relationship and physical health." } }
+  - - { id: nl-b2-t06-s08, target: "De huisarts is meestal de eerste stap.", native: { en: "The GP is usually the first step." } }
+    - { id: nl-b2-t06-s09, target: "Hij luistert, stelt een diagnose en kan doorverwijzen naar een psycholoog of een psychiater.", native: { en: "He listens, makes a diagnosis and can refer you to a psychologist or a psychiatrist." } }
+    - { id: nl-b2-t06-s10, target: "Sinds enkele jaren wordt een deel van de sessies bij een psycholoog door het ziekenfonds terugbetaald.", native: { en: "For some years now part of the sessions with a psychologist have been refunded by the health insurance fund." } }
+    - { id: nl-b2-t06-s11, target: "Daardoor is de hulp voor veel meer mensen betaalbaar geworden.", native: { en: "As a result the help has become affordable for many more people." } }
+  - - { id: nl-b2-t06-s12, target: "Het probleem blijven de wachtlijsten.", native: { en: "The waiting lists remain the problem." } }
+    - { id: nl-b2-t06-s13, target: "In sommige regio's wacht je drie tot zes maanden op een eerste gesprek.", native: { en: "In some regions you wait three to six months for a first conversation." } }
+    - { id: nl-b2-t06-s14, target: "Er worden daarom ook online gesprekken aangeboden, die sneller beschikbaar zijn.", native: { en: "That is why online sessions, which are available sooner, are also offered." } }
+  - - { id: nl-b2-t06-s15, target: "Ook preventie speelt een grote rol.", native: { en: "Prevention also plays a big role." } }
+    - { id: nl-b2-t06-s16, target: "Genoeg slaap, beweging en contact met anderen verlagen het risico op een depressie.", native: { en: "Enough sleep, exercise and contact with others lower the risk of depression." } }
+    - { id: nl-b2-t06-s17, target: "Op steeds meer scholen en in bedrijven worden workshops georganiseerd over stress en mentaal welzijn.", native: { en: "At more and more schools and in companies workshops are organised about stress and mental well-being." } }
+  - - { id: nl-b2-t06-s18, target: "De belangrijkste boodschap is eenvoudig: praat erover.", native: { en: "The most important message is simple: talk about it." } }
+    - { id: nl-b2-t06-s19, target: "Met een vriend, een familielid of een hulpverlener.", native: { en: "With a friend, a family member or a counsellor." } }
+    - { id: nl-b2-t06-s20, target: "Hulp vragen is geen teken van zwakte, maar van kracht.", native: { en: "Asking for help is not a sign of weakness, but of strength." } }
+glossary:
+  - { word: sessies, native: { en: sessions } }
+  - { word: zwakte, native: { en: weakness } }
+  - { word: kracht, native: { en: strength } }
+  - { word: workshops, native: { en: workshops } }
+items: [nl.psychisch, nl.depressie, nl.hulpverlener, nl.taboe, nl.oorzaak, nl.gemiddeld, nl.gevolg, nl.lichamelijk, nl.diagnose, nl.psychiater, nl.psycholoog, nl.betaalbaar, nl.wachtlijst, nl.preventie, nl.verlagen, nl.risico, nl.mentaal, nl.welzijn, nl.rol]
+gapped:
+  gaps: [nl-b2-t06-s04, nl-b2-t06-s11, nl-b2-t06-s14, nl-b2-t06-s20]
+  extra:
+    - { id: nl-b2-t06-x1, target: "Nu zijn alle sessies volledig gratis.", native: { en: "Now all sessions are completely free." } }
+questions:
+  - { id: nl-b2-t06-q1, type: summary, options: ["Het artikel legt uit waarom mensen te laat hulp zoeken bij psychische problemen en waar ze die hulp kunnen vinden.", "Het artikel legt uit waarom mensen te snel hulp zoeken bij kleine problemen en waarom de huisarts daar geen tijd voor heeft.", "Het artikel zegt dat de huisarts geen rol speelt bij psychische problemen."], correct: 0 }
+  - { id: nl-b2-t06-q2, type: mc, question: "Waarom zoeken mensen volgens hulpverleners pas laat hulp?", options: ["Door het taboe op psychische problemen.", "Door de hoge prijs van een psycholoog.", "Omdat er te weinig huisartsen zijn."], correct: 0 }
+  - { id: nl-b2-t06-q3, type: true_false_notgiven, statement: "Het ziekenfonds betaalt een deel van de sessies bij een psycholoog terug.", answer: true }
+  - { id: nl-b2-t06-q4, type: true_false_notgiven, statement: "Online gesprekken zijn duurder dan gesprekken in een praktijk.", answer: not_given }
+  - { id: nl-b2-t06-q5, type: true_false_notgiven, statement: "In alle regio's wacht je minder dan een maand op een eerste gesprek.", answer: false }
+  - { id: nl-b2-t06-q6, type: match_heading, paragraph: 5, options: ["Problemen voorkomen", "De rol van de huisarts", "Te lang wachten"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-t06-l1, type: complete, statement: "Een op de ___ mensen krijgt ooit te maken met psychische problemen.", answers: [vier, "4"] }
+  - { id: nl-b2-t06-l2, type: mc, question: "Wat is volgens het artikel meestal de eerste stap?", options: ["De huisarts.", "Een psychiater.", "Een online gesprek."], correct: 0 }
+wordForm:
+  - { sentence: nl-b2-t06-s07, word: gezondheid, stem: gezond }
+  - { sentence: nl-b2-t06-s16, word: beweging, stem: bewegen }
+  - { sentence: nl-b2-t06-s13, word: gesprek, stem: spreken }
+orderable: false

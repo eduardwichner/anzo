@@ -1,0 +1,72 @@
+id: nl-a1-u16
+title: { en: Weather and seasons }
+icon: weather
+topic: Weather, seasons, months
+vocabulary:
+  - { id: nl.weer-n, target: het weer, native: { en: weather }, pos: noun, plural: "-" }
+  - { target: de zon, native: { en: sun }, pos: noun, plural: "-" }
+  - { target: de regen, native: { en: rain }, pos: noun, plural: "-" }
+  - { target: de wind, native: { en: wind }, pos: noun, plural: winden }
+  - { target: de sneeuw, native: { en: snow }, pos: noun, plural: "-" }
+  - { target: de wolk, native: { en: cloud }, pos: noun, plural: wolken }
+  - { target: regenen, native: { en: to rain }, pos: verb, avoid: [nl.sneeuwen] }
+  - { target: sneeuwen, native: { en: to snow }, pos: verb }
+  - { target: waaien, native: { en: "to be windy, to blow" }, pos: verb }
+  - { target: schijnen, native: { en: to shine }, pos: verb }
+  - { target: nat, native: { en: wet }, pos: adjective, avoid: [nl.droog] }
+  - { target: droog, native: { en: dry }, pos: adjective }
+  - { target: de graad, native: { en: degree }, pos: noun, plural: graden }
+  - { target: de paraplu, native: { en: umbrella }, pos: noun, plural: "paraplu's" }
+  - { target: de lente, native: { en: spring }, pos: noun, plural: lentes }
+  - { target: de zomer, native: { en: summer }, pos: noun, plural: zomers }
+  - { target: de herfst, native: { en: autumn }, pos: noun, plural: herfsten }
+  - { target: de winter, native: { en: winter }, pos: noun, plural: winters }
+  - { target: de maand, native: { en: month }, pos: noun, plural: maanden }
+  - { target: januari, native: { en: January }, pos: other }
+  - { target: februari, native: { en: February }, pos: other }
+  - { target: maart, native: { en: March }, pos: other }
+  - { target: april, native: { en: April }, pos: other }
+  - { target: mei, native: { en: May }, pos: other }
+  - { target: juni, native: { en: June }, pos: other }
+  - { target: juli, native: { en: July }, pos: other }
+  - { target: augustus, native: { en: August }, pos: other }
+  - { target: september, native: { en: September }, pos: other }
+  - { target: oktober, native: { en: October }, pos: other }
+  - { target: november, native: { en: November }, pos: other }
+  - { target: december, native: { en: December }, pos: other }
+lessons:
+  - { id: l01, title: { en: "What's the weather like?" }, vocab: [nl.weer-n, nl.zon, nl.regen, nl.wind, nl.sneeuw, nl.wolk, nl.regenen, nl.sneeuwen, nl.waaien, nl.schijnen] }
+  - { id: l02, title: { en: Wet and dry }, vocab: [nl.nat, nl.droog, nl.graad, nl.paraplu, nl.lente, nl.zomer, nl.herfst, nl.winter, nl.maand] }
+  - { id: l03, title: { en: January to June }, vocab: [nl.januari, nl.februari, nl.maart, nl.april, nl.mei, nl.juni] }
+  - { id: l04, title: { en: July to December }, vocab: [nl.juli, nl.augustus, nl.september, nl.oktober, nl.november, nl.december] }
+sentences:
+  - { id: s01, target: "Hoe is het weer vandaag?", native: { en: "What's the weather like today?" }, items: [nl.weer-n] }
+  - { id: s02, target: "De zon schijnt.", native: { en: "The sun is shining." }, items: [nl.zon, nl.schijnen] }
+  - { id: s03, target: "Er komt veel regen.", native: { en: "There's a lot of rain on the way." }, items: [nl.regen] }
+  - { id: s04, target: "Het waait vandaag.", native: { en: "It's windy today." }, items: [nl.waaien], acceptAlso: ["Vandaag waait het."] }
+  - { id: s05, target: "De wind is koud.", native: { en: "The wind is cold." }, items: [nl.wind] }
+  - { id: s06, target: "In de winter ligt er soms sneeuw.", native: { en: "In winter there's sometimes snow on the ground." }, items: [nl.sneeuw, nl.winter] }
+  - { id: s07, target: "Er zijn veel wolken.", native: { en: "There are a lot of clouds." }, items: [nl.wolk] }
+  - { id: s08, target: "Het regent al twee dagen.", native: { en: "It's been raining for two days." }, items: [nl.regenen], acceptAlso: ["Al twee dagen regent het."] }
+  - { id: s09, target: "Het sneeuwt!", native: { en: "It's snowing!" }, items: [nl.sneeuwen] }
+  - { id: s10, target: "Mijn jas is nat.", native: { en: "My coat is wet." }, items: [nl.nat] }
+  - { id: s11, target: "Morgen is het droog.", native: { en: "Tomorrow it'll be dry." }, items: [nl.droog], acceptAlso: ["Het is morgen droog."] }
+  - { id: s12, target: "Het is twintig graden.", native: { en: "It's twenty degrees." }, items: [nl.graad] }
+  - { id: s13, target: "Neem een paraplu!", native: { en: "Take an umbrella!" }, items: [nl.paraplu] }
+  - { id: s14, target: "In de lente is het weer mooi.", native: { en: "In spring the weather is nice." }, items: [nl.lente], acceptAlso: ["Het weer is mooi in de lente."] }
+  - { id: s15, target: "In de zomer gaan we naar zee.", native: { en: "In summer we go to the seaside." }, items: [nl.zomer], acceptAlso: ["We gaan in de zomer naar zee."] }
+  - { id: s16, target: "In de herfst regent het veel.", native: { en: "In autumn it rains a lot." }, items: [nl.herfst], acceptAlso: ["Het regent veel in de herfst."] }
+  - { id: s17, target: "Welke maand is het?", native: { en: "What month is it?" }, items: [nl.maand] }
+  - { id: s18, target: "Mijn verjaardag is in januari.", native: { en: "My birthday is in January." }, items: [nl.januari] }
+  - { id: s19, target: "In februari is het koud.", native: { en: "In February it's cold." }, items: [nl.februari], acceptAlso: ["Het is koud in februari."] }
+  - { id: s20, target: "In maart begint de lente.", native: { en: "Spring starts in March." }, items: [nl.maart, nl.lente], acceptAlso: ["De lente begint in maart."] }
+  - { id: s21, target: "Mijn moeder is in april jarig.", native: { en: "My mother's birthday is in April." }, items: [nl.april] }
+  - { id: s22, target: "In mei is het weer vaak mooi.", native: { en: "In May the weather is often nice." }, items: [nl.mei] }
+  - { id: s23, target: "In juni zijn de dagen lang.", native: { en: "In June the days are long." }, items: [nl.juni] }
+  - { id: s24, target: "We gaan in juli op vakantie.", native: { en: "We're going on holiday in July." }, items: [nl.juli], acceptAlso: ["In juli gaan we op vakantie."] }
+  - { id: s25, target: "In augustus is het warm.", native: { en: "In August it's warm." }, items: [nl.augustus], acceptAlso: ["Het is warm in augustus."] }
+  - { id: s26, target: "In september gaan de kinderen weer naar school.", native: { en: "In September the children go back to school." }, items: [nl.september], acceptAlso: ["De kinderen gaan in september weer naar school."] }
+  - { id: s27, target: "Mijn zoon is in oktober jarig.", native: { en: "My son's birthday is in October." }, items: [nl.oktober], acceptAlso: ["Mijn zoon is jarig in oktober.", "In oktober is mijn zoon jarig."] }
+  - { id: s28, target: "November is een donkere maand.", native: { en: "November is a dark month." }, items: [nl.november] }
+  - { id: s29, target: "In december sneeuwt het soms.", native: { en: "In December it sometimes snows." }, items: [nl.december] }
+  - { id: s30, target: "Ik ben op 12 mei jarig.", native: { en: "My birthday is on 12 May." }, items: [nl.mei], acceptAlso: ["Op 12 mei ben ik jarig."] }

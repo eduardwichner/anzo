@@ -1,0 +1,54 @@
+id: nl-a2-u01
+title: { en: Yesterday and last year }
+icon: day
+topic: Telling what happened; the perfect tense
+vocabulary:
+  - { target: geleden, native: { en: ago }, pos: adverb }
+  - { target: toen, native: { en: "then, when (in the past)" }, pos: adverb, avoid: [nl.vroeger] }
+  - { target: vroeger, native: { en: "in the past, used to" }, pos: adverb }
+  - { target: ooit, native: { en: ever }, pos: adverb }
+  - { target: net, native: { en: just }, pos: adverb }
+  - { target: onlangs, native: { en: recently }, pos: adverb }
+  - { target: intussen, native: { en: meanwhile }, pos: adverb }
+  - { target: uiteindelijk, native: { en: in the end }, pos: adverb }
+  - { target: plotseling, native: { en: suddenly }, pos: adverb }
+  - { target: vorig jaar, native: { en: last year }, pos: phrase }
+  - { target: vorige maand, native: { en: last month }, pos: phrase }
+  - { target: het voorbije weekend, native: { en: last weekend }, pos: phrase, alsoNL: het afgelopen weekend }
+  - { target: de vorige keer, native: { en: last time }, pos: phrase }
+  - { target: gebeuren, native: { en: to happen }, pos: verb }
+  - { target: vertellen, native: { en: to tell }, pos: verb }
+  - { target: vergeten, native: { en: to forget }, pos: verb, avoid: [nl.onthouden, nl.herinneren] }
+  - { target: onthouden, native: { en: "to remember (keep in mind)" }, pos: verb, avoid: [nl.herinneren] }
+  - { target: herinneren, native: { en: "to remember, to remind" }, pos: verb }
+  - { target: terugzien, native: { en: to see again }, pos: verb }
+  - { target: het verleden, native: { en: the past }, pos: noun, plural: "-" }
+  - { target: de herinnering, native: { en: memory }, pos: noun, plural: herinneringen }
+  - { target: het verhaal, native: { en: story }, pos: noun, plural: verhalen }
+  - { target: de ervaring, native: { en: experience }, pos: noun, plural: ervaringen }
+sentences:
+  - { id: s01, target: "Ik ben drie jaar geleden naar België gekomen.", native: { en: "I came to Belgium three years ago." }, items: [nl.geleden], acceptAlso: ["Drie jaar geleden ben ik naar België gekomen."] }
+  - { id: s02, target: "Toen woonde ik nog in Engeland.", native: { en: "At that time I still lived in England." }, items: [nl.toen], acceptAlso: ["Ik woonde toen nog in Engeland."] }
+  - { id: s03, target: "Vroeger werkte ik in een hotel.", native: { en: "I used to work in a hotel." }, items: [nl.vroeger], acceptAlso: ["Ik werkte vroeger in een hotel."] }
+  - { id: s04, target: "Ben je ooit in Brugge geweest?", native: { en: "Have you ever been to Bruges?" }, items: [nl.ooit] }
+  - { id: s05, target: "Ik ben net thuisgekomen.", native: { en: "I've just got home." }, items: [nl.net] }
+  - { id: s06, target: "Ik heb onlangs een nieuwe job gevonden.", native: { en: "I recently found a new job." }, items: [nl.onlangs], acceptAlso: ["Onlangs heb ik een nieuwe job gevonden."] }
+  - { id: s07, target: "Intussen heeft mijn man gekookt.", native: { en: "Meanwhile my husband has done the cooking." }, items: [nl.intussen], acceptAlso: ["Mijn man heeft intussen gekookt."] }
+  - { id: s08, target: "Uiteindelijk hebben we de bus genomen.", native: { en: "In the end we took the bus." }, items: [nl.uiteindelijk], acceptAlso: ["We hebben uiteindelijk de bus genomen."] }
+  - { id: s09, target: "Plotseling ging het licht uit.", native: { en: "Suddenly the light went out." }, items: [nl.plotseling], acceptAlso: ["Het licht ging plotseling uit."] }
+  - { id: s10, target: "Vorig jaar zijn we naar Spanje gegaan.", native: { en: "Last year we went to Spain." }, items: [nl.vorig-jaar], acceptAlso: ["We zijn vorig jaar naar Spanje gegaan."] }
+  - { id: s11, target: "Vorige maand heb ik veel gewerkt.", native: { en: "Last month I worked a lot." }, items: [nl.vorige-maand], acceptAlso: ["Ik heb vorige maand veel gewerkt."] }
+  - { id: s12, target: "Wat heb je het voorbije weekend gedaan?", native: { en: "What did you do last weekend?" }, items: [nl.het-voorbije-weekend] }
+  - { id: s13, target: "De vorige keer was de winkel gesloten.", native: { en: "Last time the shop was closed." }, items: [nl.de-vorige-keer], acceptAlso: ["De winkel was de vorige keer gesloten."] }
+  - { id: s14, target: "Wat is er gebeurd?", native: { en: "What happened?" }, items: [nl.gebeuren] }
+  - { id: s15, target: "Hij heeft me een mooi verhaal verteld.", native: { en: "He told me a lovely story." }, items: [nl.vertellen, nl.verhaal] }
+  - { id: s16, target: "Ik ben mijn sleutels vergeten.", native: { en: "I've forgotten my keys." }, items: [nl.vergeten] }
+  - { id: s17, target: "Kun je dat nummer onthouden?", native: { en: "Can you remember that number?" }, items: [nl.onthouden] }
+  - { id: s18, target: "Ik herinner me die dag goed.", native: { en: "I remember that day well." }, items: [nl.herinneren], acceptAlso: ["Die dag herinner ik me goed."] }
+  - { id: s19, target: "Ik hoop je snel terug te zien.", native: { en: "I hope to see you again soon." }, items: [nl.terugzien] }
+  - { id: s20, target: "Dat ligt in het verleden.", native: { en: "That's in the past." }, items: [nl.verleden] }
+  - { id: s21, target: "Ik heb mooie herinneringen aan Gent.", native: { en: "I have lovely memories of Ghent." }, items: [nl.herinnering] }
+  - { id: s22, target: "Vertel eens een verhaal!", native: { en: "Tell us a story!" }, items: [nl.verhaal] }
+  - { id: s23, target: "Hebt u ervaring met kinderen?", native: { en: "Do you have experience with children?" }, items: [nl.ervaring] }
+  - { id: s24, target: "Twee dagen geleden had ik geen tijd.", native: { en: "Two days ago I didn't have time." }, items: [nl.geleden], acceptAlso: ["Ik had twee dagen geleden geen tijd."] }
+  - { id: s25, target: "Toen ik naar België kwam, sprak ik geen Nederlands.", native: { en: "When I came to Belgium, I didn't speak any Dutch." }, items: [nl.toen], acceptAlso: ["Ik sprak geen Nederlands toen ik naar België kwam."] }

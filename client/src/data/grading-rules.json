@@ -1,0 +1,709 @@
+{
+ "about": "Compiled from docs/grading-rules.md section 8 by npm run docs:rules. Do not edit by hand.",
+ "sections": [
+  {
+   "id": "capitals",
+   "title": {
+    "en": "Capitals and punctuation",
+    "nl": "Hoofdletters en leestekens"
+   },
+   "rules": [
+    {
+     "id": "case",
+     "langs": [
+      "all"
+     ],
+     "text": {
+      "en": "Capital letters never matter.",
+      "nl": "Hoofdletters tellen nooit mee."
+     },
+     "example": {
+      "track": "en",
+      "kind": "typed",
+      "expected": "The horse is big.",
+      "typed": "the horse is big",
+      "result": "right"
+     }
+    },
+    {
+     "id": "final",
+     "langs": [
+      "all"
+     ],
+     "text": {
+      "en": "A full stop, question mark or exclamation mark at the end never matters.",
+      "nl": "Een punt, vraagteken of uitroepteken op het einde telt nooit mee."
+     },
+     "example": {
+      "track": "en",
+      "kind": "typed",
+      "expected": "Clap your hands!",
+      "typed": "Clap your hands",
+      "result": "right"
+     }
+    },
+    {
+     "id": "inside",
+     "langs": [
+      "all"
+     ],
+     "text": {
+      "en": "In a dictation, commas and other marks inside the sentence don't matter.",
+      "nl": "Bij een dictee tellen komma's en andere tekens in de zin niet mee."
+     },
+     "example": {
+      "track": "fr",
+      "kind": "dictation",
+      "expected": "Au revoir, Rose !",
+      "typed": "au revoir rose",
+      "result": "right"
+     }
+    },
+    {
+     "id": "frspace",
+     "langs": [
+      "fr"
+     ],
+     "text": {
+      "en": "The space before ? ! : ; may be left out.",
+      "nl": "De spatie voor ? ! : ; mag je weglaten."
+     },
+     "example": {
+      "track": "fr",
+      "kind": "typed",
+      "expected": "Quel est ton nom ?",
+      "typed": "Quel est ton nom?",
+      "result": "right"
+     }
+    },
+    {
+     "id": "tiles",
+     "langs": [
+      "all"
+     ],
+     "text": {
+      "en": "Word tiles have no capitals or marks: only the order of the words counts.",
+      "nl": "Woordtegels hebben geen hoofdletters of leestekens: alleen de volgorde van de woorden telt."
+     },
+     "example": {
+      "track": "en",
+      "kind": "build",
+      "expected": "My bed is big.",
+      "typed": "my bed is big",
+      "result": "right"
+     }
+    }
+   ]
+  },
+  {
+   "id": "spaces",
+   "title": {
+    "en": "Spaces, apostrophes and hyphens",
+    "nl": "Spaties, apostrofs en koppeltekens"
+   },
+   "rules": [
+    {
+     "id": "extra",
+     "langs": [
+      "all"
+     ],
+     "text": {
+      "en": "Extra spaces never matter.",
+      "nl": "Extra spaties tellen nooit mee."
+     },
+     "example": {
+      "track": "en",
+      "kind": "typed",
+      "expected": "Look at the donkey!",
+      "typed": "LOOK at the   donkey",
+      "result": "right"
+     }
+    },
+    {
+     "id": "comma",
+     "langs": [
+      "all"
+     ],
+     "text": {
+      "en": "A comma, ; or : counts as a space between words.",
+      "nl": "Een komma, ; of : telt als een spatie tussen woorden."
+     },
+     "example": {
+      "track": "fr",
+      "kind": "dictation",
+      "expected": "Oui, ça va bien.",
+      "typed": "Oui,ça va bien",
+      "result": "right"
+     }
+    },
+    {
+     "id": "apostrophe",
+     "langs": [
+      "all"
+     ],
+     "text": {
+      "en": "Spaces around an apostrophe don't matter.",
+      "nl": "Spaties rond een apostrof tellen niet mee."
+     },
+     "example": {
+      "track": "fr",
+      "kind": "dictation",
+      "expected": "J'ai huit ans.",
+      "typed": "j ' ai huit ans",
+      "result": "right"
+     }
+    },
+    {
+     "id": "curly",
+     "langs": [
+      "all"
+     ],
+     "text": {
+      "en": "Every kind of apostrophe counts as '.",
+      "nl": "Elke soort apostrof telt als '."
+     },
+     "example": {
+      "track": "fr",
+      "kind": "typed",
+      "expected": "J'ai huit ans.",
+      "typed": "J’ai huit ans",
+      "result": "right"
+     }
+    },
+    {
+     "id": "hyphen",
+     "langs": [
+      "all"
+     ],
+     "text": {
+      "en": "A hyphen may be typed as a space or left out.",
+      "nl": "Een koppelteken mag je als spatie typen of weglaten."
+     },
+     "example": {
+      "track": "en",
+      "kind": "typed",
+      "expected": "ice-cream",
+      "typed": "ice cream",
+      "result": "right"
+     }
+    },
+    {
+     "id": "hyphen2",
+     "langs": [
+      "all"
+     ],
+     "text": {
+      "en": "A space may be typed as a hyphen.",
+      "nl": "Een spatie mag je als koppelteken typen."
+     },
+     "example": {
+      "track": "en",
+      "kind": "typed",
+      "expected": "well made",
+      "typed": "well-made",
+      "result": "right"
+     }
+    }
+   ]
+  },
+  {
+   "id": "accents",
+   "title": {
+    "en": "Accents",
+    "nl": "Accenten"
+   },
+   "rules": [
+    {
+     "id": "missing",
+     "langs": [
+      "fr",
+      "nl"
+     ],
+     "text": {
+      "en": "A missing accent is almost right: it counts, with a tip.",
+      "nl": "Een ontbrekend accent is bijna goed: het telt, met een tip."
+     },
+     "example": {
+      "track": "fr",
+      "kind": "typed",
+      "expected": "café",
+      "typed": "cafe",
+      "result": "accents"
+     }
+    },
+    {
+     "id": "missing-nl",
+     "langs": [
+      "nl"
+     ],
+     "text": {
+      "en": "Dutch too: één, ideeën, België without their accents count, with a tip.",
+      "nl": "Ook in het Nederlands: één, ideeën, België zonder accenten tellen, met een tip."
+     },
+     "example": {
+      "track": "nl",
+      "kind": "typed",
+      "expected": "één",
+      "typed": "een",
+      "result": "accents"
+     }
+    },
+    {
+     "id": "changed",
+     "langs": [
+      "fr",
+      "nl"
+     ],
+     "text": {
+      "en": "An accent that was added or changed makes another word: not right.",
+      "nl": "Een accent dat erbij kwam of veranderde, maakt een ander woord: niet goed."
+     },
+     "example": {
+      "track": "fr",
+      "kind": "typed",
+      "expected": "ou",
+      "typed": "où",
+      "result": "wrong"
+     }
+    },
+    {
+     "id": "ligature",
+     "langs": [
+      "fr"
+     ],
+     "text": {
+      "en": "œ may be typed as oe.",
+      "nl": "œ mag je typen als oe."
+     },
+     "example": {
+      "track": "fr",
+      "kind": "typed",
+      "expected": "Ma sœur",
+      "typed": "Ma soeur",
+      "result": "right"
+     }
+    }
+   ]
+  },
+  {
+   "id": "spelling",
+   "title": {
+    "en": "Small spelling slips",
+    "nl": "Kleine tikfouten"
+   },
+   "rules": [
+    {
+     "id": "slip",
+     "langs": [
+      "all"
+     ],
+     "text": {
+      "en": "In a dictation, one wrong letter in a word of 5 or more letters counts, with a tip.",
+      "nl": "Bij een dictee telt één verkeerde letter in een woord van 5 letters of meer, met een tip."
+     },
+     "example": {
+      "track": "en",
+      "kind": "dictation",
+      "expected": "The horse is big.",
+      "typed": "The hors is big",
+      "result": "spelling"
+     }
+    },
+    {
+     "id": "short",
+     "langs": [
+      "all"
+     ],
+     "text": {
+      "en": "Words of 4 letters or fewer must be exactly right.",
+      "nl": "Woorden van 4 letters of minder moeten precies kloppen."
+     },
+     "example": {
+      "track": "en",
+      "kind": "dictation",
+      "expected": "The cat is big.",
+      "typed": "The kat is big",
+      "result": "wrong"
+     }
+    },
+    {
+     "id": "other",
+     "langs": [
+      "all"
+     ],
+     "text": {
+      "en": "Not when the typed word is another word of the course: then another word was heard.",
+      "nl": "Niet als het getypte woord een ander woord uit de cursus is: dan werd een ander woord gehoord."
+     },
+     "example": {
+      "track": "en",
+      "kind": "dictation",
+      "expected": "I have three cats.",
+      "typed": "I have tree cats",
+      "result": "wrong"
+     }
+    },
+    {
+     "id": "fill",
+     "langs": [
+      "all"
+     ],
+     "text": {
+      "en": "A typed fill-in must be spelled right: no slips there.",
+      "nl": "Een getypt invulwoord moet juist gespeld zijn: daar geen tikfouten."
+     },
+     "example": {
+      "track": "en",
+      "kind": "typed",
+      "expected": "giraffe",
+      "typed": "girafe",
+      "result": "wrong"
+     }
+    }
+   ]
+  },
+  {
+   "id": "numbers",
+   "title": {
+    "en": "Numbers",
+    "nl": "Getallen"
+   },
+   "rules": [
+    {
+     "id": "digits-fr",
+     "langs": [
+      "fr"
+     ],
+     "text": {
+      "en": "In a dictation, a number may be typed in digits.",
+      "nl": "Bij een dictee mag je een getal in cijfers typen."
+     },
+     "example": {
+      "track": "fr",
+      "kind": "dictation",
+      "expected": "J'ai vingt et un ans.",
+      "typed": "J'ai 21 ans",
+      "result": "right"
+     }
+    },
+    {
+     "id": "digits-en",
+     "langs": [
+      "en"
+     ],
+     "text": {
+      "en": "English: number words up to a hundred, and hundreds, as digits.",
+      "nl": "Engels: getallen tot honderd, en honderdtallen, in cijfers."
+     },
+     "example": {
+      "track": "en",
+      "kind": "dictation",
+      "expected": "I have a hundred books.",
+      "typed": "I have 100 books",
+      "result": "right"
+     }
+    },
+    {
+     "id": "digits-nl",
+     "langs": [
+      "nl"
+     ],
+     "text": {
+      "en": "Dutch: numbers up to a thousand, written as one word, as digits.",
+      "nl": "Nederlands: getallen tot duizend, als één woord geschreven, in cijfers."
+     },
+     "example": {
+      "track": "nl",
+      "kind": "dictation",
+      "expected": "Ik ben eenentwintig.",
+      "typed": "Ik ben 21",
+      "result": "right"
+     }
+    },
+    {
+     "id": "article",
+     "langs": [
+      "nl"
+     ],
+     "text": {
+      "en": "The Dutch article een is never the number 1.",
+      "nl": "Het lidwoord een is nooit het getal 1."
+     },
+     "example": {
+      "track": "nl",
+      "kind": "dictation",
+      "expected": "Ik heb een kat.",
+      "typed": "Ik heb 1 kat",
+      "result": "wrong"
+     }
+    }
+   ]
+  },
+  {
+   "id": "english",
+   "title": {
+    "en": "English spellings",
+    "nl": "Engelse spelling"
+   },
+   "rules": [
+    {
+     "id": "contraction",
+     "langs": [
+      "en"
+     ],
+     "text": {
+      "en": "A short form may be written out: haven't = have not, can't = cannot.",
+      "nl": "Een korte vorm mag voluit: haven't = have not, can't = cannot."
+     },
+     "example": {
+      "track": "en",
+      "kind": "dictation",
+      "expected": "I haven't got a dog.",
+      "typed": "I have not got a dog",
+      "result": "right"
+     }
+    },
+    {
+     "id": "us",
+     "langs": [
+      "en"
+     ],
+     "text": {
+      "en": "American spellings are right too: color, favorite, center, theater.",
+      "nl": "Amerikaanse spelling is ook goed: color, favorite, center, theater."
+     },
+     "example": {
+      "track": "en",
+      "kind": "dictation",
+      "expected": "My favourite colour is red.",
+      "typed": "My favorite color is red",
+      "result": "right"
+     }
+    },
+    {
+     "id": "past",
+     "langs": [
+      "en"
+     ],
+     "text": {
+      "en": "Both learnt and learned, spelt and spelled are right.",
+      "nl": "Zowel learnt als learned, spelt als spelled is goed."
+     },
+     "example": {
+      "track": "en",
+      "kind": "typed",
+      "expected": "I learnt it.",
+      "typed": "I learned it",
+      "result": "right"
+     }
+    },
+    {
+     "id": "ize",
+     "langs": [
+      "en"
+     ],
+     "text": {
+      "en": "-ize and -ise are both right where both exist: realise, realize.",
+      "nl": "-ize en -ise zijn allebei goed waar beide bestaan: realise, realize."
+     },
+     "example": {
+      "track": "en",
+      "kind": "typed",
+      "expected": "I realise it.",
+      "typed": "I realize it",
+      "result": "right"
+     }
+    },
+    {
+     "id": "single-l",
+     "langs": [
+      "en"
+     ],
+     "text": {
+      "en": "One l or two: canceled, cancelled; traveling, travelling.",
+      "nl": "Eén l of twee: canceled, cancelled; traveling, travelling."
+     },
+     "example": {
+      "track": "en",
+      "kind": "typed",
+      "expected": "The train was cancelled.",
+      "typed": "The train was canceled",
+      "result": "right"
+     }
+    },
+    {
+     "id": "apostrophe-s",
+     "langs": [
+      "en"
+     ],
+     "text": {
+      "en": "'s is not written out: it can mean is, has or belong to.",
+      "nl": "'s wordt niet voluit geschreven: het kan is, has of van iemand betekenen."
+     },
+     "example": {
+      "track": "en",
+      "kind": "typed",
+      "expected": "It's red.",
+      "typed": "It is red",
+      "result": "wrong"
+     }
+    }
+   ]
+  },
+  {
+   "id": "french",
+   "title": {
+    "en": "French",
+    "nl": "Frans"
+   },
+   "rules": [
+    {
+     "id": "agreement",
+     "langs": [
+      "fr"
+     ],
+     "text": {
+      "en": "In a dictation, an ending you cannot hear (allé, allée) counts, with a tip.",
+      "nl": "Bij een dictee telt een uitgang die je niet hoort (allé, allée), met een tip."
+     },
+     "example": {
+      "track": "fr",
+      "kind": "dictation",
+      "expected": "Elle est allée au parc.",
+      "typed": "Elle est allé au parc",
+      "result": "spelling"
+     }
+    }
+   ]
+  },
+  {
+   "id": "dutch",
+   "title": {
+    "en": "Dutch",
+    "nl": "Nederlands"
+   },
+   "rules": [
+    {
+     "id": "compound",
+     "langs": [
+      "nl"
+     ],
+     "text": {
+      "en": "A compound typed as two words of the course counts, with a spelling tip: it is written as one word.",
+      "nl": "Een samengesteld woord in twee woorden uit de cursus telt, met een spellingtip: je schrijft het aan elkaar."
+     },
+     "example": {
+      "track": "nl",
+      "kind": "dictation",
+      "expected": "Ik ben net thuisgekomen.",
+      "typed": "Ik ben net thuis gekomen",
+      "result": "spelling"
+     }
+    },
+    {
+     "id": "heard-order",
+     "langs": [
+      "nl"
+     ],
+     "text": {
+      "en": "A dictation accepts the words in the order you heard them.",
+      "nl": "Een dictee aanvaardt de woorden in de volgorde waarin je ze hoorde."
+     },
+     "example": {
+      "track": "nl",
+      "kind": "dictation",
+      "expected": "Morgen ga ik naar school.",
+      "typed": "Ik ga morgen naar school",
+      "result": "wrong"
+     }
+    }
+   ]
+  },
+  {
+   "id": "order",
+   "title": {
+    "en": "Word order and matching",
+    "nl": "Woordvolgorde en paren"
+   },
+   "rules": [
+    {
+     "id": "order",
+     "langs": [
+      "all"
+     ],
+     "text": {
+      "en": "Word tiles in another order are not right, unless the lesson allows that order.",
+      "nl": "Woordtegels in een andere volgorde zijn niet goed, tenzij de les die volgorde toelaat."
+     },
+     "example": {
+      "track": "en",
+      "kind": "build",
+      "expected": "My bed is big.",
+      "typed": "is my bed big",
+      "result": "wrong"
+     }
+    },
+    {
+     "id": "pairs",
+     "langs": [
+      "all"
+     ],
+     "text": {
+      "en": "Matching pairs: right only without a wrong tap.",
+      "nl": "Paren zoeken: alleen goed zonder een verkeerde tik."
+     },
+     "example": {
+      "track": "en",
+      "kind": "pairs",
+      "expected": "0",
+      "typed": "1",
+      "result": "wrong"
+     }
+    }
+   ]
+  },
+  {
+   "id": "not",
+   "title": {
+    "en": "What is not accepted",
+    "nl": "Wat niet goed is"
+   },
+   "rules": [
+    {
+     "id": "synonym",
+     "langs": [
+      "all"
+     ],
+     "text": {
+      "en": "Another word with the same meaning, unless the lesson lists it.",
+      "nl": "Een ander woord met dezelfde betekenis, tenzij de les het vermeldt."
+     },
+     "example": {
+      "track": "en",
+      "kind": "typed",
+      "expected": "big",
+      "typed": "large",
+      "result": "wrong"
+     }
+    },
+    {
+     "id": "missing-word",
+     "langs": [
+      "all"
+     ],
+     "text": {
+      "en": "A dictation needs every word you heard.",
+      "nl": "Een dictee heeft elk woord nodig dat je hoorde."
+     },
+     "example": {
+      "track": "en",
+      "kind": "dictation",
+      "expected": "I have a dog.",
+      "typed": "I have dog",
+      "result": "wrong"
+     }
+    }
+   ]
+  }
+ ]
+}

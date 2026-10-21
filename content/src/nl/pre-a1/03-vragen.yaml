@@ -1,0 +1,43 @@
+id: nl-pre-a1-u03
+title: { en: Questions }
+icon: question
+topic: Question words, niet, and, or, but
+vocabulary:
+  - { target: wie, native: { en: who }, pos: question }
+  - { target: wat, native: { en: what }, pos: question }
+  - { target: welk, native: { en: "which, what" }, pos: question, avoid: [nl.wat] }
+  - { target: waar, native: { en: where }, pos: question }
+  - { target: vandaan, native: { en: "from (where … from)" }, pos: adverb }
+  - { target: wanneer, native: { en: when }, pos: question }
+  - { target: hoe, native: { en: how }, pos: question }
+  - { target: waarom, native: { en: why }, pos: question }
+  - { target: niet, native: { en: not }, pos: adverb }
+  - { target: ook, native: { en: "also, too" }, pos: adverb }
+  - { target: heel, native: { en: very }, pos: adverb }
+  - { target: hier, native: { en: here }, pos: adverb }
+  - { target: daar, native: { en: there }, pos: adverb }
+  - { target: nu, native: { en: now }, pos: adverb }
+  - { target: en, native: { en: and }, pos: conjunction }
+  - { target: of, native: { en: or }, pos: conjunction }
+  - { target: maar, native: { en: but }, pos: conjunction }
+sentences:
+  - { id: s01, target: "Wie is dat?", native: { en: "Who is that?" }, items: [nl.wie] }
+  - { id: s02, target: "Wie bent u?", native: { en: "Who are you?" }, items: [nl.wie] }
+  - { id: s03, target: "Wat is dat?", native: { en: "What is that?" }, items: [nl.wat] }
+  - { id: s04, target: "Welke taal spreek je?", native: { en: "What language do you speak?" }, items: [nl.welk] }
+  - { id: s05, target: "Waar woon je?", native: { en: "Where do you live?" }, items: [nl.waar] }
+  - { id: s06, target: "Waar kom je vandaan?", native: { en: "Where do you come from?" }, items: [nl.waar, nl.vandaan] }
+  - { id: s07, target: "Wanneer kom je?", native: { en: "When are you coming?" }, items: [nl.wanneer] }
+  - { id: s08, target: "Hoe heet je?", native: { en: "What's your name?" }, items: [nl.hoe] }
+  - { id: s09, target: "Waarom leer je Nederlands?", native: { en: "Why are you learning Dutch?" }, items: [nl.waarom] }
+  - { id: s10, target: "Ik woon niet in Gent.", native: { en: "I don't live in Ghent." }, items: [nl.niet] }
+  - { id: s11, target: "Hij spreekt geen Frans, maar Engels.", native: { en: "He doesn't speak French; he speaks English." }, items: [nl.maar] }
+  - { id: s12, target: "Ik spreek ook Engels.", native: { en: "I also speak English." }, items: [nl.ook] }
+  - { id: s13, target: "Gent is heel mooi.", native: { en: "Ghent is very beautiful." }, items: [nl.heel] }
+  - { id: s14, target: "Ik woon hier.", native: { en: "I live here." }, items: [nl.hier] }
+  - { id: s15, target: "Mijn zus woont daar.", native: { en: "My sister lives there." }, items: [nl.daar] }
+  - { id: s16, target: "Waar ben je nu?", native: { en: "Where are you now?" }, items: [nl.nu, nl.waar] }
+  - { id: s17, target: "Tom en Sara wonen in Gent.", native: { en: "Tom and Sara live in Ghent." }, items: [nl.en] }
+  - { id: s18, target: "Koffie of thee?", native: { en: "Coffee or tea?" }, items: [nl.of] }
+  - { id: s19, target: "Ik woon in Gent, maar ik werk in Brussel.", native: { en: "I live in Ghent, but I work in Brussels." }, items: [nl.maar] }
+  - { id: s20, target: "Is hij hier niet?", native: { en: "Isn't he here?" }, items: [nl.niet, nl.hier], acceptAlso: ["Is hij niet hier?"] }

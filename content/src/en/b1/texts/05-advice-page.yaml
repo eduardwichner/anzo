@@ -1,0 +1,37 @@
+id: en-b1-t05
+kind: reading
+title: { nl: De adviesrubriek }
+topic: Friends and relationships (a letter to a magazine's advice page and the answer)
+level: B1
+paragraphs:
+  - - { id: en-b1-t05-s01, target: "Dear Kate, my best friend Mia and I have been friends since primary school, and we have always done everything together.", native: { nl: "Beste Kate, mijn beste vriendin Mia en ik zijn al sinds de basisschool vriendinnen, en we hebben altijd alles samen gedaan." } }
+    - { id: en-b1-t05-s02, target: "But this year a new girl joined our class, and now Mia spends every break with her.", native: { nl: "Maar dit jaar kwam er een nieuw meisje in onze klas, en nu brengt Mia elke pauze met haar door." } }
+    - { id: en-b1-t05-s03, target: "Last week we had an argument, and since then she has ignored my messages.", native: { nl: "Vorige week hadden we ruzie, en sindsdien negeert ze mijn berichten." } }
+    - { id: en-b1-t05-s04, target: "I feel lonely and a bit jealous. What should I do? Rosa, 14", native: { nl: "Ik voel me eenzaam en een beetje jaloers. Wat moet ik doen? Rosa, 14" } }
+  - - { id: en-b1-t05-s05, target: "Dear Rosa, I'm sorry you feel this way, but don't worry: a lot of friendships go through difficult times.", native: { nl: "Beste Rosa, het spijt me dat je je zo voelt, maar maak je geen zorgen: veel vriendschappen maken moeilijke tijden door." } }
+    - { id: en-b1-t05-s06, target: "First, I suggest talking to Mia face to face, not on your phone.", native: { nl: "Ten eerste stel ik voor dat je persoonlijk met Mia praat, niet via je telefoon." } }
+    - { id: en-b1-t05-s07, target: "Tell her that you miss her, and apologise if you said something unkind during the argument.", native: { nl: "Zeg haar dat je haar mist, en verontschuldig je als je iets onaardigs hebt gezegd tijdens de ruzie." } }
+  - - { id: en-b1-t05-s08, target: "Second, try to get to know the new girl.", native: { nl: "Ten tweede: probeer het nieuwe meisje te leren kennen." } }
+    - { id: en-b1-t05-s09, target: "Remember that she probably feels nervous at a new school, and perhaps Mia is just being kind to her.", native: { nl: "Bedenk dat zij zich waarschijnlijk zenuwachtig voelt op een nieuwe school, en dat Mia misschien gewoon aardig tegen haar is." } }
+    - { id: en-b1-t05-s10, target: "If you invite them both to do something fun, you might end up with two good friends instead of one.", native: { nl: "Als je ze allebei uitnodigt om iets leuks te doen, heb je misschien uiteindelijk twee goede vriendinnen in plaats van één." } }
+    - { id: en-b1-t05-s11, target: "Good luck! Kate", native: { nl: "Succes! Kate" } }
+glossary:
+  - { word: go through, native: { nl: doormaken } }
+items: [en.friendship, en.argument, en.ignore, en.lonely, en.jealous, en.suggest, en.face-to-face, en.apologise, en.nervous, en.end-up, en.worry, en.probably, en.luck]
+questions:
+  - { id: en-b1-t05-q1, type: mc, question: "Why is Rosa unhappy?", options: ["Her best friend is spending time with someone else.", "She has moved to a new school.", "She has lost her phone."], correct: 0 }
+  - { id: en-b1-t05-q2, type: true_false_notgiven, statement: "Rosa and Mia met at secondary school.", answer: false }
+  - { id: en-b1-t05-q3, type: true_false_notgiven, statement: "The new girl comes from another country.", answer: not_given }
+  - { id: en-b1-t05-q4, type: true_false_notgiven, statement: "Mia has not answered Rosa's messages since their argument.", answer: true }
+  - { id: en-b1-t05-q5, type: mc, question: "What is Kate's first piece of advice?", options: ["Talk to Mia in person.", "Send Mia a long message.", "Find a new best friend."], correct: 0 }
+  - { id: en-b1-t05-q6, type: match_heading, paragraph: 3, options: ["Make friends with the new girl", "Say sorry to your teacher", "A problem between two friends"], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t05-l1, type: mc, question: "How old is Rosa?", options: ["Fourteen.", "Twelve.", "Sixteen."], correct: 0 }
+  - { id: en-b1-t05-l2, type: true_false_notgiven, statement: "Kate thinks Rosa should invite both girls to do something fun.", answer: true }
+cloze:
+  - { sentence: en-b1-t05-s02, word: joined, kind: finite_verb, hint: { nl: "join (verleden tijd)" } }
+  - { sentence: en-b1-t05-s02, word: spends, kind: finite_verb, hint: { nl: "spend (tegenwoordige tijd)" } }
+  - { sentence: en-b1-t05-s03, word: has, kind: finite_verb, hint: { nl: "have (voltooide tijd: … ignored)" } }
+  - { sentence: en-b1-t05-s07, word: said, kind: finite_verb, hint: { nl: "say (verleden tijd)" } }
+  - { sentence: en-b1-t05-s09, word: feels, kind: finite_verb, hint: { nl: "feel (tegenwoordige tijd)" } }
+orderable: true

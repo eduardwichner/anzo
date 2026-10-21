@@ -1,0 +1,36 @@
+id: en-b1-t21
+kind: reading
+title: { nl: Een klacht over een bestelling }
+topic: Shopping (an email to an online shop and the shop's reply)
+level: B1
+paragraphs:
+  - - { id: en-b1-t21-s01, target: "Dear Sir or Madam, on 2 March I ordered a pair of running shoes from your website, and I paid sixty pounds by credit card.", native: { nl: "Geachte heer of mevrouw, op 2 maart heb ik via uw website een paar hardloopschoenen besteld, en ik heb zestig pond betaald met mijn kredietkaart." } }
+    - { id: en-b1-t21-s02, target: "Your website said that delivery would take three days, but the parcel only arrived yesterday, two weeks later.", native: { nl: "Op uw website stond dat de levering drie dagen zou duren, maar het pakket kwam pas gisteren, twee weken later." } }
+  - - { id: en-b1-t21-s03, target: "Unfortunately, that was not the only problem.", native: { nl: "Helaas was dat niet het enige probleem." } }
+    - { id: en-b1-t21-s04, target: "The shoes were the wrong size, and one of them was damaged.", native: { nl: "De schoenen waren de verkeerde maat, en een ervan was beschadigd." } }
+    - { id: en-b1-t21-s05, target: "I would like a full refund, including the cost of sending them back.", native: { nl: "Ik wil graag mijn geld volledig terug, inclusief de kosten om ze terug te sturen." } }
+    - { id: en-b1-t21-s06, target: "I look forward to your reply. Yours faithfully, Lucy Walker", native: { nl: "Ik kijk uit naar uw antwoord. Hoogachtend, Lucy Walker" } }
+  - - { id: en-b1-t21-s07, target: "Dear Ms Walker, thank you for your email, and please accept our apologies.", native: { nl: "Geachte mevrouw Walker, bedankt voor uw e-mail, en wij bieden u onze excuses aan." } }
+    - { id: en-b1-t21-s08, target: "Our delivery company had problems this month, and many customers received their orders late.", native: { nl: "Ons bezorgbedrijf had deze maand problemen, en veel klanten kregen hun bestelling te laat." } }
+    - { id: en-b1-t21-s09, target: "We will give you a full refund as soon as we receive the shoes, and you do not need to pay for sending them back.", native: { nl: "We geven u uw geld volledig terug zodra we de schoenen ontvangen, en u hoeft niet te betalen om ze terug te sturen." } }
+    - { id: en-b1-t21-s10, target: "We have also added a twenty percent discount to your account for your next order. Kind regards, Tom Wilson, Customer Service", native: { nl: "We hebben ook twintig procent korting op uw account gezet voor uw volgende bestelling. Met vriendelijke groeten, Tom Wilson, klantenservice" } }
+glossary:
+  - { word: faithfully, native: { nl: "(Yours faithfully) hoogachtend" } }
+items: [en.madam, en.order, en.credit-card, en.delivery, en.parcel, en.unfortunately, en.size, en.damaged, en.refund, en.including, en.look-forward-to, en.reply, en.accept, en.apology, en.customer, en.receive, en.discount, en.account, en.regards, en.sir, en.running, en.pound, en.cost, en.ms, en.company, en.percent]
+questions:
+  - { id: en-b1-t21-q1, type: mc, question: "What did Lucy buy?", options: ["Running shoes.", "A credit card.", "A sports bag."], correct: 0 }
+  - { id: en-b1-t21-q2, type: true_false_notgiven, statement: "The parcel arrived after three days.", answer: false }
+  - { id: en-b1-t21-q3, type: true_false_notgiven, statement: "Lucy wants her money back.", answer: true }
+  - { id: en-b1-t21-q4, type: true_false_notgiven, statement: "Lucy has bought things from this shop before.", answer: not_given }
+  - { id: en-b1-t21-q5, type: mc, question: "Why were many orders late?", options: ["The delivery company had problems.", "The shop ran out of shoes.", "The website was not working."], correct: 0 }
+  - { id: en-b1-t21-q6, type: match_heading, paragraph: 3, options: ["The shop says sorry", "What went wrong", "The order"], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t21-l1, type: mc, question: "How much did the shoes cost?", options: ["Sixty pounds.", "Sixteen pounds.", "Twenty pounds."], correct: 0 }
+  - { id: en-b1-t21-l2, type: true_false_notgiven, statement: "Lucy must pay to send the shoes back.", answer: false }
+cloze:
+  - { sentence: en-b1-t21-s01, word: ordered, kind: finite_verb, hint: { nl: "order (verleden tijd)" } }
+  - { sentence: en-b1-t21-s01, word: paid, kind: finite_verb, hint: { nl: "pay (verleden tijd)" } }
+  - { sentence: en-b1-t21-s02, word: arrived, kind: finite_verb, hint: { nl: "arrive (verleden tijd)" } }
+  - { sentence: en-b1-t21-s04, word: were, kind: finite_verb, hint: { nl: "be (verleden tijd, meervoud)" } }
+  - { sentence: en-b1-t21-s08, word: received, kind: finite_verb, hint: { nl: "receive (verleden tijd)" } }
+orderable: false

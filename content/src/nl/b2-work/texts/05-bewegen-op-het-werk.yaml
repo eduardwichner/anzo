@@ -1,0 +1,51 @@
+id: nl-b2-work-t05
+kind: reading
+title: { en: Moving at work }
+topic: Healthy at work (an article in a staff magazine)
+level: B2
+paragraphs:
+  - - { id: nl-b2-work-t05-s01, target: "De gemiddelde Belgische bediende zit meer dan negen uur per dag: aan zijn bureau, in de auto en 's avonds in de zetel.", native: { en: "The average Belgian office worker sits for more than nine hours a day: at their desk, in the car and in the evening on the sofa." } }
+    - { id: nl-b2-work-t05-s02, target: "Dat is te veel, zeggen artsen.", native: { en: "That is too much, doctors say." } }
+    - { id: nl-b2-work-t05-s03, target: "Wie lang stilzit, heeft meer kans op rugpijn, hartproblemen en diabetes, ook als hij na het werk gaat sporten.", native: { en: "Anyone who sits still for a long time is more likely to get back pain, heart problems and diabetes, even if they do sport after work." } }
+  - - { id: nl-b2-work-t05-s04, target: "Ook voor de werkgever is het een probleem.", native: { en: "It is also a problem for the employer." } }
+    - { id: nl-b2-work-t05-s05, target: "Rugklachten zijn een van de belangrijkste oorzaken van verzuim, en wie zich niet goed voelt, kan zich minder goed concentreren.", native: { en: "Back complaints are one of the main causes of absence, and anyone who doesn't feel well can concentrate less well." } }
+    - { id: nl-b2-work-t05-s06, target: "Bedrijven die hun werknemers laten bewegen, zien hun verzuim dalen.", native: { en: "Companies that get their employees moving see their absence fall." } }
+  - - { id: nl-b2-work-t05-s07, target: "Wat kun je zelf doen om meer te bewegen?", native: { en: "What can you do yourself to move more?" } }
+    - { id: nl-b2-work-t05-s08, target: "De preventieadviseur geeft enkele eenvoudige tips.", native: { en: "The health and safety adviser gives a few simple tips." } }
+    - { id: nl-b2-work-t05-s09, target: "Sta elk halfuur even recht, bijvoorbeeld als je belt.", native: { en: "Stand up for a moment every half hour, for example when you make a call." } }
+    - { id: nl-b2-work-t05-s10, target: "Neem de trap in plaats van de lift, en ga tijdens de middagpauze tien minuten wandelen.", native: { en: "Take the stairs instead of the lift, and go for a ten-minute walk during the lunch break." } }
+    - { id: nl-b2-work-t05-s11, target: "Vergader eens staand of tijdens een wandeling: vergaderingen worden zo vaak korter en efficiënter.", native: { en: "Try holding a meeting standing up or on a walk: meetings often become shorter and more efficient that way too." } }
+  - - { id: nl-b2-work-t05-s12, target: "Een goede werkpost helpt ook.", native: { en: "A good workstation helps too." } }
+    - { id: nl-b2-work-t05-s13, target: "Stel je bureaustoel zo in dat je voeten plat op de grond staan, en zet je beeldscherm op een armlengte afstand.", native: { en: "Adjust your office chair so that your feet are flat on the floor, and put your screen at arm's length." } }
+    - { id: nl-b2-work-t05-s14, target: "Wie twijfelt, kan de arbeidsgeneesheer of de preventieadviseur om raad vragen.", native: { en: "Anyone in doubt can ask the occupational doctor or the health and safety adviser for advice." } }
+  - - { id: nl-b2-work-t05-s15, target: "Sinds vorig jaar heeft ons bedrijf op elke verdieping twee staande bureaus.", native: { en: "Since last year our company has had two standing desks on every floor." } }
+    - { id: nl-b2-work-t05-s16, target: "Ze zijn bijna altijd bezet.", native: { en: "They are almost always taken." } }
+    - { id: nl-b2-work-t05-s17, target: "Misschien is dat het beste bewijs dat bewegen op het werk geen moeite hoeft te kosten.", native: { en: "Perhaps that is the best proof that moving at work does not have to be an effort." } }
+glossary:
+  - { word: stilzit, native: { en: "sits still (stilzitten)" } }
+  - { word: rugklachten, native: { en: "back complaints" } }
+  - { word: armlengte, native: { en: "arm's length" } }
+  - { word: plat, native: { en: flat } }
+  - { word: raad, native: { en: advice } }
+  - { word: bezet, native: { en: "taken, occupied" } }
+items: [nl.bureau, nl.verzuim, nl.preventieadviseur, nl.staand, nl.werkpost, nl.bureaustoel, nl.beeldscherm, nl.arbeidsgeneesheer]
+gapped:
+  gaps: [nl-b2-work-t05-s04, nl-b2-work-t05-s07, nl-b2-work-t05-s12, nl-b2-work-t05-s16]
+  extra:
+    - { id: nl-b2-work-t05-x1, target: "Daarom is sporten na het werk genoeg.", native: { en: "That is why doing sport after work is enough." } }
+questions:
+  - { id: nl-b2-work-t05-q1, type: summary, options: ["Lang stilzitten is slecht voor werknemers en werkgevers, en met eenvoudige tips en een goede werkpost kun je meer bewegen.", "Werknemers moeten na het werk meer sporten.", "Het bedrijf verbiedt vergaderingen van meer dan een uur."], correct: 0 }
+  - { id: nl-b2-work-t05-q2, type: mc, question: "Waarom is lang zitten ook een probleem voor de werkgever?", options: ["Rugklachten zijn een belangrijke oorzaak van verzuim.", "Bureaustoelen zijn duur.", "Werknemers willen niet meer vergaderen."], correct: 0 }
+  - { id: nl-b2-work-t05-q3, type: true_false_notgiven, statement: "Ook wie na het werk sport, kan problemen krijgen door lang stil te zitten.", answer: true }
+  - { id: nl-b2-work-t05-q4, type: true_false_notgiven, statement: "De staande bureaus worden bijna nooit gebruikt.", answer: false }
+  - { id: nl-b2-work-t05-q5, type: true_false_notgiven, statement: "Het bedrijf geeft elke werknemer een gratis abonnement voor de sportclub.", answer: not_given }
+  - { id: nl-b2-work-t05-q6, type: match_heading, paragraph: 3, options: ["Tips om meer te bewegen", "De gevolgen voor het bedrijf", "Hoe je je bureaustoel instelt"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-work-t05-l1, type: complete, statement: "De gemiddelde bediende zit meer dan ___ uur per dag.", answers: [negen, "9"] }
+  - { id: nl-b2-work-t05-l2, type: mc, question: "Wat moet je volgens de tips elk halfuur doen?", options: ["Even rechtstaan.", "Tien minuten wandelen.", "De arbeidsgeneesheer bellen."], correct: 0 }
+openCloze:
+  - { sentence: nl-b2-work-t05-s03, word: ook, acceptAlso: [zelfs] }
+  - { sentence: nl-b2-work-t05-s06, word: laten, acceptAlso: [helpen, doen] }
+  - { sentence: nl-b2-work-t05-s10, word: plaats }
+  - { sentence: nl-b2-work-t05-s13, word: zo }
+orderable: false

@@ -1,0 +1,58 @@
+# Pronunciation lexicon for the English voice (en_GB-cori-medium) (format: content/src/nl/pronunciations.yaml).
+
+# A colon in a sentence is said as a full stop and the next word capitalised (only in what the voice is given;
+# learners read the colon). Measured on 12 colon sentences x 4 seeded renders: the voice left a median 0 ms of silence at ":",
+# 255 ms at ",", 282 ms at ";" (45-485), 182 ms at ". " + a capital (p10 100). A sample of 20 (13 English) was
+# heard before release: 20 of 20 "Keep new" (docs/developer/audio.md). A colon inside a phoneme block is never touched.
+colon: sentence
+
+words:
+  # Espeak writes OK as ˌəʊkˈeɪ and the voice stretches the k and its stress slot (the
+  # clip heard Bad: 487 ms between ʊ and e). With the stress before the k and no secondary stress, 10 OK texts x 6 seeded
+  # renders: median 139 ms, max 221 (normal; without the entry 174 / 290), slow 186 / 290 (without it 244 / 406); "Okay" did not help (192 / 302).
+  ok: əʊˈkeɪ
+  # Stress on the first syllable (espeak's British wiːkˈɛnd stresses "end"): every clip with the word.
+  weekend: wˈiːkɛnd
+  weekends: wˈiːkɛndz
+  # Espeak says the d and an n (hˈandkətʃˌiːf); British /ˈhæŋkətʃiːf/.
+  handkerchief: hˈaŋkətʃiːf
+
+beforeVowel:
+  # Before a vowel espeak links a final i to the next vowel with a
+  # palatal glide mark (hˈʌɹiʲ ˈʌp), which this voice says as a consonant. Measured on 6 seeded renders of "Hurry up! The film
+  # is almost over." (slow): with ʲ the 1-5 kHz band dips 14-20 dB at the junction with up to 60 ms of frication; the block
+  # without it (the next word phonemized on its own) dips 3-6 dB, no frication — a plain vowel junction. Only "hurry" (the
+  # remark's word); ʲ is in many more sentences (I ask, very interesting): a bulk change needs a listened sample first.
+  hurry: hˈʌɹi
+
+alone:
+  # The tap-to-hear clip of the article *a* on its own: espeak says the letter name /eɪ/ ("ay"); the clip uses the weak
+  # form "uh" /ə/, as the article is said in a sentence. Only when the clip is this one word. Written stressed (ˈə): an
+  # unstressed lone ə comes out whispered (peak 20-39 dB under full scale in 6 test renders; stressed: 1-5 dB).
+  a: ˈə
+
+hiatus:
+  # espeak's British "intrusive r": a word ending in a vowel sound gets a linking /ɹ/ before a vowel ("Anna is" → "Anner
+  # is"). A scan of every English text (phonemes ending in ɹ where the spelling has no r, before a vowel-initial word):
+  # these 16 words in 29 texts. espeak's phonemes without the ɹ do not help — the voice still links the two vowels with an r
+  # of its own ("sofar", "Grandpar"); a glottal stop ʔ is heard as a d or an n ("grandpad", "grandpan", "bacteriad";
+  # measured: a 18-39 dB closure in the 1-5 kHz band where a vowel junction has 2-10).
+  # A hiatus — the block ends in a comma (no r, no consonant, the vowel said in full) and synth.py makes that
+  # break 160 ms (240 slow), widening or shortening only silence. Only before a word
+  # that starts with a vowel letter; a real mark after the word is kept as it is.
+  anna: ˈanə
+  area: ˈeəɹiə
+  asia: ˈeɪʃə
+  bacteria: baktˈiəɹiə
+  cinema: sˈɪnəmə
+  data: dˈeɪtə
+  diploma: dɪplˈəʊmə
+  grandma: ɡɹˈandmɑː
+  grandpa: ɡɹˈandpɑː
+  maya: mˈaɪə
+  opera: ˈɒpəɹə
+  sarah: sˈeəɹə
+  sofa: sˈəʊfə
+  umbrella: ʌmbɹˈɛlə
+  vanilla: vɐnˈɪlə
+  zebra: zˈɛbɹə

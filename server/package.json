@@ -1,0 +1,27 @@
+{
+  "name": "@anzo/server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "ajv": "^8.20.0",
+    "bcrypt": "^6.0.0",
+    "better-sqlite3": "^13.0.3",
+    "better-sqlite3-session-store": "^0.1.0",
+    "compression": "^1.8.2",
+    "express": "^4.22.3",
+    "express-rate-limit": "^8.7.0",
+    "express-session": "^1.19.0",
+    "helmet": "^8.3.0",
+    "pino": "^10.3.1"
+  },
+  "devDependencies": {
+    "supertest": "^7.3.0",
+    "vitest": "^5.0.2"
+  }
+}

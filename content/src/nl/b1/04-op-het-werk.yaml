@@ -1,0 +1,86 @@
+id: nl-b1-u04
+title: { en: At work }
+icon: work
+topic: Rosters, meetings, instructions and safety; indirect speech and the passive
+vocabulary:
+  - { target: het overleg, native: { en: "consultation, (team) meeting" }, pos: noun, plural: "-" }
+  - { target: het verslag, native: { en: "report, minutes" }, pos: noun, plural: verslagen }
+  - { target: het werkrooster, native: { en: "(work) rota" }, pos: noun, plural: werkroosters }
+  - { target: afwezig, native: { en: absent }, pos: adjective, avoid: [nl.aanwezig] }
+  - { target: aanwezig, native: { en: present (there) }, pos: adjective }
+  - { target: het doktersattest, native: { en: "doctor's note, sick note" }, pos: noun, plural: doktersattesten, alsoNL: de doktersverklaring }
+  - { target: de helm, native: { en: helmet }, pos: noun, plural: helmen }
+  - { target: de kantine, native: { en: canteen }, pos: noun, plural: kantines }
+  - { target: het personeel, native: { en: "staff, personnel" }, pos: noun, plural: "-" }
+  - { target: de instructie, native: { en: instruction }, pos: noun, plural: instructies, avoid: [nl.opdracht] }
+  - { target: de procedure, native: { en: procedure }, pos: noun, plural: procedures }
+  - { target: de toestemming, native: { en: permission }, pos: noun, plural: "-" }
+  - { target: goedkeuren, native: { en: to approve }, pos: verb }
+  - { target: de planning, native: { en: "planning, schedule" }, pos: noun, plural: planningen, avoid: [nl.werkrooster] }
+  - { target: de opdracht, native: { en: "task, assignment" }, pos: noun, plural: opdrachten }
+  - { target: verdelen, native: { en: "to divide, to share out" }, pos: verb }
+  - { target: bespreken, native: { en: to discuss }, pos: verb }
+  - { target: informeren, native: { en: to inform }, pos: verb, avoid: [nl.doorgeven] }
+  - { target: doorgeven, native: { en: "to pass on" }, pos: verb }
+  - { target: de werkplek, native: { en: "workplace, workstation" }, pos: noun, plural: werkplekken }
+  - { target: de verandering, native: { en: change }, pos: noun, plural: veranderingen }
+  - { target: aanpassen, native: { en: "to adjust, to adapt" }, pos: verb }
+  - { target: invoeren, native: { en: "to introduce (a rule); to enter (data)" }, pos: verb }
+  - { target: het systeem, native: { en: system }, pos: noun, plural: systemen }
+  - { target: het gevaar, native: { en: danger }, pos: noun, plural: gevaren }
+  - { target: gevaarlijk, native: { en: dangerous }, pos: adjective }
+  - { target: voorzichtig, native: { en: careful }, pos: adjective }
+  - { target: stellen, native: { en: "to put (a question), to set" }, pos: verb }
+  - { target: herhalen, native: { en: to repeat }, pos: verb }
+  - { target: enkele, native: { en: "a few, some" }, pos: determiner }
+  - { target: tijdens, native: { en: during }, pos: preposition }
+  - { target: voortaan, native: { en: "from now on" }, pos: adverb }
+  - { target: sinds, native: { en: since }, pos: preposition }
+  - { target: de werf, native: { en: building site }, pos: noun, plural: werven, alsoNL: de bouwplaats }
+  - { target: eerder, native: { en: "earlier, before; rather" }, pos: adverb }
+  - { target: ophangen, native: { en: "to hang up, to put up" }, pos: verb }
+  - { target: binnen, native: { en: "within, inside" }, pos: preposition }
+  - { target: boven, native: { en: "above, upstairs" }, pos: adverb }
+  - { target: onder, native: { en: "under, below" }, pos: preposition }
+  - { target: de spullen, native: { en: "things, stuff" }, pos: noun, plural: "-" }
+sentences:
+  - { id: s01, target: "Elke maandag is er overleg met het hele team.", native: { en: "Every Monday there's a meeting with the whole team." }, items: [nl.overleg], acceptAlso: ["Er is elke maandag overleg met het hele team."] }
+  - { id: s02, target: "Wie schrijft vandaag het verslag?", native: { en: "Who's writing the minutes today?" }, items: [nl.verslag], acceptAlso: ["Wie schrijft het verslag vandaag?"] }
+  - { id: s03, target: "Het nieuwe werkrooster hangt in de kantine.", native: { en: "The new rota is up in the canteen." }, items: [nl.werkrooster, nl.kantine], acceptAlso: ["In de kantine hangt het nieuwe werkrooster."] }
+  - { id: s04, target: "Ahmed is vandaag afwezig omdat hij ziek is.", native: { en: "Ahmed is absent today because he's ill." }, items: [nl.afwezig], acceptAlso: ["Omdat hij ziek is, is Ahmed vandaag afwezig.", "Vandaag is Ahmed afwezig omdat hij ziek is."] }
+  - { id: s05, target: "Iedereen moet om acht uur aanwezig zijn.", native: { en: "Everyone has to be there at eight o'clock." }, items: [nl.aanwezig], acceptAlso: ["Om acht uur moet iedereen aanwezig zijn."] }
+  - { id: s06, target: "Als je ziek bent, moet je een doktersattest afgeven.", native: { en: "If you're ill, you have to hand in a doctor's note." }, items: [nl.doktersattest] }
+  - { id: s07, target: "Op de werf moet je altijd een helm dragen.", native: { en: "On the building site you always have to wear a helmet." }, items: [nl.helm, nl.werf], acceptAlso: ["Je moet op de werf altijd een helm dragen."] }
+  - { id: s08, target: "Vergeet je handschoenen en je helm niet!", native: { en: "Don't forget your gloves and your helmet!" }, items: [nl.helm], acceptAlso: ["Vergeet je helm en je handschoenen niet!"] }
+  - { id: s09, target: "Het personeel krijgt een gratis lunch in de kantine.", native: { en: "The staff get a free lunch in the canteen." }, items: [nl.personeel, nl.kantine] }
+  - { id: s10, target: "Lees eerst de instructies voordat je de machine gebruikt.", native: { en: "Read the instructions first before you use the machine." }, items: [nl.instructie], acceptAlso: ["Lees de instructies eerst voordat je de machine gebruikt."] }
+  - { id: s11, target: "Wat is de procedure als er een ongeval gebeurt?", native: { en: "What's the procedure if there's an accident?" }, items: [nl.procedure] }
+  - { id: s12, target: "Je hebt toestemming van je baas nodig.", native: { en: "You need permission from your boss." }, items: [nl.toestemming] }
+  - { id: s13, target: "Mijn verlof is goedgekeurd.", native: { en: "My leave has been approved." }, items: [nl.goedkeuren] }
+  - { id: s14, target: "De planning voor volgende week is klaar.", native: { en: "The schedule for next week is ready." }, items: [nl.planning] }
+  - { id: s15, target: "De baas zei dat de opdracht vrijdag klaar moest zijn.", native: { en: "The boss said that the task had to be ready on Friday." }, items: [nl.opdracht], finite: { word: moest, hint: { en: "moeten (past)" } } }
+  - { id: s16, target: "We verdelen het werk onder vier collega's.", native: { en: "We're sharing the work out among four colleagues." }, items: [nl.verdelen, nl.onder] }
+  - { id: s17, target: "Dat probleem bespreken we tijdens de vergadering.", native: { en: "We'll discuss that problem during the meeting." }, items: [nl.bespreken, nl.tijdens], acceptAlso: ["We bespreken dat probleem tijdens de vergadering.", "Tijdens de vergadering bespreken we dat probleem."] }
+  - { id: s18, target: "Wilt u ons informeren als er iets verandert?", native: { en: "Would you let us know if anything changes?" }, items: [nl.informeren] }
+  - { id: s19, target: "Kun je dit bericht aan je collega's doorgeven?", native: { en: "Can you pass this message on to your colleagues?" }, items: [nl.doorgeven] }
+  - { id: s20, target: "Je moet je werkplek proper houden.", native: { en: "You have to keep your workstation clean." }, items: [nl.werkplek] }
+  - { id: s21, target: "Er zijn grote veranderingen in ons bedrijf.", native: { en: "There are big changes in our company." }, items: [nl.verandering] }
+  - { id: s22, target: "We hebben het werkrooster aan de schoolvakanties aangepast.", native: { en: "We've adjusted the rota around the school holidays." }, items: [nl.aanpassen, nl.werkrooster], acceptAlso: ["Het werkrooster hebben we aan de schoolvakanties aangepast.", "We hebben het werkrooster aangepast aan de schoolvakanties."] }
+  - { id: s23, target: "Vanaf maandag wordt er een nieuw systeem ingevoerd.", native: { en: "A new system is being introduced from Monday." }, items: [nl.invoeren, nl.systeem], acceptAlso: ["Er wordt vanaf maandag een nieuw systeem ingevoerd."], finite: { word: wordt, hint: { en: "worden (present)" } } }
+  - { id: s24, target: "Deze machine is een gevaar voor je handen.", native: { en: "This machine is a danger to your hands." }, items: [nl.gevaar] }
+  - { id: s25, target: "Het is gevaarlijk om hier te roken.", native: { en: "It's dangerous to smoke here." }, items: [nl.gevaarlijk] }
+  - { id: s26, target: "Wees voorzichtig met die messen.", native: { en: "Be careful with those knives." }, items: [nl.voorzichtig] }
+  - { id: s27, target: "Mag ik een vraag stellen?", native: { en: "May I ask a question?" }, items: [nl.stellen] }
+  - { id: s28, target: "Kunt u dat nog eens herhalen?", native: { en: "Could you repeat that once more?" }, items: [nl.herhalen] }
+  - { id: s29, target: "Voortaan begint de ochtenddienst om zes uur.", native: { en: "From now on the morning shift starts at six." }, items: [nl.voortaan], acceptAlso: ["De ochtenddienst begint voortaan om zes uur.", "Om zes uur begint voortaan de ochtenddienst."], finite: { word: begint, hint: { en: "beginnen (present)" } } }
+  - { id: s30, target: "Ik werk hier sinds januari.", native: { en: "I've been working here since January." }, items: [nl.sinds], acceptAlso: ["Sinds januari werk ik hier."] }
+  - { id: s31, target: "Hij vroeg of ik tijdens het weekend kon werken.", native: { en: "He asked whether I could work at the weekend." }, items: [nl.tijdens], finite: { word: vroeg, hint: { en: "vragen (past)" } } }
+  - { id: s32, target: "Hij stelde een vraag over het nieuwe systeem.", native: { en: "He asked a question about the new system." }, items: [nl.stellen, nl.systeem], finite: { word: stelde, hint: { en: "stellen (past)" } } }
+  - { id: s33, target: "Kun je morgen een uur eerder beginnen?", native: { en: "Can you start an hour earlier tomorrow?" }, items: [nl.eerder] }
+  - { id: s34, target: "Het bedrijf waarvoor ik werk, zoekt nieuw personeel.", native: { en: "The company I work for is looking for new staff." }, items: [nl.personeel], build: true }
+  - { id: s35, target: "Binnen een week krijg je je nieuwe werkrooster.", native: { en: "Within a week you'll get your new rota." }, items: [nl.binnen, nl.werkrooster] }
+  - { id: s36, target: "Het kantoor van de baas is boven.", native: { en: "The boss's office is upstairs." }, items: [nl.boven] }
+  - { id: s37, target: "Je helm ligt onder de tafel.", native: { en: "Your helmet is under the table." }, items: [nl.onder, nl.helm] }
+  - { id: s38, target: "Laat je spullen niet in de kantine liggen.", native: { en: "Don't leave your things in the canteen." }, items: [nl.spullen, nl.kantine] }
+  - { id: s39, target: "Enkele collega's werken vandaag thuis.", native: { en: "A few colleagues are working from home today." }, items: [nl.enkele] }
+texts: [nl-b1-t05]

@@ -1,0 +1,42 @@
+id: nl-a1-u08
+title: { en: My body }
+icon: body
+topic: The body
+vocabulary:
+  - { target: het lichaam, native: { en: body }, pos: noun, plural: lichamen, category: true }
+  - { target: het hoofd, native: { en: head }, pos: noun, plural: hoofden }
+  - { id: nl.haar, target: het haar, native: { en: hair }, pos: noun, plural: haren }
+  - { target: het oog, native: { en: eye }, pos: noun, plural: ogen }
+  - { target: het oor, native: { en: ear }, pos: noun, plural: oren }
+  - { target: de neus, native: { en: nose }, pos: noun, plural: neuzen }
+  - { target: de mond, native: { en: mouth }, pos: noun, plural: monden }
+  - { target: de tand, native: { en: tooth }, pos: noun, plural: tanden }
+  - { target: de keel, native: { en: throat }, pos: noun, plural: kelen }
+  - { target: de arm, native: { en: arm }, pos: noun, plural: armen }
+  - { target: de hand, native: { en: hand }, pos: noun, plural: handen }
+  - { target: de vinger, native: { en: finger }, pos: noun, plural: vingers }
+  - { target: de schouder, native: { en: shoulder }, pos: noun, plural: schouders }
+  - { target: de rug, native: { en: back }, pos: noun, plural: ruggen }
+  - { target: de buik, native: { en: "stomach, belly" }, pos: noun, plural: buiken }
+  - { target: het been, native: { en: leg }, pos: noun, plural: benen }
+  - { target: de knie, native: { en: knee }, pos: noun, plural: knieën }
+  - { target: de voet, native: { en: foot }, pos: noun, plural: voeten }
+sentences:
+  - { id: s01, target: "Sport is goed voor je lichaam.", native: { en: "Sport is good for your body." }, items: [nl.lichaam] }
+  - { id: s02, target: "Mijn hoofd is warm.", native: { en: "My head is hot." }, items: [nl.hoofd] }
+  - { id: s03, target: "Zij heeft lang haar.", native: { en: "She has long hair." }, items: [nl.haar] }
+  - { id: s04, target: "Mijn dochter heeft blauwe ogen.", native: { en: "My daughter has blue eyes." }, items: [nl.oog] }
+  - { id: s05, target: "Mijn oor doet pijn.", native: { en: "My ear hurts." }, items: [nl.oor] }
+  - { id: s06, target: "Hij heeft een grote neus.", native: { en: "He has a big nose." }, items: [nl.neus] }
+  - { id: s07, target: "Doet u uw mond open, alstublieft.", native: { en: "Open your mouth, please." }, items: [nl.mond] }
+  - { id: s08, target: "Ik poets mijn tanden.", native: { en: "I'm brushing my teeth." }, items: [nl.tand] }
+  - { id: s09, target: "Mijn keel doet pijn.", native: { en: "My throat hurts." }, items: [nl.keel] }
+  - { id: s10, target: "Mijn arm is koud.", native: { en: "My arm is cold." }, items: [nl.arm] }
+  - { id: s11, target: "Was je handen!", native: { en: "Wash your hands!" }, items: [nl.hand] }
+  - { id: s12, target: "Een hand heeft vijf vingers.", native: { en: "A hand has five fingers." }, items: [nl.vinger, nl.hand] }
+  - { id: s13, target: "Mijn schouder doet pijn.", native: { en: "My shoulder hurts." }, items: [nl.schouder] }
+  - { id: s14, target: "Ik heb pijn in mijn rug.", native: { en: "I have a pain in my back." }, items: [nl.rug] }
+  - { id: s15, target: "Mijn buik doet pijn.", native: { en: "My stomach hurts." }, items: [nl.buik] }
+  - { id: s16, target: "Ik heb lange benen.", native: { en: "I have long legs." }, items: [nl.been] }
+  - { id: s17, target: "Mijn knie is dik.", native: { en: "My knee is swollen." }, items: [nl.knie] }
+  - { id: s18, target: "Mijn voeten zijn koud.", native: { en: "My feet are cold." }, items: [nl.voet] }

@@ -1,0 +1,53 @@
+id: fr-a1-1-u02
+title: { nl: Hoe gaat het?, en: "How are you?" }
+icon: hello
+topic: Saluer et prendre congé; la politesse
+vocabulary:
+  - { target: au revoir, native: { nl: "tot ziens, dag", en: "goodbye" }, pos: exclamation, avoid: [fr.bonjour, fr.salut] }
+  - { target: à bientôt, native: { nl: tot gauw, en: "see you soon" }, pos: exclamation }
+  - { target: à demain, native: { nl: tot morgen, en: "see you tomorrow" }, pos: exclamation }
+  - { target: bonsoir, native: { nl: goedenavond, en: "good evening" }, pos: exclamation }
+  - { target: bonne nuit, native: { nl: welterusten, en: "good night" }, pos: exclamation }
+  - { target: ça va, native: { nl: "hoe gaat het?, het gaat goed", en: "how are you?, I'm fine" }, pos: phrase }
+  - { target: bien, native: { nl: goed, en: "well, good" }, pos: adverb }
+  - { target: très, native: { nl: "heel, erg", en: "very" }, pos: adverb }
+  - { target: merci, native: { nl: "dank je, bedankt", en: "thank you, thanks" }, pos: exclamation }
+  # never two options of one question: "alsjeblieft" / "alstublieft" are both "please" to a child (diagnostics A6 #3)
+  - { target: "s'il te plaît", native: { nl: alsjeblieft, en: "please (informal)" }, pos: phrase, avoidInChoices: [fr.s-il-vous-plait] }
+  - { target: "s'il vous plaît", native: { nl: alstublieft, en: "please (formal or plural)" }, pos: phrase }
+  - { target: oui, native: { nl: ja, en: "yes" }, pos: exclamation }
+  - { target: non, native: { nl: nee, en: "no" }, pos: exclamation }
+  - { target: pardon, native: { nl: "sorry, pardon", en: "sorry, pardon" }, pos: exclamation }
+  - { target: excuse-moi, native: { nl: "sorry, neem me niet kwalijk", en: "sorry, excuse me (informal)" }, pos: phrase }
+  - { target: "d'accord", native: { nl: "oké, goed", en: "OK, all right" }, pos: exclamation, avoid: [fr.bien] }
+  - { target: voilà, native: { nl: "hier is het, ziezo", en: "here it is, here you are, there you go" }, pos: exclamation }
+  - { target: madame, native: { nl: mevrouw, en: "madam, Mrs" }, pos: noun, gender: f }
+  - { target: monsieur, native: { nl: meneer, en: "sir, Mr" }, pos: noun, gender: m }
+  - { target: ne … pas, native: { nl: niet, en: "not" }, pos: adverb }
+sentences:
+  - { id: s01, target: "Au revoir, Rose !", native: { nl: "Dag Rose!", en: "Goodbye, Rose!" }, items: [fr.au-revoir] }
+  - { id: s02, target: "Salut Paul, à bientôt !", native: { nl: "Hoi Paul, tot gauw!", en: "Bye, Paul, see you soon!" }, items: [fr.a-bientot] }
+  - { id: s03, target: "Au revoir, à demain !", native: { nl: "Dag, tot morgen!", en: "Goodbye, see you tomorrow!" }, items: [fr.au-revoir, fr.a-demain] }
+  - { id: s04, target: "Bonsoir, grand-père !", native: { nl: "Goedenavond, opa!", en: "Good evening, Grandpa!" }, items: [fr.bonsoir] }
+  - { id: s05, target: "Bonne nuit, maman !", native: { nl: "Welterusten, mama!", en: "Good night, Mum!" }, items: [fr.bonne-nuit] }
+  - { id: s06, target: "Salut Diego, ça va ?", native: { nl: "Hoi Diego, hoe gaat het?", en: "Hi, Diego, how are you?" }, items: [fr.ca-va] }
+  - { id: s07, target: "Oui, ça va bien.", native: { nl: "Ja, het gaat goed.", en: "Yes, I'm well." }, items: [fr.ca-va, fr.bien, fr.oui] }
+  - { id: s08, target: "Ça va très bien, merci !", native: { nl: "Het gaat heel goed, dank je!", en: "I'm very well, thank you!" }, items: [fr.ca-va, fr.tres, fr.bien, fr.merci] }
+  - { id: s09, target: "Merci, madame !", native: { nl: "Dank u, mevrouw!", en: "Thank you, madam!" }, items: [fr.merci, fr.madame] }
+  - { id: s10, target: "Une banane, s'il te plaît.", native: { nl: "Een banaan, alsjeblieft.", en: "A banana, please." }, items: [fr.s-il-te-plait] }
+  - { id: s11, target: "De l'eau, s'il vous plaît, monsieur.", native: { nl: "Water, alstublieft, meneer.", en: "Some water, please, sir." }, items: [fr.s-il-vous-plait, fr.monsieur] }
+  - { id: s12, target: "Non merci.", native: { nl: "Nee, dank je.", en: "No, thank you." }, items: [fr.non, fr.merci] }
+  - { id: s13, target: "Tu as un frère ? Oui !", native: { nl: "Heb jij een broer? Ja!", en: "Have you got a brother? Yes!" }, items: [fr.oui] }
+  - { id: s14, target: "Pardon, maman !", native: { nl: "Sorry, mama!", en: "Sorry, Mum!" }, items: [fr.pardon] }
+  - { id: s15, target: "Excuse-moi, Paul.", native: { nl: "Sorry, Paul.", en: "Sorry, Paul." }, items: [fr.excuse-moi] }
+  - { id: s16, target: "Tu viens ? D'accord !", native: { nl: "Kom je? Oké!", en: "Are you coming? OK!" }, items: [fr.d-accord] }
+  - { id: s17, target: "Voilà une banane.", native: { nl: "Hier is een banaan.", en: "Here's a banana." }, items: [fr.voila] }
+  - { id: s18, target: "Bonjour, monsieur !", native: { nl: "Hallo, meneer!", en: "Hello, sir!" }, items: [fr.monsieur] }
+  - { id: s19, target: "Bonsoir, madame.", native: { nl: "Goedenavond, mevrouw.", en: "Good evening, madam." }, items: [fr.bonsoir, fr.madame] }
+  - { id: s20, target: "Je ne suis pas Paul.", native: { nl: "Ik ben Paul niet.", en: "I'm not Paul." }, items: [fr.ne-pas] }
+  - { id: s21, target: "Non, je n'ai pas de sœur.", native: { nl: "Nee, ik heb geen zus.", en: "No, I haven't got a sister." }, items: [fr.non, fr.ne-pas] }
+  - { id: s22, target: "Le chocolat, c'est très bon !", native: { nl: "Chocola is heel lekker!", en: "Chocolate is very tasty!" }, items: [fr.tres] }
+lessons:
+  - { id: l01, title: { nl: Dag en tot gauw, en: "Goodbye, see you soon" }, vocab: [fr.au-revoir, fr.a-bientot, fr.a-demain, fr.bonsoir, fr.bonne-nuit, fr.ca-va, fr.bien] }
+  - { id: l02, title: { nl: Dank je wel, en: "Thank you" }, vocab: [fr.tres, fr.merci, fr.s-il-te-plait, fr.s-il-vous-plait, fr.oui, fr.non, fr.madame] }
+  - { id: l03, title: { nl: Sorry!, en: "Sorry!" }, vocab: [fr.pardon, fr.excuse-moi, fr.d-accord, fr.voila, fr.monsieur, fr.ne-pas] }

@@ -1,0 +1,33 @@
+id: fr-a2-u25
+title: { nl: Groot en klein, en: "Huge and tiny" }
+icon: compare
+topic: Décrire les choses
+vocabulary:
+  - { target: énorme, native: { nl: "enorm, reusachtig", en: "huge, enormous" }, pos: adjective }
+  - { target: minuscule, native: { nl: piepklein, en: "tiny" }, pos: adjective }
+  - { target: large, native: { nl: breed, en: "wide, broad" }, pos: adjective }
+  - { target: étroit, native: { nl: smal, en: "narrow" }, pos: adjective }
+  - { target: profond, native: { nl: diep, en: "deep" }, pos: adjective }
+  - { target: rond, native: { nl: rond, en: "round" }, pos: adjective }
+  - { target: carré, native: { nl: vierkant, en: "square" }, pos: adjective }
+  - { target: clair, native: { nl: licht (van kleur), en: "light (colour)" }, pos: adjective, avoid: [fr.leger] }
+  - { target: foncé, native: { nl: donker (van kleur), en: "dark (colour)" }, pos: adjective }
+  - { target: sombre, native: { nl: donker, en: "dark" }, pos: adjective, avoid: [fr.fonce] }
+  - { target: bruyant, native: { nl: lawaaierig, en: "noisy" }, pos: adjective, avoid: [fr.occupe] }
+  - { target: silencieux, native: { nl: stil, en: "silent, quiet" }, pos: adjective, avoid: [fr.calme] }
+sentences:
+  - { id: s01, target: "L'éléphant est énorme.", native: { nl: "De olifant is enorm.", en: "The elephant is huge." }, items: [fr.enorme] }
+  - { id: s02, target: "La fourmi est minuscule.", native: { nl: "De mier is piepklein.", en: "The ant is tiny." }, items: [fr.minuscule] }
+  - { id: s03, target: "La rivière est très large ici.", native: { nl: "De rivier is hier heel breed.", en: "The river is very wide here." }, items: [fr.large] }
+  - { id: s04, target: "Le chemin est étroit.", native: { nl: "Het pad is smal.", en: "The path is narrow." }, items: [fr.etroit] }
+  - { id: s05, target: "Attention, l'eau est profonde !", native: { nl: "Pas op, het water is diep!", en: "Careful, the water is deep!" }, items: [fr.profond] }
+  - { id: s06, target: "La Terre est ronde.", native: { nl: "De aarde is rond.", en: "The Earth is round." }, items: [fr.rond] }
+  - { id: s07, target: "Ma chambre est carrée.", native: { nl: "Mijn kamer is vierkant.", en: "My bedroom is square." }, items: [fr.carre] }
+  - { id: s08, target: "J'ai un pull bleu clair.", native: { nl: "Ik heb een lichtblauwe trui.", en: "I have a light blue jumper." }, items: [fr.clair] }
+  - { id: s09, target: "Il porte un pantalon vert foncé.", native: { nl: "Hij draagt een donkergroene broek.", en: "He's wearing dark green trousers." }, items: [fr.fonce] }
+  - { id: s10, target: "La grotte est sombre.", native: { nl: "De grot is donker.", en: "The cave is dark." }, items: [fr.sombre] }
+  - { id: s11, target: "La cantine est très bruyante.", native: { nl: "De kantine is heel lawaaierig.", en: "The canteen is very noisy." }, items: [fr.bruyant] }
+  - { id: s12, target: "La bibliothèque est silencieuse.", native: { nl: "De bibliotheek is stil.", en: "The library is quiet." }, items: [fr.silencieux] }
+lessons:
+  - { id: l01, title: { nl: Breed en smal, en: "Wide and narrow" }, vocab: [fr.enorme, fr.minuscule, fr.large, fr.etroit, fr.profond, fr.rond] }
+  - { id: l02, title: { nl: Licht en donker, en: "Light and dark" }, vocab: [fr.carre, fr.clair, fr.fonce, fr.sombre, fr.bruyant, fr.silencieux] }

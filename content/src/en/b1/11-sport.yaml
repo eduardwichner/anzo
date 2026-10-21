@@ -1,0 +1,178 @@
+id: en-b1-u11
+title: { nl: Sport en conditie }
+icon: sport
+topic: Sports, competitions and keeping fit; present perfect with just, already and yet, superlatives
+vocabulary:
+  - { target: athletics, native: { nl: atletiek }, pos: noun }
+  - { target: athlete, native: { nl: atleet }, pos: noun }
+  - { target: runner, native: { nl: hardloper }, pos: noun }
+  - { target: running, native: { nl: hardlopen }, pos: noun }
+  - { target: jog, native: { nl: joggen }, pos: verb }
+  - { target: jogging, native: { nl: het joggen }, pos: noun }
+  - { target: high jump, native: { nl: hoogspringen }, pos: noun, avoid: [en.long-jump] }
+  - { target: long jump, native: { nl: verspringen }, pos: noun }
+  - { target: track, native: { nl: "(atletiek)baan" }, pos: noun }
+  - { target: gymnastics, native: { nl: turnen }, pos: noun }
+  - { target: yoga, native: { nl: yoga }, pos: noun }
+  - { target: boxing, native: { nl: boksen }, pos: noun }
+  - { target: cricket, native: { nl: cricket }, pos: noun }
+  - { target: rugby, native: { nl: rugby }, pos: noun }
+  - { target: squash, native: { nl: squash }, pos: noun }
+  - { target: ice hockey, native: { nl: ijshockey }, pos: noun }
+  - { target: skating, native: { nl: schaatsen (het schaatsen) }, pos: noun }
+  - { target: skiing, native: { nl: skiën }, pos: noun }
+  - { target: motor-racing, native: { nl: autoracen }, pos: noun }
+  - { target: cycling, native: { nl: wielrennen }, pos: noun }
+  - { target: extreme sport, native: { nl: extreme sport }, pos: noun }
+  - { target: swimming, native: { nl: zwemmen (het zwemmen) }, pos: noun }
+  - { target: swimmer, native: { nl: zwemmer }, pos: noun }
+  - { target: swimming costume, native: { nl: badpak }, pos: noun, avoid: [en.bathing-suit] }
+  - { target: diving, native: { nl: het duiken }, pos: noun }
+  - { target: dive, native: { nl: duiken }, pos: verb }
+  - { target: diver, native: { nl: duiker }, pos: noun }
+  - { target: underwater, native: { nl: onder water }, pos: adjective }
+  - { target: surf, native: { nl: surfen }, pos: verb }
+  - { target: surfing, native: { nl: het surfen }, pos: noun }
+  - { target: surfboard, native: { nl: surfplank }, pos: noun }
+  - { target: windsurfing, native: { nl: windsurfen }, pos: noun }
+  - { target: wetsuit, native: { nl: wetsuit }, pos: noun }
+  - { target: footballer, native: { nl: voetballer }, pos: noun, avoid: [en.football-player], noBlank: true }
+  - { target: football player, native: { nl: voetbalspeler }, pos: noun, avoid: [en.footballer] }
+  - { target: goalkeeper, native: { nl: "doelman, keeper" }, pos: noun }
+  - { target: keeper, native: { nl: "keeper, doelman" }, pos: noun }
+  - { target: captain, native: { nl: aanvoerder }, pos: noun }
+  - { target: coach, native: { nl: "coach, trainer" }, pos: noun }
+  - { target: trainer, native: { nl: "sportschoen, gymp" }, pos: noun }
+  - { target: instructor, native: { nl: instructeur }, pos: noun }
+  - { target: pitch, native: { nl: (voetbal)veld }, pos: noun }
+  - { target: racket, native: { nl: racket }, pos: noun }
+  - { target: equipment, native: { nl: uitrusting }, pos: noun }
+  - { target: kit, native: { nl: "sporttenue, uitrusting" }, pos: noun }
+  - { target: tracksuit, native: { nl: trainingspak }, pos: noun }
+  - { target: changing room, native: { nl: kleedkamer }, pos: noun }
+  - { target: locker, native: { nl: kluisje }, pos: noun }
+  - { target: league, native: { nl: competitie (bv. voetbalcompetitie) }, pos: noun }
+  - { target: season, native: { nl: seizoen }, pos: noun }
+  - { target: tournament, native: { nl: toernooi }, pos: noun }
+  - { target: championship, native: { nl: kampioenschap }, pos: noun }
+  - { target: champion, native: { nl: kampioen }, pos: noun }
+  - { target: contest, native: { nl: wedstrijd (bv. danswedstrijd) }, pos: noun }
+  - { target: final, native: { nl: finale }, pos: noun }
+  - { target: versus, native: { nl: "tegen (in een wedstrijd)" }, pos: preposition, avoid: [en.against], noBlank: true }
+  - { target: against, native: { nl: tegen }, pos: preposition, avoid: [en.versus] }
+  - { target: compete, native: { nl: meedoen (aan een wedstrijd) }, pos: verb }
+  - { target: competitor, native: { nl: deelnemer (aan een wedstrijd) }, pos: noun }
+  - { target: individual, native: { nl: individueel }, pos: adjective }
+  - { target: crowd, native: { nl: menigte }, pos: noun }
+  - { target: supporter, native: { nl: supporter }, pos: noun }
+  - { target: beat, native: { nl: verslaan }, pos: verb, avoid: [en.defeat], noBlank: true }
+  - { target: defeat, native: { nl: nederlaag }, pos: noun }
+  - { target: attack, native: { nl: aanvallen }, pos: verb }
+  - { target: defend, native: { nl: verdedigen }, pos: verb }
+  - { target: defence, native: { nl: verdediging }, pos: noun }
+  - { target: shoot, native: { nl: schieten (op doel) }, pos: verb }
+  - { target: fight, native: { nl: vechten }, pos: verb }
+  - { target: challenge, native: { nl: uitdaging }, pos: noun }
+  - { target: attempt, native: { nl: proberen (een poging doen) }, pos: verb }
+  - { target: give up, native: { nl: opgeven }, pos: phrase }
+  - { target: get down, native: { nl: "bukken, naar beneden gaan" }, pos: phrase }
+  - { target: luck, native: { nl: geluk (toeval) }, pos: noun }
+  - { target: unlucky, native: { nl: "pech hebbend, onfortuinlijk" }, pos: adjective }
+  - { target: technique, native: { nl: techniek }, pos: noun }
+  - { target: training, native: { nl: training }, pos: noun, avoid: [en.workout] }
+  - { target: session, native: { nl: sessie }, pos: noun }
+  - { target: exercise, native: { nl: "lichaamsbeweging; oefening" }, pos: noun }
+  - { target: workout, native: { nl: training (in de sportschool) }, pos: noun, avoid: [en.training] }
+  - { target: work out, native: { nl: sporten (trainen) }, pos: phrase }
+  - { target: fitness, native: { nl: conditie }, pos: noun }
+  - { target: fit, native: { nl: fit }, pos: adjective }
+  - { target: get fit, native: { nl: fit worden }, pos: phrase }
+  - { target: active, native: { nl: actief }, pos: adjective }
+  - { target: energy, native: { nl: energie }, pos: noun, avoid: [en.power] }
+  - { target: average, native: { nl: gemiddeld }, pos: adjective, avoid: [en.intermediate] }
+sentences:
+  - { id: s01, target: "Athletics is my favourite sport at school.", native: { nl: "Atletiek is mijn favoriete sport op school." }, items: [en.athletics] }
+  - { id: s02, target: "Athletes from more than two hundred countries took part.", native: { nl: "Atleten uit meer dan tweehonderd landen deden mee." }, items: [en.athlete], finite: { word: took, hint: { nl: "take (verleden tijd: … part)" } } }
+  - { id: s03, target: "She's the fastest runner in our club.", native: { nl: "Ze is de snelste hardloopster van onze club." }, items: [en.runner] }
+  - { id: s04, target: "Running is a cheap way to keep fit.", native: { nl: "Hardlopen is een goedkope manier om fit te blijven." }, items: [en.running, en.fit] }
+  - { id: s05, target: "My mum jogs in the park every morning.", native: { nl: "Mijn moeder joggt elke ochtend in het park." }, items: [en.jog] }
+  - { id: s06, target: "Jogging is good for your heart.", native: { nl: "Joggen is goed voor je hart." }, items: [en.jogging] }
+  - { id: s07, target: "He jumped two metres in the high jump.", native: { nl: "Hij sprong twee meter bij het hoogspringen." }, items: [en.high-jump] }
+  - { id: s08, target: "She won the long jump on sports day.", native: { nl: "Ze won het verspringen op de sportdag." }, items: [en.long-jump] }
+  - { id: s09, target: "We ran four times round the track.", native: { nl: "We liepen vier keer rond de baan." }, items: [en.track] }
+  - { id: s10, target: "My sister does gymnastics three times a week.", native: { nl: "Mijn zus turnt drie keer per week." }, items: [en.gymnastics] }
+  - { id: s11, target: "Yoga helps me to relax.", native: { nl: "Yoga helpt me om te ontspannen." }, items: [en.yoga] }
+  - { id: s12, target: "My uncle watches boxing on TV.", native: { nl: "Mijn oom kijkt naar boksen op tv." }, items: [en.boxing] }
+  - { id: s13, target: "Cricket is very popular in England and India.", native: { nl: "Cricket is erg populair in Engeland en India." }, items: [en.cricket] }
+  - { id: s14, target: "Rugby players are big and strong.", native: { nl: "Rugbyspelers zijn groot en sterk." }, items: [en.rugby] }
+  - { id: s15, target: "You need a small ball and a racket to play squash.", native: { nl: "Je hebt een klein balletje en een racket nodig om squash te spelen." }, items: [en.squash, en.racket] }
+  - { id: s16, target: "Ice hockey is a very fast game.", native: { nl: "IJshockey is een heel snel spel." }, items: [en.ice-hockey] }
+  - { id: s17, target: "In winter we go skating on the lake.", native: { nl: "In de winter gaan we schaatsen op het meer." }, items: [en.skating] }
+  - { id: s18, target: "We're going skiing in the Alps this year.", native: { nl: "We gaan dit jaar skiën in de Alpen." }, items: [en.skiing] }
+  - { id: s19, target: "Motor-racing is exciting but dangerous.", native: { nl: "Autoracen is spannend maar gevaarlijk." }, items: [en.motor-racing] }
+  - { id: s20, target: "Cycling is a popular sport in the Netherlands.", native: { nl: "Wielrennen is een populaire sport in Nederland." }, items: [en.cycling], acceptAlso: ["In the Netherlands cycling is a popular sport."] }
+  - { id: s21, target: "Climbing without ropes is an extreme sport.", native: { nl: "Klimmen zonder touwen is een extreme sport." }, items: [en.extreme-sport] }
+  - { id: s22, target: "Swimming is good exercise for the whole body.", native: { nl: "Zwemmen is goede lichaamsbeweging voor het hele lichaam." }, items: [en.swimming, en.exercise] }
+  - { id: s23, target: "She's a strong swimmer.", native: { nl: "Ze is een sterke zwemster." }, items: [en.swimmer] }
+  - { id: s24, target: "Don't forget your swimming costume and a towel.", native: { nl: "Vergeet je badpak en een handdoek niet." }, items: [en.swimming-costume] }
+  - { id: s25, target: "We went diving and saw lots of fish.", native: { nl: "We gingen duiken en zagen veel vissen." }, items: [en.diving] }
+  - { id: s26, target: "He dived into the pool.", native: { nl: "Hij dook het zwembad in." }, items: [en.dive], finite: { word: dived, hint: { nl: "dive (verleden tijd)" } } }
+  - { id: s27, target: "The divers found an old ship at the bottom of the sea.", native: { nl: "De duikers vonden een oud schip op de zeebodem." }, items: [en.diver] }
+  - { id: s28, target: "We took underwater photos with a special camera.", native: { nl: "We maakten onderwaterfoto's met een speciale camera." }, items: [en.underwater] }
+  - { id: s29, target: "I'd love to learn to surf.", native: { nl: "Ik zou graag leren surfen." }, items: [en.surf] }
+  - { id: s30, target: "Surfing is popular in Cornwall.", native: { nl: "Surfen is populair in Cornwall." }, items: [en.surfing], acceptAlso: ["In Cornwall surfing is popular."] }
+  - { id: s31, target: "He carried his surfboard down to the beach.", native: { nl: "Hij droeg zijn surfplank naar het strand." }, items: [en.surfboard] }
+  - { id: s32, target: "You need a lot of wind for windsurfing.", native: { nl: "Je hebt veel wind nodig om te windsurfen." }, items: [en.windsurfing] }
+  - { id: s33, target: "The water is cold, so wear a wetsuit.", native: { nl: "Het water is koud, dus draag een wetsuit." }, items: [en.wetsuit] }
+  - { id: s34, target: "He wants to be a professional footballer.", native: { nl: "Hij wil profvoetballer worden." }, items: [en.footballer] }
+  - { id: s35, target: "Every football player in the team is under sixteen.", native: { nl: "Elke voetbalspeler in het team is onder de zestien." }, items: [en.football-player] }
+  - { id: s36, target: "The goalkeeper caught the ball.", native: { nl: "De doelman ving de bal." }, items: [en.goalkeeper], finite: { word: caught, hint: { nl: "catch (verleden tijd)" } } }
+  - { id: s37, target: "Our keeper saved three hard kicks at goal.", native: { nl: "Onze keeper hield drie harde schoten op doel tegen." }, items: [en.keeper] }
+  - { id: s38, target: "Emma is the captain of the hockey team.", native: { nl: "Emma is de aanvoerder van het hockeyteam." }, items: [en.captain] }
+  - { id: s39, target: "Our coach makes us run before every match.", native: { nl: "Onze coach laat ons voor elke wedstrijd hardlopen." }, items: [en.coach] }
+  - { id: s40, target: "I need new trainers for running.", native: { nl: "Ik heb nieuwe sportschoenen nodig om te lopen." }, items: [en.trainer] }
+  - { id: s41, target: "My swimming instructor is very patient.", native: { nl: "Mijn zweminstructeur is heel geduldig." }, items: [en.instructor] }
+  - { id: s42, target: "The players are coming onto the pitch.", native: { nl: "De spelers komen het veld op." }, items: [en.pitch] }
+  - { id: s43, target: "You can hire all the equipment at the sports centre.", native: { nl: "Je kunt de hele uitrusting huren in het sportcentrum." }, items: [en.equipment] }
+  - { id: s44, target: "I forgot my sports kit again!", native: { nl: "Ik ben mijn gymspullen weer vergeten!" }, items: [en.kit] }
+  - { id: s45, target: "He wore a blue tracksuit to training.", native: { nl: "Hij droeg een blauw trainingspak naar de training." }, items: [en.tracksuit, en.training] }
+  - { id: s46, target: "The changing rooms are next to the pool.", native: { nl: "De kleedkamers zijn naast het zwembad." }, items: [en.changing-room] }
+  - { id: s47, target: "Put your bag in a locker.", native: { nl: "Leg je tas in een kluisje." }, items: [en.locker] }
+  - { id: s48, target: "Our team is top of the league.", native: { nl: "Ons team staat bovenaan in de competitie." }, items: [en.league] }
+  - { id: s49, target: "The football season starts in August.", native: { nl: "Het voetbalseizoen begint in augustus." }, items: [en.season] }
+  - { id: s50, target: "We've just won the school tennis tournament!", native: { nl: "We hebben net het tennistoernooi van school gewonnen!" }, items: [en.tournament] }
+  - { id: s51, target: "She won the world championship in 2022.", native: { nl: "Ze won in 2022 het wereldkampioenschap." }, items: [en.championship] }
+  - { id: s52, target: "He became champion at the age of nineteen.", native: { nl: "Hij werd kampioen op negentienjarige leeftijd." }, items: [en.champion], finite: { word: became, hint: { nl: "become (verleden tijd)" } } }
+  - { id: s53, target: "I entered a dance contest.", native: { nl: "Ik deed mee aan een danswedstrijd." }, items: [en.contest] }
+  - { id: s54, target: "Have you got tickets for the final yet?", native: { nl: "Heb je al kaartjes voor de finale?" }, items: [en.final] }
+  - { id: s55, target: "Tonight it's Manchester versus Liverpool.", native: { nl: "Vanavond is het Manchester tegen Liverpool." }, items: [en.versus], acceptAlso: ["It's Manchester versus Liverpool tonight."] }
+  - { id: s56, target: "Who are we playing against on Saturday?", native: { nl: "Tegen wie spelen we zaterdag?" }, items: [en.against] }
+  - { id: s57, target: "Thirty teams will compete in the tournament.", native: { nl: "Dertig teams doen mee aan het toernooi." }, items: [en.compete] }
+  - { id: s58, target: "There were fifty competitors in the race.", native: { nl: "Er waren vijftig deelnemers aan de race." }, items: [en.competitor] }
+  - { id: s59, target: "Tennis is an individual sport.", native: { nl: "Tennis is een individuele sport." }, items: [en.individual] }
+  - { id: s60, target: "A huge crowd watched the match.", native: { nl: "Een enorm publiek keek naar de wedstrijd." }, items: [en.crowd] }
+  - { id: s61, target: "The supporters sang all through the game.", native: { nl: "De supporters zongen de hele wedstrijd door." }, items: [en.supporter] }
+  - { id: s62, target: "We beat the best team in the league.", native: { nl: "We versloegen het beste team van de competitie." }, items: [en.beat] }
+  - { id: s63, target: "After three defeats, the team finally won.", native: { nl: "Na drie nederlagen won het team eindelijk." }, items: [en.defeat], acceptAlso: ["The team finally won after three defeats."] }
+  - { id: s64, target: "Our team attacked for the whole second half.", native: { nl: "Ons team viel de hele tweede helft aan." }, items: [en.attack] }
+  - { id: s65, target: "It's hard to defend against such fast players.", native: { nl: "Het is moeilijk om te verdedigen tegen zulke snelle spelers." }, items: [en.defend] }
+  - { id: s66, target: "Our defence was very strong today.", native: { nl: "Onze verdediging was vandaag heel sterk." }, items: [en.defence] }
+  - { id: s67, target: "He shot at the goal, but he missed.", native: { nl: "Hij schoot op het doel, maar hij miste." }, items: [en.shoot], finite: { word: shot, hint: { nl: "shoot (verleden tijd)" } } }
+  - { id: s68, target: "The two players started to fight, so the game was stopped.", native: { nl: "De twee spelers begonnen te vechten, dus de wedstrijd werd stilgelegd." }, items: [en.fight] }
+  - { id: s69, target: "Climbing the mountain was a real challenge.", native: { nl: "De berg beklimmen was een echte uitdaging." }, items: [en.challenge] }
+  - { id: s70, target: "She attempted to break the world record.", native: { nl: "Ze probeerde het wereldrecord te verbreken." }, items: [en.attempt] }
+  - { id: s71, target: "Don't give up! You're nearly there.", native: { nl: "Geef niet op! Je bent er bijna." }, items: [en.give-up] }
+  - { id: s72, target: "Get down! The ball is coming this way.", native: { nl: "Bukken! De bal komt deze kant op." }, items: [en.get-down] }
+  - { id: s73, target: "Good luck in the race tomorrow!", native: { nl: "Succes bij de race morgen!" }, items: [en.luck] }
+  - { id: s74, target: "We were unlucky to lose in the last minute.", native: { nl: "We hadden pech dat we in de laatste minuut verloren." }, items: [en.unlucky] }
+  - { id: s75, target: "Good technique is more important than size.", native: { nl: "Een goede techniek is belangrijker dan lengte." }, items: [en.technique] }
+  - { id: s76, target: "We have a training session every Wednesday.", native: { nl: "We hebben elke woensdag training." }, items: [en.session] }
+  - { id: s77, target: "I had a hard workout at the gym.", native: { nl: "Ik had een zware training in de sportschool." }, items: [en.workout] }
+  - { id: s78, target: "My brother works out three times a week.", native: { nl: "Mijn broer sport drie keer per week." }, items: [en.work-out] }
+  - { id: s79, target: "Swimming is great for your fitness.", native: { nl: "Zwemmen is geweldig voor je conditie." }, items: [en.fitness] }
+  - { id: s80, target: "I want to get fit before the summer.", native: { nl: "Ik wil fit worden voor de zomer." }, items: [en.get-fit] }
+  - { id: s81, target: "My grandparents are still very active.", native: { nl: "Mijn grootouders zijn nog heel actief." }, items: [en.active] }
+  - { id: s82, target: "Team sports take a lot of time and energy.", native: { nl: "Teamsporten kosten veel tijd en energie." }, items: [en.energy] }
+  - { id: s83, target: "The average age of the players is nineteen.", native: { nl: "De gemiddelde leeftijd van de spelers is negentien." }, items: [en.average] }
+  - { id: s84, target: "Has the training session started yet? Yes, it has just started.", native: { nl: "Is de trainingssessie al begonnen? Ja, ze is net begonnen." }, items: [en.session, en.training] }
+texts: [en-b1-t12]

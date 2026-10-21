@@ -1,0 +1,51 @@
+id: nl-b2-work-u03
+title: { en: Formal e-mails }
+icon: mail
+topic: Writing to a manager, a client or a supplier — the opening, the reason, the request, the close; formal register and fixed formulas (naar aanleiding van, met betrekking tot, in bijlage)
+vocabulary:
+  - { target: de aanhef, native: { en: "salutation, opening (of a letter)" }, pos: noun, plural: "-" }
+  - { target: de afsluiting, native: { en: "close, ending (of a letter)" }, pos: noun, plural: afsluitingen }
+  - { target: de afzender, native: { en: sender }, pos: noun, plural: afzenders }
+  - { target: de aanspreekvorm, native: { en: "form of address" }, pos: noun, plural: aanspreekvormen }
+  - { target: de toon, native: { en: tone }, pos: noun, plural: tonen }
+  - { target: de aanleiding, native: { en: "reason, occasion (naar aanleiding van: following, in response to)" }, pos: noun, plural: aanleidingen }
+  - { target: de betrekking, native: { en: "(met betrekking tot: concerning, with regard to); post, job" }, pos: noun, plural: "-" }
+  - { target: in bijlage, native: { en: "attached (Belgian: in bijlage vindt u …)" }, pos: phrase, alsoNL: bijgevoegd }
+  - { target: de ontvangst, native: { en: "receipt (the fact of receiving)" }, pos: noun, plural: "-" }
+  - { target: inzake, native: { en: "regarding, concerning (formal)" }, pos: preposition, noBlank: true }
+  - { target: geacht, native: { en: "dear (Geachte mevrouw: Dear Madam; formal)" }, pos: adjective }
+  - { target: gepast, native: { en: "appropriate, suitable" }, pos: adjective }
+  - { target: zakelijk, native: { en: "business-like, professional; business" }, pos: adjective }
+  - { target: informeel, native: { en: informal }, pos: adjective }
+  - { target: beknopt, native: { en: "concise, brief" }, pos: adjective }
+  - { target: rapporteren, native: { en: "to report (+ aan: to)" }, pos: verb }
+sentences:
+  - { id: s01, target: "Een formele e-mail begint met een gepaste aanhef.", native: { en: "A formal e-mail begins with an appropriate salutation." }, items: [nl.aanhef, nl.gepast] }
+  - { id: s02, target: "In de afsluiting bedank je de lezer voor zijn tijd.", native: { en: "In the close you thank the reader for their time." }, items: [nl.afsluiting], form: { word: lezer, stem: lezen } }
+  - { id: s03, target: "De naam van de afzender staat onder de e-mail.", native: { en: "The sender's name is at the bottom of the e-mail." }, items: [nl.afzender] }
+  - { id: s04, target: "Kies de juiste aanspreekvorm: u of je.", native: { en: "Choose the right form of address: u or je." }, items: [nl.aanspreekvorm] }
+  - { id: s05, target: "De toon van haar e-mail was niet erg vriendelijk.", native: { en: "The tone of her e-mail was not very friendly." }, items: [nl.toon] }
+  - { id: s06, target: "Naar aanleiding van ons gesprek stuur ik u het voorstel.", native: { en: "Following our conversation I am sending you the proposal." }, items: [nl.aanleiding] }
+  - { id: s07, target: "Met betrekking tot uw vraag kan ik het volgende zeggen.", native: { en: "With regard to your question I can say the following." }, items: [nl.betrekking], acceptAlso: ["Ik kan met betrekking tot uw vraag het volgende zeggen.", "Ik kan het volgende zeggen met betrekking tot uw vraag."] }
+  - { id: s08, target: "In bijlage vindt u de factuur van vorige maand.", native: { en: "Please find attached last month's invoice." }, items: [nl.in-bijlage] }
+  - { id: s09, target: "Wij bevestigen de ontvangst van uw bestelling.", native: { en: "We confirm receipt of your order." }, items: [nl.ontvangst], form: { word: ontvangst, stem: ontvangen } }
+  - { id: s10, target: "Ik schrijf u inzake de levering van 12 maart.", native: { en: "I am writing to you regarding the delivery of 12 March." }, items: [nl.inzake] }
+  - { id: s11, target: "Geachte mevrouw Janssens, hartelijk dank voor uw snelle antwoord.", native: { en: "Dear Ms Janssens, thank you very much for your quick reply." }, items: [nl.geacht] }
+  - { id: s12, target: "Een zakelijke e-mail is duidelijk en beleefd.", native: { en: "A business e-mail is clear and polite." }, items: [nl.zakelijk] }
+  - { id: s13, target: "Met collega's mag je wat informeler schrijven.", native: { en: "With colleagues you can write a bit more informally." }, items: [nl.informeel], acceptAlso: ["Je mag met collega's wat informeler schrijven."] }
+  - { id: s14, target: "Hou je e-mail beknopt: niemand leest graag een lange tekst.", native: { en: "Keep your e-mail concise: nobody likes reading a long text." }, items: [nl.beknopt], acceptAlso: ["Hou je e-mail beknopt: een lange tekst leest niemand graag."] }
+  - { id: s15, target: "Ze rapporteert elke week aan de directeur.", native: { en: "She reports to the director every week." }, items: [nl.rapporteren], finite: { word: rapporteert, hint: { en: "rapporteren (present)" } } }
+  - { id: s16, target: "Ik verwacht een beknopt antwoord voor vrijdag.", native: { en: "I expect a brief answer before Friday." }, items: [nl.beknopt], acceptAlso: ["Voor vrijdag verwacht ik een beknopt antwoord.", "Ik verwacht voor vrijdag een beknopt antwoord."] }
+  - { id: s17, target: "Zou u de ontvangst van de levering kunnen bevestigen?", native: { en: "Could you confirm receipt of the delivery?" }, items: [nl.ontvangst], build: true }
+  - { id: s18, target: "Ik zou een gepast antwoord op prijs stellen.", native: { en: "I would appreciate an appropriate reply." }, items: [nl.gepast] }
+  - { id: s19, target: "Als afsluiting schrijf je vaak: \"Mocht u nog vragen hebben, bel mij gerust.\"", native: { en: "As a close you often write: \"Should you have any questions, feel free to call me.\"" }, items: [nl.afsluiting] }
+  - { id: s20, target: "\"Met vriendelijke groeten\" is de gewone afsluiting van een zakelijke e-mail.", native: { en: "\"Kind regards\" is the usual close of a business e-mail." }, items: [nl.afsluiting, nl.zakelijk] }
+  - { id: s21, target: "Het was een heel gepaste reactie.", native: { en: "It was a very appropriate reaction." }, items: [nl.gepast] }
+  - { id: s24, target: "Wij verwachten een gepaste reactie van de leverancier.", native: { en: "We expect an appropriate response from the supplier." }, items: [nl.gepast], form: { word: reactie, stem: reageren } }
+  - { id: s22, target: "Na ontvangst van de bestelling betaalt u binnen dertig dagen.", native: { en: "After receipt of the order you pay within thirty days." }, items: [nl.ontvangst] }
+  - { id: s23, target: "Ik vind dat een heel informele toon.", native: { en: "I think that is a very informal tone." }, items: [nl.informeel] }
+transforms:
+  - { id: x01, from: "Ik schrijf u omdat we vorige week een gesprek hadden.", key: aanleiding, gapped: "Ik schrijf u ___ ons gesprek van vorige week.", answers: ["naar aanleiding van"], items: [nl.aanleiding] }
+  - { id: x02, from: "Ik heb een vraag over uw factuur.", key: betrekking, gapped: "Ik heb een vraag ___ uw factuur.", answers: ["met betrekking tot"], items: [nl.betrekking] }
+  - { id: x03, from: "Als u de ontvangst niet kunt bevestigen, kunt u ons bellen.", key: Mocht, gapped: "___ de ontvangst niet kunnen bevestigen, dan kunt u ons bellen.", answers: ["Mocht u"], items: [nl.ontvangst] }
+texts: [nl-b2-work-t03]

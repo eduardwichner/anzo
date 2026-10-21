@@ -1,0 +1,35 @@
+id: fr-a1-u20
+title: { nl: Zoeken en vinden, en: "Looking and finding" }
+icon: actions
+topic: Les verbes du quotidien
+vocabulary:
+  - { target: acheter, native: { nl: kopen, en: "to buy" }, pos: verb }
+  - { target: payer, native: { nl: betalen, en: "to pay" }, pos: verb }
+  - { target: chercher, native: { nl: "zoeken, ophalen", en: "to look for, to fetch, to pick up (someone)" }, pos: verb }
+  - { target: trouver, native: { nl: vinden, en: "to find" }, pos: verb }
+  - { target: perdre, native: { nl: "verliezen, kwijtraken", en: "to lose" }, pos: verb }
+  - { target: oublier, native: { nl: vergeten, en: "to forget" }, pos: verb }
+  - { target: attendre, native: { nl: wachten, en: "to wait (for)" }, pos: verb }
+  - { target: savoir, native: { nl: "weten, kunnen", en: "to know (a fact), to know how to" }, pos: verb, avoid: [fr.pouvoir, fr.connaitre] }
+  - { target: partir, native: { nl: "vertrekken, weggaan", en: "to leave, to go away" }, pos: verb }
+  - { target: sortir, native: { nl: "uitgaan, naar buiten gaan", en: "to go out" }, pos: verb }
+sentences:
+  - { id: s01, target: "Où est-ce que vous achetez du jus de pomme ?", native: { nl: "Waar kopen jullie appelsap?", en: "Where do you buy apple juice?" }, items: [fr.acheter] }
+  - { id: s02, target: "J'achète un cadeau pour Rose.", native: { nl: "Ik koop een cadeau voor Rose.", en: "I'm buying a present for Rose." }, items: [fr.acheter] }
+  - { id: s03, target: "Papa paie au supermarché.", native: { nl: "Papa betaalt in de supermarkt.", en: "Dad pays at the supermarket." }, items: [fr.payer], acceptAlso: ["Papa paye au supermarché."] }
+  - { id: s04, target: "Qu'est-ce que tu cherches ?", native: { nl: "Wat zoek je?", en: "What are you looking for?" }, items: [fr.chercher] }
+  - { id: s05, target: "On vient te chercher à neuf heures.", native: { nl: "We komen je om negen uur ophalen.", en: "We're coming to pick you up at nine o'clock." }, items: [fr.chercher] }
+  - { id: s06, target: "Je ne trouve pas mon stylo.", native: { nl: "Ik kan mijn pen niet vinden.", en: "I can't find my pen." }, items: [fr.trouver] }
+  - { id: s07, target: "Mon frère perd toujours ses clés.", native: { nl: "Mijn broer raakt altijd zijn sleutels kwijt.", en: "My brother is always losing his keys." }, items: [fr.perdre] }
+  - { id: s08, target: "N'oublie pas ton sac !", native: { nl: "Vergeet je tas niet!", en: "Don't forget your bag!" }, items: [fr.oublier] }
+  - { id: s09, target: "J'attends le bus.", native: { nl: "Ik wacht op de bus.", en: "I'm waiting for the bus." }, items: [fr.attendre] }
+  - { id: s10, target: "Tu sais nager ?", native: { nl: "Kun je zwemmen?", en: "Can you swim?" }, items: [fr.savoir] }
+  - { id: s11, target: "Je ne sais pas.", native: { nl: "Ik weet het niet.", en: "I don't know." }, items: [fr.savoir] }
+  - { id: s12, target: "Le train part à huit heures.", native: { nl: "De trein vertrekt om acht uur.", en: "The train leaves at eight o'clock." }, items: [fr.partir] }
+  - { id: s13, target: "Ce soir, on sort manger une pizza.", native: { nl: "Vanavond gaan we buiten de deur een pizza eten.", en: "Tonight we're going out to eat a pizza." }, items: [fr.sortir] }
+  - { id: s14, target: "Tu veux sortir ?", native: { nl: "Wil je naar buiten?", en: "Do you want to go out?" }, items: [fr.sortir] }
+  - { id: s15, target: "Tu peux attendre ?", native: { nl: "Kun je wachten?", en: "Can you wait?" }, items: [fr.attendre] }
+  - { id: s16, target: "Il faut partir.", native: { nl: "We moeten gaan.", en: "We have to leave." }, items: [fr.partir] }
+lessons:
+  - { id: l01, title: { nl: Kopen en betalen, en: "Buying and paying" }, vocab: [fr.acheter, fr.payer, fr.chercher, fr.trouver, fr.perdre] }
+  - { id: l02, title: { nl: Vergeet je tas niet!, en: "Don't forget your bag!" }, vocab: [fr.oublier, fr.attendre, fr.savoir, fr.partir, fr.sortir] }

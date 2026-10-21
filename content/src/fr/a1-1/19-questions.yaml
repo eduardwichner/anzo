@@ -1,0 +1,43 @@
+id: fr-a1-1-u19
+title: { nl: Vragen en kleine woorden, en: "Questions and little words" }
+icon: questions
+topic: Poser des questions; les petits mots
+vocabulary:
+  - { target: comment, native: { nl: hoe, en: "how" }, pos: question }
+  - { target: où, native: { nl: waar, en: "where" }, pos: question }
+  - { target: pourquoi, native: { nl: waarom, en: "why" }, pos: question }
+  - { target: quand, native: { nl: wanneer, en: "when" }, pos: question }
+  - { target: combien, native: { nl: hoeveel, en: "how many, how much" }, pos: question }
+  - { target: "qu'est-ce que", native: { nl: wat, en: "what" }, pos: question }
+  - { target: est-ce que, native: { nl: (maakt er een vraag van), en: "(turns a sentence into a question)" }, pos: question }
+  - { target: qui, native: { nl: wie, en: "who" }, pos: question }
+  - { target: quoi, native: { nl: wat (achteraan of na een voorzetsel), en: "what (at the end or after a preposition)" }, pos: question, avoid: [fr.qu-est-ce-que] }
+  - { target: quel, native: { nl: "welk, welke", en: "which, what (before a noun)" }, pos: question }
+  - { target: et, native: { nl: en, en: "and" }, pos: conjunction }
+  - { id: fr.ou-conj, target: ou, native: { nl: of, en: "or" }, pos: conjunction, avoid: [fr.ou] }
+  - { target: aussi, native: { nl: ook, en: "also, too" }, pos: adverb }
+  - { target: il faut, native: { nl: "je moet, het moet", en: "you have to, it is necessary" }, pos: phrase, avoid: [fr.devoir] }
+  - { target: bientôt, native: { nl: binnenkort, en: "soon" }, pos: adverb }
+sentences:
+  - { id: s01, target: "Comment va ta maman ?", native: { nl: "Hoe gaat het met je mama?", en: "How's your mum?" }, items: [fr.comment] }
+  - { id: s02, target: "Où est maman ?", native: { nl: "Waar is mama?", en: "Where's Mum?" }, items: [fr.ou] }
+  - { id: s03, target: "Où est mon stylo ?", native: { nl: "Waar is mijn pen?", en: "Where's my pen?" }, items: [fr.ou] }
+  - { id: s04, target: "Tu es triste ? Pourquoi ?", native: { nl: "Ben je verdrietig? Waarom?", en: "Are you sad? Why?" }, items: [fr.pourquoi] }
+  - { id: s05, target: "Tu viens quand ?", native: { nl: "Wanneer kom je?", en: "When are you coming?" }, items: [fr.quand] }
+  - { id: s06, target: "Combien de frères tu as ?", native: { nl: "Hoeveel broers heb jij?", en: "How many brothers have you got?" }, items: [fr.combien] }
+  - { id: s07, target: "Qu'est-ce que tu manges ?", native: { nl: "Wat eet jij?", en: "What are you eating?" }, items: [fr.qu-est-ce-que] }
+  - { id: s08, target: "Est-ce que tu as un chien ?", native: { nl: "Heb jij een hond?", en: "Have you got a dog?" }, items: [fr.est-ce-que] }
+  - { id: s09, target: "Où est-ce que tu habites ?", native: { nl: "Waar woon jij?", en: "Where do you live?" }, items: [fr.est-ce-que, fr.ou] }
+  - { id: s10, target: "Et lui, c'est qui ?", native: { nl: "En wie is hij?", en: "And who's he?" }, items: [fr.qui] }
+  - { id: s11, target: "Tu fais quoi ?", native: { nl: "Wat doe je?", en: "What are you doing?" }, items: [fr.quoi] }
+  - { id: s12, target: "C'est quoi ?", native: { nl: "Wat is dat?", en: "What's that?" }, items: [fr.quoi] }
+  - { id: s13, target: "Quel livre tu préfères ?", native: { nl: "Welk boek vind jij het leukst?", en: "Which book do you prefer?" }, items: [fr.quel] }
+  - { id: s14, target: "Le chat et le chien jouent.", native: { nl: "De kat en de hond spelen.", en: "The cat and the dog are playing." }, items: [fr.et] }
+  - { id: s15, target: "Tu veux une pomme ou une banane ?", native: { nl: "Wil jij een appel of een banaan?", en: "Would you like an apple or a banana?" }, items: [fr.ou-conj] }
+  - { id: s16, target: "Moi aussi !", native: { nl: "Ik ook!", en: "Me too!" }, items: [fr.aussi] }
+  - { id: s17, target: "Ma sœur aime aussi les chats.", native: { nl: "Mijn zus houdt ook van katten.", en: "My sister likes cats too." }, items: [fr.aussi] }
+  - { id: s18, target: "Il faut écouter.", native: { nl: "Je moet luisteren.", en: "You have to listen." }, items: [fr.il-faut] }
+  - { id: s19, target: "Le bus arrive bientôt.", native: { nl: "De bus komt zo.", en: "The bus is coming soon." }, items: [fr.bientot] }
+lessons:
+  - { id: l01, title: { nl: Hoe en waar?, en: "How and where?" }, vocab: [fr.comment, fr.ou, fr.pourquoi, fr.quand, fr.combien, fr.qu-est-ce-que, fr.est-ce-que, fr.qui] }
+  - { id: l02, title: { nl: En of ook, en: "And, or, too" }, vocab: [fr.quoi, fr.quel, fr.et, fr.ou-conj, fr.aussi, fr.il-faut, fr.bientot] }

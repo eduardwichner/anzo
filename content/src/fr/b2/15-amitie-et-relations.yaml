@@ -1,0 +1,70 @@
+id: fr-b2-u15
+title: { nl: Vriendschap en relaties, en: "Friendship and relationships" }
+icon: people
+topic: L'amitié et la solitude, les relations dans la famille, les conflits et la réconciliation, la pression du groupe ; les doubles pronoms (je le lui dirai, il me l'a promis), y et en avec les verbes (je m'y habitue), avoir l'habitude de, s'habituer à
+vocabulary:
+  - { target: avoir l'habitude de, native: { nl: "gewoon zijn om, de gewoonte hebben om", en: "to be used to, to be in the habit of" }, pos: verb }
+  - { target: la solitude, native: { nl: "de eenzaamheid, het alleen zijn", en: "loneliness, solitude" }, pos: noun, gender: f, avoid: [fr.isolement] }
+  - { target: se sentir seul, native: { nl: "zich eenzaam voelen", en: "to feel lonely" }, pos: verb }
+  - { target: la timidité, native: { nl: de verlegenheid, en: "shyness" }, pos: noun, gender: f }
+  - { target: la confiance en soi, native: { nl: het zelfvertrouwen, en: "self-confidence" }, pos: noun, gender: f }
+  - { target: rejeter, native: { nl: "afwijzen, buitensluiten", en: "to reject, to exclude" }, pos: verb }
+  - { target: le rejet, native: { nl: de afwijzing, en: "rejection" }, pos: noun, gender: m }
+  - { target: le harcèlement, native: { nl: "het pesten, de pesterijen", en: "bullying, harassment" }, pos: noun, gender: m }
+  - { target: harceler, native: { nl: "pesten, lastigvallen", en: "to bully, to harass" }, pos: verb }
+  - { target: se moquer, native: { nl: "uitlachen, spotten (+ de: met)", en: "to make fun (+ de: of)" }, pos: verb }
+  - { target: la pression, native: { nl: de druk, en: "pressure" }, pos: noun, gender: f }
+  - { target: influencer, native: { nl: beïnvloeden, en: "to influence" }, pos: verb }
+  - { target: l'influence, native: { nl: de invloed, en: "influence" }, pos: noun, gender: f }
+  - { target: se réconcilier, native: { nl: "het weer goedmaken, zich verzoenen", en: "to be reconciled, to make it up" }, pos: verb }
+  - { target: les excuses, native: { nl: "de verontschuldigingen", en: "apology, apologies" }, pos: noun, gender: f }
+  - { target: la jalousie, native: { nl: de jaloezie, en: "jealousy" }, pos: noun, gender: f, noBlank: true }
+  - { target: trahir, native: { nl: verraden, en: "to betray" }, pos: verb }
+  - { target: se confier, native: { nl: "in vertrouwen nemen (+ à: iemand)", en: "to confide (+ à: in)" }, pos: verb }
+  - { target: le secret, native: { nl: het geheim, en: "secret" }, pos: noun, gender: m }
+  - { target: compter sur, native: { nl: "rekenen op", en: "to count on, to rely on" }, pos: verb }
+  - { target: le conflit, native: { nl: het conflict, en: "conflict" }, pos: noun, gender: m, noBlank: true }
+  - { target: le malentendu, native: { nl: het misverstand, en: "misunderstanding" }, pos: noun, gender: m }
+  - { target: la tension, native: { nl: de spanning, en: "tension" }, pos: noun, gender: f }
+  - { target: rompre, native: { nl: "het uitmaken, breken (+ avec: met)", en: "to break up (+ avec: with)" }, pos: verb }
+  - { target: la rupture, native: { nl: "de breuk, het uitmaken", en: "break-up, split" }, pos: noun, gender: f }
+  - { target: le demi-frère, native: { nl: de halfbroer, en: "half-brother" }, pos: noun, gender: m }
+  - { target: la famille recomposée, native: { nl: "het nieuw samengesteld gezin", en: "blended family, stepfamily" }, pos: noun, gender: f }
+  - { target: la belle-mère, native: { nl: "de stiefmoeder; de schoonmoeder", en: "stepmother; mother-in-law" }, pos: noun, gender: f }
+sentences:
+  - { id: s01, target: "J'ai l'habitude de prendre le bus avec mes amis.", native: { nl: "Ik ben gewoon om met mijn vrienden de bus te nemen.", en: "I'm in the habit of taking the bus with my friends." }, items: [fr.avoir-l-habitude-de] }
+  - { id: s02, target: "Il a l'habitude de se lever tôt.", native: { nl: "Hij is gewoon om vroeg op te staan.", en: "He's used to getting up early." }, items: [fr.avoir-l-habitude-de] }
+  - { id: s03, target: "Pendant les vacances, la solitude est difficile pour certains jeunes.", native: { nl: "In de vakantie is de eenzaamheid moeilijk voor sommige jongeren.", en: "During the holidays, loneliness is hard for some young people." }, items: [fr.solitude] }
+  - { id: s04, target: "Depuis son déménagement, elle se sent seule.", native: { nl: "Sinds haar verhuizing voelt ze zich eenzaam.", en: "Since she moved, she has felt lonely." }, items: [fr.se-sentir-seul] }
+  - { id: s05, target: "À cause de sa timidité, il parle peu en classe.", native: { nl: "Door zijn verlegenheid praat hij weinig in de klas.", en: "Because of his shyness, he speaks very little in class." }, items: [fr.timidite], acceptAlso: ["Il parle peu en classe à cause de sa timidité."] }
+  - { id: s06, target: "Le théâtre lui a donné plus de confiance en soi.", native: { nl: "Het toneel heeft hem meer zelfvertrouwen gegeven.", en: "Drama has given him more self-confidence." }, items: [fr.confiance-en-soi] }
+  - { id: s07, target: "Le groupe l'a rejeté parce qu'il était différent.", native: { nl: "De groep heeft hem buitengesloten omdat hij anders was.", en: "The group rejected him because he was different." }, items: [fr.rejeter] }
+  - { id: s08, target: "Il a peur du rejet, alors il ne dit rien.", native: { nl: "Hij is bang voor afwijzing, dus zegt hij niets.", en: "He's afraid of rejection, so he says nothing." }, items: [fr.rejet] }
+  - { id: s09, target: "L'école a un plan contre le harcèlement.", native: { nl: "De school heeft een plan tegen pesten.", en: "The school has a plan against bullying." }, items: [fr.harcelement] }
+  - { id: s10, target: "Ils la harcelaient sur les réseaux sociaux.", native: { nl: "Ze pestten haar op sociale media.", en: "They were bullying her on social networks." }, items: [fr.harceler] }
+  - { id: s11, target: "Arrête de te moquer de ton frère !", native: { nl: "Stop met je broer uit te lachen!", en: "Stop making fun of your brother!" }, items: [fr.se-moquer] }
+  - { id: s12, target: "Beaucoup d'ados sentent la pression du groupe.", native: { nl: "Veel tieners voelen de groepsdruk.", en: "Many teenagers feel peer pressure." }, items: [fr.pression] }
+  - { id: s13, target: "Ses amis influencent beaucoup ses choix.", native: { nl: "Zijn vrienden beïnvloeden zijn keuzes sterk.", en: "His friends strongly influence his choices." }, items: [fr.influencer], finite: { word: influencent, hint: { nl: "influencer (présent)", en: "influencer (present)" } } }
+  - { id: s14, target: "Les réseaux sociaux ont une grande influence sur les jeunes.", native: { nl: "Sociale media hebben een grote invloed op jongeren.", en: "Social networks have a big influence on young people." }, items: [fr.influence] }
+  - { id: s15, target: "Après une semaine sans se parler, ils se sont réconciliés.", native: { nl: "Na een week zonder met elkaar te praten, hebben ze het weer goedgemaakt.", en: "After a week without speaking to each other, they made it up." }, items: [fr.se-reconcilier] }
+  - { id: s16, target: "Il m'a fait des excuses, et je les ai acceptées.", native: { nl: "Hij heeft zich bij me verontschuldigd, en ik heb dat aanvaard.", en: "He apologised to me, and I accepted his apology." }, items: [fr.excuses] }
+  - { id: s17, target: "La jalousie peut faire du mal à une amitié.", native: { nl: "Jaloezie kan een vriendschap schaden.", en: "Jealousy can damage a friendship." }, items: [fr.jalousie] }
+  - { id: s18, target: "Elle a raconté le secret de son ami à tout le monde : elle l'a trahi.", native: { nl: "Ze heeft het geheim van haar vriend aan iedereen verteld: ze heeft hem verraden.", en: "She told everyone her friend's secret: she betrayed him." }, items: [fr.secret, fr.trahir] }
+  - { id: s19, target: "Je me confie surtout à ma grande sœur.", native: { nl: "Ik neem vooral mijn grote zus in vertrouwen.", en: "I mostly confide in my big sister." }, items: [fr.se-confier] }
+  - { id: s20, target: "Tu peux toujours compter sur moi.", native: { nl: "Je kunt altijd op mij rekenen.", en: "You can always count on me." }, items: [fr.compter-sur] }
+  - { id: s21, target: "Ils ont résolu le conflit en discutant.", native: { nl: "Ze hebben het conflict opgelost door te praten.", en: "They resolved the conflict by talking." }, items: [fr.conflit] }
+  - { id: s22, target: "Ce n'était qu'un malentendu : il n'avait pas reçu mon message.", native: { nl: "Het was maar een misverstand: hij had mijn bericht niet gekregen.", en: "It was only a misunderstanding: he hadn't got my message." }, items: [fr.malentendu] }
+  - { id: s23, target: "Il y a des tensions entre mon frère et mon père.", native: { nl: "Er zijn spanningen tussen mijn broer en mijn vader.", en: "There are tensions between my brother and my father." }, items: [fr.tension] }
+  - { id: s24, target: "Elle a rompu avec son copain la semaine dernière.", native: { nl: "Ze heeft vorige week met haar vriend gebroken.", en: "She broke up with her boyfriend last week." }, items: [fr.rompre], acceptAlso: ["La semaine dernière, elle a rompu avec son copain."] }
+  - { id: s25, target: "Après la rupture, il était très triste.", native: { nl: "Na de breuk was hij erg verdrietig.", en: "After the break-up, he was very sad." }, items: [fr.rupture] }
+  - { id: s26, target: "Mon demi-frère vit chez sa mère pendant la semaine.", native: { nl: "Mijn halfbroer woont tijdens de week bij zijn moeder.", en: "My half-brother lives at his mother's during the week." }, items: [fr.demi-frere] }
+  - { id: s27, target: "Dans notre famille recomposée, nous sommes six enfants.", native: { nl: "In ons nieuw samengesteld gezin zijn we met zes kinderen.", en: "In our blended family, there are six children, including me." }, items: [fr.famille-recomposee] }
+  - { id: s28, target: "Je m'entends bien avec ma belle-mère.", native: { nl: "Ik kan goed opschieten met mijn stiefmoeder.", en: "I get on well with my stepmother." }, items: [fr.belle-mere] }
+  - { id: s29, target: "Il me l'a promis, mais je ne peux plus compter sur lui.", native: { nl: "Hij heeft het me beloofd, maar ik kan niet meer op hem rekenen.", en: "He promised me, but I can't count on him any more." }, items: [fr.compter-sur], build: true }
+  - { id: s30, target: "J'en ai l'habitude.", native: { nl: "Ik ben het gewoon.", en: "I'm used to it." }, items: [fr.avoir-l-habitude-de], build: true }
+  - { id: s31, target: "Ce secret, je ne le lui dirai jamais.", native: { nl: "Dat geheim zal ik hem nooit vertellen.", en: "I'll never tell him that secret." }, items: [fr.secret], build: true }
+transforms:
+  - { id: x01, from: "Je vais raconter mon secret à Léa.", key: lui, gapped: "Je vais ___.", answers: ["le lui raconter"], items: [fr.secret], native: { en: "I'm going to tell it to her." } }
+  - { id: x02, from: "Elle se lève toujours tôt.", key: habituée, gapped: "Elle est ___ tôt.", answers: ["habituée à se lever"], items: [fr.avoir-l-habitude-de], native: { en: "She's used to getting up early." } }
+  - { id: x03, from: "Au début, sa nouvelle ville était difficile pour Hugo, mais maintenant ça va.", key: habitué, gapped: "Hugo ___ sa nouvelle ville.", answers: ["s'est habitué à", "est habitué à", "s'est bien habitué à"], items: [fr.avoir-l-habitude-de], native: { en: "Hugo has got used to his new town." } }
+texts: [fr-b2-t15]

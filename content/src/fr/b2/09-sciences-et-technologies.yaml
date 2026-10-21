@@ -1,0 +1,70 @@
+id: fr-b2-u09
+title: { nl: Uitvindingen en technologie, en: "Inventions and technology" }
+icon: tech
+topic: Inventions et inventeurs, appareils, intelligence artificielle, sécurité en ligne ; la voix passive à tous les temps (est testé, a été conçu, sera mis au point), le passif pronominal (se vendre) et « on » à la place du passif
+vocabulary:
+  - { target: le gadget, native: { nl: "het snufje, het handige apparaatje", en: "gadget" }, pos: noun, gender: m, noBlank: true }
+  - { target: le prototype, native: { nl: het prototype, en: "prototype" }, pos: noun, gender: m, noBlank: true }
+  - { target: ingénieux, native: { nl: "vernuftig, ingenieus", en: "ingenious, clever" }, pos: adjective }
+  - { target: l'innovation, native: { nl: "de vernieuwing, de innovatie", en: "innovation" }, pos: noun, gender: f }
+  - { target: innovant, native: { nl: "vernieuwend, innovatief", en: "innovative" }, pos: adjective }
+  - { target: le progrès, native: { nl: de vooruitgang, en: "progress" }, pos: noun, gender: m }
+  - { target: l'invention, native: { nl: de uitvinding, en: "invention" }, pos: noun, gender: f }
+  - { target: technologique, native: { nl: technologisch, en: "technological" }, pos: adjective, noBlank: true }
+  - { target: l'intelligence artificielle, native: { nl: "de artificiële intelligentie (AI)", en: "artificial intelligence (AI)" }, pos: noun, gender: f }
+  - { target: automatique, native: { nl: automatisch, en: "automatic" }, pos: adjective, noBlank: true }
+  - { target: sans fil, native: { nl: draadloos, en: "wireless, cordless" }, pos: adjective }
+  - { target: le brevet, native: { nl: "het octrooi, het patent", en: "patent" }, pos: noun, gender: m }
+  - { target: les données, native: { nl: de gegevens, en: "data" }, pos: noun, gender: f }
+  - { target: le pirate informatique, native: { nl: de hacker, en: "hacker" }, pos: noun, gender: m, typedAlso: { en: [hacker] } }
+  - { target: le piratage, native: { nl: "het hacken, de hack", en: "hacking, hack" }, pos: noun, gender: m }
+  - { target: mettre au point, native: { nl: "ontwikkelen, op punt stellen", en: "to develop, to fine-tune" }, pos: verb }
+  - { target: concevoir, native: { nl: ontwerpen, en: "to design" }, pos: verb }
+  - { target: tester, native: { nl: testen, en: "to test" }, pos: verb, noBlank: true }
+  - { target: l'essai, native: { nl: "de proef, de poging", en: "attempt, trial" }, pos: noun, gender: m }
+  - { target: le laboratoire, native: { nl: het laboratorium, en: "laboratory, lab" }, pos: noun, gender: m, noBlank: true }
+  - { target: le chercheur, native: { nl: de onderzoeker, en: "researcher" }, pos: noun, gender: m }
+  - { target: scientifique, native: { nl: "wetenschappelijk; de wetenschapper", en: "scientific; scientist" }, pos: adjective }
+  - { target: fonctionner, native: { nl: "werken (van een toestel)", en: "to work (of a machine)" }, pos: verb, noBlank: true }
+  - { target: la machine, native: { nl: de machine, en: "machine" }, pos: noun, gender: f, noBlank: true }
+  - { target: l'outil, native: { nl: "het gereedschap, het hulpmiddel", en: "tool" }, pos: noun, gender: m }
+  - { target: connecté, native: { nl: "verbonden met internet, slim (toestel)", en: "connected, smart (device)" }, pos: adjective }
+  - { target: électrique, native: { nl: elektrisch, en: "electric" }, pos: adjective, noBlank: true }
+  - { target: la chute, native: { nl: de val, en: "fall" }, pos: noun, gender: f }
+  - { target: étonnant, native: { nl: "verbazend, verrassend", en: "surprising, astonishing" }, pos: adjective, typedAlso: { en: [surprenant] } }
+sentences:
+  - { id: s01, target: "Cet appareil connecté mesure ton sommeil.", native: { nl: "Dit slimme toestel meet je slaap.", en: "This smart device measures your sleep." }, items: [fr.connecte] }
+  - { id: s02, target: "Il a acheté un nouveau gadget pour sa cuisine.", native: { nl: "Hij heeft een nieuw snufje voor zijn keuken gekocht.", en: "He bought a new gadget for his kitchen." }, items: [fr.gadget] }
+  - { id: s03, target: "Le prototype a été testé par vingt élèves.", native: { nl: "Het prototype werd door twintig leerlingen getest.", en: "The prototype was tested by twenty pupils." }, items: [fr.prototype, fr.tester] }
+  - { id: s04, target: "C'est une solution vraiment ingénieuse.", native: { nl: "Het is een echt vernuftige oplossing.", en: "It's a really ingenious solution." }, items: [fr.ingenieux] }
+  - { id: s05, target: "L'innovation est importante pour les entreprises.", native: { nl: "Vernieuwing is belangrijk voor bedrijven.", en: "Innovation is important for companies." }, items: [fr.innovation] }
+  - { id: s06, target: "Cette école a une façon innovante d'enseigner les langues.", native: { nl: "Die school heeft een vernieuwende manier om talen te onderwijzen.", en: "This school has an innovative way of teaching languages." }, items: [fr.innovant] }
+  - { id: s07, target: "La recherche a fait d'énormes progrès.", native: { nl: "Het onderzoek heeft enorme vooruitgang geboekt.", en: "Research has made enormous progress." }, items: [fr.progres] }
+  - { id: s08, target: "Le monde a été changé par l'invention du téléphone.", native: { nl: "De wereld werd veranderd door de uitvinding van de telefoon.", en: "The world was changed by the invention of the telephone." }, items: [fr.invention] }
+  - { id: s09, target: "Les progrès technologiques vont très vite.", native: { nl: "De technologische vooruitgang gaat heel snel.", en: "Technological progress is moving very fast." }, items: [fr.technologique, fr.progres], form: { word: technologiques, stem: technologie } }
+  - { id: s10, target: "L'intelligence artificielle peut écrire des textes.", native: { nl: "Artificiële intelligentie kan teksten schrijven.", en: "Artificial intelligence can write texts." }, items: [fr.intelligence-artificielle] }
+  - { id: s11, target: "Cette porte est automatique : elle s'ouvre quand on arrive.", native: { nl: "Deze deur is automatisch: ze gaat open als je aankomt.", en: "This door is automatic: it opens when you arrive." }, items: [fr.automatique] }
+  - { id: s12, target: "J'utilise un clavier sans fil.", native: { nl: "Ik gebruik een draadloos toetsenbord.", en: "I use a wireless keyboard." }, items: [fr.sans-fil] }
+  - { id: s13, target: "Elle a demandé un brevet pour son invention.", native: { nl: "Ze heeft een octrooi aangevraagd voor haar uitvinding.", en: "She applied for a patent for her invention." }, items: [fr.brevet, fr.invention] }
+  - { id: s14, target: "Cette application garde toutes tes données.", native: { nl: "Deze app bewaart al je gegevens.", en: "This app stores all your data." }, items: [fr.donnees] }
+  - { id: s15, target: "Un pirate informatique a découvert les mots de passe de l'entreprise.", native: { nl: "Een hacker heeft de wachtwoorden van het bedrijf ontdekt.", en: "A hacker found the company's passwords." }, items: [fr.pirate-informatique] }
+  - { id: s16, target: "Le piratage du réseau de l'école a été découvert par un élève.", native: { nl: "De hack van het schoolnetwerk werd door een leerling ontdekt.", en: "The hacking of the school network was discovered by a pupil." }, items: [fr.piratage] }
+  - { id: s17, target: "Les chercheurs ont mis au point un nouveau médicament.", native: { nl: "De onderzoekers hebben een nieuw geneesmiddel ontwikkeld.", en: "The researchers have developed a new medicine." }, items: [fr.chercheur, fr.mettre-au-point] }
+  - { id: s18, target: "Cette voiture a été conçue par une équipe d'ingénieurs.", native: { nl: "Deze auto werd ontworpen door een team van ingenieurs.", en: "This car was designed by a team of engineers." }, items: [fr.concevoir] }
+  - { id: s19, target: "Le nouveau logiciel est testé en ce moment.", native: { nl: "De nieuwe software wordt op dit moment getest.", en: "The new software is being tested at the moment." }, items: [fr.tester], acceptAlso: ["En ce moment, le nouveau logiciel est testé."] }
+  - { id: s20, target: "Après plusieurs essais, la machine a enfin fonctionné.", native: { nl: "Na verschillende pogingen werkte de machine eindelijk.", en: "After several attempts, the machine finally worked." }, items: [fr.essai, fr.machine, fr.fonctionner], acceptAlso: ["La machine a enfin fonctionné après plusieurs essais."], form: { word: essais, stem: essayer } }
+  - { id: s21, target: "Le laboratoire de l'université est ouvert aux élèves le samedi.", native: { nl: "Het laboratorium van de universiteit is op zaterdag open voor leerlingen.", en: "The university laboratory is open to pupils on Saturdays." }, items: [fr.laboratoire], acceptAlso: ["Le samedi, le laboratoire de l'université est ouvert aux élèves."] }
+  - { id: s22, target: "Les scientifiques ne sont pas d'accord sur ce point.", native: { nl: "De wetenschappers zijn het op dat punt niet eens.", en: "The scientists don't agree on this point." }, items: [fr.scientifique] }
+  - { id: s23, target: "Mon ordinateur ne fonctionne plus.", native: { nl: "Mijn computer werkt niet meer.", en: "My computer doesn't work any more." }, items: [fr.fonctionner], finite: { word: fonctionne, hint: { nl: "fonctionner (présent)", en: "fonctionner (present)" } } }
+  - { id: s24, target: "Un bon outil rend le travail plus facile.", native: { nl: "Goed gereedschap maakt het werk makkelijker.", en: "A good tool makes the job easier." }, items: [fr.outil] }
+  - { id: s25, target: "Les voitures électriques coûtent encore cher.", native: { nl: "Elektrische auto's zijn nog altijd duur.", en: "Electric cars are still expensive." }, items: [fr.electrique] }
+  - { id: s26, target: "Une chute peut être dangereuse pour les personnes âgées.", native: { nl: "Een val kan gevaarlijk zijn voor ouderen.", en: "A fall can be dangerous for elderly people." }, items: [fr.chute] }
+  - { id: s27, target: "C'est étonnant : ce petit robot parle trois langues.", native: { nl: "Het is verbazend: dit robotje spreekt drie talen.", en: "It's astonishing: this little robot speaks three languages." }, items: [fr.etonnant] }
+  - { id: s28, target: "Ces données sont protégées par un mot de passe.", native: { nl: "Deze gegevens worden door een wachtwoord beschermd.", en: "This data is protected by a password." }, items: [fr.donnees], build: true }
+  - { id: s29, target: "Ces gadgets se vendent partout.", native: { nl: "Die snufjes worden overal verkocht.", en: "These gadgets are sold everywhere." }, items: [fr.gadget], build: true }
+  - { id: s30, target: "Un nouveau modèle sera mis au point l'année prochaine.", native: { nl: "Volgend jaar wordt er een nieuw model ontwikkeld.", en: "A new model will be developed next year." }, items: [fr.mettre-au-point], acceptAlso: ["L'année prochaine, un nouveau modèle sera mis au point."] }
+transforms:
+  - { id: x01, from: "Une équipe d'ingénieurs a conçu cette voiture.", key: conçue, gapped: "Cette voiture ___ une équipe d'ingénieurs.", answers: ["a été conçue par"], items: [fr.concevoir], native: { en: "This car was designed by a team of engineers." } }
+  - { id: x02, from: "On teste le prototype depuis un mois.", key: testé, gapped: "Le prototype ___ un mois.", answers: ["est testé depuis"], items: [fr.tester], native: { en: "The prototype has been undergoing tests for a month." } }
+  - { id: x03, from: "Les chercheurs vont développer un nouveau robot.", key: mis, gapped: "Un nouveau robot va ___ les chercheurs.", answers: ["être mis au point par"], items: [fr.mettre-au-point], native: { en: "A new robot is going to be developed by the researchers." } }
+texts: [fr-b2-t09]

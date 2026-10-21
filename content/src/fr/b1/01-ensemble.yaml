@@ -1,0 +1,12 @@
+id: fr-b1-u01
+title: { nl: Samen, en: "Together" }
+icon: friends
+topic: The neighbourhood and school projects
+vocabulary:
+  - { target: décorer, native: { nl: versieren, en: "to decorate" }, pos: verb }
+  - { target: installer, native: { nl: "neerzetten, klaarzetten", en: "to set up, to install" }, pos: verb }
+  - { target: le concours, native: { nl: de wedstrijd, en: "competition, contest" }, pos: noun, gender: m }
+  - { target: le sujet, native: { nl: het onderwerp, en: "topic" }, pos: noun, gender: m }
+  - { target: l'exposé, native: { nl: de spreekbeurt, en: "presentation (at school)" }, pos: noun, gender: m }
+  - { target: hésiter, native: { nl: twijfelen, en: "to hesitate, to be unsure" }, pos: verb }
+texts: [fr-b1-t01, fr-b1-t02]

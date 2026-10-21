@@ -1,0 +1,71 @@
+id: en-b2-u07
+title: { nl: Eten en eetgewoonten }
+icon: food
+topic: Diets and nutrition, cooking and taste, food waste and where food comes from, allergies; quantifiers (a great deal of, hardly any, plenty of, few / a few) and so / such
+vocabulary:
+  - { target: cuisine, native: { nl: "keuken (manier van koken van een land)" }, pos: noun }
+  - { target: bland, native: { nl: "flauw, smakeloos" }, pos: adjective, avoid: [en.spicy] }
+  - { target: savoury, native: { nl: "hartig" }, pos: adjective }
+  - { target: organic, native: { nl: "biologisch" }, pos: adjective }
+  - { target: processed, native: { nl: "bewerkt (voedsel)" }, pos: adjective }
+  - { target: junk food, native: { nl: "ongezond eten, junkfood" }, pos: noun, avoid: [en.fast-food] }
+  - { target: vegan, native: { nl: "veganistisch; veganist" }, pos: adjective, avoid: [en.vegetarian] }
+  - { target: plant-based, native: { nl: "plantaardig" }, pos: adjective }
+  - { target: protein, native: { nl: eiwit }, pos: noun }
+  - { target: vitamin, native: { nl: vitamine }, pos: noun, noBlank: true }
+  - { target: fibre, native: { nl: vezels }, pos: noun }
+  - { target: portion, native: { nl: portie }, pos: noun }
+  - { target: appetite, native: { nl: eetlust }, pos: noun }
+  - { target: starving, native: { nl: "uitgehongerd, rammelend van de honger" }, pos: adjective }
+  - { target: harvest, native: { nl: oogst }, pos: noun }
+  - { target: leftovers, native: { nl: "restjes (eten)" }, pos: noun }
+  - { target: packaging, native: { nl: verpakking }, pos: noun }
+  - { target: seasonal, native: { nl: "seizoens-, van het seizoen" }, pos: adjective }
+  - { target: imported, native: { nl: "ingevoerd, uit het buitenland" }, pos: adjective }
+  - { target: allergy, native: { nl: allergie }, pos: noun, noBlank: true }
+  - { target: allergic, native: { nl: "allergisch (+ to)" }, pos: adjective, noBlank: true }
+  - { target: dairy, native: { nl: "zuivel" }, pos: noun }
+  - { target: consume, native: { nl: "consumeren, gebruiken" }, pos: verb }
+  - { target: consumption, native: { nl: "consumptie, verbruik" }, pos: noun }
+  - { target: sustainable, native: { nl: duurzaam }, pos: adjective }
+  - { target: famine, native: { nl: hongersnood }, pos: noun }
+  - { target: a great deal of, native: { nl: "heel veel (+ ontelbaar)" }, pos: phrase }
+  - { target: hardly any, native: { nl: "bijna geen" }, pos: phrase, noBlank: true }
+sentences:
+  - { id: s01, target: "Italian cuisine is popular all over the world.", native: { nl: "De Italiaanse keuken is overal ter wereld populair." }, items: [en.cuisine] }
+  - { id: s02, target: "The soup was rather bland, so I added some salt.", native: { nl: "De soep was nogal flauw, dus ik deed er wat zout bij." }, items: [en.bland] }
+  - { id: s03, target: "I prefer savoury snacks to sweet ones.", native: { nl: "Ik heb liever hartige snacks dan zoete." }, items: [en.savoury] }
+  - { id: s04, target: "Organic vegetables are grown in a natural way.", native: { nl: "Biologische groenten worden op een natuurlijke manier gekweekt." }, items: [en.organic] }
+  - { id: s05, target: "Processed food often contains a lot of salt and sugar.", native: { nl: "Bewerkt voedsel bevat vaak veel zout en suiker." }, items: [en.processed] }
+  - { id: s06, target: "We only eat junk food when we're in a hurry.", native: { nl: "We eten alleen junkfood als we haast hebben." }, items: [en.junk-food] }
+  - { id: s07, target: "My cousin has been vegan for two years.", native: { nl: "Mijn neef is al twee jaar veganist." }, items: [en.vegan] }
+  - { id: s08, target: "More and more restaurants offer plant-based dishes.", native: { nl: "Steeds meer restaurants bieden plantaardige gerechten aan." }, items: [en.plant-based] }
+  - { id: s09, target: "Beans are full of protein.", native: { nl: "Bonen zitten vol eiwitten." }, items: [en.protein] }
+  - { id: s10, target: "Oranges contain a lot of vitamin C.", native: { nl: "Sinaasappels bevatten veel vitamine C." }, items: [en.vitamin] }
+  - { id: s11, target: "Brown bread has more fibre than white bread.", native: { nl: "Bruin brood bevat meer vezels dan wit brood." }, items: [en.fibre] }
+  - { id: s12, target: "Restaurant portions are often too big for children.", native: { nl: "Porties in restaurants zijn vaak te groot voor kinderen." }, items: [en.portion] }
+  - { id: s13, target: "Don't eat sweets before dinner or you'll lose your appetite.", native: { nl: "Eet geen snoep voor het avondeten, anders verlies je je eetlust." }, items: [en.appetite] }
+  - { id: s14, target: "I'm starving! I haven't eaten anything since breakfast.", native: { nl: "Ik rammel van de honger! Ik heb sinds het ontbijt niets gegeten." }, items: [en.starving] }
+  - { id: s15, target: "The rain came just before the harvest and ruined the crops.", native: { nl: "De regen kwam vlak voor de oogst en verwoestte de gewassen." }, items: [en.harvest] }
+  - { id: s16, target: "We had the leftovers for lunch the next day.", native: { nl: "We aten de restjes de volgende dag als middageten." }, items: [en.leftovers], acceptAlso: ["The next day we had the leftovers for lunch."] }
+  - { id: s17, target: "Too much plastic packaging ends up in the sea.", native: { nl: "Te veel plastic verpakking komt in de zee terecht." }, items: [en.packaging], form: { word: packaging, stem: pack } }
+  - { id: s18, target: "In summer, seasonal fruit is cheaper and tastes better.", native: { nl: "In de zomer is fruit van het seizoen goedkoper en smaakt het beter." }, items: [en.seasonal], form: { word: seasonal, stem: season } }
+  - { id: s19, target: "In winter, imported strawberries have often travelled thousands of kilometres.", native: { nl: "In de winter hebben ingevoerde aardbeien vaak duizenden kilometers afgelegd." }, items: [en.imported] }
+  - { id: s20, target: "He has an allergy to eggs, so he always checks the ingredients.", native: { nl: "Hij heeft een allergie voor eieren, dus hij controleert altijd de ingrediënten." }, items: [en.allergy] }
+  - { id: s21, target: "She is allergic to milk and eggs.", native: { nl: "Ze is allergisch voor melk en eieren." }, items: [en.allergic] }
+  - { id: s22, target: "Vegans don't eat meat, fish, eggs or dairy.", native: { nl: "Veganisten eten geen vlees, vis, eieren of zuivel." }, items: [en.dairy] }
+  - { id: s23, target: "People in Europe consume a lot of meat compared to people in Asia.", native: { nl: "Mensen in Europa eten veel vlees in vergelijking met mensen in Azië." }, items: [en.consume] }
+  - { id: s24, target: "Our consumption of sugar has gone up in the last fifty years.", native: { nl: "Ons suikerverbruik is de laatste vijftig jaar gestegen." }, items: [en.consumption], form: { word: consumption, stem: consume } }
+  - { id: s25, target: "Eating less meat is a more sustainable choice.", native: { nl: "Minder vlees eten is een duurzamere keuze." }, items: [en.sustainable] }
+  - { id: s26, target: "The war led to a terrible famine.", native: { nl: "De oorlog leidde tot een vreselijke hongersnood." }, items: [en.famine] }
+  - { id: s27, target: "A great deal of food is thrown away every day.", native: { nl: "Elke dag wordt er heel veel eten weggegooid." }, items: [en.a-great-deal-of] }
+  - { id: s28, target: "There were hardly any vegetables in the fridge.", native: { nl: "Er waren bijna geen groenten in de koelkast." }, items: [en.hardly-any] }
+  - { id: s29, target: "The curry was so spicy that I couldn't finish my portion.", native: { nl: "De curry was zo pikant dat ik mijn portie niet kon opeten." }, items: [en.portion], build: true }
+  - { id: s30, target: "It was such a big portion that we shared it.", native: { nl: "Het was zo'n grote portie dat we hem deelden." }, items: [en.portion], build: true }
+  - { id: s31, target: "Few people know how much packaging they throw away.", native: { nl: "Weinig mensen weten hoeveel verpakking ze weggooien." }, items: [en.packaging] }
+  - { id: s32, target: "We only had a few portions left, but there was plenty of soup.", native: { nl: "We hadden nog maar een paar porties over, maar er was soep genoeg." }, items: [en.portion] }
+transforms:
+  - { id: x01, from: "The meal was so good that we went back the next week.", key: such, gapped: "It was ___ that we went back the next week.", answers: ["such a good meal"], items: [en.portion] }
+  - { id: x02, from: "There was almost no food left after the party.", key: hardly, gapped: "There was ___ food left after the party.", answers: ["hardly any"], items: [en.hardly-any] }
+  - { id: x03, from: "Peanuts make her ill.", key: allergic, gapped: "She ___ peanuts.", answers: ["is allergic to"], items: [en.allergic] }
+texts: [en-b2-t07]

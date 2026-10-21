@@ -1,0 +1,66 @@
+id: fr-b2-u12
+title: { nl: Reizen en avontuur, en: "Travel and adventure" }
+icon: travel
+topic: Préparer un voyage, les imprévus en route, l'aventure en montagne, le choc culturel et le mal du pays ; les temps du récit (imparfait et passé composé, plus-que-parfait, depuis + imparfait)
+vocabulary:
+  - { target: la brume, native: { nl: de nevel, en: "mist" }, pos: noun, gender: f, avoid: [fr.brouillard] }
+  - { target: le sentier, native: { nl: "het pad, het wandelpad", en: "path, footpath, trail" }, pos: noun, gender: m }
+  - { target: glissant, native: { nl: glad, en: "slippery" }, pos: adjective }
+  - { target: raide, native: { nl: steil, en: "steep" }, pos: adjective }
+  - { target: la pente, native: { nl: de helling, en: "slope" }, pos: noun, gender: f }
+  - { target: la panique, native: { nl: de paniek, en: "panic" }, pos: noun, gender: f, noBlank: true }
+  - { target: paniquer, native: { nl: "in paniek raken", en: "to panic" }, pos: verb }
+  - { target: la boussole, native: { nl: het kompas, en: "compass" }, pos: noun, gender: f }
+  - { target: l'écho, native: { nl: de echo, en: "echo" }, pos: noun, gender: m, noBlank: true }
+  - { target: le refuge, native: { nl: de berghut, en: "mountain hut, refuge" }, pos: noun, gender: m }
+  - { target: l'itinéraire, native: { nl: de reisroute, en: "route, itinerary" }, pos: noun, gender: m }
+  - { target: la destination, native: { nl: de bestemming, en: "destination" }, pos: noun, gender: f }
+  - { target: le randonneur, native: { nl: de wandelaar, en: "hiker, walker" }, pos: noun, gender: m }
+  - { target: le mal du pays, native: { nl: het heimwee, en: "homesickness" }, pos: noun, gender: m }
+  - { target: le choc culturel, native: { nl: de cultuurschok, en: "culture shock" }, pos: noun, gender: m }
+  - { target: l'escale, native: { nl: "de tussenlanding, de tussenstop", en: "stopover" }, pos: noun, gender: f }
+  - { target: la correspondance, native: { nl: "de aansluiting (trein, vlucht)", en: "connection (train or flight)" }, pos: noun, gender: f }
+  - { target: décoller, native: { nl: opstijgen, en: "to take off" }, pos: verb, avoid: [fr.atterrir] }
+  - { target: atterrir, native: { nl: landen, en: "to land" }, pos: verb, avoid: [fr.decoller] }
+  - { target: embarquer, native: { nl: "aan boord gaan, instappen", en: "to embark, to go on board" }, pos: verb }
+  - { target: s'orienter, native: { nl: "de weg vinden, zich oriënteren", en: "to find your way, to get your bearings" }, pos: verb }
+  - { target: la vallée, native: { nl: de vallei, en: "valley" }, pos: noun, gender: f }
+  - { target: le sommet, native: { nl: de top, en: "summit, top" }, pos: noun, gender: m }
+  - { target: escalader, native: { nl: beklimmen, en: "to climb" }, pos: verb }
+  - { target: l'imprévu, native: { nl: "het onvoorziene, de onverwachte gebeurtenis", en: "the unexpected, something unforeseen" }, pos: noun, gender: m }
+  - { target: inoubliable, native: { nl: onvergetelijk, en: "unforgettable" }, pos: adjective }
+  - { target: lentement, native: { nl: "langzaam (bijwoord)", en: "slowly" }, pos: adverb }
+  - { target: le nord, native: { nl: het noorden, en: "north" }, pos: noun, gender: m, avoid: [fr.sud] }
+  - { target: le sud, native: { nl: het zuiden, en: "south" }, pos: noun, gender: m, avoid: [fr.nord] }
+sentences:
+  - { id: s01, target: "On ne voyait presque rien à cause de la brume.", native: { nl: "We zagen bijna niets door de nevel.", en: "We could hardly see anything because of the mist." }, items: [fr.brume] }
+  - { id: s02, target: "Ce sentier monte jusqu'au lac.", native: { nl: "Dit pad loopt omhoog tot aan het meer.", en: "This path goes up to the lake." }, items: [fr.sentier] }
+  - { id: s03, target: "Fais attention, les rochers sont glissants après la pluie.", native: { nl: "Let op, de rotsen zijn glad na de regen.", en: "Be careful, the rocks are slippery after the rain." }, items: [fr.glissant] }
+  - { id: s04, target: "La dernière partie du chemin est très raide.", native: { nl: "Het laatste stuk van de weg is heel steil.", en: "The last part of the path is very steep." }, items: [fr.raide] }
+  - { id: s05, target: "Nous avons descendu lentement la pente.", native: { nl: "We zijn langzaam de helling afgedaald.", en: "We went down the slope slowly." }, items: [fr.pente, fr.lentement] }
+  - { id: s06, target: "Dans la panique, il a oublié son passeport.", native: { nl: "In de paniek is hij zijn paspoort vergeten.", en: "In the panic, he forgot his passport." }, items: [fr.panique] }
+  - { id: s07, target: "Ne panique pas : nous allons trouver une solution.", native: { nl: "Raak niet in paniek: we gaan een oplossing vinden.", en: "Don't panic: we're going to find a solution." }, items: [fr.paniquer] }
+  - { id: s08, target: "Sans boussole, il est difficile de s'orienter dans la forêt.", native: { nl: "Zonder kompas is het moeilijk om in het bos de weg te vinden.", en: "Without a compass, it's hard to find your way in the forest." }, items: [fr.boussole, fr.s-orienter] }
+  - { id: s09, target: "Nous avons crié et nous avons entendu l'écho.", native: { nl: "We hebben geroepen en we hoorden de echo.", en: "We shouted and we heard the echo." }, items: [fr.echo] }
+  - { id: s10, target: "Les randonneurs ont dormi dans un refuge.", native: { nl: "De wandelaars hebben in een berghut geslapen.", en: "The hikers slept in a mountain hut." }, items: [fr.randonneur, fr.refuge] }
+  - { id: s11, target: "Nous avons changé notre itinéraire à cause de la tempête.", native: { nl: "We hebben onze reisroute veranderd door de storm.", en: "We changed our route because of the storm." }, items: [fr.itineraire], acceptAlso: ["À cause de la tempête, nous avons changé notre itinéraire."] }
+  - { id: s12, target: "Quelle est ta destination préférée pour les vacances ?", native: { nl: "Wat is je favoriete vakantiebestemming?", en: "What's your favourite holiday destination?" }, items: [fr.destination] }
+  - { id: s13, target: "Pendant la première semaine, elle avait le mal du pays.", native: { nl: "De eerste week had ze heimwee.", en: "During the first week, she felt homesick." }, items: [fr.mal-du-pays], acceptAlso: ["Elle avait le mal du pays pendant la première semaine."] }
+  - { id: s14, target: "En arrivant au Japon, il a eu un vrai choc culturel.", native: { nl: "Toen hij in Japan aankwam, kreeg hij een echte cultuurschok.", en: "When he arrived in Japan, he got a real culture shock." }, items: [fr.choc-culturel], form: { word: culturel, stem: culture } }
+  - { id: s15, target: "Pendant l'escale à Lisbonne, nos bagages sont restés dans l'avion.", native: { nl: "Tijdens de tussenlanding in Lissabon bleef onze bagage in het vliegtuig.", en: "During the stopover in Lisbon, our luggage stayed on the plane." }, items: [fr.escale] }
+  - { id: s16, target: "Le vol fait une escale à Lisbonne.", native: { nl: "De vlucht maakt een tussenlanding in Lissabon.", en: "The flight has a stopover in Lisbon." }, items: [fr.escale] }
+  - { id: s17, target: "Le train avait du retard et nous avons manqué notre correspondance.", native: { nl: "De trein had vertraging en we hebben onze aansluiting gemist.", en: "The train was late and we missed our connection." }, items: [fr.correspondance] }
+  - { id: s18, target: "L'avion a décollé à l'heure, mais il a atterri avec une heure de retard.", native: { nl: "Het vliegtuig vertrok op tijd, maar het landde met een uur vertraging.", en: "The plane took off on time, but it landed an hour late." }, items: [fr.decoller, fr.atterrir] }
+  - { id: s19, target: "Les voyageurs embarquent dans dix minutes.", native: { nl: "De reizigers gaan over tien minuten aan boord.", en: "The passengers board in ten minutes." }, items: [fr.embarquer], finite: { word: embarquent, hint: { nl: "embarquer (présent)", en: "embarquer (present)" } } }
+  - { id: s20, target: "Du sommet, on voyait toute la vallée.", native: { nl: "Vanaf de top zagen we de hele vallei.", en: "From the summit, we could see the whole valley." }, items: [fr.sommet, fr.vallee] }
+  - { id: s21, target: "Ils ont escaladé la falaise avec un guide.", native: { nl: "Ze hebben de klif beklommen met een gids.", en: "They climbed the cliff with a guide." }, items: [fr.escalader] }
+  - { id: s22, target: "En voyage, il faut toujours être prêt pour l'imprévu.", native: { nl: "Op reis moet je altijd klaar zijn voor het onvoorziene.", en: "When you travel, you always have to be ready for the unexpected." }, items: [fr.imprevu] }
+  - { id: s23, target: "Ce voyage en Norvège a été inoubliable.", native: { nl: "Die reis naar Noorwegen was onvergetelijk.", en: "That trip to Norway was unforgettable." }, items: [fr.inoubliable] }
+  - { id: s24, target: "Les oiseaux partent vers le sud en automne et reviennent vers le nord au printemps.", native: { nl: "De vogels vertrekken in de herfst naar het zuiden en komen in de lente terug naar het noorden.", en: "Birds leave for the south in autumn and come back north in spring." }, items: [fr.sud, fr.nord] }
+  - { id: s25, target: "Nous étions au sommet depuis dix minutes quand la brume est arrivée.", native: { nl: "We waren nog maar tien minuten op de top toen de nevel opkwam.", en: "We had been at the summit for ten minutes when the mist came down." }, items: [fr.brume, fr.sommet], build: true, acceptAlso: ["Quand la brume est arrivée, nous étions au sommet depuis dix minutes."] }
+  - { id: s26, target: "Quand nous sommes arrivés, notre correspondance était déjà partie.", native: { nl: "Toen we aankwamen, was onze aansluiting al vertrokken.", en: "When we arrived, our connection had already left." }, items: [fr.correspondance], build: true, acceptAlso: ["Notre correspondance était déjà partie quand nous sommes arrivés."] }
+transforms:
+  - { id: x01, from: "Nous avions commencé à marcher cinq heures plus tôt quand la brume est tombée.", key: depuis, gapped: "Nous ___ heures quand la brume est tombée.", answers: ["marchions depuis cinq"], items: [fr.brume], native: { en: "We had been walking for five hours when the mist came down." } }
+  - { id: x02, from: "Notre correspondance est partie, puis nous sommes arrivés à la gare.", key: déjà, gapped: "Quand nous sommes arrivés à la gare, notre correspondance ___.", answers: ["était déjà partie"], items: [fr.correspondance], native: { en: "When we arrived at the station, our connection had already left." } }
+  - { id: x03, from: "Je n'oublierai jamais ce voyage.", key: inoubliable, gapped: "Ce voyage ___.", answers: ["était inoubliable", "a été inoubliable", "est inoubliable", "restera inoubliable", "sera inoubliable"], items: [fr.inoubliable], native: { en: "I'll never forget this trip." } }
+texts: [fr-b2-t12]

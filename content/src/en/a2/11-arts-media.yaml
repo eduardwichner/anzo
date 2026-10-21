@@ -1,0 +1,50 @@
+id: en-a2-u11
+title: { nl: Kunst en media }
+icon: toys
+topic: Sports and leisure (music, art, media)
+vocabulary:
+  - { target: concert, native: { nl: concert }, pos: noun }
+  - { target: drum, native: { nl: trommel }, pos: noun }
+  - { target: instrument, native: { nl: instrument }, pos: noun, category: true }
+  - { target: violin, native: { nl: viool }, pos: noun }
+  - { target: tune, native: { nl: "melodie, deuntje" }, pos: noun }
+  - { target: pop music, native: { nl: popmuziek }, pos: noun }
+  - { target: rock music, native: { nl: rockmuziek }, pos: noun, avoid: [en.pop-music] }
+  - { target: art, native: { nl: kunst }, pos: noun }
+  - { target: festival, native: { nl: festival }, pos: noun, avoid: [en.concert] }
+  - { target: stage, native: { nl: podium }, pos: noun }
+  - { target: design, native: { nl: ontwerpen }, pos: verb }
+  - { target: cartoon, native: { nl: tekenfilm }, pos: noun }
+  - { target: programme, native: { nl: programma }, pos: noun }
+  - { target: channel, native: { nl: "zender, kanaal" }, pos: noun }
+  - { target: magazine, native: { nl: tijdschrift }, pos: noun }
+  - { target: newspaper, native: { nl: krant }, pos: noun }
+  - { target: news, native: { nl: nieuws }, pos: noun, avoid: [en.newspaper] }
+  - { target: screen, native: { nl: scherm }, pos: noun }
+  - { target: online, native: { nl: online }, pos: adjective }
+  - { target: wifi, native: { nl: wifi }, pos: noun }
+sentences:
+  - { id: s01, target: "We went to a concert last night.", native: { nl: "We zijn gisteravond naar een concert geweest." }, items: [en.concert] }
+  - { id: s02, target: "Can you hear the drum?", native: { nl: "Hoor je de trommel?" }, items: [en.drum] }
+  - { id: s03, target: "Which instrument do you play?", native: { nl: "Welk instrument speel jij?" }, items: [en.instrument] }
+  - { id: s04, target: "She is learning the violin.", native: { nl: "Zij leert viool spelen." }, items: [en.violin] }
+  - { id: s05, target: "I can't stop singing this tune!", native: { nl: "Ik kan niet ophouden met dit deuntje zingen!" }, items: [en.tune], acceptAlso: ["I cannot stop singing this tune!"] }
+  - { id: s06, target: "Do you like pop music?", native: { nl: "Hou jij van popmuziek?" }, items: [en.pop-music] }
+  - { id: s07, target: "Dad listens to rock music in the car.", native: { nl: "Papa luistert in de auto naar rockmuziek." }, items: [en.rock-music] }
+  - { id: s08, target: "My favourite subject is art.", native: { nl: "Mijn lievelingsvak is kunst." }, items: [en.art] }
+  - { id: s09, target: "There's a music festival in the park.", native: { nl: "Er is een muziekfestival in het park." }, items: [en.festival], acceptAlso: ["There is a music festival in the park."] }
+  - { id: s10, target: "The singer is on the stage.", native: { nl: "De zanger staat op het podium." }, items: [en.stage] }
+  - { id: s11, target: "She wants to design clothes.", native: { nl: "Zij wil kleding ontwerpen." }, items: [en.design] }
+  - { id: s12, target: "I watched a cartoon on TV.", native: { nl: "Ik keek een tekenfilm op tv." }, items: [en.cartoon] }
+  - { id: s13, target: "This programme is about animals.", native: { nl: "Dit programma gaat over dieren." }, items: [en.programme] }
+  - { id: s14, target: "Which channel is the film on?", native: { nl: "Op welke zender is de film?" }, items: [en.channel] }
+  - { id: s15, target: "I read a magazine about horses.", native: { nl: "Ik las een tijdschrift over paarden." }, items: [en.magazine] }
+  - { id: s16, target: "Grandpa reads the newspaper every morning.", native: { nl: "Opa leest elke ochtend de krant." }, items: [en.newspaper] }
+  - { id: s17, target: "Did you hear the news?", native: { nl: "Heb je het nieuws gehoord?" }, items: [en.news] }
+  - { id: s18, target: "Don't sit too near the screen.", native: { nl: "Ga niet te dicht bij het scherm zitten." }, items: [en.screen], acceptAlso: ["Do not sit too near the screen."] }
+  - { id: s19, target: "We bought the tickets online.", native: { nl: "We hebben de kaartjes online gekocht." }, items: [en.online] }
+  - { id: s20, target: "Is there wifi in the hotel?", native: { nl: "Is er wifi in het hotel?" }, items: [en.wifi] }
+lessons:
+  - { id: l01, title: { nl: Muziek }, vocab: [en.concert, en.drum, en.instrument, en.violin, en.tune, en.pop-music, en.rock-music] }
+  - { id: l02, title: { nl: Kunst en tv }, vocab: [en.art, en.festival, en.stage, en.design, en.cartoon, en.programme, en.channel] }
+  - { id: l03, title: { nl: Nieuws }, vocab: [en.magazine, en.newspaper, en.news, en.screen, en.online, en.wifi] }

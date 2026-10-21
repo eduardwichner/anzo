@@ -1,0 +1,59 @@
+id: en-a2-u17
+title: { nl: "Hoe is het?" }
+icon: questions
+topic: Describing things; Places and directions
+vocabulary:
+  - { target: cheap, native: { nl: goedkoop }, pos: adjective }
+  - { target: expensive, native: { nl: duur }, pos: adjective }
+  - { target: heavy, native: { nl: zwaar }, pos: adjective }
+  - { target: light, native: { nl: "licht, lamp" }, pos: noun, avoid: [en.heavy, en.dark] }
+  - { target: dark, native: { nl: donker }, pos: adjective }
+  - { target: large, native: { nl: groot }, pos: adjective }
+  - { target: high, native: { nl: hoog }, pos: adjective }
+  - { target: low, native: { nl: laag }, pos: adjective }
+  - { target: deep, native: { nl: diep }, pos: adjective }
+  - { target: hard, native: { nl: hard }, pos: adjective }
+  - { target: soft, native: { nl: zacht }, pos: adjective }
+  - { target: fast, native: { nl: snel }, pos: adjective }
+  - { target: full, native: { nl: vol }, pos: adjective }
+  - { target: empty, native: { nl: leeg }, pos: adjective }
+  - { target: same, native: { nl: "dezelfde, hetzelfde" }, pos: adjective }
+  - { target: noisy, native: { nl: lawaaierig }, pos: adjective }
+  - { target: tidy, native: { nl: opgeruimd }, pos: adjective }
+  - { target: untidy, native: { nl: rommelig }, pos: adjective }
+  - { target: ready, native: { nl: klaar }, pos: adjective }
+  - { target: missing, native: { nl: "zoek, kwijt" }, pos: adjective }
+  - { target: dear, native: { nl: "lieve, beste (in een brief)" }, pos: adjective }
+  - { target: left, native: { nl: links }, pos: adverb }
+  - { target: front, native: { nl: "voorkant, voorin" }, pos: noun }
+  - { target: middle, native: { nl: midden }, pos: noun }
+sentences:
+  - { id: s01, target: "This toy is very cheap.", native: { nl: "Dit speelgoed is heel goedkoop." }, items: [en.cheap] }
+  - { id: s02, target: "That bike is too expensive.", native: { nl: "Die fiets is te duur." }, items: [en.expensive] }
+  - { id: s03, target: "My bag is very heavy.", native: { nl: "Mijn tas is heel zwaar." }, items: [en.heavy] }
+  - { id: s04, target: "Turn on the light, please.", native: { nl: "Doe het licht aan, alsjeblieft." }, items: [en.light] }
+  - { id: s05, target: "It's dark outside.", native: { nl: "Het is donker buiten." }, items: [en.dark], acceptAlso: ["It is dark outside."] }
+  - { id: s06, target: "Can I have a large ice cream?", native: { nl: "Mag ik een groot ijsje?" }, items: [en.large] }
+  - { id: s07, target: "The mountain is very high.", native: { nl: "De berg is heel hoog." }, items: [en.high] }
+  - { id: s08, target: "The table is too low.", native: { nl: "De tafel is te laag." }, items: [en.low] }
+  - { id: s09, target: "The lake is very deep.", native: { nl: "Het meer is heel diep." }, items: [en.deep] }
+  - { id: s10, target: "This bed is hard.", native: { nl: "Dit bed is hard." }, items: [en.hard] }
+  - { id: s11, target: "The kitten's fur is soft.", native: { nl: "De vacht van het katje is zacht." }, items: [en.soft] }
+  - { id: s12, target: "The train is very fast.", native: { nl: "De trein is heel snel." }, items: [en.fast] }
+  - { id: s13, target: "The box is full of toys.", native: { nl: "De doos zit vol speelgoed." }, items: [en.full] }
+  - { id: s14, target: "My glass is empty.", native: { nl: "Mijn glas is leeg." }, items: [en.empty] }
+  - { id: s15, target: "We've got the same bag!", native: { nl: "We hebben dezelfde tas!" }, items: [en.same], acceptAlso: ["We have got the same bag!"] }
+  - { id: s16, target: "The classroom is very noisy.", native: { nl: "Het klaslokaal is heel lawaaierig." }, items: [en.noisy] }
+  - { id: s17, target: "Your room is very tidy.", native: { nl: "Je kamer is heel opgeruimd." }, items: [en.tidy] }
+  - { id: s18, target: "My brother's room is untidy.", native: { nl: "De kamer van mijn broer is rommelig." }, items: [en.untidy] }
+  - { id: s19, target: "Dinner is ready!", native: { nl: "Het eten is klaar!" }, items: [en.ready] }
+  - { id: s20, target: "One of my socks is missing.", native: { nl: "Een van mijn sokken is zoek." }, items: [en.missing] }
+  - { id: s21, target: "Dear Grandma, thank you for the present.", native: { nl: "Lieve oma, dank je wel voor het cadeau." }, items: [en.dear] }
+  - { id: s22, target: "Turn left at the corner.", native: { nl: "Ga bij de hoek linksaf." }, items: [en.left] }
+  - { id: s23, target: "Sit at the front of the bus.", native: { nl: "Ga voorin de bus zitten." }, items: [en.front] }
+  - { id: s24, target: "The table is in the middle of the room.", native: { nl: "De tafel staat in het midden van de kamer." }, items: [en.middle] }
+lessons:
+  - { id: l01, title: { nl: Duur en goedkoop }, vocab: [en.cheap, en.expensive, en.heavy, en.light, en.dark, en.large] }
+  - { id: l02, title: { nl: Hoog en laag }, vocab: [en.high, en.low, en.deep, en.hard, en.soft, en.fast] }
+  - { id: l03, title: { nl: Vol en leeg }, vocab: [en.full, en.empty, en.same, en.noisy, en.tidy, en.untidy] }
+  - { id: l04, title: { nl: Links en midden }, vocab: [en.ready, en.missing, en.dear, en.left, en.front, en.middle] }

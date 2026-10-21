@@ -1,0 +1,72 @@
+id: en-b2-u08
+title: { nl: Nieuws en media }
+icon: news
+topic: Journalism and social media, fake news and reliable sources, privacy; reporting verbs (claim that, deny doing, admit doing, accuse someone of, warn someone not to, insist on)
+vocabulary:
+  - { target: journalism, native: { nl: journalistiek }, pos: noun }
+  - { target: broadcast, native: { nl: "uitzenden" }, pos: verb }
+  - { target: coverage, native: { nl: "verslaggeving, berichtgeving" }, pos: noun }
+  - { target: editor, native: { nl: "redacteur, hoofdredacteur" }, pos: noun }
+  - { target: media, native: { nl: "media" }, pos: noun, noBlank: true }
+  - { target: influencer, native: { nl: influencer }, pos: noun, noBlank: true }
+  - { target: viral, native: { nl: "viraal (snel verspreid op internet)" }, pos: adjective, noBlank: true }
+  - { target: follower, native: { nl: volger }, pos: noun }
+  - { target: fake news, native: { nl: nepnieuws }, pos: noun }
+  - { target: misinformation, native: { nl: "onjuiste informatie, misinformatie" }, pos: noun }
+  - { target: rumour, native: { nl: gerucht }, pos: noun }
+  - { target: source, native: { nl: bron }, pos: noun }
+  - { target: biased, native: { nl: "bevooroordeeld, partijdig" }, pos: adjective, avoid: [en.objective] }
+  - { target: bias, native: { nl: "vooroordeel, partijdigheid" }, pos: noun }
+  - { target: objective, native: { nl: objectief }, pos: adjective, avoid: [en.biased] }
+  - { target: claim, native: { nl: "beweren" }, pos: verb }
+  - { target: deny, native: { nl: ontkennen }, pos: verb, avoid: [en.admit] }
+  - { target: reveal, native: { nl: "onthullen, bekendmaken" }, pos: verb }
+  - { target: accuse, native: { nl: "beschuldigen (+ of)" }, pos: verb }
+  - { target: subscribe, native: { nl: "zich abonneren (op)" }, pos: verb }
+  - { target: controversial, native: { nl: omstreden }, pos: adjective }
+  - { target: sensational, native: { nl: "sensationeel" }, pos: adjective }
+  - { target: privacy, native: { nl: privacy }, pos: noun, noBlank: true }
+  - { target: verify, native: { nl: "verifiëren, nagaan" }, pos: verb }
+  - { target: mislead, native: { nl: misleiden }, pos: verb }
+  - { target: misleading, native: { nl: misleidend }, pos: adjective }
+  - { target: trustworthy, native: { nl: betrouwbaar }, pos: adjective, avoid: [en.reliable] }
+  - { target: spread, native: { nl: "(zich) verspreiden" }, pos: verb }
+  - { target: breaking news, native: { nl: "laatste nieuws (net binnen)" }, pos: noun }
+sentences:
+  - { id: s01, target: "She wants to study journalism at university.", native: { nl: "Ze wil journalistiek studeren aan de universiteit." }, items: [en.journalism] }
+  - { id: s02, target: "The match will be broadcast live on television.", native: { nl: "De wedstrijd wordt live uitgezonden op televisie." }, items: [en.broadcast] }
+  - { id: s03, target: "The newspaper's coverage of the election was very fair.", native: { nl: "De berichtgeving van de krant over de verkiezingen was heel eerlijk." }, items: [en.coverage] }
+  - { id: s04, target: "The editor decides which stories go on the front page.", native: { nl: "De hoofdredacteur beslist welke verhalen op de voorpagina komen." }, items: [en.editor] }
+  - { id: s05, target: "The media paid a lot of attention to the story.", native: { nl: "De media besteedden veel aandacht aan het verhaal." }, items: [en.media] }
+  - { id: s06, target: "Some influencers earn more than famous actors.", native: { nl: "Sommige influencers verdienen meer dan bekende acteurs." }, items: [en.influencer] }
+  - { id: s07, target: "The video went viral and was watched by millions of people.", native: { nl: "De video ging viraal en werd door miljoenen mensen bekeken." }, items: [en.viral] }
+  - { id: s08, target: "He has more than ten thousand followers online.", native: { nl: "Hij heeft meer dan tienduizend volgers online." }, items: [en.follower] }
+  - { id: s09, target: "Fake news spreads faster than true stories.", native: { nl: "Nepnieuws verspreidt zich sneller dan ware verhalen." }, items: [en.fake-news, en.spread] }
+  - { id: s10, target: "During the floods there was a lot of misinformation online.", native: { nl: "Tijdens de overstromingen was er online veel valse informatie." }, items: [en.misinformation] }
+  - { id: s11, target: "There is a rumour that the school will close.", native: { nl: "Het gerucht gaat dat de school dichtgaat." }, items: [en.rumour] }
+  - { id: s12, target: "A good journalist always checks the source of a story.", native: { nl: "Een goede journalist controleert altijd de bron van een verhaal." }, items: [en.source] }
+  - { id: s13, target: "That website is clearly biased against young people.", native: { nl: "Die website is duidelijk bevooroordeeld tegen jongeren." }, items: [en.biased] }
+  - { id: s14, target: "Everyone has some bias, even if they don't notice it.", native: { nl: "Iedereen is wel wat bevooroordeeld, ook al merk je het zelf niet." }, items: [en.bias] }
+  - { id: s15, target: "News reports should be objective, not based on feelings.", native: { nl: "Nieuwsberichten moeten objectief zijn, niet gebaseerd op gevoelens." }, items: [en.objective] }
+  - { id: s16, target: "The company claims that its product is completely safe.", native: { nl: "Het bedrijf beweert dat zijn product volkomen veilig is." }, items: [en.claim] }
+  - { id: s17, target: "The politician denied knowing about the problem.", native: { nl: "De politicus ontkende dat hij van het probleem wist." }, items: [en.deny] }
+  - { id: s18, target: "The report revealed that many students feel lonely.", native: { nl: "Het rapport onthulde dat veel leerlingen zich eenzaam voelen." }, items: [en.reveal] }
+  - { id: s19, target: "They accused the website of publishing false information.", native: { nl: "Ze beschuldigden de website ervan valse informatie te publiceren." }, items: [en.accuse] }
+  - { id: s20, target: "I subscribe to two science podcasts.", native: { nl: "Ik ben geabonneerd op twee wetenschapspodcasts." }, items: [en.subscribe] }
+  - { id: s21, target: "The decision to build a new airport is very controversial.", native: { nl: "De beslissing om een nieuwe luchthaven te bouwen is erg omstreden." }, items: [en.controversial] }
+  - { id: s22, target: "Some newspapers use sensational headlines to sell more copies.", native: { nl: "Sommige kranten gebruiken sensationele koppen om meer exemplaren te verkopen." }, items: [en.sensational] }
+  - { id: s23, target: "Apps should respect the privacy of their users.", native: { nl: "Apps moeten de privacy van hun gebruikers respecteren." }, items: [en.privacy] }
+  - { id: s24, target: "Before you share a story, verify that it is true.", native: { nl: "Controleer of een verhaal klopt voordat je het deelt." }, items: [en.verify] }
+  - { id: s25, target: "The advert misled customers about the price.", native: { nl: "De advertentie misleidde klanten over de prijs." }, items: [en.mislead] }
+  - { id: s26, target: "The title of the article was completely misleading.", native: { nl: "De titel van het artikel was volkomen misleidend." }, items: [en.misleading], form: { word: misleading, stem: mislead } }
+  - { id: s27, target: "Is this website a trustworthy source of information?", native: { nl: "Is deze website een betrouwbare informatiebron?" }, items: [en.trustworthy, en.source] }
+  - { id: s28, target: "We interrupt this programme to bring you some breaking news.", native: { nl: "We onderbreken dit programma voor het laatste nieuws." }, items: [en.breaking-news] }
+  - { id: s29, target: "The singer admitted spreading the rumour.", native: { nl: "De zanger gaf toe dat hij het gerucht had verspreid." }, items: [en.spread, en.rumour], build: true }
+  - { id: s30, target: "My parents warned me not to trust every source online.", native: { nl: "Mijn ouders waarschuwden me om niet elke bron online te vertrouwen." }, items: [en.source], build: true }
+  - { id: s31, target: "The editor insisted on speaking to the politician herself.", native: { nl: "De hoofdredactrice stond erop om zelf met de politicus te spreken." }, items: [en.editor] }
+  - { id: s32, target: "She denies that she started the rumour.", native: { nl: "Ze ontkent dat zij het gerucht in de wereld heeft geholpen." }, items: [en.rumour], finite: { word: denies, hint: { nl: "deny (tegenwoordige tijd)" } } }
+transforms:
+  - { id: x01, from: "\"I didn't take the money,\" said the man.", key: denied, gapped: "The man ___ the money.", answers: ["denied taking", "denied having taken", "denied that he had taken", "denied he had taken", "denied that he took", "denied he took"], items: [en.deny] }
+  - { id: x02, from: "\"You copied my article,\" she said to the blogger.", key: accused, gapped: "She ___ her article.", answers: ["accused the blogger of copying", "accused the blogger of having copied", "accused him of copying", "accused her of copying"], items: [en.accuse] }
+  - { id: x03, from: "Nobody knows yet if the story is true.", key: verified, gapped: "The story ___ yet.", answers: ["hasn't been verified", "has not been verified"], items: [en.verify] }
+texts: [en-b2-t08]

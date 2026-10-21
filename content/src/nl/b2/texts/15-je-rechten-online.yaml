@@ -1,0 +1,53 @@
+id: nl-b2-t15
+kind: reading
+title: { en: Your rights when you buy online }
+topic: Law and consumer rights (an advice column in a consumer magazine)
+level: B2
+paragraphs:
+  - - { id: nl-b2-t15-s01, target: "Vorige maand bestelde Nathalie een dure koptelefoon bij een webwinkel.", native: { en: "Last month Nathalie ordered expensive headphones from an online shop." } }
+    - { id: nl-b2-t15-s02, target: "Na drie dagen werkte de koptelefoon al niet meer goed.", native: { en: "After three days the headphones had already stopped working properly." } }
+    - { id: nl-b2-t15-s03, target: "De klantendienst antwoordde dat Nathalie zelf verantwoordelijk was voor de schade, omdat ze de koptelefoon verkeerd gebruikt zou hebben.", native: { en: "Customer service replied that she herself was responsible for the damage, because she had supposedly used the headphones wrongly." } }
+    - { id: nl-b2-t15-s04, target: "Heeft de winkel gelijk?", native: { en: "Is the shop right?" } }
+  - - { id: nl-b2-t15-s05, target: "Nee. Wie in de Europese Unie iets koopt, heeft recht op twee jaar wettelijke garantie.", native: { en: "No. Anyone who buys something in the European Union is entitled to a two-year legal guarantee." } }
+    - { id: nl-b2-t15-s06, target: "Gaat een product binnen de twee jaar kapot, dan moet de verkoper bewijzen dat het probleem niet door de klant komt, en niet omgekeerd.", native: { en: "If a product breaks within the two years, the seller has to prove that the problem was not caused by the customer, and not the other way round." } }
+    - { id: nl-b2-t15-s07, target: "Nathalie heeft dus recht op een herstelling, een nieuw toestel of, als dat niet mogelijk is, haar geld terug.", native: { en: "So Nathalie is entitled to a repair, a new device or, if that isn't possible, her money back." } }
+  - - { id: nl-b2-t15-s08, target: "Daarnaast bestaat er voor aankopen op het internet een herroepingsrecht.", native: { en: "In addition there is a right of withdrawal for purchases on the internet." } }
+    - { id: nl-b2-t15-s09, target: "Je mag een product binnen veertien dagen terugsturen, zonder dat je moet uitleggen waarom.", native: { en: "You may send a product back within fourteen days, without having to explain why." } }
+    - { id: nl-b2-t15-s10, target: "Voor sommige producten geldt dat niet, zoals eten of een reis op een vaste datum.", native: { en: "For some products that does not apply, such as food or a trip on a fixed date." } }
+  - - { id: nl-b2-t15-s11, target: "Wat als de winkel weigert om iets te doen?", native: { en: "What if the shop refuses to do anything?" } }
+    - { id: nl-b2-t15-s12, target: "Stuur dan eerst een duidelijke brief of e-mail waarin je naar de wettelijke garantie verwijst, en bewaar alle bewijzen.", native: { en: "Then first send a clear letter or e-mail in which you refer to the legal guarantee, and keep all the evidence." } }
+    - { id: nl-b2-t15-s13, target: "Helpt dat niet, dan kun je gratis een beroep doen op de Consumentenombudsdienst, die als bemiddelaar tussen jou en de winkel optreedt.", native: { en: "If that doesn't help, you can turn to the Consumer Ombudsman Service free of charge, which acts as a mediator between you and the shop." } }
+    - { id: nl-b2-t15-s14, target: "Pas als ook die bemiddeling niets oplevert, stap je best naar de rechtbank.", native: { en: "Only if mediation fails too is it best to go to court." } }
+  - - { id: nl-b2-t15-s15, target: "Wees ten slotte voorzichtig met een webwinkel die je niet kent.", native: { en: "Finally, be careful with an online shop you don't know." } }
+    - { id: nl-b2-t15-s16, target: "Een prijs die veel lager is dan elders, is vaak een teken van oplichting.", native: { en: "A price that is much lower than elsewhere is often a sign of fraud." } }
+    - { id: nl-b2-t15-s17, target: "Kijk of je een adres en een ondernemingsnummer vindt, en lees wat andere klanten over de winkel zeggen.", native: { en: "Check whether you can find an address and a company number, and read what other customers say about the shop." } }
+glossary:
+  - { word: teken, native: { en: "sign (het teken)" } }
+  - { word: koptelefoon, native: { en: headphones } }
+  - { word: webwinkel, native: { en: online shop } }
+  - { word: Europese Unie, native: { en: European Union } }
+  - { word: omgekeerd, native: { en: "the other way round" } }
+  - { word: beroep, native: { en: "(een beroep doen op: to turn to, to appeal to)" } }
+  - { word: Consumentenombudsdienst, native: { en: "Consumer Ombudsman Service" } }
+  - { word: optreedt, native: { en: "acts (optreden)" } }
+  - { word: oplevert, native: { en: "produces, yields (opleveren)" } }
+  - { word: elders, native: { en: elsewhere } }
+  - { word: ondernemingsnummer, native: { en: "company registration number" } }
+items: [nl.wettelijk, nl.herroepingsrecht, nl.bemiddelaar, nl.bemiddeling, nl.proces, nl.rechtbank, nl.oplichting]
+openCloze:
+  - { sentence: nl-b2-t15-s03, word: voor }
+  - { sentence: nl-b2-t15-s05, word: op }
+  - { sentence: nl-b2-t15-s09, word: binnen }
+  - { sentence: nl-b2-t15-s12, word: naar }
+  - { sentence: nl-b2-t15-s15, word: met, acceptAlso: [bij] }
+questions:
+  - { id: nl-b2-t15-q1, type: summary, options: ["De tekst legt uit welke rechten je hebt als iets dat je online kocht kapotgaat, en wat je kunt doen als de winkel niet wil helpen.", "De tekst legt uit welke rechten je hebt als iets dat je online kocht kapotgaat, en waarom je de herstelling altijd zelf betaalt.", "De tekst zegt dat je beter nooit online koopt."], correct: 0 }
+  - { id: nl-b2-t15-q2, type: mc, question: "Wie moet tijdens de garantie bewijzen wie de fout maakte?", options: ["De verkoper.", "De klant.", "De Consumentenombudsdienst."], correct: 0 }
+  - { id: nl-b2-t15-q3, type: true_false_notgiven, statement: "Je mag elk product binnen veertien dagen terugsturen.", answer: false }
+  - { id: nl-b2-t15-q4, type: true_false_notgiven, statement: "De Consumentenombudsdienst is gratis.", answer: true }
+  - { id: nl-b2-t15-q5, type: true_false_notgiven, statement: "Nathalie heeft haar geld intussen teruggekregen.", answer: not_given }
+  - { id: nl-b2-t15-q6, type: match_heading, paragraph: 4, options: ["Wat je doet als de winkel weigert", "Waarom online kopen gevaarlijk is", "De geschiedenis van de garantie"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-t15-l1, type: complete, statement: "Een product terugsturen mag binnen veertien ___.", answers: [dagen] }
+  - { id: nl-b2-t15-l2, type: mc, question: "Wat is vaak een teken van oplichting?", options: ["Een prijs die veel lager is dan elders.", "Een winkel met een adres.", "Een brief van de klantendienst."], correct: 0 }
+orderable: false

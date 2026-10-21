@@ -1,0 +1,61 @@
+id: en-a2-u06
+title: { nl: Natuur en ruimte }
+icon: nature
+topic: The world around us; Weather
+vocabulary:
+  - { target: hill, native: { nl: heuvel }, pos: noun }
+  - { target: cave, native: { nl: grot }, pos: noun }
+  - { target: desert, native: { nl: woestijn }, pos: noun }
+  - { target: ocean, native: { nl: oceaan }, pos: noun }
+  - { target: pond, native: { nl: vijver }, pos: noun }
+  - { target: stream, native: { nl: beek }, pos: noun }
+  - { target: wood, native: { nl: hout }, pos: noun }
+  - { target: air, native: { nl: lucht }, pos: noun }
+  - { target: fog, native: { nl: mist }, pos: noun }
+  - { target: foggy, native: { nl: mistig }, pos: adjective }
+  - { target: storm, native: { nl: storm }, pos: noun }
+  - { target: stone, native: { nl: steen }, pos: noun }
+  - { target: view, native: { nl: uitzicht }, pos: noun }
+  - { target: Earth, native: { nl: "de aarde" }, pos: noun }
+  - { target: planet, native: { nl: planeet }, pos: noun }
+  - { target: space, native: { nl: "de ruimte (heelal)" }, pos: noun }
+  - { target: spaceship, native: { nl: ruimteschip }, pos: noun, avoid: [en.rocket] }
+  - { target: rocket, native: { nl: raket }, pos: noun }
+  - { target: environment, native: { nl: "milieu, natuur" }, pos: noun }
+  - { target: wild, native: { nl: wild }, pos: adjective }
+  - { target: extinct, native: { nl: uitgestorven }, pos: adjective }
+  - { target: dinosaur, native: { nl: dinosaurus }, pos: noun }
+  - { target: creature, native: { nl: "wezen, beest" }, pos: noun }
+  - { target: nest, native: { nl: nest }, pos: noun }
+  - { target: wing, native: { nl: vleugel }, pos: noun }
+sentences:
+  - { id: s01, target: "We climbed up the hill.", native: { nl: "We klommen de heuvel op." }, items: [en.hill] }
+  - { id: s02, target: "We found a dark cave.", native: { nl: "We vonden een donkere grot." }, items: [en.cave] }
+  - { id: s03, target: "Camels live in the desert.", native: { nl: "Kamelen leven in de woestijn." }, items: [en.desert] }
+  - { id: s04, target: "Whales swim in the ocean.", native: { nl: "Walvissen zwemmen in de oceaan." }, items: [en.ocean] }
+  - { id: s05, target: "There are frogs in the pond.", native: { nl: "Er zitten kikkers in de vijver." }, items: [en.pond] }
+  - { id: s06, target: "We walked along a small stream.", native: { nl: "We liepen langs een kleine beek." }, items: [en.stream] }
+  - { id: s07, target: "This table is made of wood.", native: { nl: "Deze tafel is van hout gemaakt." }, items: [en.wood] }
+  - { id: s08, target: "The air is very cold today.", native: { nl: "De lucht is heel koud vandaag." }, items: [en.air] }
+  - { id: s09, target: "There was a lot of fog this morning.", native: { nl: "Er was vanochtend veel mist." }, items: [en.fog] }
+  - { id: s10, target: "It's foggy, so drive slowly.", native: { nl: "Het is mistig, dus rij langzaam." }, items: [en.foggy], acceptAlso: ["It is foggy, so drive slowly."] }
+  - { id: s11, target: "There was a big storm last night.", native: { nl: "Er was gisteravond een grote storm." }, items: [en.storm] }
+  - { id: s12, target: "He threw a stone into the lake.", native: { nl: "Hij gooide een steen in het meer." }, items: [en.stone] }
+  - { id: s13, target: "The view from the mountain is beautiful.", native: { nl: "Het uitzicht vanaf de berg is prachtig." }, items: [en.view] }
+  - { id: s14, target: "We live on planet Earth.", native: { nl: "Wij wonen op de planeet aarde." }, items: [en.earth, en.planet] }
+  - { id: s15, target: "Which planet is the biggest?", native: { nl: "Welke planeet is het grootst?" }, items: [en.planet] }
+  - { id: s16, target: "Astronauts travel into space.", native: { nl: "Astronauten reizen de ruimte in." }, items: [en.space] }
+  - { id: s17, target: "The spaceship landed on the moon.", native: { nl: "Het ruimteschip landde op de maan." }, items: [en.spaceship] }
+  - { id: s18, target: "The rocket is going very fast.", native: { nl: "De raket gaat heel snel." }, items: [en.rocket] }
+  - { id: s19, target: "We must look after the environment.", native: { nl: "We moeten goed voor het milieu zorgen." }, items: [en.environment] }
+  - { id: s20, target: "Lions are wild animals.", native: { nl: "Leeuwen zijn wilde dieren." }, items: [en.wild] }
+  - { id: s21, target: "Dinosaurs are extinct.", native: { nl: "Dinosaurussen zijn uitgestorven." }, items: [en.extinct] }
+  - { id: s22, target: "I saw a dinosaur at the museum.", native: { nl: "Ik zag een dinosaurus in het museum." }, items: [en.dinosaur] }
+  - { id: s23, target: "That is a strange creature.", native: { nl: "Dat is een vreemd wezen." }, items: [en.creature] }
+  - { id: s24, target: "There are three eggs in the nest.", native: { nl: "Er liggen drie eieren in het nest." }, items: [en.nest] }
+  - { id: s25, target: "The bird hurt its wing.", native: { nl: "De vogel heeft zijn vleugel bezeerd." }, items: [en.wing] }
+lessons:
+  - { id: l01, title: { nl: Land en water }, vocab: [en.hill, en.cave, en.desert, en.ocean, en.pond, en.stream, en.wood] }
+  - { id: l02, title: { nl: Mist en storm }, vocab: [en.air, en.fog, en.foggy, en.storm, en.stone, en.view] }
+  - { id: l03, title: { nl: De ruimte }, vocab: [en.earth, en.planet, en.space, en.spaceship, en.rocket, en.environment] }
+  - { id: l04, title: { nl: "Wilde dieren, nesten en vleugels" }, vocab: [en.wild, en.extinct, en.dinosaur, en.creature, en.nest, en.wing] }

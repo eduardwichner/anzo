@@ -1,0 +1,91 @@
+id: fr-b1-u19
+title: { nl: Werkwoorden, en: "Verbs" }
+icon: actions
+topic: Des verbes utiles du niveau B1 ; le passé composé et le futur de ces verbes
+vocabulary:
+  - { target: agir, native: { nl: handelen, en: "to act, to take action" }, pos: verb }
+  - { target: améliorer, native: { nl: verbeteren, en: "to improve" }, pos: verb }
+  - { target: développer, native: { nl: ontwikkelen, en: "to develop" }, pos: verb }
+  - { target: permettre, native: { nl: toestaan (mogelijk maken), en: "to allow, to let" }, pos: verb }
+  - { target: réaliser, native: { nl: verwezenlijken, en: "to achieve, to fulfil (a dream)" }, pos: verb }
+  - { target: remplacer, native: { nl: vervangen, en: "to replace" }, pos: verb }
+  - { target: atteindre, native: { nl: bereiken, en: "to reach" }, pos: verb }
+  - { target: conclure, native: { nl: "concluderen, afsluiten", en: "to conclude, to sum up" }, pos: verb, noBlank: true }
+  - { target: suffire, native: { nl: volstaan, en: "to be enough" }, pos: verb }
+  - { target: apparaître, native: { nl: verschijnen, en: "to appear" }, pos: verb }
+  - { target: considérer, native: { nl: beschouwen, en: "to consider, to regard" }, pos: verb }
+  - { target: concerner, native: { nl: betreffen, en: "to concern, to affect" }, pos: verb }
+  - { target: correspondre, native: { nl: overeenkomen, en: "to correspond, to tally" }, pos: verb }
+  - { target: exister, native: { nl: bestaan, en: "to exist" }, pos: verb }
+  - { target: éviter, native: { nl: vermijden, en: "to avoid" }, pos: verb }
+  - { target: exprimer, native: { nl: uitdrukken, en: "to express" }, pos: verb }
+  - { target: identifier, native: { nl: identificeren (herkennen), en: "to identify" }, pos: verb }
+  - { target: intégrer, native: { nl: opnemen (integreren), en: "to integrate, to fit in" }, pos: verb }
+  - { target: intéresser, native: { nl: interesseren, en: "to interest" }, pos: verb }
+  - { target: manquer, native: { nl: missen (ontbreken), en: "to miss, to be missing" }, pos: verb }
+  - { target: profiter, native: { nl: genieten (profiteren), en: "to make the most of, to take advantage of" }, pos: verb, avoid: [fr.beneficier] }
+  - { target: rendre, native: { nl: teruggeven, en: "to give back, to return" }, pos: verb }
+  - { target: repérer, native: { nl: opmerken (vinden), en: "to notice, to pick out" }, pos: verb }
+  - { target: reproduire, native: { nl: nadoen (namaken), en: "to copy, to reproduce" }, pos: verb }
+  - { target: retirer, native: { nl: weghalen (afhalen), en: "to withdraw, to take out" }, pos: verb }
+  - { target: servir, native: { nl: "dienen, opdienen", en: "to serve, to be used for" }, pos: verb }
+  - { target: supporter, native: { nl: verdragen, en: "to stand, to put up with" }, pos: verb }
+  - { target: surprendre, native: { nl: verrassen, en: "to surprise" }, pos: verb }
+  - { target: tenter, native: { nl: "proberen, wagen", en: "to try, to attempt" }, pos: verb }
+  - { target: terminer, native: { nl: "beëindigen, afmaken", en: "to finish, to end" }, pos: verb }
+  - { target: varier, native: { nl: variëren, en: "to vary" }, pos: verb }
+  - { target: adapter, native: { nl: aanpassen, en: "to adapt" }, pos: verb }
+  - { target: appliquer, native: { nl: toepassen, en: "to apply" }, pos: verb }
+  - { target: apprécier, native: { nl: waarderen, en: "to appreciate" }, pos: verb, avoid: [fr.valoriser] }
+  - { target: avancer, native: { nl: vooruitgaan, en: "to move forward, to make progress" }, pos: verb }
+  - { target: arrêter, native: { nl: stoppen (ophouden), en: "to stop" }, pos: verb }
+  - { target: composer, native: { nl: samenstellen (componeren), en: "to compose, to put together" }, pos: verb }
+  - { target: défendre, native: { nl: verdedigen, en: "to defend" }, pos: verb }
+  - { target: dépasser, native: { nl: voorbijgaan (overschrijden), en: "to exceed, to overtake, to go over" }, pos: verb }
+  - { target: dresser, native: { nl: opstellen (een lijst), en: "to draw up (a list)" }, pos: verb }
+  - { target: habituer, native: { nl: wennen (gewoon maken), en: "to get used to" }, pos: verb }
+  - { target: remplir, native: { nl: vullen (invullen), en: "to fill, to fill in" }, pos: verb }
+sentences:
+  - { id: s01, target: "Il faut agir maintenant pour protéger la planète.", native: { nl: "We moeten nu handelen om de planeet te beschermen.", en: "We must act now to protect the planet." }, items: [fr.agir] }
+  - { id: s02, target: "Cet été, je lirai beaucoup pour améliorer mon français.", native: { nl: "Deze zomer zal ik veel lezen om mijn Frans te verbeteren.", en: "This summer I'll read a lot to improve my French." }, items: [fr.ameliorer] }
+  - { id: s03, target: "Cette entreprise développe des jeux vidéo.", native: { nl: "Dit bedrijf ontwikkelt videospelletjes.", en: "This company develops video games." }, items: [fr.developper], finite: { word: développe, hint: { nl: "développer (présent)", en: "développer (present)" } } }
+  - { id: s04, target: "Mes parents ne me permettent pas de sortir le soir.", native: { nl: "Mijn ouders laten me 's avonds niet uitgaan.", en: "My parents don't allow me to go out in the evening." }, items: [fr.permettre] }
+  - { id: s05, target: "Il a réalisé son rêve : il est devenu pilote.", native: { nl: "Hij heeft zijn droom verwezenlijkt: hij is piloot geworden.", en: "He achieved his dream: he became a pilot." }, items: [fr.realiser] }
+  - { id: s06, target: "Le professeur malade est remplacé par une collègue.", native: { nl: "De zieke leraar wordt vervangen door een collega.", en: "The teacher who's ill is being replaced by a colleague." }, items: [fr.remplacer] }
+  - { id: s07, target: "Nous avons atteint le village après trois heures de marche.", native: { nl: "We hebben het dorp na drie uur wandelen bereikt.", en: "We reached the village after a three-hour walk." }, items: [fr.atteindre], acceptAlso: ["Après trois heures de marche, nous avons atteint le village."] }
+  - { id: s08, target: "Pour conclure, je vous remercie de votre attention.", native: { nl: "Tot slot dank ik jullie voor jullie aandacht.", en: "To conclude, thank you for your attention." }, items: [fr.conclure] }
+  - { id: s09, target: "Une heure de travail par jour suffit.", native: { nl: "Een uur werk per dag volstaat.", en: "One hour of work a day is enough." }, items: [fr.suffire], finite: { word: suffit, hint: { nl: "suffire (présent)", en: "suffire (present)" } } }
+  - { id: s10, target: "Le soleil est apparu après la pluie.", native: { nl: "De zon verscheen na de regen.", en: "The sun appeared after the rain." }, items: [fr.apparaitre] }
+  - { id: s11, target: "On le considère comme le meilleur joueur de l'équipe.", native: { nl: "Men beschouwt hem als de beste speler van het team.", en: "He's considered the best player in the team." }, items: [fr.considerer] }
+  - { id: s12, target: "Cette règle concerne tous les élèves.", native: { nl: "Deze regel betreft alle leerlingen.", en: "This rule concerns all the pupils." }, items: [fr.concerner], finite: { word: concerne, hint: { nl: "concerner (présent)", en: "concerner (present)" } } }
+  - { id: s13, target: "Ta réponse ne correspond pas à la question.", native: { nl: "Je antwoord komt niet overeen met de vraag.", en: "Your answer doesn't correspond to the question." }, items: [fr.correspondre] }
+  - { id: s14, target: "Ce magasin n'existe plus.", native: { nl: "Deze winkel bestaat niet meer.", en: "This shop doesn't exist any more." }, items: [fr.exister] }
+  - { id: s15, target: "Évite de manger trop de sucre.", native: { nl: "Vermijd het om te veel suiker te eten.", en: "Avoid eating too much sugar." }, items: [fr.eviter] }
+  - { id: s16, target: "Il n'est pas facile d'exprimer sa colère.", native: { nl: "Het is niet makkelijk om je woede te uiten.", en: "It isn't easy to express your anger." }, items: [fr.exprimer] }
+  - { id: s17, target: "La police a identifié le voleur grâce à une photo.", native: { nl: "De politie heeft de dief geïdentificeerd dankzij een foto.", en: "The police identified the thief thanks to a photo." }, items: [fr.identifier] }
+  - { id: s18, target: "Le nouvel élève s'est bien intégré dans la classe.", native: { nl: "De nieuwe leerling is goed opgenomen in de klas.", en: "The new pupil has fitted in well with the class." }, items: [fr.integrer] }
+  - { id: s19, target: "L'histoire m'intéresse beaucoup.", native: { nl: "Geschiedenis interesseert me erg.", en: "History interests me a lot." }, items: [fr.interesser] }
+  - { id: s20, target: "Tu me manques beaucoup.", native: { nl: "Ik mis je erg.", en: "I miss you a lot." }, items: [fr.manquer] }
+  - { id: s21, target: "Profitez bien de vos vacances !", native: { nl: "Geniet goed van jullie vakantie!", en: "Make the most of your holidays!" }, items: [fr.profiter] }
+  - { id: s22, target: "N'oublie pas de rendre le livre à la bibliothèque.", native: { nl: "Vergeet niet het boek terug te brengen naar de bibliotheek.", en: "Don't forget to return the book to the library." }, items: [fr.rendre] }
+  - { id: s23, target: "J'ai repéré une erreur dans ton devoir.", native: { nl: "Ik heb een fout in je huiswerk opgemerkt.", en: "I've noticed a mistake in your homework." }, items: [fr.reperer] }
+  - { id: s24, target: "Les enfants reproduisent souvent les gestes des parents.", native: { nl: "Kinderen doen vaak de gebaren van hun ouders na.", en: "Children often copy their parents' gestures." }, items: [fr.reproduire] }
+  - { id: s25, target: "Je dois retirer de l'argent à la banque.", native: { nl: "Ik moet geld afhalen bij de bank.", en: "I have to withdraw some money from the bank." }, items: [fr.retirer] }
+  - { id: s26, target: "À quoi sert cet appareil ?", native: { nl: "Waarvoor dient dit apparaat?", en: "What is this device used for?" }, items: [fr.servir] }
+  - { id: s27, target: "Je ne supporte pas le bruit quand je travaille.", native: { nl: "Ik verdraag geen lawaai als ik werk.", en: "I can't stand noise when I'm working." }, items: [fr.supporter], finite: { word: supporte, hint: { nl: "supporter (présent)", en: "supporter (present)" } } }
+  - { id: s28, target: "Sa réponse m'a beaucoup surpris.", native: { nl: "Zijn antwoord heeft me erg verrast.", en: "His answer really surprised me." }, items: [fr.surprendre] }
+  - { id: s29, target: "Il veut tenter sa chance au concours.", native: { nl: "Hij wil zijn kans wagen bij de wedstrijd.", en: "He wants to try his luck in the competition." }, items: [fr.tenter] }
+  - { id: s30, target: "Les cours se terminent à quinze heures.", native: { nl: "De lessen eindigen om vijftien uur.", en: "Lessons end at three in the afternoon." }, items: [fr.terminer] }
+  - { id: s31, target: "Le prix varie selon la saison.", native: { nl: "De prijs varieert naargelang het seizoen.", en: "The price varies according to the season." }, items: [fr.varier], finite: { word: varie, hint: { nl: "varier (présent)", en: "varier (present)" } } }
+  - { id: s32, target: "Il faut adapter le texte pour les plus jeunes.", native: { nl: "De tekst moet aangepast worden voor de jongsten.", en: "The text needs to be adapted for the youngest children." }, items: [fr.adapter] }
+  - { id: s33, target: "Appliquez la règle à chaque phrase.", native: { nl: "Pas de regel toe op elke zin.", en: "Apply the rule to each sentence." }, items: [fr.appliquer] }
+  - { id: s34, target: "J'apprécie beaucoup ton aide.", native: { nl: "Ik waardeer je hulp erg.", en: "I really appreciate your help." }, items: [fr.apprecier] }
+  - { id: s35, target: "Le travail avance bien.", native: { nl: "Het werk schiet goed op.", en: "The work is progressing well." }, items: [fr.avancer] }
+  - { id: s36, target: "Arrête de parler, s'il te plaît.", native: { nl: "Stop met praten, alsjeblieft.", en: "Stop talking, please." }, items: [fr.arreter] }
+  - { id: s37, target: "L'équipe est composée de onze joueurs.", native: { nl: "Het team bestaat uit elf spelers.", en: "The team is composed of eleven players." }, items: [fr.composer] }
+  - { id: s38, target: "Il défend toujours ses amis.", native: { nl: "Hij verdedigt altijd zijn vrienden.", en: "He always defends his friends." }, items: [fr.defendre], finite: { word: défend, hint: { nl: "défendre (présent)", en: "défendre (present)" } } }
+  - { id: s39, target: "Ne dépasse pas la limitation de vitesse !", native: { nl: "Overschrijd de snelheidsbeperking niet!", en: "Don't go over the speed limit!" }, items: [fr.depasser] }
+  - { id: s40, target: "Nous avons dressé une liste des choses à faire.", native: { nl: "We hebben een lijst opgesteld van wat er moet gebeuren.", en: "We drew up a list of things to do." }, items: [fr.dresser] }
+  - { id: s41, target: "Je me suis vite habitué à ma nouvelle école.", native: { nl: "Ik ben snel gewend geraakt aan mijn nieuwe school.", en: "I quickly got used to my new school." }, items: [fr.habituer] }
+  - { id: s42, target: "Remplis la bouteille d'eau avant de partir.", native: { nl: "Vul de fles met water voor je vertrekt.", en: "Fill the bottle with water before you leave." }, items: [fr.remplir], acceptAlso: ["Avant de partir, remplis la bouteille d'eau."] }
+texts: [fr-b1-t20]

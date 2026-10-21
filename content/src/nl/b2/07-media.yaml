@@ -1,0 +1,119 @@
+id: nl-b2-u07
+title: { en: Media and information }
+icon: news
+topic: News, fake news, social media and algorithms; fixed prepositions (afhangen van, wijzen op, twijfelen aan, op de hoogte zijn van)
+vocabulary:
+  - { target: de media, native: { en: the media }, pos: noun, plural: "-" }
+  - { target: het nepnieuws, native: { en: fake news }, pos: noun, plural: "-", avoid: [nl.desinformatie] }
+  - { target: de desinformatie, native: { en: disinformation }, pos: noun, plural: "-" }
+  - { target: het algoritme, native: { en: algorithm }, pos: noun, plural: algoritmes }
+  - { target: de journalistiek, native: { en: journalism }, pos: noun, plural: "-" }
+  - { target: de redactie, native: { en: "editorial team, newsroom" }, pos: noun, plural: redacties }
+  - { target: het tijdschrift, native: { en: magazine }, pos: noun, plural: tijdschriften }
+  - { target: de kop, native: { en: "headline; head" }, pos: noun, plural: koppen, noBlank: true }
+  - { target: het feit, native: { en: fact }, pos: noun, plural: feiten }
+  - { target: de propaganda, native: { en: propaganda }, pos: noun, plural: "-" }
+  - { target: de censuur, native: { en: censorship }, pos: noun, plural: "-" }
+  - { target: de persvrijheid, native: { en: freedom of the press }, pos: noun, plural: "-" }
+  - { target: het platform, native: { en: platform }, pos: noun, plural: platformen }
+  - { target: de volger, native: { en: follower }, pos: noun, plural: volgers }
+  - { target: de schermtijd, native: { en: screen time }, pos: noun, plural: "-" }
+  - { target: de betaalmuur, native: { en: paywall }, pos: noun, plural: betaalmuren }
+  - { target: de podcast, native: { en: podcast }, pos: noun, plural: podcasts }
+  - { target: de omroep, native: { en: broadcaster }, pos: noun, plural: omroepen }
+  - { target: de kijker, native: { en: viewer }, pos: noun, plural: kijkers }
+  - { target: de lezer, native: { en: reader }, pos: noun, plural: lezers }
+  - { target: het commentaar, native: { en: comment }, pos: noun, plural: commentaren }
+  - { target: de hoogte, native: { en: "height; up to date (as in: to keep up to date with)" }, pos: noun, plural: hoogten, noBlank: true }
+  - { target: de nieuwsbrief, native: { en: newsletter }, pos: noun, plural: nieuwsbrieven }
+  - { target: de tijdlijn, native: { en: "timeline, feed" }, pos: noun, plural: tijdlijnen }
+  - { target: het haatbericht, native: { en: hate message }, pos: noun, plural: haatberichten }
+  - { target: het beeld, native: { en: "image, picture" }, pos: noun, plural: beelden }
+  - { target: de auteur, native: { en: author }, pos: noun, plural: auteurs }
+  - { target: de emotie, native: { en: emotion }, pos: noun, plural: emoties }
+  - { target: de waarheid, native: { en: truth }, pos: noun, plural: waarheden }
+  - { target: de leugen, native: { en: lie }, pos: noun, plural: leugens }
+  - { target: de overheid, native: { en: "government, the authorities" }, pos: noun, plural: overheden }
+  - { target: de rol, native: { en: role }, pos: noun, plural: rollen }
+  - { target: het belang, native: { en: "importance; interest" }, pos: noun, plural: belangen }
+  - { target: verspreiden, native: { en: "to spread, to distribute" }, pos: verb }
+  - { target: nagaan, native: { en: "to check, to find out" }, pos: verb, avoid: [nl.controleren] }
+  - { target: manipuleren, native: { en: to manipulate }, pos: verb }
+  - { target: vervalsen, native: { en: "to fake, to forge" }, pos: verb }
+  - { target: twijfelen, native: { en: "to doubt (+ aan)" }, pos: verb }
+  - { target: zich baseren, native: { en: "to base (oneself) on (+ op)" }, pos: verb }
+  - { target: verwijzen, native: { en: "to refer (+ naar)" }, pos: verb }
+  - { target: verzinnen, native: { en: "to make up, to invent" }, pos: verb }
+  - { target: onbetrouwbaar, native: { en: unreliable }, pos: adjective }
+  - { target: objectief, native: { en: objective }, pos: adjective, avoid: [nl.subjectief] }
+  - { target: subjectief, native: { en: subjective }, pos: adjective }
+  - { target: kritisch, native: { en: critical }, pos: adjective }
+  - { target: geloofwaardig, native: { en: credible }, pos: adjective }
+  - { target: twijfelachtig, native: { en: "doubtful, questionable" }, pos: adjective }
+  - { target: de datum, native: { en: date }, pos: noun, plural: data }
+  - { target: de pers, native: { en: the press }, pos: noun, plural: "-", avoid: [nl.media] }
+  - { target: de tekst, native: { en: text }, pos: noun, plural: teksten }
+  - { target: verwijderen, native: { en: "to remove, to delete" }, pos: verb }
+  - { target: blijken, native: { en: "to turn out, to appear" }, pos: verb }
+  - { target: bestrijden, native: { en: "to fight, to combat" }, pos: verb }
+  - { target: beschermen, native: { en: to protect }, pos: verb }
+  - { target: openbaar, native: { en: public }, pos: adjective }
+  - { target: tegenwoordig, native: { en: "nowadays" }, pos: adverb }
+  - { target: alsof, native: { en: "as if" }, pos: conjunction }
+  - { target: miljoen, native: { en: million }, pos: number }
+sentences:
+  - { id: s01, target: "De media spelen een grote rol in ons leven.", native: { en: "The media play a big role in our lives." }, items: [nl.media, nl.rol] }
+  - { id: s02, target: "Nepnieuws wordt vaak sneller gedeeld dan echt nieuws.", native: { en: "Fake news is often shared faster than real news." }, items: [nl.nepnieuws] }
+  - { id: s03, target: "Tijdens verkiezingen wordt er veel desinformatie verspreid.", native: { en: "During elections a lot of disinformation is spread." }, items: [nl.desinformatie, nl.verspreiden], acceptAlso: ["Er wordt tijdens verkiezingen veel desinformatie verspreid."] }
+  - { id: s04, target: "Het algoritme toont je vooral berichten die je al leuk vindt.", native: { en: "The algorithm mainly shows you posts that you already like." }, items: [nl.algoritme] }
+  - { id: s05, target: "Goede journalistiek is belangrijk voor een vrij land.", native: { en: "Good journalism is important for a free country." }, items: [nl.journalistiek] }
+  - { id: s06, target: "De redactie controleert elk artikel voordat het verschijnt.", native: { en: "The editorial team checks every article before it appears." }, items: [nl.redactie], acceptAlso: ["Voordat het verschijnt, controleert de redactie elk artikel."] }
+  - { id: s07, target: "Bij de dokter lag een oud tijdschrift.", native: { en: "At the doctor's there was an old magazine." }, items: [nl.tijdschrift] }
+  - { id: s08, target: "Veel mensen lezen alleen de kop van een artikel.", native: { en: "Many people only read the headline of an article." }, items: [nl.kop] }
+  - { id: s09, target: "Een journalist moet feiten en meningen goed uit elkaar houden.", native: { en: "A journalist has to keep facts and opinions clearly separate." }, items: [nl.feit], acceptAlso: ["Feiten en meningen moet een journalist goed uit elkaar houden."] }
+  - { id: s10, target: "In sommige landen is er veel propaganda en censuur.", native: { en: "In some countries there is a lot of propaganda and censorship." }, items: [nl.propaganda, nl.censuur] }
+  - { id: s11, target: "Persvrijheid bestaat niet in elk land.", native: { en: "Freedom of the press does not exist in every country." }, items: [nl.persvrijheid] }
+  - { id: s12, target: "Op welk platform deel je je foto's?", native: { en: "Which platform do you share your photos on?" }, items: [nl.platform] }
+  - { id: s13, target: "Die influencer heeft meer dan een miljoen volgers.", native: { en: "That influencer has more than a million followers." }, items: [nl.volger, nl.miljoen] }
+  - { id: s14, target: "Ouders maken zich zorgen over de schermtijd van hun kinderen.", native: { en: "Parents worry about their children's screen time." }, items: [nl.schermtijd] }
+  - { id: s15, target: "Achter de betaalmuur staan de beste artikels.", native: { en: "The best articles are behind the paywall." }, items: [nl.betaalmuur], acceptAlso: ["De beste artikels staan achter de betaalmuur."] }
+  - { id: s16, target: "Op weg naar het werk luister ik naar een podcast.", native: { en: "On the way to work I listen to a podcast." }, items: [nl.podcast], acceptAlso: ["Ik luister op weg naar het werk naar een podcast.", "Ik luister naar een podcast op weg naar het werk."] }
+  - { id: s17, target: "De openbare omroep moet onafhankelijk blijven.", native: { en: "The public broadcaster must remain independent." }, items: [nl.omroep, nl.openbaar] }
+  - { id: s18, target: "Het programma had gisteren een miljoen kijkers.", native: { en: "The programme had a million viewers yesterday." }, items: [nl.kijker], acceptAlso: ["Gisteren had het programma een miljoen kijkers."] }
+  - { id: s19, target: "De krant vraagt haar lezers om hun mening.", native: { en: "The newspaper asks its readers for their opinion." }, items: [nl.lezer] }
+  - { id: s20, target: "Onder het artikel staan veel commentaren.", native: { en: "There are a lot of comments under the article." }, items: [nl.commentaar] }
+  - { id: s21, target: "Ben je op de hoogte van het laatste nieuws?", native: { en: "Are you up to date with the latest news?" }, items: [nl.hoogte] }
+  - { id: s22, target: "Via de nieuwsbrief blijf je op de hoogte.", native: { en: "The newsletter keeps you up to date." }, items: [nl.nieuwsbrief, nl.hoogte] }
+  - { id: s23, target: "Mijn tijdlijn staat vol reclame.", native: { en: "My feed is full of adverts." }, items: [nl.tijdlijn] }
+  - { id: s24, target: "Haatberichten worden door het platform verwijderd.", native: { en: "Hate messages are removed by the platform." }, items: [nl.haatbericht, nl.verwijderen], acceptAlso: ["Haatberichten worden verwijderd door het platform."] }
+  - { id: s25, target: "Dit beeld werd gemaakt met een computerprogramma.", native: { en: "This image was made with a computer program." }, items: [nl.beeld] }
+  - { id: s26, target: "Wie is de auteur van dit artikel?", native: { en: "Who is the author of this article?" }, items: [nl.auteur] }
+  - { id: s27, target: "Nepnieuws speelt vaak in op onze emoties.", native: { en: "Fake news often plays on our emotions." }, items: [nl.emotie] }
+  - { id: s28, target: "Niet alles wat je online leest, is de waarheid.", native: { en: "Not everything you read online is the truth." }, items: [nl.waarheid], form: { word: waarheid, stem: waar } }
+  - { id: s29, target: "Dat verhaal bleek een leugen te zijn.", native: { en: "That story turned out to be a lie." }, items: [nl.leugen, nl.blijken] }
+  - { id: s30, target: "De overheid wil desinformatie beter bestrijden.", native: { en: "The government wants to fight disinformation more effectively." }, items: [nl.overheid, nl.bestrijden] }
+  - { id: s31, target: "Een vrije pers is van groot belang voor iedereen.", native: { en: "A free press is of great importance to everyone." }, items: [nl.belang, nl.pers] }
+  - { id: s32, target: "Ga altijd na waar een bericht vandaan komt.", native: { en: "Always check where a message comes from." }, items: [nl.nagaan] }
+  - { id: s33, target: "Met beelden kun je mensen gemakkelijk manipuleren.", native: { en: "With images you can easily manipulate people." }, items: [nl.manipuleren] }
+  - { id: s34, target: "De foto was vervalst om de burgemeester slecht te maken.", native: { en: "The photo had been faked to make the mayor look bad." }, items: [nl.vervalsen] }
+  - { id: s35, target: "Ik twijfel aan de bron van dit artikel.", native: { en: "I have doubts about the source of this article." }, items: [nl.twijfelen], finite: { word: twijfel, hint: { en: "twijfelen (present)" } }, acceptAlso: ["Aan de bron van dit artikel twijfel ik."] }
+  - { id: s36, target: "Waarop baseert de journalist zich?", native: { en: "What is the journalist basing this on?" }, items: [nl.zich-baseren] }
+  - { id: s37, target: "Het artikel verwijst naar een recent onderzoek.", native: { en: "The article refers to a recent study." }, items: [nl.verwijzen], finite: { word: verwijst, hint: { en: "verwijzen (present)" } } }
+  - { id: s38, target: "Hij heeft het hele verhaal zelf verzonnen.", native: { en: "He made up the whole story himself." }, items: [nl.verzinnen], acceptAlso: ["Hij heeft zelf het hele verhaal verzonnen.", "Het hele verhaal heeft hij zelf verzonnen."] }
+  - { id: s39, target: "Die website is onbetrouwbaar: er staan veel fouten in.", native: { en: "That website is unreliable: there are a lot of mistakes on it." }, items: [nl.onbetrouwbaar] }
+  - { id: s40, target: "Een nieuwsbericht moet objectief zijn, een mening mag subjectief zijn.", native: { en: "A news report has to be objective, an opinion may be subjective." }, items: [nl.objectief, nl.subjectief] }
+  - { id: s41, target: "Sta kritisch tegenover wat je op sociale media leest.", native: { en: "Be critical of what you read on social media." }, items: [nl.kritisch] }
+  - { id: s42, target: "Zijn verhaal klinkt niet erg geloofwaardig.", native: { en: "His story doesn't sound very credible." }, items: [nl.geloofwaardig] }
+  - { id: s43, target: "Het resultaat van dat onderzoek is twijfelachtig.", native: { en: "The result of that study is questionable." }, items: [nl.twijfelachtig], form: { word: twijfelachtig, stem: twijfel } }
+  - { id: s44, target: "Of een bericht geloofwaardig is, hangt af van de bron.", native: { en: "Whether a report is credible depends on the source." }, items: [nl.geloofwaardig], build: true }
+  - { id: s45, target: "Kijk altijd naar de datum van een bericht.", native: { en: "Always look at the date of a message." }, items: [nl.datum] }
+  - { id: s46, target: "Lees altijd de hele tekst en niet alleen de kop.", native: { en: "Always read the whole text and not just the headline." }, items: [nl.tekst, nl.kop] }
+  - { id: s47, target: "Hoe kun je kinderen beschermen tegen haatberichten?", native: { en: "How can you protect children against hate messages?" }, items: [nl.beschermen] }
+  - { id: s48, target: "Hij doet alsof hij alles weet.", native: { en: "He acts as if he knows everything." }, items: [nl.alsof] }
+  - { id: s49, target: "Tegenwoordig lezen veel mensen het nieuws op hun gsm.", native: { en: "Nowadays many people read the news on their mobile phones." }, items: [nl.tegenwoordig] }
+  - { id: s50, target: "Veel fouten in een artikel wijzen op een gebrek aan controle.", native: { en: "A lot of mistakes in an article point to a lack of checking." }, items: [nl.tekst] }
+transforms:
+  - { id: x01, from: "Ik denk niet dat dit bericht waar is.", key: twijfel, gapped: "Ik ___ dit bericht.", answers: ["twijfel aan", "twijfel aan de waarheid van"], items: [nl.twijfelen] }
+  - { id: x02, from: "De journalist gebruikte gegevens van de politie als basis voor zijn artikel.", key: baseerde, gapped: "De journalist ___ gegevens van de politie.", answers: ["baseerde zich op", "baseerde zijn artikel op", "baseerde zijn verhaal op", "baseerde zijn bericht op"], items: [nl.zich-baseren] }
+  - { id: x03, from: "Weet jij wat er in het nieuws gebeurd is?", key: hoogte, gapped: "Ben jij ___ het nieuws?", answers: ["op de hoogte van"], items: [nl.hoogte] }
+texts: [nl-b2-t08]

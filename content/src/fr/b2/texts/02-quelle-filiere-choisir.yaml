@@ -1,0 +1,41 @@
+id: fr-b2-t02
+kind: dialogue
+title: { nl: Welke studierichting kiezen?, en: "Which course to choose?" }
+topic: Études et orientation (deux élèves parlent de leur choix)
+level: B2
+speakers: { A: { name: Clara }, B: { name: Malik } }
+turns:
+  - { id: fr-b2-t02-s01, speaker: B, target: "Clara, tu as rendu ta fiche d'orientation ?", native: { nl: "Clara, heb je je formulier voor de studiekeuze al ingeleverd?", en: "Clara, have you handed in your course-choice form?" } }
+  - { id: fr-b2-t02-s02, speaker: A, target: "Pas encore. Il faut que je la rende avant vendredi, mais j'hésite toujours entre deux filières.", native: { nl: "Nog niet. Ik moet het voor vrijdag inleveren, maar ik twijfel nog altijd tussen twee studierichtingen.", en: "Not yet. I have to hand it in before Friday, but I still can't decide between two courses." } }
+  - { id: fr-b2-t02-s03, speaker: B, target: "Lesquelles ?", native: { nl: "Welke?", en: "Which ones?" } }
+  - { id: fr-b2-t02-s04, speaker: A, target: "Les sciences, parce que j'ai de bonnes notes, ou les arts, parce que c'est ma passion.", native: { nl: "Wetenschappen, omdat ik goede cijfers heb, of kunst, omdat dat mijn passie is.", en: "Science, because I get good marks, or art, because it's my passion." } }
+  - { id: fr-b2-t02-s05, speaker: B, target: "Et qu'est-ce que tes parents en pensent ?", native: { nl: "En wat denken je ouders ervan?", en: "And what do your parents think about it?" } }
+  - { id: fr-b2-t02-s06, speaker: A, target: "Ils voudraient que je choisisse les sciences. Selon eux, c'est plus sûr pour trouver un emploi.", native: { nl: "Ze zouden willen dat ik wetenschappen kies. Volgens hen is dat veiliger om werk te vinden.", en: "They'd like me to choose science. According to them, it's a safer way to find a job." } }
+  - { id: fr-b2-t02-s07, speaker: B, target: "Ils ont peut-être raison, mais c'est toi qui vas étudier pendant des années. Si tu n'aimes pas ce que tu fais, tu vas peut-être abandonner.", native: { nl: "Ze hebben misschien gelijk, maar jij bent degene die jarenlang gaat studeren. Als je niet graag doet wat je doet, haak je misschien af.", en: "Maybe they're right, but you're the one who's going to study for years. If you don't like what you're doing, you might give up." } }
+  - { id: fr-b2-t02-s08, speaker: A, target: "C'est exactement ce dont j'ai peur.", native: { nl: "Daar ben ik precies bang voor.", en: "That's exactly what I'm afraid of." } }
+  - { id: fr-b2-t02-s09, speaker: B, target: "Tu as parlé avec la responsable de l'orientation ?", native: { nl: "Heb je met de studiekeuzebegeleidster gepraat?", en: "Have you talked to the careers adviser?" } }
+  - { id: fr-b2-t02-s10, speaker: A, target: "Oui, elle m'a conseillé de faire un stage dans un atelier pour voir si le travail pratique me plaît vraiment.", native: { nl: "Ja, ze raadde me aan om stage te lopen in een atelier om te zien of het praktische werk me echt bevalt.", en: "Yes, she advised me to do a work placement in a studio to see whether I really like practical work." } }
+  - { id: fr-b2-t02-s11, speaker: B, target: "C'est une bonne idée. Moi, j'ai fait un stage dans un hôpital l'année dernière, et ça m'a beaucoup aidé.", native: { nl: "Dat is een goed idee. Ik heb vorig jaar stage gelopen in een ziekenhuis, en dat heeft me veel geholpen.", en: "That's a good idea. I did a work placement in a hospital last year, and it helped me a lot." } }
+  - { id: fr-b2-t02-s12, speaker: A, target: "Il faudrait que je le fasse pendant les vacances. Mais d'abord, je dois rattraper mes cours de maths.", native: { nl: "Ik zou het tijdens de vakantie moeten doen. Maar eerst moet ik mijn lessen wiskunde inhalen.", en: "I ought to do it in the holidays. But first I have to catch up on my maths lessons." } }
+  - { id: fr-b2-t02-s13, speaker: B, target: "Si tu veux, on peut réviser ensemble. Bien que je ne sois pas un génie, je comprends assez bien les maths.", native: { nl: "Als je wilt, kunnen we samen herhalen. Hoewel ik geen genie ben, begrijp ik wiskunde vrij goed.", en: "If you like, we can revise together. Although I'm no genius, I understand maths quite well." } }
+  - { id: fr-b2-t02-s14, speaker: A, target: "Merci, Malik. Tu es un vrai ami.", native: { nl: "Bedankt, Malik. Je bent een echte vriend.", en: "Thanks, Malik. You're a real friend." } }
+glossary:
+  - { word: fiche, native: { nl: "het formulier", en: "form" } }
+  - { word: atelier, native: { nl: "het atelier, de werkplaats", en: "studio, workshop" } }
+  - { word: génie, native: { nl: "het genie", en: "genius" } }
+items: [fr.orientation, fr.filiere, fr.abandonner, fr.pratique, fr.rattraper, fr.conseiller]
+questions:
+  - { id: fr-b2-t02-q1, type: summary, options: ["Clara hésite entre les sciences et les arts ; son ami lui conseille de choisir ce qu'elle aime et propose de l'aider en maths.", "Clara a déjà choisi les sciences, mais son ami pense qu'elle devrait plutôt faire un stage dans un hôpital.", "Clara et son ami se disputent parce qu'ils veulent tous les deux étudier les arts."], correct: 0 }
+  - { id: fr-b2-t02-q2, type: mc, question: "Pourquoi les parents de Clara préfèrent-ils les sciences ?", options: ["C'est plus sûr pour trouver un emploi.", "Clara n'a pas de talent pour les arts.", "Les études d'art sont trop chères."], correct: 0 }
+  - { id: fr-b2-t02-q3, type: true_false_notgiven, statement: "Malik a fait un stage dans un hôpital.", answer: true }
+  - { id: fr-b2-t02-q4, type: true_false_notgiven, statement: "Clara a des difficultés dans toutes les matières.", answer: false }
+  - { id: fr-b2-t02-q5, type: true_false_notgiven, statement: "La responsable de l'orientation connaît les parents de Clara.", answer: not_given }
+listeningQuestions:
+  - { id: fr-b2-t02-l1, type: complete, statement: "Clara doit rendre sa fiche avant ___.", answers: [vendredi] }
+  - { id: fr-b2-t02-l2, type: mc, question: "Que propose Malik ?", options: ["De réviser les maths ensemble.", "De parler aux parents de Clara.", "De choisir la même filière."], correct: 0 }
+openCloze:
+  - { sentence: fr-b2-t02-s02, word: entre }
+  - { sentence: fr-b2-t02-s07, word: qui }
+  - { sentence: fr-b2-t02-s08, word: dont }
+  - { sentence: fr-b2-t02-s10, word: si }
+orderable: false

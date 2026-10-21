@@ -1,0 +1,50 @@
+id: nl-pre-a1-u07
+title: { en: At home }
+icon: house
+topic: The home and its rooms
+vocabulary:
+  - { target: het huis, native: { en: house }, pos: noun, plural: huizen, avoid: [nl.appartement] }
+  - { target: het appartement, native: { en: flat }, pos: noun, plural: appartementen }
+  - { target: groot, native: { en: "big, large" }, pos: adjective, avoid: [nl.klein] }
+  - { target: klein, native: { en: small }, pos: adjective }
+  - { target: mooi, native: { en: "beautiful, nice" }, pos: adjective }
+  - { target: nieuw, native: { en: new }, pos: adjective }
+  - { target: de kamer, native: { en: room }, pos: noun, plural: kamers, category: true }
+  - { target: de keuken, native: { en: kitchen }, pos: noun, plural: keukens }
+  - { target: de badkamer, native: { en: bathroom }, pos: noun, plural: badkamers }
+  - { target: de slaapkamer, native: { en: bedroom }, pos: noun, plural: slaapkamers }
+  - { target: de woonkamer, native: { en: living room }, pos: noun, plural: woonkamers }
+  - { target: het toilet, native: { en: toilet }, pos: noun, plural: toiletten }
+  - { target: de tuin, native: { en: garden }, pos: noun, plural: tuinen }
+  - { target: de deur, native: { en: door }, pos: noun, plural: deuren }
+  - { target: het raam, native: { en: window }, pos: noun, plural: ramen }
+  - { target: de trap, native: { en: stairs }, pos: noun, plural: trappen }
+  - { target: de tafel, native: { en: table }, pos: noun, plural: tafels }
+  - { target: de stoel, native: { en: chair }, pos: noun, plural: stoelen }
+  - { target: de zetel, native: { en: "sofa, armchair" }, pos: noun, plural: zetels, alsoNL: de bank }
+  - { target: het bed, native: { en: bed }, pos: noun, plural: bedden }
+  - { target: de kast, native: { en: "cupboard, wardrobe" }, pos: noun, plural: kasten }
+  - { target: de lamp, native: { en: lamp }, pos: noun, plural: lampen }
+sentences:
+  - { id: s01, target: "Ik woon in een huis.", native: { en: "I live in a house." }, items: [nl.huis] }
+  - { id: s02, target: "Wij wonen in een appartement.", native: { en: "We live in a flat." }, items: [nl.appartement] }
+  - { id: s03, target: "Het huis is groot.", native: { en: "The house is big." }, items: [nl.huis, nl.groot] }
+  - { id: s04, target: "Mijn appartement is klein.", native: { en: "My flat is small." }, items: [nl.appartement, nl.klein] }
+  - { id: s05, target: "Het is een mooi huis.", native: { en: "It is a beautiful house." }, items: [nl.mooi, nl.huis] }
+  - { id: s06, target: "Het appartement is nieuw.", native: { en: "The flat is new." }, items: [nl.nieuw] }
+  - { id: s07, target: "Het huis heeft vier kamers.", native: { en: "The house has four rooms." }, items: [nl.kamer] }
+  - { id: s08, target: "De keuken is klein.", native: { en: "The kitchen is small." }, items: [nl.keuken] }
+  - { id: s09, target: "Waar is de badkamer?", native: { en: "Where is the bathroom?" }, items: [nl.badkamer] }
+  - { id: s10, target: "Mijn appartement heeft twee slaapkamers.", native: { en: "My flat has two bedrooms." }, items: [nl.slaapkamer] }
+  - { id: s11, target: "De woonkamer is groot.", native: { en: "The living room is big." }, items: [nl.woonkamer] }
+  - { id: s12, target: "Het toilet is daar.", native: { en: "The toilet is over there." }, items: [nl.toilet], acceptAlso: ["Daar is het toilet."] }
+  - { id: s13, target: "Hebt u een tuin?", native: { en: "Do you have a garden?" }, items: [nl.tuin] }
+  - { id: s14, target: "De deur is groot.", native: { en: "The door is big." }, items: [nl.deur] }
+  - { id: s15, target: "Het raam is klein.", native: { en: "The window is small." }, items: [nl.raam] }
+  - { id: s16, target: "De trap is hier.", native: { en: "The stairs are here." }, items: [nl.trap], acceptAlso: ["Hier is de trap."] }
+  - { id: s17, target: "De tafel is nieuw.", native: { en: "The table is new." }, items: [nl.tafel] }
+  - { id: s18, target: "Ik heb vier stoelen.", native: { en: "I have four chairs." }, items: [nl.stoel] }
+  - { id: s19, target: "De zetel is heel mooi.", native: { en: "The sofa is very nice." }, items: [nl.zetel] }
+  - { id: s20, target: "Het bed is groot.", native: { en: "The bed is big." }, items: [nl.bed] }
+  - { id: s21, target: "De kast is in de slaapkamer.", native: { en: "The wardrobe is in the bedroom." }, items: [nl.kast, nl.slaapkamer] }
+  - { id: s22, target: "De woonkamer heeft een nieuwe lamp.", native: { en: "The living room has a new lamp." }, items: [nl.lamp, nl.nieuw] }

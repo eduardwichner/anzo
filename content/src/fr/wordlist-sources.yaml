@@ -1,0 +1,704 @@
+# Sources of the derived French word list (npm run content:wordlist -- fr → content/reference/extracted/wordlist-fr.json).
+# Method and counts: content/src/fr/WORDLIST.md. This file holds no text of the DELF Prim papers: only
+#   lexicon  French lemmas with part of speech and gender ("lemma = pos [gender]", ";" separates entries on a line).
+#            pos: n v adj adv prep conj pron det num ord phrase interj q; gender: m f mf mpl fpl.
+#            "lemma~tag" keeps two lemmas with the same spelling apart (orange~fruit, goûter~v); additions name the key.
+#            Which of them the papers attest, at which level and where, the builder finds in the extracted texts.
+#   names    proper names (attested in the papers, plus a few added for sentences)
+#   exclude  exam-instruction words of the child-facing text, by reason (listed in WORDLIST.md)
+#   topic    additions: everyday child vocabulary a DELF Prim theme needs at that level (theme + justification)
+#   parity   additions: concepts the English YLE plan teaches at the matching level (content/src/en/PLAN.md)
+
+lexicon: |
+  # --- articles, determiners, pronouns ---
+  le = det; un = num; de = prep; à = prep
+  mon = det; ton = det; son = det; notre = det; votre = det; leur = det
+  ce = det; quel = det; tout = det; chaque = det; plusieurs = det; autre = det; quelque = det; même = det; aucun = det
+  je = pron; tu = pron; il = pron; elle = pron; on = pron; nous = pron; vous = pron
+  me = pron; te = pron; se = pron; moi = pron; toi = pron; lui = pron; eux = pron; en = prep; y = pron
+  ça = pron; cela = pron; qui = pron; que = pron; quoi = pron; rien = pron; personne = n f
+  quelqu'un = pron; quelque chose = pron; chacun = pron; tout le monde = phrase; celui = pron
+  # --- small words ---
+  et = conj; ou = conj; mais = conj; si = conj; parce que = conj; alors = adv; donc = conj; comme = conj; quand = q
+  ne = adv; pas = adv; non = interj; oui = interj; très = adv; aussi = adv; trop = adv; peu = adv; un peu = adv; beaucoup = adv
+  plus = adv; moins = adv; bien = adv; mal = adv; mieux = adv; encore = adv; déjà = adv; toujours = adv; jamais = adv
+  souvent = adv; parfois = adv; vite = adv; ici = adv; là = adv; loin = adv; près = adv; tôt = adv; tard = adv
+  ensemble = adv; maintenant = adv; aujourd'hui = adv; demain = adv; hier = adv; après = prep; avant = prep; depuis = prep
+  pendant = prep; ensuite = adv; puis = adv; d'abord = adv; enfin = adv; peut-être = adv; vraiment = adv; seulement = adv
+  presque = adv; assez = adv; tout de suite = adv; bientôt = adv; tout droit = adv; dedans = adv; dehors = adv
+  jusque = prep; dans = prep; sur = prep; sous = prep; avec = prep; sans = prep; chez = prep; pour = prep; par = prep; entre = prep
+  devant = prep; derrière = prep; vers = prep; contre = prep; à côté de = prep; en face de = prep; près de = prep; loin de = prep
+  en haut = adv; en bas = adv; à droite = adv; à gauche = adv; à pied = adv; comment = q; où = q; pourquoi = q
+  combien = q; qu'est-ce que = q; est-ce que = q; il y a = phrase; voici = adv; voilà = interj; environ = adv
+  # --- greetings, politeness ---
+  bonjour = interj; salut = interj; au revoir = interj; coucou = interj; bonsoir = interj; bonne nuit = interj
+  merci = interj; s'il te plaît = phrase; s'il vous plaît = phrase; pardon = interj; d'accord = interj; bravo = interj
+  à bientôt = interj; à demain = interj; à tout à l'heure = interj; ça va = phrase; bienvenue = interj; excuse-moi = phrase
+  bon anniversaire = interj; bon week-end = interj; bonne journée = interj; bon appétit = interj; attention = n f
+  super = adj; génial = adj; oh là là = interj; zut = interj; bien sûr = adv; je m'appelle = phrase; j'ai = phrase
+  # --- numbers ---
+  zéro = num; deux = num; trois = num; quatre = num; cinq = num; six = num; sept = num; huit = num; neuf = num; dix = num
+  onze = num; douze = num; treize = num; quatorze = num; quinze = num; seize = num; dix-sept = num; dix-huit = num
+  dix-neuf = num; vingt = num; trente = num; quarante = num; cinquante = num; soixante = num; soixante-dix = num
+  quatre-vingts = num; quatre-vingt-dix = num; cent = num; mille = num; vingt et un = num
+  premier = ord; deuxième = ord; troisième = ord; dernier = adj; nombre = n m; numéro = n m; moitié = n f
+  # --- me, family, people ---
+  famille = n f; parent = n m; maman = n f; papa = n m; mère = n f; père = n m; frère = n m; sœur = n f
+  grand-père = n m; grand-mère = n f; grand-parent = n m; grands-parents = n mpl; bébé = n m; enfant = n mf
+  fille = n f; garçon = n m; ami = n m; amie = n f; copain = n m; copine = n f; cousin = n m; cousine = n f
+  oncle = n m; tante = n f; fils = n m; homme = n m; femme = n f; gens = n mpl; voisin = n m; camarade = n mf
+  correspondant = n m; prénom = n m; nom = n m; âge = n m; an = n m; année = n f; anniversaire = n m
+  nationalité = n f; monsieur = n m; madame = n f; mademoiselle = n f; mari = n m; jumeau = n m
+  # --- countries, languages ---
+  pays = n m; langue = n f; français = adj; anglais = adj; néerlandais = adj; allemand = adj; espagnol = adj
+  italien = adj; suisse = adj; belge = adj; hollandais = adj; pays-bas = n mpl; europe = n f; monde = n m
+  # --- body ---
+  corps = n m; tête = n f; cheveux = n mpl; œil = n m; nez = n m; bouche = n f; oreille = n f; dent = n f
+  visage = n m; main = n f; bras = n m; jambe = n f; pied = n m; dos = n m; ventre = n m; cou = n m
+  doigt = n m; genou = n m; épaule = n f; gorge = n f; cœur = n m; blond = adj; brun = adj; roux = adj
+  # --- health ---
+  malade = adj; mal~n = n m; médecin = n m; docteur = n m; hôpital = n m; médicament = n m; fièvre = n f
+  pharmacie = n f; dentiste = n mf; infirmier = n m; tousser = v; se blesser = v; se casser = v; guérir = v
+  rhume = n m; santé = n f; avoir mal = phrase; en forme = adj
+  # --- clothes ---
+  vêtement = n m; robe = n f; pull = n m; pantalon = n m; jupe = n f; t-shirt = n m; chemise = n f
+  chaussure = n f; chaussette = n f; chapeau = n m; casquette = n f; manteau = n m; veste = n f; lunettes = n fpl
+  maillot de bain = n m; short = n m; jean = n m; écharpe = n f; gant = n m; bonnet = n m; botte = n f
+  sac = n m; sac à dos = n m; montre = n f; poche = n f; porter = v; mettre = v; s'habiller = v; enlever = v
+  # --- colours, shapes, describing ---
+  couleur = n f; rouge = adj; bleu = adj; jaune = adj; vert = adj; noir = adj; blanc = adj; rose = adj
+  orange = adj; violet = adj; gris = adj; marron = adj; clair = adj; foncé = adj
+  grand = adj; petit = adj; gros = adj; beau = adj; joli = adj; nouveau = adj; vieux = adj; jeune = adj
+  long = adj; court = adj; préféré = adj; bon = adj; mauvais = adj; chaud = adj; froid = adj; gentil = adj
+  méchant = adj; drôle = adj; sympa = adj; content = adj; triste = adj; fatigué = adj; fort = adj; timide = adj
+  sage = adj; mince = adj; heureux = adj; malheureux = adj; fâché = adj; fier = adj; inquiet = adj; surpris = adj
+  calme = adj; curieux = adj; amusant = adj; intelligent = adj; poli = adj; prêt = adj; facile = adj; difficile = adj
+  vrai = adj; faux = adj; parfait = adj; ancien = adj; important = adj; absent = adj; perdu = adj; interdit = adj
+  cher = adj; seul = adj; propre = adj; sale = adj; différent = adj; pareil = adj; léger = adj; lourd = adj
+  rapide = adj; lent = adj; haut = adj; bas = adj; dur = adj; doux = adj; mou = adj; plein = adj; vide = adj
+  meilleur = adj; excellent = adj; magnifique = adj; bizarre = adj; dangereux = adj; énorme = adj; minuscule = adj
+  libre = adj; occupé = adj; ouvert = adj; fermé = adj; assis = adj; debout = adv; rond = adj; carré = adj
+  # --- food and drink ---
+  pomme = n f; banane = n f; fraise = n f; framboise = n f; orange~fruit = n f; poire = n f; raisin = n m
+  citron = n m; cerise = n f; fruit = n m; légume = n m; tomate = n f; carotte = n f; pomme de terre = n f
+  salade = n f; haricot = n m; petit pois = n m; oignon = n m; champignon = n m
+  gâteau = n m; chocolat = n m; pain = n m; lait = n m; eau = n f; jus = n m; fromage = n m; œuf = n m
+  crêpe = n f; pizza = n f; frites = n fpl; pâtes = n fpl; riz = n m; viande = n f; poulet = n m; jambon = n m
+  saucisse = n f; soupe = n f; glace = n f; bonbon = n m; biscuit = n m; confiture = n f; beurre = n m
+  sucre = n m; sel = n m; poivre = n m; farine = n f; miel = n m; yaourt = n m; céréales = n fpl; sandwich = n m
+  thé = n m; café = n m; chocolat chaud = n m; limonade = n f; boisson = n f; croissant = n m; tarte = n f
+  dessert = n m; plat = n m; repas = n m; petit-déjeuner = n m; déjeuner = n m; goûter = n m; dîner = n m
+  menu = n m; recette = n f; assiette = n f; verre = n m; tasse = n f; bol = n m; fourchette = n f
+  couteau = n m; cuillère = n f; bouteille = n f; four = n m; frigo = n m; casserole = n f; poêle = n f
+  manger = v; boire = v; avoir faim = phrase; avoir soif = phrase; faim = n f; soif = n f; cuisiner = v
+  préparer = v; couper = v; mélanger = v; cuire = v; goûter~v = v; commander = v; délicieux = adj
+  sucré = adj; salé = adj; épicé = adj
+  # --- animals ---
+  animal = n m; chat = n m; chien = n m; poisson = n m; oiseau = n m; cheval = n m; lapin = n m; souris = n f
+  vache = n f; cochon = n m; mouton = n m; poule = n f; canard = n m; grenouille = n f; éléphant = n m
+  lion = n m; singe = n m; girafe = n f; tigre = n m; serpent = n m; ours = n m; hamster = n m; tortue = n f
+  crocodile = n m; zèbre = n m; âne = n m; chèvre = n f; araignée = n f; abeille = n f; papillon = n m
+  insecte = n m; fourmi = n f; loup = n m; renard = n m; écureuil = n m; dauphin = n m; baleine = n f
+  requin = n m; perroquet = n m; poisson rouge = n m; vétérinaire = n mf; cage = n f; niche = n f
+  animal domestique = n m; queue = n f; aile = n f; plume = n f; patte = n f; poussin = n m; chaton = n m; chiot = n m
+  domestique = adj; sauvage = adj
+  # --- home ---
+  maison = n f; appartement = n m; chambre = n f; cuisine = n f; salle de bain = n f; salon = n m
+  salle à manger = n f; toilettes = n fpl; jardin = n m; porte = n f; fenêtre = n f; table = n f; chaise = n f
+  lit = n m; canapé = n m; lampe = n f; armoire = n f; placard = n m; bureau = n m; étagère = n f; tapis = n m
+  mur = n m; toit = n m; escalier = n m; étage = n m; rez-de-chaussée = n m; garage = n m; balcon = n m
+  couloir = n m; grenier = n m; cave = n f; douche = n f; bain = n m; baignoire = n f; miroir = n m; rideau = n m
+  coussin = n m; clé = n f; pièce = n f; meuble = n m; tiroir = n m; boîte = n f; objet = n m; affaires = n fpl
+  ranger = v; nettoyer = v; habiter = v; adresse = n f; rue = n f; place = n f; réveil = n m; télévision = n f
+  sonner = v; savon = n m; serviette = n f; brosse à dents = n f; dentifrice = n m; brosse = n f
+  # --- school ---
+  école = n f; classe = n f; professeur = n m; maîtresse = n f; maître = n m; élève = n mf; directeur = n m
+  livre = n m; cahier = n m; crayon = n m; stylo = n m; gomme = n f; règle = n f; ciseaux = n mpl; feuille = n f
+  trousse = n f; tableau = n m; colle = n f; cartable = n m; crayon de couleur = n m; feutre = n m; dessin = n m
+  image = n f; mot = n m; phrase = n f; lettre = n f; question = n f; réponse = n f; texte = n m; page = n f
+  exemple = n m; fiche = n f; histoire = n f; lecture = n f; leçon = n f; devoirs = n mpl; cours = n m
+  matière = n f; mathématiques = n fpl; maths = n fpl; géographie = n f; sciences = n fpl; récréation = n f
+  cantine = n f; bibliothèque = n f; dictionnaire = n m; erreur = n f; note = n f; examen = n m; rentrée = n f
+  emploi du temps = n m; tableau noir = n m; ordinateur = n m; tablette = n f; idée = n f; programme = n m
+  lire = v; écrire = v; dessiner = v; écouter = v; regarder = v; parler = v; répondre = v; comprendre = v
+  apprendre = v; compter = v; colorier = v; découper = v; coller = v; montrer = v; poser = v; répéter = v
+  épeler = v; expliquer = v; étudier = v; réfléchir = v; oublier = v; savoir = v; connaître = v; corriger = v
+  se tromper = v; réviser = v
+  # --- toys, leisure, sport, music ---
+  jeu = n m; jouet = n m; ballon = n m; balle = n f; poupée = n f; robot = n m; vélo = n m; trottinette = n f
+  sport = n m; football = n m; foot = n m; tennis = n m; basket = n m; volley = n m; ski = n m; natation = n f
+  danse = n f; judo = n m; gymnastique = n f; équitation = n f; randonnée = n f; promenade = n f; course = n f
+  marquer = v; match = n m; équipe = n f; joueur = n m; but = n m; stade = n m; piscine = n f; club = n m; gagner = v; perdre = v
+  musique = n f; chanson = n f; concert = n m; guitare = n f; piano = n m; violon = n m; batterie = n f; instrument = n m
+  film = n m; cinéma = n m; dessin animé = n m; photo = n f; appareil photo = n m; vidéo = n f; jeu vidéo = n m
+  magazine = n m; journal = n m; article = n m; bande dessinée = n f; théâtre = n m; cirque = n m; spectacle = n m
+  musée = n m; affiche = n f; matériel = n m; culturel = adj; côté = n m; fête = n f; cadeau = n m; carte = n f; invitation = n f; surprise = n f; bougie = n f; loisir = n m
+  activité = n f; vacances = n fpl; voyage = n m; visite = n f; sortie = n f; passion = n f; déguisement = n m
+  jouer = v; nager = v; chanter = v; danser = v; courir = v; sauter = v; lancer = v; attraper = v; marcher = v
+  grimper = v; skier = v; se baigner = v; pratiquer = v; s'amuser = v; s'entraîner = v; faire du vélo = phrase
+  # --- outside, nature, weather ---
+  parc = n m; plage = n f; mer = n f; montagne = n f; campagne = n f; ferme = n f; forêt = n f; arbre = n m
+  fleur = n f; plante = n f; herbe = n f; rivière = n f; lac = n m; île = n f; sable = n m; champ = n m
+  colline = n f; nature = n f; planète = n f; terre = n f; ciel = n m; soleil = n m; lune = n f; étoile = n f
+  temps = n m; pluie = n f; neige = n f; vent = n m; nuage = n m; orage = n m; brouillard = n m; météo = n f
+  température = n f; degré = n m; arc-en-ciel = n m; il fait beau = phrase; il fait chaud = phrase
+  il fait froid = phrase; pleuvoir = v; neiger = v; ensoleillé = adj; nuageux = adj; environnement = n m
+  papier = n m; poubelle = n f; déchet = n m; protéger = v; jeter = v; recycler = v; pollution = n f
+  # --- town, transport ---
+  ville = n f; village = n m; quartier = n m; centre = n m; magasin = n m; supermarché = n m; boulangerie = n f
+  marché = n m; restaurant = n m; poste = n f; gare = n f; aéroport = n m; hôtel = n m; banque = n f; mairie = n f
+  pont = n m; château = n m; église = n f; parking = n m; route = n f; chemin = n m; trottoir = n m; feu = n m
+  bus = n m; voiture = n f; train = n m; avion = n m; bateau = n m; métro = n m; tram = n m; taxi = n m; camion = n m
+  moto = n f; arrêt = n m; billet = n m; ticket = n m; valise = n f; bagages = n mpl; tente = n f; camping = n m
+  passeport = n m; souvenir = n m; plan = n m; départ = n m; arrivée = n f; entrée = n f; sortie de secours = n f
+  traverser = v; tourner = v; continuer = v; conduire = v; voyager = v; arriver = v; partir = v; rentrer = v
+  # --- time ---
+  jour = n m; matin = n m; après-midi = n m; soir = n m; soirée = n f; journée = n f; nuit = n f; heure = n f
+  minute = n f; seconde = n f; midi = n m; minuit = n m; demi = adj; quart = n m; semaine = n f; week-end = n m
+  mois = n m; date = n f; rendez-vous = n m; lundi = n m; mardi = n m; mercredi = n m; jeudi = n m; vendredi = n m
+  samedi = n m; dimanche = n m; janvier = n m; février = n m; mars = n m; avril = n m; mai = n m; juin = n m
+  juillet = n m; août = n m; septembre = n m; octobre = n m; novembre = n m; décembre = n m; printemps = n m
+  été = n m; automne = n m; hiver = n m; saison = n f; prochain = adj; à l'heure = adv; en retard = adv
+  # --- jobs ---
+  métier = n m; travail = n m; policier = n m; pompier = n m; boulanger = n m; serveur = n m; vendeur = n m
+  fermier = n m; chanteur = n m; acteur = n m; pilote = n mf; cuisinier = n m; facteur = n m; employé = n m
+  coiffeur = n m; artiste = n mf; travailler = v
+  # --- shopping, money, media ---
+  argent = n m; euro = n m; prix = n m; acheter = v; vendre = v; payer = v; coûter = v; essayer = v; client = n m
+  porte-monnaie = n m; téléphone = n m; téléphone portable = n m; portable = n m; mail = n m; message = n m
+  internet = n m; écran = n m; radio = n f; envoyer = v; recevoir = v; téléphoner = v; appeler = v
+  # --- feelings, communication ---
+  peur = n f; avoir peur = phrase; envie = n f; avoir envie de = phrase; besoin = n m; avoir besoin de = phrase
+  chance = n f; joie = n f; aide = n f; conversation = n f; accord = n m; être d'accord = phrase
+  rire = v; pleurer = v; sourire = v; s'ennuyer = v; penser = v; croire = v; espérer = v; dire = v; demander = v
+  raconter = v; discuter = v; remercier = v; s'excuser = v; proposer = v; accepter = v; refuser = v; inviter = v
+  décrire = v; présenter = v; se présenter = v; aimer = v; adorer = v; préférer = v; détester = v; il faut = phrase; falloir = v; plaire = v; entendre = v
+  # --- verbs (general) ---
+  être = v; avoir = v; faire = v; aller = v; venir = v; revenir = v; devenir = v; pouvoir = v; vouloir = v; devoir = v
+  prendre = v; donner = v; voir = v; ouvrir = v; fermer = v; dormir = v; sortir = v; entrer = v; monter = v
+  descendre = v; tomber = v; rester = v; naître = v; trouver = v; chercher = v; attendre = v; aider = v; laver = v
+  se laver = v; se lever = v; se coucher = v; se réveiller = v; se brosser = v; se coiffer = v; coiffer = v
+  s'endormir = v; se promener = v; se dépêcher = v; s'asseoir = v; s'appeler = v; s'occuper = v; occuper = v
+  commencer = v; finir = v; choisir = v; grandir = v; apporter = v; laisser = v; mettre la table = phrase
+  visiter = v; passer = v; garder = v; soigner = v; nourrir = v; promener = v; rencontrer = v; réserver = v
+  changer = v; utiliser = v; casser = v; tenir = v; habiller = v; compléter = v
+  observer = v; aimer bien = phrase; vivre = v; allumer = v; éteindre = v; offrir = v
+  fêter = v; se déguiser = v; jouer de = phrase
+  # --- A2 additions (jobs, things, nature, leisure, verbs, adjectives) ---
+  journaliste = n mf; photographe = n mf; astronaute = n mf; mécanicien = n m; ingénieur = n m; usine = n f; uniforme = n m
+  bracelet = n m; collier = n m; bague = n f; pyjama = n m
+  parapluie = n m; baskets = n fpl; lunettes de soleil = n fpl; costume = n m; couronne = n f
+  océan = n m; vague = n f; désert = n m; grotte = n f; volcan = n m; rocher = n m; pierre = n f; bois = n m; nid = n m; espace = n m; fusée = n f
+  peinture = n f; peindre = v; échecs = n mpl; puzzle = n m; roller = n m; skateboard = n m; cerf-volant = n m; luge = n f
+  bonhomme de neige = n m; boule de neige = n f; patin = n m; aventure = n f; explorer = v; trésor = n m; roi = n m; reine = n f
+  construire = v; réparer = v; se souvenir = v; se reposer = v; se perdre = v; décider = v; emprunter = v; prêter = v
+  partager = v; pousser = v; tirer = v; toucher = v; suivre = v; disparaître = v; cacher = v; se cacher = v; imaginer = v
+  inventer = v; deviner = v; rêver = v; crier = v; chuchoter = v; collectionner = v; écrire une lettre = phrase
+  d'habitude = adv; soudain = adv; longtemps = adv; tout à coup = adv; avant-hier = adv; après-demain = adv; plus tard = adv
+  bruyant = adj; silencieux = adj; sombre = adj; étroit = adj; large = adj; profond = adj; célèbre = adj; riche = adj
+  pauvre = adj; marié = adj; paresseux = adj; étrange = adj; incroyable = adj; intéressant = adj; ennuyeux = adj
+  enveloppe = n f; timbre = n m; carte postale = n f; oreiller = n m; couverture = n f; librairie = n f; informatique = n f
+  art = n m; police = n f; gare routière = n f
+
+  # --- B1: lemmas of the DELF B1 junior / scolaire sample papers (content/src/fr/SOURCES.md) ---
+  festival = n m; possible = adj; étranger = adj; professionnel = adj; formation = n f; photographie = n f; durant = prep
+  certain = det; voyageur = n m; projet = n m; futur = adj; conseil = n m; expérience = n f; récent = adj; proposition = n f
+  actif = adj; réaction = n f; décevoir = v; énerver = v; permettre = v; contenu = n m; général = adj; attitude = n f
+  concernant = prep; positif = adj; plutôt = adv; négatif = adj; totalement = adv; indifférent = adj; rendre = v
+  service = n m; produit = n m; thème = n m; grâce = n f; augmenter = v; car = conj; niveau = n m; baisser = v
+  résultat = n m; scolaire = adj; essentiel = adj; plupart = n f; peine = n f; terminer = v; rarement = adv
+  rapidement = adv; découverte = n f; prévisible = adj; fréquent = adj; inquiétant = adj; plastique = n m
+  retrouver = v; transporter = v; industriel = n m; association = n f; créer = v; exposition = n f; tenter = v
+  concours = n m; participer = v; bénévole = n m; recommandation = n f; remplacer = v; ramasser = v; lieu = n m
+  polluer = v; selon = prep; habitude = n f; effort = n m; particulier = adj; partout = adv; génération = n f
+  dénoncer = v; comportement = n m; antiécologique = adj; point = n m; souhaiter = v; stage = n m; rechercher = v
+  site = n m; correspondre = v; hébergement = n m; groupe = n m; débutant = n m; contact = n m; possibilité = n f
+  comparer = v; annonce = n f; merveille = n f; organiser = v; séjour = n m; international = adj; collégien = n m
+  afin de = conj; découvrir = v; culture = n f; local = adj; nécessaire = adj; domaine = n m; atelier = n m
+  cadre = n m; situer = v; mètre = n m; altitude = n f; accueillir = v; durée = n f; individuel = adj
+  animateur = n m; quotidien = adj; vie = n f; cas = n m; lycéen = n m; région = n f; sud-ouest = n m; public = adj
+  fauteuil = n m; bricolage = n m; habitant = n m; échange = n m; mode = n f; accompagner = v; agricole = adj
+  échanger = v; ado = n m; condition = n f; terrain = n m; agir = v; utile = adj; problème = n m; moment = n m
+  méthode = n f; agriculture = n f; naturel = adj; loger = v; collectif = adj; interculturel = adj; entier = adj
+  gratuit = adj; autrement = adv; intéresser = v; adolescent = n m; servir = v; lycée = n m; revivre = v
+  historique = adj; réaliste = adj; moyen = n m; défendre = v; époque = n f; réaliser = v; recherche = n f
+  différemment = adv; ajouter = v; enseignant = n m; apprentissage = n m; représenter = v; dépasser = v
+  blocage = n m; échec = n m; motivé = adj; difficulté = n f; compétent = adj; chose = n f; apprécier = v
+  assurer = v; utilisation = n f; technologie = n f; manière = n f; atteindre = v; objectif = n m; plaisir = n m
+  étude = n f; proche = adj; acquis = n m; connaissance = n f; économie = n f; développer = v; citoyen = n m
+  intégrer = v; société = n f; sembler = v; simplement = adv; conclure = v; considérer = v; inutile = adj
+  historien = n m; facilement = adv; facilité = n f; volonté = n f; véritable = adj; chantier = n m; salle = n f
+  matelas = n m; installer = v; endroit = n m; européen = adj; volontaire = n m; réseau = n m; social = adj
+  bénévolat = n m; rénover = v; bâtiment = n m; maire = n m; assister = v; réunion = n f; information = n f
+  commune = n f; finalement = adv; réussir = v; âgé = adj; fin = n f; également = adv; responsable = n m
+  juste = adj; diplôme = n m; ressource = n f; humain = adj; tel = det; confiance = n f; passionnant = adj
+  initiative = n f; occasion = n f; quitter = v; ambiance = n f; population = n f; collège = n m; souligner = v
+  aspect = n m; soin = n m; étonné = adj; davantage = adv; ouest = n m; lors de = prep; autonome = adj; type = n m
+  opinion = n f; minimum = n m; début = n m; série = n f; améliorer = v; épisode = n m; solidaire = adj
+  économique = adj; dont = pron; émission = n f; nombreux = adj; avantage = n m; écotourisme = n m; ci-dessous = adv
+  ci = adv; fois = n f; particularité = n f; adulte = n m; lien = n m; seul~adj = adj; horaire = n m; régulier = adj
+  varier = v; adapter = v; traitement = n m; médical = adj; réunir = v; baccalauréat = n m; université = n f
+  arrêter = v; équiper = v; réduction = n f; siècle = n m; sportif = adj; hall = n m; étudiant = n m
+  journalisme = n m; discussion = n f; tarif = n m; commercial = adj; aménager = v; moderne = adj; jazz = n m
+  classique = adj; indien = adj; yoga = n m; musicien = n m; accès = n m; profiter = v; studio = n m
+  enregistrement = n m; connexion = n f; wi-fi = n m; répétition = n f; production = n f
+  impasse = n f; avenue = n f; indiquer = v; exigence = n f; idéal = adj; retirer = v; logique = adj; rapport = n m
+  guide = n m; aveugle = adj; signe = n m; profession = n f; éducateur = n m; matinée = n f; emmener = v; piste = n f
+  entraînement = n m; parcours = n m; reproduire = v; éduquer = v; dresser = v; déplacement = n m; éducation = n f
+  aboyer = v; raison = n f; habituer = v; bruit = n m; transport = n m; klaxon = n m; parfaitement = adv; guider = v
+  autant = adv; ordre = n m; direction = n f; demi-tour = n m; concerner = v; identifier = v; passage = n m
+  piéton = n m; cyclable = adj; éviter = v; surtout = adv; lorsque = conj; signaler = v; sens = n m; bonheur = n m
+  complètement = adv; sécurité = n f; entièrement = adv; financer = v; don = n m; générosité = n f; sensibiliser = v
+  cause = n f; fédération = n f; forme = n f; choix = n m; correct = adj; sinon = conj; extérieur = adj
+  enseigner = v; diriger = v; repérer = v; sentir = v; confiant = adj; exister = v; hésiter = v; avancer = v
+  ah = interj; exactement = adv; compétition = n f; réalisateur = n m; air = n m; autour = adv; enfermer = v
+  dommage = n m; confortable = adj; excursion = n f; normalement = adv; camper = v; vérifier = v; apparemment = adv
+  annuler = v; obliger = v; million = n m; enthousiaste = adj; repos = n m; prolonger = v; édition = n f
+  inventeur = n m; papeterie = n f; période = n f; relation = n f; appliquer = v; politique = n f
+  récompense = n f; effet = n m; motiver = v; bicyclette = n f; importance = n f; stress = n m; protester = v
+  inattendu = adj; dizaine = n f; kilomètre = n m; surprendre = v; chronique = n f; récemment = adv; composer = v
+  millier = n m; tonne = n f; accumuler = v; courant = n m; spécialiste = n m; gravement = adv; estomac = n m
+  marin = adj; origine = n f; consommateur = n m; liste = n f; métal = n m; solide = adj; liquide = adj; geste = n m
+  évident = adj; intérêt = n m; conscience = n f; présence = n f; permanent = adj; oh = interj; tellement = adv
+  rigoler = v; manquer = v; tourisme = n m; eh = interj; préserver = v; équilibre = n m; environnemental = adj
+  développement = n m; réellement = adv; touristique = adj; respecter = v; milieu = n m; agence = n f
+  spécialisé = adj; suffire = v; ordinaire = adj; participant = n m; sauver = v; touriste = n m; passif = adj
+  dégradation = n f; désorganisation = n f; traditionnel = adj; tolérant = adj; repeupler = v; durable = adj
+  valoriser = v; contribuer = v; contexte = n m; déplacer = v; extrêmement = adv; national = adj; principal = adj
+  ailleurs = adv; maladie = n f; motivant = adj; exprimer = v; mécontentement = n m; résoudre = v
+  malheureusement = adv; lequel = pron; auxquels = pron; rembourser = v; solution = n f; portefeuille = n m
+  commissariat = n m; situation = n f; récupérer = v; francophone = adj; refus = n m; organisation = n f
+  linguistique = adj; désordonné = adj; déranger = v; défi = n m; supporter = v; camping-car = n m; quasiment = adv
+  extrascolaire = adj; remplir = v; intimité = n f; extraire = v; saturation = n f; apparaître = v; tranquille = adj
+  conducteur = n m; sûr = adj; accident = n m; excès = n m; vitesse = n f; endormissement = n m; volant = n m
+  fatigue = n f; distraction = n f; or = conj; constructeur = n m; automobile = adj; capable = adj; limitation = n f
+  high-tech = adj; doute = n m; loi = n f; véhicule = n m; circuler = v; révolution = n f
+  écriture = n f; manuel = adj; courriel = n m; taper = v; clavier = n m; ainsi = adv; tas = n m
+  progressivement = adv; preuve = n f; sondage = n m; interroger = v; forum = n m; entreprise = n f
+  établissement = n m; président = n m; circuit = n m; pédagogique = adj; façon = n f; secteur = n m; face à = prep
+  évoquer = v; nécessité = n f; rapprocher = v; source = n f; emploi = n m; exposé = n m; gym = n f
+  dès = prep; via = prep; puisque = conj; appareil = n m; oral = adj; pause = n f; jogging = n m; simple = adj
+  # --- B1: topic and parity additions (groups below) ---
+  apparence = n f; caractère = n m; honnête = adj; impoli = adj; généreux = adj; égoïste = adj; bavard = adj; sérieux = adj
+  chauve = adj; beauté = n f; jaloux = adj; soulagé = adj; stressé = adj; gêné = adj; honte = n f; colère = n f
+  tristesse = n f; nerveux = adj; amitié = n f; couple = n m; se disputer = v; dispute = n f; pardonner = v; promettre = v
+  promesse = n f; respect = n m; soutenir = v; mariage = n m; se marier = v; naissance = n f; neveu = n m; nièce = n f
+  célébrer = v; cérémonie = n f; tradition = n f; mourir = v; mort = n f; propriétaire = n m; loyer = n m; louer = v
+  colocataire = n m; plafond = n m; chauffage = n m; ménage = n m; aspirateur = n m; lave-vaisselle = n m
+  machine à laver = n f; linge = n m; repasser = v; poussière = n f; ampoule = n f; ingrédient = n m; bouillir = v
+  goût = n m; végétarien = adj; addition = n f; pourboire = n m; serveuse = n f; douleur = n f
+  blessure = n f; ordonnance = n f; urgence = n f; ambulance = n f; opération = n f; sang = n m; os = n m; peau = n f
+  respirer = v; entraîneur = n m; champion = n m; battre = v; passe-temps = n m; pêche = n f; jardinage = n m
+  membre = n m; scène = n f; orchestre = n m; roman = n m; auteur = n m; actualité = n f; publicité = n f
+  écrivain = n m; poème = n m; titre = n m; télécharger = v; mot de passe = n m; logiciel = n m; application = n f
+  imprimante = n f; imprimer = v; cliquer = v; échouer = v; biologie = n f; chimie = n f; physique = n f
+  bulletin = n m; avis = n m; argument = n m; inconvénient = n m; probablement = adv; certainement = adv
+  évidemment = adv; collègue = n m; patron = n m; salaire = n m; candidature = n f; entretien = n m; cv = n m
+  embaucher = v; chômage = n m; retraite = n f; carte bancaire = n f; monnaie = n f; soldes = n fpl; ticket de caisse = n m; décorer = v
+  caisse = n f; dépenser = v; économiser = v; vol = n m; réservation = n f; auberge de jeunesse = n f; retard = n m
+  douane = n f; frontière = n f; circulation = n f; embouteillage = n m; carrefour = n m; permis de conduire = n m
+  freiner = v; garer = v; monument = n m; centre-ville = n m; banlieue = n f; port = n m; côte = n f; paysage = n m
+  climat = n m; réchauffement climatique = n m; énergie = n f; espèce = n f; tempête = n f; inondation = n f
+  voleur = n m; prison = n f; élection = n f; voter = v; gouvernement = n m; droit = n m; marque = n f; taille = n f
+  à la mode = adj; coton = n m; laine = n f; cuir = n m; bijou = n m; cependant = adv; pourtant = adv
+  alors que = conj; malgré = prep; bien que = conj; même si = conj; par exemple = adv; en effet = adv; pour que = conj
+  avant que = conj; quinzaine = n f; pour cent = adv; mesurer = v; peser = v; poids = n m; longueur = n f; kilo = n m
+  litre = n m; autrefois = adv; désormais = adv; actuellement = adv; vouloir que = conj; il faut que = conj
+  à mon avis = adv; s'inquiéter = v; se plaindre = v; plainte = n f; numérique = adj; écologique = adj
+  gaspiller = v; gaspillage = n m; bénéficier = v; inscrire = v; inscription~n = n f; formulaire = n m
+  # --- B2: unit 1 (caractère et ambitions) ---
+  ambitieux = adj; ambition = n f; déterminé = adj; détermination = n f; bourse = n f; doué = adj; talent = n m
+  personnalité = n f; sensible = adj; têtu = adj; modeste = adj; impatient = adj; motivation = n f; réussite = n f
+  surmonter = v; par hasard = adv; modèle = n m; passionné = adj; remarquable = adj; peu à peu = adv; admirer = v
+  obstacle = n m; persévérer = v; courage = n m; courageux = adj; fierté = n f; remarquer = v; recommencer = v; encourager = v; persévérance = n f; auquel = pron
+  # --- B2: unit 2 (études) ---
+  révision = n f; mémoriser = v; concentration = n f; se concentrer = v; absence = n f; théorique = adj; pratique = adj
+  décourager = v; obligatoire = adj; facultatif = adj; plagiat = n m; évaluer = v; évaluation = n f; contrôle = n m
+  conseiller = v; rattraper = v; abandonner = v; élargir = v; efficace = adj; curiosité = n f; discipline = n f; trimestre = n m; redoubler = v
+  orientation = n f; filière = n f; enseignement = n m; compréhension = n f; en ligne = adv; à distance = adv
+  # --- B2: unit 3 (travail) ---
+  recruter = v; candidat = n m; stagiaire = n m; apprenti = n m; indépendant = adj; revenu = n m; promotion = n f
+  démissionner = v; licencier = v; supérieur~n = n m; horaires = n mpl; flexible = adj; télétravail = n m; responsabilité = n f
+  exigeant = adj; gratifiant = adj; qualifié = adj; employeur = n m; salarié = n m; contrat = n m; pénurie = n f
+  compétence = n f; carrière = n f; s'épanouir = v; tâche = n f; collaborer = v; regretter = v; flexibilité = n f
+  # --- B2: unit 4 (argent) ---
+  budget = n m; abordable = adj; dépense = n f; dette = n f; épargne = n f; économies = n fpl; achat = n m; impulsif = adj
+  paiement = n m; sans contact = adj; argent de poche = n m; coût de la vie = n m; luxe = n m; richesse = n f; pauvreté = n f
+  investir = v; investissement = n m; bénéfice = n m; abonnement = n m; tentation = n f; enquête = n f; facture = n f
+  à cause de = prep; étant donné que = conj; faute de = prep; en raison de = prep; épargner = v
+  # --- B2: unit 5 (logement) ---
+  locataire = n m; agence immobilière = n f; spacieux = adj; voisinage = n m; alentours = n mpl; délabré = adj; plombier = n m
+  électricien = n m; fuite = n f; agrandissement = n m; emménager = v; déménager = v; déménagement = n m; s'installer = v
+  foyer = n m; tâches ménagères = n fpl; désordre = n m; meublé = adj; isolation = n f; colocation = n f; ascenseur = n m
+  immeuble = n m; réparation = n f; électricité = n f; lumière = n f
+  logement = n m; état = n m; panne = n f; prévoir = v; diminuer = v; fatigant = adj; pire = adj; faute = n f; dessus = adv
+  # --- B2: unit 6 (santé) ---
+  mental = adj; bien-être = n m; s'étirer = v; muscle = n m; guérison = n f; symptôme = n m; thérapie = n f; prévention = n f
+  alimentation = n f; équilibré = adj; mode de vie = n m; sédentaire = adj; surpoids = n m; anxiété = n f; épuisement = n m
+  épuisé = adj; méditation = n f; dépendant = adj; dépendance = n f; rythme cardiaque = n m; endurance = n f; s'échauffer = v
+  réduire = v; sommeil = n m; transpirer = v; grippe = n f
+  # --- B2: unit 7 (alimentation) ---
+  fade = adj; bio = adj; transformé = adj; malbouffe = n f; végétalien = adj; protéine = n f; vitamine = n f; fibre = n f
+  portion = n f; appétit = n m; affamé = adj; récolte = n f; restes = n mpl; emballage = n m; de saison = adj; importé = adj
+  allergie = n f; allergique = adj; produits laitiers = n mpl; consommer = v; consommation = n f; quantité = n f; agriculteur = n m
+  saveur = n f; faim dans le monde = n f; gaspillage alimentaire = n m; nourriture = n f; contenir = v; produire = v; heureusement = adv
+  # --- B2: unit 8 (médias) ---
+  diffuser = v; rédacteur en chef = n m; médias = n mpl; influenceur = n m; viral = adj; abonné = n m; s'abonner = v; fausses informations = n fpl
+  rumeur = n f; partial = adj; prétendre = v; affirmer = v; nier = v; révéler = v; accuser = v; controversé = adj; sensationnel = adj
+  vie privée = n f; tromper = v; trompeur = adj; fiable = adj; se répandre = v; presse = n f; publier = v; publication = n f; reconnaître = v
+  annoncer = v; liberté d'expression = n f; reportage = n m
+  # --- B2: unit 9 (sciences et technologies) ---
+  gadget = n m; prototype = n m; ingénieux = adj; innovation = n f; innovant = adj; progrès = n m; invention = n f; technologique = adj
+  intelligence artificielle = n f; automatique = adj; sans fil = adj; brevet = n m; données = n fpl; pirate informatique = n m; piratage = n m
+  mettre au point = v; concevoir = v; tester = v; essai = n m; laboratoire = n m; chercheur = n m; scientifique = adj; fonctionner = v
+  machine = n f; outil = n m; connecté = adj; électrique = adj; chute = n f; étonnant = adj
+  # --- B2: unit 10 (climat et environnement) ---
+  changement climatique = n m; gaz à effet de serre = n mpl; empreinte carbone = n f; sécheresse = n f; canicule = n f; fondre = v
+  glacier = n m; niveau de la mer = n m; menacer = v; pollué = adj; jetable = adj; recyclage = n m; réutiliser = v; trier = v
+  énergie renouvelable = n f; éolienne = n f; panneau solaire = n m; énergies fossiles = n fpl; pétrole = n m; militant = n m
+  manifester = v; manifestation = n f; pétition = n f; interdire = v; interdiction = n f; impact = n m; conséquence = n f; urgent = adj; catastrophe = n f; signer = v
+  # --- B2: unit 11 (animaux et nature) ---
+  habitat = n m; milieu naturel = n m; en voie de disparition = adj; disparition = n f; protection = n f; colonie = n f; observation = n f
+  survivre = v; survie = n f; se reproduire = v; se nourrir = v; s'adapter = v; prédateur = n m; proie = n f; chasser = v; chasseur = n m
+  réserve naturelle = n f; biodiversité = n f; écosystème = n m; migrer = v; ruche = n f; mammifère = n m; aigle = n m; falaise = n f
+  oiseau marin = n m; phoque = n m; zoo = n m; en captivité = adj; limiter = v; duquel = pron
+  # --- B2: unit 12 (voyages et aventure) ---
+  brume = n f; sentier = n m; glissant = adj; raide = adj; pente = n f; panique = n f; paniquer = v; boussole = n f; écho = n m
+  refuge = n m; itinéraire = n m; destination = n f; randonneur = n m; mal du pays = n m; choc culturel = n m
+  escale = n f; correspondance = n f; décoller = v; atterrir = v; embarquer = v; s'orienter = v; vallée = n f; sommet = n m
+  escalader = v; imprévu = n m; inoubliable = adj; lentement = adv; nord = n m; sud = n m
+  # --- B2: unit 13 (engagement et solidarité) ---
+  s'engager = v; engagement = n m; engagé = adj; collecte = n f; collecter = v; faire un don = v; solidarité = n f
+  banque alimentaire = n f; sans-abri = n m; précarité = n f; exclusion = n f; isolement = n m; isolé = adj; maison de retraite = n f
+  maison de quartier = n f; communauté = n f; consacrer = v; enrichissant = adj; empathie = n f; réfugié = n m; intégration = n f
+  soutien = n m; distribuer = v; reconnaissance = n f; préjugé = n m; fermeture = n f; différence = n f; afin que = conj; de peur que = conj; de sorte que = conj
+  # --- B2: unit 14 (arts et spectacles) ---
+  comédie musicale = n f; pièce de théâtre = n f; comédien = n m; metteur en scène = n m; mise en scène = n f; décor = n m
+  personnage = n m; spectateur = n m; applaudir = v; applaudissements = n mpl; critique = n f; chef-d'œuvre = n m; œuvre = n f
+  interpréter = v; émouvant = adj; ému = adj; décevant = adj; original = adj; créatif = adj; talentueux = adj; inspirer = v
+  entracte = n m; succès = n m; complet = adj; voix = n f; paroles = n fpl; tomber amoureux = v; amoureux = adj; quoique = conj; avoir beau = v
+  néanmoins = adv; toutefois = adv
+  # --- B2: unit 15 (amitié et relations) ---
+  avoir l'habitude de = v; solitude = n f; se sentir seul = v; timidité = n f; confiance en soi = n f; rejeter = v
+  rejet = n m; harcèlement = n m; harceler = v; se moquer = v; pression = n f; influencer = v; influence = n f; se réconcilier = v
+  excuses = n fpl; jalousie = n f; trahir = v; se confier = v; secret = n m; compter sur = v; conflit = n m; malentendu = n m
+  tension = n f; rompre = v; rupture = n f; demi-frère = n m; famille recomposée = n f; belle-mère = n f
+  # --- B2: unit 16 (société et générations) ---
+  inégalité = n f; égalité = n f; discrimination = n f; racisme = n m; tolérance = n f; diversité = n f; vieillissement = n m
+  vieillir = v; espérance de vie = n f; retraité = n m; impôt = n m; service public = n m; logement social = n m; intergénérationnel = adj
+  cohabiter = v; rendre service = v; tenir compagnie = v; compagnie = n f; défavorisé = adj; favoriser = v; handicapé = adj; accessible = adj
+  par conséquent = adv; si bien que = conj; c'est pourquoi = adv; entraîner = v; provoquer = v; tendance = n f; majorité = n f
+  minorité = n f; en moyenne = adv
+  # --- B2: unit 17 (droit et citoyenneté) ---
+  droit de vote = n m; électeur = n m; élire = v; parti = n m; démocratie = n f; ministre = n m; autoriser = v; autorisation = n f
+  obligation = n f; avoir le droit de = v; majeur = adj; mineur = adj; citoyenneté = n f; juge = n m; tribunal = n m; avocat = n m
+  condamner = v; amende = n f; punir = v; sanction = n f; coupable = adj; innocent = adj; témoin = n m; victime = n f; justice = n f
+  liberté = n f; débat = n m; maturité = n f; il est temps que = phrase; inacceptable = adj
+  # --- B2: unit 18 (langues et communication) ---
+  bilingue = adj; trilingue = adj; bilinguisme = n m; langue maternelle = n f; langue étrangère = n f; accent = n m; prononciation = n f
+  prononcer = v; vocabulaire = n m; grammaire = n f; orthographe = n f; traduire = v; traduction = n f; traducteur = n m
+  néerlandophone = adj; germanophone = adj; couramment = adv; maîtriser = v; maîtrise = n f; progresser = v; immersion = n f
+  s'exprimer = v; expression = n f; communiquer = v; communication = n f; signifier = v; mémoire = n f; oser = v; identité = n f
+  enfance = n f; frontière linguistique = n f; flamand = adj
+  # --- B2: unit 19 (débat et argumentation) ---
+  d'une part = adv; d'autre part = adv; en outre = adv; de plus = adv; par ailleurs = adv; en revanche = adv; au contraire = adv
+  certes = adv; bref = adv; en conclusion = adv; convaincre = v; convaincant = adj; persuader = v; réfuter = v; contredire = v
+  objection = n f; nuancer = v; nuance = n f; point de vue = n m; position = n f; prouver = v; compromis = n m; orateur = n m
+  jury = n m; interrompre = v; parole = n f; contre-argument = n m; illustrer = v; thèse = n f
+  # --- B2: unit 20 (l'avenir) ---
+  avenir = n m; prévision = n f; prédire = v; incertain = adj; incertitude = n f; optimiste = adj; pessimiste = adj; espoir = n m
+  inquiétude = n f; souci = n m; accomplir = v; priorité = n f; à long terme = adv; à court terme = adv; étape = n f; évoluer = v
+  évolution = n f; fixer = v; mondial = adj; mondialisation = n f; d'ici = adv; dès que = conj; aussitôt que = conj; une fois que = conj
+  rêve = n m; effrayant = adj; sévère = adj; gentillesse = n f; soi-même = pron
+
+names: >-
+  Diego, Côme, Jan, Liam, Paul, Rose, Karl, Diaba, Louise, Lucas, Fleury, Bedouin, Camille, Daniel, Jeanne, Martin,
+  Malick, Chloé, Georges, Ismaël, Natacha, Mélina, Bulle, Genève, Isigny, France, Suisse, Léa, Hugo, Emma, Tom, Lina,
+  Noé, Zoé, Max, Inès, Sami, Lou, Nina, Théo, Maëlle, Antoine, Paris, Amsterdam, Bruxelles, Noël, Pâques,
+  Karim, Maroc, Saint-Nicolas, Bruges, Canada, Liège, Lefèvre, Lisbonne, Bretagne, Angleterre, Ostende, Julie,
+  Jules, Roger, Magnard, Virginie, Jean-François, Gosselin, Marcelle-Mallet, Lévis, Céline, Fabriès, Bazouges, Pascal, Hervé,
+  Italie, Espagne, Allemagne, Margherita, Martini, Fabien, Boston, Lucie, Joy, Madagascar, Sophie, Rousseau, Anatole, Jacques,
+  Prévert, Fayette, Martre, Boris, Vian, Victor, Voltaire, Juras, Écume, Augustes, Djengo, Alexiane, Da, Silva, Brassier,
+  Indigo, Laurence, Théault, RFI, SR, Isabelle, Corse, Leguy, Costa, Rica, Ambroise, Paré, Lyon, Québec, Fougères, Bernard,
+  Gaudin, Finlande, Chine, Australie, Corée, Toulouse, Normandie, Alpes, Europe, Belgique, Clara, Malik, Jade, Yanis, Sarah, Manon, Dubois, Thomas, Leroy, Japon, Norvège, Moussa, Croix-Rouge, Simone, Namur, Flandre, Wallonie, Union européenne
+
+exclude:
+  "exam instruction (how to answer)": "consigne, consignes, cocher, case, entourer, entoure, entoures, noter, note, relier, justifie, remplace, correspondant, correspondants, instruction, instructions, dialogue, dialogues, document, ligne, lignes, rôle, xxxx, inscription, inscrire, inscrit, accueil, identité, suivant, exercices, documents, candidat, examinateur, sujet, sujets, situations, remplis"
+  "PDF layout artifact (Q uelle)": "uelle, mp, etc"
+  "B1 exam instruction (how to answer)": "suivants, fabriès, cochez, cochées, cochant, cases, recopiez, citez, inscrivez, justification, énoncés, critère, critères, croix, épreuve, exercice, compréhension, attribué"
+  "B1 PDF layout artifact (a word split by the layout, a website, a phone line)": "interna, tionaux, diffé, rents, ani, mation, photogra, phies, magni, fique, lant, écri, vant, im, re, tél, org, xviii, ème, géo, jeunesetbénévoles"
+
+# ---- additions ------------------------------------------------------------------------------------------------
+# One group per theme and level. Words already attested at that level or lower are reported and ignored by the
+# builder; a word attested only higher up gets the lower level from its group (the entry keeps where it is attested).
+topic:
+  # A1.1 — themes of the A1.1 papers (oral interview, listening and reading tasks)
+  - { level: A1.1, theme: se présenter et saluer, justification: "The A1.1 oral starts by greeting and taking leave and asks name, age and how the child is; these are the forms a child needs for it.",
+      words: "au revoir, bonsoir, bonne nuit, à demain, ça va, d'accord, pardon, excuse-moi, s'il vous plaît, madame, monsieur, je m'appelle, j'ai, bien, beaucoup, néerlandais, pays-bas" }
+  - { level: A1.1, theme: famille, justification: "The A1.1 oral asks about brothers, sisters and parents and the papers write about a grandfather; the closest family members complete the theme.",
+      words: "mère, père, papa, fille, grand-mère, grands-parents, copine" }
+  - { level: A1.1, theme: nombres et âge, justification: "A1.1 asks the child's age and dates and expects numbers; 0-20 is the A1.1 range.",
+      words: "zéro, deux, trois, quatre, cinq, six, sept, huit, neuf, dix, onze, douze, treize, quatorze, quinze, seize, dix-sept, dix-huit, dix-neuf, vingt, an, compter, nombre, jusque" }
+  - { level: A1.1, theme: couleurs, justification: "The A1.1 oral asks favourite colours and the listening task asks the colour of clothes; the basic colours are needed to answer.",
+      words: "vert, noir, blanc, rose, orange, violet, gris, marron" }
+  - { level: A1.1, theme: corps et description, justification: "A1.1 oral activity 3 describes people in a picture and a listening item describes a brother's hair and glasses; basic body words are needed.",
+      words: "tête, œil, nez, bouche, oreille, main, bras, jambe, pied" }
+  - { level: A1.1, theme: vêtements, justification: "A1.1 listening asks about a dress, a sweater and trousers and the oral asks what people wear; the other everyday clothes complete the set.",
+      words: "jupe, t-shirt, chaussure, chapeau, veste, short" }
+  - { level: A1.1, theme: nourriture, justification: "A1.1 listening asks what to eat and drink and describes a birthday cake; everyday food and drink a child names.",
+      words: "pain, lait, fromage, œuf, jus, glace, bonbon, faim, soif, avoir faim, avoir soif" }
+  - { level: A1.1, theme: animaux, justification: "The A1.1 oral asks whether the child has a pet, its name and what it is like, and asks whether the child likes animals.",
+      words: "chat, chien, poisson, oiseau, cheval, lapin, souris" }
+  - { level: A1.1, theme: maison, justification: "The A1.1 oral asks where the child lives and whether the house is big; the listening task gives instructions at home (toys, boxes, washing hands).",
+      words: "chambre, cuisine, jardin, porte, fenêtre, table, lit, jouet" }
+  - { level: A1.1, theme: école, justification: "A1.1 reading packs a school bag for drawing class and reads library rules; the remaining classroom objects and people are needed for school tasks.",
+      words: "stylo, cahier, gomme, trousse, tableau, maîtresse, élève" }
+  - { level: A1.1, theme: loisirs et sport, justification: "The A1.1 oral asks about hobbies, favourite sport, game and film, and listening is about cycling, swimming and singing.",
+      words: "football, tennis, danser, piscine, ballon, chanson, télévision" }
+  - { level: A1.1, theme: dates et heures, justification: "A1.1 reading is an invitation with a day and a time and listening asks when the bus comes; the days of the week and parts of the day are needed.",
+      words: "lundi, mardi, mercredi, jeudi, vendredi, dimanche, jour, semaine, aujourd'hui, nuit" }
+  # A1
+  - { level: A1, theme: nombres et heure, justification: "The A1 level description expects numbers, quantities and the time; listening asks at 9, 10 or 11 o'clock. Numbers to 100 are the A1 range.",
+      words: "trente, quarante, cinquante, soixante, soixante-dix, quatre-vingts, quatre-vingt-dix, cent, vingt et un, quart, demi, midi, minuit, deuxième, troisième, seconde" }
+  - { level: A1, theme: dates, mois et saisons, justification: "A1 talks about time with weekdays, months and next/last; the written form asks the child's birthday date.",
+      words: "janvier, février, mars, avril, mai, juillet, août, octobre, novembre, décembre, mois, année, saison, printemps, automne, date, dimanche, lundi, mercredi" }
+  - { level: A1, theme: météo, justification: "A1 reading asks what the weather is like today; the basic weather expressions are needed to answer.",
+      words: "il fait beau, il fait chaud, il fait froid, pleuvoir, neiger, neige, soleil, vent, nuage, ciel, chaud" }
+  - { level: A1, theme: ville et transports, justification: "The A1 form asks how the child comes to school and the street address; reading has a bus leaving opposite the school.",
+      words: "voiture, train, avion, métro, à pied, ville, magasin, supermarché, boulangerie, marché, poste, gare, hôpital, près, près de, à droite, à gauche, tout droit, derrière, devant, entre, à côté de" }
+  - { level: A1, theme: maison, justification: "A1 writing describes the grandparents' house and the oral asks about the garden; rooms and furniture are needed.",
+      words: "salle à manger, toilettes, escalier, mur, toit, armoire, placard, bureau, canapé, étage, garage, lampe, boîte, clé" }
+  - { level: A1, theme: repas, justification: "A1 oral role-plays ordering at a cafeteria and tells a story about breakfast; meals, dishes and table things are needed.",
+      words: "petit-déjeuner, dîner, repas, viande, poulet, riz, pâtes, frites, soupe, salade, jambon, confiture, beurre, sucre, thé, café, chocolat chaud, verre, tasse, fourchette, couteau, cuillère, bouteille, menu, biscuit, boisson, sandwich" }
+  - { level: A1, theme: métiers et personnes, justification: "The A1 oral asks what the child's father or mother does for a living; common jobs and people words are needed.",
+      words: "homme, femme, oncle, tante, médecin, docteur, policier, pompier, boulanger, vendeur, fermier, chanteur, facteur, cuisinier, travailler, travail" }
+  - { level: A1, theme: décrire les personnes, justification: "At A1 the child describes himself and other people; basic character and looks adjectives are needed.",
+      words: "gentil, méchant, drôle, sympa, content, triste, fatigué, malade, fort, timide, jeune, vieux, roux, long, court" }
+  - { level: A1, theme: loisirs, justification: "A1 listening and oral are about hobbies (museums, swimming, dancing, reading, tennis, music festival); the common leisure activities are needed.",
+      words: "natation, basket, volley, judo, promenade, bande dessinée, jeu vidéo, guitare, piano, cirque, spectacle, théâtre, vidéo" }
+  - { level: A1, theme: école, justification: "The A1 form asks the favourite school subject and the oral asks when lessons start; subjects and school life are needed.",
+      words: "maths, anglais, géographie, sciences, récréation, cantine, cahier, dictionnaire, élève" }
+  - { level: A1, theme: nature et ferme, justification: "A1 reading is a class trip to a farm (plants, animals) and listening a day in the countryside; nature words are needed.",
+      words: "forêt, arbre, herbe, rivière, lac, champ, âne, chèvre, poussin" }
+  - { level: A1, theme: fête, justification: "A1 reading makes a birthday card with presents; party words are needed.",
+      words: "carte, bougie, surprise, bon anniversaire, fêter, offrir" }
+  - { level: A1, theme: verbes du quotidien, justification: "A1 grammar: regular -er verbs and the common irregular verbs in the present (aller, faire, venir, pouvoir, vouloir); these are the everyday actions of the papers' tasks.",
+      words: "dormir, ouvrir, fermer, attendre, trouver, payer, laver, entrer, rentrer, monter, descendre, savoir, partir, perdre, aider, chercher, montrer, rester, oublier" }
+  - { level: A1, theme: petits mots, justification: "A1 sentences need time and frequency words and connectors to tell a simple sequence of events.",
+      words: "combien, puis, ensuite, d'abord, enfin, toujours, jamais, souvent, parfois, un peu, assez, ici, là, donc, encore, vite, bien, maintenant, hier" }
+  - { level: A1, theme: vêtements, justification: "Moved from A1.1 to keep A1.1 near its size guideline; a1.1 listening asks about a dress, a sweater and trousers and the oral asks what people wear; the other everyday clothes complete the set.",
+      words: "chemise, chaussette, casquette, maillot de bain, vêtement" }
+  - { level: A1, theme: nourriture, justification: "Moved from A1.1 to keep A1.1 near its size guideline; a1.1 listening asks what to eat and drink and describes a birthday cake; everyday food and drink a child names.",
+      words: "poire, orange~fruit, citron, raisin, crêpe, pizza, légume, tomate, carotte" }
+  - { level: A1, theme: famille, justification: "Moved from A1.1 to keep A1.1 near its size guideline; the A1.1 oral asks about brothers, sisters and parents and the papers write about a grandfather; the closest family members complete the theme.",
+      words: "cousin, cousine, bébé, enfant" }
+  - { level: A1, theme: corps et description, justification: "Moved from A1.1 to keep A1.1 near its size guideline; a1.1 oral activity 3 describes people in a picture and a listening item describes a brother's hair and glasses; basic body words are needed.",
+      words: "ventre, dent, visage, corps, brun" }
+  - { level: A1, theme: animaux, justification: "Moved from A1.1 to keep A1.1 near its size guideline; the A1.1 oral asks whether the child has a pet, its name and what it is like, and asks whether the child likes animals.",
+      words: "mouton, poule, canard, hamster, tortue, vache, cochon" }
+  - { level: A1, theme: maison, justification: "Moved from A1.1 to keep A1.1 near its size guideline; the A1.1 oral asks where the child lives and whether the house is big; the listening task gives instructions at home (toys, boxes, washing hands).",
+      words: "salon, appartement, salle de bain" }
+  - { level: A1, theme: école, justification: "Moved from A1.1 to keep A1.1 near its size guideline; a1.1 reading packs a school bag for drawing class and reads library rules; the remaining classroom objects and people are needed for school tasks.",
+      words: "colle, crayon de couleur, page" }
+  - { level: A1, theme: loisirs et sport, justification: "Moved from A1.1 to keep A1.1 near its size guideline; the A1.1 oral asks about hobbies, favourite sport, game and film, and listening is about cycling, swimming and singing.",
+      words: "photo" }
+  - { level: A1, theme: se présenter et saluer, justification: "Moved from A1.1 to keep A1.1 near its size guideline; the A1.1 oral starts by greeting and taking leave and asks name, age and how the child is; these are the forms a child needs for it.",
+      words: "bravo, super" }
+  # A2
+  - { level: A2, theme: raconter au passé, justification: "The A2 level description: tell an event in the past and talk about time with simple expressions.",
+      words: "déjà, à tout à l'heure, tomber, devenir, revenir, naître, casser" }
+  - { level: A2, theme: la journée (verbes pronominaux), justification: "A2 grammar: reflexive verbs of the daily routine; the A2 oral asks the child to describe his day and his room.",
+      words: "se réveiller, se laver, se brosser, se coiffer, s'habiller, s'endormir, se dépêcher, s'asseoir, réveil, sonner, brosse à dents, dentifrice, savon, serviette, douche, baignoire" }
+  - { level: A2, theme: voyage et vacances, justification: "A2 reading prepares a school trip to the mountains (bus, suitcase, bags); travel words are needed.",
+      words: "tente, camping, hôtel, billet, ticket, passeport, plan, souvenir, aéroport, arrivée" }
+  - { level: A2, theme: pays et langues, justification: "A2 reading is a letter from a Swiss pen pal who studies German; countries and languages are needed to answer it.",
+      words: "pays, espagnol, italien, belge, europe, monde" }
+  - { level: A2, theme: santé, justification: "A2 reading is about sick animals being cared for and the oral asks the child to describe himself; health words are needed.",
+      words: "avoir mal, mal~n, médicament, fièvre, rhume, pharmacie, dentiste, infirmier, tousser, se blesser, se casser, guérir, santé, gorge, genou, épaule, cou, doigt, en forme" }
+  - { level: A2, theme: sentiments, justification: "A2 writing says what the child liked and did not like and why; reading tells how a girl stopped being afraid of dogs.",
+      words: "heureux, malheureux, fâché, fier, inquiet, surpris, calme, curieux, joie, rire, pleurer, sourire, s'ennuyer, s'amuser" }
+  - { level: A2, theme: animaux, justification: "A2 listening is about a class fish (a rabbit or hamster was wanted) and reading about an animal shelter farm; caring for animals is the theme.",
+      words: "vétérinaire, animal domestique, poisson rouge, perroquet, araignée, insecte, papillon, abeille, loup, renard, écureuil, dauphin, cage, nourrir, queue, aile, patte, chaton, chiot, sauvage" }
+  - { level: A2, theme: météo, justification: "A2 talks about the weather in full (the oral role play starts with heavy rain); forecasts and temperatures are needed.",
+      words: "météo, nuageux, ensoleillé, orage, brouillard, température, degré, arc-en-ciel" }
+  - { level: A2, theme: achats, justification: "The A2 oral subject 'your favourite shop' asks what one can buy there and with whom one goes.",
+      words: "argent, euro, prix, vendre, coûter, essayer, client, porte-monnaie" }
+  - { level: A2, theme: médias, justification: "A2 reading: mobile phones are not allowed on the trip and children e-mail their parents from the teacher's computer.",
+      words: "internet, écran, tablette, radio, appareil photo" }
+  - { level: A2, theme: sport, justification: "A2 writing answers an invitation to a tennis match at the stadium; the oral asks about favourite sports.",
+      words: "joueur, but, course, gagner, sauter, lancer, attraper, s'entraîner, gymnastique, équitation, marquer" }
+  - { level: A2, theme: école, justification: "The A2 oral asks the child to describe the school, favourite subjects and what he does at break.",
+      words: "directeur, rentrée, emploi du temps, erreur, se tromper, réviser, cartable, examen" }
+  - { level: A2, theme: maison, justification: "The A2 oral subject 'your house': describe it, the favourite room and what the child would change.",
+      words: "rez-de-chaussée, grenier, cave, balcon, couloir, meuble, étagère, tiroir, miroir, rideau, coussin, ranger, nettoyer, propre, sale" }
+  - { level: A2, theme: ville, justification: "The A2 oral asks the child to talk about his town; places and getting around are needed.",
+      words: "mairie, pont, banque, château, église, parking, trottoir, feu, traverser, tourner, continuer, tram, taxi, moto, arrêt" }
+  - { level: A2, theme: communiquer, justification: "A2 writing thanks a friend, explains why the child cannot come and proposes something else.",
+      words: "croire, espérer, être d'accord, s'excuser, accepter, refuser, dire" }
+  - { level: A2, theme: comparer, justification: "A2 grammar: comparatives; describing and comparing places and things.",
+      words: "moins, meilleur, différent, pareil, léger, lourd, rapide, lent, haut, bas, dur, doux, plein, vide, énorme" }
+  - { level: A2, theme: petits mots, justification: "A2 sentences need these quantity, manner and place words to explain and compare.",
+      words: "avoir besoin de, avoir envie de, envie, presque, vraiment, seulement, tout le monde, quelqu'un, quelque chose, rien, chacun, sans, contre, vers, dehors, dedans, debout" }
+
+  - { level: A2, theme: vêtements, justification: "A2 reading asks for warm clothes, a rain jacket and walking shoes for the mountains; the oral asks the child to describe himself.",
+      words: "gant, écharpe, bonnet, botte, bracelet, collier, bague, pyjama, parapluie, baskets, lunettes de soleil, montre, poche" }
+  - { level: A2, theme: raconter (temps), justification: "Telling a past event (A2) needs time adverbs that order and frame it.",
+      words: "d'habitude, soudain, longtemps, tout à coup, avant-hier, après-demain, plus tard" }
+  - { level: A2, theme: ville (lieux), justification: "The A2 oral asks about the child's town and favourite shop; more places in town.",
+      words: "librairie, police, gare routière" }
+  - { level: A2, theme: école (matières), justification: "The A2 oral asks about favourite subjects and the material needed for a lesson.",
+      words: "art, informatique, histoire" }
+  - { level: A2, theme: cuisine (aliments), justification: "Cooking and the favourite shop at A2 need more foods.",
+      words: "champignon, oignon, haricot, petit pois, cerise, saucisse" }
+  - { level: A2, theme: écrire et poster, justification: "A2 writing is letters and messages to friends; posting a letter is part of it.",
+      words: "enveloppe, timbre, carte postale, crier, chuchoter" }
+  - { level: A1, theme: au quotidien, justification: "Everyday words for describing, being late, table manners and liking things, needed by A1 messages and stories.",
+      words: "mauvais, en retard, seul, mince, mal, tout de suite, voici, aimer bien, coller, goûter~v, mettre la table, pomme de terre, bon appétit, bienvenue, génial, bien sûr, mille, sage" }
+  - { level: A2, theme: au quotidien, justification: "A2 descriptions and letters need these words (being afraid, playing an instrument, living somewhere, the heart).",
+      words: "avoir peur, jouer de, vivre, cœur, clair, foncé, intelligent, poli, amusant, rond, carré, balle, grimper, épeler, corriger, tapis, niche, jean, enlever, fils, mari, jumeau" }
+  # ---- B1: DELF B1 junior / scolaire themes the two sample papers attest only in part ----
+  - { level: B1, theme: santé et bien-être, justification: "DELF B1 themes: health and daily life (sample 2 mentions treatments and illnesses; the oral subjects: fatigue, stress).",
+      words: "douleur, blessure, ordonnance, urgence, ambulance, opération, sang, os, peau, respirer" }
+  - { level: B1, theme: études et orientation, justification: "DELF B1 junior: school life and the future (the oral subject 'Que feras-tu plus tard ?', the career forum, holiday workbooks).",
+      words: "échouer, biologie, chimie, physique, bulletin, inscrire, formulaire" }
+  - { level: B1, theme: médias et culture, justification: "DELF B1: media and culture (a radio programme, a festival, the end of the pen, a podcast).",
+      words: "actualité, publicité, écrivain, roman, auteur, poème, titre, scène, orchestre" }
+  - { level: B1, theme: technologie, justification: "DELF B1: technology (driverless cars, writing on a keyboard, social networks).",
+      words: "télécharger, mot de passe, logiciel, application, imprimante, imprimer, cliquer, numérique" }
+  - { level: B1, theme: environnement, justification: "DELF B1: the environment (plastic in the sea, ecotourism, Zéro Plastique).",
+      words: "climat, réchauffement climatique, énergie, espèce, tempête, inondation, écologique, gaspiller, gaspillage" }
+  - { level: B1, theme: travail et argent, justification: "DELF B1 junior: first jobs, work placements, volunteering (sample 2: a work placement, the career forum).",
+      words: "collègue, patron, salaire, candidature, entretien, cv, embaucher, chômage, retraite, bénéficier" }
+  - { level: B1, theme: citoyenneté, justification: "DELF B1: society and the citizen (the law on driverless cars, an association, a complaint to a club).",
+      words: "élection, voter, gouvernement, droit, voleur, prison, se plaindre, plainte" }
+  - { level: B1, theme: connecteurs et subjonctif, justification: "B1 grammar of the plan (content/src/fr/PLAN.md): opposition, concession and the subjonctif after common triggers.",
+      words: "cependant, pourtant, alors que, malgré, bien que, même si, par exemple, en effet, pour que, avant que, vouloir que, il faut que, à mon avis" }
+  - { level: B2, theme: caractère et ambitions, justification: "DELF B2 junior: the production orale and the argued essay about young people and their projects; personality, talent and coping with failure are B2 range. Parity: en-b2-u01, nl-b2-u01.",
+      words: "ambitieux, ambition, déterminé, détermination, bourse, doué, talent, personnalité, sensible, têtu, modeste, impatient, motivation, réussite, surmonter, par hasard, modèle, passionné, remarquable, peu à peu, admirer, obstacle, persévérer, courage, courageux, fierté, remarquer, recommencer, encourager, persévérance, auquel" }
+  - { level: B2, theme: études et apprentissage, justification: "DELF B2 junior / scolaire: the papers are about school life (homework, evaluation, orientation, online courses: attested); studying effectively and choosing a path are B2 range. Parity: en-b2-u02, nl-b2-u09.",
+      words: "révision, mémoriser, concentration, se concentrer, absence, théorique, pratique, décourager, obligatoire, facultatif, plagiat, évaluer, évaluation, contrôle, conseiller, rattraper, abandonner, élargir, efficace, curiosité, discipline, trimestre, redoubler, orientation, filière, enseignement, compréhension, en ligne, à distance" }
+  - { level: B2, theme: travail et carrière, justification: "DELF B2 junior: the production orale and writing tasks about summer jobs, internships and the future (attested: recruter, candidat, carrière, compétence, collaborer, tâche); work conditions are B2 range. Parity: en-b2-u03, nl-b2-u02.",
+      words: "recruter, candidat, stagiaire, apprenti, indépendant, revenu, promotion, démissionner, licencier, supérieur~n, horaires, flexible, télétravail, responsabilité, exigeant, gratifiant, qualifié, employeur, salarié, contrat, pénurie, compétence, carrière, s'épanouir, tâche, collaborer, regretter, flexibilité" }
+  - { level: B2, theme: argent et consommation, justification: "DELF B2 junior: the papers discuss pocket money, shopping and advertising (attested: budget, dépense, achat, investir, bénéfice, enquête, à cause de); saving, debt and the language of cause are B2 range. Parity: en-b2-u04, nl-b2-u03.",
+      words: "budget, abordable, dépense, dette, épargne, économies, achat, impulsif, paiement, sans contact, argent de poche, coût de la vie, luxe, richesse, pauvreté, investir, investissement, bénéfice, abonnement, tentation, enquête, facture, à cause de, étant donné que, faute de, en raison de, épargner" }
+  - { level: B2, theme: logement et quartier, justification: "DELF B2 junior: the oral subjects and articles about housing and living together (attested: s'installer); renting, moving and repairs are B2 range. Parity: en-b2-u05, nl-b2-u04.",
+      words: "locataire, agence immobilière, spacieux, voisinage, alentours, délabré, plombier, électricien, fuite, agrandissement, emménager, déménager, déménagement, s'installer, foyer, tâches ménagères, désordre, meublé, isolation, colocation, ascenseur, immeuble, réparation, électricité, lumière, logement, état, panne, prévoir, diminuer, fatigant, pire, faute, dessus" }
+  - { level: B2, theme: santé et sport, justification: "DELF B2 junior: the papers discuss sleep, screens and well-being (attested: mental, bien-être, réduire); physical and mental health and sport are B2 range. Parity: en-b2-u06, nl-b2-u05.",
+      words: "mental, bien-être, s'étirer, muscle, guérison, symptôme, thérapie, prévention, alimentation, équilibré, mode de vie, sédentaire, surpoids, anxiété, épuisement, épuisé, méditation, dépendant, dépendance, rythme cardiaque, endurance, s'échauffer, réduire, sommeil, transpirer, grippe" }
+  - { level: B2, theme: alimentation, justification: "DELF B2 junior: the papers and oral subjects about the school canteen, food waste and eating habits (attested: bio, portion, emballage, consommer, quantité); diet and food waste are B2 range. Parity: en-b2-u07, nl-b2-u06.",
+      words: "fade, bio, transformé, malbouffe, végétalien, protéine, vitamine, fibre, portion, appétit, affamé, récolte, restes, emballage, de saison, importé, allergie, allergique, produits laitiers, consommer, consommation, quantité, agriculteur, saveur, faim dans le monde, gaspillage alimentaire, nourriture, contenir, produire, heureusement" }
+  - { level: B2, theme: médias, justification: "DELF B2 junior: the papers ask about the press, social networks and reliable information (attested: médias, diffuser, rédacteur, affirmer, nier, vie privée, presse, publier, reconnaître, reportage); reporting verbs carry the discours rapporté of B2. Parity: en-b2-u08, nl-b2 (media).",
+      words: "diffuser, rédacteur en chef, médias, influenceur, viral, abonné, s'abonner, fausses informations, rumeur, partial, prétendre, affirmer, nier, révéler, accuser, controversé, sensationnel, vie privée, tromper, trompeur, fiable, se répandre, presse, publier, publication, reconnaître, annoncer, liberté d'expression, reportage" }
+  - { level: B2, theme: sciences et technologies, justification: "DELF B2 junior: the papers discuss screens, devices and research (attested: innovant, automatique, données, tester, chercheur, scientifique, fonctionner, connecté, outil); the passive voice of B2 is taught on them. Parity: en-b2-u09, nl-b2 (technology).",
+      words: "gadget, prototype, ingénieux, innovation, innovant, progrès, invention, technologique, intelligence artificielle, automatique, sans fil, brevet, données, pirate informatique, piratage, mettre au point, concevoir, tester, essai, laboratoire, chercheur, scientifique, fonctionner, machine, outil, connecté, électrique, chute, étonnant" }
+  - { level: B2, theme: climat et environnement, justification: "DELF B2 junior: the environment is a theme of both sample papers (attested: fondre, réutiliser, trier, développement durable, interdire, impact); climate change, energy and protest vocabulary of the B2 argued essay. Parity: en-b2-u10, nl-b2 (climate).",
+      words: "changement climatique, gaz à effet de serre, empreinte carbone, sécheresse, canicule, fondre, glacier, niveau de la mer, menacer, pollué, jetable, recyclage, réutiliser, trier, énergie renouvelable, éolienne, panneau solaire, énergies fossiles, pétrole, militant, manifester, manifestation, pétition, interdire, interdiction, impact, conséquence, urgent, catastrophe, signer" }
+  - { level: B2, theme: animaux et nature, justification: "DELF B2 junior: nature and protected species in the papers' reading and oral subjects (attested: milieu naturel, en voie de disparition, disparition, protection, observation, s'adapter, zoo, captivité, limiter); research and conservation vocabulary. Parity: en-b2-u11, nl-b2 (nature).",
+      words: "habitat, milieu naturel, en voie de disparition, disparition, protection, colonie, observation, survivre, survie, se reproduire, se nourrir, s'adapter, prédateur, proie, chasser, chasseur, réserve naturelle, biodiversité, écosystème, migrer, ruche, mammifère, aigle, falaise, oiseau marin, phoque, zoo, en captivité, limiter, duquel" }
+  - { level: B2, theme: voyages et aventure, justification: "DELF B2 junior: travel, stays abroad and the narrative of an experience are tasks of both papers (attested: sentier); the words of a trip that goes wrong, of mountain walking and of culture shock, for the B2 narrative tenses. Parity: en-b2-u12, nl-b2 (travel).",
+      words: "brume, sentier, glissant, raide, pente, panique, paniquer, boussole, écho, refuge, itinéraire, destination, randonneur, mal du pays, choc culturel, escale, correspondance, décoller, atterrir, embarquer, s'orienter, vallée, sommet, escalader, imprévu, inoubliable, lentement, nord, sud" }
+  - { level: B2, theme: engagement et solidarité, justification: "DELF B2 junior: volunteering, solidarity and young people's commitment are oral subjects and reading themes of the papers (attested: s'engager, collecte, collecter, dons, communauté, consacrer, préjugé, différence); the subjunctive conjunctions of purpose of B2. Parity: en-b2-u16, nl-b2 (society).",
+      words: "s'engager, engagement, engagé, collecte, collecter, faire un don, solidarité, banque alimentaire, sans-abri, précarité, exclusion, isolement, isolé, maison de retraite, maison de quartier, communauté, consacrer, enrichissant, empathie, réfugié, intégration, soutien, distribuer, reconnaissance, préjugé, fermeture, différence, afin que, de peur que, de sorte que" }
+  - { level: B2, theme: arts et spectacles, justification: "DELF B2 junior: culture, shows and reviews are themes of the papers (attested: spectateur, critique, original, créatif, inspirer, succès, néanmoins, toutefois); the vocabulary of a theatre review and the concession connectors of the B2 argued text. Parity: en-b2-u14, nl-b2 (culture).",
+      words: "comédie musicale, pièce de théâtre, comédien, metteur en scène, mise en scène, décor, personnage, spectateur, applaudir, applaudissements, critique, chef-d'œuvre, œuvre, interpréter, émouvant, ému, décevant, original, créatif, talentueux, inspirer, entracte, succès, complet, voix, paroles, tomber amoureux, amoureux, quoique, avoir beau, néanmoins, toutefois" }
+  - { level: B2, theme: amitié et relations, justification: "DELF B2 junior: friendship, family and life at school are reading and oral themes (attested: habitué, rejeter, rejet, pression, confier); loneliness, conflict and bullying words for the double pronouns and y/en of B2. Parity: en-b2-u15, nl-b2 (relationships).",
+      words: "avoir l'habitude de, solitude, se sentir seul, timidité, confiance en soi, rejeter, rejet, harcèlement, harceler, se moquer, pression, influencer, influence, se réconcilier, excuses, jalousie, trahir, se confier, secret, compter sur, conflit, malentendu, tension, rompre, rupture, demi-frère, famille recomposée, belle-mère" }
+  - { level: B2, theme: société et générations, justification: "DELF B2 junior: society, equality and living together are themes of the papers (attested: inégalité, discrimination, favoriser, accessible, c'est pourquoi, entraîner, provoquer, tendance, majorité, en moyenne); the connectors of consequence of the B2 argued essay. Parity: en-b2-u16/u17, nl-b2 (society).",
+      words: "inégalité, égalité, discrimination, racisme, tolérance, diversité, vieillissement, vieillir, espérance de vie, retraité, impôt, service public, logement social, intergénérationnel, cohabiter, rendre service, tenir compagnie, compagnie, défavorisé, favoriser, handicapé, accessible, par conséquent, si bien que, c'est pourquoi, entraîner, provoquer, tendance, majorité, minorité, en moyenne" }
+  - { level: B2, theme: droit et citoyenneté, justification: "DELF B2 junior: rules, rights and citizenship are themes of the argued essay and the oral debate (attested: parti, démocratie, ministre, autoriser, avoir le droit, juge, sanction, liberté, débat, maturité, inacceptable); the subjunctive after impersonal expressions. Parity: en-b2-u17, nl-b2 (law).",
+      words: "droit de vote, électeur, élire, parti, démocratie, ministre, autoriser, autorisation, obligation, avoir le droit de, majeur, mineur, citoyenneté, juge, tribunal, avocat, condamner, amende, punir, sanction, coupable, innocent, témoin, victime, justice, liberté, débat, maturité, il est temps que, inacceptable" }
+  - { level: B2, theme: langues et communication, justification: "DELF B2 junior: learning languages, communication and identity are themes of the papers (attested: accent, orthographe, traduire, traducteur, maîtriser, maîtrise, progresser, communication, signifier, mémoire, oser, identité); Belgium's languages for Belgian learners; the participe présent of B2. Parity: nl-b2 (languages), en-b2-u02.",
+      words: "bilingue, trilingue, bilinguisme, langue maternelle, langue étrangère, accent, prononciation, prononcer, vocabulaire, grammaire, orthographe, traduire, traduction, traducteur, néerlandophone, germanophone, couramment, maîtriser, maîtrise, progresser, immersion, s'exprimer, expression, communiquer, communication, signifier, mémoire, oser, identité, enfance, frontière linguistique, flamand" }
+  - { level: B2, theme: débat et argumentation, justification: "DELF B2 junior: the argued essay and the oral debate are the core B2 tasks (attested: en outre, de plus, en revanche, certes, bref, convaincre, nuancer, nuance, point de vue, position, compromis); the connectors and debate words those tasks need. Parity: en-b2-u19, nl-b2-u19.",
+      words: "d'une part, d'autre part, en outre, de plus, par ailleurs, en revanche, au contraire, certes, bref, en conclusion, convaincre, convaincant, persuader, réfuter, contredire, objection, nuancer, nuance, point de vue, position, prouver, compromis, orateur, jury, interrompre, parole, contre-argument, illustrer, thèse" }
+  - { level: B2, theme: l'avenir, justification: "DELF B2 junior: the future, change and young people's hopes are themes of the papers (attested: avenir, inquiétude, priorité, évoluer, fixer, mondial, d'ici, soi-même); the futur antérieur after dès que / une fois que. Parity: en-b2-u20, nl-b2-u20. (international is in the unit-1 group and taught here.)",
+      words: "avenir, prévision, prédire, incertain, incertitude, optimiste, pessimiste, espoir, inquiétude, souci, accomplir, priorité, à long terme, à court terme, étape, évoluer, évolution, fixer, mondial, mondialisation, d'ici, dès que, aussitôt que, une fois que, rêve, effrayant, sévère, gentillesse, soi-même" }
+
+parity:
+  # Concepts the English plan teaches at the matching level (content/src/en/PLAN.md), so both children cover the same
+  # everyday world.
+  - { level: A1.1, theme: animaux du zoo, justification: "Starters u01 teaches zoo animals (elephant, giraffe, monkey, tiger, crocodile, snake, bear, lion).",
+      words: "éléphant, lion, singe, girafe, tigre" }
+  - { level: A1.1, theme: jouets, justification: "Starters u12 teaches toys (doll, robot, ball, kite).",
+      words: "poupée, robot" }
+  - { level: A1.1, theme: décrire, justification: "Starters u05 teaches young, old, happy, sad, funny, long, short, beautiful.",
+      words: "beau, vieux, jeune, content, triste" }
+  - { level: A1.1, theme: en classe, justification: "Starters u11 and u16 teach classroom actions (open, close, sit, colour, count, show).",
+      words: "colorier, ouvrir, fermer" }
+  - { level: A1.1, theme: où et petits mots, justification: "Starters u18 and u19 teach where-words and question words (behind, in front of, next to, here, there, how many).",
+      words: "derrière, devant, à côté de, ici, combien" }
+  - { level: A1.1, theme: dehors, justification: "Starters u14 teaches sun, tree, sand and the street.",
+      words: "soleil, arbre, rue, voiture" }
+  - { level: A1.1, theme: verbes, justification: "Starters u15 and u16 teach sleep, run, walk, wash.",
+      words: "dormir, courir, marcher, laver" }
+  - { level: A1, theme: santé, justification: "Movers u02 teaches ill, doctor, hospital, headache, temperature, back, neck.",
+      words: "avoir mal, hôpital, fièvre, cou, dos" }
+  - { level: A1, theme: le ciel, justification: "Movers u03 teaches sky, star, moon.",
+      words: "étoile, lune" }
+  - { level: A1, theme: dedans et dehors, justification: "Movers u06 teaches up, down, inside, outside, near, far.",
+      words: "en haut, en bas, dedans, dehors" }
+  - { level: A1, theme: médias, justification: "Movers u13 teaches email, internet, computer, phone, video.",
+      words: "ordinateur, mail, téléphone, internet" }
+  - { level: A1, theme: quelqu'un et quelque chose, justification: "Movers u16 teaches someone, something, everyone, nothing.",
+      words: "quelqu'un, quelque chose, tout le monde, rien" }
+  - { level: A1, theme: animaux, justification: "Movers u01 teaches more animals (kitten, puppy, parrot, dolphin, whale, shark, snail).",
+      words: "chaton, chiot, perroquet, dauphin, baleine, requin" }
+  - { level: A2, theme: espace et nature, justification: "Flyers u06 teaches planet, space, Earth, environment, island, hill.",
+      words: "nature, environnement, planète, terre, île, colline, poubelle, déchet, protéger, jeter, recycler, pollution, papier" }
+  - { level: A2, theme: cuisiner, justification: "Flyers u08 teaches cooking (flour, salt, pepper, oven, fridge, mix, prepare, delicious).",
+      words: "recette, cuisiner, farine, sel, poivre, miel, yaourt, céréales, couper, mélanger, cuire, four, frigo, casserole, poêle, délicieux, sucré, salé, dessert, commander, bol, tarte, croissant" }
+  - { level: A2, theme: arts, justification: "Flyers u11 teaches instruments, festival, stage, costume.",
+      words: "instrument, violon, batterie, déguisement, se déguiser" }
+  - { level: A2, theme: insectes, justification: "Flyers u07 teaches insect, beetle, butterfly.",
+      words: "fourmi, plume" }
+  - { level: A1, theme: animaux du zoo, justification: "Moved from A1.1 to keep A1.1 near its size guideline; starters u01 teaches zoo animals (elephant, giraffe, monkey, tiger, crocodile, snake, bear, lion).",
+      words: "serpent, ours, crocodile, zèbre, grenouille" }
+  - { level: A1, theme: jouets, justification: "Moved from A1.1 to keep A1.1 near its size guideline; starters u12 teaches toys (doll, robot, ball, kite).",
+      words: "trottinette" }
+  - { level: A1, theme: décrire, justification: "Moved from A1.1 to keep A1.1 near its size guideline; starters u05 teaches young, old, happy, sad, funny, long, short, beautiful.",
+      words: "long, court, drôle" }
+  - { level: A1, theme: en classe, justification: "Moved from A1.1 to keep A1.1 near its size guideline; starters u11 and u16 teach classroom actions (open, close, sit, colour, count, show).",
+      words: "s'asseoir, répéter" }
+  - { level: A1, theme: où et petits mots, justification: "Moved from A1.1 to keep A1.1 near its size guideline; starters u18 and u19 teach where-words and question words (behind, in front of, next to, here, there, how many).",
+      words: "là" }
+  - { level: A1, theme: dehors, justification: "Moved from A1.1 to keep A1.1 near its size guideline; starters u14 teaches sun, tree, sand and the street.",
+      words: "sable, train, avion" }
+  - { level: A2, theme: métiers, justification: "Flyers u03 teaches jobs (journalist, photographer, astronaut, mechanic, engineer, factory, uniform).",
+      words: "journaliste, photographe, astronaute, mécanicien, ingénieur, usine, uniforme, coiffeur, artiste, acteur, pilote" }
+  - { level: A2, theme: nature, justification: "Flyers u06 teaches ocean, desert, cave, rock, stone, wood, nest, space, rocket.",
+      words: "océan, vague, désert, grotte, volcan, rocher, pierre, bois, nid, espace, fusée" }
+  - { level: A2, theme: jeux et aventures, justification: "Flyers u12 and u13 teach chess, puzzle, sledge, snowman, snowball, adventure, explore, treasure, king, queen.",
+      words: "peinture, peindre, échecs, puzzle, roller, skateboard, cerf-volant, luge, bonhomme de neige, boule de neige, patin, aventure, explorer, trésor, roi, reine, couronne, costume" }
+  - { level: A2, theme: verbes, justification: "Flyers u15 and u19 teach build, repair, remember, rest, decide, borrow, lend, share, push, pull, touch, follow, disappear, hide, imagine, invent, guess, dream, collect.",
+      words: "construire, réparer, se souvenir, se reposer, se perdre, décider, emprunter, prêter, partager, pousser, tirer, toucher, suivre, disparaître, cacher, se cacher, imaginer, inventer, deviner, rêver, collectionner, utiliser, allumer, éteindre" }
+  - { level: A2, theme: décrire, justification: "Flyers u16 and u17 teach noisy, quiet, dark, deep, famous, rich, poor, married, lazy, strange, interesting, boring, dangerous, excellent.",
+      words: "bruyant, silencieux, sombre, étroit, large, profond, célèbre, riche, pauvre, marié, paresseux, étrange, incroyable, intéressant, ennuyeux, bizarre, dangereux, magnifique, excellent, minuscule, occupé, libre, ouvert, fermé" }
+  - { level: A2, theme: choses, justification: "Flyers u10 teaches things at home (pillow-type objects, blanket).",
+      words: "oreiller, couverture" }
+  # ---- B1: concepts of the English B1 plan (content/src/en/PLAN.md, B1) ----
+  - { level: B1, theme: décrire les gens, justification: "English B1 u02 (appearance, character: honest, generous, selfish, shy, bald).",
+      words: "apparence, caractère, honnête, impoli, généreux, égoïste, bavard, sérieux, chauve, beauté" }
+  - { level: B1, theme: sentiments, justification: "English B1 u03 (feelings: jealous, relieved, stressed, embarrassed, ashamed, angry, nervous).",
+      words: "jaloux, soulagé, stressé, gêné, honte, colère, tristesse, nerveux, s'inquiéter" }
+  - { level: B1, theme: relations, justification: "English B1 u04 (friendship, couples, arguing, forgiving, promises, respect, support).",
+      words: "amitié, couple, se disputer, dispute, pardonner, promettre, promesse, respect, soutenir" }
+  - { level: B1, theme: famille et fêtes, justification: "English B1 u05 (weddings, birth, nephew, niece, celebrations, traditions, death).",
+      words: "mariage, se marier, naissance, neveu, nièce, célébrer, cérémonie, tradition, mourir, mort, décorer" }
+  - { level: B1, theme: logement et ménage, justification: "English B1 u06–u07 (owner, rent, flatmate, ceiling, heating; housework, vacuum cleaner, dishwasher, ironing, dust, bulb).",
+      words: "propriétaire, loyer, louer, colocataire, plafond, chauffage, ménage, aspirateur, lave-vaisselle, machine à laver, linge, repasser, poussière, ampoule" }
+  - { level: B1, theme: cuisine et restaurant, justification: "English B1 u08–u09 (ingredients, boiling, spicy, flavour, vegetarian, the bill, the tip, the waitress).",
+      words: "ingrédient, bouillir, épicé, goût, végétarien, addition, pourboire, serveuse" }
+  - { level: B1, theme: sport et loisirs, justification: "English B1 u11–u12 (coach, champion, beat; hobbies, fishing, gardening, members).",
+      words: "entraîneur, champion, battre, passe-temps, pêche, jardinage, membre" }
+  - { level: B1, theme: opinions, justification: "English B1 u17 (opinions, arguments, disadvantages, probably, certainly, obviously).",
+      words: "avis, argument, inconvénient, probablement, certainement, évidemment" }
+  - { level: B1, theme: argent et achats, justification: "English B1 u20 (bank card, change, the sales, receipt, checkout, spend, save).",
+      words: "carte bancaire, monnaie, soldes, ticket de caisse, caisse, dépenser, économiser" }
+  - { level: B1, theme: voyages et transports, justification: "English B1 u21–u22 (flight, booking, youth hostel, delay, customs, border; traffic, traffic jam, crossroads, driving licence, brake, park).",
+      words: "vol, réservation, auberge de jeunesse, retard, douane, frontière, circulation, embouteillage, carrefour, permis de conduire, freiner, garer" }
+  - { level: B1, theme: villes et paysages, justification: "English B1 u23 (monuments, town centre, suburbs, ports, coast, landscape).",
+      words: "monument, centre-ville, banlieue, port, côte, paysage" }
+  - { level: B1, theme: mode, justification: "English B1 u26 (brands, size, fashionable, cotton, wool, leather, jewellery).",
+      words: "marque, taille, à la mode, coton, laine, cuir, bijou" }
+  - { level: B1, theme: temps et mesures, justification: "English B1 u28 (fortnight, percent, measure, weigh, weight, length, kilo, litre, nowadays, formerly).",
+      words: "quinzaine, pour cent, mesurer, peser, poids, longueur, kilo, litre, autrefois, désormais, actuellement" }

@@ -1,0 +1,70 @@
+id: nl-b1-u15
+title: { en: Travel and holidays }
+icon: travel
+topic: Bookings, delays, airports, accommodation, insurance; the conditional with zou
+vocabulary:
+  - { target: de boeking, native: { en: booking }, pos: noun, plural: boekingen, avoid: [nl.reservatie] }
+  - { target: de reservatie, native: { en: reservation }, pos: noun, plural: reservaties, alsoNL: de reservering }
+  - { target: reserveren, native: { en: "to book, to reserve" }, pos: verb }
+  - { target: de annulering, native: { en: cancellation }, pos: noun, plural: annuleringen }
+  - { target: afschaffen, native: { en: "to cancel (a train, in Belgium); to abolish" }, pos: verb }
+  - { target: vertraagd, native: { en: delayed }, pos: adjective }
+  - { target: de aansluiting, native: { en: connection (to another train) }, pos: noun, plural: aansluitingen }
+  - { target: de compensatie, native: { en: compensation }, pos: noun, plural: compensaties }
+  - { target: de handbagage, native: { en: hand luggage }, pos: noun, plural: "-" }
+  - { target: het visum, native: { en: visa }, pos: noun, plural: visa }
+  - { target: de douane, native: { en: customs }, pos: noun, plural: "-" }
+  - { target: de vlucht, native: { en: flight }, pos: noun, plural: vluchten }
+  - { target: inchecken, native: { en: to check in }, pos: verb }
+  - { target: instappen, native: { en: "to get on, to board" }, pos: verb }
+  - { target: het verblijf, native: { en: stay }, pos: noun, plural: verblijven }
+  - { target: de overnachting, native: { en: overnight stay }, pos: noun, plural: overnachtingen }
+  - { target: het halfpension, native: { en: half board }, pos: noun, plural: "-" }
+  - { target: de verhuur, native: { en: "hire, rental" }, pos: noun, plural: "-" }
+  - { target: de bezienswaardigheid, native: { en: sight (worth seeing) }, pos: noun, plural: bezienswaardigheden }
+  - { target: toeristisch, native: { en: "tourist (adj.), touristy" }, pos: adjective }
+  - { target: de gids, native: { en: "guide (a person or a book)" }, pos: noun, plural: gidsen }
+  - { target: de rondleiding, native: { en: guided tour }, pos: noun, plural: rondleidingen, avoid: [nl.excursie] }
+  - { target: de excursie, native: { en: "excursion, trip" }, pos: noun, plural: excursies }
+  - { target: het souvenir, native: { en: souvenir }, pos: noun, plural: souvenirs }
+  - { target: de reisverzekering, native: { en: travel insurance }, pos: noun, plural: reisverzekeringen }
+  - { target: de annuleringsverzekering, native: { en: cancellation insurance }, pos: noun, plural: annuleringsverzekeringen }
+  - { target: het voorwerp, native: { en: "object, item" }, pos: noun, plural: voorwerpen }
+  - { target: meenemen, native: { en: "to take (with you)" }, pos: verb }
+  - { target: de kust, native: { en: coast }, pos: noun, plural: kusten }
+  - { target: de passagier, native: { en: passenger }, pos: noun, plural: passagiers }
+  - { target: de persoon, native: { en: person }, pos: noun, plural: personen }
+  - { target: de geschiedenis, native: { en: history }, pos: noun, plural: "-" }
+sentences:
+  - { id: s01, target: "Ik heb een bevestiging van mijn boeking gekregen.", native: { en: "I've received a confirmation of my booking." }, items: [nl.boeking, nl.bevestiging] }
+  - { id: s02, target: "Hebt u een reservatie op naam van Peeters?", native: { en: "Do you have a reservation in the name of Peeters?" }, items: [nl.reservatie] }
+  - { id: s03, target: "We hebben een tafel voor vier personen gereserveerd.", native: { en: "We've booked a table for four." }, items: [nl.reserveren, nl.persoon] }
+  - { id: s04, target: "Bij annulering betaalt u twintig procent van de prijs.", native: { en: "If you cancel, you pay twenty per cent of the price." }, items: [nl.annulering, nl.procent], acceptAlso: ["U betaalt bij annulering twintig procent van de prijs."] }
+  - { id: s05, target: "De trein van kwart na acht naar Brussel is afgeschaft.", native: { en: "The 8.15 train to Brussels has been cancelled." }, items: [nl.afschaffen] }
+  - { id: s06, target: "Onze vlucht is drie uur vertraagd.", native: { en: "Our flight has been delayed by three hours." }, items: [nl.vertraagd, nl.vlucht] }
+  - { id: s07, target: "Door de vertraging heb ik mijn aansluiting in Gent gemist.", native: { en: "Because of the delay I missed my connection in Ghent." }, items: [nl.aansluiting], acceptAlso: ["Ik heb door de vertraging mijn aansluiting in Gent gemist."] }
+  - { id: s08, target: "Als de trein meer dan een uur te laat is, krijg je een compensatie.", native: { en: "If the train is more than an hour late, you get compensation." }, items: [nl.compensatie] }
+  - { id: s09, target: "Hoeveel handbagage mag ik meenemen?", native: { en: "How much hand luggage can I take with me?" }, items: [nl.handbagage, nl.meenemen] }
+  - { id: s10, target: "Voor dat land hebt u een visum nodig.", native: { en: "You need a visa for that country." }, items: [nl.visum], acceptAlso: ["U hebt voor dat land een visum nodig."] }
+  - { id: s11, target: "Bij de douane werd onze bagage gecontroleerd.", native: { en: "At customs our luggage was checked." }, items: [nl.douane], acceptAlso: ["Onze bagage werd bij de douane gecontroleerd."], finite: { word: werd, hint: { en: "worden (past)" } } }
+  - { id: s12, target: "Je kunt twee uur voor de vlucht inchecken.", native: { en: "You can check in two hours before the flight." }, items: [nl.inchecken, nl.vlucht] }
+  - { id: s13, target: "De passagiers mogen nu instappen.", native: { en: "Passengers may now board." }, items: [nl.instappen, nl.passagier], acceptAlso: ["Nu mogen de passagiers instappen."] }
+  - { id: s14, target: "Tijdens ons verblijf in Italië was het heel warm.", native: { en: "During our stay in Italy it was very hot." }, items: [nl.verblijf, nl.tijdens], acceptAlso: ["Het was tijdens ons verblijf in Italië heel warm."] }
+  - { id: s15, target: "Een overnachting met ontbijt kost negentig euro.", native: { en: "One night with breakfast costs ninety euros." }, items: [nl.overnachting] }
+  - { id: s16, target: "We hebben een hotel met halfpension geboekt.", native: { en: "We've booked a hotel with half board." }, items: [nl.halfpension] }
+  - { id: s17, target: "Aan de kust is er verhuur van fietsen.", native: { en: "On the coast there's bike hire." }, items: [nl.verhuur, nl.kust], acceptAlso: ["Er is aan de kust verhuur van fietsen."] }
+  - { id: s18, target: "Het stadhuis is de bekendste bezienswaardigheid van Leuven.", native: { en: "The town hall is the best-known sight in Leuven." }, items: [nl.bezienswaardigheid, nl.stadhuis] }
+  - { id: s19, target: "Dat dorp is erg toeristisch geworden.", native: { en: "That village has become very touristy." }, items: [nl.toeristisch] }
+  - { id: s20, target: "De gids vertelde ons veel over de geschiedenis van de stad.", native: { en: "The guide told us a lot about the history of the city." }, items: [nl.gids, nl.geschiedenis], finite: { word: vertelde, hint: { en: "vertellen (past)" } } }
+  - { id: s21, target: "Om tien uur is er een rondleiding in het Engels.", native: { en: "At ten there's a guided tour in English." }, items: [nl.rondleiding], acceptAlso: ["Er is om tien uur een rondleiding in het Engels."] }
+  - { id: s22, target: "We zouden graag een excursie naar de Ardennen maken.", native: { en: "We'd like to go on a trip to the Ardennes." }, items: [nl.excursie] }
+  - { id: s23, target: "Ze kocht een souvenir voor haar moeder.", native: { en: "She bought a souvenir for her mother." }, items: [nl.souvenir], finite: { word: kocht, hint: { en: "kopen (past)" } } }
+  - { id: s24, target: "Een reisverzekering betaalt de kosten als je in het buitenland ziek wordt.", native: { en: "Travel insurance pays the costs if you fall ill abroad." }, items: [nl.reisverzekering], acceptAlso: ["Als je in het buitenland ziek wordt, betaalt een reisverzekering de kosten."] }
+  - { id: s25, target: "Met een annuleringsverzekering krijg je je geld terug als je niet kunt vertrekken.", native: { en: "With cancellation insurance you get your money back if you can't go." }, items: [nl.annuleringsverzekering] }
+  - { id: s26, target: "U kunt verloren voorwerpen aan het loket ophalen.", native: { en: "You can collect lost property at the counter." }, items: [nl.voorwerp], acceptAlso: ["Verloren voorwerpen kunt u aan het loket ophalen.", "Aan het loket kunt u verloren voorwerpen ophalen.", "U kunt verloren voorwerpen ophalen aan het loket."] }
+
+  - { id: s27, target: "Als vluchten minder duur waren, zouden we vaker reizen.", native: { en: "If flights were cheaper, we'd travel more often." }, items: [nl.vlucht], acceptAlso: ["We zouden vaker reizen als vluchten minder duur waren."], build: true }
+  - { id: s28, target: "Neem je paspoort mee, want je hebt het aan de grens nodig.", native: { en: "Take your passport with you, because you need it at the border." }, items: [nl.meenemen] }
+  - { id: s29, target: "Doordat de trein afgeschaft was, kwam ik te laat op mijn werk.", native: { en: "Because the train was cancelled, I was late for work." }, items: [nl.afschaffen], acceptAlso: ["Doordat de trein was afgeschaft, kwam ik te laat op mijn werk.", "Ik kwam te laat op mijn werk, doordat de trein afgeschaft was.", "Ik kwam te laat op mijn werk, doordat de trein was afgeschaft."], build: true }
+  - { id: s30, target: "Terwijl we op onze vlucht wachtten, begon het te regenen.", native: { en: "While we were waiting for our flight, it started to rain." }, items: [nl.vlucht], acceptAlso: ["Het begon te regenen, terwijl we op onze vlucht wachtten."] }
+texts: [nl-b1-t16]

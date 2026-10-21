@@ -1,0 +1,49 @@
+id: en-b2-t13
+kind: reading
+title: { nl: De stille kampioen }
+topic: Sport and competition (an article in a school magazine about a young chess player)
+level: B2
+paragraphs:
+  - - { id: en-b2-t13-s01, target: "At first glance, Ellie Moore does not look like a champion.", native: { nl: "Op het eerste gezicht ziet Ellie Moore er niet uit als een kampioen." } }
+    - { id: en-b2-t13-s02, target: "She is fourteen, wears glasses and speaks so quietly that you have to lean forward to hear her.", native: { nl: "Ze is veertien, draagt een bril en praat zo stil dat je naar voren moet leunen om haar te horen." } }
+    - { id: en-b2-t13-s03, target: "Yet last month she beat a player more than three times her age to win the national under-sixteen chess title.", native: { nl: "Toch versloeg ze vorige maand een speler die meer dan drie keer zo oud was, en won ze de nationale schaaktitel voor jongeren onder de zestien." } }
+  - - { id: en-b2-t13-s04, target: "Many people don't think of chess as a sport.", native: { nl: "Veel mensen beschouwen schaken niet als een sport." } }
+    - { id: en-b2-t13-s05, target: "Ellie disagrees. \"A serious game can last five hours,\" she explains. \"You need to concentrate the whole time, and one mistake can decide the outcome.\"", native: { nl: "Ellie is het daar niet mee eens. \"Een serieuze partij kan vijf uur duren,\" legt ze uit. \"Je moet je de hele tijd concentreren, en één fout kan de afloop bepalen.\"" } }
+    - { id: en-b2-t13-s06, target: "Like many top players, she goes running three times a week, because endurance matters as much as strategy.", native: { nl: "Zoals veel topspelers gaat ze drie keer per week lopen, omdat uithoudingsvermogen even belangrijk is als strategie." } }
+  - - { id: en-b2-t13-s07, target: "Her final was the most difficult game of her life.", native: { nl: "Haar finale was de moeilijkste partij van haar leven." } }
+    - { id: en-b2-t13-s08, target: "Her opponent attacked from the start, and after two hours she was losing badly.", native: { nl: "Haar tegenstander viel vanaf het begin aan, en na twee uur stond ze zwaar achter." } }
+    - { id: en-b2-t13-s09, target: "\"He must have thought the game was over, because he started playing faster,\" she remembers. \"That's when he made a mistake.\"", native: { nl: "\"Hij moet gedacht hebben dat de partij voorbij was, want hij begon sneller te spelen,\" herinnert ze zich. \"Toen maakte hij een fout.\"" } }
+    - { id: en-b2-t13-s10, target: "Ellie calculated the next six moves, and an hour later her opponent shook her hand.", native: { nl: "Ellie berekende de volgende zes zetten, en een uur later schudde haar tegenstander haar de hand." } }
+  - - { id: en-b2-t13-s11, target: "What does she enjoy most about the game?", native: { nl: "Wat vindt ze het leukst aan het spel?" } }
+    - { id: en-b2-t13-s12, target: "Not the trophies, she says, but the people she meets.", native: { nl: "Niet de trofeeën, zegt ze, maar de mensen die ze ontmoet." } }
+    - { id: en-b2-t13-s13, target: "\"In chess, a twelve-year-old can play against a grandmother, and nobody cares about age. What matters is the game.\"", native: { nl: "\"Bij schaken kan een twaalfjarige tegen een oma spelen, en niemand let op leeftijd. Wat telt, is het spel.\"" } }
+    - { id: en-b2-t13-s14, target: "Next year she will compete in a European championship, and she has already found a sponsor to pay for the trip.", native: { nl: "Volgend jaar neemt ze deel aan een Europees kampioenschap, en ze heeft al een sponsor gevonden die de reis betaalt." } }
+glossary:
+  - { word: glance, native: { nl: "blik (at first glance: op het eerste gezicht)" } }
+  - { word: lean, native: { nl: leunen } }
+  - { word: European, native: { nl: Europees } }
+items: [en.outcome, en.endurance, en.strategy, en.opponent, en.calculate, en.sponsor]
+gapped:
+  gaps: [en-b2-t13-s04, en-b2-t13-s07, en-b2-t13-s11]
+  extra:
+    - { id: en-b2-t13-x1, target: "Chess clubs are becoming more popular in schools.", native: { nl: "Schaakclubs worden populairder op scholen." } }
+openCloze:
+  - { sentence: en-b2-t13-s02, word: so }
+  - { sentence: en-b2-t13-s06, word: as }
+  - { sentence: en-b2-t13-s09, word: must, acceptAlso: [might, may, could] }
+  - { sentence: en-b2-t13-s13, word: What }
+wordForm:
+  - { sentence: en-b2-t13-s10, word: opponent, stem: oppose }
+  - { sentence: en-b2-t13-s08, word: badly, stem: bad }
+  - { sentence: en-b2-t13-s14, word: championship, stem: champion }
+questions:
+  - { id: en-b2-t13-q1, type: summary, options: ["A quiet fourteen-year-old won a national chess title after coming back in a difficult final, and she explains why chess is a real sport.", "A quiet fourteen-year-old lost the national chess final but learnt that winning trophies is less important than meeting people.", "A chess teacher explains why young players should run three times a week instead of playing chess online."], correct: 0 }
+  - { id: en-b2-t13-q2, type: mc, question: "Why does Ellie go running?", options: ["Endurance is as important as strategy in chess.", "Her coach doesn't let her play otherwise.", "She wants to take part in a race."], correct: 0 }
+  - { id: en-b2-t13-q3, type: true_false_notgiven, statement: "Ellie's parents taught her to play chess.", answer: not_given }
+  - { id: en-b2-t13-q4, type: true_false_notgiven, statement: "Ellie was winning easily in the final.", answer: false }
+  - { id: en-b2-t13-q5, type: true_false_notgiven, statement: "Ellie's sponsor is a chess club.", answer: not_given }
+  - { id: en-b2-t13-q6, type: match_heading, paragraph: 2, options: ["More than a game", "A difficult final", "What she enjoys most"], correct: 0 }
+listeningQuestions:
+  - { id: en-b2-t13-l1, type: complete, statement: "A serious game of chess can last ___ hours.", answers: [five, "5"] }
+  - { id: en-b2-t13-l2, type: mc, question: "How will Ellie pay for her trip to the European championship?", options: ["A sponsor will pay for it.", "Her school will pay for it.", "She has saved up for it."], correct: 0 }
+orderable: false

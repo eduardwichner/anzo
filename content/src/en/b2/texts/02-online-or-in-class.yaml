@@ -1,0 +1,40 @@
+id: en-b2-t02
+kind: dialogue
+title: { nl: Online of in de klas? }
+topic: Learning for life (two students talk about an online course)
+level: B2
+speakers: { A: { name: Priya }, B: { name: Sam } }
+turns:
+  - { id: en-b2-t02-s01, speaker: B, target: "Priya, have you started that online coding course you were talking about?", native: { nl: "Priya, ben je al begonnen aan die online programmeercursus waar je het over had?" } }
+  - { id: en-b2-t02-s02, speaker: A, target: "I enrolled last month, but to be honest, I'm already falling behind.", native: { nl: "Ik heb me vorige maand ingeschreven, maar eerlijk gezegd raak ik al achterop." } }
+  - { id: en-b2-t02-s03, speaker: B, target: "Really? I thought you'd love it. You can study whenever you want.", native: { nl: "Echt? Ik dacht dat je het geweldig zou vinden. Je kunt studeren wanneer je wilt." } }
+  - { id: en-b2-t02-s04, speaker: A, target: "That's exactly the problem. Nobody checks my attendance, so I keep putting it off.", native: { nl: "Dat is precies het probleem. Niemand controleert of ik aanwezig ben, dus ik blijf het uitstellen." } }
+  - { id: en-b2-t02-s05, speaker: B, target: "So it takes more discipline than going to a class.", native: { nl: "Het vraagt dus meer discipline dan naar een les gaan." } }
+  - { id: en-b2-t02-s06, speaker: A, target: "Much more. And when I can't figure something out, there's no teacher to ask.", native: { nl: "Veel meer. En als ik iets niet snap, is er geen leraar aan wie ik het kan vragen." } }
+  - { id: en-b2-t02-s07, speaker: B, target: "Isn't there a forum where you can ask other students?", native: { nl: "Is er geen forum waar je andere studenten iets kunt vragen?" } }
+  - { id: en-b2-t02-s08, speaker: A, target: "There is, but the answers sometimes take days. By then I've stopped caring.", native: { nl: "Ja, maar de antwoorden duren soms dagen. Tegen die tijd kan het me niet meer schelen." } }
+  - { id: en-b2-t02-s09, speaker: B, target: "Why don't you set yourself a fixed time every day? Say, half an hour after dinner.", native: { nl: "Waarom spreek je niet elke dag een vast tijdstip met jezelf af? Bijvoorbeeld een halfuur na het avondeten." } }
+  - { id: en-b2-t02-s10, speaker: A, target: "I tried that, but there's always some distraction: a message, a video, my little brother.", native: { nl: "Dat heb ik geprobeerd, maar er is altijd wel een afleiding: een bericht, een filmpje, mijn kleine broer." } }
+  - { id: en-b2-t02-s11, speaker: B, target: "Then do it together with someone. I could join the course too, if it isn't too expensive.", native: { nl: "Doe het dan samen met iemand. Ik zou ook met de cursus kunnen beginnen, als hij niet te duur is." } }
+  - { id: en-b2-t02-s12, speaker: A, target: "It's free for the first three months. Would you really do that?", native: { nl: "De eerste drie maanden is hij gratis. Zou je dat echt doen?" } }
+  - { id: en-b2-t02-s13, speaker: B, target: "Why not? We could meet in the library twice a week and check each other's progress.", native: { nl: "Waarom niet? We zouden twee keer per week in de bibliotheek kunnen afspreken en elkaars vooruitgang controleren." } }
+  - { id: en-b2-t02-s14, speaker: A, target: "That would really help. Having someone to talk to is half the motivation.", native: { nl: "Dat zou echt helpen. Iemand hebben om mee te praten is de halve motivatie." } }
+glossary:
+  - { word: coding, native: { nl: "programmeren" } }
+  - { word: forum, native: { nl: "forum (op het internet)" } }
+items: [en.enrol, en.fall-behind, en.attendance, en.discipline, en.figure-out, en.distraction, en.motivation]
+questions:
+  - { id: en-b2-t02-q1, type: summary, options: ["Priya finds it hard to keep going with an online course on her own, so Sam offers to take the course with her and meet regularly.", "Priya is enjoying her online course so much that she wants Sam to take it too, although it is very expensive.", "Sam tells Priya that online courses are a waste of time and that she should go back to a normal class."], correct: 0 }
+  - { id: en-b2-t02-q2, type: mc, question: "What is Priya's main problem with the online course?", options: ["Nobody checks her, so she keeps putting it off.", "The lessons are too difficult for her.", "The course costs too much money."], correct: 0 }
+  - { id: en-b2-t02-q3, type: true_false_notgiven, statement: "Answers on the forum can take several days.", answer: true }
+  - { id: en-b2-t02-q4, type: true_false_notgiven, statement: "Sam has taken an online course before.", answer: not_given }
+  - { id: en-b2-t02-q5, type: true_false_notgiven, statement: "The course is free at the beginning.", answer: true }
+listeningQuestions:
+  - { id: en-b2-t02-l1, type: complete, statement: "The course is free for the first three ___.", answers: [months] }
+  - { id: en-b2-t02-l2, type: mc, question: "How often do they plan to meet in the library?", options: ["Twice a week.", "Every day after dinner.", "Once a month."], correct: 0 }
+openCloze:
+  - { sentence: en-b2-t02-s03, word: whenever, acceptAlso: [when, wherever] }
+  - { sentence: en-b2-t02-s05, word: than }
+  - { sentence: en-b2-t02-s07, word: where }
+  - { sentence: en-b2-t02-s13, word: each }
+orderable: false

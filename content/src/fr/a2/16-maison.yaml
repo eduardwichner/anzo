@@ -1,0 +1,48 @@
+id: fr-a2-u16
+title: { nl: Mijn huis en mijn kamer, en: "My house and my room" }
+icon: home
+topic: La maison; ranger sa chambre
+vocabulary:
+  - { target: la pièce, native: { nl: de kamer (van een huis), en: "room (in a house)" }, pos: noun, gender: f, avoid: [fr.chambre] }
+  - { target: le rez-de-chaussée, native: { nl: de benedenverdieping, en: "ground floor" }, pos: noun, gender: m }
+  - { target: le grenier, native: { nl: de zolder, en: "attic, loft" }, pos: noun, gender: m }
+  - { target: la cave, native: { nl: de kelder, en: "cellar" }, pos: noun, gender: f }
+  - { target: le balcon, native: { nl: het balkon, en: "balcony" }, pos: noun, gender: m }
+  - { target: le couloir, native: { nl: de gang, en: "corridor, hall" }, pos: noun, gender: m }
+  - { target: le meuble, native: { nl: het meubel, en: "piece of furniture" }, pos: noun, gender: m, category: true }
+  - { target: "l'étagère", native: { nl: de plank (aan de muur), en: "shelf" }, pos: noun, gender: f }
+  - { target: le tiroir, native: { nl: de lade, en: "drawer" }, pos: noun, gender: m }
+  - { target: le miroir, native: { nl: de spiegel, en: "mirror" }, pos: noun, gender: m }
+  - { target: le rideau, native: { nl: het gordijn, en: "curtain" }, pos: noun, gender: m }
+  - { target: le coussin, native: { nl: het kussen (op de bank), en: "cushion" }, pos: noun, gender: m }
+  - { target: "l'oreiller", native: { nl: het hoofdkussen, en: "pillow" }, pos: noun, gender: m, avoid: [fr.coussin] }
+  - { target: la couverture, native: { nl: de deken, en: "blanket" }, pos: noun, gender: f }
+  - { target: le tapis, native: { nl: het vloerkleed, en: "rug, carpet" }, pos: noun, gender: m }
+  - { target: ranger, native: { nl: opruimen, en: "to tidy up" }, pos: verb }
+  - { target: nettoyer, native: { nl: schoonmaken, en: "to clean" }, pos: verb }
+  - { target: propre, native: { nl: schoon, en: "clean" }, pos: adjective }
+  - { target: sale, native: { nl: vies, en: "dirty" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Quelle est ta pièce préférée ?", native: { nl: "Wat is jouw lievelingskamer in huis?", en: "What's your favourite room?" }, items: [fr.piece] }
+  - { id: s02, target: "La cuisine est au rez-de-chaussée.", native: { nl: "De keuken is op de benedenverdieping.", en: "The kitchen is on the ground floor." }, items: [fr.rez-de-chaussee] }
+  - { id: s03, target: "Il y a de vieux jouets au grenier.", native: { nl: "Er ligt oud speelgoed op zolder.", en: "There are old toys in the attic." }, items: [fr.grenier] }
+  - { id: s04, target: "Les bouteilles sont dans la cave.", native: { nl: "De flessen staan in de kelder.", en: "The bottles are in the cellar." }, items: [fr.cave] }
+  - { id: s05, target: "Nous mangeons sur le balcon en été.", native: { nl: "In de zomer eten we op het balkon.", en: "We eat on the balcony in summer." }, items: [fr.balcon] }
+  - { id: s06, target: "Ne cours pas dans le couloir !", native: { nl: "Niet rennen in de gang!", en: "Don't run in the corridor!" }, items: [fr.couloir] }
+  - { id: s07, target: "Dans ma chambre, il y a peu de meubles.", native: { nl: "In mijn kamer staan weinig meubels.", en: "There isn't much furniture in my bedroom." }, items: [fr.meuble] }
+  - { id: s08, target: "Mets les livres sur l'étagère.", native: { nl: "Zet de boeken op de plank.", en: "Put the books on the shelf." }, items: [fr.etagere] }
+  - { id: s09, target: "Mes chaussettes sont dans le tiroir.", native: { nl: "Mijn sokken liggen in de la.", en: "My socks are in the drawer." }, items: [fr.tiroir] }
+  - { id: s10, target: "Ma sœur se regarde dans le miroir.", native: { nl: "Mijn zus kijkt in de spiegel.", en: "My sister is looking at herself in the mirror." }, items: [fr.miroir] }
+  - { id: s11, target: "Ferme les rideaux, il fait nuit.", native: { nl: "Doe de gordijnen dicht, het is donker.", en: "Close the curtains, it's dark." }, items: [fr.rideau] }
+  - { id: s12, target: "Il y a des coussins sur le canapé.", native: { nl: "Er liggen kussens op de bank.", en: "There are cushions on the sofa." }, items: [fr.coussin] }
+  - { id: s13, target: "Mon chat dort sur mon oreiller.", native: { nl: "Mijn kat slaapt op mijn hoofdkussen.", en: "My cat sleeps on my pillow." }, items: [fr.oreiller] }
+  - { id: s14, target: "J'ai froid, je prends une couverture.", native: { nl: "Ik heb het koud, ik pak een deken.", en: "I'm cold, I'll get a blanket." }, items: [fr.couverture] }
+  - { id: s15, target: "Le tapis est sous la table.", native: { nl: "Het vloerkleed ligt onder de tafel.", en: "The rug is under the table." }, items: [fr.tapis] }
+  - { id: s16, target: "Range ta chambre, s'il te plaît !", native: { nl: "Ruim je kamer op, alsjeblieft!", en: "Tidy your room, please!" }, items: [fr.ranger] }
+  - { id: s17, target: "Papa nettoie la cuisine.", native: { nl: "Papa maakt de keuken schoon.", en: "Dad is cleaning the kitchen." }, items: [fr.nettoyer] }
+  - { id: s18, target: "Mes mains sont propres.", native: { nl: "Mijn handen zijn schoon.", en: "My hands are clean." }, items: [fr.propre] }
+  - { id: s19, target: "Tes chaussures sont sales !", native: { nl: "Je schoenen zijn vies!", en: "Your shoes are dirty!" }, items: [fr.sale] }
+lessons:
+  - { id: l01, title: { nl: Van kelder tot zolder, en: "From cellar to attic" }, vocab: [fr.piece, fr.rez-de-chaussee, fr.grenier, fr.cave, fr.balcon, fr.couloir] }
+  - { id: l02, title: { nl: Meubels, en: "Furniture" }, vocab: [fr.meuble, fr.etagere, fr.tiroir, fr.miroir, fr.rideau, fr.coussin, fr.oreiller] }
+  - { id: l03, title: { nl: Opruimen!, en: "Tidy up!" }, vocab: [fr.couverture, fr.tapis, fr.ranger, fr.nettoyer, fr.propre, fr.sale] }

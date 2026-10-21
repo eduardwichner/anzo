@@ -1,0 +1,31 @@
+[Unit]
+Description=Anzo language-learning app
+Documentation=file:///opt/anzo/README.md
+After=network-online.target
+Wants=network-online.target
+# A start that keeps failing (e.g. an invalid pack) stops after 10 tries in 5 minutes instead of cycling forever;
+# the watchdog then decides (at most 3 restarts an hour).
+StartLimitIntervalSec=300
+StartLimitBurst=10
+
+[Service]
+Type=simple
+User=anzo
+Group=anzo
+WorkingDirectory=/opt/anzo
+EnvironmentFile=/opt/anzo/.env
+ExecStart=/usr/bin/node server/src/index.js
+# systemctl reload anzo: reload packs, id lock and audio manifest atomically (sessions and lessons unaffected).
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=always
+RestartSec=3
+StandardOutput=append:/var/log/anzo/app.log
+StandardError=inherit
+NoNewPrivileges=true
+ProtectSystem=strict
+# The spool (group anzo-ops) carries correction requests/results and status files to and from the background jobs.
+ReadWritePaths=/opt/anzo/data /var/log/anzo -/var/spool/anzo
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

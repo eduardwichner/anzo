@@ -1,0 +1,49 @@
+id: nl-b2-work-u05
+title: { en: Healthy at work }
+icon: health
+topic: Workplace health and safety, posture and moving, stress and absence, the occupational doctor; advice and obligation (Het is aangeraden om …, De werkgever is verplicht om …)
+vocabulary:
+  - { target: de houding, native: { en: "posture; attitude" }, pos: noun, plural: houdingen }
+  - { target: ergonomisch, native: { en: ergonomic }, pos: adjective }
+  - { target: het bureau, native: { en: "desk; office" }, pos: noun, plural: bureaus }
+  - { target: de bureaustoel, native: { en: "office chair" }, pos: noun, plural: bureaustoelen }
+  - { target: het beeldscherm, native: { en: "screen, monitor" }, pos: noun, plural: beeldschermen, avoid: [nl.scherm] }
+  - { target: de werkpost, native: { en: "workstation (Belgian)" }, pos: noun, plural: werkposten, alsoNL: de werkplek }
+  - { target: staand, native: { en: "standing" }, pos: adjective }
+  - { target: de arbeidsgeneesheer, native: { en: "occupational doctor (Belgian)" }, pos: noun, plural: arbeidsgeneesheren, alsoNL: de bedrijfsarts }
+  - { target: de preventieadviseur, native: { en: "health and safety adviser (Belgian)" }, pos: noun, plural: preventieadviseurs }
+  - { target: het arbeidsongeval, native: { en: "accident at work" }, pos: noun, plural: arbeidsongevallen }
+  - { target: het verzuim, native: { en: "absence (from work)" }, pos: noun, plural: "-" }
+  - { target: overwerken, native: { en: "to work overtime" }, pos: verb }
+  - { target: uitgeput, native: { en: exhausted }, pos: adjective }
+  - { target: de balans, native: { en: balance }, pos: noun, plural: balansen, avoid: [nl.evenwicht] }
+  - { target: de vertrouwenspersoon, native: { en: "confidential adviser (at work)" }, pos: noun, plural: vertrouwenspersonen }
+  - { target: grensoverschrijdend, native: { en: "inappropriate, crossing the line (behaviour); cross-border" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Een slechte houding geeft rugpijn.", native: { en: "Bad posture gives you back pain." }, items: [nl.houding] }
+  - { id: s02, target: "Het bedrijf heeft nieuwe ergonomische stoelen gekocht.", native: { en: "The company has bought new ergonomic chairs." }, items: [nl.ergonomisch] }
+  - { id: s03, target: "Mijn bureau staat vlak bij het raam.", native: { en: "My desk is right next to the window." }, items: [nl.bureau], acceptAlso: ["Vlak bij het raam staat mijn bureau."] }
+  - { id: s04, target: "Stel je bureaustoel goed in.", native: { en: "Adjust your office chair properly." }, items: [nl.bureaustoel] }
+  - { id: s05, target: "Het beeldscherm moet even hoog staan als je ogen.", native: { en: "The screen should be at eye level." }, items: [nl.beeldscherm] }
+  - { id: s06, target: "Elke werknemer heeft een eigen werkpost.", native: { en: "Every employee has their own workstation." }, items: [nl.werkpost] }
+  - { id: s07, target: "Met een staand bureau zit je minder lang stil.", native: { en: "With a standing desk you spend less time sitting still." }, items: [nl.staand], acceptAlso: ["Je zit met een staand bureau minder lang stil."] }
+  - { id: s08, target: "Na een lange ziekte gaat ze eerst naar de arbeidsgeneesheer.", native: { en: "After a long illness she first goes to the occupational doctor." }, items: [nl.arbeidsgeneesheer] }
+  - { id: s09, target: "De preventieadviseur controleert of de werkplek veilig is.", native: { en: "The health and safety adviser checks whether the workplace is safe." }, items: [nl.preventieadviseur] }
+  - { id: s10, target: "Een arbeidsongeval moet je meteen melden.", native: { en: "You have to report an accident at work immediately." }, items: [nl.arbeidsongeval] }
+  - { id: s11, target: "Het verzuim in de zorg is hoog.", native: { en: "Absence in the care sector is high." }, items: [nl.verzuim] }
+  - { id: s12, target: "Hij werkt elke week tien uur over.", native: { en: "He works ten hours' overtime every week." }, items: [nl.overwerken], acceptAlso: ["Elke week werkt hij tien uur over."] }
+  - { id: s13, target: "Na de drukke maand was ze uitgeput.", native: { en: "After the busy month she was exhausted." }, items: [nl.uitgeput], acceptAlso: ["Ze was na de drukke maand uitgeput."] }
+  - { id: s14, target: "Zoek een goede balans tussen werk en privé.", native: { en: "Look for a good work-life balance." }, items: [nl.balans] }
+  - { id: s15, target: "Bij problemen kun je naar de vertrouwenspersoon gaan.", native: { en: "If you have problems, you can go to the confidential adviser." }, items: [nl.vertrouwenspersoon] }
+  - { id: s16, target: "Grensoverschrijdend gedrag wordt niet aanvaard.", native: { en: "Inappropriate behaviour is not accepted." }, items: [nl.grensoverschrijdend], finite: { word: wordt, hint: { en: "worden (present)" } } }
+  - { id: s17, target: "Het is aangeraden om af en toe aan een staand bureau te werken.", native: { en: "It is advisable to work at a standing desk now and then." }, items: [nl.staand], build: true }
+  - { id: s18, target: "Elke werkgever is verplicht om met een preventieadviseur te werken.", native: { en: "Every employer is obliged to work with a health and safety adviser." }, items: [nl.preventieadviseur] }
+  - { id: s19, target: "Wie te veel overwerkt, raakt sneller uitgeput.", native: { en: "Anyone who works too much overtime gets exhausted more quickly." }, items: [nl.overwerken, nl.uitgeput] }
+  - { id: s20, target: "Een ergonomische werkpost voorkomt veel klachten.", native: { en: "An ergonomic workstation prevents a lot of complaints." }, items: [nl.werkpost] }
+  - { id: s21, target: "Een lang herstel na een burn-out verhoogt het verzuim.", native: { en: "A long recovery after burnout increases absence." }, items: [nl.verzuim], form: { word: herstel, stem: herstellen } }
+  - { id: s22, target: "De preventieadviseur is verantwoordelijk voor de veiligheid op het werk.", native: { en: "The health and safety adviser is responsible for safety at work." }, items: [nl.preventieadviseur], form: { word: veiligheid, stem: veilig } }
+transforms:
+  - { id: x01, from: "Volgens de wet moet de werkgever een preventieadviseur hebben.", key: verplicht, gapped: "De werkgever ___ een preventieadviseur te hebben.", answers: ["is wettelijk verplicht om", "is wettelijk verplicht", "is volgens de wet verplicht om", "is volgens de wet verplicht", "is door de wet verplicht om", "is door de wet verplicht", "is verplicht om", "is verplicht"], items: [nl.preventieadviseur] }
+  - { id: x02, from: "Ze is heel erg moe na de drukke maand.", key: uitgeput, gapped: "Na de drukke maand ___.", answers: ["is ze uitgeput", "is ze helemaal uitgeput", "is ze echt uitgeput"], items: [nl.uitgeput] }
+  - { id: x03, from: "Bij grensoverschrijdend gedrag kun je met de vertrouwenspersoon praten.", key: terecht, gapped: "Bij grensoverschrijdend gedrag ___ de vertrouwenspersoon.", answers: ["kun je terecht bij", "kan je terecht bij"], items: [nl.vertrouwenspersoon] }
+texts: [nl-b2-work-t05]

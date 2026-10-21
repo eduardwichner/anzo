@@ -1,0 +1,75 @@
+id: fr-b2-u05
+title: { nl: Wonen en de buurt, en: "Housing and the neighbourhood" }
+icon: home
+topic: Louer et acheter, déménager, les réparations et les travaux, la vie dans un immeuble et un quartier ; faire + infinitif (faire réparer, faire venir)
+vocabulary:
+  - { target: le locataire, native: { nl: de huurder, en: "tenant" }, pos: noun, gender: m, avoid: [fr.proprietaire] }
+  - { target: l'agence immobilière, native: { nl: het makelaarskantoor, en: "estate agency, estate agent's" }, pos: noun, gender: f }
+  - { target: spacieux, native: { nl: ruim, en: "spacious, roomy" }, pos: adjective }
+  - { target: le voisinage, native: { nl: "de buurt, de buren", en: "neighbourhood, neighbours" }, pos: noun, gender: m, avoid: [fr.quartier] }
+  - { target: les alentours, native: { nl: de omgeving, en: "surroundings, surrounding area" }, pos: noun, gender: m }
+  - { target: délabré, native: { nl: vervallen, en: "run-down, dilapidated" }, pos: adjective }
+  - { target: le plombier, native: { nl: de loodgieter, en: "plumber" }, pos: noun, gender: m }
+  - { target: l'électricien, native: { nl: de elektricien, en: "electrician" }, pos: noun, gender: m }
+  - { target: la fuite, native: { nl: het lek, en: "leak" }, pos: noun, gender: f }
+  - { target: l'agrandissement, native: { nl: "de uitbreiding, de aanbouw", en: "extension" }, pos: noun, gender: m }
+  - { target: emménager, native: { nl: "intrekken (in een nieuwe woning)", en: "to move in" }, pos: verb, avoid: [fr.demenager, fr.s-installer] }
+  - { target: déménager, native: { nl: verhuizen, en: "to move (house)" }, pos: verb, avoid: [fr.emmenager] }
+  - { target: le déménagement, native: { nl: de verhuizing, en: "move, removal" }, pos: noun, gender: m }
+  - { target: s'installer, native: { nl: "zich vestigen, gaan wonen", en: "to settle, to move in" }, pos: verb, avoid: [fr.emmenager] }
+  - { target: le foyer, native: { nl: "het gezin, het huishouden", en: "household" }, pos: noun, gender: m }
+  - { target: les tâches ménagères, native: { nl: "het huishoudelijk werk", en: "housework, household chores" }, pos: noun, gender: f }
+  - { target: le désordre, native: { nl: de wanorde, en: "mess, untidiness" }, pos: noun, gender: m }
+  - { id: fr.meuble-adj, target: meublé, native: { nl: gemeubileerd, en: "furnished" }, pos: adjective }
+  - { target: l'isolation, native: { nl: de isolatie, en: "insulation" }, pos: noun, gender: f }
+  - { target: la colocation, native: { nl: "het samenhuizen (met huisgenoten)", en: "flat-sharing, house share" }, pos: noun, gender: f }
+  - { target: l'ascenseur, native: { nl: de lift, en: "lift" }, pos: noun, gender: m }
+  - { target: l'immeuble, native: { nl: het flatgebouw, en: "block of flats, building" }, pos: noun, gender: m }
+  - { target: la réparation, native: { nl: de herstelling, en: "repair" }, pos: noun, gender: f }
+  - { target: l'électricité, native: { nl: de elektriciteit, en: "electricity" }, pos: noun, gender: f, noBlank: true }
+  - { target: le logement, native: { nl: de woning, en: "housing, accommodation" }, pos: noun, gender: m }
+  - { target: l'état, native: { nl: "de staat, de toestand", en: "state, condition" }, pos: noun, gender: m }
+  - { target: la panne, native: { nl: "het defect (en panne: stuk)", en: "breakdown (as in: out of order)" }, pos: noun, gender: f, noBlank: true }
+  - { target: prévoir, native: { nl: "voorzien, plannen", en: "to plan ahead, to expect, to foresee" }, pos: verb }
+  - { target: diminuer, native: { nl: "verminderen, dalen", en: "to reduce, to decrease" }, pos: verb }
+  - { target: fatigant, native: { nl: vermoeiend, en: "tiring" }, pos: adjective }
+  - { target: pire, native: { nl: "erger, slechter", en: "worse" }, pos: adjective }
+  - { target: la faute, native: { nl: "de schuld, de fout", en: "fault, mistake" }, pos: noun, gender: f, avoid: [fr.dette] }
+  - { target: dessus, native: { nl: "erboven, erop (du dessus: van boven)", en: "on top, above (as in: the neighbours upstairs)" }, pos: adverb }
+  - { target: la lumière, native: { nl: het licht, en: "light" }, pos: noun, gender: f }
+sentences:
+  - { id: s01, target: "Comme locataire, tu as droit à un logement en bon état.", native: { nl: "Als huurder heb je recht op een woning in goede staat.", en: "As a tenant, you're entitled to housing in good condition." }, items: [fr.locataire, fr.logement, fr.etat] }
+  - { id: s02, target: "L'agence immobilière nous a montré trois maisons en un après-midi.", native: { nl: "Het makelaarskantoor liet ons op één middag drie huizen zien.", en: "The estate agency showed us three houses in one afternoon." }, items: [fr.agence-immobiliere] }
+  - { id: s03, target: "Le nouvel appartement est beaucoup plus spacieux que l'ancien.", native: { nl: "Het nieuwe appartement is veel ruimer dan het oude.", en: "The new flat is much more spacious than the old one." }, items: [fr.spacieux] }
+  - { id: s04, target: "Il y a une bonne ambiance dans le voisinage.", native: { nl: "Er is een goede sfeer in de buurt.", en: "There's a good atmosphere in the neighbourhood." }, items: [fr.voisinage] }
+  - { id: s05, target: "Les alentours de la ville sont très verts.", native: { nl: "De omgeving van de stad is heel groen.", en: "The town's surroundings are very green." }, items: [fr.alentours] }
+  - { id: s06, target: "Ils ont acheté une vieille maison délabrée et l'ont rénovée eux-mêmes.", native: { nl: "Ze kochten een oud, vervallen huis en renoveerden het zelf.", en: "They bought an old, run-down house and renovated it themselves." }, items: [fr.delabre] }
+  - { id: s07, target: "Nous avons appelé un plombier à cause d'une fuite.", native: { nl: "We belden een loodgieter omdat er een lek was.", en: "We called a plumber because of a leak." }, items: [fr.plombier, fr.fuite], acceptAlso: ["À cause d'une fuite, nous avons appelé un plombier."] }
+  - { id: s08, target: "En cas de panne d'électricité, il faut appeler un électricien.", native: { nl: "Bij een stroompanne moet je een elektricien bellen.", en: "If there's a power cut, you have to call an electrician." }, items: [fr.electricien, fr.electricite, fr.panne] }
+  - { id: s09, target: "L'agrandissement de la maison a pris six mois.", native: { nl: "De uitbreiding van het huis duurde zes maanden.", en: "The extension to the house took six months." }, items: [fr.agrandissement] }
+  - { id: s10, target: "Les nouveaux voisins ont emménagé le week-end dernier.", native: { nl: "De nieuwe buren zijn vorig weekend ingetrokken.", en: "The new neighbours moved in last weekend." }, items: [fr.emmenager] }
+  - { id: s11, target: "Nous devons déménager avant la fin du mois.", native: { nl: "We moeten voor het einde van de maand verhuizen.", en: "We have to move before the end of the month." }, items: [fr.demenager] }
+  - { id: s12, target: "Le déménagement a été plus fatigant que prévu.", native: { nl: "De verhuizing was vermoeiender dan verwacht.", en: "The move was more tiring than expected." }, items: [fr.demenagement, fr.fatigant, fr.prevoir], form: { word: déménagement, stem: déménager } }
+  - { id: s13, target: "Ils se sont installés à la campagne il y a deux ans.", native: { nl: "Ze zijn twee jaar geleden op het platteland gaan wonen.", en: "They settled in the countryside two years ago." }, items: [fr.s-installer] }
+  - { id: s14, target: "Dans notre foyer, chacun lave ses vêtements.", native: { nl: "In ons gezin wast iedereen zijn eigen kleren.", en: "In our household, everyone washes their own clothes." }, items: [fr.foyer] }
+  - { id: s15, target: "Partager les tâches ménagères n'est pas toujours facile.", native: { nl: "Het huishoudelijk werk verdelen is niet altijd makkelijk.", en: "Sharing the housework isn't always easy." }, items: [fr.taches-menageres] }
+  - { id: s16, target: "Je ne supporte pas le désordre dans ma chambre.", native: { nl: "Ik kan niet tegen wanorde in mijn kamer.", en: "I can't stand mess in my bedroom." }, items: [fr.desordre] }
+  - { id: s17, target: "L'appartement est meublé : il suffit d'apporter tes vêtements.", native: { nl: "Het appartement is gemeubileerd: je hoeft alleen je kleren mee te brengen.", en: "The flat is furnished: you only need to bring your clothes." }, items: [fr.meuble-adj] }
+  - { id: s18, target: "Une bonne isolation diminue les factures de chauffage.", native: { nl: "Een goede isolatie verlaagt de verwarmingskosten.", en: "Good insulation reduces heating bills." }, items: [fr.isolation, fr.diminuer] }
+  - { id: s19, target: "La colocation est moins chère qu'un studio.", native: { nl: "Samenhuizen is goedkoper dan een studio.", en: "Flat-sharing is cheaper than a studio flat." }, items: [fr.colocation] }
+  - { id: s20, target: "L'ascenseur est en panne, il faut prendre l'escalier.", native: { nl: "De lift is stuk, je moet de trap nemen.", en: "The lift is out of order, so we have to take the stairs." }, items: [fr.ascenseur, fr.panne] }
+  - { id: s21, target: "Nous habitons au dernier étage d'un grand immeuble.", native: { nl: "We wonen op de bovenste verdieping van een groot flatgebouw.", en: "We live on the top floor of a big block of flats." }, items: [fr.immeuble] }
+  - { id: s22, target: "La réparation du toit va coûter cher.", native: { nl: "De herstelling van het dak zal duur zijn.", en: "The roof repair is going to be expensive." }, items: [fr.reparation], form: { word: réparation, stem: réparer } }
+  - { id: s23, target: "Il y a beaucoup de lumière dans le salon.", native: { nl: "Er is veel licht in de woonkamer.", en: "There's a lot of light in the living room." }, items: [fr.lumiere] }
+  - { id: s28, target: "Les voisins du dessus font beaucoup de bruit.", native: { nl: "De bovenburen maken veel lawaai.", en: "The neighbours upstairs make a lot of noise." }, items: [fr.dessus] }
+  - { id: s29, target: "Ce n'est pas ta faute si le chauffage est en panne.", native: { nl: "Het is niet jouw schuld dat de verwarming stuk is.", en: "It's not your fault the heating has broken down." }, items: [fr.faute] }
+  - { id: s30, target: "Le bruit est encore pire la nuit.", native: { nl: "Het lawaai is 's nachts nog erger.", en: "The noise is even worse at night." }, items: [fr.pire] }
+  - { id: s24, target: "Nous avons fait réparer la fuite l'année dernière.", native: { nl: "We hebben het lek vorig jaar laten herstellen.", en: "We had the leak repaired last year." }, items: [fr.fuite], build: true, acceptAlso: ["L'année dernière, nous avons fait réparer la fuite."] }
+  - { id: s25, target: "Le propriétaire va faire venir un plombier demain.", native: { nl: "De eigenaar laat morgen een loodgieter komen.", en: "The landlord is going to get a plumber to come tomorrow." }, items: [fr.plombier], build: true, acceptAlso: ["Demain, le propriétaire va faire venir un plombier."] }
+  - { id: s26, target: "Après le déménagement, elle a fait peindre sa chambre en bleu.", native: { nl: "Na de verhuizing heeft ze haar kamer blauw laten schilderen.", en: "After the move, she had her bedroom painted blue." }, items: [fr.demenagement] }
+  - { id: s27, target: "Nous déménageons à Lyon cet été.", native: { nl: "We verhuizen deze zomer naar Lyon.", en: "We're moving to Lyon this summer." }, items: [fr.demenager], finite: { word: déménageons, hint: { nl: "déménager (présent)", en: "déménager (present)" } } }
+transforms:
+  - { id: x01, from: "Un plombier a réparé notre chauffage hier.", key: fait, gapped: "Nous ___ par un plombier hier.", answers: ["avons fait réparer notre chauffage", "avons fait réparer le chauffage"], items: [fr.plombier], native: { en: "We had our heating repaired by a plumber yesterday." } }
+  - { id: x02, from: "Ils se sont installés dans leur nouvel appartement samedi.", key: emménagé, gapped: "Ils ___ leur nouvel appartement samedi.", answers: ["ont emménagé dans"], items: [fr.emmenager], native: { en: "They moved into their new flat on Saturday." } }
+  - { id: x03, from: "L'appartement est trop petit pour une famille de cinq.", key: assez, gapped: "L'appartement n'est pas ___ pour une famille de cinq.", answers: ["assez grand", "assez spacieux"], items: [fr.spacieux], native: { en: "The flat isn't big enough for a family of five." } }
+texts: [fr-b2-t05]

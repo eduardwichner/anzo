@@ -1,0 +1,34 @@
+id: fr-b1-t17
+kind: dialogue
+title: { nl: Op het politiebureau, en: "At the police station" }
+topic: La société (une jeune fille vient signaler le vol de son portefeuille)
+level: B1
+speakers: { A: { name: Inès }, B: { name: l'agent } }
+turns:
+  - { id: fr-b1-t17-s01, speaker: B, target: "Bonjour, madame. Je peux vous aider ?", native: { nl: "Goedendag, mevrouw. Kan ik u helpen?", en: "Hello. Can I help you?" } }
+  - { id: fr-b1-t17-s02, speaker: A, target: "Bonjour, monsieur. Je viens porter plainte : quelqu'un a pris mon portefeuille.", native: { nl: "Goedendag, meneer. Ik kom aangifte doen: iemand heeft mijn portefeuille gepakt.", en: "Hello. I've come to report a crime: someone has taken my wallet." } }
+  - { id: fr-b1-t17-s03, speaker: B, target: "Où et quand est-ce que c'est arrivé ?", native: { nl: "Waar en wanneer is dat gebeurd?", en: "Where and when did it happen?" } }
+  - { id: fr-b1-t17-s04, speaker: A, target: "Ce matin, dans le bus numéro douze. Il y avait beaucoup de monde.", native: { nl: "Vanochtend, in bus nummer twaalf. Er waren veel mensen.", en: "This morning, on the number twelve bus. It was very crowded." } }
+  - { id: fr-b1-t17-s05, speaker: B, target: "Avec tout ce monde, vous avez vu le voleur ?", native: { nl: "Met al die mensen, hebt u de dief gezien?", en: "With all those people, did you see the thief?" } }
+  - { id: fr-b1-t17-s06, speaker: A, target: "Non, mais un homme était très proche de moi, et quand je suis descendue, mon sac était ouvert.", native: { nl: "Nee, maar een man stond heel dicht bij me, en toen ik uitstapte, was mijn tas open.", en: "No, but a man was standing very close to me, and when I got off, my bag was open." } }
+  - { id: fr-b1-t17-s07, speaker: B, target: "Votre sac était ouvert… Qu'est-ce qu'il y avait dans votre portefeuille ?", native: { nl: "Uw tas was open… Wat zat er in uw portefeuille?", en: "Your bag was open… What was in your wallet?" } }
+  - { id: fr-b1-t17-s08, speaker: A, target: "Ma carte bancaire, vingt euros et une photo de mon chien.", native: { nl: "Mijn bankkaart, twintig euro en een foto van mijn hond.", en: "My bank card, twenty euros and a photo of my dog." } }
+  - { id: fr-b1-t17-s09, speaker: B, target: "D'accord. Remplissez ce formulaire, s'il vous plaît. Si on le retrouve, on vous téléphonera.", native: { nl: "Goed. Vul dit formulier in, alstublieft. Als we hem terugvinden, bellen we u.", en: "All right. Fill in this form, please. If we find it, we'll phone you." } }
+  - { id: fr-b1-t17-s10, speaker: A, target: "Merci. J'espère que je vais le récupérer, surtout pour la photo !", native: { nl: "Bedankt. Ik hoop dat ik hem terugkrijg, vooral voor de foto!", en: "Thank you. I hope I get it back, especially because of the photo!" } }
+items: [fr.plainte, fr.portefeuille, fr.voleur, fr.proche, fr.formulaire, fr.retrouver, fr.recuperer, fr.carte-bancaire, fr.surtout]
+questions:
+  - { id: fr-b1-t17-q1, type: mc, question: "Pourquoi Inès va-t-elle au commissariat ?", options: ["Quelqu'un a pris son portefeuille.", "Elle a perdu son chien.", "Elle a eu un accident."], correct: 0 }
+  - { id: fr-b1-t17-q2, type: true_false_notgiven, statement: "Inès a bien vu le voleur.", answer: false }
+  - { id: fr-b1-t17-q3, type: true_false_notgiven, statement: "Le sac d'Inès était ouvert quand elle est descendue du bus.", answer: true }
+  - { id: fr-b1-t17-q4, type: true_false_notgiven, statement: "Il y avait beaucoup de personnes dans le bus.", answer: true }
+  - { id: fr-b1-t17-q5, type: mc, question: "Que doit faire Inès ?", options: ["Remplir un formulaire.", "Revenir demain.", "Téléphoner à ses parents."], correct: 0 }
+listeningQuestions:
+  - { id: fr-b1-t17-l1, type: mc, question: "Dans quel bus Inès était-elle ?", options: ["Le numéro douze.", "Le numéro deux.", "Le numéro vingt."], correct: 0 }
+  - { id: fr-b1-t17-l2, type: true_false_notgiven, statement: "Il y avait cinquante euros dans le portefeuille.", answer: false }
+cloze:
+  - { sentence: fr-b1-t17-s02, word: viens, kind: finite_verb, hint: { nl: "venir (présent)", en: "venir (present)" } }
+  - { sentence: fr-b1-t17-s04, word: avait, kind: finite_verb, hint: { nl: "avoir (imparfait: il y …)", en: "avoir (imperfect: il y …)" } }
+  - { sentence: fr-b1-t17-s05, word: avez, kind: finite_verb, hint: { nl: "avoir (présent: vous … vu)", en: "avoir (present: vous … vu)" } }
+  - { sentence: fr-b1-t17-s06, word: suis, kind: finite_verb, hint: { nl: "être (présent: je … descendue)", en: "être (present: je … descendue)" } }
+  - { sentence: fr-b1-t17-s09, word: téléphonera, kind: finite_verb, hint: { nl: "téléphoner (futur)", en: "téléphoner (future)" } }
+orderable: true

@@ -1,0 +1,58 @@
+id: en-a2-u03
+title: { nl: Werk }
+icon: people
+topic: Work
+vocabulary:
+  - { target: actor, native: { nl: "acteur, actrice" }, pos: noun }
+  - { target: artist, native: { nl: kunstenaar }, pos: noun }
+  - { target: singer, native: { nl: "zanger, zangeres" }, pos: noun }
+  - { target: photographer, native: { nl: fotograaf }, pos: noun }
+  - { target: designer, native: { nl: ontwerper }, pos: noun }
+  - { target: journalist, native: { nl: journalist }, pos: noun }
+  - { target: fire fighter, native: { nl: brandweerman }, pos: noun }
+  - { target: police officer, native: { nl: politieagent }, pos: noun }
+  - { target: pilot, native: { nl: piloot }, pos: noun }
+  - { target: astronaut, native: { nl: astronaut }, pos: noun }
+  - { target: mechanic, native: { nl: monteur }, pos: noun }
+  - { target: engineer, native: { nl: ingenieur }, pos: noun }
+  - { target: businessman, native: { nl: zakenman }, pos: noun }
+  - { target: businesswoman, native: { nl: zakenvrouw }, pos: noun, avoid: [en.businessman] }
+  - { target: manager, native: { nl: "manager, bedrijfsleider" }, pos: noun }
+  - { target: office, native: { nl: kantoor }, pos: noun }
+  - { target: meeting, native: { nl: vergadering }, pos: noun }
+  - { target: business, native: { nl: "bedrijf, zaak" }, pos: noun, avoid: [en.businessman, en.businesswoman, en.manager] }
+  - { target: job, native: { nl: "baan, beroep" }, pos: noun }
+  - { target: factory, native: { nl: fabriek }, pos: noun }
+  - { target: waiter, native: { nl: ober }, pos: noun }
+  - { target: student, native: { nl: student }, pos: noun }
+  - { target: uniform, native: { nl: uniform }, pos: noun }
+sentences:
+  - { id: s01, target: "My aunt is an actor in the theatre.", native: { nl: "Mijn tante is actrice in het theater." }, items: [en.actor] }
+  - { id: s02, target: "The artist is painting the sea.", native: { nl: "De kunstenaar schildert de zee." }, items: [en.artist] }
+  - { id: s03, target: "She wants to be a singer.", native: { nl: "Zij wil zangeres worden." }, items: [en.singer] }
+  - { id: s04, target: "The photographer took a photo of our class.", native: { nl: "De fotograaf maakte een foto van onze klas." }, items: [en.photographer] }
+  - { id: s05, target: "My mum is a designer of clothes.", native: { nl: "Mijn moeder is kledingontwerpster." }, items: [en.designer] }
+  - { id: s06, target: "The journalist wrote about our school.", native: { nl: "De journalist schreef over onze school." }, items: [en.journalist] }
+  - { id: s24, target: "My uncle is a fire fighter.", native: { nl: "Mijn oom is brandweerman." }, items: [en.fire-fighter] }
+  - { id: s07, target: "The fire fighters put out the fire.", native: { nl: "De brandweermannen hebben het vuur geblust." }, items: [en.fire-fighter] }
+  - { id: s08, target: "Ask a police officer for help.", native: { nl: "Vraag een politieagent om hulp." }, items: [en.police-officer] }
+  - { id: s09, target: "The pilot is flying the plane.", native: { nl: "De piloot vliegt het vliegtuig." }, items: [en.pilot] }
+  - { id: s10, target: "I'd like to be an astronaut.", native: { nl: "Ik wil graag astronaut worden." }, items: [en.astronaut], acceptAlso: ["I would like to be an astronaut."] }
+  - { id: s11, target: "The mechanic is fixing our car.", native: { nl: "De monteur repareert onze auto." }, items: [en.mechanic] }
+  - { id: s12, target: "An engineer built this bridge.", native: { nl: "Een ingenieur heeft deze brug gebouwd." }, items: [en.engineer] }
+  - { id: s13, target: "The businessman is on the phone.", native: { nl: "De zakenman zit aan de telefoon." }, items: [en.businessman] }
+  - { id: s14, target: "My aunt is a businesswoman.", native: { nl: "Mijn tante is zakenvrouw." }, items: [en.businesswoman] }
+  - { id: s15, target: "The manager of the shop is very friendly.", native: { nl: "De bedrijfsleider van de winkel is heel vriendelijk." }, items: [en.manager] }
+  - { id: s16, target: "Dad works in an office.", native: { nl: "Papa werkt op een kantoor." }, items: [en.office] }
+  - { id: s17, target: "Mum has got a meeting at three o'clock.", native: { nl: "Mama heeft om drie uur een vergadering." }, items: [en.meeting] }
+  - { id: s18, target: "My uncle has got a small business.", native: { nl: "Mijn oom heeft een klein bedrijf." }, items: [en.business] }
+  - { id: s19, target: "What job would you like to have?", native: { nl: "Welk beroep zou jij later willen hebben?" }, items: [en.job] }
+  - { id: s20, target: "They make chocolate in this factory.", native: { nl: "In deze fabriek maken ze chocolade." }, items: [en.factory] }
+  - { id: s21, target: "The waiter brought our pizza.", native: { nl: "De ober bracht onze pizza." }, items: [en.waiter] }
+  - { id: s22, target: "My big sister is a student now.", native: { nl: "Mijn grote zus is nu student." }, items: [en.student] }
+  - { id: s23, target: "Nurses wear a uniform.", native: { nl: "Verpleegkundigen dragen een uniform." }, items: [en.uniform] }
+lessons:
+  - { id: l01, title: { nl: Artiesten }, vocab: [en.actor, en.artist, en.singer, en.photographer, en.designer, en.journalist] }
+  - { id: l02, title: { nl: Helpers }, vocab: [en.fire-fighter, en.police-officer, en.pilot, en.astronaut, en.mechanic, en.engineer] }
+  - { id: l03, title: { nl: Op kantoor }, vocab: [en.businessman, en.businesswoman, en.manager, en.office, en.meeting, en.business] }
+  - { id: l04, title: { nl: Aan het werk }, vocab: [en.job, en.factory, en.waiter, en.student, en.uniform] }

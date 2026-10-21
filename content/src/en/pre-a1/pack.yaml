@@ -1,0 +1,20 @@
+id: en-pre-a1
+cefr: Pre-A1
+# The exercises of the Pre-A1 to A2 packs are locked: the homophone rule for single-word listen_type is for new packs only.
+legacyListenType: true
+# Every sentence no exercise uses gets one in an optional extra lesson (<unit>-extra), appended after the
+# locked exercises (new ids only).
+extraLessons: true
+source: >-
+  Cambridge English Young Learners word list (149681-yle-flyers-word-list.pdf, exams from 2018): Pre A1 Starters
+  entries of the combined 'Pre A1 Starters, A1 Movers and A2 Flyers alphabetic vocabulary list' (British forms;
+  American variants left out), numbers 1-20 from its 'Letters & numbers' note, names from the Starters names list of
+  the YLE Handbook for Teachers (153612-yle-handbook-for-teachers.pdf). Units follow the handbook's topics; sentences
+  use only the handbook's Starters 'Grammar and structures' list. Every word is checked with npm run content:trace -- en.
+  Dutch translations written by the content author. Sources: content/src/en/pre-a1/*.yaml; plan: content/src/en/PLAN.md.
+omit:
+  - { word: oh, reason: "discourse marker without a stable Dutch word; used in sentences (oh dear is taught)" }
+  - { word: so, reason: "discourse marker without a stable Dutch word" }
+  - { word: then, reason: "discourse marker at Starters; Movers teaches then as an adverb of time" }
+  - { word: well, reason: "discourse marker at Starters; Movers teaches well as an adverb (goed)" }
+  - { word: sweet, reason: "the noun is taught as sweets (snoep), the form children use; Movers teaches the adjective sweet" }

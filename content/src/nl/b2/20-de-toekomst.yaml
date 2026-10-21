@@ -1,0 +1,95 @@
+id: nl-b2-u20
+title: { en: The future }
+icon: rocket
+topic: The future of work, an ageing society, predictions and scenarios, hope and worry; review of the B2 grammar (the passive with modals, zou + infinitive, connectors, nominalisation, relative clauses)
+vocabulary:
+  - { target: vergrijzen, native: { en: "to age (of a population), to grey" }, pos: verb }
+  - { target: gepensioneerd, native: { en: retired }, pos: adjective }
+  - { target: de beroepsbevolking, native: { en: "working population, labour force" }, pos: noun, plural: "-" }
+  - { target: de automatisering, native: { en: automation }, pos: noun, plural: "-" }
+  - { target: de digitalisering, native: { en: digitalisation }, pos: noun, plural: "-" }
+  - { target: telewerken, native: { en: "to work from home, to telework (the usual Belgian term)" }, pos: verb, avoid: [nl.thuiswerken] }
+  - { target: de vierdagenweek, native: { en: four-day week }, pos: noun, plural: vierdagenweken }
+  - { target: de samenwerking, native: { en: "cooperation, collaboration" }, pos: noun, plural: samenwerkingen }
+  - { target: het vakmanschap, native: { en: craftsmanship }, pos: noun, plural: "-" }
+  - { target: de empathie, native: { en: empathy }, pos: noun, plural: "-" }
+  - { target: de welvaart, native: { en: "prosperity, wealth" }, pos: noun, plural: "-" }
+  - { target: de levenskwaliteit, native: { en: quality of life }, pos: noun, plural: "-" }
+  - { target: de betaalbaarheid, native: { en: affordability }, pos: noun, plural: "-" }
+  - { target: het tekort, native: { en: shortage }, pos: noun, plural: tekorten }
+  - { target: het overschot, native: { en: surplus }, pos: noun, plural: overschotten }
+  - { target: demografisch, native: { en: demographic }, pos: adjective }
+  - { target: de voorspelling, native: { en: prediction }, pos: noun, plural: voorspellingen }
+  - { target: het scenario, native: { en: scenario }, pos: noun, plural: "scenario's" }
+  - { target: het vooruitzicht, native: { en: prospect }, pos: noun, plural: vooruitzichten }
+  - { target: de bedreiging, native: { en: threat }, pos: noun, plural: bedreigingen }
+  - { target: de hoop, native: { en: hope }, pos: noun, plural: "-" }
+  - { target: de vrees, native: { en: fear }, pos: noun, plural: "-" }
+  - { target: vrezen, native: { en: to fear }, pos: verb }
+  - { target: het optimisme, native: { en: optimism }, pos: noun, plural: "-" }
+  - { target: optimistisch, native: { en: optimistic }, pos: adjective }
+  - { target: pessimistisch, native: { en: pessimistic }, pos: adjective }
+  - { target: de veerkracht, native: { en: resilience }, pos: noun, plural: "-" }
+  - { target: evolueren, native: { en: "to evolve, to develop" }, pos: verb }
+  - { target: drastisch, native: { en: drastic }, pos: adjective }
+  - { target: ingrijpend, native: { en: "far-reaching, radical" }, pos: adjective }
+  - { target: onvermijdelijk, native: { en: inevitable }, pos: adjective }
+  - { target: de optimist, native: { en: optimist }, pos: noun, plural: optimisten }
+  - { target: de pessimist, native: { en: pessimist }, pos: noun, plural: pessimisten }
+  - { target: opleiden, native: { en: "to train, to educate" }, pos: verb }
+  - { target: geboren, native: { en: "born (as in: to be born)" }, pos: adjective }
+  - { target: technisch, native: { en: technical }, pos: adjective }
+  - { target: tegelijk, native: { en: "at the same time" }, pos: adverb }
+sentences:
+  - { id: s01, target: "De bevolking van Europa vergrijst snel.", native: { en: "Europe's population is ageing quickly." }, items: [nl.vergrijzen] }
+  - { id: s02, target: "Mijn gepensioneerde buurman werkt nog als vrijwilliger.", native: { en: "My retired neighbour still works as a volunteer." }, items: [nl.gepensioneerd] }
+  - { id: s03, target: "De beroepsbevolking wordt elk jaar kleiner.", native: { en: "The working population is getting smaller every year." }, items: [nl.beroepsbevolking] }
+  - { id: s04, target: "Door de automatisering verdwijnen sommige jobs.", native: { en: "Because of automation some jobs are disappearing." }, items: [nl.automatisering] }
+  - { id: s05, target: "De digitalisering van de overheid gaat langzaam.", native: { en: "The digitalisation of government is progressing slowly." }, items: [nl.digitalisering, nl.overheid] }
+  - { id: s06, target: "Ik telewerk twee dagen per week.", native: { en: "I work from home two days a week." }, items: [nl.telewerken], finite: { word: telewerk, hint: { en: "telewerken (present)" } } }
+  - { id: s07, target: "De vierdagenweek wordt in steeds meer bedrijven uitgeprobeerd.", native: { en: "The four-day week is being tried out in more and more companies." }, items: [nl.vierdagenweek] }
+  - { id: s08, target: "Een goede samenwerking tussen mens en machine is de toekomst.", native: { en: "Good cooperation between human and machine is the future." }, items: [nl.samenwerking], acceptAlso: ["De toekomst is een goede samenwerking tussen mens en machine."] }
+  - { id: s09, target: "Vakmanschap kun je niet gewoon door een robot laten doen.", native: { en: "You can't just have craftsmanship done by a robot." }, items: [nl.vakmanschap] }
+  - { id: s10, target: "In de zorg zijn empathie en geduld belangrijker dan ooit.", native: { en: "In care work, empathy and patience are more important than ever." }, items: [nl.empathie] }
+  - { id: s11, target: "Onze welvaart hangt af van wie er werkt.", native: { en: "Our prosperity depends on who works." }, items: [nl.welvaart] }
+  - { id: s12, target: "Meer vrije tijd verhoogt je levenskwaliteit.", native: { en: "More free time increases your quality of life." }, items: [nl.levenskwaliteit] }
+  - { id: s13, target: "De betaalbaarheid van de pensioenen is een groot probleem.", native: { en: "The affordability of pensions is a big problem." }, items: [nl.betaalbaarheid] }
+  - { id: s14, target: "Er is een groot tekort aan verpleegkundigen.", native: { en: "There is a big shortage of nurses." }, items: [nl.tekort] }
+  - { id: s15, target: "Het land heeft dit jaar een overschot op de begroting.", native: { en: "The country has a budget surplus this year." }, items: [nl.overschot], acceptAlso: ["Dit jaar heeft het land een overschot op de begroting."] }
+  - { id: s16, target: "De demografische evolutie is een uitdaging voor de zorg.", native: { en: "The demographic trend is a challenge for care." }, items: [nl.demografisch] }
+  - { id: s17, target: "Niemand weet of die voorspelling uitkomt.", native: { en: "Nobody knows whether that prediction will come true." }, items: [nl.voorspelling] }
+  - { id: s18, target: "De onderzoekers beschrijven drie scenario's voor 2050.", native: { en: "The researchers describe three scenarios for 2050." }, items: [nl.scenario] }
+  - { id: s19, target: "De vooruitzichten voor de economie zijn goed.", native: { en: "The prospects for the economy are good." }, items: [nl.vooruitzicht] }
+  - { id: s20, target: "Sommigen zien de technologie als een bedreiging.", native: { en: "Some people see technology as a threat." }, items: [nl.bedreiging] }
+  - { id: s21, target: "We hebben de hoop nog niet opgegeven.", native: { en: "We haven't given up hope yet." }, items: [nl.hoop] }
+  - { id: s22, target: "De vrees voor nieuwe technologie is van alle tijden.", native: { en: "The fear of new technology has always existed." }, items: [nl.vrees] }
+  - { id: s23, target: "Veel werknemers vrezen voor hun job.", native: { en: "Many employees fear for their jobs." }, items: [nl.vrezen] }
+  - { id: s24, target: "Haar optimisme geeft ons energie.", native: { en: "Her optimism gives us energy." }, items: [nl.optimisme] }
+  - { id: s25, target: "Ik ben optimistisch over de toekomst.", native: { en: "I am optimistic about the future." }, items: [nl.optimistisch], form: { word: optimistisch, stem: optimist }, acceptAlso: ["Over de toekomst ben ik optimistisch."] }
+  - { id: s26, target: "Waarom ben je zo pessimistisch?", native: { en: "Why are you so pessimistic?" }, items: [nl.pessimistisch] }
+  - { id: s27, target: "Kinderen hebben vaak meer veerkracht dan volwassenen.", native: { en: "Children often have more resilience than adults." }, items: [nl.veerkracht] }
+  - { id: s28, target: "De technologie evolueert sneller dan de wet.", native: { en: "Technology evolves faster than the law." }, items: [nl.evolueren] }
+  - { id: s29, target: "De regering neemt drastische maatregelen.", native: { en: "The government is taking drastic measures." }, items: [nl.drastisch] }
+  - { id: s30, target: "Kunstmatige intelligentie zal ingrijpende gevolgen voor het onderwijs hebben.", native: { en: "Artificial intelligence will have far-reaching consequences for education." }, items: [nl.ingrijpend], acceptAlso: ["Kunstmatige intelligentie zal ingrijpende gevolgen hebben voor het onderwijs."] }
+  - { id: s31, target: "Verandering is onvermijdelijk.", native: { en: "Change is inevitable." }, items: [nl.onvermijdelijk] }
+  - { id: s32, target: "Er zullen meer verpleegkundigen opgeleid moeten worden.", native: { en: "More nurses will have to be trained." }, items: [nl.opleiden], build: true, acceptAlso: ["Er zullen meer verpleegkundigen moeten worden opgeleid.", "Er zullen meer verpleegkundigen moeten opgeleid worden."] }
+  - { id: s33, target: "Als we niets doen, zou de betaalbaarheid van de zorg een probleem kunnen worden.", native: { en: "If we do nothing, the affordability of care could become a problem." }, items: [nl.betaalbaarheid] }
+  - { id: s34, target: "Het werk dat robots niet kunnen doen, wordt door de automatisering waardevoller.", native: { en: "The work that robots cannot do is becoming more valuable because of automation." }, items: [nl.automatisering] }
+  - { id: s35, target: "Het invoeren van een vierdagenweek is niet voor elk bedrijf mogelijk.", native: { en: "Introducing the four-day week is not possible for every company." }, items: [nl.vierdagenweek] }
+  - { id: s36, target: "Hij is een optimist: hij ziet altijd de zonnige kant van het leven.", native: { en: "He is an optimist: he always looks on the bright side of life." }, items: [nl.optimist] }
+  - { id: s37, target: "De samenwerking met de school loopt goed.", native: { en: "The cooperation with the school is going well." }, items: [nl.samenwerking], form: { word: samenwerking, stem: samenwerken } }
+  - { id: s38, target: "Dat is een heel betaalbare oplossing.", native: { en: "That is a very affordable solution." }, items: [nl.betaalbaar], form: { word: betaalbare, stem: betalen } }
+  - { id: s39, target: "Pessimisten zien vooral de risico's.", native: { en: "Pessimists mainly see the risks." }, items: [nl.pessimist] }
+  - { id: s40, target: "Mijn dochter is in 2010 geboren.", native: { en: "My daughter was born in 2010." }, items: [nl.geboren] }
+  - { id: s41, target: "Voor die job heb je technische kennis nodig.", native: { en: "For that job you need technical knowledge." }, items: [nl.technisch] }
+  - { id: s43, target: "Als we de voorspelling hadden geloofd, zouden we anders hebben beslist.", native: { en: "If we had believed the prediction, we would have decided differently." }, items: [nl.voorspelling], build: true, acceptAlso: ["Als we de voorspelling geloofd hadden, zouden we anders hebben beslist.", "Als we de voorspelling hadden geloofd, zouden we anders beslist hebben.", "Als we de voorspelling geloofd hadden, zouden we anders beslist hebben.", "We zouden anders hebben beslist als we de voorspelling hadden geloofd.", "We zouden anders beslist hebben als we de voorspelling hadden geloofd.", "We zouden anders hebben beslist als we de voorspelling geloofd hadden.", "We zouden anders beslist hebben als we de voorspelling geloofd hadden."] }
+  - { id: s44, target: "Enerzijds biedt de technologie nieuwe kansen, anderzijds verdwijnen er jobs.", native: { en: "On the one hand technology offers new opportunities, on the other hand jobs are disappearing." }, items: [nl.automatisering], build: true }
+  - { id: s45, target: "Ondanks de digitalisering blijft vakmanschap belangrijk.", native: { en: "Despite digitalisation, craftsmanship remains important." }, items: [nl.digitalisering, nl.vakmanschap], build: true, acceptAlso: ["Vakmanschap blijft ondanks de digitalisering belangrijk.", "Vakmanschap blijft belangrijk ondanks de digitalisering."] }
+  - { id: s46, target: "Dat is een vooruitzicht waarover niemand graag praat.", native: { en: "That is a prospect nobody likes to talk about." }, items: [nl.vooruitzicht], build: true }
+  - { id: s42, target: "Je kunt niet tegelijk bellen en goed luisteren.", native: { en: "You can't make a call and listen properly at the same time." }, items: [nl.tegelijk] }
+  - { id: s47, target: "Ofschoon de bevolking vergrijst, blijft de economie groeien.", native: { en: "Although the population is ageing, the economy keeps growing." }, items: [nl.ofschoon, nl.vergrijzen] }
+transforms:
+  - { id: x01, from: "De bedrijven moeten de werknemers beter opleiden.", key: worden, gapped: "De werknemers ___ door de bedrijven.", answers: ["moeten beter opgeleid worden", "moeten beter worden opgeleid"], items: [nl.opleiden] }
+  - { id: x02, from: "Misschien kan de automatisering ons helpen.", key: zou, gapped: "De automatisering ___ helpen.", answers: ["zou ons kunnen"], items: [nl.automatisering] }
+  - { id: x03, from: "Veel ouders zijn bang voor de toekomst van hun kinderen.", key: vrezen, gapped: "Veel ouders ___ de toekomst van hun kinderen.", answers: ["vrezen voor"], items: [nl.vrezen] }
+texts: [nl-b2-t21]

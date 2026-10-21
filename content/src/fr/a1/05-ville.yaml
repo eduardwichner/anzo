@@ -1,0 +1,38 @@
+id: fr-a1-u05
+title: { nl: In de stad, en: "In town" }
+icon: town
+topic: La ville; les magasins; les sorties
+vocabulary:
+  - { target: la ville, native: { nl: de stad, en: "town, city" }, pos: noun, gender: f }
+  - { target: le magasin, native: { nl: de winkel, en: "shop" }, pos: noun, gender: m }
+  - { target: le supermarché, native: { nl: de supermarkt, en: "supermarket" }, pos: noun, gender: m }
+  - { target: la boulangerie, native: { nl: de bakkerij, en: "bakery, baker's (shop)" }, pos: noun, gender: f }
+  - { target: le marché, native: { nl: de markt, en: "market" }, pos: noun, gender: m }
+  - { target: la poste, native: { nl: het postkantoor, en: "post office" }, pos: noun, gender: f }
+  - { target: la gare, native: { nl: het station, en: "station, railway station" }, pos: noun, gender: f }
+  - { target: "l'hôpital", native: { nl: het ziekenhuis, en: "hospital" }, pos: noun, gender: m }
+  - { target: le restaurant, native: { nl: het restaurant, en: "restaurant" }, pos: noun, gender: m }
+  - { target: le musée, native: { nl: het museum, en: "museum" }, pos: noun, gender: m }
+  - { target: la place, native: { nl: "het plein, de plaats", en: "square, seat, place" }, pos: noun, gender: f }
+  - { target: le cirque, native: { nl: het circus, en: "circus" }, pos: noun, gender: m }
+  - { target: le théâtre, native: { nl: het theater, en: "theatre" }, pos: noun, gender: m }
+  - { target: le spectacle, native: { nl: de voorstelling, en: "show" }, pos: noun, gender: m }
+sentences:
+  - { id: s01, target: "J'habite dans une grande ville.", native: { nl: "Ik woon in een grote stad.", en: "I live in a big city." }, items: [fr.ville] }
+  - { id: s02, target: "Le magasin est en face de l'école.", native: { nl: "De winkel is tegenover de school.", en: "The shop is opposite the school." }, items: [fr.magasin] }
+  - { id: s03, target: "Maman achète du lait au supermarché.", native: { nl: "Mama koopt melk in de supermarkt.", en: "Mum buys milk at the supermarket." }, items: [fr.supermarche] }
+  - { id: s04, target: "J'achète du pain à la boulangerie.", native: { nl: "Ik koop brood bij de bakker.", en: "I buy bread at the baker's." }, items: [fr.boulangerie] }
+  - { id: s05, target: "Le samedi, nous allons au marché.", native: { nl: "Op zaterdag gaan we naar de markt.", en: "On Saturdays we go to the market." }, items: [fr.marche] }
+  - { id: s06, target: "La poste est à côté de la boulangerie.", native: { nl: "Het postkantoor is naast de bakkerij.", en: "The post office is next to the bakery." }, items: [fr.poste, fr.boulangerie] }
+  - { id: s07, target: "Le train arrive à la gare.", native: { nl: "De trein komt aan op het station.", en: "The train arrives at the station." }, items: [fr.gare] }
+  - { id: s08, target: "Mon père travaille à l'hôpital.", native: { nl: "Mijn vader werkt in het ziekenhuis.", en: "My father works at the hospital." }, items: [fr.hopital] }
+  - { id: s09, target: "Lucas va au restaurant avec son grand-père.", native: { nl: "Lucas gaat met zijn opa naar het restaurant.", en: "Lucas is going to the restaurant with his grandfather." }, items: [fr.restaurant] }
+  - { id: s10, target: "Le dimanche, je vais au musée avec mes parents.", native: { nl: "Op zondag ga ik met mijn ouders naar het museum.", en: "On Sundays I go to the museum with my parents." }, items: [fr.musee] }
+  - { id: s11, target: "Il y a un marché sur la place.", native: { nl: "Er is een markt op het plein.", en: "There's a market in the square." }, items: [fr.place, fr.marche] }
+  - { id: s12, target: "Reste à ta place !", native: { nl: "Blijf op je plaats!", en: "Stay in your seat!" }, items: [fr.place] }
+  - { id: s13, target: "Au cirque, il y a des chevaux et des chiens.", native: { nl: "In het circus zijn paarden en honden.", en: "At the circus there are horses and dogs." }, items: [fr.cirque] }
+  - { id: s14, target: "Ce soir, nous allons au théâtre.", native: { nl: "Vanavond gaan we naar het theater.", en: "Tonight we're going to the theatre." }, items: [fr.theatre] }
+  - { id: s15, target: "Le spectacle commence à huit heures.", native: { nl: "De voorstelling begint om acht uur.", en: "The show starts at eight o'clock." }, items: [fr.spectacle] }
+lessons:
+  - { id: l01, title: { nl: Winkels en gebouwen, en: "Shops and buildings" }, vocab: [fr.ville, fr.magasin, fr.supermarche, fr.boulangerie, fr.marche, fr.poste, fr.gare, fr.hopital] }
+  - { id: l02, title: { nl: Uitgaan, en: "Going out" }, vocab: [fr.restaurant, fr.musee, fr.place, fr.cirque, fr.theatre, fr.spectacle] }

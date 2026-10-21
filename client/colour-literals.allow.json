@@ -1,0 +1,9 @@
+{
+  "about": "Files allowed to write colour literals outside client/src/styles/tokens.css (server/test/colour-literals.test.js). Each is an illustration with its own palette that reads on both themes: it is drawn on its own background, or was checked on the dark page (screenshots).",
+  "files": {
+    "client/src/avatars/index.jsx": "16 avatar faces, always drawn on their own pastel disc (--avatar-*), which stays the same in both themes",
+    "client/src/components/Mascot.jsx": "the otter, fox and lion: fur colours are the animals'; in the dark theme they stand on --mascot-backdrop",
+    "client/src/components/BadgeIcon.jsx": "medals: a white glyph on a coloured medal with a darker ring, the same in both themes",
+    "client/src/components/Flag.jsx": "the British, French and Dutch flags: their colours are fixed by the flags themselves"
+  }
+}

@@ -1,0 +1,73 @@
+id: fr-b1-u12
+title: { nl: Geld en mode, en: "Money and fashion" }
+icon: money
+topic: L'argent, les achats et la mode ; le comparatif et le superlatif
+vocabulary:
+  - { target: la carte bancaire, native: { nl: de bankkaart, en: "bank card, debit card" }, pos: noun, gender: f }
+  - { target: la monnaie, native: { nl: "het wisselgeld, de munt", en: "small change, coins, currency" }, pos: noun, gender: f }
+  - { target: les soldes, native: { nl: de solden (uitverkoop), en: "the sales" }, pos: noun, gender: m }
+  - { target: le ticket de caisse, native: { nl: "het kasticket, het kassabonnetje", en: "receipt" }, pos: noun, gender: m }
+  - { target: la caisse, native: { nl: de kassa, en: "till, checkout" }, pos: noun, gender: f }
+  - { target: dépenser, native: { nl: uitgeven (geld), en: "to spend (money)" }, pos: verb }
+  - { target: économiser, native: { nl: sparen, en: "to save (money)" }, pos: verb }
+  - { target: le tarif, native: { nl: het tarief, en: "rate, price" }, pos: noun, gender: m }
+  - { target: la réduction, native: { nl: de korting, en: "discount, reduction" }, pos: noun, gender: f }
+  - { target: gratuit, native: { nl: gratis, en: "free (costing nothing)" }, pos: adjective }
+  - { target: rembourser, native: { nl: terugbetalen, en: "to refund, to pay back" }, pos: verb }
+  - { target: le consommateur, native: { nl: de consument, en: "consumer" }, pos: noun, gender: m }
+  - { target: la marque, native: { nl: het merk, en: "brand" }, pos: noun, gender: f }
+  - { target: la taille, native: { nl: de maat (kleding), en: "size (of clothes)" }, pos: noun, gender: f }
+  - { target: à la mode, native: { nl: in de mode, en: "fashionable, in fashion" }, pos: phrase }
+  - { target: le coton, native: { nl: het katoen, en: "cotton" }, pos: noun, gender: m }
+  - { target: la laine, native: { nl: de wol, en: "wool" }, pos: noun, gender: f }
+  - { target: le cuir, native: { nl: het leer, en: "leather" }, pos: noun, gender: m }
+  - { target: le bijou, native: { nl: het juweel, en: "piece of jewellery, jewel" }, pos: noun, gender: m }
+  - { target: la mode, native: { nl: de mode, en: "fashion" }, pos: noun, gender: f }
+  - { target: le produit, native: { nl: het product, en: "product" }, pos: noun, gender: m }
+  - { target: le service, native: { nl: de dienst, en: "service" }, pos: noun, gender: m }
+  - { target: le choix, native: { nl: de keuze, en: "choice" }, pos: noun, gender: m }
+  - { target: comparer, native: { nl: vergelijken, en: "to compare" }, pos: verb }
+  - { target: gaspiller, native: { nl: verspillen, en: "to waste" }, pos: verb }
+  - { target: le gaspillage, native: { nl: de verspilling, en: "waste" }, pos: noun, gender: m }
+  - { target: augmenter, native: { nl: stijgen (verhogen), en: "to rise, to increase" }, pos: verb, avoid: [fr.baisser] }
+  - { target: baisser, native: { nl: dalen (verlagen), en: "to drop, to lower, to decrease" }, pos: verb }
+  - { target: financer, native: { nl: financieren, en: "to finance, to fund" }, pos: verb }
+  - { target: le million, native: { nl: het miljoen, en: "million" }, pos: noun, gender: m }
+  - { target: le millier, native: { nl: het duizendtal, en: "about a thousand, thousands (plural)" }, pos: noun, gender: m }
+  - { target: l'accès, native: { nl: de toegang, en: "access" }, pos: noun, gender: m }
+sentences:
+  - { id: s01, target: "Je peux payer avec ma carte bancaire ?", native: { nl: "Kan ik met mijn bankkaart betalen?", en: "Can I pay with my bank card?" }, items: [fr.carte-bancaire] }
+  - { id: s02, target: "Voici votre monnaie, madame.", native: { nl: "Hier is uw wisselgeld, mevrouw.", en: "Here's your change, madam." }, items: [fr.monnaie] }
+  - { id: s03, target: "J'ai acheté ce manteau pendant les soldes.", native: { nl: "Ik heb deze jas tijdens de solden gekocht.", en: "I bought this coat in the sales." }, items: [fr.soldes], acceptAlso: ["Pendant les soldes, j'ai acheté ce manteau."] }
+  - { id: s04, target: "Gardez le ticket de caisse si vous voulez échanger le pull.", native: { nl: "Bewaar het kassabonnetje als u de trui wilt ruilen.", en: "Keep the receipt if you want to exchange the jumper." }, items: [fr.ticket-de-caisse] }
+  - { id: s05, target: "Il y a beaucoup de monde à la caisse.", native: { nl: "Er staan veel mensen aan de kassa.", en: "There are a lot of people at the checkout." }, items: [fr.caisse] }
+  - { id: s06, target: "Il dépense tout son argent en jeux vidéo.", native: { nl: "Hij geeft al zijn geld uit aan videospelletjes.", en: "He spends all his money on video games." }, items: [fr.depenser], finite: { word: dépense, hint: { nl: "dépenser (présent)", en: "dépenser (present)" } } }
+  - { id: s07, target: "J'économise pour acheter un vélo.", native: { nl: "Ik spaar om een fiets te kopen.", en: "I'm saving to buy a bike." }, items: [fr.economiser] }
+  - { id: s08, target: "Le tarif est plus bas pour les étudiants.", native: { nl: "Het tarief is lager voor studenten.", en: "There's a lower rate for students." }, items: [fr.tarif] }
+  - { id: s09, target: "Avec ta carte de membre, tu as une réduction de dix pour cent.", native: { nl: "Met je lidkaart krijg je tien procent korting.", en: "With your membership card, you get a ten per cent discount." }, items: [fr.reduction] }
+  - { id: s10, target: "L'entrée du musée est gratuite le dimanche.", native: { nl: "De toegang tot het museum is gratis op zondag.", en: "Entry to the museum is free on Sundays." }, items: [fr.gratuit], acceptAlso: ["Le dimanche, l'entrée du musée est gratuite."] }
+  - { id: s11, target: "Le magasin m'a remboursé parce que le jeu ne marchait pas.", native: { nl: "De winkel heeft me terugbetaald omdat het spel niet werkte.", en: "The shop gave me a refund because the game didn't work." }, items: [fr.rembourser] }
+  - { id: s12, target: "Les consommateurs veulent des produits moins chers.", native: { nl: "De consumenten willen goedkopere producten.", en: "Consumers want cheaper products." }, items: [fr.consommateur, fr.produit] }
+  - { id: s13, target: "De quelle marque sont tes chaussures ?", native: { nl: "Van welk merk zijn je schoenen?", en: "What brand are your shoes?" }, items: [fr.marque] }
+  - { id: s14, target: "Vous avez ce pantalon dans une autre taille ?", native: { nl: "Hebt u deze broek in een andere maat?", en: "Have you got these trousers in another size?" }, items: [fr.taille] }
+  - { id: s15, target: "Ces lunettes de soleil sont très à la mode.", native: { nl: "Deze zonnebril is erg in de mode.", en: "These sunglasses are very fashionable." }, items: [fr.a-la-mode] }
+  - { id: s16, target: "Ce t-shirt est en coton.", native: { nl: "Dit T-shirt is van katoen.", en: "This T-shirt is made of cotton." }, items: [fr.coton] }
+  - { id: s17, target: "Ma grand-mère m'a fait une écharpe en laine.", native: { nl: "Mijn oma heeft een wollen sjaal voor me gemaakt.", en: "My grandmother made me a woollen scarf." }, items: [fr.laine] }
+  - { id: s18, target: "Il porte une veste en cuir noir.", native: { nl: "Hij draagt een zwarte leren jas.", en: "He's wearing a black leather jacket." }, items: [fr.cuir] }
+  - { id: s19, target: "Elle ne porte jamais de bijoux.", native: { nl: "Ze draagt nooit juwelen.", en: "She never wears jewellery." }, items: [fr.bijou] }
+  - { id: s20, target: "Ma sœur s'intéresse beaucoup à la mode.", native: { nl: "Mijn zus is erg geïnteresseerd in mode.", en: "My sister is very interested in fashion." }, items: [fr.mode] }
+  - { id: s21, target: "La banque propose un nouveau service sur Internet.", native: { nl: "De bank biedt een nieuwe dienst op het internet aan.", en: "The bank offers a new service on the internet." }, items: [fr.service] }
+  - { id: s22, target: "Il y a beaucoup de choix dans ce magasin.", native: { nl: "Er is veel keuze in deze winkel.", en: "There's a lot of choice in this shop." }, items: [fr.choix], acceptAlso: ["Dans ce magasin, il y a beaucoup de choix."] }
+  - { id: s23, target: "Avant d'acheter, compare les prix sur Internet.", native: { nl: "Vergelijk de prijzen op het internet voordat je iets koopt.", en: "Before you buy, compare prices on the internet." }, items: [fr.comparer], acceptAlso: ["Compare les prix sur Internet avant d'acheter."] }
+  - { id: s24, target: "Ne gaspille pas l'eau quand tu te laves les dents.", native: { nl: "Verspil geen water als je je tanden poetst.", en: "Don't waste water when you brush your teeth." }, items: [fr.gaspiller] }
+  - { id: s25, target: "Le gaspillage d'eau est un grand problème.", native: { nl: "Waterverspilling is een groot probleem.", en: "Water waste is a big problem." }, items: [fr.gaspillage] }
+  - { id: s26, target: "Le prix du pain a augmenté cette année.", native: { nl: "De prijs van het brood is dit jaar gestegen.", en: "The price of bread has risen this year." }, items: [fr.augmenter], acceptAlso: ["Cette année, le prix du pain a augmenté."] }
+  - { id: s27, target: "Pendant les soldes, les prix baissent beaucoup.", native: { nl: "Tijdens de solden dalen de prijzen sterk.", en: "In the sales, prices drop a lot." }, items: [fr.baisser], finite: { word: baissent, hint: { nl: "baisser (présent)", en: "baisser (present)" } }, acceptAlso: ["Les prix baissent beaucoup pendant les soldes."] }
+  - { id: s28, target: "La ville finance le nouveau terrain de sport.", native: { nl: "De stad financiert het nieuwe sportterrein.", en: "The town is funding the new sports ground." }, items: [fr.financer], finite: { word: finance, hint: { nl: "financer (présent)", en: "financer (present)" } } }
+  - { id: s29, target: "Cette ville a plus d'un million d'habitants.", native: { nl: "Deze stad heeft meer dan een miljoen inwoners.", en: "This city has more than a million inhabitants." }, items: [fr.million] }
+  - { id: s30, target: "Des milliers de personnes sont venues au concert.", native: { nl: "Duizenden mensen kwamen naar het concert.", en: "Thousands of people came to the concert." }, items: [fr.millier] }
+  - { id: s31, target: "Tous les élèves ont accès à la bibliothèque.", native: { nl: "Alle leerlingen hebben toegang tot de bibliotheek.", en: "All the pupils have access to the library." }, items: [fr.acces] }
+  - { id: s32, target: "Ce magasin a les tarifs les plus bas de la ville.", native: { nl: "Deze winkel heeft de laagste prijzen van de stad.", en: "This shop has the lowest prices in town." }, items: [fr.tarif], build: true }
+  - { id: s33, target: "La laine est plus chaude que le coton.", native: { nl: "Wol is warmer dan katoen.", en: "Wool is warmer than cotton." }, items: [fr.coton, fr.laine], build: true }
+  - { id: s34, target: "Si j'avais assez d'argent, j'achèterais une veste en cuir.", native: { nl: "Als ik genoeg geld had, zou ik een leren jas kopen.", en: "If I had enough money, I'd buy a leather jacket." }, items: [fr.cuir] }
+texts: [fr-b1-t13]

@@ -1,0 +1,52 @@
+id: nl-b2-t10
+kind: reading
+title: { en: Learning on the job }
+topic: Education (an article in a city magazine)
+level: B2
+paragraphs:
+  - - { id: nl-b2-t10-s01, target: "Elke dinsdag en woensdag zit Ilias in de klas, de rest van de week werkt hij in een garage in Mechelen.", native: { en: "Every Tuesday and Wednesday Ilias sits in class; the rest of the week he works in a garage in Mechelen." } }
+    - { id: nl-b2-t10-s02, target: "De zeventienjarige volgt duaal leren: hij leert een beroep op school en ook op de werkvloer.", native: { en: "The seventeen-year-old does dual learning: he learns a trade at school and also on the shop floor." } }
+    - { id: nl-b2-t10-s03, target: "\"Vroeger zat ik de hele dag naar het bord te kijken en begreep ik niet waarom ik al die leerstof moest kennen\", vertelt hij.", native: { en: "\"I used to sit looking at the board all day and I didn't understand why I had to know all that material\", he says." } }
+    - { id: nl-b2-t10-s04, target: "\"Nu zie ik elke dag waarvoor ik het leer.\"", native: { en: "\"Now I see every day what I'm learning it for.\"" } }
+  - - { id: nl-b2-t10-s05, target: "Sinds het invoeren van duaal leren in het secundair onderwijs kiezen elk jaar meer jongeren voor deze vorm.", native: { en: "Since the introduction of dual learning in secondary education more young people choose this form every year." } }
+    - { id: nl-b2-t10-s06, target: "Ze krijgen een kleine vergoeding en een begeleider op het werk, die samen met de school hun competenties opvolgt.", native: { en: "They get a small allowance and a mentor at work who, together with the school, monitors their skills." } }
+    - { id: nl-b2-t10-s07, target: "Wie slaagt, heeft niet alleen een diploma, maar ook ervaring die werkgevers belangrijk vinden.", native: { en: "Anyone who passes has not only a diploma but also experience that employers find important." } }
+  - - { id: nl-b2-t10-s08, target: "Toch verloopt het niet altijd zo vlot.", native: { en: "Still, it doesn't always go so smoothly." } }
+    - { id: nl-b2-t10-s09, target: "In sommige sectoren zijn er te weinig bedrijven die een plaats aanbieden, en niet elke werkplek heeft tijd om een jongere goed te begeleiden.", native: { en: "In some sectors there are too few companies offering a place, and not every workplace has time to guide a young person properly." } }
+    - { id: nl-b2-t10-s10, target: "Een leerkracht uit Leuven merkt ook dat de theoretische vakken soms in het gedrang komen.", native: { en: "A teacher from Leuven also notices that the theoretical subjects sometimes suffer." } }
+    - { id: nl-b2-t10-s11, target: "\"Twee dagen school is weinig om alles te leren wat je later nodig hebt.\"", native: { en: "\"Two days of school is not much to learn everything you'll need later.\"" } }
+  - - { id: nl-b2-t10-s12, target: "Duaal leren is bovendien niet alleen iets voor jongeren.", native: { en: "Dual learning, moreover, is not just something for young people." } }
+    - { id: nl-b2-t10-s13, target: "Ook volwassenen die zich willen omscholen, kunnen een nieuw beroep leren terwijl ze werken.", native: { en: "Adults who want to retrain can also learn a new trade while they work." } }
+    - { id: nl-b2-t10-s14, target: "Zo werkt Katrien, die twintig jaar in een winkel stond, nu als stagiair in een woonzorgcentrum.", native: { en: "Katrien, for example, who worked in a shop for twenty years, is now working as a trainee in a care home." } }
+    - { id: nl-b2-t10-s15, target: "\"Op mijn leeftijd nog naar school gaan, had ik nooit gedacht\", lacht ze.", native: { en: "\"I'd never have thought I'd still be going to school at my age,\" she laughs." } }
+  - - { id: nl-b2-t10-s16, target: "Levenslang leren is geen mooi woord meer, maar een noodzaak.", native: { en: "Lifelong learning is no longer a nice word but a necessity." } }
+    - { id: nl-b2-t10-s17, target: "Wie vandaag een beroep leert, zal het over tien jaar waarschijnlijk op een andere manier uitoefenen.", native: { en: "Anyone who learns a trade today will probably practise it in a different way in ten years." } }
+    - { id: nl-b2-t10-s18, target: "Of dat in een klas, op de werkvloer of online gebeurt, is minder belangrijk dan de wil om te blijven leren.", native: { en: "Whether that happens in a classroom, on the shop floor or online matters less than the will to keep learning." } }
+glossary:
+  - { word: werkvloer, native: { en: "shop floor, workplace" } }
+  - { word: begeleider, native: { en: "mentor, supervisor" } }
+  - { word: opvolgt, native: { en: "follows up, monitors (opvolgen)" } }
+  - { word: sectoren, native: { en: "sectors (de sector)" } }
+  - { word: verloopt, native: { en: "goes, proceeds (verlopen)" } }
+  - { word: wil, native: { en: "will (de wil)" } }
+  - { word: gedrang, native: { en: "(in het gedrang komen: to suffer, to be squeezed)" } }
+  - { word: noodzaak, native: { en: necessity } }
+  - { word: uitoefenen, native: { en: "to practise (a trade)" } }
+items: [nl.duaal, nl.leerstof, nl.secundair, nl.onderwijs, nl.competentie, nl.theoretisch, nl.stagiair, nl.levenslang, nl.begeleiding, nl.zich-omscholen]
+openCloze:
+  - { sentence: nl-b2-t10-s02, word: ook, acceptAlso: [vooral, tegelijk, zeker] }
+  - { sentence: nl-b2-t10-s07, word: alleen, acceptAlso: [enkel] }
+  - { sentence: nl-b2-t10-s09, word: weinig }
+  - { sentence: nl-b2-t10-s13, word: zich }
+  - { sentence: nl-b2-t10-s17, word: waarschijnlijk, acceptAlso: [misschien, vermoedelijk, zeker, vast] }
+questions:
+  - { id: nl-b2-t10-q1, type: summary, options: ["Bij duaal leren ga je naar school en werk je ook; het heeft voordelen en problemen en is ook iets voor volwassenen.", "Bij duaal leren ga je naar school en werk je ook; het heeft alleen voordelen, maar het is niets voor volwassenen.", "Door duaal leren verdwijnen de theoretische vakken uit het secundair onderwijs."], correct: 0 }
+  - { id: nl-b2-t10-q2, type: mc, question: "Waarom vindt Ilias duaal leren beter?", options: ["Hij ziet elke dag waarvoor hij iets leert.", "Hij hoeft geen examens meer te doen.", "Hij verdient meer dan zijn vrienden."], correct: 0 }
+  - { id: nl-b2-t10-q3, type: true_false_notgiven, statement: "Volgens het artikel hebben sommige bedrijven te weinig tijd voor hun leerling.", answer: true }
+  - { id: nl-b2-t10-q4, type: true_false_notgiven, statement: "In Mechelen volgen meer jongeren duaal leren dan in Leuven.", answer: not_given }
+  - { id: nl-b2-t10-q5, type: true_false_notgiven, statement: "Katrien werkte vroeger twintig jaar in een woonzorgcentrum.", answer: false }
+  - { id: nl-b2-t10-q6, type: match_heading, paragraph: 3, options: ["De problemen van duaal leren", "Een nieuw beroep als volwassene", "Waarom werkgevers ervaring belangrijk vinden"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-t10-l1, type: complete, statement: "Ilias werkt in een ___ in Mechelen.", answers: [garage] }
+  - { id: nl-b2-t10-l2, type: mc, question: "Wat is volgens het einde van het artikel het belangrijkste?", options: ["De wil om te blijven leren.", "Leren in een klas.", "Een diploma van de universiteit."], correct: 0 }
+orderable: false

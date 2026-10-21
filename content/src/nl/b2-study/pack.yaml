@@ -1,0 +1,13 @@
+id: nl-b2-study
+cefr: B2
+native: en
+# The optional study branch of B2 (manifest branch: true, after: nl-b2). Units 1–8 (PLAN.md, B2 branches).
+finiteVerbFill: true
+source: >-
+  Dutch as spoken in Flanders (standard Belgian Dutch), level B2, for adults and older teenagers who study or will study in Dutch:
+  lectures and the study year, academic reading and writing, research and surveys, presenting, language and language change,
+  behaviour and the brain, science and the environment, design. The units follow the tasks of the CNaVT B2 profile Educatief
+  Startbekwaam (STRT; content/reference/dutch/b2/: Liegen, Bedtijd, Taalverandering, Koopknop in het brein, Medicijnresten in het
+  grondwater, Industrieel ontwerpen, Debat) and Richtgraad 3 (educatief domein). Every word is in the derived Dutch word list
+  (content/src/nl/WORDLIST.md) at B2 or below — the branch groups f01–f08 — or in a text's glossary. The texts are original
+  (exam papers are models for text types only); English meanings written by the content author.

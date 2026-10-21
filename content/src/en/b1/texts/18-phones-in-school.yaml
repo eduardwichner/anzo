@@ -1,0 +1,35 @@
+id: en-b1-t18
+kind: dialogue
+title: { nl: Telefoons op school? }
+topic: Opinions (two students discuss a school rule for the school council)
+level: B1
+speakers: { A: { name: Amira }, B: { name: Oliver } }
+turns:
+  - { id: en-b1-t18-s01, speaker: A, target: "So, the head teacher wants to know our opinion about phones at school. What do you think?", native: { nl: "Dus de directeur wil onze mening weten over telefoons op school. Wat vind jij?" } }
+  - { id: en-b1-t18-s02, speaker: B, target: "Personally, I think we should be allowed to use them at break. It's our free time.", native: { nl: "Persoonlijk vind ik dat we ze in de pauze mogen gebruiken. Het is onze vrije tijd." } }
+  - { id: en-b1-t18-s03, speaker: A, target: "I'm not sure. At my cousin's school phones aren't allowed at all during the day, and she says people talk to each other much more.", native: { nl: "Ik weet het niet zeker. Op de school van mijn nicht zijn telefoons overdag helemaal niet toegestaan, en ze zegt dat mensen veel meer met elkaar praten." } }
+  - { id: en-b1-t18-s04, speaker: B, target: "That's probably true. But what about emergencies? Parents might need to contact their children.", native: { nl: "Dat is waarschijnlijk waar. Maar hoe zit het met noodgevallen? Het kan zijn dat ouders hun kinderen moeten bereiken." } }
+  - { id: en-b1-t18-s05, speaker: A, target: "They can always phone the school office. That's what my parents did when I was at primary school.", native: { nl: "Ze kunnen altijd het schoolsecretariaat bellen. Dat deden mijn ouders ook toen ik op de basisschool zat." } }
+  - { id: en-b1-t18-s06, speaker: B, target: "OK, I see your point. Maybe there's another solution.", native: { nl: "Oké, ik begrijp wat je bedoelt. Misschien is er een andere oplossing." } }
+  - { id: en-b1-t18-s07, speaker: A, target: "Like what?", native: { nl: "Zoals wat?" } }
+  - { id: en-b1-t18-s08, speaker: B, target: "Phones could stay in our bags during lessons, but we could use them in one part of the playground at lunchtime.", native: { nl: "Telefoons zouden tijdens de lessen in onze tassen kunnen blijven, maar we zouden ze tijdens de lunchpauze op één deel van het schoolplein kunnen gebruiken." } }
+  - { id: en-b1-t18-s09, speaker: A, target: "That seems a fair compromise. I think the teachers might accept that.", native: { nl: "Dat lijkt me een eerlijk compromis. Ik denk dat de leraren dat misschien wel accepteren." } }
+  - { id: en-b1-t18-s10, speaker: B, target: "Great. Let's write it down and present it at the meeting on Thursday.", native: { nl: "Mooi. Laten we het opschrijven en het donderdag op de vergadering voorstellen." } }
+glossary:
+  - { word: compromise, native: { nl: compromis } }
+items: [en.opinion, en.personally, en.probably, en.true, en.emergency, en.contact, en.primary-school, en.maybe, en.solution, en.seem, en.accept, en.write-down, en.lunchtime, en.allow]
+questions:
+  - { id: en-b1-t18-q1, type: mc, question: "What does Oliver think at the start?", options: ["Students should be allowed to use phones at break.", "Phones should not be allowed at all.", "Phones are only for emergencies."], correct: 0 }
+  - { id: en-b1-t18-q2, type: true_false_notgiven, statement: "Amira's cousin can use her phone at school.", answer: false }
+  - { id: en-b1-t18-q3, type: true_false_notgiven, statement: "Amira says parents can call the school office in an emergency.", answer: true }
+  - { id: en-b1-t18-q4, type: true_false_notgiven, statement: "Most teachers want to stop phones completely.", answer: not_given }
+  - { id: en-b1-t18-q5, type: mc, question: "What do they finally agree on?", options: ["Phones in bags during lessons, but allowed in one place at lunch.", "Phones allowed everywhere at break.", "No phones in school at all."], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t18-l1, type: mc, question: "When is the meeting?", options: ["On Thursday.", "At lunchtime today.", "Next week."], correct: 0 }
+  - { id: en-b1-t18-l2, type: true_false_notgiven, statement: "Oliver changes his mind a little during the conversation.", answer: true }
+cloze:
+  - { sentence: en-b1-t18-s01, word: wants, kind: finite_verb, hint: { nl: "want (tegenwoordige tijd)" } }
+  - { sentence: en-b1-t18-s03, word: says, kind: finite_verb, hint: { nl: "say (tegenwoordige tijd)" } }
+  - { sentence: en-b1-t18-s05, word: did, kind: finite_verb, hint: { nl: "do (verleden tijd)" } }
+  - { sentence: en-b1-t18-s09, word: seems, kind: finite_verb, hint: { nl: "seem (tegenwoordige tijd)" } }
+orderable: true

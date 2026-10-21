@@ -1,0 +1,52 @@
+id: nl-pre-a1-u12
+title: { en: What do you do? }
+icon: action
+topic: Everyday verbs in the present
+vocabulary:
+  - { id: nl.werk, target: het werk, native: { en: "work, job" }, pos: noun, plural: "-" }
+  - { target: studeren, native: { en: to study }, pos: verb }
+  - { target: lezen, native: { en: to read }, pos: verb }
+  - { target: het boek, native: { en: book }, pos: noun, plural: boeken }
+  - { target: de krant, native: { en: newspaper }, pos: noun, plural: kranten }
+  - { target: schrijven, native: { en: to write }, pos: verb }
+  - { target: luisteren, native: { en: to listen }, pos: verb }
+  - { target: de muziek, native: { en: music }, pos: noun, plural: "-" }
+  - { target: kijken, native: { en: "to look, to watch" }, pos: verb, avoid: [nl.zien] }
+  - { target: zien, native: { en: to see }, pos: verb }
+  - { target: de film, native: { en: film }, pos: noun, plural: films }
+  - { target: slapen, native: { en: to sleep }, pos: verb }
+  - { target: koken, native: { en: to cook }, pos: verb }
+  - { target: maken, native: { en: to make }, pos: verb, avoid: [nl.doen] }
+  - { target: doen, native: { en: to do }, pos: verb }
+  - { target: fietsen, native: { en: to cycle }, pos: verb }
+  - { target: wandelen, native: { en: to walk }, pos: verb }
+  - { target: spelen, native: { en: to play }, pos: verb }
+  - { target: kopen, native: { en: to buy }, pos: verb }
+  - { target: betalen, native: { en: to pay }, pos: verb }
+  - { target: zoeken, native: { en: to look for }, pos: verb }
+  - { target: wachten, native: { en: to wait }, pos: verb }
+  - { target: helpen, native: { en: to help }, pos: verb }
+sentences:
+  - { id: s01, target: "Ik werk in een winkel.", native: { en: "I work in a shop." }, items: [nl.werken] }
+  - { id: s02, target: "Het werk is leuk.", native: { en: "The work is fun." }, items: [nl.werk] }
+  - { id: s03, target: "Mijn dochter studeert in Leuven.", native: { en: "My daughter is studying in Leuven." }, items: [nl.studeren] }
+  - { id: s04, target: "Ik lees een boek.", native: { en: "I'm reading a book." }, items: [nl.lezen, nl.boek] }
+  - { id: s05, target: "Mijn man leest de krant.", native: { en: "My husband is reading the newspaper." }, items: [nl.krant, nl.lezen] }
+  - { id: s06, target: "Ik schrijf mijn naam.", native: { en: "I'm writing my name." }, items: [nl.schrijven] }
+  - { id: s07, target: "We luisteren naar muziek.", native: { en: "We're listening to music." }, items: [nl.luisteren, nl.muziek] }
+  - { id: s08, target: "Kijk, dat is Tom!", native: { en: "Look, that's Tom!" }, items: [nl.kijken] }
+  - { id: s09, target: "Ik zie de bus.", native: { en: "I can see the bus." }, items: [nl.zien] }
+  - { id: s10, target: "Wij kijken naar een film.", native: { en: "We're watching a film." }, items: [nl.film, nl.kijken] }
+  - { id: s11, target: "De baby slaapt.", native: { en: "The baby is sleeping." }, items: [nl.slapen] }
+  - { id: s12, target: "Ik kook voor mijn gezin.", native: { en: "I cook for my family." }, items: [nl.koken] }
+  - { id: s13, target: "Wat maak je?", native: { en: "What are you making?" }, items: [nl.maken] }
+  - { id: s14, target: "Wat doe je?", native: { en: "What are you doing?" }, items: [nl.doen] }
+  - { id: s15, target: "Ik fiets naar mijn werk.", native: { en: "I cycle to work." }, items: [nl.fietsen, nl.werk] }
+  - { id: s16, target: "We wandelen in het park.", native: { en: "We're walking in the park." }, items: [nl.wandelen] }
+  - { id: s17, target: "De kinderen spelen in de tuin.", native: { en: "The children are playing in the garden." }, items: [nl.spelen] }
+  - { id: s18, target: "Ik koop brood.", native: { en: "I'm buying bread." }, items: [nl.kopen] }
+  - { id: s19, target: "Ik betaal, Tom.", native: { en: "I'll pay, Tom." }, items: [nl.betalen] }
+  - { id: s20, target: "Ik zoek de bushalte.", native: { en: "I'm looking for the bus stop." }, items: [nl.zoeken] }
+  - { id: s21, target: "Ik wacht op de bus.", native: { en: "I'm waiting for the bus." }, items: [nl.wachten] }
+  - { id: s22, target: "Ik help u graag.", native: { en: "I'm happy to help you." }, items: [nl.helpen] }
+  - { id: s23, target: "Ik help mijn moeder.", native: { en: "I'm helping my mother." }, items: [nl.helpen] }

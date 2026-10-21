@@ -1,0 +1,35 @@
+id: fr-b1-t05
+kind: reading
+title: { nl: De bruiloft van mijn tante, en: "My aunt's wedding" }
+topic: Les fêtes de famille (un élève raconte un mariage dans son blog)
+level: B1
+paragraphs:
+  - - { id: fr-b1-t05-s01, target: "Samedi dernier, ma tante Sophie s'est mariée avec Karim.", native: { nl: "Afgelopen zaterdag is mijn tante Sophie met Karim getrouwd.", en: "Last Saturday my aunt Sophie married Karim." } }
+    - { id: fr-b1-t05-s02, target: "C'était la première fois que j'allais à un mariage, et j'étais un peu nerveux.", native: { nl: "Het was de eerste keer dat ik naar een bruiloft ging, en ik was een beetje zenuwachtig.", en: "It was the first time I'd been to a wedding, and I was a bit nervous." } }
+  - - { id: fr-b1-t05-s03, target: "La cérémonie a commencé à la mairie à onze heures.", native: { nl: "De plechtigheid begon om elf uur op het gemeentehuis.", en: "The ceremony began at the town hall at eleven o'clock." } }
+    - { id: fr-b1-t05-s04, target: "Ensuite, nous sommes allés dans une grande salle à la campagne, où toute la famille était réunie.", native: { nl: "Daarna gingen we naar een grote zaal op het platteland, waar de hele familie verzameld was.", en: "Then we went to a big hall in the countryside, where the whole family had gathered." } }
+    - { id: fr-b1-t05-s05, target: "Il y avait quatre générations : de mes arrière-grands-parents jusqu'à mes petits cousins.", native: { nl: "Er waren vier generaties: van mijn overgrootouders tot mijn kleine neefjes en nichtjes.", en: "There were four generations: from my great-grandparents to my little cousins." } }
+  - - { id: fr-b1-t05-s06, target: "La famille de Karim vient du Maroc, alors il y avait des plats traditionnels des deux pays.", native: { nl: "De familie van Karim komt uit Marokko, dus er waren traditionele gerechten uit beide landen.", en: "Karim's family comes from Morocco, so there were traditional dishes from both countries." } }
+    - { id: fr-b1-t05-s07, target: "Le moment le plus inattendu, c'était quand mon grand-père a commencé à danser !", native: { nl: "Het meest onverwachte moment was toen mijn opa begon te dansen!", en: "The most unexpected moment was when my grandfather started dancing!" } }
+    - { id: fr-b1-t05-s08, target: "Tout le monde a rigolé, et l'ambiance était magnifique jusqu'à minuit.", native: { nl: "Iedereen moest lachen, en de sfeer was prachtig tot middernacht.", en: "Everyone laughed, and the atmosphere was wonderful until midnight." } }
+  - - { id: fr-b1-t05-s09, target: "Maintenant, je regarde les photos et je revis cette belle journée.", native: { nl: "Nu kijk ik naar de foto's en beleef ik die mooie dag opnieuw.", en: "Now I'm looking at the photos and reliving that lovely day." } }
+    - { id: fr-b1-t05-s10, target: "Je souhaite beaucoup de bonheur à Sophie et Karim !", native: { nl: "Ik wens Sophie en Karim veel geluk!", en: "I wish Sophie and Karim lots of happiness!" } }
+glossary:
+  - { word: arrière-grands-parents, native: { nl: overgrootouders, en: "great-grandparents" } }
+items: [fr.se-marier, fr.fois, fr.mariage, fr.nerveux, fr.ceremonie, fr.reunir, fr.generation, fr.traditionnel, fr.moment, fr.inattendu, fr.rigoler, fr.ambiance, fr.revivre, fr.souhaiter, fr.bonheur, fr.salle]
+questions:
+  - { id: fr-b1-t05-q1, type: mc, question: "Où la cérémonie a-t-elle eu lieu ?", options: ["À la mairie.", "Dans une église.", "À la campagne."], correct: 0 }
+  - { id: fr-b1-t05-q2, type: true_false_notgiven, statement: "L'auteur était déjà allé à beaucoup de mariages.", answer: false }
+  - { id: fr-b1-t05-q3, type: true_false_notgiven, statement: "Le grand-père de l'auteur a dansé pendant la fête.", answer: true }
+  - { id: fr-b1-t05-q4, type: true_false_notgiven, statement: "Il y avait des plats de deux pays.", answer: true }
+  - { id: fr-b1-t05-q5, type: mc, question: "Quel moment était le plus inattendu ?", options: ["Le grand-père a dansé.", "Karim a chanté.", "La fête a fini très tôt."], correct: 0 }
+  - { id: fr-b1-t05-q6, type: match_heading, paragraph: 3, options: ["Deux cultures et un grand-père qui danse", "Une cérémonie à la mairie", "Des souvenirs en photos"], correct: 0 }
+listeningQuestions:
+  - { id: fr-b1-t05-l1, type: mc, question: "À quelle heure la cérémonie a-t-elle commencé ?", options: ["À onze heures.", "À midi.", "À dix heures."], correct: 0 }
+  - { id: fr-b1-t05-l2, type: true_false_notgiven, statement: "La fête a continué jusqu'à minuit.", answer: true }
+cloze:
+  - { sentence: fr-b1-t05-s05, word: avait, kind: finite_verb, hint: { nl: "avoir (imparfait: il y …)", en: "avoir (imperfect: il y …)" } }
+  - { sentence: fr-b1-t05-s06, word: vient, kind: finite_verb, hint: { nl: "venir (présent)", en: "venir (present)" } }
+  - { sentence: fr-b1-t05-s08, word: était, kind: finite_verb, hint: { nl: "être (imparfait)", en: "être (imperfect)" } }
+  - { sentence: fr-b1-t05-s09, word: regarde, kind: finite_verb, hint: { nl: "regarder (présent)", en: "regarder (present)" } }
+orderable: true

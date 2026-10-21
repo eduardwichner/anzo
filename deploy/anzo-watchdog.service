@@ -1,0 +1,11 @@
+[Unit]
+Description=Anzo watchdog (restarts a hung service; uses /api/live, never /api/health)
+Documentation=file:///opt/anzo/README.md
+
+[Service]
+Type=oneshot
+# root: it may run `systemctl restart anzo`.
+WorkingDirectory=/opt/anzo
+ExecStart=/usr/bin/node scripts/ops/watchdog.js
+# A hung run must not block every later run of its timer.
+TimeoutStartSec=3min

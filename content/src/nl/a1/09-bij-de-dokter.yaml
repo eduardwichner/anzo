@@ -1,0 +1,48 @@
+id: nl-a1-u09
+title: { en: At the doctor's }
+icon: health
+topic: Feeling ill, the doctor, the pharmacy
+vocabulary:
+  - { target: de pijn, native: { en: pain }, pos: noun, plural: pijnen }
+  - { target: de hoofdpijn, native: { en: headache }, pos: noun, plural: "-" }
+  - { target: de buikpijn, native: { en: stomach ache }, pos: noun, plural: "-" }
+  - { target: de keelpijn, native: { en: sore throat }, pos: noun, plural: "-" }
+  - { target: de koorts, native: { en: fever }, pos: noun, plural: "-" }
+  - { target: de griep, native: { en: flu }, pos: noun, plural: "-" }
+  - { target: de last, native: { en: "trouble, bother" }, pos: noun, plural: "-" }
+  - { target: voelen, native: { en: to feel }, pos: verb }
+  - { target: tegen, native: { en: against }, pos: preposition }
+  - { target: de huisarts, native: { en: GP }, pos: noun, plural: huisartsen }
+  - { target: de wachtkamer, native: { en: waiting room }, pos: noun, plural: wachtkamers }
+  - { target: het medicijn, native: { en: medicine }, pos: noun, plural: medicijnen, avoid: [nl.pil] }
+  - { target: de pil, native: { en: pill }, pos: noun, plural: pillen }
+  - { target: de apotheker, native: { en: pharmacist }, pos: noun, plural: apothekers }
+  - { target: de verpleegkundige, native: { en: nurse }, pos: noun, plural: verpleegkundigen }
+  - { target: gezond, native: { en: healthy }, pos: adjective }
+  - { target: beter, native: { en: "better (recovered)" }, pos: adjective }
+  - { target: ernstig, native: { en: serious }, pos: adjective }
+  - { target: rusten, native: { en: to rest }, pos: verb }
+  - { target: beterschap, native: { en: get well soon }, pos: phrase }
+sentences:
+  - { id: s01, target: "Ik heb veel pijn.", native: { en: "I'm in a lot of pain." }, items: [nl.pijn] }
+  - { id: s02, target: "Waar hebt u pijn?", native: { en: "Where does it hurt?" }, items: [nl.pijn] }
+  - { id: s03, target: "Ik heb hoofdpijn.", native: { en: "I have a headache." }, items: [nl.hoofdpijn] }
+  - { id: s04, target: "Mijn zoon heeft buikpijn.", native: { en: "My son has a stomach ache." }, items: [nl.buikpijn] }
+  - { id: s05, target: "Ik heb keelpijn en koorts.", native: { en: "I have a sore throat and a fever." }, items: [nl.keelpijn, nl.koorts], acceptAlso: ["Ik heb koorts en keelpijn."] }
+  - { id: s06, target: "Hebt u koorts?", native: { en: "Do you have a temperature?" }, items: [nl.koorts] }
+  - { id: s07, target: "Ik heb griep, denk ik.", native: { en: "I've got flu, I think." }, items: [nl.griep] }
+  - { id: s08, target: "Ik heb last van mijn rug.", native: { en: "My back is bothering me." }, items: [nl.last] }
+  - { id: s09, target: "Ik voel mijn been niet.", native: { en: "I can't feel my leg." }, items: [nl.voelen] }
+  - { id: s10, target: "Hebt u iets tegen hoofdpijn?", native: { en: "Do you have something for a headache?" }, items: [nl.tegen] }
+  - { id: s11, target: "Ik bel de huisarts.", native: { en: "I'm calling the GP." }, items: [nl.huisarts] }
+  - { id: s12, target: "U mag in de wachtkamer wachten.", native: { en: "You can wait in the waiting room." }, items: [nl.wachtkamer], acceptAlso: ["In de wachtkamer mag u wachten."] }
+  - { id: s13, target: "Neem dit medicijn drie keer per dag.", native: { en: "Take this medicine three times a day." }, items: [nl.medicijn] }
+  - { id: s14, target: "Neem een pil na het eten.", native: { en: "Take a pill after eating." }, items: [nl.pil] }
+  - { id: s15, target: "De apotheker helpt mij.", native: { en: "The pharmacist is helping me." }, items: [nl.apotheker] }
+  - { id: s16, target: "De verpleegkundige is vriendelijk.", native: { en: "The nurse is friendly." }, items: [nl.verpleegkundige] }
+  - { id: s17, target: "Fruit is gezond.", native: { en: "Fruit is healthy." }, items: [nl.gezond] }
+  - { id: s18, target: "Ik ben weer beter.", native: { en: "I'm well again." }, items: [nl.beter] }
+  - { id: s19, target: "Het is niet ernstig.", native: { en: "It isn't serious." }, items: [nl.ernstig] }
+  - { id: s20, target: "U moet veel rusten.", native: { en: "You need to rest a lot." }, items: [nl.rusten] }
+  - { id: s21, target: "Beterschap, Sara!", native: { en: "Get well soon, Sara!" }, items: [nl.beterschap] }
+  - { id: s22, target: "Bel 112, hij moet naar het ziekenhuis!", native: { en: "Call 112, he has to go to hospital!" }, items: [nl.moeten] }

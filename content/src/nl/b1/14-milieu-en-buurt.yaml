@@ -1,0 +1,80 @@
+id: nl-b1-u14
+title: { en: The environment and the neighbourhood }
+icon: nature
+topic: The climate, pollution, saving energy, local initiatives; zodat and om … te
+vocabulary:
+  - { target: het milieu, native: { en: environment }, pos: noun, plural: "-" }
+  - { target: het klimaat, native: { en: climate }, pos: noun, plural: klimaten }
+  - { target: de klimaatverandering, native: { en: climate change }, pos: noun, plural: "-" }
+  - { target: vervuilen, native: { en: to pollute }, pos: verb }
+  - { target: de vervuiling, native: { en: pollution }, pos: noun, plural: "-" }
+  - { target: de lucht, native: { en: "air, sky" }, pos: noun, plural: luchten }
+  - { target: de uitstoot, native: { en: emissions }, pos: noun, plural: "-" }
+  - { target: het zonnepaneel, native: { en: solar panel }, pos: noun, plural: zonnepanelen }
+  - { target: de windmolen, native: { en: "wind turbine, windmill" }, pos: noun, plural: windmolens }
+  - { target: duurzaam, native: { en: "sustainable, durable" }, pos: adjective }
+  - { target: planten, native: { en: to plant }, pos: verb }
+  - { target: de moestuin, native: { en: vegetable garden }, pos: noun, plural: moestuinen }
+  - { target: het insect, native: { en: insect }, pos: noun, plural: insecten }
+  - { target: de vogel, native: { en: bird }, pos: noun, plural: vogels }
+  - { target: het plastic, native: { en: plastic }, pos: noun, plural: "-" }
+  - { target: hergebruiken, native: { en: to reuse }, pos: verb }
+  - { target: recycleren, native: { en: to recycle }, pos: verb, alsoNL: recyclen }
+  - { target: verspillen, native: { en: to waste }, pos: verb }
+  - { target: het fietspad, native: { en: cycle path }, pos: noun, plural: fietspaden }
+  - { target: de fietsstraat, native: { en: "cycle street (where cars may not overtake bikes)" }, pos: noun, plural: fietsstraten }
+  - { target: het verkeer, native: { en: traffic }, pos: noun, plural: "-" }
+  - { target: delen, native: { en: to share }, pos: verb }
+  - { target: de deelauto, native: { en: "shared car (car-sharing)" }, pos: noun, plural: deelauto's }
+  - { target: het initiatief, native: { en: initiative }, pos: noun, plural: initiatieven }
+  - { target: de buurtbewoner, native: { en: local resident }, pos: noun, plural: buurtbewoners }
+  - { target: deelnemen, native: { en: "to take part (+ aan)" }, pos: verb, avoid: [nl.meedoen] }
+  - { target: meedoen, native: { en: "to join in, to take part" }, pos: verb }
+  - { target: samenwerken, native: { en: "to work together" }, pos: verb }
+  - { target: de actie, native: { en: "action, campaign" }, pos: noun, plural: acties }
+  - { target: de subsidie, native: { en: "grant, subsidy" }, pos: noun, plural: subsidies, avoid: [nl.premie] }
+  - { target: de premie, native: { en: "grant, premium (from the government)" }, pos: noun, plural: premies }
+  - { target: de inspraak, native: { en: "say, consultation (of residents)" }, pos: noun, plural: "-" }
+  - { target: zonde, native: { en: "a waste, a shame" }, pos: adjective }
+  - { target: de fietser, native: { en: cyclist }, pos: noun, plural: fietsers }
+  - { target: inhalen, native: { en: "to overtake; to catch up" }, pos: verb }
+  - { target: het platteland, native: { en: countryside }, pos: noun, plural: "-" }
+  - { target: verminderen, native: { en: to reduce }, pos: verb }
+  - { target: de steen, native: { en: stone }, pos: noun, plural: stenen }
+  - { target: minstens, native: { en: at least }, pos: adverb }
+sentences:
+  - { id: s01, target: "We moeten beter voor het milieu zorgen.", native: { en: "We have to take better care of the environment." }, items: [nl.milieu], acceptAlso: ["Voor het milieu moeten we beter zorgen."] }
+  - { id: s02, target: "Het klimaat in België is niet zo warm.", native: { en: "The climate in Belgium isn't very warm." }, items: [nl.klimaat], acceptAlso: ["In België is het klimaat niet zo warm."] }
+  - { id: s03, target: "Door de klimaatverandering zijn de zomers warmer.", native: { en: "Because of climate change the summers are warmer." }, items: [nl.klimaatverandering], acceptAlso: ["De zomers zijn warmer door de klimaatverandering."] }
+  - { id: s04, target: "Fabrieken die de rivier vervuilen, krijgen een boete.", native: { en: "Factories that pollute the river are fined." }, items: [nl.vervuilen] }
+  - { id: s05, target: "De vervuiling in de stad is slecht voor je longen.", native: { en: "The pollution in the city is bad for your lungs." }, items: [nl.vervuiling, nl.long] }
+  - { id: s06, target: "Op het platteland is de lucht veel properder.", native: { en: "In the countryside the air is much cleaner." }, items: [nl.lucht, nl.platteland], acceptAlso: ["De lucht is veel properder op het platteland."] }
+  - { id: s07, target: "De stad wil de uitstoot van auto's verminderen.", native: { en: "The city wants to reduce car emissions." }, items: [nl.uitstoot, nl.verminderen] }
+  - { id: s08, target: "Sinds we zonnepanelen hebben, is onze rekening veel lager.", native: { en: "Since we've had solar panels, our bill has been much lower." }, items: [nl.zonnepaneel], acceptAlso: ["Onze rekening is veel lager sinds we zonnepanelen hebben."] }
+  - { id: s09, target: "Voor de kust staan veel windmolens.", native: { en: "There are a lot of wind turbines off the coast." }, items: [nl.windmolen] }
+  - { id: s10, target: "Kies voor duurzame producten die lang goed blijven.", native: { en: "Choose sustainable products that last a long time." }, items: [nl.duurzaam] }
+  - { id: s11, target: "Morgen planten we samen bomen in het park.", native: { en: "Tomorrow we're planting trees in the park together." }, items: [nl.planten], acceptAlso: ["We planten morgen samen bomen in het park."] }
+  - { id: s12, target: "In onze moestuin groeien tomaten en sla.", native: { en: "Tomatoes and lettuce grow in our vegetable garden." }, items: [nl.moestuin, nl.groeien], acceptAlso: ["Tomaten en sla groeien in onze moestuin."] }
+  - { id: s13, target: "Bloemen zijn belangrijk voor vogels en insecten.", native: { en: "Flowers are important for birds and insects." }, items: [nl.insect, nl.vogel], acceptAlso: ["Voor vogels en insecten zijn bloemen belangrijk.", "Bloemen zijn voor vogels en insecten belangrijk."] }
+  - { id: s14, target: "Elke ochtend hoor ik de vogels in de tuin.", native: { en: "Every morning I hear the birds in the garden." }, items: [nl.vogel], acceptAlso: ["Ik hoor elke ochtend de vogels in de tuin."] }
+  - { id: s15, target: "Neem je eigen tas mee, zodat je geen plastic nodig hebt.", native: { en: "Take your own bag, so that you don't need plastic." }, items: [nl.plastic, nl.eigen] }
+  - { id: s16, target: "Glazen flessen kun je vaak hergebruiken.", native: { en: "You can often reuse glass bottles." }, items: [nl.hergebruiken], acceptAlso: ["Vaak kun je glazen flessen hergebruiken."] }
+  - { id: s17, target: "Oud papier wordt gerecycleerd.", native: { en: "Old paper is recycled." }, items: [nl.recycleren], finite: { word: wordt, hint: { en: "worden (present)" } } }
+  - { id: s18, target: "Verspil geen eten: maak een lijst voordat je boodschappen doet.", native: { en: "Don't waste food: make a list before you do the shopping." }, items: [nl.verspillen] }
+  - { id: s19, target: "Er komt een nieuw fietspad langs de rivier.", native: { en: "There's going to be a new cycle path along the river." }, items: [nl.fietspad], acceptAlso: ["Langs de rivier komt er een nieuw fietspad."], finite: { word: komt, hint: { en: "komen (present)" } } }
+  - { id: s20, target: "In een fietsstraat mogen auto's geen fietsers inhalen.", native: { en: "In a cycle street cars may not overtake cyclists." }, items: [nl.fietsstraat, nl.fietser, nl.inhalen], acceptAlso: ["Auto's mogen in een fietsstraat geen fietsers inhalen."] }
+  - { id: s21, target: "Om acht uur is er veel verkeer in de stad.", native: { en: "At eight o'clock there's a lot of traffic in the city." }, items: [nl.verkeer], acceptAlso: ["Er is om acht uur veel verkeer in de stad."] }
+  - { id: s22, target: "Wij delen een auto met onze buren.", native: { en: "We share a car with our neighbours." }, items: [nl.delen], acceptAlso: ["Met onze buren delen wij een auto."] }
+  - { id: s23, target: "Een deelauto kun je per uur huren.", native: { en: "You can rent a shared car by the hour." }, items: [nl.deelauto], acceptAlso: ["Per uur kun je een deelauto huren."] }
+  - { id: s24, target: "Het was een initiatief van een paar buurtbewoners.", native: { en: "It was an initiative by a few local residents." }, items: [nl.initiatief, nl.buurtbewoner] }
+  - { id: s25, target: "Alle inwoners kunnen deelnemen aan de vergadering.", native: { en: "All residents can take part in the meeting." }, items: [nl.deelnemen], acceptAlso: ["Alle inwoners kunnen aan de vergadering deelnemen."] }
+  - { id: s26, target: "Wil je meedoen aan onze actie?", native: { en: "Would you like to join in our campaign?" }, items: [nl.meedoen, nl.actie] }
+  - { id: s27, target: "De scholen werken samen met de gemeente.", native: { en: "The schools work together with the municipality." }, items: [nl.samenwerken], finite: { word: werken, hint: { en: "samenwerken (present)" } } }
+  - { id: s28, target: "Voor zonnepanelen kun je een premie krijgen.", native: { en: "You can get a grant for solar panels." }, items: [nl.premie, nl.zonnepaneel] }
+  - { id: s29, target: "De vereniging krijgt een subsidie van de stad.", native: { en: "The club gets a grant from the city." }, items: [nl.subsidie], acceptAlso: ["Van de stad krijgt de vereniging een subsidie.", "De vereniging krijgt van de stad een subsidie."] }
+  - { id: s30, target: "De bewoners willen meer inspraak in de plannen.", native: { en: "The residents want more say in the plans." }, items: [nl.inspraak] }
+  - { id: s31, target: "Het is zonde om goed eten weg te gooien.", native: { en: "It's a waste to throw good food away." }, items: [nl.zonde] }
+  - { id: s32, target: "We fietsen naar het werk om minder uitstoot te veroorzaken.", native: { en: "We cycle to work to cause fewer emissions." }, items: [nl.uitstoot, nl.veroorzaken] }
+  - { id: s33, target: "In onze straat is er te veel steen en te weinig groen.", native: { en: "In our street there's too much stone and too little green." }, items: [nl.steen] }
+  - { id: s34, target: "Je moet minstens vijf buren vinden voor het plan.", native: { en: "You have to find at least five neighbours for the plan." }, items: [nl.minstens] }
+texts: [nl-b1-t15]

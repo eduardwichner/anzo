@@ -1,0 +1,48 @@
+id: en-a2-u13
+title: { nl: Op avontuur }
+icon: nature
+topic: Sports and leisure (adventures); The world around us
+vocabulary:
+  - { target: adventure, native: { nl: avontuur }, pos: noun }
+  - { target: camp, native: { nl: kamperen }, pos: verb }
+  - { target: tent, native: { nl: tent }, pos: noun }
+  - { target: explore, native: { nl: verkennen }, pos: verb }
+  - { target: fire, native: { nl: vuur }, pos: noun }
+  - { target: flag, native: { nl: vlag }, pos: noun }
+  - { target: hole, native: { nl: gat }, pos: noun }
+  - { target: king, native: { nl: koning }, pos: noun }
+  - { target: queen, native: { nl: koningin }, pos: noun }
+  - { target: pyramid, native: { nl: piramide }, pos: noun }
+  - { target: secret, native: { nl: geheim }, pos: noun }
+  - { target: surprise, native: { nl: verrassing }, pos: noun }
+  - { target: invitation, native: { nl: uitnodiging }, pos: noun }
+  - { target: step, native: { nl: stap }, pos: noun }
+  - { target: search, native: { nl: doorzoeken }, pos: verb }
+  - { target: find out, native: { nl: "uitzoeken, ontdekken" }, pos: verb, avoid: [en.explore, en.search] }
+  - { target: disappear, native: { nl: verdwijnen }, pos: verb }
+  - { target: appear, native: { nl: verschijnen }, pos: verb, avoid: [en.disappear] }
+  - { target: lie, native: { nl: "liggen (gaan liggen)" }, pos: verb }
+sentences:
+  - { id: s01, target: "Our holiday was a great adventure.", native: { nl: "Onze vakantie was een geweldig avontuur." }, items: [en.adventure] }
+  - { id: s02, target: "Let's camp in the garden!", native: { nl: "Laten we in de tuin kamperen!" }, items: [en.camp] }
+  - { id: s03, target: "We slept in a tent.", native: { nl: "We sliepen in een tent." }, items: [en.tent] }
+  - { id: s04, target: "Let's explore the island!", native: { nl: "Laten we het eiland verkennen!" }, items: [en.explore] }
+  - { id: s05, target: "We sat around the fire.", native: { nl: "We zaten rond het vuur." }, items: [en.fire] }
+  - { id: s06, target: "Our flag is red, white and blue.", native: { nl: "Onze vlag is rood, wit en blauw." }, items: [en.flag] }
+  - { id: s07, target: "There's a hole in my sock.", native: { nl: "Er zit een gat in mijn sok." }, items: [en.hole], acceptAlso: ["There is a hole in my sock."] }
+  - { id: s08, target: "The king lives in a castle.", native: { nl: "De koning woont in een kasteel." }, items: [en.king] }
+  - { id: s09, target: "The queen waved to the people.", native: { nl: "De koningin zwaaide naar de mensen." }, items: [en.queen] }
+  - { id: s10, target: "The pyramid is very old.", native: { nl: "De piramide is heel oud." }, items: [en.pyramid] }
+  - { id: s11, target: "Can you keep a secret?", native: { nl: "Kun jij een geheim bewaren?" }, items: [en.secret] }
+  - { id: s12, target: "We've got a surprise for you!", native: { nl: "We hebben een verrassing voor je!" }, items: [en.surprise], acceptAlso: ["We have got a surprise for you!"] }
+  - { id: s13, target: "Thank you for the invitation.", native: { nl: "Bedankt voor de uitnodiging." }, items: [en.invitation] }
+  - { id: s14, target: "The baby took her first step.", native: { nl: "De baby zette haar eerste stapje." }, items: [en.step] }
+  - { id: s15, target: "Let's search the garden.", native: { nl: "Laten we de tuin doorzoeken." }, items: [en.search] }
+  - { id: s16, target: "Let's find out who is at the door.", native: { nl: "Laten we uitzoeken wie er aan de deur is." }, items: [en.find-out] }
+  - { id: s17, target: "The rabbit disappeared into its hole.", native: { nl: "Het konijn verdween in zijn hol." }, items: [en.disappear] }
+  - { id: s18, target: "The moon appeared behind the clouds.", native: { nl: "De maan verscheen achter de wolken." }, items: [en.appear] }
+  - { id: s19, target: "The dog likes to lie down in the sun.", native: { nl: "De hond ligt graag in de zon." }, items: [en.lie] }
+lessons:
+  - { id: l01, title: { nl: Kamperen }, vocab: [en.adventure, en.camp, en.tent, en.explore, en.fire, en.flag, en.hole] }
+  - { id: l02, title: { nl: Koningen en geheimen }, vocab: [en.king, en.queen, en.pyramid, en.secret, en.surprise, en.invitation] }
+  - { id: l03, title: { nl: Zoeken en verdwijnen }, vocab: [en.step, en.search, en.find-out, en.disappear, en.appear, en.lie] }

@@ -1,0 +1,46 @@
+id: nl-b2-study-u01
+title: { en: Studying in higher education }
+icon: school
+topic: Lectures and seminars, credits, the exam period and studying for exams, student rooms, the course structure; advice with zou and moeten (Je zou best …, Je moet niet …)
+vocabulary:
+  - { target: het hoorcollege, native: { en: lecture }, pos: noun, plural: hoorcolleges }
+  - { target: het werkcollege, native: { en: "seminar, tutorial" }, pos: noun, plural: werkcolleges }
+  - { target: de syllabus, native: { en: "course notes, course book" }, pos: noun, plural: syllabi }
+  - { target: het studiepunt, native: { en: "credit (ECTS)" }, pos: noun, plural: studiepunten }
+  - { target: de examenperiode, native: { en: exam period }, pos: noun, plural: examenperiodes }
+  - { target: blokken, native: { en: "to study hard for exams, to cram (Belgian)" }, pos: verb, alsoNL: stampen }
+  - { target: het kot, native: { en: "student room (Belgian)" }, pos: noun, plural: koten, alsoNL: de studentenkamer }
+  - { target: de aula, native: { en: "lecture hall" }, pos: noun, plural: "aula's", alsoNL: de collegezaal }
+  - { target: de assistent, native: { en: "assistant; teaching assistant" }, pos: noun, plural: assistenten }
+  - { target: de promotor, native: { en: "supervisor (of a thesis)" }, pos: noun, plural: promotors }
+  - { target: het opleidingsonderdeel, native: { en: "course unit, module (Belgian)" }, pos: noun, plural: opleidingsonderdelen }
+  - { target: het studietraject, native: { en: "study programme, study path" }, pos: noun, plural: studietrajecten }
+  - { target: de notitie, native: { en: "note (notities nemen: to take notes)" }, pos: noun, plural: notities }
+  - { target: noteren, native: { en: "to note down, to write down" }, pos: verb }
+  - { target: herlezen, native: { en: "to reread" }, pos: verb }
+  - { target: mondeling, native: { en: oral }, pos: adjective }
+  - { target: schriftelijk, native: { en: written }, pos: adjective }
+sentences:
+  - { id: s01, target: "Het hoorcollege begint om half negen in de grote aula.", native: { en: "The lecture starts at half past eight in the big lecture hall." }, items: [nl.hoorcollege, nl.aula] }
+  - { id: s02, target: "In het werkcollege bespreken we de oefeningen met de assistent.", native: { en: "In the seminar we go through the exercises with the teaching assistant." }, items: [nl.werkcollege] }
+  - { id: s03, target: "De syllabus kost twintig euro in de studentenwinkel.", native: { en: "The course notes cost twenty euros in the student shop." }, items: [nl.syllabus] }
+  - { id: s04, target: "Een bachelor telt honderdtachtig studiepunten.", native: { en: "A bachelor's degree is worth a hundred and eighty credits." }, items: [nl.studiepunt] }
+  - { id: s05, target: "Tijdens de examenperiode zit de bibliotheek altijd vol.", native: { en: "During the exam period the library is always full." }, items: [nl.examenperiode], acceptAlso: ["De bibliotheek zit tijdens de examenperiode altijd vol."] }
+  - { id: s06, target: "Ze blokt elke dag van negen tot zes.", native: { en: "She studies for her exams every day from nine to six." }, items: [nl.blokken], finite: { word: blokt, hint: { en: "blokken (present)" } } }
+  - { id: s07, target: "Mijn kot ligt op tien minuten van de campus.", native: { en: "My student room is ten minutes from the campus." }, items: [nl.kot] }
+  - { id: s08, target: "Met vragen kun je bij de assistent terecht.", native: { en: "You can go to the teaching assistant with questions." }, items: [nl.assistent], acceptAlso: ["Bij de assistent kun je met vragen terecht."] }
+  - { id: s09, target: "Mijn promotor leest elk hoofdstuk van mijn thesis.", native: { en: "My supervisor reads every chapter of my thesis." }, items: [nl.promotor] }
+  - { id: s10, target: "Voor dit opleidingsonderdeel is er een mondeling examen.", native: { en: "For this module there is an oral exam." }, items: [nl.opleidingsonderdeel, nl.mondeling], acceptAlso: ["Er is voor dit opleidingsonderdeel een mondeling examen.", "Er is een mondeling examen voor dit opleidingsonderdeel."] }
+  - { id: s11, target: "Wie werkt naast zijn studie, kan een aanpassing van zijn studietraject vragen.", native: { en: "Anyone who works alongside their studies can ask for their study programme to be adjusted." }, items: [nl.studietraject], form: { word: aanpassing, stem: aanpassen } }
+  - { id: s12, target: "Je zou best elke week je notities herlezen.", native: { en: "You'd best reread your notes every week." }, items: [nl.notitie, nl.herlezen], build: true, acceptAlso: ["Je zou best je notities elke week herlezen.", "Elke week zou je best je notities herlezen."] }
+  - { id: s13, target: "Je moet niet tot de examenperiode wachten om te beginnen.", native: { en: "You shouldn't wait until the exam period to start." }, items: [nl.examenperiode], acceptAlso: ["Je moet niet wachten tot de examenperiode om te beginnen."] }
+  - { id: s14, target: "Na een lange dag blokken is ze moe.", native: { en: "After a long day of studying for exams she is tired." }, items: [nl.blokken], acceptAlso: ["Ze is moe na een lange dag blokken."] }
+  - { id: s16, target: "Noteer de datum van het examen in je agenda.", native: { en: "Write the date of the exam down in your diary." }, items: [nl.noteren] }
+  - { id: s17, target: "Het examen statistiek is schriftelijk.", native: { en: "The statistics exam is written." }, items: [nl.schriftelijk] }
+  - { id: s15, target: "In de aula zitten meer dan driehonderd studenten.", native: { en: "There are more than three hundred students in the lecture hall." }, items: [nl.aula], acceptAlso: ["Meer dan driehonderd studenten zitten in de aula."] }
+  - { id: s18, target: "Een goede voorbereiding op het mondeling examen kost veel tijd.", native: { en: "Good preparation for the oral exam takes a lot of time." }, items: [nl.mondeling], form: { word: voorbereiding, stem: voorbereiden } }
+transforms:
+  - { id: x01, from: "Het is beter dat je elke week je notities herleest.", key: best, gapped: "Je zou ___ herlezen.", answers: ["best elke week je notities", "best je notities elke week"], items: [nl.herlezen] }
+  - { id: x02, from: "Voor dit opleidingsonderdeel krijg je zes studiepunten.", key: telt, gapped: "Dit opleidingsonderdeel ___.", answers: ["telt zes studiepunten", "telt 6 studiepunten"], items: [nl.studiepunt] }
+  - { id: x03, from: "Ik heb de syllabus voor de tweede keer gelezen.", key: herlezen, gapped: "Ik heb ___.", answers: ["de syllabus herlezen"], items: [nl.herlezen, nl.syllabus] }
+texts: [nl-b2-study-t01]

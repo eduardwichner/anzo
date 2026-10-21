@@ -1,0 +1,47 @@
+id: fr-a1-u14
+title: { nl: Hoe is hij?, en: "What's he like?" }
+icon: people
+topic: Décrire une personne; le caractère
+vocabulary:
+  - { target: gentil, native: { nl: "aardig, lief", en: "kind, nice" }, pos: adjective }
+  - { target: méchant, native: { nl: "gemeen, stout", en: "nasty, naughty" }, pos: adjective }
+  - { target: drôle, native: { nl: grappig, en: "funny" }, pos: adjective }
+  - { target: sympa, native: { nl: "aardig, leuk", en: "nice, friendly" }, pos: adjective, avoid: [fr.gentil] }
+  - { target: fatigué, native: { nl: moe, en: "tired" }, pos: adjective }
+  - { target: malade, native: { nl: ziek, en: "ill, sick" }, pos: adjective }
+  - { target: fort, native: { nl: sterk, en: "strong" }, pos: adjective }
+  - { target: timide, native: { nl: verlegen, en: "shy" }, pos: adjective }
+  - { target: sage, native: { nl: "braaf, rustig", en: "well-behaved" }, pos: adjective }
+  - { target: mince, native: { nl: "slank, dun", en: "slim, thin" }, pos: adjective }
+  - { target: gros, native: { nl: dik, en: "fat" }, pos: adjective }
+  - { target: brun, native: { nl: bruin (haar), en: "brown (hair), dark-haired" }, pos: adjective, avoid: [fr.marron] }
+  - { target: roux, native: { nl: rood (haar), en: "red (hair), red-haired, ginger" }, pos: adjective, avoid: [fr.rouge] }
+  - { target: long, native: { nl: lang, en: "long" }, pos: adjective }
+  - { target: court, native: { nl: kort, en: "short" }, pos: adjective }
+  - { target: seul, native: { nl: alleen, en: "alone" }, pos: adjective }
+  - { target: super, native: { nl: "super, geweldig", en: "great, super" }, pos: adjective }
+  - { target: génial, native: { nl: "geweldig, te gek", en: "brilliant, great" }, pos: adjective, avoid: [fr.super] }
+sentences:
+  - { id: s01, target: "Ma maîtresse est très gentille.", native: { nl: "Mijn juf is heel aardig.", en: "My teacher is very kind." }, items: [fr.gentil] }
+  - { id: s02, target: "Le chien n'est pas gentil, il est méchant !", native: { nl: "De hond is niet lief, hij is gemeen!", en: "The dog isn't nice, it's nasty!" }, items: [fr.mechant, fr.gentil] }
+  - { id: s03, target: "Mon frère est très drôle.", native: { nl: "Mijn broer is heel grappig.", en: "My brother is very funny." }, items: [fr.drole] }
+  - { id: s04, target: "Ton cousin est sympa !", native: { nl: "Je neef is leuk!", en: "Your cousin is nice!" }, items: [fr.sympa] }
+  - { id: s05, target: "Papa est fatigué, il dort.", native: { nl: "Papa is moe, hij slaapt.", en: "Dad is tired, he's sleeping." }, items: [fr.fatigue] }
+  - { id: s06, target: "Ma sœur est malade aujourd'hui.", native: { nl: "Mijn zus is vandaag ziek.", en: "My sister is ill today." }, items: [fr.malade] }
+  - { id: s07, target: "Papa est très fort.", native: { nl: "Papa is heel sterk.", en: "Dad is very strong." }, items: [fr.fort] }
+  - { id: s08, target: "Le nouvel élève est un peu timide.", native: { nl: "De nieuwe leerling is een beetje verlegen.", en: "The new pupil is a bit shy." }, items: [fr.timide] }
+  - { id: s09, target: "Les enfants sont sages.", native: { nl: "De kinderen zijn braaf.", en: "The children are well-behaved." }, items: [fr.sage] }
+  - { id: s10, target: "Elle est grande et mince.", native: { nl: "Ze is lang en slank.", en: "She's tall and slim." }, items: [fr.mince] }
+  - { id: s11, target: "Mon chat est gros.", native: { nl: "Mijn kat is dik.", en: "My cat is fat." }, items: [fr.gros] }
+  - { id: s12, target: "Le cochon est très gros.", native: { nl: "Het varken is heel dik.", en: "The pig is very fat." }, items: [fr.gros] }
+  - { id: s13, target: "Il a les cheveux bruns.", native: { nl: "Hij heeft bruin haar.", en: "He has brown hair." }, items: [fr.brun] }
+  - { id: s14, target: "Mon cousin est roux.", native: { nl: "Mijn neef heeft rood haar.", en: "My cousin has red hair." }, items: [fr.roux] }
+  - { id: s15, target: "Elle a les cheveux longs.", native: { nl: "Ze heeft lang haar.", en: "She has long hair." }, items: [fr.long] }
+  - { id: s16, target: "Mon pantalon est trop court.", native: { nl: "Mijn broek is te kort.", en: "My trousers are too short." }, items: [fr.court] }
+  - { id: s17, target: "Mon frère n'est pas seul, il est avec Paul.", native: { nl: "Mijn broer is niet alleen, hij is bij Paul.", en: "My brother isn't alone, he's with Paul." }, items: [fr.seul] }
+  - { id: s18, target: "La piscine, c'est super !", native: { nl: "Het zwembad is super!", en: "The swimming pool is great!" }, items: [fr.super] }
+  - { id: s19, target: "Ton dessin est génial !", native: { nl: "Je tekening is te gek!", en: "Your drawing is brilliant!" }, items: [fr.genial] }
+lessons:
+  - { id: l01, title: { nl: Aardig en grappig, en: "Kind and funny" }, vocab: [fr.gentil, fr.mechant, fr.drole, fr.sympa, fr.fatigue, fr.malade] }
+  - { id: l02, title: { nl: Sterk en verlegen, en: "Strong and shy" }, vocab: [fr.fort, fr.timide, fr.sage, fr.mince, fr.gros, fr.brun] }
+  - { id: l03, title: { nl: Lang en kort, en: "Long and short" }, vocab: [fr.roux, fr.long, fr.court, fr.seul, fr.super, fr.genial] }

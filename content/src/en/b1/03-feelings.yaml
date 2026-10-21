@@ -1,0 +1,157 @@
+id: en-b1-u03
+title: { nl: Gevoelens }
+icon: heart
+topic: Feelings and reactions; -ed and -ing adjectives, make someone feel, so / such … that
+vocabulary:
+  - { target: feeling, native: { nl: gevoel }, pos: noun }
+  - { target: mood, native: { nl: "stemming, humeur" }, pos: noun }
+  - { target: happiness, native: { nl: geluk (blijdschap) }, pos: noun }
+  - { target: happily, native: { nl: "blij, gelukkig (bijwoord)" }, pos: adverb }
+  - { target: glad, native: { nl: blij }, pos: adjective }
+  - { target: delighted, native: { nl: heel blij }, pos: adjective, avoid: [en.glad] }
+  - { target: cheerful, native: { nl: vrolijk }, pos: adjective }
+  - { target: pleasant, native: { nl: aangenaam }, pos: adjective, avoid: [en.unpleasant] }
+  - { target: unpleasant, native: { nl: onaangenaam }, pos: adjective }
+  - { target: pleasure, native: { nl: plezier }, pos: noun }
+  - { target: excitement, native: { nl: opwinding }, pos: noun }
+  - { target: amazed, native: { nl: "stomverbaasd, versteld" }, pos: adjective }
+  - { target: impressed, native: { nl: onder de indruk }, pos: adjective }
+  - { target: amusing, native: { nl: "grappig, vermakelijk" }, pos: adjective }
+  - { target: awesome, native: { nl: "geweldig, super" }, pos: adjective }
+  - { target: terrific, native: { nl: "fantastisch, geweldig" }, pos: adjective }
+  - { target: marvellous, native: { nl: schitterend }, pos: adjective, avoid: [en.terrific, en.awesome] }
+  - { target: incredible, native: { nl: ongelooflijk }, pos: adjective }
+  - { target: unbelievable, native: { nl: niet te geloven }, pos: adjective, avoid: [en.incredible] }
+  - { target: surprising, native: { nl: verrassend }, pos: adjective }
+  - { target: grateful, native: { nl: dankbaar }, pos: adjective }
+  - { target: relieved, native: { nl: opgelucht }, pos: adjective }
+  - { target: relaxed, native: { nl: ontspannen }, pos: adjective, avoid: [en.stressed] }
+  - { target: calm, native: { nl: kalm }, pos: adjective }
+  - { target: satisfied, native: { nl: tevreden }, pos: adjective }
+  - { target: confident, native: { nl: zelfverzekerd }, pos: adjective, avoid: [en.unsure] }
+  - { target: courage, native: { nl: moed }, pos: noun }
+  - { target: hopeful, native: { nl: hoopvol }, pos: adjective, avoid: [en.hopeless] }
+  - { target: hopeless, native: { nl: hopeloos }, pos: adjective }
+  - { target: fond, native: { nl: "dol (op), gesteld (op)" }, pos: adjective }
+  - { target: so-so, native: { nl: "zozo, gaat wel" }, pos: adjective, noBlank: true }
+  - { target: dull, native: { nl: saai }, pos: adjective, avoid: [en.uninteresting] }
+  - { target: uninteresting, native: { nl: oninteressant }, pos: adjective }
+  - { target: uninterested, native: { nl: niet geïnteresseerd }, pos: adjective }
+  - { target: unsure, native: { nl: onzeker }, pos: adjective }
+  - { target: confused, native: { nl: in de war }, pos: adjective, avoid: [en.confusing] }
+  - { target: confusing, native: { nl: verwarrend }, pos: adjective }
+  - { target: nervous, native: { nl: zenuwachtig }, pos: adjective }
+  - { target: anxious, native: { nl: "angstig, ongerust" }, pos: adjective }
+  - { target: stressed, native: { nl: gestrest }, pos: adjective }
+  - { target: worry, native: { nl: zich zorgen maken }, pos: verb }
+  - { target: fear, native: { nl: angst }, pos: noun }
+  - { target: scared, native: { nl: bang }, pos: adjective }
+  - { target: terrified, native: { nl: doodsbang }, pos: adjective }
+  - { target: frighten, native: { nl: bang maken }, pos: verb }
+  - { target: nightmare, native: { nl: nachtmerrie }, pos: noun }
+  - { target: scream, native: { nl: gillen }, pos: verb }
+  - { target: shock, native: { nl: schok }, pos: noun }
+  - { target: shocked, native: { nl: geschokt }, pos: adjective, avoid: [en.shocking] }
+  - { target: shocking, native: { nl: schokkend }, pos: adjective }
+  - { target: upset, native: { nl: "overstuur, van streek" }, pos: adjective }
+  - { target: miserable, native: { nl: ellendig }, pos: adjective }
+  - { target: depressed, native: { nl: "somber, depressief" }, pos: adjective }
+  - { target: lonely, native: { nl: eenzaam }, pos: adjective }
+  - { target: tear, native: { nl: traan }, pos: noun }
+  - { target: disappoint, native: { nl: teleurstellen }, pos: verb }
+  - { target: disappointed, native: { nl: teleurgesteld }, pos: adjective, avoid: [en.disappointing] }
+  - { target: disappointing, native: { nl: teleurstellend }, pos: adjective }
+  - { target: disappointment, native: { nl: teleurstelling }, pos: noun }
+  - { target: pity, native: { nl: "jammer, medelijden" }, pos: noun }
+  - { target: regret, native: { nl: spijt hebben van }, pos: verb }
+  - { target: shame, native: { nl: "schaamte, jammer" }, pos: noun }
+  - { target: ashamed, native: { nl: beschaamd }, pos: adjective, avoid: [en.embarrassed] }
+  - { target: embarrassed, native: { nl: "opgelaten, gegeneerd" }, pos: adjective, avoid: [en.embarrassing] }
+  - { target: embarrassing, native: { nl: gênant }, pos: adjective }
+  - { target: jealous, native: { nl: jaloers }, pos: adjective }
+  - { target: annoy, native: { nl: ergeren }, pos: verb }
+  - { target: annoyed, native: { nl: geërgerd }, pos: adjective }
+  - { target: mad, native: { nl: "gek, boos" }, pos: adjective }
+  - { target: crazy, native: { nl: gek }, pos: adjective }
+  - { target: nasty, native: { nl: "gemeen, akelig" }, pos: adjective }
+  - { target: awful, native: { nl: "vreselijk, afschuwelijk" }, pos: adjective }
+  - { target: dislike, native: { nl: niet leuk vinden }, pos: verb }
+  - { target: react, native: { nl: reageren }, pos: verb }
+sentences:
+  - { id: s01, target: "I have a feeling that something is wrong.", native: { nl: "Ik heb het gevoel dat er iets mis is." }, items: [en.feeling] }
+  - { id: s02, target: "Dad is in a good mood today.", native: { nl: "Papa is vandaag in een goed humeur." }, items: [en.mood], acceptAlso: ["Today Dad is in a good mood."] }
+  - { id: s03, target: "Money doesn't always bring happiness.", native: { nl: "Geld brengt niet altijd geluk." }, items: [en.happiness] }
+  - { id: s04, target: "The children were playing happily in the garden.", native: { nl: "De kinderen speelden vrolijk in de tuin." }, items: [en.happily], finite: { word: were, hint: { nl: "be (verleden tijd, meervoud: … playing)" } } }
+  - { id: s05, target: "I'm glad you could come.", native: { nl: "Ik ben blij dat je kon komen." }, items: [en.glad] }
+  - { id: s06, target: "We were delighted with our new puppy.", native: { nl: "We waren heel blij met ons nieuwe puppy'tje." }, items: [en.delighted] }
+  - { id: s07, target: "She's always cheerful, even on Monday mornings.", native: { nl: "Ze is altijd vrolijk, zelfs op maandagochtend." }, items: [en.cheerful] }
+  - { id: s08, target: "We had a pleasant walk by the river.", native: { nl: "We maakten een fijne wandeling langs de rivier." }, items: [en.pleasant] }
+  - { id: s09, target: "There was an unpleasant smell in the kitchen.", native: { nl: "Er hing een onaangename geur in de keuken." }, items: [en.unpleasant] }
+  - { id: s10, target: "Reading gives me a lot of pleasure.", native: { nl: "Lezen geeft me veel plezier." }, items: [en.pleasure] }
+  - { id: s11, target: "I couldn't sleep because of the excitement.", native: { nl: "Ik kon niet slapen van opwinding." }, items: [en.excitement] }
+  - { id: s12, target: "We were amazed by the view from the top.", native: { nl: "We stonden versteld van het uitzicht vanaf de top." }, items: [en.amazed] }
+  - { id: s13, target: "The teacher was impressed with my project.", native: { nl: "De leraar was onder de indruk van mijn project." }, items: [en.impressed] }
+  - { id: s14, target: "He told us an amusing story about his dog.", native: { nl: "Hij vertelde ons een grappig verhaal over zijn hond." }, items: [en.amusing], finite: { word: told, hint: { nl: "tell (verleden tijd)" } } }
+  - { id: s15, target: "The concert was awesome!", native: { nl: "Het concert was super!" }, items: [en.awesome] }
+  - { id: s16, target: "You did a terrific job!", native: { nl: "Je hebt het fantastisch gedaan!" }, items: [en.terrific] }
+  - { id: s17, target: "What a marvellous idea!", native: { nl: "Wat een schitterend idee!" }, items: [en.marvellous] }
+  - { id: s18, target: "The fireworks were incredible.", native: { nl: "Het vuurwerk was ongelooflijk." }, items: [en.incredible] }
+  - { id: s19, target: "It's unbelievable that he ran home in ten minutes.", native: { nl: "Het is niet te geloven dat hij in tien minuten naar huis rende." }, items: [en.unbelievable] }
+  - { id: s20, target: "The end of the film was very surprising.", native: { nl: "Het einde van de film was heel verrassend." }, items: [en.surprising] }
+  - { id: s21, target: "I'm very grateful for your help.", native: { nl: "Ik ben je heel dankbaar voor je hulp." }, items: [en.grateful] }
+  - { id: s22, target: "I was relieved when I found my keys.", native: { nl: "Ik was opgelucht toen ik mijn sleutels vond." }, items: [en.relieved], finite: { word: found, hint: { nl: "find (verleden tijd)" } } }
+  - { id: s23, target: "On holiday I always feel relaxed.", native: { nl: "Op vakantie voel ik me altijd ontspannen." }, items: [en.relaxed], acceptAlso: ["I always feel relaxed on holiday."] }
+  - { id: s24, target: "Stay calm and listen to the teacher.", native: { nl: "Blijf kalm en luister naar de leraar." }, items: [en.calm] }
+  - { id: s25, target: "Are you satisfied with your result?", native: { nl: "Ben je tevreden met je resultaat?" }, items: [en.satisfied] }
+  - { id: s26, target: "After a lot of practice, she felt confident before the concert.", native: { nl: "Na veel oefenen had ze vertrouwen in zichzelf voor het concert." }, items: [en.confident], finite: { word: felt, hint: { nl: "feel (verleden tijd)" } } }
+  - { id: s27, target: "It takes courage to say sorry.", native: { nl: "Er is moed voor nodig om sorry te zeggen." }, items: [en.courage] }
+  - { id: s28, target: "The doctors are hopeful that he will get better.", native: { nl: "De artsen hebben goede hoop dat hij beter wordt." }, items: [en.hopeful] }
+  - { id: s29, target: "I'm hopeless at drawing.", native: { nl: "Ik ben hopeloos slecht in tekenen." }, items: [en.hopeless] }
+  - { id: s30, target: "My grandma is very fond of her cat.", native: { nl: "Mijn oma is heel dol op haar kat." }, items: [en.fond] }
+  - { id: s31, target: "How was the film? So-so.", native: { nl: "Hoe was de film? Zozo." }, items: [en.so-so] }
+  - { id: s32, target: "The lesson was so dull that I nearly fell asleep.", native: { nl: "De les was zo saai dat ik bijna in slaap viel." }, items: [en.dull] }
+  - { id: s33, target: "The book was long and uninteresting.", native: { nl: "Het boek was lang en oninteressant." }, items: [en.uninteresting] }
+  - { id: s34, target: "My brother is completely uninterested in football.", native: { nl: "Mijn broer heeft totaal geen interesse in voetbal." }, items: [en.uninterested] }
+  - { id: s35, target: "I'm unsure what to do next.", native: { nl: "Ik weet niet zeker wat ik nu moet doen." }, items: [en.unsure] }
+  - { id: s36, target: "I'm confused. Can you explain it again?", native: { nl: "Ik ben in de war. Kun je het nog eens uitleggen?" }, items: [en.confused] }
+  - { id: s37, target: "The instructions were very confusing.", native: { nl: "De instructies waren heel verwarrend." }, items: [en.confusing] }
+  - { id: s38, target: "I always get nervous before a test.", native: { nl: "Ik word altijd zenuwachtig voor een toets." }, items: [en.nervous] }
+  - { id: s39, target: "Mum was anxious because we were late.", native: { nl: "Mama was ongerust omdat we laat waren." }, items: [en.anxious] }
+  - { id: s40, target: "I feel stressed when I have too much homework.", native: { nl: "Ik voel me gestrest als ik te veel huiswerk heb." }, items: [en.stressed], acceptAlso: ["When I have too much homework, I feel stressed."] }
+  - { id: s41, target: "Don't worry about it. It isn't your fault.", native: { nl: "Maak je er geen zorgen over. Het is niet jouw schuld." }, items: [en.worry] }
+  - { id: s42, target: "My biggest fear is speaking in front of the class.", native: { nl: "Mijn grootste angst is spreken voor de klas." }, items: [en.fear] }
+  - { id: s43, target: "Are you scared of spiders?", native: { nl: "Ben je bang voor spinnen?" }, items: [en.scared] }
+  - { id: s44, target: "She was terrified when the lights went out.", native: { nl: "Ze was doodsbang toen het licht uitging." }, items: [en.terrified] }
+  - { id: s45, target: "The loud noise frightened the horses.", native: { nl: "Het harde geluid maakte de paarden bang." }, items: [en.frighten], finite: { word: frightened, hint: { nl: "frighten (verleden tijd)" } } }
+  - { id: s46, target: "I had a nightmare about a huge spider.", native: { nl: "Ik had een nachtmerrie over een enorme spin." }, items: [en.nightmare] }
+  - { id: s47, target: "The children screamed with excitement.", native: { nl: "De kinderen gilden van opwinding." }, items: [en.scream, en.excitement] }
+  - { id: s48, target: "The news was a shock to everyone.", native: { nl: "Het nieuws was een schok voor iedereen." }, items: [en.shock] }
+  - { id: s49, target: "We were shocked by the price of the tickets.", native: { nl: "We schrokken van de prijs van de kaartjes." }, items: [en.shocked] }
+  - { id: s50, target: "It's shocking how much plastic is in the sea.", native: { nl: "Het is schokkend hoeveel plastic er in de zee zit." }, items: [en.shocking] }
+  - { id: s51, target: "She was upset because she lost her phone.", native: { nl: "Ze was van streek omdat ze haar telefoon kwijt was." }, items: [en.upset] }
+  - { id: s52, target: "It rained all week and we felt miserable.", native: { nl: "Het regende de hele week en we voelden ons ellendig." }, items: [en.miserable] }
+  - { id: s53, target: "He felt depressed after he lost his job.", native: { nl: "Hij voelde zich somber nadat hij zijn baan kwijt was." }, items: [en.depressed] }
+  - { id: s54, target: "My grandpa has felt lonely since my grandma died.", native: { nl: "Mijn opa voelt zich eenzaam sinds mijn oma is overleden." }, items: [en.lonely] }
+  - { id: s55, target: "Tears ran down her face.", native: { nl: "De tranen liepen over haar gezicht." }, items: [en.tear] }
+  - { id: s56, target: "I'm sorry I disappointed you.", native: { nl: "Het spijt me dat ik je heb teleurgesteld." }, items: [en.disappoint] }
+  - { id: s57, target: "We were disappointed that the match was cancelled.", native: { nl: "We waren teleurgesteld dat de wedstrijd werd afgelast." }, items: [en.disappointed] }
+  - { id: s58, target: "The ending of the book was disappointing.", native: { nl: "Het einde van het boek was teleurstellend." }, items: [en.disappointing] }
+  - { id: s59, target: "Losing the final was a big disappointment.", native: { nl: "Het verliezen van de finale was een grote teleurstelling." }, items: [en.disappointment] }
+  - { id: s60, target: "It's a pity you couldn't come to the party.", native: { nl: "Jammer dat je niet naar het feest kon komen." }, items: [en.pity] }
+  - { id: s62, target: "I regret what I said to you yesterday.", native: { nl: "Ik heb spijt van wat ik gisteren tegen je zei." }, items: [en.regret] }
+  - { id: s63, target: "What a shame! The museum is closed today.", native: { nl: "Wat jammer! Het museum is vandaag dicht." }, items: [en.shame] }
+  - { id: s64, target: "He was ashamed of his bad behaviour.", native: { nl: "Hij schaamde zich voor zijn slechte gedrag." }, items: [en.ashamed] }
+  - { id: s65, target: "I felt embarrassed when I fell over in front of everyone.", native: { nl: "Ik voelde me opgelaten toen ik viel waar iedereen bij was." }, items: [en.embarrassed], acceptAlso: ["When I fell over in front of everyone, I felt embarrassed."] }
+  - { id: s66, target: "That was the most embarrassing moment of my life!", native: { nl: "Dat was het meest gênante moment van mijn leven!" }, items: [en.embarrassing] }
+  - { id: s67, target: "My sister was jealous of my new bike.", native: { nl: "Mijn zus was jaloers op mijn nieuwe fiets." }, items: [en.jealous] }
+  - { id: s68, target: "It really annoys me when people talk in the cinema.", native: { nl: "Ik erger me echt als mensen praten in de bioscoop." }, items: [en.annoy] }
+  - { id: s69, target: "The teacher looked annoyed when we came in late.", native: { nl: "De leraar keek geërgerd toen we te laat binnenkwamen." }, items: [en.annoyed], acceptAlso: ["When we came in late, the teacher looked annoyed."] }
+  - { id: s70, target: "Are you mad? It's too cold to swim!", native: { nl: "Ben je gek? Het is te koud om te zwemmen!" }, items: [en.mad] }
+  - { id: s71, target: "My friends think I'm crazy, but I love getting up early.", native: { nl: "Mijn vrienden vinden me gek, maar ik sta graag vroeg op." }, items: [en.crazy] }
+  - { id: s72, target: "There's a nasty smell in the fridge.", native: { nl: "Er hangt een akelige geur in de koelkast." }, items: [en.nasty] }
+  - { id: s73, target: "The weather was awful, so we stayed at home.", native: { nl: "Het weer was vreselijk, dus we bleven thuis." }, items: [en.awful], finite: { word: stayed, hint: { nl: "stay (verleden tijd)" } } }
+  - { id: s74, target: "I dislike cold weather, but I love snow.", native: { nl: "Ik vind koud weer niet leuk, maar ik hou van sneeuw." }, items: [en.dislike] }
+  - { id: s75, target: "How did your parents react when you told them?", native: { nl: "Hoe reageerden je ouders toen je het hun vertelde?" }, items: [en.react] }
+  - { id: s76, target: "The film made me feel so miserable that I started to cry.", native: { nl: "De film maakte me zo ellendig dat ik begon te huilen." }, items: [en.miserable] }
+  - { id: s77, target: "It was such a dull film that I fell asleep.", native: { nl: "Het was zo'n saaie film dat ik in slaap viel." }, items: [en.dull] }
+texts: [en-b1-t04]

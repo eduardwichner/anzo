@@ -1,0 +1,86 @@
+id: nl-b2-u12
+title: { en: Society and diversity }
+icon: people
+topic: Living together in a diverse society, newcomers and integration, prejudice and respect, volunteering and solidarity between generations; the past conditional (ik zou het gedaan hebben, als ik het geweten had)
+vocabulary:
+  - { target: de samenleving, native: { en: society }, pos: noun, plural: samenlevingen }
+  - { target: de maatschappij, native: { en: society }, pos: noun, plural: maatschappijen, avoid: [nl.samenleving] }
+  - { target: de diversiteit, native: { en: diversity }, pos: noun, plural: "-" }
+  - { target: divers, native: { en: "diverse, varied" }, pos: adjective }
+  - { target: de migrant, native: { en: migrant }, pos: noun, plural: migranten }
+  - { target: de migratie, native: { en: migration }, pos: noun, plural: "-" }
+  - { target: het asiel, native: { en: asylum }, pos: noun, plural: "-" }
+  - { target: inburgeren, native: { en: "to integrate (as a newcomer, by a civic integration course)" }, pos: verb }
+  - { target: de afkomst, native: { en: "origin, descent" }, pos: noun, plural: "-", avoid: [nl.achtergrond] }
+  - { target: de achtergrond, native: { en: background }, pos: noun, plural: achtergronden }
+  - { target: de identiteit, native: { en: identity }, pos: noun, plural: identiteiten }
+  - { target: meertalig, native: { en: multilingual }, pos: adjective }
+  - { target: de religie, native: { en: religion }, pos: noun, plural: religies }
+  - { target: het geloof, native: { en: "faith, belief" }, pos: noun, plural: geloven, avoid: [nl.religie] }
+  - { target: de discriminatie, native: { en: discrimination }, pos: noun, plural: "-" }
+  - { target: discrimineren, native: { en: "to discriminate (against)" }, pos: verb }
+  - { target: het racisme, native: { en: racism }, pos: noun, plural: "-" }
+  - { target: het vooroordeel, native: { en: prejudice }, pos: noun, plural: vooroordelen }
+  - { target: de tolerantie, native: { en: tolerance }, pos: noun, plural: "-" }
+  - { target: respecteren, native: { en: to respect }, pos: verb }
+  - { target: gelijkwaardig, native: { en: "equal (in value), of equal worth" }, pos: adjective }
+  - { target: de uitsluiting, native: { en: exclusion }, pos: noun, plural: "-" }
+  - { target: de armoede, native: { en: poverty }, pos: noun, plural: "-" }
+  - { target: rijk, native: { en: rich }, pos: adjective }
+  - { target: kansarm, native: { en: "disadvantaged" }, pos: adjective }
+  - { target: de solidariteit, native: { en: solidarity }, pos: noun, plural: "-" }
+  - { target: solidair, native: { en: "showing solidarity, supportive" }, pos: adjective }
+  - { target: het engagement, native: { en: "commitment, involvement" }, pos: noun, plural: "-" }
+  - { target: zich engageren, native: { en: "to commit oneself, to get involved" }, pos: verb }
+  - { target: bijdragen, native: { en: "to contribute (+ aan)" }, pos: verb }
+  - { target: de senior, native: { en: "senior (citizen), older person" }, pos: noun, plural: senioren }
+  - { target: de Vlaming, native: { en: "Fleming (a Flemish person)" }, pos: noun, plural: Vlamingen }
+  - { target: de Belg, native: { en: "Belgian (person)" }, pos: noun, plural: Belgen }
+  - { target: tolerant, native: { en: tolerant }, pos: adjective }
+sentences:
+  - { id: s01, target: "Onze samenleving wordt steeds diverser.", native: { en: "Our society is becoming more and more diverse." }, items: [nl.samenleving, nl.divers] }
+  - { id: s02, target: "Iedereen moet een plaats krijgen in de maatschappij.", native: { en: "Everyone should get a place in society." }, items: [nl.maatschappij] }
+  - { id: s03, target: "Diversiteit maakt een stad rijker.", native: { en: "Diversity makes a city richer." }, items: [nl.diversiteit, nl.rijk] }
+  - { id: s04, target: "Veel migranten komen naar Europa om te werken.", native: { en: "Many migrants come to Europe to work." }, items: [nl.migrant], acceptAlso: ["Om te werken komen veel migranten naar Europa."] }
+  - { id: s05, target: "Migratie is van alle tijden.", native: { en: "Migration has always existed." }, items: [nl.migratie] }
+  - { id: s06, target: "Het gezin heeft asiel aangevraagd in België.", native: { en: "The family has applied for asylum in Belgium." }, items: [nl.asiel] }
+  - { id: s07, target: "Nieuwkomers volgen een cursus om in te burgeren.", native: { en: "Newcomers take a course to integrate." }, items: [nl.inburgeren] }
+  - { id: s08, target: "Afkomst is niet belangrijk: wat telt, is wat je doet.", native: { en: "Origin doesn't matter: what counts is what you do." }, items: [nl.afkomst] }
+  - { id: s09, target: "In onze klas zitten kinderen met heel verschillende achtergronden.", native: { en: "In our class there are children from very different backgrounds." }, items: [nl.achtergrond], acceptAlso: ["Kinderen met heel verschillende achtergronden zitten in onze klas."] }
+  - { id: s10, target: "Taal is een belangrijk deel van je identiteit.", native: { en: "Language is an important part of your identity." }, items: [nl.identiteit] }
+  - { id: s11, target: "Brussel is een echt meertalige stad.", native: { en: "Brussels is a truly multilingual city." }, items: [nl.meertalig] }
+  - { id: s12, target: "In België is iedereen vrij om zijn religie te kiezen.", native: { en: "In Belgium everyone is free to choose their religion." }, items: [nl.religie] }
+  - { id: s13, target: "Zijn geloof is heel belangrijk voor hem.", native: { en: "His faith is very important to him." }, items: [nl.geloof] }
+  - { id: s14, target: "Discriminatie op de werkvloer is verboden.", native: { en: "Discrimination in the workplace is forbidden." }, items: [nl.discriminatie] }
+  - { id: s15, target: "Een werkgever mag niemand om zijn afkomst discrimineren.", native: { en: "An employer may not discriminate against anyone because of their origin." }, items: [nl.discrimineren], acceptAlso: ["Een werkgever mag niemand discrimineren om zijn afkomst."] }
+  - { id: s16, target: "De school organiseert een project tegen racisme.", native: { en: "The school is organising a project against racism." }, items: [nl.racisme] }
+  - { id: s17, target: "Vooroordelen verdwijnen als mensen elkaar beter leren kennen.", native: { en: "Prejudices disappear when people get to know each other better." }, items: [nl.vooroordeel], acceptAlso: ["Als mensen elkaar beter leren kennen, verdwijnen vooroordelen."] }
+  - { id: s18, target: "Tolerantie betekent dat je ook andere meningen respecteert.", native: { en: "Tolerance means that you also respect other opinions." }, items: [nl.tolerantie] }
+  - { id: s19, target: "We moeten elke cultuur respecteren.", native: { en: "We have to respect every culture." }, items: [nl.respecteren] }
+  - { id: s20, target: "Mannen en vrouwen zijn gelijkwaardig.", native: { en: "Men and women are of equal worth." }, items: [nl.gelijkwaardig] }
+  - { id: s21, target: "Armoede zorgt vaak voor uitsluiting.", native: { en: "Poverty often causes exclusion." }, items: [nl.armoede, nl.uitsluiting] }
+  - { id: s22, target: "Kinderen uit kansarme gezinnen krijgen extra hulp op school.", native: { en: "Children from disadvantaged families get extra help at school." }, items: [nl.kansarm] }
+  - { id: s23, target: "Solidariteit tussen jong en oud is belangrijk.", native: { en: "Solidarity between young and old is important." }, items: [nl.solidariteit] }
+  - { id: s24, target: "De buren waren heel solidair na de brand.", native: { en: "The neighbours were very supportive after the fire." }, items: [nl.solidair] }
+  - { id: s25, target: "Haar engagement voor de buurt is groot.", native: { en: "Her commitment to the neighbourhood is great." }, items: [nl.engagement], form: { word: engagement, stem: engageren } }
+  - { id: s26, target: "Hij engageert zich al jaren voor vluchtelingen.", native: { en: "He has been involved in helping refugees for years." }, items: [nl.zich-engageren], acceptAlso: ["Al jaren engageert hij zich voor vluchtelingen."] }
+  - { id: s27, target: "Iedereen kan iets bijdragen aan een betere buurt.", native: { en: "Everyone can contribute something to a better neighbourhood." }, items: [nl.bijdragen] }
+  - { id: s28, target: "De senioren van het dorp komen elke week samen.", native: { en: "The village's older people get together every week." }, items: [nl.senior], acceptAlso: ["Elke week komen de senioren van het dorp samen."] }
+  - { id: s29, target: "Veel Vlamingen gaan in de zomer naar de kust.", native: { en: "Many Flemish people go to the coast in summer." }, items: [nl.vlaming] }
+  - { id: s30, target: "Belgen spreken vaak meer dan één taal.", native: { en: "Belgians often speak more than one language." }, items: [nl.belg] }
+  - { id: s31, target: "Als ik het geweten had, zou ik solidair geweest zijn.", native: { en: "If I had known, I would have shown solidarity." }, items: [nl.solidair], build: true, acceptAlso: ["Als ik het had geweten, zou ik solidair geweest zijn.", "Als ik het geweten had, zou ik solidair zijn geweest.", "Als ik het had geweten, zou ik solidair zijn geweest.", "Ik zou solidair geweest zijn als ik het geweten had.", "Ik zou solidair zijn geweest als ik het had geweten.", "Ik zou solidair geweest zijn als ik het had geweten.", "Ik zou solidair zijn geweest als ik het geweten had."] }
+  - { id: s32, target: "Zonder het engagement van vrijwilligers zou de club al lang gestopt zijn.", native: { en: "Without the commitment of volunteers the club would have stopped long ago." }, items: [nl.engagement], acceptAlso: ["Zonder het engagement van vrijwilligers zou de club al lang zijn gestopt.", "De club zou zonder het engagement van vrijwilligers al lang gestopt zijn.", "De club zou zonder het engagement van vrijwilligers al lang zijn gestopt.", "De club zou al lang gestopt zijn zonder het engagement van vrijwilligers.", "De club zou al lang zijn gestopt zonder het engagement van vrijwilligers."] }
+  - { id: s33, target: "Ik zou me graag geëngageerd hebben, maar ik had geen tijd.", native: { en: "I would have liked to get involved, but I didn't have time." }, items: [nl.zich-engageren], acceptAlso: ["Ik zou me graag hebben geëngageerd, maar ik had geen tijd."] }
+  - { id: s34, target: "Als hij Nederlands had gesproken, had hij die job gekregen.", native: { en: "If he had spoken Dutch, he would have got that job." }, items: [nl.inburgeren], build: true, acceptAlso: ["Als hij Nederlands gesproken had, had hij die job gekregen.", "Hij had die job gekregen als hij Nederlands had gesproken.", "Hij had die job gekregen als hij Nederlands gesproken had."] }
+  - { id: s35, target: "De migrant zou nooit gedacht hebben dat ze hier zou blijven.", native: { en: "The migrant would never have thought that she would stay here." }, items: [nl.migrant], acceptAlso: ["De migrant zou nooit hebben gedacht dat ze hier zou blijven."] }
+  - { id: s36, target: "Brussel is een heel diverse stad.", native: { en: "Brussels is a very diverse city." }, items: [nl.divers] }
+  - { id: s37, target: "Hij is altijd erg tolerant geweest.", native: { en: "He has always been very tolerant." }, items: [nl.tolerant] }
+  - { id: s38, target: "Het gezin leeft in armoede.", native: { en: "The family lives in poverty." }, items: [nl.armoede] }
+  - { id: s39, target: "Hij draagt veel bij aan het leven in het dorp.", native: { en: "He contributes a lot to life in the village." }, items: [nl.bijdragen], finite: { word: draagt, hint: { en: "bijdragen (present)" } } }
+  - { id: s40, target: "Brussel staat bekend om zijn diversiteit.", native: { en: "Brussels is known for its diversity." }, items: [nl.diversiteit], form: { word: diversiteit, stem: divers } }
+  - { id: s41, target: "Op onze school vragen we respect en tolerantie van iedereen.", native: { en: "At our school we ask everyone for respect and tolerance." }, items: [nl.tolerantie], form: { word: tolerantie, stem: tolerant } }
+transforms:
+  - { id: x01, from: "Ik wist het niet, daarom was ik niet solidair.", key: geweten, gapped: "Als ik het ___, was ik solidair geweest.", answers: ["had geweten", "geweten had"], items: [nl.solidair] }
+  - { id: x02, from: "Het was mijn plan om de senioren te helpen, maar ik was ziek.", key: zou, gapped: "Ik ___ helpen, maar ik was ziek.", answers: ["zou de senioren"], items: [nl.senior] }
+  - { id: x03, from: "In zijn vrije tijd helpt hij vluchtelingen.", key: engageert, gapped: "In zijn vrije tijd ___ vluchtelingen.", answers: ["engageert hij zich voor"], items: [nl.zich-engageren] }
+texts: [nl-b2-t13]

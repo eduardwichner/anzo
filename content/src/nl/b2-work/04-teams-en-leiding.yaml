@@ -1,0 +1,55 @@
+id: nl-b2-work-u04
+title: { en: Teams and leadership }
+icon: people
+topic: Leading a team, sharing tasks, self-managing teams, feedback and appraisal; giving feedback politely (Het zou fijn zijn als …, Een verbeterpunt is …)
+vocabulary:
+  - { target: de leiding, native: { en: "management, leadership (de leiding hebben: to be in charge)" }, pos: noun, plural: "-" }
+  - { target: de taakverdeling, native: { en: "division of tasks" }, pos: noun, plural: taakverdelingen }
+  - { target: de verantwoordelijke, native: { en: "person in charge" }, pos: noun, plural: verantwoordelijken }
+  - { target: de coördinator, native: { en: coordinator }, pos: noun, plural: coördinatoren }
+  - { target: coördineren, native: { en: to coordinate }, pos: verb }
+  - { target: delegeren, native: { en: to delegate }, pos: verb }
+  - { target: zelfsturend, native: { en: "self-managing (a team)" }, pos: adjective }
+  - { target: de autonomie, native: { en: autonomy }, pos: noun, plural: "-" }
+  - { target: motiverend, native: { en: motivating }, pos: adjective }
+  - { target: de prioriteit, native: { en: priority }, pos: noun, plural: prioriteiten }
+  - { target: de beoordeling, native: { en: "assessment, appraisal" }, pos: noun, plural: beoordelingen }
+  - { target: functioneren, native: { en: "to function, to perform (at work)" }, pos: verb }
+  - { target: opvolgen, native: { en: "to follow up, to monitor (Belgian); to succeed (someone)" }, pos: verb }
+  - { target: de opvolging, native: { en: "follow-up, monitoring (Belgian)" }, pos: noun, plural: "-" }
+  - { target: bijsturen, native: { en: "to adjust, to correct (the course)" }, pos: verb }
+  - { target: de sterkte, native: { en: "strength (strong point)" }, pos: noun, plural: sterktes }
+  - { target: de zwakte, native: { en: "weakness" }, pos: noun, plural: zwaktes }
+  - { target: het verbeterpunt, native: { en: "point for improvement" }, pos: noun, plural: verbeterpunten }
+  - { target: het compliment, native: { en: compliment }, pos: noun, plural: complimenten }
+sentences:
+  - { id: s01, target: "Wie heeft de leiding over dit project?", native: { en: "Who is in charge of this project?" }, items: [nl.leiding] }
+  - { id: s02, target: "Een duidelijke taakverdeling voorkomt veel ruzie.", native: { en: "A clear division of tasks prevents a lot of arguments." }, items: [nl.taakverdeling] }
+  - { id: s03, target: "Ik ben de verantwoordelijke voor de planning.", native: { en: "I am the person in charge of the schedule." }, items: [nl.verantwoordelijke] }
+  - { id: s04, target: "De coördinator zorgt ervoor dat de drie teams goed samenwerken.", native: { en: "The coordinator makes sure that the three teams work well together." }, items: [nl.coordinator] }
+  - { id: s05, target: "Een goede leidinggevende durft taken te delegeren.", native: { en: "A good manager dares to delegate tasks." }, items: [nl.delegeren] }
+  - { id: s06, target: "In een zelfsturend team is er geen baas.", native: { en: "In a self-managing team there is no boss." }, items: [nl.zelfsturend] }
+  - { id: s07, target: "De werknemers krijgen meer autonomie.", native: { en: "The employees are getting more autonomy." }, items: [nl.autonomie] }
+  - { id: s08, target: "Een motiverende werkplek is goed voor iedereen.", native: { en: "A motivating workplace is good for everyone." }, items: [nl.motiverend] }
+  - { id: s09, target: "De klacht van de klant heeft nu prioriteit.", native: { en: "The customer's complaint now has priority." }, items: [nl.prioriteit] }
+  - { id: s10, target: "Elk jaar is er een beoordeling van je werk.", native: { en: "Every year there is an appraisal of your work." }, items: [nl.beoordeling], form: { word: beoordeling, stem: beoordelen }, acceptAlso: ["Er is elk jaar een beoordeling van je werk."] }
+  - { id: s11, target: "Hoe functioneert het nieuwe team?", native: { en: "How is the new team performing?" }, items: [nl.functioneren] }
+  - { id: s12, target: "Ik volg de actiepunten van de vergadering op.", native: { en: "I follow up the action points from the meeting." }, items: [nl.opvolgen], acceptAlso: ["De actiepunten van de vergadering volg ik op."] }
+  - { id: s13, target: "De opvolging van nieuwe collega's is belangrijk.", native: { en: "Keeping a close eye on how new colleagues are doing is important." }, items: [nl.opvolging] }
+  - { id: s14, target: "Als het project vertraging heeft, moeten we bijsturen.", native: { en: "If the project is delayed, we have to adjust." }, items: [nl.bijsturen] }
+  - { id: s15, target: "Wat zijn je sterktes en je zwaktes?", native: { en: "What are your strengths and weaknesses?" }, items: [nl.sterkte, nl.zwakte] }
+  - { id: s16, target: "Een verbeterpunt is dat je soms te laat antwoordt.", native: { en: "A point for improvement is that you sometimes answer too late." }, items: [nl.verbeterpunt] }
+  - { id: s17, target: "Ze kreeg een compliment van haar leidinggevende.", native: { en: "She got a compliment from her manager." }, items: [nl.compliment] }
+  - { id: s18, target: "Een verbeterpunt: het zou fijn zijn als je de e-mails sneller beantwoordt.", native: { en: "A point for improvement: it would be nice if you answered the e-mails more quickly." }, items: [nl.verbeterpunt], build: true, acceptAlso: ["Een verbeterpunt: als je de e-mails sneller beantwoordt, zou het fijn zijn."] }
+  - { id: s19, target: "Je hebt het project heel goed opgevolgd.", native: { en: "You followed up the project very well." }, items: [nl.opvolgen] }
+  - { id: s20, target: "Een zelfsturend team beslist zelf hoe het werk verdeeld wordt.", native: { en: "A self-managing team decides itself how the work is divided." }, items: [nl.zelfsturend], acceptAlso: ["Een zelfsturend team beslist zelf hoe het werk wordt verdeeld."] }
+  - { id: s21, target: "Wie niet kan delegeren, loopt het risico op een burn-out.", native: { en: "Anyone who cannot delegate runs the risk of burnout." }, items: [nl.delegeren] }
+  - { id: s22, target: "Het team werkt met veel autonomie.", native: { en: "The team works with a lot of autonomy." }, items: [nl.autonomie] }
+  - { id: s23, target: "Haar beoordeling was heel goed.", native: { en: "Her appraisal was very good." }, items: [nl.beoordeling] }
+  - { id: s24, target: "In een zelfsturend team is een goede samenwerking heel belangrijk.", native: { en: "In a self-managing team good cooperation is very important." }, items: [nl.zelfsturend], form: { word: samenwerking, stem: samenwerken } }
+  - { id: s25, target: "Wie coördineert de verhuizing naar het nieuwe kantoor?", native: { en: "Who is coordinating the move to the new office?" }, items: [nl.coordineren] }
+transforms:
+  - { id: x01, from: "Dit is nu het belangrijkste werk.", key: prioriteit, gapped: "Dit werk ___.", answers: ["heeft nu prioriteit", "heeft nu de prioriteit", "heeft nu de hoogste prioriteit"], items: [nl.prioriteit] }
+  - { id: x02, from: "Pieter is de baas van het project.", key: leiding, gapped: "Pieter heeft ___ het project.", answers: ["de leiding over"], items: [nl.leiding] }
+  - { id: x03, from: "Je zou je planning eerder moeten doorsturen.", key: fijn, gapped: "Het zou ___ je planning eerder doorstuurt.", answers: ["fijn zijn als je", "fijn zijn wanneer je", "fijn zijn indien je"], items: [nl.verbeterpunt] }
+texts: [nl-b2-work-t04]

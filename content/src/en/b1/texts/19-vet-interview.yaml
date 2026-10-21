@@ -1,0 +1,36 @@
+id: en-b1-t19
+kind: reading
+title: { nl: Een dag uit het leven van een dierenarts }
+topic: Jobs (an interview in a careers magazine for young people)
+level: B1
+paragraphs:
+  - - { id: en-b1-t19-s01, target: "Sarah Patel has been a vet in a small town in Wales for twelve years.", native: { nl: "Sarah Patel is al twaalf jaar dierenarts in een klein stadje in Wales." } }
+    - { id: en-b1-t19-s02, target: "We asked her what her job is really like.", native: { nl: "We vroegen haar hoe haar werk echt is." } }
+  - - { id: en-b1-t19-s03, target: "\"My day usually starts at eight, when I check the animals that stayed overnight,\" she explains.", native: { nl: "\"Mijn dag begint meestal om acht uur, wanneer ik de dieren controleer die er de nacht zijn gebleven,\" legt ze uit." } }
+    - { id: en-b1-t19-s04, target: "\"Then the receptionist opens the doors, and the first owners arrive with their cats, dogs and rabbits.\"", native: { nl: "\"Daarna doet de receptionist de deuren open, en komen de eerste baasjes met hun katten, honden en konijnen.\"" } }
+  - - { id: en-b1-t19-s05, target: "In the afternoon she often visits farms, because many of her patients are cows and sheep.", native: { nl: "'s Middags bezoekt ze vaak boerderijen, omdat veel van haar patiënten koeien en schapen zijn." } }
+    - { id: en-b1-t19-s06, target: "\"It's hard work, especially in winter, but I love being outdoors.\"", native: { nl: "\"Het is zwaar werk, vooral in de winter, maar ik ben graag buiten.\"" } }
+  - - { id: en-b1-t19-s07, target: "When she gets back from the farms, Sarah manages a team of six: two other vets, three nurses and the receptionist.", native: { nl: "Als ze terug is van de boerderijen, leidt Sarah een team van zes: twee andere dierenartsen, drie dierenartsassistenten en de receptionist." } }
+    - { id: en-b1-t19-s08, target: "\"My colleagues are the best part of the job,\" she says.", native: { nl: "\"Mijn collega's zijn het beste deel van het werk,\" zegt ze." } }
+    - { id: en-b1-t19-s09, target: "\"We work long hours, so we have to support each other.\"", native: { nl: "\"We werken lange dagen, dus we moeten elkaar steunen.\"" } }
+  - - { id: en-b1-t19-s10, target: "Her advice for young people who want to become vets?", native: { nl: "Haar advies voor jongeren die dierenarts willen worden?" } }
+    - { id: en-b1-t19-s11, target: "\"Study hard, especially biology and chemistry, and try to get some experience. I started as a volunteer at an animal hospital when I was fifteen.\"", native: { nl: "\"Studeer hard, vooral biologie en scheikunde, en probeer wat ervaring op te doen. Ik begon als vrijwilliger in een dierenziekenhuis toen ik vijftien was.\"" } }
+glossary: []
+items: [en.vet, en.overnight, en.receptionist, en.patient, en.especially, en.outdoors, en.manage, en.colleague, en.support, en.advice, en.biology, en.chemistry, en.experience, en.volunteer, en.owner, en.become]
+questions:
+  - { id: en-b1-t19-q1, type: mc, question: "How long has Sarah been a vet?", options: ["For twelve years.", "For six years.", "Since she was fifteen."], correct: 0 }
+  - { id: en-b1-t19-q2, type: true_false_notgiven, statement: "Sarah has her own pets at home.", answer: not_given }
+  - { id: en-b1-t19-q3, type: true_false_notgiven, statement: "Sarah enjoys working outside.", answer: true }
+  - { id: en-b1-t19-q4, type: true_false_notgiven, statement: "Sarah only works with pets.", answer: false }
+  - { id: en-b1-t19-q5, type: mc, question: "What does Sarah like most about her job?", options: ["The people she works with.", "The money she earns.", "The short working day."], correct: 0 }
+  - { id: en-b1-t19-q6, type: match_heading, paragraph: 5, options: ["How to become a vet", "Visiting farms", "The start of the day"], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t19-l1, type: mc, question: "How many people does Sarah manage?", options: ["Six.", "Three.", "Twelve."], correct: 0 }
+  - { id: en-b1-t19-l2, type: true_false_notgiven, statement: "Sarah started as a volunteer when she was a teenager.", answer: true }
+cloze:
+  - { sentence: en-b1-t19-s02, word: asked, kind: finite_verb, hint: { nl: "ask (verleden tijd)" } }
+  - { sentence: en-b1-t19-s04, word: opens, kind: finite_verb, hint: { nl: "open (tegenwoordige tijd)" } }
+  - { sentence: en-b1-t19-s05, word: visits, kind: finite_verb, hint: { nl: "visit (tegenwoordige tijd)" } }
+  - { sentence: en-b1-t19-s07, word: manages, kind: finite_verb, hint: { nl: "manage (tegenwoordige tijd)" } }
+  - { sentence: en-b1-t19-s11, word: started, kind: finite_verb, hint: { nl: "start (verleden tijd)" } }
+orderable: true

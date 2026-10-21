@@ -1,0 +1,45 @@
+id: fr-a1-u10
+title: { nl: Op de boerderij, en: "On the farm" }
+icon: farm
+topic: La campagne; la ferme; les légumes
+vocabulary:
+  - { target: la campagne, native: { nl: het platteland, en: "countryside" }, pos: noun, gender: f }
+  - { target: la ferme, native: { nl: de boerderij, en: "farm" }, pos: noun, gender: f }
+  - { target: le fermier, native: { nl: de boer, en: "farmer" }, pos: noun, gender: m }
+  - { target: le champ, native: { nl: "het veld, de wei", en: "field" }, pos: noun, gender: m }
+  - { target: "l'herbe", native: { nl: het gras, en: "grass" }, pos: noun, gender: f }
+  - { target: la plante, native: { nl: de plant, en: "plant" }, pos: noun, gender: f }
+  - { target: la vache, native: { nl: de koe, en: "cow" }, pos: noun, gender: f }
+  - { target: le cochon, native: { nl: het varken, en: "pig" }, pos: noun, gender: m }
+  - { target: le mouton, native: { nl: het schaap, en: "sheep" }, pos: noun, gender: m }
+  - { target: la poule, native: { nl: de kip (het dier), en: "hen" }, pos: noun, gender: f, avoid: [fr.poulet] }
+  - { target: le poussin, native: { nl: het kuikentje, en: "chick" }, pos: noun, gender: m }
+  - { target: le canard, native: { nl: de eend, en: "duck" }, pos: noun, gender: m }
+  - { target: "l'âne", native: { nl: de ezel, en: "donkey" }, pos: noun, gender: m }
+  - { target: la chèvre, native: { nl: de geit, en: "goat" }, pos: noun, gender: f }
+  - { target: le légume, native: { nl: de groente, en: "vegetable" }, pos: noun, gender: m, category: true }
+  - { target: la tomate, native: { nl: de tomaat, en: "tomato" }, pos: noun, gender: f }
+  - { target: la carotte, native: { nl: de wortel, en: "carrot" }, pos: noun, gender: f }
+  - { target: la pomme de terre, native: { nl: de aardappel, en: "potato" }, pos: noun, gender: f }
+sentences:
+  - { id: s01, target: "Je vais à la campagne samedi.", native: { nl: "Ik ga zaterdag naar het platteland.", en: "I'm going to the countryside on Saturday." }, items: [fr.campagne] }
+  - { id: s02, target: "La classe fait une sortie à la ferme.", native: { nl: "De klas gaat op uitstapje naar de boerderij.", en: "The class is going on a trip to the farm." }, items: [fr.ferme] }
+  - { id: s03, target: "Le fermier a beaucoup d'animaux.", native: { nl: "De boer heeft veel dieren.", en: "The farmer has lots of animals." }, items: [fr.fermier] }
+  - { id: s04, target: "Les vaches sont dans le champ.", native: { nl: "De koeien staan in de wei.", en: "The cows are in the field." }, items: [fr.champ, fr.vache] }
+  - { id: s05, target: "Le lapin mange de l'herbe.", native: { nl: "Het konijn eet gras.", en: "The rabbit is eating grass." }, items: [fr.herbe] }
+  - { id: s06, target: "Madame Fleury parle des plantes.", native: { nl: "Mevrouw Fleury vertelt over planten.", en: "Mrs Fleury is talking about plants." }, items: [fr.plante] }
+  - { id: s07, target: "La vache est noire et blanche.", native: { nl: "De koe is zwart met wit.", en: "The cow is black and white." }, items: [fr.vache], acceptAlso: ["La vache est blanche et noire."] }
+  - { id: s08, target: "Le cochon est rose.", native: { nl: "Het varken is roze.", en: "The pig is pink." }, items: [fr.cochon] }
+  - { id: s09, target: "Il y a dix moutons dans le champ.", native: { nl: "Er staan tien schapen in de wei.", en: "There are ten sheep in the field." }, items: [fr.mouton] }
+  - { id: s10, target: "La poule a six poussins.", native: { nl: "De kip heeft zes kuikentjes.", en: "The hen has six chicks." }, items: [fr.poule, fr.poussin] }
+  - { id: s11, target: "Les canards nagent sur le lac.", native: { nl: "De eenden zwemmen op het meer.", en: "The ducks are swimming on the lake." }, items: [fr.canard] }
+  - { id: s12, target: "L'âne est gris et petit.", native: { nl: "De ezel is grijs en klein.", en: "The donkey is small and grey." }, items: [fr.ane], acceptAlso: ["L'âne est petit et gris."] }
+  - { id: s13, target: "La chèvre mange des fleurs.", native: { nl: "De geit eet bloemen.", en: "The goat is eating flowers." }, items: [fr.chevre] }
+  - { id: s14, target: "Mange tes légumes !", native: { nl: "Eet je groente op!", en: "Eat your vegetables!" }, items: [fr.legume] }
+  - { id: s15, target: "Il y a des tomates dans le jardin.", native: { nl: "Er groeien tomaten in de tuin.", en: "There are tomatoes in the garden." }, items: [fr.tomate] }
+  - { id: s16, target: "Le lapin aime les carottes.", native: { nl: "Het konijn houdt van wortels.", en: "The rabbit likes carrots." }, items: [fr.carotte] }
+  - { id: s17, target: "Je mange une pomme de terre.", native: { nl: "Ik eet een aardappel.", en: "I'm eating a potato." }, items: [fr.pomme-de-terre] }
+lessons:
+  - { id: l01, title: { nl: Naar het platteland, en: "To the countryside" }, vocab: [fr.campagne, fr.ferme, fr.fermier, fr.champ, fr.herbe, fr.plante] }
+  - { id: l02, title: { nl: Koe en varken, en: "Cows and pigs" }, vocab: [fr.vache, fr.cochon, fr.mouton, fr.poule, fr.poussin, fr.canard] }
+  - { id: l03, title: { nl: Groente uit de tuin, en: "Vegetables from the garden" }, vocab: [fr.ane, fr.chevre, fr.legume, fr.tomate, fr.carotte, fr.pomme-de-terre] }

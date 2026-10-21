@@ -1,0 +1,59 @@
+id: nl-pre-a1-u08
+title: { en: Food and drink }
+icon: food
+topic: Food and drink
+vocabulary:
+  - { target: eten, native: { en: to eat }, pos: verb }
+  - { target: drinken, native: { en: to drink }, pos: verb }
+  - { id: nl.eten-n, target: het eten, native: { en: "food, meal" }, pos: noun, plural: "-", category: true }
+  - { target: lekker, native: { en: "tasty, nice" }, pos: adjective }
+  - { target: de honger, native: { en: hunger }, pos: noun, plural: "-", avoid: [nl.dorst] }
+  - { target: de dorst, native: { en: thirst }, pos: noun, plural: "-" }
+  - { target: het brood, native: { en: bread }, pos: noun, plural: broden, avoid: [nl.boterham, nl.broodje] }
+  - { target: de boterham, native: { en: "slice of bread, sandwich" }, pos: noun, plural: boterhammen, avoid: [nl.broodje] }
+  - { target: het broodje, native: { en: bread roll }, pos: noun, plural: broodjes }
+  - { target: de kaas, native: { en: cheese }, pos: noun, plural: kazen }
+  - { target: de boter, native: { en: butter }, pos: noun, plural: "-" }
+  - { target: het ei, native: { en: egg }, pos: noun, plural: eieren }
+  - { target: de soep, native: { en: soup }, pos: noun, plural: soepen }
+  - { target: het vlees, native: { en: meat }, pos: noun, plural: "-", category: true }
+  - { target: de vis, native: { en: fish }, pos: noun, plural: vissen }
+  - { target: de kip, native: { en: chicken }, pos: noun, plural: kippen }
+  - { target: de frietjes, native: { en: chips }, pos: noun, plural: "-", alsoNL: de patat }
+  - { target: de groente, native: { en: vegetable }, pos: noun, plural: groenten, category: true }
+  - { target: het fruit, native: { en: fruit }, pos: noun, plural: "-", category: true }
+  - { target: de appel, native: { en: apple }, pos: noun, plural: appels }
+  - { target: de banaan, native: { en: banana }, pos: noun, plural: bananen }
+  - { target: het water, native: { en: water }, pos: noun, plural: "-" }
+  - { target: de melk, native: { en: milk }, pos: noun, plural: "-" }
+  - { target: de thee, native: { en: tea }, pos: noun, plural: "-" }
+  - { target: het bier, native: { en: beer }, pos: noun, plural: bieren }
+  - { target: de wijn, native: { en: wine }, pos: noun, plural: wijnen }
+  - { target: het glas, native: { en: glass }, pos: noun, plural: glazen }
+  - { target: met, native: { en: with }, pos: preposition }
+sentences:
+  - { id: s01, target: "Ik eet een appel.", native: { en: "I'm eating an apple." }, items: [nl.eten, nl.appel] }
+  - { id: s02, target: "Wat drink je?", native: { en: "What are you drinking?" }, items: [nl.drinken] }
+  - { id: s03, target: "Het eten is lekker.", native: { en: "The food is tasty." }, items: [nl.eten-n, nl.lekker] }
+  - { id: s04, target: "Ik heb honger.", native: { en: "I'm hungry." }, items: [nl.honger] }
+  - { id: s05, target: "Heb je dorst?", native: { en: "Are you thirsty?" }, items: [nl.dorst] }
+  - { id: s06, target: "Het brood is lekker.", native: { en: "The bread is nice." }, items: [nl.brood] }
+  - { id: s07, target: "Ik eet een boterham met kaas.", native: { en: "I'm eating a cheese sandwich." }, items: [nl.boterham, nl.kaas] }
+  - { id: s08, target: "Een broodje kaas, alstublieft.", native: { en: "A cheese roll, please." }, items: [nl.broodje, nl.kaas] }
+  - { id: s09, target: "Brood met boter is lekker.", native: { en: "Bread and butter is nice." }, items: [nl.boter, nl.brood] }
+  - { id: s10, target: "Ik eet een ei.", native: { en: "I'm eating an egg." }, items: [nl.ei] }
+  - { id: s11, target: "De soep is warm.", native: { en: "The soup is hot." }, items: [nl.soep] }
+  - { id: s12, target: "Ik eet geen vlees.", native: { en: "I don't eat meat." }, items: [nl.vlees] }
+  - { id: s13, target: "Wij eten vis.", native: { en: "We're eating fish." }, items: [nl.vis] }
+  - { id: s14, target: "De kip is lekker.", native: { en: "The chicken is tasty." }, items: [nl.kip] }
+  - { id: s15, target: "Kip met frietjes, alstublieft.", native: { en: "Chicken and chips, please." }, items: [nl.frietjes, nl.kip, nl.met] }
+  - { id: s16, target: "Eet je groenten?", native: { en: "Do you eat vegetables?" }, items: [nl.groente] }
+  - { id: s17, target: "Ik eet veel fruit.", native: { en: "I eat a lot of fruit." }, items: [nl.fruit] }
+  - { id: s18, target: "De banaan is geel.", native: { en: "The banana is yellow." }, items: [nl.banaan] }
+  - { id: s19, target: "Een glas water, alstublieft.", native: { en: "A glass of water, please." }, items: [nl.glas, nl.water] }
+  - { id: s20, target: "Ik drink melk.", native: { en: "I drink milk." }, items: [nl.melk] }
+  - { id: s21, target: "Koffie met melk, alstublieft.", native: { en: "Coffee with milk, please." }, items: [nl.koffie, nl.melk] }
+  - { id: s22, target: "Drink je thee?", native: { en: "Do you drink tea?" }, items: [nl.thee] }
+  - { id: s23, target: "Een bier en een glas wijn, alstublieft.", native: { en: "A beer and a glass of wine, please." }, items: [nl.bier, nl.wijn] }
+  - { id: s24, target: "De wijn is lekker.", native: { en: "The wine is nice." }, items: [nl.wijn, nl.lekker] }
+  - { id: s25, target: "Ik drink geen bier.", native: { en: "I don't drink beer." }, items: [nl.bier] }

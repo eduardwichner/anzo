@@ -1,0 +1,56 @@
+id: en-pre-a1-u06
+title: { nl: Kleding }
+icon: clothes
+topic: Clothes
+vocabulary:
+  - { target: clothes, native: { nl: "kleren, kleding" }, pos: noun, category: true }
+  - { target: wear, native: { nl: "dragen, aanhebben" }, pos: verb }
+  - { target: T-shirt, native: { nl: T-shirt }, pos: noun }
+  - { target: shirt, native: { nl: overhemd }, pos: noun }
+  - { target: trousers, native: { nl: broek }, pos: noun }
+  - { target: jeans, native: { nl: spijkerbroek }, pos: noun, avoid: [en.trousers] }
+  - { target: shorts, native: { nl: korte broek }, pos: noun, avoid: [en.trousers] }
+  - { target: skirt, native: { nl: rok }, pos: noun }
+  - { target: dress, native: { nl: jurk }, pos: noun }
+  - { target: sock, native: { nl: sok }, pos: noun }
+  - { target: shoe, native: { nl: schoen }, pos: noun }
+  - { target: boots, native: { nl: laarzen }, pos: noun }
+  - { target: hat, native: { nl: hoed }, pos: noun }
+  - { target: baseball cap, native: { nl: pet }, pos: noun, avoid: [en.hat] }
+  - { target: jacket, native: { nl: "jas, jasje" }, pos: noun }
+  - { target: bag, native: { nl: tas }, pos: noun }
+  - { target: handbag, native: { nl: handtas }, pos: noun, avoid: [en.bag] }
+  - { target: glasses, native: { nl: bril }, pos: noun }
+  - { target: watch, native: { nl: "horloge, kijken (naar)" }, pos: noun }
+  - { target: new, native: { nl: nieuw }, pos: adjective }
+  - { target: dirty, native: { nl: vies }, pos: adjective }
+  - { target: clean, native: { nl: "schoon, schoonmaken" }, pos: adjective }
+sentences:
+  - { id: s01, target: "I'm wearing a red T-shirt.", native: { nl: "Ik heb een rood T-shirt aan." }, items: [en.wear, en.t-shirt, en.red], acceptAlso: ["I am wearing a red T-shirt."] }
+  - { id: s02, target: "Your clothes are on the floor.", native: { nl: "Je kleren liggen op de vloer." }, items: [en.clothes] }
+  - { id: s03, target: "Dad's shirt is white.", native: { nl: "Het overhemd van papa is wit." }, items: [en.shirt, en.white] }
+  - { id: s04, target: "These trousers are long.", native: { nl: "Deze broek is lang." }, items: [en.trousers, en.long] }
+  - { id: s05, target: "Her jeans are blue.", native: { nl: "Haar spijkerbroek is blauw." }, items: [en.jeans, en.blue] }
+  - { id: s06, target: "He's wearing shorts today.", native: { nl: "Hij heeft vandaag een korte broek aan." }, items: [en.shorts, en.wear], acceptAlso: ["He is wearing shorts today.", "Today he's wearing shorts.", "Today he is wearing shorts."] }
+  - { id: s07, target: "Her skirt is pink.", native: { nl: "Haar rok is roze." }, items: [en.skirt, en.pink] }
+  - { id: s08, target: "Look at her beautiful dress!", native: { nl: "Kijk eens naar haar mooie jurk!" }, items: [en.dress, en.beautiful] }
+  - { id: s09, target: "Where is my sock?", native: { nl: "Waar is mijn sok?" }, items: [en.sock] }
+  - { id: s10, target: "These shoes are too small.", native: { nl: "Deze schoenen zijn te klein." }, items: [en.shoe, en.small] }
+  - { id: s11, target: "My boots are in the garden.", native: { nl: "Mijn laarzen staan in de tuin." }, items: [en.boots] }
+  - { id: s12, target: "Grandpa has got a black hat.", native: { nl: "Opa heeft een zwarte hoed." }, items: [en.hat, en.grandpa, en.black] }
+  - { id: s13, target: "I've got a blue baseball cap.", native: { nl: "Ik heb een blauwe pet." }, items: [en.baseball-cap, en.blue], acceptAlso: ["I have got a blue baseball cap."] }
+  - { id: s14, target: "This jacket is green.", native: { nl: "Deze jas is groen." }, items: [en.jacket, en.green] }
+  - { id: s15, target: "Your bag is on the chair.", native: { nl: "Je tas staat op de stoel." }, items: [en.bag] }
+  - { id: s16, target: "Mum's handbag is brown.", native: { nl: "De handtas van mama is bruin." }, items: [en.handbag, en.brown] }
+  - { id: s17, target: "My grandma wears glasses.", native: { nl: "Mijn oma draagt een bril." }, items: [en.glasses, en.wear, en.grandma] }
+  - { id: s18, target: "Is that your new watch?", native: { nl: "Is dat jouw nieuwe horloge?" }, items: [en.watch, en.new] }
+  - { id: s19, target: "My socks are dirty.", native: { nl: "Mijn sokken zijn vies." }, items: [en.sock, en.dirty] }
+  - { id: s20, target: "Clean your shoes, please.", native: { nl: "Maak je schoenen schoon, alsjeblieft." }, items: [en.clean, en.shoe, en.please] }
+  - { id: s21, target: "Her T-shirt is clean.", native: { nl: "Haar T-shirt is schoon." }, items: [en.t-shirt, en.clean] }
+  - { id: s22, target: "I've got new shoes!", native: { nl: "Ik heb nieuwe schoenen!" }, items: [en.new, en.shoe], acceptAlso: ["I have got new shoes!"] }
+  - { id: s23, target: "He's wearing a jacket and a hat.", native: { nl: "Hij heeft een jas en een hoed aan." }, items: [en.wear, en.jacket, en.hat], acceptAlso: ["He is wearing a jacket and a hat.", "He's wearing a hat and a jacket.", "He is wearing a hat and a jacket."] }
+  - { id: s24, target: "Which dress do you like?", native: { nl: "Welke jurk vind jij mooi?" }, items: [en.dress] }
+lessons:
+  - { id: l01, title: { nl: "Wat heb je aan?" }, vocab: [en.clothes, en.wear, en.t-shirt, en.shirt, en.trousers, en.jeans, en.shorts, en.skirt] }
+  - { id: l02, title: { nl: "Jurk, schoenen en jas" }, vocab: [en.dress, en.sock, en.shoe, en.boots, en.hat, en.baseball-cap, en.jacket] }
+  - { id: l03, title: { nl: Tas en bril }, vocab: [en.bag, en.handbag, en.glasses, en.watch, en.new, en.dirty, en.clean] }

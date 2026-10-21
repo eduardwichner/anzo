@@ -1,0 +1,73 @@
+id: en-b2-u14
+title: { nl: "Muziek, film en kunst" }
+icon: music
+topic: Art and artists, making music, theatre and film, writing a review; contrast (although, even though, despite, in spite of, whereas, nevertheless)
+vocabulary:
+  - { target: portrait, native: { nl: portret }, pos: noun }
+  - { target: masterpiece, native: { nl: meesterwerk }, pos: noun }
+  - { target: artistic, native: { nl: artistiek }, pos: adjective }
+  - { target: creativity, native: { nl: creativiteit }, pos: noun }
+  - { target: inspiration, native: { nl: inspiratie }, pos: noun }
+  - { target: composer, native: { nl: componist }, pos: noun }
+  - { target: lyrics, native: { nl: "songtekst" }, pos: noun }
+  - { target: melody, native: { nl: melodie }, pos: noun }
+  - { target: rhythm, native: { nl: ritme }, pos: noun }
+  - { target: release, native: { nl: "uitbrengen" }, pos: verb }
+  - { target: gig, native: { nl: "optreden, concert (van een band)" }, pos: noun }
+  - { target: venue, native: { nl: "locatie, zaal (voor een evenement)" }, pos: noun }
+  - { target: conductor, native: { nl: dirigent }, pos: noun }
+  - { target: playwright, native: { nl: toneelschrijver }, pos: noun }
+  - { target: script, native: { nl: "script, scenario" }, pos: noun }
+  - { target: cast, native: { nl: "cast, de spelers" }, pos: noun }
+  - { target: premiere, native: { nl: première }, pos: noun }
+  - { target: critic, native: { nl: "criticus, recensent" }, pos: noun }
+  - { target: box office, native: { nl: "kassa; de bioscoopopbrengst" }, pos: noun }
+  - { target: blockbuster, native: { nl: "kaskraker" }, pos: noun }
+  - { target: subtitles, native: { nl: ondertitels }, pos: noun }
+  - { target: genre, native: { nl: genre }, pos: noun, noBlank: true }
+  - { target: sequel, native: { nl: "vervolg (van een film of boek)" }, pos: noun }
+  - { target: whereas, native: { nl: "terwijl (tegenstelling), daar waar" }, pos: conjunction, noBlank: true }
+  - { target: in spite of, native: { nl: "ondanks" }, pos: phrase, avoid: [en.despite] }
+  - { target: nevertheless, native: { nl: "niettemin, toch" }, pos: adverb }
+  - { target: applause, native: { nl: applaus }, pos: noun, noBlank: true }
+  - { target: sold out, native: { nl: uitverkocht }, pos: adjective }
+  - { target: entertaining, native: { nl: "onderhoudend, vermakelijk" }, pos: adjective }
+  - { target: moving, native: { nl: ontroerend }, pos: adjective }
+  - { target: overrated, native: { nl: overschat }, pos: adjective }
+sentences:
+  - { id: s01, target: "The museum has a famous portrait of the queen.", native: { nl: "Het museum heeft een beroemd portret van de koningin." }, items: [en.portrait] }
+  - { id: s02, target: "Many people consider this film a masterpiece.", native: { nl: "Veel mensen beschouwen deze film als een meesterwerk." }, items: [en.masterpiece] }
+  - { id: s03, target: "She comes from a very artistic family.", native: { nl: "Ze komt uit een heel artistieke familie." }, items: [en.artistic] }
+  - { id: s04, target: "Schools should encourage creativity as well as knowledge.", native: { nl: "Scholen moeten naast kennis ook creativiteit aanmoedigen." }, items: [en.creativity], form: { word: creativity, stem: creative } }
+  - { id: s05, target: "The painter found inspiration in the countryside around her.", native: { nl: "De schilderes vond inspiratie op het platteland om haar heen." }, items: [en.inspiration], form: { word: inspiration, stem: inspire } }
+  - { id: s06, target: "Mozart was a composer from Austria.", native: { nl: "Mozart was een componist uit Oostenrijk." }, items: [en.composer] }
+  - { id: s07, target: "I love the melody, but the lyrics are a bit silly.", native: { nl: "Ik vind de melodie geweldig, maar de songtekst is een beetje dwaas." }, items: [en.melody, en.lyrics] }
+  - { id: s08, target: "Dancers need a good sense of rhythm.", native: { nl: "Dansers hebben een goed gevoel voor ritme nodig." }, items: [en.rhythm] }
+  - { id: s09, target: "The band will release their new album in March.", native: { nl: "De band brengt haar nieuwe album in maart uit." }, items: [en.release], acceptAlso: ["In March the band will release their new album."] }
+  - { id: s10, target: "They played their first gig in a small cafe.", native: { nl: "Ze gaven hun eerste optreden in een klein café." }, items: [en.gig] }
+  - { id: s11, target: "The venue was too small for such a popular band.", native: { nl: "De zaal was te klein voor zo'n populaire band." }, items: [en.venue] }
+  - { id: s12, target: "The conductor raised his hands and the orchestra began to play.", native: { nl: "De dirigent hief zijn handen op en het orkest begon te spelen." }, items: [en.conductor] }
+  - { id: s13, target: "Shakespeare is the most famous playwright in the English language.", native: { nl: "Shakespeare is de bekendste toneelschrijver van de Engelse taal." }, items: [en.playwright] }
+  - { id: s14, target: "The actors received the script a month before filming.", native: { nl: "De acteurs kregen het script een maand voor de opnames." }, items: [en.script], acceptAlso: ["A month before filming, the actors received the script."] }
+  - { id: s15, target: "The whole cast came on stage at the end.", native: { nl: "De hele cast kwam op het einde op het podium." }, items: [en.cast] }
+  - { id: s16, target: "The director was nervous on the night of the premiere.", native: { nl: "De regisseur was zenuwachtig op de avond van de première." }, items: [en.premiere], acceptAlso: ["On the night of the premiere, the director was nervous."] }
+  - { id: s17, target: "Most critics loved the new production.", native: { nl: "De meeste recensenten waren laaiend enthousiast over de nieuwe productie." }, items: [en.critic] }
+  - { id: s18, target: "The film was a huge success at the box office.", native: { nl: "De film was een enorm succes in de bioscoop." }, items: [en.box-office] }
+  - { id: s19, target: "Summer is the season of big Hollywood blockbusters.", native: { nl: "De zomer is het seizoen van grote Hollywood-kaskrakers." }, items: [en.blockbuster] }
+  - { id: s20, target: "I prefer watching foreign films with subtitles.", native: { nl: "Ik kijk buitenlandse films liever met ondertitels." }, items: [en.subtitles] }
+  - { id: s21, target: "Horror is not my favourite genre.", native: { nl: "Horror is niet mijn favoriete genre." }, items: [en.genre] }
+  - { id: s22, target: "The sequel was not as good as the first film.", native: { nl: "Het vervolg was niet zo goed als de eerste film." }, items: [en.sequel] }
+  - { id: s23, target: "My brother loves pop music, whereas I prefer jazz.", native: { nl: "Mijn broer houdt van popmuziek, terwijl ik liever jazz heb." }, items: [en.whereas], build: true }
+  - { id: s24, target: "In spite of the rain, thousands of people came to the festival.", native: { nl: "Ondanks de regen kwamen er duizenden mensen naar het festival." }, items: [en.in-spite-of], build: true, acceptAlso: ["Thousands of people came to the festival in spite of the rain."] }
+  - { id: s25, target: "The film is very long; nevertheless, it is never boring.", native: { nl: "De film is erg lang; toch is hij nooit saai." }, items: [en.nevertheless] }
+  - { id: s26, target: "The applause lasted several minutes.", native: { nl: "Het applaus duurde enkele minuten." }, items: [en.applause] }
+  - { id: s27, target: "The concert was sold out within an hour.", native: { nl: "Het concert was binnen een uur uitverkocht." }, items: [en.sold-out] }
+  - { id: s28, target: "It's not a great film, but it's very entertaining.", native: { nl: "Het is geen geweldige film, maar hij is erg onderhoudend." }, items: [en.entertaining], form: { word: entertaining, stem: entertain } }
+  - { id: s29, target: "The ending of the book was so moving that I cried.", native: { nl: "Het einde van het boek was zo ontroerend dat ik moest huilen." }, items: [en.moving] }
+  - { id: s30, target: "In my opinion, that singer is overrated.", native: { nl: "Volgens mij wordt die zanger overschat." }, items: [en.overrated] }
+  - { id: s31, target: "Even though the tickets were expensive, the show was sold out.", native: { nl: "Ook al waren de tickets duur, de voorstelling was uitverkocht." }, items: [en.sold-out] }
+transforms:
+  - { id: x01, from: "Although it rained, the concert went ahead.", key: despite, gapped: "The concert went ahead ___.", answers: ["despite the rain", "despite the fact that it rained", "despite it raining"], items: [en.in-spite-of] }
+  - { id: x02, from: "The first film was funny, but the second was very serious.", key: whereas, gapped: "The first film was funny, ___ very serious.", answers: ["whereas the second was", "whereas the second one was", "whereas the sequel was", "whereas the second film was"], items: [en.whereas] }
+  - { id: x03, from: "There were no tickets left for the concert.", key: sold, gapped: "The concert ___.", answers: ["was sold out", "had sold out", "was completely sold out", "had been sold out"], items: [en.sold-out] }
+texts: [en-b2-t14]

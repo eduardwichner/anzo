@@ -1,0 +1,53 @@
+id: fr-a2-u28
+title: { nl: Praten en vragen, en: "Talking and asking" }
+icon: hello
+topic: Communiquer; remercier, inviter, refuser
+vocabulary:
+  - { target: demander, native: { nl: vragen, en: "to ask" }, pos: verb }
+  - { target: discuter, native: { nl: "praten (met elkaar), bespreken", en: "to discuss, to talk" }, pos: verb }
+  - { target: la conversation, native: { nl: het gesprek, en: "conversation" }, pos: noun, gender: f }
+  - { target: "l'idée", native: { nl: het idee, en: "idea" }, pos: noun, gender: f }
+  - { target: penser, native: { nl: denken, en: "to think" }, pos: verb }
+  - { target: croire, native: { nl: geloven, en: "to believe" }, pos: verb, avoid: [fr.penser] }
+  - { target: espérer, native: { nl: hopen, en: "to hope" }, pos: verb }
+  - { target: "être d'accord", native: { nl: het eens zijn, en: "to agree" }, pos: phrase }
+  - { target: remercier, native: { nl: bedanken, en: "to thank" }, pos: verb }
+  - { target: "s'excuser", native: { nl: sorry zeggen, en: "to apologise, to say sorry" }, pos: verb }
+  - { target: proposer, native: { nl: voorstellen (om iets te doen), en: "to suggest" }, pos: verb, avoid: [fr.imaginer] }
+  - { target: accepter, native: { nl: "accepteren, aannemen", en: "to accept" }, pos: verb }
+  - { target: refuser, native: { nl: weigeren, en: "to refuse" }, pos: verb }
+  - { target: décrire, native: { nl: beschrijven, en: "to describe" }, pos: verb }
+  - { target: chuchoter, native: { nl: fluisteren, en: "to whisper" }, pos: verb }
+  - { target: crier, native: { nl: schreeuwen, en: "to shout" }, pos: verb }
+  - { target: "l'aide", native: { nl: de hulp, en: "help" }, pos: noun, gender: f }
+  - { target: partager, native: { nl: delen, en: "to share" }, pos: verb }
+  - { target: prêter, native: { nl: uitlenen, en: "to lend" }, pos: verb }
+  - { target: emprunter, native: { nl: lenen, en: "to borrow" }, pos: verb, avoid: [fr.preter] }
+sentences:
+  - { id: s01, target: "Demande à ton professeur.", native: { nl: "Vraag het aan je leraar.", en: "Ask your teacher." }, items: [fr.demander] }
+  - { id: s02, target: "Nous discutons du programme de la journée.", native: { nl: "We bespreken het programma van de dag.", en: "We're discussing the programme for the day." }, items: [fr.discuter] }
+  - { id: s03, target: "J'entends la conversation entre Jeanne et Martin.", native: { nl: "Ik hoor het gesprek tussen Jeanne en Martin.", en: "I can hear the conversation between Jeanne and Martin." }, items: [fr.conversation] }
+  - { id: s04, target: "Oui, bonne idée !", native: { nl: "Ja, goed idee!", en: "Yes, good idea!" }, items: [fr.idee] }
+  - { id: s05, target: "Qu'est-ce que tu penses du film ?", native: { nl: "Wat vind jij van de film?", en: "What do you think of the film?" }, items: [fr.penser] }
+  - { id: s06, target: "Je crois qu'il va pleuvoir.", native: { nl: "Ik geloof dat het gaat regenen.", en: "I believe it's going to rain." }, items: [fr.croire] }
+  - { id: s07, target: "J'espère que tu vas bien.", native: { nl: "Ik hoop dat het goed met je gaat.", en: "I hope you're well." }, items: [fr.esperer] }
+  - { id: s08, target: "Peut-être qu'il sera d'accord.", native: { nl: "Misschien vindt hij het goed.", en: "Maybe he'll agree." }, items: [fr.etre-d-accord] }
+  - { id: s09, target: "Je suis d'accord avec toi.", native: { nl: "Ik ben het met je eens.", en: "I agree with you." }, items: [fr.etre-d-accord] }
+  - { id: s10, target: "Je te remercie pour l'invitation.", native: { nl: "Bedankt voor de uitnodiging.", en: "Thank you for the invitation." }, items: [fr.remercier] }
+  - { id: s11, target: "Je m'excuse, je suis en retard.", native: { nl: "Sorry, ik ben te laat.", en: "I'm sorry, I'm late." }, items: [fr.s-excuser] }
+  - { id: s12, target: "Je te propose d'aller au cinéma mercredi.", native: { nl: "Ik stel voor om woensdag naar de bioscoop te gaan.", en: "I suggest we go to the cinema on Wednesday." }, items: [fr.proposer] }
+  - { id: s13, target: "J'accepte ton invitation, merci !", native: { nl: "Ik neem je uitnodiging aan, dank je!", en: "I accept your invitation, thank you!" }, items: [fr.accepter] }
+  - { id: s14, target: "Le chat refuse de manger.", native: { nl: "De kat weigert te eten.", en: "The cat refuses to eat." }, items: [fr.refuser] }
+  - { id: s15, target: "Décris ta maison.", native: { nl: "Beschrijf je huis.", en: "Describe your house." }, items: [fr.decrire] }
+  - { id: s16, target: "On chuchote à la bibliothèque.", native: { nl: "In de bibliotheek fluisteren we.", en: "We whisper in the library." }, items: [fr.chuchoter] }
+  - { id: s17, target: "Ne crie pas, le bébé dort !", native: { nl: "Niet schreeuwen, de baby slaapt!", en: "Don't shout, the baby's asleep!" }, items: [fr.crier] }
+  - { id: s18, target: "Merci pour ton aide !", native: { nl: "Bedankt voor je hulp!", en: "Thanks for your help!" }, items: [fr.aide] }
+  - { id: s19, target: "On partage le gâteau ?", native: { nl: "Zullen we de taart delen?", en: "Shall we share the cake?" }, items: [fr.partager] }
+  - { id: s20, target: "Tu peux me prêter ton stylo ?", native: { nl: "Kun je me je pen uitlenen?", en: "Can you lend me your pen?" }, items: [fr.preter] }
+  - { id: s21, target: "J'emprunte des livres à la bibliothèque.", native: { nl: "Ik leen boeken in de bibliotheek.", en: "I borrow books from the library." }, items: [fr.emprunter] }
+  - { id: s22, target: "Je ne peux pas venir dimanche, mais je te propose samedi.", native: { nl: "Ik kan zondag niet komen, maar ik stel zaterdag voor.", en: "I can't come on Sunday, but I'd suggest Saturday." }, items: [fr.proposer] }
+  - { id: s23, target: "Chère Camille, merci pour ta lettre !", native: { nl: "Lieve Camille, bedankt voor je brief!", en: "Dear Camille, thank you for your letter!" }, items: [fr.cher] }
+lessons:
+  - { id: l01, title: { nl: Wat denk jij?, en: "What do you think?" }, vocab: [fr.demander, fr.discuter, fr.conversation, fr.idee, fr.penser, fr.croire, fr.esperer] }
+  - { id: l02, title: { nl: Bedankt!, en: "Thank you!" }, vocab: [fr.etre-d-accord, fr.remercier, fr.s-excuser, fr.proposer, fr.accepter, fr.refuser, fr.decrire] }
+  - { id: l03, title: { nl: Lenen en delen, en: "Borrowing and sharing" }, vocab: [fr.chuchoter, fr.crier, fr.aide, fr.partager, fr.preter, fr.emprunter] }

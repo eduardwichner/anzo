@@ -1,0 +1,39 @@
+id: nl-b1-t18
+kind: reading
+title: { en: A complaint to a web shop }
+topic: Consumer complaints (an e-mail to the customer service of a web shop)
+level: B1
+paragraphs:
+  - - { id: nl-b1-t18-s01, target: "Geachte heer, mevrouw,", native: { en: "Dear Sir or Madam," } }
+    - { id: nl-b1-t18-s02, target: "Op 3 maart heb ik in uw webshop een stofzuiger besteld, met bestelnummer 48213.", native: { en: "On 3 March I ordered a vacuum cleaner from your web shop, order number 48213." } }
+  - - { id: nl-b1-t18-s03, target: "Volgens uw website zou het pakket binnen twee werkdagen geleverd worden, maar ik heb tien dagen moeten wachten.", native: { en: "According to your website the parcel would be delivered within two working days, but I had to wait ten days." } }
+    - { id: nl-b1-t18-s04, target: "Toen ik het pakket opende, zag ik dat de doos beschadigd was en dat er een onderdeel ontbrak.", native: { en: "When I opened the parcel, I saw that the box was damaged and that a part was missing." } }
+    - { id: nl-b1-t18-s05, target: "Bovendien werkt de stofzuiger niet: hij gaat na een paar seconden uit.", native: { en: "What's more, the vacuum cleaner doesn't work: it switches off after a few seconds." } }
+  - - { id: nl-b1-t18-s06, target: "Ik heb uw klantendienst al twee keer gebeld, maar niemand heeft mij teruggebeld, hoewel dat beloofd was.", native: { en: "I've already called your customer service twice, but nobody has called me back, although that had been promised." } }
+    - { id: nl-b1-t18-s07, target: "Ik ben dan ook erg teleurgesteld.", native: { en: "So I'm very disappointed." } }
+  - - { id: nl-b1-t18-s08, target: "Ik zou graag binnen een week een nieuwe stofzuiger ontvangen.", native: { en: "I would like to receive a new vacuum cleaner within a week." } }
+    - { id: nl-b1-t18-s09, target: "Als dat niet mogelijk is, vraag ik u het volledige bedrag terug te betalen, ook de verzendkosten.", native: { en: "If that isn't possible, I ask you to refund the full amount, including the postage." } }
+    - { id: nl-b1-t18-s10, target: "Ik stuur de stofzuiger uiteraard terug, maar ik wil daar zelf niets voor betalen.", native: { en: "Of course I'll send the vacuum cleaner back, but I don't want to pay anything for it myself." } }
+  - - { id: nl-b1-t18-s11, target: "Als bewijs vindt u in de bijlage een kopie van de factuur en twee foto's van het pakket.", native: { en: "As proof you will find a copy of the invoice and two photos of the parcel in the attachment." } }
+    - { id: nl-b1-t18-s12, target: "Ik hoop op een snelle reactie. Met vriendelijke groeten, Nina Wouters", native: { en: "I hope for a quick reply. Kind regards, Nina Wouters" } }
+glossary:
+  - { word: geachte, native: { en: "dear (formal, in a letter)" } }
+  - { word: stofzuiger, native: { en: vacuum cleaner } }
+  - { word: bestelnummer, native: { en: order number } }
+  - { word: volledige, native: { en: "full, complete" } }
+items: [nl.pakket, nl.ontbreken, nl.teleurgesteld, nl.verzendkosten, nl.uiteraard, nl.bewijs, nl.heer, nl.volgens, nl.onderdeel, nl.bedrag, nl.factuur, nl.kopie, nl.reactie, nl.zelf, nl.binnen, nl.beloven, nl.terugsturen]
+questions:
+  - { id: nl-b1-t18-q1, type: mc, question: "Wat is het probleem met de stofzuiger?", options: ["Hij gaat na een paar seconden uit.", "Hij heeft de verkeerde kleur.", "Hij is te groot."], correct: 0 }
+  - { id: nl-b1-t18-q4, type: true_false_notgiven, statement: "Nina heeft de stofzuiger in de solden gekocht.", answer: not_given }
+  - { id: nl-b1-t18-q2, type: true_false_notgiven, statement: "Het pakket werd binnen twee werkdagen geleverd.", answer: false }
+  - { id: nl-b1-t18-q3, type: true_false_notgiven, statement: "De klantendienst heeft Nina nog niet teruggebeld.", answer: true }
+  - { id: nl-b1-t18-q5, type: match_heading, paragraph: 4, options: ["Wat ik vraag", "Wat er mis is", "Wat ik al gedaan heb"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b1-t18-l1, type: mc, question: "Hoe lang moest Nina op het pakket wachten?", options: ["Tien dagen.", "Twee dagen.", "Een week."], correct: 0 }
+  - { id: nl-b1-t18-l2, type: true_false_notgiven, statement: "Nina wil zelf de verzendkosten voor het terugsturen betalen.", answer: false }
+cloze:
+  - { sentence: nl-b1-t18-s04, word: zag, kind: finite_verb, hint: { en: "zien (past)" } }
+  - { sentence: nl-b1-t18-s05, word: werkt, kind: finite_verb, hint: { en: "werken (present)" } }
+  - { sentence: nl-b1-t18-s08, word: zou, kind: finite_verb, hint: { en: "zullen (conditional)" } }
+  - { sentence: nl-b1-t18-s10, word: stuur, kind: finite_verb, hint: { en: "terugsturen (present)" } }
+orderable: true

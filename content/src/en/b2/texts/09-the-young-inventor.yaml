@@ -1,0 +1,49 @@
+id: en-b2-t09
+kind: reading
+title: { nl: De jonge uitvinder }
+topic: Inventions and technology (a profile in a science magazine for teenagers)
+level: B2
+paragraphs:
+  - - { id: en-b2-t09-s01, target: "When Nadia Rahman was fourteen, her grandmother fell at home and could not reach the phone.", native: { nl: "Toen Nadia Rahman veertien was, viel haar oma thuis en kon ze niet bij de telefoon." } }
+    - { id: en-b2-t09-s02, target: "She lay on the kitchen floor for three hours before a neighbour found her.", native: { nl: "Ze lag drie uur op de keukenvloer voor een buurman haar vond." } }
+    - { id: en-b2-t09-s03, target: "\"That afternoon I decided that it must never happen again,\" says Nadia, who is now seventeen.", native: { nl: "\"Die middag besloot ik dat het nooit meer mocht gebeuren,\" zegt Nadia, die nu zeventien is." } }
+  - - { id: en-b2-t09-s04, target: "Her solution was surprisingly simple.", native: { nl: "Haar oplossing was verrassend eenvoudig." } }
+    - { id: en-b2-t09-s05, target: "She came up with a small wireless device that can be worn on the wrist like a watch.", native: { nl: "Ze bedacht een klein draadloos toestel dat je om je pols kunt dragen zoals een horloge." } }
+    - { id: en-b2-t09-s06, target: "If the person who is wearing it falls and does not move for a minute, a message is sent automatically to three family members.", native: { nl: "Als de persoon die het draagt valt en een minuut niet beweegt, wordt er automatisch een bericht naar drie familieleden gestuurd." } }
+  - - { id: en-b2-t09-s07, target: "Building it was harder than she had expected.", native: { nl: "Het bouwen was moeilijker dan ze had verwacht." } }
+    - { id: en-b2-t09-s08, target: "Her first prototype was so big that it had to be carried in a bag, and the battery lasted only two hours.", native: { nl: "Haar eerste prototype was zo groot dat het in een tas moest worden gedragen, en de batterij hield het maar twee uur vol." } }
+    - { id: en-b2-t09-s09, target: "It took her a year of evenings and weekends, and the help of an engineer from a local company, to make it small enough.", native: { nl: "Het kostte haar een jaar lang avonden en weekends, en de hulp van een ingenieur van een plaatselijk bedrijf, om het klein genoeg te maken." } }
+  - - { id: en-b2-t09-s10, target: "Today her invention is being tested by fifty older people in her town.", native: { nl: "Nu wordt haar uitvinding getest door vijftig oudere mensen in haar stad." } }
+    - { id: en-b2-t09-s11, target: "The results so far have been encouraging: the device has already called for help four times, and each time the person was found within twenty minutes.", native: { nl: "De resultaten zijn tot nu toe bemoedigend: het toestel heeft al vier keer om hulp geroepen, en elke keer werd de persoon binnen twintig minuten gevonden." } }
+    - { id: en-b2-t09-s12, target: "Nadia has applied for a patent, and two companies have already shown interest.", native: { nl: "Nadia heeft een octrooi aangevraagd, en twee bedrijven hebben al interesse getoond." } }
+  - - { id: en-b2-t09-s13, target: "Does she want to become an engineer herself?", native: { nl: "Wil ze zelf ingenieur worden?" } }
+    - { id: en-b2-t09-s14, target: "\"Maybe,\" she says. \"But what I've learnt is that the best inventions don't start with technology. They start with a problem that matters to you.\"", native: { nl: "\"Misschien,\" zegt ze. \"Maar wat ik geleerd heb, is dat de beste uitvindingen niet met technologie beginnen. Ze beginnen met een probleem dat voor jou belangrijk is.\"" } }
+glossary:
+  - { word: wrist, native: { nl: pols } }
+  - { word: automatically, native: { nl: automatisch } }
+  - { word: encouraging, native: { nl: bemoedigend } }
+items: [en.come-up-with, en.wireless, en.device, en.prototype, en.patent]
+gapped:
+  gaps: [en-b2-t09-s04, en-b2-t09-s07, en-b2-t09-s10, en-b2-t09-s13]
+  extra:
+    - { id: en-b2-t09-x1, target: "Most of her friends were not interested in science.", native: { nl: "De meeste van haar vrienden waren niet in wetenschap geïnteresseerd." } }
+openCloze:
+  - { sentence: en-b2-t09-s05, word: like }
+  - { sentence: en-b2-t09-s06, word: who, acceptAlso: [that] }
+  - { sentence: en-b2-t09-s08, word: so }
+  - { sentence: en-b2-t09-s11, word: within, acceptAlso: [in] }
+wordForm:
+  - { sentence: en-b2-t09-s04, word: surprisingly, stem: surprise }
+  - { sentence: en-b2-t09-s09, word: engineer, stem: engine }
+  - { sentence: en-b2-t09-s14, word: inventions, stem: invent, acceptAlso: [inventors] }
+questions:
+  - { id: en-b2-t09-q1, type: summary, options: ["After her grandmother fell, a teenager invented a small device that calls for help, and after a year of work it is now being tested.", "A teenager invented a watch for older people, and a large company has already bought her idea and is selling it in shops.", "A teenager explains why older people should not live alone and should always carry a phone with them."], correct: 0 }
+  - { id: en-b2-t09-q2, type: mc, question: "What happens if the person wearing the device falls and does not move?", options: ["A message is sent to three family members.", "An alarm rings in the house.", "The device calls a hospital."], correct: 0 }
+  - { id: en-b2-t09-q3, type: true_false_notgiven, statement: "Nadia's first prototype was as small as a watch.", answer: false }
+  - { id: en-b2-t09-q4, type: true_false_notgiven, statement: "Nadia's grandmother is one of the fifty people testing the device.", answer: not_given }
+  - { id: en-b2-t09-q5, type: true_false_notgiven, statement: "An engineer helped Nadia to make the device smaller.", answer: true }
+  - { id: en-b2-t09-q6, type: match_heading, paragraph: 3, options: ["A long year of work", "The idea", "Testing in real life"], correct: 0 }
+listeningQuestions:
+  - { id: en-b2-t09-l1, type: complete, statement: "The device is being tested by ___ older people.", answers: [fifty, "50"] }
+  - { id: en-b2-t09-l2, type: mc, question: "How long did the first battery last?", options: ["Only two hours.", "One day.", "A week."], correct: 0 }
+orderable: false

@@ -1,0 +1,49 @@
+id: en-b2-t03
+kind: reading
+title: { nl: Mijn eerste baan }
+topic: Work and careers (four young people describe their first job, in a careers website)
+level: B2
+paragraphs:
+  - - { id: en-b2-t03-s01, target: "Mia: I started an apprenticeship at a hairdresser's when I was seventeen.", native: { nl: "Mia: Ik begon op mijn zeventiende als leerling bij een kapper." } }
+    - { id: en-b2-t03-s02, target: "At first I only washed hair and swept the floor, which wasn't exactly what I'd dreamt of.", native: { nl: "In het begin waste ik alleen haar en veegde ik de vloer, wat niet bepaald was waar ik van gedroomd had." } }
+    - { id: en-b2-t03-s03, target: "But my supervisor was patient, and after a year she let me cut hair on my own.", native: { nl: "Maar mijn leidinggevende was geduldig, en na een jaar liet ze me alleen haar knippen." } }
+    - { id: en-b2-t03-s04, target: "Next summer I'll have finished my training, and I'm already thinking about opening my own salon one day.", native: { nl: "Volgende zomer ben ik klaar met mijn opleiding, en ik denk er nu al aan om ooit mijn eigen kapsalon te openen." } }
+  - - { id: en-b2-t03-s05, target: "Tom: My first real job was in a warehouse, working night shifts.", native: { nl: "Tom: Mijn eerste echte baan was in een magazijn, in nachtdiensten." } }
+    - { id: en-b2-t03-s06, target: "The pay was good, but sleeping during the day was hard, and I hardly saw my friends.", native: { nl: "Het loon was goed, maar overdag slapen was moeilijk, en ik zag mijn vrienden bijna nooit." } }
+    - { id: en-b2-t03-s07, target: "After eight months I resigned and went back to college.", native: { nl: "Na acht maanden nam ik ontslag en ging ik terug naar school." } }
+    - { id: en-b2-t03-s08, target: "I don't regret it, though: I learnt that a high income isn't everything.", native: { nl: "Toch heb ik er geen spijt van: ik heb geleerd dat een hoog inkomen niet alles is." } }
+  - - { id: en-b2-t03-s09, target: "Aisha: I've been self-employed since I left university.", native: { nl: "Aisha: Ik ben zelfstandig sinds ik van de universiteit kwam." } }
+    - { id: en-b2-t03-s10, target: "I design websites for small companies, and I work from home most of the time.", native: { nl: "Ik ontwerp websites voor kleine bedrijven, en ik werk meestal thuis." } }
+    - { id: en-b2-t03-s11, target: "The flexibility is wonderful, but you have to be very disciplined, and some months there is almost no work.", native: { nl: "De flexibiliteit is heerlijk, maar je moet heel gedisciplineerd zijn, en sommige maanden is er bijna geen werk." } }
+    - { id: en-b2-t03-s12, target: "What I miss most is having colleagues to ask for advice.", native: { nl: "Wat ik het meest mis, zijn collega's die ik om advies kan vragen." } }
+  - - { id: en-b2-t03-s13, target: "Ben: I did an internship at a local newspaper during my last year at school.", native: { nl: "Ben: In mijn laatste jaar op school liep ik stage bij een plaatselijke krant." } }
+    - { id: en-b2-t03-s14, target: "Nobody paid me, and the workload was sometimes crazy, but the journalists made me feel like one of the team.", native: { nl: "Niemand betaalde me, en de werkdruk was soms enorm hoog, maar de journalisten gaven me het gevoel dat ik bij het team hoorde." } }
+    - { id: en-b2-t03-s15, target: "When a vacancy came up the following year, the editor remembered me and took me on.", native: { nl: "Toen er het jaar daarop een vacature kwam, herinnerde de hoofdredacteur zich mij en nam ze me aan." } }
+    - { id: en-b2-t03-s16, target: "My advice? Say yes to every opportunity, even when it seems small.", native: { nl: "Mijn advies? Zeg ja tegen elke kans, zelfs als die klein lijkt." } }
+glossary:
+  - { word: swept, native: { nl: "veegde (sweep)" } }
+  - { word: salon, native: { nl: "kapsalon" } }
+  - { word: warehouse, native: { nl: magazijn } }
+  - { word: disciplined, native: { nl: gedisciplineerd } }
+  - { word: editor, native: { nl: "hoofdredacteur" } }
+items: [en.apprenticeship, en.supervisor, en.shift, en.resign, en.income, en.self-employed, en.flexibility, en.internship, en.workload, en.vacancy, en.take-on]
+questions:
+  - id: en-b2-t03-q1
+    type: match_texts
+    labels: [Mia, Tom, Aisha, Ben]
+    statements:
+      - { id: en-b2-t03-q1-a, statement: "This person was not paid for their first experience of work.", paragraph: 4 }
+      - { id: en-b2-t03-q1-b, statement: "This person found it difficult to keep up a social life.", paragraph: 2 }
+      - { id: en-b2-t03-q1-c, statement: "This person did simple jobs before being given more responsibility.", paragraph: 1 }
+      - { id: en-b2-t03-q1-d, statement: "This person misses working with other people.", paragraph: 3 }
+      - { id: en-b2-t03-q1-e, statement: "This person got a job thanks to an earlier experience at the same place.", paragraph: 4 }
+      - { id: en-b2-t03-q1-f, statement: "This person decided that money was less important than they had thought.", paragraph: 2 }
+  - { id: en-b2-t03-q2, type: summary, options: ["Four young people describe what they learnt from their first experience of work, from apprenticeships to working for themselves.", "Four young people explain why they would never work for a big company and prefer to start their own business.", "Four young people complain that employers do not take on young workers without a university degree."], correct: 0 }
+listeningQuestions:
+  - { id: en-b2-t03-l1, type: complete, statement: "Tom worked night shifts in a ___.", answers: [warehouse] }
+  - { id: en-b2-t03-l2, type: mc, question: "What does Ben advise young people to do?", options: ["Say yes to every opportunity.", "Never work without being paid.", "Become self-employed as soon as possible."], correct: 0 }
+wordForm:
+  - { sentence: en-b2-t03-s06, word: hardly, stem: hard }
+  - { sentence: en-b2-t03-s11, word: wonderful, stem: wonder }
+  - { sentence: en-b2-t03-s16, word: advice, stem: advise }
+orderable: false

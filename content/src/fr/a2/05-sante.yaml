@@ -1,0 +1,43 @@
+id: fr-a2-u05
+title: { nl: Ziek en weer beter, en: "Feeling ill, getting better" }
+icon: body
+topic: La santé; le corps
+vocabulary:
+  - { target: la gorge, native: { nl: de keel, en: "throat" }, pos: noun, gender: f }
+  - { target: le genou, native: { nl: de knie, en: "knee" }, pos: noun, gender: m }
+  - { target: "l'épaule", native: { nl: de schouder, en: "shoulder" }, pos: noun, gender: f }
+  - { target: le doigt, native: { nl: de vinger, en: "finger" }, pos: noun, gender: m }
+  - { target: le cœur, native: { nl: het hart, en: "heart" }, pos: noun, gender: m }
+  - { target: la santé, native: { nl: de gezondheid, en: "health" }, pos: noun, gender: f }
+  - { target: le médicament, native: { nl: het medicijn, en: "medicine" }, pos: noun, gender: m }
+  - { target: le rhume, native: { nl: de verkoudheid, en: "a cold" }, pos: noun, gender: m }
+  - { target: la pharmacie, native: { nl: de apotheek, en: "chemist's, pharmacy" }, pos: noun, gender: f }
+  - { target: le dentiste, native: { nl: de tandarts, en: "dentist" }, pos: noun, gender: m }
+  - { target: "l'infirmier", native: { nl: de verpleger, en: "nurse (male)" }, pos: noun, gender: m }
+  - { target: tousser, native: { nl: hoesten, en: "to cough" }, pos: verb }
+  - { target: se blesser, native: { nl: zich bezeren, en: "to hurt yourself, to get hurt" }, pos: verb }
+  - { target: se casser, native: { nl: breken (je arm of been), en: "to break (a bone)" }, pos: verb, avoid: [fr.casser] }
+  - { target: guérir, native: { nl: "genezen, beter worden", en: "to get better, to heal" }, pos: verb }
+  - { target: soigner, native: { nl: verzorgen, en: "to look after, to treat" }, pos: verb, avoid: [fr.s-occuper] }
+sentences:
+  - { id: s01, target: "J'ai mal à la gorge.", native: { nl: "Ik heb keelpijn.", en: "I have a sore throat." }, items: [fr.gorge] }
+  - { id: s02, target: "Je suis tombé sur le genou.", native: { nl: "Ik ben op mijn knie gevallen.", en: "I fell on my knee." }, items: [fr.genou] }
+  - { id: s03, target: "Il a mal à l'épaule.", native: { nl: "Hij heeft pijn aan zijn schouder.", en: "His shoulder hurts." }, items: [fr.epaule] }
+  - { id: s04, target: "Je me suis coupé le doigt.", native: { nl: "Ik heb me in mijn vinger gesneden.", en: "I've cut my finger." }, items: [fr.doigt] }
+  - { id: s05, target: "Je t'aime de tout mon cœur, maman !", native: { nl: "Ik hou met heel mijn hart van je, mama!", en: "I love you with all my heart, Mum!" }, items: [fr.coeur] }
+  - { id: s06, target: "Le sport, c'est bon pour la santé.", native: { nl: "Sport is goed voor je gezondheid.", en: "Sport is good for your health." }, items: [fr.sante] }
+  - { id: s07, target: "Prends ton médicament après le repas.", native: { nl: "Neem je medicijn na het eten in.", en: "Take your medicine after the meal." }, items: [fr.medicament] }
+  - { id: s08, target: "J'ai un rhume, je tousse beaucoup.", native: { nl: "Ik ben verkouden, ik hoest veel.", en: "I have a cold, so I'm coughing a lot." }, items: [fr.rhume, fr.tousser] }
+  - { id: s09, target: "Maman achète des médicaments à la pharmacie.", native: { nl: "Mama koopt medicijnen bij de apotheek.", en: "Mum buys medicine at the chemist's." }, items: [fr.pharmacie] }
+  - { id: s10, target: "Demain, je vais chez le dentiste.", native: { nl: "Morgen ga ik naar de tandarts.", en: "Tomorrow I'm going to the dentist's." }, items: [fr.dentiste] }
+  - { id: s11, target: "L'infirmière est très gentille.", native: { nl: "De verpleegster is heel aardig.", en: "The nurse is very kind." }, items: [fr.infirmier] }
+  - { id: s12, target: "L'infirmier m'a donné un médicament.", native: { nl: "De verpleger heeft me een medicijn gegeven.", en: "The nurse gave me some medicine." }, items: [fr.infirmier] }
+  - { id: s13, target: "Le chat tousse ? Il est malade !", native: { nl: "Hoest de kat? Hij is ziek!", en: "Is the cat coughing? It's ill!" }, items: [fr.tousser] }
+  - { id: s14, target: "Je me suis blessé au foot.", native: { nl: "Ik heb me bezeerd bij het voetballen.", en: "I hurt myself playing football." }, items: [fr.se-blesser] }
+  - { id: s15, target: "Mon frère s'est cassé le bras.", native: { nl: "Mijn broer heeft zijn arm gebroken.", en: "My brother broke his arm." }, items: [fr.se-casser] }
+  - { id: s16, target: "Tu vas vite guérir !", native: { nl: "Je wordt snel beter!", en: "You'll get better soon!" }, items: [fr.guerir], acceptAlso: ["Tu vas guérir vite !"] }
+  - { id: s17, target: "Maintenant, je sais soigner les animaux malades.", native: { nl: "Nu kan ik zieke dieren verzorgen.", en: "Now I know how to look after sick animals." }, items: [fr.soigner] }
+lessons:
+  - { id: l01, title: { nl: Keel en knie, en: "Throats, knees and shoulders" }, vocab: [fr.gorge, fr.genou, fr.epaule, fr.doigt, fr.coeur, fr.sante] }
+  - { id: l02, title: { nl: Bij de apotheek, en: "At the chemist's" }, vocab: [fr.medicament, fr.rhume, fr.pharmacie, fr.dentiste, fr.infirmier, fr.tousser] }
+  - { id: l03, title: { nl: Beterschap!, en: "Get well soon!" }, vocab: [fr.se-blesser, fr.se-casser, fr.guerir, fr.soigner] }

@@ -1,0 +1,42 @@
+id: nl-b1-t04
+kind: dialogue
+title: { en: A job interview }
+topic: The job interview (an interview at a company that delivers parcels)
+level: B1
+speakers: { A: { name: Meneer Wouters }, B: { name: Fatima } }
+turns:
+  - { id: nl-b1-t04-s01, speaker: A, target: "Goedemorgen, mevrouw. Gaat u zitten. Kunt u zich eerst even voorstellen?", native: { en: "Good morning. Please take a seat. Could you introduce yourself first?" } }
+  - { id: nl-b1-t04-s02, speaker: B, target: "Natuurlijk. Ik ben Fatima. Ik woon al vier jaar in Leuven en ik heb drie jaar als kassierster gewerkt.", native: { en: "Of course. I'm Fatima. I've lived in Leuven for four years and I worked as a cashier for three years." } }
+  - { id: nl-b1-t04-s03, speaker: A, target: "Waarom hebt u op deze vacature gereageerd?", native: { en: "Why did you apply for this vacancy?" } }
+  - { id: nl-b1-t04-s04, speaker: B, target: "Ik zou graag meer verantwoordelijkheid krijgen. In de winkel deed ik elke dag hetzelfde.", native: { en: "I'd like to get more responsibility. In the shop I did the same thing every day." } }
+  - { id: nl-b1-t04-s05, speaker: A, target: "Wat is volgens u uw sterkste eigenschap?", native: { en: "What do you think is your strongest quality?" } }
+  - { id: nl-b1-t04-s06, speaker: B, target: "Ik ben betrouwbaar. Mijn vorige baas zei altijd dat hij nooit op mij hoefde te wachten.", native: { en: "I'm reliable. My previous boss always said that he never had to wait for me." } }
+  - { id: nl-b1-t04-s07, speaker: A, target: "Goed. In deze functie plant u de ritten van onze chauffeurs. Dat vereist veel geduld.", native: { en: "Good. In this position you plan our drivers' rounds. That takes a lot of patience." } }
+  - { id: nl-b1-t04-s08, speaker: B, target: "Dat lijkt me geen probleem. Ik heb ook een cursus planning gevolgd bij de VDAB.", native: { en: "That doesn't seem a problem to me. I also took a planning course at the VDAB." } }
+  - { id: nl-b1-t04-s09, speaker: A, target: "Uitstekend. Hebt u zelf nog vragen?", native: { en: "Excellent. Do you have any questions yourself?" } }
+  - { id: nl-b1-t04-s10, speaker: B, target: "Ja. Zou ik af en toe kunnen thuiswerken? En hoe ziet het contract eruit?", native: { en: "Yes. Could I work from home now and then? And what does the contract look like?" } }
+  - { id: nl-b1-t04-s11, speaker: A, target: "Thuiswerken kan één dag per week. U begint met een tijdelijk contract, en na zes maanden kan het een vast contract worden.", native: { en: "Working from home is possible one day a week. You start with a temporary contract, and after six months it can become a permanent one." } }
+  - { id: nl-b1-t04-s12, speaker: B, target: "Dat klinkt goed. Wanneer hoor ik iets?", native: { en: "That sounds good. When will I hear something?" } }
+  - { id: nl-b1-t04-s13, speaker: A, target: "We bellen u vrijdag. Bedankt voor uw komst.", native: { en: "We'll call you on Friday. Thank you for coming." } }
+  - { id: nl-b1-t04-s14, speaker: B, target: "Bedankt voor het gesprek. Tot vrijdag!", native: { en: "Thank you for the interview. Speak to you on Friday!" } }
+glossary:
+  - { word: kassierster, native: { en: "cashier (a woman)" } }
+  - { word: ritten, native: { en: "rounds, trips (of a driver)" } }
+  - { word: uitstekend, native: { en: excellent } }
+  - { word: komst, native: { en: coming (your visit) } }
+items: [nl.eigenschap, nl.betrouwbaar, nl.thuiswerken, nl.lijken, nl.functie, nl.vereisen, nl.tijdelijk, nl.vast, nl.verantwoordelijkheid, nl.reageren, nl.gesprek, nl.zelf, nl.volgens, nl.geduld, nl.klinken, nl.planning, nl.bedanken, nl.volgen]
+questions:
+  - { id: nl-b1-t04-q1, type: mc, question: "Waarom wil Fatima een andere job?", options: ["Ze wil meer verantwoordelijkheid.", "Ze wil meer geld verdienen.", "Ze wil dichter bij huis werken."], correct: 0 }
+  - { id: nl-b1-t04-q4, type: true_false_notgiven, statement: "Fatima heeft een rijbewijs.", answer: not_given }
+  - { id: nl-b1-t04-q2, type: true_false_notgiven, statement: "Fatima heeft al eerder in een winkel gewerkt.", answer: true }
+  - { id: nl-b1-t04-q3, type: true_false_notgiven, statement: "Fatima begint met een vast contract.", answer: false }
+  - { id: nl-b1-t04-q5, type: mc, question: "Hoe vaak kan Fatima thuiswerken?", options: ["Eén dag per week.", "Twee dagen per week.", "Nooit."], correct: 0 }
+listeningQuestions:
+  - { id: nl-b1-t04-l1, type: mc, question: "Wat is volgens Fatima zelf haar sterkste eigenschap?", options: ["Ze is betrouwbaar.", "Ze is geduldig.", "Ze is ambitieus."], correct: 0 }
+  - { id: nl-b1-t04-l2, type: true_false_notgiven, statement: "Het bedrijf belt Fatima op vrijdag.", answer: true }
+cloze:
+  - { sentence: nl-b1-t04-s04, word: deed, kind: finite_verb, hint: { en: "doen (past)" } }
+  - { sentence: nl-b1-t04-s07, word: vereist, kind: finite_verb, hint: { en: "vereisen (present)" } }
+  - { sentence: nl-b1-t04-s11, word: begint, kind: finite_verb, hint: { en: "beginnen (present)" } }
+  - { sentence: nl-b1-t04-s12, word: hoor, kind: finite_verb, hint: { en: "horen (present)" } }
+orderable: false

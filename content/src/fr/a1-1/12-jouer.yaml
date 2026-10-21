@@ -1,0 +1,52 @@
+id: fr-a1-1-u12
+title: { nl: Spelen en sporten, en: "Games and sport" }
+icon: sport
+topic: Les loisirs; le sport; les jouets
+vocabulary:
+  - { target: jouer, native: { nl: spelen, en: "to play" }, pos: verb }
+  - { target: le jeu, native: { nl: het spel, en: "game" }, pos: noun, gender: m }
+  - { target: le jouet, native: { nl: het speelgoed, en: "toy" }, pos: noun, gender: m }
+  - { target: le ballon, native: { nl: de bal, en: "ball" }, pos: noun, gender: m }
+  - { target: la poupée, native: { nl: de pop, en: "doll" }, pos: noun, gender: f }
+  - { target: le robot, native: { nl: de robot, en: "robot" }, pos: noun, gender: m }
+  - { target: le vélo, native: { nl: de fiets, en: "bike, bicycle" }, pos: noun, gender: m }
+  - { target: faire du vélo, native: { nl: fietsen, en: "to cycle, to ride a bike" }, pos: phrase }
+  - { target: le sport, native: { nl: de sport, en: "sport" }, pos: noun, gender: m, category: true }
+  - { target: le football, native: { nl: het voetbal, en: "football" }, pos: noun, gender: m }
+  - { target: le tennis, native: { nl: het tennis, en: "tennis" }, pos: noun, gender: m }
+  - { target: la piscine, native: { nl: het zwembad, en: "swimming pool" }, pos: noun, gender: f }
+  - { target: nager, native: { nl: zwemmen, en: "to swim" }, pos: verb }
+  - { target: courir, native: { nl: rennen, en: "to run" }, pos: verb }
+  - { target: danser, native: { nl: dansen, en: "to dance" }, pos: verb }
+  - { target: chanter, native: { nl: zingen, en: "to sing" }, pos: verb }
+  - { target: la chanson, native: { nl: het liedje, en: "song" }, pos: noun, gender: f }
+  - { target: la musique, native: { nl: de muziek, en: "music" }, pos: noun, gender: f }
+  - { target: le club, native: { nl: de club, en: "club" }, pos: noun, gender: m }
+  - { target: "l'activité", native: { nl: de activiteit, en: "activity" }, pos: noun, gender: f, avoid: [fr.sport, fr.loisirs] }
+  - { target: les loisirs, native: { nl: "de vrije tijd, de hobby's", en: "hobbies, free time" }, pos: noun, gender: m, avoid: [fr.sport] }
+sentences:
+  - { id: s01, target: "On joue au parc ?", native: { nl: "Zullen we in het park spelen?", en: "Shall we play in the park?" }, items: [fr.jouer] }
+  - { id: s02, target: "Quel est ton jeu préféré ?", native: { nl: "Wat is jouw lievelingsspel?", en: "What's your favourite game?" }, items: [fr.jeu] }
+  - { id: s03, target: "Où sont mes jouets ?", native: { nl: "Waar is mijn speelgoed?", en: "Where are my toys?" }, items: [fr.jouet] }
+  - { id: s04, target: "Le ballon est rouge et blanc.", native: { nl: "De bal is rood met wit.", en: "The ball is red and white." }, items: [fr.ballon] }
+  - { id: s05, target: "Ma sœur joue avec sa poupée.", native: { nl: "Mijn zus speelt met haar pop.", en: "My sister is playing with her doll." }, items: [fr.poupee, fr.jouer] }
+  - { id: s06, target: "J'ai un petit robot.", native: { nl: "Ik heb een kleine robot.", en: "I have a little robot." }, items: [fr.robot] }
+  - { id: s07, target: "Mon vélo est vert.", native: { nl: "Mijn fiets is groen.", en: "My bike is green." }, items: [fr.velo] }
+  - { id: s08, target: "J'aime faire du vélo.", native: { nl: "Ik fiets graag.", en: "I like cycling." }, items: [fr.faire-du-velo] }
+  - { id: s09, target: "Quel sport tu aimes ?", native: { nl: "Welke sport vind jij leuk?", en: "What sport do you like?" }, items: [fr.sport] }
+  - { id: s10, target: "Mon sport préféré, c'est le football.", native: { nl: "Mijn lievelingssport is voetbal.", en: "My favourite sport is football." }, items: [fr.football, fr.sport] }
+  - { id: s11, target: "Je joue au tennis avec papa.", native: { nl: "Ik tennis met papa.", en: "I play tennis with Dad." }, items: [fr.tennis] }
+  - { id: s12, target: "On va à la piscine ?", native: { nl: "Gaan we naar het zwembad?", en: "Shall we go to the swimming pool?" }, items: [fr.piscine] }
+  - { id: s13, target: "J'adore nager.", native: { nl: "Ik zwem heel graag.", en: "I love swimming." }, items: [fr.nager] }
+  - { id: s14, target: "Je ne cours pas dans la classe.", native: { nl: "Ik ren niet in de klas.", en: "I don't run in the classroom." }, items: [fr.courir] }
+  - { id: s15, target: "Tu aimes danser ?", native: { nl: "Dans jij graag?", en: "Do you like dancing?" }, items: [fr.danser] }
+  - { id: s16, target: "J'aime aussi chanter.", native: { nl: "Ik zing ook graag.", en: "I like singing too." }, items: [fr.chanter] }
+  - { id: s17, target: "C'est ma chanson préférée !", native: { nl: "Dat is mijn lievelingsliedje!", en: "It's my favourite song!" }, items: [fr.chanson] }
+  - { id: s18, target: "Tu aimes la musique ?", native: { nl: "Hou jij van muziek?", en: "Do you like music?" }, items: [fr.musique] }
+  - { id: s19, target: "Il veut aller au club de football.", native: { nl: "Hij wil naar de voetbalclub.", en: "He wants to go to the football club." }, items: [fr.club] }
+  - { id: s20, target: "Mes activités préférées : nager et danser.", native: { nl: "Mijn lievelingsactiviteiten: zwemmen en dansen.", en: "My favourite activities: swimming and dancing." }, items: [fr.activite] }
+  - { id: s21, target: "Le dessin, c'est mon loisir préféré.", native: { nl: "Tekenen is mijn lievelingshobby.", en: "Drawing is my favourite hobby." }, items: [fr.loisirs] }
+lessons:
+  - { id: l01, title: { nl: Speelgoed, en: "Toys and games" }, vocab: [fr.jouer, fr.jeu, fr.jouet, fr.ballon, fr.poupee, fr.robot] }
+  - { id: l02, title: { nl: Fietsen en zwemmen, en: "Cycling and swimming" }, vocab: [fr.velo, fr.faire-du-velo, fr.sport, fr.football, fr.tennis, fr.piscine, fr.nager] }
+  - { id: l03, title: { nl: Zingen en dansen, en: "Singing and dancing" }, vocab: [fr.courir, fr.danser, fr.chanter, fr.chanson, fr.musique, fr.club, fr.activite, fr.loisirs] }

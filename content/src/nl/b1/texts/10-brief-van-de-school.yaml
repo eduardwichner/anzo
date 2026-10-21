@@ -1,0 +1,38 @@
+id: nl-b1-t10
+kind: reading
+title: { en: A letter from the school }
+topic: School and parents (a letter from a primary school to the parents)
+level: B1
+paragraphs:
+  - - { id: nl-b1-t10-s01, target: "Beste ouders, het eerste trimester is bijna voorbij, en er staan nog enkele activiteiten op het programma.", native: { en: "Dear parents, the first term is almost over, and there are still a few activities on the programme." } }
+  - - { id: nl-b1-t10-s02, target: "Op donderdag 12 december is er oudercontact.", native: { en: "On Thursday 12 December there is a parents' evening." } }
+    - { id: nl-b1-t10-s03, target: "U kunt dan met de leerkracht praten over het rapport en over de vooruitgang van uw kind.", native: { en: "You can then talk to the teacher about the report and about your child's progress." } }
+    - { id: nl-b1-t10-s04, target: "Op de website van de school kunt u een uur kiezen dat voor u past.", native: { en: "On the school website you can choose a time that suits you." } }
+  - - { id: nl-b1-t10-s05, target: "Op vrijdag 20 december geven de leerlingen van de laatste twee leerjaren een kerstvoorstelling in de turnzaal.", native: { en: "On Friday 20 December the pupils of the last two years are putting on a Christmas show in the gym." } }
+    - { id: nl-b1-t10-s06, target: "Alle ouders, grootouders en broers en zussen zijn welkom. Na de voorstelling is er warme chocolademelk.", native: { en: "All parents, grandparents, brothers and sisters are welcome. After the show there is hot chocolate." } }
+  - - { id: nl-b1-t10-s07, target: "In januari gaan de kinderen van het derde leerjaar drie dagen op schoolreis naar de Ardennen.", native: { en: "In January the children in the third year are going on a three-day school trip to the Ardennes." } }
+    - { id: nl-b1-t10-s08, target: "De prijs is 95 euro. Dankzij de maximumfactuur betaalt u nooit meer dan het bedrag dat de overheid heeft vastgelegd.", native: { en: "The price is 95 euros. Thanks to the maximum bill you never pay more than the amount set by the government." } }
+    - { id: nl-b1-t10-s09, target: "Hebt u moeite met de betaling? Neem dan gerust contact op met de directie. Wij zoeken samen naar een oplossing.", native: { en: "Do you have difficulty paying? Then feel free to contact the head's office. We'll look for a solution together." } }
+  - - { id: nl-b1-t10-s10, target: "Tot slot nog een vraag: verwittig de school altijd voor half negen als uw kind ziek is.", native: { en: "Finally, a request: always let the school know before half past eight if your child is ill." } }
+    - { id: nl-b1-t10-s11, target: "Met vriendelijke groeten, Marc Willems, directeur", native: { en: "Kind regards, Marc Willems, head teacher" } }
+glossary:
+  - { word: kerstvoorstelling, native: { en: Christmas show } }
+  - { word: chocolademelk, native: { en: "chocolate milk, hot chocolate" } }
+  - { word: vastgelegd, native: { en: "set, laid down" } }
+  - { word: overheid, native: { en: government } }
+items: [nl.turnzaal, nl.trimester, nl.voorstelling, nl.schoolreis, nl.maximumfactuur, nl.betaling, nl.directie, nl.verwittigen, nl.enkele, nl.bedrag, nl.dankzij, nl.moeite, nl.vooruitgang, nl.programma, nl.oplossing]
+questions:
+  - { id: nl-b1-t10-q1, type: mc, question: "Waarover kunnen de ouders praten op het oudercontact?", options: ["Over het rapport en de vooruitgang van hun kind.", "Over de prijs van de schoolreis.", "Over de kerstvoorstelling."], correct: 0 }
+  - { id: nl-b1-t10-q2, type: true_false_notgiven, statement: "De ouders kiezen zelf een uur voor het oudercontact.", answer: true }
+  - { id: nl-b1-t10-q3, type: true_false_notgiven, statement: "De schoolreis naar de Ardennen is voor alle klassen van de school.", answer: false }
+  - { id: nl-b1-t10-q4, type: true_false_notgiven, statement: "De kerstvoorstelling duurt twee uur.", answer: not_given }
+  - { id: nl-b1-t10-q5, type: mc, question: "Wat kunnen ouders doen als ze de schoolreis moeilijk kunnen betalen?", options: ["Contact opnemen met de directie.", "Hun kind thuis laten.", "In januari betalen."], correct: 0 }
+listeningQuestions:
+  - { id: nl-b1-t10-l1, type: mc, question: "Waar is de kerstvoorstelling?", options: ["In de turnzaal.", "In de refter.", "In de klas."], correct: 0 }
+  - { id: nl-b1-t10-l2, type: true_false_notgiven, statement: "De schoolreis naar de Ardennen duurt een week.", answer: false }
+cloze:
+  - { sentence: nl-b1-t10-s04, word: past, kind: finite_verb, hint: { en: "passen (present)" } }
+  - { sentence: nl-b1-t10-s08, word: heeft, kind: finite_verb, hint: { en: "hebben (present)" } }
+  - { sentence: nl-b1-t10-s08, word: betaalt, kind: finite_verb, hint: { en: "betalen (present)" } }
+  - { sentence: nl-b1-t10-s10, word: verwittig, kind: finite_verb, hint: { en: "verwittigen (imperative)" } }
+orderable: false

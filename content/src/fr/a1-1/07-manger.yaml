@@ -1,0 +1,52 @@
+id: fr-a1-1-u07
+title: { nl: Eten en drinken, en: "Eating and drinking" }
+icon: food
+topic: La nourriture
+vocabulary:
+  - { target: la pomme, native: { nl: de appel, en: "apple" }, pos: noun, gender: f }
+  - { target: la banane, native: { nl: de banaan, en: "banana" }, pos: noun, gender: f }
+  - { target: la fraise, native: { nl: de aardbei, en: "strawberry" }, pos: noun, gender: f }
+  - { target: la framboise, native: { nl: de framboos, en: "raspberry" }, pos: noun, gender: f }
+  - { target: le fruit, native: { nl: "het fruit, de vrucht", en: "fruit" }, pos: noun, gender: m, category: true }
+  - { target: le gâteau, native: { nl: de taart, en: "cake" }, pos: noun, gender: m }
+  - { target: le chocolat, native: { nl: de chocola, en: "chocolate" }, pos: noun, gender: m }
+  - { target: le pain, native: { nl: het brood, en: "bread" }, pos: noun, gender: m }
+  - { target: le lait, native: { nl: de melk, en: "milk" }, pos: noun, gender: m }
+  - { target: "l'eau", native: { nl: het water, en: "water" }, pos: noun, gender: f }
+  - { target: le jus, native: { nl: het sap, en: "juice" }, pos: noun, gender: m }
+  - { target: le fromage, native: { nl: de kaas, en: "cheese" }, pos: noun, gender: m }
+  - { target: "l'œuf", native: { nl: het ei, en: "egg" }, pos: noun, gender: m }
+  - { target: la glace, native: { nl: het ijsje, en: "ice cream" }, pos: noun, gender: f }
+  - { target: le bonbon, native: { nl: het snoepje, en: "sweet" }, pos: noun, gender: m }
+  - { target: "l'assiette", native: { nl: het bord, en: "plate" }, pos: noun, gender: f }
+  - { target: manger, native: { nl: eten, en: "to eat" }, pos: verb }
+  - { target: boire, native: { nl: drinken, en: "to drink" }, pos: verb }
+  - { target: avoir faim, native: { nl: honger hebben, en: "to be hungry" }, pos: phrase }
+  - { target: avoir soif, native: { nl: dorst hebben, en: "to be thirsty" }, pos: phrase }
+  - { target: bon, native: { nl: "lekker, goed", en: "good, tasty" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Tu veux une pomme ?", native: { nl: "Wil je een appel?", en: "Would you like an apple?" }, items: [fr.pomme] }
+  - { id: s02, target: "Je mange une banane.", native: { nl: "Ik eet een banaan.", en: "I'm eating a banana." }, items: [fr.banane] }
+  - { id: s03, target: "J'adore les fraises.", native: { nl: "Ik ben gek op aardbeien.", en: "I love strawberries." }, items: [fr.fraise] }
+  - { id: s04, target: "Les framboises sont rouges.", native: { nl: "De frambozen zijn rood.", en: "The raspberries are red." }, items: [fr.framboise] }
+  - { id: s05, target: "C'est un gâteau aux fruits rouges.", native: { nl: "Het is een taart met rood fruit.", en: "It's a cake with red fruit." }, items: [fr.gateau, fr.fruit] }
+  - { id: s06, target: "Je mange un fruit.", native: { nl: "Ik eet een stuk fruit.", en: "I'm eating a piece of fruit." }, items: [fr.fruit, fr.manger] }
+  - { id: s07, target: "Il y a du chocolat ?", native: { nl: "Is er chocola?", en: "Is there any chocolate?" }, items: [fr.chocolat] }
+  - { id: s08, target: "Je n'aime pas le chocolat.", native: { nl: "Ik hou niet van chocola.", en: "I don't like chocolate." }, items: [fr.chocolat] }
+  - { id: s09, target: "Je mange du pain.", native: { nl: "Ik eet brood.", en: "I'm eating bread." }, items: [fr.pain, fr.manger] }
+  - { id: s10, target: "Tu veux boire du lait ?", native: { nl: "Wil je melk drinken?", en: "Do you want to drink some milk?" }, items: [fr.lait, fr.boire] }
+  - { id: s11, target: "Tu veux boire de l'eau ?", native: { nl: "Wil je water drinken?", en: "Do you want to drink some water?" }, items: [fr.eau, fr.boire] }
+  - { id: s12, target: "Je bois un jus de pomme.", native: { nl: "Ik drink appelsap.", en: "I'm drinking apple juice." }, items: [fr.jus, fr.boire] }
+  - { id: s13, target: "Le fromage est bon !", native: { nl: "De kaas is lekker!", en: "The cheese is tasty!" }, items: [fr.fromage, fr.bon] }
+  - { id: s14, target: "Je mange un œuf.", native: { nl: "Ik eet een ei.", en: "I'm eating an egg." }, items: [fr.oeuf, fr.manger] }
+  - { id: s15, target: "Maman, une glace à la fraise, s'il te plaît !", native: { nl: "Mama, een aardbeienijsje, alsjeblieft!", en: "Mum, a strawberry ice cream, please!" }, items: [fr.glace] }
+  - { id: s16, target: "Les bonbons sont roses.", native: { nl: "De snoepjes zijn roze.", en: "The sweets are pink." }, items: [fr.bonbon] }
+  - { id: s17, target: "Finis ton assiette.", native: { nl: "Eet je bord leeg.", en: "Clear your plate." }, items: [fr.assiette] }
+  - { id: s18, target: "J'ai faim !", native: { nl: "Ik heb honger!", en: "I'm hungry!" }, items: [fr.avoir-faim] }
+  - { id: s19, target: "Tu as faim ?", native: { nl: "Heb je honger?", en: "Are you hungry?" }, items: [fr.avoir-faim] }
+  - { id: s20, target: "J'ai soif, maman.", native: { nl: "Ik heb dorst, mama.", en: "I'm thirsty, Mum." }, items: [fr.avoir-soif] }
+  - { id: s21, target: "Il est très bon, ton gâteau !", native: { nl: "Je taart is heel lekker!", en: "Your cake is very tasty!" }, items: [fr.gateau, fr.bon] }
+lessons:
+  - { id: l01, title: { nl: Fruit, en: "Fruit" }, vocab: [fr.pomme, fr.banane, fr.fraise, fr.framboise, fr.fruit, fr.gateau, fr.manger] }
+  - { id: l02, title: { nl: Brood en melk, en: "Bread and milk" }, vocab: [fr.chocolat, fr.pain, fr.lait, fr.eau, fr.jus, fr.fromage, fr.boire] }
+  - { id: l03, title: { nl: Ik heb honger!, en: "I'm hungry!" }, vocab: [fr.oeuf, fr.glace, fr.bonbon, fr.assiette, fr.avoir-faim, fr.avoir-soif, fr.bon] }

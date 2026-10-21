@@ -1,0 +1,52 @@
+id: nl-b2-t11
+kind: reading
+title: { en: Every degree counts }
+topic: Climate and energy (an opinion piece in a newspaper)
+level: B2
+paragraphs:
+  - - { id: nl-b2-t11-s01, target: "Wie vorige zomer in Antwerpen woonde, herinnert zich de hittegolf nog goed.", native: { en: "Anyone who lived in Antwerp last summer still remembers the heatwave well." } }
+    - { id: nl-b2-t11-s02, target: "Twee weken lang werd het elke dag meer dan dertig graden, en in sommige appartementen was het 's nachts nog warmer dan overdag.", native: { en: "For two weeks it was over thirty degrees every day, and in some flats it was even warmer at night than during the day." } }
+    - { id: nl-b2-t11-s03, target: "Een paar maanden later stonden in Wallonië hele straten onder water.", native: { en: "A few months later whole streets in Wallonia were under water." } }
+  - - { id: nl-b2-t11-s04, target: "Extreem weer is geen probleem van ver weg meer.", native: { en: "Extreme weather is no longer a distant problem." } }
+    - { id: nl-b2-t11-s05, target: "Wetenschappers zijn het er al lang over eens dat de opwarming van de aarde door de mens wordt veroorzaakt.", native: { en: "Scientists have long agreed that global warming is caused by humans." } }
+    - { id: nl-b2-t11-s06, target: "Toch gaat het beleid in ons land nog altijd te langzaam.", native: { en: "Yet policy in our country still moves too slowly." } }
+    - { id: nl-b2-t11-s07, target: "De doelstellingen voor 2030 zijn weliswaar ambitieus, maar de maatregelen om ze te halen ontbreken.", native: { en: "The targets for 2030 are admittedly ambitious, but the measures to reach them are missing." } }
+  - - { id: nl-b2-t11-s08, target: "Een veelgehoord argument is dat België te klein is om iets te veranderen.", native: { en: "An argument often heard is that Belgium is too small to change anything." } }
+    - { id: nl-b2-t11-s09, target: "Dat klopt niet.", native: { en: "That is not right." } }
+    - { id: nl-b2-t11-s10, target: "Per inwoner stoten wij meer broeikasgassen uit dan de inwoners van de meeste andere landen in de wereld.", native: { en: "Per inhabitant we emit more greenhouse gases than most countries in the world." } }
+    - { id: nl-b2-t11-s11, target: "Bovendien hebben we de kennis en het geld om het goede voorbeeld te geven.", native: { en: "Moreover, we have the knowledge and the money to set a good example." } }
+  - - { id: nl-b2-t11-s12, target: "Wat moet er dan gebeuren?", native: { en: "What has to happen, then?" } }
+    - { id: nl-b2-t11-s13, target: "Ten eerste moeten we sneller overschakelen op hernieuwbare energie, zoals windturbines op zee en zonnepanelen op elk geschikt dak.", native: { en: "First, we have to switch faster to renewable energy, such as wind turbines at sea and solar panels on every suitable roof." } }
+    - { id: nl-b2-t11-s14, target: "Ten tweede moet de overheid gezinnen helpen om hun huis te isoleren, aangezien veel mensen de kosten niet alleen kunnen dragen.", native: { en: "Second, the government has to help families insulate their homes, since many people cannot carry the costs alone." } }
+    - { id: nl-b2-t11-s15, target: "En ten slotte moeten we onze steden voorbereiden op meer hitte en meer regen, met meer bomen en minder beton.", native: { en: "And finally we have to prepare our cities for more heat and more rain, with more trees and less concrete." } }
+  - - { id: nl-b2-t11-s16, target: "Dat kost geld, zeker.", native: { en: "That costs money, certainly." } }
+    - { id: nl-b2-t11-s17, target: "Niets doen kost echter veel meer: elke overstroming en elke mislukte oogst betalen we immers ook zelf.", native: { en: "Doing nothing, however, costs much more: after all, we also pay for every flood and every failed harvest ourselves." } }
+    - { id: nl-b2-t11-s18, target: "Elke graad opwarming die we vermijden, telt.", native: { en: "Every degree of warming that we avoid counts." } }
+    - { id: nl-b2-t11-s19, target: "Daarom is wachten geen keuze meer.", native: { en: "That is why waiting is no longer an option." } }
+glossary:
+  - { word: herinnert, native: { en: "remembers (zich herinneren)" } }
+  - { word: wetenschappers, native: { en: "scientists (de wetenschapper)" } }
+  - { word: veelgehoord, native: { en: "often heard" } }
+  - { word: overschakelen, native: { en: "to switch (over)" } }
+  - { word: beton, native: { en: concrete } }
+  - { word: mislukte, native: { en: "failed (mislukken)" } }
+items: [nl.hittegolf, nl.extreem, nl.opwarming, nl.aarde, nl.beleid, nl.doelstelling, nl.weliswaar, nl.maatregel, nl.broeikasgas, nl.hernieuwbaar, nl.windturbine, nl.aangezien, nl.overstroming, nl.echter, nl.immers, nl.vermijden]
+gapped:
+  gaps: [nl-b2-t11-s04, nl-b2-t11-s09, nl-b2-t11-s12, nl-b2-t11-s16]
+  extra:
+    - { id: nl-b2-t11-x1, target: "Bovendien is wachten goedkoper.", native: { en: "Moreover, waiting is cheaper." } }
+questions:
+  - { id: nl-b2-t11-q1, type: summary, options: ["De auteur vindt dat België sneller iets moet doen tegen de opwarming van de aarde en geeft drie oplossingen.", "De auteur vindt dat België genoeg doet tegen de opwarming van de aarde en dat er geen nieuwe oplossingen nodig zijn.", "De auteur beschrijft vooral hoe warm het vorige zomer in Antwerpen was."], correct: 0 }
+  - { id: nl-b2-t11-q2, type: mc, question: "Waarom moet de overheid gezinnen helpen bij het isoleren?", options: ["Veel mensen kunnen de kosten niet alleen dragen.", "Gezinnen weten niet hoe isoleren werkt.", "Isoleren is verplicht vanaf 2030."], correct: 0 }
+  - { id: nl-b2-t11-q3, type: true_false_notgiven, statement: "Volgens de auteur zijn de doelstellingen voor 2030 niet ambitieus.", answer: false }
+  - { id: nl-b2-t11-q4, type: true_false_notgiven, statement: "Per inwoner stoten mensen in België meer broeikasgassen uit dan mensen in de meeste andere landen.", answer: true }
+  - { id: nl-b2-t11-q5, type: true_false_notgiven, statement: "De auteur woont zelf in Antwerpen.", answer: not_given }
+  - { id: nl-b2-t11-q6, type: mc, question: "Wat wil de auteur zeggen met 'Niets doen kost echter veel meer'?", options: ["De schade van extreem weer is duurder dan de maatregelen.", "Maatregelen zijn altijd goedkoop.", "We moeten minder geld uitgeven aan het klimaat."], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-t11-l1, type: complete, statement: "Steden hebben meer bomen en minder ___ nodig.", answers: [beton] }
+  - { id: nl-b2-t11-l2, type: mc, question: "Hoe lang duurde de hittegolf in Antwerpen?", options: ["Twee weken.", "Een paar maanden.", "Drie dagen."], correct: 0 }
+wordForm:
+  - { sentence: nl-b2-t11-s11, word: kennis, stem: kennen }
+  - { sentence: nl-b2-t11-s17, word: overstroming, stem: overstromen }
+  - { sentence: nl-b2-t11-s05, word: Wetenschappers, stem: wetenschap }
+orderable: false

@@ -1,0 +1,59 @@
+id: en-pre-a1-u18
+title: { nl: "Waar is het?" }
+icon: places
+topic: Places and directions (prepositions); grammar (determiners)
+vocabulary:
+  - { target: where, native: { nl: waar }, pos: question }
+  - { target: in, native: { nl: in }, pos: preposition }
+  - { target: "on", native: { nl: op }, pos: preposition }
+  - { target: under, native: { nl: onder }, pos: preposition }
+  - { target: behind, native: { nl: achter }, pos: preposition }
+  - { target: next to, native: { nl: naast }, pos: preposition }
+  - { target: in front of, native: { nl: vóór }, pos: preposition }
+  - { target: between, native: { nl: tussen }, pos: preposition }
+  - { target: here, native: { nl: hier }, pos: adverb }
+  - { target: there, native: { nl: daar }, pos: adverb }
+  - { target: at, native: { nl: "bij, op" }, pos: preposition }
+  - { target: from, native: { nl: "van, uit" }, pos: preposition }
+  - { target: to, native: { nl: naar }, pos: preposition }
+  - { target: with, native: { nl: met }, pos: preposition }
+  - { target: for, native: { nl: voor }, pos: preposition, avoid: [en.in-front-of] }
+  - { target: of, native: { nl: van }, pos: preposition }
+  - { target: about, native: { nl: over }, pos: preposition }
+  - { target: this, native: { nl: "dit, deze" }, pos: determiner }
+  - { target: that, native: { nl: "dat, die" }, pos: determiner }
+  - { target: these, native: { nl: "deze (meer dingen)" }, pos: determiner, avoid: [en.this] }
+  - { target: those, native: { nl: "die (meer dingen)" }, pos: determiner, avoid: [en.that] }
+  - { target: a lot of, native: { nl: veel }, pos: determiner }
+  - { target: lots of, native: { nl: veel }, pos: determiner }
+  - { target: many, native: { nl: veel }, pos: determiner }
+sentences:
+  - { id: s01, target: "Where is my cat?", native: { nl: "Waar is mijn kat?" }, items: [en.where, en.cat] }
+  - { id: s02, target: "The cat is in the box.", native: { nl: "De kat zit in de doos." }, items: [en.in, en.cat, en.box] }
+  - { id: s03, target: "The book is on the table.", native: { nl: "Het boek ligt op de tafel." }, items: [en.on, en.book, en.table] }
+  - { id: s04, target: "The ball is under the chair.", native: { nl: "De bal ligt onder de stoel." }, items: [en.under, en.ball, en.chair] }
+  - { id: s05, target: "The dog is behind the door.", native: { nl: "De hond staat achter de deur." }, items: [en.behind, en.dog, en.door] }
+  - { id: s06, target: "Sit next to me.", native: { nl: "Ga naast mij zitten." }, items: [en.next-to, en.sit] }
+  - { id: s07, target: "The car is in front of the house.", native: { nl: "De auto staat voor het huis." }, items: [en.in-front-of, en.car, en.house] }
+  - { id: s08, target: "The cat is between the two dogs.", native: { nl: "De kat zit tussen de twee honden." }, items: [en.between, en.two] }
+  - { id: s09, target: "The lamp is between the bed and the window.", native: { nl: "De lamp staat tussen het bed en het raam." }, items: [en.between, en.lamp] }
+  - { id: s10, target: "Come here!", native: { nl: "Kom hier!" }, items: [en.here, en.come] }
+  - { id: s11, target: "Your bag is there.", native: { nl: "Je tas staat daar." }, items: [en.there, en.bag] }
+  - { id: s12, target: "Tom is at home.", native: { nl: "Tom is thuis." }, items: [en.at, en.home] }
+  - { id: s13, target: "This cake is from Grandma.", native: { nl: "Deze taart is van oma." }, items: [en.from, en.cake] }
+  - { id: s14, target: "Let's go to the park.", native: { nl: "Laten we naar het park gaan." }, items: [en.to, en.go, en.park] }
+  - { id: s15, target: "I play with my sister.", native: { nl: "Ik speel met mijn zus." }, items: [en.with, en.sister] }
+  - { id: s16, target: "This is for you.", native: { nl: "Dit is voor jou." }, items: [en.for, en.you] }
+  - { id: s17, target: "This is a picture of my family.", native: { nl: "Dit is een foto van mijn gezin." }, items: [en.of, en.picture, en.family] }
+  - { id: s18, target: "This is a story about a monkey.", native: { nl: "Dit is een verhaal over een aap." }, items: [en.about, en.story, en.monkey] }
+  - { id: s19, target: "This is my bike.", native: { nl: "Dit is mijn fiets." }, items: [en.this, en.bike] }
+  - { id: s20, target: "That is my teacher.", native: { nl: "Dat is mijn juf." }, items: [en.that, en.teacher] }
+  - { id: s21, target: "These shoes are new.", native: { nl: "Deze schoenen zijn nieuw." }, items: [en.these, en.shoe, en.new] }
+  - { id: s22, target: "Those birds are beautiful.", native: { nl: "Die vogels zijn mooi." }, items: [en.those, en.bird, en.beautiful] }
+  - { id: s23, target: "There are a lot of fish in the sea.", native: { nl: "Er zwemmen veel vissen in de zee." }, items: [en.a-lot-of, en.fish, en.sea] }
+  - { id: s24, target: "I've got lots of friends.", native: { nl: "Ik heb veel vrienden." }, items: [en.lots-of, en.friend], acceptAlso: ["I have got lots of friends."] }
+  - { id: s25, target: "Have you got many friends?", native: { nl: "Heb jij veel vrienden?" }, items: [en.many, en.friend] }
+lessons:
+  - { id: l01, title: { nl: "Waar?" }, vocab: [en.where, en.in, en.on, en.under, en.behind, en.next-to, en.in-front-of, en.between] }
+  - { id: l02, title: { nl: Hier en daar }, vocab: [en.here, en.there, en.at, en.from, en.to, en.with, en.for, en.of] }
+  - { id: l03, title: { nl: "Dit, dat en veel" }, vocab: [en.about, en.this, en.that, en.these, en.those, en.a-lot-of, en.lots-of, en.many] }

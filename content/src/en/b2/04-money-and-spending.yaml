@@ -1,0 +1,73 @@
+id: en-b2-u04
+title: { nl: Geld en uitgaven }
+icon: money
+topic: Budgets, saving and debt, shopping and advertising, wealth and poverty; wishes and regrets (I wish / if only + past simple and past perfect)
+vocabulary:
+  - { target: budget, native: { nl: budget }, pos: noun, noBlank: true }
+  - { target: affordable, native: { nl: betaalbaar }, pos: adjective }
+  - { target: expense, native: { nl: "uitgave, kosten" }, pos: noun, avoid: [en.spending] }
+  - { target: debt, native: { nl: schuld }, pos: noun }
+  - { target: savings, native: { nl: spaargeld }, pos: noun }
+  - { target: save up, native: { nl: "sparen (voor iets)" }, pos: phrase }
+  - { target: consumer, native: { nl: consument }, pos: noun }
+  - { target: purchase, native: { nl: aankoop }, pos: noun }
+  - { target: impulse, native: { nl: impuls }, pos: noun, noBlank: true }
+  - { target: advertising, native: { nl: "reclame (het maken van reclame)" }, pos: noun, avoid: [en.advertisement] }
+  - { target: brand, native: { nl: merk }, pos: noun }
+  - { target: contactless, native: { nl: "contactloos" }, pos: adjective }
+  - { target: payment, native: { nl: betaling }, pos: noun }
+  - { target: allowance, native: { nl: "toelage, zakgeld" }, pos: noun, avoid: [en.pocket-money] }
+  - { target: cost of living, native: { nl: "kosten van levensonderhoud" }, pos: noun }
+  - { target: necessity, native: { nl: "noodzaak, iets wat je echt nodig hebt" }, pos: noun, avoid: [en.luxury] }
+  - { target: splash out, native: { nl: "veel geld uitgeven (aan iets leuks)" }, pos: phrase }
+  - { target: get by, native: { nl: "rondkomen" }, pos: phrase }
+  - { target: run out of, native: { nl: "zonder komen te zitten, opraken" }, pos: phrase }
+  - { target: pay back, native: { nl: "terugbetalen" }, pos: phrase }
+  - { target: wealthy, native: { nl: "rijk, welgesteld" }, pos: adjective, avoid: [en.rich] }
+  - { target: wealth, native: { nl: rijkdom }, pos: noun }
+  - { target: poverty, native: { nl: armoede }, pos: noun }
+  - { target: invest, native: { nl: investeren }, pos: verb }
+  - { target: investment, native: { nl: investering }, pos: noun }
+  - { target: profit, native: { nl: winst }, pos: noun }
+  - { target: spending, native: { nl: "uitgaven, het uitgeven" }, pos: noun, avoid: [en.expense] }
+  - { target: subscription, native: { nl: abonnement }, pos: noun }
+  - { target: temptation, native: { nl: verleiding }, pos: noun }
+  - { target: survey, native: { nl: "enquête, onderzoek" }, pos: noun }
+sentences:
+  - { id: s01, target: "We have a monthly budget for food and clothes.", native: { nl: "We hebben een maandelijks budget voor eten en kleren." }, items: [en.budget] }
+  - { id: s02, target: "It is hard for young people to find an affordable flat in the city.", native: { nl: "Het is moeilijk voor jongeren om een betaalbaar appartement in de stad te vinden." }, items: [en.affordable], form: { word: affordable, stem: afford } }
+  - { id: s03, target: "Rent is the biggest expense for most students.", native: { nl: "Huur is voor de meeste studenten de grootste uitgave." }, items: [en.expense], acceptAlso: ["For most students, rent is the biggest expense."] }
+  - { id: s04, target: "He is still in debt because of his student loan.", native: { nl: "Hij heeft nog schulden door zijn studielening." }, items: [en.debt] }
+  - { id: s05, target: "She used all her savings to buy a car.", native: { nl: "Ze gebruikte al haar spaargeld om een auto te kopen." }, items: [en.savings] }
+  - { id: s06, target: "I'm saving up for a new laptop.", native: { nl: "Ik spaar voor een nieuwe laptop." }, items: [en.save-up] }
+  - { id: s07, target: "Consumers can return most products within fourteen days.", native: { nl: "Consumenten kunnen de meeste producten binnen veertien dagen terugbrengen." }, items: [en.consumer] }
+  - { id: s08, target: "Keep the receipt in case you want to return your purchase.", native: { nl: "Bewaar het bonnetje voor het geval je je aankoop wilt terugbrengen." }, items: [en.purchase] }
+  - { id: s09, target: "I bought these trainers on impulse and now I regret it.", native: { nl: "Ik kocht deze sportschoenen in een opwelling en nu heb ik er spijt van." }, items: [en.impulse] }
+  - { id: s10, target: "Advertising aimed at children should be limited.", native: { nl: "Reclame die op kinderen gericht is, moet beperkt worden." }, items: [en.advertising] }
+  - { id: s11, target: "Do you always buy the same brand of jeans?", native: { nl: "Koop je altijd hetzelfde merk jeans?" }, items: [en.brand] }
+  - { id: s12, target: "Contactless payments have made it very easy to spend money.", native: { nl: "Contactloze betalingen hebben het heel makkelijk gemaakt om geld uit te geven." }, items: [en.contactless, en.payment], form: { word: payments, stem: pay } }
+  - { id: s13, target: "Her parents give her a small allowance every month.", native: { nl: "Haar ouders geven haar elke maand wat zakgeld." }, items: [en.allowance], acceptAlso: ["Every month her parents give her a small allowance."] }
+  - { id: s14, target: "The cost of living has risen sharply this year.", native: { nl: "De kosten van levensonderhoud zijn dit jaar sterk gestegen." }, items: [en.cost-of-living] }
+  - { id: s15, target: "For many families a car is a necessity, not a luxury.", native: { nl: "Voor veel gezinnen is een auto een noodzaak, geen luxe." }, items: [en.necessity] }
+  - { id: s16, target: "For her birthday we splashed out on a meal in a fancy restaurant.", native: { nl: "Voor haar verjaardag gaven we veel geld uit aan een etentje in een chic restaurant." }, items: [en.splash-out] }
+  - { id: s17, target: "Students often get by on very little money.", native: { nl: "Studenten komen vaak rond met heel weinig geld." }, items: [en.get-by] }
+  - { id: s18, target: "We ran out of money before the end of the holiday.", native: { nl: "Ons geld was op voor het einde van de vakantie." }, items: [en.run-out-of] }
+  - { id: s19, target: "I'll pay you back as soon as I get paid.", native: { nl: "Ik betaal je terug zodra ik mijn loon krijg." }, items: [en.pay-back] }
+  - { id: s20, target: "Only wealthy people can afford a house in that area.", native: { nl: "Alleen rijke mensen kunnen een huis in die buurt betalen." }, items: [en.wealthy] }
+  - { id: s21, target: "Wealth doesn't always make people happy.", native: { nl: "Rijkdom maakt mensen niet altijd gelukkig." }, items: [en.wealth] }
+  - { id: s22, target: "Millions of children around the world live in poverty.", native: { nl: "Miljoenen kinderen over de hele wereld leven in armoede." }, items: [en.poverty] }
+  - { id: s23, target: "My aunt invested her money in a small company.", native: { nl: "Mijn tante investeerde haar geld in een klein bedrijf." }, items: [en.invest] }
+  - { id: s24, target: "A good education is the best investment you can make.", native: { nl: "Een goede opleiding is de beste investering die je kunt doen." }, items: [en.investment], form: { word: investment, stem: invest } }
+  - { id: s25, target: "The shop made a profit for the first time last year.", native: { nl: "De winkel maakte vorig jaar voor het eerst winst." }, items: [en.profit] }
+  - { id: s26, target: "Teenagers' spending on games has doubled in five years.", native: { nl: "De uitgaven van tieners aan games zijn in vijf jaar verdubbeld." }, items: [en.spending] }
+  - { id: s27, target: "I cancelled my music subscription because I hardly used it.", native: { nl: "Ik zegde mijn muziekabonnement op omdat ik het bijna nooit gebruikte." }, items: [en.subscription] }
+  - { id: s28, target: "Sales are a big temptation for people who love shopping.", native: { nl: "Uitverkoop is een grote verleiding voor mensen die graag winkelen." }, items: [en.temptation] }
+  - { id: s29, target: "According to a survey, most teenagers save part of their money.", native: { nl: "Volgens een enquête sparen de meeste tieners een deel van hun geld." }, items: [en.survey] }
+  - { id: s30, target: "I wish I had more savings.", native: { nl: "Ik wou dat ik meer spaargeld had." }, items: [en.savings], build: true }
+  - { id: s31, target: "If only I hadn't spent all my money on clothes!", native: { nl: "Had ik maar niet al mijn geld aan kleren uitgegeven!" }, items: [en.spending], build: true }
+  - { id: s32, target: "She wishes she had saved up before buying a car.", native: { nl: "Ze wou dat ze gespaard had voordat ze een auto kocht." }, items: [en.save-up], finite: { word: wishes, hint: { nl: "wish (tegenwoordige tijd)" } } }
+transforms:
+  - { id: x01, from: "I'm sorry that I didn't keep the receipt.", key: wish, gapped: "I ___ the receipt.", answers: ["wish I had kept", "wish I'd kept"], items: [en.purchase] }
+  - { id: x02, from: "We have no money left.", key: run, gapped: "We have ___ money.", answers: ["run out of"], items: [en.run-out-of] }
+  - { id: x03, from: "It is a pity that the flats aren't cheaper.", key: only, gapped: "If ___ cheaper.", answers: ["only the flats were", "only the flats were a bit", "only the flats were a little"], items: [en.affordable] }
+texts: [en-b2-t04]

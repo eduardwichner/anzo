@@ -1,0 +1,56 @@
+id: en-pre-a1-u08
+title: { nl: Eten en drinken }
+icon: food
+topic: Food and drink
+vocabulary:
+  - { target: breakfast, native: { nl: ontbijt }, pos: noun }
+  - { target: bread, native: { nl: brood }, pos: noun }
+  - { target: egg, native: { nl: ei }, pos: noun }
+  - { target: milk, native: { nl: melk }, pos: noun }
+  - { target: juice, native: { nl: sap }, pos: noun }
+  - { target: water, native: { nl: water }, pos: noun }
+  - { target: drink, native: { nl: "drinken, drankje" }, pos: verb }
+  - { target: lunch, native: { nl: lunch }, pos: noun }
+  - { target: dinner, native: { nl: avondeten }, pos: noun }
+  - { target: meat, native: { nl: vlees }, pos: noun }
+  - { target: meatballs, native: { nl: gehaktballen }, pos: noun }
+  - { target: rice, native: { nl: rijst }, pos: noun }
+  - { target: sausage, native: { nl: worst }, pos: noun }
+  - { target: burger, native: { nl: hamburger }, pos: noun }
+  - { target: chips, native: { nl: "patat, friet" }, pos: noun }
+  - { target: cake, native: { nl: "taart, cake" }, pos: noun }
+  - { target: pie, native: { nl: "taart, pastei" }, pos: noun }
+  - { target: chocolate, native: { nl: chocolade }, pos: noun }
+  - { target: ice cream, native: { nl: ijs }, pos: noun }
+  - { target: sweets, native: { nl: snoep }, pos: noun }
+  - { target: lemonade, native: { nl: limonade }, pos: noun }
+sentences:
+  - { id: s01, target: "I eat bread for breakfast.", native: { nl: "Ik eet brood bij het ontbijt." }, items: [en.bread, en.breakfast, en.eat] }
+  - { id: s02, target: "Let's have breakfast!", native: { nl: "Laten we gaan ontbijten!" }, items: [en.breakfast] }
+  - { id: s03, target: "I'm eating an egg.", native: { nl: "Ik eet een ei." }, items: [en.egg], acceptAlso: ["I am eating an egg."] }
+  - { id: s04, target: "Can I have some milk, please?", native: { nl: "Mag ik wat melk, alsjeblieft?" }, items: [en.milk, en.some, en.please] }
+  - { id: s05, target: "I like orange juice.", native: { nl: "Ik vind sinaasappelsap lekker." }, items: [en.juice, en.like] }
+  - { id: s06, target: "Drink your water!", native: { nl: "Drink je water op!" }, items: [en.drink, en.water] }
+  - { id: s07, target: "What would you like to drink?", native: { nl: "Wat wil je drinken?" }, items: [en.drink] }
+  - { id: s08, target: "I'm drinking milk.", native: { nl: "Ik drink melk." }, items: [en.drink, en.milk], acceptAlso: ["I am drinking milk."] }
+  - { id: s09, target: "We have lunch at school.", native: { nl: "Wij lunchen op school." }, items: [en.lunch] }
+  - { id: s10, target: "What's for dinner?", native: { nl: "Wat eten we vanavond?" }, items: [en.dinner], acceptAlso: ["What is for dinner?"] }
+  - { id: s11, target: "I don't eat meat.", native: { nl: "Ik eet geen vlees." }, items: [en.meat, en.eat], acceptAlso: ["I do not eat meat."] }
+  - { id: s12, target: "Grandma makes great meatballs.", native: { nl: "Oma maakt geweldige gehaktballen." }, items: [en.meatballs, en.grandma, en.great] }
+  - { id: s13, target: "Rice is white.", native: { nl: "Rijst is wit." }, items: [en.rice, en.white] }
+  - { id: s14, target: "We eat rice and meatballs for dinner.", native: { nl: "Wij eten rijst met gehaktballen als avondeten." }, items: [en.rice, en.meatballs, en.dinner] }
+  - { id: s15, target: "The dog wants my sausage!", native: { nl: "De hond wil mijn worst!" }, items: [en.sausage, en.dog, en.want] }
+  - { id: s16, target: "I'd like a burger, please.", native: { nl: "Ik wil graag een hamburger, alsjeblieft." }, items: [en.burger, en.would-like, en.please], acceptAlso: ["I would like a burger, please."] }
+  - { id: s17, target: "I like burgers and chips.", native: { nl: "Ik vind hamburgers en patat lekker." }, items: [en.burger, en.chips, en.like], acceptAlso: ["I like chips and burgers."] }
+  - { id: s18, target: "Dad is eating chips.", native: { nl: "Papa eet patat." }, items: [en.chips, en.dad] }
+  - { id: s19, target: "This chocolate cake is fantastic!", native: { nl: "Deze chocoladetaart is fantastisch!" }, items: [en.chocolate, en.cake, en.fantastic] }
+  - { id: s20, target: "It's my birthday cake.", native: { nl: "Het is mijn verjaardagstaart." }, items: [en.cake], acceptAlso: ["It is my birthday cake."] }
+  - { id: s21, target: "Do you like apple pie?", native: { nl: "Vind jij appeltaart lekker?" }, items: [en.pie, en.apple, en.like] }
+  - { id: s22, target: "Can I have some sweets?", native: { nl: "Mag ik wat snoep?" }, items: [en.sweets, en.some] }
+  - { id: s23, target: "I love ice cream!", native: { nl: "Ik hou van ijs!" }, items: [en.ice-cream, en.love] }
+  - { id: s24, target: "Would you like some lemonade?", native: { nl: "Wil je wat limonade?" }, items: [en.lemonade, en.some] }
+  - { id: s25, target: "Chocolate is brown.", native: { nl: "Chocolade is bruin." }, items: [en.chocolate, en.brown] }
+lessons:
+  - { id: l01, title: { nl: Ontbijt }, vocab: [en.breakfast, en.bread, en.egg, en.milk, en.juice, en.water, en.drink] }
+  - { id: l02, title: { nl: Lunch en avondeten }, vocab: [en.lunch, en.dinner, en.meat, en.meatballs, en.rice, en.sausage, en.burger] }
+  - { id: l03, title: { nl: Lekkers }, vocab: [en.chips, en.cake, en.pie, en.chocolate, en.ice-cream, en.sweets, en.lemonade] }

@@ -1,0 +1,51 @@
+id: en-a1-u01
+title: { nl: Meer dieren }
+icon: animals
+topic: Animals
+vocabulary:
+  - { target: kitten, native: { nl: "kitten, poesje" }, pos: noun }
+  - { target: puppy, native: { nl: puppy }, pos: noun }
+  - { target: rabbit, native: { nl: konijn }, pos: noun }
+  - { target: parrot, native: { nl: papegaai }, pos: noun }
+  - { target: cage, native: { nl: kooi }, pos: noun }
+  - { target: feed, native: { nl: "voeren, eten geven" }, pos: verb }
+  - { id: en.dolphin, target: dolphin, native: { nl: dolfijn }, pos: noun }
+  - { target: shark, native: { nl: haai }, pos: noun }
+  - { target: whale, native: { nl: walvis }, pos: noun }
+  - { target: snail, native: { nl: slak }, pos: noun }
+  - { id: en.fly-insect, target: fly, native: { nl: vlieg }, pos: noun }
+  - { id: en.bat-animal, target: bat, native: { nl: vleermuis }, pos: noun }
+  - { target: lion, native: { nl: leeuw }, pos: noun }
+  - { target: panda, native: { nl: panda }, pos: noun }
+  - { target: penguin, native: { nl: pinguïn }, pos: noun }
+  - { target: kangaroo, native: { nl: kangoeroe }, pos: noun }
+  - { target: climb, native: { nl: klimmen }, pos: verb }
+  - { target: hop, native: { nl: "hinkelen, hoppelen" }, pos: verb }
+sentences:
+  - { id: s01, target: "Our kitten is very small.", native: { nl: "Ons kitten is heel klein." }, items: [en.kitten] }
+  - { id: s02, target: "The puppy wants to play.", native: { nl: "De puppy wil spelen." }, items: [en.puppy] }
+  - { id: s03, target: "My rabbit lives in the garden.", native: { nl: "Mijn konijn woont in de tuin." }, items: [en.rabbit] }
+  - { id: s04, target: "The parrot can say hello!", native: { nl: "De papegaai kan hallo zeggen!" }, items: [en.parrot] }
+  - { id: s05, target: "The bird is in a cage.", native: { nl: "De vogel zit in een kooi." }, items: [en.cage] }
+  - { id: s06, target: "Did you feed the cat?", native: { nl: "Heb jij de kat eten gegeven?" }, items: [en.feed] }
+  - { id: s07, target: "I fed the rabbit yesterday.", native: { nl: "Ik heb gisteren het konijn eten gegeven." }, items: [en.feed, en.rabbit], acceptAlso: ["Yesterday I fed the rabbit."] }
+  - { id: s08, target: "Dolphins are very clever.", native: { nl: "Dolfijnen zijn heel slim." }, items: [en.dolphin] }
+  - { id: s09, target: "Sharks have got big teeth.", native: { nl: "Haaien hebben grote tanden." }, items: [en.shark] }
+  - { id: s10, target: "A whale is bigger than a shark.", native: { nl: "Een walvis is groter dan een haai." }, items: [en.whale, en.shark] }
+  - { id: s11, target: "The snail is very slow.", native: { nl: "De slak is heel langzaam." }, items: [en.snail] }
+  - { id: s12, target: "There's a fly on my sandwich!", native: { nl: "Er zit een vlieg op mijn boterham!" }, items: [en.fly-insect], acceptAlso: ["There is a fly on my sandwich!"] }
+  - { id: s13, target: "Bats sleep in the day.", native: { nl: "Vleermuizen slapen overdag." }, items: [en.bat-animal] }
+  - { id: s14, target: "A bat can fly at night.", native: { nl: "Een vleermuis kan 's nachts vliegen." }, items: [en.bat-animal] }
+  - { id: s15, target: "The lion is sleeping under a tree.", native: { nl: "De leeuw slaapt onder een boom." }, items: [en.lion] }
+  - { id: s16, target: "Pandas are black and white.", native: { nl: "Panda's zijn zwart-wit." }, items: [en.panda] }
+  - { id: s17, target: "Penguins can't fly but they can swim.", native: { nl: "Pinguïns kunnen niet vliegen, maar wel zwemmen." }, items: [en.penguin], acceptAlso: ["Penguins cannot fly but they can swim."] }
+  - { id: s18, target: "The kangaroo has got a baby.", native: { nl: "De kangoeroe heeft een jong." }, items: [en.kangaroo] }
+  - { id: s19, target: "Monkeys climb trees.", native: { nl: "Apen klimmen in bomen." }, items: [en.climb] }
+  - { id: s20, target: "Can you hop on one leg?", native: { nl: "Kun jij op één been hinkelen?" }, items: [en.hop] }
+  - { id: s21, target: "The kitten climbed up the tree.", native: { nl: "Het kitten klom in de boom." }, items: [en.climb, en.kitten] }
+  - { id: s22, target: "Rabbits hop in the grass.", native: { nl: "Konijnen hoppelen in het gras." }, items: [en.hop, en.rabbit] }
+  - { id: s23, target: "The penguin is eating a fish.", native: { nl: "De pinguïn eet een vis." }, items: [en.penguin] }
+lessons:
+  - { id: l01, title: { nl: Huisdieren }, vocab: [en.kitten, en.puppy, en.rabbit, en.parrot, en.cage, en.feed] }
+  - { id: l02, title: { nl: "Zee, lucht en tuin" }, vocab: [en.dolphin, en.shark, en.whale, en.snail, en.fly-insect, en.bat-animal] }
+  - { id: l03, title: { nl: In de dierentuin }, vocab: [en.lion, en.panda, en.penguin, en.kangaroo, en.climb, en.hop] }

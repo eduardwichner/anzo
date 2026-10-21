@@ -1,0 +1,47 @@
+id: nl-b2-t01
+kind: reading
+title: { en: Starting again in an unknown city }
+topic: A new chapter (a city magazine article about moving)
+level: B2
+paragraphs:
+  - - { id: nl-b2-t01-s01, target: "Elk jaar verhuizen heel wat mensen naar een stad waar ze niemand kennen.", native: { en: "Every year quite a lot of people move to a city where they don't know anyone." } }
+    - { id: nl-b2-t01-s02, target: "Sommigen doen het voor hun werk, anderen voor de liefde of gewoon omdat ze nieuwsgierig zijn.", native: { en: "Some do it for their work, others for love or simply because they are curious." } }
+    - { id: nl-b2-t01-s03, target: "Wat betekent zo'n stap eigenlijk, en hoe bouw je in een nieuwe omgeving een leven op?", native: { en: "What does such a step actually mean, and how do you build a life in new surroundings?" } }
+  - - { id: nl-b2-t01-s04, target: "Sarah Peeters verhuisde drie jaar geleden van Hasselt naar Gent.", native: { en: "Sarah Peeters moved from Hasselt to Ghent three years ago." } }
+    - { id: nl-b2-t01-s05, target: "'Ik had die stap al veel eerder willen zetten, maar ik heb lang geaarzeld,' vertelt ze.", native: { en: "'I would have liked to take that step much earlier, but I hesitated for a long time,' she says." } }
+    - { id: nl-b2-t01-s06, target: "'Ik was onzeker: zou ik er wel vrienden kunnen maken?'", native: { en: "'I was unsure: would I be able to make friends there?'" } }
+  - - { id: nl-b2-t01-s07, target: "De eerste maanden waren moeilijk.", native: { en: "The first months were difficult." } }
+    - { id: nl-b2-t01-s08, target: "Overdag had ze het druk met haar nieuwe job, maar 's avonds had ze soms last van eenzaamheid.", native: { en: "During the day she was busy with her new job, but in the evening she sometimes suffered from loneliness." } }
+    - { id: nl-b2-t01-s09, target: "'In het begin heb ik vaak overwogen om terug te keren,' zegt ze.", native: { en: "'In the beginning I often considered going back,' she says." } }
+  - - { id: nl-b2-t01-s10, target: "Volgens psychologen is dat heel normaal.", native: { en: "According to psychologists that is perfectly normal." } }
+    - { id: nl-b2-t01-s11, target: "Wie zich in een nieuwe stad vestigt, verliest tegelijkertijd een vertrouwde omgeving: de buren, de bakker, de vrienden om de hoek.", native: { en: "Anyone who settles in a new city loses familiar surroundings at the same time: the neighbours, the baker, the friends round the corner." } }
+    - { id: nl-b2-t01-s12, target: "Dat gemis voel je pas als dat alles er niet meer is.", native: { en: "You only feel that loss once all of that is gone." } }
+    - { id: nl-b2-t01-s13, target: "Het helpt om bewust tijd te maken voor nieuwe contacten, ook als dat aanvankelijk wat moeite kost.", native: { en: "It helps to make time for new contacts deliberately, even if that takes some effort at first." } }
+  - - { id: nl-b2-t01-s14, target: "Sarah werd lid van een loopclub en volgde een cursus Frans.", native: { en: "Sarah joined a running club and took a French course." } }
+    - { id: nl-b2-t01-s15, target: "'Daar heb ik mensen leren kennen die inmiddels goede vrienden zijn,' vertelt ze.", native: { en: "'There I got to know people who are good friends by now,' she says." } }
+    - { id: nl-b2-t01-s16, target: "Ineens voelde de stad niet meer zo groot aan.", native: { en: "All at once the city didn't feel so big any more." } }
+  - - { id: nl-b2-t01-s17, target: "Heeft ze achteraf spijt van haar besluit?", native: { en: "In hindsight, does she regret her decision?" } }
+    - { id: nl-b2-t01-s18, target: "'Nee, helemaal niet. Ik heb veel moeten achterlaten, maar ik heb er een nieuw leven voor teruggekregen.'", native: { en: "'No, not at all. I had to leave a lot behind, but I got a new life in return.'" } }
+    - { id: nl-b2-t01-s19, target: "Ze lacht: 'En volgens mijn ouders heb ik inmiddels een Gents accent.'", native: { en: "She laughs: 'And according to my parents I have a Ghent accent by now.'" } }
+glossary:
+  - { word: Gents, native: { en: "from Ghent (Ghent accent)" } }
+  - { word: loopclub, native: { en: running club } }
+items: [nl.stap, nl.omgeving, nl.onzeker, nl.aarzelen, nl.overwegen, nl.zich-vestigen, nl.tegelijkertijd, nl.vertrouwd, nl.gemis, nl.bewust, nl.aanvankelijk, nl.inmiddels, nl.ineens, nl.achteraf, nl.spijt, nl.besluit, nl.accent, nl.nieuwsgierig]
+gapped:
+  gaps: [nl-b2-t01-s06, nl-b2-t01-s12, nl-b2-t01-s16]
+  extra:
+    - { id: nl-b2-t01-x1, target: "Daarom besloot ze na een maand terug naar Hasselt te gaan.", native: { en: "That is why she decided to move back to Hasselt after a month." } }
+questions:
+  - { id: nl-b2-t01-q1, type: summary, options: ["Een vrouw vertelt hoe ze na een moeilijk begin een nieuw leven in een andere stad heeft opgebouwd.", "Een vrouw vertelt hoe ze na een moeilijk begin terug naar haar oude stad is verhuisd, omdat ze er geen vrienden vond.", "Psychologen raden mensen aan om niet naar een stad te verhuizen waar ze niemand kennen."], correct: 0 }
+  - { id: nl-b2-t01-q2, type: mc, question: "Waarom heeft Sarah lang geaarzeld?", options: ["Ze wist niet of ze vrienden zou kunnen maken.", "Ze had nog geen job in Gent.", "Haar ouders wilden niet dat ze verhuisde."], correct: 0 }
+  - { id: nl-b2-t01-q3, type: true_false_notgiven, statement: "Sarah voelde zich vooral overdag eenzaam.", answer: false }
+  - { id: nl-b2-t01-q4, type: true_false_notgiven, statement: "Sarah woont nu samen met iemand van de loopclub.", answer: not_given }
+  - { id: nl-b2-t01-q5, type: match_heading, paragraph: 4, options: ["Wat psychologen erover zeggen", "Nieuwe vrienden", "Een moeilijk begin"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-t01-l1, type: complete, statement: "Sarah verhuisde drie jaar geleden van Hasselt naar ___.", answers: [Gent] }
+  - { id: nl-b2-t01-l2, type: true_false_notgiven, statement: "Sarah volgde een cursus Engels.", answer: false }
+wordForm:
+  - { sentence: nl-b2-t01-s08, word: eenzaamheid, stem: eenzaam }
+  - { sentence: nl-b2-t01-s11, word: vertrouwde, stem: vertrouwen }
+  - { sentence: nl-b2-t01-s17, word: besluit, stem: besluiten }
+orderable: false

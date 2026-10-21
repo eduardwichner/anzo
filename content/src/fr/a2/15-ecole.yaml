@@ -1,0 +1,49 @@
+id: fr-a2-u15
+title: { nl: School en leren, en: "School and learning" }
+icon: school
+topic: L'école; apprendre
+vocabulary:
+  - { target: le directeur, native: { nl: de directeur, en: "head teacher" }, pos: noun, gender: m }
+  - { target: le maître, native: { nl: de meester, en: "primary school teacher, teacher (male)" }, pos: noun, gender: m, avoid: [fr.professeur] }
+  - { target: le camarade, native: { nl: de klasgenoot, en: "classmate" }, pos: noun, gender: m }
+  - { target: la rentrée, native: { nl: de eerste schooldag (na de zomer), en: "back to school (after the summer)" }, pos: noun, gender: f }
+  - { target: "l'emploi du temps", native: { nl: het rooster, en: "timetable" }, pos: noun, gender: m }
+  - { target: "l'art", native: { nl: de kunst, en: "art" }, pos: noun, gender: m }
+  - { target: "l'examen", native: { nl: "het examen, de toets", en: "exam, test" }, pos: noun, gender: m }
+  - { target: "l'erreur", native: { nl: de fout, en: "mistake" }, pos: noun, gender: f }
+  - { target: se tromper, native: { nl: zich vergissen, en: "to make a mistake, to be wrong" }, pos: verb }
+  - { target: réviser, native: { nl: "herhalen (voor een toets), leren", en: "to revise (for a test)" }, pos: verb, avoid: [fr.repeter, fr.etudier] }
+  - { target: corriger, native: { nl: "verbeteren, nakijken", en: "to correct, to mark" }, pos: verb }
+  - { target: épeler, native: { nl: spellen, en: "to spell" }, pos: verb }
+  - { target: le cartable, native: { nl: de schooltas, en: "school bag" }, pos: noun, gender: m, avoid: [fr.sac-a-dos, fr.sac] }
+  - { target: le matériel, native: { nl: "de spullen, het materiaal", en: "equipment, materials" }, pos: noun, gender: m }
+  - { target: étudier, native: { nl: "studeren, bestuderen", en: "to study" }, pos: verb }
+  - { target: expliquer, native: { nl: uitleggen, en: "to explain" }, pos: verb }
+  - { target: facile, native: { nl: makkelijk, en: "easy" }, pos: adjective }
+  - { target: la phrase, native: { nl: de zin, en: "sentence" }, pos: noun, gender: f }
+  - { target: absent, native: { nl: afwezig, en: "absent, away" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Le directeur de l'école est très gentil.", native: { nl: "De directeur van de school is heel aardig.", en: "The head teacher is very kind." }, items: [fr.directeur] }
+  - { id: s02, target: "Notre maître s'appelle monsieur Martin.", native: { nl: "Onze meester heet meneer Martin.", en: "Our teacher is called Mr Martin." }, items: [fr.maitre] }
+  - { id: s03, target: "Paul est mon camarade de classe.", native: { nl: "Paul is mijn klasgenoot.", en: "Paul is my classmate." }, items: [fr.camarade] }
+  - { id: s04, target: "La rentrée, c'est en septembre.", native: { nl: "De school begint weer in september.", en: "It's back to school in September." }, items: [fr.rentree] }
+  - { id: s05, target: "Regarde l'emploi du temps : on a sport aujourd'hui.", native: { nl: "Kijk op het rooster: we hebben vandaag gym.", en: "Look at the timetable: we have sport today." }, items: [fr.emploi-du-temps] }
+  - { id: s06, target: "En art, nous peignons des fleurs.", native: { nl: "Bij kunst schilderen we bloemen.", en: "In art we paint flowers." }, items: [fr.art] }
+  - { id: s07, target: "Demain, j'ai un examen de maths.", native: { nl: "Morgen heb ik een rekentoets.", en: "Tomorrow I have a maths exam." }, items: [fr.examen] }
+  - { id: s08, target: "Il y a une erreur dans ta phrase.", native: { nl: "Er zit een fout in je zin.", en: "There's a mistake in your sentence." }, items: [fr.erreur, fr.phrase] }
+  - { id: s09, target: "Pardon, je me suis trompée !", native: { nl: "Sorry, ik heb me vergist!", en: "Sorry, I made a mistake!" }, items: [fr.se-tromper] }
+  - { id: s10, target: "Je dois réviser ma leçon.", native: { nl: "Ik moet mijn les leren.", en: "I have to revise my lesson." }, items: [fr.reviser] }
+  - { id: s11, target: "La maîtresse corrige nos cahiers.", native: { nl: "De juf kijkt onze schriften na.", en: "The teacher marks our exercise books." }, items: [fr.corriger] }
+  - { id: s12, target: "Tu peux épeler ton nom ?", native: { nl: "Kun je je naam spellen?", en: "Can you spell your name?" }, items: [fr.epeler] }
+  - { id: s13, target: "Mon cartable est très lourd.", native: { nl: "Mijn schooltas is heel zwaar.", en: "My school bag is very heavy." }, items: [fr.cartable] }
+  - { id: s14, target: "De quel matériel as-tu besoin pour ce cours ?", native: { nl: "Welke spullen heb je nodig voor deze les?", en: "What equipment do you need for this lesson?" }, items: [fr.materiel] }
+  - { id: s15, target: "Camille aime étudier l'allemand.", native: { nl: "Camille studeert graag Duits.", en: "Camille likes studying German." }, items: [fr.etudier] }
+  - { id: s16, target: "Tu peux m'expliquer la leçon ?", native: { nl: "Kun je me de les uitleggen?", en: "Can you explain the lesson to me?" }, items: [fr.expliquer] }
+  - { id: s17, target: "Le français est plus facile que les maths.", native: { nl: "Frans is makkelijker dan rekenen.", en: "French is easier than maths." }, items: [fr.facile] }
+  - { id: s18, target: "Écris la phrase dans ton cahier.", native: { nl: "Schrijf de zin in je schrift.", en: "Write the sentence in your exercise book." }, items: [fr.phrase] }
+  - { id: s19, target: "Malick est absent aujourd'hui.", native: { nl: "Malick is vandaag afwezig.", en: "Malick is absent today." }, items: [fr.absent] }
+  - { id: s20, target: "Le nouveau maître est très gentil avec le nouvel élève.", native: { nl: "De nieuwe meester is heel aardig voor de nieuwe leerling.", en: "The new teacher is very kind to the new pupil." }, items: [fr.maitre] }
+lessons:
+  - { id: l01, title: { nl: De nieuwe meester, en: "The new teacher" }, vocab: [fr.directeur, fr.maitre, fr.camarade, fr.rentree, fr.emploi-du-temps, fr.art, fr.absent] }
+  - { id: l02, title: { nl: Een fout!, en: "A mistake!" }, vocab: [fr.examen, fr.erreur, fr.se-tromper, fr.reviser, fr.corriger, fr.epeler] }
+  - { id: l03, title: { nl: Leg het eens uit, en: "Can you explain it?" }, vocab: [fr.cartable, fr.materiel, fr.etudier, fr.expliquer, fr.facile, fr.phrase] }

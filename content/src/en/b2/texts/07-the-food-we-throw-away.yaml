@@ -1,0 +1,53 @@
+id: en-b2-t07
+kind: reading
+title: { nl: Het eten dat we weggooien }
+topic: Food and eating (an article in a school magazine)
+level: B2
+paragraphs:
+  - - { id: en-b2-t07-s01, target: "Every year, about a third of the food produced in the world is never eaten.", native: { nl: "Elk jaar wordt ongeveer een derde van het voedsel dat in de wereld wordt geproduceerd nooit opgegeten." } }
+    - { id: en-b2-t07-s02, target: "Some of it is lost before it reaches the shops, but in rich countries a great deal is simply thrown away at home.", native: { nl: "Een deel gaat verloren voor het de winkels bereikt, maar in rijke landen wordt er thuis gewoon heel veel weggegooid." } }
+  - - { id: en-b2-t07-s03, target: "Why do we waste so much?", native: { nl: "Waarom verspillen we zo veel?" } }
+    - { id: en-b2-t07-s04, target: "One reason is that we buy more than we need, especially when supermarkets offer three products for the price of two.", native: { nl: "Een reden is dat we meer kopen dan we nodig hebben, vooral als supermarkten drie producten aanbieden voor de prijs van twee." } }
+    - { id: en-b2-t07-s05, target: "Another is that many people are confused by the dates on the packaging and throw away food that is perfectly safe to eat.", native: { nl: "Een andere is dat veel mensen in de war raken door de data op de verpakking en eten weggooien dat volkomen veilig is om te eten." } }
+    - { id: en-b2-t07-s06, target: "Restaurants add to the problem by serving portions that are much bigger than most people can finish.", native: { nl: "Restaurants maken het probleem groter door porties te serveren die veel groter zijn dan de meeste mensen kunnen opeten." } }
+  - - { id: en-b2-t07-s07, target: "The cost is not only financial.", native: { nl: "De kosten zijn niet alleen financieel." } }
+    - { id: en-b2-t07-s08, target: "Growing, transporting and packing food uses enormous amounts of water and energy.", native: { nl: "Voedsel kweken, vervoeren en verpakken gebruikt enorme hoeveelheden water en energie." } }
+    - { id: en-b2-t07-s09, target: "When food ends up in the bin, all of that is wasted too, and rotting food produces gases that heat the planet.", native: { nl: "Als eten in de vuilnisbak belandt, is dat allemaal ook verspild, en rottend eten maakt gassen vrij die de planeet opwarmen." } }
+  - - { id: en-b2-t07-s10, target: "The good news is that small changes help.", native: { nl: "Het goede nieuws is dat kleine veranderingen helpen." } }
+    - { id: en-b2-t07-s11, target: "Students at one school in Leeds started a \"leftovers club\": once a week they cook a meal from whatever is in the school kitchen at the end of the week.", native: { nl: "Leerlingen van een school in Leeds begonnen een \"restjesclub\": één keer per week koken ze een maaltijd met wat er op het einde van de week in de schoolkeuken ligt." } }
+    - { id: en-b2-t07-s12, target: "\"At first people thought it would be bland,\" says Zara, sixteen, \"but now there's always a queue.\"", native: { nl: "\"In het begin dachten de mensen dat het flauw zou zijn,\" zegt Zara, zestien, \"maar nu staat er altijd een rij.\"" } }
+  - - { id: en-b2-t07-s13, target: "So what can you do at home?", native: { nl: "Wat kun je thuis dan doen?" } }
+    - { id: en-b2-t07-s14, target: "Plan your meals, make a shopping list and stick to it, and use your senses: if food looks and smells fine, it usually is.", native: { nl: "Plan je maaltijden, maak een boodschappenlijst en hou je eraan, en gebruik je zintuigen: als eten er goed uitziet en goed ruikt, is het dat meestal ook." } }
+    - { id: en-b2-t07-s15, target: "And next time you have leftovers, don't throw them away: tomorrow's lunch may be such a good one that you'll be glad you cooked too much.", native: { nl: "En de volgende keer dat je restjes hebt, gooi ze niet weg: de lunch van morgen is misschien zo lekker dat je blij bent dat je te veel hebt gekookt." } }
+glossary:
+  - { word: produced, native: { nl: "geproduceerd (produce)" } }
+  - { word: confused, native: { nl: "in de war" } }
+  - { word: enormous, native: { nl: enorm } }
+  - { word: rotting, native: { nl: rottend } }
+  - { word: gases, native: { nl: "gassen (gas)" } }
+  - { word: senses, native: { nl: "zintuigen (sense)" } }
+items: [en.a-great-deal-of, en.packaging, en.portion, en.leftovers, en.bland]
+gapped:
+  gaps: [en-b2-t07-s03, en-b2-t07-s07, en-b2-t07-s10, en-b2-t07-s13]
+  extra:
+    - { id: en-b2-t07-x1, target: "Most of this food comes from organic farms.", native: { nl: "Het meeste van dit voedsel komt van biologische boerderijen." } }
+openCloze:
+  - { sentence: en-b2-t07-s04, word: than }
+  - { sentence: en-b2-t07-s06, word: by }
+  - { sentence: en-b2-t07-s09, word: When, acceptAlso: [If, Once] }
+  - { sentence: en-b2-t07-s14, word: to }
+wordForm:
+  - { sentence: en-b2-t07-s04, word: especially, stem: special, acceptAlso: [specially] }
+  - { sentence: en-b2-t07-s05, word: perfectly, stem: perfect }
+  - { sentence: en-b2-t07-s05, word: packaging, stem: pack }
+questions:
+  - { id: en-b2-t07-q1, type: summary, options: ["Much of the food we buy is thrown away, which wastes money, water and energy, but simple habits at school and at home can reduce it.", "Most food is lost on farms before it reaches the shops, so there is very little that people at home can do about it.", "Supermarkets have stopped selling three products for the price of two because too much food was being wasted."], correct: 0 }
+  - { id: en-b2-t07-q2, type: mc, question: "Why do people throw away food that is still safe?", options: ["They are confused by the dates on the packaging.", "They don't like eating leftovers.", "Supermarkets tell them to."], correct: 0 }
+  - { id: en-b2-t07-q3, type: true_false_notgiven, statement: "The leftovers club is popular now.", answer: true }
+  - { id: en-b2-t07-q4, type: true_false_notgiven, statement: "Wasted food has no effect on the planet.", answer: false }
+  - { id: en-b2-t07-q5, type: true_false_notgiven, statement: "The leftovers club was started by a teacher.", answer: false }
+  - { id: en-b2-t07-q6, type: match_heading, paragraph: 3, options: ["More than money", "Reasons for the problem", "A school's idea"], correct: 0 }
+listeningQuestions:
+  - { id: en-b2-t07-l1, type: complete, statement: "About a ___ of the food produced in the world is never eaten.", answers: [third] }
+  - { id: en-b2-t07-l2, type: mc, question: "How often does the leftovers club cook a meal?", options: ["Once a week.", "Every day.", "Once a month."], correct: 0 }
+orderable: false

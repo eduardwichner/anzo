@@ -1,0 +1,36 @@
+id: fr-b1-t07
+kind: reading
+title: { nl: Een cursus eerste hulp, en: "A first-aid course" }
+topic: La santé (article d'un journal d'école sur un cours de premiers secours)
+level: B1
+paragraphs:
+  - - { id: fr-b1-t07-s01, target: "Cette année, tous les élèves de troisième ont suivi un cours de premiers secours.", native: { nl: "Dit jaar hebben alle leerlingen van het derde jaar een cursus eerste hulp gevolgd.", en: "This year all the Year 10 pupils took a first-aid course." } }
+    - { id: fr-b1-t07-s02, target: "Pendant deux matinées, un infirmier et une pompière sont venus à l'école.", native: { nl: "Twee ochtenden lang kwamen een verpleger en een brandweervrouw naar school.", en: "For two mornings, a nurse and a firefighter came to the school." } }
+  - - { id: fr-b1-t07-s03, target: "D'abord, ils nous ont expliqué ce qu'il faut faire en cas d'accident.", native: { nl: "Eerst legden ze ons uit wat je moet doen bij een ongeluk.", en: "First they explained to us what to do in an accident." } }
+    - { id: fr-b1-t07-s04, target: "Il faut rester calme, vérifier si la personne respire et appeler une ambulance.", native: { nl: "Je moet kalm blijven, controleren of de persoon ademt en een ziekenwagen bellen.", en: "You have to stay calm, check whether the person is breathing and call an ambulance." } }
+    - { id: fr-b1-t07-s05, target: "En Europe, le numéro d'urgence est le 112.", native: { nl: "In Europa is het noodnummer 112.", en: "In Europe the emergency number is 112." } }
+  - - { id: fr-b1-t07-s06, target: "Ensuite, nous avons appris à soigner une petite blessure et à arrêter le sang.", native: { nl: "Daarna leerden we een kleine wonde te verzorgen en het bloeden te stoppen.", en: "Then we learnt how to treat a small wound and stop the bleeding." } }
+    - { id: fr-b1-t07-s07, target: "La pompière nous a aussi montré comment aider quelqu'un qui ne respire plus.", native: { nl: "De brandweervrouw toonde ons ook hoe je iemand helpt die niet meer ademt.", en: "The firefighter also showed us how to help someone who has stopped breathing." } }
+    - { id: fr-b1-t07-s08, target: "Ce cours était difficile, mais très intéressant.", native: { nl: "Deze cursus was moeilijk, maar heel interessant.", en: "This course was difficult, but very interesting." } }
+  - - { id: fr-b1-t07-s09, target: "« Ces gestes simples peuvent sauver une vie », a dit l'infirmier.", native: { nl: "\"Die eenvoudige handelingen kunnen een leven redden\", zei de verpleger.", en: "\"These simple actions can save a life,\" said the nurse." } }
+    - { id: fr-b1-t07-s10, target: "À la fin du cours, chaque élève a reçu un diplôme.", native: { nl: "Aan het eind van de cursus kreeg elke leerling een diploma.", en: "At the end of the course, each pupil received a certificate." } }
+glossary:
+  - { word: premiers secours, native: { nl: eerste hulp, en: "first aid" } }
+items: [fr.accident, fr.verifier, fr.respirer, fr.ambulance, fr.urgence, fr.blessure, fr.sang, fr.sauver, fr.vie, fr.matinee, fr.cas, fr.geste, fr.simple, fr.fin, fr.diplome, fr.arreter]
+questions:
+  - { id: fr-b1-t07-q1, type: mc, question: "Qui a donné le cours ?", options: ["Un infirmier et une pompière.", "Le professeur de sport.", "Un médecin de l'hôpital."], correct: 0 }
+  - { id: fr-b1-t07-q2, type: true_false_notgiven, statement: "Les élèves ont dû passer un examen.", answer: not_given }
+  - { id: fr-b1-t07-q3, type: true_false_notgiven, statement: "Seul un infirmier est venu à l'école.", answer: false }
+  - { id: fr-b1-t07-q4, type: true_false_notgiven, statement: "Le cours a eu lieu pendant une semaine.", answer: false }
+  - { id: fr-b1-t07-q5, type: mc, question: "Qu'est-ce que les élèves ont reçu à la fin ?", options: ["Un diplôme.", "Une ordonnance.", "Un livre de médecine."], correct: 0 }
+  - { id: fr-b1-t07-q6, type: match_heading, paragraph: 3, options: ["Des gestes pratiques", "Que faire en cas d'accident ?", "Un cours pour toute la classe"], correct: 0 }
+listeningQuestions:
+  - { id: fr-b1-t07-l1, type: mc, question: "Qui a montré comment aider quelqu'un qui ne respire plus ?", options: ["La pompière.", "L'infirmier.", "Le professeur."], correct: 0 }
+  - { id: fr-b1-t07-l2, type: true_false_notgiven, statement: "Les élèves ont trouvé le cours facile.", answer: false }
+cloze:
+  - { sentence: fr-b1-t07-s02, word: sont, kind: finite_verb, hint: { nl: "être (présent: … venus)", en: "être (present: … venus)" } }
+  - { sentence: fr-b1-t07-s03, word: ont, kind: finite_verb, hint: { nl: "avoir (présent: … expliqué)", en: "avoir (present: … expliqué)" } }
+  - { sentence: fr-b1-t07-s04, word: respire, kind: finite_verb, hint: { nl: "respirer (présent)", en: "respirer (present)" } }
+  - { sentence: fr-b1-t07-s05, word: est, kind: finite_verb, hint: { nl: "être (présent)", en: "être (present)" } }
+  - { sentence: fr-b1-t07-s09, word: peuvent, kind: finite_verb, hint: { nl: "pouvoir (présent)", en: "pouvoir (present)" } }
+orderable: true

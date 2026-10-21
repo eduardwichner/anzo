@@ -1,0 +1,35 @@
+id: fr-b1-t20
+kind: reading
+title: { nl: Een maand zonder suiker, en: "A month without sugar" }
+topic: La santé et les défis (un élève raconte une expérience personnelle)
+level: B1
+paragraphs:
+  - - { id: fr-b1-t20-s01, target: "Le mois dernier, j'ai tenté un défi : un mois entier sans sucre.", native: { nl: "Vorige maand heb ik een uitdaging geprobeerd: een hele maand zonder suiker.", en: "Last month I tried a challenge: a whole month without sugar." } }
+    - { id: fr-b1-t20-s02, target: "Mon objectif était d'améliorer ma santé et d'avoir plus d'énergie pour faire du sport.", native: { nl: "Mijn doel was mijn gezondheid te verbeteren en meer energie te hebben bij het sporten.", en: "My goal was to improve my health and have more energy for sport." } }
+  - - { id: fr-b1-t20-s03, target: "Les premiers jours, les bonbons et les gâteaux me manquaient beaucoup.", native: { nl: "De eerste dagen miste ik snoep en taart heel erg.", en: "For the first few days, I really missed sweets and cakes." } }
+    - { id: fr-b1-t20-s04, target: "J'ai remplacé le chocolat par des fruits, et j'ai évité les boissons sucrées.", native: { nl: "Ik heb chocolade vervangen door fruit, en ik heb gesuikerde drankjes vermeden.", en: "I replaced chocolate with fruit, and I avoided sugary drinks." } }
+    - { id: fr-b1-t20-s05, target: "J'ai aussi appris à lire les étiquettes : le sucre apparaît dans presque tous les produits !", native: { nl: "Ik heb ook geleerd de etiketten te lezen: suiker zit in bijna alle producten!", en: "I also learnt to read the labels: sugar appears in almost every product!" } }
+  - - { id: fr-b1-t20-s06, target: "Après deux semaines, je m'y suis habitué, et le résultat m'a surpris.", native: { nl: "Na twee weken was ik eraan gewend, en het resultaat verraste me.", en: "After two weeks I'd got used to it, and the result surprised me." } }
+    - { id: fr-b1-t20-s07, target: "Je dormais mieux, et je n'avais plus faim entre les repas.", native: { nl: "Ik sliep beter, en ik had geen honger meer tussen de maaltijden.", en: "I slept better, and I wasn't hungry between meals any more." } }
+  - - { id: fr-b1-t20-s08, target: "Maintenant que le défi est terminé, je mange de nouveau un peu de chocolat.", native: { nl: "Nu de uitdaging voorbij is, eet ik weer een beetje chocolade.", en: "Now that the challenge is over, I'm eating a little chocolate again." } }
+    - { id: fr-b1-t20-s09, target: "Mais j'apprécie davantage les fruits, et je vais continuer à éviter les boissons sucrées.", native: { nl: "Maar ik waardeer fruit meer, en ik ga gesuikerde drankjes blijven vermijden.", en: "But I appreciate fruit more, and I'm going to keep avoiding sugary drinks." } }
+glossary:
+  - { word: étiquettes, native: { nl: etiketten, en: "labels" } }
+items: [fr.tenter, fr.defi, fr.objectif, fr.ameliorer, fr.energie, fr.manquer, fr.remplacer, fr.eviter, fr.apparaitre, fr.produit, fr.habituer, fr.resultat, fr.surprendre, fr.terminer, fr.apprecier, fr.davantage, fr.entier]
+questions:
+  - { id: fr-b1-t20-q1, type: mc, question: "Quel défi l'élève a-t-il tenté ?", options: ["Un mois sans sucre.", "Un mois sans téléphone.", "Un mois de sport tous les jours."], correct: 0 }
+  - { id: fr-b1-t20-q2, type: true_false_notgiven, statement: "Le défi a été facile dès le premier jour.", answer: false }
+  - { id: fr-b1-t20-q3, type: true_false_notgiven, statement: "Ses parents ont fait le défi avec lui.", answer: not_given }
+  - { id: fr-b1-t20-q4, type: true_false_notgiven, statement: "L'élève a arrêté le sport pendant le défi.", answer: not_given }
+  - { id: fr-b1-t20-q5, type: mc, question: "Qu'est-ce que l'élève a découvert sur les étiquettes ?", options: ["Il y a du sucre dans presque tous les produits.", "Les fruits sont très chers.", "Le chocolat n'a pas de sucre."], correct: 0 }
+  - { id: fr-b1-t20-q6, type: match_heading, paragraph: 3, options: ["Un résultat surprenant", "Des débuts difficiles", "Et maintenant ?"], correct: 0 }
+listeningQuestions:
+  - { id: fr-b1-t20-l1, type: mc, question: "Par quoi l'élève a-t-il remplacé le chocolat ?", options: ["Par des fruits.", "Par du pain.", "Par des légumes."], correct: 0 }
+  - { id: fr-b1-t20-l2, type: true_false_notgiven, statement: "Aujourd'hui, l'élève ne mange jamais de chocolat.", answer: false }
+cloze:
+  - { sentence: fr-b1-t20-s02, word: était, kind: finite_verb, hint: { nl: "être (imparfait)", en: "être (imperfect)" } }
+  - { sentence: fr-b1-t20-s03, word: manquaient, kind: finite_verb, hint: { nl: "manquer (imparfait)", en: "manquer (imperfect)" } }
+  - { sentence: fr-b1-t20-s05, word: apparaît, kind: finite_verb, hint: { nl: "apparaître (présent)", en: "apparaître (present)" } }
+  - { sentence: fr-b1-t20-s07, word: dormais, kind: finite_verb, hint: { nl: "dormir (imparfait)", en: "dormir (imperfect)" } }
+  - { sentence: fr-b1-t20-s08, word: mange, kind: finite_verb, hint: { nl: "manger (présent)", en: "manger (present)" } }
+orderable: true

@@ -1,0 +1,54 @@
+id: nl-a1-u15
+title: { en: The children's school }
+icon: school
+topic: School, the teacher, homework
+vocabulary:
+  - { target: de juf, native: { en: "teacher (woman, primary school)" }, pos: noun, plural: juffen, avoid: [nl.meester, nl.leerkracht, nl.leraar] }
+  - { target: de meester, native: { en: "teacher (man, primary school)" }, pos: noun, plural: meesters, avoid: [nl.leerkracht, nl.leraar] }
+  - { target: de leerkracht, native: { en: teacher }, pos: noun, plural: leerkrachten, avoid: [nl.leraar] }
+  - { target: de leraar, native: { en: teacher (man) }, pos: noun, plural: leraren }
+  - { target: de les, native: { en: lesson }, pos: noun, plural: lessen }
+  - { target: de klas, native: { en: class }, pos: noun, plural: klassen }
+  - { target: de leerling, native: { en: pupil }, pos: noun, plural: leerlingen }
+  - { target: het huiswerk, native: { en: homework }, pos: noun, plural: "-" }
+  - { target: het rapport, native: { en: school report }, pos: noun, plural: rapporten }
+  - { target: de boekentas, native: { en: school bag }, pos: noun, plural: boekentassen, alsoNL: de schooltas }
+  - { target: de brooddoos, native: { en: lunch box }, pos: noun, plural: brooddozen, alsoNL: de broodtrommel }
+  - { target: de speelplaats, native: { en: playground }, pos: noun, plural: speelplaatsen, alsoNL: het schoolplein }
+  - { target: de vakantie, native: { en: holiday }, pos: noun, plural: vakanties }
+  - { target: de turnles, native: { en: PE lesson }, pos: noun, plural: turnlessen, alsoNL: de gymles, avoid: [nl.les] }
+  - { target: het schrift, native: { en: exercise book }, pos: noun, plural: schriften }
+  - { target: de pen, native: { en: pen }, pos: noun, plural: pennen }
+  - { target: het potlood, native: { en: pencil }, pos: noun, plural: potloden }
+  - { target: brengen, native: { en: "to bring, to take" }, pos: verb, avoid: [nl.halen, nl.ophalen] }
+  - { target: halen, native: { en: "to get, to fetch" }, pos: verb, avoid: [nl.ophalen] }
+  - { target: ophalen, native: { en: to pick up }, pos: verb }
+  - { target: rekenen, native: { en: "to do sums" }, pos: verb }
+  - { target: tekenen, native: { en: to draw }, pos: verb }
+  - { target: zingen, native: { en: to sing }, pos: verb }
+  - { target: oefenen, native: { en: to practise }, pos: verb }
+sentences:
+  - { id: s01, target: "De juf heet Sara.", native: { en: "The teacher is called Sara." }, items: [nl.juf] }
+  - { id: s02, target: "Meester Jan is heel vriendelijk.", native: { en: "Jan, the teacher, is very friendly." }, items: [nl.meester] }
+  - { id: s03, target: "Ik wil met de leerkracht spreken.", native: { en: "I want to talk to the teacher." }, items: [nl.leerkracht] }
+  - { id: s04, target: "Mijn broer is leraar Frans.", native: { en: "My brother is a French teacher." }, items: [nl.leraar] }
+  - { id: s05, target: "De school begint om half negen.", native: { en: "School starts at half past eight." }, items: [nl.les], acceptAlso: ["Om half negen begint de school."] }
+  - { id: s06, target: "Mijn zoon zit in de klas van juf Sara.", native: { en: "My son is in Miss Sara's class." }, items: [nl.klas] }
+  - { id: s07, target: "Er zijn twintig leerlingen in de klas.", native: { en: "There are twenty pupils in the class." }, items: [nl.leerling, nl.klas], acceptAlso: ["In de klas zijn er twintig leerlingen."] }
+  - { id: s08, target: "Maak eerst je huiswerk.", native: { en: "Do your homework first." }, items: [nl.huiswerk] }
+  - { id: s09, target: "Vrijdag krijgen de kinderen hun rapport.", native: { en: "On Friday the children get their school report." }, items: [nl.rapport], acceptAlso: ["De kinderen krijgen vrijdag hun rapport."] }
+  - { id: s10, target: "Je boekentas staat bij de deur.", native: { en: "Your school bag is by the door." }, items: [nl.boekentas] }
+  - { id: s11, target: "Je brooddoos zit in je boekentas.", native: { en: "Your lunch box is in your school bag." }, items: [nl.brooddoos] }
+  - { id: s12, target: "De kinderen spelen op de speelplaats.", native: { en: "The children are playing in the playground." }, items: [nl.speelplaats], acceptAlso: ["Op de speelplaats spelen de kinderen."] }
+  - { id: s13, target: "In juli is het vakantie.", native: { en: "The holidays are in July." }, items: [nl.vakantie], acceptAlso: ["Het is vakantie in juli."] }
+  - { id: s14, target: "Op dinsdag heeft hij turnles.", native: { en: "On Tuesdays he has PE." }, items: [nl.turnles], acceptAlso: ["Hij heeft op dinsdag turnles."] }
+  - { id: s15, target: "Schrijf het in je schrift.", native: { en: "Write it in your exercise book." }, items: [nl.schrift] }
+  - { id: s16, target: "Mag ik even je pen?", native: { en: "Can I borrow your pen for a moment?" }, items: [nl.pen], acceptAlso: ["Mag ik je pen even?"] }
+  - { id: s17, target: "Ik teken met een potlood.", native: { en: "I'm drawing with a pencil." }, items: [nl.potlood, nl.tekenen] }
+  - { id: s18, target: "Ik breng de kinderen naar school.", native: { en: "I take the children to school." }, items: [nl.brengen] }
+  - { id: s19, target: "Ik haal brood bij de bakker.", native: { en: "I'm getting bread at the baker's." }, items: [nl.halen], acceptAlso: ["Bij de bakker haal ik brood."] }
+  - { id: s20, target: "Om drie uur haal ik de kinderen op.", native: { en: "At three o'clock I pick the children up." }, items: [nl.ophalen], acceptAlso: ["Ik haal de kinderen om drie uur op.", "Ik haal om drie uur de kinderen op."] }
+  - { id: s21, target: "Vandaag rekenen we in de klas.", native: { en: "Today we're doing sums in class." }, items: [nl.rekenen], acceptAlso: ["We rekenen vandaag in de klas."] }
+  - { id: s22, target: "De kinderen zingen in de klas.", native: { en: "The children are singing in class." }, items: [nl.zingen], acceptAlso: ["In de klas zingen de kinderen."] }
+  - { id: s23, target: "Ik oefen elke dag Nederlands.", native: { en: "I practise Dutch every day." }, items: [nl.oefenen], acceptAlso: ["Elke dag oefen ik Nederlands."] }
+  - { id: s24, target: "Mijn zoon is ziek, hij kan vandaag niet naar school.", native: { en: "My son is ill, he can't go to school today." }, items: [nl.kunnen] }

@@ -1,0 +1,37 @@
+id: nl-b1-t05
+kind: reading
+title: { en: "An e-mail from the team leader" }
+topic: At work (an e-mail about a new rota system and safety)
+level: B1
+paragraphs:
+  - - { id: nl-b1-t05-s01, target: "Beste collega's, tijdens het overleg van maandag hebben we enkele veranderingen besproken.", native: { en: "Dear colleagues, during Monday's meeting we discussed a few changes." } }
+    - { id: nl-b1-t05-s02, target: "Voor wie er niet bij was, zet ik alles nog even op een rij.", native: { en: "For those who weren't there, here's a brief summary of everything." } }
+  - - { id: nl-b1-t05-s03, target: "Vanaf 1 maart wordt er een nieuw systeem voor het werkrooster ingevoerd.", native: { en: "From 1 March a new system for the rota is being introduced." } }
+    - { id: nl-b1-t05-s04, target: "Het werkrooster wordt voortaan elke donderdag op de website van het personeel gezet, en niet meer in de kantine opgehangen.", native: { en: "From now on the rota will be put on the staff website every Thursday, and no longer put up in the canteen." } }
+    - { id: nl-b1-t05-s05, target: "Wie een dienst wil ruilen, vraagt eerst toestemming aan mij.", native: { en: "Anyone who wants to swap a shift asks me for permission first." } }
+  - - { id: nl-b1-t05-s06, target: "Ook over de veiligheid in het magazijn hebben we gepraat.", native: { en: "We also talked about safety in the warehouse." } }
+    - { id: nl-b1-t05-s07, target: "Vorige week is er bijna een ongeval gebeurd, omdat een collega zonder handschoenen aan een machine werkte.", native: { en: "Last week there was nearly an accident, because a colleague was working at a machine without gloves." } }
+    - { id: nl-b1-t05-s08, target: "Daarom herhaal ik de regel: in het magazijn draagt iedereen altijd handschoenen en veiligheidsschoenen.", native: { en: "So I'm repeating the rule: in the warehouse everyone always wears gloves and safety shoes." } }
+  - - { id: nl-b1-t05-s09, target: "Ten slotte: wie ziek is, belt voor acht uur naar het kantoor en brengt binnen twee dagen een doktersattest binnen.", native: { en: "Finally: anyone who is ill phones the office before eight and hands in a doctor's note within two days." } }
+    - { id: nl-b1-t05-s10, target: "Het verslag van het overleg vinden jullie in de bijlage.", native: { en: "You'll find the minutes of the meeting in the attachment." } }
+  - - { id: nl-b1-t05-s11, target: "Hebben jullie nog vragen? Stuur me gerust een berichtje.", native: { en: "Any questions? Feel free to send me a message." } }
+    - { id: nl-b1-t05-s12, target: "Met vriendelijke groeten, Johan Smets, ploegleider", native: { en: "Kind regards, Johan Smets, team leader" } }
+glossary:
+  - { word: op een rij, native: { en: "in a list (zet alles op een rij: list everything)" } }
+  - { word: veiligheidsschoenen, native: { en: safety shoes } }
+  - { word: ploegleider, native: { en: team leader } }
+items: [nl.enkele, nl.ophangen, nl.overleg, nl.verandering, nl.invoeren, nl.systeem, nl.werkrooster, nl.voortaan, nl.toestemming, nl.herhalen, nl.doktersattest, nl.verslag, nl.tijdens, nl.personeel, nl.aanvragen, nl.kantine, nl.bespreken, nl.binnen, nl.zonde]
+questions:
+  - { id: nl-b1-t05-q1, type: mc, question: "Waar vinden de collega's voortaan het werkrooster?", options: ["Op de website van het personeel.", "In de kantine.", "In de bijlage van de e-mail."], correct: 0 }
+  - { id: nl-b1-t05-q3, type: true_false_notgiven, statement: "Vorige week is een collega gewond geraakt in het magazijn.", answer: false }
+  - { id: nl-b1-t05-q2, type: true_false_notgiven, statement: "Wie een dienst wil ruilen, moet eerst de ploegleider vragen.", answer: true }
+  - { id: nl-b1-t05-q4, type: true_false_notgiven, statement: "Het nieuwe systeem kost het bedrijf veel geld.", answer: not_given }
+  - { id: nl-b1-t05-q5, type: match_heading, paragraph: 3, options: ["Veilig werken", "Het nieuwe werkrooster", "Ziek zijn"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b1-t05-l1, type: mc, question: "Wanneer moet je bellen als je ziek bent?", options: ["Voor acht uur.", "Binnen twee dagen.", "Op donderdag."], correct: 0 }
+  - { id: nl-b1-t05-l2, type: true_false_notgiven, statement: "In het magazijn zijn veiligheidsschoenen niet verplicht.", answer: false }
+cloze:
+  - { sentence: nl-b1-t05-s03, word: wordt, kind: finite_verb, hint: { en: "worden (present)" } }
+  - { sentence: nl-b1-t05-s05, word: vraagt, kind: finite_verb, hint: { en: "vragen (present)" } }
+  - { sentence: nl-b1-t05-s07, word: werkte, kind: finite_verb, hint: { en: "werken (past)" } }
+  - { sentence: nl-b1-t05-s08, word: herhaal, kind: finite_verb, hint: { en: "herhalen (present)" } }

@@ -1,0 +1,43 @@
+id: fr-b2-t13
+kind: reading
+title: { nl: Waarom ik vrijwilliger ben, en: "Why I'm a volunteer" }
+topic: Engagement et solidarité (quatre témoignages dans le magazine d'une maison de quartier)
+level: B2
+paragraphs:
+  - - { id: fr-b2-t13-s01, target: "Moussa : Tous les samedis matin, j'aide à la banque alimentaire de notre ville.", native: { nl: "Moussa: Elke zaterdagochtend help ik bij de voedselbank van onze stad.", en: "Moussa: Every Saturday morning, I help at our town's food bank." } }
+    - { id: fr-b2-t13-s02, target: "Je trie les dons et je prépare des sacs pour les familles qui viennent les chercher.", native: { nl: "Ik sorteer de giften en maak tassen klaar voor de gezinnen die ze komen halen.", en: "I sort the donations and prepare bags for the families who come to collect them." } }
+    - { id: fr-b2-t13-s03, target: "Avant, je pensais que seuls les sans-abri allaient à la banque alimentaire, mais beaucoup de ces familles ont un emploi et n'arrivent quand même pas à payer tout ce dont elles ont besoin.", native: { nl: "Vroeger dacht ik dat alleen daklozen naar de voedselbank gingen, maar veel van die gezinnen hebben werk en kunnen toch niet alles betalen wat ze nodig hebben.", en: "Before, I thought only homeless people went to the food bank, but many of these families have jobs and still can't pay for everything they need." } }
+  - - { id: fr-b2-t13-s04, target: "Inès : Deux fois par semaine, j'enseigne le français à des adultes à la maison de quartier.", native: { nl: "Inès: Twee keer per week geef ik Franse les aan volwassenen in het buurthuis.", en: "Inès: Twice a week I teach French to adults at the community centre." } }
+    - { id: fr-b2-t13-s05, target: "La plupart de mes élèves sont arrivés récemment, et certains étaient médecins ou ingénieurs dans leur pays.", native: { nl: "De meeste van mijn leerlingen zijn onlangs aangekomen, en sommigen waren arts of ingenieur in hun land.", en: "Most of my students arrived recently, and some were doctors or engineers in their own countries." } }
+    - { id: fr-b2-t13-s06, target: "Cela a complètement changé mes idées : j'avais beaucoup de préjugés sans le savoir.", native: { nl: "Het heeft mijn ideeën volledig veranderd: ik had veel vooroordelen zonder het te weten.", en: "It completely changed my views: I had a lot of prejudices without knowing it." } }
+  - - { id: fr-b2-t13-s07, target: "Hugo : Mon grand-père vit seul, et j'ai vu à quel point il se sentait isolé après la mort de ma grand-mère.", native: { nl: "Hugo: Mijn opa woont alleen, en ik zag hoe eenzaam hij zich voelde na de dood van mijn oma.", en: "Hugo: My grandfather lives alone, and I saw how lonely he felt after my grandmother died." } }
+    - { id: fr-b2-t13-s08, target: "Alors maintenant, je rends visite à des personnes âgées de ma rue qui n'ont personne à qui parler.", native: { nl: "Dus nu bezoek ik oudere mensen in mijn straat die niemand hebben om mee te praten.", en: "So now I visit elderly people in my street who have nobody to talk to." } }
+    - { id: fr-b2-t13-s09, target: "On joue aux cartes, on boit du thé, et parfois j'écoute simplement. Ça n'a l'air de rien, mais ça fait la différence.", native: { nl: "We spelen kaart, we drinken thee, en soms luister ik gewoon. Het lijkt niets, maar het maakt echt een verschil.", en: "We play cards, we drink tea, and sometimes I just listen. It doesn't sound like much, but it makes a difference." } }
+  - - { id: fr-b2-t13-s10, target: "Léa : J'ai organisé une pétition contre la fermeture de la piscine de notre commune.", native: { nl: "Léa: Ik heb een petitie georganiseerd tegen de sluiting van het zwembad van onze gemeente.", en: "Léa: I organised a petition against the closure of our town's swimming pool." } }
+    - { id: fr-b2-t13-s11, target: "Nous avons collecté plus de deux mille signatures en un mois, et finalement la commune a changé d'avis.", native: { nl: "We hebben in een maand meer dan tweeduizend handtekeningen verzameld, en uiteindelijk is de gemeente van gedachten veranderd.", en: "We collected more than two thousand signatures in a month, and in the end the council changed its mind." } }
+    - { id: fr-b2-t13-s12, target: "Si nous n'avions rien fait, la piscine serait aujourd'hui un parking. Cela m'a montré que les jeunes peuvent contribuer à la vie de leur ville.", native: { nl: "Als we niets hadden gedaan, was het zwembad nu een parking. Het heeft me getoond dat jongeren kunnen bijdragen aan het leven in hun stad.", en: "If we hadn't done anything, the pool would be a car park today. It showed me that young people can contribute to the life of their town." } }
+glossary:
+  - { word: signatures, native: { nl: "handtekeningen (une signature)", en: "signatures (une signature)" } }
+items: [fr.banque-alimentaire, fr.sans-abri, fr.maison-de-quartier, fr.prejuge, fr.isole, fr.difference, fr.petition, fr.fermeture, fr.collecter]
+questions:
+  - id: fr-b2-t13-q1
+    type: match_texts
+    labels: [Moussa, Inès, Hugo, Léa]
+    statements:
+      - { id: fr-b2-t13-q1-a, statement: "Cette personne a commencé à cause d'un membre de sa famille.", paragraph: 3 }
+      - { id: fr-b2-t13-q1-b, statement: "Cette personne a protesté contre une fermeture.", paragraph: 4 }
+      - { id: fr-b2-t13-q1-c, statement: "Cette personne a découvert qu'avoir un emploi ne suffit pas toujours.", paragraph: 1 }
+      - { id: fr-b2-t13-q1-d, statement: "Certaines personnes que cette personne aide avaient un métier important dans leur pays.", paragraph: 2 }
+  - { id: fr-b2-t13-q2, type: summary, options: ["Quatre jeunes racontent leur engagement dans leur ville et ce que cela leur a appris.", "Quatre jeunes expliquent pourquoi ils ne veulent pas être bénévoles.", "Quatre jeunes racontent leurs vacances à l'étranger."], correct: 0 }
+  - { id: fr-b2-t13-q3, type: true_false_notgiven, statement: "Certains élèves d'Inès étaient médecins dans leur pays.", answer: true }
+  - { id: fr-b2-t13-q4, type: true_false_notgiven, statement: "La piscine a été transformée en parking.", answer: false }
+  - { id: fr-b2-t13-q5, type: true_false_notgiven, statement: "Moussa veut travailler plus tard dans une association.", answer: not_given }
+listeningQuestions:
+  - { id: fr-b2-t13-l1, type: complete, statement: "Léa et ses amis ont collecté plus de deux mille ___.", answers: [signatures] }
+  - { id: fr-b2-t13-l2, type: mc, question: "Que fait Hugo avec les personnes âgées ?", options: ["Il joue aux cartes et boit du thé avec elles.", "Il leur prépare des repas.", "Il leur apprend le français."], correct: 0 }
+openCloze:
+  - { sentence: fr-b2-t13-s02, word: pour }
+  - { sentence: fr-b2-t13-s05, word: dans, acceptAlso: [en] }
+  - { sentence: fr-b2-t13-s07, word: après, acceptAlso: [depuis] }
+  - { sentence: fr-b2-t13-s12, word: Si }
+orderable: false

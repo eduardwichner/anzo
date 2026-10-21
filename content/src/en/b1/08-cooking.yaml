@@ -1,0 +1,121 @@
+id: en-b1-u08
+title: { nl: Koken }
+icon: food
+topic: Ingredients, recipes and cooking; imperatives and sequencing (first, then, after that), countable and uncountable nouns
+vocabulary:
+  - { target: cooking, native: { nl: koken (het koken) }, pos: noun, avoid: [en.boil] }
+  - { target: cookery, native: { nl: kookkunst }, pos: noun }
+  - { target: recipe, native: { nl: recept }, pos: noun }
+  - { target: ingredient, native: { nl: ingrediënt }, pos: noun }
+  - { target: preparation, native: { nl: voorbereiding }, pos: noun }
+  - { target: contain, native: { nl: bevatten }, pos: verb }
+  - { target: consist, native: { nl: bestaan (uit) }, pos: verb }
+  - { target: fresh, native: { nl: vers }, pos: adjective, avoid: [en.frozen] }
+  - { target: frozen, native: { nl: diepgevroren }, pos: adjective }
+  - { target: raw, native: { nl: rauw }, pos: adjective }
+  - { target: boil, native: { nl: koken (in water) }, pos: verb }
+  - { target: boiled, native: { nl: gekookt }, pos: adjective }
+  - { target: fry, native: { nl: bakken (in de pan) }, pos: verb }
+  - { target: fried, native: { nl: gebakken }, pos: adjective }
+  - { target: grill, native: { nl: grillen }, pos: verb }
+  - { target: grilled, native: { nl: gegrild }, pos: adjective }
+  - { target: roast, native: { nl: braden (in de oven) }, pos: verb }
+  - { target: barbecue, native: { nl: barbecue }, pos: noun }
+  - { target: stir, native: { nl: roeren }, pos: verb }
+  - { target: pour, native: { nl: gieten }, pos: verb }
+  - { target: fill, native: { nl: vullen }, pos: verb }
+  - { target: peel, native: { nl: schillen }, pos: verb }
+  - { target: cut up, native: { nl: in stukjes snijden }, pos: phrase }
+  - { target: slice, native: { nl: "plak, snee" }, pos: noun }
+  - { target: in half, native: { nl: doormidden }, pos: phrase, avoid: [en.in-two], noBlank: true }
+  - { target: in two, native: { nl: in tweeën }, pos: phrase, avoid: [en.in-half], noBlank: true }
+  - { target: sharp, native: { nl: scherp }, pos: adjective }
+  - { target: pan, native: { nl: pan }, pos: noun, avoid: [en.frying-pan, en.saucepan] }
+  - { target: frying pan, native: { nl: koekenpan }, pos: noun }
+  - { target: saucepan, native: { nl: steelpan }, pos: noun }
+  - { target: pot, native: { nl: "pot, kookpot" }, pos: noun, avoid: [en.jar] }
+  - { target: jar, native: { nl: pot (glazen) }, pos: noun }
+  - { target: tin, native: { nl: blik }, pos: noun }
+  - { target: packet, native: { nl: "pak, pakje" }, pos: noun }
+  - { target: bunch, native: { nl: "bos, tros" }, pos: noun }
+  - { target: oil, native: { nl: olie }, pos: noun }
+  - { target: cream, native: { nl: room }, pos: noun }
+  - { target: herb, native: { nl: (keuken)kruid }, pos: noun, avoid: [en.spice] }
+  - { target: spice, native: { nl: specerij }, pos: noun }
+  - { target: garlic, native: { nl: knoflook }, pos: noun }
+  - { target: chilli, native: { nl: chilipeper }, pos: noun }
+  - { target: olive, native: { nl: olijf }, pos: noun }
+  - { target: mushroom, native: { nl: paddenstoel (champignon) }, pos: noun }
+  - { target: cabbage, native: { nl: kool }, pos: noun }
+  - { target: broccoli, native: { nl: broccoli }, pos: noun }
+  - { target: spinach, native: { nl: spinazie }, pos: noun }
+  - { target: lettuce, native: { nl: sla (krop) }, pos: noun }
+  - { target: cucumber, native: { nl: komkommer }, pos: noun }
+  - { target: corn, native: { nl: maïs }, pos: noun }
+  - { target: peanut, native: { nl: pinda }, pos: noun }
+  - { target: peach, native: { nl: perzik }, pos: noun }
+  - { target: melon, native: { nl: meloen }, pos: noun }
+  - { target: beef, native: { nl: rundvlees }, pos: noun, avoid: [en.lamb] }
+  - { target: lamb, native: { nl: lamsvlees }, pos: noun }
+  - { target: turkey, native: { nl: kalkoen }, pos: noun }
+  - { target: salmon, native: { nl: zalm }, pos: noun, avoid: [en.tuna, en.cod] }
+  - { target: tuna, native: { nl: tonijn }, pos: noun }
+  - { target: cod, native: { nl: kabeljauw }, pos: noun }
+sentences:
+  - { id: s01, target: "My dad does most of the cooking at home.", native: { nl: "Thuis kookt mijn vader meestal." }, items: [en.cooking], acceptAlso: ["At home my dad does most of the cooking."] }
+  - { id: s02, target: "She's doing a cookery course at college.", native: { nl: "Ze volgt een kookcursus op de hogeschool." }, items: [en.cookery] }
+  - { id: s03, target: "Can you give me the recipe for this soup?", native: { nl: "Kun je me het recept voor deze soep geven?" }, items: [en.recipe] }
+  - { id: s04, target: "You only need four ingredients for this cake.", native: { nl: "Je hebt maar vier ingrediënten nodig voor deze taart." }, items: [en.ingredient] }
+  - { id: s05, target: "The preparation takes twenty minutes.", native: { nl: "De voorbereiding duurt twintig minuten." }, items: [en.preparation] }
+  - { id: s06, target: "Does this sauce contain peanuts?", native: { nl: "Bevat deze saus pinda's?" }, items: [en.contain, en.peanut] }
+  - { id: s07, target: "A full English breakfast consists of eggs, sausages, beans and toast.", native: { nl: "Een volledig Engels ontbijt bestaat uit eieren, worstjes, bonen en geroosterd brood." }, items: [en.consist] }
+  - { id: s08, target: "We buy fresh vegetables at the market.", native: { nl: "We kopen verse groenten op de markt." }, items: [en.fresh] }
+  - { id: s09, target: "Frozen peas are cheaper than fresh ones.", native: { nl: "Diepvrieserwten zijn goedkoper dan verse." }, items: [en.frozen, en.fresh] }
+  - { id: s10, target: "Never eat raw chicken.", native: { nl: "Eet nooit rauwe kip." }, items: [en.raw] }
+  - { id: s11, target: "Boil the pasta for ten minutes.", native: { nl: "Kook de pasta tien minuten." }, items: [en.boil] }
+  - { id: s12, target: "I'd like a boiled egg for breakfast.", native: { nl: "Ik wil graag een gekookt ei als ontbijt." }, items: [en.boiled] }
+  - { id: s13, target: "Fry the onions in a little oil.", native: { nl: "Bak de uien in een beetje olie." }, items: [en.fry, en.oil] }
+  - { id: s14, target: "He had fried fish with chips.", native: { nl: "Hij at gebakken vis met friet." }, items: [en.fried] }
+  - { id: s15, target: "Dad grilled the sausages for breakfast.", native: { nl: "Papa grilde de worstjes als ontbijt." }, items: [en.grill], finite: { word: grilled, hint: { nl: "grill (verleden tijd)" } } }
+  - { id: s16, target: "Grilled vegetables are very healthy.", native: { nl: "Gegrilde groenten zijn heel gezond." }, items: [en.grilled] }
+  - { id: s17, target: "Grandma roasts a chicken every Sunday.", native: { nl: "Oma braadt elke zondag een kip in de oven." }, items: [en.roast] }
+  - { id: s18, target: "We're having a barbecue on Saturday.", native: { nl: "We houden zaterdag een barbecue." }, items: [en.barbecue] }
+  - { id: s19, target: "Stir the soup so it doesn't burn.", native: { nl: "Roer in de soep zodat hij niet aanbrandt." }, items: [en.stir] }
+  - { id: s20, target: "Pour the milk into a large bowl.", native: { nl: "Giet de melk in een grote kom." }, items: [en.pour] }
+  - { id: s21, target: "Fill the pan with water.", native: { nl: "Vul de pan met water." }, items: [en.fill, en.pan] }
+  - { id: s22, target: "Peel the potatoes and cut them up.", native: { nl: "Schil de aardappelen en snijd ze in stukjes." }, items: [en.peel, en.cut-up] }
+  - { id: s23, target: "Could I have another slice of bread?", native: { nl: "Mag ik nog een snee brood?" }, items: [en.slice] }
+  - { id: s24, target: "Cut the apple in half.", native: { nl: "Snijd de appel doormidden." }, items: [en.in-half] }
+  - { id: s25, target: "He broke the chocolate bar in two.", native: { nl: "Hij brak de reep chocola in tweeën." }, items: [en.in-two], finite: { word: broke, hint: { nl: "break (verleden tijd)" } } }
+  - { id: s26, target: "Be careful, that knife is very sharp.", native: { nl: "Pas op, dat mes is heel scherp." }, items: [en.sharp] }
+  - { id: s27, target: "Heat some butter in a frying pan.", native: { nl: "Verhit wat boter in een koekenpan." }, items: [en.frying-pan] }
+  - { id: s28, target: "Put the rice in a saucepan with water and some salt.", native: { nl: "Doe de rijst in een steelpan met water en wat zout." }, items: [en.saucepan] }
+  - { id: s29, target: "There's a big pot of soup on the cooker.", native: { nl: "Er staat een grote pot soep op het fornuis." }, items: [en.pot] }
+  - { id: s30, target: "I can't open this jar of honey.", native: { nl: "Ik krijg deze pot honing niet open." }, items: [en.jar] }
+  - { id: s31, target: "We need two tins of tomatoes.", native: { nl: "We hebben twee blikken tomaten nodig." }, items: [en.tin] }
+  - { id: s32, target: "There's half a packet of biscuits left.", native: { nl: "Er is nog een half pak koekjes over." }, items: [en.packet] }
+  - { id: s33, target: "I bought a bunch of bananas.", native: { nl: "Ik kocht een tros bananen." }, items: [en.bunch] }
+  - { id: s34, target: "Would you like cream with your strawberries?", native: { nl: "Wil je room bij je aardbeien?" }, items: [en.cream] }
+  - { id: s35, target: "We grow herbs in pots by the kitchen window.", native: { nl: "We kweken kruiden in potjes bij het keukenraam." }, items: [en.herb] }
+  - { id: s36, target: "Indian food uses a lot of spices.", native: { nl: "In Indiaas eten worden veel specerijen gebruikt." }, items: [en.spice] }
+  - { id: s37, target: "This sauce tastes of garlic.", native: { nl: "Deze saus smaakt naar knoflook." }, items: [en.garlic] }
+  - { id: s38, target: "Don't put too much chilli in it. It'll be too hot.", native: { nl: "Doe er niet te veel chilipeper in. Dan wordt het te pittig." }, items: [en.chilli] }
+  - { id: s39, target: "I don't like olives on my pizza.", native: { nl: "Ik hou niet van olijven op mijn pizza." }, items: [en.olive] }
+  - { id: s40, target: "We found mushrooms in the forest.", native: { nl: "We vonden paddenstoelen in het bos." }, items: [en.mushroom], finite: { word: found, hint: { nl: "find (verleden tijd)" } } }
+  - { id: s41, target: "Cabbage is cheap in winter.", native: { nl: "Kool is goedkoop in de winter." }, items: [en.cabbage], acceptAlso: ["In winter cabbage is cheap."] }
+  - { id: s42, target: "My little brother won't eat broccoli.", native: { nl: "Mijn kleine broertje wil geen broccoli eten." }, items: [en.broccoli] }
+  - { id: s43, target: "Spinach is good for you.", native: { nl: "Spinazie is gezond voor je." }, items: [en.spinach] }
+  - { id: s44, target: "Wash the lettuce before you make the salad.", native: { nl: "Was de sla voordat je de salade maakt." }, items: [en.lettuce] }
+  - { id: s45, target: "Cut the cucumber into thin slices.", native: { nl: "Snijd de komkommer in dunne plakjes." }, items: [en.cucumber, en.slice] }
+  - { id: s46, target: "Would you like some corn with your chicken?", native: { nl: "Wil je wat maïs bij je kip?" }, items: [en.corn] }
+  - { id: s47, target: "Some people can't eat peanuts.", native: { nl: "Sommige mensen kunnen geen pinda's eten." }, items: [en.peanut] }
+  - { id: s48, target: "This peach is lovely and sweet.", native: { nl: "Deze perzik is heerlijk zoet." }, items: [en.peach] }
+  - { id: s49, target: "We had melon for dessert.", native: { nl: "We hadden meloen als toetje." }, items: [en.melon] }
+  - { id: s50, target: "My brother doesn't eat beef.", native: { nl: "Mijn broer eet geen rundvlees." }, items: [en.beef] }
+  - { id: s51, target: "Lamb is popular at Easter.", native: { nl: "Lamsvlees is populair met Pasen." }, items: [en.lamb], acceptAlso: ["At Easter lamb is popular."] }
+  - { id: s52, target: "In Britain, many families eat turkey at Christmas.", native: { nl: "In Groot-Brittannië eten veel gezinnen kalkoen met Kerstmis." }, items: [en.turkey] }
+  - { id: s53, target: "Salmon is a healthy fish.", native: { nl: "Zalm is een gezonde vis." }, items: [en.salmon] }
+  - { id: s54, target: "I'd like a tuna sandwich, please.", native: { nl: "Ik wil graag een broodje tonijn." }, items: [en.tuna] }
+  - { id: s55, target: "Fish and chips is usually made with cod.", native: { nl: "Fish and chips wordt meestal met kabeljauw gemaakt." }, items: [en.cod] }
+  - { id: s56, target: "First, wash the vegetables. Then, cut them up and fry them.", native: { nl: "Was eerst de groenten. Snijd ze daarna in stukjes en bak ze." }, items: [en.cut-up, en.fry] }
+texts: [en-b1-t09]

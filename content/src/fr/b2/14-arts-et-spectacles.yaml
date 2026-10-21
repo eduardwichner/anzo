@@ -1,0 +1,72 @@
+id: fr-b2-u14
+title: { nl: "Muziek, film en kunst", en: "Music, film and art" }
+icon: music
+topic: Le théâtre et la comédie musicale, le public et la critique, les œuvres et les artistes ; exprimer la concession (bien que, quoique + subjonctif, même si, avoir beau, malgré, néanmoins, toutefois)
+vocabulary:
+  - { target: la comédie musicale, native: { nl: de musical, en: "musical" }, pos: noun, gender: f }
+  - { target: la pièce de théâtre, native: { nl: het toneelstuk, en: "play (in a theatre)" }, pos: noun, gender: f }
+  - { target: le comédien, native: { nl: "de (toneel)acteur", en: "actor (on stage)" }, pos: noun, gender: m, noBlank: true }
+  - { target: le metteur en scène, native: { nl: "de (toneel)regisseur", en: "director (of a play)" }, pos: noun, gender: m }
+  - { target: la mise en scène, native: { nl: "de regie, de enscenering", en: "staging" }, pos: noun, gender: f }
+  - { target: le décor, native: { nl: het decor, en: "set (on stage)" }, pos: noun, gender: m, noBlank: true }
+  - { target: le personnage, native: { nl: "het personage", en: "character (in a story)" }, pos: noun, gender: m, noBlank: true }
+  - { target: le spectateur, native: { nl: de toeschouwer, en: "spectator, member of the audience" }, pos: noun, gender: m }
+  - { target: applaudir, native: { nl: applaudisseren, en: "to applaud, to clap" }, pos: verb }
+  - { target: les applaudissements, native: { nl: het applaus, en: "applause" }, pos: noun, gender: m }
+  - { target: la critique, native: { nl: "de kritiek, de recensie", en: "review, criticism" }, pos: noun, gender: f }
+  - { target: le chef-d'œuvre, native: { nl: het meesterwerk, en: "masterpiece" }, pos: noun, gender: m }
+  - { target: l'œuvre, native: { nl: "het (kunst)werk", en: "work (of art)" }, pos: noun, gender: f }
+  - { target: interpréter, native: { nl: "vertolken, spelen (een rol, een lied)", en: "to perform (a song), to play (a role)" }, pos: verb }
+  - { target: émouvant, native: { nl: ontroerend, en: "moving, touching" }, pos: adjective, avoid: [fr.emu] }
+  - { target: ému, native: { nl: ontroerd, en: "moved, touched" }, pos: adjective, avoid: [fr.emouvant], typedAlso: { en: [touché] } }
+  - { target: décevant, native: { nl: teleurstellend, en: "disappointing" }, pos: adjective }
+  - { target: original, native: { nl: origineel, en: "original" }, pos: adjective, noBlank: true }
+  - { target: créatif, native: { nl: creatief, en: "creative" }, pos: adjective, noBlank: true }
+  - { target: talentueux, native: { nl: getalenteerd, en: "talented" }, pos: adjective }
+  - { target: inspirer, native: { nl: inspireren, en: "to inspire" }, pos: verb, noBlank: true }
+  - { target: l'entracte, native: { nl: "de pauze (in een voorstelling)", en: "interval" }, pos: noun, gender: m, noBlank: true }
+  - { target: le succès, native: { nl: het succes, en: "success" }, pos: noun, gender: m, noBlank: true }
+  - { target: complet, native: { nl: "uitverkocht, volzet", en: "sold out, full" }, pos: adjective }
+  - { target: la voix, native: { nl: de stem, en: "voice" }, pos: noun, gender: f }
+  - { target: les paroles, native: { nl: "de songtekst, de woorden (van een lied)", en: "lyrics" }, pos: noun, gender: f }
+  - { target: tomber amoureux, native: { nl: "verliefd worden (+ de: op)", en: "to fall in love (+ de: with)" }, pos: verb }
+  - { target: quoique, native: { nl: "hoewel (+ subjonctif, formeel)", en: "although (formal + subjunctive)" }, pos: conjunction, avoid: [fr.bien-que] }
+  - { target: avoir beau, native: { nl: "hoe … ook (+ infinitief)", en: "however much … (+ infinitive)" }, pos: verb }
+  - { target: néanmoins, native: { nl: "niettemin, toch", en: "nevertheless, nonetheless" }, pos: adverb, avoid: [fr.toutefois] }
+  - { target: toutefois, native: { nl: "echter, toch", en: "however" }, pos: adverb, avoid: [fr.neanmoins] }
+sentences:
+  - { id: s01, target: "Notre école prépare une comédie musicale pour le mois de mai.", native: { nl: "Onze school bereidt een musical voor tegen de maand mei.", en: "Our school is preparing a musical for May." }, items: [fr.comedie-musicale] }
+  - { id: s02, target: "Cette pièce de théâtre a été écrite il y a quatre siècles.", native: { nl: "Dit toneelstuk werd vier eeuwen geleden geschreven.", en: "This play was written four centuries ago." }, items: [fr.piece-de-theatre], acceptAlso: ["Il y a quatre siècles, cette pièce de théâtre a été écrite."] }
+  - { id: s03, target: "Les comédiens ont répété pendant trois mois.", native: { nl: "De acteurs hebben drie maanden gerepeteerd.", en: "The actors rehearsed for three months." }, items: [fr.comedien] }
+  - { id: s04, target: "Le metteur en scène a choisi des élèves de tous les âges.", native: { nl: "De regisseur koos leerlingen van alle leeftijden.", en: "The director chose pupils of all ages." }, items: [fr.metteur-en-scene] }
+  - { id: s05, target: "La mise en scène est simple, mais très efficace.", native: { nl: "De regie is eenvoudig, maar heel doeltreffend.", en: "The staging is simple but very effective." }, items: [fr.mise-en-scene] }
+  - { id: s06, target: "Les élèves ont peint eux-mêmes le décor.", native: { nl: "De leerlingen hebben het decor zelf geschilderd.", en: "The pupils painted the set themselves." }, items: [fr.decor] }
+  - { id: s07, target: "Le personnage principal est une jeune reine.", native: { nl: "Het hoofdpersonage is een jonge koningin.", en: "The main character is a young queen." }, items: [fr.personnage] }
+  - { id: s08, target: "Les spectateurs ont applaudi pendant dix minutes.", native: { nl: "De toeschouwers hebben tien minuten geapplaudisseerd.", en: "The audience applauded for ten minutes." }, items: [fr.spectateur, fr.applaudir] }
+  - { id: s09, target: "À la fin, les applaudissements étaient très forts.", native: { nl: "Op het einde was het applaus heel luid.", en: "At the end, the applause was very loud." }, items: [fr.applaudissements] }
+  - { id: s10, target: "La critique du journal était très positive.", native: { nl: "De recensie in de krant was heel positief.", en: "The newspaper's review was very positive." }, items: [fr.critique] }
+  - { id: s11, target: "Pour beaucoup de gens, ce film est un chef-d'œuvre.", native: { nl: "Voor veel mensen is deze film een meesterwerk.", en: "For many people, this film is a masterpiece." }, items: [fr.chef-d-oeuvre] }
+  - { id: s12, target: "Le musée présente les œuvres de jeunes artistes.", native: { nl: "Het museum toont de werken van jonge kunstenaars.", en: "The museum shows the works of young artists." }, items: [fr.oeuvre] }
+  - { id: s13, target: "Elle a interprété la chanson avec beaucoup de talent.", native: { nl: "Ze heeft het lied met veel talent vertolkt.", en: "She performed the song with great talent." }, items: [fr.interpreter] }
+  - { id: s14, target: "La dernière scène est très émouvante.", native: { nl: "De laatste scène is heel ontroerend.", en: "The last scene is very moving." }, items: [fr.emouvant] }
+  - { id: s15, target: "Le public était si ému que certains pleuraient.", native: { nl: "Het publiek was zo ontroerd dat sommigen huilden.", en: "The audience was so moved that some people were crying." }, items: [fr.emu] }
+  - { id: s16, target: "La fin du film est décevante.", native: { nl: "Het einde van de film is teleurstellend.", en: "The ending of the film is disappointing." }, items: [fr.decevant] }
+  - { id: s17, target: "C'est une idée vraiment originale.", native: { nl: "Het is een echt origineel idee.", en: "It's a really original idea." }, items: [fr.original] }
+  - { id: s18, target: "Les élèves de cette classe sont très créatifs.", native: { nl: "De leerlingen van deze klas zijn heel creatief.", en: "The pupils in this class are very creative." }, items: [fr.creatif] }
+  - { id: s19, target: "C'est une jeune chanteuse très talentueuse.", native: { nl: "Het is een jonge, zeer getalenteerde zangeres.", en: "She's a very talented young singer." }, items: [fr.talentueux] }
+  - { id: s20, target: "Ce roman a inspiré plusieurs films.", native: { nl: "Deze roman heeft verschillende films geïnspireerd.", en: "This novel has inspired several films." }, items: [fr.inspirer] }
+  - { id: s21, target: "Pendant l'entracte, nous avons bu quelque chose.", native: { nl: "Tijdens de pauze hebben we iets gedronken.", en: "During the interval, we had a drink." }, items: [fr.entracte] }
+  - { id: s22, target: "Le spectacle a eu beaucoup de succès.", native: { nl: "De voorstelling had veel succes.", en: "The show was a great success." }, items: [fr.succes] }
+  - { id: s23, target: "Il n'y a plus de place : la salle est complète ce soir.", native: { nl: "Er is geen plaats meer: de zaal is vanavond uitverkocht.", en: "There are no seats left: the theatre is sold out tonight." }, items: [fr.complet] }
+  - { id: s24, target: "Elle a une voix magnifique.", native: { nl: "Ze heeft een prachtige stem.", en: "She has a magnificent voice." }, items: [fr.voix] }
+  - { id: s25, target: "J'aime la musique de cette chanson, mais pas les paroles.", native: { nl: "Ik hou van de muziek van dit lied, maar niet van de tekst.", en: "I like the music of this song, but not the lyrics." }, items: [fr.paroles] }
+  - { id: s26, target: "Dans la pièce, deux jeunes tombent amoureux.", native: { nl: "In het stuk worden twee jongeren verliefd.", en: "In the play, two young people fall in love." }, items: [fr.tomber-amoureux] }
+  - { id: s27, target: "Quoique le spectacle soit long, on ne s'ennuie pas.", native: { nl: "Hoewel de voorstelling lang is, verveel je je niet.", en: "Although the show is long, you don't get bored." }, items: [fr.quoique], build: true }
+  - { id: s28, target: "J'ai beau répéter, j'oublie toujours mon texte.", native: { nl: "Hoe vaak ik ook repeteer, ik vergeet altijd mijn tekst.", en: "However much I rehearse, I always forget my lines." }, items: [fr.avoir-beau], build: true }
+  - { id: s29, target: "Le spectacle n'est pas parfait ; il est néanmoins très réussi.", native: { nl: "De voorstelling is niet perfect; ze is niettemin heel geslaagd.", en: "The show isn't perfect; nevertheless, it's very well done." }, items: [fr.neanmoins] }
+  - { id: s30, target: "Le décor est beau ; toutefois, la musique est trop forte.", native: { nl: "Het decor is mooi; de muziek is echter te luid.", en: "The set is beautiful; however, the music is too loud." }, items: [fr.toutefois] }
+transforms:
+  - { id: x01, from: "Le spectacle est long, mais on ne s'ennuie pas.", key: quoique, gapped: "___ long, on ne s'ennuie pas.", answers: ["Quoique le spectacle soit"], items: [fr.quoique], native: { en: "Although the show is long, you don't get bored." } }
+  - { id: x02, from: "Je répète souvent, mais j'oublie toujours mon texte.", key: beau, gapped: "___, j'oublie toujours mon texte.", answers: ["J'ai beau répéter", "J'ai beau répéter souvent"], items: [fr.avoir-beau], native: { en: "However much I rehearse, I always forget my lines." } }
+  - { id: x03, from: "Le décor est beau, mais la musique est trop forte.", key: toutefois, gapped: "Le décor est beau ; ___ trop forte.", answers: ["toutefois, la musique est", "toutefois la musique est", "la musique est toutefois", "la musique, toutefois, est"], items: [fr.toutefois], native: { en: "The set is beautiful; however, the music is too loud." } }
+texts: [fr-b2-t14]

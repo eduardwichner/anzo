@@ -1,0 +1,76 @@
+id: en-b2-u01
+title: { nl: Karakter en ambitie }
+icon: star
+topic: Personality, talent and ambition, coping with setbacks; the present perfect continuous (has been -ing for / since)
+vocabulary:
+  - { target: ambitious, native: { nl: ambitieus }, pos: adjective }
+  - { target: determined, native: { nl: "vastberaden, vastbesloten" }, pos: adjective }
+  - { target: determination, native: { nl: vastberadenheid }, pos: noun }
+  - { target: scholarship, native: { nl: "studiebeurs" }, pos: noun }
+  - { target: enrol, native: { nl: "zich inschrijven (voor een cursus of school)" }, pos: verb }
+  - { target: gifted, native: { nl: "begaafd, getalenteerd" }, pos: adjective, avoid: [en.talented] }
+  - { target: confidence, native: { nl: "zelfvertrouwen, vertrouwen" }, pos: noun }
+  - { target: personality, native: { nl: persoonlijkheid }, pos: noun }
+  - { target: sensitive, native: { nl: gevoelig }, pos: adjective }
+  - { target: stubborn, native: { nl: koppig }, pos: adjective }
+  - { target: modest, native: { nl: bescheiden }, pos: adjective }
+  - { target: outgoing, native: { nl: "extravert, open" }, pos: adjective, avoid: [en.sociable] }
+  - { target: impatient, native: { nl: ongeduldig }, pos: adjective }
+  - { target: motivated, native: { nl: gemotiveerd }, pos: adjective }
+  - { target: motivation, native: { nl: motivatie }, pos: noun }
+  - { target: failure, native: { nl: "mislukking, falen" }, pos: noun }
+  - { target: cope, native: { nl: "het aankunnen, omgaan met (+ with)" }, pos: verb }
+  - { target: struggle, native: { nl: "worstelen, moeite hebben (met)" }, pos: verb }
+  - { target: overcome, native: { nl: overwinnen }, pos: verb }
+  - { target: by chance, native: { nl: "toevallig, bij toeval" }, pos: phrase, noBlank: true }
+  - { target: audition, native: { nl: auditie }, pos: noun }
+  - { target: role model, native: { nl: "rolmodel, voorbeeld" }, pos: noun }
+  - { target: potential, native: { nl: "potentieel, mogelijkheden" }, pos: noun }
+  - { target: passion, native: { nl: passie }, pos: noun }
+  - { target: dedicated, native: { nl: "toegewijd" }, pos: adjective }
+  - { target: remarkable, native: { nl: opmerkelijk }, pos: adjective }
+  - { target: eventually, native: { nl: "uiteindelijk" }, pos: adverb }
+  - { target: gradually, native: { nl: "geleidelijk, langzaamaan" }, pos: adverb }
+  - { target: look up to, native: { nl: "opkijken naar" }, pos: phrase }
+  - { target: pressure, native: { nl: "druk (prestatiedruk)" }, pos: noun }
+  - { target: rehearsal, native: { nl: repetitie }, pos: noun }
+sentences:
+  - { id: s01, target: "My sister is very ambitious: she wants to become a doctor.", native: { nl: "Mijn zus is heel ambitieus: ze wil dokter worden." }, items: [en.ambitious] }
+  - { id: s02, target: "He was determined to finish the race, even with a painful ankle.", native: { nl: "Hij was vastbesloten de wedstrijd uit te lopen, zelfs met een pijnlijke enkel." }, items: [en.determined] }
+  - { id: s03, target: "With hard work and determination you can learn almost anything.", native: { nl: "Met hard werken en vastberadenheid kun je bijna alles leren." }, items: [en.determination], acceptAlso: ["You can learn almost anything with hard work and determination."] }
+  - { id: s04, target: "She won a scholarship to study at a famous ballet school.", native: { nl: "Ze won een studiebeurs om aan een bekende balletschool te studeren." }, items: [en.scholarship] }
+  - { id: s05, target: "You have to enrol before the end of September.", native: { nl: "Je moet je voor eind september inschrijven." }, items: [en.enrol], acceptAlso: ["Before the end of September you have to enrol."] }
+  - { id: s06, target: "Gifted students sometimes get bored in class.", native: { nl: "Begaafde leerlingen vervelen zich soms in de klas." }, items: [en.gifted], acceptAlso: ["Gifted students get bored in class sometimes."] }
+  - { id: s07, target: "Speaking in front of the class gave him more confidence.", native: { nl: "Spreken voor de klas gaf hem meer zelfvertrouwen." }, items: [en.confidence], form: { word: confidence, stem: confident } }
+  - { id: s08, target: "Her personality is very different from her brother's.", native: { nl: "Haar persoonlijkheid is heel anders dan die van haar broer." }, items: [en.personality] }
+  - { id: s09, target: "Be careful what you say: he is very sensitive.", native: { nl: "Let op wat je zegt: hij is heel gevoelig." }, items: [en.sensitive] }
+  - { id: s10, target: "My grandfather is so stubborn that he never changes his mind.", native: { nl: "Mijn opa is zo koppig dat hij nooit van mening verandert." }, items: [en.stubborn] }
+  - { id: s11, target: "Although she is the best player in the team, she is very modest.", native: { nl: "Hoewel ze de beste speelster van het team is, is ze heel bescheiden." }, items: [en.modest], acceptAlso: ["She is very modest, although she is the best player in the team."] }
+  - { id: s12, target: "Outgoing people usually find it easy to make new friends.", native: { nl: "Extraverte mensen vinden het meestal makkelijk om nieuwe vrienden te maken." }, items: [en.outgoing] }
+  - { id: s13, target: "Don't be so impatient! The film starts in five minutes.", native: { nl: "Wees niet zo ongeduldig! De film begint over vijf minuten." }, items: [en.impatient] }
+  - { id: s14, target: "Students who feel motivated work harder.", native: { nl: "Leerlingen die zich gemotiveerd voelen, werken harder." }, items: [en.motivated] }
+  - { id: s15, target: "Lack of motivation is the biggest problem for many students.", native: { nl: "Gebrek aan motivatie is voor veel leerlingen het grootste probleem." }, items: [en.motivation], acceptAlso: ["For many students, lack of motivation is the biggest problem."] }
+  - { id: s16, target: "Failure is part of learning.", native: { nl: "Mislukken hoort bij leren." }, items: [en.failure] }
+  - { id: s17, target: "How do you cope with stress before an exam?", native: { nl: "Hoe ga je om met stress voor een examen?" }, items: [en.cope] }
+  - { id: s18, target: "He struggled with maths for years, but now he loves it.", native: { nl: "Hij had jarenlang moeite met wiskunde, maar nu vindt hij het geweldig." }, items: [en.struggle], finite: { word: struggled, hint: { nl: "struggle (verleden tijd)" } } }
+  - { id: s19, target: "She finally overcame her fear of the water.", native: { nl: "Ze overwon eindelijk haar angst voor het water." }, items: [en.overcome] }
+  - { id: s20, target: "I became a dancer completely by chance.", native: { nl: "Ik ben helemaal toevallig danser geworden." }, items: [en.by-chance] }
+  - { id: s21, target: "Two hundred young people came to the audition.", native: { nl: "Tweehonderd jongeren kwamen naar de auditie." }, items: [en.audition] }
+  - { id: s22, target: "My aunt has always been my role model.", native: { nl: "Mijn tante is altijd mijn rolmodel geweest." }, items: [en.role-model] }
+  - { id: s23, target: "Every child has the potential to do something great.", native: { nl: "Elk kind heeft de mogelijkheden om iets geweldigs te doen." }, items: [en.potential] }
+  - { id: s24, target: "Music has always been her passion.", native: { nl: "Muziek is altijd haar passie geweest." }, items: [en.passion] }
+  - { id: s25, target: "The dedicated volunteers work at the club every weekend.", native: { nl: "De toegewijde vrijwilligers werken elk weekend in de club." }, items: [en.dedicated], acceptAlso: ["Every weekend the dedicated volunteers work at the club."] }
+  - { id: s26, target: "It was a remarkable performance for someone so young.", native: { nl: "Het was een opmerkelijke prestatie voor iemand die zo jong is." }, items: [en.remarkable] }
+  - { id: s27, target: "After three attempts she eventually passed the test.", native: { nl: "Na drie pogingen slaagde ze uiteindelijk voor de test." }, items: [en.eventually], acceptAlso: ["She eventually passed the test after three attempts."] }
+  - { id: s28, target: "Gradually the shy boy became more confident.", native: { nl: "Langzaamaan kreeg de verlegen jongen meer zelfvertrouwen." }, items: [en.gradually], acceptAlso: ["The shy boy gradually became more confident."] }
+  - { id: s29, target: "Many young players look up to the team captain.", native: { nl: "Veel jonge spelers kijken op naar de aanvoerder van het team." }, items: [en.look-up-to] }
+  - { id: s30, target: "The rehearsal lasted until ten o'clock at night.", native: { nl: "De repetitie duurde tot tien uur 's avonds." }, items: [en.rehearsal] }
+  - { id: s34, target: "Some students feel a lot of pressure to get good marks.", native: { nl: "Sommige leerlingen voelen veel druk om goede cijfers te halen." }, items: [en.pressure] }
+  - { id: s31, target: "He has been struggling with this problem all week.", native: { nl: "Hij worstelt al de hele week met dit probleem." }, items: [en.struggle], build: true, acceptAlso: ["All week he has been struggling with this problem."] }
+  - { id: s32, target: "How long have you been preparing for the audition?", native: { nl: "Hoelang bereid je je al voor op de auditie?" }, items: [en.audition], build: true }
+  - { id: s33, target: "Her first attempt was a complete failure, but she tried again.", native: { nl: "Haar eerste poging was een complete mislukking, maar ze probeerde het opnieuw." }, items: [en.failure], form: { word: failure, stem: fail } }
+transforms:
+  - { id: x01, from: "She started playing the piano three years ago and she still plays.", key: been, gapped: "She ___ the piano for three years.", answers: ["has been playing"], items: [en.passion] }
+  - { id: x02, from: "I admire my older brother very much.", key: look, gapped: "I really ___ my older brother.", answers: ["look up to"], items: [en.look-up-to] }
+  - { id: x03, from: "He couldn't deal with the pressure of the competition.", key: cope, gapped: "He was unable ___ the pressure of the competition.", answers: ["to cope with"], items: [en.cope] }
+texts: [en-b2-t01]

@@ -1,0 +1,14 @@
+# Names used in the English B1 texts and sentences (people, places, events): recognised, never taught as vocabulary.
+# The B1 Preliminary list's Appendix 1 asks candidates to know names of countries, nationalities and languages and says
+# personal vocabulary (where they live, people they know) is the candidate's own; the handbook's sample papers use first
+# names and British place names freely. `npm run content:wordlist` adds these as level-B1 names (pos `name`).
+why: Names in texts and sentences (B1 Preliminary vocabulary list, Appendix 1 and "Personal vocabulary")
+names:
+  people: [Amira, Max, Kate, Hillside, Westfield, Sandy, Chloe, Daniel, Ella, Ethan, Evans, Hannah, Hughes, Isla, Jacob, Jake, Josh, Kumar, Leo, Liam, Maya, Mia,
+    Mohammed, Nadia, Noah, Oliver, Olivia, Omar, Patel, Priya, Rosa, Ruby, Ryan, Sophie, Taylor, Zoe, Wilson, Brown, Smith,
+    Clarke, Green, Jones, Lee, Martin, Morgan, Parker, Rees, Thomas, Turner, Walker, White, Ahmed, Chen, Lopez, Nowak]
+  places: [Bath, Brighton, Bristol, Cambridge, Cardiff, Cornwall, Dover, Edinburgh, England, Glasgow, Leeds, Liverpool, London, Newcastle, Frankfurt,
+    Manchester, Oxford, Scotland, Wales, York, Britain, UK, Amsterdam, Rotterdam, Belgium, Germany, Holland, Netherlands, Portugal,
+    Greece, Switzerland, Paris, Rome, Madrid, Brussels, Lisbon, Berlin, Japan, Mexico, Thames, Alps]
+  other: [English, Dutch, German, Belgian, British, Portuguese, Greek, Japanese, Mexican, Christmas, Easter, Halloween,
+    Internet, Wi-Fi, OK]

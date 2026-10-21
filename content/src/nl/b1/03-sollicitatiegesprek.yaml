@@ -1,0 +1,87 @@
+id: nl-b1-u03
+title: { en: The job interview }
+icon: work
+topic: Presenting yourself, qualities, pay and conditions; the conditional with zou
+vocabulary:
+  - { target: de eigenschap, native: { en: "quality, characteristic" }, pos: noun, plural: eigenschappen }
+  - { target: het karakter, native: { en: "character, personality" }, pos: noun, plural: karakters, avoid: [nl.persoonlijkheid] }
+  - { target: de persoonlijkheid, native: { en: personality }, pos: noun, plural: persoonlijkheden }
+  - { target: de carrière, native: { en: career }, pos: noun, plural: carrières }
+  - { target: overtuigen, native: { en: to convince }, pos: verb }
+  - { target: de indruk, native: { en: impression }, pos: noun, plural: indrukken }
+  - { target: gemotiveerd, native: { en: motivated }, pos: adjective, avoid: [nl.enthousiast] }
+  - { target: enthousiast, native: { en: enthusiastic }, pos: adjective }
+  - { target: ambitieus, native: { en: ambitious }, pos: adjective }
+  - { target: betrouwbaar, native: { en: reliable }, pos: adjective }
+  - { target: geduldig, native: { en: patient }, pos: adjective }
+  - { target: behalen, native: { en: "to obtain, to get (a diploma, a result)" }, pos: verb }
+  - { target: afstuderen, native: { en: to graduate }, pos: verb }
+  - { target: de studie, native: { en: "studies, course of study" }, pos: noun, plural: studies }
+  - { target: het getuigschrift, native: { en: certificate }, pos: noun, plural: getuigschriften }
+  - { target: de referentie, native: { en: reference }, pos: noun, plural: referenties }
+  - { target: het resultaat, native: { en: result }, pos: noun, plural: resultaten, avoid: [nl.uitslag] }
+  - { target: de uitslag, native: { en: "result (of a test, an election)" }, pos: noun, plural: uitslagen }
+  - { target: de verwachting, native: { en: expectation }, pos: noun, plural: verwachtingen }
+  - { target: onderhandelen, native: { en: to negotiate }, pos: verb }
+  - { target: bruto, native: { en: gross (pay) }, pos: adjective, avoid: [nl.netto] }
+  - { target: netto, native: { en: net (pay) }, pos: adjective }
+  - { target: de maaltijdcheque, native: { en: "meal voucher (paid by the employer)" }, pos: noun, plural: maaltijdcheques }
+  - { target: de bedrijfswagen, native: { en: company car }, pos: noun, plural: bedrijfswagens, alsoNL: de auto van de zaak }
+  - { target: de laptop, native: { en: laptop }, pos: noun, plural: laptops }
+  - { target: thuiswerken, native: { en: to work from home }, pos: verb }
+  - { target: het aantal, native: { en: number (amount) }, pos: noun, plural: aantallen }
+  - { target: groeien, native: { en: to grow }, pos: verb }
+  - { target: ontwikkelen, native: { en: to develop }, pos: verb }
+  - { target: lijken, native: { en: "to seem, to look like" }, pos: verb }
+  - { target: eigen, native: { en: own }, pos: adjective }
+  - { target: vooral, native: { en: "especially, mainly" }, pos: adverb }
+  - { target: volgens, native: { en: according to }, pos: preposition }
+  - { target: af en toe, native: { en: "now and then, from time to time" }, pos: phrase }
+  - { target: verder, native: { en: "further, (to go) on" }, pos: adverb }
+  - { target: de test, native: { en: test }, pos: noun, plural: tests }
+  - { target: het geduld, native: { en: patience }, pos: noun, plural: "-" }
+  - { target: klinken, native: { en: to sound }, pos: verb }
+  - { target: kloppen, native: { en: "to knock; to be right (as in: that's right)" }, pos: verb }
+  - { target: ontmoeten, native: { en: to meet }, pos: verb }
+  - { target: vreemd, native: { en: "strange, foreign" }, pos: adjective }
+  - { target: bestaan, native: { en: to exist }, pos: verb }
+sentences:
+  - { id: s01, target: "Wat is volgens u uw sterkste eigenschap?", native: { en: "What do you think is your strongest quality?" }, items: [nl.eigenschap, nl.volgens] }
+  - { id: s02, target: "Hij heeft een rustig karakter.", native: { en: "He has a calm character." }, items: [nl.karakter] }
+  - { id: s03, target: "We zoeken iemand met een sterke persoonlijkheid.", native: { en: "We're looking for someone with a strong personality." }, items: [nl.persoonlijkheid] }
+  - { id: s04, target: "Ze wil in België een nieuwe carrière beginnen.", native: { en: "She wants to start a new career in Belgium." }, items: [nl.carriere] }
+  - { id: s05, target: "Kunt u mij ervan overtuigen dat u de beste kandidaat bent?", native: { en: "Can you convince me that you're the best candidate?" }, items: [nl.overtuigen] }
+  - { id: s06, target: "Ik hoop dat ik een goede indruk heb gemaakt.", native: { en: "I hope I made a good impression." }, items: [nl.indruk], acceptAlso: ["Ik hoop dat ik een goede indruk gemaakt heb."] }
+  - { id: s07, target: "De kandidaat die we gisteren hebben gezien, was erg gemotiveerd.", native: { en: "The candidate we saw yesterday was very motivated." }, items: [nl.gemotiveerd], acceptAlso: ["De kandidaat die we gisteren gezien hebben, was erg gemotiveerd."] }
+  - { id: s08, target: "Ze vertelde enthousiast over haar vorige job.", native: { en: "She talked enthusiastically about her previous job." }, items: [nl.enthousiast] }
+  - { id: s09, target: "Ik ben ambitieus en ik wil graag verder leren.", native: { en: "I'm ambitious and I'd like to keep learning." }, items: [nl.ambitieus, nl.verder] }
+  - { id: s10, target: "Mijn vorige baas zegt dat ik heel betrouwbaar ben.", native: { en: "My previous boss says that I'm very reliable." }, items: [nl.betrouwbaar] }
+  - { id: s11, target: "Met kinderen moet je geduldig zijn.", native: { en: "You have to be patient with children." }, items: [nl.geduldig], acceptAlso: ["Je moet geduldig zijn met kinderen.", "Je moet met kinderen geduldig zijn."] }
+  - { id: s12, target: "Ik heb mijn diploma in 2018 behaald.", native: { en: "I got my qualification in 2018." }, items: [nl.behalen], acceptAlso: ["In 2018 heb ik mijn diploma behaald.", "Ik heb in 2018 mijn diploma behaald."] }
+  - { id: s13, target: "Nadat ze was afgestudeerd, vond ze meteen werk.", native: { en: "After she had graduated, she found work straight away." }, items: [nl.afstuderen], acceptAlso: ["Ze vond meteen werk nadat ze was afgestudeerd.", "Nadat ze afgestudeerd was, vond ze meteen werk.", "Ze vond meteen werk nadat ze afgestudeerd was."], finite: { word: vond, hint: { en: "vinden (past)" } } }
+  - { id: s14, target: "Welke studies hebt u gedaan?", native: { en: "What did you study?" }, items: [nl.studie] }
+  - { id: s15, target: "Wilt u uw getuigschrift meebrengen naar het gesprek?", native: { en: "Would you bring your certificate to the interview?" }, items: [nl.getuigschrift] }
+  - { id: s16, target: "Kunt u ons twee referenties geven?", native: { en: "Can you give us two references?" }, items: [nl.referentie] }
+  - { id: s17, target: "Het resultaat van het gesprek krijgt u volgende week.", native: { en: "You'll get the result of the interview next week." }, items: [nl.resultaat], acceptAlso: ["U krijgt het resultaat van het gesprek volgende week.", "Volgende week krijgt u het resultaat van het gesprek."] }
+  - { id: s18, target: "De uitslag van de test was goed.", native: { en: "The result of the test was good." }, items: [nl.uitslag, nl.test] }
+  - { id: s19, target: "Wat zijn uw verwachtingen van deze job?", native: { en: "What are your expectations of this job?" }, items: [nl.verwachting] }
+  - { id: s20, target: "Over het loon kunnen we nog onderhandelen.", native: { en: "We can still negotiate about the pay." }, items: [nl.onderhandelen], acceptAlso: ["We kunnen nog over het loon onderhandelen."] }
+  - { id: s21, target: "Bruto verdient u meer dan netto.", native: { en: "You earn more gross than net." }, items: [nl.bruto, nl.netto], acceptAlso: ["U verdient bruto meer dan netto."] }
+  - { id: s22, target: "Elke werkdag krijgt u een maaltijdcheque.", native: { en: "You get a meal voucher every working day." }, items: [nl.maaltijdcheque], acceptAlso: ["U krijgt elke werkdag een maaltijdcheque."] }
+  - { id: s23, target: "Bij deze functie hoort een bedrijfswagen.", native: { en: "This position comes with a company car." }, items: [nl.bedrijfswagen] }
+  - { id: s24, target: "U krijgt een laptop van het bedrijf.", native: { en: "You get a laptop from the company." }, items: [nl.laptop] }
+  - { id: s25, target: "Zou ik twee dagen per week kunnen thuiswerken?", native: { en: "Could I work from home two days a week?" }, items: [nl.thuiswerken] }
+  - { id: s26, target: "Het aantal kandidaten was erg groot.", native: { en: "The number of candidates was very large." }, items: [nl.aantal] }
+  - { id: s27, target: "Het bedrijf groeit snel en zoekt daarom nieuwe mensen.", native: { en: "The company is growing fast and is therefore looking for new people." }, items: [nl.groeien] }
+  - { id: s28, target: "Hier kunt u uw talent verder ontwikkelen.", native: { en: "Here you can develop your talent further." }, items: [nl.ontwikkelen, nl.verder], acceptAlso: ["U kunt hier uw talent verder ontwikkelen.", "U kunt uw talent hier verder ontwikkelen."] }
+  - { id: s29, target: "Het lijkt me een interessante job.", native: { en: "It seems like an interesting job." }, items: [nl.lijken] }
+  - { id: s30, target: "Ik zou graag mijn eigen ideeën gebruiken.", native: { en: "I'd like to use my own ideas." }, items: [nl.eigen], acceptAlso: ["Graag zou ik mijn eigen ideeën gebruiken.", "Ik zou mijn eigen ideeën graag gebruiken."] }
+  - { id: s31, target: "Ik werk vooral met klanten.", native: { en: "I mainly work with customers." }, items: [nl.vooral] }
+  - { id: s32, target: "Af en toe moet u ook in het weekend werken.", native: { en: "Now and then you also have to work at the weekend." }, items: [nl.af-en-toe], acceptAlso: ["U moet af en toe ook in het weekend werken."] }
+  - { id: s33, target: "Klopt het dat de job in Antwerpen is?", native: { en: "Is it right that the job is in Antwerp?" }, items: [nl.kloppen] }
+  - { id: s34, target: "Morgen ontmoet ik de directeur van het bedrijf.", native: { en: "Tomorrow I'm meeting the director of the company." }, items: [nl.ontmoeten], acceptAlso: ["Ik ontmoet morgen de directeur van het bedrijf."] }
+  - { id: s35, target: "Een gesprek in een vreemde taal is moeilijk.", native: { en: "An interview in a foreign language is difficult." }, items: [nl.vreemd] }
+  - { id: s36, target: "Het gesprek bestaat uit twee delen.", native: { en: "The interview consists of two parts." }, items: [nl.bestaan] }
+  - { id: s37, target: "Je moet geduld hebben, want het antwoord komt pas na twee weken.", native: { en: "You have to be patient, because the answer only comes after two weeks." }, items: [nl.geduld] }
+  - { id: s38, target: "Die job klinkt heel interessant.", native: { en: "That job sounds very interesting." }, items: [nl.klinken] }
+texts: [nl-b1-t04]

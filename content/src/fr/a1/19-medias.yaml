@@ -1,0 +1,32 @@
+id: fr-a1-u19
+title: { nl: Bellen en mailen, en: "Phones, computers and newspapers" }
+icon: media
+topic: Le téléphone; l'ordinateur; les journaux
+vocabulary:
+  - { target: le téléphone, native: { nl: de telefoon, en: "phone" }, pos: noun, gender: m }
+  - { target: téléphoner, native: { nl: bellen, en: "to phone" }, pos: verb }
+  - { target: appeler, native: { nl: "opbellen, roepen", en: "to call" }, pos: verb, avoid: [fr.telephoner] }
+  - { target: "l'ordinateur", native: { nl: de computer, en: "computer" }, pos: noun, gender: m }
+  - { target: internet, native: { nl: het internet, en: "internet" }, pos: noun, gender: m }
+  - { target: le mail, native: { nl: de e-mail, en: "email" }, pos: noun, gender: m, typedAlso: { en: [email, e-mail] } }
+  - { target: le journal, native: { nl: de krant, en: "newspaper" }, pos: noun, gender: m }
+  - { target: le magazine, native: { nl: het tijdschrift, en: "magazine" }, pos: noun, gender: m }
+  - { target: "l'article", native: { nl: het artikel, en: "article" }, pos: noun, gender: m }
+  - { target: le jeu vidéo, native: { nl: het computerspel, en: "video game" }, pos: noun, gender: m }
+  - { target: la vidéo, native: { nl: "het filmpje, de video", en: "video" }, pos: noun, gender: f }
+sentences:
+  - { id: s01, target: "Où est mon téléphone ?", native: { nl: "Waar is mijn telefoon?", en: "Where's my phone?" }, items: [fr.telephone] }
+  - { id: s02, target: "Le soir, je téléphone à ma grand-mère.", native: { nl: "'s Avonds bel ik mijn oma.", en: "In the evening I phone my grandmother." }, items: [fr.telephoner] }
+  - { id: s03, target: "Le soir, nous appelons nos parents.", native: { nl: "'s Avonds bellen we onze ouders.", en: "In the evening we call our parents." }, items: [fr.appeler] }
+  - { id: s04, target: "Maman m'appelle pour le dîner.", native: { nl: "Mama roept me voor het avondeten.", en: "Mum calls me for dinner." }, items: [fr.appeler] }
+  - { id: s05, target: "Je joue à l'ordinateur de papa.", native: { nl: "Ik speel op papa's computer.", en: "I play on Dad's computer." }, items: [fr.ordinateur] }
+  - { id: s06, target: "Je cherche une photo sur internet.", native: { nl: "Ik zoek een foto op internet.", en: "I'm looking for a photo on the internet." }, items: [fr.internet] }
+  - { id: s07, target: "J'écris un mail à mon ami français.", native: { nl: "Ik schrijf een e-mail aan mijn Franse vriend.", en: "I'm writing an email to my French friend." }, items: [fr.mail] }
+  - { id: s08, target: "Papa lit le journal.", native: { nl: "Papa leest de krant.", en: "Dad is reading the newspaper." }, items: [fr.journal] }
+  - { id: s09, target: "Il y a un article sur notre classe dans le journal de l'école.", native: { nl: "Er staat een artikel over onze klas in de schoolkrant.", en: "There's an article about our class in the school newspaper." }, items: [fr.article, fr.journal] }
+  - { id: s10, target: "Je lis un magazine sur les animaux.", native: { nl: "Ik lees een tijdschrift over dieren.", en: "I'm reading a magazine about animals." }, items: [fr.magazine] }
+  - { id: s11, target: "Je joue à un jeu vidéo avec mon frère.", native: { nl: "Ik speel een computerspel met mijn broer.", en: "I'm playing a video game with my brother." }, items: [fr.jeu-video] }
+  - { id: s12, target: "On regarde une vidéo ?", native: { nl: "Zullen we een filmpje kijken?", en: "Shall we watch a video?" }, items: [fr.video] }
+lessons:
+  - { id: l01, title: { nl: Telefoon en computer, en: "Phones and computers" }, vocab: [fr.telephone, fr.telephoner, fr.appeler, fr.ordinateur, fr.internet] }
+  - { id: l02, title: { nl: "Mail, krant en tijdschrift", en: "Emails, newspapers and magazines" }, vocab: [fr.mail, fr.journal, fr.magazine, fr.article, fr.jeu-video, fr.video] }

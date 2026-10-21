@@ -1,0 +1,21 @@
+[Unit]
+Description=Anzo nightly data check (check:integrity on a fresh copy of the database)
+Documentation=file:///opt/anzo/README.md
+# After a missed night the catch-up run waits for the service (which may be applying a migration).
+After=anzo.service
+
+[Service]
+Type=oneshot
+User=anzo
+Group=anzo
+SupplementaryGroups=anzo-ops
+WorkingDirectory=/opt/anzo
+Environment=ANZO_DATA_DIR=/opt/anzo/data
+ExecStart=/usr/bin/node scripts/check-integrity.js --status
+# A hung run must not block every later run of its timer.
+TimeoutStartSec=10min
+NoNewPrivileges=true
+ProtectSystem=strict
+# data/: SQLite's WAL shared-memory file while copying; the result goes to the spool for Admin → System.
+ReadWritePaths=/opt/anzo/data -/var/spool/anzo /var/log/anzo
+PrivateTmp=true

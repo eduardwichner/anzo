@@ -1,0 +1,50 @@
+id: nl-a2-u04
+title: { en: "Bigger, better, best" }
+icon: chart
+topic: Comparatives and superlatives
+vocabulary:
+  - { id: nl.dan-conj, target: dan, native: { en: "than" }, pos: conjunction }
+  - { target: net zo, native: { en: "just as" }, pos: phrase }
+  - { target: hetzelfde, native: { en: "the same" }, pos: adjective, avoid: [nl.verschillend] }
+  - { target: verschillend, native: { en: different }, pos: adjective }
+  - { target: hoog, native: { en: high }, pos: adjective, avoid: [nl.laag] }
+  - { target: laag, native: { en: low }, pos: adjective }
+  - { target: sterk, native: { en: strong }, pos: adjective, avoid: [nl.zwak] }
+  - { target: zwak, native: { en: weak }, pos: adjective }
+  - { target: hard, native: { en: "hard, fast, loud" }, pos: adjective, avoid: [nl.zacht] }
+  - { target: zacht, native: { en: "soft, quiet" }, pos: adjective }
+  - { target: modern, native: { en: modern }, pos: adjective, avoid: [nl.ouderwets] }
+  - { target: ouderwets, native: { en: old-fashioned }, pos: adjective }
+  - { target: praktisch, native: { en: practical }, pos: adjective }
+  - { target: handig, native: { en: "handy, useful" }, pos: adjective, avoid: [nl.praktisch] }
+  - { target: populair, native: { en: popular }, pos: adjective }
+  - { target: bekend, native: { en: well-known }, pos: adjective, avoid: [nl.beroemd] }
+  - { target: beroemd, native: { en: famous }, pos: adjective }
+  - { target: speciaal, native: { en: special }, pos: adjective, avoid: [nl.gewoon] }
+  - { target: gewoon, native: { en: "ordinary, normal" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Antwerpen is groter dan Gent.", native: { en: "Antwerp is bigger than Ghent." }, items: [nl.dan-conj] }
+  - { id: s02, target: "Mijn broer is ouder dan ik.", native: { en: "My brother is older than me." }, items: [nl.dan-conj] }
+  - { id: s03, target: "Deze jas is net zo duur als die.", native: { en: "This coat is just as expensive as that one." }, items: [nl.net-zo] }
+  - { id: s04, target: "We hebben hetzelfde hemd!", native: { en: "We've got the same shirt!" }, items: [nl.hetzelfde] }
+  - { id: s05, target: "De twee zussen zijn heel verschillend.", native: { en: "The two sisters are very different." }, items: [nl.verschillend] }
+  - { id: s06, target: "Ons huis is hoger dan het huis van de buren.", native: { en: "Our house is taller than the neighbours' house." }, items: [nl.hoog] }
+  - { id: s07, target: "De prijzen zijn hier lager.", native: { en: "The prices are lower here." }, items: [nl.laag] }
+  - { id: s08, target: "Hij is de sterkste van de klas.", native: { en: "He's the strongest in the class." }, items: [nl.sterk] }
+  - { id: s09, target: "Na de griep voel ik me nog zwak.", native: { en: "After the flu I still feel weak." }, items: [nl.zwak] }
+  - { id: s10, target: "Hij rijdt te hard.", native: { en: "He drives too fast." }, items: [nl.hard] }
+  - { id: s11, target: "Spreek wat zachter, alsjeblieft.", native: { en: "Speak a bit more quietly, please." }, items: [nl.zacht] }
+  - { id: s12, target: "Hun keuken is heel modern.", native: { en: "Their kitchen is very modern." }, items: [nl.modern] }
+  - { id: s13, target: "Die kleren zijn ouderwets.", native: { en: "Those clothes are old-fashioned." }, items: [nl.ouderwets] }
+  - { id: s14, target: "Een fiets is praktischer dan een auto in de stad.", native: { en: "A bike is more practical than a car in town." }, items: [nl.praktisch], acceptAlso: ["In de stad is een fiets praktischer dan een auto.", "Een fiets is in de stad praktischer dan een auto."] }
+  - { id: s15, target: "Die app is heel handig.", native: { en: "That app is really handy." }, items: [nl.handig] }
+  - { id: s16, target: "Voetbal is de populairste sport in België.", native: { en: "Football is the most popular sport in Belgium." }, items: [nl.populair] }
+  - { id: s17, target: "Brugge is bekend om zijn pralines.", native: { en: "Bruges is known for its chocolates." }, items: [nl.bekend] }
+  - { id: s18, target: "Hij is een beroemde speler.", native: { en: "He's a famous player." }, items: [nl.beroemd] }
+  - { id: s19, target: "Vandaag is een speciale dag.", native: { en: "Today is a special day." }, items: [nl.speciaal] }
+  - { id: s20, target: "Het was een gewone dag.", native: { en: "It was an ordinary day." }, items: [nl.gewoon] }
+  - { id: s21, target: "Dit is het bekendste restaurant van de stad.", native: { en: "This is the best-known restaurant in town." }, items: [nl.bekend] }
+  - { id: s22, target: "Ik vind thee lekkerder dan koffie.", native: { en: "I find tea tastier than coffee." }, items: [nl.dan-conj] }
+  - { id: s23, target: "Mijn Nederlands is nu beter dan vorig jaar.", native: { en: "My Dutch is better now than last year." }, items: [nl.dan-conj], acceptAlso: ["Nu is mijn Nederlands beter dan vorig jaar."] }
+  - { id: s24, target: "Wat is het beste restaurant van Gent?", native: { en: "What's the best restaurant in Ghent?" }, items: [nl.speciaal] }
+  - { id: s25, target: "Ik drink liever thee.", native: { en: "I prefer tea." }, items: [nl.dan-conj] }

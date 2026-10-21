@@ -1,0 +1,77 @@
+id: nl-b1-u17
+title: { en: Consumer complaints }
+icon: shop
+topic: Orders, deliveries, guarantees, refunds, a formal complaint; the conditional and linking words
+vocabulary:
+  - { target: het pakket, native: { en: parcel }, pos: noun, plural: pakketten }
+  - { target: de zending, native: { en: "shipment, consignment" }, pos: noun, plural: zendingen, avoid: [nl.pakket] }
+  - { target: de verzendkosten, native: { en: "postage, shipping costs" }, pos: noun, plural: "-" }
+  - { target: terugsturen, native: { en: to send back }, pos: verb }
+  - { target: omruilen, native: { en: "to exchange (in a shop)" }, pos: verb }
+  - { target: de bedenktijd, native: { en: "cooling-off period" }, pos: noun, plural: "-" }
+  - { target: de tegoedbon, native: { en: "credit note, voucher" }, pos: noun, plural: tegoedbonnen }
+  - { target: de reparatie, native: { en: repair }, pos: noun, plural: reparaties }
+  - { target: teleurgesteld, native: { en: disappointed }, pos: adjective }
+  - { target: het excuus, native: { en: "apology, excuse" }, pos: noun, plural: excuses }
+  - { target: zich verontschuldigen, native: { en: to apologise }, pos: verb }
+  - { target: de oplossing, native: { en: solution }, pos: noun, plural: oplossingen }
+  - { target: eisen, native: { en: to demand }, pos: verb }
+  - { target: het recht, native: { en: right (a legal right) }, pos: noun, plural: rechten }
+  - { target: de consument, native: { en: consumer }, pos: noun, plural: consumenten }
+  - { target: de ombudsman, native: { en: ombudsman }, pos: noun, plural: ombudsmannen }
+  - { target: het geschil, native: { en: dispute }, pos: noun, plural: geschillen }
+  - { target: de advocaat, native: { en: lawyer }, pos: noun, plural: advocaten }
+  - { target: redelijk, native: { en: reasonable }, pos: adjective }
+  - { target: uiteraard, native: { en: "of course, naturally" }, pos: adverb }
+  - { target: jammer, native: { en: "a pity, a shame" }, pos: adjective, avoid: [nl.spijtig] }
+  - { target: spijtig, native: { en: "a pity, unfortunate" }, pos: adjective }
+  - { target: ontbreken, native: { en: to be missing }, pos: verb }
+  - { target: de beschrijving, native: { en: description }, pos: noun, plural: beschrijvingen }
+  - { target: bevatten, native: { en: to contain }, pos: verb }
+  - { target: het bewijs, native: { en: proof }, pos: noun, plural: bewijzen }
+  - { target: anders, native: { en: "otherwise; different(ly)" }, pos: adverb }
+  - { target: in plaats van, native: { en: instead of }, pos: phrase }
+  - { target: afhangen, native: { en: "to depend (+ van)" }, pos: verb }
+  - { target: afgeven, native: { en: "to hand in, to drop off" }, pos: verb }
+  - { target: onderweg, native: { en: on the way }, pos: adverb }
+  - { target: stappen, native: { en: "to step, to go (as in: to go to court)" }, pos: verb }
+  - { target: de rechter, native: { en: judge }, pos: noun, plural: rechters }
+  - { target: verkeerd, native: { en: wrong }, pos: adjective }
+  - { target: spijten, native: { en: "to be sorry (as in: I'm sorry)" }, pos: verb, avoid: [nl.zich-verontschuldigen] }
+  - { target: de heer, native: { en: "Mr, gentleman (formal)" }, pos: noun, plural: heren }
+sentences:
+  - { id: s01, target: "Het pakket werd bij de buren afgegeven.", native: { en: "The parcel was left with the neighbours." }, items: [nl.pakket, nl.afgeven], finite: { word: werd, hint: { en: "worden (past)" } } }
+  - { id: s02, target: "Uw zending is onderweg en komt morgen aan.", native: { en: "Your shipment is on its way and arrives tomorrow." }, items: [nl.zending, nl.onderweg] }
+  - { id: s03, target: "Boven vijftig euro zijn er geen verzendkosten.", native: { en: "There are no shipping costs on orders over fifty euros." }, items: [nl.verzendkosten], acceptAlso: ["Er zijn boven vijftig euro geen verzendkosten."] }
+  - { id: s04, target: "Je kunt het kleed binnen twee weken gratis terugsturen.", native: { en: "You can send the dress back free of charge within two weeks." }, items: [nl.terugsturen] }
+  - { id: s05, target: "Mag ik deze schoenen omruilen voor een grotere maat?", native: { en: "May I exchange these shoes for a bigger size?" }, items: [nl.omruilen] }
+  - { id: s06, target: "Bij een online aankoop heb je veertien dagen bedenktijd.", native: { en: "With an online purchase you have a fourteen-day cooling-off period." }, items: [nl.bedenktijd] }
+  - { id: s07, target: "In plaats van een terugbetaling kreeg ik een tegoedbon.", native: { en: "Instead of a refund I got a credit note." }, items: [nl.in-plaats-van, nl.tegoedbon], acceptAlso: ["Ik kreeg een tegoedbon in plaats van een terugbetaling."] }
+  - { id: s08, target: "De reparatie valt onder de garantie.", native: { en: "The repair is covered by the guarantee." }, items: [nl.reparatie] }
+  - { id: s09, target: "Ik ben erg teleurgesteld in de kwaliteit van dit product.", native: { en: "I'm very disappointed with the quality of this product." }, items: [nl.teleurgesteld] }
+  - { id: s10, target: "De winkel heeft zijn excuses aangeboden.", native: { en: "The shop has apologised." }, items: [nl.excuus] }
+  - { id: s11, target: "De verkoper verontschuldigde zich voor de fout.", native: { en: "The salesperson apologised for the mistake." }, items: [nl.zich-verontschuldigen], finite: { word: verontschuldigde, hint: { en: "zich verontschuldigen (past)" } } }
+  - { id: s12, target: "We zoeken samen naar een oplossing.", native: { en: "We'll look for a solution together." }, items: [nl.oplossing] }
+  - { id: s13, target: "Ik eis dat u mijn geld terugbetaalt.", native: { en: "I demand that you refund my money." }, items: [nl.eisen] }
+  - { id: s14, target: "Als consument hebt u het recht om een kapot product terug te brengen.", native: { en: "As a consumer you have the right to return a broken product." }, items: [nl.recht, nl.consument] }
+  - { id: s15, target: "Als de winkel niet reageert, kunt u naar de ombudsman stappen.", native: { en: "If the shop doesn't respond, you can go to the ombudsman." }, items: [nl.ombudsman, nl.stappen], acceptAlso: ["U kunt naar de ombudsman stappen als de winkel niet reageert."] }
+  - { id: s16, target: "Het geschil werd zonder rechter opgelost.", native: { en: "The dispute was settled without going to court." }, items: [nl.geschil, nl.rechter] }
+  - { id: s17, target: "Hij heeft een advocaat genomen.", native: { en: "He has hired a lawyer." }, items: [nl.advocaat] }
+  - { id: s18, target: "Ik vind dat een redelijke prijs.", native: { en: "I think that's a reasonable price." }, items: [nl.redelijk], acceptAlso: ["Dat vind ik een redelijke prijs."] }
+  - { id: s19, target: "Uiteraard betalen wij de verzendkosten.", native: { en: "Of course we'll pay the postage." }, items: [nl.uiteraard, nl.verzendkosten], acceptAlso: ["Wij betalen uiteraard de verzendkosten.", "De verzendkosten betalen wij uiteraard."] }
+  - { id: s20, target: "Het is jammer dat de levering zo lang duurt.", native: { en: "It's a pity that the delivery takes so long." }, items: [nl.jammer] }
+  - { id: s21, target: "Het is spijtig dat u niet tevreden bent.", native: { en: "It's unfortunate that you're not satisfied." }, items: [nl.spijtig] }
+  - { id: s22, target: "In het pakket ontbrak een onderdeel.", native: { en: "A part was missing from the parcel." }, items: [nl.ontbreken, nl.pakket], finite: { word: ontbrak, hint: { en: "ontbreken (past)" } } }
+  - { id: s23, target: "Het product was anders dan de beschrijving op de website.", native: { en: "The product was different from the description on the website." }, items: [nl.beschrijving, nl.anders] }
+  - { id: s24, target: "Het pakket bevatte een trui in de verkeerde kleur.", native: { en: "The parcel contained a jumper in the wrong colour." }, items: [nl.bevatten, nl.pakket, nl.verkeerd] }
+  - { id: s25, target: "Bewaar je kasticket als bewijs van aankoop.", native: { en: "Keep your receipt as proof of purchase." }, items: [nl.bewijs] }
+  - { id: s26, target: "Stuur het binnen twee weken terug, anders betalen we niets terug.", native: { en: "Send it back within two weeks, otherwise we won't refund anything." }, items: [nl.anders, nl.terugsturen] }
+  - { id: s27, target: "Of je je geld terugkrijgt, hangt af van de voorwaarden.", native: { en: "Whether you get your money back depends on the conditions." }, items: [nl.afhangen] }
+  - { id: s28, target: "Zou ik dit toestel kunnen omruilen?", native: { en: "Could I exchange this device?" }, items: [nl.omruilen] }
+  - { id: s29, target: "Ik stuur het pakket terug, omdat er een onderdeel ontbreekt.", native: { en: "I'm sending the parcel back because a part is missing." }, items: [nl.ontbreken, nl.pakket, nl.terugsturen], acceptAlso: ["Omdat er een onderdeel ontbreekt, stuur ik het pakket terug."] }
+  - { id: s30, target: "Het spijt ons dat uw pakket te laat is.", native: { en: "We're sorry that your parcel is late." }, items: [nl.spijten, nl.pakket] }
+  - { id: s31, target: "Je kunt je spullen morgen in de winkel afhalen.", native: { en: "You can collect your things at the shop tomorrow." }, items: [nl.spullen], acceptAlso: ["Je kunt morgen je spullen in de winkel afhalen."] }
+  - { id: s32, target: "De heer Peeters is niet tevreden over de reparatie.", native: { en: "Mr Peeters isn't satisfied with the repair." }, items: [nl.heer, nl.reparatie] }
+  - { id: s33, target: "Ik heb een klacht over de reparatie.", native: { en: "I have a complaint about the repair." }, items: [nl.reparatie] }
+  - { id: s34, target: "Veel consumenten klagen over de lange wachttijd.", native: { en: "A lot of consumers complain about the long wait." }, items: [nl.consument] }
+texts: [nl-b1-t18]

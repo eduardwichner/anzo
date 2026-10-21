@@ -1,0 +1,42 @@
+id: nl-b2-t13
+kind: reading
+title: { en: Why I volunteer }
+topic: Society and diversity (four volunteers in a city magazine)
+level: B2
+paragraphs:
+  - - { id: nl-b2-t13-s01, target: "Elke dinsdagavond geef ik in het buurthuis les aan nieuwkomers die Nederlands willen leren.", native: { en: "Every Tuesday evening I teach Dutch at the community centre to newcomers who want to learn it." } }
+    - { id: nl-b2-t13-s02, target: "Mijn ouders kwamen veertig jaar geleden uit Turkije, en ik weet hoe moeilijk het is om in een nieuw land je weg te vinden.", native: { en: "My parents came from Turkey forty years ago, and I know how hard it is to find your way in a new country." } }
+    - { id: nl-b2-t13-s03, target: "Als iemand mijn moeder toen geholpen had, zou ze zich veel minder eenzaam gevoeld hebben.", native: { en: "If someone had helped my mother at the time, she would have felt much less lonely." } }
+  - - { id: nl-b2-t13-s04, target: "Sinds mijn pensioen werk ik twee ochtenden per week als vrijwilliger in het ziekenhuis.", native: { en: "Since my retirement I have been working two mornings a week as a volunteer in the hospital." } }
+    - { id: nl-b2-t13-s05, target: "Ik breng patiënten naar hun afspraak en ik drink een koffie met wie geen bezoek krijgt.", native: { en: "I take patients to their appointments and I have a coffee with those who get no visitors." } }
+    - { id: nl-b2-t13-s06, target: "Ik doe het niet alleen voor de patiënten: het houdt mij ook jong.", native: { en: "I don't do it just for the patients: it also keeps me young." } }
+  - - { id: nl-b2-t13-s07, target: "Ik ben trainer van de jongste ploeg van onze voetbalclub.", native: { en: "I am the coach of the youngest team at our football club." } }
+    - { id: nl-b2-t13-s08, target: "In mijn ploeg spelen kinderen van heel verschillende afkomst, en tijdens het spel maakt dat niets uit.", native: { en: "Children from very different backgrounds play in my team, and during the game that makes no difference at all." } }
+    - { id: nl-b2-t13-s09, target: "Naast mijn studie is het soms veel, maar ik zou het voor geen geld willen missen.", native: { en: "Alongside my studies it's sometimes a lot, but I wouldn't miss it for anything." } }
+  - - { id: nl-b2-t13-s10, target: "Toen ik vijf jaar geleden asiel aanvroeg, sprak ik geen woord Nederlands.", native: { en: "When I applied for asylum five years ago, I didn't speak a word of Dutch." } }
+    - { id: nl-b2-t13-s11, target: "Nu werk ik als vrijwillige tolk voor mensen die net zijn aangekomen.", native: { en: "Now I work as a volunteer interpreter for people who have just arrived." } }
+    - { id: nl-b2-t13-s12, target: "Ik wil iets teruggeven aan de mensen die mij toen geholpen hebben.", native: { en: "I want to give something back to the people who helped me at the time." } }
+glossary:
+  - { word: tolk, native: { en: interpreter } }
+  - { word: aanvroeg, native: { en: "applied for (aanvragen)" } }
+items: [nl.asiel, nl.afkomst, nl.solidariteit, nl.engagement, nl.pensioen]
+questions:
+  - id: nl-b2-t13-q1
+    type: match_texts
+    labels: [Elif, Jef, Lies, Yonas]
+    statements:
+      - { id: nl-b2-t13-q1-a, statement: "Deze persoon doet vrijwilligerswerk naast een studie.", paragraph: 3 }
+      - { id: nl-b2-t13-q1-b, statement: "Deze persoon is zelf als vluchteling naar België gekomen.", paragraph: 4 }
+      - { id: nl-b2-t13-q1-c, statement: "Deze persoon is gepensioneerd.", paragraph: 2 }
+      - { id: nl-b2-t13-q1-d, statement: "Deze persoon denkt aan wat een familielid vroeger moeilijk vond.", paragraph: 1 }
+      - { id: nl-b2-t13-q1-e, statement: "Volgens deze persoon is afkomst niet belangrijk tijdens het spel.", paragraph: 3 }
+      - { id: nl-b2-t13-q1-f, statement: "Deze persoon kende eerst geen Nederlands en helpt nu zelf nieuwkomers.", paragraph: 4 }
+  - { id: nl-b2-t13-q2, type: summary, options: ["Vier mensen vertellen waarom ze zich als vrijwilliger engageren.", "Vier vrijwilligers vertellen waarom ze na veel jaren gestopt zijn en geen tijd meer hebben om zich te engageren.", "Vier nieuwkomers vertellen over hun eerste jaar in België."], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-t13-l1, type: complete, statement: "Iemand die met pensioen is, werkt twee ochtenden per week in het ___.", answers: [ziekenhuis] }
+  - { id: nl-b2-t13-l2, type: true_false_notgiven, statement: "De vrijwilliger van wie de ouders uit Turkije kwamen, geeft op dinsdagavond les.", answer: true }
+wordForm:
+  - { sentence: nl-b2-t13-s08, word: verschillende, stem: verschil }
+  - { sentence: nl-b2-t13-s07, word: jongste, stem: jong, acceptAlso: [jongere, jonge] }
+  - { sentence: nl-b2-t13-s04, word: vrijwilliger, stem: vrijwillig }
+orderable: false

@@ -1,0 +1,1205 @@
+{
+  "app": {
+    "name": "Anzo",
+    "loading": "Loading…",
+    "error": "Something went wrong. Please try again.",
+    "offline": "No connection to Anzo.",
+    "retry": "Try again",
+    "back": "Back",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "languages": {
+    "en": "English",
+    "fr": "French",
+    "nl": "Dutch",
+    "fr-en": "French"
+  },
+  "uiLanguages": {
+    "nl": "Nederlands",
+    "en": "English"
+  },
+  "login": {
+    "title": "Who are you?",
+    "hello": "Hi {name}!",
+    "password": "Password",
+    "username": "Username",
+    "submit": "Log in",
+    "wrong": "That password is not right.",
+    "tooMany": "Too many tries. Wait a minute.",
+    "otherAccount": "Other account",
+    "otherTitle": "Log in with your username",
+    "language": "App language"
+  },
+  "home": {
+    "greeting": "Hi {name}!",
+    "levels": "Levels",
+    "settings": "Settings",
+    "xp": "XP",
+    "xpLabel": "{n} XP",
+    "streakLabel": "{n} days in a row",
+    "empty": "There are no lessons yet.",
+    "lessonDone": "{title}: done",
+    "lessonCurrent": "{title}: start",
+    "lessonLocked": "{title}: locked",
+    "start": "Start",
+    "lessonOptional": "{title}: optional",
+    "optionalLevel": "Optional: you start further on",
+    "levelBarLabel": "Level {level}, {unit}, {n}% done. Open the level overview",
+    "currentLesson": "Current lesson",
+    "practice": "Practice",
+    "practiceLabel": "Practice: {n} words to review",
+    "practiceCaughtUp": "Practice: all caught up",
+    "profile": "My profile",
+    "todayXp": "{xp} / {goal} XP today",
+    "goalRingLabel": "Daily goal: {xp} of {goal} XP",
+    "adminLink": "Admin",
+    "lessonExtraDone": "{title}: extra practice, done",
+    "branchLevel": "as many lessons as you like, or none",
+    "extraNumbered": "{title} {n}"
+  },
+  "levels": {
+    "title": "Levels",
+    "available": "Available",
+    "planned": "Coming soon",
+    "roadmap": "Later",
+    "percentDone": "{n}% done",
+    "goHere": "Go here",
+    "close": "Close",
+    "optional": "Optional: you start further on",
+    "current": "You are here",
+    "preview": "Preview",
+    "extrasDone": "Extra practice: {n} of {total}",
+    "branch": "Optional branch",
+    "branchOf": "Choose it after {level}: as many as you like, or none"
+  },
+  "exercise": {
+    "multiple_choice": {
+      "fromTarget": "What does this mean?",
+      "toTarget": "How do you say this in {language}?"
+    },
+    "match_pairs": "Match the pairs",
+    "build_sentence": "Translate this sentence",
+    "fill_blank": {
+      "choose": "Fill in the blank",
+      "type": "Type the missing word",
+      "finiteVerb": "Type the verb in the right form",
+      "wordForm": "Form a word from the word in capitals that fits the gap"
+    },
+    "listen_choose": {
+      "target": "What do you hear?",
+      "native": "What does the word you hear mean?",
+      "nativeSentence": "What does the sentence you hear mean?"
+    },
+    "listen_type": "Type what you hear",
+    "speak": "Say it",
+    "reading": {
+      "mc": "Read the text and answer the question",
+      "true_false_notgiven": "Read the text: is this true, false, or not in the text?",
+      "match_heading": "Read the text: which heading fits the paragraph?",
+      "summary": "Read the text: which summary fits it best?",
+      "match_texts": "Read the texts: who says what? Choose a person for each sentence"
+    },
+    "dialogue": {
+      "mc": "Read the conversation and answer the question",
+      "true_false_notgiven": "Read the conversation: is this true, false, or not in it?",
+      "summary": "Read the conversation: which summary fits it best?"
+    },
+    "listening": {
+      "mc": "Listen and answer the question",
+      "true_false_notgiven": "Listen: is this true, false, or not said?",
+      "match_heading": "Listen: which heading fits the paragraph?",
+      "complete": "Listen and complete the sentence (1–3 words)"
+    },
+    "order_paragraphs": "Put the parts in the right order",
+    "cloze": {
+      "choose": "Fill in the gaps",
+      "type": "Type the missing words"
+    },
+    "open_cloze": "Type one word in each gap",
+    "word_form": "Form a word from the word in capitals for each gap",
+    "gap_sentence": "Sentences are missing from the text: put the right sentence in each gap (one sentence is left over)",
+    "transform": "Complete the second sentence so that it means the same as the first. Use the word given, unchanged (2–6 words)"
+  },
+  "lesson": {
+    "backHome": "Back to Home",
+    "check": "Check",
+    "continue": "Continue",
+    "quit": "Stop",
+    "progress": "{done} of {total}",
+    "correct": "Well done!",
+    "wrong": "Not quite",
+    "correctAnswer": "Correct answer:",
+    "accents": "Watch the accents:",
+    "pairsWrong": "One pair went wrong.",
+    "comesBack": "This one comes back later.",
+    "hint": "Hint: {hint}",
+    "typeHere": "Type here…",
+    "typeLabel": "Your answer",
+    "blank": "empty box",
+    "yourSentence": "Your sentence",
+    "wordBank": "Words",
+    "reservedTitle": "Coming soon",
+    "reservedText": "This kind of exercise is coming soon.",
+    "skip": "Skip",
+    "listen": "Listen",
+    "notFound": "This lesson does not exist.",
+    "spelling": "Almost! This is how you spell it:",
+    "typeWhatYouHear": "Type what you hear…",
+    "listenAgain": "Listen again",
+    "alsoNL": "In the Netherlands: {nl} (for {word})",
+    "capsNote": "Capitals and full stops don't count.",
+    "extraWords": "Not in the sentence: {words}",
+    "mark": {
+      "wrong": "wrong",
+      "missing": "missing",
+      "accents": "watch the accents",
+      "spelling": "almost right"
+    }
+  },
+  "done": {
+    "title": "Lesson done!",
+    "score": "Score",
+    "scoreValue": "{n}%",
+    "xpEarned": "+{n}",
+    "streak": "{n} days in a row",
+    "streakOne": "1 day in a row",
+    "again": "Once more",
+    "goalReached": "Daily goal reached!",
+    "badgeClose": "Continue",
+    "continue": "Continue",
+    "lowScore": "Tricky? Try it once more: the second time it sticks better."
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "App language",
+    "languageHelp": "The languages taught in the lessons stay as they are.",
+    "avatar": "Choose your avatar",
+    "avatarColour": "Colour",
+    "avatarSaved": "Your avatar has been changed.",
+    "changePassword": "Change password",
+    "current": "Current password",
+    "next": "New password",
+    "repeat": "New password again",
+    "save": "Save",
+    "saved": "Your password has been changed.",
+    "mismatch": "The new passwords are not the same.",
+    "tooShort": "Use at least {min} characters.",
+    "wrongCurrent": "Your current password is not right.",
+    "logout": "Log out",
+    "reset": "Reset progress",
+    "resetIntro": "Start a level or everything again. The XP from those lessons goes; your streak stays.",
+    "resetNothing": "This account has no progress to reset.",
+    "resetScope": "What do you want to reset?",
+    "resetScopeTrack": "All of {language}",
+    "resetScopePack": "Level {cefr} ({title})",
+    "resetNext": "Next",
+    "resetConfirmTitle": "Are you sure?",
+    "resetConfirmText": "You are resetting: {scope}. This cannot be undone.",
+    "resetPassword": "Your password",
+    "resetTypeWord": "Type {word} to confirm",
+    "resetWord": "RESET",
+    "resetSubmit": "Reset",
+    "resetDone": "Reset: {scope}.",
+    "resetWrongPassword": "That password is not right.",
+    "resetWrongWord": "Type exactly {word}.",
+    "dailyGoal": "Daily goal",
+    "dailyGoalHelp": "How much XP you want to earn each day. The ring around your buddy on the home screen shows how far you are.",
+    "soundEffects": "Sound effects",
+    "soundEffectsHelp": "A chime for a right answer, a soft tone for a wrong one and a fanfare at the end of a lesson.",
+    "autoplay": "Play words automatically",
+    "autoplayHelp": "Questions and listening exercises in the language you are learning are read aloud once when they appear. The 🔊 and 🐢 buttons always work.",
+    "showOnBoard": "Show me on the family board",
+    "showOnBoardHelp": "Your XP this week and the days you practised, next to the others. The board starts again every Monday.",
+    "theme": "Theme",
+    "themeHelp": "System follows the device's own setting.",
+    "themeSystem": "System",
+    "themeLight": "Light",
+    "themeDark": "Dark"
+  },
+  "admin": {
+    "title": "Admin",
+    "users": "Users",
+    "addUser": "Add user",
+    "newUserTitle": "New user",
+    "editUserTitle": "Edit {name}",
+    "edit": "Edit",
+    "name": "Name",
+    "role": "Role",
+    "roleChild": "Learner",
+    "roleAdmin": "Admin",
+    "track": "Language",
+    "noTrack": "—",
+    "xp": "XP",
+    "streak": "Streak",
+    "lessons": "Lessons",
+    "statsLine": "{xp} XP · streak {streak} · lessons done: {lessons}",
+    "xpStreak": "{xp} XP · streak {streak}",
+    "hiddenFromLogin": "not on the login screen",
+    "userCreated": "{name} has been added.",
+    "userSaved": "Saved.",
+    "form": {
+      "username": "Username",
+      "usernameHelp": "2–24 characters: lower-case letters, digits, - and _. Cannot be changed later.",
+      "displayName": "Name shown in the app",
+      "role": "Role",
+      "uiLang": "App language",
+      "avatar": "Avatar",
+      "password": "Initial password",
+      "newPassword": "New password (leave empty to keep it)",
+      "passwordHelp": "At least {min} characters.",
+      "mustChange": "Must change the password at first login",
+      "showOnLogin": "Shown on the login screen",
+      "canSelfReset": "May reset own progress",
+      "create": "Add",
+      "startPack": "Start level",
+      "startPackHelp": "Lessons of earlier levels stay playable but are optional; the path starts at the first lesson of this level.",
+      "nativeLang": "Native language",
+      "nativeLangHelp": "The meanings in the exercises are in this language, and courses are offered for it. Changing it keeps all progress.",
+      "audience": "Wording",
+      "audienceHelp": "Adults are addressed as adults in the few texts that speak to a child.",
+      "canSelfEnroll": "May add and hide courses",
+      "firstCourse": "First course",
+      "firstCourseNone": "None yet",
+      "onBoard": "Shown on the family board"
+    },
+    "errors": {
+      "username": {
+        "invalid": "Use 2–24 characters: lower-case letters, digits, - or _.",
+        "taken": "This username already exists."
+      },
+      "displayName": "Enter a name (at most 30 characters).",
+      "password": "At least {min} characters.",
+      "last_admin": "The last admin cannot be removed or made a child.",
+      "cannot_delete_self": "You cannot delete your own account.",
+      "cannot_demote_self": "You cannot make yourself a child.",
+      "confirm_mismatch": "The username does not match.",
+      "startPack": "This start level is not available for this language.",
+      "course": "This course is not offered for this native language."
+    },
+    "newPassword": "New password for {name}",
+    "setPassword": "Set password",
+    "passwordSet": "Password set for {name}.",
+    "tooShort": "At least {min} characters.",
+    "viewProgress": "Show lessons",
+    "hideProgress": "Hide lessons",
+    "lesson": "Lesson",
+    "status": "Status",
+    "score": "Score",
+    "times": "Times",
+    "statusDone": "Done",
+    "statusOpen": "Not yet",
+    "resetProgress": "Reset progress",
+    "resetScope": "What to reset?",
+    "confirmReset": "Reset {scope} for {name}? The XP from those lessons goes, the streak stays. This cannot be undone.",
+    "confirmYes": "Yes, reset",
+    "confirmNo": "Cancel",
+    "resetDone": "Reset for {name}: {scope}.",
+    "noLessons": "No lessons for this user.",
+    "deleteUser": "Delete user",
+    "deleteTitle": "Delete {name}?",
+    "deleteText": "Everything of {name} goes: account, XP, streak and progress. This cannot be undone.",
+    "deleteTypeName": "Type {username} to confirm",
+    "deleteConfirm": "Delete",
+    "deleted": "{name} has been deleted.",
+    "logout": "Log out",
+    "progress": "Progress",
+    "openReport": "Progress report",
+    "reportTitle": "Progress of {name}",
+    "summary": "Summary",
+    "xpTotal": "XP",
+    "streakNow": "Streak",
+    "streakBestLabel": "Best streak",
+    "wordsLearned": "Words learned",
+    "practiceSessions": "Practice sessions",
+    "badgesEarned": "Badges",
+    "levelsDone": "Lessons per level",
+    "levelLine": "{done} of {total} lessons ({n} %)",
+    "activity": "Activity, last 30 days",
+    "legendLessons": "Lessons",
+    "legendPractice": "Practice",
+    "chartLabel": "XP per day, last 30 days: lessons and practice",
+    "dayXp": "{day}: {lessons} XP lessons, {practice} XP practice",
+    "daysActive": "Days with a lesson or practice",
+    "dayActive": "{day}: active",
+    "dayInactive": "{day}: not active",
+    "timeSpent": "Time per day",
+    "minutes": "{n} min",
+    "unknown": "unknown",
+    "timeNote": "Lessons from before durations were measured have no duration; those days show as unknown.",
+    "dayMinutes": "{day}: {n} min",
+    "dayUnknown": "{day}: duration unknown",
+    "accuracy": "Right on the first try",
+    "typeCol": "Type",
+    "last30": "30 days",
+    "allTime": "All time",
+    "accuracyCell": "{pct} % ({correct}/{total})",
+    "none": "—",
+    "weakest": "Weakest words",
+    "itemCol": "Word or sentence (meaning)",
+    "strengthCol": "Strength",
+    "lastSeenCol": "Last seen",
+    "wrongCol": "Wrong",
+    "noWeakest": "No words practised yet.",
+    "reportBack": "Back to {name}",
+    "dayCol": "Day",
+    "showTable": "Show as a table",
+    "audience": {
+      "child": "Child",
+      "adult": "Adult"
+    },
+    "courses": {
+      "title": "Courses",
+      "active": "Active",
+      "hidden": "Hidden",
+      "notOffered": "Not offered for this native language",
+      "makeActive": "Make active",
+      "hide": "Hide",
+      "restore": "Restore",
+      "add": "Add a course",
+      "addButton": "Add",
+      "none": "No courses yet.",
+      "line": "{n}% of the lessons · {xp} XP",
+      "startLevel": "Start level",
+      "progressFor": "Course"
+    },
+    "reportCourse": "Course: {language} (XP, streak and activity: all courses together)",
+    "xpCourse": "XP in this course",
+    "preview": {
+      "title": "Preview: {level}",
+      "open": "Preview",
+      "intro": "Play any lesson as a learner sees it. Nothing is stored: no progress, XP or answers.",
+      "lessons": "{n} exercises",
+      "extra": "optional",
+      "back": "Back to the lessons",
+      "done": "Lesson played: {score}% right on the first try (nothing stored).",
+      "quit": "Back to the lessons",
+      "banner": "Preview — nothing is stored"
+    },
+    "myCourse": "My course: {language}",
+    "learn": "Learn a language yourself",
+    "statusOptional": "Optional"
+  },
+  "audio": {
+    "play": "Listen",
+    "playSlow": "Listen slowly",
+    "playWord": "Listen: {word}",
+    "missing": "The sound for this exercise is missing."
+  },
+  "avatars": {
+    "fox": "Fox",
+    "owl": "Owl",
+    "cat": "Cat",
+    "dog": "Dog",
+    "bear": "Bear",
+    "rabbit": "Rabbit",
+    "panda": "Panda",
+    "frog": "Frog",
+    "penguin": "Penguin",
+    "lion": "Lion",
+    "mouse": "Mouse",
+    "koala": "Koala",
+    "pig": "Pig",
+    "hedgehog": "Hedgehog",
+    "robot": "Robot",
+    "dino": "Dino"
+  },
+  "colours": {
+    "sky": "Sky",
+    "mint": "Mint",
+    "sun": "Sun",
+    "peach": "Peach",
+    "lilac": "Lilac",
+    "rose": "Rose",
+    "sand": "Sand",
+    "teal": "Teal"
+  },
+  "forcePassword": {
+    "title": "Change your password first",
+    "text": "This account still has a password someone else set. Choose your own password of at least {min} characters to continue.",
+    "submit": "Save password"
+  },
+  "voices": {
+    "title": "Voices",
+    "intro": "Every lesson is recorded in advance with one voice per language. Changing the voice is done on the server (see the operator guide, section Audio).",
+    "voice": "Voice",
+    "licence": "Licence",
+    "tempoLabel": "Speaking rate",
+    "tempo": "{normal} (normal), {slow} (slow)",
+    "noSample": "The sample has not been recorded yet (npm run audio:render).",
+    "assessment": {
+      "permissive": "free to use",
+      "share-alike": "free, share alike",
+      "copyleft": "copyleft",
+      "non-commercial": "non-commercial",
+      "unclear": "unclear"
+    },
+    "dialogueTitle": "Second voice (dialogues)"
+  },
+  "mascot": {
+    "idle1": "Shall we learn together?",
+    "idle2": "I'm ready for a lesson!",
+    "idle3": "Hi! Ready for today?",
+    "sleeping1": "A little practice today?",
+    "sleeping2": "Zzz… one more lesson today?",
+    "sleeping3": "Your streak is waiting for you!",
+    "correct1": "Super!",
+    "correct2": "Well done!",
+    "correct3": "Exactly right!",
+    "correct4": "You can do this!",
+    "wrong1": "Almost! It'll come back in a moment.",
+    "wrong2": "No problem, that's how you learn.",
+    "wrong3": "You'll get it next time!",
+    "wrong4": "Good try!",
+    "celebrate1": "Great job!",
+    "celebrate2": "Hooray, done!",
+    "celebrate3": "You're a star!",
+    "goal1": "Daily goal reached, hooray!",
+    "goal2": "Your daily goal is done!"
+  },
+  "practice": {
+    "title": "Practice",
+    "sheetTitle": "Practice",
+    "close": "Close",
+    "dueTitle": "Review",
+    "dueText": "{n} words are ready to review.",
+    "dueTextOne": "1 word is ready to review.",
+    "caughtUp": "All caught up!",
+    "caughtUpText": "You'll practise your latest lessons.",
+    "mistakesTitle": "My mistakes",
+    "mistakesText": "{n} exercises you got wrong recently.",
+    "mistakesTextOne": "1 exercise you got wrong recently.",
+    "mistakesNone": "No mistakes to practise. Well done!",
+    "start": "Start",
+    "locked": "Practice unlocks after your first lesson.",
+    "lockedTitle": "Not yet",
+    "loadFailed": "Practice can't start right now.",
+    "doneTitle": "Well practised!",
+    "again": "Practise again",
+    "quit": "Stop practising"
+  },
+  "goal": {
+    "title": "Choose your daily goal",
+    "text": "How much XP do you want to earn each day?",
+    "calm": "Relaxed",
+    "normal": "Regular",
+    "fanatic": "Keen",
+    "xp": "{n} XP a day",
+    "reached": "Daily goal reached!",
+    "label": "Daily goal"
+  },
+  "badges": {
+    "first-lesson": {
+      "title": "First lesson",
+      "condition": "Finish your first lesson"
+    },
+    "first-practice": {
+      "title": "First practice",
+      "condition": "Finish your first practice session"
+    },
+    "lessons-10": {
+      "title": "10 lessons",
+      "condition": "Finish 10 lessons"
+    },
+    "lessons-50": {
+      "title": "50 lessons",
+      "condition": "Finish 50 lessons"
+    },
+    "lessons-100": {
+      "title": "100 lessons",
+      "condition": "Finish 100 lessons"
+    },
+    "streak-3": {
+      "title": "3 days in a row",
+      "condition": "Learn 3 days in a row"
+    },
+    "streak-7": {
+      "title": "7 days in a row",
+      "condition": "Learn 7 days in a row"
+    },
+    "streak-30": {
+      "title": "30 days in a row",
+      "condition": "Learn 30 days in a row"
+    },
+    "streak-100": {
+      "title": "100 days in a row",
+      "condition": "Learn 100 days in a row"
+    },
+    "perfect-lesson": {
+      "title": "Perfect",
+      "condition": "Finish a lesson without mistakes"
+    },
+    "unit-complete": {
+      "title": "Unit complete",
+      "condition": "Finish every lesson of a unit"
+    },
+    "words-50": {
+      "title": "50 words",
+      "condition": "Learn 50 words well"
+    },
+    "words-250": {
+      "title": "250 words",
+      "condition": "Learn 250 words well"
+    },
+    "words-500": {
+      "title": "500 words",
+      "condition": "Learn 500 words well"
+    },
+    "words-1000": {
+      "title": "1000 words",
+      "condition": "Learn 1000 words well"
+    },
+    "goal-week": {
+      "title": "A week of goals",
+      "condition": "Reach your daily goal 7 days in a row"
+    },
+    "level": {
+      "title": "{level} complete",
+      "condition": "Finish every lesson of {level}"
+    },
+    "newTitle": "New badge!",
+    "newTitleMany": "{n} new badges!",
+    "unitsCount": "Units complete: {n}",
+    "earnedOn": "Earned on {date}",
+    "locked": "Not earned yet",
+    "bug-hunter": {
+      "title": "Bug hunter",
+      "condition": "Report a mistake that then gets fixed"
+    }
+  },
+  "profile": {
+    "title": "My profile",
+    "xp": "XP",
+    "streak": "Streak",
+    "streakBest": "Best streak",
+    "words": "Words learned",
+    "badges": "Badges",
+    "goalWeek": "Daily goal this week",
+    "goalDayReached": "{day}: daily goal reached ({xp} XP)",
+    "goalDayMissed": "{day}: {xp} XP",
+    "days": "{n} days",
+    "daysOne": "1 day",
+    "courses": "Your courses",
+    "courseLine": "{xp} XP · {words} words learned · {lessons} lessons"
+  },
+  "exerciseTypes": {
+    "multiple_choice": "Multiple choice",
+    "listen_choose": "Listen and choose",
+    "match_pairs": "Match pairs",
+    "fill_blank": "Fill in",
+    "build_sentence": "Build a sentence",
+    "listen_type": "Listen and type"
+  },
+  "messages": {
+    "fixed": "Thank you! Your report fixed a mistake.",
+    "checked": "Thank you! We checked it: it was correct.",
+    "fixedAdult": "Thanks for your report: it fixed a mistake.",
+    "checkedAdult": "Thanks for your report. We checked the exercise: it was correct.",
+    "title": "A message for you",
+    "ok": "OK!",
+    "badge": "You have a new badge!"
+  },
+  "report": {
+    "flag": "Report a mistake",
+    "info": "What is this?",
+    "infoText": "Do you think something is wrong here? Tap the flag and a grown-up will look at it.",
+    "infoTextAdult": "Do you think something is wrong here? Tap the flag and the admin will look at it.",
+    "title": "What is wrong?",
+    "note": "Want to tell us more? (you can leave this empty)",
+    "pick": "Tap what is wrong:",
+    "reason": {
+      "native": "The {native} is wrong",
+      "target": "The {language} is wrong",
+      "audio": "The sound is wrong",
+      "other": "Something else"
+    },
+    "thanks": "Thank you! 🙂",
+    "sent": "Reported",
+    "close": "Close",
+    "failed": "Sending did not work. Please try again.",
+    "limit": "You have reported a lot today. You can report again tomorrow!"
+  },
+  "ops": {
+    "tools": "Admin tools",
+    "details": "Details",
+    "loadFailed": "Could not load. Check the connection and try again.",
+    "copyFailed": "Copying did not work in this browser. Use the download button instead.",
+    "time": {
+      "never": "never",
+      "justNow": "just now",
+      "minutes": "{n} min ago",
+      "hours": "{n} hours ago",
+      "days": "{n} days ago",
+      "durationMinutes": "{n} min",
+      "durationHours": "{n} hours",
+      "durationDays": "{n} days"
+    },
+    "card": {
+      "hint": "Hint: {hint}",
+      "heard": "Heard:",
+      "answer": "Correct answer:",
+      "acceptAlso": "Also accepted: {list}"
+    },
+    "corrections": {
+      "title": "Corrections",
+      "tab": {
+        "search": "Find and correct",
+        "history": "History"
+      },
+      "intro": "Search for a word or sentence of any course (English, French, Dutch), a meaning, or an id from a report. Open it to correct it.",
+      "searchPlaceholder": "Search words and sentences",
+      "none": "Nothing found.",
+      "exerciseHit": "Exercise {id} ({lesson}) uses the items below.",
+      "vocabulary": "Words",
+      "sentences": "Sentences",
+      "where": "{language} · {level} · {unit}",
+      "usedIn": "used in {n} exercise(s)",
+      "kind": {
+        "vocabulary": "word",
+        "sentence": "sentence"
+      },
+      "editTitle": "Correct a {kind}",
+      "id": "Id",
+      "levelUnit": "Where",
+      "pos": "Part of speech",
+      "source": "Source file",
+      "gender": {
+        "m": "masculine",
+        "f": "feminine"
+      },
+      "readOnlyNote": "The id, part of speech and gender cannot be changed here: the children's progress is stored by id.",
+      "change": "Change",
+      "field": {
+        "target": "{language} text",
+        "native": "Meaning",
+        "acceptAlso": "Also accept (one per line)",
+        "nativeIn": "Meaning in {native}"
+      },
+      "acceptHelp": "Other ways to write the same answer, for typing and word-order exercises. A word-order answer must use the same words.",
+      "reason": "Why (optional, kept in the history)",
+      "warnAudio": "The {language} text changed, so its recording will be made again — about a minute.",
+      "warnUsed": {
+        "vocabulary": "This word is used in {n} exercise(s).",
+        "sentence": "This sentence is used in {n} exercise(s)."
+      },
+      "nothingChanged": "Nothing changed yet.",
+      "invalid": "Something in the form is not right; see the messages above.",
+      "error": {
+        "required": "This cannot be empty.",
+        "too_long": "This is too long (200 characters at most).",
+        "invalid": "This contains characters that are not allowed.",
+        "too_many": "At most 10 alternatives."
+      },
+      "submit": "Save the correction",
+      "submitFailed": "Saving did not work. Try again.",
+      "submitNote": "Corrections are applied one at a time in the background, usually within a minute; History shows how it went.",
+      "preview": "How the exercises will look",
+      "after": "After the correction",
+      "mayChange": "The lesson builder may rebuild this exercise a little differently.",
+      "exercises": "Exercises that use it ({n})",
+      "hide": "Hide this exercise",
+      "hideExplain": "Hide this exercise if it is wrong as a whole. The children no longer get it; their progress stays valid.",
+      "hideReason": "Why (required)",
+      "hideYes": "Hide it",
+      "forReport": "This correction answers the children's report about exercise {id}. When it is applied the report closes and the children are thanked.",
+      "queueLine": "{n} correction(s) waiting.",
+      "noHistory": "No corrections yet.",
+      "status": {
+        "queued": "Waiting",
+        "running": "Working",
+        "applied": "Applied",
+        "rejected": "Not applied",
+        "undone": "Undone"
+      },
+      "step": {
+        "start": "starting",
+        "preflight": "checking",
+        "apply": "changing the source",
+        "generate": "rebuilding the lessons",
+        "trace": "checking the word list",
+        "lock": "checking the ids",
+        "audio": "making recordings",
+        "tests": "running the checks",
+        "commit": "saving the version",
+        "reload": "loading into the app",
+        "integrity": "checking the progress",
+        "orphans": "tidying recordings",
+        "push": "pushing"
+      },
+      "reasonLine": "Reason: {reason}",
+      "commit": "Version {commit}",
+      "undoneBy": "Undone by correction #{id}.",
+      "nothing": "nothing",
+      "undo": "Undo",
+      "undoConfirm": "Undo this correction? It goes through the same checks.",
+      "undoYes": "Yes, undo it",
+      "undoFailed": "Could not queue the undo.",
+      "showAll": "Show all {n} exercises",
+      "how": {
+        "title": "How this works",
+        "what": {
+          "title": "What you can do here",
+          "text": "Search for a word or sentence of any course (the target text, a meaning or an id from a report), open it and change its text, its meaning or the other accepted answers, hide an exercise that is wrong as a whole, or record its sound again."
+        },
+        "job": {
+          "title": "Who applies a correction",
+          "text": "Saving puts the correction in a queue. The content job on this server applies one at a time, usually within a minute: it changes the lesson source, rebuilds the lessons, checks the word list and the ids, makes new recordings when the text changed, runs the tests, saves a version in the history and reloads the app without logging anyone out. If any step fails, everything is put back and History says why. No AI is involved."
+        },
+        "audio": {
+          "title": "Recordings",
+          "text": "Changing the text makes its recordings again automatically. Record again (under the recording) makes a new take of the same text: you hear the old and the new one and keep one. The Listen check shows how good the recordings are and serves the new ones first."
+        },
+        "undo": {
+          "title": "Undo",
+          "text": "History lists every correction with its status. An applied correction can be undone; the undo goes through the same job."
+        },
+        "reports": {
+          "title": "The children's reports",
+          "text": "A report in the Inbox opens the correction page for its word or sentence. When the correction is applied the report closes and the child is thanked."
+        },
+        "limits": {
+          "title": "What needs a developer",
+          "text": "New words, sentences, lessons or units, a new level, and pronunciation entries are authoring work: a developer makes them on the server, with the authoring tools (docs/developer/content.md), never the running app."
+        }
+      },
+      "courseFor": "{language} for {native} speakers",
+      "sharedTarget": "The text in {language} also belongs to {courses}: a change here changes it there too, with its recording. The meaning belongs to this course only."
+    },
+    "inbox": {
+      "title": "Inbox",
+      "intro": "Reports from the children (the 🚩 after an answer), one card per exercise, newest first.",
+      "empty": "No open reports.",
+      "count": "{n} report(s)",
+      "reason": {
+        "native": "The {native} is wrong",
+        "target": "The {language} is wrong",
+        "audio": "The sound is wrong",
+        "other": "Something else"
+      },
+      "childAnswer": "Answered: {answer}",
+      "right": "marked right",
+      "wrong": "marked wrong",
+      "pairMistakes": "{n} mistake(s) while matching",
+      "asSeen": "As the child saw it",
+      "answerClip": "Recording of the correct answer",
+      "hidden": "This exercise has been hidden since; the children no longer get it.",
+      "alreadyCorrect": "Already correct",
+      "fix": "Fix “{text}”",
+      "ask": "Copy question",
+      "dismiss": "Dismiss",
+      "sendMessage": "Thank the child with a message on their home screen (shown once)",
+      "messageLabel": "Message",
+      "multiLang": "These children use different app languages: leave the text as it is and each gets it in their own language.",
+      "closeCorrect": "Close as correct",
+      "dismissConfirm": "Close without a message?",
+      "closedCorrect": "Closed as correct; {n} message(s) sent.",
+      "closedDismissed": "Dismissed.",
+      "copied": "Copied: a ready-made question in English with the exercise and the reports, to ask someone for a second opinion.",
+      "actionFailed": "That did not work. Try again.",
+      "markFixed": "Fixed another way",
+      "fixedConfirm": "Already fixed outside Corrections (e.g. new audio)? Each learner gets \"your report fixed a mistake\" and, the first time, the bug-hunter badge.",
+      "closedFixed": "Closed as fixed: {n} message(s) sent."
+    },
+    "ask": {
+      "intro": "A {native}-speaking {who} learning {language} flagged this exercise as wrong ({n} report(s)).",
+      "type": "Exercise type:",
+      "instruction": "Instruction shown:",
+      "shown": "Shown:",
+      "correct": "Correct answer:",
+      "heard": "Audio says:",
+      "meaning": "{native} meaning of “{text}”:",
+      "childAnswer": "Child's answer:",
+      "markedWrong": "marked wrong",
+      "markedRight": "marked right",
+      "reason": "Child's reason:",
+      "note": "Note:",
+      "noAnswer": "(no answer recorded)",
+      "audioOnly": "(audio only)",
+      "question": "Is the {language} and the {native} correct and natural for a {who}? If not, give the corrected text.",
+      "who": {
+        "child": "child (age 8–10)",
+        "adult": "adult learner"
+      }
+    },
+    "system": {
+      "title": "System",
+      "refresh": "Refresh",
+      "summary": {
+        "green": "Everything is working.",
+        "amber": "Working, but something needs a look (amber).",
+        "red": "Something is wrong (red). Copy the diagnostics below."
+      },
+      "level": {
+        "green": "OK",
+        "amber": "needs a look",
+        "red": "problem"
+      },
+      "app": {
+        "title": "App",
+        "version": "Version {version} · commit {commit}",
+        "uptime": "Running for {time} (since {started})",
+        "restartedBy": "Last restarted by the {by}: {reason}",
+        "restartUnknown": "Reason of the last start not recorded (a manual restart, an update or a reboot).",
+        "proxyNone": "Proxy: no login through the reverse proxy seen yet.",
+        "proxy": "Proxy: last login through {peer}, {when}; {trust}; login cookie {cookie}.",
+        "proxyTrusted": "trusted (ANZO_TRUST_PROXY)",
+        "proxyUntrusted": "NOT the trusted proxy — set ANZO_TRUST_PROXY to this address",
+        "cookieSecure": "marked Secure",
+        "cookieNotSecure": "NOT marked Secure",
+        "cookieUnknown": "Secure flag not recorded"
+      },
+      "health": {
+        "title": "Health",
+        "ok": "All checks pass (/api/health)",
+        "problem": "Problem: {problem}"
+      },
+      "content": {
+        "title": "Content",
+        "packs": "{n} levels loaded",
+        "audioOk": "Every recording is there",
+        "audioMissing": "{n} recording(s) missing",
+        "reloadFailed": "The last content reload failed, the previous lessons are still in use: {error}",
+        "lockProblems": "{n} id-lock problem(s)",
+        "loaded": "Loaded {when}"
+      },
+      "backups": {
+        "title": "Backups",
+        "db": "Database: {when}, {size} ({n} kept)",
+        "dbNone": "No database backup yet",
+        "dbFailed": "The last database backup FAILED: {line}",
+        "archive": "Full archive: {when}, {size}",
+        "archiveNone": "No full archive yet (made on Sundays at 04:00)",
+        "archiveFailed": "The last full archive FAILED: {error}",
+        "archiveBudget": "Keeping {n} archive(s): {size} of a {limit} budget (25 % of the disk), {free} free",
+        "archiveFewer": "Fewer than 3 kept: 3 would not fit the budget (25 % of the disk, at least 4 GB free)"
+      },
+      "disk": {
+        "title": "Disk",
+        "free": "{free} free of {total}",
+        "unknown": "Free space unknown"
+      },
+      "integrity": {
+        "title": "Data check",
+        "ok": "Checked {when}: progress matches the lessons",
+        "failed": "Checked {when}: {n} problem(s)",
+        "none": "Not run yet (every night at 03:15)",
+        "warnings": "{n} warning(s)",
+        "info": "{n} note(s), nothing to do"
+      },
+      "jobs": {
+        "title": "Content jobs",
+        "idle": "Nothing waiting",
+        "queued": "{n} correction(s) waiting",
+        "running": "Working on #{id}: {step}",
+        "last": "Last: #{id} {status}, {when}",
+        "stuck": "Corrections are waiting but the content job does not pick them up"
+      },
+      "watchdog": {
+        "title": "Watchdog",
+        "checked": "Checked {when}: the app answers",
+        "restarts": "{n} restart(s) in the last 7 days",
+        "noRestarts": "No restarts in the last 7 days",
+        "stopped": "Stopped restarting after too many restarts in an hour",
+        "none": "Not running yet"
+      },
+      "reports": {
+        "title": "Children's reports",
+        "open": "{n} open",
+        "none": "No open reports"
+      },
+      "helpTitle": "Diagnostics",
+      "helpText": "Copies everything a developer needs to look into a problem on the server (the version, the tiles, the problems, the last failed job; passwords and secrets removed). The operator guide says what to do with it (docs/operator-guide.md).",
+      "copy": "Copy diagnostics",
+      "download": "Download as a file",
+      "copied": "Copied ({size}).",
+      "downloaded": "Downloaded {file} ({size}).",
+      "problemsTitle": "Problems (newest first)",
+      "noProblems": "No warnings or errors in the logs.",
+      "source": {
+        "app": "app",
+        "jobs": "jobs",
+        "content-job": "content job",
+        "watchdog": "watchdog",
+        "backup": "backup",
+        "full-backup": "full archive",
+        "disk": "disk",
+        "cleanup": "cleanup"
+      },
+      "audiocheck": {
+        "title": "Audio check",
+        "ok": "{n} recordings checked {when}: none flagged",
+        "flagged": "Audio check: {n} flagged now (last full check {when})",
+        "heardBad": "{n} of them heard Bad in the Listen check",
+        "explained": "{n} explained (recognizer limits)",
+        "unchecked": "{n} recording(s) made since: run npm run audio:check",
+        "failed": "{n} recording(s) could not be analysed",
+        "none": "Not run yet (npm run audio:check, after recording)",
+        "worst": "{language} “{text}”: {flags}"
+      },
+      "ackAll": "Acknowledge all",
+      "ack": "Acknowledge",
+      "problemsHelp": "The last 14 days. An acknowledged problem stays hidden until it happens again.",
+      "acknowledged": "{n} acknowledged (hidden)."
+    },
+    "rerecord": {
+      "title": "Record again",
+      "intro": "Sounds wrong? Record this clip again: the server makes a new recording with today's method (a minute or two), checks it, and you hear both before choosing. Nothing changes until you keep the new one.",
+      "normal": "Normal speed",
+      "slow": "Slow",
+      "start": "Record again",
+      "old": "Old",
+      "new": "New",
+      "flags": "the check notes: {flags}",
+      "noFlags": "the check found nothing",
+      "playOld": "Play the old recording",
+      "playNew": "Play the new recording",
+      "keepNew": "Keep new",
+      "keepOld": "Keep old",
+      "neither": "Neither — try again",
+      "heardBad": "Heard Bad: {reason}",
+      "noReason": "no reason given",
+      "failed": "That did not work. Try again in a moment.",
+      "status": {
+        "making": "Recording…",
+        "review": "Listen to both and choose.",
+        "keeping": "Putting the new recording in place…",
+        "kept": "The new recording is in use.",
+        "dropping": "Keeping the old one…",
+        "dropped": "The old recording stays.",
+        "failed": "Not recorded."
+      }
+    }
+  },
+  "courses": {
+    "title": "Your courses",
+    "close": "Close",
+    "chip": "Course: {language}. Tap to switch or add a course.",
+    "active": "Current",
+    "progress": "{n}% of the lessons · {xp} XP",
+    "add": "+ Add a course",
+    "addTitle": "Choose a course",
+    "new": "New",
+    "restore": "Bring back (your progress was kept)",
+    "remove": "Hide",
+    "removeTitle": "Hide {language}?",
+    "removeText": "{language} disappears from your list. Your progress is kept: add the course again later and you continue where you were.",
+    "askAdmin": "You have no course yet. Ask the admin to set one up for you.",
+    "noneTitle": "Choose a course",
+    "noneText": "Which language do you want to learn?",
+    "noneOffered": "No other courses for your language yet.",
+    "soonTitle": "Coming soon"
+  },
+  "nativeLanguages": {
+    "nl": "Dutch",
+    "en": "English"
+  },
+  "text": {
+    "play": "Listen to the text",
+    "playSlow": "Listen to the text slowly",
+    "stop": "Stop",
+    "hide": "Hide text",
+    "show": "Show text",
+    "noMeaning": "(no meaning given)",
+    "missing": "This text is missing.",
+    "headingFor": "Paragraph {n}",
+    "showTranscript": "Show transcript",
+    "closeWord": "Close",
+    "tfng": {
+      "true": "True",
+      "false": "False",
+      "not_given": "Not in the text"
+    },
+    "questionOf": "Question {n} of {total}",
+    "pause": "Pause",
+    "resume": "Go on listening",
+    "progress": "Sentence {n} of {total}",
+    "matchStatement": "Sentence {n}",
+    "completeLabel": "Your answer",
+    "formNote": "Right word, other form:",
+    "gapSentence": "Gap {n}",
+    "sentences": "Sentences",
+    "leftOver": "Left over"
+  },
+  "order": {
+    "yourOrder": "Your order",
+    "parts": "Parts",
+    "correctOrder": "The right order:",
+    "tapInOrder": "Tap the parts in the right order"
+  },
+  "cloze": {
+    "gap": "Gap {n}"
+  },
+  "arrange": {
+    "hint": "Tap another word to swap them, or a line between words to move it there. Tap it again to send it back.",
+    "hintParts": "Tap another part to swap them, or a line between parts to move it there. Tap it again to send it back.",
+    "hintGaps": "Tap another gap to swap the words (or move it into an empty gap). Tap this gap again to empty it.",
+    "moveHere": "Move here (place {n})",
+    "keys": "Enter selects. Arrow keys move the selected item one place; Delete sends it back to the bank.",
+    "emptyBlank": "{word} — tap to empty the gap"
+  },
+  "transform": {
+    "keyWord": "Word to use",
+    "yourAnswer": "Your words",
+    "correct": "A right answer:",
+    "meaning": "Meaning:"
+  },
+  "family": {
+    "title": "Family",
+    "thisWeek": "This week",
+    "cardLabel": "Family board: {xp} of {goal} XP together this week. Open the board",
+    "week": "{from} – {to}",
+    "resets": "The board starts again every Monday.",
+    "goalTitle": "Family goal",
+    "goalText": "{xp} of {goal} XP together",
+    "goalReached": "Family goal reached! Well done, everyone.",
+    "xp": "{n} XP",
+    "you": "you",
+    "crown": "Crown: top learner of last week",
+    "crownLegend": "= top learner of last week",
+    "days": "Days practised this week: {n} of 7",
+    "dayDone": "{day}: practised",
+    "dayNot": "{day}: not practised",
+    "rank": "Place {n}",
+    "empty": "Nobody is on the family board yet.",
+    "offSelf": "You are not on the board.",
+    "offAdmin": "The admin has taken you off the board.",
+    "settingsLink": "Switch it on in Settings",
+    "adminGoal": "Family goal per week (XP)",
+    "adminGoalHelp": "From 50 to 10,000. Everyone on the board adds to it; it starts again every Monday.",
+    "save": "Save goal",
+    "saved": "Saved.",
+    "invalidGoal": "Choose a number from 50 to 10,000.",
+    "moreMembers": "+{n} more"
+  },
+  "listen": {
+    "title": "Listen check",
+    "intro": "Listen to one recording at a time, exactly as learners hear it, and say whether it is right. Short sittings are fine: the check carries on where it stopped. The table below shows how good the recordings are; it stays up to date by itself.",
+    "again": "This clip was marked Bad and has been rendered again: listen once more.",
+    "kind": {
+      "word": "single word",
+      "short": "short phrase",
+      "sentence": "sentence",
+      "text": "text sentence"
+    },
+    "play": "Play",
+    "ok": "OK",
+    "bad": "Bad",
+    "whatWrong": "What was wrong? (optional)",
+    "reason": {
+      "babble": "Babble",
+      "cut-off": "Cut off",
+      "wrong-word": "Wrong word",
+      "wrong-pronunciation": "Wrong pronunciation",
+      "other": "Other"
+    },
+    "note": "Note (optional)",
+    "saveBad": "Save as Bad",
+    "cancel": "Cancel",
+    "done": "Every clip has been heard.",
+    "queueTitle": "Fix queue",
+    "queue": "Waiting for a new rendering: {waiting} · rendered again, to hear once more: {again} · fixed: {fixed}",
+    "statsTitle": "How many clips are wrong",
+    "statsAbout": "Per language and kind of clip: how many clips there are, how many were heard and how many of those were bad. \"At most\" is the 95 % upper bound on the share of bad clips (with none bad: 3 divided by the clips heard), and the line under it applies it to all clips of that kind.",
+    "col": {
+      "stratum": "Kind",
+      "heard": "Heard",
+      "bad": "Bad",
+      "upper": "At most"
+    },
+    "heardOf": "{heard} of {clips}",
+    "mayBeBad": "≤ {n} clips",
+    "speed": {
+      "normal": "normal speed",
+      "slow": "slow"
+    },
+    "queueAbout": "Open a clip to record it again (a new take, checked automatically; you choose which one to keep).",
+    "needsLexicon": "Marked Bad for its pronunciation: a new take seldom helps. It needs an entry in the pronunciation list, made by a developer on the server (docs/developer/audio.md).",
+    "heardOkNow": "Heard OK now",
+    "noteSaid": "Note:",
+    "how": {
+      "title": "How this works",
+      "what": {
+        "title": "What you hear",
+        "text": "Each clip is one of the recordings the app plays to learners, that exact file: a word or short phrase, a sentence, or a sentence of a reading text or dialogue, at normal or slow speed. Everything runs on this server; no AI and no internet service is involved."
+      },
+      "picked": {
+        "title": "How clips are picked",
+        "text": "The server picks the next clip: first a clip marked Bad that was recorded again (to hear once more), then a new recording nobody has heard yet, then a random one — two times in three a sentence, otherwise a word or short phrase, in a random language. A recording is never served twice. Stop whenever you like: only your verdicts are saved, so the next sitting carries on."
+      },
+      "verdict": {
+        "title": "Your verdict",
+        "text": "OK or Bad is saved with that exact recording and the admin who gave it. Mark it Bad for babble, a cut-off start or end, a wrong word or a wrong pronunciation; a reason and a note help whoever fixes it. When a recording is replaced, the verdict stays with the old file and the new one waits to be heard."
+      },
+      "bad": {
+        "title": "What happens to a Bad clip",
+        "text": "Nothing happens by itself: it goes to the fix queue below, with the reason and the note given. Open it: Heard OK now marks this very recording OK (it sounded fine after all), and it leaves the queue. Record again makes a new take of that one recording (the same voice, another random variation), measured by the automatic audio check; you hear Old (the recording in use) and New and choose. Keep new puts it in use at once (saved in the version history), and it comes back here to be heard. Keep old keeps the recording in use and marks it heard OK. Neither — try again throws the new take away and keeps the clip in the queue, to record again later. No developer is needed for this."
+      },
+      "pronunciation": {
+        "title": "A wrong pronunciation",
+        "text": "A new take of the same spelling usually says a word the same way. A wrong pronunciation is fixed with an entry in the pronunciation list (content/src/<language>/pronunciations.yaml: how the voice must say the word), written by a developer on the server, with the authoring tools (docs/developer/audio.md), and then heard here. Such clips stay in the fix queue, marked as needing a pronunciation fix."
+      },
+      "machine": {
+        "title": "The automatic audio check",
+        "text": "npm run audio:check is a script on this server, not an AI. It measures each recording (loudness, length, silences, a second burst of voice) and writes down what an offline speech recognizer hears, and flags recordings that look wrong. It runs after recordings are made and for every Record again. It cannot tell whether a word sounds natural: that is what this page is for."
+      },
+      "table": {
+        "title": "The Audio quality table",
+        "text": "Per language, for words and short phrases and for sentences: how many recordings the app has, how many were heard here, how many of those are Bad now, and \"at most\": with 95 % certainty the share of bad recordings in the whole group is below this number (with none bad: 3 divided by the number heard). The more you hear, the lower it gets. \"Rendered again\" counts the recordings with a fix of their own (another take, a cut, a pin). The numbers are worked out each time the page opens, so every new recording counts at once."
+      },
+      "later": {
+        "title": "Later",
+        "text": "The verdicts stay in the database. Later, a developer on the server can read them and improve what was found (docs/developer/audio.md describes how)."
+      }
+    }
+  },
+  "rules": {
+    "title": "What counts as correct",
+    "intro": "How the app grades answers: one line per rule, with an example. Open a heading, or search. These rules are the same for every learner.",
+    "languages": "Course language",
+    "all": "All",
+    "search": "Search the rules",
+    "none": "No rule matches.",
+    "count": "{n} rules",
+    "you": {
+      "typed": "You type “{typed}” for “{expected}”",
+      "dictation": "You hear “{expected}” and type “{typed}”",
+      "build": "You put the tiles “{typed}” for “{expected}”",
+      "pairs": "{n} wrong tap while matching pairs"
+    },
+    "result": {
+      "right": "right",
+      "accents": "right, with a tip about the accents",
+      "spelling": "right, with a tip about the spelling",
+      "wrong": "not right"
+    },
+    "countOne": "1 rule"
+  },
+  "quality": {
+    "title": "Audio quality",
+    "group": {
+      "words": "Words and short phrases",
+      "sentences": "Sentences (with dialogue turns and text sentences)"
+    },
+    "col": {
+      "language": "Language",
+      "clips": "Clips",
+      "heard": "Heard",
+      "bad": "Bad now",
+      "upper": "At most bad",
+      "redone": "Rendered again"
+    },
+    "check": "Automatic check: last full run {at} — {clips} clips, {flagged} flagged, {explained} explained.",
+    "noCheck": "Automatic check: no full run recorded yet.",
+    "fixing": "Being fixed: {again} recorded again, to hear once more · {waiting} Bad, waiting for a fix ({pronunciation} of them a pronunciation) · {fixed} fixed and heard OK.",
+    "footnote": "\"At most bad\": with 95 % certainty, at most this share of the group is bad — based on the clips heard here, which are picked at random.",
+    "line": "Audio quality: {clips} recordings, {heard} heard in the Listen check, {bad} Bad now, {again} recorded again and waiting to be heard.",
+    "lineLink": "Details in the Listen check"
+  },
+  "sample": {
+    "title": "Before release: new recordings to compare",
+    "intro": "These recordings were made again with a change that is not in use yet. For each one, play Old (the recording learners hear now) and New, then choose: Keep new, Keep old, or Neither — try again. A note helps. Nothing changes in the app until a developer on the server reads your choices.",
+    "progress": "{voted} of {total} chosen",
+    "done": "All chosen. Thank you! A developer on the server releases what you kept.",
+    "choose": "Your choice"
+  }
+}

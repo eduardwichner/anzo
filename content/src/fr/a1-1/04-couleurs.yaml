@@ -1,0 +1,53 @@
+id: fr-a1-1-u04
+title: { nl: Kleuren, en: "Colours" }
+icon: colours
+topic: Les couleurs; décrire les choses
+vocabulary:
+  - { target: la couleur, native: { nl: de kleur, en: "colour" }, pos: noun, gender: f }
+  - { target: rouge, native: { nl: rood, en: "red" }, pos: adjective }
+  - { target: bleu, native: { nl: blauw, en: "blue" }, pos: adjective }
+  - { target: jaune, native: { nl: geel, en: "yellow" }, pos: adjective }
+  - { target: vert, native: { nl: groen, en: "green" }, pos: adjective }
+  - { target: noir, native: { nl: zwart, en: "black" }, pos: adjective }
+  - { target: blanc, native: { nl: wit, en: "white" }, pos: adjective }
+  - { target: rose, native: { nl: roze, en: "pink" }, pos: adjective }
+  - { target: orange, native: { nl: oranje, en: "orange" }, pos: adjective }
+  - { target: violet, native: { nl: paars, en: "purple" }, pos: adjective }
+  - { target: gris, native: { nl: grijs, en: "grey" }, pos: adjective }
+  - { target: marron, native: { nl: bruin, en: "brown" }, pos: adjective }
+  - { target: préféré, native: { nl: lievelings-, en: "favourite" }, pos: adjective }
+  - { target: joli, native: { nl: "mooi, leuk", en: "pretty, lovely" }, pos: adjective }
+  - { target: beau, native: { nl: "mooi, knap", en: "beautiful, lovely, handsome" }, pos: adjective, avoid: [fr.joli] }
+  - { target: content, native: { nl: "blij, tevreden", en: "happy, pleased" }, pos: adjective }
+  - { target: triste, native: { nl: verdrietig, en: "sad" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Quelles sont tes couleurs préférées ?", native: { nl: "Wat zijn jouw lievelingskleuren?", en: "What are your favourite colours?" }, items: [fr.couleur, fr.prefere] }
+  - { id: s02, target: "C'est de quelle couleur ?", native: { nl: "Welke kleur is het?", en: "What colour is it?" }, items: [fr.couleur] }
+  - { id: s03, target: "Les fleurs sont rouges.", native: { nl: "De bloemen zijn rood.", en: "The flowers are red." }, items: [fr.rouge] }
+  - { id: s04, target: "Il porte un pull rouge.", native: { nl: "Hij draagt een rode trui.", en: "He's wearing a red jumper." }, items: [fr.rouge] }
+  - { id: s05, target: "Mon pantalon est bleu.", native: { nl: "Mijn broek is blauw.", en: "My trousers are blue." }, items: [fr.bleu] }
+  - { id: s06, target: "C'est une robe jaune.", native: { nl: "Het is een gele jurk.", en: "It's a yellow dress." }, items: [fr.jaune] }
+  - { id: s07, target: "Le soleil est jaune.", native: { nl: "De zon is geel.", en: "The sun is yellow." }, items: [fr.jaune] }
+  - { id: s08, target: "Ma couleur préférée, c'est le vert.", native: { nl: "Mijn lievelingskleur is groen.", en: "My favourite colour is green." }, items: [fr.vert, fr.prefere, fr.couleur] }
+  - { id: s09, target: "J'ai un chat noir.", native: { nl: "Ik heb een zwarte kat.", en: "I have a black cat." }, items: [fr.noir] }
+  - { id: s10, target: "La voiture est blanche.", native: { nl: "De auto is wit.", en: "The car is white." }, items: [fr.blanc] }
+  - { id: s11, target: "Elle a une robe rose.", native: { nl: "Ze heeft een roze jurk.", en: "She has a pink dress." }, items: [fr.rose] }
+  - { id: s12, target: "Le ballon est orange.", native: { nl: "De bal is oranje.", en: "The ball is orange." }, items: [fr.orange] }
+  - { id: s13, target: "La fleur est violette.", native: { nl: "De bloem is paars.", en: "The flower is purple." }, items: [fr.violet] }
+  - { id: s14, target: "La souris est grise.", native: { nl: "De muis is grijs.", en: "The mouse is grey." }, items: [fr.gris] }
+  - { id: s15, target: "Mes chaussures sont marron.", native: { nl: "Mijn schoenen zijn bruin.", en: "My shoes are brown." }, items: [fr.marron] }
+  - { id: s16, target: "C'est mon livre préféré.", native: { nl: "Dat is mijn lievelingsboek.", en: "It's my favourite book." }, items: [fr.prefere] }
+  - { id: s17, target: "Elle est très jolie, ta robe !", native: { nl: "Je jurk is heel mooi!", en: "Your dress is very pretty!" }, items: [fr.joli] }
+  - { id: s18, target: "C'est un beau dessin !", native: { nl: "Dat is een mooie tekening!", en: "It's a beautiful drawing!" }, items: [fr.beau] }
+  - { id: s19, target: "Ma maman est contente.", native: { nl: "Mijn mama is blij.", en: "My mum is happy." }, items: [fr.content] }
+  - { id: s20, target: "Paul n'est pas triste.", native: { nl: "Paul is niet verdrietig.", en: "Paul isn't sad." }, items: [fr.triste] }
+  - { id: s22, target: "Le lapin est blanc.", native: { nl: "Het konijn is wit.", en: "The rabbit is white." }, items: [fr.blanc] }
+  - { id: s23, target: "Mon pull est violet.", native: { nl: "Mijn trui is paars.", en: "My jumper is purple." }, items: [fr.violet] }
+  - { id: s24, target: "Le chat est gris.", native: { nl: "De kat is grijs.", en: "The cat is grey." }, items: [fr.gris] }
+  - { id: s25, target: "Regarde, c'est joli !", native: { nl: "Kijk, wat mooi!", en: "Look, that's pretty!" }, items: [fr.joli] }
+  - { id: s26, target: "Papa est content.", native: { nl: "Papa is blij.", en: "Dad is happy." }, items: [fr.content] }
+  - { id: s21, target: "Je suis triste aujourd'hui.", native: { nl: "Ik ben vandaag verdrietig.", en: "I'm sad today." }, items: [fr.triste] }
+lessons:
+  - { id: l01, title: { nl: "Rood, blauw, geel", en: "Red, blue, yellow" }, vocab: [fr.couleur, fr.rouge, fr.bleu, fr.jaune, fr.vert, fr.noir] }
+  - { id: l02, title: { nl: "Wit, roze, paars", en: "White, pink, purple" }, vocab: [fr.blanc, fr.rose, fr.orange, fr.violet, fr.gris, fr.marron] }
+  - { id: l03, title: { nl: Mooi en blij, en: "Pretty and happy" }, vocab: [fr.prefere, fr.joli, fr.beau, fr.content, fr.triste] }

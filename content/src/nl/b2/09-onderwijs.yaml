@@ -1,0 +1,93 @@
+id: nl-b2-u09
+title: { en: Education }
+icon: school
+topic: The Flemish school system, higher education, dual learning and lifelong learning; nominalisation (het leren van een taal, bij het kiezen van een studie)
+vocabulary:
+  - { target: het onderwijs, native: { en: education }, pos: noun, plural: "-" }
+  - { target: het basisonderwijs, native: { en: primary education }, pos: noun, plural: "-" }
+  - { target: secundair, native: { en: "secondary (as in: secondary school)" }, pos: adjective, alsoNL: voortgezet }
+  - { target: de kleuter, native: { en: "pre-schooler, nursery-school child" }, pos: noun, plural: kleuters }
+  - { target: de leerplicht, native: { en: compulsory education }, pos: noun, plural: "-" }
+  - { target: de universiteit, native: { en: university }, pos: noun, plural: universiteiten }
+  - { target: de hogeschool, native: { en: "university college (higher education, professional)" }, pos: noun, plural: hogescholen }
+  - { target: de campus, native: { en: campus }, pos: noun, plural: campussen }
+  - { target: de docent, native: { en: "lecturer, teacher" }, pos: noun, plural: docenten, avoid: [nl.leerkracht, nl.professor] }
+  - { target: de professor, native: { en: professor }, pos: noun, plural: professoren }
+  - { target: de bachelor, native: { en: "bachelor's degree" }, pos: noun, plural: bachelors }
+  - { target: de master, native: { en: "master's degree" }, pos: noun, plural: masters, noBlank: true }
+  - { target: de thesis, native: { en: "thesis, dissertation" }, pos: noun, plural: thesissen, alsoNL: de scriptie }
+  - { target: het semester, native: { en: semester }, pos: noun, plural: semesters }
+  - { target: het inschrijvingsgeld, native: { en: "registration fee, tuition fee" }, pos: noun, plural: "-", alsoNL: het collegegeld }
+  - { target: de studiebeurs, native: { en: "student grant" }, pos: noun, plural: studiebeurzen }
+  - { target: het herexamen, native: { en: "resit (exam)" }, pos: noun, plural: herexamens }
+  - { target: het attest, native: { en: "certificate (also: the end-of-year result in secondary school)" }, pos: noun, plural: attesten }
+  - { target: de leerstof, native: { en: "course material, what has to be learnt" }, pos: noun, plural: "-" }
+  - { target: de samenvatting, native: { en: summary }, pos: noun, plural: samenvattingen }
+  - { target: de voorbereiding, native: { en: preparation }, pos: noun, plural: voorbereidingen }
+  - { target: de begeleiding, native: { en: "guidance, support" }, pos: noun, plural: "-" }
+  - { target: de stagiair, native: { en: "trainee, intern" }, pos: noun, plural: stagiairs }
+  - { target: de vorming, native: { en: "training, education (personal)" }, pos: noun, plural: vormingen }
+  - { target: de competentie, native: { en: "competence, skill" }, pos: noun, plural: competenties }
+  - { target: de discipline, native: { en: discipline }, pos: noun, plural: disciplines }
+  - { target: de wetenschap, native: { en: science }, pos: noun, plural: wetenschappen }
+  - { target: de theorie, native: { en: theory }, pos: noun, plural: theorieën }
+  - { target: de gelijkheid, native: { en: equality }, pos: noun, plural: "-" }
+  - { target: de ongelijkheid, native: { en: inequality }, pos: noun, plural: ongelijkheden }
+  - { target: buizen, native: { en: "to fail (an exam; Belgian, informal)" }, pos: verb, avoid: [nl.zakken] }
+  - { target: samenvatten, native: { en: "to summarise" }, pos: verb }
+  - { target: spijbelen, native: { en: "to skip school, to play truant" }, pos: verb }
+  - { target: duaal, native: { en: "dual (as in: learning at school and at work)" }, pos: adjective }
+  - { target: levenslang, native: { en: lifelong }, pos: adjective }
+  - { target: wetenschappelijk, native: { en: scientific }, pos: adjective }
+  - { target: theoretisch, native: { en: theoretical }, pos: adjective }
+  - { target: vrijwillig, native: { en: voluntary }, pos: adjective }
+  - { target: serieus, native: { en: serious }, pos: adjective }
+  - { target: duidelijk, native: { en: clear }, pos: adjective }
+sentences:
+  - { id: s01, target: "In België is het onderwijs een taak van de gemeenschappen.", native: { en: "In Belgium, education is the responsibility of the Communities." }, items: [nl.onderwijs], acceptAlso: ["Het onderwijs is in België een taak van de gemeenschappen."] }
+  - { id: s02, target: "Na het basisonderwijs gaan de kinderen naar het secundair onderwijs.", native: { en: "After primary school the children go to secondary school." }, items: [nl.basisonderwijs, nl.secundair] }
+  - { id: s03, target: "De kleuters spelen buiten op de speelplaats.", native: { en: "The nursery-school children play outside in the playground." }, items: [nl.kleuter] }
+  - { id: s04, target: "De leerplicht begint op vijf jaar en duurt tot achttien jaar.", native: { en: "Compulsory education starts at five and lasts until eighteen." }, items: [nl.leerplicht] }
+  - { id: s05, target: "Ze studeert rechten aan de universiteit van Gent.", native: { en: "She studies law at Ghent University." }, items: [nl.universiteit] }
+  - { id: s06, target: "Op de hogeschool krijg je veel praktijk.", native: { en: "At a university college you get a lot of practice." }, items: [nl.hogeschool], acceptAlso: ["Veel praktijk krijg je op de hogeschool."] }
+  - { id: s07, target: "De nieuwe campus ligt vlak bij het station.", native: { en: "The new campus is right next to the station." }, items: [nl.campus], acceptAlso: ["Vlak bij het station ligt de nieuwe campus."] }
+  - { id: s08, target: "Onze docent legt de leerstof heel duidelijk uit.", native: { en: "Our lecturer explains the course material very clearly." }, items: [nl.docent, nl.leerstof, nl.duidelijk] }
+  - { id: s09, target: "De professor doet onderzoek naar hoe kinderen leren.", native: { en: "The professor does research on how children learn." }, items: [nl.professor] }
+  - { id: s10, target: "Na drie jaar heb je een bachelor, na nog een jaar een master.", native: { en: "After three years you have a bachelor's degree, after another year a master's." }, items: [nl.bachelor, nl.master] }
+  - { id: s11, target: "Hij schrijft zijn thesis over duaal leren.", native: { en: "He is writing his thesis on dual learning." }, items: [nl.thesis, nl.duaal] }
+  - { id: s12, target: "In het tweede semester heb ik minder lessen.", native: { en: "In the second semester I have fewer classes." }, items: [nl.semester] }
+  - { id: s13, target: "Het inschrijvingsgeld is voor studenten met een studiebeurs lager.", native: { en: "The registration fee is lower for students with a grant." }, items: [nl.inschrijvingsgeld, nl.studiebeurs] }
+  - { id: s14, target: "Wie buist, krijgt in augustus een herexamen.", native: { en: "Anyone who fails gets a resit in August." }, items: [nl.buizen, nl.herexamen] }
+  - { id: s15, target: "Met dit attest mag je naar het volgende jaar.", native: { en: "With this certificate you can move up to the next year." }, items: [nl.attest] }
+  - { id: s16, target: "Ik maak een samenvatting van elk hoofdstuk.", native: { en: "I make a summary of every chapter." }, items: [nl.samenvatting] }
+  - { id: s17, target: "Kun je deze tekst in vijf zinnen samenvatten?", native: { en: "Can you summarise this text in five sentences?" }, items: [nl.samenvatten] }
+  - { id: s18, target: "Een goede voorbereiding is de helft van het werk.", native: { en: "Good preparation is half the work." }, items: [nl.voorbereiding] }
+  - { id: s19, target: "Studenten met een leerstoornis krijgen extra begeleiding.", native: { en: "Students with a learning disorder get extra support." }, items: [nl.begeleiding] }
+  - { id: s20, target: "De stagiair werkt drie dagen per week bij ons.", native: { en: "The trainee works with us three days a week." }, items: [nl.stagiair] }
+  - { id: s21, target: "De bibliotheek organiseert een vorming over digitale vaardigheden.", native: { en: "The library is organising a training course on digital skills." }, items: [nl.vorming] }
+  - { id: s22, target: "Welke competenties zoekt de werkgever?", native: { en: "Which skills is the employer looking for?" }, items: [nl.competentie] }
+  - { id: s23, target: "Studeren vraagt veel discipline.", native: { en: "Studying requires a lot of discipline." }, items: [nl.discipline] }
+  - { id: s24, target: "Ze is gek op wetenschap en wil later onderzoeker worden.", native: { en: "She is mad about science and wants to be a researcher one day." }, items: [nl.wetenschap] }
+  - { id: s25, target: "In theorie is het eenvoudig, in de praktijk niet.", native: { en: "In theory it's simple, in practice it isn't." }, items: [nl.theorie], acceptAlso: ["Het is in theorie eenvoudig, in de praktijk niet."] }
+  - { id: s26, target: "Iedereen moet dezelfde kansen krijgen: dat is gelijkheid.", native: { en: "Everyone should get the same chances: that is equality." }, items: [nl.gelijkheid] }
+  - { id: s27, target: "Het onderwijs moet de ongelijkheid tussen kinderen kleiner maken.", native: { en: "Education should reduce the inequality between children." }, items: [nl.ongelijkheid] }
+  - { id: s28, target: "Hij is vorig jaar voor wiskunde gebuisd.", native: { en: "He failed maths last year." }, items: [nl.buizen] }
+  - { id: s29, target: "Wie spijbelt, mist belangrijke lessen.", native: { en: "Anyone who skips school misses important lessons." }, items: [nl.spijbelen] }
+  - { id: s30, target: "Levenslang leren wordt steeds belangrijker.", native: { en: "Lifelong learning is becoming more and more important." }, items: [nl.levenslang] }
+  - { id: s31, target: "Dat artikel verscheen in een wetenschappelijk tijdschrift.", native: { en: "That article appeared in a scientific journal." }, items: [nl.wetenschappelijk], acceptAlso: ["In een wetenschappelijk tijdschrift verscheen dat artikel."] }
+  - { id: s32, target: "Die opleiding is erg theoretisch: je doet weinig in de praktijk.", native: { en: "That course is very theoretical: you do little in practice." }, items: [nl.theoretisch], acceptAlso: ["Die opleiding is erg theoretisch: je doet in de praktijk weinig."] }
+  - { id: s33, target: "De lessen op zaterdag zijn vrijwillig.", native: { en: "The Saturday classes are voluntary." }, items: [nl.vrijwillig], acceptAlso: ["Op zaterdag zijn de lessen vrijwillig."] }
+  - { id: s34, target: "Ze neemt haar studie heel serieus.", native: { en: "She takes her studies very seriously." }, items: [nl.serieus] }
+  - { id: s35, target: "Het leren van een nieuwe taal vraagt discipline.", native: { en: "Learning a new language requires discipline." }, items: [nl.discipline], build: true }
+  - { id: s36, target: "Bij het kiezen van een studie helpt een gesprek met een docent.", native: { en: "When you are choosing what to study, talking to a lecturer helps." }, items: [nl.docent], build: true, acceptAlso: ["Een gesprek met een docent helpt bij het kiezen van een studie."] }
+  - { id: s37, target: "Door het invoeren van duaal leren vinden jongeren sneller werk.", native: { en: "Thanks to the introduction of dual learning, young people find work more quickly." }, items: [nl.duaal] }
+  - { id: s38, target: "Het voorbereiden van een examen begint op de eerste dag van het semester.", native: { en: "Preparing for an exam starts on the first day of the semester." }, items: [nl.semester], acceptAlso: ["Op de eerste dag van het semester begint het voorbereiden van een examen."] }
+  - { id: s39, target: "Een goede samenvatting is kort en duidelijk.", native: { en: "A good summary is short and clear." }, items: [nl.samenvatting], form: { word: samenvatting, stem: samenvatten } }
+  - { id: s40, target: "Zijn houding is niet erg wetenschappelijk.", native: { en: "His attitude is not very scientific." }, items: [nl.wetenschappelijk], form: { word: wetenschappelijk, stem: wetenschap } }
+  - { id: s41, target: "De voorbereiding van de reis duurde weken.", native: { en: "The preparation for the trip took weeks." }, items: [nl.voorbereiding], form: { word: voorbereiding, stem: voorbereiden } }
+  - { id: s42, target: "Elke student heeft recht op begeleiding.", native: { en: "Every student has a right to support." }, items: [nl.begeleiding], finite: { word: heeft, hint: { en: "hebben (present)" } } }
+transforms:
+  - { id: x01, from: "Als je een studie kiest, helpt een gesprek met een docent.", key: kiezen, gapped: "Bij het ___ een studie helpt een gesprek met een docent.", answers: ["kiezen van"], items: [nl.docent] }
+  - { id: x02, from: "Hij is niet geslaagd voor het examen.", key: gebuisd, gapped: "Hij is ___ het examen.", answers: ["gebuisd voor", "gebuisd op"], items: [nl.buizen] }
+  - { id: x03, from: "Iedereen mag kiezen of hij de les op zaterdag volgt.", key: vrijwillig, gapped: "De les op zaterdag ___.", answers: ["is vrijwillig"], items: [nl.vrijwillig] }
+texts: [nl-b2-t10]

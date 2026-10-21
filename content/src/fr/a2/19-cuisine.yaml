@@ -1,0 +1,42 @@
+id: fr-a2-u19
+title: { nl: Lekker koken, en: "Let's cook" }
+icon: food
+topic: La cuisine; les aliments
+vocabulary:
+  - { target: la recette, native: { nl: het recept, en: "recipe" }, pos: noun, gender: f }
+  - { target: cuisiner, native: { nl: koken, en: "to cook" }, pos: verb }
+  - { target: la farine, native: { nl: de bloem (om te bakken), en: "flour" }, pos: noun, gender: f }
+  - { target: le sel, native: { nl: het zout, en: "salt" }, pos: noun, gender: m }
+  - { target: le poivre, native: { nl: de peper, en: "pepper" }, pos: noun, gender: m }
+  - { target: le miel, native: { nl: de honing, en: "honey" }, pos: noun, gender: m }
+  - { target: le yaourt, native: { nl: de yoghurt, en: "yoghurt" }, pos: noun, gender: m }
+  - { target: les céréales, native: { nl: de ontbijtgranen, en: "cereal" }, pos: noun, gender: f }
+  - { target: la cerise, native: { nl: de kers, en: "cherry" }, pos: noun, gender: f }
+  - { target: le champignon, native: { nl: "de paddenstoel, de champignon", en: "mushroom" }, pos: noun, gender: m }
+  - { target: "l'oignon", native: { nl: de ui, en: "onion" }, pos: noun, gender: m }
+  - { target: le haricot, native: { nl: de boon, en: "bean" }, pos: noun, gender: m }
+  - { target: le petit pois, native: { nl: de doperwt, en: "pea" }, pos: noun, gender: m }
+  - { target: la saucisse, native: { nl: "het worstje, de worst", en: "sausage" }, pos: noun, gender: f }
+  - { target: la tarte, native: { nl: "de taart (met een bodem), de vlaai", en: "tart, pie" }, pos: noun, gender: f, avoid: [fr.gateau] }
+  - { target: le croissant, native: { nl: de croissant, en: "croissant" }, pos: noun, gender: m }
+sentences:
+  - { id: s01, target: "Ma grand-mère m'a donné sa recette.", native: { nl: "Mijn oma heeft me haar recept gegeven.", en: "My grandmother gave me her recipe." }, items: [fr.recette] }
+  - { id: s02, target: "J'aime cuisiner avec mon papa.", native: { nl: "Ik kook graag met mijn papa.", en: "I like cooking with my dad." }, items: [fr.cuisiner] }
+  - { id: s03, target: "Pour les crêpes, il faut de la farine.", native: { nl: "Voor pannenkoeken heb je bloem nodig.", en: "For pancakes you need flour." }, items: [fr.farine] }
+  - { id: s04, target: "Tu peux me donner le sel ?", native: { nl: "Kun je me het zout aangeven?", en: "Can you pass me the salt?" }, items: [fr.sel] }
+  - { id: s05, target: "Il y a trop de poivre dans la soupe !", native: { nl: "Er zit te veel peper in de soep!", en: "There's too much pepper in the soup!" }, items: [fr.poivre] }
+  - { id: s06, target: "Je mange du pain avec du miel.", native: { nl: "Ik eet brood met honing.", en: "I eat bread with honey." }, items: [fr.miel] }
+  - { id: s07, target: "Je mange un yaourt à la fraise.", native: { nl: "Ik eet een aardbeienyoghurt.", en: "I'm eating a strawberry yoghurt." }, items: [fr.yaourt] }
+  - { id: s08, target: "Au petit-déjeuner, je mange des céréales.", native: { nl: "Bij het ontbijt eet ik ontbijtgranen.", en: "For breakfast I eat cereal." }, items: [fr.cereales] }
+  - { id: s09, target: "Les cerises sont rouges et délicieuses.", native: { nl: "De kersen zijn rood en heerlijk.", en: "The cherries are red and delicious." }, items: [fr.cerise] }
+  - { id: s10, target: "Nous avons trouvé des champignons dans la forêt.", native: { nl: "We hebben in het bos paddenstoelen gevonden.", en: "We found mushrooms in the forest." }, items: [fr.champignon] }
+  - { id: s11, target: "Je n'aime pas l'oignon.", native: { nl: "Ik hou niet van ui.", en: "I don't like onion." }, items: [fr.oignon] }
+  - { id: s12, target: "Mange tes haricots verts !", native: { nl: "Eet je sperziebonen op!", en: "Eat your green beans!" }, items: [fr.haricot] }
+  - { id: s13, target: "J'adore le riz avec des petits pois.", native: { nl: "Ik ben gek op rijst met doperwtjes.", en: "I love rice with peas." }, items: [fr.petit-pois] }
+  - { id: s14, target: "Ce soir, on mange des saucisses.", native: { nl: "Vanavond eten we worstjes.", en: "Tonight we're having sausages." }, items: [fr.saucisse] }
+  - { id: s15, target: "Maman a fait une tarte aux pommes.", native: { nl: "Mama heeft een appeltaart gemaakt.", en: "Mum made an apple tart." }, items: [fr.tarte] }
+  - { id: s16, target: "Le dimanche, je mange un croissant.", native: { nl: "Op zondag eet ik een croissant.", en: "On Sundays I eat a croissant." }, items: [fr.croissant] }
+lessons:
+  - { id: l01, title: { nl: Het recept, en: "The recipe" }, vocab: [fr.recette, fr.cuisiner, fr.farine, fr.sel, fr.poivre, fr.miel] }
+  - { id: l02, title: { nl: Ontbijt en fruit, en: "Breakfast and fruit" }, vocab: [fr.yaourt, fr.cereales, fr.cerise, fr.croissant, fr.tarte] }
+  - { id: l03, title: { nl: Groente en worstjes, en: "Vegetables and sausages" }, vocab: [fr.champignon, fr.oignon, fr.haricot, fr.petit-pois, fr.saucisse] }

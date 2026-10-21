@@ -1,0 +1,48 @@
+id: nl-a1-u17
+title: { en: Free time }
+icon: sport
+topic: Hobbies, sport, going out
+vocabulary:
+  - { target: de vrije tijd, native: { en: free time }, pos: noun, plural: "-" }
+  - { target: de hobby, native: { en: hobby }, pos: noun, plural: "hobby's" }
+  - { target: de sport, native: { en: sport }, pos: noun, plural: sporten, category: true }
+  - { target: sporten, native: { en: to do sport }, pos: verb }
+  - { target: het voetbal, native: { en: football }, pos: noun, plural: "-" }
+  - { target: zwemmen, native: { en: to swim }, pos: verb }
+  - { target: het zwembad, native: { en: swimming pool }, pos: noun, plural: zwembaden }
+  - { target: lopen, native: { en: "to run, to walk" }, pos: verb }
+  - { target: dansen, native: { en: to dance }, pos: verb }
+  - { target: uitgaan, native: { en: to go out }, pos: verb }
+  - { target: de bioscoop, native: { en: cinema }, pos: noun, plural: bioscopen }
+  - { target: het concert, native: { en: concert }, pos: noun, plural: concerten }
+  - { target: het museum, native: { en: museum }, pos: noun, plural: musea }
+  - { target: bezoeken, native: { en: to visit }, pos: verb }
+  - { target: de televisie, native: { en: television }, pos: noun, plural: televisies }
+  - { target: het spel, native: { en: game }, pos: noun, plural: spelen }
+  - { target: de zee, native: { en: sea }, pos: noun, plural: zeeën }
+  - { target: het strand, native: { en: beach }, pos: noun, plural: stranden }
+  - { target: het bos, native: { en: "wood, forest" }, pos: noun, plural: bossen }
+  - { target: favoriet, native: { en: favourite }, pos: adjective }
+  - { target: saai, native: { en: boring }, pos: adjective }
+sentences:
+  - { id: s01, target: "Wat doe je in je vrije tijd?", native: { en: "What do you do in your free time?" }, items: [nl.vrije-tijd] }
+  - { id: s02, target: "Mijn hobby is koken.", native: { en: "My hobby is cooking." }, items: [nl.hobby] }
+  - { id: s03, target: "Welke sport doe jij?", native: { en: "What sport do you do?" }, items: [nl.sport] }
+  - { id: s04, target: "Op zaterdag sport ik.", native: { en: "On Saturdays I do sport." }, items: [nl.sporten], acceptAlso: ["Ik sport op zaterdag."] }
+  - { id: s05, target: "Mijn zoon speelt voetbal.", native: { en: "My son plays football." }, items: [nl.voetbal] }
+  - { id: s06, target: "Kun je zwemmen?", native: { en: "Can you swim?" }, items: [nl.zwemmen] }
+  - { id: s07, target: "Het zwembad is open tot acht uur.", native: { en: "The swimming pool is open until eight o'clock." }, items: [nl.zwembad] }
+  - { id: s08, target: "Ik loop elke ochtend in het park.", native: { en: "I run in the park every morning." }, items: [nl.lopen], acceptAlso: ["Elke ochtend loop ik in het park."] }
+  - { id: s09, target: "Wij dansen graag.", native: { en: "We like dancing." }, items: [nl.dansen] }
+  - { id: s10, target: "Op vrijdag gaan we uit.", native: { en: "On Fridays we go out." }, items: [nl.uitgaan], acceptAlso: ["We gaan op vrijdag uit."] }
+  - { id: s11, target: "Zullen we naar de bioscoop gaan?", native: { en: "Shall we go to the cinema?" }, items: [nl.bioscoop] }
+  - { id: s12, target: "Het concert begint om acht uur.", native: { en: "The concert starts at eight o'clock." }, items: [nl.concert] }
+  - { id: s13, target: "Het museum is op maandag gesloten.", native: { en: "The museum is closed on Mondays." }, items: [nl.museum], acceptAlso: ["Op maandag is het museum gesloten."] }
+  - { id: s14, target: "Morgen bezoeken we Brugge.", native: { en: "Tomorrow we're visiting Bruges." }, items: [nl.bezoeken], acceptAlso: ["We bezoeken morgen Brugge."] }
+  - { id: s15, target: "'s Avonds kijk ik televisie.", native: { en: "In the evenings I watch television." }, items: [nl.televisie], acceptAlso: ["Ik kijk 's avonds televisie."] }
+  - { id: s16, target: "De kinderen spelen een spel.", native: { en: "The children are playing a game." }, items: [nl.spel] }
+  - { id: s17, target: "Ik zwem graag in de zee.", native: { en: "I like swimming in the sea." }, items: [nl.zee] }
+  - { id: s18, target: "Het strand is mooi en rustig.", native: { en: "The beach is beautiful and quiet." }, items: [nl.strand] }
+  - { id: s19, target: "Op zondag wandelen we in het bos.", native: { en: "On Sundays we go for a walk in the woods." }, items: [nl.bos], acceptAlso: ["We wandelen op zondag in het bos."] }
+  - { id: s20, target: "Wat is je favoriete film?", native: { en: "What's your favourite film?" }, items: [nl.favoriet] }
+  - { id: s21, target: "Het boek is saai.", native: { en: "The book is boring." }, items: [nl.saai] }

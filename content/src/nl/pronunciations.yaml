@@ -1,0 +1,151 @@
+# Pronunciation lexicon for the Dutch voice (nl_BE-rdh-medium). Authoring only: `npm run audio:render`
+# compiles it into content/pronunciations.json and replaces each listed word (whole word, any case, also inside a
+# sentence) by a Piper phoneme block [[ … ]] before synthesis. The phonemes are espeak-ng IPA as the voice knows it
+# (every symbol must be in models/piper/nl_BE-rdh-medium.onnx.json → phoneme_id_map; a unit test checks). An entry is part
+# of the clip's hash: adding, changing or removing one renders exactly the clips that contain the word.
+# Check espeak's own reading of a word:
+#   tools/piper-venv/bin/python -c "from piper.phonemize_espeak import EspeakPhonemizer as P; print(P().phonemize('nl', 'job'))"
+
+
+# A colon in a sentence is said as a full stop and the next word capitalised (only in what the voice is given;
+# learners read the colon). Measured on 12 colon sentences x 4 seeded renders: the Belgian voice left a median 88 ms of silence
+# at ":", 8 ms at "," and at ";", 200 ms at ". " + a capital (p10 140). A sample heard before release: 20 of 20 "Keep new" (7 Dutch).
+# A colon inside a phoneme block is never touched.
+colon: sentence
+
+words:
+  # --- English loanwords said the Flemish (English) way (in a compare round 46 of 46 rows
+  # sounded better). espeak reads these as Dutch words (job → jˈɔp "hob").
+  job: dʒˈɔp
+  jobs: dʒˈɔps
+  studentenjob: stydˈɛntəndʒˌɔp
+  vakantiejob: vaːkˈɑntsidʒˌɔp
+  smartphone: smˈɑːrtfoːn
+  smartphones: smˈɑːrtfoːns
+  deadline: dˈɛdlaɪn
+  deadlines: dˈɛdlaɪns
+  wifi: wˈaɪfaɪ
+  updaten: ɵpdˈeːtən
+  update: ˈɵpdeːt
+  updates: ˈɵpdeːts
+  geüpdatet: ɣəˈɵpdeːtət
+  feedback: fˈiːtbɛk
+  downloaden: dˈaʊnloːdən
+  gedownload: ɣədˈaʊnloːt
+  fastfood: fˈɛstfuːt
+  t-shirt: tˈiːʃʏrt
+  t-shirts: tˈiːʃʏrts
+  e-mails: ˈiːmeːls
+  fitness: fˈɪtnəs
+
+  # --- Stress heard wrong. espeak: hospitalisatieverzekering …zəkˈɪːrɪŋ (stress on "ke"),
+  # maaltijdcheques mˌaːltɛɪdxəkvˈɛs (cheques read as Dutch letters, stress on "ques").
+  hospitalisatieverzekering: hˌɔspitˌaːlizˌaːtsivərzˈeːkərɪŋ
+  maaltijdcheques: mˌaːltɛɪtʃˈɛks
+  maaltijdcheque: mˌaːltɛɪtʃˈɛk
+  # the same wrong "kˈɪːr" in the other -verzekering compounds of the course (brandverzekering is right: stress on brand)
+  reisverzekering: rˌɛɪsfərzˈeːkərɪŋ
+  annuleringsverzekering: ˌɑnylˌeːrɪŋsfərzˈeːkərɪŋ
+
+  # --- Vowel length before a final r (roer, vuur heard as not right). Standard Belgian Dutch says [ruːr], [vyːr]:
+  # /u y i/ are long before r in the same syllable; espeak writes rˈur, vˈyr (short).
+  roer: rˈuːr
+  vuur: vˈyːr
+
+  # --- A sound the voice has no id for: espeak writes enquête with a nasal ɑ̃ (a combining tilde); the voice skipped the
+  # tilde and Piper's phoneme alignment (the carrier cut) fails on it. Belgian Dutch says [ɑŋˈkɛːtə].
+  enquête: ɑŋkˈɛːtə
+
+  # --- Compounds and separable verbs whose espeak stress falls on the second part (a scan of every Dutch text:
+  # 107 long words with the primary stress after a known first word; these 74 are clearly wrong — a compound noun or a
+  # separable verb is stressed on its first part). Left as espeak says them: numbers (vijfentwintig), ver-/be- verbs, and
+  # words stressed late in standard Dutch (hogeschool, regelmatig, kunstmatig, rechtvaardig, daarentegen, overleggen,
+  # overtreden, toestemming). Only the stress marks move; the phonemes are espeak's own.
+  achternaam: ˈɑxtərnˌaːm
+  achterlaten: ˈɑxtərlˌaːtən
+  angststoornis: ˈɑŋststˌoːrnɪs
+  basisschool: bˈaːzɪsxˌoːl
+  betaalmuur: bətˈaːlmˌyr
+  cruisepassagiers: krˈœyzəpˌɑsaːɣˌirs
+  cruiseschepen: krˈœyzɛsxˌeːpən
+  doorsturen: dˈɔːrstˌyrən
+  eetgewoontes: ˈeːtɣəʋˌoːntəs
+  energiefactuur: ˌeːnərʒˈifɑktˌyr
+  energiezuinig: ˌeːnərʒˈizˌœynəx
+  energiezuiniger: ˌeːnərʒˈizˌœynəɣər
+  feestdagen: fˈeːstˌaːɣən
+  generatiekloof: ɣənɪːrˈaːtsiklˌoːf
+  handbagage: hˈɑndbaːɣˌaːʒə
+  handschoen: hˈɑndsxˌun
+  hartproblemen: hˈɑrtprɔblˌeːmən
+  hoofdpersonage: hˈoːvdpərsoːnˌaːʒə
+  hoofdverpleegkundige: hˈoːvdvərpleːxkˌɵndəɣə
+  hoogseizoen: hˈoːxsɛɪzˌun
+  huisbezoek: hˈœyzbəzˌuk
+  huurappartement: hˈyrɑpˌɑrtəmˌɛnt
+  interimkantoor: ˈɪntərɪmkɑntˌoːr
+  jongerentaal: jˈɔŋɪːrəntˌaːl
+  kennismaken: kˈɛnɪsmˌaːkən
+  kernenergie: kˈɛrnənərʒˌi
+  klantendienst: klˈɑntəndˌinst
+  klasgenoten: klˈɑsxənˌoːtən
+  kleinkinderen: klˈɛɪŋkɪndˌɪːrən
+  kleuterschool: klˈøːtərsxˌoːl
+  klimaatverandering: klimˈaːtvˌɪːrɑndˌɪːrɪŋ
+  koffiemachine: kˈɔfimaːʃˌinə
+  kwijtraken: kʋˈɛɪtrˌaːkən
+  laagseizoen: lˈaːxsɛɪzˌun
+  langskomen: lˈɑŋskˌoːmən
+  leerstoornis: lˈɪːrstˌoːrnɪs
+  levenskwaliteit: lˈeːvənskʋˌaːlitˌɛɪt
+  luchthaven: lˈɵxtˌaːvən
+  moedertaal: mˈudərtˌaːl
+  motivatiebrief: moːtivˈaːtsibrˌif
+  nachtploeg: nˈɑxtplˌux
+  ochtenddienst: ˈɔxtəndˌinst
+  overgeschreven: ˈoːvərɣəsxrˌeːvən
+  overgewicht: ˈoːvərɣəʋˌɪxt
+  overschrijven: ˈoːvərsxrˌɛɪvən
+  overstappen: ˈoːvərstˌɑpən
+  oversteken: ˈoːvərstˌeːkən
+  overwerken: ˈoːvərʋˌɛrkən
+  overzetten: ˈoːvərzˌɛtən
+  personeelsdienst: pɛrsoːnˈeːlzdˌinst
+  persvrijheid: pˈɛrsfrˌɛɪhɛɪt
+  proefpersonen: prˈufpərsˌɔnən
+  proefpersoon: prˈufpərsˌoːn
+  rechtstaan: rˈɛxtstˌaːn
+  reisbureau: rˈɛɪzbyrˌoː
+  ruziemaken: rˈyzimˌaːkən
+  schoolfactuur: sxˈoːlfɑktˌyr
+  schoolvakanties: sxˈoːlvaːkˌɑntsis
+  selectieprocedure: seːlˈɛksiproːseːdˌyrə
+  slapengaan: slˈaːpəŋˌaːn
+  sollicitatiebrief: sɔlisitˈaːtsibrˌif
+  steekproef: stˈeːkprˌuf
+  studentenwinkel: stydˈɛntənʋˌɪŋkəl
+  thuisgebleven: tˈœysxɛblˌeːvən
+  thuisgekomen: tˈœysxəkˌoːmən
+  thuiskomen: tˈœyskˌoːmən
+  thuiswerkdagen: tˈœysʋərɡdˌaːɣən
+  tijdskrediet: tˈɛɪdskrədˌit
+  tussentaal: tˈɵsəntˌaːl
+  vergaderzaal: vərɣˈaːdərzˌaːl
+  vertrouwenspersoon: vərtrˈʌʊənspərsˌoːn
+  wachtdienst: ʋˈɑxtˌinst
+  wasmachine: ʋˈɑsmaːʃˌinə
+  zoekmachine: zˈukmaːʃˌinə
+  # --- Listen check: "motivatibrief" instead of "motivasibrief": in a compound espeak reads the -tie of the first
+  # part as "ti" (motivatie alone: …aːtsi). Scan of every Dutch word with -tie inside: these, besides the entries above
+  # (generatiekloof, motivatiebrief, selectieprocedure, sollicitatiebrief now say tsi/si). The first part as espeak says it
+  # alone, the second with secondary stress. politiekantoor = politie + kantoor (espeak: "politiek-antoor").
+  functieomschrijving: fˈɵnksiɔmsxrˌɛɪvɪŋ
+  politiekantoor: poːlˈitsikɑntˌoːr
+  preventieadviseur: preːvˈɛntsiɑdvizˌøːr
+  zeventienjarige: zˈeːvəntinjˌaːrəɣə
+  # --- Listen check: "campagnes" heard with a g and n: espeak reads the plural as kɑmpɑɣnˈɛs; the singular it
+  # says right (kɑmpˈɑɲə).
+  campagnes: kɑmpˈɑɲəs
+  # --- Listen check, twice: "gramasica": espeak's ɣrɑmˈaːtikaː is right, but before the tense i the voice says
+  # the t with 20-135 ms of hiss (an "s"; the take heard: 135 ms). With ɪ the t is a plain stop: 5-15 ms in 12 renders.
+  grammatica: ɣrɑmˈaːtɪkaː

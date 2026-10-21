@@ -1,0 +1,55 @@
+id: nl-a2-u03
+title: { en: "What do you think?" }
+icon: chat
+topic: Opinions, reasons, agreeing; subordinate clauses
+vocabulary:
+  - { target: de mening, native: { en: opinion }, pos: noun, plural: meningen }
+  - { target: volgens mij, native: { en: "in my opinion" }, pos: adverb }
+  - { id: nl.dat-conj, target: dat, native: { en: "that (… that …)" }, pos: conjunction }
+  - { target: omdat, native: { en: because }, pos: conjunction, avoid: [nl.want] }
+  - { target: want, native: { en: "because, for" }, pos: conjunction }
+  - { target: dus, native: { en: so }, pos: conjunction }
+  - { target: als, native: { en: "if, when" }, pos: conjunction }
+  - { target: de reden, native: { en: reason }, pos: noun, plural: redenen }
+  - { target: het idee, native: { en: idea }, pos: noun, plural: ideeën }
+  - { target: het voorstel, native: { en: "suggestion, proposal" }, pos: noun, plural: voorstellen }
+  - { target: voorstellen, native: { en: "to suggest, to propose" }, pos: verb }
+  - { target: het voordeel, native: { en: advantage }, pos: noun, plural: voordelen, avoid: [nl.nadeel] }
+  - { target: het nadeel, native: { en: disadvantage }, pos: noun, plural: nadelen }
+  - { target: het eens zijn, native: { en: "to agree" }, pos: phrase, avoid: [nl.akkoord-gaan] }
+  - { target: akkoord gaan, native: { en: "to agree, to go along with" }, pos: phrase }
+  - { target: aanvaarden, native: { en: to accept }, pos: verb, avoid: [nl.weigeren] }
+  - { target: weigeren, native: { en: to refuse }, pos: verb }
+  - { target: juist, native: { en: "right, correct" }, pos: adjective, avoid: [nl.fout] }
+  - { target: fout, native: { en: wrong }, pos: adjective }
+  - { target: eerlijk, native: { en: "honest, fair" }, pos: adjective }
+  - { target: raar, native: { en: "strange, odd" }, pos: adjective, avoid: [nl.normaal] }
+  - { target: normaal, native: { en: normal }, pos: adjective }
+  - { target: eigenlijk, native: { en: actually }, pos: adverb }
+  - { target: helemaal, native: { en: "completely, totally" }, pos: adverb }
+sentences:
+  - { id: s01, target: "Wat is jouw mening?", native: { en: "What's your opinion?" }, items: [nl.mening] }
+  - { id: s02, target: "Volgens mij is dat te duur.", native: { en: "In my opinion that's too expensive." }, items: [nl.volgens-mij], acceptAlso: ["Dat is volgens mij te duur."] }
+  - { id: s03, target: "Ik denk dat hij te laat komt.", native: { en: "I think he'll be late." }, items: [nl.dat-conj] }
+  - { id: s04, target: "Ik vind dat het huis te klein is.", native: { en: "I think the house is too small." }, items: [nl.dat-conj] }
+  - { id: s05, target: "Ik kom niet omdat ik ziek ben.", native: { en: "I'm not coming because I'm ill." }, items: [nl.omdat] }
+  - { id: s06, target: "Ik kom niet, want ik ben ziek.", native: { en: "I'm not coming – I'm ill." }, items: [nl.want] }
+  - { id: s07, target: "Het regent, dus we blijven thuis.", native: { en: "It's raining, so we're staying at home." }, items: [nl.dus], acceptAlso: ["Het regent, dus blijven we thuis."] }
+  - { id: s08, target: "Als je vragen hebt, kun je me bellen.", native: { en: "If you have any questions, you can call me." }, items: [nl.als] }
+  - { id: s09, target: "Wat is de reden?", native: { en: "What's the reason?" }, items: [nl.reden] }
+  - { id: s10, target: "Dat is een goed idee!", native: { en: "That's a good idea!" }, items: [nl.idee] }
+  - { id: s11, target: "Ik heb een voorstel.", native: { en: "I have a suggestion." }, items: [nl.voorstel] }
+  - { id: s12, target: "Ik stel voor dat we morgen vergaderen.", native: { en: "I suggest we meet tomorrow." }, items: [nl.voorstellen] }
+  - { id: s13, target: "Het voordeel is dat het station dichtbij is.", native: { en: "The advantage is that the station is close by." }, items: [nl.voordeel] }
+  - { id: s14, target: "Het nadeel is de prijs.", native: { en: "The disadvantage is the price." }, items: [nl.nadeel] }
+  - { id: s15, target: "Ik ben het niet met je eens.", native: { en: "I don't agree with you." }, items: [nl.het-eens-zijn] }
+  - { id: s16, target: "Kunt u met de prijs akkoord gaan?", native: { en: "Can you agree to the price?" }, items: [nl.akkoord-gaan] }
+  - { id: s17, target: "Ik aanvaard uw voorstel.", native: { en: "I accept your proposal." }, items: [nl.aanvaarden] }
+  - { id: s18, target: "Hij weigerde te betalen.", native: { en: "He refused to pay." }, items: [nl.weigeren] }
+  - { id: s19, target: "Dat is juist!", native: { en: "That's right!" }, items: [nl.juist] }
+  - { id: s20, target: "Het antwoord is fout.", native: { en: "The answer is wrong." }, items: [nl.fout] }
+  - { id: s21, target: "Dat is niet eerlijk!", native: { en: "That's not fair!" }, items: [nl.eerlijk] }
+  - { id: s22, target: "Wat een raar verhaal.", native: { en: "What a strange story." }, items: [nl.raar] }
+  - { id: s23, target: "Het is normaal dat je moe bent.", native: { en: "It's normal that you're tired." }, items: [nl.normaal] }
+  - { id: s24, target: "Eigenlijk heb ik geen zin.", native: { en: "Actually, I don't feel like it." }, items: [nl.eigenlijk], acceptAlso: ["Ik heb eigenlijk geen zin."] }
+  - { id: s25, target: "Ik ben het helemaal met u eens.", native: { en: "I completely agree with you." }, items: [nl.helemaal] }

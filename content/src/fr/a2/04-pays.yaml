@@ -1,0 +1,28 @@
+id: fr-a2-u04
+title: { nl: Landen en talen, en: "Countries and languages" }
+icon: world
+topic: Les pays; les langues; se présenter
+vocabulary:
+  - { target: le pays, native: { nl: het land, en: "country" }, pos: noun, gender: m }
+  - { target: le monde, native: { nl: de wereld, en: "world" }, pos: noun, gender: m, avoid: [fr.terre] }
+  - { target: "l'Europe", native: { nl: Europa, en: "Europe" }, pos: noun, gender: f }
+  - { target: allemand, native: { nl: Duits, en: "German" }, pos: adjective }
+  - { target: espagnol, native: { nl: Spaans, en: "Spanish" }, pos: adjective }
+  - { target: italien, native: { nl: Italiaans, en: "Italian" }, pos: adjective }
+  - { target: belge, native: { nl: Belgisch, en: "Belgian" }, pos: adjective }
+  - { target: suisse, native: { nl: Zwitsers, en: "Swiss" }, pos: adjective }
+  - { target: le correspondant, native: { nl: de penvriend, en: "pen friend" }, pos: noun, gender: m }
+sentences:
+  - { id: s01, target: "J'habite dans un petit pays.", native: { nl: "Ik woon in een klein land.", en: "I live in a small country." }, items: [fr.pays] }
+  - { id: s02, target: "J'aimerais voyager dans le monde.", native: { nl: "Ik zou graag over de wereld reizen.", en: "I'd like to travel around the world." }, items: [fr.monde] }
+  - { id: s03, target: "La France est en Europe.", native: { nl: "Frankrijk ligt in Europa.", en: "France is in Europe." }, items: [fr.europe] }
+  - { id: s07, target: "Ma matière préférée, c'est l'allemand.", native: { nl: "Mijn lievelingsvak is Duits.", en: "My favourite subject is German." }, items: [fr.allemand] }
+  - { id: s08, target: "Mon amie parle espagnol.", native: { nl: "Mijn vriendin spreekt Spaans.", en: "My friend speaks Spanish." }, items: [fr.espagnol], acceptAlso: ["Mon ami parle espagnol."] }
+  - { id: s09, target: "J'adore la pizza italienne.", native: { nl: "Ik ben gek op Italiaanse pizza.", en: "I love Italian pizza." }, items: [fr.italien] }
+  - { id: s10, target: "Mon oncle est belge.", native: { nl: "Mijn oom is Belg.", en: "My uncle is Belgian." }, items: [fr.belge] }
+  - { id: s11, target: "Camille est ma nouvelle correspondante suisse.", native: { nl: "Camille is mijn nieuwe Zwitserse penvriendin.", en: "Camille is my new Swiss pen friend." }, items: [fr.correspondant, fr.suisse] }
+  - { id: s12, target: "J'écris à mon correspondant français.", native: { nl: "Ik schrijf aan mijn Franse penvriend.", en: "I'm writing to my French pen friend." }, items: [fr.correspondant] }
+  - { id: s13, target: "Mon correspondant est allemand.", native: { nl: "Mijn penvriend is Duits.", en: "My pen friend is German." }, items: [fr.allemand] }
+lessons:
+  - { id: l01, title: { nl: Landen, en: "Countries" }, vocab: [fr.pays, fr.monde, fr.europe, fr.correspondant] }
+  - { id: l02, title: { nl: Ik spreek Duits, en: "I speak German" }, vocab: [fr.allemand, fr.espagnol, fr.italien, fr.belge, fr.suisse] }

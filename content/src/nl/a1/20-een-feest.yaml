@@ -1,0 +1,49 @@
+id: nl-a1-u20
+title: { en: A party }
+icon: party
+topic: Birthdays, invitations, visitors
+vocabulary:
+  - { target: het feest, native: { en: party }, pos: noun, plural: feesten }
+  - { target: de verjaardag, native: { en: birthday }, pos: noun, plural: verjaardagen }
+  - { target: jarig, native: { en: "having a birthday" }, pos: adjective }
+  - { target: proficiat, native: { en: congratulations }, pos: exclamation, alsoNL: gefeliciteerd }
+  - { target: feliciteren, native: { en: to congratulate }, pos: verb }
+  - { target: vieren, native: { en: to celebrate }, pos: verb }
+  - { target: de uitnodiging, native: { en: invitation }, pos: noun, plural: uitnodigingen }
+  - { target: uitnodigen, native: { en: to invite }, pos: verb }
+  - { target: de gast, native: { en: guest }, pos: noun, plural: gasten }
+  - { target: het bezoek, native: { en: "visit, visitors" }, pos: noun, plural: bezoeken }
+  - { target: binnenkomen, native: { en: "to come in" }, pos: verb }
+  - { target: meebrengen, native: { en: "to bring (along)" }, pos: verb }
+  - { target: het cadeau, native: { en: present }, pos: noun, plural: cadeaus }
+  - { target: de kaars, native: { en: candle }, pos: noun, plural: kaarsen }
+  - { target: gezellig, native: { en: "cosy, pleasant (company)" }, pos: adjective }
+  - { target: smakelijk, native: { en: enjoy your meal }, pos: exclamation }
+  - { target: gezondheid, native: { en: "cheers, bless you" }, pos: exclamation }
+  - { target: trouwen, native: { en: to get married }, pos: verb }
+  - { target: de oma, native: { en: grandma }, pos: noun, plural: "oma's" }
+  - { target: de opa, native: { en: grandpa }, pos: noun, plural: "opa's" }
+  - { target: de tante, native: { en: aunt }, pos: noun, plural: tantes }
+  - { target: de oom, native: { en: uncle }, pos: noun, plural: ooms }
+sentences:
+  - { id: s01, target: "Zaterdag geven we een feest.", native: { en: "On Saturday we're having a party." }, items: [nl.feest], acceptAlso: ["We geven zaterdag een feest."] }
+  - { id: s02, target: "Wanneer is je verjaardag?", native: { en: "When is your birthday?" }, items: [nl.verjaardag] }
+  - { id: s03, target: "Vandaag is mijn dochter jarig.", native: { en: "It's my daughter's birthday today." }, items: [nl.jarig], acceptAlso: ["Mijn dochter is vandaag jarig."] }
+  - { id: s04, target: "Proficiat met je verjaardag!", native: { en: "Happy birthday!" }, items: [nl.proficiat, nl.verjaardag] }
+  - { id: s05, target: "Ik feliciteer je.", native: { en: "Congratulations!" }, items: [nl.feliciteren] }
+  - { id: s06, target: "We vieren de verjaardag van oma.", native: { en: "We're celebrating grandma's birthday." }, items: [nl.vieren, nl.oma] }
+  - { id: s07, target: "Bedankt voor de uitnodiging!", native: { en: "Thanks for the invitation!" }, items: [nl.uitnodiging] }
+  - { id: s08, target: "Ik nodig mijn collega's uit.", native: { en: "I'm inviting my colleagues." }, items: [nl.uitnodigen] }
+  - { id: s09, target: "Er zijn twintig gasten.", native: { en: "There are twenty guests." }, items: [nl.gast] }
+  - { id: s10, target: "Vanavond krijgen we bezoek.", native: { en: "We're having visitors tonight." }, items: [nl.bezoek], acceptAlso: ["We krijgen vanavond bezoek."] }
+  - { id: s11, target: "Kom binnen!", native: { en: "Come in!" }, items: [nl.binnenkomen] }
+  - { id: s12, target: "Ik breng een taart mee.", native: { en: "I'm bringing a cake." }, items: [nl.meebrengen] }
+  - { id: s13, target: "Dit cadeau is voor jou.", native: { en: "This present is for you." }, items: [nl.cadeau] }
+  - { id: s14, target: "Er staan tien kaarsen op de taart.", native: { en: "There are ten candles on the cake." }, items: [nl.kaars], acceptAlso: ["Op de taart staan er tien kaarsen."] }
+  - { id: s15, target: "Het is hier heel gezellig.", native: { en: "It's really nice and cosy here." }, items: [nl.gezellig] }
+  - { id: s16, target: "Smakelijk!", native: { en: "Enjoy your meal!" }, items: [nl.smakelijk] }
+  - { id: s17, target: "Gezondheid!", native: { en: "Cheers!" }, items: [nl.gezondheid] }
+  - { id: s18, target: "Mijn zus trouwt in mei.", native: { en: "My sister is getting married in May." }, items: [nl.trouwen] }
+  - { id: s19, target: "Opa en oma komen ook.", native: { en: "Grandpa and grandma are coming too." }, items: [nl.opa, nl.oma] }
+  - { id: s20, target: "Mijn tante woont in Antwerpen.", native: { en: "My aunt lives in Antwerp." }, items: [nl.tante] }
+  - { id: s21, target: "Mijn oom heeft drie kinderen.", native: { en: "My uncle has three children." }, items: [nl.oom] }

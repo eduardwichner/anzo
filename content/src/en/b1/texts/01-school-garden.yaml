@@ -1,0 +1,34 @@
+id: en-b1-t01
+kind: reading
+title: { nl: De schooltuin }
+topic: School projects (a school newsletter story)
+level: B1
+paragraphs:
+  - - { id: en-b1-t01-s01, target: "Last spring, the children in Class 6 wanted to make a garden at their school.", native: { nl: "Afgelopen voorjaar wilden de kinderen van klas 6 een tuin maken op hun school." } }
+    - { id: en-b1-t01-s02, target: "There was an empty space behind the gym, but the ground was hard and full of stones.", native: { nl: "Er was een lege plek achter de gymzaal, maar de grond was hard en vol stenen." } }
+  - - { id: en-b1-t01-s03, target: "First, they asked the head teacher for permission.", native: { nl: "Eerst vroegen ze de directeur om toestemming." } }
+    - { id: en-b1-t01-s04, target: "She agreed, and a mum who works as a gardener said she would help them.", native: { nl: "Ze vond het goed, en een moeder die tuinier is, zei dat ze hen zou helpen." } }
+  - - { id: en-b1-t01-s05, target: "Then everyone worked together for three Saturdays.", native: { nl: "Daarna werkte iedereen drie zaterdagen samen." } }
+    - { id: en-b1-t01-s06, target: "They carried the stones away, brought new soil and planted beans, carrots and sunflowers.", native: { nl: "Ze droegen de stenen weg, brachten nieuwe aarde en plantten bonen, wortels en zonnebloemen." } }
+  - - { id: en-b1-t01-s07, target: "By the end of June, the garden was full of flowers and vegetables.", native: { nl: "Eind juni stond de tuin vol bloemen en groenten." } }
+    - { id: en-b1-t01-s08, target: "Now the school cook uses the vegetables for lunch, and the children are very proud of their work.", native: { nl: "Nu gebruikt de schoolkok de groenten voor de lunch, en de kinderen zijn heel trots op hun werk." } }
+glossary:
+  - { word: sunflowers, native: { nl: zonnebloemen } }
+  - { word: head teacher, native: { nl: "directeur (van een school)" } }
+items: [en.gardener, en.soil, en.proud, en.permission]
+questions:
+  - { id: en-b1-t01-q1, type: mc, question: "Why was it difficult to make a garden behind the gym?", options: ["The ground was hard and full of stones.", "It was too dark there.", "The head teacher said no."], correct: 0 }
+  - { id: en-b1-t01-q2, type: true_false_notgiven, statement: "The head teacher did not give the children permission.", answer: false }
+  - { id: en-b1-t01-q3, type: true_false_notgiven, statement: "A parent helped the children.", answer: true }
+  - { id: en-b1-t01-q4, type: true_false_notgiven, statement: "It rained on one of the Saturdays.", answer: not_given }
+  - { id: en-b1-t01-q5, type: match_heading, paragraph: 3, options: ["Asking for help", "Three busy Saturdays", "Lunch at school"], correct: 1 }
+listeningQuestions:
+  - { id: en-b1-t01-l1, type: mc, question: "What did the children plant?", options: ["Beans, carrots and sunflowers.", "Potatoes and tomatoes.", "Only flowers."], correct: 0 }
+  - { id: en-b1-t01-l2, type: true_false_notgiven, statement: "The school cook uses the vegetables.", answer: true }
+cloze:
+  - { sentence: en-b1-t01-s01, word: wanted, kind: finite_verb, hint: { nl: "want (verleden tijd)" } }
+  - { sentence: en-b1-t01-s04, word: agreed, kind: finite_verb, hint: { nl: "agree (verleden tijd)" } }
+  - { sentence: en-b1-t01-s05, word: worked, kind: finite_verb, hint: { nl: "work (verleden tijd)" } }
+  - { sentence: en-b1-t01-s08, word: proud, hint: { nl: trots } }
+  - { sentence: en-b1-t01-s08, word: uses, kind: finite_verb, hint: { nl: "use (tegenwoordige tijd)" } }
+orderable: true

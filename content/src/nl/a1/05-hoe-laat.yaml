@@ -1,0 +1,56 @@
+id: nl-a1-u05
+title: { en: What time is it? }
+icon: clock
+topic: The time, appointments
+vocabulary:
+  - { target: hoe laat, native: { en: what time }, pos: phrase }
+  - { target: de klok, native: { en: clock }, pos: noun, plural: klokken }
+  - { target: de tijd, native: { en: time }, pos: noun, plural: tijden }
+  - { target: om, native: { en: at (time) }, pos: preposition }
+  - { target: half, native: { en: "half (half past …)" }, pos: adjective }
+  - { target: kwart na, native: { en: quarter past }, pos: phrase, alsoNL: kwart over }
+  - { target: kwart voor, native: { en: quarter to }, pos: phrase }
+  - { target: het kwartier, native: { en: quarter of an hour }, pos: noun, plural: kwartieren }
+  - { target: de minuut, native: { en: minute }, pos: noun, plural: minuten }
+  - { target: de seconde, native: { en: "second (time)" }, pos: noun, plural: seconden }
+  - { target: de afspraak, native: { en: appointment }, pos: noun, plural: afspraken }
+  - { target: afspreken, native: { en: "to arrange, to agree to meet" }, pos: verb }
+  - { target: de agenda, native: { en: diary }, pos: noun, plural: "agenda's" }
+  - { target: op tijd, native: { en: on time }, pos: phrase }
+  - { target: beginnen, native: { en: "to begin, to start" }, pos: verb }
+  - { target: stoppen, native: { en: to stop }, pos: verb }
+  - { target: duren, native: { en: to last }, pos: verb }
+  - { target: na, native: { en: after }, pos: preposition }
+  - { target: tot, native: { en: "until, till" }, pos: preposition }
+  - { target: vanaf, native: { en: from (time) }, pos: preposition }
+  - { target: eerst, native: { en: "first, at first" }, pos: adverb }
+  - { target: dan, native: { en: then }, pos: adverb, avoid: [nl.daarna] }
+  - { target: daarna, native: { en: after that }, pos: adverb }
+  - { target: meestal, native: { en: usually }, pos: adverb }
+sentences:
+  - { id: s01, target: "Hoe laat is het?", native: { en: "What time is it?" }, items: [nl.hoe-laat] }
+  - { id: s02, target: "De klok in de keuken is groot.", native: { en: "The clock in the kitchen is big." }, items: [nl.klok] }
+  - { id: s03, target: "Ik heb geen tijd.", native: { en: "I don't have time." }, items: [nl.tijd] }
+  - { id: s04, target: "De les begint om negen uur.", native: { en: "The lesson starts at nine o'clock." }, items: [nl.om, nl.beginnen], acceptAlso: ["Om negen uur begint de les."] }
+  - { id: s05, target: "Het is half acht.", native: { en: "It's half past seven." }, items: [nl.half] }
+  - { id: s06, target: "Het is kwart na drie.", native: { en: "It's quarter past three." }, items: [nl.kwart-na] }
+  - { id: s07, target: "Ik kom om kwart voor tien.", native: { en: "I'll be there at quarter to ten." }, items: [nl.kwart-voor], acceptAlso: ["Om kwart voor tien kom ik."] }
+  - { id: s08, target: "Ik wacht al een kwartier.", native: { en: "I've been waiting for a quarter of an hour." }, items: [nl.kwartier] }
+  - { id: s09, target: "De bus komt over vijf minuten.", native: { en: "The bus is coming in five minutes." }, items: [nl.minuut], acceptAlso: ["Over vijf minuten komt de bus."] }
+  - { id: s10, target: "Wacht een seconde!", native: { en: "Wait a second!" }, items: [nl.seconde] }
+  - { id: s11, target: "Ik heb een afspraak bij de dokter.", native: { en: "I have an appointment at the doctor's." }, items: [nl.afspraak] }
+  - { id: s12, target: "Zullen we om acht uur afspreken?", native: { en: "Shall we meet at eight o'clock?" }, items: [nl.afspreken] }
+  - { id: s13, target: "Ik kijk even in mijn agenda.", native: { en: "I'll just check my diary." }, items: [nl.agenda] }
+  - { id: s14, target: "Kom op tijd, alstublieft.", native: { en: "Please be on time." }, items: [nl.op-tijd] }
+  - { id: s15, target: "Om vijf uur stop ik met werken.", native: { en: "I finish work at five o'clock." }, items: [nl.stoppen], acceptAlso: ["Ik stop om vijf uur met werken."] }
+  - { id: s16, target: "De film duurt twee uur.", native: { en: "The film lasts two hours." }, items: [nl.duren] }
+  - { id: s17, target: "Na de les drink ik koffie.", native: { en: "After the lesson I have a coffee." }, items: [nl.na], acceptAlso: ["Ik drink na de les koffie.", "Ik drink koffie na de les."] }
+  - { id: s18, target: "De winkel is open tot zes uur.", native: { en: "The shop is open until six o'clock." }, items: [nl.tot], acceptAlso: ["De winkel is tot zes uur open."] }
+  - { id: s19, target: "Ik werk vanaf maandag.", native: { en: "I'm working from Monday." }, items: [nl.vanaf], acceptAlso: ["Vanaf maandag werk ik."] }
+  - { id: s20, target: "Eerst ga ik naar de bakker.", native: { en: "First I go to the baker's." }, items: [nl.eerst], acceptAlso: ["Ik ga eerst naar de bakker."] }
+  - { id: s21, target: "Dan ga ik naar huis.", native: { en: "Then I go home." }, items: [nl.dan], acceptAlso: ["Ik ga dan naar huis."] }
+  - { id: s22, target: "Daarna drink ik thee.", native: { en: "After that I drink tea." }, items: [nl.daarna], acceptAlso: ["Ik drink daarna thee."] }
+  - { id: s23, target: "Ik werk meestal tot vijf uur.", native: { en: "I usually work until five." }, items: [nl.meestal], acceptAlso: ["Meestal werk ik tot vijf uur."] }
+  - { id: s25, target: "We spreken om acht uur af.", native: { en: "We're meeting at eight o'clock." }, items: [nl.afspreken], acceptAlso: ["Om acht uur spreken we af."] }
+  - { id: s26, target: "Ik wil graag een afspraak maken.", native: { en: "I'd like to make an appointment." }, items: [nl.afspraak] }
+  - { id: s27, target: "Het is vijf voor half vier.", native: { en: "It's twenty-five past three." }, items: [nl.half] }

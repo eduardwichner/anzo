@@ -1,0 +1,40 @@
+id: nl-a1-u18
+title: { en: Buying clothes }
+icon: shop
+topic: In a clothes shop
+vocabulary:
+  - { target: de kledingwinkel, native: { en: clothes shop }, pos: noun, plural: kledingwinkels }
+  - { target: de maat, native: { en: size }, pos: noun, plural: maten }
+  - { target: de paskamer, native: { en: fitting room }, pos: noun, plural: paskamers }
+  - { target: passen, native: { en: "to try on, to fit" }, pos: verb, avoid: [nl.proberen] }
+  - { target: proberen, native: { en: to try }, pos: verb }
+  - { target: ruilen, native: { en: to exchange }, pos: verb }
+  - { target: de muts, native: { en: woolly hat }, pos: noun, plural: mutsen }
+  - { target: de sjaal, native: { en: scarf }, pos: noun, plural: sjaals }
+  - { target: de handschoen, native: { en: glove }, pos: noun, plural: handschoenen }
+  - { target: de laars, native: { en: boot }, pos: noun, plural: laarzen }
+  - { target: de tas, native: { en: bag }, pos: noun, plural: tassen }
+  - { target: de bril, native: { en: "glasses (spectacles)" }, pos: noun, plural: brillen }
+  - { target: breed, native: { en: wide }, pos: adjective, avoid: [nl.smal] }
+  - { target: smal, native: { en: narrow }, pos: adjective }
+  - { target: dun, native: { en: thin }, pos: adjective, avoid: [nl.dik] }
+  - { target: dik, native: { en: "thick, fat" }, pos: adjective }
+sentences:
+  - { id: s01, target: "De kledingwinkel is op het plein.", native: { en: "The clothes shop is on the square." }, items: [nl.kledingwinkel] }
+  - { id: s02, target: "Welke maat hebt u?", native: { en: "What size are you?" }, items: [nl.maat] }
+  - { id: s03, target: "Hebt u deze broek in maat 40?", native: { en: "Do you have these trousers in size 40?" }, items: [nl.maat] }
+  - { id: s04, target: "Waar is de paskamer?", native: { en: "Where is the fitting room?" }, items: [nl.paskamer] }
+  - { id: s05, target: "Mag ik deze jas passen?", native: { en: "Can I try this coat on?" }, items: [nl.passen] }
+  - { id: s06, target: "De schoenen passen niet.", native: { en: "The shoes don't fit." }, items: [nl.passen] }
+  - { id: s07, target: "Probeert u deze trui eens.", native: { en: "Try this jumper." }, items: [nl.proberen] }
+  - { id: s08, target: "Kan ik dit hemd ruilen?", native: { en: "Can I exchange this shirt?" }, items: [nl.ruilen] }
+  - { id: s09, target: "In de winter draag ik een muts.", native: { en: "In winter I wear a woolly hat." }, items: [nl.muts], acceptAlso: ["Ik draag in de winter een muts."] }
+  - { id: s10, target: "De sjaal is te lang.", native: { en: "The scarf is too long." }, items: [nl.sjaal] }
+  - { id: s11, target: "Waar zijn mijn handschoenen?", native: { en: "Where are my gloves?" }, items: [nl.handschoen] }
+  - { id: s12, target: "Deze laarzen zijn warm.", native: { en: "These boots are warm." }, items: [nl.laars] }
+  - { id: s13, target: "Ik zoek een zwarte tas.", native: { en: "I'm looking for a black bag." }, items: [nl.tas] }
+  - { id: s14, target: "Ik heb mijn bril niet bij me.", native: { en: "I don't have my glasses with me." }, items: [nl.bril] }
+  - { id: s15, target: "Deze schoenen zijn te breed.", native: { en: "These shoes are too wide." }, items: [nl.breed] }
+  - { id: s16, target: "De schoenen zijn te smal.", native: { en: "The shoes are too narrow." }, items: [nl.smal] }
+  - { id: s17, target: "Deze jas is te dun voor de winter.", native: { en: "This coat is too thin for winter." }, items: [nl.dun] }
+  - { id: s18, target: "Ik wil graag een dikke trui.", native: { en: "I'd like a thick jumper." }, items: [nl.dik] }

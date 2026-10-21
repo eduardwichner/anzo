@@ -1,0 +1,58 @@
+id: fr-a1-1-u11
+title: { nl: Lezen en schrijven, en: "Reading and writing" }
+icon: school
+topic: En classe; les consignes
+vocabulary:
+  - { target: lire, native: { nl: lezen, en: "to read" }, pos: verb }
+  - { target: écrire, native: { nl: schrijven, en: "to write" }, pos: verb }
+  - { target: dessiner, native: { nl: tekenen, en: "to draw" }, pos: verb }
+  - { target: colorier, native: { nl: kleuren, en: "to colour in" }, pos: verb }
+  - { target: écouter, native: { nl: luisteren, en: "to listen (to)" }, pos: verb }
+  - { target: regarder, native: { nl: kijken (naar), en: "to look (at), to watch" }, pos: verb }
+  - { target: parler, native: { nl: "praten, spreken", en: "to speak, to talk" }, pos: verb }
+  - { target: répondre, native: { nl: antwoorden, en: "to answer" }, pos: verb }
+  - { target: comprendre, native: { nl: begrijpen, en: "to understand" }, pos: verb }
+  - { target: réfléchir, native: { nl: nadenken, en: "to think (carefully)" }, pos: verb }
+  - { target: montrer, native: { nl: laten zien, en: "to show" }, pos: verb, avoid: [fr.voir] }
+  - { target: ouvrir, native: { nl: "openen, opendoen", en: "to open" }, pos: verb }
+  - { target: fermer, native: { nl: "sluiten, dichtdoen", en: "to close, to shut" }, pos: verb }
+  - { target: poser, native: { nl: "(een vraag) stellen, neerleggen", en: "to ask (a question), to put down" }, pos: verb, avoid: [fr.mettre] }
+  - { target: la question, native: { nl: de vraag, en: "question" }, pos: noun, gender: f }
+  - { target: la réponse, native: { nl: het antwoord, en: "answer" }, pos: noun, gender: f }
+  - { target: le mot, native: { nl: het woord, en: "word" }, pos: noun, gender: m }
+  - { target: la lettre, native: { nl: "de letter, de brief", en: "letter" }, pos: noun, gender: f }
+  - { target: le message, native: { nl: het bericht, en: "message" }, pos: noun, gender: m }
+  - { target: "l'image", native: { nl: het plaatje, en: "picture" }, pos: noun, gender: f }
+  - { target: le dessin, native: { nl: de tekening, en: "drawing, picture" }, pos: noun, gender: m }
+  - { target: la langue, native: { nl: de taal, en: "language" }, pos: noun, gender: f }
+  - { target: le français, native: { nl: het Frans, en: "French" }, pos: noun, gender: m }
+sentences:
+  - { id: s01, target: "Je lis le message de Côme.", native: { nl: "Ik lees het bericht van Côme.", en: "I'm reading Côme's message." }, items: [fr.lire] }
+  - { id: s02, target: "J'aime lire.", native: { nl: "Ik lees graag.", en: "I like reading." }, items: [fr.lire] }
+  - { id: s03, target: "Tu écris ton nom ?", native: { nl: "Schrijf jij je naam op?", en: "Are you writing your name?" }, items: [fr.ecrire] }
+  - { id: s04, target: "Je dessine un chat.", native: { nl: "Ik teken een kat.", en: "I'm drawing a cat." }, items: [fr.dessiner] }
+  - { id: s05, target: "Colorie la fleur en rouge.", native: { nl: "Kleur de bloem rood.", en: "Colour the flower in red." }, items: [fr.colorier] }
+  - { id: s06, target: "Écoute bien !", native: { nl: "Luister goed!", en: "Listen carefully!" }, items: [fr.ecouter] }
+  - { id: s07, target: "Regarde les dessins.", native: { nl: "Kijk naar de tekeningen.", en: "Look at the drawings." }, items: [fr.regarder, fr.dessin] }
+  - { id: s08, target: "Qu'est-ce que tu regardes ?", native: { nl: "Waar kijk jij naar?", en: "What are you looking at?" }, items: [fr.regarder] }
+  - { id: s09, target: "Je parle français avec ma maîtresse.", native: { nl: "Ik spreek Frans met mijn juf.", en: "I speak French with my teacher." }, items: [fr.parler, fr.francais] }
+  - { id: s10, target: "Tu parles quelle langue à la maison ?", native: { nl: "Welke taal spreek jij thuis?", en: "What language do you speak at home?" }, items: [fr.parler, fr.langue] }
+  - { id: s11, target: "Réponds aux questions.", native: { nl: "Beantwoord de vragen.", en: "Answer the questions." }, items: [fr.repondre, fr.question] }
+  - { id: s12, target: "Je ne comprends pas.", native: { nl: "Ik begrijp het niet.", en: "I don't understand." }, items: [fr.comprendre] }
+  - { id: s13, target: "Tu comprends la question ?", native: { nl: "Begrijp je de vraag?", en: "Do you understand the question?" }, items: [fr.comprendre, fr.question] }
+  - { id: s14, target: "Réfléchis bien !", native: { nl: "Denk goed na!", en: "Think carefully!" }, items: [fr.reflechir] }
+  - { id: s15, target: "Montre ton dessin à papa.", native: { nl: "Laat papa je tekening zien.", en: "Show Dad your drawing." }, items: [fr.montrer, fr.dessin] }
+  - { id: s16, target: "Ouvre ton livre.", native: { nl: "Doe je boek open.", en: "Open your book." }, items: [fr.ouvrir] }
+  - { id: s17, target: "Ferme la fenêtre, s'il te plaît.", native: { nl: "Doe het raam dicht, alsjeblieft.", en: "Close the window, please." }, items: [fr.fermer] }
+  - { id: s18, target: "Je pose une question.", native: { nl: "Ik stel een vraag.", en: "I'm asking a question." }, items: [fr.poser, fr.question] }
+  - { id: s19, target: "Quelle est la bonne réponse ?", native: { nl: "Wat is het goede antwoord?", en: "What's the right answer?" }, items: [fr.reponse] }
+  - { id: s20, target: "Écris trois mots.", native: { nl: "Schrijf drie woorden.", en: "Write three words." }, items: [fr.ecrire, fr.mot] }
+  - { id: s21, target: "J'écris une lettre à mon ami.", native: { nl: "Ik schrijf een brief aan mijn vriend.", en: "I'm writing a letter to my friend." }, items: [fr.lettre] }
+  - { id: s22, target: "Lis ce message.", native: { nl: "Lees dit bericht.", en: "Read this message." }, items: [fr.message, fr.lire] }
+  - { id: s23, target: "Regarde l'image.", native: { nl: "Kijk naar het plaatje.", en: "Look at the picture." }, items: [fr.image] }
+  - { id: s24, target: "Ton dessin est très joli !", native: { nl: "Je tekening is heel mooi!", en: "Your drawing is very pretty!" }, items: [fr.dessin] }
+  - { id: s25, target: "J'aime le français.", native: { nl: "Ik vind Frans leuk.", en: "I like French." }, items: [fr.francais] }
+lessons:
+  - { id: l01, title: { nl: Tekenen en kijken, en: "Drawing and looking" }, vocab: [fr.lire, fr.ecrire, fr.dessiner, fr.colorier, fr.ecouter, fr.regarder, fr.dessin] }
+  - { id: l02, title: { nl: Praten en antwoorden, en: "Speaking and answering" }, vocab: [fr.parler, fr.repondre, fr.comprendre, fr.reflechir, fr.question, fr.reponse, fr.langue, fr.francais] }
+  - { id: l03, title: { nl: Doe je boek open, en: "Open your book" }, vocab: [fr.montrer, fr.ouvrir, fr.fermer, fr.poser, fr.mot, fr.lettre, fr.message, fr.image] }

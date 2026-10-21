@@ -1,0 +1,79 @@
+id: nl-b1-u19
+title: { en: The police and safety }
+icon: police
+topic: Theft, burglary, reporting a crime, witnesses, road safety; the pluperfect and the passive
+vocabulary:
+  - { target: het proces-verbaal, native: { en: "official report (by the police)" }, pos: noun, plural: processen-verbaal, avoid: [nl.verklaring] }
+  - { target: het politiekantoor, native: { en: police station }, pos: noun, plural: politiekantoren, alsoNL: het politiebureau }
+  - { target: de inspecteur, native: { en: "inspector (police officer)" }, pos: noun, plural: inspecteurs }
+  - { target: de getuige, native: { en: witness }, pos: noun, plural: getuigen }
+  - { target: de verklaring, native: { en: statement }, pos: noun, plural: verklaringen }
+  - { target: de verdachte, native: { en: suspect }, pos: noun, plural: verdachten }
+  - { target: de dader, native: { en: "offender, culprit" }, pos: noun, plural: daders, avoid: [nl.verdachte] }
+  - { target: het slot, native: { en: lock }, pos: noun, plural: sloten }
+  - { target: het kader, native: { en: "(bike) frame" }, pos: noun, plural: kaders, alsoNL: het frame }
+  - { target: de diefstal, native: { en: theft }, pos: noun, plural: diefstallen, avoid: [nl.inbraak] }
+  - { target: de inbraak, native: { en: burglary }, pos: noun, plural: inbraken }
+  - { target: inbreken, native: { en: "to break in" }, pos: verb }
+  - { target: beroven, native: { en: to rob }, pos: verb }
+  - { target: de overval, native: { en: "robbery, hold-up" }, pos: noun, plural: overvallen }
+  - { target: de handtas, native: { en: handbag }, pos: noun, plural: handtassen }
+  - { target: terugvinden, native: { en: "to find again, to recover" }, pos: verb }
+  - { target: het signalement, native: { en: "description (of a person)" }, pos: noun, plural: signalementen }
+  - { target: het model, native: { en: model }, pos: noun, plural: modellen }
+  - { target: de waarde, native: { en: value }, pos: noun, plural: waarden }
+  - { target: de verzekeraar, native: { en: insurer }, pos: noun, plural: verzekeraars }
+  - { target: aangeven, native: { en: "to report (to the police); to indicate" }, pos: verb }
+  - { target: het noodnummer, native: { en: emergency number }, pos: noun, plural: noodnummers }
+  - { target: het alarm, native: { en: alarm }, pos: noun, plural: alarmen }
+  - { target: de camera, native: { en: camera }, pos: noun, plural: camera's }
+  - { target: opmerken, native: { en: to notice }, pos: verb, avoid: [nl.merken, nl.opvallen] }
+  - { target: opvallen, native: { en: "to stand out, to strike (someone)" }, pos: verb }
+  - { target: oppassen, native: { en: "to be careful, to watch out" }, pos: verb }
+  - { target: waarschuwen, native: { en: "to warn, to alert" }, pos: verb }
+  - { target: de waarschuwing, native: { en: warning }, pos: noun, plural: waarschuwingen }
+  - { target: de snelheid, native: { en: speed }, pos: noun, plural: snelheden }
+  - { target: flitsen, native: { en: "to catch (by a speed camera)" }, pos: verb }
+  - { target: afleggen, native: { en: "to make (a statement); to cover (a distance)" }, pos: verb }
+  - { target: opmaken, native: { en: "to draw up (a report)" }, pos: verb }
+  - { target: oppakken, native: { en: "to arrest; to pick up" }, pos: verb }
+  - { target: beperken, native: { en: to limit }, pos: verb }
+  - { target: raken, native: { en: "to get, to become (as in: to get injured)" }, pos: verb }
+  - { target: de grond, native: { en: ground }, pos: noun, plural: gronden }
+  - { target: beschrijven, native: { en: to describe }, pos: verb }
+  - { target: bekijken, native: { en: "to look at, to view" }, pos: verb }
+sentences:
+  - { id: s01, target: "De agent heeft een proces-verbaal opgemaakt.", native: { en: "The police officer drew up an official report." }, items: [nl.proces-verbaal, nl.opmaken] }
+  - { id: s02, target: "Het politiekantoor is tot tien uur 's avonds open.", native: { en: "The police station is open until ten in the evening." }, items: [nl.politiekantoor] }
+  - { id: s03, target: "De inspecteur stelde me veel vragen.", native: { en: "The inspector asked me a lot of questions." }, items: [nl.inspecteur], finite: { word: stelde, hint: { en: "stellen (past)" } } }
+  - { id: s04, target: "Een getuige had de dief zien weglopen.", native: { en: "A witness had seen the thief run away." }, items: [nl.getuige], finite: { word: had, hint: { en: "hebben (past)" } } }
+  - { id: s05, target: "Ik heb een verklaring afgelegd bij de politie.", native: { en: "I made a statement to the police." }, items: [nl.verklaring, nl.afleggen] }
+  - { id: s06, target: "De politie heeft twee verdachten opgepakt.", native: { en: "The police have arrested two suspects." }, items: [nl.verdachte, nl.oppakken] }
+  - { id: s07, target: "De dader is nog niet gevonden.", native: { en: "The culprit hasn't been found yet." }, items: [nl.dader] }
+  - { id: s08, target: "Ik had mijn fiets met een goed slot vastgemaakt.", native: { en: "I had secured my bike with a good lock." }, items: [nl.slot], acceptAlso: ["Met een goed slot had ik mijn fiets vastgemaakt.", "Mijn fiets had ik met een goed slot vastgemaakt."] }
+  - { id: s09, target: "Het nummer staat op het kader van de fiets.", native: { en: "The number is on the frame of the bike." }, items: [nl.kader] }
+  - { id: s10, target: "Fietsdiefstal komt in de stad veel voor.", native: { en: "Bike theft is common in the city." }, items: [nl.diefstal], acceptAlso: ["In de stad komt fietsdiefstal veel voor.", "Fietsdiefstal komt veel voor in de stad."] }
+  - { id: s11, target: "Na de inbraak hebben we een alarm laten plaatsen.", native: { en: "After the burglary we had an alarm installed." }, items: [nl.inbraak, nl.alarm], acceptAlso: ["We hebben na de inbraak een alarm laten plaatsen."] }
+  - { id: s12, target: "Terwijl we op vakantie waren, werd er bij ons ingebroken.", native: { en: "While we were on holiday, our house was broken into." }, items: [nl.inbreken], acceptAlso: ["Er werd bij ons ingebroken terwijl we op vakantie waren."], finite: { word: werd, hint: { en: "worden (past)" } } }
+  - { id: s13, target: "Een oudere vrouw werd op straat beroofd.", native: { en: "An elderly woman was robbed in the street." }, items: [nl.beroven] }
+  - { id: s14, target: "Bij de overval op de winkel raakte niemand gewond.", native: { en: "Nobody was injured in the robbery at the shop." }, items: [nl.overval, nl.gewond, nl.raken] }
+  - { id: s15, target: "Iemand heeft haar handtas uit de auto gestolen.", native: { en: "Someone stole her handbag from the car." }, items: [nl.handtas], acceptAlso: ["Uit de auto heeft iemand haar handtas gestolen."] }
+  - { id: s16, target: "Gelukkig heb ik mijn portefeuille teruggevonden.", native: { en: "Fortunately I found my wallet again." }, items: [nl.terugvinden], acceptAlso: ["Ik heb gelukkig mijn portefeuille teruggevonden.", "Ik heb mijn portefeuille gelukkig teruggevonden."] }
+  - { id: s17, target: "Kunt u een signalement van de man geven?", native: { en: "Can you give a description of the man?" }, items: [nl.signalement] }
+  - { id: s18, target: "Welk merk en welk model is uw fiets?", native: { en: "What make and model is your bike?" }, items: [nl.model] }
+  - { id: s19, target: "Wat is de waarde van de gestolen spullen?", native: { en: "What's the value of the stolen things?" }, items: [nl.waarde] }
+  - { id: s20, target: "Stuur een kopie van het proces-verbaal naar uw verzekeraar.", native: { en: "Send a copy of the official report to your insurer." }, items: [nl.verzekeraar, nl.proces-verbaal] }
+  - { id: s21, target: "U moet de diefstal zo snel mogelijk aangeven.", native: { en: "You should report the theft as soon as possible." }, items: [nl.aangeven, nl.diefstal], acceptAlso: ["U moet zo snel mogelijk de diefstal aangeven."] }
+  - { id: s22, target: "Het noodnummer in heel Europa is 112.", native: { en: "The emergency number in the whole of Europe is 112." }, items: [nl.noodnummer] }
+  - { id: s23, target: "Er hangt een camera aan de ingang van het station.", native: { en: "There's a camera at the station entrance." }, items: [nl.camera] }
+  - { id: s24, target: "Hebt u iets verdachts opgemerkt?", native: { en: "Did you notice anything suspicious?" }, items: [nl.opmerken, nl.verdacht] }
+  - { id: s25, target: "Het viel me op dat de deur openstond.", native: { en: "It struck me that the door was open." }, items: [nl.opvallen] }
+  - { id: s26, target: "Pas op voor dieven op de markt.", native: { en: "Watch out for thieves at the market." }, items: [nl.oppassen] }
+  - { id: s27, target: "De buren waarschuwden de politie.", native: { en: "The neighbours alerted the police." }, items: [nl.waarschuwen], finite: { word: waarschuwden, hint: { en: "waarschuwen (past)" } } }
+  - { id: s28, target: "Hij kreeg geen boete, maar een waarschuwing.", native: { en: "He got a warning, not a fine." }, items: [nl.waarschuwing] }
+  - { id: s29, target: "In de buurt van de school is de snelheid beperkt tot dertig kilometer per uur.", native: { en: "Near the school the speed limit is thirty kilometres an hour." }, items: [nl.snelheid, nl.beperken] }
+  - { id: s30, target: "Ik ben gisteren geflitst omdat ik te snel reed.", native: { en: "I was caught by a speed camera yesterday because I was driving too fast." }, items: [nl.flitsen], acceptAlso: ["Omdat ik te snel reed, ben ik gisteren geflitst.", "Gisteren ben ik geflitst omdat ik te snel reed."] }
+  - { id: s31, target: "Kunt u de man beschrijven?", native: { en: "Can you describe the man?" }, items: [nl.beschrijven] }
+  - { id: s32, target: "Het slot van mijn fiets lag op de grond.", native: { en: "The lock of my bike was lying on the ground." }, items: [nl.grond, nl.slot] }
+  - { id: s33, target: "De agent bekijkt mijn identiteitskaart.", native: { en: "The police officer looks at my identity card." }, items: [nl.bekijken] }
+texts: [nl-b1-t20]

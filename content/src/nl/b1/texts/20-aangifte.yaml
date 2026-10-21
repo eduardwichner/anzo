@@ -1,0 +1,40 @@
+id: nl-b1-t20
+kind: dialogue
+title: { en: My bike has been stolen }
+topic: The police and safety (reporting a theft at the police station)
+level: B1
+speakers: { A: { name: Inspecteur Maes }, B: { name: Lisa } }
+turns:
+  - { id: nl-b1-t20-s01, speaker: A, target: "Goedemiddag, mevrouw. Waarvoor komt u?", native: { en: "Good afternoon. What have you come about?" } }
+  - { id: nl-b1-t20-s02, speaker: B, target: "Ik wil aangifte doen. Mijn fiets is gestolen.", native: { en: "I'd like to report a crime. My bike has been stolen." } }
+  - { id: nl-b1-t20-s03, speaker: A, target: "Dat is vervelend. Wanneer en waar is dat gebeurd?", native: { en: "I'm sorry to hear that. When and where did it happen?" } }
+  - { id: nl-b1-t20-s04, speaker: B, target: "Vandaag, aan het station. Ik had hem om acht uur in de fietsenstalling gezet, en toen ik om vijf uur terugkwam, was hij weg.", native: { en: "Today, at the station. I had put it in the bike park at eight, and when I came back at five, it was gone." } }
+  - { id: nl-b1-t20-s05, speaker: A, target: "Had u hem op slot gezet?", native: { en: "Had you locked it?" } }
+  - { id: nl-b1-t20-s06, speaker: B, target: "Ja, met een zwaar slot. Het slot lag kapot op de grond.", native: { en: "Yes, with a heavy lock. The lock was lying broken on the ground." } }
+  - { id: nl-b1-t20-s07, speaker: A, target: "Kunt u de fiets beschrijven? Welk merk, welke kleur?", native: { en: "Can you describe the bike? What make, what colour?" } }
+  - { id: nl-b1-t20-s08, speaker: B, target: "Het is een blauwe elektrische fiets van twee jaar oud. Het nummer staat op het kader, ik heb het hier op een foto.", native: { en: "It's a blue electric bike, two years old. The number is on the frame, I have it here in a photo." } }
+  - { id: nl-b1-t20-s09, speaker: A, target: "Prima, dat helpt. Hebt u iemand gezien of is u iets opgevallen?", native: { en: "Great, that helps. Did you see anyone, or did you notice anything?" } }
+  - { id: nl-b1-t20-s10, speaker: B, target: "Nee, maar ik heb gezien dat er aan de ingang van de fietsenstalling een camera hangt.", native: { en: "No, but I saw that there's a camera at the entrance of the bike park." } }
+  - { id: nl-b1-t20-s11, speaker: A, target: "Goed, die beelden worden bekeken. Ik maak nu een proces-verbaal op. Dat hebt u nodig voor uw verzekeraar.", native: { en: "Good, that footage will be checked. I'll draw up an official report now. You'll need it for your insurer." } }
+  - { id: nl-b1-t20-s12, speaker: B, target: "Denkt u dat ik mijn fiets terugvind?", native: { en: "Do you think I'll get my bike back?" } }
+  - { id: nl-b1-t20-s13, speaker: A, target: "Dat kan ik niet beloven. Maar dankzij het nummer op het kader is de kans groter. We bellen u als we iets weten.", native: { en: "I can't promise that. But thanks to the number on the frame the chances are better. We'll call you if we know anything." } }
+glossary:
+  - { word: fietsenstalling, native: { en: "bike park, cycle shelter" } }
+  - { word: elektrische, native: { en: electric } }
+  - { word: beelden, native: { en: "footage, (camera) images" } }
+items: [nl.slot, nl.kader, nl.opvallen, nl.camera, nl.proces-verbaal, nl.verzekeraar, nl.terugvinden, nl.grond, nl.beschrijven, nl.merk, nl.beloven, nl.dankzij, nl.opmaken, nl.bekijken]
+questions:
+  - { id: nl-b1-t20-q1, type: mc, question: "Waarom gaat Lisa naar de politie?", options: ["Haar fiets is gestolen.", "Er is bij haar ingebroken.", "Ze heeft haar handtas verloren."], correct: 0 }
+  - { id: nl-b1-t20-q3, type: true_false_notgiven, statement: "Er hangt een camera aan de fietsenstalling.", answer: true }
+  - { id: nl-b1-t20-q2, type: true_false_notgiven, statement: "Lisa had haar fiets niet op slot gezet.", answer: false }
+  - { id: nl-b1-t20-q4, type: true_false_notgiven, statement: "Lisa heeft de fiets van haar ouders gekregen.", answer: not_given }
+  - { id: nl-b1-t20-q5, type: mc, question: "Waarvoor heeft Lisa het proces-verbaal nodig?", options: ["Voor haar verzekeraar.", "Voor de fietsenstalling.", "Voor haar werkgever."], correct: 0 }
+listeningQuestions:
+  - { id: nl-b1-t20-l1, type: mc, question: "Welke kleur heeft de fiets?", options: ["Blauw.", "Rood.", "Zwart."], correct: 0 }
+  - { id: nl-b1-t20-l2, type: true_false_notgiven, statement: "De inspecteur belooft dat Lisa haar fiets terugkrijgt.", answer: false }
+cloze:
+  - { sentence: nl-b1-t20-s04, word: had, kind: finite_verb, hint: { en: "hebben (past)" } }
+  - { sentence: nl-b1-t20-s06, word: lag, kind: finite_verb, hint: { en: "liggen (past)" } }
+  - { sentence: nl-b1-t20-s08, word: staat, kind: finite_verb, hint: { en: "staan (present)" } }
+  - { sentence: nl-b1-t20-s11, word: maak, kind: finite_verb, hint: { en: "opmaken (present)" } }
+orderable: false

@@ -1,0 +1,55 @@
+id: fr-a1-1-u14
+title: { nl: Dagen en tijd, en: "Days and time" }
+icon: time
+topic: Les jours de la semaine; les moments de la journée; l'heure
+vocabulary:
+  - { target: lundi, native: { nl: maandag, en: "Monday" }, pos: noun, gender: m }
+  - { target: mardi, native: { nl: dinsdag, en: "Tuesday" }, pos: noun, gender: m }
+  - { target: mercredi, native: { nl: woensdag, en: "Wednesday" }, pos: noun, gender: m }
+  - { target: jeudi, native: { nl: donderdag, en: "Thursday" }, pos: noun, gender: m }
+  - { target: vendredi, native: { nl: vrijdag, en: "Friday" }, pos: noun, gender: m }
+  - { target: samedi, native: { nl: zaterdag, en: "Saturday" }, pos: noun, gender: m }
+  - { target: dimanche, native: { nl: zondag, en: "Sunday" }, pos: noun, gender: m }
+  - { target: le jour, native: { nl: de dag, en: "day" }, pos: noun, gender: m }
+  - { target: la semaine, native: { nl: de week, en: "week" }, pos: noun, gender: f }
+  - { target: le week-end, native: { nl: het weekend, en: "weekend" }, pos: noun, gender: m }
+  - { target: le matin, native: { nl: de ochtend, en: "morning" }, pos: noun, gender: m }
+  - { target: "l'après-midi", native: { nl: de middag, en: "afternoon" }, pos: noun, gender: m }
+  - { target: le soir, native: { nl: de avond, en: "evening" }, pos: noun, gender: m }
+  - { target: la nuit, native: { nl: de nacht, en: "night" }, pos: noun, gender: f }
+  - { target: "l'heure", native: { nl: "het uur, de tijd", en: "hour, time (on the clock)" }, pos: noun, gender: f }
+  - { target: la date, native: { nl: de datum, en: "date" }, pos: noun, gender: f }
+  - { target: "aujourd'hui", native: { nl: vandaag, en: "today" }, pos: adverb }
+  - { target: demain, native: { nl: morgen, en: "tomorrow" }, pos: adverb }
+  - { target: tôt, native: { nl: vroeg, en: "early" }, pos: adverb }
+  - { target: avant, native: { nl: "voor (tijd), eerder", en: "before" }, pos: preposition, avoid: [fr.devant, fr.pour] }
+  - { target: après, native: { nl: "na, daarna", en: "after, afterwards" }, pos: preposition }
+  - { target: pendant, native: { nl: tijdens, en: "during" }, pos: preposition }
+sentences:
+  - { id: s01, target: "Lundi, je vais à l'école.", native: { nl: "Maandag ga ik naar school.", en: "On Monday I go to school." }, items: [fr.lundi] }
+  - { id: s02, target: "Mardi, j'ai un cours de dessin.", native: { nl: "Dinsdag heb ik tekenles.", en: "On Tuesday I have a drawing lesson." }, items: [fr.mardi] }
+  - { id: s03, target: "Le mercredi, je fais du vélo.", native: { nl: "Elke woensdag fiets ik.", en: "On Wednesdays I go cycling." }, items: [fr.mercredi] }
+  - { id: s04, target: "Jeudi, nous allons à la piscine.", native: { nl: "Donderdag gaan we naar het zwembad.", en: "On Thursday we're going to the swimming pool." }, items: [fr.jeudi] }
+  - { id: s05, target: "Vendredi, c'est la fête !", native: { nl: "Vrijdag is het feest!", en: "On Friday there's a party!" }, items: [fr.vendredi] }
+  - { id: s06, target: "La fête est samedi 15 septembre.", native: { nl: "Het feest is op zaterdag 15 september.", en: "The party is on Saturday 15 September." }, items: [fr.samedi] }
+  - { id: s07, target: "Dimanche, je joue avec mon frère.", native: { nl: "Zondag speel ik met mijn broer.", en: "On Sunday I'm playing with my brother." }, items: [fr.dimanche] }
+  - { id: s08, target: "C'est quel jour, ton anniversaire ?", native: { nl: "Op welke dag is je verjaardag?", en: "What day is your birthday?" }, items: [fr.jour] }
+  - { id: s09, target: "Il y a sept jours dans une semaine.", native: { nl: "Een week heeft zeven dagen.", en: "There are seven days in a week." }, items: [fr.jour, fr.semaine] }
+  - { id: s10, target: "Qu'est-ce que tu fais le week-end ?", native: { nl: "Wat doe jij in het weekend?", en: "What do you do at the weekend?" }, items: [fr.week-end] }
+  - { id: s11, target: "Le matin, je lis un livre.", native: { nl: "'s Ochtends lees ik een boek.", en: "In the morning I read a book." }, items: [fr.matin] }
+  - { id: s12, target: "Je vais au parc l'après-midi.", native: { nl: "'s Middags ga ik naar het park.", en: "I go to the park in the afternoon." }, items: [fr.apres-midi] }
+  - { id: s13, target: "Le soir, je regarde la télévision.", native: { nl: "'s Avonds kijk ik televisie.", en: "In the evening I watch television." }, items: [fr.soir] }
+  - { id: s14, target: "La nuit, je dors.", native: { nl: "'s Nachts slaap ik.", en: "At night I sleep." }, items: [fr.nuit] }
+  - { id: s15, target: "À quelle heure arrive le bus ?", native: { nl: "Hoe laat komt de bus?", en: "What time does the bus arrive?" }, items: [fr.heure] }
+  - { id: s16, target: "Quelle est la date de la fête ?", native: { nl: "Wat is de datum van het feest?", en: "What's the date of the party?" }, items: [fr.date] }
+  - { id: s17, target: "Aujourd'hui, c'est lundi.", native: { nl: "Vandaag is het maandag.", en: "Today is Monday." }, items: [fr.aujourd-hui, fr.lundi] }
+  - { id: s18, target: "Demain, on va au parc.", native: { nl: "Morgen gaan we naar het park.", en: "Tomorrow we're going to the park." }, items: [fr.demain] }
+  - { id: s19, target: "À sept heures ? C'est tôt !", native: { nl: "Om zeven uur? Dat is vroeg!", en: "At seven o'clock? That's early!" }, items: [fr.tot] }
+  - { id: s20, target: "Je mange avant l'école.", native: { nl: "Ik eet voor schooltijd.", en: "I eat before school." }, items: [fr.avant] }
+  - { id: s23, target: "Il est quelle heure ? Il est huit heures.", native: { nl: "Hoe laat is het? Het is acht uur.", en: "What time is it? It's eight o'clock." }, items: [fr.heure] }
+  - { id: s21, target: "Qu'est-ce que tu fais après l'école ?", native: { nl: "Wat doe jij na school?", en: "What do you do after school?" }, items: [fr.apres] }
+  - { id: s22, target: "Qu'est-ce que tu aimes faire pendant les vacances ?", native: { nl: "Wat doe jij graag in de vakantie?", en: "What do you like doing during the holidays?" }, items: [fr.pendant] }
+lessons:
+  - { id: l01, title: { nl: De dagen van de week, en: "The days of the week" }, vocab: [fr.lundi, fr.mardi, fr.mercredi, fr.jeudi, fr.vendredi, fr.samedi, fr.dimanche] }
+  - { id: l02, title: { nl: Dag en nacht, en: "Day and night" }, vocab: [fr.jour, fr.semaine, fr.week-end, fr.matin, fr.apres-midi, fr.soir, fr.nuit] }
+  - { id: l03, title: { nl: Hoe laat?, en: "What time is it?" }, vocab: [fr.heure, fr.date, fr.aujourd-hui, fr.demain, fr.tot, fr.avant, fr.apres, fr.pendant] }

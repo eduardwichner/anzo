@@ -1,0 +1,50 @@
+id: en-a1-u15
+title: { nl: Op school }
+icon: school
+topic: School
+vocabulary:
+  - { target: homework, native: { nl: huiswerk }, pos: noun }
+  - { target: mistake, native: { nl: fout }, pos: noun }
+  - { target: wrong, native: { nl: verkeerd }, pos: adjective }
+  - { target: difficult, native: { nl: moeilijk }, pos: adjective }
+  - { target: easy, native: { nl: makkelijk }, pos: adjective }
+  - { target: idea, native: { nl: idee }, pos: noun }
+  - { target: think, native: { nl: "denken, vinden" }, pos: verb }
+  - { target: circle, native: { nl: cirkel }, pos: noun }
+  - { target: shape, native: { nl: vorm }, pos: noun }
+  - { target: difference, native: { nl: verschil }, pos: noun }
+  - { target: different, native: { nl: "anders, verschillend" }, pos: adjective, avoid: [en.difference] }
+  - { target: kind, native: { nl: soort }, pos: noun }
+  - { target: place, native: { nl: "plaats, plek" }, pos: noun }
+  - { target: teach, native: { nl: lesgeven }, pos: verb }
+  - { target: help, native: { nl: helpen }, pos: verb }
+  - { target: change, native: { nl: "veranderen, wisselen" }, pos: verb }
+  - { target: mean, native: { nl: betekenen }, pos: verb }
+  - { target: noise, native: { nl: "lawaai, geluid" }, pos: noun }
+  - { target: be called, native: { nl: heten }, pos: verb }
+sentences:
+  - { id: s01, target: "I've got a lot of homework today.", native: { nl: "Ik heb vandaag veel huiswerk." }, items: [en.homework], acceptAlso: ["I have got a lot of homework today."] }
+  - { id: s02, target: "You made a mistake.", native: { nl: "Je hebt een fout gemaakt." }, items: [en.mistake] }
+  - { id: s03, target: "That answer is wrong.", native: { nl: "Dat antwoord is verkeerd." }, items: [en.wrong] }
+  - { id: s04, target: "This question is difficult.", native: { nl: "Deze vraag is moeilijk." }, items: [en.difficult] }
+  - { id: s05, target: "This game is easy.", native: { nl: "Dit spel is makkelijk." }, items: [en.easy] }
+  - { id: s06, target: "That's a good idea!", native: { nl: "Dat is een goed idee!" }, items: [en.idea], acceptAlso: ["That is a good idea!"] }
+  - { id: s07, target: "I think it's a cat.", native: { nl: "Ik denk dat het een kat is." }, items: [en.think], acceptAlso: ["I think it is a cat."] }
+  - { id: s08, target: "I think English is easy.", native: { nl: "Ik vind Engels makkelijk." }, items: [en.think, en.easy] }
+  - { id: s09, target: "Draw a circle.", native: { nl: "Teken een cirkel." }, items: [en.circle] }
+  - { id: s10, target: "What shape is it?", native: { nl: "Welke vorm is het?" }, items: [en.shape] }
+  - { id: s11, target: "What's the difference?", native: { nl: "Wat is het verschil?" }, items: [en.difference], acceptAlso: ["What is the difference?"] }
+  - { id: s12, target: "These two pictures are different.", native: { nl: "Deze twee plaatjes zijn verschillend." }, items: [en.different] }
+  - { id: s13, target: "What kind of dog is it?", native: { nl: "Wat voor soort hond is het?" }, items: [en.kind] }
+  - { id: s14, target: "This is a nice place for a picnic.", native: { nl: "Dit is een fijne plek voor een picknick." }, items: [en.place] }
+  - { id: s15, target: "Mr Brown teaches us English.", native: { nl: "Meester Brown geeft ons Engels." }, items: [en.teach] }
+  - { id: s16, target: "Can you help me, please?", native: { nl: "Kun je me helpen, alsjeblieft?" }, items: [en.help] }
+  - { id: s17, target: "Let's change places.", native: { nl: "Laten we van plek wisselen." }, items: [en.change, en.place] }
+  - { id: s18, target: "What does this word mean?", native: { nl: "Wat betekent dit woord?" }, items: [en.mean] }
+  - { id: s19, target: "Stop that noise!", native: { nl: "Hou op met dat lawaai!" }, items: [en.noise] }
+  - { id: s20, target: "My cat is called Lily.", native: { nl: "Mijn kat heet Lily." }, items: [en.be-called] }
+  - { id: s21, target: "What's your teacher called?", native: { nl: "Hoe heet jouw juf?" }, items: [en.be-called], acceptAlso: ["What is your teacher called?"] }
+lessons:
+  - { id: l01, title: { nl: Huiswerk }, vocab: [en.homework, en.mistake, en.wrong, en.difficult, en.easy, en.idea, en.think] }
+  - { id: l02, title: { nl: Vormen en verschillen }, vocab: [en.circle, en.shape, en.difference, en.different, en.kind, en.place] }
+  - { id: l03, title: { nl: Lesgeven en helpen }, vocab: [en.teach, en.help, en.change, en.mean, en.noise, en.be-called] }

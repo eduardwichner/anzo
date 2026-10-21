@@ -1,0 +1,36 @@
+id: en-b1-t22
+kind: dialogue
+title: { nl: Aan de receptie }
+topic: Travel (checking in at a hotel after a delayed flight)
+level: B1
+speakers: { A: { name: Mrs Kumar }, B: { name: Receptionist } }
+turns:
+  - { id: en-b1-t22-s01, speaker: B, target: "Good evening, and welcome to the Seaview Hotel. How can I help you?", native: { nl: "Goedenavond, en welkom in het Seaview Hotel. Waarmee kan ik u helpen?" } }
+  - { id: en-b1-t22-s02, speaker: A, target: "Good evening. I have a reservation for three nights. My name's Kumar. Sorry we're so late. Our flight was delayed by four hours.", native: { nl: "Goedenavond. Ik heb een reservering voor drie nachten. Mijn naam is Kumar. Sorry dat we zo laat zijn. Onze vlucht had vier uur vertraging." } }
+  - { id: en-b1-t22-s03, speaker: B, target: "Oh dear, that's a long wait. Let me see. Yes, a family room with breakfast. Could I see your passport, please?", native: { nl: "O jee, dat is lang wachten. Even kijken. Ja, een familiekamer met ontbijt. Mag ik uw paspoort zien, alstublieft?" } }
+  - { id: en-b1-t22-s04, speaker: A, target: "Here you are. We requested a quiet room when we booked. Is that possible?", native: { nl: "Alstublieft. We vroegen om een rustige kamer toen we boekten. Is dat mogelijk?" } }
+  - { id: en-b1-t22-s05, speaker: B, target: "Yes, room 304 is at the back, away from the main road. You'll hear the sea, but not the traffic.", native: { nl: "Ja, kamer 304 ligt aan de achterkant, ver van de grote weg. U hoort de zee, maar niet het verkeer." } }
+  - { id: en-b1-t22-s06, speaker: A, target: "Perfect. And is the restaurant still open? The children haven't eaten since lunchtime.", native: { nl: "Perfect. En is het restaurant nog open? De kinderen hebben sinds de lunch niet gegeten." } }
+  - { id: en-b1-t22-s07, speaker: B, target: "I'm afraid the kitchen closed at ten. But we can send sandwiches to your room if you like.", native: { nl: "Helaas is de keuken om tien uur dichtgegaan. Maar we kunnen broodjes naar uw kamer sturen als u wilt." } }
+  - { id: en-b1-t22-s08, speaker: A, target: "That would be wonderful, thank you. What time is breakfast served?", native: { nl: "Dat zou heerlijk zijn, dank u. Hoe laat wordt het ontbijt geserveerd?" } }
+  - { id: en-b1-t22-s09, speaker: B, target: "From seven until half past ten. Here are your keys. The porter will carry your luggage upstairs.", native: { nl: "Van zeven tot half elf. Hier zijn uw sleutels. De piccolo brengt uw bagage naar boven." } }
+  - { id: en-b1-t22-s10, speaker: A, target: "Thanks very much. And what time do we need to check out on Sunday?", native: { nl: "Hartelijk bedankt. En hoe laat moeten we zondag uitchecken?" } }
+  - { id: en-b1-t22-s11, speaker: B, target: "Before eleven o'clock. Have a good night's sleep!", native: { nl: "Voor elf uur. Slaap lekker!" } }
+glossary:
+  - { word: Seaview, native: { nl: "Seaview (naam van het hotel: 'zeezicht')" } }
+items: [en.reservation, en.flight, en.delayed, en.passport, en.request, en.possible, en.lunchtime, en.serve, en.porter, en.luggage, en.check-out, en.welcome, en.perfect]
+questions:
+  - { id: en-b1-t22-q1, type: mc, question: "Why is the Kumar family late?", options: ["Their flight was delayed.", "They got lost.", "Their car broke down."], correct: 0 }
+  - { id: en-b1-t22-q2, type: true_false_notgiven, statement: "The hotel has a swimming pool.", answer: not_given }
+  - { id: en-b1-t22-q3, type: true_false_notgiven, statement: "Their room is at the back of the hotel.", answer: true }
+  - { id: en-b1-t22-q4, type: true_false_notgiven, statement: "The Kumars are staying for one night.", answer: false }
+  - { id: en-b1-t22-q5, type: mc, question: "What will the hotel do for the children?", options: ["Send sandwiches to the room.", "Open the restaurant again.", "Give them an earlier breakfast."], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t22-l1, type: mc, question: "When does breakfast finish?", options: ["At half past ten.", "At seven.", "At eleven."], correct: 0 }
+  - { id: en-b1-t22-l2, type: true_false_notgiven, statement: "Mrs Kumar has to carry the luggage herself.", answer: false }
+cloze:
+  - { sentence: en-b1-t22-s02, word: was, kind: finite_verb, hint: { nl: "be (verleden tijd: … delayed)" } }
+  - { sentence: en-b1-t22-s04, word: requested, kind: finite_verb, hint: { nl: "request (verleden tijd)" } }
+  - { sentence: en-b1-t22-s07, word: closed, kind: finite_verb, hint: { nl: "close (verleden tijd)" } }
+  - { sentence: en-b1-t22-s09, word: are, kind: finite_verb, hint: { nl: "be (tegenwoordige tijd)" } }
+orderable: true

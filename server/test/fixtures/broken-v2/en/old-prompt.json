@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "id": "en-old-prompt",
+  "track": "en",
+  "cefr": "Pre-A1",
+  "source": "Deliberately broken schema v2 fixture for the content validator.",
+  "units": [
+    {
+      "id": "en-old-prompt-u01",
+      "title": {
+        "nl": "Kapot"
+      },
+      "icon": "animals",
+      "vocabulary": [
+        {
+          "id": "en.old-prompt",
+          "target": "cat",
+          "native": {
+            "nl": "kat"
+          },
+          "pos": "noun"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "en-old-prompt-u01-l01",
+          "title": {
+            "nl": "Kapot"
+          },
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "id": "en-old-prompt-u01-l01-e01",
+              "items": [
+                "en.old-prompt"
+              ],
+              "question": "cat",
+              "options": [
+                {
+                  "text": {
+                    "nl": "kat"
+                  },
+                  "correct": true
+                },
+                {
+                  "text": {
+                    "nl": "hond"
+                  }
+                }
+              ],
+              "prompt": {
+                "nl": "Wat betekent dit?"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

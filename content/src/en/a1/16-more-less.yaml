@@ -1,0 +1,50 @@
+id: en-a1-u16
+title: { nl: "Alles, meer en waarom" }
+icon: questions
+topic: Grammar (determiners, pronouns, conjunctions, question words)
+vocabulary:
+  - { target: all, native: { nl: "alle, allemaal" }, pos: determiner }
+  - { target: every, native: { nl: "elke, ieder" }, pos: determiner, avoid: [en.all] }
+  - { target: everyone, native: { nl: iedereen }, pos: pronoun }
+  - { target: everything, native: { nl: alles }, pos: pronoun, avoid: [en.all] }
+  - { target: nothing, native: { nl: niets }, pos: pronoun }
+  - { target: both, native: { nl: "allebei, beide" }, pos: determiner, avoid: [en.all] }
+  - { target: more, native: { nl: meer }, pos: determiner }
+  - { target: most, native: { nl: "de meeste, het meest" }, pos: determiner, avoid: [en.more] }
+  - { target: only, native: { nl: "alleen, maar" }, pos: adverb }
+  - { target: than, native: { nl: dan }, pos: conjunction }
+  - { target: another, native: { nl: "nog een, een ander" }, pos: determiner }
+  - { target: any, native: { nl: "wat (in vragen)" }, pos: determiner }
+  - { target: someone, native: { nl: iemand }, pos: pronoun }
+  - { target: something, native: { nl: iets }, pos: pronoun }
+  - { target: because, native: { nl: omdat }, pos: conjunction }
+  - { target: when, native: { nl: "wanneer, toen" }, pos: question }
+  - { target: why, native: { nl: waarom }, pos: question }
+  - { target: how much, native: { nl: "hoeveel (kost)" }, pos: question }
+sentences:
+  - { id: s01, target: "All the children are in the playground.", native: { nl: "Alle kinderen zijn op het schoolplein." }, items: [en.all] }
+  - { id: s02, target: "I read every day.", native: { nl: "Ik lees elke dag." }, items: [en.every] }
+  - { id: s03, target: "Everyone likes ice cream.", native: { nl: "Iedereen houdt van ijs." }, items: [en.everyone] }
+  - { id: s04, target: "I can see everything from here.", native: { nl: "Ik kan hiervandaan alles zien." }, items: [en.everything] }
+  - { id: s05, target: "There's nothing in the box.", native: { nl: "Er zit niets in de doos." }, items: [en.nothing], acceptAlso: ["There is nothing in the box."] }
+  - { id: s06, target: "Both my brothers play football.", native: { nl: "Mijn broers voetballen allebei." }, items: [en.both] }
+  - { id: s07, target: "I like both my teachers.", native: { nl: "Ik vind mijn juffen allebei aardig." }, items: [en.both] }
+  - { id: s08, target: "Can I have more milk, please?", native: { nl: "Mag ik meer melk, alsjeblieft?" }, items: [en.more] }
+  - { id: s09, target: "Who has got the most sweets?", native: { nl: "Wie heeft de meeste snoepjes?" }, items: [en.most] }
+  - { id: s10, target: "I've only got one pencil.", native: { nl: "Ik heb maar één potlood." }, items: [en.only], acceptAlso: ["I have only got one pencil."] }
+  - { id: s11, target: "A lion is bigger than a cat.", native: { nl: "Een leeuw is groter dan een kat." }, items: [en.than] }
+  - { id: s12, target: "Can I have another sandwich?", native: { nl: "Mag ik nog een boterham?" }, items: [en.another] }
+  - { id: s13, target: "Have you got any sweets?", native: { nl: "Heb je wat snoep?" }, items: [en.any] }
+  - { id: s14, target: "Someone is at the door.", native: { nl: "Er staat iemand aan de deur." }, items: [en.someone] }
+  - { id: s15, target: "I want something to drink.", native: { nl: "Ik wil iets drinken." }, items: [en.something] }
+  - { id: s16, target: "I'm happy because it's my birthday.", native: { nl: "Ik ben blij omdat ik jarig ben." }, items: [en.because], acceptAlso: ["I am happy because it is my birthday."] }
+  - { id: s17, target: "When is your birthday?", native: { nl: "Wanneer ben je jarig?" }, items: [en.when] }
+  - { id: s18, target: "I was happy when I saw my friend.", native: { nl: "Ik was blij toen ik mijn vriend zag." }, items: [en.when] }
+  - { id: s21, target: "Sharks are more dangerous than dolphins.", native: { nl: "Haaien zijn gevaarlijker dan dolfijnen." }, items: [en.more, en.than] }
+  - { id: s22, target: "This is the most exciting film.", native: { nl: "Dit is de spannendste film." }, items: [en.most] }
+  - { id: s19, target: "Why are you sad?", native: { nl: "Waarom ben je verdrietig?" }, items: [en.why] }
+  - { id: s20, target: "How much is this ball?", native: { nl: "Hoeveel kost deze bal?" }, items: [en.how-much] }
+lessons:
+  - { id: l01, title: { nl: Alles en niets }, vocab: [en.all, en.every, en.everyone, en.everything, en.nothing, en.both] }
+  - { id: l02, title: { nl: Meer en meest }, vocab: [en.more, en.most, en.only, en.than, en.another, en.any] }
+  - { id: l03, title: { nl: Waarom? }, vocab: [en.someone, en.something, en.because, en.when, en.why, en.how-much] }

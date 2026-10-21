@@ -1,0 +1,51 @@
+id: en-pre-a1-u15
+title: { nl: Mijn dag }
+icon: day
+topic: Time
+vocabulary:
+  - { target: morning, native: { nl: ochtend }, pos: noun }
+  - { target: afternoon, native: { nl: middag }, pos: noun }
+  - { target: evening, native: { nl: avond }, pos: noun }
+  - { target: night, native: { nl: nacht }, pos: noun }
+  - { target: day, native: { nl: dag }, pos: noun }
+  - { target: today, native: { nl: vandaag }, pos: adverb }
+  - { target: now, native: { nl: nu }, pos: adverb }
+  - { target: sleep, native: { nl: slapen }, pos: verb }
+  - { target: go to bed, native: { nl: naar bed gaan }, pos: verb, avoid: [en.go-to-sleep, en.sleep] }
+  - { target: go to sleep, native: { nl: gaan slapen }, pos: verb, avoid: [en.sleep] }
+  - { target: year, native: { nl: jaar }, pos: noun }
+  - { target: birthday, native: { nl: verjaardag }, pos: noun }
+  - { target: again, native: { nl: "nog een keer, opnieuw" }, pos: adverb }
+  - { target: go, native: { nl: gaan }, pos: verb }
+  - { target: come, native: { nl: komen }, pos: verb }
+  - { target: get, native: { nl: "pakken, krijgen" }, pos: verb }
+  - { target: start, native: { nl: "beginnen, starten" }, pos: verb }
+  - { target: stop, native: { nl: stoppen }, pos: verb }
+  - { target: end, native: { nl: einde }, pos: noun }
+sentences:
+  - { id: s01, target: "Good morning, Mum!", native: { nl: "Goedemorgen, mama!" }, items: [en.morning, en.good] }
+  - { id: s02, target: "I go to school in the morning.", native: { nl: "Ik ga 's ochtends naar school." }, items: [en.morning] }
+  - { id: s03, target: "We play in the afternoon.", native: { nl: "Wij spelen 's middags." }, items: [en.afternoon] }
+  - { id: s04, target: "I read a book in the evening.", native: { nl: "Ik lees 's avonds een boek." }, items: [en.evening] }
+  - { id: s05, target: "Good night, Dad!", native: { nl: "Welterusten, papa!" }, items: [en.night, en.good] }
+  - { id: s06, target: "It's a beautiful day.", native: { nl: "Het is een mooie dag." }, items: [en.day, en.beautiful], acceptAlso: ["It is a beautiful day."] }
+  - { id: s07, target: "What are you doing today?", native: { nl: "Wat doe jij vandaag?" }, items: [en.today] }
+  - { id: s08, target: "Look at me now!", native: { nl: "Kijk nu naar mij!" }, items: [en.now] }
+  - { id: s09, target: "The baby sleeps in the afternoon.", native: { nl: "De baby slaapt 's middags." }, items: [en.sleep, en.baby, en.afternoon] }
+  - { id: s10, target: "It's night. Go to bed!", native: { nl: "Het is nacht. Ga naar bed!" }, items: [en.go-to-bed, en.night], acceptAlso: ["It is night. Go to bed!"] }
+  - { id: s11, target: "Go to sleep, please.", native: { nl: "Ga slapen, alsjeblieft." }, items: [en.go-to-sleep, en.please] }
+  - { id: s12, target: "I'm eight years old.", native: { nl: "Ik ben acht jaar oud." }, items: [en.year, en.eight, en.old], acceptAlso: ["I am eight years old."] }
+  - { id: s13, target: "Happy birthday, Lucy!", native: { nl: "Fijne verjaardag, Lucy!" }, items: [en.birthday, en.happy] }
+  - { id: s14, target: "Today is my birthday!", native: { nl: "Vandaag ben ik jarig!" }, items: [en.today, en.birthday] }
+  - { id: s15, target: "Say it again, please.", native: { nl: "Zeg het nog een keer, alsjeblieft." }, items: [en.again, en.please] }
+  - { id: s16, target: "We go to the park today.", native: { nl: "We gaan vandaag naar het park." }, items: [en.go, en.park, en.today], acceptAlso: ["Today we go to the park."] }
+  - { id: s17, target: "Come here, please!", native: { nl: "Kom hier, alsjeblieft!" }, items: [en.come, en.please] }
+  - { id: s18, target: "Can you get my bag, please?", native: { nl: "Kun je mijn tas pakken, alsjeblieft?" }, items: [en.get, en.bag, en.please] }
+  - { id: s19, target: "Let's start the game!", native: { nl: "Laten we het spel beginnen!" }, items: [en.start, en.game] }
+  - { id: s20, target: "Stop! A car is coming!", native: { nl: "Stop! Er komt een auto aan!" }, items: [en.stop, en.car, en.come] }
+  - { id: s21, target: "Stop the music, please.", native: { nl: "Stop de muziek, alsjeblieft." }, items: [en.stop, en.music] }
+  - { id: s22, target: "This is the end of the story.", native: { nl: "Dit is het einde van het verhaal." }, items: [en.end, en.story] }
+lessons:
+  - { id: l01, title: { nl: Dag en nacht }, vocab: [en.morning, en.afternoon, en.evening, en.night, en.day, en.today, en.now] }
+  - { id: l02, title: { nl: Slapen en jarig zijn }, vocab: [en.sleep, en.go-to-bed, en.go-to-sleep, en.year, en.birthday, en.again] }
+  - { id: l03, title: { nl: Gaan en komen }, vocab: [en.go, en.come, en.get, en.start, en.stop, en.end] }

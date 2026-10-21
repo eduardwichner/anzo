@@ -1,0 +1,10 @@
+# Every Anzo log: app.log (service), backup.log, jobs.log (content job, disk, cleanup), watchdog.log, full-backup.log.
+/var/log/anzo/*.log {
+    weekly
+    rotate 8
+    compress
+    delaycompress
+    missingok
+    notifempty
+    copytruncate
+}

@@ -1,0 +1,64 @@
+id: en-pre-a1-u07
+title: { nl: Fruit en groente }
+icon: fruit
+topic: Food and drink (fruit and vegetables)
+vocabulary:
+  - { target: fruit, native: { nl: fruit }, pos: noun, category: true }
+  - { target: apple, native: { nl: appel }, pos: noun }
+  - { target: banana, native: { nl: banaan }, pos: noun }
+  - { target: pear, native: { nl: peer }, pos: noun }
+  - { target: grape, native: { nl: druif }, pos: noun }
+  - { target: lemon, native: { nl: citroen }, pos: noun }
+  - { target: lime, native: { nl: limoen }, pos: noun }
+  - { target: kiwi, native: { nl: kiwi }, pos: noun }
+  - { target: mango, native: { nl: mango }, pos: noun }
+  - { target: pineapple, native: { nl: ananas }, pos: noun }
+  - { target: coconut, native: { nl: kokosnoot }, pos: noun }
+  - { target: watermelon, native: { nl: watermeloen }, pos: noun }
+  - { target: bean, native: { nl: boon }, pos: noun }
+  - { target: carrot, native: { nl: wortel }, pos: noun }
+  - { target: onion, native: { nl: ui }, pos: noun }
+  - { target: pea, native: { nl: erwt }, pos: noun }
+  - { target: potato, native: { nl: aardappel }, pos: noun }
+  - { target: tomato, native: { nl: tomaat }, pos: noun }
+  - { target: food, native: { nl: "eten, voedsel" }, pos: noun, category: true }
+  - { target: eat, native: { nl: eten }, pos: verb }
+  - { target: like, native: { nl: "leuk vinden, lekker vinden" }, pos: verb, avoid: [en.love] }
+  - { target: want, native: { nl: willen }, pos: verb, avoid: [en.like, en.would-like] }
+  - { target: would like, native: { nl: graag willen }, pos: verb, avoid: [en.like] }
+  - { target: some, native: { nl: "wat, een paar" }, pos: determiner }
+sentences:
+  - { id: s01, target: "This apple is red.", native: { nl: "Deze appel is rood." }, items: [en.apple, en.red] }
+  - { id: s02, target: "Monkeys love bananas.", native: { nl: "Apen houden van bananen." }, items: [en.banana, en.monkey, en.love] }
+  - { id: s03, target: "The pear is green.", native: { nl: "De peer is groen." }, items: [en.pear, en.green] }
+  - { id: s04, target: "These grapes are purple.", native: { nl: "Deze druiven zijn paars." }, items: [en.grape, en.purple] }
+  - { id: s05, target: "Lemons are yellow.", native: { nl: "Citroenen zijn geel." }, items: [en.lemon, en.yellow] }
+  - { id: s06, target: "Fruit is good for you.", native: { nl: "Fruit is goed voor je." }, items: [en.fruit, en.good] }
+  - { id: s07, target: "A lime is small and green.", native: { nl: "Een limoen is klein en groen." }, items: [en.lime, en.small, en.green] }
+  - { id: s08, target: "There are two kiwis on the table.", native: { nl: "Er liggen twee kiwi's op tafel." }, items: [en.kiwi, en.two] }
+  - { id: s09, target: "This mango is very big.", native: { nl: "Deze mango is heel groot." }, items: [en.mango, en.big] }
+  - { id: s10, target: "The pineapple is on the table.", native: { nl: "De ananas ligt op tafel." }, items: [en.pineapple] }
+  - { id: s11, target: "A coconut is brown.", native: { nl: "Een kokosnoot is bruin." }, items: [en.coconut, en.brown] }
+  - { id: s12, target: "The watermelon is big and green.", native: { nl: "De watermeloen is groot en groen." }, items: [en.watermelon, en.big, en.green] }
+  - { id: s13, target: "We are eating beans.", native: { nl: "Wij eten bonen." }, items: [en.bean] }
+  - { id: s14, target: "The donkey is eating a carrot.", native: { nl: "De ezel eet een wortel." }, items: [en.carrot, en.donkey] }
+  - { id: s15, target: "The onion is white.", native: { nl: "De ui is wit." }, items: [en.onion, en.white] }
+  - { id: s16, target: "Peas are small and green.", native: { nl: "Erwten zijn klein en groen." }, items: [en.pea, en.small, en.green] }
+  - { id: s17, target: "There are ten potatoes in the bag.", native: { nl: "Er zitten tien aardappelen in de tas." }, items: [en.potato, en.ten, en.bag] }
+  - { id: s18, target: "Tomatoes are red.", native: { nl: "Tomaten zijn rood." }, items: [en.tomato, en.red] }
+  - { id: s19, target: "Where is the food?", native: { nl: "Waar is het eten?" }, items: [en.food] }
+  - { id: s20, target: "Let's eat!", native: { nl: "Laten we eten!" }, items: [en.eat] }
+  - { id: s21, target: "I like apples and pears.", native: { nl: "Ik vind appels en peren lekker." }, items: [en.like, en.apple, en.pear], acceptAlso: ["I like pears and apples."] }
+  - { id: s22, target: "Do you want a banana?", native: { nl: "Wil jij een banaan?" }, items: [en.want, en.banana] }
+  - { id: s23, target: "I'd like a watermelon, please.", native: { nl: "Ik wil graag een watermeloen, alsjeblieft." }, items: [en.would-like, en.watermelon, en.please], acceptAlso: ["I would like a watermelon, please."] }
+  - { id: s24, target: "I would like some fruit.", native: { nl: "Ik wil graag wat fruit." }, items: [en.would-like, en.some, en.fruit], acceptAlso: ["I'd like some fruit."] }
+  - { id: s25, target: "Can I have some grapes, please?", native: { nl: "Mag ik wat druiven, alsjeblieft?" }, items: [en.some, en.grape, en.please] }
+  - { id: s26, target: "I don't want an onion!", native: { nl: "Ik wil geen ui!" }, items: [en.want, en.onion], acceptAlso: ["I do not want an onion!"] }
+  - { id: s27, target: "We eat a lot of fruit.", native: { nl: "Wij eten veel fruit." }, items: [en.eat, en.fruit] }
+  - { id: s28, target: "Do you like tomatoes? No, I don't.", native: { nl: "Vind jij tomaten lekker? Nee, ik niet." }, items: [en.like, en.tomato], acceptAlso: ["Do you like tomatoes? No, I do not."] }
+  - { id: s29, target: "Potatoes are my favourite food.", native: { nl: "Aardappelen zijn mijn lievelingseten." }, items: [en.potato, en.food] }
+lessons:
+  - { id: l01, title: { nl: Fruit }, vocab: [en.fruit, en.apple, en.banana, en.pear, en.grape, en.lemon] }
+  - { id: l02, title: { nl: Fruit van ver }, vocab: [en.lime, en.kiwi, en.mango, en.pineapple, en.coconut, en.watermelon] }
+  - { id: l03, title: { nl: Groente }, vocab: [en.bean, en.carrot, en.onion, en.pea, en.potato, en.tomato] }
+  - { id: l04, title: { nl: "Wat wil je eten?" }, vocab: [en.food, en.eat, en.like, en.want, en.would-like, en.some] }

@@ -1,0 +1,42 @@
+id: en-b2-t16
+kind: reading
+title: { nl: Waarom ik vrijwilliger ben }
+topic: Community and volunteering (four young volunteers on a charity's website)
+level: B2
+paragraphs:
+  - - { id: en-b2-t16-s01, target: "Kofi: Every Saturday morning I help at the food bank in our town.", native: { nl: "Kofi: Elke zaterdagochtend help ik bij de voedselbank in onze stad." } }
+    - { id: en-b2-t16-s02, target: "I sort the donations and pack bags for families who come to collect them.", native: { nl: "Ik sorteer de giften en pak tassen in voor de gezinnen die ze komen halen." } }
+    - { id: en-b2-t16-s03, target: "Before I started, I thought only homeless people used food banks, but many of the families have jobs and still can't get by.", native: { nl: "Voor ik begon, dacht ik dat alleen daklozen naar de voedselbank gingen, maar veel van de gezinnen hebben werk en komen toch niet rond." } }
+  - - { id: en-b2-t16-s04, target: "Lily: I teach English to adults at the community centre twice a week.", native: { nl: "Lily: Ik geef twee keer per week Engelse les aan volwassenen in het buurthuis." } }
+    - { id: en-b2-t16-s05, target: "Most of my students arrived in the country recently, and some of them were doctors or engineers in their own countries.", native: { nl: "De meeste van mijn leerlingen zijn onlangs in het land aangekomen, en sommigen waren in hun eigen land dokter of ingenieur." } }
+    - { id: en-b2-t16-s06, target: "It has completely changed my ideas: I had a lot of prejudice that I didn't know about.", native: { nl: "Het heeft mijn ideeën volledig veranderd: ik had veel vooroordelen waarvan ik me niet bewust was." } }
+  - - { id: en-b2-t16-s07, target: "Daniel: My grandfather lives alone, and I saw how isolated he felt after my grandmother died.", native: { nl: "Daniel: Mijn opa woont alleen, en ik zag hoe geïsoleerd hij zich voelde nadat mijn oma gestorven was." } }
+    - { id: en-b2-t16-s08, target: "So now I visit elderly neighbours in my street who have nobody to talk to.", native: { nl: "Dus nu bezoek ik oudere buren in mijn straat die niemand hebben om mee te praten." } }
+    - { id: en-b2-t16-s09, target: "We play cards, we drink tea, and sometimes I just listen. It doesn't sound like much, but it makes a difference.", native: { nl: "We spelen kaart, we drinken thee, en soms luister ik gewoon. Het lijkt niet veel, maar het maakt echt verschil." } }
+  - - { id: en-b2-t16-s10, target: "Sofia: I organised a petition to stop our local swimming pool from closing.", native: { nl: "Sofia: Ik organiseerde een petitie om te voorkomen dat ons plaatselijke zwembad zou sluiten." } }
+    - { id: en-b2-t16-s11, target: "We collected over two thousand signatures in a month, and in the end the council changed its mind.", native: { nl: "We verzamelden in een maand meer dan tweeduizend handtekeningen, en uiteindelijk veranderde de gemeente van mening." } }
+    - { id: en-b2-t16-s12, target: "If we hadn't done anything, the pool would be a car park now. It showed me that young people can contribute to their town.", native: { nl: "Als we niets hadden gedaan, was het zwembad nu een parking. Het toonde me dat jongeren iets kunnen bijdragen aan hun stad." } }
+glossary:
+  - { word: sort, native: { nl: sorteren } }
+  - { word: recently, native: { nl: onlangs } }
+items: [en.food-bank, en.donation, en.homeless, en.community-centre, en.prejudice, en.isolated, en.make-a-difference, en.petition, en.council, en.contribute]
+questions:
+  - id: en-b2-t16-q1
+    type: match_texts
+    labels: [Kofi, Lily, Daniel, Sofia]
+    statements:
+      - { id: en-b2-t16-q1-a, statement: "This person's volunteering began because of a family member.", paragraph: 3 }
+      - { id: en-b2-t16-q1-b, statement: "This person helped to stop something from closing.", paragraph: 4 }
+      - { id: en-b2-t16-q1-c, statement: "This person learnt that people with jobs can also need help.", paragraph: 1 }
+      - { id: en-b2-t16-q1-d, statement: "This person discovered that they had prejudices.", paragraph: 2 }
+      - { id: en-b2-t16-q1-e, statement: "This person says that simply listening can help.", paragraph: 3 }
+      - { id: en-b2-t16-q1-f, statement: "This person works with adults who had good jobs in another country.", paragraph: 2 }
+  - { id: en-b2-t16-q2, type: summary, options: ["Four young people describe the different ways they volunteer in their community and what they have learnt from it.", "Four young people explain why the council should pay volunteers for the work they do in the community.", "Four young people describe how they found paid jobs thanks to their volunteering."], correct: 0 }
+listeningQuestions:
+  - { id: en-b2-t16-l1, type: complete, statement: "The petition collected over two thousand ___ in a month.", answers: [signatures] }
+  - { id: en-b2-t16-l2, type: mc, question: "When does Kofi help at the food bank?", options: ["Every Saturday morning.", "Twice a week.", "Every evening."], correct: 0 }
+wordForm:
+  - { sentence: en-b2-t16-s03, word: homeless, stem: home }
+  - { sentence: en-b2-t16-s05, word: engineers, stem: engine }
+  - { sentence: en-b2-t16-s06, word: completely, stem: complete }
+orderable: false

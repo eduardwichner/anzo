@@ -1,0 +1,34 @@
+id: nl-b1-t21
+kind: reading
+title: { en: Five years in Flanders }
+topic: Looking back and ahead (a blog post by a newcomer)
+level: B1
+paragraphs:
+  - - { id: nl-b1-t21-s01, target: "Vandaag is het precies vijf jaar geleden dat ik in Antwerpen aankwam.", native: { en: "Today it's exactly five years since I arrived in Antwerp." } }
+    - { id: nl-b1-t21-s02, target: "Voordat ik naar België kwam, had ik nog nooit sneeuw gezien en kende ik geen woord Nederlands.", native: { en: "Before I came to Belgium, I had never seen snow and I didn't know a word of Dutch." } }
+  - - { id: nl-b1-t21-s03, target: "Het eerste jaar was moeilijk. Ik had vaak heimwee naar mijn familie, en alles voelde vreemd.", native: { en: "The first year was hard. I was often homesick for my family, and everything felt strange." } }
+    - { id: nl-b1-t21-s04, target: "In de winkel durfde ik niets te vragen, omdat ik bang was dat de mensen me niet zouden begrijpen.", native: { en: "In shops I didn't dare to ask anything, because I was afraid people wouldn't understand me." } }
+  - - { id: nl-b1-t21-s05, target: "Na dat eerste jaar werd het langzamerhand beter.", native: { en: "After that first year, things gradually got better." } }
+    - { id: nl-b1-t21-s06, target: "Nadat ik de cursus inburgering had gevolgd, schreef ik me in voor een cursus Nederlands, vier avonden per week.", native: { en: "After I had taken the civic integration course, I signed up for a Dutch course four evenings a week." } }
+    - { id: nl-b1-t21-s07, target: "Daar ontmoette ik mensen uit twintig landen, en sommigen zijn nu mijn beste vrienden.", native: { en: "There I met people from twenty countries, and some of them are now my best friends." } }
+  - - { id: nl-b1-t21-s08, target: "Het moeilijkste was mijn werk. In mijn land was ik verpleegkundige, maar hier moest mijn diploma eerst erkend worden.", native: { en: "The hardest thing was my work. In my country I was a nurse, but here my qualification first had to be recognised." } }
+    - { id: nl-b1-t21-s09, target: "Dat duurde bijna twee jaar. Soms wilde ik opgeven, maar mijn man zei altijd dat ik moest volhouden.", native: { en: "That took almost two years. Sometimes I wanted to give up, but my husband always said I had to keep going." } }
+  - - { id: nl-b1-t21-s10, target: "Sinds vorig jaar werk ik in een ziekenhuis, en ik ben er heel gelukkig.", native: { en: "Since last year I've been working in a hospital, and I'm very happy there." } }
+    - { id: nl-b1-t21-s11, target: "Als ik terugkijk, ben ik alle mensen dankbaar die me geholpen hebben.", native: { en: "When I look back, I'm grateful to all the people who have helped me." } }
+    - { id: nl-b1-t21-s12, target: "Nu begint een nieuw hoofdstuk: in de zomer krijgen we ons eerste kind.", native: { en: "Now a new chapter begins: in the summer we're having our first child." } }
+items: [nl.heimwee, nl.vreemd, nl.durven, nl.langzamerhand, nl.inburgering, nl.ontmoeten, nl.erkennen, nl.opgeven, nl.volhouden, nl.terugkijken, nl.dankbaar, nl.hoofdstuk, nl.sinds, nl.volgen]
+questions:
+  - { id: nl-b1-t21-q1, type: mc, question: "Waarom was het eerste jaar moeilijk?", options: ["Ze miste haar familie en voelde zich niet thuis.", "Ze had geen huis.", "Ze werkte te veel."], correct: 0 }
+  - { id: nl-b1-t21-q2, type: true_false_notgiven, statement: "Ze sprak al een beetje Nederlands toen ze in België aankwam.", answer: false }
+  - { id: nl-b1-t21-q3, type: true_false_notgiven, statement: "Het duurde bijna twee jaar voordat haar diploma erkend werd.", answer: true }
+  - { id: nl-b1-t21-q4, type: true_false_notgiven, statement: "Haar man werkt ook in een ziekenhuis.", answer: not_given }
+  - { id: nl-b1-t21-q5, type: match_heading, paragraph: 3, options: ["Het wordt beter", "Een moeilijk begin", "Een nieuw hoofdstuk"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b1-t21-l1, type: mc, question: "Hoeveel avonden per week volgde ze de cursus Nederlands?", options: ["Vier.", "Twee.", "Vijf."], correct: 0 }
+  - { id: nl-b1-t21-l2, type: true_false_notgiven, statement: "Ze werkt sinds vorig jaar in een ziekenhuis.", answer: true }
+cloze:
+  - { sentence: nl-b1-t21-s04, word: durfde, kind: finite_verb, hint: { en: "durven (past)" } }
+  - { sentence: nl-b1-t21-s06, word: schreef, kind: finite_verb, hint: { en: "zich inschrijven (past)" } }
+  - { sentence: nl-b1-t21-s07, word: ontmoette, kind: finite_verb, hint: { en: "ontmoeten (past)" } }
+  - { sentence: nl-b1-t21-s09, word: duurde, kind: finite_verb, hint: { en: "duren (past)" } }
+orderable: true

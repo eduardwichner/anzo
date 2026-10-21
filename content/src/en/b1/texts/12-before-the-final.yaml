@@ -1,0 +1,36 @@
+id: en-b1-t12
+kind: dialogue
+title: { nl: Voor de finale }
+topic: Sport (a coach and a player before an important match)
+level: B1
+speakers: { A: { name: Ms Morgan }, B: { name: Jake } }
+turns:
+  - { id: en-b1-t12-s01, speaker: A, target: "Jake, have you got a minute? I want to talk about Saturday's final.", native: { nl: "Jake, heb je even? Ik wil het over de finale van zaterdag hebben." } }
+  - { id: en-b1-t12-s02, speaker: B, target: "Sure. Is it about my ankle? It's much better now.", native: { nl: "Tuurlijk. Gaat het over mijn enkel? Die is nu veel beter." } }
+  - { id: en-b1-t12-s03, speaker: A, target: "Partly. You hurt it two weeks ago, and you haven't trained since then.", native: { nl: "Gedeeltelijk. Je hebt hem twee weken geleden bezeerd, en je hebt sindsdien niet getraind." } }
+  - { id: en-b1-t12-s04, speaker: B, target: "I know, but I've been to the gym every day. I've done exercises for my legs, and I can run without pain.", native: { nl: "Weet ik, maar ik ben elke dag naar de sportschool geweest. Ik heb oefeningen voor mijn benen gedaan, en ik kan hardlopen zonder pijn." } }
+  - { id: en-b1-t12-s05, speaker: A, target: "That's great. But a final is different. Their players are big and fast, and they attack all the time.", native: { nl: "Dat is mooi. Maar een finale is anders. Hun spelers zijn groot en snel, en ze vallen de hele tijd aan." } }
+  - { id: en-b1-t12-s06, speaker: B, target: "So you don't want me to play?", native: { nl: "Dus je wilt niet dat ik speel?" } }
+  - { id: en-b1-t12-s07, speaker: A, target: "I didn't say that. I'd like you to start on the bench, and you can come on in the second half if we need you.", native: { nl: "Dat heb ik niet gezegd. Ik wil dat je op de bank begint, en je kunt in de tweede helft invallen als we je nodig hebben." } }
+  - { id: en-b1-t12-s08, speaker: B, target: "OK. I'm a bit disappointed, but I understand.", native: { nl: "Oké. Ik ben een beetje teleurgesteld, maar ik begrijp het." } }
+  - { id: en-b1-t12-s09, speaker: A, target: "Good. And remember, you're still the captain. The team needs your energy, even from the bench.", native: { nl: "Goed. En onthoud: je bent nog steeds de aanvoerder. Het team heeft je energie nodig, zelfs vanaf de bank." } }
+  - { id: en-b1-t12-s10, speaker: B, target: "Don't worry. I'll be the loudest supporter in the stadium!", native: { nl: "Maak je geen zorgen. Ik word de luidste supporter in het stadion!" } }
+glossary:
+  - { word: bench, native: { nl: (reserve)bank } }
+  - { word: come on, native: { nl: "invallen (als speler)" } }
+items: [en.final, en.ankle, en.partly, en.exercise, en.pain, en.attack, en.disappointed, en.captain, en.energy, en.supporter, en.worry]
+questions:
+  - { id: en-b1-t12-q1, type: mc, question: "Why hasn't Jake trained for two weeks?", options: ["He hurt his ankle.", "He was on holiday.", "He was ill with flu."], correct: 0 }
+  - { id: en-b1-t12-q2, type: true_false_notgiven, statement: "Jake has not done any exercise since he was hurt.", answer: false }
+  - { id: en-b1-t12-q3, type: true_false_notgiven, statement: "Ms Morgan thinks the other team is fast.", answer: true }
+  - { id: en-b1-t12-q4, type: true_false_notgiven, statement: "Jake's team has never won a final.", answer: not_given }
+  - { id: en-b1-t12-q5, type: mc, question: "What does Ms Morgan decide?", options: ["Jake will start on the bench.", "Jake will not come to the final.", "Jake will play the whole match."], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t12-l1, type: mc, question: "When is the final?", options: ["On Saturday.", "In two weeks.", "Tomorrow."], correct: 0 }
+  - { id: en-b1-t12-l2, type: true_false_notgiven, statement: "Jake is still the captain of the team.", answer: true }
+cloze:
+  - { sentence: en-b1-t12-s03, word: "haven't", kind: finite_verb, hint: { nl: "have (voltooide tijd, ontkenning: … trained)" } }
+  - { sentence: en-b1-t12-s04, word: been, kind: finite_verb, hint: { nl: "be (voltooide tijd: I've … to the gym)" } }
+  - { sentence: en-b1-t12-s07, word: didn't, kind: finite_verb, hint: { nl: "do (verleden tijd, ontkenning: … say)" } }
+  - { sentence: en-b1-t12-s09, word: needs, kind: finite_verb, hint: { nl: "need (tegenwoordige tijd)" } }
+orderable: true

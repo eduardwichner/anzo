@@ -1,0 +1,172 @@
+id: en-b1-u13
+title: { nl: "Film, muziek en theater" }
+icon: music
+topic: Films, TV, music and the theatre; relative clauses with who, which and that
+vocabulary:
+  - { target: entertainment, native: { nl: "vermaak, amusement" }, pos: noun }
+  - { target: entertain, native: { nl: vermaken }, pos: verb }
+  - { target: celebrity, native: { nl: beroemdheid }, pos: noun }
+  - { target: well-known, native: { nl: bekend }, pos: adjective, avoid: [en.familiar], noBlank: true }
+  - { target: talent, native: { nl: talent }, pos: noun }
+  - { target: talented, native: { nl: getalenteerd }, pos: adjective }
+  - { target: fan, native: { nl: fan }, pos: noun }
+  - { target: audience, native: { nl: publiek }, pos: noun }
+  - { target: row, native: { nl: rij }, pos: noun, avoid: [en.queue] }
+  - { target: interval, native: { nl: pauze (in een voorstelling) }, pos: noun }
+  - { target: be over, native: { nl: voorbij zijn }, pos: phrase }
+  - { target: perform, native: { nl: optreden }, pos: verb }
+  - { target: performance, native: { nl: voorstelling }, pos: noun, noBlank: true }
+  - { target: performer, native: { nl: artiest (op het podium) }, pos: noun }
+  - { target: actress, native: { nl: actrice }, pos: noun }
+  - { target: role, native: { nl: rol }, pos: noun }
+  - { target: scene, native: { nl: scène }, pos: noun }
+  - { target: set, native: { nl: decor }, pos: noun }
+  - { target: drama, native: { nl: "drama, toneel" }, pos: noun }
+  - { target: comedy, native: { nl: komedie }, pos: noun }
+  - { target: romance, native: { nl: "romantiek, romance" }, pos: noun }
+  - { target: romantic, native: { nl: romantisch }, pos: adjective }
+  - { target: thriller, native: { nl: thriller }, pos: noun }
+  - { target: horror, native: { nl: horror }, pos: noun }
+  - { target: action, native: { nl: actie }, pos: noun }
+  - { target: superhero, native: { nl: superheld }, pos: noun }
+  - { target: hero, native: { nl: held }, pos: noun, avoid: [en.heroine] }
+  - { target: heroine, native: { nl: heldin }, pos: noun }
+  - { target: plot, native: { nl: verhaal (plot) }, pos: noun }
+  - { target: ending, native: { nl: einde (van een verhaal) }, pos: noun, noBlank: true }
+  - { target: original, native: { nl: origineel }, pos: adjective }
+  - { target: humour, native: { nl: humor }, pos: noun }
+  - { target: magic, native: { nl: magie }, pos: noun }
+  - { target: trick, native: { nl: truc }, pos: noun }
+  - { target: imagination, native: { nl: "verbeelding, fantasie" }, pos: noun }
+  - { target: create, native: { nl: creëren }, pos: verb }
+  - { target: creative, native: { nl: creatief }, pos: adjective }
+  - { target: inspire, native: { nl: inspireren }, pos: verb }
+  - { target: director, native: { nl: regisseur }, pos: noun, avoid: [en.film-maker] }
+  - { target: film maker, native: { nl: filmmaker }, pos: noun }
+  - { target: cameraman, native: { nl: cameraman }, pos: noun }
+  - { target: production, native: { nl: productie }, pos: noun }
+  - { target: studio, native: { nl: studio }, pos: noun }
+  - { target: series, native: { nl: serie }, pos: noun }
+  - { target: episode, native: { nl: aflevering }, pos: noun }
+  - { target: soap opera, native: { nl: soap }, pos: noun }
+  - { target: chat show, native: { nl: "talkshow, praatprogramma" }, pos: noun }
+  - { target: display, native: { nl: show (bv. vuurwerkshow) }, pos: noun }
+  - { target: ballet, native: { nl: ballet }, pos: noun }
+  - { target: dancer, native: { nl: danser }, pos: noun }
+  - { target: opera, native: { nl: opera }, pos: noun }
+  - { target: orchestra, native: { nl: orkest }, pos: noun }
+  - { target: classical, native: { nl: klassiek }, pos: adjective }
+  - { target: jazz, native: { nl: jazz }, pos: noun }
+  - { target: folk, native: { nl: folk (volksmuziek) }, pos: noun }
+  - { target: pop, native: { nl: pop (popmuziek) }, pos: noun }
+  - { target: rap, native: { nl: rap }, pos: noun }
+  - { target: hip hop, native: { nl: hiphop }, pos: noun, noBlank: true }
+  - { target: soul, native: { nl: soul }, pos: noun }
+  - { target: musical, native: { nl: muzikaal }, pos: adjective }
+  - { target: musician, native: { nl: muzikant }, pos: noun }
+  - { target: guitarist, native: { nl: gitarist }, pos: noun }
+  - { target: singing, native: { nl: zingen (het zingen) }, pos: noun }
+  - { target: voice, native: { nl: stem }, pos: noun }
+  - { target: flute, native: { nl: fluit }, pos: noun, avoid: [en.trumpet] }
+  - { target: trumpet, native: { nl: trompet }, pos: noun }
+  - { target: accompany, native: { nl: begeleiden }, pos: verb }
+  - { target: album, native: { nl: album }, pos: noun }
+  - { target: record, native: { nl: opnemen }, pos: verb }
+  - { target: recording, native: { nl: opname }, pos: noun }
+  - { target: soundtrack, native: { nl: soundtrack }, pos: noun }
+  - { target: DJ, native: { nl: dj }, pos: noun }
+  - { target: microphone, native: { nl: microfoon }, pos: noun }
+  - { target: speaker, native: { nl: luidspreker (box) }, pos: noun }
+  - { target: headphones, native: { nl: koptelefoon }, pos: noun }
+  - { target: volume, native: { nl: volume }, pos: noun }
+  - { target: turn up, native: { nl: harder zetten }, pos: phrase, avoid: [en.turn-down] }
+  - { target: turn down, native: { nl: zachter zetten }, pos: phrase }
+  - { target: pause, native: { nl: pauzeren }, pos: verb }
+  - { target: CD player, native: { nl: cd-speler }, pos: noun, avoid: [en.dvd-player] }
+  - { target: DVD player, native: { nl: dvd-speler }, pos: noun }
+  - { target: painter, native: { nl: schilder }, pos: noun }
+sentences:
+  - { id: s01, target: "There's a lot of entertainment for children at the festival.", native: { nl: "Er is veel vermaak voor kinderen op het festival." }, items: [en.entertainment] }
+  - { id: s02, target: "A clown entertained the guests.", native: { nl: "Een clown vermaakte de gasten." }, items: [en.entertain], finite: { word: entertained, hint: { nl: "entertain (verleden tijd)" } } }
+  - { id: s03, target: "Lots of celebrities came to the film's first night.", native: { nl: "Veel beroemdheden kwamen naar de première van de film." }, items: [en.celebrity] }
+  - { id: s04, target: "She's a well-known singer in Brazil.", native: { nl: "Ze is een bekende zangeres in Brazilië." }, items: [en.well-known] }
+  - { id: s05, target: "The show is looking for young people with talent.", native: { nl: "De show zoekt jongeren met talent." }, items: [en.talent] }
+  - { id: s06, target: "My cousin is a talented dancer.", native: { nl: "Mijn nicht is een getalenteerde danseres." }, items: [en.talented, en.dancer] }
+  - { id: s07, target: "I'm a big fan of this band.", native: { nl: "Ik ben een grote fan van deze band." }, items: [en.fan] }
+  - { id: s08, target: "The audience clapped for five minutes.", native: { nl: "Het publiek klapte vijf minuten lang." }, items: [en.audience] }
+  - { id: s09, target: "Our seats are in the front row.", native: { nl: "Onze plaatsen zijn op de eerste rij." }, items: [en.row] }
+  - { id: s10, target: "We bought ice cream in the interval.", native: { nl: "We kochten ijs in de pauze." }, items: [en.interval] }
+  - { id: s11, target: "Hurry up! The film is almost over.", native: { nl: "Schiet op! De film is bijna afgelopen." }, items: [en.be-over] }
+  - { id: s12, target: "The band will perform at the festival on Sunday.", native: { nl: "De band treedt zondag op tijdens het festival." }, items: [en.perform], acceptAlso: ["On Sunday the band will perform at the festival."] }
+  - { id: s13, target: "The evening performance starts at half past seven.", native: { nl: "De avondvoorstelling begint om half acht." }, items: [en.performance] }
+  - { id: s14, target: "The street performers were doing tricks with fire.", native: { nl: "De straatartiesten deden trucs met vuur." }, items: [en.performer] }
+  - { id: s15, target: "She's the best actress in the film.", native: { nl: "Zij is de beste actrice in de film." }, items: [en.actress] }
+  - { id: s16, target: "He plays the role of a teacher.", native: { nl: "Hij speelt de rol van een leraar." }, items: [en.role] }
+  - { id: s17, target: "The last scene made everybody cry.", native: { nl: "Door de laatste scène moest iedereen huilen." }, items: [en.scene] }
+  - { id: s18, target: "We painted the set for the school play.", native: { nl: "We schilderden het decor voor het schooltoneelstuk." }, items: [en.set] }
+  - { id: s19, target: "I'm in the drama club at school.", native: { nl: "Ik zit bij de toneelclub op school." }, items: [en.drama] }
+  - { id: s20, target: "Let's watch a comedy. I need a laugh.", native: { nl: "Laten we een komedie kijken. Ik heb zin om te lachen." }, items: [en.comedy] }
+  - { id: s21, target: "My sister loves books with a bit of romance.", native: { nl: "Mijn zus houdt van boeken met een beetje romantiek." }, items: [en.romance] }
+  - { id: s22, target: "It's a romantic film about two students.", native: { nl: "Het is een romantische film over twee studenten." }, items: [en.romantic] }
+  - { id: s23, target: "The thriller was so exciting that I couldn't stop reading.", native: { nl: "De thriller was zo spannend dat ik niet kon stoppen met lezen." }, items: [en.thriller] }
+  - { id: s24, target: "I never watch horror films before bed.", native: { nl: "Ik kijk nooit horrorfilms voor het slapengaan." }, items: [en.horror] }
+  - { id: s25, target: "The film has lots of action and fast cars.", native: { nl: "De film heeft veel actie en snelle auto's." }, items: [en.action] }
+  - { id: s26, target: "Which superhero would you like to be?", native: { nl: "Welke superheld zou je willen zijn?" }, items: [en.superhero] }
+  - { id: s27, target: "The hero of the story is a young farmer.", native: { nl: "De held van het verhaal is een jonge boer." }, items: [en.hero] }
+  - { id: s28, target: "The heroine is a brave girl who saves her village.", native: { nl: "De heldin is een dapper meisje dat haar dorp redt." }, items: [en.heroine] }
+  - { id: s29, target: "The plot is quite complicated.", native: { nl: "Het verhaal is vrij ingewikkeld." }, items: [en.plot] }
+  - { id: s30, target: "I didn't like the ending of the book.", native: { nl: "Ik vond het einde van het boek niet leuk." }, items: [en.ending] }
+  - { id: s31, target: "That's a very original idea.", native: { nl: "Dat is een heel origineel idee." }, items: [en.original] }
+  - { id: s32, target: "He has a great sense of humour.", native: { nl: "Hij heeft een geweldig gevoel voor humor." }, items: [en.humour] }
+  - { id: s33, target: "Do you believe in magic?", native: { nl: "Geloof jij in magie?" }, items: [en.magic] }
+  - { id: s34, target: "Can you show me a card trick?", native: { nl: "Kun je me een kaarttruc laten zien?" }, items: [en.trick] }
+  - { id: s35, target: "You need a lot of imagination to write stories.", native: { nl: "Je hebt veel fantasie nodig om verhalen te schrijven." }, items: [en.imagination] }
+  - { id: s36, target: "The artist created a picture out of a thousand photos.", native: { nl: "De kunstenaar maakte een afbeelding uit duizend foto's." }, items: [en.create] }
+  - { id: s37, target: "She's very creative and makes her own clothes.", native: { nl: "Ze is heel creatief en maakt haar eigen kleren." }, items: [en.creative] }
+  - { id: s38, target: "Her grandmother inspired her to become a singer.", native: { nl: "Haar oma inspireerde haar om zangeres te worden." }, items: [en.inspire] }
+  - { id: s39, target: "The director told the actors to start again.", native: { nl: "De regisseur zei tegen de acteurs dat ze opnieuw moesten beginnen." }, items: [en.director] }
+  - { id: s40, target: "She wants to be a film maker.", native: { nl: "Ze wil filmmaker worden." }, items: [en.film-maker] }
+  - { id: s41, target: "The cameraman followed the runners on a motorbike.", native: { nl: "De cameraman volgde de lopers op een motor." }, items: [en.cameraman] }
+  - { id: s42, target: "The school is putting on a production of a famous musical.", native: { nl: "De school brengt een productie van een beroemde musical op de planken." }, items: [en.production] }
+  - { id: s43, target: "We visited a TV studio on our school trip.", native: { nl: "We bezochten een tv-studio tijdens ons schoolreisje." }, items: [en.studio] }
+  - { id: s44, target: "Have you seen the new series about space?", native: { nl: "Heb je de nieuwe serie over de ruimte gezien?" }, items: [en.series] }
+  - { id: s45, target: "I've missed the last episode.", native: { nl: "Ik heb de laatste aflevering gemist." }, items: [en.episode] }
+  - { id: s46, target: "My grandma watches the same soap opera every evening.", native: { nl: "Mijn oma kijkt elke avond naar dezelfde soap." }, items: [en.soap-opera], acceptAlso: ["Every evening my grandma watches the same soap opera."] }
+  - { id: s47, target: "The singer was a guest on a chat show.", native: { nl: "De zangeres was te gast in een praatprogramma." }, items: [en.chat-show] }
+  - { id: s48, target: "There's a firework display on the beach tonight.", native: { nl: "Er is vanavond een vuurwerkshow op het strand." }, items: [en.display] }
+  - { id: s49, target: "We went to the ballet at Christmas.", native: { nl: "We gingen met Kerstmis naar het ballet." }, items: [en.ballet] }
+  - { id: s50, target: "Opera singers need very strong voices.", native: { nl: "Operazangers hebben een heel sterke stem nodig." }, items: [en.opera, en.voice] }
+  - { id: s51, target: "My brother plays the violin in the school orchestra.", native: { nl: "Mijn broer speelt viool in het schoolorkest." }, items: [en.orchestra] }
+  - { id: s52, target: "Dad listens to classical music while he cooks.", native: { nl: "Papa luistert naar klassieke muziek terwijl hij kookt." }, items: [en.classical] }
+  - { id: s53, target: "There's a jazz concert in the park tonight.", native: { nl: "Er is vanavond een jazzconcert in het park." }, items: [en.jazz] }
+  - { id: s54, target: "They play traditional folk music from Ireland.", native: { nl: "Ze spelen traditionele volksmuziek uit Ierland." }, items: [en.folk] }
+  - { id: s55, target: "She wants to be a pop star.", native: { nl: "Ze wil popster worden." }, items: [en.pop] }
+  - { id: s56, target: "Rap music started in New York.", native: { nl: "Rapmuziek is in New York ontstaan." }, items: [en.rap] }
+  - { id: s57, target: "He dances to hip hop in his bedroom.", native: { nl: "Hij danst op hiphop in zijn slaapkamer." }, items: [en.hip-hop] }
+  - { id: s58, target: "My parents love old soul music.", native: { nl: "Mijn ouders houden van oude soulmuziek." }, items: [en.soul] }
+  - { id: s59, target: "Everyone in my family is musical.", native: { nl: "Iedereen in mijn familie is muzikaal." }, items: [en.musical] }
+  - { id: s60, target: "The musicians played until midnight.", native: { nl: "De muzikanten speelden tot middernacht." }, items: [en.musician] }
+  - { id: s61, target: "The band needs a new guitarist.", native: { nl: "De band heeft een nieuwe gitarist nodig." }, items: [en.guitarist] }
+  - { id: s62, target: "Singing with friends is great fun.", native: { nl: "Zingen met vrienden is erg leuk." }, items: [en.singing] }
+  - { id: s63, target: "She has a beautiful voice.", native: { nl: "Ze heeft een prachtige stem." }, items: [en.voice] }
+  - { id: s64, target: "I've played the flute since I was eight.", native: { nl: "Ik speel al fluit sinds mijn achtste." }, items: [en.flute] }
+  - { id: s65, target: "Learning the trumpet is noisy for the neighbours!", native: { nl: "Trompet leren spelen is lawaaierig voor de buren!" }, items: [en.trumpet] }
+  - { id: s66, target: "Her brother accompanied her on the piano.", native: { nl: "Haar broer begeleidde haar op de piano." }, items: [en.accompany] }
+  - { id: s67, target: "Their new album comes out next month.", native: { nl: "Hun nieuwe album komt volgende maand uit." }, items: [en.album] }
+  - { id: s68, target: "We recorded a song for our music project.", native: { nl: "We namen een liedje op voor ons muziekproject." }, items: [en.record], finite: { word: recorded, hint: { nl: "record (verleden tijd)" } } }
+  - { id: s69, target: "This recording was made in 1960.", native: { nl: "Deze opname is in 1960 gemaakt." }, items: [en.recording] }
+  - { id: s70, target: "The soundtrack of the film is better than the film itself.", native: { nl: "De soundtrack van de film is beter dan de film zelf." }, items: [en.soundtrack] }
+  - { id: s71, target: "The DJ played music all night.", native: { nl: "De dj draaide de hele nacht muziek." }, items: [en.dj] }
+  - { id: s72, target: "Speak into the microphone, please.", native: { nl: "Spreek in de microfoon, alstublieft." }, items: [en.microphone] }
+  - { id: s73, target: "The music was too loud, so we moved away from the speakers.", native: { nl: "De muziek was te hard, dus we gingen verder van de boxen af staan." }, items: [en.speaker] }
+  - { id: s74, target: "Use headphones on the train, please.", native: { nl: "Gebruik een koptelefoon in de trein, alsjeblieft." }, items: [en.headphones], acceptAlso: ["Please use headphones on the train."] }
+  - { id: s75, target: "Can you turn the volume down a bit?", native: { nl: "Kun je het volume wat lager zetten?" }, items: [en.volume, en.turn-down] }
+  - { id: s76, target: "Turn up the radio! I love this song.", native: { nl: "Zet de radio harder! Ik vind dit liedje geweldig." }, items: [en.turn-up] }
+  - { id: s77, target: "Could you turn down the music? I'm trying to study.", native: { nl: "Kun je de muziek zachter zetten? Ik probeer te studeren." }, items: [en.turn-down], acceptAlso: ["Could you turn the music down? I'm trying to study."] }
+  - { id: s78, target: "Pause the film. I want to get a drink.", native: { nl: "Zet de film op pauze. Ik wil iets te drinken pakken." }, items: [en.pause] }
+  - { id: s79, target: "Grandad still has an old CD player.", native: { nl: "Opa heeft nog een oude cd-speler." }, items: [en.cd-player] }
+  - { id: s80, target: "Nobody uses our DVD player any more.", native: { nl: "Niemand gebruikt onze dvd-speler nog." }, items: [en.dvd-player] }
+  - { id: s81, target: "My favourite painter lived in France.", native: { nl: "Mijn favoriete schilder woonde in Frankrijk." }, items: [en.painter] }
+  - { id: s82, target: "The actor who plays the hero is only sixteen.", native: { nl: "De acteur die de held speelt, is pas zestien." }, items: [en.hero] }
+  - { id: s83, target: "The film that we saw last night was a thriller.", native: { nl: "De film die we gisteravond zagen, was een thriller." }, items: [en.thriller], build: true }
+texts: [en-b1-t14]

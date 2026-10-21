@@ -1,0 +1,37 @@
+id: nl-b1-t09
+kind: reading
+title: { en: What does the ziekenfonds pay back? }
+topic: Health insurance (a leaflet for new members of a ziekenfonds)
+level: B1
+paragraphs:
+  - - { id: nl-b1-t09-s01, target: "Welkom bij ons ziekenfonds! In deze folder leest u wat wij voor u doen.", native: { en: "Welcome to our health insurance fund! In this leaflet you can read what we do for you." } }
+    - { id: nl-b1-t09-s02, target: "Als lid betaalt u elk jaar een kleine bijdrage, en u krijgt een deel van uw medische kosten terug.", native: { en: "As a member you pay a small fee every year, and you get part of your medical costs back." } }
+  - - { id: nl-b1-t09-s03, target: "Gaat u naar de huisarts, dan wordt het grootste deel van de kosten terugbetaald.", native: { en: "If you go to the GP, most of the cost is refunded." } }
+    - { id: nl-b1-t09-s04, target: "Het bedrag dat u zelf betaalt, heet het remgeld.", native: { en: "The amount you pay yourself is called the patient's share." } }
+    - { id: nl-b1-t09-s05, target: "Bij de meeste dokters hoeft u zelfs niets te doen: zij sturen de gegevens digitaal naar ons door.", native: { en: "With most doctors you don't even have to do anything: they send us the details digitally." } }
+  - - { id: nl-b1-t09-s06, target: "Ook veel medicijnen worden voor een deel vergoed.", native: { en: "Many medicines are also partly paid for." } }
+    - { id: nl-b1-t09-s07, target: "Vraag uw apotheker naar een generiek medicijn: dat werkt even goed als een bekend merk, maar het is goedkoper.", native: { en: "Ask your pharmacist for a generic medicine: it works just as well as a well-known brand, but it's cheaper." } }
+  - - { id: nl-b1-t09-s08, target: "Wordt u in het ziekenhuis opgenomen, dan betaalt het ziekenfonds een groot deel van de rekening.", native: { en: "If you are admitted to hospital, the health insurance fund pays a large part of the bill." } }
+    - { id: nl-b1-t09-s09, target: "Voor de andere kosten, bijvoorbeeld een eenpersoonskamer, kunt u een hospitalisatieverzekering nemen.", native: { en: "For the other costs, such as a single room, you can take out hospital insurance." } }
+  - - { id: nl-b1-t09-s10, target: "Bent u ziek en kunt u niet werken? Dan krijgt u na de eerste maand een uitkering van ons.", native: { en: "Are you ill and unable to work? Then after the first month you receive benefit from us." } }
+    - { id: nl-b1-t09-s11, target: "Stuur ons zo snel mogelijk het formulier dat uw dokter heeft ingevuld.", native: { en: "Send us the form your doctor has filled in as soon as possible." } }
+    - { id: nl-b1-t09-s12, target: "Hebt u vragen? Kom langs in een van onze kantoren of bel ons gratis nummer.", native: { en: "Any questions? Drop in at one of our offices or call our free number." } }
+glossary:
+  - { word: medische, native: { en: medical } }
+  - { word: eenpersoonskamer, native: { en: single room } }
+items: [nl.folder, nl.de-meeste, nl.zelfs, nl.lid, nl.bijdrage, nl.bedrag, nl.remgeld, nl.vergoeden, nl.generiek, nl.merk, nl.hospitalisatieverzekering, nl.uitkering, nl.zelf, nl.ander, nl.terugbetalen, nl.langskomen, nl.doorsturen, nl.bijvoorbeeld, nl.digitaal, nl.gegevens, nl.delen]
+questions:
+  - { id: nl-b1-t09-q1, type: mc, question: "Wat is het remgeld?", options: ["Het bedrag dat u zelf betaalt.", "De bijdrage die u elk jaar betaalt.", "Het geld dat u na een maand ziekte krijgt."], correct: 0 }
+  - { id: nl-b1-t09-q4, type: true_false_notgiven, statement: "Een hospitalisatieverzekering kost ongeveer tweehonderd euro per jaar.", answer: not_given }
+  - { id: nl-b1-t09-q2, type: true_false_notgiven, statement: "Na een bezoek aan de huisarts moet u meestal zelf iets naar het ziekenfonds sturen.", answer: false }
+  - { id: nl-b1-t09-q3, type: true_false_notgiven, statement: "Een generiek medicijn werkt minder goed dan een bekend merk.", answer: false }
+  - { id: nl-b1-t09-q5, type: match_heading, paragraph: 5, options: ["Als u niet kunt werken", "Naar de apotheek", "In het ziekenhuis"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b1-t09-l1, type: mc, question: "Wanneer krijgt een zieke werknemer een uitkering van het ziekenfonds?", options: ["Na de eerste maand.", "Na twee dagen.", "Na een jaar."], correct: 0 }
+  - { id: nl-b1-t09-l2, type: true_false_notgiven, statement: "U kunt het ziekenfonds gratis bellen.", answer: true }
+cloze:
+  - { sentence: nl-b1-t09-s03, word: wordt, kind: finite_verb, hint: { en: "worden (present)" } }
+  - { sentence: nl-b1-t09-s04, word: heet, kind: finite_verb, hint: { en: "heten (present)" } }
+  - { sentence: nl-b1-t09-s07, word: werkt, kind: finite_verb, hint: { en: "werken (present)" } }
+  - { sentence: nl-b1-t09-s08, word: betaalt, kind: finite_verb, hint: { en: "betalen (present)" } }
+orderable: false

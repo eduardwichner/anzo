@@ -1,0 +1,14 @@
+[Unit]
+Description=Anzo weekly full archive (git bundle, .env, newest DB backup, references, voices, audio)
+Documentation=file:///opt/anzo/README.md
+After=anzo-backup.service
+
+[Service]
+Type=oneshot
+# root: reads .env and the anzo-only database backups; the archive is anzo:anzo 640 in /var/backups/anzo/full.
+WorkingDirectory=/opt/anzo
+ExecStart=/usr/bin/node scripts/ops/backup-full.js
+# A hung run must not block every later run of its timer.
+TimeoutStartSec=30min
+Nice=10
+IOSchedulingClass=idle

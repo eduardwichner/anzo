@@ -1,0 +1,55 @@
+id: en-a1-u10
+title: { nl: Dagen en tijd }
+icon: day
+topic: Time
+vocabulary:
+  - { target: Monday, native: { nl: maandag }, pos: noun }
+  - { target: Tuesday, native: { nl: dinsdag }, pos: noun }
+  - { target: Wednesday, native: { nl: woensdag }, pos: noun }
+  - { target: Thursday, native: { nl: donderdag }, pos: noun }
+  - { target: week, native: { nl: week }, pos: noun }
+  - { target: weekend, native: { nl: weekend }, pos: noun }
+  - { target: yesterday, native: { nl: gisteren }, pos: adverb }
+  - { target: Friday, native: { nl: vrijdag }, pos: noun }
+  - { target: Saturday, native: { nl: zaterdag }, pos: noun }
+  - { target: Sunday, native: { nl: zondag }, pos: noun }
+  - { target: "o'clock", native: { nl: uur }, pos: adverb }
+  - { target: after, native: { nl: na }, pos: preposition }
+  - { target: before, native: { nl: "voor, voordat" }, pos: preposition }
+  - { target: last, native: { nl: "vorige, laatste" }, pos: adjective }
+  - { target: age, native: { nl: leeftijd }, pos: noun }
+  - { target: holiday, native: { nl: vakantie }, pos: noun }
+  - { target: how often, native: { nl: hoe vaak }, pos: question }
+  - { target: always, native: { nl: altijd }, pos: adverb }
+  - { target: never, native: { nl: nooit }, pos: adverb }
+  - { target: often, native: { nl: vaak }, pos: adverb, avoid: [en.how-often] }
+  - { target: sometimes, native: { nl: soms }, pos: adverb }
+sentences:
+  - { id: s01, target: "We've got swimming on Monday.", native: { nl: "Op maandag hebben we zwemles." }, items: [en.monday], acceptAlso: ["We have got swimming on Monday."] }
+  - { id: s02, target: "On Tuesday I play the piano.", native: { nl: "Op dinsdag speel ik piano." }, items: [en.tuesday] }
+  - { id: s03, target: "Wednesday is my favourite day.", native: { nl: "Woensdag is mijn favoriete dag." }, items: [en.wednesday] }
+  - { id: s04, target: "We go to the library on Thursday.", native: { nl: "Op donderdag gaan we naar de bibliotheek." }, items: [en.thursday] }
+  - { id: s05, target: "There are seven days in a week.", native: { nl: "Er zitten zeven dagen in een week." }, items: [en.week] }
+  - { id: s06, target: "What did you do at the weekend?", native: { nl: "Wat heb je in het weekend gedaan?" }, items: [en.weekend] }
+  - { id: s07, target: "I was at the zoo yesterday.", native: { nl: "Ik was gisteren in de dierentuin." }, items: [en.yesterday] }
+  - { id: s08, target: "Friday is the last day of the school week.", native: { nl: "Vrijdag is de laatste dag van de schoolweek." }, items: [en.friday, en.last] }
+  - { id: s09, target: "On Saturday we play football.", native: { nl: "Op zaterdag voetballen we." }, items: [en.saturday] }
+  - { id: s10, target: "On Sunday we see Grandma.", native: { nl: "Op zondag zien we oma." }, items: [en.sunday] }
+  - { id: s11, target: "It's three o'clock.", native: { nl: "Het is drie uur." }, items: [en.o-clock], acceptAlso: ["It is three o'clock."] }
+  - { id: s12, target: "We play after school.", native: { nl: "We spelen na school." }, items: [en.after] }
+  - { id: s13, target: "Wash your hands before lunch.", native: { nl: "Was je handen voor de lunch." }, items: [en.before] }
+  - { id: s14, target: "Last week we went to the beach.", native: { nl: "Vorige week gingen we naar het strand." }, items: [en.last] }
+  - { id: s15, target: "Children my age like games.", native: { nl: "Kinderen van mijn leeftijd houden van spelletjes." }, items: [en.age] }
+  - { id: s16, target: "We went on holiday to the sea.", native: { nl: "We gingen op vakantie naar zee." }, items: [en.holiday] }
+  - { id: s17, target: "How often do you swim?", native: { nl: "Hoe vaak zwem jij?" }, items: [en.how-often] }
+  - { id: s18, target: "I always have breakfast.", native: { nl: "Ik ontbijt altijd." }, items: [en.always] }
+  - { id: s19, target: "My cat never sleeps on my bed.", native: { nl: "Mijn kat slaapt nooit op mijn bed." }, items: [en.never] }
+  - { id: s20, target: "We often go to the park.", native: { nl: "We gaan vaak naar het park." }, items: [en.often] }
+  - { id: s22, target: "My piano lesson is on Wednesday.", native: { nl: "Mijn pianoles is op woensdag." }, items: [en.wednesday] }
+  - { id: s23, target: "We go swimming on Friday.", native: { nl: "Op vrijdag gaan we zwemmen." }, items: [en.friday] }
+  - { id: s24, target: "I sometimes read in bed.", native: { nl: "Ik lees soms in bed." }, items: [en.sometimes] }
+  - { id: s21, target: "Sometimes I read in bed.", native: { nl: "Soms lees ik in bed." }, items: [en.sometimes] }
+lessons:
+  - { id: l01, title: { nl: Maandag tot donderdag }, vocab: [en.monday, en.tuesday, en.wednesday, en.thursday, en.week, en.weekend, en.yesterday] }
+  - { id: l02, title: { nl: Vrijdag tot zondag }, vocab: [en.friday, en.saturday, en.sunday, en.o-clock, en.after, en.before, en.last] }
+  - { id: l03, title: { nl: Hoe vaak? }, vocab: [en.age, en.holiday, en.how-often, en.always, en.never, en.often, en.sometimes] }

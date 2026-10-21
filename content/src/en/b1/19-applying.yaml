@@ -1,0 +1,118 @@
+id: en-b1-u19
+title: { nl: Solliciteren en carrière }
+icon: work
+topic: Applying for a job, interviews and careers; the second conditional (If I got the job, I would …)
+vocabulary:
+  - { target: career, native: { nl: loopbaan }, pos: noun }
+  - { target: ambition, native: { nl: ambitie }, pos: noun }
+  - { target: aim, native: { nl: doel (streven) }, pos: noun }
+  - { target: intend, native: { nl: van plan zijn }, pos: verb }
+  - { target: become, native: { nl: worden }, pos: verb }
+  - { target: end up, native: { nl: uiteindelijk terechtkomen }, pos: phrase }
+  - { target: opportunity, native: { nl: kans (gelegenheid) }, pos: noun, noBlank: true }
+  - { target: go for, native: { nl: "gaan voor (proberen te krijgen)" }, pos: phrase }
+  - { target: apply, native: { nl: solliciteren }, pos: verb }
+  - { target: application, native: { nl: sollicitatie }, pos: noun }
+  - { target: candidate, native: { nl: kandidaat }, pos: noun }
+  - { target: CV, native: { nl: cv }, pos: noun }
+  - { target: background, native: { nl: achtergrond }, pos: noun }
+  - { target: qualification, native: { nl: kwalificatie (diploma) }, pos: noun, avoid: [en.diploma, en.certificate, en.degree] }
+  - { target: qualified, native: { nl: gekwalificeerd }, pos: adjective }
+  - { target: skill, native: { nl: vaardigheid }, pos: noun, avoid: [en.ability] }
+  - { target: experience, native: { nl: ervaring }, pos: noun }
+  - { target: experienced, native: { nl: ervaren }, pos: adjective }
+  - { target: gain, native: { nl: opdoen (verwerven) }, pos: verb, noBlank: true }
+  - { target: interview, native: { nl: sollicitatiegesprek }, pos: noun }
+  - { target: interviewer, native: { nl: interviewer }, pos: noun }
+  - { target: prepared, native: { nl: voorbereid }, pos: adjective, avoid: [en.willing] }
+  - { target: willing, native: { nl: bereid }, pos: adjective }
+  - { target: attitude, native: { nl: houding }, pos: noun }
+  - { target: responsible, native: { nl: verantwoordelijk }, pos: adjective }
+  - { target: leader, native: { nl: leider }, pos: noun }
+  - { target: require, native: { nl: vereisen }, pos: verb }
+  - { target: involve, native: { nl: inhouden (met zich meebrengen) }, pos: verb }
+  - { target: challenging, native: { nl: uitdagend }, pos: adjective }
+  - { target: stressful, native: { nl: stressvol }, pos: adjective }
+  - { target: deal with, native: { nl: omgaan met (aanpakken) }, pos: phrase }
+  - { target: carry out, native: { nl: uitvoeren }, pos: phrase }
+  - { target: effort, native: { nl: inspanning }, pos: noun }
+  - { target: employ, native: { nl: in dienst hebben }, pos: verb }
+  - { target: employer, native: { nl: werkgever }, pos: noun, avoid: [en.employee] }
+  - { target: employee, native: { nl: werknemer }, pos: noun, avoid: [en.worker] }
+  - { target: employment, native: { nl: werkgelegenheid }, pos: noun, noBlank: true }
+  - { target: unemployed, native: { nl: werkloos }, pos: adjective, avoid: [en.out-of-work], noBlank: true }
+  - { target: unemployment, native: { nl: werkloosheid }, pos: noun }
+  - { target: out of work, native: { nl: zonder werk }, pos: phrase, avoid: [en.unemployed], noBlank: true }
+  - { target: contract, native: { nl: contract }, pos: noun }
+  - { target: permanent, native: { nl: vast (blijvend) }, pos: adjective }
+  - { target: salary, native: { nl: salaris }, pos: noun, avoid: [en.pay] }
+  - { target: wage, native: { nl: loon (per uur of week) }, pos: noun, avoid: [en.pay] }
+  - { target: benefit, native: { nl: voordeel }, pos: noun }
+  - { target: quit, native: { nl: ontslag nemen (stoppen met) }, pos: verb }
+  - { target: develop, native: { nl: ontwikkelen }, pos: verb }
+  - { target: development, native: { nl: ontwikkeling }, pos: noun }
+  - { target: achieve, native: { nl: bereiken }, pos: verb, avoid: [en.reach] }
+  - { target: achievement, native: { nl: prestatie }, pos: noun }
+  - { target: succeed, native: { nl: slagen }, pos: verb, avoid: [en.manage], noBlank: true }
+  - { target: success, native: { nl: succes }, pos: noun }
+  - { target: successful, native: { nl: succesvol }, pos: adjective }
+  - { target: deserve, native: { nl: verdienen (waard zijn) }, pos: verb, avoid: [en.earn] }
+sentences:
+  - { id: s01, target: "She wants a career in fashion.", native: { nl: "Ze wil een loopbaan in de mode." }, items: [en.career] }
+  - { id: s02, target: "My ambition is to work abroad.", native: { nl: "Mijn ambitie is om in het buitenland te werken." }, items: [en.ambition] }
+  - { id: s03, target: "Our aim is to finish the project by May.", native: { nl: "Ons doel is om het project tegen mei af te hebben." }, items: [en.aim] }
+  - { id: s04, target: "I intend to study medicine.", native: { nl: "Ik ben van plan om geneeskunde te studeren." }, items: [en.intend] }
+  - { id: s05, target: "She wants to become a pilot.", native: { nl: "Ze wil piloot worden." }, items: [en.become] }
+  - { id: s06, target: "He studied art, but he ended up working in a bank.", native: { nl: "Hij studeerde kunst, maar hij kwam uiteindelijk bij een bank te werken." }, items: [en.end-up] }
+  - { id: s07, target: "This job is a great opportunity for you.", native: { nl: "Deze baan is een geweldige kans voor je." }, items: [en.opportunity] }
+  - { id: s08, target: "If you want the job, go for it!", native: { nl: "Als je de baan wilt, ga ervoor!" }, items: [en.go-for] }
+  - { id: s09, target: "I've applied for a summer job at the café.", native: { nl: "Ik heb gesolliciteerd voor een zomerbaantje in het café." }, items: [en.apply] }
+  - { id: s10, target: "Please send your application before Friday.", native: { nl: "Stuur je sollicitatie alsjeblieft voor vrijdag." }, items: [en.application] }
+  - { id: s11, target: "There were forty candidates for the job.", native: { nl: "Er waren veertig kandidaten voor de baan." }, items: [en.candidate] }
+  - { id: s12, target: "Send us your CV and a short letter.", native: { nl: "Stuur ons je cv en een korte brief." }, items: [en.cv] }
+  - { id: s13, target: "She has a background in teaching.", native: { nl: "Ze heeft een achtergrond in het onderwijs." }, items: [en.background] }
+  - { id: s14, target: "What qualifications do you need to be a nurse?", native: { nl: "Welke diploma's heb je nodig om verpleegkundige te worden?" }, items: [en.qualification] }
+  - { id: s15, target: "She's a qualified swimming teacher.", native: { nl: "Ze is een gediplomeerde zwemlerares." }, items: [en.qualified] }
+  - { id: s16, target: "You need good computer skills for this job.", native: { nl: "Je hebt goede computervaardigheden nodig voor deze baan." }, items: [en.skill] }
+  - { id: s17, target: "Do you have any experience of working with children?", native: { nl: "Heb je ervaring met werken met kinderen?" }, items: [en.experience] }
+  - { id: s18, target: "We're looking for an experienced cook.", native: { nl: "We zoeken een ervaren kok." }, items: [en.experienced] }
+  - { id: s19, target: "Volunteering is a good way to gain experience.", native: { nl: "Vrijwilligerswerk is een goede manier om ervaring op te doen." }, items: [en.gain] }
+  - { id: s20, target: "I have a job interview on Tuesday.", native: { nl: "Ik heb dinsdag een sollicitatiegesprek." }, items: [en.interview], acceptAlso: ["On Tuesday I have a job interview."] }
+  - { id: s21, target: "The interviewer asked me about my hobbies.", native: { nl: "De interviewer vroeg me naar mijn hobby's." }, items: [en.interviewer] }
+  - { id: s22, target: "Make sure you're well prepared for the interview.", native: { nl: "Zorg dat je goed voorbereid bent op het gesprek." }, items: [en.prepared] }
+  - { id: s23, target: "Are you willing to work at weekends?", native: { nl: "Ben je bereid om in het weekend te werken?" }, items: [en.willing] }
+  - { id: s24, target: "She has a very positive attitude.", native: { nl: "Ze heeft een heel positieve houding." }, items: [en.attitude] }
+  - { id: s25, target: "Who is responsible for the money?", native: { nl: "Wie is verantwoordelijk voor het geld?" }, items: [en.responsible] }
+  - { id: s26, target: "A good leader listens to the team.", native: { nl: "Een goede leider luistert naar het team." }, items: [en.leader] }
+  - { id: s27, target: "The job requires a driving licence.", native: { nl: "Voor de baan is een rijbewijs vereist." }, items: [en.require] }
+  - { id: s28, target: "The job involves a lot of travelling.", native: { nl: "De baan brengt veel reizen met zich mee." }, items: [en.involve] }
+  - { id: s29, target: "Working with teenagers can be challenging.", native: { nl: "Werken met tieners kan uitdagend zijn." }, items: [en.challenging] }
+  - { id: s30, target: "Being a doctor is a very stressful job.", native: { nl: "Dokter zijn is een heel stressvolle baan." }, items: [en.stressful] }
+  - { id: s31, target: "She deals with all the customer complaints.", native: { nl: "Zij handelt alle klachten van klanten af." }, items: [en.deal-with] }
+  - { id: s32, target: "The students carried out an experiment in the lab.", native: { nl: "De leerlingen voerden een experiment uit in het lab." }, items: [en.carry-out] }
+  - { id: s33, target: "Learning a language takes a lot of effort.", native: { nl: "Een taal leren kost veel inspanning." }, items: [en.effort] }
+  - { id: s34, target: "The company employs two hundred people.", native: { nl: "Het bedrijf heeft tweehonderd mensen in dienst." }, items: [en.employ] }
+  - { id: s35, target: "My employer pays for my bus ticket.", native: { nl: "Mijn werkgever betaalt mijn buskaartje." }, items: [en.employer] }
+  - { id: s36, target: "All employees must wear a uniform.", native: { nl: "Alle werknemers moeten een uniform dragen." }, items: [en.employee] }
+  - { id: s37, target: "The new factory will bring employment to the town.", native: { nl: "De nieuwe fabriek zal zorgen voor werkgelegenheid in de stad." }, items: [en.employment] }
+  - { id: s38, target: "My uncle has been unemployed for six months.", native: { nl: "Mijn oom is al zes maanden werkloos." }, items: [en.unemployed] }
+  - { id: s39, target: "Unemployment is high in this area.", native: { nl: "De werkloosheid is hoog in deze regio." }, items: [en.unemployment] }
+  - { id: s40, target: "After the factory closed, he was out of work for a year.", native: { nl: "Nadat de fabriek dichtging, zat hij een jaar zonder werk." }, items: [en.out-of-work] }
+  - { id: s41, target: "Read the contract carefully before you sign it.", native: { nl: "Lees het contract zorgvuldig voordat je het tekent." }, items: [en.contract] }
+  - { id: s42, target: "After a year, she got a permanent job.", native: { nl: "Na een jaar kreeg ze een vaste baan." }, items: [en.permanent], acceptAlso: ["She got a permanent job after a year."] }
+  - { id: s43, target: "The salary is paid at the end of every month.", native: { nl: "Het salaris wordt aan het eind van elke maand betaald." }, items: [en.salary] }
+  - { id: s44, target: "Students often work for a low wage.", native: { nl: "Studenten werken vaak voor een laag loon." }, items: [en.wage] }
+  - { id: s45, target: "One benefit of the job is the long holidays.", native: { nl: "Een voordeel van de baan zijn de lange vakanties." }, items: [en.benefit] }
+  - { id: s46, target: "She quit her job to travel round the world.", native: { nl: "Ze nam ontslag om rond de wereld te reizen." }, items: [en.quit] }
+  - { id: s47, target: "The course helped me to develop my skills.", native: { nl: "De cursus hielp me mijn vaardigheden te ontwikkelen." }, items: [en.develop] }
+  - { id: s48, target: "The company is working on the development of a new car.", native: { nl: "Het bedrijf werkt aan de ontwikkeling van een nieuwe auto." }, items: [en.development] }
+  - { id: s49, target: "She achieved her dream of becoming a doctor.", native: { nl: "Ze verwezenlijkte haar droom om dokter te worden." }, items: [en.achieve] }
+  - { id: s50, target: "Winning the competition was a great achievement.", native: { nl: "De wedstrijd winnen was een geweldige prestatie." }, items: [en.achievement] }
+  - { id: s51, target: "If you work hard, you'll succeed.", native: { nl: "Als je hard werkt, zul je slagen." }, items: [en.succeed] }
+  - { id: s52, target: "The concert was a great success.", native: { nl: "Het concert was een groot succes." }, items: [en.success] }
+  - { id: s53, target: "She's a successful businesswoman.", native: { nl: "Ze is een succesvolle zakenvrouw." }, items: [en.successful] }
+  - { id: s54, target: "You worked hard. You deserve a holiday!", native: { nl: "Je hebt hard gewerkt. Je verdient een vakantie!" }, items: [en.deserve] }
+  - { id: s55, target: "If I got the job, I would buy a new bike.", native: { nl: "Als ik de baan kreeg, zou ik een nieuwe fiets kopen." }, items: [en.interview], build: true, acceptAlso: ["I would buy a new bike if I got the job."], finite: { word: got, hint: { nl: "get (verleden tijd)" } } }
+  - { id: s56, target: "If I were you, I'd apply for that job.", native: { nl: "Als ik jou was, zou ik voor die baan solliciteren." }, items: [en.apply], build: true }
+  - { id: s57, target: "What would you do if you were unemployed?", native: { nl: "Wat zou je doen als je werkloos was?" }, items: [en.unemployed] }
+texts: [en-b1-t20]

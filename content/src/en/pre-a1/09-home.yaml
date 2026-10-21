@@ -1,0 +1,71 @@
+id: en-pre-a1-u09
+title: { nl: Thuis }
+icon: home
+topic: The home
+vocabulary:
+  - { target: house, native: { nl: huis }, pos: noun }
+  - { target: home, native: { nl: thuis }, pos: noun, avoid: [en.house] }
+  - { target: flat, native: { nl: "flat, appartement" }, pos: noun }
+  - { target: garden, native: { nl: tuin }, pos: noun }
+  - { target: door, native: { nl: deur }, pos: noun }
+  - { target: window, native: { nl: raam }, pos: noun }
+  - { target: wall, native: { nl: muur }, pos: noun }
+  - { target: floor, native: { nl: vloer }, pos: noun }
+  - { target: room, native: { nl: kamer }, pos: noun, category: true }
+  - { target: kitchen, native: { nl: keuken }, pos: noun }
+  - { target: living room, native: { nl: woonkamer }, pos: noun }
+  - { target: dining room, native: { nl: eetkamer }, pos: noun }
+  - { target: bedroom, native: { nl: slaapkamer }, pos: noun }
+  - { target: bathroom, native: { nl: badkamer }, pos: noun }
+  - { target: hall, native: { nl: gang }, pos: noun }
+  - { target: bath, native: { nl: bad }, pos: noun }
+  - { target: chair, native: { nl: stoel }, pos: noun }
+  - { target: table, native: { nl: tafel }, pos: noun }
+  - { target: armchair, native: { nl: fauteuil }, pos: noun, avoid: [en.chair, en.sofa] }
+  - { target: sofa, native: { nl: "bank, sofa" }, pos: noun }
+  - { target: bed, native: { nl: bed }, pos: noun }
+  - { target: cupboard, native: { nl: kast }, pos: noun }
+  - { target: bookcase, native: { nl: boekenkast }, pos: noun, avoid: [en.cupboard] }
+  - { target: lamp, native: { nl: lamp }, pos: noun }
+  - { target: clock, native: { nl: klok }, pos: noun }
+  - { target: mirror, native: { nl: spiegel }, pos: noun }
+  - { target: picture, native: { nl: "plaatje, foto, schilderij, tekening" }, pos: noun }
+  - { target: rug, native: { nl: vloerkleed }, pos: noun }
+  - { target: mat, native: { nl: mat }, pos: noun, avoid: [en.rug] }
+  - { target: box, native: { nl: doos }, pos: noun }
+sentences:
+  - { id: s01, target: "This is my house.", native: { nl: "Dit is mijn huis." }, items: [en.house] }
+  - { id: s02, target: "I'm at home.", native: { nl: "Ik ben thuis." }, items: [en.home], acceptAlso: ["I am at home."] }
+  - { id: s03, target: "We live in a big flat.", native: { nl: "Wij wonen in een grote flat." }, items: [en.flat, en.live, en.big] }
+  - { id: s04, target: "The dog is in the garden.", native: { nl: "De hond is in de tuin." }, items: [en.garden, en.dog] }
+  - { id: s05, target: "Open the door, please.", native: { nl: "Doe de deur open, alsjeblieft." }, items: [en.door, en.please] }
+  - { id: s06, target: "Close the window!", native: { nl: "Doe het raam dicht!" }, items: [en.window] }
+  - { id: s07, target: "The wall is white.", native: { nl: "De muur is wit." }, items: [en.wall, en.white] }
+  - { id: s08, target: "The cat is sleeping on the floor.", native: { nl: "De kat slaapt op de vloer." }, items: [en.floor, en.cat] }
+  - { id: s09, target: "My room is small.", native: { nl: "Mijn kamer is klein." }, items: [en.room, en.small] }
+  - { id: s10, target: "Mum is in the kitchen.", native: { nl: "Mama is in de keuken." }, items: [en.kitchen, en.mum] }
+  - { id: s11, target: "We watch TV in the living room.", native: { nl: "Wij kijken tv in de woonkamer." }, items: [en.living-room] }
+  - { id: s12, target: "We have dinner in the dining room.", native: { nl: "Wij eten ons avondeten in de eetkamer." }, items: [en.dining-room, en.dinner] }
+  - { id: s13, target: "My bedroom is blue.", native: { nl: "Mijn slaapkamer is blauw." }, items: [en.bedroom, en.blue] }
+  - { id: s14, target: "The bath is in the bathroom.", native: { nl: "Het bad staat in de badkamer." }, items: [en.bath, en.bathroom] }
+  - { id: s15, target: "Your bag is in the hall.", native: { nl: "Je tas staat in de gang." }, items: [en.hall, en.bag] }
+  - { id: s16, target: "Sit on the chair, please.", native: { nl: "Ga op de stoel zitten, alsjeblieft." }, items: [en.chair, en.please] }
+  - { id: s17, target: "The books are on the table.", native: { nl: "De boeken liggen op de tafel." }, items: [en.table] }
+  - { id: s18, target: "Grandpa is sleeping in his armchair.", native: { nl: "Opa slaapt in zijn fauteuil." }, items: [en.armchair, en.grandpa] }
+  - { id: s19, target: "The cat is on the sofa.", native: { nl: "De kat ligt op de bank." }, items: [en.sofa, en.cat] }
+  - { id: s20, target: "My bed is big.", native: { nl: "Mijn bed is groot." }, items: [en.bed, en.big] }
+  - { id: s21, target: "My clothes are in the cupboard.", native: { nl: "Mijn kleren liggen in de kast." }, items: [en.cupboard, en.clothes] }
+  - { id: s22, target: "The bookcase is next to the door.", native: { nl: "De boekenkast staat naast de deur." }, items: [en.bookcase, en.door] }
+  - { id: s23, target: "The lamp is on the table.", native: { nl: "De lamp staat op de tafel." }, items: [en.lamp, en.table] }
+  - { id: s24, target: "The clock is on the wall.", native: { nl: "De klok hangt aan de muur." }, items: [en.clock, en.wall] }
+  - { id: s25, target: "Look in the mirror!", native: { nl: "Kijk in de spiegel!" }, items: [en.mirror] }
+  - { id: s26, target: "There's a picture of a horse.", native: { nl: "Er hangt een plaatje van een paard." }, items: [en.picture, en.horse], acceptAlso: ["There is a picture of a horse."] }
+  - { id: s27, target: "The rug is red and yellow.", native: { nl: "Het vloerkleed is rood en geel." }, items: [en.rug, en.red, en.yellow] }
+  - { id: s28, target: "The cat is sitting on the mat.", native: { nl: "De kat zit op de mat." }, items: [en.mat, en.cat] }
+  - { id: s29, target: "What's in the box?", native: { nl: "Wat zit er in de doos?" }, items: [en.box], acceptAlso: ["What is in the box?"] }
+  - { id: s30, target: "There are four chairs in the kitchen.", native: { nl: "Er staan vier stoelen in de keuken." }, items: [en.chair, en.four, en.kitchen] }
+lessons:
+  - { id: l01, title: { nl: Mijn huis }, vocab: [en.house, en.home, en.flat, en.garden, en.door, en.window, en.wall, en.floor] }
+  - { id: l02, title: { nl: Kamers }, vocab: [en.room, en.kitchen, en.living-room, en.dining-room, en.bedroom, en.bathroom, en.hall, en.bath] }
+  - { id: l03, title: { nl: Meubels }, vocab: [en.chair, en.table, en.armchair, en.sofa, en.bed, en.cupboard, en.bookcase] }
+  - { id: l04, title: { nl: In mijn kamer }, vocab: [en.lamp, en.clock, en.mirror, en.picture, en.rug, en.mat, en.box] }

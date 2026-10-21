@@ -1,0 +1,56 @@
+{
+  "id": "en-no-schema-version",
+  "track": "en",
+  "cefr": "Pre-A1",
+  "source": "Deliberately broken schema v2 fixture for the content validator.",
+  "units": [
+    {
+      "id": "en-no-schema-version-u01",
+      "title": {
+        "nl": "Kapot"
+      },
+      "icon": "animals",
+      "vocabulary": [
+        {
+          "id": "en.no-schema-version",
+          "target": "cat",
+          "native": {
+            "nl": "kat"
+          },
+          "pos": "noun"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "en-no-schema-version-u01-l01",
+          "title": {
+            "nl": "Kapot"
+          },
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "id": "en-no-schema-version-u01-l01-e01",
+              "items": [
+                "en.no-schema-version"
+              ],
+              "question": "cat",
+              "options": [
+                {
+                  "text": {
+                    "nl": "kat"
+                  },
+                  "correct": true
+                },
+                {
+                  "text": {
+                    "nl": "hond"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

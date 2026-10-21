@@ -1,0 +1,66 @@
+id: nl-b1-u09
+title: { en: School and parents }
+icon: school
+topic: The Flemish school year, letters from school, costs, choices; relative clauses
+vocabulary:
+  - { target: de directie, native: { en: "(school) management, head's office" }, pos: noun, plural: directies }
+  - { target: de lerares, native: { en: "teacher (a woman)" }, pos: noun, plural: leraressen }
+  - { target: de klasgenoot, native: { en: classmate }, pos: noun, plural: klasgenoten }
+  - { target: de basisschool, native: { en: primary school }, pos: noun, plural: basisscholen }
+  - { target: de secundaire school, native: { en: secondary school }, pos: noun, plural: secundaire scholen }
+  - { target: het schooljaar, native: { en: school year }, pos: noun, plural: schooljaren }
+  - { target: het trimester, native: { en: "term (a third of the school year)" }, pos: noun, plural: trimesters }
+  - { target: de refter, native: { en: "(school) dining hall" }, pos: noun, plural: refters }
+  - { target: het middagmaal, native: { en: "midday meal, lunch" }, pos: noun, plural: middagmalen }
+  - { target: de zwemles, native: { en: swimming lesson }, pos: noun, plural: zwemlessen }
+  - { target: de schoolreis, native: { en: school trip }, pos: noun, plural: schoolreizen }
+  - { target: de betaling, native: { en: payment }, pos: noun, plural: betalingen }
+  - { target: verwittigen, native: { en: "to notify, to let know" }, pos: verb, alsoNL: laten weten }
+  - { target: de afwezigheid, native: { en: absence }, pos: noun, plural: afwezigheden }
+  - { target: de maximumfactuur, native: { en: "maximum bill (the cap on school costs in Flanders)" }, pos: noun, plural: maximumfacturen }
+  - { target: de opvoeding, native: { en: upbringing }, pos: noun, plural: "-" }
+  - { target: opvoeden, native: { en: "to bring up, to raise (a child)" }, pos: verb }
+  - { target: de puber, native: { en: teenager }, pos: noun, plural: pubers, avoid: [nl.jongere] }
+  - { target: de jongere, native: { en: young person }, pos: noun, plural: jongeren }
+  - { target: de volwassene, native: { en: adult }, pos: noun, plural: volwassenen }
+  - { target: de informatieavond, native: { en: information evening }, pos: noun, plural: informatieavonden }
+  - { target: de bijeenkomst, native: { en: "meeting, gathering" }, pos: noun, plural: bijeenkomsten }
+  - { target: de voorstelling, native: { en: "show, performance" }, pos: noun, plural: voorstellingen }
+  - { target: de keuze, native: { en: choice }, pos: noun, plural: keuzes }
+  - { target: de richting, native: { en: "direction; course of study (at secondary school)" }, pos: noun, plural: richtingen }
+  - { target: de mogelijkheid, native: { en: possibility }, pos: noun, plural: mogelijkheden }
+  - { target: het advies, native: { en: advice }, pos: noun, plural: adviezen }
+  - { target: het einde, native: { en: end }, pos: noun, plural: "-" }
+  - { target: de turnzaal, native: { en: "gym (hall)" }, pos: noun, plural: turnzalen, alsoNL: de gymzaal }
+  - { target: verklaren, native: { en: "to explain, to declare" }, pos: verb }
+  - { target: dankzij, native: { en: thanks to }, pos: preposition }
+sentences:
+  - { id: s01, target: "De directie heeft een brief naar alle ouders gestuurd.", native: { en: "The school management has sent a letter to all parents." }, items: [nl.directie] }
+  - { id: s02, target: "De lerares van mijn dochter heet juf Lisa.", native: { en: "My daughter's teacher is called Miss Lisa." }, items: [nl.lerares] }
+  - { id: s03, target: "Hij speelt graag met zijn klasgenoten op de speelplaats.", native: { en: "He likes playing with his classmates in the playground." }, items: [nl.klasgenoot], acceptAlso: ["Op de speelplaats speelt hij graag met zijn klasgenoten.", "Met zijn klasgenoten speelt hij graag op de speelplaats.", "Hij speelt graag op de speelplaats met zijn klasgenoten."] }
+  - { id: s04, target: "Onze zoon zit in het vijfde leerjaar van de basisschool.", native: { en: "Our son is in the fifth year of primary school." }, items: [nl.basisschool] }
+  - { id: s05, target: "Na de zomer gaat onze dochter naar de secundaire school.", native: { en: "After the summer our daughter is going to secondary school." }, items: [nl.secundaire-school], acceptAlso: ["Onze dochter gaat na de zomer naar de secundaire school."] }
+  - { id: s06, target: "Het schooljaar begint op 1 september.", native: { en: "The school year starts on 1 September." }, items: [nl.schooljaar] }
+  - { id: s07, target: "Aan het einde van elk trimester krijgen de kinderen een rapport.", native: { en: "At the end of every term the children get a school report." }, items: [nl.trimester, nl.einde], acceptAlso: ["De kinderen krijgen aan het einde van elk trimester een rapport."] }
+  - { id: s08, target: "De kinderen eten 's middags in de refter.", native: { en: "The children eat in the dining hall at lunchtime." }, items: [nl.refter] }
+  - { id: s09, target: "Een warm middagmaal kost drie euro.", native: { en: "A hot midday meal costs three euros." }, items: [nl.middagmaal] }
+  - { id: s10, target: "Op dinsdag hebben de kinderen zwemles.", native: { en: "On Tuesdays the children have a swimming lesson." }, items: [nl.zwemles], acceptAlso: ["De kinderen hebben op dinsdag zwemles."] }
+  - { id: s11, target: "De schoolreis gaat dit jaar naar zee.", native: { en: "This year the school trip is going to the seaside." }, items: [nl.schoolreis], acceptAlso: ["Dit jaar gaat de schoolreis naar zee."] }
+  - { id: s12, target: "De betaling moet voor het einde van de maand gebeuren.", native: { en: "Payment has to be made before the end of the month." }, items: [nl.betaling, nl.einde] }
+  - { id: s13, target: "Als uw kind ziek is, moet u de school voor half negen verwittigen.", native: { en: "If your child is ill, you have to let the school know before half past eight." }, items: [nl.verwittigen] }
+  - { id: s14, target: "Voor elke afwezigheid moet uw kind een briefje meebrengen.", native: { en: "For every absence your child has to bring a note." }, items: [nl.afwezigheid] }
+  - { id: s15, target: "Dankzij de maximumfactuur betalen ouders nooit te veel voor uitstappen.", native: { en: "Thanks to the maximum bill parents never pay too much for outings." }, items: [nl.maximumfactuur, nl.dankzij], acceptAlso: ["Ouders betalen dankzij de maximumfactuur nooit te veel voor uitstappen."] }
+  - { id: s16, target: "Ouders en school zijn samen verantwoordelijk voor de opvoeding.", native: { en: "Parents and school share responsibility for a child's upbringing." }, items: [nl.opvoeding] }
+  - { id: s17, target: "Het is niet gemakkelijk om drie kinderen op te voeden.", native: { en: "It isn't easy to bring up three children." }, items: [nl.opvoeden] }
+  - { id: s18, target: "Onze zoon is een puber die veel slaapt.", native: { en: "Our son is a teenager who sleeps a lot." }, items: [nl.puber] }
+  - { id: s19, target: "In de jeugdbeweging kunnen jongeren elkaar ontmoeten.", native: { en: "Young people can meet each other in youth organisations such as the Scouts." }, items: [nl.jongere] }
+  - { id: s20, target: "De cursus is voor volwassenen die Nederlands willen leren.", native: { en: "The course is for adults who want to learn Dutch." }, items: [nl.volwassene] }
+  - { id: s21, target: "Op de informatieavond wordt uitgelegd hoe de school werkt.", native: { en: "At the information evening they explain how the school works." }, items: [nl.informatieavond], finite: { word: wordt, hint: { en: "worden (present)" } } }
+  - { id: s22, target: "De bijeenkomst voor de ouders is in de turnzaal.", native: { en: "The parents' meeting is in the gym." }, items: [nl.bijeenkomst, nl.turnzaal], acceptAlso: ["In de turnzaal is de bijeenkomst voor de ouders."] }
+  - { id: s23, target: "De kinderen geven een voorstelling voor de ouders.", native: { en: "The children are putting on a show for the parents." }, items: [nl.voorstelling], acceptAlso: ["Voor de ouders geven de kinderen een voorstelling.", "De kinderen geven voor de ouders een voorstelling."] }
+  - { id: s24, target: "Welke richting heeft je dochter gekozen?", native: { en: "Which course of study has your daughter chosen?" }, items: [nl.richting] }
+  - { id: s25, target: "Het is een moeilijke keuze voor een kind van twaalf.", native: { en: "It's a difficult choice for a twelve-year-old." }, items: [nl.keuze] }
+  - { id: s26, target: "De school biedt veel mogelijkheden aan.", native: { en: "The school offers a lot of opportunities." }, items: [nl.mogelijkheid] }
+  - { id: s27, target: "De leerkracht gaf ons een goed advies.", native: { en: "The teacher gave us good advice." }, items: [nl.advies], finite: { word: gaf, hint: { en: "geven (past)" } } }
+  - { id: s28, target: "Dat verklaart waarom hij zo moe is.", native: { en: "That explains why he's so tired." }, items: [nl.verklaren] }
+texts: [nl-b1-t10]

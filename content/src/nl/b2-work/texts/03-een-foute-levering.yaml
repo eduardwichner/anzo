@@ -1,0 +1,46 @@
+id: nl-b2-work-t03
+kind: reading
+title: { en: A wrong delivery }
+topic: Formal e-mails (an e-mail from a restaurant manager to a supplier)
+level: B2
+paragraphs:
+  - - { id: nl-b2-work-t03-s01, target: "Geachte heer Claes,", native: { en: "Dear Mr Claes," } }
+    - { id: nl-b2-work-t03-s02, target: "Ik schrijf u naar aanleiding van de levering die wij gisteren, dinsdag 4 maart, van uw bedrijf ontvingen.", native: { en: "I am writing to you following the delivery we received from your company yesterday, Tuesday 4 March." } }
+  - - { id: nl-b2-work-t03-s03, target: "Wij hadden twintig kilo tomaten, tien kilo aardappelen en vijf kisten sla besteld.", native: { en: "We had ordered twenty kilos of tomatoes, ten kilos of potatoes and five crates of lettuce." } }
+    - { id: nl-b2-work-t03-s04, target: "Bij ontvangst bleek echter dat er maar tien kilo tomaten was, en de sla was niet meer vers.", native: { en: "On receipt, however, it turned out that there were only ten kilos of tomatoes, and the lettuce was no longer fresh." } }
+    - { id: nl-b2-work-t03-s05, target: "Ik heb de chauffeur daar meteen op gewezen, maar hij kon het probleem niet oplossen.", native: { en: "I pointed this out to the driver straight away, but he could not solve the problem." } }
+  - - { id: nl-b2-work-t03-s06, target: "Voor ons restaurant is dat een groot probleem.", native: { en: "For our restaurant that is a big problem." } }
+    - { id: nl-b2-work-t03-s07, target: "Op woensdag hebben we elke week een groot buffet, en daarvoor hebben we de bestelde groenten nodig.", native: { en: "Every week on Wednesday we have a large buffet, and for that we need the vegetables we ordered." } }
+    - { id: nl-b2-work-t03-s08, target: "Gisteren moest een collega in de supermarkt nog tomaten gaan kopen, tegen een veel hogere prijs.", native: { en: "Yesterday a colleague had to go and buy tomatoes at the supermarket, at a much higher price." } }
+  - - { id: nl-b2-work-t03-s09, target: "Wij werken al vijf jaar met uw bedrijf samen en we zijn altijd tevreden geweest over de kwaliteit.", native: { en: "We have worked with your company for five years and we have always been satisfied with the quality." } }
+    - { id: nl-b2-work-t03-s10, target: "Daarom verwacht ik dat dit een uitzondering blijft.", native: { en: "That is why I expect this to remain an exception." } }
+    - { id: nl-b2-work-t03-s11, target: "Graag had ik dat u de ontbrekende tomaten en nieuwe sla nog deze week levert, en dat u de sla die niet vers was niet aanrekent.", native: { en: "I would like you to deliver the missing tomatoes and new lettuce this week, and not to charge for the lettuce that was not fresh." } }
+  - - { id: nl-b2-work-t03-s12, target: "In bijlage vindt u de leveringsbon en een foto van de sla.", native: { en: "Please find attached the delivery note and a photo of the lettuce." } }
+    - { id: nl-b2-work-t03-s13, target: "Mocht u nog vragen hebben, dan kunt u mij elke voormiddag op het restaurant bereiken.", native: { en: "Should you have any questions, you can reach me at the restaurant every morning." } }
+    - { id: nl-b2-work-t03-s14, target: "Ik kijk uit naar uw reactie.", native: { en: "I look forward to your reply." } }
+  - - { id: nl-b2-work-t03-s15, target: "Met vriendelijke groeten,", native: { en: "Kind regards," } }
+    - { id: nl-b2-work-t03-s16, target: "Els Willems, zaakvoerder van restaurant De Linde", native: { en: "Els Willems, manager of restaurant De Linde" } }
+glossary:
+  - { word: kisten, native: { en: "crates (de kist)" } }
+  - { word: buffet, native: { en: buffet } }
+  - { word: uitzondering, native: { en: exception } }
+  - { word: ontbrekende, native: { en: "missing (ontbreken)" } }
+  - { word: aanrekent, native: { en: "charges (aanrekenen, Belgian)" } }
+  - { word: leveringsbon, native: { en: "delivery note" } }
+  - { word: zaakvoerder, native: { en: "manager, managing director (Belgian)" } }
+items: [nl.aanleiding, nl.ontvangst, nl.in-bijlage, nl.geacht]
+questions:
+  - { id: nl-b2-work-t03-q1, type: summary, options: ["Een zaakvoerder klaagt bij haar leverancier over een levering met te weinig en slechte groenten en vraagt een oplossing.", "Een zaakvoerder bestelt nieuwe groenten voor een buffet.", "Een leverancier biedt een restaurant zijn verontschuldigingen aan voor een levering die te laat kwam."], correct: 0 }
+  - { id: nl-b2-work-t03-q2, type: mc, question: "Wat vraagt Els Willems aan de leverancier?", options: ["De ontbrekende tomaten en nieuwe sla leveren en de slechte sla niet aanrekenen.", "Een nieuwe chauffeur sturen.", "Het hele bedrag van de levering terugbetalen."], correct: 0 }
+  - { id: nl-b2-work-t03-q3, type: true_false_notgiven, statement: "Het restaurant werkt al vijf jaar met de leverancier samen.", answer: true }
+  - { id: nl-b2-work-t03-q4, type: true_false_notgiven, statement: "De chauffeur loste het probleem meteen op.", answer: false }
+  - { id: nl-b2-work-t03-q5, type: true_false_notgiven, statement: "Het restaurant heeft dertig tafels.", answer: not_given }
+  - { id: nl-b2-work-t03-q6, type: match_heading, paragraph: 3, options: ["De gevolgen voor het restaurant", "Wat er fout was aan de levering", "Wat het restaurant vraagt"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-work-t03-l1, type: complete, statement: "Het restaurant had twintig kilo ___ besteld.", answers: [tomaten] }
+  - { id: nl-b2-work-t03-l2, type: mc, question: "Wanneer kun je Els Willems bereiken?", options: ["Elke voormiddag.", "Elke avond.", "Alleen op woensdag."], correct: 0 }
+wordForm:
+  - { sentence: nl-b2-work-t03-s02, word: levering, stem: leveren }
+  - { sentence: nl-b2-work-t03-s07, word: bestelde, stem: bestellen }
+  - { sentence: nl-b2-work-t03-s08, word: hogere, stem: hoog }
+orderable: false

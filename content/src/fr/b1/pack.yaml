@@ -1,0 +1,43 @@
+id: fr-b1
+cefr: B1
+# Unit 1 is the pilot unit (its two texts locked); units 2–20 have one text each.
+extraLessons: true
+# Finite-verb fill-ins in the review lessons; homophones.yaml applies (no legacyListenType).
+finiteVerbFill: true
+source: >-
+  French for Dutch-speaking learners (from about 11 to adult), level B1. Every word is in the derived French word list
+  (content/src/fr/WORDLIST.md) at B1 or below: DELF Prim A1.1–A2 papers, the DELF B1 junior / scolaire sample papers
+  (two collective papers with their transcriptions, the oral subjects; content/src/fr/SOURCES.md), topic completions for
+  the DELF B1 themes and parity with the English B1 plan — or is a name or a text's glossary word. Units follow the DELF B1
+  junior themes (daily life, relationships, school and the future, work, leisure, culture and media, technology, travel,
+  the town, the environment, society) with the B1 grammar of content/src/fr/PLAN.md. The texts are original (the papers are
+  models for text types); Dutch meanings written by the content author.
+offList:
+  - { word: le sujet, reason: "pilot unit word (fr-b1-u01, locked by its text exercises); the derived list excludes sujet as an exam-instruction word of the papers" }
+omit:
+  - { word: endormissement, reason: "a sleep-research term of one B1 reading text; too technical for the course" }
+  - { word: désorganisation, reason: "a nominalisation of one B1 paper; désordonné and organisation are taught" }
+  - { word: saturation, reason: "a technical noun of one B1 paper (network saturation)" }
+  - { word: antiécologique, reason: "a coinage of one B1 paper; écologique is taught" }
+  - { word: dégradation, reason: "a formal noun of one B1 paper; abstract for the course's topics" }
+  - { word: blocage, reason: "a formal noun of one B1 paper (road blocking); embouteillage is taught" }
+  - { word: fédération, reason: "an institutional noun of one B1 paper; association is taught" }
+  - { word: constructeur, reason: "an industry noun of one B1 paper (car maker); entreprise is taught" }
+  - { word: repeupler, reason: "a technical verb of one B1 paper (restocking a river)" }
+  - { word: extraire, reason: "a technical verb of one B1 paper (extracting resources)" }
+  - { word: acquis, reason: "a participle used as a noun in an examiner text; apprendre is taught" }
+  - { word: auxquels, reason: "a compound relative pronoun; the B1 plan teaches qui, que, où (PLAN.md)" }
+  - { word: lequel, reason: "a compound relative pronoun; the B1 plan teaches qui, que, où (PLAN.md)" }
+  - { word: dont, reason: "a relative pronoun beyond the plan's qui, que, où (PLAN.md)" }
+  - { word: ci, reason: "only in ce …-ci / ci-dessous in exam instructions" }
+  - { word: ci-dessous, reason: "an exam-instruction word (see below)" }
+  - { word: quelque, reason: "taught in quelque chose and quelqu'un (A1)" }
+  - { word: ah, reason: "an interjection: used in dialogues, not a vocabulary item" }
+  - { word: oh, reason: "an interjection: used in dialogues, not a vocabulary item" }
+  - { word: eh, reason: "an interjection: used in dialogues, not a vocabulary item" }
+  - { word: distraction, reason: "a noun of one B1 paper; loisirs and passe-temps are taught" }
+  - { word: excès, reason: "a formal noun of one B1 paper; trop is taught" }
+  - { word: hall, reason: "a loanword of one B1 paper (hall d'entrée); salle is taught" }
+  - { word: forum, reason: "a loanword of one B1 paper (Internet forum); site is taught" }
+  - { word: seul~adj, reason: "seul is taught at A1 (fr.seul, alone); the B1 sense (le seul, the only one) is used in sentences (u03 s26)" }
+  - { word: grâce, reason: "taught as the phrase grâce à (fr.grace, u18): the noun alone (de gratie) is not B1 use" }

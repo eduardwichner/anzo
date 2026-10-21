@@ -1,0 +1,76 @@
+id: fr-b1-u06
+title: { nl: Eten en gezondheid, en: "Food and health" }
+icon: health
+topic: La cuisine, le restaurant et la santé ; si + présent, futur simple
+vocabulary:
+  - { target: l'ingrédient, native: { nl: het ingrediënt, en: "ingredient" }, pos: noun, gender: m }
+  - { target: bouillir, native: { nl: koken (van water), en: "to boil" }, pos: verb, avoid: [fr.cuire, fr.cuisiner] }
+  - { target: épicé, native: { nl: pittig, en: "spicy" }, pos: adjective, typedAlso: { en: [piquant] } }
+  - { target: le goût, native: { nl: de smaak, en: "taste" }, pos: noun, gender: m }
+  - { target: végétarien, native: { nl: vegetarisch, en: "vegetarian" }, pos: adjective }
+  - { target: l'addition, native: { nl: de rekening (in een restaurant), en: "bill (in a restaurant)" }, pos: noun, gender: f }
+  - { target: le pourboire, native: { nl: de fooi, en: "tip (for a waiter)" }, pos: noun, gender: m }
+  - { target: la serveuse, native: { nl: de serveerster, en: "waitress" }, pos: noun, gender: f }
+  - { target: ajouter, native: { nl: toevoegen, en: "to add" }, pos: verb }
+  - { target: la douleur, native: { nl: de pijn, en: "pain" }, pos: noun, gender: f }
+  - { target: la blessure, native: { nl: "de wonde, de verwonding", en: "injury, wound" }, pos: noun, gender: f }
+  - { target: l'ordonnance, native: { nl: het voorschrift (van de dokter), en: "prescription" }, pos: noun, gender: f }
+  - { target: l'urgence, native: { nl: "de spoed, het noodgeval", en: "emergency" }, pos: noun, gender: f }
+  - { target: l'ambulance, native: { nl: de ziekenwagen, en: "ambulance" }, pos: noun, gender: f }
+  - { target: l'opération, native: { nl: de operatie, en: "operation" }, pos: noun, gender: f }
+  - { target: le sang, native: { nl: het bloed, en: "blood" }, pos: noun, gender: m }
+  - { target: l'os, native: { nl: het bot, en: "bone" }, pos: noun, gender: m }
+  - { target: la peau, native: { nl: de huid, en: "skin" }, pos: noun, gender: f }
+  - { target: respirer, native: { nl: ademen, en: "to breathe" }, pos: verb }
+  - { target: la maladie, native: { nl: de ziekte, en: "illness, disease" }, pos: noun, gender: f }
+  - { target: le traitement, native: { nl: de behandeling, en: "treatment" }, pos: noun, gender: m }
+  - { target: médical, native: { nl: medisch, en: "medical" }, pos: adjective }
+  - { id: fr.fatigue-n, target: la fatigue, native: { nl: de vermoeidheid, en: "tiredness" }, pos: noun, gender: f }
+  - { target: l'estomac, native: { nl: de maag, en: "stomach" }, pos: noun, gender: m }
+  - { target: le soin, native: { nl: de zorg (verzorging), en: "care" }, pos: noun, gender: m }
+  - { target: l'accident, native: { nl: het ongeluk (ongeval), en: "accident" }, pos: noun, gender: m }
+  - { target: gravement, native: { nl: ernstig, en: "seriously" }, pos: adverb, typedAlso: { en: [sérieusement] } }
+  - { target: le repos, native: { nl: de rust, en: "rest" }, pos: noun, gender: m }
+  - { target: sauver, native: { nl: redden, en: "to save, to rescue" }, pos: verb }
+  - { target: liquide, native: { nl: vloeibaar, en: "liquid" }, pos: adjective, avoid: [fr.solide] }
+  - { target: solide, native: { nl: "stevig, vast", en: "solid, sturdy" }, pos: adjective }
+  - { target: humain, native: { nl: menselijk, en: "human" }, pos: adjective }
+  - { target: sentir, native: { nl: "ruiken, voelen", en: "to smell, to feel" }, pos: verb }
+sentences:
+  - { id: s01, target: "Il faut seulement quatre ingrédients pour cette recette.", native: { nl: "Je hebt maar vier ingrediënten nodig voor dit recept.", en: "You only need four ingredients for this recipe." }, items: [fr.ingredient] }
+  - { id: s02, target: "Fais bouillir l'eau avant d'ajouter les pâtes.", native: { nl: "Breng het water aan de kook voordat je de pasta toevoegt.", en: "Boil the water before you add the pasta." }, items: [fr.bouillir, fr.ajouter] }
+  - { id: s03, target: "Ce plat est trop épicé pour moi.", native: { nl: "Dit gerecht is te pittig voor mij.", en: "This dish is too spicy for me." }, items: [fr.epice] }
+  - { id: s04, target: "Cette soupe a un goût bizarre.", native: { nl: "Deze soep heeft een rare smaak.", en: "This soup has a weird taste." }, items: [fr.gout] }
+  - { id: s05, target: "Ma cousine ne mange pas de viande : elle est végétarienne.", native: { nl: "Mijn nicht eet geen vlees: ze is vegetariër.", en: "My cousin doesn't eat meat: she's a vegetarian." }, items: [fr.vegetarien] }
+  - { id: s06, target: "L'addition, s'il vous plaît !", native: { nl: "De rekening, alstublieft!", en: "The bill, please!" }, items: [fr.addition] }
+  - { id: s07, target: "En Belgique, on laisse parfois un petit pourboire.", native: { nl: "In België geef je soms een kleine fooi.", en: "In Belgium, people sometimes leave a small tip." }, items: [fr.pourboire] }
+  - { id: s08, target: "La serveuse nous apporte la carte.", native: { nl: "De serveerster brengt ons de menukaart.", en: "The waitress brings us the menu." }, items: [fr.serveuse], finite: { word: apporte, hint: { nl: "apporter (présent)", en: "apporter (present)" } } }
+  - { id: s09, target: "Ajoutez un peu de sel et de poivre.", native: { nl: "Voeg een beetje zout en peper toe.", en: "Add a little salt and pepper." }, items: [fr.ajouter] }
+  - { id: s10, target: "J'ai une douleur au genou depuis le match.", native: { nl: "Ik heb pijn aan mijn knie sinds de wedstrijd.", en: "I've had a pain in my knee since the match." }, items: [fr.douleur] }
+  - { id: s11, target: "Sa blessure n'est pas sérieuse.", native: { nl: "Zijn wonde is niet ernstig.", en: "His injury isn't serious." }, items: [fr.blessure] }
+  - { id: s12, target: "Le médecin m'a donné une ordonnance pour la pharmacie.", native: { nl: "De dokter gaf me een voorschrift voor de apotheek.", en: "The doctor gave me a prescription for the chemist's." }, items: [fr.ordonnance] }
+  - { id: s13, target: "En cas d'urgence, appelez le 112.", native: { nl: "Bel in een noodgeval 112.", en: "In an emergency, call 112." }, items: [fr.urgence] }
+  - { id: s14, target: "L'ambulance est arrivée très vite.", native: { nl: "De ziekenwagen kwam heel snel.", en: "The ambulance arrived very quickly." }, items: [fr.ambulance] }
+  - { id: s15, target: "Après l'opération, il est resté trois jours à l'hôpital.", native: { nl: "Na de operatie bleef hij drie dagen in het ziekenhuis.", en: "After the operation he stayed in hospital for three days." }, items: [fr.operation] }
+  - { id: s16, target: "Il y avait du sang sur son bras.", native: { nl: "Er zat bloed op zijn arm.", en: "There was blood on his arm." }, items: [fr.sang] }
+  - { id: s17, target: "Il s'est cassé un os en tombant de vélo.", native: { nl: "Hij brak een bot toen hij van zijn fiets viel.", en: "He broke a bone falling off his bike." }, items: [fr.os] }
+  - { id: s18, target: "Ne reste pas au soleil : ta peau est toute rouge.", native: { nl: "Blijf niet in de zon: je huid is helemaal rood.", en: "Don't stay in the sun: your skin is all red." }, items: [fr.peau] }
+  - { id: s19, target: "Respirez bien et restez calme.", native: { nl: "Adem goed en blijf kalm.", en: "Breathe deeply and stay calm." }, items: [fr.respirer] }
+  - { id: s20, target: "C'est une maladie très dangereuse.", native: { nl: "Het is een heel gevaarlijke ziekte.", en: "It's a very dangerous disease." }, items: [fr.maladie] }
+  - { id: s21, target: "Le traitement dure deux semaines.", native: { nl: "De behandeling duurt twee weken.", en: "The treatment lasts two weeks." }, items: [fr.traitement] }
+  - { id: s22, target: "Avant le voyage, elle a passé une visite médicale.", native: { nl: "Voor de reis heeft ze een medisch onderzoek ondergaan.", en: "Before the trip, she had a medical check-up." }, items: [fr.medical], acceptAlso: ["Elle a passé une visite médicale avant le voyage."] }
+  - { id: s23, target: "Avec la fatigue, on fait plus d'erreurs.", native: { nl: "Door vermoeidheid maak je meer fouten.", en: "Because of tiredness, people make more mistakes." }, items: [fr.fatigue-n] }
+  - { id: s24, target: "J'ai mal à l'estomac : j'ai trop mangé.", native: { nl: "Ik heb maagpijn: ik heb te veel gegeten.", en: "I have a stomach ache: I've eaten too much." }, items: [fr.estomac] }
+  - { id: s25, target: "Les infirmiers donnent des soins aux malades.", native: { nl: "De verpleegkundigen verzorgen de zieken.", en: "Nurses provide care for sick people." }, items: [fr.soin] }
+  - { id: s26, target: "Il y a eu un accident devant l'école.", native: { nl: "Er is een ongeluk gebeurd voor de school.", en: "There's been an accident in front of the school." }, items: [fr.accident] }
+  - { id: s27, target: "Personne n'a été gravement blessé dans l'accident.", native: { nl: "Niemand is bij het ongeluk ernstig gewond geraakt.", en: "Nobody was seriously injured in the accident." }, items: [fr.gravement] }
+  - { id: s28, target: "Le médecin dit que j'ai besoin de repos.", native: { nl: "De dokter zegt dat ik rust nodig heb.", en: "The doctor says I need rest." }, items: [fr.repos], finite: { word: dit, hint: { nl: "dire (présent)", en: "dire (present)" } } }
+  - { id: s29, target: "Les pompiers ont sauvé le chat.", native: { nl: "De brandweer heeft de kat gered.", en: "The firefighters saved the cat." }, items: [fr.sauver] }
+  - { id: s30, target: "Ce savon est liquide.", native: { nl: "Deze zeep is vloeibaar.", en: "This soap is liquid." }, items: [fr.liquide] }
+  - { id: s31, target: "Cette table est vieille, mais elle est très solide.", native: { nl: "Deze tafel is oud, maar ze is heel stevig.", en: "This table is old, but it's very sturdy." }, items: [fr.solide] }
+  - { id: s32, target: "Le corps humain a plus de 200 os.", native: { nl: "Het menselijk lichaam heeft meer dan 200 botten.", en: "The human body has more than 200 bones." }, items: [fr.humain, fr.os] }
+  - { id: s33, target: "Ça sent bon dans la cuisine !", native: { nl: "Het ruikt lekker in de keuken!", en: "It smells good in the kitchen!" }, items: [fr.sentir], finite: { word: sent, hint: { nl: "sentir (présent)", en: "sentir (present)" } } }
+  - { id: s34, target: "Je ne me sens pas bien aujourd'hui.", native: { nl: "Ik voel me vandaag niet goed.", en: "I don't feel well today." }, items: [fr.sentir] }
+  - { id: s35, target: "Si la douleur continue demain, tu iras chez le médecin.", native: { nl: "Als de pijn morgen blijft, ga je naar de dokter.", en: "If the pain goes on tomorrow, you'll go to the doctor's." }, items: [fr.douleur], build: true, acceptAlso: ["Tu iras chez le médecin si la douleur continue demain."], finite: { word: iras, hint: { nl: "aller (futur)", en: "aller (future)" } } }
+  - { id: s36, target: "Si tu ajoutes du sel, la soupe aura plus de goût.", native: { nl: "Als je zout toevoegt, zal de soep meer smaak hebben.", en: "If you add salt, the soup will have more taste." }, items: [fr.gout], finite: { word: aura, hint: { nl: "avoir (futur)", en: "avoir (future)" } } }
+texts: [fr-b1-t07]

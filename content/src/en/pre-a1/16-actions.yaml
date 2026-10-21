@@ -1,0 +1,62 @@
+id: en-pre-a1-u16
+title: { nl: Doe mee! }
+icon: actions
+topic: Verbs of everyday actions (grammar and structures)
+vocabulary:
+  - { target: be, native: { nl: zijn }, pos: verb }
+  - { target: have, native: { nl: hebben }, pos: verb }
+  - { target: have got, native: { nl: hebben }, pos: verb }
+  - { target: do, native: { nl: doen }, pos: verb }
+  - { target: make, native: { nl: maken }, pos: verb }
+  - { target: can, native: { nl: kunnen }, pos: verb }
+  - { target: see, native: { nl: zien }, pos: verb }
+  - { target: say, native: { nl: zeggen }, pos: verb }
+  - { target: give, native: { nl: geven }, pos: verb }
+  - { target: put, native: { nl: "zetten, leggen" }, pos: verb }
+  - { target: hold, native: { nl: vasthouden }, pos: verb }
+  - { target: pick up, native: { nl: oppakken }, pos: verb }
+  - { target: try, native: { nl: proberen }, pos: verb }
+  - { target: "let's", native: { nl: laten we }, pos: phrase }
+  - { target: open, native: { nl: "opendoen, open" }, pos: verb }
+  - { target: close, native: { nl: dichtdoen }, pos: verb }
+  - { target: sit, native: { nl: zitten }, pos: verb }
+  - { target: stand, native: { nl: staan }, pos: verb }
+  - { target: walk, native: { nl: lopen }, pos: verb }
+  - { target: wave, native: { nl: zwaaien }, pos: verb }
+  - { target: clap, native: { nl: klappen }, pos: verb }
+  - { target: talk, native: { nl: praten }, pos: verb, avoid: [en.say] }
+  - { target: closed, native: { nl: dicht }, pos: adjective, avoid: [en.close] }
+sentences:
+  - { id: s01, target: "I am a girl.", native: { nl: "Ik ben een meisje." }, items: [en.be, en.girl], acceptAlso: ["I'm a girl."] }
+  - { id: s02, target: "They are my friends.", native: { nl: "Zij zijn mijn vrienden." }, items: [en.be, en.friend], acceptAlso: ["They're my friends."] }
+  - { id: s03, target: "I have a big family.", native: { nl: "Ik heb een grote familie." }, items: [en.have, en.family, en.big] }
+  - { id: s04, target: "She's got a new bike.", native: { nl: "Zij heeft een nieuwe fiets." }, items: [en.have-got, en.new, en.bike], acceptAlso: ["She has got a new bike."] }
+  - { id: s05, target: "We have got two cats.", native: { nl: "Wij hebben twee katten." }, items: [en.have-got, en.two], acceptAlso: ["We've got two cats."] }
+  - { id: s06, target: "What are you doing?", native: { nl: "Wat ben je aan het doen?" }, items: [en.do] }
+  - { id: s07, target: "I can make a kite.", native: { nl: "Ik kan een vlieger maken." }, items: [en.make, en.can, en.kite] }
+  - { id: s08, target: "Can you swim?", native: { nl: "Kun jij zwemmen?" }, items: [en.can, en.swim] }
+  - { id: s09, target: "I can see a monkey.", native: { nl: "Ik kan een aap zien." }, items: [en.see, en.can, en.monkey] }
+  - { id: s10, target: "Say hello to Grandma.", native: { nl: "Zeg hallo tegen oma." }, items: [en.say, en.hello] }
+  - { id: s11, target: "I can't see the board.", native: { nl: "Ik kan het bord niet zien." }, items: [en.see, en.board], acceptAlso: ["I cannot see the board."] }
+  - { id: s12, target: "Give me the ball, please.", native: { nl: "Geef me de bal, alsjeblieft." }, items: [en.give, en.ball] }
+  - { id: s13, target: "Can you give me a pencil?", native: { nl: "Kun je me een potlood geven?" }, items: [en.give, en.pencil] }
+  - { id: s14, target: "Put the book on the table.", native: { nl: "Leg het boek op de tafel." }, items: [en.put, en.book] }
+  - { id: s15, target: "Hold my hand.", native: { nl: "Hou mijn hand vast." }, items: [en.hold, en.hand] }
+  - { id: s16, target: "Pick up your toys, please.", native: { nl: "Pak je speelgoed op, alsjeblieft." }, items: [en.pick-up, en.toy] }
+  - { id: s17, target: "Try again!", native: { nl: "Probeer het nog een keer!" }, items: [en.try, en.again] }
+  - { id: s18, target: "Let's play football!", native: { nl: "Laten we gaan voetballen!" }, items: [en.let-s, en.football] }
+  - { id: s19, target: "Open the window, please.", native: { nl: "Doe het raam open, alsjeblieft." }, items: [en.open, en.window] }
+  - { id: s20, target: "Close your eyes.", native: { nl: "Doe je ogen dicht." }, items: [en.close, en.eye] }
+  - { id: s21, target: "Please close the door.", native: { nl: "Doe de deur dicht, alsjeblieft." }, items: [en.close, en.door, en.please] }
+  - { id: s22, target: "Sit on the floor.", native: { nl: "Ga op de vloer zitten." }, items: [en.sit, en.floor] }
+  - { id: s23, target: "Stand next to me.", native: { nl: "Kom naast mij staan." }, items: [en.stand] }
+  - { id: s24, target: "We walk to school.", native: { nl: "Wij lopen naar school." }, items: [en.walk] }
+  - { id: s25, target: "Wave to Dad!", native: { nl: "Zwaai naar papa!" }, items: [en.wave] }
+  - { id: s26, target: "Let's clap!", native: { nl: "Laten we klappen!" }, items: [en.clap, en.let-s] }
+  - { id: s27, target: "Don't talk in class, please.", native: { nl: "Niet praten in de klas, alsjeblieft." }, items: [en.talk, en.class], acceptAlso: ["Do not talk in class, please."] }
+  - { id: s28, target: "The door is closed.", native: { nl: "De deur is dicht." }, items: [en.closed, en.door] }
+  - { id: s29, target: "The zoo is closed today.", native: { nl: "De dierentuin is vandaag dicht." }, items: [en.closed, en.zoo, en.today] }
+lessons:
+  - { id: l01, title: { nl: "Zijn, hebben en doen" }, vocab: [en.be, en.have, en.have-got, en.do, en.make, en.can, en.see, en.say] }
+  - { id: l02, title: { nl: "Pakken, geven en openen" }, vocab: [en.give, en.put, en.hold, en.pick-up, en.try, en.let-s, en.open, en.close] }
+  - { id: l03, title: { nl: Zitten en staan }, vocab: [en.sit, en.stand, en.walk, en.wave, en.clap, en.talk, en.closed] }

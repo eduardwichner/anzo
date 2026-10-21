@@ -1,0 +1,37 @@
+id: nl-b2-work-u06
+title: { en: Customers and suppliers }
+icon: shop
+topic: Quotations, orders and delivery times, invoices and reminders, handling a complaint on the phone; promises and conditions (We garanderen dat …, op voorwaarde dat …)
+vocabulary:
+  - { target: de offerte, native: { en: "quotation, quote" }, pos: noun, plural: offertes }
+  - { target: de bestelbon, native: { en: "order form" }, pos: noun, plural: bestelbonnen }
+  - { target: de levertermijn, native: { en: "delivery time" }, pos: noun, plural: levertermijnen }
+  - { target: de vervaldag, native: { en: "due date (Belgian)" }, pos: noun, plural: vervaldagen, alsoNL: de vervaldatum }
+  - { target: de klanttevredenheid, native: { en: "customer satisfaction" }, pos: noun, plural: "-" }
+  - { target: klantvriendelijk, native: { en: "customer-friendly" }, pos: adjective }
+  - { target: garanderen, native: { en: to guarantee }, pos: verb }
+  - { target: de voorkeur, native: { en: "preference" }, pos: noun, plural: voorkeuren }
+  - { target: neutraal, native: { en: neutral }, pos: adjective }
+  - { target: respectvol, native: { en: respectful }, pos: adjective }
+sentences:
+  - { id: s01, target: "Kunt u ons een offerte voor honderd stoelen sturen?", native: { en: "Could you send us a quotation for a hundred chairs?" }, items: [nl.offerte], acceptAlso: ["Kunt u ons een offerte sturen voor honderd stoelen?"] }
+  - { id: s02, target: "Vul de bestelbon in en stuur hem terug.", native: { en: "Fill in the order form and send it back." }, items: [nl.bestelbon] }
+  - { id: s03, target: "De levertermijn is drie weken.", native: { en: "The delivery time is three weeks." }, items: [nl.levertermijn], finite: { word: is, hint: { en: "zijn (present)" } } }
+  - { id: s04, target: "De factuur moet voor de vervaldag betaald worden.", native: { en: "The invoice must be paid before the due date." }, items: [nl.vervaldag] }
+  - { id: s05, target: "Elk jaar meten we de klanttevredenheid.", native: { en: "Every year we measure customer satisfaction." }, items: [nl.klanttevredenheid], acceptAlso: ["We meten elk jaar de klanttevredenheid."] }
+  - { id: s06, target: "Het personeel in die winkel is heel klantvriendelijk.", native: { en: "The staff in that shop are very customer-friendly." }, items: [nl.klantvriendelijk] }
+  - { id: s07, target: "We garanderen dat de levering voor vrijdag aankomt.", native: { en: "We guarantee that the delivery will arrive before Friday." }, items: [nl.garanderen] }
+  - { id: s08, target: "Hebt u een voorkeur voor de dag van de levering?", native: { en: "Do you have a preferred day for the delivery?" }, items: [nl.voorkeur] }
+  - { id: s09, target: "Blijf neutraal, ook als de klant boos is.", native: { en: "Stay neutral, even if the customer is angry." }, items: [nl.neutraal] }
+  - { id: s10, target: "Ook in een conflict blijf je respectvol.", native: { en: "Even in a conflict you remain respectful." }, items: [nl.respectvol] }
+  - { id: s12, target: "Volgens de offerte krijgt u tien procent korting, op voorwaarde dat u voor het einde van de maand bestelt.", native: { en: "According to the quotation you get a ten per cent discount, on condition that you order before the end of the month." }, items: [nl.offerte] }
+  - { id: s13, target: "Als we de levertermijn niet halen, betalen we de verzendkosten terug.", native: { en: "If we don't meet the delivery time, we refund the shipping costs." }, items: [nl.levertermijn], build: true, acceptAlso: ["We betalen de verzendkosten terug als we de levertermijn niet halen."] }
+  - { id: s14, target: "Ik begrijp dat u ontevreden bent, en ik garandeer u een snelle oplossing.", native: { en: "I understand that you are dissatisfied, and I guarantee you a quick solution." }, items: [nl.garanderen] }
+  - { id: s15, target: "Volgens de bestelbon hebt u vijf dozen besteld.", native: { en: "According to the order form you ordered five boxes." }, items: [nl.bestelbon] }
+  - { id: s16, target: "De vervaldag was vorige week, maar wij hebben uw betaling nog niet ontvangen.", native: { en: "The due date was last week, but we have not yet received your payment." }, items: [nl.vervaldag], form: { word: betaling, stem: betalen } }
+  - { id: s17, target: "Ook een ontevreden klant behandel je respectvol.", native: { en: "You treat even a dissatisfied customer with respect." }, items: [nl.respectvol], form: { word: ontevreden, stem: tevreden } }
+transforms:
+  - { id: x01, from: "We garanderen de levertermijn als u vandaag bestelt.", key: voorwaarde, gapped: "We garanderen de levertermijn, ___ vandaag bestelt.", answers: ["op voorwaarde dat u", "onder voorwaarde dat u"], items: [nl.garanderen, nl.levertermijn] }
+  - { id: x02, from: "Ik heb liever een levering op maandag.", key: voorkeur, gapped: "Ik heb een ___ levering op maandag.", answers: ["voorkeur voor een", "voorkeur voor", "voorkeur voor de"], items: [nl.voorkeur] }
+  - { id: x03, from: "Wij beloven u dat de stoelen voor vrijdag aankomen.", key: garanderen, gapped: "Wij ___ de stoelen voor vrijdag aankomen.", answers: ["garanderen u dat", "garanderen dat"], items: [nl.garanderen] }
+texts: [nl-b2-work-t06]

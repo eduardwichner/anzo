@@ -1,0 +1,51 @@
+id: en-a2-u04
+title: { nl: Gebouwen }
+icon: town
+topic: Places and directions (buildings)
+vocabulary:
+  - { target: bank, native: { nl: "bank (voor geld)" }, pos: noun }
+  - { target: bridge, native: { nl: brug }, pos: noun }
+  - { target: castle, native: { nl: kasteel }, pos: noun }
+  - { target: hotel, native: { nl: hotel }, pos: noun }
+  - { target: museum, native: { nl: museum }, pos: noun }
+  - { target: restaurant, native: { nl: restaurant }, pos: noun }
+  - { target: skyscraper, native: { nl: wolkenkrabber }, pos: noun }
+  - { target: chemist, native: { nl: apotheker }, pos: noun }
+  - { target: "chemist's", native: { nl: apotheek }, pos: noun, avoid: [en.chemist] }
+  - { target: fire station, native: { nl: brandweerkazerne }, pos: noun }
+  - { target: police station, native: { nl: politiebureau }, pos: noun }
+  - { target: post office, native: { nl: postkantoor }, pos: noun }
+  - { target: airport, native: { nl: vliegveld }, pos: noun }
+  - { target: stadium, native: { nl: stadion }, pos: noun }
+  - { target: theatre, native: { nl: theater }, pos: noun }
+  - { target: college, native: { nl: hogeschool }, pos: noun }
+  - { target: university, native: { nl: universiteit }, pos: noun, avoid: [en.college] }
+  - { target: entrance, native: { nl: ingang }, pos: noun }
+  - { target: exit, native: { nl: uitgang }, pos: noun }
+  - { target: gate, native: { nl: "hek, poort" }, pos: noun }
+sentences:
+  - { id: s01, target: "Mum is getting money from the bank.", native: { nl: "Mama haalt geld bij de bank." }, items: [en.bank] }
+  - { id: s02, target: "We walked across the bridge.", native: { nl: "We liepen over de brug." }, items: [en.bridge] }
+  - { id: s03, target: "A king lived in this castle.", native: { nl: "In dit kasteel woonde een koning." }, items: [en.castle] }
+  - { id: s04, target: "Our hotel is near the beach.", native: { nl: "Ons hotel ligt dicht bij het strand." }, items: [en.hotel] }
+  - { id: s05, target: "We saw dinosaurs at the museum.", native: { nl: "We zagen dinosaurussen in het museum." }, items: [en.museum] }
+  - { id: s06, target: "Let's eat in a restaurant tonight.", native: { nl: "Laten we vanavond in een restaurant eten." }, items: [en.restaurant] }
+  - { id: s07, target: "That skyscraper is very tall.", native: { nl: "Die wolkenkrabber is heel hoog." }, items: [en.skyscraper] }
+  - { id: s08, target: "The chemist gave me some medicine.", native: { nl: "De apotheker gaf me medicijnen." }, items: [en.chemist] }
+  - { id: s09, target: "Is there a chemist's near here?", native: { nl: "Is er hier een apotheek in de buurt?" }, items: [en.chemist-s] }
+  - { id: s10, target: "The fire engine is at the fire station.", native: { nl: "De brandweerauto staat bij de brandweerkazerne." }, items: [en.fire-station] }
+  - { id: s11, target: "We went to the police station.", native: { nl: "We gingen naar het politiebureau." }, items: [en.police-station] }
+  - { id: s12, target: "I bought stamps at the post office.", native: { nl: "Ik kocht postzegels bij het postkantoor." }, items: [en.post-office] }
+  - { id: s13, target: "We arrived at the airport early.", native: { nl: "We kwamen vroeg aan op het vliegveld." }, items: [en.airport] }
+  - { id: s14, target: "The football stadium is huge.", native: { nl: "Het voetbalstadion is enorm." }, items: [en.stadium] }
+  - { id: s15, target: "We went to the theatre last night.", native: { nl: "We zijn gisteravond naar het theater geweest." }, items: [en.theatre] }
+  - { id: s16, target: "My sister goes to college.", native: { nl: "Mijn zus gaat naar de hogeschool." }, items: [en.college] }
+  - { id: s17, target: "My cousin studies at university.", native: { nl: "Mijn neef studeert aan de universiteit." }, items: [en.university] }
+  - { id: s18, target: "Wait at the entrance.", native: { nl: "Wacht bij de ingang." }, items: [en.entrance] }
+  - { id: s19, target: "Where is the exit?", native: { nl: "Waar is de uitgang?" }, items: [en.exit] }
+  - { id: s20, target: "Close the garden gate, please.", native: { nl: "Doe het tuinhek dicht, alsjeblieft." }, items: [en.gate] }
+  - { id: s21, target: "The castle has got a big gate.", native: { nl: "Het kasteel heeft een grote poort." }, items: [en.castle, en.gate] }
+lessons:
+  - { id: l01, title: { nl: In de stad }, vocab: [en.bank, en.bridge, en.castle, en.hotel, en.museum, en.restaurant, en.skyscraper] }
+  - { id: l02, title: { nl: Belangrijke gebouwen }, vocab: [en.chemist, en.chemist-s, en.fire-station, en.police-station, en.post-office, en.airport, en.stadium] }
+  - { id: l03, title: { nl: Theater en school }, vocab: [en.theatre, en.college, en.university, en.entrance, en.exit, en.gate] }

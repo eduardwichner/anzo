@@ -1,0 +1,56 @@
+id: fr-a2-u07
+title: { nl: Dieren verzorgen, en: "Looking after animals" }
+icon: animals
+topic: Les animaux; s'occuper des animaux
+vocabulary:
+  - { target: le vétérinaire, native: { nl: de dierenarts, en: "vet" }, pos: noun, gender: m }
+  - { target: "l'animal domestique", native: { nl: het huisdier, en: "pet" }, pos: noun, gender: m }
+  - { target: le poisson rouge, native: { nl: de goudvis, en: "goldfish" }, pos: noun, gender: m }
+  - { target: "l'araignée", native: { nl: de spin, en: "spider" }, pos: noun, gender: f }
+  - { target: "l'insecte", native: { nl: het insect, en: "insect" }, pos: noun, gender: m, category: true }
+  - { target: le papillon, native: { nl: de vlinder, en: "butterfly" }, pos: noun, gender: m }
+  - { target: "l'abeille", native: { nl: de bij, en: "bee" }, pos: noun, gender: f }
+  - { target: la fourmi, native: { nl: de mier, en: "ant" }, pos: noun, gender: f }
+  - { target: le loup, native: { nl: de wolf, en: "wolf" }, pos: noun, gender: m }
+  - { target: le renard, native: { nl: de vos, en: "fox" }, pos: noun, gender: m }
+  - { target: "l'écureuil", native: { nl: de eekhoorn, en: "squirrel" }, pos: noun, gender: m }
+  - { target: la cage, native: { nl: de kooi, en: "cage" }, pos: noun, gender: f }
+  - { target: la niche, native: { nl: het hondenhok, en: "kennel" }, pos: noun, gender: f }
+  - { target: la queue, native: { nl: de staart, en: "tail" }, pos: noun, gender: f }
+  - { target: "l'aile", native: { nl: de vleugel, en: "wing" }, pos: noun, gender: f }
+  - { target: la patte, native: { nl: de poot, en: "paw, leg (of an animal)" }, pos: noun, gender: f }
+  - { target: la plume, native: { nl: de veer, en: "feather" }, pos: noun, gender: f }
+  - { target: le nid, native: { nl: het nest, en: "nest" }, pos: noun, gender: m }
+  - { target: sauvage, native: { nl: wild, en: "wild" }, pos: adjective }
+  - { target: nourrir, native: { nl: "voeren, eten geven", en: "to feed" }, pos: verb }
+  - { target: garder, native: { nl: "houden, passen op", en: "to keep, to look after" }, pos: verb, avoid: [fr.s-occuper, fr.soigner] }
+  - { target: promener, native: { nl: uitlaten, en: "to walk (a dog)" }, pos: verb }
+  - { target: "s'occuper", native: { nl: zorgen voor, en: "to take care of, to look after" }, pos: verb, avoid: [fr.soigner] }
+sentences:
+  - { id: s01, target: "Mon chat est malade, on va chez le vétérinaire.", native: { nl: "Mijn kat is ziek, we gaan naar de dierenarts.", en: "My cat is ill, so we're going to the vet's." }, items: [fr.veterinaire] }
+  - { id: s02, target: "Tu as un animal domestique ?", native: { nl: "Heb jij een huisdier?", en: "Have you got a pet?" }, items: [fr.animal-domestique] }
+  - { id: s03, target: "Mon poisson rouge s'appelle Bulle.", native: { nl: "Mijn goudvis heet Bulle.", en: "My goldfish is called Bulle." }, items: [fr.poisson-rouge] }
+  - { id: s04, target: "Il y a une araignée dans ma chambre !", native: { nl: "Er zit een spin in mijn kamer!", en: "There's a spider in my bedroom!" }, items: [fr.araignee] }
+  - { id: s05, target: "Nous étudions les insectes en classe.", native: { nl: "We bestuderen insecten in de klas.", en: "We're studying insects in class." }, items: [fr.insecte] }
+  - { id: s06, target: "Le papillon est sur la fleur.", native: { nl: "De vlinder zit op de bloem.", en: "The butterfly is on the flower." }, items: [fr.papillon] }
+  - { id: s07, target: "Les abeilles font du miel.", native: { nl: "Bijen maken honing.", en: "Bees make honey." }, items: [fr.abeille] }
+  - { id: s08, target: "Les fourmis sont très petites.", native: { nl: "Mieren zijn heel klein.", en: "Ants are very small." }, items: [fr.fourmi] }
+  - { id: s09, target: "Le loup vit dans la forêt.", native: { nl: "De wolf woont in het bos.", en: "The wolf lives in the forest." }, items: [fr.loup] }
+  - { id: s10, target: "Le renard a une belle queue.", native: { nl: "De vos heeft een mooie staart.", en: "The fox has a beautiful tail." }, items: [fr.renard, fr.queue] }
+  - { id: s11, target: "L'écureuil grimpe dans l'arbre.", native: { nl: "De eekhoorn klimt in de boom.", en: "The squirrel is climbing the tree." }, items: [fr.ecureuil] }
+  - { id: s12, target: "Le hamster dort dans sa cage.", native: { nl: "De hamster slaapt in zijn kooi.", en: "The hamster sleeps in its cage." }, items: [fr.cage] }
+  - { id: s13, target: "Le chien est dans sa niche.", native: { nl: "De hond ligt in zijn hok.", en: "The dog is in its kennel." }, items: [fr.niche] }
+  - { id: s14, target: "L'oiseau a une aile cassée.", native: { nl: "De vogel heeft een gebroken vleugel.", en: "The bird has a broken wing." }, items: [fr.aile] }
+  - { id: s15, target: "Le chien a mal à la patte.", native: { nl: "De hond heeft pijn aan zijn poot.", en: "The dog has a sore paw." }, items: [fr.patte] }
+  - { id: s16, target: "J'ai trouvé une plume blanche.", native: { nl: "Ik heb een witte veer gevonden.", en: "I found a white feather." }, items: [fr.plume] }
+  - { id: s17, target: "Il y a trois œufs dans le nid.", native: { nl: "Er liggen drie eieren in het nest.", en: "There are three eggs in the nest." }, items: [fr.nid] }
+  - { id: s18, target: "Le lion est un animal sauvage.", native: { nl: "De leeuw is een wild dier.", en: "The lion is a wild animal." }, items: [fr.sauvage] }
+  - { id: s19, target: "Il faut nourrir le poisson rouge tous les jours.", native: { nl: "We moeten de goudvis elke dag voeren.", en: "We have to feed the goldfish every day." }, items: [fr.nourrir] }
+  - { id: s20, target: "Tu peux nourrir le chat ce week-end ?", native: { nl: "Kun jij dit weekend de kat voeren?", en: "Can you feed the cat this weekend?" }, items: [fr.nourrir] }
+  - { id: s21, target: "Ses parents ne pouvaient pas garder le chien.", native: { nl: "Haar ouders konden de hond niet houden.", en: "Her parents couldn't keep the dog." }, items: [fr.garder] }
+  - { id: s22, target: "Je vais promener le chien.", native: { nl: "Ik ga de hond uitlaten.", en: "I'm going to walk the dog." }, items: [fr.promener] }
+  - { id: s23, target: "Je vais m'occuper du poisson.", native: { nl: "Ik ga voor de vis zorgen.", en: "I'm going to look after the fish." }, items: [fr.s-occuper] }
+lessons:
+  - { id: l01, title: { nl: Bij de dierenarts, en: "Pets and the vet" }, vocab: [fr.veterinaire, fr.animal-domestique, fr.poisson-rouge, fr.cage, fr.niche, fr.nourrir, fr.s-occuper] }
+  - { id: l02, title: { nl: Beestjes en vogels, en: "Insects and birds" }, vocab: [fr.araignee, fr.insecte, fr.papillon, fr.abeille, fr.fourmi, fr.nid, fr.plume, fr.aile] }
+  - { id: l03, title: { nl: Wilde dieren, en: "Wild animals" }, vocab: [fr.loup, fr.renard, fr.ecureuil, fr.queue, fr.patte, fr.sauvage, fr.garder, fr.promener] }

@@ -1,0 +1,46 @@
+id: nl-b2-t14
+kind: reading
+title: { en: Who decides what? }
+topic: Politics and government (an explainer on an information website for newcomers)
+level: B2
+paragraphs:
+  - - { id: nl-b2-t14-s01, target: "Wie in België woont, krijgt met veel verschillende overheden te maken.", native: { en: "Anyone who lives in Belgium has to deal with a lot of different authorities." } }
+    - { id: nl-b2-t14-s02, target: "Dat is niet altijd eenvoudig, zelfs niet voor Belgen zelf.", native: { en: "That is not always simple, not even for Belgians themselves." } }
+    - { id: nl-b2-t14-s03, target: "Wie beslist er eigenlijk over je straat, je school of je pensioen?", native: { en: "Who actually decides about your street, your school or your pension?" } }
+  - - { id: nl-b2-t14-s04, target: "Sinds de jaren zeventig is België stap voor stap een federale staat geworden.", native: { en: "Since the seventies Belgium has step by step become a federal state." } }
+    - { id: nl-b2-t14-s05, target: "De federale regering is nog altijd bevoegd voor onder meer justitie, defensie, de pensioenen en de belastingen op je loon.", native: { en: "The federal government is still responsible for, among other things, justice, defence, pensions and the taxes on your wages." } }
+    - { id: nl-b2-t14-s06, target: "De koning ondertekent de wetten, maar hij neemt zelf geen beslissingen.", native: { en: "The king signs the laws, but he does not take decisions himself." } }
+  - - { id: nl-b2-t14-s07, target: "Daarnaast zijn er drie gewesten en drie gemeenschappen.", native: { en: "In addition there are three regions and three communities." } }
+    - { id: nl-b2-t14-s08, target: "De gewesten beslissen over wat met de grond te maken heeft, zoals wonen, mobiliteit, energie en werk.", native: { en: "The regions decide on what has to do with the land, such as housing, mobility, energy and work." } }
+    - { id: nl-b2-t14-s09, target: "De gemeenschappen zijn bevoegd voor wat met mensen te maken heeft: onderwijs, cultuur en een deel van de zorg.", native: { en: "The communities are responsible for what has to do with people: education, culture and part of health care." } }
+    - { id: nl-b2-t14-s10, target: "In Vlaanderen werken het gewest en de gemeenschap samen met één parlement en één regering.", native: { en: "In Flanders the region and the community work together with one parliament and one government." } }
+  - - { id: nl-b2-t14-s11, target: "Het dichtst bij de burger staat de gemeente.", native: { en: "Closest to the citizen is the municipality." } }
+    - { id: nl-b2-t14-s12, target: "De burgemeester en de schepenen zorgen voor de straten, de parken, het afval en je identiteitskaart.", native: { en: "The mayor and the aldermen take care of the streets, the parks, the waste and your identity card." } }
+    - { id: nl-b2-t14-s13, target: "Wie een probleem heeft met het voetpad voor zijn huis, moet dus niet bij de minister zijn, maar bij de gemeente.", native: { en: "So anyone who has a problem with the pavement in front of their house should not go to the minister but to the municipality." } }
+  - - { id: nl-b2-t14-s14, target: "Om de vijf jaar kiezen de Belgen hun vertegenwoordigers.", native: { en: "Every five years Belgians choose their representatives." } }
+    - { id: nl-b2-t14-s15, target: "Voor de verkiezingen van de parlementen is er stemplicht: wie niet gaat stemmen, kan een boete krijgen.", native: { en: "For the parliamentary elections voting is compulsory: anyone who doesn't vote can be fined." } }
+    - { id: nl-b2-t14-s16, target: "Voor de gemeenteraad mogen ook inwoners zonder de Belgische nationaliteit hun stem uitbrengen, als ze zich op tijd inschrijven.", native: { en: "For the municipal council residents without Belgian nationality may also vote, if they register in time." } }
+  - - { id: nl-b2-t14-s17, target: "Hoe ingewikkeld het ook lijkt, het is belangrijk om het te begrijpen.", native: { en: "However complicated it may seem, it is important to understand it." } }
+    - { id: nl-b2-t14-s18, target: "Democratie is immers niet vanzelfsprekend: ze werkt pas echt als de burgers weten wie wat beslist, en daar ook iets over durven te zeggen.", native: { en: "After all, democracy cannot be taken for granted: it only really works if citizens know who decides what, and dare to say something about it too." } }
+glossary:
+  - { word: justitie, native: { en: justice } }
+  - { word: defensie, native: { en: defence } }
+  - { word: vertegenwoordigers, native: { en: "representatives (de vertegenwoordiger)" } }
+  - { word: uitbrengen, native: { en: "(je stem uitbrengen: to cast your vote)" } }
+  - { word: ingewikkeld, native: { en: complicated } }
+items: [nl.federaal, nl.staat, nl.bevoegd, nl.koning, nl.gewest, nl.parlement, nl.burger, nl.stemplicht, nl.stem, nl.democratie, nl.vanzelfsprekend]
+questions:
+  - { id: nl-b2-t14-q1, type: summary, options: ["De tekst legt uit welke overheden er in België zijn, waarover ze beslissen en hoe je ze kiest.", "De tekst legt uit welke overheden er in België zijn en waarom de federale overheid over alles alleen beslist.", "De tekst vertelt hoe je een probleem met je straat kunt melden bij de minister."], correct: 0 }
+  - { id: nl-b2-t14-q2, type: mc, question: "Waarvoor zijn de gemeenschappen bevoegd?", options: ["Voor onderwijs, cultuur en een deel van de zorg.", "Voor de pensioenen en de belastingen.", "Voor de straten en de parken."], correct: 0 }
+  - { id: nl-b2-t14-q3, type: true_false_notgiven, statement: "De koning neemt zelf beslissingen in de politiek.", answer: false }
+  - { id: nl-b2-t14-q4, type: true_false_notgiven, statement: "In Vlaanderen hebben het gewest en de gemeenschap één parlement.", answer: true }
+  - { id: nl-b2-t14-q5, type: true_false_notgiven, statement: "De meeste nieuwkomers stemmen bij de gemeenteraadsverkiezingen.", answer: not_given }
+  - { id: nl-b2-t14-q6, type: match_heading, paragraph: 4, options: ["De overheid het dichtst bij huis", "Hoe België federaal werd", "Waarom stemmen verplicht is"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-t14-l1, type: complete, statement: "Wie niet gaat stemmen, kan een ___ krijgen.", answers: [boete] }
+  - { id: nl-b2-t14-l2, type: mc, question: "Bij wie moet je zijn met een probleem met het voetpad voor je huis?", options: ["Bij de gemeente.", "Bij de minister.", "Bij het gewest."], correct: 0 }
+wordForm:
+  - { sentence: nl-b2-t14-s11, word: dichtst, stem: dicht, acceptAlso: [dichtste] }
+  - { sentence: nl-b2-t14-s17, word: belangrijk, stem: belang }
+  - { sentence: nl-b2-t14-s06, word: beslissingen, stem: beslissen, acceptAlso: [beslissing] }
+orderable: false

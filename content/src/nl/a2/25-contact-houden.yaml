@@ -1,0 +1,52 @@
+id: nl-a2-u25
+title: { en: Keeping in touch }
+icon: mail
+topic: Cards, letters, emails, phone calls
+vocabulary:
+  - { target: het contact, native: { en: contact }, pos: noun, plural: contacten }
+  - { target: het kaartje, native: { en: card }, pos: noun, plural: kaartjes }
+  - { target: de envelop, native: { en: envelope }, pos: noun, plural: enveloppen }
+  - { target: de postzegel, native: { en: stamp }, pos: noun, plural: postzegels }
+  - { target: de brievenbus, native: { en: "letterbox, postbox" }, pos: noun, plural: brievenbussen }
+  - { target: versturen, native: { en: to send }, pos: verb }
+  - { target: de ontvanger, native: { en: recipient }, pos: noun, plural: ontvangers }
+  - { target: het onderwerp, native: { en: subject }, pos: noun, plural: onderwerpen }
+  - { target: de bijlage, native: { en: attachment }, pos: noun, plural: bijlagen }
+  - { target: beantwoorden, native: { en: "to answer (a letter)" }, pos: verb }
+  - { target: opbellen, native: { en: "to ring, to phone" }, pos: verb, avoid: [nl.terugbellen] }
+  - { target: terugbellen, native: { en: "to call back" }, pos: verb }
+  - { target: de groet, native: { en: greeting }, pos: noun, plural: groeten }
+  - { target: met vriendelijke groeten, native: { en: "kind regards" }, pos: phrase, avoid: [nl.hartelijke-groeten, nl.veel-liefs] }
+  - { target: hartelijke groeten, native: { en: "best wishes" }, pos: phrase, avoid: [nl.veel-liefs] }
+  - { target: veel liefs, native: { en: "lots of love" }, pos: phrase }
+  - { target: tot gauw, native: { en: "see you soon" }, pos: phrase }
+  - { target: lief, native: { en: "dear, sweet, kind" }, pos: adjective }
+  - { target: hartelijk, native: { en: "warm, cordial" }, pos: adjective, avoid: [nl.lief] }
+  - { target: persoonlijk, native: { en: personal }, pos: adjective, avoid: [nl.formeel] }
+  - { target: formeel, native: { en: formal }, pos: adjective }
+sentences:
+  - { id: s01, target: "Ik heb nog contact met mijn vrienden in Engeland.", native: { en: "I'm still in contact with my friends in England." }, items: [nl.contact] }
+  - { id: s02, target: "Ik stuur je een kaartje uit Spanje.", native: { en: "I'll send you a card from Spain." }, items: [nl.kaartje] }
+  - { id: s03, target: "Schrijf het adres op de envelop.", native: { en: "Write the address on the envelope." }, items: [nl.envelop] }
+  - { id: s04, target: "Ik heb nog een postzegel nodig.", native: { en: "I need another stamp." }, items: [nl.postzegel] }
+  - { id: s05, target: "Er zit een brief in de brievenbus.", native: { en: "There's a letter in the letterbox." }, items: [nl.brievenbus] }
+  - { id: s06, target: "Ik heb de e-mail gisteren verstuurd.", native: { en: "I sent the email yesterday." }, items: [nl.versturen], acceptAlso: ["Gisteren heb ik de e-mail verstuurd.", "Ik heb gisteren de e-mail verstuurd."] }
+  - { id: s07, target: "Wie is de ontvanger van de brief?", native: { en: "Who is the recipient of the letter?" }, items: [nl.ontvanger] }
+  - { id: s08, target: "Schrijf een kort onderwerp.", native: { en: "Write a short subject line." }, items: [nl.onderwerp] }
+  - { id: s09, target: "Het formulier zit in de bijlage.", native: { en: "The form is attached." }, items: [nl.bijlage], acceptAlso: ["In de bijlage zit het formulier."] }
+  - { id: s10, target: "Ik moet nog drie e-mails beantwoorden.", native: { en: "I still have to answer three emails." }, items: [nl.beantwoorden] }
+  - { id: s11, target: "Ik bel je morgen op.", native: { en: "I'll ring you tomorrow." }, items: [nl.opbellen], acceptAlso: ["Morgen bel ik je op."] }
+  - { id: s12, target: "Kunt u me later terugbellen?", native: { en: "Could you call me back later?" }, items: [nl.terugbellen] }
+  - { id: s13, target: "Doe de groeten aan je moeder!", native: { en: "Say hello to your mother!" }, items: [nl.groet] }
+  - { id: s14, target: "Met vriendelijke groeten, Sara Peeters", native: { en: "Kind regards, Sara Peeters" }, items: [nl.met-vriendelijke-groeten] }
+  - { id: s15, target: "Hartelijke groeten uit Gent!", native: { en: "Best wishes from Ghent!" }, items: [nl.hartelijke-groeten] }
+  - { id: s16, target: "Veel liefs, Emma", native: { en: "Lots of love, Emma" }, items: [nl.veel-liefs] }
+  - { id: s17, target: "Tot gauw!", native: { en: "See you soon!" }, items: [nl.tot-gauw] }
+  - { id: s18, target: "Lieve Tom, bedankt voor je kaartje.", native: { en: "Dear Tom, thanks for your card." }, items: [nl.lief] }
+  - { id: s19, target: "Mijn buurvrouw is een hartelijke vrouw.", native: { en: "My neighbour is a warm person." }, items: [nl.hartelijk] }
+  - { id: s20, target: "Dit is een persoonlijke brief.", native: { en: "This is a personal letter." }, items: [nl.persoonlijk] }
+  - { id: s21, target: "Een e-mail aan de gemeente is formeler dan een bericht aan een vriend.", native: { en: "An email to the council is more formal than a message to a friend." }, items: [nl.formeel] }
+  - { id: s22, target: "Beste mevrouw Peeters,", native: { en: "Dear Mrs Peeters," }, items: [nl.formeel] }
+  - { id: s23, target: "Ik schrijf u omdat mijn zoon gisteren ziek was.", native: { en: "I'm writing to you because my son was ill yesterday." }, items: [nl.formeel], acceptAlso: ["Omdat mijn zoon gisteren ziek was, schrijf ik u."] }
+  - { id: s24, target: "Kan ik met mevrouw Maes spreken?", native: { en: "Can I speak to Mrs Maes?" }, items: [nl.opbellen] }
+  - { id: s25, target: "Ze is er nu niet. Kunt u later terugbellen?", native: { en: "She isn't here at the moment. Could you call back later?" }, items: [nl.terugbellen] }

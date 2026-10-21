@@ -1,0 +1,34 @@
+id: en-b1-t20
+kind: dialogue
+title: { nl: Een zomerbaantje }
+topic: Applying for a job (an interview for a summer job at a café)
+level: B1
+speakers: { A: { name: Mrs Clarke }, B: { name: Liam } }
+turns:
+  - { id: en-b1-t20-s01, speaker: A, target: "Come in, Liam, and sit down. Thank you for your application. Why would you like to work at our café?", native: { nl: "Kom binnen, Liam, en ga zitten. Bedankt voor je sollicitatie. Waarom wil je graag in ons café werken?" } }
+  - { id: en-b1-t20-s02, speaker: B, target: "I come here a lot with my friends, and I've always liked the atmosphere. I'd also like to gain some experience before I go to college.", native: { nl: "Ik kom hier vaak met mijn vrienden, en ik heb de sfeer altijd fijn gevonden. Ik wil ook wat ervaring opdoen voordat ik ga studeren." } }
+  - { id: en-b1-t20-s03, speaker: A, target: "Have you ever worked in a café or a shop?", native: { nl: "Heb je ooit in een café of een winkel gewerkt?" } }
+  - { id: en-b1-t20-s04, speaker: B, target: "Not exactly, but I help at my school's sports day every year. I serve drinks and deal with the money.", native: { nl: "Niet precies, maar ik help elk jaar op de sportdag van mijn school. Ik schenk drankjes en ik reken af." } }
+  - { id: en-b1-t20-s05, speaker: A, target: "Good. The job involves making coffee, cleaning tables and taking orders. Some days are very busy and quite stressful.", native: { nl: "Goed. De baan houdt in dat je koffie zet, tafels schoonmaakt en bestellingen opneemt. Sommige dagen zijn heel druk en behoorlijk stressvol." } }
+  - { id: en-b1-t20-s06, speaker: B, target: "That's fine. I learn quickly, and I'm good at staying calm.", native: { nl: "Dat is prima. Ik leer snel, en ik ben goed in kalm blijven." } }
+  - { id: en-b1-t20-s07, speaker: A, target: "Are you willing to work at weekends? Saturday is our busiest day.", native: { nl: "Ben je bereid in het weekend te werken? Zaterdag is onze drukste dag." } }
+  - { id: en-b1-t20-s08, speaker: B, target: "Yes, but I can't work on Sunday mornings, because I have football training.", native: { nl: "Ja, maar ik kan niet op zondagochtend werken, want dan heb ik voetbaltraining." } }
+  - { id: en-b1-t20-s09, speaker: A, target: "That's no problem. The wage is eight pounds an hour, and it's a temporary contract for July and August.", native: { nl: "Dat is geen probleem. Het loon is acht pond per uur, en het is een tijdelijk contract voor juli en augustus." } }
+  - { id: en-b1-t20-s10, speaker: B, target: "That sounds great. When will I know if I've got the job?", native: { nl: "Dat klinkt geweldig. Wanneer weet ik of ik de baan heb?" } }
+  - { id: en-b1-t20-s11, speaker: A, target: "I'm interviewing two more candidates tomorrow, so I'll ring you on Friday.", native: { nl: "Ik heb morgen nog gesprekken met twee kandidaten, dus ik bel je vrijdag." } }
+glossary: []
+items: [en.application, en.atmosphere, en.gain, en.experience, en.exactly, en.serve, en.deal-with, en.involve, en.stressful, en.calm, en.willing, en.wage, en.temporary, en.contract, en.interview, en.candidate, en.training, en.pound]
+questions:
+  - { id: en-b1-t20-q1, type: mc, question: "Why does Liam want the job?", options: ["He likes the café and wants experience.", "He needs money for a holiday.", "His friends work there."], correct: 0 }
+  - { id: en-b1-t20-q2, type: true_false_notgiven, statement: "Liam has worked in a café before.", answer: false }
+  - { id: en-b1-t20-q3, type: true_false_notgiven, statement: "The café is open on Sunday evenings.", answer: not_given }
+  - { id: en-b1-t20-q4, type: true_false_notgiven, statement: "Liam can work on Saturdays.", answer: true }
+  - { id: en-b1-t20-q5, type: mc, question: "When will Mrs Clarke tell Liam her decision?", options: ["On Friday.", "Tomorrow.", "In July."], correct: 0 }
+listeningQuestions:
+  - { id: en-b1-t20-l1, type: mc, question: "How much is the pay?", options: ["Eight pounds an hour.", "Eighteen pounds an hour.", "Eight pounds a day."], correct: 0 }
+  - { id: en-b1-t20-l2, type: true_false_notgiven, statement: "The job is for the whole year.", answer: false }
+cloze:
+  - { sentence: en-b1-t20-s05, word: involves, kind: finite_verb, hint: { nl: "involve (tegenwoordige tijd)" } }
+  - { sentence: en-b1-t20-s07, word: is, kind: finite_verb, hint: { nl: "be (tegenwoordige tijd)" } }
+  - { sentence: en-b1-t20-s10, word: sounds, kind: finite_verb, hint: { nl: "sound (tegenwoordige tijd)" } }
+orderable: true

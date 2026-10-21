@@ -1,0 +1,55 @@
+id: nl-a1-u11
+title: { en: Asking the way }
+icon: map
+topic: Directions in town
+vocabulary:
+  - { target: de weg, native: { en: "way, road" }, pos: noun, plural: wegen }
+  - { target: links, native: { en: left }, pos: adverb, avoid: [nl.rechts] }
+  - { target: rechts, native: { en: right }, pos: adverb }
+  - { target: rechtdoor, native: { en: straight on }, pos: adverb }
+  - { target: de hoek, native: { en: corner }, pos: noun, plural: hoeken }
+  - { target: het kruispunt, native: { en: crossroads }, pos: noun, plural: kruispunten }
+  - { target: het rondpunt, native: { en: roundabout }, pos: noun, plural: rondpunten, alsoNL: de rotonde }
+  - { target: het verkeerslicht, native: { en: traffic light }, pos: noun, plural: verkeerslichten }
+  - { target: de brug, native: { en: bridge }, pos: noun, plural: bruggen }
+  - { target: het plein, native: { en: square }, pos: noun, plural: pleinen }
+  - { target: het voetpad, native: { en: pavement }, pos: noun, plural: voetpaden, alsoNL: de stoep }
+  - { target: de parking, native: { en: car park }, pos: noun, plural: parkings, alsoNL: de parkeerplaats }
+  - { target: de kaart, native: { en: map }, pos: noun, plural: kaarten }
+  - { target: ver, native: { en: far }, pos: adverb, avoid: [nl.dichtbij] }
+  - { target: dichtbij, native: { en: "nearby, close" }, pos: adverb }
+  - { target: naast, native: { en: next to }, pos: preposition }
+  - { target: tegenover, native: { en: opposite }, pos: preposition }
+  - { target: achter, native: { en: behind }, pos: preposition }
+  - { target: tussen, native: { en: between }, pos: preposition }
+  - { target: langs, native: { en: "along, past" }, pos: preposition }
+  - { target: over, native: { en: "over, across" }, pos: preposition }
+  - { target: door, native: { en: through }, pos: preposition }
+  - { target: wijzen, native: { en: "to point, to show" }, pos: verb }
+  - { target: vinden, native: { en: to find }, pos: verb }
+  - { target: oversteken, native: { en: to cross (the road) }, pos: verb }
+sentences:
+  - { id: s01, target: "Pardon, mevrouw, is dit de weg naar het station?", native: { en: "Excuse me, is this the way to the station?" }, items: [nl.weg] }
+  - { id: s02, target: "Aan de kerk gaat u links.", native: { en: "At the church you turn left." }, items: [nl.links], acceptAlso: ["U gaat aan de kerk links."] }
+  - { id: s03, target: "Neem de tweede straat rechts.", native: { en: "Take the second turning on the right." }, items: [nl.rechts] }
+  - { id: s04, target: "U gaat hier rechtdoor.", native: { en: "You go straight on here." }, items: [nl.rechtdoor] }
+  - { id: s05, target: "De bakker is op de hoek.", native: { en: "The bakery is on the corner." }, items: [nl.hoek] }
+  - { id: s06, target: "Aan het kruispunt gaat u rechts.", native: { en: "At the crossroads you turn right." }, items: [nl.kruispunt], acceptAlso: ["U gaat aan het kruispunt rechts."] }
+  - { id: s07, target: "Aan het rondpunt neemt u de tweede straat.", native: { en: "At the roundabout you take the second street." }, items: [nl.rondpunt], acceptAlso: ["U neemt aan het rondpunt de tweede straat."] }
+  - { id: s08, target: "Wacht aan het verkeerslicht.", native: { en: "Wait at the traffic lights." }, items: [nl.verkeerslicht] }
+  - { id: s09, target: "Na de brug ziet u het station.", native: { en: "After the bridge you'll see the station." }, items: [nl.brug] }
+  - { id: s10, target: "Het café is op het plein.", native: { en: "The café is on the square." }, items: [nl.plein] }
+  - { id: s11, target: "Fiets niet op het voetpad!", native: { en: "Don't cycle on the pavement!" }, items: [nl.voetpad] }
+  - { id: s12, target: "De parking is achter de supermarkt.", native: { en: "The car park is behind the supermarket." }, items: [nl.parking, nl.achter], acceptAlso: ["Achter de supermarkt is de parking."] }
+  - { id: s13, target: "Hebt u een kaart van de stad?", native: { en: "Do you have a map of the town?" }, items: [nl.kaart] }
+  - { id: s14, target: "Is het ver?", native: { en: "Is it far?" }, items: [nl.ver] }
+  - { id: s15, target: "Nee, het is dichtbij.", native: { en: "No, it's close." }, items: [nl.dichtbij] }
+  - { id: s16, target: "De bank is naast de apotheek.", native: { en: "The bank is next to the pharmacy." }, items: [nl.naast] }
+  - { id: s17, target: "De school is tegenover het park.", native: { en: "The school is opposite the park." }, items: [nl.tegenover] }
+  - { id: s18, target: "Het café is tussen de bank en de bakker.", native: { en: "The café is between the bank and the bakery." }, items: [nl.tussen] }
+  - { id: s19, target: "U fietst langs de kerk.", native: { en: "You cycle past the church." }, items: [nl.langs] }
+  - { id: s20, target: "Ga over de brug.", native: { en: "Go across the bridge." }, items: [nl.over] }
+  - { id: s21, target: "Wij wandelen door het park.", native: { en: "We're walking through the park." }, items: [nl.door] }
+  - { id: s22, target: "Kunt u mij de weg wijzen?", native: { en: "Can you show me the way?" }, items: [nl.wijzen] }
+  - { id: s23, target: "Ik vind de straat niet.", native: { en: "I can't find the street." }, items: [nl.vinden] }
+  - { id: s24, target: "Steek hier de straat over.", native: { en: "Cross the road here." }, items: [nl.oversteken] }

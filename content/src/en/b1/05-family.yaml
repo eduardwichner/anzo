@@ -1,0 +1,131 @@
+id: en-b1-u05
+title: { nl: Familie en feesten }
+icon: family
+topic: Family life, growing up, celebrations and customs; used to, past simple and present perfect
+vocabulary:
+  - { target: relative, native: { nl: familielid }, pos: noun }
+  - { target: relation, native: { nl: "familielid, verwant" }, pos: noun }
+  - { target: generation, native: { nl: generatie }, pos: noun }
+  - { target: nephew, native: { nl: "neef (zoon van broer of zus)" }, pos: noun, avoid: [en.niece] }
+  - { target: niece, native: { nl: "nicht (dochter van broer of zus)" }, pos: noun }
+  - { target: grandchild, native: { nl: kleinkind }, pos: noun }
+  - { target: grandad, native: { nl: opa }, pos: noun, avoid: [en.granny] }
+  - { target: granny, native: { nl: oma }, pos: noun }
+  - { target: twin, native: { nl: "tweelingbroer, tweelingzus" }, pos: noun }
+  - { target: elder, native: { nl: ouder (broer of zus) }, pos: adjective, noBlank: true }
+  - { target: birth, native: { nl: geboorte }, pos: noun }
+  - { target: born, native: { nl: geboren }, pos: adjective }
+  - { target: pregnant, native: { nl: zwanger }, pos: adjective }
+  - { target: childhood, native: { nl: jeugd (kindertijd) }, pos: noun, avoid: [en.youth] }
+  - { target: grow up, native: { nl: opgroeien }, pos: phrase }
+  - { target: bring up, native: { nl: opvoeden }, pos: phrase }
+  - { target: care, native: { nl: zorg }, pos: noun }
+  - { target: take care of, native: { nl: zorgen voor }, pos: phrase }
+  - { target: spoil, native: { nl: "verwennen, bederven" }, pos: verb }
+  - { target: keep in, native: { nl: binnenhouden }, pos: phrase }
+  - { target: independent, native: { nl: zelfstandig }, pos: adjective }
+  - { target: routine, native: { nl: "vaste gewoonte, routine" }, pos: noun }
+  - { target: wake up, native: { nl: wakker worden }, pos: phrase }
+  - { target: used to, native: { nl: vroeger (iets doen) }, pos: phrase }
+  - { target: life, native: { nl: leven }, pos: noun }
+  - { target: memory, native: { nl: "herinnering, geheugen" }, pos: noun }
+  - { target: engaged, native: { nl: verloofd }, pos: adjective }
+  - { target: marry, native: { nl: trouwen (met) }, pos: verb }
+  - { target: marriage, native: { nl: huwelijk }, pos: noun, avoid: [en.wedding] }
+  - { target: wedding, native: { nl: bruiloft }, pos: noun }
+  - { target: bride, native: { nl: bruid }, pos: noun, avoid: [en.groom] }
+  - { target: groom, native: { nl: bruidegom }, pos: noun }
+  - { target: honeymoon, native: { nl: huwelijksreis }, pos: noun }
+  - { target: anniversary, native: { nl: "jubileum, trouwdag" }, pos: noun }
+  - { target: celebrate, native: { nl: vieren }, pos: verb }
+  - { target: celebration, native: { nl: viering }, pos: noun }
+  - { target: occasion, native: { nl: gelegenheid }, pos: noun }
+  - { target: ceremony, native: { nl: ceremonie }, pos: noun }
+  - { target: custom, native: { nl: "gebruik, gewoonte (in een land)" }, pos: noun, avoid: [en.routine] }
+  - { target: traditional, native: { nl: traditioneel }, pos: adjective }
+  - { target: annual, native: { nl: jaarlijks }, pos: adjective }
+  - { target: guest, native: { nl: gast }, pos: noun }
+  - { target: gift, native: { nl: geschenk }, pos: noun }
+  - { target: wrap, native: { nl: inpakken }, pos: verb }
+  - { target: candle, native: { nl: kaars }, pos: noun }
+  - { target: firework, native: { nl: vuurwerk }, pos: noun }
+  - { target: congratulations, native: { nl: gefeliciteerd! }, pos: phrase }
+  - { target: plan, native: { nl: plan }, pos: noun }
+  - { target: arrange, native: { nl: regelen }, pos: verb }
+  - { target: arrangement, native: { nl: afspraak (regeling) }, pos: noun }
+  - { target: organise, native: { nl: organiseren }, pos: verb }
+  - { target: take place, native: { nl: plaatsvinden }, pos: phrase }
+  - { target: postpone, native: { nl: uitstellen }, pos: verb }
+  - { target: put off, native: { nl: uitstellen (iets voor je uit schuiven) }, pos: phrase, avoid: [en.postpone], noBlank: true }
+  - { target: religion, native: { nl: godsdienst }, pos: noun }
+  - { target: pray, native: { nl: bidden }, pos: verb }
+  - { target: prayer, native: { nl: gebed }, pos: noun }
+  - { target: die, native: { nl: "sterven, doodgaan" }, pos: verb }
+  - { target: dead, native: { nl: dood }, pos: adjective }
+  - { target: death, native: { nl: "dood, overlijden" }, pos: noun }
+  - { target: bury, native: { nl: begraven }, pos: verb }
+sentences:
+  - { id: s01, target: "All our relatives came to my grandmother's birthday.", native: { nl: "Al onze familieleden kwamen naar de verjaardag van mijn oma." }, items: [en.relative] }
+  - { id: s02, target: "We often visit our relations in Scotland.", native: { nl: "We bezoeken vaak onze familie in Schotland." }, items: [en.relation] }
+  - { id: s03, target: "Three generations live in this house.", native: { nl: "Er wonen drie generaties in dit huis." }, items: [en.generation] }
+  - { id: s04, target: "My nephew is three and my niece is five.", native: { nl: "Mijn neefje is drie en mijn nichtje is vijf." }, items: [en.nephew, en.niece] }
+  - { id: s05, target: "My grandparents have nine grandchildren.", native: { nl: "Mijn grootouders hebben negen kleinkinderen." }, items: [en.grandchild] }
+  - { id: s06, target: "Grandad taught me how to play chess.", native: { nl: "Opa heeft me leren schaken." }, items: [en.grandad], finite: { word: taught, hint: { nl: "teach (verleden tijd)" } } }
+  - { id: s07, target: "Granny bakes the best cakes in the world.", native: { nl: "Oma bakt de lekkerste taarten van de wereld." }, items: [en.granny] }
+  - { id: s08, target: "Tom and Jake are twins, but they don't look alike.", native: { nl: "Tom en Jake zijn een tweeling, maar ze lijken niet op elkaar." }, items: [en.twin] }
+  - { id: s09, target: "My elder sister is at university.", native: { nl: "Mijn oudere zus zit op de universiteit." }, items: [en.elder] }
+  - { id: s10, target: "Please write your date of birth on the form.", native: { nl: "Schrijf alsjeblieft je geboortedatum op het formulier." }, items: [en.birth] }
+  - { id: s11, target: "I was born in Amsterdam in 2014.", native: { nl: "Ik ben in 2014 in Amsterdam geboren." }, items: [en.born] }
+  - { id: s12, target: "My aunt is pregnant, so I'll soon have a new cousin.", native: { nl: "Mijn tante is zwanger, dus ik krijg binnenkort een nieuwe neef of nicht." }, items: [en.pregnant], acceptAlso: ["My aunt is pregnant, so I'll have a new cousin soon."] }
+  - { id: s13, target: "Dad had a happy childhood in a small village.", native: { nl: "Papa had een gelukkige jeugd in een klein dorp." }, items: [en.childhood] }
+  - { id: s14, target: "I grew up near the sea.", native: { nl: "Ik ben aan zee opgegroeid." }, items: [en.grow-up], finite: { word: grew, hint: { nl: "grow (verleden tijd)" } } }
+  - { id: s15, target: "She was brought up by her grandparents.", native: { nl: "Ze werd opgevoed door haar grootouders." }, items: [en.bring-up] }
+  - { id: s16, target: "A baby needs a lot of care.", native: { nl: "Een baby heeft veel zorg nodig." }, items: [en.care] }
+  - { id: s17, target: "Who takes care of your dog when you're on holiday?", native: { nl: "Wie zorgt er voor je hond als je op vakantie bent?" }, items: [en.take-care-of] }
+  - { id: s18, target: "Grandparents love to spoil their grandchildren.", native: { nl: "Grootouders verwennen hun kleinkinderen graag." }, items: [en.spoil, en.grandchild] }
+  - { id: s19, target: "It was so cold that the teacher kept us in at break.", native: { nl: "Het was zo koud dat de leraar ons in de pauze binnenhield." }, items: [en.keep-in], finite: { word: kept, hint: { nl: "keep (verleden tijd)" } } }
+  - { id: s20, target: "My parents want me to be more independent.", native: { nl: "Mijn ouders willen dat ik zelfstandiger word." }, items: [en.independent] }
+  - { id: s21, target: "My morning routine is always the same.", native: { nl: "Mijn ochtendroutine is altijd hetzelfde." }, items: [en.routine] }
+  - { id: s22, target: "I usually wake up at seven.", native: { nl: "Ik word meestal om zeven uur wakker." }, items: [en.wake-up] }
+  - { id: s23, target: "I used to be afraid of dogs, but now I love them.", native: { nl: "Vroeger was ik bang voor honden, maar nu hou ik van ze." }, items: [en.used-to] }
+  - { id: s24, target: "My grandmother has had an interesting life.", native: { nl: "Mijn oma heeft een interessant leven gehad." }, items: [en.life] }
+  - { id: s25, target: "I have lots of happy memories of our old house.", native: { nl: "Ik heb veel fijne herinneringen aan ons oude huis." }, items: [en.memory] }
+  - { id: s63, target: "Granny has a very good memory for names.", native: { nl: "Oma heeft een heel goed geheugen voor namen." }, items: [en.memory] }
+  - { id: s26, target: "My cousin got engaged last month.", native: { nl: "Mijn nicht heeft zich vorige maand verloofd." }, items: [en.engaged], acceptAlso: ["Last month my cousin got engaged."] }
+  - { id: s27, target: "My aunt is going to marry her best friend next summer.", native: { nl: "Mijn tante gaat volgende zomer trouwen met haar beste vriend." }, items: [en.marry] }
+  - { id: s28, target: "Their marriage has lasted fifty years.", native: { nl: "Hun huwelijk heeft vijftig jaar geduurd." }, items: [en.marriage] }
+  - { id: s29, target: "We danced all night at my uncle's wedding.", native: { nl: "We hebben de hele nacht gedanst op de bruiloft van mijn oom." }, items: [en.wedding] }
+  - { id: s30, target: "The bride wore a long white dress.", native: { nl: "De bruid droeg een lange witte jurk." }, items: [en.bride], finite: { word: wore, hint: { nl: "wear (verleden tijd)" } } }
+  - { id: s31, target: "The groom gave a funny speech.", native: { nl: "De bruidegom hield een grappige toespraak." }, items: [en.groom] }
+  - { id: s32, target: "They went to Italy on their honeymoon.", native: { nl: "Ze gingen op huwelijksreis naar Italië." }, items: [en.honeymoon] }
+  - { id: s33, target: "My parents' wedding anniversary is in May.", native: { nl: "De trouwdag van mijn ouders is in mei." }, items: [en.anniversary] }
+  - { id: s34, target: "How do you celebrate New Year in your country?", native: { nl: "Hoe vier je oud en nieuw in jouw land?" }, items: [en.celebrate] }
+  - { id: s35, target: "There was a big celebration after the match.", native: { nl: "Er was een groot feest na de wedstrijd." }, items: [en.celebration] }
+  - { id: s36, target: "I only wear this jacket on special occasions.", native: { nl: "Ik draag dit jasje alleen bij speciale gelegenheden." }, items: [en.occasion] }
+  - { id: s37, target: "The ceremony took place in an old castle.", native: { nl: "De ceremonie vond plaats in een oud kasteel." }, items: [en.ceremony, en.take-place] }
+  - { id: s38, target: "In Japan it's the custom to take your shoes off indoors.", native: { nl: "In Japan is het de gewoonte om binnen je schoenen uit te doen." }, items: [en.custom] }
+  - { id: s39, target: "We cooked a traditional meal for the guests.", native: { nl: "We kookten een traditionele maaltijd voor de gasten." }, items: [en.traditional, en.guest] }
+  - { id: s40, target: "The village has an annual summer festival.", native: { nl: "Het dorp heeft een jaarlijks zomerfestival." }, items: [en.annual] }
+  - { id: s41, target: "The guests arrived at eight o'clock.", native: { nl: "De gasten kwamen om acht uur aan." }, items: [en.guest], finite: { word: arrived, hint: { nl: "arrive (verleden tijd)" } } }
+  - { id: s42, target: "Thank you for the lovely gift.", native: { nl: "Bedankt voor het mooie geschenk." }, items: [en.gift] }
+  - { id: s43, target: "Can you help me wrap the presents?", native: { nl: "Kun je me helpen de cadeaus in te pakken?" }, items: [en.wrap] }
+  - { id: s44, target: "She blew out the candles on her cake.", native: { nl: "Ze blies de kaarsjes op haar taart uit." }, items: [en.candle] }
+  - { id: s45, target: "At midnight there were fireworks over the river.", native: { nl: "Om middernacht was er vuurwerk boven de rivier." }, items: [en.firework], acceptAlso: ["There were fireworks over the river at midnight."] }
+  - { id: s46, target: "Congratulations! You've passed your exam!", native: { nl: "Gefeliciteerd! Je bent geslaagd voor je examen!" }, items: [en.congratulations] }
+  - { id: s47, target: "What are your plans for the summer?", native: { nl: "Wat zijn je plannen voor de zomer?" }, items: [en.plan] }
+  - { id: s48, target: "Mum arranged everything for the party.", native: { nl: "Mama heeft alles geregeld voor het feest." }, items: [en.arrange] }
+  - { id: s49, target: "We made an arrangement to meet at the station.", native: { nl: "We spraken af om elkaar bij het station te ontmoeten." }, items: [en.arrangement] }
+  - { id: s50, target: "Our class organised a surprise party for the teacher.", native: { nl: "Onze klas organiseerde een verrassingsfeest voor de leraar." }, items: [en.organise] }
+  - { id: s51, target: "The wedding will take place in June.", native: { nl: "De bruiloft vindt in juni plaats." }, items: [en.take-place, en.wedding] }
+  - { id: s52, target: "We had to postpone the picnic because of the rain.", native: { nl: "We moesten de picknick uitstellen vanwege de regen." }, items: [en.postpone], acceptAlso: ["Because of the rain we had to postpone the picnic."] }
+  - { id: s53, target: "Don't put off your homework until Sunday night.", native: { nl: "Stel je huiswerk niet uit tot zondagavond." }, items: [en.put-off] }
+  - { id: s54, target: "People of every religion live in our city.", native: { nl: "In onze stad wonen mensen van elke godsdienst." }, items: [en.religion] }
+  - { id: s55, target: "My grandmother prays every evening.", native: { nl: "Mijn oma bidt elke avond." }, items: [en.pray], acceptAlso: ["Every evening my grandmother prays."] }
+  - { id: s56, target: "They said a short prayer before the meal.", native: { nl: "Ze zeiden een kort gebed voor de maaltijd." }, items: [en.prayer] }
+  - { id: s57, target: "Our old cat died last winter.", native: { nl: "Onze oude kat is vorige winter doodgegaan." }, items: [en.die], finite: { word: died, hint: { nl: "die (verleden tijd)" } } }
+  - { id: s58, target: "The plant is dead because I forgot to water it.", native: { nl: "De plant is dood omdat ik vergeten ben hem water te geven." }, items: [en.dead] }
+  - { id: s59, target: "The death of the old king was in all the newspapers.", native: { nl: "Het overlijden van de oude koning stond in alle kranten." }, items: [en.death] }
+  - { id: s60, target: "We buried our old rabbit under the apple tree.", native: { nl: "We hebben ons oude konijn onder de appelboom begraven." }, items: [en.bury] }
+  - { id: s61, target: "My grandparents have been married for fifty years.", native: { nl: "Mijn grootouders zijn al vijftig jaar getrouwd." }, items: [en.marry] }
+  - { id: s64, target: "My husband and I got engaged in Paris.", native: { nl: "Mijn man en ik hebben ons in Parijs verloofd." }, items: [en.engaged] }
+texts: [en-b1-t06]

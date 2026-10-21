@@ -1,0 +1,44 @@
+id: fr-a1-u11
+title: { nl: Meer dieren, en: "More animals" }
+icon: animals
+topic: Les animaux; la nature
+vocabulary:
+  - { target: le serpent, native: { nl: de slang, en: "snake" }, pos: noun, gender: m }
+  - { target: "l'ours", native: { nl: de beer, en: "bear" }, pos: noun, gender: m }
+  - { target: le crocodile, native: { nl: de krokodil, en: "crocodile" }, pos: noun, gender: m }
+  - { target: le zèbre, native: { nl: de zebra, en: "zebra" }, pos: noun, gender: m }
+  - { target: la grenouille, native: { nl: de kikker, en: "frog" }, pos: noun, gender: f }
+  - { target: la tortue, native: { nl: de schildpad, en: "tortoise, turtle" }, pos: noun, gender: f }
+  - { target: le hamster, native: { nl: de hamster, en: "hamster" }, pos: noun, gender: m }
+  - { target: le chaton, native: { nl: het katje, en: "kitten" }, pos: noun, gender: m }
+  - { target: le chiot, native: { nl: "het hondje, de puppy", en: "puppy" }, pos: noun, gender: m }
+  - { target: le perroquet, native: { nl: de papegaai, en: "parrot" }, pos: noun, gender: m }
+  - { target: le dauphin, native: { nl: de dolfijn, en: "dolphin" }, pos: noun, gender: m }
+  - { target: la baleine, native: { nl: de walvis, en: "whale" }, pos: noun, gender: f }
+  - { target: le requin, native: { nl: de haai, en: "shark" }, pos: noun, gender: m }
+  - { target: la forêt, native: { nl: het bos, en: "forest, woods" }, pos: noun, gender: f }
+  - { target: la rivière, native: { nl: de rivier, en: "river" }, pos: noun, gender: f }
+  - { target: le lac, native: { nl: het meer, en: "lake" }, pos: noun, gender: m }
+  - { target: le sable, native: { nl: het zand, en: "sand" }, pos: noun, gender: m }
+sentences:
+  - { id: s01, target: "Le serpent est long et vert.", native: { nl: "De slang is lang en groen.", en: "The snake is long and green." }, items: [fr.serpent] }
+  - { id: s02, target: "L'ours dort dans la forêt.", native: { nl: "De beer slaapt in het bos.", en: "The bear is sleeping in the forest." }, items: [fr.ours, fr.foret] }
+  - { id: s03, target: "Le crocodile a de grandes dents.", native: { nl: "De krokodil heeft grote tanden.", en: "The crocodile has big teeth." }, items: [fr.crocodile] }
+  - { id: s04, target: "Le zèbre est noir et blanc.", native: { nl: "De zebra is zwart-wit.", en: "The zebra is black and white." }, items: [fr.zebre] }
+  - { id: s05, target: "La grenouille est dans l'eau.", native: { nl: "De kikker zit in het water.", en: "The frog is in the water." }, items: [fr.grenouille] }
+  - { id: s06, target: "Ma tortue mange de la salade.", native: { nl: "Mijn schildpad eet sla.", en: "My tortoise eats lettuce." }, items: [fr.tortue] }
+  - { id: s07, target: "Mon hamster dort le matin.", native: { nl: "Mijn hamster slaapt 's ochtends.", en: "My hamster sleeps in the morning." }, items: [fr.hamster] }
+  - { id: s08, target: "Le chaton joue avec un ballon.", native: { nl: "Het katje speelt met een bal.", en: "The kitten is playing with a ball." }, items: [fr.chaton] }
+  - { id: s09, target: "Notre chiot s'appelle Max.", native: { nl: "Ons hondje heet Max.", en: "Our puppy is called Max." }, items: [fr.chiot] }
+  - { id: s10, target: "Le perroquet parle !", native: { nl: "De papegaai praat!", en: "The parrot talks!" }, items: [fr.perroquet] }
+  - { id: s11, target: "Les dauphins nagent dans la mer.", native: { nl: "De dolfijnen zwemmen in de zee.", en: "The dolphins are swimming in the sea." }, items: [fr.dauphin] }
+  - { id: s12, target: "La baleine est très grande.", native: { nl: "De walvis is heel groot.", en: "The whale is very big." }, items: [fr.baleine] }
+  - { id: s13, target: "Le requin a beaucoup de dents.", native: { nl: "De haai heeft veel tanden.", en: "The shark has lots of teeth." }, items: [fr.requin] }
+  - { id: s14, target: "Nous faisons une randonnée dans la forêt.", native: { nl: "We maken een lange wandeling in het bos.", en: "We're going on a hike in the forest." }, items: [fr.foret] }
+  - { id: s15, target: "Il y a des poissons dans la rivière.", native: { nl: "Er zitten vissen in de rivier.", en: "There are fish in the river." }, items: [fr.riviere] }
+  - { id: s16, target: "On nage dans le lac en été.", native: { nl: "In de zomer zwemmen we in het meer.", en: "We swim in the lake in summer." }, items: [fr.lac] }
+  - { id: s17, target: "Je joue dans le sable.", native: { nl: "Ik speel in het zand.", en: "I'm playing in the sand." }, items: [fr.sable] }
+lessons:
+  - { id: l01, title: { nl: Slang en beer, en: "Snakes and bears" }, vocab: [fr.serpent, fr.ours, fr.crocodile, fr.zebre, fr.grenouille, fr.tortue] }
+  - { id: l02, title: { nl: "Huisdieren, bos en rivier", en: "Pets, forest and river" }, vocab: [fr.hamster, fr.chaton, fr.chiot, fr.perroquet, fr.foret, fr.riviere] }
+  - { id: l03, title: { nl: In het water, en: "In the water" }, vocab: [fr.dauphin, fr.baleine, fr.requin, fr.lac, fr.sable] }

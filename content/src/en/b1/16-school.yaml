@@ -1,0 +1,178 @@
+id: en-b1-u16
+title: { nl: School en studie }
+icon: school
+topic: School, exams and studying; modals of obligation (must, have to, don't have to, mustn't, needn't)
+vocabulary:
+  - { target: education, native: { nl: onderwijs }, pos: noun, avoid: [en.teaching] }
+  - { target: primary school, native: { nl: basisschool }, pos: noun }
+  - { target: secondary, native: { nl: "secundair, voortgezet" }, pos: adjective }
+  - { target: schoolchild, native: { nl: schoolkind }, pos: noun }
+  - { target: pupil, native: { nl: leerling }, pos: noun }
+  - { target: headteacher, native: { nl: schoolhoofd (directeur) }, pos: noun }
+  - { target: principal, native: { nl: voornaamste }, pos: adjective, avoid: [en.main], noBlank: true }
+  - { target: teaching, native: { nl: lesgeven (het onderwijs) }, pos: noun }
+  - { target: method, native: { nl: methode }, pos: noun }
+  - { target: curriculum, native: { nl: leerplan }, pos: noun }
+  - { target: term, native: { nl: trimester }, pos: noun }
+  - { target: break up, native: { nl: vakantie krijgen (school) }, pos: phrase }
+  - { target: bell, native: { nl: bel }, pos: noun }
+  - { target: attend, native: { nl: "bijwonen, aanwezig zijn (bij)" }, pos: verb }
+  - { target: absent, native: { nl: afwezig }, pos: adjective }
+  - { target: register, native: { nl: zich inschrijven }, pos: verb, avoid: [en.sign-up], noBlank: true }
+  - { target: registration, native: { nl: inschrijving }, pos: noun }
+  - { target: course, native: { nl: cursus }, pos: noun }
+  - { target: level, native: { nl: niveau }, pos: noun }
+  - { target: beginner, native: { nl: beginner }, pos: noun }
+  - { target: elementary, native: { nl: elementair (basis-) }, pos: adjective, avoid: [en.basic] }
+  - { target: intermediate, native: { nl: halfgevorderd (niveau) }, pos: adjective, avoid: [en.average] }
+  - { target: advanced, native: { nl: gevorderd }, pos: adjective }
+  - { target: unit, native: { nl: "eenheid, hoofdstuk (in een lesboek)" }, pos: noun, avoid: [en.chapter], noBlank: true }
+  - { target: textbook, native: { nl: lesboek }, pos: noun }
+  - { target: notebook, native: { nl: schrift }, pos: noun }
+  - { target: notepaper, native: { nl: briefpapier }, pos: noun, noBlank: true }
+  - { target: note, native: { nl: "aantekening, briefje" }, pos: noun }
+  - { target: pencil case, native: { nl: etui }, pos: noun }
+  - { target: ink, native: { nl: inkt }, pos: noun }
+  - { target: in ink, native: { nl: met inkt }, pos: phrase, avoid: [en.in-pencil] }
+  - { target: in pencil, native: { nl: met potlood }, pos: phrase }
+  - { target: handwriting, native: { nl: handschrift }, pos: noun, noBlank: true }
+  - { target: blackboard, native: { nl: schoolbord }, pos: noun }
+  - { target: noticeboard, native: { nl: prikbord }, pos: noun }
+  - { target: photocopy, native: { nl: fotokopie }, pos: noun }
+  - { target: copy, native: { nl: overschrijven (kopiëren) }, pos: verb }
+  - { target: blank, native: { nl: blanco (leeg) }, pos: adjective }
+  - { target: gap, native: { nl: "gat, open plek" }, pos: noun, noBlank: true }
+  - { target: biology, native: { nl: biologie }, pos: noun }
+  - { target: chemistry, native: { nl: scheikunde }, pos: noun }
+  - { target: physics, native: { nl: natuurkunde }, pos: noun }
+  - { target: economics, native: { nl: economie }, pos: noun }
+  - { target: laboratory, native: { nl: laboratorium }, pos: noun }
+  - { target: experiment, native: { nl: experiment }, pos: noun }
+  - { target: research, native: { nl: onderzoek }, pos: noun }
+  - { target: knowledge, native: { nl: kennis }, pos: noun }
+  - { target: studies, native: { nl: studie }, pos: noun }
+  - { target: lecture, native: { nl: college (lezing) }, pos: noun }
+  - { target: lecturer, native: { nl: docent (hoger onderwijs) }, pos: noun }
+  - { target: professor, native: { nl: professor }, pos: noun }
+  - { target: essay, native: { nl: opstel }, pos: noun, avoid: [en.composition] }
+  - { target: composition, native: { nl: compositie (opstel) }, pos: noun }
+  - { target: presentation, native: { nl: presentatie }, pos: noun }
+  - { target: explanation, native: { nl: uitleg }, pos: noun }
+  - { target: attention, native: { nl: aandacht }, pos: noun }
+  - { target: concentrate, native: { nl: zich concentreren }, pos: verb, avoid: [en.focus-on], noBlank: true }
+  - { target: focus on, native: { nl: zich richten op }, pos: phrase, noBlank: true }
+  - { target: silence, native: { nl: stilte }, pos: noun }
+  - { target: silent, native: { nl: stil (zonder geluid) }, pos: adjective, noBlank: true }
+  - { target: strict, native: { nl: streng }, pos: adjective }
+  - { target: sit down, native: { nl: gaan zitten }, pos: phrase }
+  - { target: stay behind, native: { nl: nablijven }, pos: phrase }
+  - { target: keep up, native: { nl: volhouden (bijblijven) }, pos: phrase }
+  - { target: give out, native: { nl: uitdelen }, pos: phrase, avoid: [en.hand-out] }
+  - { target: hand out, native: { nl: uitdelen }, pos: phrase }
+  - { target: hand in, native: { nl: inleveren }, pos: phrase, avoid: [en.give-in] }
+  - { target: give in, native: { nl: inleveren (indienen) }, pos: phrase }
+  - { target: revise, native: { nl: herhalen (studeren voor een toets) }, pos: verb }
+  - { target: revision, native: { nl: herhaling (voor een examen) }, pos: noun }
+  - { target: test, native: { nl: toets }, pos: noun }
+  - { target: examination, native: { nl: examen }, pos: noun }
+  - { target: examiner, native: { nl: examinator }, pos: noun }
+  - { target: cheat, native: { nl: spieken (valsspelen) }, pos: verb }
+  - { target: fail, native: { nl: zakken (voor een examen) }, pos: verb }
+  - { target: correction, native: { nl: verbetering }, pos: noun, avoid: [en.improvement, en.progress] }
+  - { target: incorrect, native: { nl: onjuist }, pos: adjective, noBlank: true }
+  - { target: grade, native: { nl: cijfer }, pos: noun, noBlank: true }
+  - { target: result, native: { nl: resultaat }, pos: noun }
+  - { target: progress, native: { nl: vooruitgang }, pos: noun }
+  - { target: improvement, native: { nl: verbetering (vooruitgang) }, pos: noun, avoid: [en.progress] }
+  - { target: certificate, native: { nl: certificaat }, pos: noun }
+  - { target: diploma, native: { nl: diploma }, pos: noun, avoid: [en.degree, en.qualification] }
+  - { target: degree, native: { nl: graad }, pos: noun }
+  - { target: graduate, native: { nl: afstuderen }, pos: verb }
+  - { target: graduation, native: { nl: diploma-uitreiking }, pos: noun }
+  - { target: grant, native: { nl: beurs (studiebeurs) }, pos: noun }
+sentences:
+  - { id: s01, target: "Education is free in many countries.", native: { nl: "Onderwijs is gratis in veel landen." }, items: [en.education], acceptAlso: ["In many countries education is free."] }
+  - { id: s02, target: "My little sister started primary school last week.", native: { nl: "Mijn zusje is vorige week naar de basisschool gegaan." }, items: [en.primary-school], acceptAlso: ["Last week my little sister started primary school."] }
+  - { id: s03, target: "Next year I'll go to secondary school.", native: { nl: "Volgend jaar ga ik naar de middelbare school." }, items: [en.secondary], acceptAlso: ["I'll go to secondary school next year."] }
+  - { id: s04, target: "Hundreds of schoolchildren visit the museum every day.", native: { nl: "Honderden schoolkinderen bezoeken elke dag het museum." }, items: [en.schoolchild], acceptAlso: ["Every day hundreds of schoolchildren visit the museum."] }
+  - { id: s05, target: "There are twenty-eight pupils in our class.", native: { nl: "Er zitten achtentwintig leerlingen in onze klas." }, items: [en.pupil] }
+  - { id: s06, target: "The headteacher wants to speak to you.", native: { nl: "Het schoolhoofd wil je spreken." }, items: [en.headteacher] }
+  - { id: s07, target: "The principal reason for the change is money.", native: { nl: "De voornaamste reden voor de verandering is geld." }, items: [en.principal] }
+  - { id: s08, target: "My aunt has worked in teaching for twenty years.", native: { nl: "Mijn tante werkt al twintig jaar in het onderwijs." }, items: [en.teaching] }
+  - { id: s09, target: "Our teacher uses modern methods.", native: { nl: "Onze leraar gebruikt moderne methodes." }, items: [en.method] }
+  - { id: s10, target: "Swimming is part of the school curriculum.", native: { nl: "Zwemmen hoort bij het leerplan van de school." }, items: [en.curriculum] }
+  - { id: s11, target: "The summer term ends in July.", native: { nl: "Het laatste trimester eindigt in juli." }, items: [en.term] }
+  - { id: s12, target: "When does school break up for the holidays?", native: { nl: "Wanneer begint de schoolvakantie?" }, items: [en.break-up] }
+  - { id: s13, target: "The bell rang and everyone ran outside.", native: { nl: "De bel ging en iedereen rende naar buiten." }, items: [en.bell], finite: { word: rang, hint: { nl: "ring (verleden tijd)" } } }
+  - { id: s14, target: "All students must attend the meeting.", native: { nl: "Alle leerlingen moeten de bijeenkomst bijwonen." }, items: [en.attend] }
+  - { id: s15, target: "Three pupils were absent because of flu.", native: { nl: "Drie leerlingen waren afwezig door griep." }, items: [en.absent] }
+  - { id: s16, target: "You have to register for the course online.", native: { nl: "Je moet je online inschrijven voor de cursus." }, items: [en.register, en.course] }
+  - { id: s17, target: "Registration closes on Friday.", native: { nl: "De inschrijving sluit op vrijdag." }, items: [en.registration], acceptAlso: ["On Friday registration closes."] }
+  - { id: s18, target: "What level is your English?", native: { nl: "Welk niveau is je Engels?" }, items: [en.level] }
+  - { id: s19, target: "This class is for beginners.", native: { nl: "Deze les is voor beginners." }, items: [en.beginner] }
+  - { id: s20, target: "This book is at elementary level. It's too easy for me.", native: { nl: "Dit boek is van beginnersniveau. Het is te makkelijk voor me." }, items: [en.elementary] }
+  - { id: s21, target: "She moved from the intermediate group to the advanced group.", native: { nl: "Ze ging van de groep voor halfgevorderden naar de groep voor gevorderden." }, items: [en.intermediate, en.advanced] }
+  - { id: s22, target: "We're doing unit six in our English book.", native: { nl: "We zijn bezig met hoofdstuk zes in ons Engelse boek." }, items: [en.unit] }
+  - { id: s23, target: "Open your textbooks at page forty.", native: { nl: "Sla je lesboeken open op bladzijde veertig." }, items: [en.textbook] }
+  - { id: s24, target: "Write the new words in your notebook.", native: { nl: "Schrijf de nieuwe woorden in je schrift." }, items: [en.notebook] }
+  - { id: s25, target: "She wrote the letter on pretty notepaper.", native: { nl: "Ze schreef de brief op mooi briefpapier." }, items: [en.notepaper] }
+  - { id: s26, target: "Take notes while you listen.", native: { nl: "Maak aantekeningen terwijl je luistert." }, items: [en.note], acceptAlso: ["While you listen, take notes."] }
+  - { id: s27, target: "I've lost my pencil case.", native: { nl: "Ik ben mijn etui kwijt." }, items: [en.pencil-case] }
+  - { id: s28, target: "There's ink all over my hands.", native: { nl: "Ik heb overal inkt op mijn handen." }, items: [en.ink] }
+  - { id: s29, target: "Write your answers in ink, not in pencil.", native: { nl: "Schrijf je antwoorden met inkt, niet met potlood." }, items: [en.in-ink, en.in-pencil] }
+  - { id: s30, target: "I can't read his handwriting.", native: { nl: "Ik kan zijn handschrift niet lezen." }, items: [en.handwriting] }
+  - { id: s31, target: "Old classrooms had a blackboard.", native: { nl: "Oude klaslokalen hadden een schoolbord." }, items: [en.blackboard] }
+  - { id: s32, target: "The results are on the noticeboard.", native: { nl: "De resultaten hangen op het prikbord." }, items: [en.noticeboard, en.result] }
+  - { id: s33, target: "Can you make a photocopy of this page?", native: { nl: "Kun je een fotokopie van deze bladzijde maken?" }, items: [en.photocopy] }
+  - { id: s34, target: "Copy the sentences into your book.", native: { nl: "Schrijf de zinnen over in je boek." }, items: [en.copy] }
+  - { id: s35, target: "Don't leave any blank spaces on the form.", native: { nl: "Laat geen vakjes leeg op het formulier." }, items: [en.blank] }
+  - { id: s36, target: "Fill in the gaps with the correct word.", native: { nl: "Vul de open plekken in met het juiste woord." }, items: [en.gap] }
+  - { id: s37, target: "In biology we're learning about plants.", native: { nl: "Bij biologie leren we over planten." }, items: [en.biology], acceptAlso: ["We're learning about plants in biology."] }
+  - { id: s38, target: "We did an experiment in chemistry today.", native: { nl: "We deden vandaag een experiment bij scheikunde." }, items: [en.chemistry, en.experiment], acceptAlso: ["Today we did an experiment in chemistry."] }
+  - { id: s39, target: "Physics is my most difficult subject.", native: { nl: "Natuurkunde is mijn moeilijkste vak." }, items: [en.physics] }
+  - { id: s40, target: "My brother is studying economics at university.", native: { nl: "Mijn broer studeert economie aan de universiteit." }, items: [en.economics] }
+  - { id: s41, target: "Don't eat or drink in the laboratory.", native: { nl: "Eet of drink niet in het laboratorium." }, items: [en.laboratory] }
+  - { id: s42, target: "Scientists are doing research into the disease.", native: { nl: "Wetenschappers doen onderzoek naar de ziekte." }, items: [en.research] }
+  - { id: s43, target: "He has a good knowledge of history.", native: { nl: "Hij heeft een goede kennis van geschiedenis." }, items: [en.knowledge] }
+  - { id: s44, target: "She went abroad after she finished her studies.", native: { nl: "Ze ging naar het buitenland nadat ze haar studie had afgerond." }, items: [en.studies], acceptAlso: ["After she finished her studies, she went abroad."] }
+  - { id: s45, target: "The lecture was about the history of space travel.", native: { nl: "Het college ging over de geschiedenis van de ruimtevaart." }, items: [en.lecture] }
+  - { id: s46, target: "My dad is a lecturer at the university.", native: { nl: "Mijn vader is docent aan de universiteit." }, items: [en.lecturer] }
+  - { id: s47, target: "The professor wrote a book about dinosaurs.", native: { nl: "De professor schreef een boek over dinosaurussen." }, items: [en.professor] }
+  - { id: s48, target: "We have to write an essay about our holidays.", native: { nl: "We moeten een opstel schrijven over onze vakantie." }, items: [en.essay] }
+  - { id: s49, target: "Her composition won first prize.", native: { nl: "Haar opstel won de eerste prijs." }, items: [en.composition] }
+  - { id: s50, target: "I'm giving a presentation about Brazil tomorrow.", native: { nl: "Ik geef morgen een presentatie over Brazilië." }, items: [en.presentation], acceptAlso: ["Tomorrow I'm giving a presentation about Brazil."] }
+  - { id: s51, target: "Thanks for the explanation. Now I understand.", native: { nl: "Bedankt voor de uitleg. Nu begrijp ik het." }, items: [en.explanation] }
+  - { id: s52, target: "Can I have your attention, please?", native: { nl: "Mag ik even jullie aandacht?" }, items: [en.attention] }
+  - { id: s53, target: "I can't concentrate with this noise.", native: { nl: "Ik kan me niet concentreren met dit lawaai." }, items: [en.concentrate] }
+  - { id: s54, target: "Focus on the questions you know first.", native: { nl: "Richt je eerst op de vragen waarop je het antwoord weet." }, items: [en.focus-on] }
+  - { id: s55, target: "The test was done in silence.", native: { nl: "De toets werd in stilte gemaakt." }, items: [en.silence] }
+  - { id: s56, target: "Please keep your phones silent.", native: { nl: "Zet jullie telefoons alsjeblieft op stil." }, items: [en.silent] }
+  - { id: s57, target: "Our maths teacher is very strict.", native: { nl: "Onze wiskundeleraar is heel streng." }, items: [en.strict] }
+  - { id: s58, target: "Sit down and open your books.", native: { nl: "Ga zitten en sla je boeken open." }, items: [en.sit-down] }
+  - { id: s59, target: "I stayed behind after the lesson to ask a question.", native: { nl: "Ik bleef na de les om een vraag te stellen." }, items: [en.stay-behind], finite: { word: stayed, hint: { nl: "stay (verleden tijd: … behind)" } }, acceptAlso: ["After the lesson I stayed behind to ask a question."] }
+  - { id: s60, target: "Keep up the good work!", native: { nl: "Ga zo door!" }, items: [en.keep-up] }
+  - { id: s61, target: "Can you give out these papers, please?", native: { nl: "Kun je deze papieren uitdelen, alsjeblieft?" }, items: [en.give-out] }
+  - { id: s62, target: "The teacher handed out the tests.", native: { nl: "De leraar deelde de toetsen uit." }, items: [en.hand-out] }
+  - { id: s63, target: "You must hand in your project by Monday.", native: { nl: "Je moet je project uiterlijk maandag inleveren." }, items: [en.hand-in] }
+  - { id: s64, target: "Have you given in your homework yet?", native: { nl: "Heb je je huiswerk al ingeleverd?" }, items: [en.give-in] }
+  - { id: s65, target: "I need to revise for my history test.", native: { nl: "Ik moet leren voor mijn geschiedenistoets." }, items: [en.revise] }
+  - { id: s66, target: "I've done lots of revision this week.", native: { nl: "Ik heb deze week veel geleerd voor de examens." }, items: [en.revision], acceptAlso: ["This week I've done lots of revision."] }
+  - { id: s67, target: "We've got a spelling test on Friday.", native: { nl: "We hebben vrijdag een spellingtoets." }, items: [en.test], acceptAlso: ["On Friday we've got a spelling test."] }
+  - { id: s68, target: "The examinations start in June.", native: { nl: "De examens beginnen in juni." }, items: [en.examination] }
+  - { id: s69, target: "The examiner asked me about my hobbies.", native: { nl: "De examinator vroeg me naar mijn hobby's." }, items: [en.examiner] }
+  - { id: s70, target: "If you cheat in an exam, you'll fail.", native: { nl: "Als je spiekt bij een examen, zak je." }, items: [en.cheat, en.fail] }
+  - { id: s71, target: "Write your corrections under the exercise.", native: { nl: "Schrijf je verbeteringen onder de oefening." }, items: [en.correction] }
+  - { id: s72, target: "Two of your answers are incorrect.", native: { nl: "Twee van je antwoorden zijn onjuist." }, items: [en.incorrect] }
+  - { id: s73, target: "I got a good grade for my essay.", native: { nl: "Ik kreeg een goed cijfer voor mijn opstel." }, items: [en.grade] }
+  - { id: s74, target: "When do we get our exam results?", native: { nl: "Wanneer krijgen we onze examenresultaten?" }, items: [en.result] }
+  - { id: s75, target: "You've made a lot of progress this year.", native: { nl: "Je hebt dit jaar veel vooruitgang geboekt." }, items: [en.progress], acceptAlso: ["This year you've made a lot of progress."] }
+  - { id: s76, target: "There's been a big improvement in your writing.", native: { nl: "Je schrijfwerk is erg vooruitgegaan." }, items: [en.improvement] }
+  - { id: s77, target: "Everyone who finishes the course gets a certificate.", native: { nl: "Iedereen die de cursus afmaakt, krijgt een certificaat." }, items: [en.certificate] }
+  - { id: s78, target: "She has a diploma in music.", native: { nl: "Ze heeft een diploma in muziek." }, items: [en.diploma] }
+  - { id: s79, target: "It was 30 degrees in the classroom today.", native: { nl: "Het was vandaag 30 graden in het klaslokaal." }, items: [en.degree] }
+  - { id: s80, target: "He graduated from university last year.", native: { nl: "Hij is vorig jaar afgestudeerd aan de universiteit." }, items: [en.graduate], acceptAlso: ["Last year he graduated from university."] }
+  - { id: s81, target: "My whole family came to my graduation.", native: { nl: "Mijn hele familie kwam naar mijn diploma-uitreiking." }, items: [en.graduation] }
+  - { id: s82, target: "She got a grant to study in Australia.", native: { nl: "Ze kreeg een beurs om in Australië te studeren." }, items: [en.grant] }
+  - { id: s83, target: "Our school isn't strict: you don't have to wear a uniform, but you mustn't wear trainers.", native: { nl: "Onze school is niet streng: je hoeft geen uniform te dragen, maar je mag geen sportschoenen dragen." }, items: [en.strict] }
+  - { id: s84, target: "You needn't bring your textbooks. We have plenty.", native: { nl: "Je hoeft je lesboeken niet mee te nemen. We hebben er genoeg." }, items: [en.textbook] }
+texts: [en-b1-t17]

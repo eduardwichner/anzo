@@ -1,0 +1,69 @@
+id: en-b2-u19
+title: { nl: Debat en overtuigen }
+icon: chat
+topic: Giving and defending opinions, weighing pros and cons, linking an argument (furthermore, on the other hand, as a result, in conclusion); emphasis (Not only … but also, What … is …)
+vocabulary:
+  - { target: debate, native: { nl: debat }, pos: noun, noBlank: true }
+  - { target: persuasive, native: { nl: "overtuigend (iemand overhalend)" }, pos: adjective, avoid: [en.convincing] }
+  - { target: convincing, native: { nl: "overtuigend, geloofwaardig" }, pos: adjective, avoid: [en.persuasive] }
+  - { target: point of view, native: { nl: standpunt }, pos: noun, avoid: [en.perspective] }
+  - { target: perspective, native: { nl: "perspectief, invalshoek" }, pos: noun, avoid: [en.point-of-view], noBlank: true }
+  - { target: firmly, native: { nl: "stellig, vast" }, pos: adverb }
+  - { target: furthermore, native: { nl: "bovendien" }, pos: adverb, avoid: [en.moreover, en.in-addition] }
+  - { target: moreover, native: { nl: "daarenboven, bovendien" }, pos: adverb, avoid: [en.furthermore, en.in-addition] }
+  - { target: in addition, native: { nl: "daarnaast" }, pos: phrase, avoid: [en.moreover, en.furthermore] }
+  - { target: firstly, native: { nl: "ten eerste" }, pos: adverb }
+  - { target: on the other hand, native: { nl: "anderzijds, aan de andere kant" }, pos: phrase }
+  - { target: on the contrary, native: { nl: "integendeel" }, pos: phrase }
+  - { target: alternative, native: { nl: alternatief }, pos: noun }
+  - { target: consequently, native: { nl: "bijgevolg" }, pos: adverb, noBlank: true, avoid: [en.as-a-result, en.thus] }
+  - { target: as a result, native: { nl: "daardoor, met als gevolg" }, pos: phrase, avoid: [en.consequently, en.thus] }
+  - { target: thus, native: { nl: "zo, dus" }, pos: adverb, avoid: [en.consequently, en.as-a-result] }
+  - { target: overall, native: { nl: "al met al, over het geheel" }, pos: adverb, avoid: [en.in-conclusion] }
+  - { target: in conclusion, native: { nl: "tot besluit, tot slot" }, pos: phrase, avoid: [en.overall] }
+  - { target: admittedly, native: { nl: "toegegeven" }, pos: adverb }
+  - { target: undoubtedly, native: { nl: "ongetwijfeld" }, pos: adverb }
+  - { target: drawback, native: { nl: nadeel }, pos: noun, avoid: [en.disadvantage] }
+  - { target: pros and cons, native: { nl: "voor- en nadelen" }, pos: noun }
+  - { target: justify, native: { nl: rechtvaardigen }, pos: verb }
+  - { target: valid, native: { nl: "geldig, gegrond" }, pos: adjective }
+  - { target: exaggerate, native: { nl: overdrijven }, pos: verb }
+  - { target: assume, native: { nl: "aannemen, ervan uitgaan" }, pos: verb, avoid: [en.take-on] }
+  - { target: oppose, native: { nl: "tegen iets zijn, zich verzetten tegen" }, pos: verb }
+  - { target: in favour of, native: { nl: "voor (een idee), voorstander van" }, pos: phrase }
+sentences:
+  - { id: s01, target: "Our class had a debate about school uniforms.", native: { nl: "Onze klas hield een debat over schooluniformen." }, items: [en.debate] }
+  - { id: s02, target: "Her speech was so persuasive that everyone changed their mind.", native: { nl: "Haar toespraak was zo overtuigend dat iedereen van mening veranderde." }, items: [en.persuasive], form: { word: persuasive, stem: persuade } }
+  - { id: s03, target: "Her excuse didn't sound very convincing.", native: { nl: "Haar excuus klonk niet erg geloofwaardig." }, items: [en.convincing] }
+  - { id: s04, target: "From my point of view, homework is useful.", native: { nl: "Volgens mij is huiswerk nuttig." }, items: [en.point-of-view] }
+  - { id: s05, target: "Try to see the problem from a different perspective.", native: { nl: "Probeer het probleem vanuit een andere invalshoek te bekijken." }, items: [en.perspective] }
+  - { id: s06, target: "He shook my hand firmly.", native: { nl: "Hij schudde me stevig de hand." }, items: [en.firmly] }
+  - { id: s07, target: "The plan is too expensive. Furthermore, it would take years.", native: { nl: "Het plan is te duur. Bovendien zou het jaren duren." }, items: [en.furthermore] }
+  - { id: s08, target: "Cycling is cheap. Moreover, it keeps you fit.", native: { nl: "Fietsen is goedkoop. Daarenboven houdt het je fit." }, items: [en.moreover] }
+  - { id: s09, target: "In addition to the lessons, there are many activities after school.", native: { nl: "Naast de lessen zijn er na school veel activiteiten." }, items: [en.in-addition] }
+  - { id: s10, target: "Firstly, school uniforms are cheaper than fashionable clothes.", native: { nl: "Ten eerste zijn schooluniformen goedkoper dan modieuze kleren." }, items: [en.firstly] }
+  - { id: s11, target: "Living in the city is exciting; on the other hand, it is expensive.", native: { nl: "In de stad wonen is spannend; anderzijds is het duur." }, items: [en.on-the-other-hand] }
+  - { id: s12, target: "The test wasn't easy. On the contrary, it was the hardest of the year.", native: { nl: "De toets was niet makkelijk. Integendeel, het was de moeilijkste van het jaar." }, items: [en.on-the-contrary] }
+  - { id: s13, target: "Is there an alternative to driving to school?", native: { nl: "Kun je op een andere manier dan met de auto naar school?" }, items: [en.alternative] }
+  - { id: s14, target: "It rained all week; consequently, the match was cancelled.", native: { nl: "Het regende de hele week; bijgevolg werd de wedstrijd afgelast." }, items: [en.consequently] }
+  - { id: s15, target: "She trained every day and, as a result, she won the race.", native: { nl: "Ze trainde elke dag en won daardoor de wedstrijd." }, items: [en.as-a-result] }
+  - { id: s16, target: "The bridge was closed; thus, all traffic had to take a much longer route.", native: { nl: "De brug was dicht; daardoor moest al het verkeer een veel langere route nemen." }, items: [en.thus] }
+  - { id: s17, target: "Overall, the trip was a great success.", native: { nl: "Al met al was de reis een groot succes." }, items: [en.overall] }
+  - { id: s18, target: "In conclusion, I believe the advantages are greater than the drawbacks.", native: { nl: "Kortom, ik denk dat de voordelen groter zijn dan de nadelen." }, items: [en.in-conclusion, en.drawback] }
+  - { id: s19, target: "Admittedly, the new rules are not perfect.", native: { nl: "Toegegeven, de nieuwe regels zijn niet perfect." }, items: [en.admittedly] }
+  - { id: s20, target: "This is undoubtedly the best book I have read this year.", native: { nl: "Dit is ongetwijfeld het beste boek dat ik dit jaar gelezen heb." }, items: [en.undoubtedly] }
+  - { id: s21, target: "Let's write down the pros and cons before we decide.", native: { nl: "Laten we de voor- en nadelen opschrijven voor we beslissen." }, items: [en.pros-and-cons] }
+  - { id: s22, target: "How can you justify spending so much money on a phone?", native: { nl: "Hoe kun je rechtvaardigen dat je zoveel geld aan een telefoon uitgeeft?" }, items: [en.justify] }
+  - { id: s23, target: "That's a valid point, but I still don't agree.", native: { nl: "Dat is een terecht punt, maar ik ben het er nog altijd niet mee eens." }, items: [en.valid] }
+  - { id: s24, target: "Don't exaggerate! It wasn't that bad.", native: { nl: "Overdrijf niet! Het was niet zo erg." }, items: [en.exaggerate] }
+  - { id: s25, target: "Never assume that everyone thinks the same as you.", native: { nl: "Ga er nooit van uit dat iedereen hetzelfde denkt als jij." }, items: [en.assume] }
+  - { id: s26, target: "Many residents oppose the plan to build a new road.", native: { nl: "Veel bewoners zijn tegen het plan om een nieuwe weg aan te leggen." }, items: [en.oppose] }
+  - { id: s27, target: "Most students are in favour of a longer lunch break.", native: { nl: "De meeste leerlingen zijn voorstander van een langere middagpauze." }, items: [en.in-favour-of] }
+  - { id: s28, target: "Not only is cycling cheap, but it is also good for your health.", native: { nl: "Fietsen is niet alleen goedkoop, maar het is ook goed voor je gezondheid." }, items: [en.moreover], build: true, acceptAlso: ["Cycling is not only cheap, but it is also good for your health."] }
+  - { id: s29, target: "What I find most convincing is the evidence from other schools.", native: { nl: "Wat ik het meest overtuigend vind, is het bewijs van andere scholen." }, items: [en.convincing], build: true }
+  - { id: s30, target: "He exaggerates every problem to make it sound worse.", native: { nl: "Hij overdrijft elk probleem om het erger te laten klinken." }, items: [en.exaggerate], finite: { word: exaggerates, hint: { nl: "exaggerate (tegenwoordige tijd)" } } }
+transforms:
+  - { id: x01, from: "The plan is cheap and it is also quick.", key: only, gapped: "The plan is ___ quick.", answers: ["not only cheap but also", "not only cheap, but also"], items: [en.moreover] }
+  - { id: x02, from: "Most parents support the idea of a shorter school day.", key: favour, gapped: "Most parents ___ a shorter school day.", answers: ["are in favour of", "are in favour of having"], items: [en.in-favour-of] }
+  - { id: x03, from: "Because there was a train strike, many people worked from home.", key: result, gapped: "There was a train strike; ___ many people worked from home.", answers: ["as a result,", "as a result", "as a result of this,"], items: [en.as-a-result] }
+texts: [en-b2-t19]

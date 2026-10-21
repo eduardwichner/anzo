@@ -1,0 +1,71 @@
+id: fr-b2-u13
+title: { nl: Engagement en vrijwilligerswerk, en: "Commitment and volunteering" }
+icon: heart
+topic: Le bénévolat, la solidarité et l'exclusion, les dons et les collectes, l'engagement des jeunes dans leur quartier ; exprimer le but (pour que, afin que + subjonctif, de peur que, de sorte que, afin de)
+vocabulary:
+  - { target: s'engager, native: { nl: "zich inzetten, zich engageren", en: "to get involved, to commit oneself" }, pos: verb }
+  - { target: l'engagement, native: { nl: "de inzet, het engagement", en: "commitment, involvement" }, pos: noun, gender: m }
+  - { target: engagé, native: { nl: geëngageerd, en: "committed, involved" }, pos: adjective }
+  - { target: la collecte, native: { nl: de inzameling, en: "collection (of donations)" }, pos: noun, gender: f }
+  - { target: collecter, native: { nl: inzamelen, en: "to collect" }, pos: verb }
+  - { target: faire un don, native: { nl: "een gift doen, schenken", en: "to donate, to make a donation" }, pos: verb }
+  - { target: la solidarité, native: { nl: de solidariteit, en: "solidarity" }, pos: noun, gender: f, noBlank: true }
+  - { target: la banque alimentaire, native: { nl: de voedselbank, en: "food bank" }, pos: noun, gender: f }
+  - { target: le sans-abri, native: { nl: de dakloze, en: "homeless person" }, pos: noun, gender: m }
+  - { target: la précarité, native: { nl: de bestaansonzekerheid, en: "financial insecurity, hardship" }, pos: noun, gender: f }
+  - { target: l'exclusion, native: { nl: de uitsluiting, en: "exclusion" }, pos: noun, gender: f }
+  - { target: l'isolement, native: { nl: "de eenzaamheid, het isolement", en: "isolation, loneliness" }, pos: noun, gender: m }
+  - { target: isolé, native: { nl: "eenzaam, geïsoleerd", en: "isolated, lonely" }, pos: adjective, noBlank: true }
+  - { target: la maison de retraite, native: { nl: "het rusthuis, het woonzorgcentrum", en: "care home, old people's home" }, pos: noun, gender: f }
+  - { target: la maison de quartier, native: { nl: het buurthuis, en: "community centre" }, pos: noun, gender: f }
+  - { target: la communauté, native: { nl: de gemeenschap, en: "community" }, pos: noun, gender: f }
+  - { target: consacrer, native: { nl: "besteden, wijden (+ à: aan)", en: "to devote, to dedicate (+ à: to)" }, pos: verb }
+  - { target: enrichissant, native: { nl: verrijkend, en: "enriching, rewarding" }, pos: adjective }
+  - { target: l'empathie, native: { nl: de empathie, en: "empathy" }, pos: noun, gender: f, noBlank: true }
+  - { target: le réfugié, native: { nl: de vluchteling, en: "refugee" }, pos: noun, gender: m }
+  - { target: l'intégration, native: { nl: de integratie, en: "integration" }, pos: noun, gender: f, noBlank: true }
+  - { target: le soutien, native: { nl: de steun, en: "support" }, pos: noun, gender: m }
+  - { target: distribuer, native: { nl: uitdelen, en: "to hand out, to distribute" }, pos: verb }
+  - { target: la reconnaissance, native: { nl: "de dankbaarheid, de erkenning", en: "gratitude, recognition" }, pos: noun, gender: f }
+  - { target: le préjugé, native: { nl: het vooroordeel, en: "prejudice" }, pos: noun, gender: m }
+  - { target: la fermeture, native: { nl: de sluiting, en: "closure, closing" }, pos: noun, gender: f }
+  - { target: la différence, native: { nl: "het verschil", en: "difference" }, pos: noun, gender: f, noBlank: true }
+  - { target: afin que, native: { nl: "opdat, zodat (+ subjonctif)", en: "so that (+ subjunctive)" }, pos: conjunction, avoid: [fr.pour-que, fr.de-sorte-que], noBlank: true }
+  - { target: de peur que, native: { nl: "uit vrees dat (+ subjonctif)", en: "for fear that (+ subjunctive)" }, pos: conjunction }
+  - { target: de sorte que, native: { nl: "zodat (gevolg of doel)", en: "so that (result or purpose)" }, pos: conjunction, avoid: [fr.afin-que] }
+sentences:
+  - { id: s01, target: "Elle s'engage dans une association qui aide les réfugiés.", native: { nl: "Ze zet zich in bij een vereniging die vluchtelingen helpt.", en: "She's involved in an association that helps refugees." }, items: [fr.s-engager, fr.refugie] }
+  - { id: s02, target: "Son engagement pour le climat a commencé au lycée.", native: { nl: "Haar inzet voor het klimaat begon op de middelbare school.", en: "Her commitment to the climate began at lycée." }, items: [fr.engagement] }
+  - { id: s03, target: "Ce sont des jeunes très engagés dans leur quartier.", native: { nl: "Het zijn jongeren die zich sterk inzetten voor hun wijk.", en: "These are young people who are very involved in their neighbourhood." }, items: [fr.engage] }
+  - { id: s04, target: "L'école organise une collecte de vêtements pour l'hiver.", native: { nl: "De school organiseert een kledinginzameling voor de winter.", en: "The school is organising a clothes collection for the winter." }, items: [fr.collecte] }
+  - { id: s05, target: "Nous avons collecté plus de mille livres.", native: { nl: "We hebben meer dan duizend boeken ingezameld.", en: "We've collected more than a thousand books." }, items: [fr.collecter] }
+  - { id: s06, target: "Grâce à la collecte, l'association a pu acheter un nouveau bus.", native: { nl: "Dankzij de inzameling kon de vereniging een nieuwe bus kopen.", en: "Thanks to the collection, the association was able to buy a new bus." }, items: [fr.collecte] }
+  - { id: s07, target: "Mes parents font un don chaque année à la Croix-Rouge.", native: { nl: "Mijn ouders doen elk jaar een gift aan het Rode Kruis.", en: "My parents make a donation to the Red Cross every year." }, items: [fr.faire-un-don] }
+  - { id: s08, target: "Après les inondations, la solidarité des voisins a été incroyable.", native: { nl: "Na de overstromingen was de solidariteit van de buren ongelooflijk.", en: "After the floods, the neighbours' solidarity was incredible." }, items: [fr.solidarite] }
+  - { id: s09, target: "De plus en plus de familles vont à la banque alimentaire.", native: { nl: "Steeds meer gezinnen gaan naar de voedselbank.", en: "More and more families go to the food bank." }, items: [fr.banque-alimentaire] }
+  - { id: s10, target: "En hiver, des bénévoles distribuent des repas chauds aux sans-abri.", native: { nl: "In de winter delen vrijwilligers warme maaltijden uit aan daklozen.", en: "In winter, volunteers hand out hot meals to homeless people." }, items: [fr.sans-abri, fr.distribuer] }
+  - { id: s11, target: "La précarité touche aussi des familles qui travaillent.", native: { nl: "Bestaansonzekerheid treft ook gezinnen die werken.", en: "Financial insecurity also affects working families." }, items: [fr.precarite] }
+  - { id: s12, target: "Le sport peut réduire l'exclusion.", native: { nl: "Sport kan uitsluiting verminderen.", en: "Sport can reduce exclusion." }, items: [fr.exclusion] }
+  - { id: s13, target: "L'isolement des personnes âgées est un vrai problème.", native: { nl: "De eenzaamheid van ouderen is een echt probleem.", en: "The isolation of elderly people is a real problem." }, items: [fr.isolement] }
+  - { id: s14, target: "Depuis la mort de sa femme, il se sent très isolé.", native: { nl: "Sinds de dood van zijn vrouw voelt hij zich erg eenzaam.", en: "Since his wife died, he has felt very lonely." }, items: [fr.isole] }
+  - { id: s15, target: "Le samedi, je rends visite aux habitants de la maison de retraite.", native: { nl: "Op zaterdag bezoek ik de bewoners van het rusthuis.", en: "On Saturdays I visit the residents of the care home." }, items: [fr.maison-de-retraite] }
+  - { id: s16, target: "La maison de quartier propose des cours de cuisine gratuits.", native: { nl: "Het buurthuis biedt gratis kooklessen aan.", en: "The community centre offers free cookery classes." }, items: [fr.maison-de-quartier] }
+  - { id: s17, target: "Toute la communauté a aidé à construire une nouvelle école.", native: { nl: "De hele gemeenschap heeft geholpen een nieuwe school te bouwen.", en: "The whole community helped to build a new school." }, items: [fr.communaute] }
+  - { id: s18, target: "Elle consacre deux soirées par semaine au bénévolat.", native: { nl: "Ze besteedt twee avonden per week aan vrijwilligerswerk.", en: "She devotes two evenings a week to volunteering." }, items: [fr.consacrer], finite: { word: consacre, hint: { nl: "consacrer (présent)", en: "consacrer (present)" } } }
+  - { id: s19, target: "Ce travail avec les enfants a été très enrichissant.", native: { nl: "Dat werk met de kinderen was erg verrijkend.", en: "That work with the children was very enriching." }, items: [fr.enrichissant] }
+  - { id: s20, target: "Pour ce travail, il faut beaucoup d'empathie.", native: { nl: "Voor dit werk heb je veel empathie nodig.", en: "For this work, you need a lot of empathy." }, items: [fr.empathie], acceptAlso: ["Il faut beaucoup d'empathie pour ce travail."] }
+  - { id: s21, target: "Apprendre la langue est important pour l'intégration.", native: { nl: "De taal leren is belangrijk voor de integratie.", en: "Learning the language is important for integration." }, items: [fr.integration] }
+  - { id: s22, target: "Merci pour votre soutien !", native: { nl: "Bedankt voor uw steun!", en: "Thank you for your support!" }, items: [fr.soutien] }
+  - { id: s23, target: "Il nous a regardés avec beaucoup de reconnaissance.", native: { nl: "Hij keek ons heel dankbaar aan.", en: "He looked at us with great gratitude." }, items: [fr.reconnaissance] }
+  - { id: s24, target: "J'avais beaucoup de préjugés sur les réfugiés.", native: { nl: "Ik had veel vooroordelen over vluchtelingen.", en: "I had a lot of prejudices against refugees." }, items: [fr.prejuge] }
+  - { id: s25, target: "Les habitants ont protesté contre la fermeture de la piscine.", native: { nl: "De inwoners protesteerden tegen de sluiting van het zwembad.", en: "The residents protested against the closure of the swimming pool." }, items: [fr.fermeture], form: { word: fermeture, stem: fermer } }
+  - { id: s26, target: "Une heure par semaine, ça peut faire la différence.", native: { nl: "Eén uur per week kan het verschil maken.", en: "An hour a week can make a difference." }, items: [fr.difference] }
+  - { id: s27, target: "Nous collectons de l'argent afin que tous les enfants puissent partir en voyage.", native: { nl: "We zamelen geld in zodat alle kinderen op reis kunnen gaan.", en: "We're collecting money so that all the children can go on the trip." }, items: [fr.afin-que] }
+  - { id: s28, target: "Il ne dit rien de peur qu'on se moque de lui.", native: { nl: "Hij zegt niets uit angst dat ze hem uitlachen.", en: "He doesn't say anything for fear that people will make fun of him." }, items: [fr.de-peur-que] }
+  - { id: s29, target: "Elle parle lentement de sorte que tout le monde comprenne.", native: { nl: "Ze praat langzaam zodat iedereen het begrijpt.", en: "She speaks slowly so that everyone understands." }, items: [fr.de-sorte-que], build: true }
+  - { id: s30, target: "Je m'engage pour que mon quartier soit plus solidaire.", native: { nl: "Ik zet me in zodat mijn wijk solidairder wordt.", en: "I'm getting involved so that people in my neighbourhood support each other more." }, items: [fr.s-engager], build: true }
+transforms:
+  - { id: x01, from: "Nous collectons des vêtements. Ainsi, les sans-abri n'auront pas froid.", key: afin, gapped: "Nous collectons des vêtements ___ n'aient pas froid.", answers: ["afin que les sans-abri"], items: [fr.afin-que, fr.sans-abri], native: { en: "We're collecting clothes so that homeless people won't be cold." } }
+  - { id: x02, from: "Mes parents donnent de l'argent à une association chaque année.", key: don, gapped: "Chaque année, mes parents ___ à une association.", answers: ["font un don"], items: [fr.faire-un-don], native: { en: "Every year my parents make a donation to an association." } }
+  - { id: x03, from: "Elle donne deux soirées par semaine au bénévolat.", key: consacre, gapped: "Elle ___ par semaine au bénévolat.", answers: ["consacre deux soirées"], items: [fr.consacrer], native: { en: "She devotes two evenings a week to volunteering." } }
+texts: [fr-b2-t13]

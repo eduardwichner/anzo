@@ -1,0 +1,66 @@
+id: fr-b1-u04
+title: { nl: Familie en feesten, en: "Family and celebrations" }
+icon: party
+topic: La famille, les fêtes et les traditions ; l'imparfait et le passé composé
+vocabulary:
+  - { target: le mariage, native: { nl: "de bruiloft, het huwelijk", en: "wedding, marriage" }, pos: noun, gender: m }
+  - { target: se marier, native: { nl: trouwen, en: "to get married, to marry" }, pos: verb }
+  - { target: la naissance, native: { nl: de geboorte, en: "birth" }, pos: noun, gender: f }
+  - { target: le neveu, native: { nl: de neef (zoon van broer of zus), en: "nephew" }, pos: noun, gender: m }
+  - { target: la nièce, native: { nl: de nicht (dochter van broer of zus), en: "niece" }, pos: noun, gender: f }
+  - { target: célébrer, native: { nl: vieren, en: "to celebrate" }, pos: verb }
+  - { target: la cérémonie, native: { nl: de plechtigheid, en: "ceremony" }, pos: noun, gender: f }
+  - { target: la tradition, native: { nl: de traditie, en: "tradition" }, pos: noun, gender: f }
+  - { target: traditionnel, native: { nl: traditioneel, en: "traditional" }, pos: adjective }
+  - { target: mourir, native: { nl: sterven, en: "to die" }, pos: verb }
+  - { target: la mort, native: { nl: de dood, en: "death" }, pos: noun, gender: f }
+  - { target: la génération, native: { nl: de generatie, en: "generation" }, pos: noun, gender: f }
+  - { target: la vie, native: { nl: het leven, en: "life" }, pos: noun, gender: f }
+  - { target: quotidien, native: { nl: dagelijks, en: "daily, everyday" }, pos: adjective }
+  - { target: le festival, native: { nl: het festival, en: "festival" }, pos: noun, gender: m }
+  - { target: l'ambiance, native: { nl: de sfeer, en: "atmosphere" }, pos: noun, gender: f, typedAlso: { en: [atmosphère] } }
+  - { target: l'occasion, native: { nl: de gelegenheid, en: "occasion" }, pos: noun, gender: f }
+  - { target: réunir, native: { nl: samenbrengen, en: "to bring together, to gather" }, pos: verb }
+  - { target: la réunion, native: { nl: de vergadering, en: "meeting" }, pos: noun, gender: f }
+  - { target: souhaiter, native: { nl: wensen, en: "to wish" }, pos: verb }
+  - { target: la merveille, native: { nl: het wonder (iets prachtigs), en: "marvel, wonder" }, pos: noun, gender: f }
+  - { target: la fois, native: { nl: de keer, en: "time (as in: the first time)" }, pos: noun, gender: f }
+  - { target: le moment, native: { nl: het moment, en: "moment" }, pos: noun, gender: m }
+  - { target: plutôt, native: { nl: eerder (liever), en: "rather" }, pos: adverb }
+  - { target: revivre, native: { nl: opnieuw beleven, en: "to relive" }, pos: verb }
+  - { target: retrouver, native: { nl: "terugvinden, weerzien", en: "to find again, to meet up with" }, pos: verb }
+  - { target: souligner, native: { nl: onderstrepen, en: "to underline" }, pos: verb }
+  - { target: inattendu, native: { nl: onverwacht, en: "unexpected" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Le mariage de ma tante a eu lieu en juin.", native: { nl: "De bruiloft van mijn tante vond in juni plaats.", en: "My aunt's wedding took place in June." }, items: [fr.mariage] }
+  - { id: s02, target: "Mes grands-parents se sont mariés il y a cinquante ans.", native: { nl: "Mijn grootouders zijn vijftig jaar geleden getrouwd.", en: "My grandparents got married fifty years ago." }, items: [fr.se-marier] }
+  - { id: s03, target: "Nous avons fêté la naissance de mon petit frère.", native: { nl: "We hebben de geboorte van mijn broertje gevierd.", en: "We celebrated the birth of my little brother." }, items: [fr.naissance] }
+  - { id: s04, target: "Mon neveu a trois ans et il parle déjà beaucoup.", native: { nl: "Mijn neefje is drie jaar en praat al veel.", en: "My nephew is three and he already talks a lot." }, items: [fr.neveu] }
+  - { id: s05, target: "Ma nièce vient passer les vacances chez nous.", native: { nl: "Mijn nichtje komt de vakantie bij ons doorbrengen.", en: "My niece is coming to spend the holidays with us." }, items: [fr.niece], finite: { word: vient, hint: { nl: "venir (présent)", en: "venir (present)" } } }
+  - { id: s06, target: "En Belgique, on célèbre la Saint-Nicolas le six décembre.", native: { nl: "In België vieren we Sinterklaas op zes december.", en: "In Belgium, people celebrate St Nicholas' Day on the sixth of December." }, items: [fr.celebrer], finite: { word: célèbre, hint: { nl: "célébrer (présent)", en: "célébrer (present)" } } }
+  - { id: s07, target: "La cérémonie était courte mais très belle.", native: { nl: "De plechtigheid was kort maar heel mooi.", en: "The ceremony was short but very beautiful." }, items: [fr.ceremonie] }
+  - { id: s08, target: "Dans notre famille, c'est une tradition de manger ensemble le dimanche.", native: { nl: "In onze familie is het een traditie om op zondag samen te eten.", en: "In our family, it's a tradition to eat together on Sundays." }, items: [fr.tradition] }
+  - { id: s09, target: "Ma grand-mère prépare toujours un plat traditionnel pour Noël.", native: { nl: "Mijn oma maakt altijd een traditioneel gerecht voor Kerstmis.", en: "My grandmother always makes a traditional dish for Christmas." }, items: [fr.traditionnel], acceptAlso: ["Pour Noël, ma grand-mère prépare toujours un plat traditionnel."] }
+  - { id: s10, target: "Mon grand-père est mort l'année dernière.", native: { nl: "Mijn opa is vorig jaar gestorven.", en: "My grandfather died last year." }, items: [fr.mourir] }
+  - { id: s11, target: "Beaucoup d'arbres meurent quand il fait trop chaud.", native: { nl: "Veel bomen sterven als het te warm is.", en: "A lot of trees die when it's too hot." }, items: [fr.mourir], finite: { word: meurent, hint: { nl: "mourir (présent)", en: "mourir (present)" } } }
+  - { id: s12, target: "La mort de son chien l'a rendue très triste.", native: { nl: "De dood van haar hond maakte haar heel verdrietig.", en: "The death of her dog made her very sad." }, items: [fr.mort] }
+  - { id: s13, target: "Trois générations habitent dans cette maison.", native: { nl: "In dit huis wonen drie generaties.", en: "Three generations live in this house." }, items: [fr.generation] }
+  - { id: s14, target: "Ma grand-mère a eu une vie très intéressante.", native: { nl: "Mijn oma heeft een heel interessant leven gehad.", en: "My grandmother has had a very interesting life." }, items: [fr.vie] }
+  - { id: s15, target: "Le téléphone fait partie de notre vie quotidienne.", native: { nl: "De telefoon hoort bij ons dagelijks leven.", en: "The phone is part of our daily life." }, items: [fr.quotidien] }
+  - { id: s16, target: "Cet été, nous allons à un festival de musique.", native: { nl: "Deze zomer gaan we naar een muziekfestival.", en: "This summer we're going to a music festival." }, items: [fr.festival] }
+  - { id: s17, target: "Il y avait une très bonne ambiance à la fête.", native: { nl: "Er hing een heel goede sfeer op het feest.", en: "There was a really good atmosphere at the party." }, items: [fr.ambiance] }
+  - { id: s18, target: "Pour l'occasion, toute la famille était là.", native: { nl: "Voor de gelegenheid was de hele familie er.", en: "For the occasion, the whole family was there." }, items: [fr.occasion], finite: { word: était, hint: { nl: "être (imparfait)", en: "être (imperfect)" } } }
+  - { id: s19, target: "Noël réunit toute la famille chez mes grands-parents.", native: { nl: "Kerstmis brengt de hele familie samen bij mijn grootouders.", en: "Christmas brings the whole family together at my grandparents'." }, items: [fr.reunir], finite: { word: réunit, hint: { nl: "réunir (présent)", en: "réunir (present)" } } }
+  - { id: s20, target: "Mes parents ont une réunion à l'école ce soir.", native: { nl: "Mijn ouders hebben vanavond een vergadering op school.", en: "My parents have a meeting at school this evening." }, items: [fr.reunion] }
+  - { id: s21, target: "Je te souhaite un bon anniversaire !", native: { nl: "Ik wens je een fijne verjaardag!", en: "I wish you a happy birthday!" }, items: [fr.souhaiter] }
+  - { id: s22, target: "Le gâteau de mariage était une vraie merveille.", native: { nl: "De bruidstaart was echt een wonder.", en: "The wedding cake was a real marvel." }, items: [fr.merveille] }
+  - { id: s23, target: "C'est la première fois que je vais à un mariage.", native: { nl: "Het is de eerste keer dat ik naar een bruiloft ga.", en: "It's my first time going to a wedding." }, items: [fr.fois] }
+  - { id: s24, target: "Ce moment avec ma famille était magnifique.", native: { nl: "Dat moment met mijn familie was prachtig.", en: "That moment with my family was wonderful." }, items: [fr.moment] }
+  - { id: s25, target: "Ce soir, je vais plutôt rester à la maison.", native: { nl: "Ik blijf vanavond liever thuis.", en: "This evening I'd rather stay at home." }, items: [fr.plutot], acceptAlso: ["Je vais plutôt rester à la maison ce soir."] }
+  - { id: s26, target: "En regardant ces photos, je revis ce beau voyage.", native: { nl: "Als ik naar deze foto's kijk, beleef ik die mooie reis opnieuw.", en: "Looking at these photos, I relive that lovely trip." }, items: [fr.revivre] }
+  - { id: s27, target: "J'ai retrouvé mes cousins après cinq ans.", native: { nl: "Ik heb mijn neven na vijf jaar teruggezien.", en: "I met up with my cousins again after five years." }, items: [fr.retrouver] }
+  - { id: s28, target: "Soulignez les mots importants dans le texte.", native: { nl: "Onderstreep de belangrijke woorden in de tekst.", en: "Underline the important words in the text." }, items: [fr.souligner] }
+  - { id: s29, target: "Sa visite était complètement inattendue.", native: { nl: "Zijn bezoek was helemaal onverwacht.", en: "His visit was completely unexpected." }, items: [fr.inattendu] }
+  - { id: s30, target: "Quand j'étais petit, la vie était simple.", native: { nl: "Toen ik klein was, was het leven eenvoudig.", en: "When I was little, life was simple." }, items: [fr.vie], build: true, acceptAlso: ["La vie était simple quand j'étais petit."] }
+  - { id: s31, target: "Nous mangions quand mon oncle est arrivé : c'était un moment inattendu.", native: { nl: "We waren aan het eten toen mijn oom aankwam: het was een onverwacht moment.", en: "We were eating when my uncle arrived: it was an unexpected moment." }, items: [fr.moment, fr.inattendu], build: true, finite: { word: mangions, hint: { nl: "manger (imparfait)", en: "manger (imperfect)" } } }
+texts: [fr-b1-t05]

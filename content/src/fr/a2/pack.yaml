@@ -1,0 +1,25 @@
+id: fr-a2
+cefr: A2
+# The exercises of the Pre-A1 to A2 packs are locked: the homophone rule for single-word listen_type is for new packs only.
+legacyListenType: true
+# Every sentence no exercise uses gets one in an optional extra lesson (<unit>-extra), appended after the
+# locked exercises (new ids only).
+extraLessons: true
+source: >-
+  DELF Prim A2 (France Éducation International). DELF Prim publishes no closed word list; every word is in the derived
+  DELF Prim word list (content/src/fr/WORDLIST.md, npm run content:wordlist -- fr) at level A2 or below: lemmas attested
+  in the child-facing text of the A2 sample papers (delf-prim-a2-livret-candidat, -transcription, -livret-examinateur: a
+  lost geography book, a class fish, a new pupil, a Swiss pen pal, a school trip to the mountains, an animal shelter
+  farm, a swimming outing, a tennis match invitation, the house, the favourite shop, the library, a birthday present),
+  completed per theme with everyday child words (source topic) and with concepts of Cambridge Flyers (source parity).
+  Grammar: passé composé with avoir and être, futur proche, comparatives, reflexive verbs of the daily routine, il faut,
+  weather and dates in full; imparfait, futur simple and conditionnel only in the forms the A2 papers use. Dutch
+  translations written by the content author.
+omit:
+  - { word: mal~n, reason: "taught in avoir mal (A1)" }
+  - { word: accord, reason: "taught in d'accord (A1.1) and être d'accord" }
+  - { word: besoin, reason: "taught in avoir besoin de" }
+  - { word: envie, reason: "taught in avoir envie de" }
+  - { word: peur, reason: "taught in avoir peur" }
+  - { word: portable, reason: "taught as le téléphone portable; same meaning" }
+  - { word: occuper, reason: "taught as s'occuper (de)" }

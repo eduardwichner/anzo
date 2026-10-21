@@ -1,0 +1,201 @@
+id: en-b1-u21
+title: { nl: Reizen en vakantie }
+icon: travel
+topic: Travelling, airports, hotels and holidays; future forms (be going to, will, the present continuous for arrangements)
+vocabulary:
+  - { target: abroad, native: { nl: in (naar) het buitenland }, pos: adverb }
+  - { target: foreign, native: { nl: buitenlands }, pos: adjective }
+  - { target: foreigner, native: { nl: buitenlander }, pos: noun }
+  - { target: international, native: { nl: internationaal }, pos: adjective }
+  - { target: tourism, native: { nl: toerisme }, pos: noun }
+  - { target: tourist, native: { nl: toerist }, pos: noun }
+  - { target: visitor, native: { nl: bezoeker }, pos: noun }
+  - { target: sightseeing, native: { nl: bezienswaardigheden bekijken }, pos: noun }
+  - { target: tourist information centre, native: { nl: toeristische dienst }, pos: noun }
+  - { target: guide, native: { nl: gids }, pos: noun, avoid: [en.tour-guide, en.guidebook] }
+  - { target: tour guide, native: { nl: gids (reisleider) }, pos: noun }
+  - { target: guidebook, native: { nl: reisgids }, pos: noun }
+  - { target: guided, native: { nl: begeleid (met gids) }, pos: adjective }
+  - { target: brochure, native: { nl: brochure }, pos: noun }
+  - { target: agency, native: { nl: bureau (agentschap) }, pos: noun, noBlank: true }
+  - { target: travel agent, native: { nl: reisagent }, pos: noun }
+  - { target: destination, native: { nl: bestemming }, pos: noun }
+  - { target: resort, native: { nl: vakantieoord }, pos: noun }
+  - { target: cruise, native: { nl: cruise }, pos: noun }
+  - { target: expedition, native: { nl: expeditie }, pos: noun }
+  - { target: explorer, native: { nl: ontdekkingsreiziger }, pos: noun }
+  - { target: backpacker, native: { nl: rugzaktoerist }, pos: noun }
+  - { target: backpacking, native: { nl: rugzaktoerisme }, pos: noun }
+  - { target: on holiday, native: { nl: op vakantie }, pos: phrase }
+  - { target: overnight, native: { nl: "'s nachts (een nacht lang)" }, pos: adverb }
+  - { target: set off, native: { nl: vertrekken (op weg gaan) }, pos: phrase, avoid: [en.set-out, en.go-off, en.depart], noBlank: true }
+  - { target: set out, native: { nl: op weg gaan }, pos: phrase, avoid: [en.go-off] }
+  - { target: go off, native: { nl: weggaan (vertrekken) }, pos: phrase }
+  - { target: get back, native: { nl: terugkomen }, pos: phrase }
+  - { target: return, native: { nl: "retourtje; terugkeer" }, pos: noun }
+  - { target: single, native: { nl: enkele reis }, pos: noun }
+  - { target: transfer, native: { nl: overstappen (overbrengen) }, pos: verb }
+  - { target: via, native: { nl: via }, pos: preposition }
+  - { target: pack, native: { nl: inpakken (een koffer) }, pos: verb, avoid: [en.unpack, en.wrap] }
+  - { target: unpack, native: { nl: uitpakken }, pos: verb }
+  - { target: case, native: { nl: koffer }, pos: noun }
+  - { target: luggage, native: { nl: bagage }, pos: noun, avoid: [en.baggage], noBlank: true }
+  - { target: baggage, native: { nl: bagage (op het vliegveld) }, pos: noun, noBlank: true }
+  - { target: airline, native: { nl: luchtvaartmaatschappij }, pos: noun }
+  - { target: flight, native: { nl: vlucht }, pos: noun, avoid: [en.charter] }
+  - { target: crew, native: { nl: bemanning }, pos: noun }
+  - { target: cabin, native: { nl: "cabine, hut" }, pos: noun }
+  - { target: on board, native: { nl: aan boord }, pos: phrase }
+  - { target: charter, native: { nl: chartervlucht }, pos: noun }
+  - { target: check-in, native: { nl: incheckbalie }, pos: noun }
+  - { id: en.check-in-1, target: check in, native: { nl: inchecken }, pos: phrase, avoid: [en.check-out] }
+  - { target: check out, native: { nl: uitchecken }, pos: phrase }
+  - { target: boarding pass, native: { nl: instapkaart }, pos: noun }
+  - { target: depart, native: { nl: vertrekken }, pos: verb }
+  - { target: departure, native: { nl: vertrek }, pos: noun, avoid: [en.arrival] }
+  - { target: arrival, native: { nl: aankomst }, pos: noun }
+  - { target: due, native: { nl: verwacht (op een tijdstip) }, pos: adjective, noBlank: true }
+  - { target: delay, native: { nl: vertraging }, pos: noun }
+  - { target: delayed, native: { nl: vertraagd }, pos: adjective }
+  - { target: cancel, native: { nl: annuleren }, pos: verb }
+  - { target: announcement, native: { nl: omroepbericht }, pos: noun }
+  - { target: passport, native: { nl: paspoort }, pos: noun }
+  - { target: visa, native: { nl: visum }, pos: noun }
+  - { target: ID card, native: { nl: identiteitskaart }, pos: noun, avoid: [en.identity-card], noBlank: true }
+  - { target: identity card, native: { nl: identiteitskaart (voluit) }, pos: noun, noBlank: true }
+  - { target: ID, native: { nl: identiteitsbewijs }, pos: noun, avoid: [en.identification], noBlank: true }
+  - { target: identification, native: { nl: identificatie }, pos: noun, noBlank: true }
+  - { target: nationality, native: { nl: nationaliteit }, pos: noun }
+  - { target: document, native: { nl: document }, pos: noun }
+  - { target: form, native: { nl: formulier }, pos: noun }
+  - { target: fill in, native: { nl: invullen }, pos: phrase }
+  - { target: signature, native: { nl: handtekening }, pos: noun }
+  - { target: put down, native: { nl: "opschrijven (inschrijven)" }, pos: phrase }
+  - { target: border, native: { nl: grens }, pos: noun }
+  - { target: customs, native: { nl: douane }, pos: noun }
+  - { target: immigration, native: { nl: immigratie (paspoortcontrole) }, pos: noun }
+  - { target: declare, native: { nl: aangeven (bij de douane) }, pos: verb }
+  - { target: duty-free, native: { nl: belastingvrij }, pos: adjective }
+  - { target: embassy, native: { nl: ambassade }, pos: noun }
+  - { target: currency, native: { nl: munteenheid }, pos: noun }
+  - { target: exchange rate, native: { nl: wisselkoers }, pos: noun }
+  - { target: accommodation, native: { nl: verblijf (onderdak) }, pos: noun }
+  - { target: hostel, native: { nl: jeugdherberg }, pos: noun }
+  - { target: guest-house, native: { nl: pension }, pos: noun }
+  - { target: reception, native: { nl: receptie }, pos: noun }
+  - { target: porter, native: { nl: piccolo (kruier) }, pos: noun }
+  - { target: luxury, native: { nl: luxe }, pos: noun }
+  - { target: booking, native: { nl: boeking }, pos: noun, avoid: [en.reservation], noBlank: true }
+  - { target: booking office, native: { nl: kassa (voor kaartjes) }, pos: noun, avoid: [en.checkout] }
+  - { target: reservation, native: { nl: reservering }, pos: noun, noBlank: true }
+  - { target: reserve, native: { nl: reserveren }, pos: verb, noBlank: true }
+  - { target: in advance, native: { nl: vooraf }, pos: phrase }
+  - { target: advance, native: { nl: "vooraf (in …)" }, pos: noun, avoid: [en.in-advance], noBlank: true }
+  - { target: confirm, native: { nl: bevestigen }, pos: verb }
+  - { target: request, native: { nl: verzoek }, pos: noun }
+  - { target: on request, native: { nl: op aanvraag }, pos: phrase }
+  - { target: enquire, native: { nl: informeren (navragen) }, pos: verb, noBlank: true }
+  - { target: enquiry, native: { nl: inlichting (vraag) }, pos: noun, avoid: [en.inquiry], noBlank: true }
+  - { target: inquiry, native: { nl: onderzoek (officieel) }, pos: noun, avoid: [en.research] }
+  - { target: lost, native: { nl: verdwaald }, pos: adjective }
+  - { target: souvenir, native: { nl: souvenir }, pos: noun }
+  - { target: unforgettable, native: { nl: onvergetelijk }, pos: adjective }
+sentences:
+  - { id: s01, target: "We're going abroad for the first time this summer.", native: { nl: "We gaan deze zomer voor het eerst naar het buitenland." }, items: [en.abroad], acceptAlso: ["This summer we're going abroad for the first time."] }
+  - { id: s02, target: "It's useful to learn a foreign language.", native: { nl: "Het is nuttig om een vreemde taal te leren." }, items: [en.foreign] }
+  - { id: s03, target: "Many foreigners come to study in Britain.", native: { nl: "Veel buitenlanders komen in Groot-Brittannië studeren." }, items: [en.foreigner] }
+  - { id: s04, target: "There's an international school in our city.", native: { nl: "Er is een internationale school in onze stad." }, items: [en.international] }
+  - { id: s05, target: "Tourism is very important for the island.", native: { nl: "Toerisme is heel belangrijk voor het eiland." }, items: [en.tourism] }
+  - { id: s06, target: "The town is full of tourists in August.", native: { nl: "De stad zit in augustus vol toeristen." }, items: [en.tourist], acceptAlso: ["In August the town is full of tourists."] }
+  - { id: s07, target: "The museum had a million visitors last year.", native: { nl: "Het museum had vorig jaar een miljoen bezoekers." }, items: [en.visitor], acceptAlso: ["Last year the museum had a million visitors."] }
+  - { id: s08, target: "We went sightseeing in Rome.", native: { nl: "We gingen bezienswaardigheden bekijken in Rome." }, items: [en.sightseeing] }
+  - { id: s09, target: "Ask at the tourist information centre for a map.", native: { nl: "Vraag een kaart bij de toeristische dienst." }, items: [en.tourist-information-centre], acceptAlso: ["Ask for a map at the tourist information centre."] }
+  - { id: s10, target: "Our guide spoke four languages.", native: { nl: "Onze gids sprak vier talen." }, items: [en.guide] }
+  - { id: s11, target: "The tour guide showed us the old town.", native: { nl: "De gids liet ons de oude stad zien." }, items: [en.tour-guide] }
+  - { id: s12, target: "According to the guidebook, the castle is closed on Mondays.", native: { nl: "Volgens de reisgids is het kasteel op maandag dicht." }, items: [en.guidebook] }
+  - { id: s13, target: "We went on a guided tour of the palace.", native: { nl: "We gingen mee met een rondleiding door het paleis." }, items: [en.guided] }
+  - { id: s14, target: "Can I take a brochure about the boat trips?", native: { nl: "Mag ik een brochure over de boottochten meenemen?" }, items: [en.brochure] }
+  - { id: s15, target: "We booked our holiday through a travel agency.", native: { nl: "We boekten onze vakantie via een reisbureau." }, items: [en.agency] }
+  - { id: s16, target: "The travel agent found us a cheap flight.", native: { nl: "De reisagent vond een goedkope vlucht voor ons." }, items: [en.travel-agent, en.flight] }
+  - { id: s17, target: "Spain is a popular destination for families.", native: { nl: "Spanje is een populaire bestemming voor gezinnen." }, items: [en.destination] }
+  - { id: s18, target: "We stayed at a ski resort in the Alps.", native: { nl: "We verbleven in een skioord in de Alpen." }, items: [en.resort] }
+  - { id: s19, target: "My grandparents went on a cruise for their anniversary.", native: { nl: "Mijn grootouders maakten een cruise voor hun trouwdag." }, items: [en.cruise] }
+  - { id: s20, target: "They went on an expedition to Antarctica.", native: { nl: "Ze gingen op expeditie naar Antarctica." }, items: [en.expedition] }
+  - { id: s21, target: "This book is about famous explorers.", native: { nl: "Dit boek gaat over beroemde ontdekkingsreizigers." }, items: [en.explorer] }
+  - { id: s22, target: "The hostel was full of young backpackers.", native: { nl: "De jeugdherberg zat vol jonge rugzaktoeristen." }, items: [en.backpacker, en.hostel] }
+  - { id: s23, target: "Backpacking is a cheap way to see the world.", native: { nl: "Rugzaktoerisme is een goedkope manier om de wereld te zien." }, items: [en.backpacking] }
+  - { id: s24, target: "My teacher is on holiday in Greece.", native: { nl: "Mijn leraar is op vakantie in Griekenland." }, items: [en.on-holiday] }
+  - { id: s25, target: "We travelled overnight by train.", native: { nl: "We reisden 's nachts met de trein." }, items: [en.overnight] }
+  - { id: s26, target: "We set off early to avoid the traffic.", native: { nl: "We vertrokken vroeg om het verkeer te vermijden." }, items: [en.set-off] }
+  - { id: s27, target: "They set out on a long journey across Africa.", native: { nl: "Ze gingen op weg voor een lange reis door Afrika." }, items: [en.set-out] }
+  - { id: s28, target: "After lunch they went off to the beach.", native: { nl: "Na de lunch gingen ze weg naar het strand." }, items: [en.go-off], acceptAlso: ["They went off to the beach after lunch."] }
+  - { id: s29, target: "When did you get back from your holiday?", native: { nl: "Wanneer ben je teruggekomen van je vakantie?" }, items: [en.get-back] }
+  - { id: s30, target: "A return to Manchester, please.", native: { nl: "Een retourtje naar Manchester, alstublieft." }, items: [en.return] }
+  - { id: s31, target: "A single ticket is only a little cheaper than a return.", native: { nl: "Een enkele reis is maar een beetje goedkoper dan een retourtje." }, items: [en.single, en.return] }
+  - { id: s32, target: "We have to transfer to another flight in Frankfurt.", native: { nl: "We moeten in Frankfurt overstappen op een andere vlucht." }, items: [en.transfer] }
+  - { id: s33, target: "We flew to Japan via London.", native: { nl: "We vlogen via Londen naar Japan." }, items: [en.via] }
+  - { id: s34, target: "Have you packed your suitcase yet?", native: { nl: "Heb je je koffer al ingepakt?" }, items: [en.pack] }
+  - { id: s35, target: "I'm too tired to unpack tonight.", native: { nl: "Ik ben te moe om vanavond uit te pakken." }, items: [en.unpack] }
+  - { id: s36, target: "Can I help you carry your case?", native: { nl: "Zal ik je helpen je koffer te dragen?" }, items: [en.case] }
+  - { id: s37, target: "Don't leave your luggage on the platform.", native: { nl: "Laat je bagage niet op het perron staan." }, items: [en.luggage] }
+  - { id: s38, target: "Our baggage arrived on a different plane.", native: { nl: "Onze bagage kwam met een ander vliegtuig." }, items: [en.baggage] }
+  - { id: s39, target: "Which airline are you flying with?", native: { nl: "Met welke luchtvaartmaatschappij vlieg je?" }, items: [en.airline] }
+  - { id: s40, target: "The cabin crew served drinks and snacks.", native: { nl: "Het cabinepersoneel serveerde drankjes en snacks." }, items: [en.crew, en.cabin] }
+  - { id: s41, target: "There are two hundred passengers on board.", native: { nl: "Er zijn tweehonderd passagiers aan boord." }, items: [en.on-board] }
+  - { id: s42, target: "We flew to Spain on a cheap charter.", native: { nl: "We vlogen met een goedkope chartervlucht naar Spanje." }, items: [en.charter] }
+  - { id: s43, target: "Your keys are at the check-in desk.", native: { nl: "Je sleutels liggen bij de incheckbalie." }, items: [en.check-in] }
+  - { id: s44, target: "We checked in at the hotel at three o'clock.", native: { nl: "We checkten om drie uur in bij het hotel." }, items: [en.check-in-1], acceptAlso: ["At three o'clock we checked in at the hotel."] }
+  - { id: s45, target: "You must check out before eleven.", native: { nl: "Je moet voor elf uur uitchecken." }, items: [en.check-out] }
+  - { id: s46, target: "Show your boarding pass at the gate.", native: { nl: "Laat je instapkaart zien bij de gate." }, items: [en.boarding-pass] }
+  - { id: s47, target: "The train departs from platform four.", native: { nl: "De trein vertrekt van perron vier." }, items: [en.depart] }
+  - { id: s48, target: "Check the departure time on the board.", native: { nl: "Kijk op het bord hoe laat het vertrek is." }, items: [en.departure] }
+  - { id: s49, target: "What's our arrival time?", native: { nl: "Hoe laat komen we aan?" }, items: [en.arrival] }
+  - { id: s50, target: "The next bus is due in five minutes.", native: { nl: "De volgende bus wordt over vijf minuten verwacht." }, items: [en.due] }
+  - { id: s51, target: "There's a two-hour delay because of the fog.", native: { nl: "Er is twee uur vertraging door de mist." }, items: [en.delay] }
+  - { id: s52, target: "Our flight was delayed by an hour.", native: { nl: "Onze vlucht had een uur vertraging." }, items: [en.delayed] }
+  - { id: s53, target: "They cancelled the trip because of the storm.", native: { nl: "Ze annuleerden de reis vanwege de storm." }, items: [en.cancel], finite: { word: cancelled, hint: { nl: "cancel (verleden tijd)" } } }
+  - { id: s54, target: "Listen to the announcement. Our train is late.", native: { nl: "Luister naar het omroepbericht. Onze trein heeft vertraging." }, items: [en.announcement] }
+  - { id: s55, target: "Don't forget your passport!", native: { nl: "Vergeet je paspoort niet!" }, items: [en.passport] }
+  - { id: s56, target: "You need a visa to visit some countries.", native: { nl: "Voor sommige landen heb je een visum nodig." }, items: [en.visa] }
+  - { id: s57, target: "In Belgium, everyone over twelve has an ID card.", native: { nl: "In België heeft iedereen boven de twaalf een identiteitskaart." }, items: [en.id-card], acceptAlso: ["Everyone over twelve has an ID card in Belgium."] }
+  - { id: s58, target: "You can travel in Europe with your identity card.", native: { nl: "Je kunt in Europa reizen met je identiteitskaart." }, items: [en.identity-card] }
+  - { id: s59, target: "Have you got any ID?", native: { nl: "Heb je een identiteitsbewijs?" }, items: [en.id] }
+  - { id: s60, target: "You need identification to open a bank account.", native: { nl: "Je hebt identificatie nodig om een bankrekening te openen." }, items: [en.identification] }
+  - { id: s61, target: "What nationality is your friend?", native: { nl: "Welke nationaliteit heeft je vriend?" }, items: [en.nationality] }
+  - { id: s62, target: "Keep your travel documents in a safe place.", native: { nl: "Bewaar je reisdocumenten op een veilige plek." }, items: [en.document] }
+  - { id: s63, target: "Please complete this form.", native: { nl: "Vul alstublieft dit formulier in." }, items: [en.form] }
+  - { id: s64, target: "You need to fill in a form at the border.", native: { nl: "Je moet een formulier invullen aan de grens." }, items: [en.fill-in, en.border] }
+  - { id: s65, target: "Put your signature at the bottom of the page.", native: { nl: "Zet je handtekening onderaan de bladzijde." }, items: [en.signature] }
+  - { id: s66, target: "She put her name down for the school trip.", native: { nl: "Ze schreef zich in voor het schoolreisje." }, items: [en.put-down] }
+  - { id: s67, target: "We had to wait for an hour at customs.", native: { nl: "We moesten een uur wachten bij de douane." }, items: [en.customs], acceptAlso: ["At customs we had to wait for an hour."] }
+  - { id: s68, target: "The queue at immigration was very long.", native: { nl: "De rij bij de paspoortcontrole was heel lang." }, items: [en.immigration] }
+  - { id: s69, target: "Have you got anything to declare?", native: { nl: "Hebt u iets aan te geven?" }, items: [en.declare] }
+  - { id: s70, target: "We bought chocolate in the duty-free shop.", native: { nl: "We kochten chocola in de taxfreewinkel." }, items: [en.duty-free] }
+  - { id: s71, target: "If you lose your passport, go to the embassy.", native: { nl: "Als je je paspoort verliest, ga dan naar de ambassade." }, items: [en.embassy] }
+  - { id: s72, target: "The local currency is the euro.", native: { nl: "De plaatselijke munteenheid is de euro." }, items: [en.currency] }
+  - { id: s73, target: "The exchange rate is better at the bank.", native: { nl: "De wisselkoers is beter bij de bank." }, items: [en.exchange-rate] }
+  - { id: s74, target: "The price includes flights and accommodation.", native: { nl: "De prijs is inclusief vluchten en verblijf." }, items: [en.accommodation] }
+  - { id: s75, target: "We stayed in a small guest-house by the sea.", native: { nl: "We verbleven in een klein pension aan zee." }, items: [en.guest-house] }
+  - { id: s76, target: "Leave your key at reception.", native: { nl: "Laat je sleutel bij de receptie achter." }, items: [en.reception] }
+  - { id: s77, target: "The porter carried our cases to our room.", native: { nl: "De piccolo droeg onze koffers naar onze kamer." }, items: [en.porter] }
+  - { id: s78, target: "The hotel had a pool and every luxury.", native: { nl: "Het hotel had een zwembad en alle luxe." }, items: [en.luxury] }
+  - { id: s79, target: "I have a booking for two nights.", native: { nl: "Ik heb een boeking voor twee nachten." }, items: [en.booking] }
+  - { id: s80, target: "Buy your tickets at the booking office.", native: { nl: "Koop je kaartjes aan de kassa." }, items: [en.booking-office] }
+  - { id: s81, target: "We made a reservation for six people.", native: { nl: "We maakten een reservering voor zes personen." }, items: [en.reservation] }
+  - { id: s82, target: "I'd like to reserve a table for tonight.", native: { nl: "Ik wil graag een tafel reserveren voor vanavond." }, items: [en.reserve] }
+  - { id: s83, target: "It's cheaper if you book in advance.", native: { nl: "Het is goedkoper als je vooraf boekt." }, items: [en.in-advance] }
+  - { id: s84, target: "In summer you should always book in advance.", native: { nl: "In de zomer moet je altijd vooraf boeken." }, items: [en.advance], acceptAlso: ["You should always book in advance in summer."] }
+  - { id: s85, target: "Please confirm your booking by email.", native: { nl: "Bevestig je boeking alsjeblieft per e-mail." }, items: [en.confirm] }
+  - { id: s86, target: "The hotel agreed to our request for a quiet room.", native: { nl: "Het hotel ging akkoord met ons verzoek om een rustige kamer." }, items: [en.request] }
+  - { id: s87, target: "A baby bed is available on request.", native: { nl: "Een babybedje is op aanvraag beschikbaar." }, items: [en.on-request] }
+  - { id: s88, target: "I'm writing to enquire about your summer camps.", native: { nl: "Ik schrijf om te informeren naar jullie zomerkampen." }, items: [en.enquire] }
+  - { id: s89, target: "Thank you for your enquiry.", native: { nl: "Bedankt voor uw vraag." }, items: [en.enquiry] }
+  - { id: s90, target: "There will be an inquiry into the accident.", native: { nl: "Er komt een onderzoek naar het ongeluk." }, items: [en.inquiry] }
+  - { id: s91, target: "We got lost in the old part of the city.", native: { nl: "We verdwaalden in het oude deel van de stad." }, items: [en.lost] }
+  - { id: s92, target: "I bought a small souvenir for my grandmother.", native: { nl: "Ik kocht een klein souvenir voor mijn oma." }, items: [en.souvenir] }
+  - { id: s93, target: "It was an unforgettable holiday.", native: { nl: "Het was een onvergetelijke vakantie." }, items: [en.unforgettable] }
+  - { id: s94, target: "Our flight to Lisbon leaves on Saturday. We're going to visit my aunt.", native: { nl: "Onze vlucht naar Lissabon vertrekt zaterdag. We gaan mijn tante bezoeken." }, items: [en.flight] }
+  - { id: s95, target: "We're setting off for Rome on Friday.", native: { nl: "We vertrekken vrijdag naar Rome." }, items: [en.set-off] }
+  - { id: s96, target: "I'm going to stay in a hostel.", native: { nl: "Ik ga in een jeugdherberg logeren." }, items: [en.hostel], build: true }
+  - { id: s97, target: "I think our luggage will be too heavy.", native: { nl: "Ik denk dat onze bagage te zwaar zal zijn." }, items: [en.luggage] }
+texts: [en-b1-t22]

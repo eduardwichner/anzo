@@ -1,0 +1,47 @@
+id: nl-b2-study-u05
+title: { en: Language and language change }
+icon: language
+topic: Dialect, tussentaal and standard language in Flanders, loanwords, spelling and pronunciation, the language of young people and of chat; the passive with door (wordt … door … gebruikt)
+vocabulary:
+  - { target: het dialect, native: { en: dialect }, pos: noun, plural: dialecten }
+  - { target: de tussentaal, native: { en: "tussentaal (the informal in-between language of Flanders, between dialect and standard Dutch)" }, pos: noun, plural: "-" }
+  - { target: de standaardtaal, native: { en: "standard language" }, pos: noun, plural: "-" }
+  - { target: het leenwoord, native: { en: loanword }, pos: noun, plural: leenwoorden }
+  - { target: tweetalig, native: { en: bilingual }, pos: adjective }
+  - { target: de spelling, native: { en: spelling }, pos: noun, plural: "-" }
+  - { target: de uitspraak, native: { en: pronunciation }, pos: noun, plural: uitspraken }
+  - { target: uitspreken, native: { en: to pronounce }, pos: verb }
+  - { target: ontlenen, native: { en: "to borrow (a word, an idea; + aan: from)" }, pos: verb }
+  - { target: de taalkundige, native: { en: linguist }, pos: noun, plural: taalkundigen }
+  - { target: de woordenschat, native: { en: vocabulary }, pos: noun, plural: "-" }
+  - { target: de grammatica, native: { en: grammar }, pos: noun, plural: "-" }
+  - { target: het taalgebruik, native: { en: "use of language, language (the way people speak or write)" }, pos: noun, plural: "-" }
+  - { target: de jongerentaal, native: { en: "the language of young people, youth slang" }, pos: noun, plural: "-" }
+  - { target: de afkorting, native: { en: abbreviation }, pos: noun, plural: afkortingen }
+  - { target: de norm, native: { en: "norm, standard" }, pos: noun, plural: normen, avoid: [nl.standaardtaal] }
+  - { target: chatten, native: { en: "to chat (online)" }, pos: verb }
+sentences:
+  - { id: s01, target: "In elk Vlaams dorp spreken de oudere mensen een eigen dialect.", native: { en: "In every Flemish village the older people speak their own dialect." }, items: [nl.dialect], acceptAlso: ["De oudere mensen spreken in elk Vlaams dorp een eigen dialect."] }
+  - { id: s02, target: "Tussentaal ligt tussen het dialect en de standaardtaal.", native: { en: "Tussentaal lies between dialect and the standard language." }, items: [nl.tussentaal, nl.standaardtaal] }
+  - { id: s03, target: "Op het journaal wordt de standaardtaal gebruikt.", native: { en: "Standard Dutch is used on the news." }, items: [nl.standaardtaal], acceptAlso: ["De standaardtaal wordt op het journaal gebruikt."] }
+  - { id: s04, target: "Het woord computer is een leenwoord uit het Engels.", native: { en: "Computer is a loanword from English." }, items: [nl.leenwoord] }
+  - { id: s05, target: "In een tweetalig gezin leren kinderen twee talen tegelijk.", native: { en: "In a bilingual family children learn two languages at the same time." }, items: [nl.tweetalig] }
+  - { id: s06, target: "De spelling van het Nederlands verandert soms.", native: { en: "The spelling of Dutch sometimes changes." }, items: [nl.spelling] }
+  - { id: s07, target: "Zijn uitspraak is perfect, maar zijn grammatica niet.", native: { en: "His pronunciation is perfect, but his grammar isn't." }, items: [nl.uitspraak, nl.grammatica] }
+  - { id: s08, target: "Het Nederlands heeft veel woorden aan het Frans ontleend.", native: { en: "Dutch has borrowed many words from French." }, items: [nl.ontlenen], acceptAlso: ["Het Nederlands heeft veel woorden ontleend aan het Frans."] }
+  - { id: s09, target: "Een taalkundige onderzoekt hoe een taal werkt.", native: { en: "A linguist studies how a language works." }, items: [nl.taalkundige] }
+  - { id: s10, target: "Wie veel leest, krijgt een grotere woordenschat.", native: { en: "Anyone who reads a lot gets a larger vocabulary." }, items: [nl.woordenschat] }
+  - { id: s11, target: "Het taalgebruik op sociale media is anders dan in een brief.", native: { en: "The language used on social media is different from that in a letter." }, items: [nl.taalgebruik] }
+  - { id: s12, target: "Ouders begrijpen de jongerentaal van hun kinderen niet altijd.", native: { en: "Parents don't always understand their children's slang." }, items: [nl.jongerentaal] }
+  - { id: s13, target: "Jongeren gebruiken veel afkortingen als ze chatten.", native: { en: "Young people use a lot of abbreviations when they chat." }, items: [nl.afkorting, nl.chatten] }
+  - { id: s14, target: "Wie beslist eigenlijk wat de norm is voor goed Nederlands?", native: { en: "Who actually decides what the standard is for good Dutch?" }, items: [nl.norm], acceptAlso: ["Wie beslist eigenlijk wat de norm voor goed Nederlands is?"] }
+  - { id: s15, target: "Veel leenwoorden uit het Engels worden vooral door jongeren gebruikt.", native: { en: "Many loanwords from English are used mainly by young people." }, items: [nl.leenwoord], build: true, acceptAlso: ["Veel leenwoorden uit het Engels worden vooral gebruikt door jongeren.", "Vooral door jongeren worden veel leenwoorden uit het Engels gebruikt."] }
+  - { id: s16, target: "Hoe spreek je dat woord uit?", native: { en: "How do you pronounce that word?" }, items: [nl.uitspreken] }
+  - { id: s17, target: "De regels van de spelling werden in 2005 voor het laatst veranderd.", native: { en: "The spelling rules were last changed in 2005." }, items: [nl.spelling], build: true, acceptAlso: ["In 2005 werden de regels van de spelling voor het laatst veranderd.", "De regels van de spelling werden voor het laatst in 2005 veranderd.", "Voor het laatst werden de regels van de spelling in 2005 veranderd.", "In 2005 werden voor het laatst de regels van de spelling veranderd."] }
+  - { id: s18, target: "De uitspraak van dat woord is moeilijk.", native: { en: "The pronunciation of that word is difficult." }, items: [nl.uitspraak] }
+  - { id: s20, target: "De jongerentaal is altijd in verandering.", native: { en: "Youth slang is always changing." }, items: [nl.jongerentaal], form: { word: verandering, stem: veranderen } }
+  - { id: s19, target: "Mijn broer chatte de hele avond met zijn vrienden.", native: { en: "My brother chatted with his friends all evening." }, items: [nl.chatten], finite: { word: chatte, hint: { en: "chatten (past)" } } }
+transforms:
+  - { id: x01, from: "Veel ouderen spreken nog dialect.", key: door, gapped: "Dialect ___ gesproken.", answers: ["wordt nog door veel ouderen", "wordt door veel ouderen nog"], native: { en: "Dialect is still spoken by many older people." }, items: [nl.dialect] }
+  - { id: x02, from: "Het Nederlands nam dat woord over uit het Frans.", key: ontleend, gapped: "Dat woord is ___ Frans.", answers: ["ontleend aan het", "door het Nederlands ontleend aan het"], items: [nl.ontlenen] }
+texts: [nl-b2-study-t05]

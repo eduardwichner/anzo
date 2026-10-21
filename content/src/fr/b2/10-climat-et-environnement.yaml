@@ -1,0 +1,69 @@
+id: fr-b2-u10
+title: { nl: Klimaat en milieu, en: "Climate and the environment" }
+icon: leaf
+topic: Le changement climatique et ses causes, la météo extrême, le plastique et les déchets, les manifestations et les campagnes ; l'irréel du passé (si + plus-que-parfait, conditionnel passé)
+vocabulary:
+  - { target: le changement climatique, native: { nl: de klimaatverandering, en: "climate change" }, pos: noun, gender: m }
+  - { target: les gaz à effet de serre, native: { nl: de broeikasgassen, en: "greenhouse gases" }, pos: noun, gender: m }
+  - { target: l'empreinte carbone, native: { nl: de koolstofvoetafdruk, en: "carbon footprint" }, pos: noun, gender: f }
+  - { target: la sécheresse, native: { nl: de droogte, en: "drought" }, pos: noun, gender: f }
+  - { target: la canicule, native: { nl: de hittegolf, en: "heatwave" }, pos: noun, gender: f }
+  - { target: fondre, native: { nl: smelten, en: "to melt" }, pos: verb }
+  - { target: le glacier, native: { nl: de gletsjer, en: "glacier" }, pos: noun, gender: m }
+  - { target: le niveau de la mer, native: { nl: de zeespiegel, en: "sea level" }, pos: noun, gender: m }
+  - { target: menacer, native: { nl: bedreigen, en: "to threaten" }, pos: verb }
+  - { target: pollué, native: { nl: vervuild, en: "polluted" }, pos: adjective }
+  - { target: jetable, native: { nl: "wegwerp-", en: "disposable, single-use" }, pos: adjective }
+  - { target: le recyclage, native: { nl: "de recyclage, het recycleren", en: "recycling" }, pos: noun, gender: m, noBlank: true }
+  - { target: réutiliser, native: { nl: hergebruiken, en: "to reuse" }, pos: verb }
+  - { target: trier, native: { nl: "sorteren (afval)", en: "to sort out, to separate (rubbish)" }, pos: verb }
+  - { target: l'énergie renouvelable, native: { nl: "de hernieuwbare energie", en: "renewable energy" }, pos: noun, gender: f }
+  - { target: l'éolienne, native: { nl: "de windturbine, de windmolen", en: "wind turbine" }, pos: noun, gender: f }
+  - { target: le panneau solaire, native: { nl: het zonnepaneel, en: "solar panel" }, pos: noun, gender: m }
+  - { target: les énergies fossiles, native: { nl: "de fossiele brandstoffen", en: "fossil fuels" }, pos: noun, gender: f }
+  - { target: le pétrole, native: { nl: de aardolie, en: "crude oil, petroleum" }, pos: noun, gender: m }
+  - { target: le militant, native: { nl: "de activist, de militant", en: "activist, campaigner" }, pos: noun, gender: m }
+  - { target: manifester, native: { nl: betogen, en: "to demonstrate, to protest" }, pos: verb }
+  - { target: la manifestation, native: { nl: de betoging, en: "demonstration, protest" }, pos: noun, gender: f }
+  - { target: la pétition, native: { nl: de petitie, en: "petition" }, pos: noun, gender: f, noBlank: true }
+  - { target: signer, native: { nl: ondertekenen, en: "to sign" }, pos: verb }
+  - { target: interdire, native: { nl: verbieden, en: "to ban, to forbid" }, pos: verb }
+  - { target: l'interdiction, native: { nl: het verbod, en: "ban" }, pos: noun, gender: f }
+  - { target: l'impact, native: { nl: "de impact, de invloed", en: "impact" }, pos: noun, gender: m, noBlank: true }
+  - { target: la conséquence, native: { nl: het gevolg, en: "consequence" }, pos: noun, gender: f }
+  - { target: urgent, native: { nl: dringend, en: "urgent" }, pos: adjective }
+  - { target: la catastrophe, native: { nl: de ramp, en: "disaster, catastrophe" }, pos: noun, gender: f }
+sentences:
+  - { id: s01, target: "Le changement climatique touche tous les pays.", native: { nl: "De klimaatverandering treft alle landen.", en: "Climate change affects every country." }, items: [fr.changement-climatique] }
+  - { id: s02, target: "Les voitures produisent beaucoup de gaz à effet de serre.", native: { nl: "Auto's stoten veel broeikasgassen uit.", en: "Cars produce a lot of greenhouse gases." }, items: [fr.gaz-a-effet-de-serre] }
+  - { id: s03, target: "Prendre l'avion augmente beaucoup ton empreinte carbone.", native: { nl: "Het vliegtuig nemen vergroot je koolstofvoetafdruk sterk.", en: "Flying greatly increases your carbon footprint." }, items: [fr.empreinte-carbone] }
+  - { id: s04, target: "Après des mois de sécheresse, la rivière était presque vide.", native: { nl: "Na maanden droogte was de rivier bijna leeg.", en: "After months of drought, the river was almost empty." }, items: [fr.secheresse] }
+  - { id: s05, target: "Pendant la canicule, il a fait plus de quarante degrés.", native: { nl: "Tijdens de hittegolf was het meer dan veertig graden.", en: "During the heatwave, it was over forty degrees." }, items: [fr.canicule], acceptAlso: ["Il a fait plus de quarante degrés pendant la canicule."] }
+  - { id: s06, target: "Les glaciers fondent de plus en plus vite.", native: { nl: "De gletsjers smelten steeds sneller.", en: "Glaciers are melting faster and faster." }, items: [fr.glacier, fr.fondre] }
+  - { id: s07, target: "Le niveau de la mer monte chaque année.", native: { nl: "De zeespiegel stijgt elk jaar.", en: "The sea level is rising every year." }, items: [fr.niveau-de-la-mer] }
+  - { id: s08, target: "Le plastique menace les poissons et les oiseaux.", native: { nl: "Plastic bedreigt vissen en vogels.", en: "Plastic threatens fish and birds." }, items: [fr.menacer] }
+  - { id: s09, target: "L'air de cette ville est très pollué.", native: { nl: "De lucht in deze stad is erg vervuild.", en: "The air in this city is very polluted." }, items: [fr.pollue] }
+  - { id: s10, target: "Notre école n'utilise plus de bouteilles jetables.", native: { nl: "Onze school gebruikt geen wegwerpflessen meer.", en: "Our school doesn't use disposable bottles any more." }, items: [fr.jetable] }
+  - { id: s11, target: "Le recyclage du papier permet de sauver des arbres.", native: { nl: "Het recycleren van papier redt bomen.", en: "Recycling paper helps to save trees." }, items: [fr.recyclage] }
+  - { id: s12, target: "On peut réutiliser ces bouteilles plusieurs fois.", native: { nl: "Je kunt deze flessen verschillende keren hergebruiken.", en: "You can reuse these bottles several times." }, items: [fr.reutiliser] }
+  - { id: s13, target: "À la maison, nous trions nos déchets.", native: { nl: "Thuis sorteren we ons afval.", en: "At home, we sort our rubbish." }, items: [fr.trier], finite: { word: trions, hint: { nl: "trier (présent)", en: "trier (present)" } }, acceptAlso: ["Nous trions nos déchets à la maison."] }
+  - { id: s14, target: "La Belgique produit de plus en plus d'énergie renouvelable.", native: { nl: "België produceert steeds meer hernieuwbare energie.", en: "Belgium produces more and more renewable energy." }, items: [fr.energie-renouvelable] }
+  - { id: s15, target: "On a construit des éoliennes en mer, près de la côte.", native: { nl: "Er zijn windturbines op zee gebouwd, vlak bij de kust.", en: "Wind turbines have been built at sea, near the coast." }, items: [fr.eolienne] }
+  - { id: s16, target: "Nos voisins ont installé des panneaux solaires sur leur toit.", native: { nl: "Onze buren hebben zonnepanelen op hun dak geïnstalleerd.", en: "Our neighbours have installed solar panels on their roof." }, items: [fr.panneau-solaire] }
+  - { id: s17, target: "Il faut arrêter d'utiliser les énergies fossiles comme le pétrole.", native: { nl: "We moeten stoppen met het gebruik van fossiele brandstoffen zoals aardolie.", en: "We have to stop using fossil fuels such as oil." }, items: [fr.energies-fossiles, fr.petrole] }
+  - { id: s18, target: "Des militants ont manifesté devant la mairie.", native: { nl: "Activisten hebben voor het stadhuis betoogd.", en: "Activists demonstrated in front of the town hall." }, items: [fr.militant, fr.manifester] }
+  - { id: s19, target: "Des milliers de jeunes ont participé à la manifestation pour le climat.", native: { nl: "Duizenden jongeren namen deel aan de klimaatbetoging.", en: "Thousands of young people took part in the climate demonstration." }, items: [fr.manifestation] }
+  - { id: s20, target: "Plus de dix mille personnes ont signé la pétition.", native: { nl: "Meer dan tienduizend mensen hebben de petitie ondertekend.", en: "More than ten thousand people have signed the petition." }, items: [fr.petition, fr.signer] }
+  - { id: s21, target: "La ville veut interdire les voitures dans le centre.", native: { nl: "De stad wil auto's in het centrum verbieden.", en: "The town wants to ban cars from the centre." }, items: [fr.interdire] }
+  - { id: s22, target: "Une interdiction des sacs en plastique aurait un grand impact.", native: { nl: "Een verbod op plastic zakjes zou een grote impact hebben.", en: "A ban on plastic bags would have a big impact." }, items: [fr.interdiction, fr.impact], form: { word: interdiction, stem: interdire } }
+  - { id: s23, target: "La pollution a des conséquences sérieuses pour la santé.", native: { nl: "Vervuiling heeft ernstige gevolgen voor de gezondheid.", en: "Pollution has serious consequences for health." }, items: [fr.consequence] }
+  - { id: s24, target: "C'est un problème urgent : nous ne pouvons pas attendre.", native: { nl: "Het is een dringend probleem: we kunnen niet wachten.", en: "It's an urgent problem: we can't wait." }, items: [fr.urgent] }
+  - { id: s25, target: "Les inondations ont été une vraie catastrophe pour la région.", native: { nl: "De overstromingen waren een echte ramp voor de streek.", en: "The floods were a real disaster for the region." }, items: [fr.catastrophe] }
+  - { id: s26, target: "Si on avait agi plus tôt, on aurait évité cette catastrophe.", native: { nl: "Als we eerder hadden ingegrepen, hadden we die ramp vermeden.", en: "If we had acted earlier, we would have avoided this disaster." }, items: [fr.catastrophe], build: true, acceptAlso: ["On aurait évité cette catastrophe si on avait agi plus tôt."] }
+  - { id: s27, target: "Si j'avais su, j'aurais signé la pétition.", native: { nl: "Als ik het had geweten, had ik de petitie ondertekend.", en: "If I had known, I would have signed the petition." }, items: [fr.petition], build: true, acceptAlso: ["J'aurais signé la pétition si j'avais su."] }
+  - { id: s28, target: "Le recyclage est utile, mais il faut d'abord produire moins de déchets.", native: { nl: "Recycleren is nuttig, maar eerst moeten we minder afval produceren.", en: "Recycling is useful, but we must first produce less waste." }, items: [fr.recyclage], form: { word: recyclage, stem: recycler } }
+transforms:
+  - { id: x01, from: "Nous n'avons pas agi plus tôt, alors nous n'avons pas évité la catastrophe.", key: avions, gapped: "Si nous ___ plus tôt, nous aurions évité la catastrophe.", answers: ["avions agi"], items: [fr.catastrophe], native: { en: "If we had acted earlier, we would have avoided the disaster." } }
+  - { id: x02, from: "Les sacs en plastique sont interdits depuis l'année dernière.", key: interdiction, gapped: "L'___ en plastique date de l'année dernière.", answers: ["interdiction des sacs"], items: [fr.interdiction], native: { en: "The ban on plastic bags dates from last year." } }
+  - { id: x03, from: "La pollution a des effets sérieux sur la santé.", key: conséquences, gapped: "La pollution ___ la santé.", answers: ["a des conséquences sérieuses pour", "a des conséquences sérieuses sur", "a de sérieuses conséquences sur", "a de sérieuses conséquences pour"], items: [fr.consequence], native: { en: "Pollution has serious consequences for health." } }
+texts: [fr-b2-t10]

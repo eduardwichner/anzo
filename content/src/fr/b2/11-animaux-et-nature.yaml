@@ -1,0 +1,71 @@
+id: fr-b2-u11
+title: { nl: Dieren en de natuur, en: "Animals and nature" }
+icon: animal
+topic: Les animaux sauvages et leurs habitats, les espèces menacées et leur protection, la recherche dans la nature ; les pronoms relatifs composés (lequel, laquelle, auquel, duquel) et dont
+vocabulary:
+  - { target: l'habitat, native: { nl: "de habitat, de leefomgeving", en: "habitat" }, pos: noun, gender: m, noBlank: true, avoid: [fr.milieu-naturel] }
+  - { target: le milieu naturel, native: { nl: "de natuurlijke leefomgeving", en: "natural environment, the wild" }, pos: noun, gender: m, avoid: [fr.habitat] }
+  - { target: en voie de disparition, native: { nl: "met uitsterven bedreigd", en: "endangered" }, pos: adjective, typedAlso: { en: [en danger, menacée] } }
+  - { target: la disparition, native: { nl: "het verdwijnen, het uitsterven", en: "disappearance, extinction" }, pos: noun, gender: f }
+  - { target: la protection, native: { nl: de bescherming, en: "protection" }, pos: noun, gender: f }
+  - { target: la colonie, native: { nl: de kolonie, en: "colony" }, pos: noun, gender: f, noBlank: true }
+  - { target: l'observation, native: { nl: "de observatie, het waarnemen", en: "observation, watching" }, pos: noun, gender: f }
+  - { target: survivre, native: { nl: overleven, en: "to survive" }, pos: verb }
+  - { target: la survie, native: { nl: het overleven, en: "survival" }, pos: noun, gender: f, avoid: [fr.survivre] }
+  - { target: se reproduire, native: { nl: "zich voortplanten", en: "to breed" }, pos: verb }
+  - { target: se nourrir, native: { nl: "zich voeden (+ de: met), leven van", en: "to feed (+ de: on)" }, pos: verb }
+  - { target: s'adapter, native: { nl: "zich aanpassen (+ à: aan)", en: "to adapt (+ à: to)" }, pos: verb }
+  - { target: le prédateur, native: { nl: het roofdier, en: "predator" }, pos: noun, gender: m }
+  - { target: la proie, native: { nl: de prooi, en: "prey" }, pos: noun, gender: f }
+  - { target: chasser, native: { nl: jagen, en: "to hunt" }, pos: verb }
+  - { target: le chasseur, native: { nl: de jager, en: "hunter" }, pos: noun, gender: m }
+  - { target: la réserve naturelle, native: { nl: het natuurreservaat, en: "nature reserve" }, pos: noun, gender: f }
+  - { target: la biodiversité, native: { nl: de biodiversiteit, en: "biodiversity" }, pos: noun, gender: f, noBlank: true }
+  - { target: l'écosystème, native: { nl: het ecosysteem, en: "ecosystem" }, pos: noun, gender: m, noBlank: true }
+  - { target: migrer, native: { nl: "trekken (van dieren)", en: "to migrate" }, pos: verb }
+  - { target: la ruche, native: { nl: de bijenkorf, en: "beehive, hive" }, pos: noun, gender: f }
+  - { target: le mammifère, native: { nl: het zoogdier, en: "mammal" }, pos: noun, gender: m }
+  - { target: l'aigle, native: { nl: de arend, en: "eagle" }, pos: noun, gender: m }
+  - { target: la falaise, native: { nl: de klif, en: "cliff" }, pos: noun, gender: f }
+  - { target: l'oiseau marin, native: { nl: de zeevogel, en: "seabird" }, pos: noun, gender: m }
+  - { target: le phoque, native: { nl: de zeehond, en: "seal" }, pos: noun, gender: m }
+  - { target: le zoo, native: { nl: de dierentuin, en: "zoo" }, pos: noun, gender: m }
+  - { target: en captivité, native: { nl: "in gevangenschap", en: "in captivity" }, pos: adjective }
+  - { target: duquel, native: { nl: "waar … bij, waarvan (de + lequel, na een voorzetsel als près de)", en: "which (as in: near which)" }, pos: pronoun }
+  - { target: limiter, native: { nl: beperken, en: "to limit, to restrict" }, pos: verb }
+sentences:
+  - { id: s01, target: "Les forêts sont l'habitat de nombreux animaux.", native: { nl: "Bossen zijn de leefomgeving van veel dieren.", en: "Forests are the habitat of many animals." }, items: [fr.habitat] }
+  - { id: s02, target: "Ces animaux ne vivent pas longtemps loin de leur milieu naturel.", native: { nl: "Deze dieren leven niet lang buiten hun natuurlijke leefomgeving.", en: "These animals don't live long away from their natural environment." }, items: [fr.milieu-naturel] }
+  - { id: s03, target: "Le tigre est une espèce en voie de disparition.", native: { nl: "De tijger is een met uitsterven bedreigde soort.", en: "The tiger is an endangered species." }, items: [fr.en-voie-de-disparition] }
+  - { id: s04, target: "La disparition des abeilles serait une catastrophe.", native: { nl: "Het verdwijnen van de bijen zou een ramp zijn.", en: "The disappearance of bees would be a disaster." }, items: [fr.disparition], form: { word: disparition, stem: disparaître } }
+  - { id: s05, target: "Cette association travaille pour la protection des oiseaux.", native: { nl: "Deze vereniging werkt voor de bescherming van vogels.", en: "This association works for the protection of birds." }, items: [fr.protection], form: { word: protection, stem: protéger } }
+  - { id: s06, target: "Une colonie de phoques vit sur cette plage.", native: { nl: "Op dit strand leeft een kolonie zeehonden.", en: "A colony of seals lives on this beach." }, items: [fr.colonie, fr.phoque] }
+  - { id: s07, target: "L'observation des oiseaux demande beaucoup de temps.", native: { nl: "Vogels observeren vraagt veel tijd.", en: "Watching birds takes a lot of time." }, items: [fr.observation] }
+  - { id: s08, target: "Peu de jeunes tortues survivent jusqu'à l'âge adulte.", native: { nl: "Weinig jonge schildpadden overleven tot ze volwassen zijn.", en: "Few young turtles survive to adulthood." }, items: [fr.survivre] }
+  - { id: s09, target: "Nous sommes responsables de la survie de cette espèce.", native: { nl: "Wij zijn verantwoordelijk voor het overleven van deze soort.", en: "We are responsible for the survival of this species." }, items: [fr.survie] }
+  - { id: s10, target: "Ces poissons reviennent dans la rivière pour se reproduire.", native: { nl: "Deze vissen keren terug naar de rivier om zich voort te planten.", en: "These fish come back to the river to breed." }, items: [fr.se-reproduire] }
+  - { id: s11, target: "Les baleines se nourrissent de petits animaux.", native: { nl: "Walvissen voeden zich met kleine dieren.", en: "Whales feed on small animals." }, items: [fr.se-nourrir] }
+  - { id: s12, target: "Les animaux doivent s'adapter à un climat plus chaud.", native: { nl: "De dieren moeten zich aanpassen aan een warmer klimaat.", en: "Animals must adapt to a warmer climate." }, items: [fr.s-adapter] }
+  - { id: s13, target: "Le loup est un prédateur dangereux pour les moutons.", native: { nl: "De wolf is een roofdier dat gevaarlijk is voor schapen.", en: "The wolf is a predator that is dangerous to sheep." }, items: [fr.predateur] }
+  - { id: s14, target: "Le renard attend sa proie près du nid.", native: { nl: "De vos wacht op zijn prooi bij het nest.", en: "The fox is waiting for its prey near the nest." }, items: [fr.proie] }
+  - { id: s15, target: "Il est interdit de chasser dans cette forêt.", native: { nl: "Het is verboden om in dit bos te jagen.", en: "Hunting is forbidden in this forest." }, items: [fr.chasser] }
+  - { id: s16, target: "Les chasseurs doivent respecter des règles très claires.", native: { nl: "Jagers moeten zich aan heel duidelijke regels houden.", en: "Hunters must follow very clear rules." }, items: [fr.chasseur] }
+  - { id: s17, target: "Nous avons fait une promenade dans une réserve naturelle.", native: { nl: "We hebben een wandeling gemaakt in een natuurreservaat.", en: "We went for a walk in a nature reserve." }, items: [fr.reserve-naturelle] }
+  - { id: s18, target: "La biodiversité diminue partout dans le monde.", native: { nl: "De biodiversiteit neemt overal ter wereld af.", en: "Biodiversity is declining all over the world." }, items: [fr.biodiversite] }
+  - { id: s19, target: "Chaque espèce est importante pour l'écosystème.", native: { nl: "Elke soort is belangrijk voor het ecosysteem.", en: "Every species is important for the ecosystem." }, items: [fr.ecosysteme] }
+  - { id: s20, target: "En automne, beaucoup d'oiseaux migrent vers des pays plus chauds.", native: { nl: "In de herfst trekken veel vogels naar warmere landen.", en: "In autumn, many birds migrate to warmer countries." }, items: [fr.migrer], finite: { word: migrent, hint: { nl: "migrer (présent)", en: "migrer (present)" } }, acceptAlso: ["Beaucoup d'oiseaux migrent vers des pays plus chauds en automne."] }
+  - { id: s21, target: "Mon grand-père a trois ruches dans son jardin.", native: { nl: "Mijn opa heeft drie bijenkorven in zijn tuin.", en: "My grandfather has three beehives in his garden." }, items: [fr.ruche] }
+  - { id: s22, target: "La baleine est le plus grand mammifère du monde.", native: { nl: "De walvis is het grootste zoogdier ter wereld.", en: "The whale is the largest mammal in the world." }, items: [fr.mammifere] }
+  - { id: s23, target: "Un aigle a construit son nid en haut de la falaise.", native: { nl: "Een arend heeft zijn nest boven op de klif gebouwd.", en: "An eagle has built its nest at the top of the cliff." }, items: [fr.aigle, fr.falaise] }
+  - { id: s24, target: "Les oiseaux marins font leur nid sur les falaises.", native: { nl: "Zeevogels bouwen hun nest op de kliffen.", en: "Seabirds build their nests on the cliffs." }, items: [fr.oiseau-marin] }
+  - { id: s25, target: "Les animaux du zoo vivent en captivité.", native: { nl: "De dieren in de dierentuin leven in gevangenschap.", en: "The animals at the zoo live in captivity." }, items: [fr.zoo, fr.en-captivite] }
+  - { id: s26, target: "Il faut limiter la pêche pour protéger les poissons.", native: { nl: "We moeten de visvangst beperken om de vissen te beschermen.", en: "We must limit fishing to protect the fish." }, items: [fr.limiter] }
+  - { id: s27, target: "C'est la réserve naturelle dans laquelle nous avons vu un aigle.", native: { nl: "Dat is het natuurreservaat waarin we een arend hebben gezien.", en: "That's the nature reserve in which we saw an eagle." }, items: [fr.aigle], build: true }
+  - { id: s28, target: "Voici le projet auquel je participe : la protection des abeilles.", native: { nl: "Dit is het project waaraan ik deelneem: de bescherming van de bijen.", en: "Here's the project in which I'm taking part: the protection of bees." }, items: [fr.protection], build: true }
+  - { id: s29, target: "Le port près duquel nous campons accueille beaucoup d'oiseaux marins.", native: { nl: "De haven waar we vlakbij kamperen, trekt veel zeevogels aan.", en: "The harbour near which we're camping attracts many seabirds." }, items: [fr.oiseau-marin, fr.duquel], build: true }
+  - { id: s30, target: "Les poissons dont les phoques se nourrissent deviennent difficiles à trouver.", native: { nl: "De vissen waarvan de zeehonden leven, worden moeilijk te vinden.", en: "The fish that seals feed on are becoming hard to find." }, items: [fr.phoque], build: true }
+transforms:
+  - { id: x01, from: "Je travaille pour cette réserve naturelle. Elle protège les abeilles.", key: laquelle, gapped: "La réserve naturelle pour ___ les abeilles.", answers: ["laquelle je travaille protège"], items: [fr.reserve-naturelle], native: { en: "The nature reserve for which I work protects bees." } }
+  - { id: x02, from: "Les phoques mangent ces poissons.", key: nourrissent, gapped: "Les phoques ___ poissons.", answers: ["se nourrissent de ces"], items: [fr.se-nourrir, fr.phoque], native: { en: "Seals feed on these fish." } }
+  - { id: x03, from: "Les tigres pourraient disparaître.", key: voie, gapped: "Les tigres sont ___.", answers: ["en voie de disparition"], items: [fr.en-voie-de-disparition], native: { en: "Tigers are in danger of dying out." } }
+texts: [fr-b2-t11]

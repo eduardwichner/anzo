@@ -1,0 +1,52 @@
+id: nl-b2-work-t04
+kind: reading
+title: { en: Teams without a boss }
+topic: Teams and leadership (an article in a magazine for entrepreneurs)
+level: B2
+paragraphs:
+  - - { id: nl-b2-work-t04-s01, target: "In een woonzorgcentrum in Hasselt is er sinds twee jaar geen hoofdverpleegkundige meer.", native: { en: "In a care home in Hasselt there has been no head nurse for two years." } }
+    - { id: nl-b2-work-t04-s02, target: "De verpleegkundigen en verzorgenden werken in zelfsturende teams van tien mensen.", native: { en: "The nurses and carers work in self-managing teams of ten people." } }
+    - { id: nl-b2-work-t04-s03, target: "Ze maken zelf de planning, verdelen de taken en beslissen samen hoe ze de bewoners het best helpen.", native: { en: "They make the schedule themselves, divide the tasks and decide together how best to help the residents." } }
+  - - { id: nl-b2-work-t04-s04, target: "Het idee is eenvoudig: wie het werk elke dag doet, weet het best hoe het beter kan.", native: { en: "The idea is simple: those who do the work every day know best how it can be done better." } }
+    - { id: nl-b2-work-t04-s05, target: "Volgens de directeur zijn de werknemers sindsdien veel gemotiveerder en zijn ze minder vaak ziek.", native: { en: "According to the director the employees have been much more motivated since then and are ill less often." } }
+    - { id: nl-b2-work-t04-s06, target: "Ook de bewoners zijn tevreden, omdat ze vaker dezelfde gezichten zien.", native: { en: "The residents are satisfied too, because they see the same faces more often." } }
+  - - { id: nl-b2-work-t04-s07, target: "Toch werkt het niet vanzelf.", native: { en: "Still, it doesn't work by itself." } }
+    - { id: nl-b2-work-t04-s08, target: "In het begin waren er teams die het moeilijk vonden om beslissingen te nemen, en soms was niemand verantwoordelijk als er iets misliep.", native: { en: "At first there were teams that found it hard to make decisions, and sometimes nobody was responsible when something went wrong." } }
+    - { id: nl-b2-work-t04-s09, target: "Daarom heeft elk team nu een coördinator die de vergaderingen leidt en de afspraken opvolgt, zonder de baas te zijn.", native: { en: "That is why every team now has a coordinator who leads the meetings and follows up the agreements, without being the boss." } }
+  - - { id: nl-b2-work-t04-s10, target: "Een tweede les: autonomie vraagt vaardigheden die niet iedereen al heeft.", native: { en: "A second lesson: autonomy requires skills that not everyone already has." } }
+    - { id: nl-b2-work-t04-s11, target: "De medewerkers kregen een opleiding over plannen, overleggen en feedback geven.", native: { en: "The staff were given training in planning, consulting and giving feedback." } }
+    - { id: nl-b2-work-t04-s12, target: "\"Een collega zeggen wat beter kan, zonder hem te kwetsen, dat moet je leren\", zegt een verzorgende.", native: { en: "\"Telling a colleague what could be better without hurting them, you have to learn that\", says a carer." } }
+  - - { id: nl-b2-work-t04-s13, target: "Zijn zelfsturende teams dan iets voor elk bedrijf?", native: { en: "So are self-managing teams something for every company?" } }
+    - { id: nl-b2-work-t04-s14, target: "Niet per se.", native: { en: "Not necessarily." } }
+    - { id: nl-b2-work-t04-s15, target: "Waar het werk heel voorspelbaar is of waar snel beslist moet worden, blijft een duidelijke leiding vaak nodig.", native: { en: "Where the work is very predictable or where decisions have to be made quickly, clear leadership often remains necessary." } }
+    - { id: nl-b2-work-t04-s16, target: "Maar wie zijn medewerkers meer vertrouwen geeft, krijgt er vaak veel voor terug.", native: { en: "But anyone who gives their staff more trust often gets a lot back for it." } }
+glossary:
+  - { word: hoofdverpleegkundige, native: { en: "head nurse" } }
+  - { word: verzorgenden, native: { en: "carers (de verzorgende)" } }
+  - { word: verzorgende, native: { en: carer } }
+  - { word: sindsdien, native: { en: "since then" } }
+  - { word: gezichten, native: { en: "faces (het gezicht)" } }
+  - { word: misliep, native: { en: "went wrong (mislopen)" } }
+  - { word: kwetsen, native: { en: "to hurt (someone's feelings)" } }
+  - { word: per se, native: { en: necessarily } }
+  - { word: voorspelbaar, native: { en: predictable } }
+items: [nl.zelfsturend, nl.coordinator, nl.opvolgen, nl.autonomie, nl.leiding]
+gapped:
+  gaps: [nl-b2-work-t04-s04, nl-b2-work-t04-s07, nl-b2-work-t04-s10, nl-b2-work-t04-s14]
+  extra:
+    - { id: nl-b2-work-t04-x1, target: "Daarom heeft het woonzorgcentrum weer een hoofdverpleegkundige aangeworven.", native: { en: "That is why the care home has hired a head nurse again." } }
+questions:
+  - { id: nl-b2-work-t04-q1, type: summary, options: ["Een woonzorgcentrum werkt met zelfsturende teams: dat heeft voordelen, maar het vraagt ook afspraken en nieuwe vaardigheden.", "Een woonzorgcentrum heeft geen verpleegkundigen meer en werkt alleen met vrijwilligers.", "Zelfsturende teams zijn volgens de tekst de beste oplossing voor elk bedrijf."], correct: 0 }
+  - { id: nl-b2-work-t04-q2, type: mc, question: "Wat doet de coördinator van een team?", options: ["Hij leidt de vergaderingen en volgt de afspraken op.", "Hij beslist alles alleen.", "Hij maakt de beoordeling van elke collega."], correct: 0 }
+  - { id: nl-b2-work-t04-q3, type: true_false_notgiven, statement: "Volgens de directeur zijn de werknemers sinds de verandering minder vaak ziek.", answer: true }
+  - { id: nl-b2-work-t04-q4, type: true_false_notgiven, statement: "Volgens de tekst zijn zelfsturende teams in elk bedrijf de beste keuze.", answer: false }
+  - { id: nl-b2-work-t04-q5, type: true_false_notgiven, statement: "Het woonzorgcentrum heeft honderd bewoners.", answer: not_given }
+  - { id: nl-b2-work-t04-q6, type: match_heading, paragraph: 3, options: ["De problemen in het begin", "Waarom het idee werkt", "De opleiding van de medewerkers"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b2-work-t04-l1, type: complete, statement: "De teams bestaan uit ___ mensen.", answers: [tien, "10"] }
+  - { id: nl-b2-work-t04-l2, type: mc, question: "Waarover kregen de medewerkers een opleiding?", options: ["Over plannen, overleggen en feedback geven.", "Over nieuwe medicijnen.", "Over de computer."], correct: 0 }
+wordForm:
+  - { sentence: nl-b2-work-t04-s05, word: gemotiveerder, stem: motiveren, acceptAlso: ["meer gemotiveerd"] }
+  - { sentence: nl-b2-work-t04-s08, word: beslissingen, stem: beslissen }
+  - { sentence: nl-b2-work-t04-s11, word: opleiding, stem: opleiden }
+orderable: false

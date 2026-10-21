@@ -1,0 +1,37 @@
+id: fr-a1-1-u06
+title: { nl: Kleren, en: "Clothes" }
+icon: clothes
+topic: Les vêtements
+vocabulary:
+  - { target: la robe, native: { nl: de jurk, en: "dress" }, pos: noun, gender: f }
+  - { target: le pull, native: { nl: de trui, en: "jumper" }, pos: noun, gender: m }
+  - { target: le pantalon, native: { nl: de broek, en: "trousers" }, pos: noun, gender: m }
+  - { target: la jupe, native: { nl: de rok, en: "skirt" }, pos: noun, gender: f }
+  - { target: le t-shirt, native: { nl: het T-shirt, en: "T-shirt" }, pos: noun, gender: m }
+  - { target: la chaussure, native: { nl: de schoen, en: "shoe" }, pos: noun, gender: f }
+  - { target: le chapeau, native: { nl: de hoed, en: "hat" }, pos: noun, gender: m }
+  - { target: le short, native: { nl: de korte broek, en: "shorts" }, pos: noun, gender: m, avoid: [fr.pantalon] }
+  - { target: la veste, native: { nl: het jasje, en: "jacket" }, pos: noun, gender: f }
+  - { target: le manteau, native: { nl: de jas, en: "coat" }, pos: noun, gender: m, avoid: [fr.veste] }
+  - { target: les lunettes, native: { nl: de bril, en: "glasses" }, pos: noun, gender: f }
+  - { target: porter, native: { nl: "dragen, aanhebben", en: "to wear" }, pos: verb }
+  - { target: nouveau, native: { nl: nieuw, en: "new" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Elle est comment, ta nouvelle robe ?", native: { nl: "Hoe ziet je nieuwe jurk eruit?", en: "What's your new dress like?" }, items: [fr.robe, fr.nouveau] }
+  - { id: s02, target: "La robe est jaune avec des fleurs.", native: { nl: "De jurk is geel met bloemen.", en: "The dress is yellow with flowers on it." }, items: [fr.robe] }
+  - { id: s03, target: "Il porte un pull bleu ?", native: { nl: "Draagt hij een blauwe trui?", en: "Is he wearing a blue jumper?" }, items: [fr.pull, fr.porter] }
+  - { id: s04, target: "Il porte un pantalon bleu.", native: { nl: "Hij draagt een blauwe broek.", en: "He's wearing blue trousers." }, items: [fr.pantalon, fr.porter] }
+  - { id: s05, target: "Ma sœur porte une jupe rouge.", native: { nl: "Mijn zus draagt een rode rok.", en: "My sister is wearing a red skirt." }, items: [fr.jupe, fr.porter] }
+  - { id: s06, target: "J'ai un t-shirt blanc.", native: { nl: "Ik heb een wit T-shirt.", en: "I have a white T-shirt." }, items: [fr.t-shirt] }
+  - { id: s07, target: "Mes chaussures sont noires.", native: { nl: "Mijn schoenen zijn zwart.", en: "My shoes are black." }, items: [fr.chaussure] }
+  - { id: s08, target: "Où sont mes chaussures ?", native: { nl: "Waar zijn mijn schoenen?", en: "Where are my shoes?" }, items: [fr.chaussure] }
+  - { id: s09, target: "Papa a un grand chapeau.", native: { nl: "Papa heeft een grote hoed.", en: "Dad has a big hat." }, items: [fr.chapeau] }
+  - { id: s10, target: "Je porte un short à la plage.", native: { nl: "Ik draag een korte broek op het strand.", en: "I wear shorts on the beach." }, items: [fr.short, fr.porter] }
+  - { id: s11, target: "Ta veste est dans la chambre.", native: { nl: "Je jasje ligt in de slaapkamer.", en: "Your jacket is in the bedroom." }, items: [fr.veste] }
+  - { id: s12, target: "Je laisse mon manteau dans l'entrée.", native: { nl: "Ik laat mijn jas in de hal hangen.", en: "I leave my coat in the hall." }, items: [fr.manteau] }
+  - { id: s13, target: "Mon frère porte des lunettes.", native: { nl: "Mijn broer draagt een bril.", en: "My brother wears glasses." }, items: [fr.lunettes, fr.porter] }
+  - { id: s14, target: "Ta maman porte un pantalon ?", native: { nl: "Draagt je mama een broek?", en: "Is your mum wearing trousers?" }, items: [fr.pantalon, fr.porter] }
+  - { id: s15, target: "C'est mon nouveau pull.", native: { nl: "Dat is mijn nieuwe trui.", en: "It's my new jumper." }, items: [fr.pull, fr.nouveau] }
+lessons:
+  - { id: l01, title: { nl: Jurk en trui, en: "Dress and jumper" }, vocab: [fr.robe, fr.pull, fr.pantalon, fr.jupe, fr.t-shirt, fr.chaussure, fr.porter] }
+  - { id: l02, title: { nl: Hoed en jas, en: "Hat and coat" }, vocab: [fr.chapeau, fr.short, fr.veste, fr.manteau, fr.lunettes, fr.nouveau] }

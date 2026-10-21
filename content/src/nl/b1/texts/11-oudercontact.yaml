@@ -1,0 +1,40 @@
+id: nl-b1-t11
+kind: dialogue
+title: { en: At the parents' evening }
+topic: The parents' evening (a teacher and a mother talk about her son)
+level: B1
+speakers: { A: { name: Meneer Jacobs }, B: { name: Maria } }
+turns:
+  - { id: nl-b1-t11-s01, speaker: A, target: "Goedenavond, mevrouw. Fijn dat u er bent. Zullen we eerst naar het rapport van Lucas kijken?", native: { en: "Good evening. Thank you for coming. Shall we look at Lucas's report first?" } }
+  - { id: nl-b1-t11-s02, speaker: B, target: "Graag. Ik was een beetje ongerust, want zijn punten voor taal zijn niet zo goed.", native: { en: "Yes, please. I was a bit worried, because his marks for language aren't very good." } }
+  - { id: nl-b1-t11-s03, speaker: A, target: "Dat klopt, maar ik zie wel veel vooruitgang: hij leest nu veel beter. In september had hij nog veel moeite met lezen.", native: { en: "That's right, but I do see a lot of progress: he reads much better now. In September he still had a lot of difficulty reading." } }
+  - { id: nl-b1-t11-s04, speaker: B, target: "Thuis spreken we vooral Spaans. Misschien is dat de reden?", native: { en: "At home we mainly speak Spanish. Perhaps that's the reason?" } }
+  - { id: nl-b1-t11-s05, speaker: A, target: "Dat kan. Daarom zou ik hem graag extra ondersteuning geven. Twee keer per week leest hij met de zorgleerkracht.", native: { en: "That's possible. That's why I'd like to give him extra support. Twice a week he reads with the learning support teacher." } }
+  - { id: nl-b1-t11-s06, speaker: B, target: "Dat is goed. En hoe gaat het met wiskunde?", native: { en: "That's good. And how is maths going?" } }
+  - { id: nl-b1-t11-s07, speaker: A, target: "Heel goed. Rekenen vindt hij gemakkelijk, en hij helpt vaak klasgenoten die het niet snappen.", native: { en: "Very well. He finds arithmetic easy, and he often helps classmates who don't get it." } }
+  - { id: nl-b1-t11-s08, speaker: B, target: "Dat hoor ik graag. Is hij ook rustig in de klas?", native: { en: "I am glad to hear that. And is he well-behaved in class?" } }
+  - { id: nl-b1-t11-s09, speaker: A, target: "Meestal wel. Na de middag kan hij zich soms moeilijk concentreren, vooral als hij slecht geslapen heeft.", native: { en: "Usually, yes. In the afternoon he sometimes finds it hard to concentrate, especially if he hasn't slept well." } }
+  - { id: nl-b1-t11-s10, speaker: B, target: "Hij kijkt 's avonds te lang naar zijn tablet. Daar moeten we thuis iets aan doen.", native: { en: "He spends too long on his tablet in the evenings. We need to do something about that at home." } }
+  - { id: nl-b1-t11-s11, speaker: A, target: "Dat lijkt me een goed idee. En leest u elke avond tien minuten samen met hem, ook als het een strip is.", native: { en: "That seems a good idea to me. And read with him for ten minutes every evening, even if it's a comic." } }
+  - { id: nl-b1-t11-s12, speaker: B, target: "Dat zal ik doen. Bedankt voor uw tijd, meneer Jacobs.", native: { en: "I'll do that. Thank you for your time, Mr Jacobs." } }
+glossary:
+  - { word: ongerust, native: { en: worried } }
+  - { word: Spaans, native: { en: Spanish } }
+  - { word: zorgleerkracht, native: { en: "learning support teacher" } }
+  - { word: strip, native: { en: "comic (book)" } }
+items: [nl.vooruitgang, nl.moeite, nl.ondersteuning, nl.wiskunde, nl.gemakkelijk, nl.snappen, nl.zich-concentreren, nl.wel, nl.lijken, nl.vooral, nl.kloppen, nl.klasgenoot, nl.extra, nl.fijn, nl.bedanken]
+questions:
+  - { id: nl-b1-t11-q1, type: mc, question: "Waarom was de moeder ongerust?", options: ["De punten van Lucas voor taal zijn niet zo goed.", "Lucas heeft ruzie met zijn klasgenoten.", "Lucas wordt gepest."], correct: 0 }
+  - { id: nl-b1-t11-q4, type: true_false_notgiven, statement: "Lucas heeft een oudere zus.", answer: not_given }
+  - { id: nl-b1-t11-q2, type: true_false_notgiven, statement: "Lucas leest nu beter dan in september.", answer: true }
+  - { id: nl-b1-t11-q3, type: true_false_notgiven, statement: "Lucas vindt rekenen moeilijk.", answer: false }
+  - { id: nl-b1-t11-q5, type: mc, question: "Wat raadt de leerkracht aan?", options: ["Elke avond tien minuten samen lezen.", "Lucas naar een andere school sturen.", "Thuis alleen Nederlands spreken."], correct: 0 }
+listeningQuestions:
+  - { id: nl-b1-t11-l1, type: mc, question: "Welke taal spreekt de familie vooral thuis?", options: ["Spaans.", "Nederlands.", "Frans."], correct: 0 }
+  - { id: nl-b1-t11-l2, type: true_false_notgiven, statement: "Lucas helpt klasgenoten met rekenen.", answer: true }
+cloze:
+  - { sentence: nl-b1-t11-s03, word: had, kind: finite_verb, hint: { en: "hebben (past)" } }
+  - { sentence: nl-b1-t11-s05, word: zou, kind: finite_verb, hint: { en: "zullen (conditional)" } }
+  - { sentence: nl-b1-t11-s07, word: vindt, kind: finite_verb, hint: { en: "vinden (present)" } }
+  - { sentence: nl-b1-t11-s10, word: kijkt, kind: finite_verb, hint: { en: "kijken (present)" } }
+orderable: true

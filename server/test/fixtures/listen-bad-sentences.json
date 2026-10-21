@@ -1,0 +1,812 @@
+{
+ "about": "Acceptance: the sentences and text sentences heard as Bad in the Listen check, as they were live (rendered with an earlier lexicon), with the measures of analyze.py, the phonemes of what they said, what the current lexicon says, and their group statistics. The check must flag every one without the listen flag (server/test/audio-listen-fixes.test.js).",
+ "clips": [
+  {
+   "track": "fr",
+   "speed": "normal",
+   "text": "jury",
+   "kind": "word",
+   "carrier": "Le mot :",
+   "expectedSaid": "[[ ʒyʁˈi ]]",
+   "phonemes": "dʒˈʊəɹi",
+   "m": {
+    "ok": true,
+    "durationMs": 895,
+    "peak": 0.811,
+    "clipped": 0,
+    "segments": [
+     [
+      80,
+      670
+     ]
+    ],
+    "voicedStartMs": 80,
+    "voicedEndMs": 670,
+    "voicedMs": 590,
+    "leadMs": 80,
+    "trailMs": 225,
+    "onsetMs": 80,
+    "vowelStartMs": 110,
+    "vowelEndMs": 630,
+    "afterVowelMs": 70,
+    "quietTailMs": 80,
+    "transcript": "joanne"
+   },
+   "file": "fr/31285e6a0d011631.mp3",
+   "remark": "french \"jury\" is heard like: \"juai\"",
+   "group": "fr|normal|s",
+   "groupStats": {
+    "n": 1775,
+    "medLog": 4.499809670330265,
+    "mad": 0.14310084364067333,
+    "medPerLetter": 90
+   },
+   "expect": [
+    "pronunciation"
+   ]
+  },
+  {
+   "track": "fr",
+   "speed": "normal",
+   "text": "Georges et Ismaël jouent au foot.",
+   "kind": "sentence",
+   "said": "Georges et Ismaël [[ ʒˈu ]] au foot.",
+   "expectedSaid": "Georges et Ismaël [[ ʒˈu ]] au foot.",
+   "phonemes": "ʒˈɔʁʒ e ismaˈɛl ʒˈu o fˈʊt.",
+   "m": {
+    "ok": true,
+    "durationMs": 2435,
+    "peak": 0.803,
+    "clipped": 0,
+    "segments": [
+     [
+      120,
+      710
+     ],
+     [
+      890,
+      1990
+     ],
+     [
+      2120,
+      2180
+     ]
+    ],
+    "voicedStartMs": 120,
+    "voicedEndMs": 2180,
+    "voicedMs": 1750,
+    "leadMs": 120,
+    "trailMs": 255,
+    "onsetMs": 120,
+    "vowelStartMs": 130,
+    "vowelEndMs": 1980,
+    "afterVowelMs": 160,
+    "quietTailMs": 50,
+    "transcript": "georges et ismaël joue au foot"
+   },
+   "file": "fr/0e831389e1c056a3.mp3",
+   "remark": "not enough paus after \"Georges et \"",
+   "group": "fr|normal|xl",
+   "groupStats": {
+    "n": 2478,
+    "medLog": 4.078266671437738,
+    "mad": 0.07164774193917367,
+    "medPerLetter": 59.043040115500375
+   },
+   "expect": [
+    "pause"
+   ]
+  },
+  {
+   "track": "nl",
+   "speed": "slow",
+   "text": "Bovendien passen we leenwoorden aan onze eigen uitspraak en grammatica aan: we zeggen ik heb het gedownload.",
+   "kind": "text",
+   "said": "Bovendien passen we leenwoorden aan onze eigen uitspraak en grammatica aan: we zeggen ik heb het [[ ɣədˈaʊnloːt. ]]",
+   "expectedSaid": "Bovendien passen we leenwoorden aan onze eigen uitspraak en grammatica aan: we zeggen ik heb het [[ ɣədˈaʊnloːt. ]]",
+   "phonemes": "bˈoːvəndˌin pˈɑsən ʋə lˈeːnʋɔːrdən aːn ɔnzˌə ˈɛɪɣən ˈœytsprˌaːk ɛn ɣrɑmˈaːtikˌaː ˈaːn: ʋə zˈɛɣən ɪk hɛp hət ɣədˈaʊnloːt.",
+   "m": {
+    "ok": true,
+    "durationMs": 7915,
+    "peak": 0.809,
+    "clipped": 0,
+    "segments": [
+     [
+      200,
+      3640
+     ],
+     [
+      3720,
+      7380
+     ],
+     [
+      7460,
+      7650
+     ]
+    ],
+    "voicedStartMs": 200,
+    "voicedEndMs": 7650,
+    "voicedMs": 7290,
+    "leadMs": 200,
+    "trailMs": 265,
+    "onsetMs": 190,
+    "vowelStartMs": 200,
+    "vowelEndMs": 7370,
+    "afterVowelMs": 290,
+    "quietTailMs": 80,
+    "transcript": "bovendien pas lenen wordt de aan onze eigen uitspraak en firma je aan zeven ik heb het gedownload"
+   },
+   "file": "nl/94892b5dfb548d0e.mp3",
+   "remark": "grammatica was pronounced like \"gramasica\" instead of \"gramatica\"",
+   "group": "nl|slow|xl",
+   "groupStats": {
+    "n": 3223,
+    "medLog": 4.337793379697056,
+    "mad": 0.06760660616213521,
+    "medPerLetter": 76.5384615384615
+   },
+   "expect": [
+    "pause"
+   ]
+  },
+  {
+   "track": "en",
+   "speed": "normal",
+   "text": "This sofa is really comfortable.",
+   "kind": "sentence",
+   "said": "This [[ sˈəʊfə ]] is really comfortable.",
+   "expectedSaid": "This [[ sˈəʊfəʔ ]] is really comfortable.",
+   "phonemes": "ðˈɪs sˈəʊfə ɪz ɹˈiəlɪ kˈʌmftəbəl.",
+   "m": {
+    "ok": true,
+    "durationMs": 2121,
+    "peak": 0.793,
+    "clipped": 0,
+    "segments": [
+     [
+      80,
+      1450
+     ],
+     [
+      1540,
+      1870
+     ]
+    ],
+    "voicedStartMs": 80,
+    "voicedEndMs": 1870,
+    "voicedMs": 1700,
+    "leadMs": 80,
+    "trailMs": 251,
+    "onsetMs": 80,
+    "vowelStartMs": 80,
+    "vowelEndMs": 1860,
+    "afterVowelMs": 70,
+    "quietTailMs": 200,
+    "transcript": "they so for is really comfortable"
+   },
+   "file": "en/b6eed2ee0aa9a62d.mp3",
+   "remark": "it was heard like \"this sofar is really comfortable\" instead of \"this sofa is really comfortable\" so the \"r\" problem again.",
+   "group": "en|normal|xl",
+   "groupStats": {
+    "n": 3578,
+    "medLog": 4.206999819183709,
+    "mad": 0.08222524299169054,
+    "medPerLetter": 67.15476084956227
+   },
+   "expect": [
+    "pronunciation"
+   ]
+  },
+  {
+   "track": "nl",
+   "speed": "slow",
+   "text": "Andere steden proberen de bezoekers te spreiden, met campagnes voor minder bekende wijken of voor het laagseizoen.",
+   "kind": "text",
+   "said": "Andere steden proberen de bezoekers te spreiden, met campagnes voor minder bekende wijken of voor het [[ lˈaːxsɛɪzˌun. ]]",
+   "expectedSaid": "Andere steden proberen de bezoekers te spreiden, met [[ kɑmpˈɑɲəs ]] voor minder bekende wijken of voor het [[ lˈaːxsɛɪzˌun. ]]",
+   "phonemes": "ˈɑndərə stˈeːdən proːbˈɪːrən də bəzˈukərs tə sprˈɛɪdən, mɛt kˌɑmpɑɣnˈɛs vɔːr mˈɪndər bəkˈɛndə ʋˈɛɪkən ɔf vɔːr hət lˈaːxsɛɪzˌun.",
+   "m": {
+    "ok": true,
+    "durationMs": 7264,
+    "peak": 0.806,
+    "clipped": 0,
+    "segments": [
+     [
+      100,
+      2250
+     ],
+     [
+      2330,
+      3210
+     ],
+     [
+      3290,
+      7090
+     ]
+    ],
+    "voicedStartMs": 100,
+    "voicedEndMs": 7090,
+    "voicedMs": 6830,
+    "leadMs": 100,
+    "trailMs": 174,
+    "onsetMs": 100,
+    "vowelStartMs": 110,
+    "vowelEndMs": 7060,
+    "afterVowelMs": 60,
+    "quietTailMs": 90,
+    "transcript": "andere steden proberen de bezoekers de spreiden met campagne mensen verminderen bekende wijken of voor het laagseizoen"
+   },
+   "file": "nl/4327ea62d40f54a7.mp3",
+   "remark": "campagnes was heard like \"campagnes\" instead of \"campanies\"",
+   "group": "nl|slow|xl",
+   "groupStats": {
+    "n": 3223,
+    "medLog": 4.337793379697056,
+    "mad": 0.06760660616213521,
+    "medPerLetter": 76.5384615384615
+   },
+   "expect": [
+    "pause",
+    "pronunciation"
+   ]
+  },
+  {
+   "track": "nl",
+   "speed": "normal",
+   "text": "Pessimisten vrezen dat de automatisering vooral jobs voor laaggeschoolden zal doen verdwijnen, terwijl de winst bij een klein aantal mensen terechtkomt.",
+   "kind": "text",
+   "said": "Pessimisten vrezen dat de automatisering vooral [[ dʒˈɔps ]] voor laaggeschoolden zal doen verdwijnen, terwijl de winst bij een klein aantal mensen terechtkomt.",
+   "expectedSaid": "Pessimisten vrezen dat de automatisering vooral [[ dʒˈɔps ]] voor laaggeschoolden zal doen verdwijnen, terwijl de winst bij een klein aantal mensen terechtkomt.",
+   "phonemes": "pˌɛsimˈɪstən vrˈeːzən dɑ tə ˌʌʊtoːmˌaːtizˈɪːrɪŋ vˈɔːrɑl dʒˈɔps vɔːr lˈaːɣɛsxˌoːldən zɑl dˈun vərdʋˈɛɪnən, tˈɛrʋɛɪl də ʋˈɪnst bɛɪ ən klˈɛɪn ˈaːntˌɑl mˈɛnsən tərˈɛxtkɔmt.",
+   "m": {
+    "ok": true,
+    "durationMs": 7264,
+    "peak": 0.836,
+    "clipped": 0,
+    "segments": [
+     [
+      160,
+      6620
+     ],
+     [
+      6730,
+      7070
+     ]
+    ],
+    "voicedStartMs": 160,
+    "voicedEndMs": 7070,
+    "voicedMs": 6800,
+    "leadMs": 160,
+    "trailMs": 194,
+    "onsetMs": 160,
+    "vowelStartMs": 160,
+    "vowelEndMs": 6900,
+    "afterVowelMs": 200,
+    "quietTailMs": 80,
+    "transcript": "pessimisten vrezen dat de automatisering vooral jobs voor een school de zal doen verdwijnen terwijl de prins bij een klein aantal mensen terechtkomt"
+   },
+   "file": "nl/c4a467b35082dac1.mp3",
+   "remark": "make a bit of pause after the comma.",
+   "group": "nl|normal|xl",
+   "groupStats": {
+    "n": 3231,
+    "medLog": 4.07808404135032,
+    "mad": 0.057082515392036015,
+    "medPerLetter": 59.032258064516114
+   },
+   "expect": [
+    "pause"
+   ]
+  },
+  {
+   "track": "en",
+   "speed": "slow",
+   "text": "Grandpa is sleeping in his armchair.",
+   "kind": "sentence",
+   "said": "[[ ɡɹˈandpɑː ]] is sleeping in his armchair.",
+   "expectedSaid": "[[ ɡɹˈandpɑːʔ ]] is sleeping in his armchair.",
+   "phonemes": "ɡɹˈandpɑː ɪz slˈiːpɪŋ ɪn hɪz ˈɑːmtʃeə.",
+   "m": {
+    "ok": true,
+    "durationMs": 2969,
+    "peak": 0.809,
+    "clipped": 0,
+    "segments": [
+     [
+      70,
+      470
+     ],
+     [
+      550,
+      2600
+     ]
+    ],
+    "voicedStartMs": 70,
+    "voicedEndMs": 2600,
+    "voicedMs": 2450,
+    "leadMs": 70,
+    "trailMs": 369,
+    "onsetMs": 40,
+    "vowelStartMs": 70,
+    "vowelEndMs": 2580,
+    "afterVowelMs": 60,
+    "quietTailMs": 290,
+    "transcript": "rand paul is sleeping in his arm chair"
+   },
+   "file": "en/c407dacc9ecd6d6a.mp3",
+   "remark": "heard \"Grandpar\" instead of \"Grandpa\" so the \"r\" problem again",
+   "group": "en|slow|xl",
+   "groupStats": {
+    "n": 3577,
+    "medLog": 4.473541743509655,
+    "mad": 0.08847096645454489,
+    "medPerLetter": 87.66666666666666
+   },
+   "expect": [
+    "pronunciation"
+   ]
+  },
+  {
+   "track": "en",
+   "speed": "slow",
+   "text": "This area is famous for its cheese.",
+   "kind": "sentence",
+   "said": "This [[ ˈeəɹiə ]] is famous for its cheese.",
+   "expectedSaid": "This [[ ˈeəɹiəʔ ]] is famous for its cheese.",
+   "phonemes": "ðˈɪs ˈeəɹiə ɪz fˈeɪməs fɔːɹ ɪts tʃˈiːz.",
+   "m": {
+    "ok": true,
+    "durationMs": 3387,
+    "peak": 0.803,
+    "clipped": 0,
+    "segments": [
+     [
+      90,
+      350
+     ],
+     [
+      480,
+      2210
+     ],
+     [
+      2290,
+      3030
+     ]
+    ],
+    "voicedStartMs": 90,
+    "voicedEndMs": 3030,
+    "voicedMs": 2730,
+    "leadMs": 90,
+    "trailMs": 357,
+    "onsetMs": 80,
+    "vowelStartMs": 90,
+    "vowelEndMs": 2890,
+    "afterVowelMs": 340,
+    "quietTailMs": 310,
+    "transcript": "this area is famous for its cheez"
+   },
+   "file": "en/c8f7dad25f0d52f8.mp3",
+   "remark": "heard \"arear\" instead of \"area\" so the \"r\" problem again",
+   "group": "en|slow|xl",
+   "groupStats": {
+    "n": 3577,
+    "medLog": 4.473541743509655,
+    "mad": 0.08847096645454489,
+    "medPerLetter": 87.66666666666666
+   },
+   "expect": [
+    "pronunciation"
+   ]
+  },
+  {
+   "track": "en",
+   "speed": "slow",
+   "text": "My grandma is very fond of her cat.",
+   "kind": "sentence",
+   "said": "My [[ ɡɹˈandmɑː ]] is very fond of her cat.",
+   "expectedSaid": "My [[ ɡɹˈandmɑːʔ ]] is very fond of her cat.",
+   "phonemes": "mˈaɪ ɡɹˈandmɑː ɪz vˈɛɹi fˈɒnd ɒv hɜː kˈat.",
+   "m": {
+    "ok": true,
+    "durationMs": 3224,
+    "peak": 0.807,
+    "clipped": 0,
+    "segments": [
+     [
+      80,
+      2840
+     ],
+     [
+      2940,
+      2990
+     ]
+    ],
+    "voicedStartMs": 80,
+    "voicedEndMs": 2990,
+    "voicedMs": 2810,
+    "leadMs": 80,
+    "trailMs": 234,
+    "onsetMs": 70,
+    "vowelStartMs": 80,
+    "vowelEndMs": 2800,
+    "afterVowelMs": 120,
+    "quietTailMs": 60,
+    "transcript": "my grandma or is very fond of her cat"
+   },
+   "file": "en/070c28425196f66d.mp3",
+   "remark": "grandmar instead of grandma so \"r\" problem again",
+   "group": "en|slow|xl",
+   "groupStats": {
+    "n": 3577,
+    "medLog": 4.473541743509655,
+    "mad": 0.08847096645454489,
+    "medPerLetter": 87.66666666666666
+   },
+   "expect": [
+    "pronunciation"
+   ]
+  },
+  {
+   "track": "en",
+   "speed": "normal",
+   "text": "You are not alone: in a survey last term, more than half of our students said they were tired in the morning.",
+   "kind": "text",
+   "expectedSaid": "You are not alone: in a survey last term, more than half of our students said they were tired in the morning.",
+   "phonemes": "juː ɑː nˌɒt ɐlˈəʊn: ɪn ɐ sˈɜːveɪ lˈast tˈɜːm, mˈɔː ðɐn hˈɑːf ɒv ˌaʊə stjˈuːdənts sˈɛd ðeɪ wɜː tˈaɪəd ɪnðə mˈɔːnɪŋ.",
+   "m": {
+    "ok": true,
+    "durationMs": 5720,
+    "peak": 0.819,
+    "clipped": 0,
+    "segments": [
+     [
+      100,
+      1710
+     ],
+     [
+      1840,
+      2180
+     ],
+     [
+      2620,
+      4140
+     ],
+     [
+      4220,
+      5430
+     ]
+    ],
+    "voicedStartMs": 100,
+    "voicedEndMs": 5430,
+    "voicedMs": 4680,
+    "leadMs": 100,
+    "trailMs": 290,
+    "transcript": "you are not alone in a survey last term more than half of our students said they were tired in the morning"
+   },
+   "file": "en/57481b2f5a221f15.mp3",
+   "remark": "not enough pause after the \":\"",
+   "group": "en|normal|xl",
+   "groupStats": {
+    "n": 3578,
+    "medLog": 4.206999819183709,
+    "mad": 0.08222524299169054,
+    "medPerLetter": 67.15476084956227
+   },
+   "expect": [
+    "pause"
+   ]
+  },
+  {
+   "track": "en",
+   "speed": "normal",
+   "text": "Grandpa always has a handkerchief in his pocket.",
+   "kind": "sentence",
+   "said": "[[ ɡɹˈandpɑː ]] always has a handkerchief in his pocket.",
+   "expectedSaid": "[[ ɡɹˈandpɑːʔ ]] always has a [[ hˈaŋkətʃiːf ]] in his pocket.",
+   "phonemes": "ɡɹˈandpɑː ˈɔːlweɪz hɐz ɐ hˈandkətʃˌiːf ɪn hɪz pˈɒkɪt.",
+   "m": {
+    "ok": true,
+    "durationMs": 3398,
+    "peak": 0.805,
+    "clipped": 0,
+    "segments": [
+     [
+      80,
+      3130
+     ]
+    ],
+    "voicedStartMs": 80,
+    "voicedEndMs": 3130,
+    "voicedMs": 3050,
+    "leadMs": 80,
+    "trailMs": 268,
+    "onsetMs": 80,
+    "vowelStartMs": 80,
+    "vowelEndMs": 3000,
+    "afterVowelMs": 100,
+    "quietTailMs": 90,
+    "transcript": "grandpa always has a hand to chief in his pocket"
+   },
+   "file": "en/ad47e2032e48424f.mp3",
+   "remark": "heard \"hanterchief\" instead of \"handkerchief\"",
+   "group": "en|normal|xl",
+   "groupStats": {
+    "n": 3578,
+    "medLog": 4.206999819183709,
+    "mad": 0.08222524299169054,
+    "medPerLetter": 67.15476084956227
+   },
+   "expect": [
+    "pronunciation"
+   ]
+  },
+  {
+   "track": "en",
+   "speed": "slow",
+   "text": "Before he went on holiday, he left several dishes of bacteria on his desk, and he was going to clean them when he came back.",
+   "kind": "text",
+   "said": "Before he went on holiday, he left several dishes of [[ baktˈiəɹiə ]] on his desk, and he was going to clean them when he came back.",
+   "expectedSaid": "Before he went on holiday, he left several dishes of [[ baktˈiəɹiəʔ ]] on his desk, and he was going to clean them when he came back.",
+   "phonemes": "bɪfˌɔː hiː wɛnt ˌɒn hˈɒlɪdˌeɪ, hiː lˈɛft sˈɛvɹəl dˈɪʃɪz ɒv baktˈiəɹiə ˌɒn hɪz dˈɛsk, and hiː wɒz ɡˌəʊɪŋ tə klˈiːn ðˌɛm wɛn hiː kˈeɪm bˈak.",
+   "m": {
+    "ok": true,
+    "durationMs": 9366,
+    "peak": 0.803,
+    "clipped": 0,
+    "segments": [
+     [
+      90,
+      1760
+     ],
+     [
+      2430,
+      3830
+     ],
+     [
+      3920,
+      5700
+     ],
+     [
+      6440,
+      8930
+     ],
+     [
+      9010,
+      9030
+     ]
+    ],
+    "voicedStartMs": 90,
+    "voicedEndMs": 9030,
+    "voicedMs": 7360,
+    "leadMs": 90,
+    "trailMs": 336,
+    "onsetMs": 80,
+    "vowelStartMs": 130,
+    "vowelEndMs": 8890,
+    "afterVowelMs": 90,
+    "quietTailMs": 200,
+    "transcript": "before he went on holiday he left several they she's of bacteria on his desk and he was going to clean them when he came back"
+   },
+   "file": "en/3452b88f91e10607.mp3",
+   "remark": "heard \"bacteriar\" instead of \"bacteria\"",
+   "group": "en|slow|xl",
+   "groupStats": {
+    "n": 3577,
+    "medLog": 4.473541743509655,
+    "mad": 0.08847096645454489,
+    "medPerLetter": 87.66666666666666
+   },
+   "expect": [
+    "pronunciation"
+   ]
+  },
+  {
+   "track": "en",
+   "speed": "slow",
+   "text": "This sofa is really comfortable.",
+   "kind": "sentence",
+   "said": "This [[ sˈəʊfə ]] is really comfortable.",
+   "expectedSaid": "This [[ sˈəʊfəʔ ]] is really comfortable.",
+   "phonemes": "ðˈɪs sˈəʊfə ɪz ɹˈiəlɪ kˈʌmftəbəl.",
+   "m": {
+    "ok": true,
+    "durationMs": 2737,
+    "peak": 0.794,
+    "clipped": 0,
+    "segments": [
+     [
+      90,
+      1920
+     ],
+     [
+      2030,
+      2060
+     ],
+     [
+      2160,
+      2500
+     ]
+    ],
+    "voicedStartMs": 90,
+    "voicedEndMs": 2500,
+    "voicedMs": 2200,
+    "leadMs": 90,
+    "trailMs": 237,
+    "onsetMs": 70,
+    "vowelStartMs": 100,
+    "vowelEndMs": 2490,
+    "afterVowelMs": 40,
+    "quietTailMs": 180,
+    "transcript": "these so for is really comfortable"
+   },
+   "file": "en/2a12f26490b4f319.mp3",
+   "remark": "heard \"sofar\" instead of \"sofa\"",
+   "group": "en|slow|xl",
+   "groupStats": {
+    "n": 3577,
+    "medLog": 4.473541743509655,
+    "mad": 0.08847096645454489,
+    "medPerLetter": 87.66666666666666
+   },
+   "expect": [
+    "pronunciation"
+   ]
+  },
+  {
+   "track": "en",
+   "speed": "slow",
+   "text": "OK. Shall I ask Maya as well? She hardly ever goes out at weekends.",
+   "kind": "text",
+   "said": "OK. Shall I ask [[ mˈaɪə ]] as well? She hardly ever goes out at [[ wˈiːkɛndz. ]]",
+   "expectedSaid": "OK. Shall I ask [[ mˈaɪəʔ ]] as well? She hardly ever goes out at [[ wˈiːkɛndz. ]]",
+   "phonemes": "ˌəʊkˈeɪ. ʃˌal aɪʲ ˈask mˈaɪə az wˈɛl? ʃiː hˈɑːdliʲ ˈɛvə ɡəʊz ˈaʊt at wˈiːkɛndz.",
+   "m": {
+    "ok": true,
+    "durationMs": 6870,
+    "peak": 0.81,
+    "clipped": 0,
+    "segments": [
+     [
+      100,
+      320
+     ],
+     [
+      410,
+      850
+     ],
+     [
+      1140,
+      2930
+     ],
+     [
+      3020,
+      3580
+     ],
+     [
+      3840,
+      5700
+     ],
+     [
+      5840,
+      5960
+     ],
+     [
+      6070,
+      6670
+     ]
+    ],
+    "voicedStartMs": 100,
+    "voicedEndMs": 6670,
+    "voicedMs": 5590,
+    "leadMs": 100,
+    "trailMs": 200,
+    "onsetMs": 100,
+    "vowelStartMs": 180,
+    "vowelEndMs": 6450,
+    "afterVowelMs": 240,
+    "quietTailMs": 50,
+    "transcript": "okay shall i am ask meyer as well she hardly ever goes out weekends"
+   },
+   "file": "en/0a4b1947894b0b8f.mp3",
+   "remark": "I've hard \"outei\" instead of \"ouchei\" and \"Mayar\" isntead of \"Maya\"",
+   "group": "en|slow|xl",
+   "groupStats": {
+    "n": 3577,
+    "medLog": 4.473541743509655,
+    "mad": 0.08847096645454489,
+    "medPerLetter": 87.66666666666666
+   },
+   "expect": [
+    "pronunciation"
+   ]
+  },
+  {
+   "track": "nl",
+   "speed": "normal",
+   "text": "Stel je dan kandidaat voor 15 november met een cv en een korte motivatiebrief.",
+   "kind": "text",
+   "said": "Stel je dan kandidaat voor 15 november met een cv en een korte [[ moːtivˈaːtibrˌif. ]]",
+   "expectedSaid": "Stel je dan kandidaat voor 15 november met een cv en een korte [[ moːtivˈaːtsibrˌif. ]]",
+   "phonemes": "stˈɛl jə dˈɑn kˌɑndidˈaːt vɔːr vˈɛɪftin noːvˈɛmbər mɛt ən sˌeːfˈeː ɛn ən kˈɔrtə moːtivˈaːtibrˌif.",
+   "m": {
+    "ok": true,
+    "durationMs": 4374,
+    "peak": 0.805,
+    "clipped": 0,
+    "segments": [
+     [
+      50,
+      4180
+     ]
+    ],
+    "voicedStartMs": 50,
+    "voicedEndMs": 4180,
+    "voicedMs": 4130,
+    "leadMs": 50,
+    "trailMs": 194,
+    "onsetMs": 30,
+    "vowelStartMs": 220,
+    "vowelEndMs": 4080,
+    "afterVowelMs": 160,
+    "quietTailMs": 100,
+    "transcript": "stel je dan kandidaat voor de vijftien november met een cv en een korte motivatie brief"
+   },
+   "file": "nl/879ffa1ae7bf3151.mp3",
+   "remark": "I've hard \"motivatibrief\" instad of \"motivasibrief\"",
+   "group": "nl|normal|xl",
+   "groupStats": {
+    "n": 3231,
+    "medLog": 4.07808404135032,
+    "mad": 0.057082515392036015,
+    "medPerLetter": 59.032258064516114
+   },
+   "expect": [
+    "pronunciation"
+   ]
+  },
+  {
+   "track": "en",
+   "speed": "normal",
+   "text": "Grandpa and I are playing football.",
+   "kind": "sentence",
+   "said": "[[ ɡɹˈandpɑː ]] and I are playing football.",
+   "expectedSaid": "[[ ɡɹˈandpɑːʔ ]] and I are playing football.",
+   "phonemes": "ɡɹˈandpɑː and aɪʲ ɑː plˈeɪɪŋ fˈʊtbɔːl.",
+   "m": {
+    "ok": true,
+    "durationMs": 2411,
+    "peak": 0.804,
+    "clipped": 0,
+    "segments": [
+     [
+      90,
+      2170
+     ]
+    ],
+    "voicedStartMs": 90,
+    "voicedEndMs": 2170,
+    "voicedMs": 2080,
+    "leadMs": 90,
+    "trailMs": 241,
+    "onsetMs": 90,
+    "vowelStartMs": 140,
+    "vowelEndMs": 2160,
+    "afterVowelMs": 40,
+    "quietTailMs": 150,
+    "transcript": "grand power and i are playing football"
+   },
+   "file": "en/ce23b9a5c9a1b09c.mp3",
+   "remark": "\"grandpar\" instead of \"grandpa\"",
+   "group": "en|normal|xl",
+   "groupStats": {
+    "n": 3578,
+    "medLog": 4.206999819183709,
+    "mad": 0.08222524299169054,
+    "medPerLetter": 67.15476084956227
+   },
+   "expect": [
+    "pronunciation"
+   ]
+  }
+ ]
+}

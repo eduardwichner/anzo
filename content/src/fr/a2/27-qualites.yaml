@@ -1,0 +1,31 @@
+id: fr-a2-u27
+title: { nl: Open of dicht?, en: "Open or closed?" }
+icon: compare
+topic: Décrire; vrai ou faux
+vocabulary:
+  - { target: excellent, native: { nl: uitstekend, en: "excellent" }, pos: adjective }
+  - { target: occupé, native: { nl: "druk, bezet", en: "busy, occupied" }, pos: adjective }
+  - { target: libre, native: { nl: vrij, en: "free" }, pos: adjective }
+  - { target: ouvert, native: { nl: open, en: "open" }, pos: adjective }
+  - { id: fr.ferme-adj, target: fermé, native: { nl: "dicht, gesloten", en: "closed, shut" }, pos: adjective }
+  - { target: important, native: { nl: belangrijk, en: "important" }, pos: adjective }
+  - { target: ancien, native: { nl: "oud, vorig", en: "old, former" }, pos: adjective, avoid: [fr.vieux] }
+  - { target: parfait, native: { nl: perfect, en: "perfect" }, pos: adjective }
+  - { target: vrai, native: { nl: "waar, echt", en: "true, real" }, pos: adjective }
+  - { target: faux, native: { nl: "niet waar, fout", en: "false, wrong" }, pos: adjective }
+  - { target: perdu, native: { nl: "verdwaald, kwijt", en: "lost" }, pos: adjective }
+sentences:
+  - { id: s01, target: "Le repas était excellent !", native: { nl: "Het eten was uitstekend!", en: "The meal was excellent!" }, items: [fr.excellent] }
+  - { id: s02, target: "Papa est très occupé aujourd'hui.", native: { nl: "Papa heeft het vandaag heel druk.", en: "Dad is very busy today." }, items: [fr.occupe] }
+  - { id: s03, target: "Tu es libre samedi ?", native: { nl: "Ben je zaterdag vrij?", en: "Are you free on Saturday?" }, items: [fr.libre] }
+  - { id: s04, target: "La boulangerie est ouverte le dimanche.", native: { nl: "De bakker is op zondag open.", en: "The bakery is open on Sundays." }, items: [fr.ouvert] }
+  - { id: s05, target: "Le musée est fermé le lundi.", native: { nl: "Het museum is op maandag dicht.", en: "The museum is closed on Mondays." }, items: [fr.ferme-adj] }
+  - { id: s06, target: "Le petit-déjeuner est très important.", native: { nl: "Het ontbijt is heel belangrijk.", en: "Breakfast is very important." }, items: [fr.important] }
+  - { id: s07, target: "Malick parle de son ancienne école.", native: { nl: "Malick vertelt over zijn vorige school.", en: "Malick is talking about his old school." }, items: [fr.ancien] }
+  - { id: s08, target: "Ton travail est parfait !", native: { nl: "Je werk is perfect!", en: "Your work is perfect!" }, items: [fr.parfait] }
+  - { id: s09, target: "C'est vrai ? Tu as un cheval ?", native: { nl: "Echt waar? Heb jij een paard?", en: "Is that true? You've got a horse?" }, items: [fr.vrai] }
+  - { id: s10, target: "Vrai ou faux ?", native: { nl: "Waar of niet waar?", en: "True or false?" }, items: [fr.vrai, fr.faux] }
+  - { id: s11, target: "Le petit chat est perdu, il ne trouve pas sa maison.", native: { nl: "Het katje is verdwaald, het vindt zijn huis niet.", en: "The little cat is lost and can't find its home." }, items: [fr.perdu] }
+lessons:
+  - { id: l01, title: { nl: Druk of vrij, en: "Busy or free" }, vocab: [fr.excellent, fr.occupe, fr.libre, fr.ouvert, fr.ferme-adj, fr.important] }
+  - { id: l02, title: { nl: Waar of niet waar, en: "True or false" }, vocab: [fr.ancien, fr.parfait, fr.vrai, fr.faux, fr.perdu] }

@@ -1,0 +1,38 @@
+id: nl-b1-t14
+kind: reading
+title: { en: Neighbours rescue a woman from a fire }
+topic: Media and news (a short article in a local newspaper)
+level: B1
+paragraphs:
+  - - { id: nl-b1-t14-s01, target: "Twee buren hebben gisteren in Gent een vrouw van 84 jaar uit haar brandende appartement gered.", native: { en: "Yesterday in Ghent two neighbours rescued an 84-year-old woman from her burning flat." } }
+    - { id: nl-b1-t14-s02, target: "De brand was rond elf uur 's avonds in de keuken begonnen.", native: { en: "The fire had started in the kitchen at around eleven at night." } }
+  - - { id: nl-b1-t14-s03, target: "Karim, een student die op de eerste verdieping woont, zag als eerste de rook.", native: { en: "Karim, a student who lives on the first floor, was the first to see the smoke." } }
+    - { id: nl-b1-t14-s04, target: "Hij belde meteen de brandweer en klopte daarna samen met een andere buurman op de deur van de vrouw.", native: { en: "He called the fire brigade at once and then knocked on the woman's door together with another neighbour." } }
+    - { id: nl-b1-t14-s05, target: "Toen ze niet antwoordde, gingen ze naar binnen met de sleutel die ze bij Karim had achtergelaten.", native: { en: "When she didn't answer, they went in with the key she had left with Karim." } }
+  - - { id: nl-b1-t14-s06, target: "De vrouw lag in de woonkamer en was erg in de war.", native: { en: "The woman was lying in the living room and was very confused." } }
+    - { id: nl-b1-t14-s07, target: "De twee mannen hielpen haar naar buiten, net voordat de brandweer aankwam.", native: { en: "The two men helped her outside, just before the fire brigade arrived." } }
+    - { id: nl-b1-t14-s08, target: "Ze werd met de ziekenwagen naar het ziekenhuis gebracht, maar ze is niet ernstig gewond.", native: { en: "She was taken to hospital by ambulance, but she is not seriously injured." } }
+  - - { id: nl-b1-t14-s09, target: "Volgens de brandweer was een pan met olie op het vuur blijven staan.", native: { en: "According to the fire brigade a pan of oil had been left on the hob." } }
+    - { id: nl-b1-t14-s10, target: "De keuken is helemaal verwoest, maar de andere appartementen hebben weinig schade.", native: { en: "The kitchen has been completely destroyed, but the other flats suffered little damage." } }
+  - - { id: nl-b1-t14-s11, target: "\"Ik ben gewoon blij dat ik op tijd wakker werd\", zei Karim, die de volgende ochtend een examen had.", native: { en: "\"I'm just glad I woke up in time,\" said Karim, who had an exam the next morning." } }
+glossary:
+  - { word: brandende, native: { en: burning } }
+  - { word: rook, native: { en: smoke } }
+  - { word: in de war, native: { en: confused } }
+  - { word: verwoest, native: { en: destroyed } }
+items: [nl.brand, nl.redden, nl.brandweer, nl.gewond, nl.student, nl.kloppen, nl.rond, nl.vuur, nl.meteen, nl.ander, nl.volgens, nl.binnen, nl.branden, nl.buiten]
+questions:
+  - { id: nl-b1-t14-q1, type: mc, question: "Wie merkte de brand als eerste?", options: ["Karim, een student van de eerste verdieping.", "De vrouw van 84 jaar.", "De brandweer."], correct: 0 }
+  - { id: nl-b1-t14-q2, type: true_false_notgiven, statement: "De buren moesten de deur van de vrouw openbreken.", answer: false }
+  - { id: nl-b1-t14-q3, type: true_false_notgiven, statement: "De vrouw is zwaar gewond.", answer: false }
+  - { id: nl-b1-t14-q4, type: true_false_notgiven, statement: "De vrouw woont al dertig jaar in het gebouw.", answer: not_given }
+  - { id: nl-b1-t14-q5, type: match_heading, paragraph: 4, options: ["Hoe de brand begon", "Een student merkt de rook", "Naar het ziekenhuis"], correct: 0 }
+listeningQuestions:
+  - { id: nl-b1-t14-l1, type: mc, question: "Waar begon de brand?", options: ["In de keuken.", "In de woonkamer.", "In de kelder."], correct: 0 }
+  - { id: nl-b1-t14-l2, type: true_false_notgiven, statement: "De andere appartementen hebben veel schade.", answer: false }
+cloze:
+  - { sentence: nl-b1-t14-s04, word: belde, kind: finite_verb, hint: { en: "bellen (past)" } }
+  - { sentence: nl-b1-t14-s05, word: gingen, kind: finite_verb, hint: { en: "gaan (past)" } }
+  - { sentence: nl-b1-t14-s07, word: hielpen, kind: finite_verb, hint: { en: "helpen (past)" } }
+  - { sentence: nl-b1-t14-s08, word: werd, kind: finite_verb, hint: { en: "worden (past)" } }
+orderable: false

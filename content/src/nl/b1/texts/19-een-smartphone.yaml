@@ -1,0 +1,39 @@
+id: nl-b1-t19
+kind: dialogue
+title: { en: A smartphone at ten? }
+topic: Relationships and opinions (two friends disagree)
+level: B1
+speakers: { A: { name: Jan }, B: { name: Emma } }
+turns:
+  - { id: nl-b1-t19-s01, speaker: A, target: "Onze zoon wil voor zijn verjaardag een smartphone. Hij wordt tien.", native: { en: "Our son wants a smartphone for his birthday. He's turning ten." } }
+  - { id: nl-b1-t19-s02, speaker: B, target: "Tien? Dat vind ik veel te jong. Volgens mij moet een kind van die leeftijd vooral buiten spelen.", native: { en: "Ten? I think that's far too young. In my opinion a child of that age should mainly play outside." } }
+  - { id: nl-b1-t19-s03, speaker: A, target: "Dat begrijp ik, maar al zijn klasgenoten hebben er een. Hij voelt zich buitengesloten.", native: { en: "I understand that, but all his classmates have one. He feels left out." } }
+  - { id: nl-b1-t19-s04, speaker: B, target: "Dat argument hoor ik vaak. Maar is dat echt zo, of overdrijft hij een beetje?", native: { en: "I often hear that argument. But is that really true, or is he exaggerating a bit?" } }
+  - { id: nl-b1-t19-s05, speaker: A, target: "Misschien overdrijft hij. Toch zou ik hem graag kunnen bellen als hij alleen naar de sportclub fietst.", native: { en: "Maybe he's exaggerating. Still, I'd like to be able to call him when he cycles to the sports club on his own." } }
+  - { id: nl-b1-t19-s06, speaker: B, target: "Daarvoor heeft hij toch geen dure smartphone nodig? Een gewone gsm is genoeg.", native: { en: "But he doesn't need an expensive smartphone for that, does he? An ordinary mobile is enough." } }
+  - { id: nl-b1-t19-s07, speaker: A, target: "Daar heb je gelijk in. Maar ik ben bang dat hij dan de enige is zonder.", native: { en: "You're right about that. But I'm afraid he'll be the only one without one." } }
+  - { id: nl-b1-t19-s08, speaker: B, target: "Zonder smartphone? Dat is niet erg. Ik ken veel kinderen die verslaafd zijn aan hun scherm. Ze slapen slecht en ze lezen niet meer.", native: { en: "Without a smartphone? That's not so bad. I know a lot of children who are addicted to their screens. They sleep badly and they don't read any more." } }
+  - { id: nl-b1-t19-s09, speaker: A, target: "Dan maken we duidelijke afspraken. Geen gsm aan tafel en 's avonds legt hij hem in de keuken.", native: { en: "Then we'll make clear agreements. No phone at the table, and in the evening he leaves it in the kitchen." } }
+  - { id: nl-b1-t19-s10, speaker: B, target: "Dat klinkt al beter. Het is een compromis, en hij leert er ook iets van.", native: { en: "That sounds better already. It's a compromise, and he learns something from it too." } }
+  - { id: nl-b1-t19-s11, speaker: A, target: "Dus je bent het nu met me eens?", native: { en: "So you agree with me now?" } }
+  - { id: nl-b1-t19-s12, speaker: B, target: "Niet helemaal. Maar ik geef toe dat jullie er goed over hebben nagedacht.", native: { en: "Not completely. But I admit that you've thought about it carefully." } }
+glossary:
+  - { word: buitengesloten, native: { en: left out } }
+  - { word: duidelijke, native: { en: clear } }
+  - { word: nagedacht, native: { en: "thought (nadenken: to think about)" } }
+items: [nl.smartphone, nl.argument, nl.overdrijven, nl.gelijk, nl.verslaafd, nl.compromis, nl.toegeven, nl.vooral, nl.volgens, nl.klinken, nl.klasgenoot, nl.buiten, nl.zonde, nl.genoeg]
+questions:
+  - { id: nl-b1-t19-q1, type: mc, question: "Wat wil de zoon van Jan voor zijn verjaardag?", options: ["Een smartphone.", "Een fiets.", "Een tablet."], correct: 0 }
+  - { id: nl-b1-t19-q2, type: true_false_notgiven, statement: "Emma vindt dat tien jaar oud genoeg is voor een smartphone.", answer: false }
+  - { id: nl-b1-t19-q3, type: true_false_notgiven, statement: "Jan wil zijn zoon kunnen bellen als hij alleen onderweg is.", answer: true }
+  - { id: nl-b1-t19-q4, type: true_false_notgiven, statement: "Emma heeft zelf ook kinderen.", answer: not_given }
+  - { id: nl-b1-t19-q5, type: mc, question: "Welke regel stelt Jan voor?", options: ["Geen gsm aan tafel.", "Maar één uur per dag op de gsm.", "Geen gsm in het weekend."], correct: 0 }
+listeningQuestions:
+  - { id: nl-b1-t19-l1, type: mc, question: "Waar legt de zoon 's avonds zijn gsm?", options: ["In de keuken.", "In zijn kamer.", "In de woonkamer."], correct: 0 }
+  - { id: nl-b1-t19-l2, type: true_false_notgiven, statement: "Op het einde is Emma het helemaal met Jan eens.", answer: false }
+cloze:
+  - { sentence: nl-b1-t19-s02, word: vind, kind: finite_verb, hint: { en: "vinden (present)" } }
+  - { sentence: nl-b1-t19-s05, word: zou, kind: finite_verb, hint: { en: "zullen (conditional)" } }
+  - { sentence: nl-b1-t19-s08, word: ken, kind: finite_verb, hint: { en: "kennen (present)" } }
+  - { sentence: nl-b1-t19-s12, word: geef, kind: finite_verb, hint: { en: "toegeven (present)" } }
+orderable: true

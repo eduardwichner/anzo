@@ -1,0 +1,60 @@
+id: nl-b2-work-u01
+title: { en: Applying for a job }
+icon: work
+topic: Job adverts and profiles, the application letter, the selection procedure; formal requests (Graag had ik …, Ik zou graag …)
+vocabulary:
+  - { target: de sollicitatiebrief, native: { en: "letter of application, cover letter" }, pos: noun, plural: sollicitatiebrieven, noBlank: true }
+  - { target: de motivatiebrief, native: { en: "motivation letter" }, pos: noun, plural: motivatiebrieven, avoid: [nl.sollicitatiebrief], noBlank: true }
+  - { target: de sollicitant, native: { en: applicant }, pos: noun, plural: sollicitanten }
+  - { target: de selectie, native: { en: selection }, pos: noun, plural: selecties }
+  - { target: de selectieprocedure, native: { en: "selection procedure" }, pos: noun, plural: selectieprocedures }
+  - { target: aanwerven, native: { en: "to hire, to recruit (Belgian)" }, pos: verb, alsoNL: aannemen }
+  - { target: de aanwerving, native: { en: "recruitment, hiring" }, pos: noun, plural: aanwervingen }
+  - { target: de personeelsdienst, native: { en: "HR department, personnel department" }, pos: noun, plural: personeelsdiensten, alsoNL: de personeelsafdeling }
+  - { target: de functieomschrijving, native: { en: "job description" }, pos: noun, plural: functieomschrijvingen }
+  - { target: de vereiste, native: { en: requirement }, pos: noun, plural: vereisten }
+  - { target: vereist, native: { en: required }, pos: adjective }
+  - { target: de troef, native: { en: "asset, advantage (een troef: a plus)" }, pos: noun, plural: troeven }
+  - { target: de proeftijd, native: { en: "probation period, trial period" }, pos: noun, plural: "-" }
+  - { target: het arbeidscontract, native: { en: "employment contract" }, pos: noun, plural: arbeidscontracten }
+  - { target: de arbeider, native: { en: "manual worker, blue-collar worker" }, pos: noun, plural: arbeiders }
+  - { target: het kaderlid, native: { en: "manager, executive (member of management)" }, pos: noun, plural: kaderleden }
+  - { target: zich kandidaat stellen, native: { en: "to apply, to put yourself forward (Belgian)" }, pos: verb }
+  - { target: de aanmerking, native: { en: "consideration (in aanmerking komen voor: to be eligible for); remark, criticism" }, pos: noun, plural: aanmerkingen }
+  - { target: de teamleider, native: { en: team leader }, pos: noun, plural: teamleiders }
+  - { target: de kandidatuur, native: { en: "application, candidacy (Belgian)" }, pos: noun, plural: kandidaturen, alsoNL: de sollicitatie, avoid: [nl.sollicitatiebrief] }
+  - { target: leiden, native: { en: "to lead, to run (a team, a meeting)" }, pos: verb }
+sentences:
+  - { id: s01, target: "In bijlage vindt u mijn cv en mijn sollicitatiebrief.", native: { en: "Please find attached my CV and my letter of application." }, items: [nl.sollicitatiebrief] }
+  - { id: s02, target: "In een motivatiebrief leg je uit waarom je die job wilt.", native: { en: "In a motivation letter you explain why you want that job." }, items: [nl.motivatiebrief] }
+  - { id: s03, target: "Er waren meer dan honderd sollicitanten voor die vacature.", native: { en: "There were more than a hundred applicants for that vacancy." }, items: [nl.sollicitant] }
+  - { id: s04, target: "Na de eerste selectie blijven er tien kandidaten over.", native: { en: "After the first selection ten candidates remain." }, items: [nl.selectie] }
+  - { id: s05, target: "De selectieprocedure bestaat uit een test en twee gesprekken.", native: { en: "The selection procedure consists of a test and two interviews." }, items: [nl.selectieprocedure], finite: { word: bestaat, hint: { en: "bestaan (present)" } } }
+  - { id: s06, target: "Het ziekenhuis wil dit jaar vijftig verpleegkundigen aanwerven.", native: { en: "The hospital wants to hire fifty nurses this year." }, items: [nl.aanwerven] }
+  - { id: s07, target: "De aanwerving van nieuw personeel duurt vaak maanden.", native: { en: "Recruiting new staff often takes months." }, items: [nl.aanwerving] }
+  - { id: s08, target: "Stuur je kandidatuur naar de personeelsdienst.", native: { en: "Send your application to the HR department." }, items: [nl.personeelsdienst, nl.kandidatuur] }
+  - { id: s09, target: "Lees de functieomschrijving goed voor je solliciteert.", native: { en: "Read the job description carefully before you apply." }, items: [nl.functieomschrijving] }
+  - { id: s10, target: "Een rijbewijs is een vereiste voor deze job.", native: { en: "A driving licence is a requirement for this job." }, items: [nl.vereiste], acceptAlso: ["Voor deze job is een rijbewijs een vereiste."] }
+  - { id: s11, target: "Kennis van het Frans is vereist.", native: { en: "Knowledge of French is required." }, items: [nl.vereist] }
+  - { id: s12, target: "Ervaring met klanten is een troef.", native: { en: "Experience with customers is a plus." }, items: [nl.troef] }
+  - { id: s13, target: "In België bestaat er voor de meeste contracten geen proeftijd meer.", native: { en: "In Belgium most contracts no longer have a probation period." }, items: [nl.proeftijd], acceptAlso: ["Voor de meeste contracten bestaat er in België geen proeftijd meer."] }
+  - { id: s14, target: "Lees je arbeidscontract voor je het ondertekent.", native: { en: "Read your employment contract before you sign it." }, items: [nl.arbeidscontract] }
+  - { id: s15, target: "In de fabriek werken tweehonderd arbeiders.", native: { en: "The factory has two hundred manual workers." }, items: [nl.arbeider], acceptAlso: ["Tweehonderd arbeiders werken in de fabriek."] }
+  - { id: s16, target: "Als kaderlid leid je een team van twaalf mensen.", native: { en: "As a manager you lead a team of twelve people." }, items: [nl.kaderlid, nl.leiden] }
+  - { id: s17, target: "Volgens de functieomschrijving ben ik geschikt voor deze job.", native: { en: "According to the job description I am suitable for this job." }, items: [nl.functieomschrijving] }
+  - { id: s18, target: "We zoeken een gemotiveerde sollicitant.", native: { en: "We are looking for a motivated applicant." }, items: [nl.sollicitant] }
+  - { id: s19, target: "Tijdens de selectie vragen ze naar je beste kwaliteiten.", native: { en: "During the selection they ask about your best qualities." }, items: [nl.selectie] }
+  - { id: s20, target: "Ik wil me graag kandidaat stellen voor de functie van teamleider.", native: { en: "I would like to apply for the position of team leader." }, items: [nl.zich-kandidaat-stellen, nl.teamleider] }
+  - { id: s21, target: "Wie geen diploma heeft, komt niet in aanmerking voor de job.", native: { en: "Anyone without a diploma is not eligible for the job." }, items: [nl.aanmerking] }
+  - { id: s22, target: "Graag had ik meer informatie over de selectieprocedure.", native: { en: "I would like more information about the selection procedure." }, items: [nl.selectieprocedure], build: true, acceptAlso: ["Ik had graag meer informatie over de selectieprocedure."] }
+  - { id: s23, target: "Elke sollicitant wordt uitgenodigd voor een gesprek.", native: { en: "Every applicant is invited for an interview." }, items: [nl.sollicitant] }
+  - { id: s24, target: "Hij heeft zich kandidaat gesteld, omdat hij nieuwe uitdagingen zoekt.", native: { en: "He applied because he is looking for new challenges." }, items: [nl.zich-kandidaat-stellen] }
+  - { id: s25, target: "Vroeger had elk nieuw contract een proeftijd.", native: { en: "In the past every new contract had a probation period." }, items: [nl.proeftijd] }
+  - { id: s26, target: "Alle sollicitanten doen eerst een test.", native: { en: "All applicants take a test first." }, items: [nl.sollicitant], form: { word: sollicitanten, stem: solliciteren } }
+  - { id: s27, target: "Zijn motivatie is groot.", native: { en: "He is highly motivated." }, items: [nl.motivatiebrief], form: { word: motivatie, stem: motiveren } }
+  - { id: s28, target: "De aanwerving gebeurt via de personeelsdienst.", native: { en: "Hiring is done through the HR department." }, items: [nl.aanwerving], form: { word: aanwerving, stem: aanwerven } }
+transforms:
+  - { id: x01, from: "Voor deze job moet je een rijbewijs hebben.", key: vereist, gapped: "Voor deze job ___.", answers: ["is een rijbewijs vereist"], items: [nl.vereist] }
+  - { id: x02, from: "Zonder diploma kun je die job niet krijgen.", key: aanmerking, gapped: "Zonder diploma kom je niet ___ die job.", answers: ["in aanmerking voor"], items: [nl.aanmerking] }
+  - { id: x03, from: "Het bedrijf wil dit jaar twintig nieuwe mensen aannemen.", key: aanwerven, gapped: "Het bedrijf wil dit jaar ___.", answers: ["twintig nieuwe mensen aanwerven", "20 nieuwe mensen aanwerven"], items: [nl.aanwerven] }
+texts: [nl-b2-work-t01]

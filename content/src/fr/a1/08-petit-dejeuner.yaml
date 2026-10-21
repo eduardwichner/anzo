@@ -1,0 +1,52 @@
+id: fr-a1-u08
+title: { nl: Ontbijt, en: "Mealtimes" }
+icon: food
+topic: Les repas; le petit-déjeuner; les fruits
+vocabulary:
+  - { target: le petit-déjeuner, native: { nl: het ontbijt, en: "breakfast" }, pos: noun, gender: m }
+  - { target: le déjeuner, native: { nl: "de lunch, het middageten", en: "lunch" }, pos: noun, gender: m }
+  - { target: le goûter, native: { nl: het vieruurtje, en: "afternoon snack, tea (snack)" }, pos: noun, gender: m }
+  - { target: le dîner, native: { nl: het avondeten, en: "dinner, evening meal" }, pos: noun, gender: m }
+  - { target: le repas, native: { nl: de maaltijd, en: "meal" }, pos: noun, gender: m, category: true }
+  - { target: le beurre, native: { nl: de boter, en: "butter" }, pos: noun, gender: m }
+  - { target: la confiture, native: { nl: de jam, en: "jam" }, pos: noun, gender: f }
+  - { target: le thé, native: { nl: de thee, en: "tea" }, pos: noun, gender: m }
+  - { target: le café, native: { nl: de koffie, en: "coffee" }, pos: noun, gender: m }
+  - { target: le chocolat chaud, native: { nl: de warme chocolademelk, en: "hot chocolate" }, pos: noun, gender: m }
+  - { target: le biscuit, native: { nl: het koekje, en: "biscuit" }, pos: noun, gender: m }
+  - { target: le sucre, native: { nl: de suiker, en: "sugar" }, pos: noun, gender: m }
+  - { target: la boisson, native: { nl: het drankje, en: "drink" }, pos: noun, gender: f }
+  - { target: le sandwich, native: { nl: het broodje, en: "sandwich" }, pos: noun, gender: m }
+  - { target: la crêpe, native: { nl: de pannenkoek, en: "pancake, crêpe" }, pos: noun, gender: f }
+  - { id: fr.gouter-v, target: goûter, native: { nl: proeven, en: "to taste" }, pos: verb }
+  - { target: bon appétit, native: { nl: eet smakelijk, en: "enjoy your meal" }, pos: exclamation }
+  - { target: la poire, native: { nl: de peer, en: "pear" }, pos: noun, gender: f }
+  - { id: fr.orange-fruit, target: "l'orange", native: { nl: de sinaasappel, en: "orange (fruit)" }, pos: noun, gender: f }
+  - { target: le citron, native: { nl: de citroen, en: "lemon" }, pos: noun, gender: m }
+  - { target: le raisin, native: { nl: "de druiven, de druif", en: "grapes, grape" }, pos: noun, gender: m }
+sentences:
+  - { id: s01, target: "Au petit-déjeuner, je mange du pain.", native: { nl: "Bij het ontbijt eet ik brood.", en: "For breakfast I eat bread." }, items: [fr.petit-dejeuner] }
+  - { id: s02, target: "Le déjeuner est à midi.", native: { nl: "De lunch is om twaalf uur.", en: "Lunch is at midday." }, items: [fr.dejeuner] }
+  - { id: s03, target: "Pour le goûter, maman prépare un gâteau.", native: { nl: "Voor het vieruurtje maakt mama een taart.", en: "For the afternoon snack, Mum makes a cake." }, items: [fr.gouter] }
+  - { id: s04, target: "Le dîner est prêt !", native: { nl: "Het avondeten is klaar!", en: "Dinner is ready!" }, items: [fr.diner] }
+  - { id: s05, target: "Le repas est très bon.", native: { nl: "De maaltijd is heel lekker.", en: "The meal is very good." }, items: [fr.repas] }
+  - { id: s06, target: "Je mange du pain avec du beurre.", native: { nl: "Ik eet brood met boter.", en: "I eat bread with butter." }, items: [fr.beurre] }
+  - { id: s07, target: "J'adore la confiture de fraises.", native: { nl: "Ik ben gek op aardbeienjam.", en: "I love strawberry jam." }, items: [fr.confiture] }
+  - { id: s08, target: "Ma grand-mère boit du thé.", native: { nl: "Mijn oma drinkt thee.", en: "My grandmother drinks tea." }, items: [fr.the] }
+  - { id: s09, target: "Papa boit un café le matin.", native: { nl: "Papa drinkt 's ochtends een kopje koffie.", en: "Dad drinks a coffee in the morning." }, items: [fr.cafe] }
+  - { id: s10, target: "En hiver, je bois un chocolat chaud.", native: { nl: "In de winter drink ik warme chocolademelk.", en: "In winter I drink hot chocolate." }, items: [fr.chocolat-chaud] }
+  - { id: s11, target: "Tu veux un biscuit ?", native: { nl: "Wil je een koekje?", en: "Would you like a biscuit?" }, items: [fr.biscuit] }
+  - { id: s12, target: "Je ne mets pas de sucre dans mon thé.", native: { nl: "Ik doe geen suiker in mijn thee.", en: "I don't put sugar in my tea." }, items: [fr.sucre] }
+  - { id: s13, target: "Prends un sandwich et une boisson.", native: { nl: "Neem een broodje en een drankje.", en: "Take a sandwich and a drink." }, items: [fr.sandwich, fr.boisson] }
+  - { id: s14, target: "Je fais des crêpes avec ma grand-mère.", native: { nl: "Ik bak pannenkoeken met mijn oma.", en: "I make pancakes with my grandmother." }, items: [fr.crepe] }
+  - { id: s15, target: "Tu veux goûter mon gâteau ?", native: { nl: "Wil je mijn taart proeven?", en: "Do you want to taste my cake?" }, items: [fr.gouter-v] }
+  - { id: s16, target: "Bon appétit, tout le monde !", native: { nl: "Eet smakelijk, allemaal!", en: "Enjoy your meal, everyone!" }, items: [fr.bon-appetit] }
+  - { id: s17, target: "La poire est jaune et verte.", native: { nl: "De peer is geel en groen.", en: "The pear is yellow and green." }, items: [fr.poire] }
+  - { id: s18, target: "Je bois un jus d'orange.", native: { nl: "Ik drink sinaasappelsap.", en: "I'm drinking orange juice." }, items: [fr.orange-fruit] }
+  - { id: s19, target: "Le citron est jaune.", native: { nl: "De citroen is geel.", en: "The lemon is yellow." }, items: [fr.citron] }
+  - { id: s20, target: "J'aime le raisin blanc.", native: { nl: "Ik hou van witte druiven.", en: "I like white grapes." }, items: [fr.raisin] }
+  - { id: s21, target: "Je mange une orange.", native: { nl: "Ik eet een sinaasappel.", en: "I'm eating an orange." }, items: [fr.orange-fruit] }
+lessons:
+  - { id: l01, title: { nl: Ontbijt en lunch, en: "Breakfast and lunch" }, vocab: [fr.petit-dejeuner, fr.dejeuner, fr.gouter, fr.diner, fr.repas, fr.beurre, fr.confiture] }
+  - { id: l02, title: { nl: Thee en koffie, en: "Tea and coffee" }, vocab: [fr.the, fr.cafe, fr.chocolat-chaud, fr.biscuit, fr.sucre, fr.boisson, fr.sandwich] }
+  - { id: l03, title: { nl: Eet smakelijk!, en: "Enjoy your meal!" }, vocab: [fr.crepe, fr.gouter-v, fr.bon-appetit, fr.poire, fr.orange-fruit, fr.citron, fr.raisin] }

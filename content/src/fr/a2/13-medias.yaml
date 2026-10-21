@@ -1,0 +1,35 @@
+id: fr-a2-u13
+title: { nl: Telefoon en computer, en: "Phones, tablets and computers" }
+icon: media
+topic: Les médias; écrire et envoyer
+vocabulary:
+  - { target: le téléphone portable, native: { nl: de mobiele telefoon, en: "mobile phone, phone" }, pos: noun, gender: m }
+  - { target: "l'écran", native: { nl: het scherm, en: "screen" }, pos: noun, gender: m }
+  - { target: la tablette, native: { nl: de tablet, en: "tablet" }, pos: noun, gender: f }
+  - { target: la radio, native: { nl: de radio, en: "radio" }, pos: noun, gender: f }
+  - { target: "l'appareil photo", native: { nl: "het fototoestel, de camera", en: "camera" }, pos: noun, gender: m }
+  - { target: "l'informatique", native: { nl: "informatica, de computerles", en: "computing, information technology" }, pos: noun, gender: f }
+  - { target: envoyer, native: { nl: sturen, en: "to send" }, pos: verb }
+  - { target: recevoir, native: { nl: "krijgen, ontvangen", en: "to receive, to get" }, pos: verb }
+  - { target: "l'enveloppe", native: { nl: de envelop, en: "envelope" }, pos: noun, gender: f }
+  - { target: le timbre, native: { nl: de postzegel, en: "stamp" }, pos: noun, gender: m }
+  - { target: utiliser, native: { nl: gebruiken, en: "to use" }, pos: verb }
+  - { target: allumer, native: { nl: "aandoen, aanzetten", en: "to switch on, to turn on" }, pos: verb }
+  - { target: éteindre, native: { nl: "uitdoen, uitzetten", en: "to switch off, to turn off" }, pos: verb }
+sentences:
+  - { id: s01, target: "Les téléphones portables sont interdits pendant le voyage.", native: { nl: "Mobiele telefoons zijn verboden tijdens de reis.", en: "Mobile phones are not allowed during the trip." }, items: [fr.telephone-portable] }
+  - { id: s02, target: "L'écran de la tablette est cassé.", native: { nl: "Het scherm van de tablet is kapot.", en: "The tablet's screen is broken." }, items: [fr.ecran, fr.tablette] }
+  - { id: s03, target: "Je joue sur la tablette de maman.", native: { nl: "Ik speel op de tablet van mama.", en: "I play on Mum's tablet." }, items: [fr.tablette] }
+  - { id: s04, target: "J'écoute la radio dans la voiture.", native: { nl: "Ik luister naar de radio in de auto.", en: "I listen to the radio in the car." }, items: [fr.radio] }
+  - { id: s05, target: "J'ai pris des photos avec mon appareil photo.", native: { nl: "Ik heb foto's gemaakt met mijn fototoestel.", en: "I took photos with my camera." }, items: [fr.appareil-photo] }
+  - { id: s06, target: "En informatique, on apprend à utiliser l'ordinateur.", native: { nl: "Bij informatica leren we de computer gebruiken.", en: "In computing lessons we learn to use the computer." }, items: [fr.informatique, fr.utiliser] }
+  - { id: s07, target: "Chaque soir, vous pourrez envoyer un mail à vos parents.", native: { nl: "Elke avond kunnen jullie een mail naar jullie ouders sturen.", en: "Every evening you will be able to send an email to your parents." }, items: [fr.envoyer] }
+  - { id: s08, target: "J'ai reçu une lettre de ma correspondante.", native: { nl: "Ik heb een brief van mijn penvriendin gekregen.", en: "I got a letter from my pen friend." }, items: [fr.recevoir] }
+  - { id: s09, target: "Mets la lettre dans l'enveloppe.", native: { nl: "Doe de brief in de envelop.", en: "Put the letter in the envelope." }, items: [fr.enveloppe] }
+  - { id: s10, target: "Il faut un timbre pour la carte postale.", native: { nl: "Je hebt een postzegel nodig voor de ansichtkaart.", en: "You need a stamp for the postcard." }, items: [fr.timbre] }
+  - { id: s11, target: "Je peux utiliser ton ordinateur ?", native: { nl: "Mag ik jouw computer gebruiken?", en: "Can I use your computer?" }, items: [fr.utiliser] }
+  - { id: s12, target: "Allume l'ordinateur, s'il te plaît.", native: { nl: "Zet de computer aan, alsjeblieft.", en: "Switch on the computer, please." }, items: [fr.allumer] }
+  - { id: s13, target: "Éteins la télévision et va dormir.", native: { nl: "Zet de televisie uit en ga slapen.", en: "Switch off the television and go to sleep." }, items: [fr.eteindre] }
+lessons:
+  - { id: l01, title: { nl: Scherm en tablet, en: "Screens and tablets" }, vocab: [fr.telephone-portable, fr.ecran, fr.tablette, fr.radio, fr.appareil-photo, fr.informatique, fr.utiliser] }
+  - { id: l02, title: { nl: "Post, aan en uit", en: "Post and switching on and off" }, vocab: [fr.envoyer, fr.recevoir, fr.enveloppe, fr.timbre, fr.allumer, fr.eteindre] }

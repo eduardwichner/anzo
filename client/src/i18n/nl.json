@@ -1,0 +1,1205 @@
+{
+  "app": {
+    "name": "Anzo",
+    "loading": "Even laden…",
+    "error": "Er ging iets mis. Probeer het nog eens.",
+    "offline": "Geen verbinding met Anzo.",
+    "retry": "Opnieuw",
+    "back": "Terug",
+    "cancel": "Annuleren",
+    "save": "Opslaan"
+  },
+  "languages": {
+    "en": "Engels",
+    "fr": "Frans",
+    "nl": "Nederlands",
+    "fr-en": "Frans"
+  },
+  "uiLanguages": {
+    "nl": "Nederlands",
+    "en": "English"
+  },
+  "login": {
+    "title": "Wie ben jij?",
+    "hello": "Hoi {name}!",
+    "password": "Wachtwoord",
+    "username": "Gebruikersnaam",
+    "submit": "Inloggen",
+    "wrong": "Dat wachtwoord klopt niet.",
+    "tooMany": "Te vaak geprobeerd. Wacht een minuutje.",
+    "otherAccount": "Ander account",
+    "otherTitle": "Inloggen met je gebruikersnaam",
+    "language": "Taal van de app"
+  },
+  "home": {
+    "greeting": "Hoi {name}!",
+    "levels": "Niveaus",
+    "settings": "Instellingen",
+    "xp": "XP",
+    "xpLabel": "{n} XP",
+    "streakLabel": "{n} dagen op rij",
+    "empty": "Er zijn nog geen lessen.",
+    "lessonDone": "{title}: klaar",
+    "lessonCurrent": "{title}: start",
+    "lessonLocked": "{title}: op slot",
+    "start": "Start",
+    "lessonOptional": "{title}: mag je overslaan",
+    "optionalLevel": "Mag je overslaan: jij begint verderop",
+    "levelBarLabel": "Niveau {level}, {unit}, {n}% klaar. Open het overzicht van de niveaus",
+    "currentLesson": "Huidige les",
+    "practice": "Oefenen",
+    "practiceLabel": "Oefenen: {n} woorden om te herhalen",
+    "practiceCaughtUp": "Oefenen: alles herhaald",
+    "profile": "Mijn profiel",
+    "todayXp": "{xp} / {goal} XP vandaag",
+    "goalRingLabel": "Dagdoel: {xp} van {goal} XP",
+    "adminLink": "Beheer",
+    "lessonExtraDone": "{title}: extra oefening, gedaan",
+    "branchLevel": "zoveel lessen als je wilt, of geen",
+    "extraNumbered": "{title} {n}"
+  },
+  "levels": {
+    "title": "Niveaus",
+    "available": "Beschikbaar",
+    "planned": "Binnenkort",
+    "roadmap": "Later",
+    "percentDone": "{n}% klaar",
+    "goHere": "Ga hierheen",
+    "close": "Sluiten",
+    "optional": "Mag je overslaan: jij begint verderop",
+    "current": "Hier ben je nu",
+    "preview": "Voorbeeld",
+    "extrasDone": "Extra oefening: {n} van {total}",
+    "branch": "Keuzerichting",
+    "branchOf": "Kies hem na {level}: zoveel je wilt, of geen"
+  },
+  "exercise": {
+    "multiple_choice": {
+      "fromTarget": "Wat betekent dit?",
+      "toTarget": "Hoe zeg je dit in het {language}?"
+    },
+    "match_pairs": "Zoek de paren",
+    "build_sentence": "Vertaal deze zin",
+    "fill_blank": {
+      "choose": "Vul in",
+      "type": "Typ het woord",
+      "finiteVerb": "Typ het werkwoord in de juiste vorm",
+      "wordForm": "Maak van het woord in hoofdletters een woord dat in het gat past"
+    },
+    "listen_choose": {
+      "target": "Wat hoor je?",
+      "native": "Wat betekent het woord dat je hoort?",
+      "nativeSentence": "Wat betekent de zin die je hoort?"
+    },
+    "listen_type": "Typ wat je hoort",
+    "speak": "Zeg het na",
+    "reading": {
+      "mc": "Lees de tekst en beantwoord de vraag",
+      "true_false_notgiven": "Lees de tekst: klopt dit, klopt het niet, of staat het er niet in?",
+      "match_heading": "Lees de tekst: welke titel past bij de alinea?",
+      "summary": "Lees de tekst: welke samenvatting past het best?",
+      "match_texts": "Lees de teksten: wie zegt wat? Kies bij elke zin een persoon"
+    },
+    "dialogue": {
+      "mc": "Lees het gesprek en beantwoord de vraag",
+      "true_false_notgiven": "Lees het gesprek: klopt dit, klopt het niet, of staat het er niet in?",
+      "summary": "Lees het gesprek: welke samenvatting past het best?"
+    },
+    "listening": {
+      "mc": "Luister en beantwoord de vraag",
+      "true_false_notgiven": "Luister: klopt dit, klopt het niet, of wordt het niet gezegd?",
+      "match_heading": "Luister: welke titel past bij de alinea?",
+      "complete": "Luister en vul de zin aan (1 tot 3 woorden)"
+    },
+    "order_paragraphs": "Zet de stukken in de goede volgorde",
+    "cloze": {
+      "choose": "Vul de gaten in",
+      "type": "Typ de woorden die ontbreken"
+    },
+    "open_cloze": "Typ in elk gat één woord",
+    "word_form": "Maak bij elk gat een woord van het woord in hoofdletters",
+    "gap_sentence": "Er ontbreken zinnen in de tekst: zet in elk gat de goede zin (er blijft een zin over)",
+    "transform": "Maak de tweede zin af zodat hij hetzelfde betekent als de eerste. Gebruik het gegeven woord, onveranderd (2 tot 6 woorden)"
+  },
+  "lesson": {
+    "backHome": "Terug naar het startscherm",
+    "check": "Controleer",
+    "continue": "Verder",
+    "quit": "Stoppen",
+    "progress": "{done} van {total}",
+    "correct": "Goed zo!",
+    "wrong": "Nog niet goed",
+    "correctAnswer": "Goed antwoord:",
+    "accents": "Let op de accenten:",
+    "pairsWrong": "Er ging een paar mis.",
+    "comesBack": "Deze komt straks nog een keer.",
+    "hint": "Hint: {hint}",
+    "typeHere": "Typ hier…",
+    "typeLabel": "Jouw antwoord",
+    "blank": "leeg vakje",
+    "yourSentence": "Jouw zin",
+    "wordBank": "Woorden",
+    "reservedTitle": "Binnenkort",
+    "reservedText": "Dit soort oefening komt binnenkort.",
+    "skip": "Overslaan",
+    "listen": "Luister",
+    "notFound": "Deze les bestaat niet.",
+    "spelling": "Bijna! Zo schrijf je het:",
+    "typeWhatYouHear": "Typ wat je hoort…",
+    "listenAgain": "Nog een keer luisteren",
+    "alsoNL": "In Nederland: {nl} (voor {word})",
+    "capsNote": "Hoofdletters en punten tellen niet mee.",
+    "extraWords": "Niet in de zin: {words}",
+    "mark": {
+      "wrong": "fout",
+      "missing": "vergeten",
+      "accents": "let op de accenten",
+      "spelling": "bijna goed"
+    }
+  },
+  "done": {
+    "title": "Les klaar!",
+    "score": "Score",
+    "scoreValue": "{n}%",
+    "xpEarned": "+{n}",
+    "streak": "{n} dagen op rij",
+    "streakOne": "1 dag op rij",
+    "again": "Nog een keer",
+    "goalReached": "Dagdoel gehaald!",
+    "badgeClose": "Verder",
+    "continue": "Verder",
+    "lowScore": "Lastig? Doe het nog een keer: de tweede keer onthoud je het beter."
+  },
+  "settings": {
+    "title": "Instellingen",
+    "language": "Taal van de app",
+    "languageHelp": "De talen in de lessen blijven zoals ze zijn.",
+    "avatar": "Kies je avatar",
+    "avatarColour": "Kleur",
+    "avatarSaved": "Je avatar is veranderd.",
+    "changePassword": "Wachtwoord veranderen",
+    "current": "Huidig wachtwoord",
+    "next": "Nieuw wachtwoord",
+    "repeat": "Nieuw wachtwoord nog een keer",
+    "save": "Opslaan",
+    "saved": "Je wachtwoord is veranderd.",
+    "mismatch": "De nieuwe wachtwoorden zijn niet hetzelfde.",
+    "tooShort": "Kies minstens {min} tekens.",
+    "wrongCurrent": "Je huidige wachtwoord klopt niet.",
+    "logout": "Uitloggen",
+    "reset": "Voortgang wissen",
+    "resetIntro": "Begin opnieuw met een niveau of met alles. Je XP van die lessen gaat weg; je reeks blijft.",
+    "resetNothing": "Dit account heeft geen voortgang om te wissen.",
+    "resetScope": "Wat wil je wissen?",
+    "resetScopeTrack": "Alles van {language}",
+    "resetScopePack": "Niveau {cefr} ({title})",
+    "resetNext": "Verder",
+    "resetConfirmTitle": "Weet je het zeker?",
+    "resetConfirmText": "Je wist: {scope}. Dit kan niet ongedaan worden.",
+    "resetPassword": "Je wachtwoord",
+    "resetTypeWord": "Typ {word} om te bevestigen",
+    "resetWord": "WISSEN",
+    "resetSubmit": "Wissen",
+    "resetDone": "Gewist: {scope}.",
+    "resetWrongPassword": "Dat wachtwoord klopt niet.",
+    "resetWrongWord": "Typ precies {word}.",
+    "dailyGoal": "Dagdoel",
+    "dailyGoalHelp": "Zoveel XP wil je elke dag halen. De ring rond je maatje op het startscherm laat zien hoe ver je bent.",
+    "soundEffects": "Geluidseffecten",
+    "soundEffectsHelp": "Een belletje bij een goed antwoord, een zachte toon bij een fout en een fanfare aan het eind van een les.",
+    "autoplay": "Woorden automatisch afspelen",
+    "autoplayHelp": "Vragen en luisteroefeningen in de taal die je leert, worden één keer voorgelezen als ze verschijnen. De knoppen 🔊 en 🐢 werken altijd.",
+    "showOnBoard": "Toon mij op het familiebord",
+    "showOnBoardHelp": "Jouw XP van deze week en de dagen dat je oefende, naast die van de anderen. Elke maandag begint het bord opnieuw.",
+    "theme": "Thema",
+    "themeHelp": "Systeem volgt de instelling van het toestel.",
+    "themeSystem": "Systeem",
+    "themeLight": "Licht",
+    "themeDark": "Donker"
+  },
+  "admin": {
+    "title": "Beheer",
+    "users": "Gebruikers",
+    "addUser": "Gebruiker toevoegen",
+    "newUserTitle": "Nieuwe gebruiker",
+    "editUserTitle": "{name} bewerken",
+    "edit": "Bewerken",
+    "name": "Naam",
+    "role": "Rol",
+    "roleChild": "Leerling",
+    "roleAdmin": "Beheerder",
+    "track": "Taal",
+    "noTrack": "—",
+    "xp": "XP",
+    "streak": "Reeks",
+    "lessons": "Lessen",
+    "statsLine": "{xp} XP · reeks {streak} · lessen klaar: {lessons}",
+    "xpStreak": "{xp} XP · reeks {streak}",
+    "hiddenFromLogin": "niet op het inlogscherm",
+    "userCreated": "{name} is toegevoegd.",
+    "userSaved": "Opgeslagen.",
+    "form": {
+      "username": "Gebruikersnaam",
+      "usernameHelp": "2–24 tekens: kleine letters, cijfers, - en _. Kan later niet veranderen.",
+      "displayName": "Naam op het scherm",
+      "role": "Rol",
+      "uiLang": "Taal van de app",
+      "avatar": "Avatar",
+      "password": "Beginwachtwoord",
+      "newPassword": "Nieuw wachtwoord (leeg laten om het te houden)",
+      "passwordHelp": "Minstens {min} tekens.",
+      "mustChange": "Moet het wachtwoord veranderen bij de eerste keer inloggen",
+      "showOnLogin": "Zichtbaar op het inlogscherm",
+      "canSelfReset": "Mag de eigen voortgang wissen",
+      "create": "Toevoegen",
+      "startPack": "Startniveau",
+      "startPackHelp": "Lessen van eerdere niveaus blijven speelbaar maar zijn niet verplicht; het pad begint bij de eerste les van dit niveau.",
+      "nativeLang": "Moedertaal",
+      "nativeLangHelp": "De betekenissen in de oefeningen staan in deze taal, en daarvoor worden cursussen aangeboden. Wijzigen houdt alle voortgang.",
+      "audience": "Aanspreekvorm",
+      "audienceHelp": "Volwassenen worden als volwassene aangesproken in de paar teksten die een kind aanspreken.",
+      "canSelfEnroll": "Mag zelf cursussen toevoegen en verbergen",
+      "firstCourse": "Eerste cursus",
+      "firstCourseNone": "Nog geen",
+      "onBoard": "Zichtbaar op het familiebord"
+    },
+    "errors": {
+      "username": {
+        "invalid": "Gebruik 2–24 tekens: kleine letters, cijfers, - of _.",
+        "taken": "Deze gebruikersnaam bestaat al."
+      },
+      "displayName": "Vul een naam in (hoogstens 30 tekens).",
+      "password": "Minstens {min} tekens.",
+      "last_admin": "De laatste beheerder kan niet weg of kind worden.",
+      "cannot_delete_self": "Je kunt je eigen account niet verwijderen.",
+      "cannot_demote_self": "Je kunt jezelf geen kind maken.",
+      "confirm_mismatch": "De gebruikersnaam klopt niet.",
+      "startPack": "Dit startniveau bestaat niet voor deze taal.",
+      "course": "Deze cursus wordt niet aangeboden voor deze moedertaal."
+    },
+    "newPassword": "Nieuw wachtwoord voor {name}",
+    "setPassword": "Wachtwoord instellen",
+    "passwordSet": "Wachtwoord ingesteld voor {name}.",
+    "tooShort": "Minstens {min} tekens.",
+    "viewProgress": "Toon lessen",
+    "hideProgress": "Verberg lessen",
+    "lesson": "Les",
+    "status": "Status",
+    "score": "Score",
+    "times": "Keer",
+    "statusDone": "Klaar",
+    "statusOpen": "Nog niet",
+    "resetProgress": "Voortgang wissen",
+    "resetScope": "Wat wissen?",
+    "confirmReset": "{scope} van {name} wissen? XP van die lessen gaat weg, de reeks blijft. Dit kan niet ongedaan worden.",
+    "confirmYes": "Ja, wissen",
+    "confirmNo": "Annuleren",
+    "resetDone": "Gewist voor {name}: {scope}.",
+    "noLessons": "Geen lessen voor deze gebruiker.",
+    "deleteUser": "Gebruiker verwijderen",
+    "deleteTitle": "{name} verwijderen?",
+    "deleteText": "Alles van {name} gaat weg: account, XP, reeks en voortgang. Dit kan niet ongedaan worden.",
+    "deleteTypeName": "Typ {username} om te bevestigen",
+    "deleteConfirm": "Verwijderen",
+    "deleted": "{name} is verwijderd.",
+    "logout": "Uitloggen",
+    "progress": "Voortgang",
+    "openReport": "Voortgangsrapport",
+    "reportTitle": "Voortgang van {name}",
+    "summary": "Overzicht",
+    "xpTotal": "XP",
+    "streakNow": "Reeks",
+    "streakBestLabel": "Langste reeks",
+    "wordsLearned": "Woorden geleerd",
+    "practiceSessions": "Oefensessies",
+    "badgesEarned": "Badges",
+    "levelsDone": "Lessen per niveau",
+    "levelLine": "{done} van {total} lessen ({n} %)",
+    "activity": "Activiteit, laatste 30 dagen",
+    "legendLessons": "Lessen",
+    "legendPractice": "Oefenen",
+    "chartLabel": "XP per dag, laatste 30 dagen: lessen en oefenen",
+    "dayXp": "{day}: {lessons} XP lessen, {practice} XP oefenen",
+    "daysActive": "Dagen met een les of oefening",
+    "dayActive": "{day}: actief",
+    "dayInactive": "{day}: niet actief",
+    "timeSpent": "Tijd per dag",
+    "minutes": "{n} min",
+    "unknown": "onbekend",
+    "timeNote": "Lessen van vóór deze meting hebben geen duur; die dagen staan als onbekend.",
+    "dayMinutes": "{day}: {n} min",
+    "dayUnknown": "{day}: duur onbekend",
+    "accuracy": "Goed bij de eerste poging",
+    "typeCol": "Soort",
+    "last30": "30 dagen",
+    "allTime": "Altijd",
+    "accuracyCell": "{pct} % ({correct}/{total})",
+    "none": "—",
+    "weakest": "Zwakste woorden",
+    "itemCol": "Woord of zin (betekenis)",
+    "strengthCol": "Sterkte",
+    "lastSeenCol": "Laatst gezien",
+    "wrongCol": "Fout",
+    "noWeakest": "Nog geen woorden geoefend.",
+    "reportBack": "Terug naar {name}",
+    "dayCol": "Dag",
+    "showTable": "Toon als tabel",
+    "audience": {
+      "child": "Kind",
+      "adult": "Volwassene"
+    },
+    "courses": {
+      "title": "Cursussen",
+      "active": "Actief",
+      "hidden": "Verborgen",
+      "notOffered": "Niet aangeboden voor deze moedertaal",
+      "makeActive": "Actief maken",
+      "hide": "Verbergen",
+      "restore": "Terughalen",
+      "add": "Cursus toevoegen",
+      "addButton": "Toevoegen",
+      "none": "Nog geen cursussen.",
+      "line": "{n}% van de lessen · {xp} XP",
+      "startLevel": "Startniveau",
+      "progressFor": "Cursus"
+    },
+    "reportCourse": "Cursus: {language} (XP, reeks en activiteit: alle cursussen samen)",
+    "xpCourse": "XP in deze cursus",
+    "preview": {
+      "title": "Voorbeeld: {level}",
+      "open": "Bekijken",
+      "intro": "Speel een les zoals een leerling hem ziet. Er wordt niets bewaard: geen voortgang, XP of antwoorden.",
+      "lessons": "{n} oefeningen",
+      "extra": "facultatief",
+      "back": "Terug naar de lessen",
+      "done": "Les gespeeld: {score}% in één keer goed (niets bewaard).",
+      "quit": "Terug naar de lessen",
+      "banner": "Voorbeeld — er wordt niets bewaard"
+    },
+    "myCourse": "Mijn cursus: {language}",
+    "learn": "Zelf een taal leren",
+    "statusOptional": "Niet verplicht"
+  },
+  "audio": {
+    "play": "Luister",
+    "playSlow": "Luister langzaam",
+    "playWord": "Luister: {word}",
+    "missing": "Het geluid voor deze oefening ontbreekt."
+  },
+  "avatars": {
+    "fox": "Vos",
+    "owl": "Uil",
+    "cat": "Kat",
+    "dog": "Hond",
+    "bear": "Beer",
+    "rabbit": "Konijn",
+    "panda": "Panda",
+    "frog": "Kikker",
+    "penguin": "Pinguïn",
+    "lion": "Leeuw",
+    "mouse": "Muis",
+    "koala": "Koala",
+    "pig": "Varken",
+    "hedgehog": "Egel",
+    "robot": "Robot",
+    "dino": "Dino"
+  },
+  "colours": {
+    "sky": "Lucht",
+    "mint": "Munt",
+    "sun": "Zon",
+    "peach": "Perzik",
+    "lilac": "Lila",
+    "rose": "Roze",
+    "sand": "Zand",
+    "teal": "Zeegroen"
+  },
+  "forcePassword": {
+    "title": "Wijzig eerst je wachtwoord",
+    "text": "Dit account heeft nog een wachtwoord dat iemand anders heeft ingesteld. Kies een eigen wachtwoord van minstens {min} tekens om verder te gaan.",
+    "submit": "Wachtwoord opslaan"
+  },
+  "voices": {
+    "title": "Stemmen",
+    "intro": "Alle lessen zijn vooraf ingesproken met één stem per taal. De stem wordt op de server gekozen (zie de handleiding voor de beheerder, onderdeel Audio).",
+    "voice": "Stem",
+    "licence": "Licentie",
+    "tempoLabel": "Spreektempo",
+    "tempo": "{normal} (normaal), {slow} (langzaam)",
+    "noSample": "De proefopname is nog niet gemaakt (npm run audio:render).",
+    "assessment": {
+      "permissive": "vrij te gebruiken",
+      "share-alike": "vrij, gelijk delen",
+      "copyleft": "copyleft",
+      "non-commercial": "niet-commercieel",
+      "unclear": "onduidelijk"
+    },
+    "dialogueTitle": "Tweede stem (gesprekken)"
+  },
+  "mascot": {
+    "idle1": "Zullen we samen leren?",
+    "idle2": "Ik heb zin in een les!",
+    "idle3": "Hoi! Klaar voor vandaag?",
+    "sleeping1": "Nog even oefenen vandaag?",
+    "sleeping2": "Zzz… nog één lesje vandaag?",
+    "sleeping3": "Je reeks wacht op je!",
+    "correct1": "Super!",
+    "correct2": "Knap gedaan!",
+    "correct3": "Precies goed!",
+    "correct4": "Jij kunt dit!",
+    "wrong1": "Bijna! Je krijgt hem straks nog een keer.",
+    "wrong2": "Geeft niks, zo leer je.",
+    "wrong3": "Volgende keer lukt het!",
+    "wrong4": "Goed geprobeerd!",
+    "celebrate1": "Wat goed van jou!",
+    "celebrate2": "Hoera, klaar!",
+    "celebrate3": "Jij bent een kanjer!",
+    "goal1": "Dagdoel gehaald, hoera!",
+    "goal2": "Je dagdoel is binnen!"
+  },
+  "practice": {
+    "title": "Oefenen",
+    "sheetTitle": "Oefenen",
+    "close": "Sluiten",
+    "dueTitle": "Herhalen",
+    "dueText": "{n} woorden zijn klaar om te herhalen.",
+    "dueTextOne": "1 woord is klaar om te herhalen.",
+    "caughtUp": "Alles herhaald!",
+    "caughtUpText": "Je oefent nu je laatste lessen.",
+    "mistakesTitle": "Mijn fouten",
+    "mistakesText": "{n} oefeningen die je laatst fout had.",
+    "mistakesTextOne": "1 oefening die je laatst fout had.",
+    "mistakesNone": "Geen fouten om te oefenen. Knap!",
+    "start": "Start",
+    "locked": "Oefenen kan na je eerste les.",
+    "lockedTitle": "Nog even geduld",
+    "loadFailed": "Oefenen lukt nu niet.",
+    "doneTitle": "Goed geoefend!",
+    "again": "Nog een keer oefenen",
+    "quit": "Stoppen met oefenen"
+  },
+  "goal": {
+    "title": "Kies je dagdoel",
+    "text": "Hoeveel XP wil je elke dag halen?",
+    "calm": "Rustig",
+    "normal": "Gewoon",
+    "fanatic": "Fanatiek",
+    "xp": "{n} XP per dag",
+    "reached": "Dagdoel gehaald!",
+    "label": "Dagdoel"
+  },
+  "badges": {
+    "first-lesson": {
+      "title": "Eerste les",
+      "condition": "Maak je eerste les"
+    },
+    "first-practice": {
+      "title": "Eerste keer oefenen",
+      "condition": "Maak je eerste oefensessie"
+    },
+    "lessons-10": {
+      "title": "10 lessen",
+      "condition": "Maak 10 lessen"
+    },
+    "lessons-50": {
+      "title": "50 lessen",
+      "condition": "Maak 50 lessen"
+    },
+    "lessons-100": {
+      "title": "100 lessen",
+      "condition": "Maak 100 lessen"
+    },
+    "streak-3": {
+      "title": "3 dagen op rij",
+      "condition": "Leer 3 dagen op rij"
+    },
+    "streak-7": {
+      "title": "7 dagen op rij",
+      "condition": "Leer 7 dagen op rij"
+    },
+    "streak-30": {
+      "title": "30 dagen op rij",
+      "condition": "Leer 30 dagen op rij"
+    },
+    "streak-100": {
+      "title": "100 dagen op rij",
+      "condition": "Leer 100 dagen op rij"
+    },
+    "perfect-lesson": {
+      "title": "Foutloos",
+      "condition": "Maak een les zonder fouten"
+    },
+    "unit-complete": {
+      "title": "Unit klaar",
+      "condition": "Maak alle lessen van een unit"
+    },
+    "words-50": {
+      "title": "50 woorden",
+      "condition": "Leer 50 woorden goed"
+    },
+    "words-250": {
+      "title": "250 woorden",
+      "condition": "Leer 250 woorden goed"
+    },
+    "words-500": {
+      "title": "500 woorden",
+      "condition": "Leer 500 woorden goed"
+    },
+    "words-1000": {
+      "title": "1000 woorden",
+      "condition": "Leer 1000 woorden goed"
+    },
+    "goal-week": {
+      "title": "Een week vol doelen",
+      "condition": "Haal 7 dagen op rij je dagdoel"
+    },
+    "level": {
+      "title": "{level} klaar",
+      "condition": "Maak alle lessen van {level}"
+    },
+    "newTitle": "Nieuwe badge!",
+    "newTitleMany": "{n} nieuwe badges!",
+    "unitsCount": "Units klaar: {n}",
+    "earnedOn": "Gehaald op {date}",
+    "locked": "Nog niet gehaald",
+    "bug-hunter": {
+      "title": "Foutenspeurder",
+      "condition": "Meld een fout die daarna verbeterd wordt"
+    }
+  },
+  "profile": {
+    "title": "Mijn profiel",
+    "xp": "XP",
+    "streak": "Reeks",
+    "streakBest": "Langste reeks",
+    "words": "Woorden geleerd",
+    "badges": "Badges",
+    "goalWeek": "Dagdoel deze week",
+    "goalDayReached": "{day}: dagdoel gehaald ({xp} XP)",
+    "goalDayMissed": "{day}: {xp} XP",
+    "days": "{n} dagen",
+    "daysOne": "1 dag",
+    "courses": "Jouw cursussen",
+    "courseLine": "{xp} XP · {words} woorden geleerd · {lessons} lessen"
+  },
+  "exerciseTypes": {
+    "multiple_choice": "Meerkeuze",
+    "listen_choose": "Luisteren en kiezen",
+    "match_pairs": "Paren zoeken",
+    "fill_blank": "Invullen",
+    "build_sentence": "Zin bouwen",
+    "listen_type": "Luisteren en typen"
+  },
+  "messages": {
+    "fixed": "Bedankt! Jouw melding heeft een fout opgelost.",
+    "checked": "Bedankt! We hebben het gecontroleerd: het was goed.",
+    "fixedAdult": "Bedankt voor je melding: er is een fout mee opgelost.",
+    "checkedAdult": "Bedankt voor je melding. We hebben de oefening gecontroleerd: die klopte.",
+    "title": "Bericht voor jou",
+    "ok": "Oké!",
+    "badge": "Je hebt een nieuwe badge!"
+  },
+  "report": {
+    "flag": "Fout melden",
+    "info": "Wat is dit?",
+    "infoText": "Denk je dat hier een fout in zit? Tik op de vlag, dan kijkt een volwassene ernaar.",
+    "infoTextAdult": "Denk je dat hier een fout in zit? Tik op de vlag, dan kijkt de beheerder ernaar.",
+    "title": "Wat klopt er niet?",
+    "note": "Wil je er iets over vertellen? (mag ook leeg)",
+    "pick": "Tik op wat er niet klopt:",
+    "reason": {
+      "native": "Het {native} klopt niet",
+      "target": "Het {language} klopt niet",
+      "audio": "Het geluid klopt niet",
+      "other": "Iets anders"
+    },
+    "thanks": "Bedankt! 🙂",
+    "sent": "Gemeld",
+    "close": "Sluiten",
+    "failed": "Versturen lukte niet. Probeer het nog eens.",
+    "limit": "Je hebt vandaag al veel gemeld. Morgen kan het weer!"
+  },
+  "ops": {
+    "tools": "Beheertools",
+    "details": "Details",
+    "loadFailed": "Laden lukte niet. Controleer de verbinding en probeer het opnieuw.",
+    "copyFailed": "Kopiëren werkt niet in deze browser. Gebruik de downloadknop.",
+    "time": {
+      "never": "nooit",
+      "justNow": "zojuist",
+      "minutes": "{n} min geleden",
+      "hours": "{n} uur geleden",
+      "days": "{n} dagen geleden",
+      "durationMinutes": "{n} min",
+      "durationHours": "{n} uur",
+      "durationDays": "{n} dagen"
+    },
+    "card": {
+      "hint": "Hint: {hint}",
+      "heard": "Te horen:",
+      "answer": "Goed antwoord:",
+      "acceptAlso": "Ook goed: {list}"
+    },
+    "corrections": {
+      "title": "Correcties",
+      "tab": {
+        "search": "Zoeken en verbeteren",
+        "history": "Geschiedenis"
+      },
+      "intro": "Zoek een woord of zin van een cursus (Engels, Frans, Nederlands), een betekenis, of een id uit een melding. Open het om het te verbeteren.",
+      "searchPlaceholder": "Zoek woorden en zinnen",
+      "none": "Niets gevonden.",
+      "exerciseHit": "Oefening {id} ({lesson}) gebruikt de onderdelen hieronder.",
+      "vocabulary": "Woorden",
+      "sentences": "Zinnen",
+      "where": "{language} · {level} · {unit}",
+      "usedIn": "in {n} oefening(en)",
+      "kind": {
+        "vocabulary": "woord",
+        "sentence": "zin"
+      },
+      "editTitle": "Verbeter een {kind}",
+      "id": "Id",
+      "levelUnit": "Waar",
+      "pos": "Woordsoort",
+      "source": "Bronbestand",
+      "gender": {
+        "m": "mannelijk",
+        "f": "vrouwelijk"
+      },
+      "readOnlyNote": "Id, woordsoort en geslacht kunnen hier niet veranderen: de voortgang van de kinderen is per id opgeslagen.",
+      "change": "Wijzigen",
+      "field": {
+        "target": "Tekst in het {language}",
+        "native": "Betekenis",
+        "acceptAlso": "Ook goed rekenen (één per regel)",
+        "nativeIn": "Betekenis in het {native}"
+      },
+      "acceptHelp": "Andere manieren om hetzelfde antwoord te schrijven, voor typ- en zinsbouwoefeningen. Bij zinsbouw moeten het dezelfde woorden zijn.",
+      "reason": "Waarom (mag leeg, blijft in de geschiedenis)",
+      "warnAudio": "De tekst in het {language} is veranderd, dus de opname wordt opnieuw gemaakt — ongeveer een minuut.",
+      "warnUsed": {
+        "vocabulary": "Dit woord staat in {n} oefening(en).",
+        "sentence": "Deze zin staat in {n} oefening(en)."
+      },
+      "nothingChanged": "Er is nog niets veranderd.",
+      "invalid": "Er klopt iets niet in het formulier; zie de meldingen hierboven.",
+      "error": {
+        "required": "Dit mag niet leeg zijn.",
+        "too_long": "Dit is te lang (hoogstens 200 tekens).",
+        "invalid": "Hier staan tekens in die niet mogen.",
+        "too_many": "Hoogstens 10 alternatieven."
+      },
+      "submit": "Correctie opslaan",
+      "submitFailed": "Opslaan lukte niet. Probeer het opnieuw.",
+      "submitNote": "Correcties worden één voor één op de achtergrond doorgevoerd, meestal binnen een minuut; Geschiedenis laat zien hoe het ging.",
+      "preview": "Zo komen de oefeningen eruit te zien",
+      "after": "Na de correctie",
+      "mayChange": "De lesbouwer maakt deze oefening misschien iets anders opnieuw.",
+      "exercises": "Oefeningen die het gebruiken ({n})",
+      "hide": "Deze oefening verbergen",
+      "hideExplain": "Verberg deze oefening als ze als geheel niet klopt. De kinderen krijgen haar niet meer; hun voortgang blijft geldig.",
+      "hideReason": "Waarom (verplicht)",
+      "hideYes": "Verbergen",
+      "forReport": "Deze correctie hoort bij de melding van de kinderen over oefening {id}. Als ze is doorgevoerd, sluit de melding en worden de kinderen bedankt.",
+      "queueLine": "{n} correctie(s) wachten.",
+      "noHistory": "Nog geen correcties.",
+      "status": {
+        "queued": "Wacht",
+        "running": "Bezig",
+        "applied": "Doorgevoerd",
+        "rejected": "Niet doorgevoerd",
+        "undone": "Teruggedraaid"
+      },
+      "step": {
+        "start": "starten",
+        "preflight": "controleren",
+        "apply": "de bron aanpassen",
+        "generate": "de lessen opnieuw bouwen",
+        "trace": "de woordenlijst controleren",
+        "lock": "de id's controleren",
+        "audio": "opnames maken",
+        "tests": "de controles draaien",
+        "commit": "de versie opslaan",
+        "reload": "in de app laden",
+        "integrity": "de voortgang controleren",
+        "orphans": "opnames opruimen",
+        "push": "pushen"
+      },
+      "reasonLine": "Reden: {reason}",
+      "commit": "Versie {commit}",
+      "undoneBy": "Teruggedraaid door correctie #{id}.",
+      "nothing": "niets",
+      "undo": "Terugdraaien",
+      "undoConfirm": "Deze correctie terugdraaien? Dat gaat door dezelfde controles.",
+      "undoYes": "Ja, terugdraaien",
+      "undoFailed": "Terugdraaien kon niet worden ingepland.",
+      "showAll": "Alle {n} oefeningen tonen",
+      "how": {
+        "title": "Hoe dit werkt",
+        "what": {
+          "title": "Wat je hier kunt doen",
+          "text": "Zoek een woord of zin van een cursus (de doeltaal, een betekenis of een id uit een melding), open het en verander de tekst, de betekenis of de andere goede antwoorden, verberg een oefening die als geheel fout is, of neem de opname opnieuw op."
+        },
+        "job": {
+          "title": "Wie een correctie doorvoert",
+          "text": "Opslaan zet de correctie in een wachtrij. De inhoudstaak op deze server voert er één tegelijk door, meestal binnen een minuut: ze past de bron van de les aan, bouwt de lessen opnieuw, controleert de woordenlijst en de id’s, maakt nieuwe opnames als de tekst veranderde, draait de tests, bewaart een versie in de geschiedenis en laadt de app opnieuw zonder iemand af te melden. Mislukt een stap, dan wordt alles teruggezet en zegt Geschiedenis waarom. Er komt geen AI aan te pas."
+        },
+        "audio": {
+          "title": "Opnames",
+          "text": "Verander je de tekst, dan worden de opnames vanzelf opnieuw gemaakt. Opnieuw opnemen (onder de opname) maakt een nieuwe opname van dezelfde tekst: je hoort de oude en de nieuwe en houdt er één. De luistercontrole toont hoe goed de opnames zijn en laat de nieuwe eerst horen."
+        },
+        "undo": {
+          "title": "Terugdraaien",
+          "text": "Geschiedenis toont elke correctie met haar status. Een doorgevoerde correctie kan teruggedraaid worden; dat gaat via dezelfde taak."
+        },
+        "reports": {
+          "title": "De meldingen van de kinderen",
+          "text": "Een melding in Meldingen opent de correctiepagina van haar woord of zin. Wordt de correctie doorgevoerd, dan sluit de melding en wordt het kind bedankt."
+        },
+        "limits": {
+          "title": "Wat een ontwikkelaar nodig heeft",
+          "text": "Nieuwe woorden, zinnen, lessen of eenheden, een nieuw niveau en regels in de uitspraaklijst zijn schrijfwerk: een ontwikkelaar maakt ze op de server, met de hulpmiddelen om lessen te schrijven (docs/developer/content.md), nooit de draaiende app."
+        }
+      },
+      "courseFor": "{language} voor wie {native} spreekt",
+      "sharedTarget": "De tekst in het {language} hoort ook bij {courses}: als je hem hier verandert, verandert hij daar ook, met de opname. De betekenis hoort alleen bij deze cursus."
+    },
+    "inbox": {
+      "title": "Meldingen",
+      "intro": "Meldingen van de kinderen (de 🚩 na een antwoord), één kaart per oefening, nieuwste eerst.",
+      "empty": "Geen open meldingen.",
+      "count": "{n} melding(en)",
+      "reason": {
+        "native": "Het {native} klopt niet",
+        "target": "Het {language} klopt niet",
+        "audio": "Het geluid klopt niet",
+        "other": "Iets anders"
+      },
+      "childAnswer": "Antwoord: {answer}",
+      "right": "goed gerekend",
+      "wrong": "fout gerekend",
+      "pairMistakes": "{n} fout(en) bij het koppelen",
+      "asSeen": "Zoals het kind het zag",
+      "answerClip": "Opname van het goede antwoord",
+      "hidden": "Deze oefening is inmiddels verborgen; de kinderen krijgen haar niet meer.",
+      "alreadyCorrect": "Was al goed",
+      "fix": "Verbeter „{text}”",
+      "ask": "Vraag kopiëren",
+      "dismiss": "Afwijzen",
+      "sendMessage": "Bedank het kind met een bericht op het startscherm (één keer getoond)",
+      "messageLabel": "Bericht",
+      "multiLang": "Deze kinderen gebruiken verschillende app-talen: laat de tekst zo, dan krijgt ieder hem in de eigen taal.",
+      "closeCorrect": "Sluiten als goed",
+      "dismissConfirm": "Sluiten zonder bericht?",
+      "closedCorrect": "Gesloten als goed; {n} bericht(en) verstuurd.",
+      "closedDismissed": "Afgewezen.",
+      "copied": "Gekopieerd: een kant-en-klare vraag in het Engels met de oefening en de meldingen, om iemand om een tweede mening te vragen.",
+      "actionFailed": "Dat lukte niet. Probeer het opnieuw.",
+      "markFixed": "Op een andere manier opgelost",
+      "fixedConfirm": "Al opgelost buiten Correcties (bv. nieuwe audio)? Elke leerling krijgt \"jouw melding heeft een fout opgelost\" en, de eerste keer, de badge Foutenspeurder.",
+      "closedFixed": "Gesloten als opgelost: {n} bericht(en) verstuurd."
+    },
+    "ask": {
+      "intro": "A {native}-speaking {who} learning {language} flagged this exercise as wrong ({n} report(s)).",
+      "type": "Exercise type:",
+      "instruction": "Instruction shown:",
+      "shown": "Shown:",
+      "correct": "Correct answer:",
+      "heard": "Audio says:",
+      "meaning": "{native} meaning of “{text}”:",
+      "childAnswer": "Child's answer:",
+      "markedWrong": "marked wrong",
+      "markedRight": "marked right",
+      "reason": "Child's reason:",
+      "note": "Note:",
+      "noAnswer": "(no answer recorded)",
+      "audioOnly": "(audio only)",
+      "question": "Is the {language} and the {native} correct and natural for a {who}? If not, give the corrected text.",
+      "who": {
+        "child": "child (age 8–10)",
+        "adult": "adult learner"
+      }
+    },
+    "system": {
+      "title": "Systeem",
+      "refresh": "Vernieuwen",
+      "summary": {
+        "green": "Alles werkt.",
+        "amber": "Het werkt, maar iets vraagt aandacht (oranje).",
+        "red": "Er is iets mis (rood). Kopieer hieronder de diagnose."
+      },
+      "level": {
+        "green": "in orde",
+        "amber": "vraagt aandacht",
+        "red": "probleem"
+      },
+      "app": {
+        "title": "App",
+        "version": "Versie {version} · commit {commit}",
+        "uptime": "Draait al {time} (sinds {started})",
+        "restartedBy": "Laatst herstart door de {by}: {reason}",
+        "restartUnknown": "Reden van de laatste start niet bekend (handmatige herstart, update of reboot).",
+        "proxyNone": "Proxy: nog geen login via de reverse proxy gezien.",
+        "proxy": "Proxy: laatste login via {peer}, {when}; {trust}; logincookie {cookie}.",
+        "proxyTrusted": "vertrouwd (ANZO_TRUST_PROXY)",
+        "proxyUntrusted": "NIET de vertrouwde proxy — zet ANZO_TRUST_PROXY op dit adres",
+        "cookieSecure": "gemarkeerd als Secure",
+        "cookieNotSecure": "NIET gemarkeerd als Secure",
+        "cookieUnknown": "Secure-vlag niet vastgelegd"
+      },
+      "health": {
+        "title": "Gezondheid",
+        "ok": "Alle controles slagen (/api/health)",
+        "problem": "Probleem: {problem}"
+      },
+      "content": {
+        "title": "Inhoud",
+        "packs": "{n} niveaus geladen",
+        "audioOk": "Alle opnames zijn er",
+        "audioMissing": "{n} opname(s) ontbreken",
+        "reloadFailed": "Het laatste herladen van de inhoud mislukte, de vorige lessen zijn nog in gebruik: {error}",
+        "lockProblems": "{n} id-lockprobleem(en)",
+        "loaded": "Geladen {when}"
+      },
+      "backups": {
+        "title": "Back-ups",
+        "db": "Database: {when}, {size} ({n} bewaard)",
+        "dbNone": "Nog geen databaseback-up",
+        "dbFailed": "De laatste databaseback-up is MISLUKT: {line}",
+        "archive": "Volledig archief: {when}, {size}",
+        "archiveNone": "Nog geen volledig archief (gemaakt op zondag om 04:00)",
+        "archiveFailed": "Het laatste volledige archief is MISLUKT: {error}",
+        "archiveBudget": "{n} archief/archieven bewaard: {size} van een budget van {limit} (25 % van de schijf), {free} vrij",
+        "archiveFewer": "Minder dan 3 bewaard: 3 passen niet in het budget (25 % van de schijf, minstens 4 GB vrij)"
+      },
+      "disk": {
+        "title": "Schijf",
+        "free": "{free} vrij van {total}",
+        "unknown": "Vrije ruimte onbekend"
+      },
+      "integrity": {
+        "title": "Gegevenscontrole",
+        "ok": "Gecontroleerd {when}: voortgang past bij de lessen",
+        "failed": "Gecontroleerd {when}: {n} probleem/problemen",
+        "none": "Nog niet gedraaid (elke nacht om 03:15)",
+        "warnings": "{n} waarschuwing(en)",
+        "info": "{n} opmerking(en), niets te doen"
+      },
+      "jobs": {
+        "title": "Inhoudstaken",
+        "idle": "Niets in de wachtrij",
+        "queued": "{n} correctie(s) wachten",
+        "running": "Bezig met #{id}: {step}",
+        "last": "Laatste: #{id} {status}, {when}",
+        "stuck": "Er wachten correcties, maar de inhoudstaak pakt ze niet op"
+      },
+      "watchdog": {
+        "title": "Waakhond",
+        "checked": "Gecontroleerd {when}: de app antwoordt",
+        "restarts": "{n} herstart(s) in de laatste 7 dagen",
+        "noRestarts": "Geen herstarts in de laatste 7 dagen",
+        "stopped": "Gestopt met herstarten na te veel herstarts binnen een uur",
+        "none": "Draait nog niet"
+      },
+      "reports": {
+        "title": "Meldingen van kinderen",
+        "open": "{n} open",
+        "none": "Geen open meldingen"
+      },
+      "helpTitle": "Diagnose",
+      "helpText": "Kopieert alles wat een ontwikkelaar nodig heeft om een probleem op de server te onderzoeken (de versie, de tegels, de problemen, de laatste mislukte taak; wachtwoorden en geheimen verwijderd). De handleiding voor de beheerder zegt wat je ermee doet (docs/operator-guide.md).",
+      "copy": "Diagnose kopiëren",
+      "download": "Downloaden als bestand",
+      "copied": "Gekopieerd ({size}).",
+      "downloaded": "{file} gedownload ({size}).",
+      "problemsTitle": "Problemen (nieuwste eerst)",
+      "noProblems": "Geen waarschuwingen of fouten in de logs.",
+      "source": {
+        "app": "app",
+        "jobs": "taken",
+        "content-job": "inhoudstaak",
+        "watchdog": "waakhond",
+        "backup": "back-up",
+        "full-backup": "volledig archief",
+        "disk": "schijf",
+        "cleanup": "opruimen"
+      },
+      "audiocheck": {
+        "title": "Audiocontrole",
+        "ok": "{n} opnames gecontroleerd {when}: niets gemarkeerd",
+        "flagged": "Audiocontrole: nu {n} gemarkeerd (laatste volledige controle {when})",
+        "heardBad": "{n} daarvan als Slecht beluisterd in de luistercontrole",
+        "explained": "{n} verklaard (grenzen van de spraakherkenning)",
+        "unchecked": "{n} opname(s) gemaakt sindsdien: voer npm run audio:check uit",
+        "failed": "{n} opname(s) konden niet geanalyseerd worden",
+        "none": "Nog niet uitgevoerd (npm run audio:check, na het opnemen)",
+        "worst": "{language} “{text}”: {flags}"
+      },
+      "ackAll": "Alles gezien",
+      "ack": "Gezien",
+      "problemsHelp": "De laatste 14 dagen. Een probleem dat als gezien is gemarkeerd, blijft verborgen tot het opnieuw gebeurt.",
+      "acknowledged": "{n} als gezien gemarkeerd (verborgen)."
+    },
+    "rerecord": {
+      "title": "Opnieuw opnemen",
+      "intro": "Klinkt het fout? Neem deze opname opnieuw op: de server maakt een nieuwe opname op de manier van nu (een minuut of twee), controleert ze, en je hoort beide voor je kiest. Er verandert niets tot je de nieuwe houdt.",
+      "normal": "Gewone snelheid",
+      "slow": "Traag",
+      "start": "Opnieuw opnemen",
+      "old": "Oud",
+      "new": "Nieuw",
+      "flags": "de controle merkt op: {flags}",
+      "noFlags": "de controle vond niets",
+      "playOld": "Speel de oude opname",
+      "playNew": "Speel de nieuwe opname",
+      "keepNew": "Nieuwe houden",
+      "keepOld": "Oude houden",
+      "neither": "Geen van beide — opnieuw proberen",
+      "heardBad": "Als Slecht beluisterd: {reason}",
+      "noReason": "geen reden opgegeven",
+      "failed": "Dat lukte niet. Probeer het zo meteen opnieuw.",
+      "status": {
+        "making": "Wordt opgenomen…",
+        "review": "Luister naar beide en kies.",
+        "keeping": "De nieuwe opname wordt in gebruik genomen…",
+        "kept": "De nieuwe opname is in gebruik.",
+        "dropping": "De oude wordt gehouden…",
+        "dropped": "De oude opname blijft.",
+        "failed": "Niet opgenomen."
+      }
+    }
+  },
+  "courses": {
+    "title": "Jouw cursussen",
+    "close": "Sluiten",
+    "chip": "Cursus: {language}. Tik om te wisselen of een cursus toe te voegen.",
+    "active": "Nu bezig",
+    "progress": "{n}% van de lessen · {xp} XP",
+    "add": "+ Cursus toevoegen",
+    "addTitle": "Kies een cursus",
+    "new": "Nieuw",
+    "restore": "Terughalen (je voortgang is bewaard)",
+    "remove": "Verbergen",
+    "removeTitle": "{language} verbergen?",
+    "removeText": "{language} verdwijnt uit je lijst. Je voortgang blijft bewaard: voeg de cursus later weer toe en je gaat verder waar je was.",
+    "askAdmin": "Je hebt nog geen cursus. Vraag de beheerder om er een voor je klaar te zetten.",
+    "noneTitle": "Kies een cursus",
+    "noneText": "Welke taal wil je leren?",
+    "noneOffered": "Nog geen andere cursussen voor jouw taal.",
+    "soonTitle": "Binnenkort"
+  },
+  "nativeLanguages": {
+    "nl": "Nederlands",
+    "en": "Engels"
+  },
+  "text": {
+    "play": "Luister naar de tekst",
+    "playSlow": "Luister langzaam naar de tekst",
+    "stop": "Stop",
+    "hide": "Tekst verbergen",
+    "show": "Tekst tonen",
+    "noMeaning": "(geen betekenis gegeven)",
+    "missing": "Deze tekst ontbreekt.",
+    "headingFor": "Alinea {n}",
+    "showTranscript": "Tekst tonen",
+    "closeWord": "Sluiten",
+    "tfng": {
+      "true": "Klopt",
+      "false": "Klopt niet",
+      "not_given": "Staat er niet in"
+    },
+    "questionOf": "Vraag {n} van {total}",
+    "pause": "Pauzeren",
+    "resume": "Verder luisteren",
+    "progress": "Zin {n} van {total}",
+    "matchStatement": "Zin {n}",
+    "completeLabel": "Jouw antwoord",
+    "formNote": "Goed woord, andere vorm:",
+    "gapSentence": "Gat {n}",
+    "sentences": "Zinnen",
+    "leftOver": "Blijft over"
+  },
+  "order": {
+    "yourOrder": "Jouw volgorde",
+    "parts": "Stukken",
+    "correctOrder": "De goede volgorde:",
+    "tapInOrder": "Tik de stukken aan in de goede volgorde"
+  },
+  "cloze": {
+    "gap": "Gat {n}"
+  },
+  "arrange": {
+    "hint": "Tik op een ander woord om ze te wisselen, of op een streepje tussen woorden om het daarheen te verplaatsen. Tik er nog eens op om het terug te leggen.",
+    "hintParts": "Tik op een ander deel om ze te wisselen, of op een streepje tussen delen om het daarheen te verplaatsen. Tik er nog eens op om het terug te leggen.",
+    "hintGaps": "Tik op een ander gat om de woorden te wisselen (of het naar een leeg gat te verplaatsen). Tik nog eens op dit gat om het leeg te maken.",
+    "moveHere": "Hierheen verplaatsen (plaats {n})",
+    "keys": "Enter kiest. Met de pijltjestoetsen schuift het gekozen deel één plaats op; Delete legt het terug.",
+    "emptyBlank": "{word} — tik om het gat leeg te maken"
+  },
+  "transform": {
+    "keyWord": "Te gebruiken woord",
+    "yourAnswer": "Jouw woorden",
+    "correct": "Een goed antwoord:",
+    "meaning": "Betekenis:"
+  },
+  "family": {
+    "title": "Familie",
+    "thisWeek": "Deze week",
+    "cardLabel": "Familiebord: deze week samen {xp} van {goal} XP. Open het bord",
+    "week": "{from} – {to}",
+    "resets": "Elke maandag begint het bord opnieuw.",
+    "goalTitle": "Familiedoel",
+    "goalText": "{xp} van {goal} XP samen",
+    "goalReached": "Familiedoel gehaald! Goed gedaan, iedereen.",
+    "xp": "{n} XP",
+    "you": "jij",
+    "crown": "Kroon: beste van vorige week",
+    "crownLegend": "= beste van vorige week",
+    "days": "Dagen geoefend deze week: {n} van 7",
+    "dayDone": "{day}: geoefend",
+    "dayNot": "{day}: niet geoefend",
+    "rank": "Plaats {n}",
+    "empty": "Er staat nog niemand op het familiebord.",
+    "offSelf": "Jij staat niet op het bord.",
+    "offAdmin": "De beheerder heeft je van het bord gehaald.",
+    "settingsLink": "Zet het aan bij Instellingen",
+    "adminGoal": "Familiedoel per week (XP)",
+    "adminGoalHelp": "Van 50 tot 10.000. Iedereen op het bord telt mee; elke maandag begint het opnieuw.",
+    "save": "Doel opslaan",
+    "saved": "Opgeslagen.",
+    "invalidGoal": "Kies een getal van 50 tot 10.000.",
+    "moreMembers": "+{n} meer"
+  },
+  "listen": {
+    "title": "Luistercontrole",
+    "intro": "Luister naar één opname tegelijk, precies zoals leerlingen ze horen, en zeg of ze klopt. Korte sessies zijn prima: de controle gaat verder waar ze stopte. De tabel hieronder toont hoe goed de opnames zijn; ze blijft vanzelf bij.",
+    "again": "Dit fragment was fout en is opnieuw gemaakt: luister er nog eens naar.",
+    "kind": {
+      "word": "los woord",
+      "short": "korte zin",
+      "sentence": "zin",
+      "text": "zin uit een tekst"
+    },
+    "play": "Afspelen",
+    "ok": "Goed",
+    "bad": "Fout",
+    "whatWrong": "Wat was er mis? (niet verplicht)",
+    "reason": {
+      "babble": "Gebrabbel",
+      "cut-off": "Afgekapt",
+      "wrong-word": "Verkeerd woord",
+      "wrong-pronunciation": "Verkeerde uitspraak",
+      "other": "Iets anders"
+    },
+    "note": "Opmerking (niet verplicht)",
+    "saveBad": "Opslaan als fout",
+    "cancel": "Annuleren",
+    "done": "Alle fragmenten zijn beluisterd.",
+    "queueTitle": "Wachtrij om te herstellen",
+    "queue": "Wacht op een nieuwe opname: {waiting} · opnieuw gemaakt, nog eens beluisteren: {again} · hersteld: {fixed}",
+    "statsTitle": "Hoeveel fragmenten zijn fout",
+    "statsAbout": "Per taal en soort fragment: hoeveel fragmenten er zijn, hoeveel er beluisterd zijn en hoeveel daarvan fout waren. \"Hoogstens\" is de bovengrens (95 %) van het aandeel foute fragmenten (zonder fouten: 3 gedeeld door het aantal beluisterde), en de regel eronder past die toe op alle fragmenten van die soort.",
+    "col": {
+      "stratum": "Soort",
+      "heard": "Beluisterd",
+      "bad": "Fout",
+      "upper": "Hoogstens"
+    },
+    "heardOf": "{heard} van {clips}",
+    "mayBeBad": "≤ {n} fragmenten",
+    "speed": {
+      "normal": "normale snelheid",
+      "slow": "traag"
+    },
+    "queueAbout": "Open een fragment om het opnieuw op te nemen (een nieuwe opname, automatisch gecontroleerd; jij kiest welke je houdt).",
+    "needsLexicon": "Fout gekozen om de uitspraak: een nieuwe opname helpt zelden. Er is een regel in de uitspraaklijst nodig, gemaakt door een ontwikkelaar op de server (docs/developer/audio.md).",
+    "heardOkNow": "Nu goed beluisterd",
+    "noteSaid": "Notitie:",
+    "how": {
+      "title": "Hoe dit werkt",
+      "what": {
+        "title": "Wat je hoort",
+        "text": "Elk fragment is een van de opnames die de app aan leerlingen laat horen, precies dat bestand: een woord of korte zin, een zin, of een zin uit een leestekst of dialoog, op gewone of trage snelheid. Alles draait op deze server; er komt geen AI en geen internetdienst aan te pas."
+      },
+      "picked": {
+        "title": "Hoe fragmenten gekozen worden",
+        "text": "De server kiest het volgende fragment: eerst een fout fragment dat opnieuw is opgenomen (om nog eens te beluisteren), dan een nieuwe opname die nog niemand hoorde, dan een willekeurige — twee keer op drie een zin, anders een woord of korte zin, in een willekeurige taal. Een opname komt nooit twee keer. Stop wanneer je wilt: alleen je oordelen worden bewaard, dus de volgende sessie gaat gewoon verder."
+      },
+      "verdict": {
+        "title": "Je oordeel",
+        "text": "Goed of Fout wordt bewaard bij precies die opname, met de beheerder die het gaf. Kies Fout bij gebrabbel, een afgekapt begin of einde, een verkeerd woord of een verkeerde uitspraak; een reden en een notitie helpen wie het herstelt. Wordt een opname vervangen, dan blijft het oordeel bij het oude bestand en wacht het nieuwe om beluisterd te worden."
+      },
+      "bad": {
+        "title": "Wat er met een fout fragment gebeurt",
+        "text": "Er gebeurt niets vanzelf: de opname gaat naar de herstellijst hieronder, met de reden en de notitie. Open ze: Nu goed beluisterd markeert precies deze opname als goed (ze klonk toch in orde) en ze verlaat de lijst. Opnieuw opnemen maakt een nieuwe opname van die ene opname (dezelfde stem, een andere toevallige variatie), gemeten door de automatische audiocontrole; je hoort Oud (de opname in gebruik) en Nieuw en kiest. Nieuwe houden neemt ze meteen in gebruik (bewaard in de versiegeschiedenis) en ze komt hier terug om beluisterd te worden. Oude houden houdt de opname in gebruik en markeert ze als goed beluisterd. Geen van beide — opnieuw proberen gooit de nieuwe opname weg en houdt de opname in de lijst, om later opnieuw op te nemen. Hiervoor is geen ontwikkelaar nodig."
+      },
+      "pronunciation": {
+        "title": "Een verkeerde uitspraak",
+        "text": "Een nieuwe opname van dezelfde spelling zegt een woord meestal op dezelfde manier. Een verkeerde uitspraak wordt hersteld met een regel in de uitspraaklijst (content/src/<taal>/pronunciations.yaml: hoe de stem het woord moet zeggen), geschreven door een ontwikkelaar op de server, met de hulpmiddelen om lessen te schrijven (docs/developer/audio.md), en daarna hier beluisterd. Zulke fragmenten blijven in de wachtrij, gemarkeerd als „uitspraak herstellen”."
+      },
+      "machine": {
+        "title": "De automatische audiocontrole",
+        "text": "npm run audio:check is een script op deze server, geen AI. Het meet elke opname (luidheid, lengte, stiltes, een tweede stuk stem), schrijft op wat een offline spraakherkenner hoort en markeert opnames die fout lijken. Het draait nadat opnames gemaakt zijn en bij elke Opnieuw opnemen. Of een woord natuurlijk klinkt, kan het niet zeggen: daarvoor is deze pagina."
+      },
+      "table": {
+        "title": "De tabel Audiokwaliteit",
+        "text": "Per taal, voor woorden en korte zinnen en voor zinnen: hoeveel opnames de app heeft, hoeveel er hier beluisterd zijn, hoeveel daarvan nu Fout zijn, en „hoogstens”: met 95 % zekerheid ligt het aandeel foute opnames in de hele groep onder dit getal (met geen enkele fout: 3 gedeeld door het aantal beluisterde). Hoe meer je luistert, hoe lager het wordt. „Opnieuw gemaakt” telt de opnames met een eigen herstelling (een andere opname, een inkorting, vastgezet). De getallen worden berekend telkens de pagina opent, dus elke nieuwe opname telt meteen mee."
+      },
+      "later": {
+        "title": "Later",
+        "text": "De oordelen blijven in de database. Later kan een ontwikkelaar op de server ze lezen en verbeteren wat er gevonden werd (docs/developer/audio.md beschrijft hoe)."
+      }
+    }
+  },
+  "rules": {
+    "title": "Wat telt als goed",
+    "intro": "Hoe de app antwoorden beoordeelt: één regel per afspraak, met een voorbeeld. Open een kop, of zoek. Deze regels zijn voor elke leerling hetzelfde.",
+    "languages": "Taal van de cursus",
+    "all": "Alles",
+    "search": "Zoek in de regels",
+    "none": "Geen regel gevonden.",
+    "count": "{n} regels",
+    "you": {
+      "typed": "Je typt „{typed}” voor „{expected}”",
+      "dictation": "Je hoort „{expected}” en typt „{typed}”",
+      "build": "Je legt de tegels „{typed}” voor „{expected}”",
+      "pairs": "{n} verkeerde tik bij paren zoeken"
+    },
+    "result": {
+      "right": "goed",
+      "accents": "goed, met een tip over de accenten",
+      "spelling": "goed, met een tip over de spelling",
+      "wrong": "niet goed"
+    },
+    "countOne": "1 regel"
+  },
+  "quality": {
+    "title": "Audiokwaliteit",
+    "group": {
+      "words": "Woorden en korte zinnen",
+      "sentences": "Zinnen (met dialoogbeurten en zinnen uit teksten)"
+    },
+    "col": {
+      "language": "Taal",
+      "clips": "Opnames",
+      "heard": "Beluisterd",
+      "bad": "Nu fout",
+      "upper": "Hoogstens fout",
+      "redone": "Opnieuw gemaakt"
+    },
+    "check": "Automatische controle: laatste volledige run {at} — {clips} opnames, {flagged} gemarkeerd, {explained} verklaard.",
+    "noCheck": "Automatische controle: nog geen volledige run.",
+    "fixing": "Wordt hersteld: {again} opnieuw opgenomen, nog eens te beluisteren · {waiting} fout, wachten op herstel ({pronunciation} daarvan uitspraak) · {fixed} hersteld en goed bevonden.",
+    "footnote": "„Hoogstens fout”: met 95 % zekerheid is hoogstens dit aandeel van de groep fout — op basis van de opnames die hier beluisterd zijn, die willekeurig gekozen worden.",
+    "line": "Audiokwaliteit: {clips} opnames, {heard} beluisterd in de luistercontrole, {bad} nu fout, {again} opnieuw opgenomen en nog te beluisteren.",
+    "lineLink": "Details in de luistercontrole"
+  },
+  "sample": {
+    "title": "Voor de vrijgave: nieuwe opnames om te vergelijken",
+    "intro": "Deze opnames zijn opnieuw gemaakt met een wijziging die nog niet in gebruik is. Speel bij elke opname Oud (wat leerlingen nu horen) en Nieuw, en kies: Nieuwe houden, Oude houden of Geen van beide — opnieuw proberen. Een notitie helpt. Er verandert niets in de app tot een ontwikkelaar op de server je keuzes leest.",
+    "progress": "{voted} van {total} gekozen",
+    "done": "Alles gekozen. Dank je! Een ontwikkelaar op de server geeft vrij wat je hield.",
+    "choose": "Jouw keuze"
+  }
+}

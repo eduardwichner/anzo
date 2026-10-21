@@ -1,0 +1,46 @@
+id: nl-b2-study-u07
+title: { en: Water and the environment }
+icon: leaf
+topic: Groundwater and drinking water, waste water and water treatment, medicine residues and their effect on rivers, what pharmacists and citizens can do; arguing a point (Het is belangrijk dat …) and the perfect passive (zijn … gevonden)
+vocabulary:
+  - { target: het grondwater, native: { en: groundwater }, pos: noun, plural: "-" }
+  - { target: het drinkwater, native: { en: drinking water }, pos: noun, plural: "-" }
+  - { target: het afvalwater, native: { en: "waste water, sewage" }, pos: noun, plural: "-" }
+  - { target: de waterzuivering, native: { en: "water treatment (plant)" }, pos: noun, plural: waterzuiveringen }
+  - { target: zuiveren, native: { en: "to purify, to treat (water)" }, pos: verb }
+  - { target: het riool, native: { en: sewer }, pos: noun, plural: riolen }
+  - { target: de stof, native: { en: "substance (chemical)" }, pos: noun, plural: stoffen }
+  - { target: giftig, native: { en: "poisonous, toxic" }, pos: adjective }
+  - { target: afbreken, native: { en: "to break down (a substance)" }, pos: verb }
+  - { target: het ecosysteem, native: { en: ecosystem }, pos: noun, plural: ecosystemen }
+  - { target: het antibioticum, native: { en: "antibiotic (plural antibiotica)" }, pos: noun, plural: antibiotica }
+  - { target: de medicijnrest, native: { en: "medicine residue" }, pos: noun, plural: medicijnresten }
+  - { target: het hormoon, native: { en: hormone }, pos: noun, plural: hormonen }
+  - { target: de filter, native: { en: filter }, pos: noun, plural: filters }
+  - { target: doorspoelen, native: { en: "to flush (down the toilet)" }, pos: verb }
+  - { target: inleveren, native: { en: "to hand in, to return" }, pos: verb }
+  - { target: de farmacie, native: { en: "pharmacy (the subject of study)" }, pos: noun, plural: "-" }
+sentences:
+  - { id: s01, target: "Een groot deel van ons drinkwater komt uit het grondwater.", native: { en: "A large part of our drinking water comes from groundwater." }, items: [nl.drinkwater, nl.grondwater] }
+  - { id: s02, target: "Het afvalwater van de huizen gaat via het riool naar de waterzuivering.", native: { en: "The waste water from the houses goes through the sewer to the water treatment plant." }, items: [nl.afvalwater, nl.riool, nl.waterzuivering] }
+  - { id: s03, target: "Planten en kleine dieren helpen om het water te zuiveren.", native: { en: "Plants and small animals help to purify the water." }, items: [nl.zuiveren] }
+  - { id: s04, target: "Dat product bevat stoffen die schadelijk zijn voor vissen.", native: { en: "That product contains substances that are harmful to fish." }, items: [nl.stof] }
+  - { id: s05, target: "Die stof is giftig voor vissen en vogels.", native: { en: "That substance is poisonous to fish and birds." }, items: [nl.giftig, nl.stof] }
+  - { id: s06, target: "Plastic wordt in de natuur bijna niet afgebroken.", native: { en: "Plastic is hardly broken down in nature." }, items: [nl.afbreken] }
+  - { id: s07, target: "Elke nieuwe stof in het water kan het ecosysteem van een rivier veranderen.", native: { en: "Every new substance in the water can change the ecosystem of a river." }, items: [nl.ecosysteem] }
+  - { id: s08, target: "Neem antibiotica alleen als de dokter ze voorschrijft.", native: { en: "Only take antibiotics if the doctor prescribes them." }, items: [nl.antibioticum] }
+  - { id: s09, target: "Hormonen in het water kunnen vissen ziek maken.", native: { en: "Hormones in the water can make fish ill." }, items: [nl.hormoon], acceptAlso: ["In het water kunnen hormonen vissen ziek maken."] }
+  - { id: s10, target: "Een filter haalt niet alle medicijnresten uit het water.", native: { en: "A filter doesn't take all the medicine residues out of the water." }, items: [nl.filter] }
+  - { id: s11, target: "Oude medicijnen mag je nooit doorspoelen.", native: { en: "You must never flush old medicines away." }, items: [nl.doorspoelen] }
+  - { id: s12, target: "Je kunt oude medicijnen gratis bij de apotheek inleveren.", native: { en: "You can hand in old medicines at the pharmacy for free." }, items: [nl.inleveren], acceptAlso: ["Je kunt oude medicijnen gratis inleveren bij de apotheek.", "Je kunt oude medicijnen bij de apotheek gratis inleveren.", "Je kunt bij de apotheek oude medicijnen gratis inleveren.", "Je kunt bij de apotheek gratis oude medicijnen inleveren."] }
+  - { id: s13, target: "Ze studeert farmacie in Leuven omdat ze apotheker wil worden.", native: { en: "She is studying pharmacy in Leuven because she wants to become a pharmacist." }, items: [nl.farmacie], acceptAlso: ["Ze studeert in Leuven farmacie omdat ze apotheker wil worden.", "Ze studeert farmacie in Leuven omdat ze apotheker worden wil.", "In Leuven studeert ze farmacie omdat ze apotheker wil worden.", "Omdat ze apotheker wil worden, studeert ze farmacie in Leuven."] }
+  - { id: s14, target: "Het is belangrijk dat iedereen oude medicijnen bij de apotheek inlevert.", native: { en: "It is important that everyone hands in old medicines at the pharmacy." }, items: [nl.inleveren], build: true, acceptAlso: ["Het is belangrijk dat iedereen oude medicijnen inlevert bij de apotheek.", "Het is belangrijk dat iedereen bij de apotheek oude medicijnen inlevert."] }
+  - { id: s15, target: "In het grondwater zijn medicijnresten teruggevonden.", native: { en: "Residues of medicines have been found in the groundwater." }, items: [nl.grondwater, nl.medicijnrest], build: true, acceptAlso: ["Medicijnresten zijn in het grondwater teruggevonden."] }
+  - { id: s16, target: "De vervuiling van het grondwater is een groot probleem.", native: { en: "The pollution of groundwater is a big problem." }, items: [nl.grondwater], form: { word: vervuiling, stem: vervuilen } }
+  - { id: s17, target: "Wie oude pillen doorspoelt, vervuilt het water.", native: { en: "Anyone who flushes old pills away pollutes the water." }, items: [nl.doorspoelen], finite: { word: doorspoelt, hint: { en: "doorspoelen (present)" } } }
+  - { id: s18, target: "Afval in het riool zorgt voor problemen bij de waterzuivering.", native: { en: "Rubbish in the sewer causes problems at the water treatment plant." }, items: [nl.riool, nl.waterzuivering] }
+transforms:
+  - { id: x01, from: "Men heeft medicijnresten in het grondwater gevonden.", key: zijn, gapped: "In het grondwater ___ gevonden.", answers: ["zijn medicijnresten", "zijn er medicijnresten"], items: [nl.grondwater] }
+  - { id: x02, from: "Gooi oude medicijnen niet weg, maar breng ze naar de apotheek.", key: inleveren, gapped: "Je moet oude medicijnen ___.", answers: ["bij de apotheek inleveren", "inleveren bij de apotheek", "bij de apotheker inleveren", "inleveren bij de apotheker"], items: [nl.inleveren] }
+  - { id: x03, from: "Planten en kleine dieren zuiveren het water.", key: door, gapped: "Het water ___ gezuiverd.", answers: ["wordt door planten en kleine dieren"], items: [nl.zuiveren] }
+texts: [nl-b2-study-t07]

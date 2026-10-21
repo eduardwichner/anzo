@@ -1,0 +1,83 @@
+id: nl-b2-u19
+title: { en: Debate and argument }
+icon: chat
+topic: Taking and defending a position, weighing arguments for and against, conceding and nuancing; concession and conclusion (hoewel, ofschoon, enerzijds … anderzijds, niettemin, bijgevolg)
+vocabulary:
+  - { target: de argumentatie, native: { en: "argumentation, reasoning" }, pos: noun, plural: argumentaties }
+  - { target: de stelling, native: { en: "statement, proposition (for a debate)" }, pos: noun, plural: stellingen }
+  - { target: het tegenargument, native: { en: counter-argument }, pos: noun, plural: tegenargumenten }
+  - { target: de voorstander, native: { en: "supporter, advocate (+ van)" }, pos: noun, plural: voorstanders }
+  - { target: de tegenstander, native: { en: "opponent (+ van)" }, pos: noun, plural: tegenstanders }
+  - { target: de overtuiging, native: { en: conviction }, pos: noun, plural: overtuigingen }
+  - { target: de bewering, native: { en: "claim, assertion" }, pos: noun, plural: beweringen }
+  - { target: de nuance, native: { en: nuance }, pos: noun, plural: nuances }
+  - { target: de visie, native: { en: "view, vision" }, pos: noun, plural: visies }
+  - { target: het perspectief, native: { en: perspective }, pos: noun, plural: perspectieven }
+  - { target: de kant, native: { en: side }, pos: noun, plural: kanten }
+  - { target: de afweging, native: { en: "weighing up, consideration" }, pos: noun, plural: afwegingen }
+  - { target: de consensus, native: { en: consensus }, pos: noun, plural: "-" }
+  - { target: de polarisatie, native: { en: polarisation }, pos: noun, plural: "-" }
+  - { target: het verbod, native: { en: ban }, pos: noun, plural: verboden }
+  - { target: pleiten, native: { en: "to argue, to make a case (+ voor)" }, pos: verb }
+  - { target: nuanceren, native: { en: "to nuance, to qualify" }, pos: verb }
+  - { target: concluderen, native: { en: to conclude }, pos: verb }
+  - { target: betwisten, native: { en: "to dispute, to contest" }, pos: verb }
+  - { target: tegenspreken, native: { en: "to contradict" }, pos: verb }
+  - { target: ontkennen, native: { en: to deny }, pos: verb }
+  - { target: onderbouwen, native: { en: "to support, to back up (with arguments)" }, pos: verb }
+  - { target: rechtvaardigen, native: { en: to justify }, pos: verb }
+  - { target: afwegen, native: { en: "to weigh up" }, pos: verb }
+  - { target: discussiëren, native: { en: "to discuss, to argue" }, pos: verb }
+  - { target: overtuigend, native: { en: convincing }, pos: adjective }
+  - { target: onterecht, native: { en: "unjustified, wrong(ly)" }, pos: adjective }
+  - { target: onredelijk, native: { en: unreasonable }, pos: adjective }
+  - { target: logisch, native: { en: logical }, pos: adjective }
+  - { target: tegenstrijdig, native: { en: contradictory }, pos: adjective }
+  - { target: overdreven, native: { en: exaggerated }, pos: adjective }
+  - { target: ofschoon, native: { en: "although (formal)" }, pos: conjunction, avoid: [nl.hoewel] }
+  - { target: niettemin, native: { en: "nevertheless (formal)" }, pos: adverb, avoid: [nl.desondanks] }
+  - { target: bijgevolg, native: { en: "consequently, as a result" }, pos: adverb }
+sentences:
+  - { id: s01, target: "Haar argumentatie was duidelijk en logisch.", native: { en: "Her reasoning was clear and logical." }, items: [nl.argumentatie, nl.logisch] }
+  - { id: s02, target: "De stelling van vandaag is: elke school moet een verbod op de gsm invoeren.", native: { en: "Today's motion is: every school should introduce a phone ban." }, items: [nl.stelling, nl.verbod] }
+  - { id: s03, target: "Heb je een tegenargument?", native: { en: "Do you have a counter-argument?" }, items: [nl.tegenargument] }
+  - { id: s04, target: "Ik ben een voorstander van gratis openbaar vervoer.", native: { en: "I am in favour of free public transport." }, items: [nl.voorstander] }
+  - { id: s05, target: "De tegenstanders van het plan kwamen samen op het plein.", native: { en: "The opponents of the plan gathered in the square." }, items: [nl.tegenstander] }
+  - { id: s06, target: "Hij sprak met veel overtuiging.", native: { en: "He spoke with great conviction." }, items: [nl.overtuiging] }
+  - { id: s07, target: "Die bewering klopt niet: er is geen enkel bewijs.", native: { en: "That claim is not right: there is no evidence at all." }, items: [nl.bewering] }
+  - { id: s08, target: "Het debat had meer nuance nodig.", native: { en: "The debate needed more nuance." }, items: [nl.nuance] }
+  - { id: s09, target: "Wat is jouw visie op het onderwijs van de toekomst?", native: { en: "What is your view of the education of the future?" }, items: [nl.visie] }
+  - { id: s10, target: "Die cijfers zetten het probleem in een ander perspectief.", native: { en: "Those figures put the problem in a different perspective." }, items: [nl.perspectief] }
+  - { id: s11, target: "Elk verhaal heeft twee kanten.", native: { en: "Every story has two sides." }, items: [nl.kant] }
+  - { id: s12, target: "Na een lange afweging besliste de directie om het plan uit te stellen.", native: { en: "After long consideration the management decided to postpone the plan." }, items: [nl.afweging], form: { word: afweging, stem: afwegen }, acceptAlso: ["De directie besliste na een lange afweging om het plan uit te stellen."] }
+  - { id: s13, target: "Over dat onderwerp is er geen consensus.", native: { en: "There is no consensus on that subject." }, items: [nl.consensus], acceptAlso: ["Er is over dat onderwerp geen consensus.", "Er is geen consensus over dat onderwerp."] }
+  - { id: s14, target: "Sociale media maken de polarisatie in de samenleving groter.", native: { en: "Social media increase polarisation in society." }, items: [nl.polarisatie] }
+  - { id: s15, target: "De burgemeester pleit voor meer groen in de stad.", native: { en: "The mayor argues for more green space in the city." }, items: [nl.pleiten], finite: { word: pleit, hint: { en: "pleiten (present)" } } }
+  - { id: s16, target: "Ik wil die mening even nuanceren.", native: { en: "I'd just like to qualify that opinion." }, items: [nl.nuanceren] }
+  - { id: s17, target: "Uit deze cijfers kunnen we concluderen dat het plan werkt.", native: { en: "From these figures we can conclude that the plan works." }, items: [nl.concluderen], acceptAlso: ["We kunnen uit deze cijfers concluderen dat het plan werkt."] }
+  - { id: s18, target: "Niemand betwist dat er een probleem is.", native: { en: "Nobody disputes that there is a problem." }, items: [nl.betwisten], acceptAlso: ["Dat er een probleem is, betwist niemand."] }
+  - { id: s19, target: "Je mag de leerkracht gerust tegenspreken.", native: { en: "Feel free to contradict the teacher." }, items: [nl.tegenspreken], acceptAlso: ["Je mag gerust de leerkracht tegenspreken."] }
+  - { id: s20, target: "De minister ontkent dat ze het wist.", native: { en: "The minister denies that she knew." }, items: [nl.ontkennen] }
+  - { id: s21, target: "Je moet je mening onderbouwen met argumenten.", native: { en: "You have to back up your opinion with arguments." }, items: [nl.onderbouwen] }
+  - { id: s22, target: "Hoe rechtvaardig je zo'n hoge prijs?", native: { en: "How do you justify such a high price?" }, items: [nl.rechtvaardigen] }
+  - { id: s23, target: "We moeten de voordelen en de nadelen goed afwegen.", native: { en: "We have to weigh up the advantages and disadvantages carefully." }, items: [nl.afwegen] }
+  - { id: s24, target: "We hebben urenlang over politiek gediscussieerd.", native: { en: "We argued about politics for hours." }, items: [nl.discussieren], acceptAlso: ["We hebben urenlang gediscussieerd over politiek.", "Urenlang hebben we over politiek gediscussieerd.", "Over politiek hebben we urenlang gediscussieerd.", "Urenlang hebben we gediscussieerd over politiek."] }
+  - { id: s25, target: "Zijn argumenten waren niet erg overtuigend.", native: { en: "His arguments were not very convincing." }, items: [nl.overtuigend] }
+  - { id: s26, target: "De kritiek op de leerkracht was onterecht.", native: { en: "The criticism of the teacher was unjustified." }, items: [nl.onterecht] }
+  - { id: s27, target: "Dat is een onredelijke vraag.", native: { en: "That is an unreasonable request." }, items: [nl.onredelijk] }
+  - { id: s28, target: "Het rapport bevat tegenstrijdige cijfers.", native: { en: "The report contains contradictory figures." }, items: [nl.tegenstrijdig] }
+  - { id: s29, target: "Die reactie vind ik overdreven.", native: { en: "I find that reaction exaggerated." }, items: [nl.overdreven], acceptAlso: ["Ik vind die reactie overdreven."] }
+  - { id: s30, target: "Ofschoon het plan duur is, steunt de meerderheid het.", native: { en: "Although the plan is expensive, the majority supports it." }, items: [nl.ofschoon], build: true, acceptAlso: ["De meerderheid steunt het plan, ofschoon het duur is."] }
+  - { id: s31, target: "Het plan heeft nadelen; niettemin is het een goede eerste stap.", native: { en: "The plan has disadvantages; nevertheless it is a good first step." }, items: [nl.niettemin], acceptAlso: ["Het plan heeft nadelen; het is niettemin een goede eerste stap."] }
+  - { id: s32, target: "Er waren te weinig deelnemers; bijgevolg werd het debat uitgesteld.", native: { en: "There were too few participants; consequently the debate was postponed." }, items: [nl.bijgevolg], acceptAlso: ["Er waren te weinig deelnemers; het debat werd bijgevolg uitgesteld."] }
+  - { id: s33, target: "Enerzijds is een verbod duidelijk, anderzijds leren jongeren zo niet om zelf grenzen te stellen.", native: { en: "On the one hand a ban is clear, on the other hand young people don't learn to set limits themselves that way." }, items: [nl.verbod] }
+  - { id: s34, target: "Hoewel ik je tegenargument begrijp, ben ik het niet met je eens.", native: { en: "Although I understand your counter-argument, I don't agree with you." }, items: [nl.tegenargument], build: true, acceptAlso: ["Ik ben het niet met je eens, hoewel ik je tegenargument begrijp."] }
+  - { id: s35, target: "Het verbod is een overdreven maatregel.", native: { en: "The ban is an exaggerated measure." }, items: [nl.overdreven] }
+  - { id: s36, target: "Hij gaf een overtuigend antwoord.", native: { en: "He gave a convincing answer." }, items: [nl.overtuigend], form: { word: overtuigend, stem: overtuigen } }
+  - { id: s37, target: "Zijn bewering is onterecht.", native: { en: "His claim is unjustified." }, items: [nl.bewering], form: { word: bewering, stem: beweren } }
+  - { id: s38, target: "Ik ben benieuwd naar de uitslag van het debat.", native: { en: "I am curious about the outcome of the debate." }, items: [nl.benieuwd] }
+transforms:
+  - { id: x01, from: "Het plan is duur, maar de meerderheid steunt het.", key: ofschoon, gapped: "___ duur is, steunt de meerderheid het.", answers: ["Ofschoon het plan"], items: [nl.ofschoon] }
+  - { id: x02, from: "Ik vind dat een verbod een goed idee is.", key: voorstander, gapped: "Ik ben een ___ verbod.", answers: ["voorstander van een"], items: [nl.voorstander] }
+  - { id: x03, from: "Er kwamen te weinig mensen, daarom werd het debat uitgesteld.", key: bijgevolg, gapped: "Er kwamen te weinig mensen; ___ uitgesteld.", answers: ["bijgevolg werd het debat", "het debat werd bijgevolg"], items: [nl.bijgevolg] }
+texts: [nl-b2-t20]

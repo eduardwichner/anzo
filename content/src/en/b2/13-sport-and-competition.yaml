@@ -1,0 +1,61 @@
+id: en-b2-u13
+title: { nl: Sport en competitie }
+icon: sport
+topic: Competing and winning, fair play, training and tactics, chess as a sport; modals of deduction about the past (must have, can't have, might have)
+vocabulary:
+  - { target: opponent, native: { nl: tegenstander }, pos: noun, avoid: [en.rival] }
+  - { target: referee, native: { nl: scheidsrechter }, pos: noun }
+  - { target: spectator, native: { nl: toeschouwer }, pos: noun, avoid: [en.supporter] }
+  - { target: athletic, native: { nl: "atletisch, sportief" }, pos: adjective }
+  - { target: amateur, native: { nl: amateur }, pos: adjective, noBlank: true }
+  - { target: competitive, native: { nl: "competitief, prestatiegericht" }, pos: adjective }
+  - { target: rival, native: { nl: "rivaal" }, pos: noun, avoid: [en.opponent] }
+  - { target: rivalry, native: { nl: rivaliteit }, pos: noun }
+  - { target: victory, native: { nl: overwinning }, pos: noun }
+  - { target: medal, native: { nl: medaille }, pos: noun }
+  - { target: trophy, native: { nl: trofee }, pos: noun }
+  - { target: tactic, native: { nl: tactiek }, pos: noun, avoid: [en.strategy] }
+  - { target: strategy, native: { nl: strategie }, pos: noun, avoid: [en.tactic] }
+  - { target: endurance, native: { nl: "uithoudingsvermogen" }, pos: noun, avoid: [en.stamina] }
+  - { target: sportsmanship, native: { nl: "sportiviteit" }, pos: noun }
+  - { target: fair play, native: { nl: "eerlijk spel, fair play" }, pos: noun, noBlank: true }
+  - { target: keep fit, native: { nl: "fit blijven" }, pos: phrase, noBlank: true }
+  - { target: outcome, native: { nl: "uitslag, afloop" }, pos: noun, noBlank: true }
+  - { target: underdog, native: { nl: "de zwakkere partij (die niet verwacht wordt te winnen)" }, pos: noun }
+  - { target: cheer, native: { nl: "juichen, aanmoedigen" }, pos: verb }
+  - { target: calculate, native: { nl: berekenen }, pos: verb }
+  - { target: sponsor, native: { nl: sponsor }, pos: noun, noBlank: true }
+  - { target: overtake, native: { nl: inhalen }, pos: verb, avoid: [en.catch-up] }
+sentences:
+  - { id: s01, target: "Her opponent was ten years older and much more experienced.", native: { nl: "Haar tegenstander was tien jaar ouder en had veel meer ervaring." }, items: [en.opponent] }
+  - { id: s02, target: "The referee stopped the match because of the rain.", native: { nl: "De scheidsrechter legde de wedstrijd stil door de regen." }, items: [en.referee] }
+  - { id: s03, target: "More than forty thousand spectators watched the final.", native: { nl: "Meer dan veertigduizend toeschouwers keken naar de finale." }, items: [en.spectator] }
+  - { id: s04, target: "He's never been very athletic, but he loves walking.", native: { nl: "Hij was nooit erg sportief, maar hij houdt van wandelen." }, items: [en.athletic] }
+  - { id: s05, target: "She plays for an amateur team in her village.", native: { nl: "Ze speelt voor een amateurploeg in haar dorp." }, items: [en.amateur] }
+  - { id: s06, target: "My brother is so competitive that he hates losing a game.", native: { nl: "Mijn broer is zo competitief dat hij slecht tegen zijn verlies kan." }, items: [en.competitive], form: { word: competitive, stem: compete } }
+  - { id: s07, target: "The two clubs have been rivals for a hundred years.", native: { nl: "De twee clubs zijn al honderd jaar rivalen." }, items: [en.rival] }
+  - { id: s08, target: "The rivalry between the two players makes every match exciting.", native: { nl: "De rivaliteit tussen de twee spelers maakt elke wedstrijd spannend." }, items: [en.rivalry] }
+  - { id: s09, target: "It was their first victory of the season.", native: { nl: "Het was hun eerste overwinning van het seizoen." }, items: [en.victory] }
+  - { id: s10, target: "She won a gold medal at the age of seventeen.", native: { nl: "Ze won een gouden medaille op haar zeventiende." }, items: [en.medal] }
+  - { id: s11, target: "The captain lifted the trophy above his head.", native: { nl: "De aanvoerder hield de trofee boven zijn hoofd." }, items: [en.trophy] }
+  - { id: s12, target: "The coach changed his tactics at half-time.", native: { nl: "De trainer veranderde zijn tactiek tijdens de rust." }, items: [en.tactic] }
+  - { id: s13, target: "A good chess player needs a strategy for the whole game.", native: { nl: "Een goede schaker heeft een strategie nodig voor het hele spel." }, items: [en.strategy] }
+  - { id: s14, target: "Cycling up mountains takes a lot of endurance.", native: { nl: "Bergop fietsen vraagt veel uithoudingsvermogen." }, items: [en.endurance] }
+  - { id: s15, target: "Shaking hands after a match is a sign of sportsmanship.", native: { nl: "Na een wedstrijd handen schudden is een teken van sportiviteit." }, items: [en.sportsmanship] }
+  - { id: s16, target: "Fair play is more important than winning.", native: { nl: "Eerlijk spel is belangrijker dan winnen." }, items: [en.fair-play] }
+  - { id: s17, target: "I go swimming twice a week to keep fit.", native: { nl: "Ik ga twee keer per week zwemmen om fit te blijven." }, items: [en.keep-fit] }
+  - { id: s18, target: "Nobody could predict the outcome of the race.", native: { nl: "Niemand kon de uitslag van de race voorspellen." }, items: [en.outcome] }
+  - { id: s19, target: "Everyone loves it when the underdog wins.", native: { nl: "Iedereen vindt het geweldig als de zwakkere partij wint." }, items: [en.underdog] }
+  - { id: s20, target: "The crowd cheered when she crossed the line.", native: { nl: "Het publiek juichte toen ze over de streep kwam." }, items: [en.cheer], acceptAlso: ["When she crossed the line, the crowd cheered."] }
+  - { id: s21, target: "Chess players have to calculate many moves ahead.", native: { nl: "Schakers moeten veel zetten vooruit berekenen." }, items: [en.calculate] }
+  - { id: s22, target: "The team's new sponsor is a local bank.", native: { nl: "De nieuwe sponsor van het team is een plaatselijke bank." }, items: [en.sponsor] }
+  - { id: s23, target: "He overtook three runners in the last kilometre.", native: { nl: "Hij haalde in de laatste kilometer drie lopers in." }, items: [en.overtake], acceptAlso: ["In the last kilometre he overtook three runners."] }
+  - { id: s24, target: "She must have trained very hard to win that race.", native: { nl: "Ze moet heel hard getraind hebben om die race te winnen." }, items: [en.victory], build: true }
+  - { id: s25, target: "The referee can't have seen the player fall.", native: { nl: "De scheidsrechter kan niet gezien hebben dat de speler viel." }, items: [en.referee], build: true }
+  - { id: s26, target: "They might have lost because their best player was injured.", native: { nl: "Ze hebben misschien verloren omdat hun beste speler geblesseerd was." }, items: [en.outcome] }
+  - { id: s27, target: "The fans cheered their team on all through the match.", native: { nl: "De fans moedigden hun team de hele wedstrijd aan." }, items: [en.cheer], finite: { word: cheered, hint: { nl: "cheer (verleden tijd)" } } }
+transforms:
+  - { id: x01, from: "I'm sure she practised for months before the tournament.", key: must, gapped: "She ___ for months before the tournament.", answers: ["must have practised", "must have been practising"], items: [en.victory] }
+  - { id: x02, from: "It's impossible that he saw the goal: he was looking the other way.", key: have, gapped: "He ___ the goal: he was looking the other way.", answers: ["can't have seen", "cannot have seen", "couldn't have seen", "can't possibly have seen", "cannot possibly have seen", "couldn't possibly have seen"], items: [en.referee] }
+  - { id: x03, from: "Nobody expected the small club to win.", key: underdog, gapped: "The small club was ___.", answers: ["the underdog"], items: [en.underdog] }
+texts: [en-b2-t13]

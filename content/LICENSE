@@ -1,0 +1,38 @@
+Anzo lesson content
+Copyright (c) 2026 Eduard Wichner
+
+Licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International licence (CC BY-NC-SA 4.0).
+Full text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+Summary:   https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+What it covers
+--------------
+Everything in this content/ folder: the lesson sources (src/: units, sentences, texts, dialogues, meanings, word-list
+sources, the pronunciation lists), the generated lessons (packs/), the id lock, the audio settings (voices.json,
+audio-overrides.json, pronunciations.json) and the schema. The app's code (everything outside content/) is MIT licensed:
+see ../LICENSE.
+
+You may share and adapt this material for non-commercial purposes, if you give appropriate credit ("Anzo lesson content
+by Eduard Wichner, CC BY-NC-SA 4.0", with a link to the licence), indicate if you made changes, and distribute your
+contributions under the same licence. There is no warranty.
+
+Why this licence: NT2Lex
+------------------------
+The level at which each Dutch word is taught is derived from NT2Lex, which is itself licensed under CC BY-NC-SA 4.0:
+
+  Tack, A., François, T., Desmet, P. & Fairon, C. (2018). NT2Lex: A CEFR-Graded Lexical Resource for Dutch as a
+  Foreign Language Linked to Open Dutch WordNet. Proceedings of the 13th Workshop on Innovative Use of NLP for Building
+  Educational Applications (BEA 2018). CENTAL (UCLouvain) / ITEC (KU Leuven). Licensed under CC BY-NC-SA 4.0.
+
+Derived from it: src/nl/wordlist-sources.yaml, src/nl/WORDLIST.md and the Dutch lessons built from them (src/nl/,
+packs/nl/). Changes: Belgian standard Dutch forms and topic words added, words moved to other levels with a reason. The
+whole content/ folder is published under the same licence, so the NT2Lex share-alike terms hold everywhere in it.
+
+Other reference material
+------------------------
+The English, French and other Dutch levels follow official reference lists and sample papers (Cambridge English, France
+Éducation international, CNaVT, Naar Nederland, Staatsexamen NT2, Leerplan NT2 Richtgraad). No text was copied from them,
+and they are not part of this repository. Their publishers and rights: ../THIRD_PARTY.md.
+
+The recordings are not in this folder. They are made from the lessons with the voices listed in ../THIRD_PARTY.md, each
+under its own licence.

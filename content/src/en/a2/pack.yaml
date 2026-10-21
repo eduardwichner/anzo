@@ -1,0 +1,15 @@
+id: en-a2
+cefr: A2
+# The exercises of the Pre-A1 to A2 packs are locked: the homophone rule for single-word listen_type is for new packs only.
+legacyListenType: true
+# Every sentence no exercise uses gets one in an optional extra lesson (<unit>-extra), appended after the
+# locked exercises (new ids only).
+extraLessons: true
+source: >-
+  Cambridge English Young Learners word list (149681-yle-flyers-word-list.pdf, exams from 2018): A2 Flyers entries of
+  the combined 'Pre A1 Starters, A1 Movers and A2 Flyers alphabetic vocabulary list' (British forms; American variants
+  left out; words already taught at Starters or Movers are not taught again), 'thousand', 'million', 'zero' and
+  'thirtieth' for its 'Numbers' note (101-1,000 and 21st-31st are compounds of taught number words), names from the Flyers names list of the YLE Handbook for Teachers (153612). Sentences use
+  Starters, Movers and Flyers structures from the handbook's 'Grammar and structures' lists and any word up to Flyers.
+  Every word is checked with npm run content:trace -- en. Dutch translations written by the content author.
+  Sources: content/src/en/a2/*.yaml; plan: content/src/en/PLAN.md.

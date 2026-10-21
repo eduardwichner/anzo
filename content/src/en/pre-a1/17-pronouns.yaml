@@ -1,0 +1,58 @@
+id: en-pre-a1-u17
+title: { nl: Ik en jij }
+icon: people
+topic: Grammar (personal and possessive pronouns, possessive adjectives)
+vocabulary:
+  - { target: I, native: { nl: ik }, pos: pronoun }
+  - { target: you, native: { nl: "jij, jullie" }, pos: pronoun }
+  - { target: he, native: { nl: hij }, pos: pronoun }
+  - { target: she, native: { nl: "zij, ze (een meisje of vrouw)" }, pos: pronoun }
+  - { target: it, native: { nl: het }, pos: pronoun }
+  - { target: we, native: { nl: wij }, pos: pronoun }
+  - { target: they, native: { nl: "zij, ze (meer mensen)" }, pos: pronoun }
+  - { target: me, native: { nl: "mij, me" }, pos: pronoun }
+  - { target: him, native: { nl: hem }, pos: pronoun }
+  - { target: her, native: { nl: haar }, pos: pronoun }
+  - { target: us, native: { nl: ons }, pos: pronoun }
+  - { target: them, native: { nl: "hen, ze" }, pos: pronoun, avoid: [en.they, en.she] }
+  - { target: my, native: { nl: mijn }, pos: determiner }
+  - { target: your, native: { nl: "jouw, je" }, pos: determiner }
+  - { target: his, native: { nl: "zijn (van hem)" }, pos: determiner, avoid: [en.him] }
+  - { target: its, native: { nl: "zijn (van een dier of ding)" }, pos: determiner, avoid: [en.his] }
+  - { target: our, native: { nl: "ons, onze" }, pos: determiner }
+  - { target: their, native: { nl: hun }, pos: determiner }
+  - { target: mine, native: { nl: van mij }, pos: pronoun }
+  - { target: yours, native: { nl: van jou }, pos: pronoun }
+  - { target: hers, native: { nl: van haar }, pos: pronoun }
+  - { target: ours, native: { nl: van ons }, pos: pronoun }
+  - { target: theirs, native: { nl: van hen }, pos: pronoun }
+sentences:
+  - { id: s01, target: "I am nine.", native: { nl: "Ik ben negen." }, items: [en.i, en.nine] }
+  - { id: s02, target: "You are my friend.", native: { nl: "Jij bent mijn vriend." }, items: [en.you, en.friend] }
+  - { id: s03, target: "He is my brother.", native: { nl: "Hij is mijn broer." }, items: [en.he, en.brother] }
+  - { id: s04, target: "She is my sister.", native: { nl: "Zij is mijn zus." }, items: [en.she, en.sister] }
+  - { id: s05, target: "It is a big dog.", native: { nl: "Het is een grote hond." }, items: [en.it, en.big, en.dog] }
+  - { id: s06, target: "We are at school.", native: { nl: "Wij zijn op school." }, items: [en.we, en.school] }
+  - { id: s07, target: "They are playing football.", native: { nl: "Zij zijn aan het voetballen." }, items: [en.they, en.football] }
+  - { id: s08, target: "Look at me!", native: { nl: "Kijk naar mij!" }, items: [en.me, en.look-at] }
+  - { id: s09, target: "I like him.", native: { nl: "Ik vind hem aardig." }, items: [en.him, en.like] }
+  - { id: s10, target: "Give the ball to her.", native: { nl: "Geef de bal aan haar." }, items: [en.her, en.give, en.ball] }
+  - { id: s11, target: "Her name is Anna.", native: { nl: "Haar naam is Anna." }, items: [en.her, en.name] }
+  - { id: s12, target: "Come with us!", native: { nl: "Kom met ons mee!" }, items: [en.us, en.come] }
+  - { id: s13, target: "I can see them.", native: { nl: "Ik kan ze zien." }, items: [en.them, en.see] }
+  - { id: s14, target: "My name is Kim.", native: { nl: "Mijn naam is Kim." }, items: [en.my, en.name] }
+  - { id: s15, target: "Is this your bag?", native: { nl: "Is dit jouw tas?" }, items: [en.your, en.bag] }
+  - { id: s16, target: "His hair is brown.", native: { nl: "Zijn haar is bruin." }, items: [en.his, en.hair, en.brown] }
+  - { id: s17, target: "The dog is eating its dinner.", native: { nl: "De hond eet zijn eten." }, items: [en.its, en.dog] }
+  - { id: s18, target: "Our house is small.", native: { nl: "Ons huis is klein." }, items: [en.our, en.house] }
+  - { id: s19, target: "Their cat is black.", native: { nl: "Hun kat is zwart." }, items: [en.their, en.cat] }
+  - { id: s20, target: "This book is mine.", native: { nl: "Dit boek is van mij." }, items: [en.mine, en.book] }
+  - { id: s21, target: "Is this pen yours?", native: { nl: "Is deze pen van jou?" }, items: [en.yours, en.pen] }
+  - { id: s22, target: "That bag is hers.", native: { nl: "Die tas is van haar." }, items: [en.hers, en.bag] }
+  - { id: s23, target: "The red car is ours.", native: { nl: "De rode auto is van ons." }, items: [en.ours, en.car] }
+  - { id: s24, target: "These books are theirs.", native: { nl: "Deze boeken zijn van hen." }, items: [en.theirs, en.book] }
+  - { id: s25, target: "Whose ball is this? It's mine!", native: { nl: "Van wie is deze bal? Hij is van mij!" }, items: [en.mine, en.ball], acceptAlso: ["Whose ball is this? It is mine!"] }
+lessons:
+  - { id: l01, title: { nl: "Ik, jij, hij" }, vocab: [en.i, en.you, en.he, en.she, en.it, en.we, en.they, en.me] }
+  - { id: l02, title: { nl: Mij en jou }, vocab: [en.him, en.her, en.us, en.them, en.my, en.your, en.his, en.its] }
+  - { id: l03, title: { nl: Van mij! }, vocab: [en.our, en.their, en.mine, en.yours, en.hers, en.ours, en.theirs] }

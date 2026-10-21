@@ -1,0 +1,74 @@
+id: nl-b1-u06
+title: { en: Moving house }
+icon: house
+topic: Moving, changing your address, documents and suppliers; the passive with worden
+vocabulary:
+  - { target: de verhuizing, native: { en: "move (moving house)" }, pos: noun, plural: verhuizingen }
+  - { target: de verhuiswagen, native: { en: removal van }, pos: noun, plural: verhuiswagens }
+  - { target: de verhuisdoos, native: { en: "removal box, packing box" }, pos: noun, plural: verhuisdozen }
+  - { target: de adreswijziging, native: { en: change of address }, pos: noun, plural: adreswijzigingen }
+  - { target: de wijkagent, native: { en: "local police officer (for the neighbourhood)" }, pos: noun, plural: wijkagenten }
+  - { target: bevestigen, native: { en: to confirm }, pos: verb }
+  - { target: de bevestiging, native: { en: confirmation }, pos: noun, plural: bevestigingen }
+  - { target: registreren, native: { en: to register }, pos: verb }
+  - { target: de inschrijving, native: { en: "registration, enrolment" }, pos: noun, plural: inschrijvingen }
+  - { target: het document, native: { en: document }, pos: noun, plural: documenten }
+  - { target: de aanvraag, native: { en: "application, request" }, pos: noun, plural: aanvragen }
+  - { target: de termijn, native: { en: "period, deadline" }, pos: noun, plural: termijnen }
+  - { target: de leverancier, native: { en: supplier }, pos: noun, plural: leveranciers }
+  - { target: overzetten, native: { en: "to transfer (a contract, to another address)" }, pos: verb }
+  - { target: de post, native: { en: "post (letters); the post office, the postal service" }, pos: noun, plural: "-" }
+  - { target: doorsturen, native: { en: "to forward, to send on" }, pos: verb }
+  - { target: schilderen, native: { en: to paint }, pos: verb }
+  - { target: kennismaken, native: { en: "to get to know, to meet (+ met)" }, pos: verb }
+  - { target: geldig, native: { en: valid }, pos: adjective }
+  - { target: vooraf, native: { en: "beforehand, in advance" }, pos: adverb }
+  - { target: bijvoorbeeld, native: { en: for example }, pos: adverb }
+  - { target: de pasfoto, native: { en: passport photo }, pos: noun, plural: pasfoto's }
+  - { target: ondertekenen, native: { en: to sign }, pos: verb }
+  - { target: digitaal, native: { en: digital }, pos: adjective }
+  - { target: het papier, native: { en: paper }, pos: noun, plural: papieren }
+  - { target: de kopie, native: { en: copy }, pos: noun, plural: kopieën }
+  - { target: afhalen, native: { en: "to collect, to pick up" }, pos: verb }
+  - { target: bezorgen, native: { en: "to deliver" }, pos: verb }
+  - { target: vlak, native: { en: "right, just (as in: right next to)" }, pos: adverb }
+  - { target: beide, native: { en: both }, pos: determiner }
+  - { target: recent, native: { en: recent }, pos: adjective }
+  - { target: de versie, native: { en: version }, pos: noun, plural: versies }
+  - { target: steken, native: { en: "to put (into), to stick" }, pos: verb }
+  - { target: terecht, native: { en: "rightly; (with kunnen: can go, can be helped)" }, pos: adverb }
+sentences:
+  - { id: s01, target: "De verhuizing is gepland voor zaterdag.", native: { en: "The move is planned for Saturday." }, items: [nl.verhuizing] }
+  - { id: s02, target: "We hebben een verhuiswagen gehuurd.", native: { en: "We've hired a removal van." }, items: [nl.verhuiswagen] }
+  - { id: s03, target: "Alle verhuisdozen staan al in de gang.", native: { en: "All the removal boxes are already in the hallway." }, items: [nl.verhuisdoos] }
+  - { id: s04, target: "Een adreswijziging moet binnen acht werkdagen gebeuren.", native: { en: "A change of address has to be made within eight working days." }, items: [nl.adreswijziging, nl.binnen] }
+  - { id: s05, target: "De wijkagent komt controleren of u echt op het nieuwe adres woont.", native: { en: "The local police officer comes to check whether you really live at the new address." }, items: [nl.wijkagent] }
+  - { id: s06, target: "Kunt u de afspraak per e-mail bevestigen?", native: { en: "Can you confirm the appointment by e-mail?" }, items: [nl.bevestigen], acceptAlso: ["Kunt u per e-mail de afspraak bevestigen?"] }
+  - { id: s07, target: "U krijgt een bevestiging per post.", native: { en: "You'll get a confirmation by post." }, items: [nl.bevestiging, nl.post] }
+  - { id: s08, target: "Uw nieuwe adres wordt in het systeem geregistreerd.", native: { en: "Your new address is registered in the system." }, items: [nl.registreren], acceptAlso: ["In het systeem wordt uw nieuwe adres geregistreerd."], finite: { word: wordt, hint: { en: "worden (present)" } } }
+  - { id: s09, target: "Na uw inschrijving in de gemeente krijgt u een bevestiging.", native: { en: "After your registration with the municipality you get a confirmation." }, items: [nl.inschrijving, nl.bevestiging] }
+  - { id: s10, target: "Welke documenten moet ik meebrengen?", native: { en: "Which documents do I have to bring?" }, items: [nl.document] }
+  - { id: s11, target: "Uw aanvraag werd goedgekeurd.", native: { en: "Your application was approved." }, items: [nl.aanvraag], finite: { word: werd, hint: { en: "worden (past)" } } }
+  - { id: s12, target: "U moet binnen deze termijn betalen.", native: { en: "You have to pay within this period." }, items: [nl.termijn, nl.binnen] }
+  - { id: s13, target: "Laat uw leverancier van gas en elektriciteit weten dat u verhuist.", native: { en: "Let your gas and electricity supplier know that you are moving." }, items: [nl.leverancier] }
+  - { id: s14, target: "Mijn internet werd naar het nieuwe adres overgezet.", native: { en: "My internet was transferred to the new address." }, items: [nl.overzetten], acceptAlso: ["Naar het nieuwe adres werd mijn internet overgezet."] }
+  - { id: s15, target: "Is er post voor mij?", native: { en: "Is there any post for me?" }, items: [nl.post] }
+  - { id: s16, target: "De post stuurt uw brieven drie maanden door.", native: { en: "The post office forwards your letters for three months." }, items: [nl.doorsturen, nl.post] }
+  - { id: s17, target: "Voordat we verhuizen, schilderen we de muren.", native: { en: "Before we move, we're painting the walls." }, items: [nl.schilderen], acceptAlso: ["We schilderen de muren voordat we verhuizen."] }
+  - { id: s18, target: "Ik wil graag met de buren kennismaken.", native: { en: "I'd like to get to know the neighbours." }, items: [nl.kennismaken], acceptAlso: ["Graag wil ik met de buren kennismaken.", "Ik wil graag kennismaken met de buren.", "Graag wil ik kennismaken met de buren."] }
+  - { id: s19, target: "Onze buurman heeft ons met de verhuisdozen geholpen.", native: { en: "Our neighbour helped us with the removal boxes." }, items: [nl.verhuisdoos], acceptAlso: ["Met de verhuisdozen heeft onze buurman ons geholpen."] }
+  - { id: s20, target: "De buurvrouw die vlak naast ons woont, is heel vriendelijk.", native: { en: "The neighbour who lives right next door is very friendly." }, items: [nl.vlak] }
+  - { id: s21, target: "Uw identiteitskaart is niet meer geldig.", native: { en: "Your identity card is no longer valid." }, items: [nl.geldig] }
+  - { id: s22, target: "Maak vooraf een afspraak voor het loket.", native: { en: "Make an appointment for the counter in advance." }, items: [nl.vooraf] }
+  - { id: s23, target: "Je kunt bijvoorbeeld online een afspraak maken.", native: { en: "You can make an appointment online, for example." }, items: [nl.bijvoorbeeld] }
+  - { id: s24, target: "Breng een recente pasfoto mee.", native: { en: "Bring a recent passport photo." }, items: [nl.pasfoto, nl.recent] }
+  - { id: s25, target: "Het huurcontract moet door beide partijen ondertekend worden.", native: { en: "The lease has to be signed by both parties." }, items: [nl.ondertekenen, nl.beide], acceptAlso: ["Het huurcontract moet door beide partijen worden ondertekend.", "Door beide partijen moet het huurcontract ondertekend worden.", "Door beide partijen moet het huurcontract worden ondertekend."] }
+  - { id: s26, target: "Het formulier bestaat ook in een digitale versie.", native: { en: "The form also exists in a digital version." }, items: [nl.digitaal, nl.versie] }
+  - { id: s27, target: "Hebt u het document op papier of digitaal?", native: { en: "Do you have the document on paper or digitally?" }, items: [nl.papier, nl.digitaal, nl.document], acceptAlso: ["Hebt u het document digitaal of op papier?"] }
+  - { id: s28, target: "Mag ik een kopie van het contract?", native: { en: "May I have a copy of the contract?" }, items: [nl.kopie] }
+  - { id: s29, target: "Uw nieuwe kaart kunt u na twee weken afhalen.", native: { en: "You can collect your new card after two weeks." }, items: [nl.afhalen], acceptAlso: ["U kunt uw nieuwe kaart na twee weken afhalen.", "Na twee weken kunt u uw nieuwe kaart afhalen."] }
+  - { id: s30, target: "Het pakje werd bij de buren bezorgd.", native: { en: "The parcel was delivered to the neighbours." }, items: [nl.bezorgen], finite: { word: werd, hint: { en: "worden (past)" } } }
+  - { id: s31, target: "Onze nieuwe woning ligt vlak bij het station.", native: { en: "Our new home is very close to the station." }, items: [nl.vlak] }
+  - { id: s32, target: "Aan het loket kunt u alleen op afspraak terecht.", native: { en: "You can only go to the counter by appointment." }, items: [nl.terecht], acceptAlso: ["U kunt alleen op afspraak aan het loket terecht."] }
+  - { id: s33, target: "Steek de sleutel in de brievenbus als je vertrekt.", native: { en: "Put the key in the letterbox when you leave." }, items: [nl.steken] }
+texts: [nl-b1-t07]
